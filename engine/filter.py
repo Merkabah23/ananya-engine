@@ -89,7 +89,7 @@ def _assign(ranked: list[dict], slots: list[dict]) -> list[dict]:
             return fits and terr != last and used.get(terr, 0) < quota.get(terr, 0)
         pick = next((t for t in pool if ok(t, True)), None) or next((t for t in pool if ok(t, False)), None)
         if not pick:
-            break
+            continue  # e.g. no single-format topic left for a Saturday; later carousel slots can still fill
         pool.remove(pick)
         used[pick.get("territory")] = used.get(pick.get("territory"), 0) + 1
         last = pick.get("territory")
@@ -103,6 +103,20 @@ def run(month: str, plan_month: str | None = None) -> list[dict]:
     candidates = state.read(month, "candidates.json") or []
     if not candidates:
         raise SystemExit(f"No candidates for {month}; run the scout first.")
+    existing = state.posts()
+    used = {p["topic"].get("id") for p in existing if p.get("topic")}
+    candidates = [t for t in candidates if t["id"] not in used]
+    if plan_month is None:
+        y, m = map(int, month.split("-"))
+        plan_month = f"{y + (m == 12)}-{(m % 12) + 1:02d}"
+    # Only open slots far enough ahead to write and schedule, so a month can be (re)planned mid-way.
+    cutoff = datetime.now(timezone.utc) + timedelta(hours=6)
+    occupied = {p["due"] for p in existing if p.get("due")}
+    slots = [s for s in slots_for_month(plan_month)
+             if datetime.fromisoformat(s["due"]) > cutoff and s["due"] not in occupied]
+    if not slots:
+        state.log("filter", f"no open slots left in {plan_month}")
+        return []
     scores = _score(candidates)
     kept = []
     for t in candidates:
@@ -112,16 +126,19 @@ def run(month: str, plan_month: str | None = None) -> list[dict]:
         kept.append({**t, "score": s})
     # Rank by editorial score, Reddit evidence as tie-breaker.
     kept.sort(key=lambda t: (t["score"]["total"], t["score"].get("reddit_signal", 0)), reverse=True)
-    kept = _seen_check(kept[:len(slots_for_month(plan_month or month)) * 2])
-    if plan_month is None:
-        y, m = map(int, month.split("-"))
-        plan_month = f"{y + (m == 12)}-{(m % 12) + 1:02d}"
-    plan = _assign(kept, slots_for_month(plan_month))
+    kept = _seen_check(kept[:(len(slots) + config.SPARE_TOPICS) * 2])
+    plan = _assign(kept, slots)
+    spares_held = sum(1 for p in existing if p["format"] == "spare" and p["id"].startswith(plan_month))
+    plan = [p for p in plan if p["format"] != "spare"] + \
+           [p for p in plan if p["format"] == "spare"][:max(0, config.SPARE_TOPICS - spares_held)]
     state.write(plan, plan_month, "plan.json")
-    for i, item in enumerate(plan, 1):
-        pid = f"{plan_month}-{i:02d}"
-        if state.read("posts", f"{pid}.json"):
-            continue  # idempotent: never overwrite a post already in progress
+    taken = {p["id"] for p in existing}
+    n = 0
+    for item in plan:
+        n += 1
+        while f"{plan_month}-{n:02d}" in taken:
+            n += 1  # re-planning a month adds posts after the existing ones; never overwrites one in progress
+        pid = f"{plan_month}-{n:02d}"
         state.save_post({"id": pid, "status": "planned", "due": item["due"], "format": item["format"],
                          "topic": item["topic"], "history": []})
     state.log("filter", f"{len(candidates)} candidates -> {len(kept)} passed -> {len(plan)} planned for {plan_month}")

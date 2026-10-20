@@ -75,6 +75,14 @@ def test_assign_respects_format_and_no_repeat():
             assert p["topic"]["score"]["format_fit"] in ("single", "either")
 
 
+def test_assign_skips_unfillable_single_slot():
+    ranked = [{"id": str(i), "territory": "money_status", "score": {"format_fit": "carousel"}} for i in range(30)]
+    plan = topic_filter._assign(ranked, topic_filter.slots_for_month("2026-11"))
+    dated = [p for p in plan if p["due"]]
+    assert len(dated) == 13  # every carousel slot filled; the 4 Saturdays stay empty instead of ending the month
+    assert dated[-1]["due"].startswith("2026-11-30")
+
+
 def test_buffer_input_shape():
     os.environ["BUFFER_CHANNEL_ID"] = "ch_1"  # explicit id wins over handle lookup
     post = {"due": "2026-11-02T19:30:00+05:30", "draft": draft(GOOD), "image_urls": [f"https://x/{i}.jpg" for i in range(12)]}
