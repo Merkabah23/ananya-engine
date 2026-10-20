@@ -1,0 +1,83 @@
+name: engine
+
+on:
+  schedule:
+    - cron: "37 3 19 * *"   # 09:07 IST on the 19th: fetch Reddit (slow, rate-limited) ahead of the monthly run
+    - cron: "37 3 20 * *"   # 09:07 IST on the 20th: news scan, scout, filter, plan next month
+    - cron: "7 4 * * *"     # 09:37 IST daily: write 3 posts, schedule anything due in 8 days
+  workflow_dispatch:
+    inputs:
+      command:
+        description: What to run
+        required: true
+        default: doctor
+        type: choice
+        options: [doctor, status, daily, monthly, fetch-reddit, push, produce, calibrate, buffer-channels, scout, filter]
+
+permissions:
+  contents: write   # commit state/ back to the repo
+
+concurrency:
+  group: engine     # never two runs editing state at once
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      # Claude subscription token from `claude setup-token`. Do NOT add ANTHROPIC_API_KEY:
+      # it would take precedence and bill the API instead of the subscription.
+      CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+      BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+      BUFFER_CHANNEL_ID: ${{ secrets.BUFFER_CHANNEL_ID }}
+      MEDIA_REPO: ${{ vars.MEDIA_REPO }}
+      MEDIA_REPO_TOKEN: ${{ secrets.MEDIA_REPO_TOKEN }}
+      ENGINE_PAUSED: ${{ vars.ENGINE_PAUSED || 'false' }}
+      PRODUCE_PER_RUN: ${{ vars.PRODUCE_PER_RUN || '3' }}
+      MODEL_WRITER: ${{ vars.MODEL_WRITER || 'opus' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: npm install -g @anthropic-ai/claude-code
+      - run: pip install -r requirements.txt
+      - run: python -m pytest -q
+      - name: Pick command
+        id: cmd
+        env:
+          EVENT: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+          INPUT_CMD: ${{ inputs.command }}
+        run: |
+          if [ "$EVENT" = "workflow_dispatch" ]; then
+            case "$INPUT_CMD" in doctor|status|daily|monthly|fetch-reddit|push|produce|calibrate|buffer-channels|scout|filter) ;; *) exit 1;; esac
+            echo "c=$INPUT_CMD" >> "$GITHUB_OUTPUT"
+          elif [ "$SCHEDULE" = "37 3 19 * *" ]; then
+            echo "c=fetch-reddit" >> "$GITHUB_OUTPUT"
+          elif [ "$SCHEDULE" = "37 3 20 * *" ]; then
+            echo "c=monthly" >> "$GITHUB_OUTPUT"
+          else
+            echo "c=daily" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Run engine
+        run: python -m engine ${{ steps.cmd.outputs.c }}
+      - name: Report
+        if: always()
+        run: |
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          python -m engine status >> "$GITHUB_STEP_SUMMARY" || true
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+      - name: Commit state
+        if: always()
+        run: |
+          git config user.name "ananya-engine"
+          git config user.email "engine@users.noreply.github.com"
+          git add state/
+          git diff --cached --quiet || git commit -m "state: ${{ steps.cmd.outputs.c }} $(date -u +%F)"
+          git push

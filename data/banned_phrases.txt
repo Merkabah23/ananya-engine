@@ -1,0 +1,29 @@
+# One regex per line, case-insensitive. Lines starting with # are ignored.
+# Classic AI tells
+\bdelve\b
+\btapestry\b
+\btestament to\b
+\bin today's (fast-paced|digital) world\b
+\bnavigat(e|ing) the (complexities|landscape)\b
+\bgame[- ]changer\b
+\blet that sink in\b
+\bhere's the thing\b
+\bthe truth is\b
+\bat the end of the day\b
+\bunlock(ing)? (your|the) potential\b
+\bin a world where\b
+\bmore than just\b
+\bisn't just about\b
+\bit's not (just )?about .{1,40}, it's about\b
+\bembrace\b
+\bjourney\b
+\bresonate(s)?\b
+\bfoster(ing)?\b
+\bseamless(ly)?\b
+\belevate\b
+\brealm\b
+# Worn-out hooks from the reference
+\bnobody (is )?talk(s|ing) about\b
+\bwhat nobody tells you\b
+# Typographic tells
+—
