@@ -49,7 +49,7 @@ BLIND_TEST_TRIALS = 1         # per attempt; the final attempt uses 2
 
 # Rendering
 CANVAS = (1080, 1350)
-DISPLAY_NAME = os.getenv("DISPLAY_NAME", "Ananya Mishra")
+DISPLAY_NAME = os.getenv("DISPLAY_NAME", "Ananya Krishnan")
 IG_HANDLE = os.getenv("IG_HANDLE", "ananyakrishnan47")  # used to find the Instagram channel in Buffer
 VERIFIED = False              # never draw a tick unless the account is verified
 

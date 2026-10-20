@@ -1,6 +1,6 @@
 # Ananya engine
 
-Fully automated Instagram carousels for the Ananya Mishra persona:
+Fully automated Instagram carousels for the Ananya Krishnan persona:
 Reddit → topics → filter → persona writer → carousel → Buffer → Instagram.
 
 It runs on **GitHub Actions + your Claude subscription + Buffer**. There's no API key, no server and no n8n. The Claude Code CLI runs inside each GitHub job, signed in with a subscription token. State is JSON committed back to this repo.
