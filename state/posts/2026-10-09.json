@@ -1,6 +1,6 @@
 {
  "id": "2026-10-09",
- "status": "planned",
+ "status": "scheduled",
  "due": "2026-10-24T11:00:00+05:30",
  "format": "single",
  "topic": {
@@ -45,6 +45,167 @@
    "total": 23
   }
  },
- "history": [],
- "updated_at": "2026-10-21T02:04:55.868749+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 2,
+     "specificity": 3,
+     "mechanism": 3,
+     "ending": 3,
+     "voice": 3
+    },
+    "edits": [
+     "slide 1: The hook is \"Dear HR,\", which gives a stranger no reason to stop. Open with the scene instead, for example \"The day you resign, you lose all your power. The only one left is cc.\" Keep the letter format for the later lines, not as the opener.",
+     "slide 1: Cut or soften \"you answered within minutes\". Neither the sources nor the topic say how fast HR replied during notice. Stick to what is sourced: documents came, salary came on day 9, then silence on calls and mails.",
+     "slide 1: Add the mechanism the topic gives and the draft only hints at. People stay polite in the notice period because nobody wants to burn the last bridge before the paperwork is done. After exit the company has no reason to answer and you have no formal power. This is the 'why' and it is currently thin.",
+     "slide 1: The voice reads like a LinkedIn open letter, and \"Signed, everyone who ever hit Reply All\" is a template sign-off. Add some 'I do this too' (the draft has none), use short punchy lines, and drop the dry legal sentence \"Section 17(2) ... is clear\". Keep the law, but say it plainly, e.g. \"Legally it's two working days after you quit.\"",
+     "slide 1: This is a single wall of text for a carousel-format post. Split it into 4 to 5 slides with uneven lengths: hook, the silence, the cc mail, the why, and the law. Slide 1 should end with \"Swipe to read →\". Make the last line a take someone could argue with, not a polite request to HR."
+    ]
+   },
+   "facts": []
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "slide 1: The hook is \"Dear HR,\", which gives a stranger no reason to stop. Open with the scene instead, for example \"The day you resign, you lose all your power. The only one left is cc.\" Keep the letter format for the later lines, not as the opener.",
+    "slide 1: Cut or soften \"you answered within minutes\". Neither the sources nor the topic say how fast HR replied during notice. Stick to what is sourced: documents came, salary came on day 9, then silence on calls and mails.",
+    "slide 1: Add the mechanism the topic gives and the draft only hints at. People stay polite in the notice period because nobody wants to burn the last bridge before the paperwork is done. After exit the company has no reason to answer and you have no formal power. This is the 'why' and it is currently thin.",
+    "slide 1: The voice reads like a LinkedIn open letter, and \"Signed, everyone who ever hit Reply All\" is a template sign-off. Add some 'I do this too' (the draft has none), use short punchy lines, and drop the dry legal sentence \"Section 17(2) ... is clear\". Keep the law, but say it plainly, e.g. \"Legally it's two working days after you quit.\"",
+    "slide 1: This is a single wall of text for a carousel-format post. Split it into 4 to 5 slides with uneven lengths: hook, the silence, the cc mail, the why, and the law. Slide 1 should end with \"Swipe to read →\". Make the last line a take someone could argue with, not a polite request to HR."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "specificity": 3,
+     "mechanism": 4,
+     "ending": 4,
+     "voice": 3
+    },
+    "edits": [
+     "slide 1: The post is one dense slide of 8 paragraphs, and it has no 'Swipe to read →' line. Split it into 4-5 slides with uneven rhythm: hook, the silence after day 9, the cc as the only lever, the legal two-day rule, then the closer. Put 'Swipe to read →' at the end of slide 1.",
+     "slide 1: Lines like 'We have no formal power', 'Being *seen* is all the power we have left' and 'Nobody burns the last bridge before the paperwork is done' read like a LinkedIn explainer. Rewrite them as Ananya talking: plainer, wry, and from inside the behaviour ('You know the feeling when you refresh your inbox for the third time'). Do not invent events. Remove the *asterisks*, which will show up as literal characters on Instagram.",
+     "slide 1: 'Once we leave, you have no reason to answer' is abstract. Make it concrete and physical in the reader's own experience: the unanswered calls, the mails with no reply, the relieving letter you still don't have. Use only details from the topic, such as salary on day 9 and calls and mails ignored. Do not add new specifics.",
+     "slide 1: The legal line ('Full and final is due within two working days') is dropped in flat and wasted. Use it as the twist: the law already says two days, and still the cc is what moves things. Keep the claim exactly as the source states it. Don't claim it is enforced or that people have no other route.",
+     "slide 1: The closer 'The cc is the only exit process in Indian offices that actually works' is a good screenshot line but an absolute overclaim. Soften it to Ananya's opinion ('honestly, the only exit process I've seen work') or sharpen it into an obvious take. Right now the stance feels tacked on at the end."
+    ]
+   },
+   "facts": []
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "slide 1: The post is one dense slide of 8 paragraphs, and it has no 'Swipe to read →' line. Split it into 4-5 slides with uneven rhythm: hook, the silence after day 9, the cc as the only lever, the legal two-day rule, then the closer. Put 'Swipe to read →' at the end of slide 1.",
+    "slide 1: Lines like 'We have no formal power', 'Being *seen* is all the power we have left' and 'Nobody burns the last bridge before the paperwork is done' read like a LinkedIn explainer. Rewrite them as Ananya talking: plainer, wry, and from inside the behaviour ('You know the feeling when you refresh your inbox for the third time'). Do not invent events. Remove the *asterisks*, which will show up as literal characters on Instagram.",
+    "slide 1: 'Once we leave, you have no reason to answer' is abstract. Make it concrete and physical in the reader's own experience: the unanswered calls, the mails with no reply, the relieving letter you still don't have. Use only details from the topic, such as salary on day 9 and calls and mails ignored. Do not add new specifics.",
+    "slide 1: The legal line ('Full and final is due within two working days') is dropped in flat and wasted. Use it as the twist: the law already says two days, and still the cc is what moves things. Keep the claim exactly as the source states it. Don't claim it is enforced or that people have no other route.",
+    "slide 1: The closer 'The cc is the only exit process in Indian offices that actually works' is a good screenshot line but an absolute overclaim. Soften it to Ananya's opinion ('honestly, the only exit process I've seen work') or sharpen it into an obvious take. Right now the stance feels tacked on at the end."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 3,
+     "specificity": 3,
+     "mechanism": 3,
+     "ending": 4,
+     "voice": 3
+    },
+    "edits": [
+     "slide 1, hook: 'Dear HR who went quiet after day 9,' is cryptic. A stranger doesn't know what day 9 means until the middle of the slide. Open with the stakes, e.g. 'The day you resign, you lose all your power. The only one left is cc.' Keep the letter to HR for the body.",
+     "slide 1, mechanism: the reason is only hinted at. Say it outright in one plain line: once you've left, the company has no reason to answer you and you have no formal power, so being seen by the whole team is the only pressure left. Cut 'We used the last thing we had', which is vague.",
+     "slide 1, voice: it reads like a tidy template. 'Funny part?' and 'So we used the last thing we had' sound like a LinkedIn post, and every line has the same short length. Break the rhythm with one longer, messier line about the polite-notice-period feeling, and use plain words a friend would text. Don't add any invented detail.",
+     "slide 1, structure: this is a single slide, but the topic is meant as a carousel. Split it into 4 to 5 slides: hook, notice-period politeness, day 9 then silence, the cc mail, the law line plus take. If it stays one slide, say so, because the house 'Swipe to read →' ending can't apply.",
+     "slide 1, law line: 'The law already says full and final within two working days' is accurate. Make it hit harder by following it with the take that the rule exists, yet people still need an audience to get answers. Keep the closing line about the cc, which is the best line in the post."
+    ]
+   },
+   "facts": []
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "slide 1, hook: 'Dear HR who went quiet after day 9,' is cryptic. A stranger doesn't know what day 9 means until the middle of the slide. Open with the stakes, e.g. 'The day you resign, you lose all your power. The only one left is cc.' Keep the letter to HR for the body.",
+    "slide 1, mechanism: the reason is only hinted at. Say it outright in one plain line: once you've left, the company has no reason to answer you and you have no formal power, so being seen by the whole team is the only pressure left. Cut 'We used the last thing we had', which is vague.",
+    "slide 1, voice: it reads like a tidy template. 'Funny part?' and 'So we used the last thing we had' sound like a LinkedIn post, and every line has the same short length. Break the rhythm with one longer, messier line about the polite-notice-period feeling, and use plain words a friend would text. Don't add any invented detail.",
+    "slide 1, structure: this is a single slide, but the topic is meant as a carousel. Split it into 4 to 5 slides: hook, notice-period politeness, day 9 then silence, the cc mail, the law line plus take. If it stays one slide, say so, because the house 'Swipe to read →' ending can't apply.",
+    "slide 1, law line: 'The law already says full and final within two working days' is accurate. Make it hit harder by following it with the take that the rule exists, yet people still need an audience to get answers. Keep the closing line about the cc, which is the best line in the post."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "specificity": 3,
+     "mechanism": 4,
+     "ending": 4,
+     "voice": 4
+    },
+    "edits": [
+     "slide 1: \"we have no formal power. Being seen is all that's left.\" sounds like a poster line. Make it plainer and more spoken, e.g. \"You can't make them reply. You can only make people watch.\"",
+     "slide 1: \"The law says full and final within two working days of exit. Still, we needed an audience.\" is the best beat in the post but is rushed. Give it its own short line and a wry reaction, like \"Two working days. Literally.\" Keep the claim exactly as sourced.",
+     "slide 1: The hook \"you lose your power\" is slightly abstract. Open with the concrete picture, e.g. \"Check who's in cc on any exit email that finally got a reply.\" Keep the power line as the second beat.",
+     "slide 1: \"Dear HR,\" turns the post into a letter, but the middle lines drift back to \"we\" and \"you\" with no clear addressee. Either stay in the letter all the way through or drop it. The switch to \"the mail goes to the founder. You in cc.\" is the only place the letter form pays off.",
+     "slide 1: Add one line that puts the reader inside the behaviour, e.g. \"You've drafted that mail in your head already.\" The post currently explains the behaviour more than it admits to it."
+    ]
+   },
+   "facts": []
+  }
+ ],
+ "updated_at": "2026-10-21T02:14:49.650296+00:00",
+ "sources": [
+  {
+   "url": "https://www.nexdigm.com/inthenews/2-day-full-and-final-settlement-post-employees-resignation-now-mandatory-under-labour-codes-what-it-means-for-employers/",
+   "fact": "Under Section 17(2) of the Code on Wages, 2019, employers must complete full and final settlement within two working days of an employee's exit, including resignation.",
+   "excerpt": "employers \"must complete full and final settlement within two working days of an employee's exit.\" ... \"introduced under Section 17(2) of the Code on Wages, 2019, seeks to end this practice.\" ... all dues must be cleared \"within two working days of resignation, termination, retrenchment, or closure.\" ... the Labour Codes are \"formally notified and now in the implementation phase.\""
+  },
+  {
+   "url": "https://www.legalkart.com/en/legal-blog/what-to-do-if-your-employer-delays-f&f-settlement-legal-remedies-explained-(2025)",
+   "fact": "When an employer goes silent on F&F, the formal routes are a legal notice or a Labour Commissioner complaint, and withholding a relieving letter to deny F&F is called unethical and challengeable.",
+   "excerpt": "a delay becomes legally unreasonable when it \"crosses 45 days without valid justification.\" ... \"Demand payment within 7–15 days.\" ... \"Legal notices often prompt employers to comply.\" ... Labour Commissioner complaint is \"cost-effective and fast.\" ... Relieving letters are not mandatory under law, but holding one back to deny F&F payment \"is unethical and may be challenged.\" ... \"F&F cannot be withheld entirely because of asset disputes.\""
+  }
+ ],
+ "draft": {
+  "slides": [
+   {
+    "paragraphs": [
+     "The day you resign, you lose your power. The only thing left is cc.",
+     "Dear HR,",
+     "We stayed so polite through notice. Every reply soft and quick, because nobody wants to annoy you before the papers come.",
+     "A few documents came. Salary on day 9. Then silence.",
+     "Once we leave, you have no reason to answer, and we have no formal power. Being seen is all that's left.",
+     "So the mail goes to the founder. You in cc. The whole team in cc.",
+     "The law says full and final within two working days of exit. Still, we needed an audience.",
+     "Honestly, the cc is the only exit process I trust."
+    ]
+   }
+  ],
+  "caption": "What did it finally take for your old company to reply about your exit documents?",
+  "alt_text": "A single text slide. It opens by saying that the day you resign, you lose your power, and the only thing left is cc. Then it becomes an open letter to HR. It says employees stay polite through the notice period so they don't annoy HR before the papers come. A few documents arrive, salary comes on day 9, and then there is silence. It explains that once someone leaves, the company has no reason to answer and the employee has no formal power, so being seen is all that's left. That is why the mail goes to the founder with HR and the whole team in cc. It notes that the law requires full and final settlement within two working days of exit, yet people still need an audience. It ends with the writer saying the cc is the only exit process she trusts.",
+  "claims": [
+   {
+    "text": "Full and final settlement must be completed within two working days of an employee's exit, including resignation.",
+    "source_url": "https://www.nexdigm.com/inthenews/2-day-full-and-final-settlement-post-employees-resignation-now-mandatory-under-labour-codes-what-it-means-for-employers/"
+   }
+  ]
+ },
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-09/slide_01.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-09/slide_02.jpg"
+ ],
+ "buffer_attempted_at": "2026-10-21T02:14:48.272651+00:00",
+ "buffer_post_id": "6ad8201950009d9e9503e5a3"
 }

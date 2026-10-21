@@ -1,6 +1,6 @@
 {
  "id": "2026-10-07",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-10-21T19:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -45,6 +45,152 @@
    "total": 24
   }
  },
- "history": [],
- "updated_at": "2026-10-21T02:04:55.863489+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 1: \"Parents cheered, mostly on Instagram.\" Neither the sources nor the topic say parents cheered, or where. It is presented as a real event and repeated in the alt text (\"parents cheered online\"). The 73% consent figure is from 2023 and does not show a reaction to this hearing."
+    ],
+    "scores": {
+     "hook": 3,
+     "specificity": 3,
+     "mechanism": 4,
+     "ending": 3,
+     "voice": 4
+    },
+    "edits": [
+     "slide 1: Replace the dated news line with the mirror. For example: \"Parents want Instagram gone for 16-year-olds. Open your family group and look at who is still typing at 11pm.\" Drop \"parents cheered\" here and in the alt text. Keep the Centre/28 September fact as a short second line, worded as 'agreed to look at safeguards', not a ban.",
+     "slide 3: The survey asked about parental consent, not a ban, and nothing in the sources says parents 'handed the worry to the Supreme Court'. Say \"Wanting rules is easy. It asks nothing of you.\" Cut the Supreme Court clause. Keep \"Rules for them. Reels for us.\"",
+     "slide 4: This repeats slide 3's point. Merge them or give slide 4 a new angle: the second-account line ('they learned hiding from us too') is the sharpest thing in the post, so build on it. Frame \"Papa on Shorts till midnight\" as the reader's own house, e.g. \"Look at your own house tonight\", so it doesn't read as a claim about a real family.",
+     "slide 5: The last line is a double-negative puzzle. A 16-year-old would read it twice. Replace with one plain, screenshot-able line, e.g. \"Ask for the ban if you want. Then put your phone in the drawer at dinner and see how long you last.\" This also removes the closing moral.",
+     "slide 2: Say the survey was about parental consent for under-18s, since the post later leans on 'ban'. Keep \"Only the kids'.\" as the punchline, but trim the survey explanation so the slide isn't a stats block."
+    ]
+   },
+   "facts": [
+    "Unsupported fact: 'Parents cheered, mostly on Instagram.' (The sources report a survey of urban parents, with 73% wanting mandatory parental consent for under-18 users. Neither says parents cheered the Centre's safeguards, and neither says where they did so, on Instagram or anywhere else.). Fix it to match the source or cut it."
+   ]
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Unsupported fact: 'Parents cheered, mostly on Instagram.' (The sources report a survey of urban parents, with 73% wanting mandatory parental consent for under-18 users. Neither says parents cheered the Centre's safeguards, and neither says where they did so, on Instagram or anywhere else.). Fix it to match the source or cut it.",
+    "Slide 1: \"Parents cheered, mostly on Instagram.\" Neither the sources nor the topic say parents cheered, or where. It is presented as a real event and repeated in the alt text (\"parents cheered online\"). The 73% consent figure is from 2023 and does not show a reaction to this hearing.",
+    "slide 1: Replace the dated news line with the mirror. For example: \"Parents want Instagram gone for 16-year-olds. Open your family group and look at who is still typing at 11pm.\" Drop \"parents cheered\" here and in the alt text. Keep the Centre/28 September fact as a short second line, worded as 'agreed to look at safeguards', not a ban.",
+    "slide 3: The survey asked about parental consent, not a ban, and nothing in the sources says parents 'handed the worry to the Supreme Court'. Say \"Wanting rules is easy. It asks nothing of you.\" Cut the Supreme Court clause. Keep \"Rules for them. Reels for us.\"",
+    "slide 4: This repeats slide 3's point. Merge them or give slide 4 a new angle: the second-account line ('they learned hiding from us too') is the sharpest thing in the post, so build on it. Frame \"Papa on Shorts till midnight\" as the reader's own house, e.g. \"Look at your own house tonight\", so it doesn't read as a claim about a real family.",
+    "slide 5: The last line is a double-negative puzzle. A 16-year-old would read it twice. Replace with one plain, screenshot-able line, e.g. \"Ask for the ban if you want. Then put your phone in the drawer at dinner and see how long you last.\" This also removes the closing moral.",
+    "slide 2: Say the survey was about parental consent for under-18s, since the post later leans on 'ban'. Keep \"Only the kids'.\" as the punchline, but trim the survey explanation so the slide isn't a stats block."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "specificity": 4,
+     "mechanism": 4,
+     "ending": 3,
+     "voice": 4
+    },
+    "edits": [
+     "slide 2: Change \"games\" to \"online games\" to match the source exactly. Add a short plain line saying this survey was about consent in the data law, not the ban, so the 73% isn't read as support for a ban.",
+     "slide 3: This slide and slide 4 make the same point (rules for them, phones for us). Cut \"Nobody's asking for consent on that one.\" It is a limp joke. Keep \"Rules for them. Reels for us.\" as the slide's only closer.",
+     "slide 4: Drop the asterisks around *hiding* and let the sentence land on its own. \"Papa on Shorts till midnight, Amma on five groups between rotis\" is good because it's concrete. Add one more small, real detail (the second account is already there) rather than stating the lesson outright, since \"They learned the scrolling from us. They learned the hiding too.\" is a tidy moral.",
+     "slide 5: The ending is a dare, and it only partly works. Make it sharper and less like a challenge post, e.g. end on the drawer image alone: \"Ask for the ban. Then try keeping your own phone in a drawer through one dinner.\" Cut \"see how long you last.\"",
+     "slide 1: Keep the hook. Consider making the second line more specific, e.g. \"Who's still typing in the family group at 11pm?\", so it reads as a text from a cousin and not a rhetorical question."
+    ]
+   },
+   "facts": []
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "An editor could tell this was AI-written: It is the only post with clean, unwrapped text. The other three have the line breaks of text pulled from images, and they also contain human slips like 'your learn', 'SKUS' and 'years of mistakes' run together.",
+    "An editor could tell this was AI-written: The rhythm is tidy and aphoristic, with a series of short punchy lines: 'Rules for them. Reels for us.', 'They learned the scrolling from us. They learned the hiding too.'",
+    "An editor could tell this was AI-written: It leans on the common model construction of naming the hidden insight: 'Notice whose hours got counted.' and 'Wanting rules is easy. It asks nothing of you.'",
+    "An editor could tell this was AI-written: The domestic details feel generic and curated: 'Papa on Shorts till midnight, Amma on five groups between rotis', and a neat survey stat followed by a tidy moral reversal."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "specificity": 4,
+     "mechanism": 4,
+     "ending": 4,
+     "voice": 4
+    },
+    "edits": [
+     "slide 3: \"A rule for the kids moves that guilt onto someone else's phone\" makes a 16-year-old read it twice. Say it plainly, e.g. \"A ban for the kids means I don't have to look at my own phone.\" Keep \"face-up next to the dal, buzzing\".",
+     "slide 1: Open with the contrast before the court date. Put \"Family groups cheered. On their phones.\" first, or lead with the dinner-table image, then give the 28 September fact. As written, the first line is a news wire, and only the second line is the hook.",
+     "slide 2: \"a LocalCircles survey asked urban parents about their kids aged 9 to 17\" is clunky. Cut it to \"In 2023, LocalCircles asked urban parents about kids aged 9 to 17.\" Keep both numbers.",
+     "slide 5: The last line repeats slide 3's face-up phone and slide 1's phones. Make it a sharper close that takes a side, e.g. put the first-phone line on its own after \"Nothing is final yet.\" Drop \"usually\" only if you can still defend it as opinion.",
+     "slide 4: \"Nobody taught them to hide a phone. They just watched dinner.\" is the strongest line in the post. Trim the cousin line to \"Two accounts, one with a fake birth year.\" so it lands faster."
+    ]
+   },
+   "facts": [
+    "Unsupported fact: 'At the Supreme Court hearing on 28 September 2026, the Centre agreed to examine safeguards for minors.' (The excerpt gives no hearing date. Only the article URL carries 2026-09-29. It also doesn't say the Centre 'agreed to examine' safeguards. It has only Mehta's quote ('Something can be done... We have to come back') and the headline's 'mulls'.). Fix it to match the source or cut it.",
+    "Unsupported fact: 'In September 2023, a LocalCircles survey asked urban parents about their kids aged 9 to 17.' (The Tribune excerpt covers the survey of urban parents of children aged 9-17. It does not name LocalCircles or say the survey was in September 2023.). Fix it to match the source or cut it."
+   ]
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Unsupported fact: 'At the Supreme Court hearing on 28 September 2026, the Centre agreed to examine safeguards for minors.' (The excerpt gives no hearing date. Only the article URL carries 2026-09-29. It also doesn't say the Centre 'agreed to examine' safeguards. It has only Mehta's quote ('Something can be done... We have to come back') and the headline's 'mulls'.). Fix it to match the source or cut it.",
+    "Unsupported fact: 'In September 2023, a LocalCircles survey asked urban parents about their kids aged 9 to 17.' (The Tribune excerpt covers the survey of urban parents of children aged 9-17. It does not name LocalCircles or say the survey was in September 2023.). Fix it to match the source or cut it."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "specificity": 3,
+     "mechanism": 4,
+     "ending": 3,
+     "voice": 4
+    },
+    "edits": [
+     "slide 2: Date the survey. The source is a LocalCircles survey reported by PTI in September 2023, and the slide sits under a 2026 news peg, so it reads as current. Write 'A 2023 LocalCircles survey of urban parents of kids aged 9 to 17.' Then rewrite 'Honestly? Fair.' so it says what is fair. The parents want consent rules for kids while reporting three hours a day, and that is the tension to point at.",
+     "slide 5: Fix the ending. 'Still just talk' undersells the quoted line, 'Something can be done, something should be done and will be done. We have to come back…', and it clashes with the quote. Say plainly that nothing is published yet, which the topic details support, then take a side. Also cut 'Till then, the first phone face-up at the table is usually not the kid's.' It repeats slide 3 and the caption, and it is not screenshot-worthy. Land on something sharper and more concrete about who has to change first.",
+     "slide 3: 'moves that guilt onto someone else's phone' is abstract and a 16-year-old would read it twice. Say it in plain words: a ban for the kids means we don't have to look at our own screen time. Keep the 'face-up next to the dal, buzzing' image, which is the best line in the post.",
+     "slide 4: 'Nobody taught them to hide a phone. They just watched dinner.' is vague and the last clause reads as a template line. Make it concrete. For example, they learned phone habits from watching the adults at dinner. Also give the cousin one real texture (for example, the second account) rather than the generic 'fake birth year' beat, without inventing any numbers.",
+     "slide 1: 'Family groups cheered. On their phones.' is a good hook, but the headline fact is soft. Add the clear stake from the topic: nothing is banned yet, the Centre is only considering safeguards. That sets up the 'adults haven't changed their own habit' argument sooner."
+    ]
+   },
+   "facts": []
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "slide 2: Date the survey. The source is a LocalCircles survey reported by PTI in September 2023, and the slide sits under a 2026 news peg, so it reads as current. Write 'A 2023 LocalCircles survey of urban parents of kids aged 9 to 17.' Then rewrite 'Honestly? Fair.' so it says what is fair. The parents want consent rules for kids while reporting three hours a day, and that is the tension to point at.",
+    "slide 5: Fix the ending. 'Still just talk' undersells the quoted line, 'Something can be done, something should be done and will be done. We have to come back…', and it clashes with the quote. Say plainly that nothing is published yet, which the topic details support, then take a side. Also cut 'Till then, the first phone face-up at the table is usually not the kid's.' It repeats slide 3 and the caption, and it is not screenshot-worthy. Land on something sharper and more concrete about who has to change first.",
+    "slide 3: 'moves that guilt onto someone else's phone' is abstract and a 16-year-old would read it twice. Say it in plain words: a ban for the kids means we don't have to look at our own screen time. Keep the 'face-up next to the dal, buzzing' image, which is the best line in the post.",
+    "slide 4: 'Nobody taught them to hide a phone. They just watched dinner.' is vague and the last clause reads as a template line. Make it concrete. For example, they learned phone habits from watching the adults at dinner. Also give the cousin one real texture (for example, the second account) rather than the generic 'fake birth year' beat, without inventing any numbers.",
+    "slide 1: 'Family groups cheered. On their phones.' is a good hook, but the headline fact is soft. Add the clear stake from the topic: nothing is banned yet, the Centre is only considering safeguards. That sets up the 'adults haven't changed their own habit' argument sooner."
+   ]
+  }
+ ],
+ "updated_at": "2026-10-21T02:14:35.334592+00:00",
+ "sources": [
+  {
+   "url": "https://www.businesstoday.in/india/story/no-social-media-for-under-18s-centre-mulls-new-safeguards-after-sc-raises-concern-558513-2026-09-29",
+   "fact": "Reporting on the Supreme Court hearing of 28 September 2026 says the Centre, through Solicitor General Tushar Mehta, agreed to examine safeguards for minors. The bench asked it to consider putting the requirement into the statutory intermediary rules, and no firm commitment to amend them is quoted.",
+   "excerpt": "\"Something can be done, something should be done and will be done. We have to come back…\" \"Not a request, a direction,\" Mehta said."
+  },
+  {
+   "url": "https://www.tribuneindia.com/news/india/majority-of-indian-parents-say-their-kids-addicted-to-social-media-ott-survey-546528",
+   "fact": "A LocalCircles survey reported by PTI in September 2023 found 61% of urban Indian parents said their children aged 9-17 spend about three or more hours a day on social media, videos/OTT and online games. 73% wanted mandatory parental consent for under-18 users.",
+   "excerpt": "\"61 per cent of urban Indian parents of children between ages 9-17 conceded\" that their children spend roughly three or more hours a day on these platforms, with \"spend an average of three hours or more each day on social media, videos/OTT and online games.\" \"73 per cent of urban Indian parents surveyed want the data protection law to ensure mandatory parental consent\" for users under 18. \"35 per cent indicated that their children spent the most time on social media,\" \"The survey received over 46,000 responses from urban Indian parents located in 296 districts.\""
+  }
+ ]
 }

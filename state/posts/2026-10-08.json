@@ -1,6 +1,6 @@
 {
  "id": "2026-10-08",
- "status": "planned",
+ "status": "scheduled",
  "due": "2026-10-23T19:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -49,6 +49,80 @@
    "total": 23
   }
  },
- "history": [],
- "updated_at": "2026-10-21T02:04:55.866080+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "specificity": 3,
+     "mechanism": 4,
+     "ending": 4,
+     "voice": 4
+    },
+    "edits": [
+     "slide 2: Cut 'Everyone saw themselves in it.' The sources only say the post ranked among the month's top posts, not how people reacted to it. Replace with a plain line like 'It sat among the top posts of the month.' Better still, add your own take on why it landed. The slide is mostly a recap and is the weakest in the deck.",
+     "slide 2: 'months of SIPs and savings' is safe. If you want it sharper, use the sourced '3 months of SIPs and savings' instead of the vaguer wording.",
+     "slide 3: 'Money is how we check if we're doing this properly' sounds like a poster line. Make it more spoken, for example: 'Somewhere along the way, money became how we check if we're doing adulthood right.' Also name the relatives' side of it in one concrete image, with no invented events.",
+     "slide 3: 'The rolling pin was about one bad report card' presents a specific cause as fact. Make it clearly a shared reader memory: 'You know the rolling pin was usually about one bad report card.'",
+     "slide 4: The three beats (joke, easier than saying, app never yells) are a little tidy. Make 'The joke is easier than saying we feel like we're failing.' a one-line slide of its own, or roughen the rhythm, so the slides don't all run at the same length."
+    ]
+   },
+   "facts": []
+  }
+ ],
+ "updated_at": "2026-10-21T02:14:49.210552+00:00",
+ "sources": [],
+ "draft": {
+  "slides": [
+   {
+    "paragraphs": [
+     "Childhood fear was a rolling pin. Adult fear is one red candle on a trading app.",
+     "The candle is worse.",
+     "Swipe to read →"
+    ]
+   },
+   {
+    "paragraphs": [
+     "A post this month put the two side by side. Rolling pin on one side.",
+     "On the other, one red candle wiping out months of SIPs and savings.",
+     "It was one of the top posts of the month. Everyone saw themselves in it."
+    ]
+   },
+   {
+    "paragraphs": [
+     "The rolling pin was about one bad report card. Loud, quick, then over.",
+     "The red candle feels like a report card on your whole adulthood. Did you save right, pick right, or fall behind?",
+     "Money is how we check if we're doing this properly."
+    ]
+   },
+   {
+    "paragraphs": [
+     "So we joke: screenshot the red, add a crying emoji, drop it in the group. I do it too.",
+     "The joke is easier than saying we feel like we're failing.",
+     "And the app never yells. It just sits there, quietly red, every time you unlock your phone."
+    ]
+   },
+   {
+    "paragraphs": [
+     "The rolling pin came down, and ten minutes later she asked if you'd eaten.",
+     "The red candle never asks. It just waits for you to check *again*."
+    ]
+   }
+  ],
+  "caption": "What's the one thing on your phone that scares you more than your mom ever did?",
+  "alt_text": "A five-slide text carousel comparing the childhood fear of a parent's rolling pin with the adult fear of a red candle on a trading app. It references a popular post this month showing one red day wiping out months of SIPs and savings, and argues that young investors joke about market drops because a loss feels like a judgement on how well they're doing at adulthood. It ends by noting the rolling pin's anger passed quickly, while the red candle just waits for you to check again.",
+  "claims": []
+ },
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-08/slide_01.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-08/slide_02.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-08/slide_03.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-08/slide_04.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-08/slide_05.jpg"
+ ],
+ "buffer_attempted_at": "2026-10-21T02:14:48.272651+00:00",
+ "buffer_post_id": "6ad82019d894396f66bf8de1"
 }
