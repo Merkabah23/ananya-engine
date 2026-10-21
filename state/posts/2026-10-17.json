@@ -1,6 +1,6 @@
 {
  "id": "2026-10-17",
- "status": "planned",
+ "status": "scheduled",
  "due": "2026-10-26T19:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -36,6 +36,165 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-10-21T08:23:26.030297+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "specificity": 4,
+     "mechanism": 4,
+     "ending": 3,
+     "voice": 4
+    },
+    "edits": [
+     "slide 6: cut 'The test just moves the furniture to where everyone was already sitting.' It repeats the slide's first line, and the last line of slide 9 makes the same point.",
+     "slide 7: cut 'The cousin is losing.' The line before already makes the point, and too many slides close on a punchline.",
+     "slide 9: cut 'Instagram knew where your eyes went. It just redrew the app around them.' The brand advice is a stronger ending without the tidy wrap-up."
+    ]
+   },
+   "facts": []
+  }
+ ],
+ "updated_at": "2026-10-21T14:17:53.702905+00:00",
+ "sources": [
+  {
+   "url": "https://techcrunch.com/2025/09/29/instagram-is-testing-a-reels-first-ui-in-india-and-south-korea",
+   "fact": "TechCrunch reported on September 29, 2025 that Instagram was testing a Reels-first interface in India and South Korea. The report does not match the October 6, 2026 date given in the news peg. The article describes DMs in the center of the bottom bar and three feed tabs: All, Friends and Latest.",
+   "excerpt": "Instagram has chosen India and South Korea to test a new interface that displays the app’s Reels page first. | the DM button now lives on the navigation bar in the center, and the Reels tab will move to the second spot. | “All” for recommended posts and reels from accounts you follow | “Friends” for posts and reels from mutuals | “Latest” for the newest posts and reels"
+  },
+  {
+   "url": "https://about.fb.com/news/2025/09/in-india-instagram-debuts-a-reels-first-experience-for-its-mobile-app/",
+   "fact": "Meta's own announcement, dated September 28, 2025, says it is testing a Reels-first Instagram experience for a limited group of users in India, where the app opens directly on Reels.",
+   "excerpt": "testing a new Reels-first experience for a limited group of users | When you open Instagram, you'll land directly in Reels. | DMs will move to the center of the navigation bar for easier access, and Reels will be moved up to the second tab. | You'll be able to swipe between all tabs"
+  }
+ ],
+ "draft": {
+  "slides": [
+   {
+    "paragraphs": [
+     "We all say we open Instagram to see our friends. Then we spend forty minutes watching a stranger redo a kitchen. Meta noticed.",
+     "Swipe to read →"
+    ]
+   },
+   {
+    "paragraphs": [
+     "Meta announced the test for a limited group of users in India. South Korea got it too.",
+     "You open the app and you land in Reels. Your friends' photos come later.",
+     "The swipe is the front door now."
+    ]
+   },
+   {
+    "paragraphs": [
+     "The rest of the layout says the same thing.",
+     "Reels moves up to the second tab. DMs move to the centre of the bar, right where your thumb rests.",
+     "Everything else shuffles around those two."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Even the feed got split three ways:\n– All, for recommended posts and reels\n– Friends, for mutuals\n– Latest, for the newest",
+     "Friends is now a tab you tap into. The people you followed for years are a filter now."
+    ]
+   },
+   {
+    "paragraphs": [
+     "And honestly, Meta isn't guessing.",
+     "I open Instagram to reply to one message. Forty minutes later I'm watching a stranger renovate a kitchen in Pune.",
+     "I never scrolled back to see a single friend's photo."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Apps don't decide where your attention goes. They follow it.",
+     "India has over 300 million Instagram users. A lot of them are already swiping."
+    ]
+   },
+   {
+    "paragraphs": [
+     "The old feed was people you chose. This one is whoever keeps you there longest.",
+     "Your cousin's wedding photos now compete with a stranger doing a trend in Goa."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Which brings me to this post. A carousel. Slow, made of words, asking you to stop.",
+     "On an app testing a front door built for the opposite.",
+     "Every carousel creator is checking their reach nervously, and so am I."
+    ]
+   },
+   {
+    "paragraphs": [
+     "For brands, the hint is plain.",
+     "If your plan still starts with a pretty grid, you're building for a tab people have to go looking for."
+    ]
+   }
+  ],
+  "caption": "Be honest: when did you last open Instagram to look at a friend's photo and not a reel?",
+  "alt_text": "A 9-slide text carousel about Meta testing a Reels-first Instagram in India and South Korea. It covers how the app opens directly on Reels, Reels moving to the second tab, DMs moving to the centre of the bar, and the feed splitting into All, Friends and Latest tabs. The writer argues the design follows where attention already is, notes the irony of making a carousel about it, and ends with what it means for brands.",
+  "claims": [
+   {
+    "text": "Meta tested a Reels-first Instagram experience for a limited group of users in India",
+    "source_url": "https://about.fb.com/news/2025/09/in-india-instagram-debuts-a-reels-first-experience-for-its-mobile-app/"
+   },
+   {
+    "text": "The test markets are India and South Korea",
+    "source_url": "https://techcrunch.com/2025/09/29/instagram-is-testing-a-reels-first-ui-in-india-and-south-korea"
+   },
+   {
+    "text": "When you open the app in the test, you land directly in Reels",
+    "source_url": "https://about.fb.com/news/2025/09/in-india-instagram-debuts-a-reels-first-experience-for-its-mobile-app/"
+   },
+   {
+    "text": "Reels moves up to the second tab and DMs move to the centre of the navigation bar",
+    "source_url": "https://about.fb.com/news/2025/09/in-india-instagram-debuts-a-reels-first-experience-for-its-mobile-app/"
+   },
+   {
+    "text": "Three feed tabs: All for recommended posts and reels, Friends for mutuals, Latest for the newest",
+    "source_url": "https://techcrunch.com/2025/09/29/instagram-is-testing-a-reels-first-ui-in-india-and-south-korea"
+   },
+   {
+    "text": "India has over 300 million Instagram users",
+    "source_url": "topic"
+   }
+  ],
+  "hook_type": "weird_behaviour",
+  "hook_candidates": [
+   {
+    "type": "weird_behaviour",
+    "hook": "We all say we open Instagram to see our friends. Then we spend forty minutes watching a stranger redo a kitchen. Meta noticed."
+   },
+   {
+    "type": "vivid_reframe",
+    "hook": "Instagram is testing an app in India that opens straight into Reels. Your friends' photos now come after strangers. Here's what Meta knows."
+   },
+   {
+    "type": "bold_reframe",
+    "hook": "Instagram's front door in India is now a stranger's Reel. Your friends got moved to a tab you have to tap into."
+   },
+   {
+    "type": "prediction",
+    "hook": "I have a prediction. Soon you'll open Instagram and won't see one friend's photo unless you go looking for it."
+   },
+   {
+    "type": "motive_bust",
+    "hook": "Meta calls opening Instagram into Reels a small test in India. It's really built on what your thumb already does every night."
+   }
+  ]
+ },
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-17/slide_01.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-17/slide_02.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-17/slide_03.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-17/slide_04.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-17/slide_05.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-17/slide_06.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-17/slide_07.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-17/slide_08.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-17/slide_09.jpg"
+ ],
+ "buffer_attempted_at": "2026-10-21T14:17:50.036335+00:00",
+ "buffer_post_id": "6ad8c991df27e4a2784db120"
 }

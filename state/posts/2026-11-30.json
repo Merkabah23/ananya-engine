@@ -1,6 +1,6 @@
 {
  "id": "2026-11-30",
- "status": "planned",
+ "status": "uploaded",
  "due": "2026-11-07T11:00:00+05:30",
  "format": "single",
  "topic": {
@@ -37,6 +37,65 @@
    "format_fit": "either"
   }
  },
- "history": [],
- "updated_at": "2026-10-21T08:21:22.003022+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 3,
+     "specificity": 3,
+     "mechanism": 4,
+     "ending": 3,
+     "voice": 3
+    },
+    "edits": [
+     "slide 1: Shorten the opener to 'Skipping the branded bag for a wellness retreat isn't giving up status. You just moved it.' It's easier to read in one go.",
+     "slide 1: Cut 'The flex just stopped needing a logo.' It repeats the opener and reads as a tidy punchline. End on 'The spend didn't drop.'",
+     "slide 1: Change 'premium stuff' to 'premium products', which is the wording in the source figure. Optionally add one short reaction from her, such as 'Honestly, the retreat reel is the louder flex.'"
+    ]
+   },
+   "facts": []
+  }
+ ],
+ "updated_at": "2026-10-21T14:17:50.035275+00:00",
+ "sources": [
+  {
+   "url": "https://www.ibef.org/news/india-s-luxury-market-set-for-10-growth-in-2025-euromonitor-international",
+   "fact": "Euromonitor says younger, affluent Indian consumers are prioritising experiences over product ownership, and wellness and lifestyle are becoming new status markers.",
+   "excerpt": "Younger, affluent consumers are prioritising experiences and emotional engagement over product ownership,\" ... \"fuelling the rise of wellness and lifestyle as new status markers."
+  },
+  {
+   "url": "https://www.businesstoday.in/amp/latest/economy/story/driven-by-young-and-affluent-buyers-indias-luxury-market-is-expected-to-reach-121-billion-by-2025-499278-2025-10-23",
+   "fact": "Business Today, reporting Euromonitor, says younger affluent buyers are moving luxury spending from goods to experiences, with wellness and lifestyle now marking status.",
+   "excerpt": "Younger, affluent buyers are driving this change by favouring unique experiences over traditional luxury products\" ... \"Luxury spending has shifted from personal goods towards experience-led categories\" ... \"Wellness, lifestyle, and emotional resonance are now prominent markers of status"
+  }
+ ],
+ "draft": {
+  "slides": [
+   {
+    "paragraphs": [
+     "Skipping the branded bag for a wellness retreat isn't giving up status. You just moved it.",
+     "A logo used to do the showing off. Now a reel from a retreat in the hills does it. So does a boarding pass on your story.",
+     "Professionals still put 15-20% of income into premium products. The spend didn't drop."
+    ]
+   }
+  ],
+  "caption": "What's the thing you spend on that's secretly a flex, even if it has no logo?",
+  "alt_text": "A single text slide arguing that young Indians choosing wellness retreats over branded bags are still spending on status. The showing off has moved from logos to reels and boarding passes, and professionals still put 15-20% of their income into premium products.",
+  "claims": [
+   {
+    "text": "Professionals still allocate 15-20% of income to premium products",
+    "source_url": "topic"
+   },
+   {
+    "text": "Younger affluent Indian consumers are prioritising experiences over product ownership, with wellness becoming a status marker",
+    "source_url": "https://www.ibef.org/news/india-s-luxury-market-set-for-10-growth-in-2025-euromonitor-international"
+   }
+  ]
+ },
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-30/slide_01.jpg"
+ ]
 }

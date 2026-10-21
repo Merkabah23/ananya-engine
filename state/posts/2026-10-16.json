@@ -1,6 +1,6 @@
 {
  "id": "2026-10-16",
- "status": "planned",
+ "status": "uploaded",
  "due": "2026-10-31T11:00:00+05:30",
  "format": "single",
  "topic": {
@@ -25,6 +25,45 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-10-21T08:16:28.885716+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 3,
+     "specificity": 3,
+     "mechanism": 3,
+     "ending": 3,
+     "voice": 4
+    },
+    "edits": [
+     "slide 1: cut 'Technically disclosed. Practically invisible.' It's a mirrored-pair punchline. Keep 'It shows up once you're already hooked.' as the ending.",
+     "slide 1: the opener 'Every GRWM reel follows the same script now:' is flat. Try a plainer opinion first, like 'The paid partnership tag in GRWM reels is timed, not hidden.' Keep the list after it.",
+     "caption: 'latest point you've ever spotted' reads awkwardly. Use 'What's the latest second you've ever spotted the ad tag in a reel?'"
+    ]
+   },
+   "facts": []
+  }
+ ],
+ "updated_at": "2026-10-21T14:17:47.626688+00:00",
+ "sources": [],
+ "draft": {
+  "slides": [
+   {
+    "paragraphs": [
+     "The paid partnership tag in GRWM reels is timed, not hidden:\n- Hook\n- Messy bun, bad lighting, \"guys I'm so late\"\n- Outfit reveal\n- \"Okay so this serum...\"\n- A tiny \"Paid partnership\" tag, gone in a blink\n- Link in bio",
+     "I've started watching them just to spot the tag. It's my only cardio.",
+     "It shows up once you're already hooked."
+    ]
+   }
+  ],
+  "caption": "What's the latest second you've ever spotted the ad tag in a reel?",
+  "alt_text": "A single text post listing the usual order of a get ready with me reel: hook, messy bun, outfit reveal, a product pitch, a tiny paid partnership tag that flashes by, then link in bio. It ends by saying the tag appears only after you're hooked.",
+  "claims": []
+ },
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-16/slide_01.jpg"
+ ]
 }
