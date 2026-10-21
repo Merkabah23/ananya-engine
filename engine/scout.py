@@ -8,7 +8,7 @@ from __future__ import annotations
 import json
 from datetime import datetime, timezone
 
-from . import config, llm, state
+from . import config, corpus, llm, state
 from .reddit import Blocked, Reddit
 
 BATCH = 20             # threads per scout call
@@ -76,9 +76,11 @@ def tired_tropes() -> str:
 
 
 NEWS_THEMES = {
-    "culture": "film, OTT and music hits and their numbers, celebrity and cricket moments, viral clips and online debates",
-    "money": "prices, product launches, shortages and queues, sales and spending data, gold, rents, UPI and banking changes, consumer surveys",
-    "life": "work and jobs, salaries and layoffs, marriage, dating and family surveys, housing, screen time, health trends, new rules that change daily life, foreign events that say something about India",
+    "business": "brand launches, ad campaigns and ad controversies, D2C and startup news, funding and shutdowns, quick commerce, product shortages and queues, brand rivalries, business stories people are discussing",
+    "creators": "creator economy and influencer news, Instagram and YouTube changes, viral creators and creator deals, AI tools people actually use, apps and new features, what is trending in India online",
+    "screen": "films, OTT shows and music people are watching and arguing about, box office numbers, celebrities and comebacks, cricket moments, memes and online debates",
+    "money": "prices people feel (rent, flats, gold, phones, food delivery, groceries), status purchases, sales and spending data, salaries, UPI, banking and tax changes, consumer surveys",
+    "life": "dating, marriage, family and friendship, work culture and office life, cities and migration, health and fitness trends, new rules that change daily life, foreign events that say something about India",
 }
 
 
@@ -120,27 +122,82 @@ def fetch_reddit(month: str | None = None) -> list[dict]:
     return threads
 
 
-def run(month: str | None = None) -> list[dict]:
-    month = month or datetime.now(timezone.utc).strftime("%Y-%m")
-    threads = state.read(month, "threads.json")
-    if threads is None:
-        threads = _fetch_news() + fetch_reddit(month)  # fresh events first; Reddit is usually cached from yesterday
-        state.write(threads, month, "threads.json")
-    persona = llm.prompt("persona")
-    template = llm.prompt("scout")
-    batches = [threads[i:i + BATCH] for i in range(0, len(threads), BATCH)]
-    prompt_head = llm.fill(template, persona=persona, tired_tropes=tired_tropes()) + "\n\n## Items\n"
-    results = llm.pmap(lambda b: llm.call_json(config.MODEL_JUDGE, prompt_head + json.dumps(b, ensure_ascii=False, indent=1),
-                                               stage="scout"), batches)
-    topics: list[dict] = []
-    for n, out in enumerate(results, 1):
-        if isinstance(out, Exception):
-            state.log("scout", f"batch {n} failed: {out}")
+def _evergreen(persona: str) -> list[dict]:
+    """Big everyday behaviours with a non-obvious reason. No news peg needed; the angle has to be new."""
+    ask = llm.fill(llm.prompt("evergreen"), persona=persona, tired_tropes=tired_tropes(), varun_hooks=corpus.all_hooks())
+    out = llm.call_json(config.MODEL_JUDGE, ask, stage="scout-evergreen")
+    return [dict(t, news_peg=None, evidence=[]) for t in out.get("topics", [])]
+
+
+def _attach_evidence(topics: list[dict], reddit: list[dict]) -> list[dict]:
+    """Reddit as evidence: find threads where real people are living each topic, and take texture from them."""
+    if not topics or not reddit:
+        return topics
+    index = "\n".join(f'{i}: r/{t["sub"]} | {t["title"]} | {t["body"][:140]}' for i, t in enumerate(reddit))
+    batches = [topics[i:i + 15] for i in range(0, len(topics), 15)]
+
+    def match_and_extract(batch: list[dict]) -> dict:
+        claims = "\n".join(f'{k}: {t["claim"]}' for k, t in enumerate(batch))
+        picks = llm.call_json(config.MODEL_JUDGE, (
+            "Below are topics for Instagram posts and an index of this month's top Reddit threads from Indian subreddits. "
+            "For each topic, list up to 4 threads where real people are clearly living or arguing about that pattern. "
+            "Only real matches; most topics will have zero to two.\n\n## Topics\n" + claims + "\n\n## Threads\n" + index +
+            '\n\nReturn only JSON: {"matches": [{"topic": 0, "threads": [12, 40]}]}'), stage="evidence-match")
+        chosen = {m["topic"]: [i for i in m.get("threads", []) if isinstance(i, int) and 0 <= i < len(reddit)]
+                  for m in picks.get("matches", []) if isinstance(m.get("topic"), int)}
+        chosen = {k: v for k, v in chosen.items() if v and k < len(batch)}
+        if not chosen:
+            return {}
+        material = "\n\n".join(
+            f'## Topic {k}: {batch[k]["claim"]}\n' + "\n".join(
+                f'- r/{reddit[i]["sub"]}: {reddit[i]["title"]}\n  {reddit[i]["body"][:900]}\n  Comments: '
+                + " | ".join(reddit[i].get("top_comments", [])[:8]) for i in ids)
+            for k, ids in chosen.items())
+        details = llm.call_json(config.MODEL_JUDGE, (
+            "For each topic, pull 2-5 concrete details from its Reddit threads that show how real people live this: "
+            "numbers they mention, what was said, what they did. Paraphrase, no usernames, no verbatim quote longer than 8 words, "
+            "nothing that is not in the text.\n\n" + material +
+            '\n\nReturn only JSON: {"topics": [{"topic": 0, "real_details": ["..."]}]}'), stage="evidence-details")
+        found = {d["topic"]: d.get("real_details", []) for d in details.get("topics", []) if isinstance(d.get("topic"), int)}
+        return {k: (ids, found.get(k, [])) for k, ids in chosen.items()}
+
+    for batch, res in zip(batches, llm.pmap(match_and_extract, batches)):
+        if isinstance(res, Exception):
+            state.log("scout", f"evidence step failed for a batch: {res}")
             continue
-        for t in out.get("topics", []):
-            t["id"] = f"{month}-{len(topics) + 1:03d}"
-            topics.append(t)
-        state.log("scout", f"batch {n}: {len(out.get('topics', []))} topics")
+        for k, (ids, details) in res.items():
+            t = batch[k]
+            t["real_details"] = (t.get("real_details") or []) + details
+            t["evidence"] = (t.get("evidence") or []) + [
+                {"url": reddit[i]["url"], "sub": reddit[i]["sub"], "rank": reddit[i]["rank"]} for i in ids]
+    return topics
+
+
+def run(month: str | None = None) -> list[dict]:
+    """Culture first: topics come from what India is watching, buying and arguing about, plus evergreen
+    observations. Reddit is then used as evidence and texture, never as the origin of a topic."""
+    month = month or datetime.now(timezone.utc).strftime("%Y-%m")
+    news = state.read(month, "news.json")
+    if news is None:
+        news = _fetch_news()
+        state.write(news, month, "news.json")
+    reddit = [t for t in fetch_reddit(month) if "reddit.com" in t.get("url", "")]
+    persona = llm.prompt("persona")
+    prompt_head = llm.fill(llm.prompt("scout"), persona=persona, tired_tropes=tired_tropes()) + "\n\n## Items\n"
+    batches = [news[i:i + BATCH] for i in range(0, len(news), BATCH)]
+    jobs = [lambda b=b: llm.call_json(config.MODEL_JUDGE, prompt_head + json.dumps(b, ensure_ascii=False, indent=1),
+                                      stage="scout") for b in batches] + [lambda: {"topics": _evergreen(persona)}]
+    topics: list[dict] = []
+    for n, out in enumerate(llm.pmap(lambda job: job(), jobs), 1):
+        if isinstance(out, Exception):
+            state.log("scout", f"scout job {n} failed: {out}")
+            continue
+        topics += out.get("topics", [])
+        state.log("scout", f"scout job {n}: {len(out.get('topics', []))} topics")
+    topics = _attach_evidence(topics, reddit)
+    for i, t in enumerate(topics, 1):
+        t["id"] = f"{month}-{i:03d}"
     state.write(topics, month, "candidates.json")
-    state.log("scout", f"{len(topics)} candidate topics from {len(threads)} threads")
+    backed = sum(1 for t in topics if any("reddit.com" in e.get("url", "") for e in t.get("evidence", [])))
+    state.log("scout", f"{len(topics)} candidate topics from {len(news)} news items; {backed} backed by Reddit threads")
     return topics

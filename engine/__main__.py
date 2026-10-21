@@ -3,6 +3,7 @@
   python -m engine monthly            scout -> filter -> produce next month's posts
   python -m engine push               schedule the next 8 days of ready posts in Buffer
   python -m engine scout|filter|produce|calibrate|status|buffer-channels
+  python -m engine approve|reject <post_id> --why "..."   teach the engine your taste
 """
 from __future__ import annotations
 
@@ -36,7 +37,7 @@ def produce(month: str | None = None, limit: int | None = None) -> None:
     """Write, render and upload planned posts, soonest first. `limit` keeps each run inside
     subscription usage windows; the daily run calls this with PRODUCE_PER_RUN."""
     soon = (datetime.now(timezone.utc) + timedelta(hours=3)).isoformat()
-    queue = [p for p in state.posts("planned") if p["format"] != "spare" and p.get("due")
+    queue = [p for p in state.posts("planned") + state.posts("approved") if p["format"] != "spare" and p.get("due")
              and datetime.fromisoformat(p["due"]).astimezone(timezone.utc).isoformat() > soon  # skip missed slots
              and (month is None or p["id"].startswith(month))]
     queue.sort(key=lambda p: p["due"])
@@ -46,7 +47,8 @@ def produce(month: str | None = None, limit: int | None = None) -> None:
         room = config.PARALLEL if limit is None else min(config.PARALLEL, limit - attempts)
         batch, queue = queue[:room], queue[room:]
         attempts += len(batch)
-        results = llm.pmap(writer.write_post, batch)
+        # Drafts the owner already approved skip the writer and go straight to rendering.
+        results = llm.pmap(lambda p: p if p["status"] == "approved" else writer.write_post(p), batch)
         for post, result in zip(batch, results):
             try:
                 if isinstance(result, Exception):
@@ -137,6 +139,32 @@ def status() -> None:
         print(f"{p['id']}  {p['status']:<10} {str(p.get('due'))[:16]:<16}  {p['topic'].get('claim', '')[:70]}")
 
 
+def verdict(kind: str, post_id: str | None, why: str) -> None:
+    """Teach the engine the owner's taste: the take goes into data/taste.json, an approved draft into the example bank."""
+    if not post_id:
+        raise SystemExit(f"Usage: python -m engine {kind} <post_id> --why \"...\"")
+    post = state.read("posts", f"{post_id}.json")
+    if not post:
+        raise SystemExit(f"No post {post_id}")
+    if kind == "reject" and not why:
+        raise SystemExit("Say why with --why: the reason is what the engine learns from.")
+    path = config.DATA / "taste.json"
+    t = json.loads(path.read_text())
+    t["approved" if kind == "approve" else "rejected"].append(
+        {"take": post["topic"]["claim"], "why": why or "Approved by the owner.", "post": post_id})
+    path.write_text(json.dumps(t, ensure_ascii=False, indent=1) + "\n")
+    if kind == "approve" and post.get("draft"):
+        bank_path = config.DATA / "approved_posts.json"
+        bank = json.loads(bank_path.read_text())
+        if all(b.get("post") != post_id for b in bank):
+            bank.append({"title": post["topic"].get("title") or post["topic"]["claim"][:60], "post": post_id,
+                         "territory": post["topic"].get("territory"), "mood": post["topic"].get("mood"),
+                         "slides": ["\n".join(s["paragraphs"]) for s in post["draft"]["slides"]]})
+            bank_path.write_text(json.dumps(bank, ensure_ascii=False, indent=1) + "\n")
+    state.log("taste", f"{kind} {post_id}: {why}")
+    print(f"{kind}d {post_id}; the engine will use this from the next run.")
+
+
 def doctor() -> None:
     """Check every key and connection before the first real run. Prints one line per check."""
     import requests
@@ -175,7 +203,9 @@ def doctor() -> None:
 def main() -> None:
     ap = argparse.ArgumentParser(prog="engine")
     ap.add_argument("command", choices=["monthly", "daily", "fetch-reddit", "scout", "filter", "produce", "push",
-                                        "sample", "calibrate", "status", "buffer-channels", "doctor"])
+                                        "sample", "calibrate", "status", "buffer-channels", "doctor", "approve", "reject"])
+    ap.add_argument("post_id", nargs="?", help="approve/reject: the post id, e.g. 2026-11-03")
+    ap.add_argument("--why", default="", help="approve/reject: one line on why, in your own words")
     ap.add_argument("--n", type=int, default=3, help="sample: how many posts")
     ap.add_argument("--topics", help="sample: JSON file of topics to write from")
     ap.add_argument("--month", help="YYYY-MM; defaults depend on the command")
@@ -200,6 +230,8 @@ def main() -> None:
         produce(a.month)
     elif a.command == "push":
         push(a.days)
+    elif a.command in ("approve", "reject"):
+        verdict(a.command, a.post_id, a.why)
     elif a.command == "calibrate":
         print(json.dumps(topic_filter.calibrate(), indent=1))
     elif a.command == "status":

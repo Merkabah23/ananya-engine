@@ -7,26 +7,24 @@ from engine import __main__ as cli, config, filter as topic_filter, llm, state  
 
 SLIDES = [
     ["Gill is No. 1 now. Half the group chat went quiet.", "Swipe to read →"],
-    ["Fans picked a side within an hour.", "Nobody wanted to say the old king was slipping."],
-    ["We grew up with one hero. Letting go feels like getting old.", "So we argue about stats instead."],
-    ["The quiet half is not angry.", "They are just not ready to switch posters."],
-    ["Every fan base goes through this once.", "Ours is going through it now."],
+    ["Fans picked a side within an hour.", "Nobody wanted to say the old king was slipping, so they argued about strike rates and pitches instead."],
+    ["This generation grew up with one hero on every poster and every phone wallpaper.", "Letting go of him feels like getting old."],
+    ["The quiet half is not angry.", "They are just not ready to switch posters, and arguing about stats is easier than saying that."],
+    ["Every fan base goes through this once.", "Indian cricket is going through it now, in every group chat, every single evening."],
 ]
 
 
 def fake_call_json(model, user, stage="", **kw):
-    if stage == "filter":
-        import json, re
+    if stage == "select":
+        import re
         ids = re.findall(r'"id": "([^"]+)"', user)
-        return {"scores": [{"id": i, "mirror": 5, "group": 4, "arguable": 4, "emotion": 4, "send_to": 4, "fresh": 5,
-                            "reddit_signal": 3, "reject": False, "reason": "ok", "best_hook": "x",
-                            "format_fit": "either"} for i in ids]}
+        return {"picks": [{"id": i, "why": "fits the taste", "format_fit": "either"} for i in ids]}
     if stage == "factcheck":
         return {"unsupported": []}
     if stage == "seen-check":
         return {"verdicts": []}
     if stage == "write":
-        slides = SLIDES[:1] if "a single slide of at most 110 words" in user else SLIDES
+        slides = SLIDES[:1] if "a single slide of 30-120 words" in user else SLIDES
         return {"slides": [{"paragraphs": p} for p in slides], "caption": "Which room was off-limits?",
                 "alt_text": "A text post", "claims": []}
     if stage == "critic":
@@ -50,5 +48,69 @@ def test_month_end_to_end(tmp_path, monkeypatch):
     cli.produce("2026-11")
     done = state.posts("uploaded")
     assert len(done) == 17
-    assert all(len(p["image_urls"]) in (1, 5, 6, 7) for p in done)
+    assert all(1 <= len(p["image_urls"]) <= 10 for p in done)
     assert (tmp_path / "out" / done[0]["id"] / "slide_01.jpg").exists()
+
+
+def test_scout_is_culture_first_and_uses_reddit_as_evidence(tmp_path, monkeypatch):
+    from engine import scout
+    monkeypatch.setattr(config, "STATE", tmp_path / "state")
+    news = [{"source": "news", "title": f"item {i}", "url": f"https://news.example/{i}", "body": "b"} for i in range(3)]
+    reddit = [{"id": f"r{i}", "sub": "india", "rank": i + 1, "title": f"thread {i}", "body": "people talk",
+               "url": f"https://www.reddit.com/r/india/comments/r{i}/x/", "top_comments": ["c1", "c2"]} for i in range(5)]
+    monkeypatch.setattr(scout, "_fetch_news", lambda: news)
+    monkeypatch.setattr(scout, "fetch_reddit", lambda month=None: reddit)
+    seen = []
+
+    def fake(model, user, stage="", **kw):
+        seen.append(stage)
+        if stage == "scout":
+            assert "reddit.com" not in user  # Reddit never feeds topic creation
+            return {"topics": [{"claim": "news claim", "real_details": ["a fact"], "evidence": [{"url": "https://news.example/0"}]}]}
+        if stage == "scout-evergreen":
+            return {"topics": [{"claim": "evergreen claim"}]}
+        if stage == "evidence-match":
+            return {"matches": [{"topic": 1, "threads": [2, 99]}]}
+        if stage == "evidence-details":
+            return {"topics": [{"topic": 1, "real_details": ["someone said x"]}]}
+        raise AssertionError(stage)
+
+    monkeypatch.setattr(llm, "call_json", fake)
+    topics = scout.run("2026-10")
+    assert [t["claim"] for t in topics] == ["news claim", "evergreen claim"]
+    assert [t["id"] for t in topics] == ["2026-10-001", "2026-10-002"]
+    evergreen = topics[1]
+    assert evergreen["news_peg"] is None
+    assert evergreen["real_details"] == ["someone said x"]
+    assert evergreen["evidence"] == [{"url": reddit[2]["url"], "sub": "india", "rank": 3}]  # out-of-range id 99 dropped
+    assert topics[0]["real_details"] == ["a fact"] and "evidence-details" in seen
+
+
+def test_approve_and_reject_teach_the_engine(tmp_path, monkeypatch):
+    import json, shutil
+    data = tmp_path / "data"
+    shutil.copytree(config.DATA, data)
+    monkeypatch.setattr(config, "DATA", data)
+    monkeypatch.setattr(config, "STATE", tmp_path / "state")
+    draft = {"slides": [{"paragraphs": ["one", "two"]}, {"paragraphs": ["three"]}]}
+    state.save_post({"id": "2026-11-01", "status": "written", "topic": {"claim": "a good take", "title": "good"}, "draft": draft})
+    state.save_post({"id": "2026-11-02", "status": "written", "topic": {"claim": "a bad take"}, "draft": draft})
+    cli.verdict("approve", "2026-11-01", "named thing, sharp")
+    cli.verdict("reject", "2026-11-02", "sociology essay")
+    t = json.loads((data / "taste.json").read_text())
+    assert t["approved"][-1]["take"] == "a good take" and t["rejected"][-1]["why"] == "sociology essay"
+    bank = json.loads((data / "approved_posts.json").read_text())
+    assert bank[-1]["slides"] == ["one\ntwo", "three"]
+
+
+def test_owner_approved_drafts_skip_the_writer(tmp_path, monkeypatch):
+    monkeypatch.setattr(config, "STATE", tmp_path / "state")
+    monkeypatch.setattr(config, "OUT", tmp_path / "out")
+    def no_writing(*a, **k):
+        raise AssertionError("an approved draft must not be rewritten")
+    monkeypatch.setattr(llm, "call_json", no_writing)
+    draft = {"slides": [{"paragraphs": p} for p in SLIDES], "caption": "c", "alt_text": "a", "claims": []}
+    state.save_post({"id": "2026-11-01", "status": "approved", "due": "2026-11-02T19:30:00+05:30", "format": "carousel",
+                     "topic": {"claim": "x"}, "draft": draft, "history": []})
+    cli.produce("2026-11")
+    assert state.posts("uploaded")[0]["id"] == "2026-11-01"

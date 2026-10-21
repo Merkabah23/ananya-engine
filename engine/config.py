@@ -33,19 +33,20 @@ SLOTS = [
 ]
 SPARE_TOPICS = 5  # extra approved topics per month, used when a draft fails
 
-TERRITORY_MIX = {
-    "money_status": 0.30,
-    "family_identity": 0.25,
-    "social_media": 0.20,
-    "pop_culture": 0.15,
-    "cities_generations": 0.10,
+TERRITORY_MIX = {  # roughly the reference creator's spread of subjects
+    "business_brands": 0.25,     # brands, ads, marketing, D2C, startups, business stories
+    "creators_internet": 0.20,   # Instagram, creators, reels, apps, AI, online culture
+    "money_status": 0.20,        # how people spend, prices, status, salaries
+    "pop_culture": 0.15,         # films, OTT, celebrities, cricket, music
+    "life_relationships": 0.20,  # family, dating, friendship, work, cities, growing up
 }
 
 # Gates
-MIN_TOPIC_SCORE = 20          # out of 30 (six criteria x 5), plus fresh >= 4
-MAX_REWRITES = 3
+MIN_TOPIC_SCORE = 22          # out of 35 (seven criteria x 5), plus fresh >= 4
+MAX_REWRITES = 1             # one rewrite at most: quality comes from the take and the examples, not loops
 NGRAM_BLOCK = 6               # any shared 6-word run with Varun's corpus blocks a draft
 BLIND_TEST_TRIALS = 1         # per attempt; the final attempt uses 2
+USE_BLIND_TEST = os.getenv("USE_BLIND_TEST", "false").lower() == "true"  # off: it rewards impersonation, not quality
 
 # Rendering
 CANVAS = (1080, 1350)
@@ -55,6 +56,8 @@ VERIFIED = False              # never draw a tick unless the account is verified
 
 # Publishing
 PAUSED = os.getenv("ENGINE_PAUSED", "false").lower() == "true"
+# Posts wait in Buffer for the owner to approve until the engine has earned trust.
+BUFFER_NEEDS_APPROVAL = os.getenv("BUFFER_NEEDS_APPROVAL", "true").lower() == "true"
 DRY_RUN = os.getenv("DRY_RUN", "false").lower() == "true"
 BUFFER_API = "https://api.buffer.com"
 BUFFER_MAX_IMAGES = 10        # Buffer's limit for Instagram carousels

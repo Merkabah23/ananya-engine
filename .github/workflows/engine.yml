@@ -36,6 +36,7 @@ jobs:
       ENGINE_PAUSED: ${{ vars.ENGINE_PAUSED || 'false' }}
       PRODUCE_PER_RUN: ${{ vars.PRODUCE_PER_RUN || '3' }}
       MODEL_WRITER: ${{ vars.MODEL_WRITER || 'opus' }}
+      MAX_CALLS_PER_MONTH: ${{ vars.MAX_CALLS_PER_MONTH || '400' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

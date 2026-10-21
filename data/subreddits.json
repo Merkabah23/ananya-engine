@@ -1,66 +1,20 @@
 {
- "_note": "Text-heavy subreddits first. The scout reads each one's top-of-month RSS; 'territory_hint' only nudges it.",
+ "_note": "Discussion subreddits, used only as evidence and texture for topics found in the culture scan. Advice subreddits (personal finance, arranged marriage, workplace) were dropped: they surface individual dilemmas, not cultural patterns.",
  "subreddits": [
-  {
-   "name": "AskIndia",
-   "territory_hint": "any"
-  },
-  {
-   "name": "IndianWorkplace",
-   "territory_hint": "money_status"
-  },
-  {
-   "name": "personalfinanceindia",
-   "territory_hint": "money_status"
-  },
-  {
-   "name": "ArrangedMarriage",
-   "territory_hint": "family_identity"
-  },
-  {
-   "name": "indianrelationships",
-   "territory_hint": "family_identity"
-  },
-  {
-   "name": "india",
-   "territory_hint": "any"
-  },
-  {
-   "name": "indiasocial",
-   "territory_hint": "any"
-  },
-  {
-   "name": "bangalore",
-   "territory_hint": "cities_generations"
-  },
-  {
-   "name": "mumbai",
-   "territory_hint": "cities_generations"
-  },
-  {
-   "name": "delhi",
-   "territory_hint": "cities_generations"
-  },
-  {
-   "name": "pune",
-   "territory_hint": "cities_generations"
-  },
-  {
-   "name": "hyderabad",
-   "territory_hint": "cities_generations"
-  },
-  {
-   "name": "IndiaInvestments",
-   "territory_hint": "money_status"
-  },
-  {
-   "name": "bollywood",
-   "territory_hint": "pop_culture"
-  },
-  {
-   "name": "IndianStreetBets",
-   "territory_hint": "money_status"
-  }
+  {"name": "india", "territory_hint": "any"},
+  {"name": "AskIndia", "territory_hint": "any"},
+  {"name": "indiasocial", "territory_hint": "any"},
+  {"name": "TwoXIndia", "territory_hint": "life_relationships"},
+  {"name": "bangalore", "territory_hint": "life_relationships"},
+  {"name": "mumbai", "territory_hint": "life_relationships"},
+  {"name": "delhi", "territory_hint": "life_relationships"},
+  {"name": "pune", "territory_hint": "life_relationships"},
+  {"name": "hyderabad", "territory_hint": "life_relationships"},
+  {"name": "Chennai", "territory_hint": "life_relationships"},
+  {"name": "kolkata", "territory_hint": "life_relationships"},
+  {"name": "bollywood", "territory_hint": "pop_culture"},
+  {"name": "IndiaTech", "territory_hint": "creators_internet"},
+  {"name": "StartUpIndia", "territory_hint": "business_brands"}
  ],
  "per_subreddit": 25,
  "comments_per_thread": 12

@@ -2,13 +2,14 @@
 from __future__ import annotations
 
 import json
+import math
 from datetime import date, datetime, time, timedelta, timezone
 
 from . import config, corpus, llm, state
 from .scout import tired_tropes
 
 IST = timezone(timedelta(hours=5, minutes=30))
-CRITERIA = ["mirror", "group", "arguable", "emotion", "send_to", "fresh"]
+CRITERIA = ["mirror", "group", "arguable", "emotion", "send_to", "fresh", "depth"]
 BATCH = 15
 
 
@@ -22,8 +23,8 @@ def _score(topics: list[dict], calibration: bool = False) -> dict[str, dict]:
     template = llm.fill(llm.prompt("filter"), top_examples=top, bottom_examples=bottom,
                         varun_hooks=skip if calibration else corpus.all_hooks(),
                         our_hooks=skip if calibration else _our_hooks(), tired_tropes=tired_tropes())
-    keys = ("id", "title", "claim", "behaviour", "mechanism", "group", "territory", "news_peg", "why_now",
-            "counterintuitive", "evidence")
+    keys = ("id", "title", "claim", "behaviour", "mechanism", "group", "territory", "mood", "format_hint", "news_peg",
+            "why_now", "counterintuitive", "real_details", "evidence")
     batches = [[{k: t.get(k) for k in keys} for t in topics[i:i + BATCH]] for i in range(0, len(topics), BATCH)]
     results = llm.pmap(lambda b: llm.call_json(
         config.MODEL_JUDGE, template + "\n\n## Candidates\n" + json.dumps(b, ensure_ascii=False, indent=1), stage="filter"), batches)
@@ -36,6 +37,34 @@ def _score(topics: list[dict], calibration: bool = False) -> dict[str, dict]:
             s["total"] = sum(int(s.get(c, 0)) for c in CRITERIA)
             scores[s["id"]] = s
     return scores
+
+
+def taste() -> dict:
+    return json.loads((config.DATA / "taste.json").read_text())
+
+
+def select(candidates: list[dict], n: int) -> list[dict]:
+    """Pick the month's takes the way the owner would, from the owner's approved and rejected takes."""
+    t = taste()
+    lines = lambda items: "\n".join(f'- "{x["take"]}" ({x["why"]})' for x in items) or "(none yet)"
+    keys = ("id", "claim", "territory", "mood", "format_hint", "news_peg")
+    cands = "\n".join(json.dumps({k: c.get(k) for k in keys}, ensure_ascii=False) for c in candidates)
+    mix = ", ".join(f"{k} {round(v * 100)}%" for k, v in config.TERRITORY_MIX.items())
+    ask = llm.fill(llm.prompt("select"), persona=llm.prompt("persona"),
+                   principles="\n".join(f"- {p}" for p in t.get("principles", [])),
+                   approved=lines(t.get("approved", [])), rejected=lines(t.get("rejected", [])),
+                   varun_hooks=corpus.all_hooks(), our_hooks=_our_hooks(), tired_tropes=tired_tropes(),
+                   candidates=cands, n=str(n), mix=mix)
+    out = llm.call_json(config.MODEL_JUDGE, ask, stage="select")
+    by_id = {c["id"]: c for c in candidates}
+    picks = []
+    for rank, p in enumerate(out.get("picks", [])):
+        c = by_id.get(p.get("id"))
+        if c and all(c["id"] != x["id"] for x in picks):
+            picks.append({**c, "score": {"rank": rank + 1, "why": p.get("why", ""),
+                                         "format_fit": p.get("format_fit") or c.get("format_hint") or "carousel"}})
+    state.log("filter", f"selected {len(picks)} of {len(candidates)} takes by the owner's taste")
+    return picks
 
 
 def _seen_check(ranked: list[dict]) -> list[dict]:
@@ -77,7 +106,7 @@ def slots_for_month(month: str) -> list[dict]:
 
 def _assign(ranked: list[dict], slots: list[dict]) -> list[dict]:
     n = len(slots)
-    quota = {t: max(1, round(w * n)) for t, w in config.TERRITORY_MIX.items()}
+    quota = {t: max(1, math.ceil(w * n)) for t, w in config.TERRITORY_MIX.items()}  # ceil so quotas cover every slot
     used = {t: 0 for t in quota}
     plan, pool, last = [], list(ranked), None
     for slot in slots:
@@ -111,24 +140,16 @@ def run(month: str, plan_month: str | None = None) -> list[dict]:
         plan_month = f"{y + (m == 12)}-{(m % 12) + 1:02d}"
     # Only open slots far enough ahead to write and schedule, so a month can be (re)planned mid-way.
     cutoff = datetime.now(timezone.utc) + timedelta(hours=6)
-    occupied = {p["due"] for p in existing if p.get("due")}
+    occupied = {p["due"] for p in existing if p.get("due") and p["status"] != "cancelled"}
     slots = [s for s in slots_for_month(plan_month)
              if datetime.fromisoformat(s["due"]) > cutoff and s["due"] not in occupied]
     if not slots:
         state.log("filter", f"no open slots left in {plan_month}")
         return []
-    scores = _score(candidates)
-    kept = []
-    for t in candidates:
-        s = scores.get(t["id"])
-        if not s or s.get("reject") or s["total"] < config.MIN_TOPIC_SCORE or int(s.get("fresh", 0)) < 4:
-            continue
-        kept.append({**t, "score": s})
-    # Rank by editorial score, Reddit evidence as tie-breaker.
-    kept.sort(key=lambda t: (t["score"]["total"], t["score"].get("reddit_signal", 0)), reverse=True)
-    kept = _seen_check(kept[:(len(slots) + config.SPARE_TOPICS) * 2])
+    want = len(slots) + config.SPARE_TOPICS
+    kept = _seen_check(select(candidates, round(want * 1.4)))  # a margin for the ones already seen widely
     plan = _assign(kept, slots)
-    spares_held = sum(1 for p in existing if p["format"] == "spare" and p["id"].startswith(plan_month))
+    spares_held = sum(1 for p in existing if p["format"] == "spare" and p["status"] != "cancelled" and p["id"].startswith(plan_month))
     plan = [p for p in plan if p["format"] != "spare"] + \
            [p for p in plan if p["format"] == "spare"][:max(0, config.SPARE_TOPICS - spares_held)]
     state.write(plan, plan_month, "plan.json")

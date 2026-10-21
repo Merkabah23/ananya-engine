@@ -72,7 +72,7 @@ def build_input(post: dict, image_urls: list[str]) -> dict:
         "schedulingType": "automatic",
         "mode": "customScheduled",
         "dueAt": due.strftime("%Y-%m-%dT%H:%M:%S.000Z"),
-        "needsApproval": False,
+        "needsApproval": config.BUFFER_NEEDS_APPROVAL,
         "assets": [{"image": {"url": u, "metadata": {"altText": alt[:1000]}}} for u in image_urls[:config.BUFFER_MAX_IMAGES]],
         "metadata": {"instagram": {"type": "post", "shouldShareToFeed": True,
                                    "isAiGenerated": config.IS_AI_GENERATED_FLAG}},

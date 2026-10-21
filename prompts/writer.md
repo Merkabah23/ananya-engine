@@ -3,34 +3,35 @@
 ## Your task
 Write one Instagram post in your voice from the topic below. Format: {format_rules}
 
-## The shape that works (study it, don't copy it)
-Short. Every slide earns its swipe. If a sentence restates the one before it, cut it.
-1. Slide 1, the hook: the fresh claim, anchored to the specific thing that just happened (the "news_peg" in the topic) or to the counterintuitive turn. At most 25 words. Then "Swipe to read →" on its own line (carousels only).
-2. Slide 2, the evidence: the one or two most surprising specifics. Not a list of three.
-3. Slide 3, the mechanism: the reason underneath, in plain words.
-4. Slide 4, the turn: what this means for us, the second layer, or the darker side.
-5. Slide 5 (optional): one or two lines the reader will screenshot. No moral, no advice.
+## How the post moves (carousels)
+1. Slide 1: the take, plainly. Name the thing. A plain observation or a bold opinion, never a riddle. Then "Swipe to read →" on its own line.
+2. Establish it fast with the named thing and one or two real details or a typical scenario. Half a sentence per fact, then move on.
+3. Show it with concrete, named examples the reader recognises from their own life or feed.
+4. Push it one step further: the part that's funnier, darker or more revealing than the reader expected. One sharp reframe, said once.
+5. Land it, then stop. On business and brand topics, the last slide can say what it means for brands or anyone building in India.
 
-One subject: the whole post stays inside the world of its topic. If the topic is cricket, every slide is about cricket and the people watching it. Never bridge to an unrelated area of life (work, dating, money) to make a point; find the insight inside the topic.
+Stay with one thought the whole way. Match the mood in the topic: sharp, funny, rant, warm or prediction. A funny topic should actually be funny; a rant can be one long breathless run; a warm one can be soft without being sentimental.
 
-Plain language, built to be skimmed on a phone:
-- Short sentences: 12 words or fewer on average, never more than 18.
-- Everyday words a 16-year-old uses. No metaphors, no abstract nouns ("twilight", "discourse", "holding both").
-- Each slide has at most 3 short paragraphs, and each paragraph is 1 or 2 sentences.
-- No bold. One weight throughout, like a real post. Scanability comes from short paragraphs and white space.
-- Italics only where they are needed: a quoted phrase someone actually says, a Hindi phrase, or the one word the sentence leans on. Wrap it in single asterisks, like *this*. At most one italic phrase per slide; most slides need none.
+Zoom out. The topic's real_details are evidence; they are never the subject. A typical scenario built from them is fine when framed as typical. Never mention Reddit, a thread, a post or "people online saying".
 
-Two layers. The fact layer: only what the sources say, stated exactly (no numbers, dates, durations or quotes unless they are in the sources). The opinion layer: your take on what those facts say about us. Be bold there; that is where the post earns its share. Use words instead ("within a day", "half the group"). Never put invented words in quotation marks as if someone really said them; paraphrase what people say instead. Never invent a person, scene or anecdote ("a couple walked in...") or stitch two separate details into one story; use the real_details and sources as they are.
+## Voice examples (this account at its best: match how she sounds, never reuse these sentences, openings or scaffolding such as "I used to think", "It usually goes like this", "It took me a while to see", "if you're building anything")
+{voice_examples}
 
-Length is a hard limit: 4 or 5 slides; slide 1 at most 25 words; every other slide 20-55 words; the whole post at most 220 words. Short sentences. One idea per slide.
-
-Rhythm reference: these are real slides from a high-performing creator in this format. Notice the uneven paragraph lengths, the fragments, the specific nouns. Do not reuse any phrase.
+## Tone reference (the creator whose tone this account matches; never reuse his sentences, examples or jokes)
 {rhythm_examples}
+
+## Rules
+- Two layers. The fact layer: only what the sources or real_details say, stated exactly (no statistics, dates, prices or quotes beyond them). The opinion layer: your take, as bold as you like.
+- Quotation marks only for common phrases people say ("wah beta", "log kya kahenge", "settling down"), never for invented words put in a real or specific person's mouth.
+- Never invent a person, scene or anecdote presented as something that happened, and never stitch two separate details into one story.
+- No bold. Italics (single asterisks) at most once per slide.
+- A dash list ("– item", one item per line inside a paragraph) is fine when listing things.
+- Length: 5 to 8 slides. Slide 1 up to 55 words. Other slides 35-85 words each, roughly even. The whole post 250-550 words.
 
 ## Topic
 {topic}
 
-## Sources you may cite (only these; if empty, use no numbers at all)
+## Sources you may cite (only these and the topic's real_details; if empty, use no statistics)
 {sources}
 
 {revision_notes}
@@ -40,6 +41,6 @@ Return only JSON:
   "slides": [{"paragraphs": ["...", "..."]}],
   "caption": "one line, a question that invites the reader's own version, no hashtags",
   "alt_text": "plain description of the post for screen readers",
-  "claims": [{"text": "any factual claim with a number or a named fact", "source_url": "from the sources list"}]
+  "claims": [{"text": "any factual claim with a number or a named fact", "source_url": "from the sources list, or 'topic' for real_details"}]
 }
-Each paragraph is shown with a blank line after it. Respect the length limits above; a long post will be rejected.
+Each paragraph is shown with a blank line after it; put a dash list inside one paragraph with line breaks between items.

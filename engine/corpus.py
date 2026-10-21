@@ -44,18 +44,23 @@ def all_hooks(limit: int = 140) -> str:
     return "\n".join(f"- {hook(p)[:120]}" for p in posts()[:limit])
 
 
-def rhythm_examples(k: int = 3, exclude_territory: str | None = None, seed: int | None = None) -> str:
-    """Full text of a few top posts, for rhythm only. Never the same territory as the topic."""
-    top, _ = quartiles()
-    def wps(p: dict) -> float:  # words per slide
-        return sum(len(s.split()) for s in p["slides"]) / max(len(p["slides"]), 1)
-    short = [p for p in organic() if p["likes"] >= 8000 and wps(p) <= 50 and len(p["slides"]) <= 6]
-    pool = [p for p in (short or top) if p["territory"] != exclude_territory] or short or top
+def unwrap(slide: str) -> str:
+    """OCR breaks lines wherever the image wrapped them and leaves stray bullets; join it back into clean running text."""
+    slide = re.sub(r"(?m)^[\s•·.,C\d]{1,8}$", "", slide)  # lines that are only OCR debris like "• • •" or "1•"
+    slide = slide.replace("•", " ")
+    return re.sub(r"\s+", " ", slide).strip()
+
+
+def rhythm_examples(k: int = 3, exclude_territory: str | None = None, seed: int | None = None,
+                    fmt: str = "carousel") -> str:
+    """Full text of a few of his posts in the same format, for tone. Never the same territory as the topic."""
+    same = [p for p in organic() if (len(p["slides"]) == 1) == (fmt == "single")]
+    pool = [p for p in same if p["territory"] != exclude_territory] or same
     rnd = random.Random(seed)
     picks = rnd.sample(pool, min(k, len(pool)))
     blocks = []
     for i, p in enumerate(picks, 1):
-        body = "\n\n".join(f"[slide {j + 1}] {s}" for j, s in enumerate(p["slides"][:6]))
+        body = "\n\n".join(f"[slide {j + 1}] {unwrap(s)}" for j, s in enumerate(p["slides"][:8]))
         blocks.append(f"### Example {i}\n{body}")
     return "\n\n".join(blocks)
 
@@ -82,12 +87,12 @@ def copied_runs(text: str) -> list[str]:
     return sorted({" ".join(w[i:i + n]) for i in range(len(w) - n + 1) if tuple(w[i:i + n]) in grams})
 
 
-def blind_samples(k: int, seed: int) -> list[str]:
-    """Real reference posts with the creator's name stripped, for the AI-spotting test."""
-    top, _ = quartiles()
+def blind_samples(k: int, seed: int, fmt: str = "carousel") -> list[str]:
+    """Real reference posts in the same format, name stripped and OCR line breaks removed, for the AI-spotting test."""
+    pool = [p for p in organic() if (len(p["slides"]) == 1) == (fmt == "single")]
     rnd = random.Random(seed)
     out = []
-    for p in rnd.sample(top, k):
-        text = "\n\n".join(p["slides"][:6])
+    for p in rnd.sample(pool, min(k, len(pool))):
+        text = "\n\n".join(unwrap(s) for s in p["slides"][:8])
         out.append(re.sub(r"varun|agarwal", "", text, flags=re.I))
     return out
