@@ -1,6 +1,6 @@
 {
  "id": "2026-10-01",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-10-21T19:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -50,6 +50,68 @@
    "total": 25
   }
  },
- "history": [],
- "updated_at": "2026-10-20T18:55:12.919618+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "problems": [
+    "Slide 3 has 4 paragraphs; use at most 3."
+   ]
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Slide 4 has 4 paragraphs; use at most 3."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "specificity": 4,
+     "mechanism": 3,
+     "ending": 4,
+     "voice": 4
+    },
+    "edits": [
+     "slide 2: Keep the facts but make it read like talk. Cut the 'After its core patents expired in March 2026, dozens of Indian companies launched cheaper versions' sentence down to something like 'Then the patents ran out and dozens of companies jumped in.' Say that ₹1,290 is the lowest launch price (NATCO's vials), not the going rate, so nobody reads it as what everyone pays.",
+     "slide 3: The link between the injection and the canteen is never stated. Say in one plain line what the injection is for, using only what the sources support (these are weight-loss drugs), e.g. 'Bad lunch, tight waistline, so we reach for the injection.' Don't suggest it's a good idea. As written, a stranger has to guess what is being fixed.",
+     "slide 3: 'Fixing the office is a fight' / 'Fixing yourself is private' is a tidy, symmetrical pair, and 'So the canteen stays the same. We change instead.' sounds like a moral. Rewrite the last two lines so they are messier and more personal, e.g. what the HR email would actually say and why nobody wants to be the one who sends it.",
+     "slide 4: 'Everyone hates the canteen rajma and the samosas at every evening meeting' is broad and generic. Narrow it to one thing the reader can picture. Keep 'Maybe it was me,' but make it a little sharper or funnier.",
+     "slide 5: 'Cheaper medicine is good news. I mean that.' softens the take just before the ending. Cut it or move it earlier, and let 'we found ₹1,290 a month faster than we found one email for lunch' be the final line."
+    ]
+   },
+   "facts": []
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "An editor could tell this was AI-written: Tidy antithetical pairs: 'Fixing the office is a fight' against 'Fixing yourself is private', then a neat moral: 'So the canteen stays the same. We change instead.'",
+    "An editor could tell this was AI-written: Short, punchy one-line paragraphs with rhetorical turns that land on a polished closer ('Cheaper medicine is good news. I mean that.')",
+    "An editor could tell this was AI-written: Sincerity-signalling filler ('Maybe it was me', 'I mean that') and a callback ending that mirrors the opening: ₹1,290 for ourselves against one email for lunch",
+    "An editor could tell this was AI-written: Stat-and-brand details (NATCO, MRP, patent expiry) slotted in cleanly to support a tidy thesis, with Hinglish seasoning ('dekhte hain', 'rajma') added for local flavour"
+   ]
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Slide 4 has 4 paragraphs; use at most 3."
+   ]
+  }
+ ],
+ "updated_at": "2026-10-21T02:04:55.861169+00:00",
+ "sources": [
+  {
+   "url": "https://www.businesstoday.in/amp/industry/pharma/story/novo-further-cuts-semaglutide-prices-as-generics-enter-india-523336-2026-03-31/",
+   "fact": "After semaglutide's core patents expired in March 2026, dozens of Indian companies launched cheaper generics, some under Rs 2,000 a month, down from branded prices above Rs 10,000.",
+   "excerpt": "dozens of domestic pharmaceutical companies launched lower-priced versions. | semaglutide's \"core patents expired in March 2026\" | price cuts of up to 48% | reduced prices on starting doses of its diabetes formulation of semaglutide by 36%. | Branded semaglutide was priced above Rs 10,000 a month before generic entry. | Some generic versions are now being offered below Rs 2,000 a month in some cases. | a drop of as much as 90% from earlier branded prices."
+  },
+  {
+   "url": "https://www.indianpharmapost.com/news/lite/natco-launches-semaglutide-generic-injection-multi-dose-vials-in-india-at-affordable-price-of-rs-1290-19427",
+   "fact": "NATCO launched generic semaglutide multi-dose vials in India on Day 1 of patent expiry at an MRP of Rs 1,290 a month, about 90% cheaper than the innovator's brand.",
+   "excerpt": "NATCO Pharma Limited announces launch of Semaglutide Injection (multi dose vials) in the India market tomorrow | NATCO is the first company to offer Semaglutide in the vial dosage form. | Multi dose vials will be launched at MRP of Rs. 1,290 per month for 2 mg/1.5ml & 4mg/3ml | and MRP of Rs. 1,750 for 8mg/3ml. | Pen device will be priced at MRP of Rs. 4,000, Rs. 4,200 and Rs. 4,500 per month | approximately 70% cheaper in cost than the pen device and 90% cheaper than the price of the innovator's brand."
+  }
+ ]
 }

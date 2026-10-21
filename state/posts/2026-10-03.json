@@ -1,6 +1,6 @@
 {
  "id": "2026-10-03",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-10-24T11:00:00+05:30",
  "format": "single",
  "topic": {
@@ -45,6 +45,136 @@
    "total": 23
   }
  },
- "history": [],
- "updated_at": "2026-10-20T18:55:12.920429+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 2,
+     "specificity": 3,
+     "mechanism": 2,
+     "ending": 3,
+     "voice": 2
+    },
+    "edits": [
+     "slide 1: The hook \"Every Indian couple that's on a break has:\" reads like a listicle template and a sweeping claim built from one Reddit thread. Replace it with a sharp, arguable line, for example: \"We don't break up anymore. We block, we unblock, and the Instagram password becomes a peace treaty.\" The topic's own best_hook is stronger than what is on the slide.",
+     "slide 1: The nine bullets all share one shape, so the list is a wall of equal-weight items. Cut it to 4-5 and make them uneven, with some one-liners and one that runs longer. Drop the generic ones (\"Never once said the word breakup\", \"One more fight about who blocked first\"). Keep the sourced beats: blocked everywhere after the fight, a sorry weeks later, the password ask, the refusal.",
+     "slide 1: There is no mechanism. Add the real reason in plain words: seeing each other's accounts feels like closeness, so cutting it off feels like punishment and giving it back feels like forgiveness. That is why nobody ends things and everyone stays in limbo. Put it in a sentence or two before the closing line.",
+     "slide 1: Voice. This sounds like a poster, with no \"I do this too\" and nothing wry or personal. Add one line from inside the behaviour, such as \"I've watched my own stories to see who looked,\" which is a feeling rather than an invented event. Also rewrite \"A no that hurt more than the fight itself\", which is unclear: say it is the 'no' to sharing the password. Remove the *both* asterisks.",
+     "slide 1: The ending \"It's a timeout we both know will end\" is tidy and moral-like, and it takes no side. Sharpen it into a take someone could argue with, for example that the block button lets us avoid ever saying the word breakup. Keep the caption question, but the post needs a clearer opinion for it to land."
+    ]
+   },
+   "facts": []
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "slide 1: The hook \"Every Indian couple that's on a break has:\" reads like a listicle template and a sweeping claim built from one Reddit thread. Replace it with a sharp, arguable line, for example: \"We don't break up anymore. We block, we unblock, and the Instagram password becomes a peace treaty.\" The topic's own best_hook is stronger than what is on the slide.",
+    "slide 1: The nine bullets all share one shape, so the list is a wall of equal-weight items. Cut it to 4-5 and make them uneven, with some one-liners and one that runs longer. Drop the generic ones (\"Never once said the word breakup\", \"One more fight about who blocked first\"). Keep the sourced beats: blocked everywhere after the fight, a sorry weeks later, the password ask, the refusal.",
+    "slide 1: There is no mechanism. Add the real reason in plain words: seeing each other's accounts feels like closeness, so cutting it off feels like punishment and giving it back feels like forgiveness. That is why nobody ends things and everyone stays in limbo. Put it in a sentence or two before the closing line.",
+    "slide 1: Voice. This sounds like a poster, with no \"I do this too\" and nothing wry or personal. Add one line from inside the behaviour, such as \"I've watched my own stories to see who looked,\" which is a feeling rather than an invented event. Also rewrite \"A no that hurt more than the fight itself\", which is unclear: say it is the 'no' to sharing the password. Remove the *both* asterisks.",
+    "slide 1: The ending \"It's a timeout we both know will end\" is tidy and moral-like, and it takes no side. Sharpen it into a take someone could argue with, for example that the block button lets us avoid ever saying the word breakup. Keep the caption question, but the post needs a clearer opinion for it to land."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "specificity": 2,
+     "mechanism": 3,
+     "ending": 3,
+     "voice": 3
+    },
+    "edits": [
+     "slide 1: Cut the bullet list and the line 'Every Indian couple in limbo has:'. It reads like a template or a poster, not a cousin on the drive home. Rewrite the sequence as short, uneven sentences in her voice. The sequence is: block everywhere, reappear weeks later with a sorry, ask for the password, get refused. Keep to what the topic supports.",
+     "slide 1: Add the 'I do this too' angle without inventing an event. For example: 'You know that friend who...' or 'Open your own blocked list.' Right now Ananya is absent and nothing marks her as inside the behaviour.",
+     "slide 1: 'Every Indian couple' and 'Daily' are universal claims drawn from one thread. Soften them to 'so many couples' or 'you know the pattern'. Make the list items sound like things the reader has watched, not statistics.",
+     "slide 1: The mechanism line ('Seeing their accounts feels like closeness. So blocking feels like punishment...') is accurate but abstract. Make it concrete. For example, say that being able to see their stories is the last bit of them you still have, so losing it hurts and getting it back feels like being forgiven. Add one wry Lucknow-texting touch, such as a short 'Literally.' or a Hindi quote people actually say, e.g. 'bas ek baar unblock kar do'.",
+     "slide 1: The ending 'we just stay stuck' just summarises the post. End on a sharper, takeable side instead. For example, say that a block is a breakup nobody had to say out loud, and that the password test is really asking whether you still get a say in their life. Keep it to one screenshot-worthy line."
+    ]
+   },
+   "facts": []
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "slide 1: Cut the bullet list and the line 'Every Indian couple in limbo has:'. It reads like a template or a poster, not a cousin on the drive home. Rewrite the sequence as short, uneven sentences in her voice. The sequence is: block everywhere, reappear weeks later with a sorry, ask for the password, get refused. Keep to what the topic supports.",
+    "slide 1: Add the 'I do this too' angle without inventing an event. For example: 'You know that friend who...' or 'Open your own blocked list.' Right now Ananya is absent and nothing marks her as inside the behaviour.",
+    "slide 1: 'Every Indian couple' and 'Daily' are universal claims drawn from one thread. Soften them to 'so many couples' or 'you know the pattern'. Make the list items sound like things the reader has watched, not statistics.",
+    "slide 1: The mechanism line ('Seeing their accounts feels like closeness. So blocking feels like punishment...') is accurate but abstract. Make it concrete. For example, say that being able to see their stories is the last bit of them you still have, so losing it hurts and getting it back feels like being forgiven. Add one wry Lucknow-texting touch, such as a short 'Literally.' or a Hindi quote people actually say, e.g. 'bas ek baar unblock kar do'.",
+    "slide 1: The ending 'we just stay stuck' just summarises the post. End on a sharper, takeable side instead. For example, say that a block is a breakup nobody had to say out loud, and that the password test is really asking whether you still get a say in their life. Keep it to one screenshot-worthy line."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 3,
+     "specificity": 3,
+     "mechanism": 4,
+     "ending": 3,
+     "voice": 3
+    },
+    "edits": [
+     "slide 1: Cut the \"Dear block button,\" letter frame. It is a gimmick, and the post drifts out of it by line 5 when it starts talking to the reader. Open with the line that actually stops a scroll: \"We don't break up anymore. We block.\" Drop \"We just press you,\" which is awkward and makes the reader work out who \"you\" is.",
+     "slide 1: Delete \"You know the pattern.\" It is filler, and it announces the pattern instead of letting the reader recognise it. Keep \"Open your own blocked list. Mine isn't empty either.\" as the mirror line, but break it into its own short paragraph so it lands.",
+     "slide 1: The sequence reads like a template list (\"Then... Then... Then...\"). Vary the rhythm: compress the fight and block into one blunt line, and give the password ask and the no a little more space. That ask-and-refusal is the most specific part of the source and should carry weight.",
+     "slide 1: The mechanism line is the best thing here (\"the last bit of them you still have\"). Keep it, but cut \"Literally.\" because it is stuck on a feeling it doesn't suit. The voice is generic Gen Z, so add one concrete Instagram detail the reader can picture instead, such as the story ring or the blocked-list screen. Do not invent an event.",
+     "slide 1: The ending is weak. \"It's really asking if you still get a say in their life\" is abstract and clunky. Replace it with a plain, arguable last line, for example: a password isn't proof of trust, it's asking to be let back in without saying sorry properly. Make the last sentence short enough to screenshot."
+    ]
+   },
+   "facts": []
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "slide 1: Cut the \"Dear block button,\" letter frame. It is a gimmick, and the post drifts out of it by line 5 when it starts talking to the reader. Open with the line that actually stops a scroll: \"We don't break up anymore. We block.\" Drop \"We just press you,\" which is awkward and makes the reader work out who \"you\" is.",
+    "slide 1: Delete \"You know the pattern.\" It is filler, and it announces the pattern instead of letting the reader recognise it. Keep \"Open your own blocked list. Mine isn't empty either.\" as the mirror line, but break it into its own short paragraph so it lands.",
+    "slide 1: The sequence reads like a template list (\"Then... Then... Then...\"). Vary the rhythm: compress the fight and block into one blunt line, and give the password ask and the no a little more space. That ask-and-refusal is the most specific part of the source and should carry weight.",
+    "slide 1: The mechanism line is the best thing here (\"the last bit of them you still have\"). Keep it, but cut \"Literally.\" because it is stuck on a feeling it doesn't suit. The voice is generic Gen Z, so add one concrete Instagram detail the reader can picture instead, such as the story ring or the blocked-list screen. Do not invent an event.",
+    "slide 1: The ending is weak. \"It's really asking if you still get a say in their life\" is abstract and clunky. Replace it with a plain, arguable last line, for example: a password isn't proof of trust, it's asking to be let back in without saying sorry properly. Make the last sentence short enough to screenshot."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "specificity": 3,
+     "mechanism": 3,
+     "ending": 3,
+     "voice": 4
+    },
+    "edits": [
+     "slide 1: The last line contradicts the post. Earlier the unblock already comes with 'a quick sorry', then the last line says the password asks to be let back in 'without a proper sorry'. Pick one idea. Suggested: the sorry is cheap and the password is the real ask, so a password asks for proof when a sorry should have done the job. Rewrite the closer to say that in one plain line.",
+     "slide 1: The mechanism paragraph ('Their story ring is the last bit of them you still have') is muddled. After a block you can't see their story at all. Say it directly: blocked, their stories vanish, so a person who was in your day is suddenly gone. Unblocked, the ring comes back and it feels like being let in again. Keep the line short and concrete.",
+     "slide 1: 'That no hurts more than the fight did' is the sharpest line but comes too early and is unearned. Move it next to the closer, or add one plain line on why the refusal stings: a password is the one thing you were sure they'd hand over.",
+     "slide 1: Specificity is thin. Add concrete app texture the reader already knows, such as 'Instagram, WhatsApp, Snapchat, all gone in one evening', and the way people check who still follows them. Do not add invented events or numbers.",
+     "slide 1: The rhythm is too even, with seven short paragraphs of similar length. Make one paragraph run longer and slightly messy, in the 'cousin on the drive home' voice, and cut 'Open your own blocked list' down or merge it with the 'mine isn't empty' line so it lands as one wry beat."
+    ]
+   },
+   "facts": []
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "slide 1: The last line contradicts the post. Earlier the unblock already comes with 'a quick sorry', then the last line says the password asks to be let back in 'without a proper sorry'. Pick one idea. Suggested: the sorry is cheap and the password is the real ask, so a password asks for proof when a sorry should have done the job. Rewrite the closer to say that in one plain line.",
+    "slide 1: The mechanism paragraph ('Their story ring is the last bit of them you still have') is muddled. After a block you can't see their story at all. Say it directly: blocked, their stories vanish, so a person who was in your day is suddenly gone. Unblocked, the ring comes back and it feels like being let in again. Keep the line short and concrete.",
+    "slide 1: 'That no hurts more than the fight did' is the sharpest line but comes too early and is unearned. Move it next to the closer, or add one plain line on why the refusal stings: a password is the one thing you were sure they'd hand over.",
+    "slide 1: Specificity is thin. Add concrete app texture the reader already knows, such as 'Instagram, WhatsApp, Snapchat, all gone in one evening', and the way people check who still follows them. Do not add invented events or numbers.",
+    "slide 1: The rhythm is too even, with seven short paragraphs of similar length. Make one paragraph run longer and slightly messy, in the 'cousin on the drive home' voice, and cut 'Open your own blocked list' down or merge it with the 'mine isn't empty' line so it lands as one wry beat."
+   ]
+  }
+ ],
+ "updated_at": "2026-10-21T02:04:55.866599+00:00",
+ "sources": []
 }

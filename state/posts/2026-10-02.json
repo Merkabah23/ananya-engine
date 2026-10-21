@@ -1,6 +1,6 @@
 {
  "id": "2026-10-02",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-10-23T19:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -45,6 +45,130 @@
    "total": 24
   }
  },
- "history": [],
- "updated_at": "2026-10-20T18:55:12.919955+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "problems": [
+    "Slide 3 has 4 paragraphs; use at most 3."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 3,
+     "specificity": 3,
+     "mechanism": 4,
+     "ending": 4,
+     "voice": 3
+    },
+    "edits": [
+     "slide 1: The hook is a general claim about 'we', so a stranger has no reason to stop. Lead with the concrete event from the sources: a bank manager wouldn't process a pre-approved loan document unless the customer bought a ₹45,000 ULIP-insurance combo. Keep 'Swipe to read →' as the last line. Don't use an invented first-person FD story.",
+     "slide 2: Add the ₹45,000 price, which is in the topic's real_details. Right now this is the best fact in the post and it's missing. Replace 'His condition?' and 'The customer asked for that demand in writing' with plainer, less thread-summary phrasing. Make one line short and punchy, e.g. 'He backed off.'",
+     "slide 4: 'Then the same user watched' reads like a news recap, and 'the same user' is vague. Say 'Same thread: an elderly man was being pitched an endowment plan with his fixed deposit.' Then add one short, warm line in her voice about parents. A quoted 'arre, iski kya zaroorat thi' would add the Hindi texture the post currently lacks.",
+     "slide 3: The line 'That desk stopped being a service desk a while ago' is poster-like, and 'a while ago' is an unsourced timing claim. Cut it or turn it into a direct reader line, e.g. 'You went in for an FD. The desk had a target.' Also note the source frames the 20 Ulips as 'let us say' hypothetical, so keep 'example' and don't make it sound like a real count.",
+     "slide 5: The slides are all similar length and the closing moral is tidy. Break the rhythm with a one-line final slide, and let the auto driver contrast carry the point. Keep the 'isn't rude, it's' construction as the only 'not X, it's Y' in the post. Avoid 'some of us' hedging so the take is sharper."
+    ]
+   },
+   "facts": [
+    "Unsupported fact: 'One couple came in to renew their FDs. Instead, they were offered a Ulip.' (The source only says \"Instead, they were offered a Ulip\" and that people come to the bank to invest in FD products. It does not mention a couple or renewing FDs.). Fix it to match the source or cut it."
+   ]
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Unsupported fact: 'One couple came in to renew their FDs. Instead, they were offered a Ulip.' (The source only says \"Instead, they were offered a Ulip\" and that people come to the bank to invest in FD products. It does not mention a couple or renewing FDs.). Fix it to match the source or cut it.",
+    "slide 1: The hook is a general claim about 'we', so a stranger has no reason to stop. Lead with the concrete event from the sources: a bank manager wouldn't process a pre-approved loan document unless the customer bought a ₹45,000 ULIP-insurance combo. Keep 'Swipe to read →' as the last line. Don't use an invented first-person FD story.",
+    "slide 2: Add the ₹45,000 price, which is in the topic's real_details. Right now this is the best fact in the post and it's missing. Replace 'His condition?' and 'The customer asked for that demand in writing' with plainer, less thread-summary phrasing. Make one line short and punchy, e.g. 'He backed off.'",
+    "slide 4: 'Then the same user watched' reads like a news recap, and 'the same user' is vague. Say 'Same thread: an elderly man was being pitched an endowment plan with his fixed deposit.' Then add one short, warm line in her voice about parents. A quoted 'arre, iski kya zaroorat thi' would add the Hindi texture the post currently lacks.",
+    "slide 3: The line 'That desk stopped being a service desk a while ago' is poster-like, and 'a while ago' is an unsourced timing claim. Cut it or turn it into a direct reader line, e.g. 'You went in for an FD. The desk had a target.' Also note the source frames the 20 Ulips as 'let us say' hypothetical, so keep 'example' and don't make it sound like a real count.",
+    "slide 5: The slides are all similar length and the closing moral is tidy. Break the rhythm with a one-line final slide, and let the auto driver contrast carry the point. Keep the 'isn't rude, it's' construction as the only 'not X, it's Y' in the post. Avoid 'some of us' hedging so the take is sharper."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "specificity": 4,
+     "mechanism": 3,
+     "ending": 3,
+     "voice": 3
+    },
+    "edits": [
+     "slide 1: The opening states the refusal as flat fact, but it is one user's claim in a thread. Attribute it in the hook itself, e.g. 'A Reddit user says his bank manager wouldn't process a pre-approved loan document unless he bought insurance too.' Keep 'Swipe to read →'.",
+     "slide 2: 'says the user in a viral thread' and 'The price of that paperwork?' read like a news summary. Rewrite in Ananya's texting voice, e.g. 'He asked for the demand in writing, on letterhead, so he could take it to the ombudsman. The manager backed off.' Use 'the manager', since the source never gives his gender. Drop 'So they asked' because the user/he pronouns are inconsistent.",
+     "slide 3: 'Bank RMs say sales targets and incentives drive this' is the most reportorial line in the post. Make it sound like a person, and mark the 20 ULIPs as the RM's 'let's say' example, not a real quota. Add one line of Ananya inside the behaviour ('I'd nod too'), since she is meant to be inside it and nothing in the post shows that. 'Someone with a cabin' is a good line, so keep it.",
+     "slide 4: Change 'said banks push insurance' to past tense: 'said banks were pushing insurance on customers who didn't need it', to match the source. The mixer line is the best in the post, so let it breathe. Put the Sitharaman line on its own as a short punch, not as the third item in a stack.",
+     "slide 5: This is advice, which is manual territory, not a mirror. Also, 'auto driver' is a sudden jump out of the bank world. Either cut the auto comparison or tie it back to the branch. End on the feeling, e.g. why 'please write it down' works when 'no' feels rude. The 'isn't rude, it's the only no that works' structure is fine once, but 'the only no that works' overclaims from one thread, so soften it to something like 'the no that worked for him'."
+    ]
+   },
+   "facts": [
+    "Unsupported fact: 'One couple came in to renew their FDs.' (The excerpt only says \"Instead, they were offered a Ulip.\" It does not mention a couple or that they came in to renew FDs.). Fix it to match the source or cut it."
+   ]
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Unsupported fact: 'One couple came in to renew their FDs.' (The excerpt only says \"Instead, they were offered a Ulip.\" It does not mention a couple or that they came in to renew FDs.). Fix it to match the source or cut it.",
+    "slide 1: The opening states the refusal as flat fact, but it is one user's claim in a thread. Attribute it in the hook itself, e.g. 'A Reddit user says his bank manager wouldn't process a pre-approved loan document unless he bought insurance too.' Keep 'Swipe to read →'.",
+    "slide 2: 'says the user in a viral thread' and 'The price of that paperwork?' read like a news summary. Rewrite in Ananya's texting voice, e.g. 'He asked for the demand in writing, on letterhead, so he could take it to the ombudsman. The manager backed off.' Use 'the manager', since the source never gives his gender. Drop 'So they asked' because the user/he pronouns are inconsistent.",
+    "slide 3: 'Bank RMs say sales targets and incentives drive this' is the most reportorial line in the post. Make it sound like a person, and mark the 20 ULIPs as the RM's 'let's say' example, not a real quota. Add one line of Ananya inside the behaviour ('I'd nod too'), since she is meant to be inside it and nothing in the post shows that. 'Someone with a cabin' is a good line, so keep it.",
+    "slide 4: Change 'said banks push insurance' to past tense: 'said banks were pushing insurance on customers who didn't need it', to match the source. The mixer line is the best in the post, so let it breathe. Put the Sitharaman line on its own as a short punch, not as the third item in a stack.",
+    "slide 5: This is advice, which is manual territory, not a mirror. Also, 'auto driver' is a sudden jump out of the bank world. Either cut the auto comparison or tie it back to the branch. End on the feeling, e.g. why 'please write it down' works when 'no' feels rude. The 'isn't rude, it's the only no that works' structure is fine once, but 'the only no that works' overclaims from one thread, so soften it to something like 'the no that worked for him'."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 3,
+     "specificity": 3,
+     "mechanism": 4,
+     "ending": 3,
+     "voice": 3
+    },
+    "edits": [
+     "slide 1: The hook reads like a news recap ('A user in a viral thread says...'). Open on the stakes and the reader instead. Use the ₹45,000 ULIP-insurance combo from the topic, e.g. 'Your loan is pre-approved. The manager still won't process it unless you also buy a ₹45,000 insurance plan.' Then 'One person in a viral thread did not pay.' Keep 'Swipe to read →'.",
+     "slide 3: This is the flattest slide. 'Sales incentives are usually part of their pay' is a report line. Make it a feeling the reader knows, e.g. the person smiling across the desk is also counting their month's number. Keep the 20 ULIPs line as the hypothetical it is in the source ('let's say'), and don't present it as a real quota.",
+     "slide 5: The ending is a quiet summary ('For one user, that was the no that worked'). Replace it with a sharper side-taking line a reader could screenshot. For example, 'Next time your parents are at that desk, the polite thing to say is: can you write that down?' Cut the 'it's not rude, it's just paperwork' construction, or keep it as the post's one use of that pattern and drop the 'banks love paperwork' echo.",
+     "slides 1-5: Every slide has exactly three paragraphs of similar length, which reads like a template. Make one slide a single punchy line (slide 2's 'The manager backed off.' could stand alone) and let another run long and messy. Add one 'I do this too' beat beyond 'I'd nod too', such as the reader's own FD-renewal visit with their parents.",
+     "slide 4: 'FD is exactly the word our parents trust' is good. 'These are people who say arre, iski kya zaroorat thi about a new mixer. Then nod through a policy at the bank' is the best line in the post. Move it earlier, to slide 3, so the mechanism lands before the Sitharaman line. Rewrite the Sitharaman line more plainly and keep it factual: 'In February 2026, the Finance Minister said banks were pushing insurance on people who didn't need it.'"
+    ]
+   },
+   "facts": [
+    "Unsupported fact: 'A couple came to renew their FDs. The bank offered them a Ulip.' (The source only says \"Instead, they were offered a Ulip.\" It does not say they were a couple or that they came to renew FDs.). Fix it to match the source or cut it."
+   ]
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Unsupported fact: 'A couple came to renew their FDs. The bank offered them a Ulip.' (The source only says \"Instead, they were offered a Ulip.\" It does not say they were a couple or that they came to renew FDs.). Fix it to match the source or cut it.",
+    "slide 1: The hook reads like a news recap ('A user in a viral thread says...'). Open on the stakes and the reader instead. Use the ₹45,000 ULIP-insurance combo from the topic, e.g. 'Your loan is pre-approved. The manager still won't process it unless you also buy a ₹45,000 insurance plan.' Then 'One person in a viral thread did not pay.' Keep 'Swipe to read →'.",
+    "slide 3: This is the flattest slide. 'Sales incentives are usually part of their pay' is a report line. Make it a feeling the reader knows, e.g. the person smiling across the desk is also counting their month's number. Keep the 20 ULIPs line as the hypothetical it is in the source ('let's say'), and don't present it as a real quota.",
+    "slide 5: The ending is a quiet summary ('For one user, that was the no that worked'). Replace it with a sharper side-taking line a reader could screenshot. For example, 'Next time your parents are at that desk, the polite thing to say is: can you write that down?' Cut the 'it's not rude, it's just paperwork' construction, or keep it as the post's one use of that pattern and drop the 'banks love paperwork' echo.",
+    "slides 1-5: Every slide has exactly three paragraphs of similar length, which reads like a template. Make one slide a single punchy line (slide 2's 'The manager backed off.' could stand alone) and let another run long and messy. Add one 'I do this too' beat beyond 'I'd nod too', such as the reader's own FD-renewal visit with their parents.",
+    "slide 4: 'FD is exactly the word our parents trust' is good. 'These are people who say arre, iski kya zaroorat thi about a new mixer. Then nod through a policy at the bank' is the best line in the post. Move it earlier, to slide 3, so the mechanism lands before the Sitharaman line. Rewrite the Sitharaman line more plainly and keep it factual: 'In February 2026, the Finance Minister said banks were pushing insurance on people who didn't need it.'"
+   ]
+  }
+ ],
+ "updated_at": "2026-10-21T02:04:55.863991+00:00",
+ "sources": [
+  {
+   "url": "https://www.outlookbusiness.com/economy-and-policy/focus-on-banking-not-insurance-sales-sitharaman-calls-out-banks-over-mis-selling",
+   "fact": "In February 2026, Finance Minister Sitharaman said banks were pushing insurance on customers who did not need it, and that mis-selling is punishable under the BNS.",
+   "excerpt": "a punishable offence under the Bharatiya Nyaya Sanhita (BNS). | focus on their core business instead of aggressively selling insurance products. | spending too much time pushing insurance even when customers did not need it. | unclear why they are being asked to 'de-risk' further by purchasing another insurance policy. | assumed insurance-related matters were overseen by the insurance regulator"
+  },
+  {
+   "url": "https://www.outlookmoney.com/magazine/cover-story/mis-selling-saga-lies-bank-rms-tell-you-to-meet-targets",
+   "fact": "Bank relationship managers say they try to sell insurance to customers who come in for routine products such as FDs, and sales targets and incentives drive this. One couple who came to renew FDs were offered a ULIP.",
+   "excerpt": "People come to our bank to invest in FD products and we try to sell them insurance plans. | Instead, they were offered a Ulip. | Bank RMs often market insurance products as high-return FDs. | Let us say, I have a target to sell 20 Ulips a month and my performance (metrics) is linked to that. | Incentives related to sales usually form a part of their salaries. | ask them why they are recommending it and how it will fit into your overall financial plan. | Review all documents carefully before signing on the dotted line."
+  }
+ ]
 }
