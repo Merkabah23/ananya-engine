@@ -56,8 +56,9 @@ VERIFIED = False              # never draw a tick unless the account is verified
 
 # Publishing
 PAUSED = os.getenv("ENGINE_PAUSED", "false").lower() == "true"
-# Posts wait in Buffer for the owner to approve until the engine has earned trust.
-BUFFER_NEEDS_APPROVAL = os.getenv("BUFFER_NEEDS_APPROVAL", "true").lower() == "true"
+# Buffer's needsApproval flag is only accepted on channels whose posting policy requires approval. This account's
+# channel already lands API posts in drafts for the owner to review, so the flag stays off by default.
+BUFFER_NEEDS_APPROVAL = os.getenv("BUFFER_NEEDS_APPROVAL", "false").lower() == "true"
 DRY_RUN = os.getenv("DRY_RUN", "false").lower() == "true"
 BUFFER_API = "https://api.buffer.com"
 BUFFER_MAX_IMAGES = 10        # Buffer's limit for Instagram carousels

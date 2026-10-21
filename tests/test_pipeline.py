@@ -128,7 +128,7 @@ def test_buffer_input_shape():
     assert inp["dueAt"] == "2026-11-02T14:00:00.000Z"
     assert len(inp["assets"]) == 10
     assert inp["metadata"]["instagram"]["type"] == "post"
-    assert inp["mode"] == "customScheduled" and inp["needsApproval"] is True  # owner approves in Buffer by default
+    assert inp["mode"] == "customScheduled" and inp["needsApproval"] is False  # the channel itself lands posts in drafts
 
 
 def test_sentence_split_keeps_abbreviations():
