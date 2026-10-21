@@ -5,8 +5,9 @@ on:
     - cron: "37 3 19 * *"   # 09:07 IST on the 19th: fetch Reddit (slow, rate-limited) ahead of the monthly run
     - cron: "37 3 20 * *"   # 09:07 IST on the 20th: news scan, scout, filter, plan next month
     - cron: "7 4 * * *"     # 09:37 IST daily: write 3 posts, schedule anything due in 8 days
-    - cron: "45 10 21 10 *" # one-off 16:15 IST on 21 Oct: send the reshaped posts to Buffer (remove after it runs)
-    - cron: "15 12 21 10 *" # one-off backup 17:45 IST on 21 Oct, in case GitHub skips the first (remove after)
+  push:                     # touching .github/run-now starts a daily run (pushes by the workflow itself never re-trigger it)
+    branches: [main]
+    paths: [".github/run-now"]
   workflow_dispatch:
     inputs:
       command:
@@ -83,4 +84,5 @@ jobs:
           git config user.email "engine@users.noreply.github.com"
           git add state/
           git diff --cached --quiet || git commit -m "state: ${{ steps.cmd.outputs.c }} $(date -u +%F)"
+          git pull --rebase origin main   # a push that landed mid-run must not make this run's state get lost
           git push
