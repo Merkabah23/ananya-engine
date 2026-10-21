@@ -7,10 +7,14 @@ from engine import __main__ as cli, config, filter as topic_filter, llm, state  
 
 SLIDES = [
     ["Gill is No. 1 now. Half the group chat went quiet.", "Swipe to read →"],
-    ["Fans picked a side within an hour.", "Nobody wanted to say the old king was slipping, so they argued about strike rates and pitches instead."],
-    ["This generation grew up with one hero on every poster and every phone wallpaper.", "Letting go of him feels like getting old."],
-    ["The quiet half is not angry.", "They are just not ready to switch posters, and arguing about stats is easier than saying that."],
-    ["Every fan base goes through this once.", "Indian cricket is going through it now, in every group chat, every single evening."],
+    ["Fans picked a side within an hour.", "Nobody wanted to say the old king was slipping, so they argued about strike rates instead.", "And everyone in the family has an opinion about it."],
+    ["This generation grew up with one hero on every poster and every phone wallpaper.", "Letting go of him feels like getting old.", "And everyone in the family has an opinion about it."],
+    ["The quiet half is not angry.", "They are just not ready to switch posters, and arguing about stats is easier than saying that.", "And everyone in the family has an opinion about it."],
+    ["Every fan base goes through this once.", "Indian cricket is going through it now, in every group chat, every single evening.", "And everyone in the family has an opinion about it."],
+    ["Look at the comments under any highlight clip. Half of them are about the old numbers, not the match that just happened.", "And everyone in the family has an opinion about it."],
+    ["It is not really about cricket. It is about admitting that the years you spent watching him are now behind you.", "And everyone in the family has an opinion about it."],
+    ["And the new hero will get the same treatment one day, from fans who are still in school right now.", "And everyone in the family has an opinion about it."],
+    ["So the group chat stays quiet for a while. Then someone posts a meme, and everyone starts arguing again.", "And everyone in the family has an opinion about it."],
 ]
 
 
@@ -24,7 +28,7 @@ def fake_call_json(model, user, stage="", **kw):
     if stage == "seen-check":
         return {"verdicts": []}
     if stage == "write":
-        slides = SLIDES[:1] if "a single slide of 30-120 words" in user else SLIDES
+        slides = SLIDES[:1] if "a single slide of 30-70 words" in user else SLIDES
         return {"slides": [{"paragraphs": p} for p in slides], "caption": "Which room was off-limits?",
                 "alt_text": "A text post", "claims": []}
     if stage == "critic":

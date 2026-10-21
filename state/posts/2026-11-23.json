@@ -40,43 +40,61 @@
   "slides": [
    {
     "paragraphs": [
-     "Inflation fell to 0.25% in October, the lowest in a decade. And your phone, the thing you run your entire life on, is still taxed like a treat you don't really need.",
+     "India just decided a scooter is a basic need. The phone you run your whole life on? Still a luxury.",
      "Swipe to read →"
     ]
    },
    {
     "paragraphs": [
-     "GST 2.0's full month showed up in the numbers. Food inflation went deeper negative at -5.02%, the fifth month in a row. Cooking oil, vegetables, fruit, all down. Small cars and two-wheelers went from 28% tax to 18%, and two-wheeler sales jumped almost 52% in the first full month after. Cheaper stuff, people buy more. No mystery there."
+     "GST 2.0's full month showed up in the data. Food inflation went deeper negative, to -5.02%, the fifth month running.",
+     "Cooking oil, vegetables, fruit, all down. The whole index came in at 0.25%."
     ]
    },
    {
     "paragraphs": [
-     "Then the GST Council met on October 8. The phone industry had written in asking for the tax to come down to 5%. The Council kept it at 18%. That's where phones have sat since April 2020. Six and a half years, no movement, while everything around them got re-sorted and relabelled."
+     "Small cars and two-wheelers went from 28% tax to 18%. Two-wheeler sales jumped almost 52% in the first full month after.",
+     "Drop the price, people show up. No surprise there."
     ]
    },
    {
     "paragraphs": [
-     "A tax slab isn't just a number. It's the government telling you what it thinks counts as a basic need. Dal, basic. A scooter, now basic. Your phone, still filed on the same shelf as the stuff you buy to show off."
+     "Then the GST Council met on October 8. The phone industry asked for the tax to drop to 5%. The Council kept it at 18%.",
+     "That's where phones have sat since April 2020. Six and a half years."
     ]
    },
    {
     "paragraphs": [
-     "Which is funny, because try getting through one normal day without it. Your salary lands there. Your rent goes out from there. UPI, the doctor's appointment, your boss's 9pm message, the bus ticket, the bank. The phone stopped being a gadget years ago. It's the counter where your whole life runs."
+     "A tax slab isn't just a number. It's the government telling you what counts as a basic need.",
+     "Dal, basic. A scooter, now basic. Your phone sits on the same shelf as show-off stuff."
     ]
    },
    {
     "paragraphs": [
-     "And it hits hardest the people who have the least room to spare. The delivery guy whose entire income lives inside an app. The woman running her shop off a QR code taped to the wall. For them the phone isn't a want, it's the job itself. The slab doesn't see any of that."
+     "Which is funny. Try getting through one normal day without it.",
+     "Your salary lands there. Your rent goes out from there. UPI, the doctor, your boss's 9pm message, the bus ticket, the bank."
     ]
    },
    {
     "paragraphs": [
-     "So when something gets held at the higher slab, read it as the government's quiet opinion of you. They decided the phone is something you want, not something you need. Everyone holding one for twelve hours a day already knows that's backwards."
+     "The phone stopped being a gadget years ago. It's the counter where your whole life runs.",
+     "And the higher slab hits hardest the people with the least room to spare."
+    ]
+   },
+   {
+    "paragraphs": [
+     "The delivery guy whose income lives inside an app. The woman running her shop off a QR code on the wall.",
+     "For them the phone isn't a want. It's the job itself."
+    ]
+   },
+   {
+    "paragraphs": [
+     "When something gets held at the higher slab, read it as the government's quiet opinion of you.",
+     "It decided the phone is something you want, not something you need. Everyone holding one twelve hours a day knows that's backwards."
     ]
    }
   ],
   "caption": "What's the one thing you use every single day that the tax still treats like a luxury?",
-  "alt_text": "A seven-slide carousel about GST 2.0. It notes that CPI inflation fell to 0.25% in October 2026 and food inflation dropped to -5.02% as GST cuts fed through, small cars and two-wheelers went from 28% to 18% tax, but the GST Council's October 8 meeting kept mobile phones at 18% despite an industry request for 5%. The argument: tax slabs signal what the government counts as a basic need, and phones, essential for work, banking and UPI, are still treated as discretionary.",
+  "alt_text": "A nine-slide carousel about GST 2.0. It notes that CPI inflation fell to 0.25% in October 2026 and food inflation dropped to -5.02% as GST cuts fed through, small cars and two-wheelers went from 28% to 18% tax, but the GST Council's October 8 meeting kept mobile phones at 18% despite an industry request for 5%. The argument: tax slabs signal what the government counts as a basic need, and phones, essential for work, banking and UPI, are still treated as discretionary.",
   "claims": [
    {
     "text": "CPI inflation fell to 0.25% in October, the lowest in a decade",
@@ -106,7 +124,30 @@
     "text": "Phone GST has sat at 18% since April 2020, six and a half years",
     "source_url": "https://dailyfinancial.in/no-gst-cut-on-mobiles-flagship-prices-up-to-47-higher-what-a-5-rate-would-have-saved-on-the-iphone-18-pro-fold-8-and-pixel-11/"
    }
-  ]
+  ],
+  "hook_candidates": [
+   {
+    "type": "vivid_reframe",
+    "hook": "GST just made your dal, your cooking oil, even your scooter cheaper. Your phone stayed taxed like a luxury. The slab is the government's quiet opinion of you."
+   },
+   {
+    "type": "weird_behaviour",
+    "hook": "India just decided a scooter is a basic need — and the phone you run your whole life on is a luxury."
+   },
+   {
+    "type": "before_after",
+    "hook": "Scooters jumped from the luxury tax slab to the basic-need one this month. Your phone's been stuck on the luxury shelf for six and a half years."
+   },
+   {
+    "type": "motive_bust",
+    "hook": "The GST Council didn't hold phones at 18% by accident. It still thinks your phone is something you want, not something you need."
+   },
+   {
+    "type": "rant",
+    "hook": "Enough pretending the phone is a gadget. The government still taxes it like show-off stuff — ask anyone running their whole job off one."
+   }
+  ],
+  "hook_type": "weird_behaviour"
  },
  "sources": [
   {
@@ -128,7 +169,83 @@
  "history": [
   {
    "approved_from": "trial3-2026-10-v2-026"
+  },
+  {
+   "reshaped_on": "2026-10-21",
+   "previous_draft": {
+    "slides": [
+     {
+      "paragraphs": [
+       "Inflation fell to 0.25% in October, the lowest in a decade. And your phone, the thing you run your entire life on, is still taxed like a treat you don't really need.",
+       "Swipe to read →"
+      ]
+     },
+     {
+      "paragraphs": [
+       "GST 2.0's full month showed up in the numbers. Food inflation went deeper negative at -5.02%, the fifth month in a row. Cooking oil, vegetables, fruit, all down. Small cars and two-wheelers went from 28% tax to 18%, and two-wheeler sales jumped almost 52% in the first full month after. Cheaper stuff, people buy more. No mystery there."
+      ]
+     },
+     {
+      "paragraphs": [
+       "Then the GST Council met on October 8. The phone industry had written in asking for the tax to come down to 5%. The Council kept it at 18%. That's where phones have sat since April 2020. Six and a half years, no movement, while everything around them got re-sorted and relabelled."
+      ]
+     },
+     {
+      "paragraphs": [
+       "A tax slab isn't just a number. It's the government telling you what it thinks counts as a basic need. Dal, basic. A scooter, now basic. Your phone, still filed on the same shelf as the stuff you buy to show off."
+      ]
+     },
+     {
+      "paragraphs": [
+       "Which is funny, because try getting through one normal day without it. Your salary lands there. Your rent goes out from there. UPI, the doctor's appointment, your boss's 9pm message, the bus ticket, the bank. The phone stopped being a gadget years ago. It's the counter where your whole life runs."
+      ]
+     },
+     {
+      "paragraphs": [
+       "And it hits hardest the people who have the least room to spare. The delivery guy whose entire income lives inside an app. The woman running her shop off a QR code taped to the wall. For them the phone isn't a want, it's the job itself. The slab doesn't see any of that."
+      ]
+     },
+     {
+      "paragraphs": [
+       "So when something gets held at the higher slab, read it as the government's quiet opinion of you. They decided the phone is something you want, not something you need. Everyone holding one for twelve hours a day already knows that's backwards."
+      ]
+     }
+    ],
+    "caption": "What's the one thing you use every single day that the tax still treats like a luxury?",
+    "alt_text": "A seven-slide carousel about GST 2.0. It notes that CPI inflation fell to 0.25% in October 2026 and food inflation dropped to -5.02% as GST cuts fed through, small cars and two-wheelers went from 28% to 18% tax, but the GST Council's October 8 meeting kept mobile phones at 18% despite an industry request for 5%. The argument: tax slabs signal what the government counts as a basic need, and phones, essential for work, banking and UPI, are still treated as discretionary.",
+    "claims": [
+     {
+      "text": "CPI inflation fell to 0.25% in October, the lowest in a decade",
+      "source_url": "https://www.businessworld.in/article/retail-inflation-hits-10-year-low-of-0-25-in-oct-as-food-prices-plunge-579471"
+     },
+     {
+      "text": "Food inflation fell to -5.02%, the fifth consecutive month of negative food inflation",
+      "source_url": "https://www.freepressjournal.in/business/indias-cpi-inflation-cools-sharply-to-025-in-october-gst-rate-cuts-lower-food-prices-drive-down-consumer-costs"
+     },
+     {
+      "text": "Small cars and two-wheelers are now taxed at 18% instead of 28%",
+      "source_url": "topic"
+     },
+     {
+      "text": "Two-wheeler sales surged nearly 52% in the first full month after the GST simplification",
+      "source_url": "https://www.businessworld.in/article/retail-inflation-hits-10-year-low-of-0-25-in-oct-as-food-prices-plunge-579471"
+     },
+     {
+      "text": "The GST Council's October 8 meeting kept mobile phones at 18%",
+      "source_url": "https://dailyfinancial.in/no-gst-cut-on-mobiles-flagship-prices-up-to-47-higher-what-a-5-rate-would-have-saved-on-the-iphone-18-pro-fold-8-and-pixel-11/"
+     },
+     {
+      "text": "The phone industry had asked for the GST to be cut to 5%",
+      "source_url": "https://dailyfinancial.in/no-gst-cut-on-mobiles-flagship-prices-up-to-47-higher-what-a-5-rate-would-have-saved-on-the-iphone-18-pro-fold-8-and-pixel-11/"
+     },
+     {
+      "text": "Phone GST has sat at 18% since April 2020, six and a half years",
+      "source_url": "https://dailyfinancial.in/no-gst-cut-on-mobiles-flagship-prices-up-to-47-higher-what-a-5-rate-would-have-saved-on-the-iphone-18-pro-fold-8-and-pixel-11/"
+     }
+    ]
+   },
+   "previous_buffer_post_id": null
   }
  ],
- "updated_at": "2026-10-21T08:13:32.957282+00:00"
+ "updated_at": "2026-10-21T10:06:42.020182+00:00"
 }

@@ -4,11 +4,13 @@
 Write one Instagram post in your voice from the topic below. Format: {format_rules}
 
 ## How the post moves (carousels)
-1. Slide 1: the take, plainly. Name the thing. A plain observation or a bold opinion, never a riddle. Then "Swipe to read →" on its own line.
-2. Establish it fast with the named thing and one or two real details or a typical scenario. Half a sentence per fact, then move on.
-3. Show it with concrete, named examples the reader recognises from their own life or feed.
-4. Push it one step further: the part that's funnier, darker or more revealing than the reader expected. One sharp reframe, said once.
-5. Land it, then stop. On business and brand topics, the last slide can say what it means for brands or anyone building in India.
+Each slide is one beat that a reader takes in at a glance, and ends with a reason to swipe.
+1. Slide 1, the hook, in 25 words or fewer: name the thing, put a concrete contradiction the reader can feel up front, and leave the answer for the swipe (an open question or a gap). Never "not X, it's Y", never abstract, never the answer itself. Then "Swipe to read →" on its own line.
+2. Slide 2 starts answering in new words. It never repeats the hook's sentences, but someone who skipped slide 1 can still follow it.
+3. Establish it fast: the named thing and one or two real details or a typical scenario. Half a sentence per fact, then move on.
+4. One or two concrete, named examples the reader recognises make the point. A third only if it adds something new. Never list every place it shows up; once the reader gets it, move on.
+5. Push it one step further: the part that's funnier, darker or more revealing than the reader expected. One sharp reframe, said once.
+6. Land it, then stop. On business and brand topics, the last slide can say what it means for brands or anyone building in India.
 
 Stay with one thought the whole way. Match the mood in the topic: sharp, funny, rant, warm or prediction. A funny topic should actually be funny; a rant can be one long breathless run; a warm one can be soft without being sentimental.
 
@@ -24,9 +26,10 @@ Zoom out. The topic's real_details are evidence; they are never the subject. A t
 - Two layers. The fact layer: only what the sources or real_details say, stated exactly (no statistics, dates, prices or quotes beyond them). The opinion layer: your take, as bold as you like.
 - Quotation marks only for common phrases people say ("wah beta", "log kya kahenge", "settling down"), never for invented words put in a real or specific person's mouth.
 - Never invent a person, scene or anecdote presented as something that happened, and never stitch two separate details into one story.
+- 5th-grade readability, grown-up tone: everyday words, most sentences under 15 words, one idea per line, so a slide can be scanned in two seconds. Concept words like "status" or "EMI" are fine; anything that needs a second read is not. The voice stays the reference creator's: sharp, confident, a little blunt.
 - No bold. Italics (single asterisks) at most once per slide.
 - A dash list ("– item", one item per line inside a paragraph) is fine when listing things.
-- Length: 5 to 8 slides. Slide 1 up to 55 words. Other slides 35-85 words each, roughly even. The whole post 250-550 words.
+- Length: 8 to 10 slides. Slide 1 up to 25 words. Every other slide one beat of 30-40 words (never under 15 or over 45), at most 3 short paragraphs. The whole post 280-330 words. Less to read per screen; the thought stays whole.
 
 ## Topic
 {topic}

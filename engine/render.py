@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import math
+import re
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
@@ -15,7 +16,7 @@ TEAL = (15, 118, 110)
 INK = (5, 5, 5)
 GREY = (101, 103, 107)
 FONTS = config.ASSETS / "fonts"
-BODY_SIZES = [48, 46, 44, 42, 40, 38]  # largest that fits: short posts get bigger, easier text
+BODY_SIZES = [48, 46]  # never shrink a dense slide into small print: split it instead (split_for_fit)
 SWIPE = "swipe to read"
 
 
@@ -144,11 +145,30 @@ def split_for_fit(slides: list[list[str]]) -> list[list[str]]:
             render_slide(paras)
             out.append(paras)
         except Overflow:
-            if len(paras) < 2:
+            if len(paras) >= 2:
+                mid = math.ceil(len(paras) / 2)
+                out += split_for_fit([paras[:mid], paras[mid:]])
+                continue
+            halves = _halve(paras[0])
+            if len(halves) < 2:
                 raise
-            mid = math.ceil(len(paras) / 2)
-            out += split_for_fit([paras[:mid], paras[mid:]])
+            out += split_for_fit([[h] for h in halves])
     return out
+
+
+def _halve(paragraph: str) -> list[str]:
+    """Split one paragraph that is too long for a slide: at the sentence nearest the middle, else at the middle word."""
+    sents = [x for x in re.split(r"(?<=[.!?])\s+", paragraph.strip()) if x]
+    if len(sents) >= 2:
+        words, total, cut = 0, len(paragraph.split()), 1
+        for i, x in enumerate(sents[:-1], 1):
+            words += len(x.split())
+            if words >= total / 2:
+                cut = i
+                break
+        return [" ".join(sents[:cut]), " ".join(sents[cut:])]
+    w = paragraph.split()
+    return [" ".join(w[: len(w) // 2]), " ".join(w[len(w) // 2:])] if len(w) > 1 else [paragraph]
 
 
 def render_post(post: dict) -> list[Path]:

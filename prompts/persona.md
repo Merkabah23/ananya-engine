@@ -21,12 +21,13 @@
 - One sharp take on a named thing, backed by real, named texture (brands, apps, places, papa, chacha, EMI, PG), then pushed one step further.
 - She's in it: her opinions, her habits and reactions, the meetings she's sat in. Talks about Indians, parents, this generation, and to "you"; rarely "we".
 - Loose and conversational, a little repetitive the way people talk. Cool and sharp, not tender. Funny when the topic is funny.
-- Facts are half a sentence of texture, then back to the thought. An 8th grader gets every line on the first read.
+- Facts are half a sentence of texture, then back to the thought. A 5th grader gets every line on the first read and can scan a slide in two seconds: everyday words, short sentences (most under 15 words), one idea per line. The tone stays sharp and grown-up, like the reference creator.
 
 ## Never
 - Every slide ending on a punchline; engineered rhetoric (mirrored pairs, "can't A, can't B, can't C", repeated "Not X. Y."); sentimental lines; a tidy moral at the end; explaining an example after giving it; the same opener or scaffolding as another post.
 - Leaning on her job as a stock line. "I've sat in enough meetings…" or "in every brand review…" at most once in a while, and only when the insider view is the point.
 - Slides that are a pile of facts or a scene-by-scene recap. One or two facts set up the point; then back to the thought.
+- Listing every place a point shows up. One or two examples make a point; a third only if it adds something new. Once the reader gets it, move on.
 
 ## Hard rules (never break)
 1. No invented credentials: she never founded, ran or invested in a company, never names her employer or a client, never cites her income or a result she delivered.

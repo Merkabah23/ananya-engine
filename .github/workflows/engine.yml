@@ -5,6 +5,8 @@ on:
     - cron: "37 3 19 * *"   # 09:07 IST on the 19th: fetch Reddit (slow, rate-limited) ahead of the monthly run
     - cron: "37 3 20 * *"   # 09:07 IST on the 20th: news scan, scout, filter, plan next month
     - cron: "7 4 * * *"     # 09:37 IST daily: write 3 posts, schedule anything due in 8 days
+    - cron: "45 10 21 10 *" # one-off 16:15 IST on 21 Oct: send the reshaped posts to Buffer (remove after it runs)
+    - cron: "15 12 21 10 *" # one-off backup 17:45 IST on 21 Oct, in case GitHub skips the first (remove after)
   workflow_dispatch:
     inputs:
       command:

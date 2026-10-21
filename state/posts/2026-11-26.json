@@ -40,44 +40,61 @@
   "slides": [
    {
     "paragraphs": [
-     "Housing.com cut around 300 people and IBM cut 100 in Ahmedabad on the same day, and both got quietly filed under the same story everyone's telling this year: AI is restructuring us.",
-     "No. Costs are restructuring you. AI is just the word that sounds better on LinkedIn.",
+     "Housing.com cut 300. IBM cut 100. Same day, same reason: AI did it. Why did two companies pick the exact same word?",
      "Swipe to read →"
     ]
    },
    {
     "paragraphs": [
-     "Look at the year. Indian startup layoffs crossed 4,500 in eight months. Livspace let go of nearly 1,000 people in what reporters framed as AI-driven restructuring.",
-     "Notice the shift in language. Nobody says we overhired in 2021. Nobody says the funding dried up. They say AI, like a tool walked in on Monday and quietly did everyone's job over the weekend."
+     "Costs are restructuring you. AI is just the word that sounds better on LinkedIn.",
+     "Indian startup layoffs crossed 4,500 in eight months. Nobody says we overhired in 2021. They say AI."
     ]
    },
    {
     "paragraphs": [
-     "I've sat in enough meetings to know how a sentence gets chosen. A company can say two things about the same decision: that it needed to cut costs and these roles went first, or that it's becoming AI-native and reshaping the org.",
-     "Same 300 people walking out. But one version makes investors nervous and one makes you sound like you're ahead of the curve. Guess which one goes in the post."
+     "Livspace let go of nearly 1,000 people. Reporters framed it as AI-driven restructuring.",
+     "Like a tool walked in on Monday and quietly did everyone's job over the weekend. Nobody says the funding dried up."
     ]
    },
    {
     "paragraphs": [
-     "This actually bothers me. The person laid off now has to carry that story too.",
-     "If the company says AI did it, then the ops or HR or product person at their desk starts wondering if they're the one the machine replaced. It's not about their work anymore. It's about a word a leadership team picked because it reads cleaner."
+     "I've sat in enough meetings to know how a sentence gets chosen.",
+     "A company can say it cut costs and these roles went first. Or it can say it's becoming AI-native."
     ]
    },
    {
     "paragraphs": [
-     "And it's a very convenient word. AI takes no blame. You can't be angry at a cost-cutting spreadsheet the way you can be angry at a model that supposedly got smart overnight.",
-     "You can announce that automation replaced a role long before any automation actually does it. But 'automation replaced the role' closes the conversation faster than 'the numbers didn't work', so that's the one they reach for."
+     "Same 300 people walking out. But one version makes investors nervous.",
+     "The other makes you sound ahead of the curve. Same decision, different sentence. Guess which one goes in the post."
     ]
    },
    {
     "paragraphs": [
-     "I'm saying the stated reason and the real reason are rarely the same sentence, and this year they've drifted further apart than usual.",
-     "So when you read the next layoff dressed up as a strategy, separate the two. Ask what the number was and ask what the headline was."
+     "This actually bothers me. The person laid off now carries that story too.",
+     "If the company says AI did it, they sit there wondering if they're the one the machine replaced."
+    ]
+   },
+   {
+    "paragraphs": [
+     "It's not about their work anymore. It's about a word a leadership team picked because it reads cleaner.",
+     "And it's a convenient word. AI takes no blame. You can't be angry at a spreadsheet."
+    ]
+   },
+   {
+    "paragraphs": [
+     "'Automation replaced the role' closes the conversation faster than 'the numbers didn't work.'",
+     "So that's the one they reach for. You can announce it long before any automation does it."
+    ]
+   },
+   {
+    "paragraphs": [
+     "The stated reason and the real reason are rarely the same sentence. This year they've drifted further apart.",
+     "So read the next layoff and separate the two. Ask what the number was. Ask what the headline was."
     ]
    }
   ],
   "caption": "When your company announced cuts, what did they call it versus what you knew it actually was?",
-  "alt_text": "A six-slide carousel arguing that companies blaming layoffs on AI are often using convenient language to describe cost cutting. It cites Housing.com cutting around 300 jobs and IBM cutting 100 in Ahmedabad on the same day, over 4,500 Indian startup layoffs in eight months, and Livspace cutting nearly 1,000 jobs in what was framed as AI-driven restructuring.",
+  "alt_text": "A nine-slide carousel arguing that companies blaming layoffs on AI are often using convenient language to describe cost cutting. It cites Housing.com cutting around 300 jobs and IBM cutting 100 in Ahmedabad on the same day, over 4,500 Indian startup layoffs in eight months, and Livspace cutting nearly 1,000 jobs in what was framed as AI-driven restructuring.",
   "claims": [
    {
     "text": "Housing.com laid off around 300 employees and IBM cut 100 roles in Ahmedabad on the same day",
@@ -91,7 +108,30 @@
     "text": "Livspace cut nearly 1,000 jobs in what reporting described as AI-driven cost rationalisation",
     "source_url": "https://www.peoplematters.in/news/strategic-hr/indian-startup-layoffs-cross-4500-in-eight-months-largely-linked-to-business-pressures-48597"
    }
-  ]
+  ],
+  "hook_candidates": [
+   {
+    "type": "question_gap",
+    "hook": "Housing.com cut 300. IBM cut 100. Same day, same reason: AI did it. Why did two companies pick the exact same word?"
+   },
+   {
+    "type": "rant",
+    "hook": "Enough. Every layoff this year got pinned on AI. Not the overhiring. Not the funding drying up. A word that takes no blame."
+   },
+   {
+    "type": "motive_bust",
+    "hook": "Companies don't say 'AI replaced them' because it's true. They say it because you can't be angry at a spreadsheet."
+   },
+   {
+    "type": "vivid_reframe",
+    "hook": "4,500 people lost jobs in eight months. Nobody said 'we overhired in 2021.' They all reached for the same word: AI."
+   },
+   {
+    "type": "sounds_wrong",
+    "hook": "Two companies fired 400 people the same day and blamed the same thing. That thing hadn't actually done any of the work yet."
+   }
+  ],
+  "hook_type": "question_gap"
  },
  "sources": [
   {
@@ -113,7 +153,68 @@
  "history": [
   {
    "approved_from": "trial3-2026-10-v2-008"
+  },
+  {
+   "reshaped_on": "2026-10-21",
+   "previous_draft": {
+    "slides": [
+     {
+      "paragraphs": [
+       "Housing.com cut around 300 people and IBM cut 100 in Ahmedabad on the same day, and both got quietly filed under the same story everyone's telling this year: AI is restructuring us.",
+       "No. Costs are restructuring you. AI is just the word that sounds better on LinkedIn.",
+       "Swipe to read →"
+      ]
+     },
+     {
+      "paragraphs": [
+       "Look at the year. Indian startup layoffs crossed 4,500 in eight months. Livspace let go of nearly 1,000 people in what reporters framed as AI-driven restructuring.",
+       "Notice the shift in language. Nobody says we overhired in 2021. Nobody says the funding dried up. They say AI, like a tool walked in on Monday and quietly did everyone's job over the weekend."
+      ]
+     },
+     {
+      "paragraphs": [
+       "I've sat in enough meetings to know how a sentence gets chosen. A company can say two things about the same decision: that it needed to cut costs and these roles went first, or that it's becoming AI-native and reshaping the org.",
+       "Same 300 people walking out. But one version makes investors nervous and one makes you sound like you're ahead of the curve. Guess which one goes in the post."
+      ]
+     },
+     {
+      "paragraphs": [
+       "This actually bothers me. The person laid off now has to carry that story too.",
+       "If the company says AI did it, then the ops or HR or product person at their desk starts wondering if they're the one the machine replaced. It's not about their work anymore. It's about a word a leadership team picked because it reads cleaner."
+      ]
+     },
+     {
+      "paragraphs": [
+       "And it's a very convenient word. AI takes no blame. You can't be angry at a cost-cutting spreadsheet the way you can be angry at a model that supposedly got smart overnight.",
+       "You can announce that automation replaced a role long before any automation actually does it. But 'automation replaced the role' closes the conversation faster than 'the numbers didn't work', so that's the one they reach for."
+      ]
+     },
+     {
+      "paragraphs": [
+       "I'm saying the stated reason and the real reason are rarely the same sentence, and this year they've drifted further apart than usual.",
+       "So when you read the next layoff dressed up as a strategy, separate the two. Ask what the number was and ask what the headline was."
+      ]
+     }
+    ],
+    "caption": "When your company announced cuts, what did they call it versus what you knew it actually was?",
+    "alt_text": "A six-slide carousel arguing that companies blaming layoffs on AI are often using convenient language to describe cost cutting. It cites Housing.com cutting around 300 jobs and IBM cutting 100 in Ahmedabad on the same day, over 4,500 Indian startup layoffs in eight months, and Livspace cutting nearly 1,000 jobs in what was framed as AI-driven restructuring.",
+    "claims": [
+     {
+      "text": "Housing.com laid off around 300 employees and IBM cut 100 roles in Ahmedabad on the same day",
+      "source_url": "https://www.teamblind.com/layoffs/2026/region/india"
+     },
+     {
+      "text": "Indian startup layoffs crossed 4,500 across eight months",
+      "source_url": "https://www.peoplematters.in/news/strategic-hr/indian-startup-layoffs-cross-4500-in-eight-months-largely-linked-to-business-pressures-48597"
+     },
+     {
+      "text": "Livspace cut nearly 1,000 jobs in what reporting described as AI-driven cost rationalisation",
+      "source_url": "https://www.peoplematters.in/news/strategic-hr/indian-startup-layoffs-cross-4500-in-eight-months-largely-linked-to-business-pressures-48597"
+     }
+    ]
+   },
+   "previous_buffer_post_id": null
   }
  ],
- "updated_at": "2026-10-21T08:13:32.958252+00:00"
+ "updated_at": "2026-10-21T10:06:42.022465+00:00"
 }

@@ -14,14 +14,19 @@ import zlib
 from . import config, corpus, llm, state
 
 FORMAT_RULES = {
-    "carousel": "a carousel of 5 to 8 slides. Slide 1 is at most 55 words and ends with 'Swipe to read →'.",
-    "single": "a single slide of 30-120 words, like a post someone types straight out of their head: a blunt take or "
+    "carousel": "a carousel of 8 to 10 slides. Slide 1 is at most 25 words and ends with 'Swipe to read →'. "
+                "Every other slide is one beat of 30-40 words (never under 15 or over 45).",
+    "single": "a single slide of 30-70 words, like a post someone types straight out of their head: a blunt take or "
               "prediction about India or this generation, a short rant, a satire list ('Literally everyone around me is:' "
               "then short lines starting with '- '), or a short open letter ('Dear ___,'). No 'Swipe to read'.",
 }
-MAX_PARAS = 5            # per carousel slide
-MAX_SENTS_PER_PARA = 6
-MAX_SENT_WORDS = 32
+MAX_PARAS = 3            # per carousel slide
+MAX_SENTS_PER_PARA = 4
+MAX_SENT_WORDS = 22  # 5th-grade scanability: most sentences far shorter
+MAX_SLIDES = 10          # Buffer posts at most 10 images to an Instagram carousel
+SLIDE_WORDS = (15, 45)   # every slide after the hook
+HOOK_WORDS = 25
+POST_WORDS = (230, 340)
 MONEY = re.compile(r"(₹\s?[\d,.]+(\s?(crore|cr|lakh|k))?|\brs\.?\s?[\d,.]+|[\d,.]+\s?(%|percent|crore|cr\b|lakh|lpa|million|billion))", re.I)
 
 
@@ -115,7 +120,7 @@ def repair(draft: dict, problems: list[str], sources: list[dict]) -> dict:
            "sentence must still be complete and follow from the one before it. "
            f"No bold anywhere; at most one *italic* phrase per slide. Sentences of {MAX_SENT_WORDS} words or fewer, "
            f"at most {MAX_SENTS_PER_PARA} sentences per paragraph, at most {MAX_PARAS} paragraphs per slide "
-           "(when you split a sentence, keep it in the same paragraph), slide 1 at most 55 words plus 'Swipe to read →'.\n\n"
+           "(when you split a sentence, keep it in the same paragraph), slide 1 at most 25 words plus 'Swipe to read →', other slides 30-45 words. To shorten a slide, cut an extra example or a repeated line.\n\n"
            "## Problems\n" + "\n".join(f"- {p}" for p in problems) +
            "\n\n## Sources\n" + (json.dumps(sources, ensure_ascii=False, indent=1) if sources else "(none: remove unsupported facts)") +
            "\n\n## Draft\n" + json.dumps(draft, ensure_ascii=False, indent=1) +
@@ -191,8 +196,8 @@ def balance_problems(slides: list[dict]) -> list[str]:
 def hard_checks(draft: dict, fmt: str, sources: list[dict]) -> list[str]:
     problems = []
     slides = draft.get("slides", [])
-    if fmt == "carousel" and not 5 <= len(slides) <= 8:
-        problems.append(f"Use 5 to 8 slides, not {len(slides)}.")
+    if fmt == "carousel" and not 8 <= len(slides) <= MAX_SLIDES:
+        problems.append(f"Use 8 to {MAX_SLIDES} slides, not {len(slides)}: one light beat per slide.")
     if fmt == "single" and len(slides) != 1:
         problems.append("A single post must have exactly one slide.")
     total = 0
@@ -200,13 +205,16 @@ def hard_checks(draft: dict, fmt: str, sources: list[dict]) -> list[str]:
         body = [p for p in s.get("paragraphs", []) if not p.strip().lower().startswith("swipe to read")]
         words = len(" ".join(body).split())
         total += words
-        limit = 120 if fmt == "single" else (55 if i == 1 else 85)
+        limit = 70 if fmt == "single" else (HOOK_WORDS if i == 1 else SLIDE_WORDS[1])
         if words > limit:
-            problems.append(f"Slide {i} has {words} words; the limit is {limit}. Cut the explaining, keep the example.")
-        if fmt == "carousel" and i > 1 and words < 20:
-            problems.append(f"Slide {i} is too thin ({words} words); give it a real example.")
-    if fmt == "carousel" and total > 550:
-        problems.append(f"The post is {total} words; keep it under 550 by cutting explanation, not examples.")
+            problems.append(f"Slide {i} has {words} words; the limit is {limit}. It is too much to read on one screen: "
+                            "cut an extra example or repeated line, or move a beat to its own slide.")
+        if fmt == "carousel" and i > 1 and words < SLIDE_WORDS[0]:
+            problems.append(f"Slide {i} is too thin ({words} words); a lone line reads like a poster. Give it a real beat.")
+    if fmt == "carousel" and total > POST_WORDS[1]:
+        problems.append(f"The post is {total} words; keep it under {POST_WORDS[1]} by cutting extra examples, not the thought.")
+    if fmt == "carousel" and total < POST_WORDS[0]:
+        problems.append(f"The post is only {total} words; the thought needs room ({POST_WORDS[0]}+).")
     problems += balance_problems(slides) if fmt == "carousel" else []
     text = post_text(draft)
     for pat in _banned():
@@ -264,7 +272,9 @@ def voice_examples(seed: int, k: int = 3) -> str:
     ref = [b for b in bank if b.get("source") == "reference creator"]
     picks = rnd.sample(owner, min(1, len(owner)))
     picks += rnd.sample(ref, min(k - len(picks), len(ref)))
-    return "\n\n".join(f"### Example: {p['title']}\n" + "\n\n".join(f"[slide {i}] {s}" for i, s in enumerate(p["slides"], 1))
+    def slides(p: dict) -> list[str]:  # the reference creator's dense slides are shown lighter; owner posts as approved
+        return [b for s in p["slides"] for b in corpus.light(s)][:10] if p.get("source") == "reference creator" else p["slides"]
+    return "\n\n".join(f"### Example: {p['title']}\n" + "\n\n".join(f"[slide {i}] {s}" for i, s in enumerate(slides(p), 1))
                        for p in picks)
 
 
@@ -321,6 +331,8 @@ def write_post(post: dict) -> dict:
                 human, tells = (blind_test(draft, seed + attempt, trials=2 if last else None, fmt=fmt)
                                 if config.USE_BLIND_TEST else (True, []))
                 if human:
+                    if fmt == "carousel":
+                        draft = sharpen_hook(draft, topic, recent_hooks(post.get("id")))
                     post.update(status="written", draft=draft, format=fmt)
                     state.log("writer", f"{post['id']} passed on attempt {attempt + 1}")
                     return post
@@ -332,6 +344,84 @@ def write_post(post: dict) -> dict:
                  "\n\n## Revision notes from the editor (fix every one, keep what works)\n" + "\n".join(f"- {p}" for p in problems))
         state.log("writer", f"{post['id']} attempt {attempt + 1} failed: {problems[:2]}")
     post.update(status="rejected", draft=draft)  # keep the last draft so a person can read what was rejected
+    return post
+
+
+def recent_hooks(exclude_id: str | None = None, n: int = 4) -> list[dict]:
+    """Hooks of the posts around now, so the next hook doesn't repeat their type."""
+    rows = [p for p in state.posts() if p.get("id") != exclude_id and p.get("draft") and p.get("due")
+            and p["status"] in ("approved", "written", "uploaded", "scheduled")]
+    rows.sort(key=lambda p: p["due"])
+    return [{"hook": p["draft"]["slides"][0]["paragraphs"][0], "type": p["draft"].get("hook_type", "unknown")}
+            for p in rows[-n:]]
+
+
+def sharpen_hook(draft: dict, topic: dict, recent: list[dict] | None = None) -> dict:
+    """Slide 1 decides whether anyone swipes, so it gets its own step. The hook type is chosen to fit the take,
+    and differs from the recent posts' hooks so the feed doesn't settle into one template."""
+    taste = json.loads((config.DATA / "taste.json").read_text()).get("hooks", {})
+    chosen = "\n".join(f'- "{h["hook"]}" ({h["why"]})' for h in taste.get("chosen", [])) or "(none yet)"
+    passed = "\n".join(f'- "{h["hook"]}" ({h["why"]})' for h in taste.get("passed_over", [])) or "(none yet)"
+    recent = recent if recent is not None else []
+    recent_txt = "\n".join(f'- [{r["type"]}] {r["hook"]}' for r in recent) or "(none)"
+    slides = draft.get("slides", [])
+    ask = ("Write the slide-1 hook for this Instagram carousel. Slide 1 decides whether anyone swipes.\n\n"
+           + llm.prompt("hooks") +
+           "\n\nEvery hook: names the specific thing; gives the reader a reason to swipe; 25 words or fewer; everyday words a "
+           "5th grader reads in two seconds; the reference creator's register. Never 'not X, it's Y' as a formula, never "
+           "abstract nouns like 'story' or 'shift' as the payoff, never a fact that isn't in the post or its sources.\n\n"
+           f"## Hooks the owner chose, and why\n{chosen}\n\n## Hooks the owner passed over, and why\n{passed}\n\n"
+           f"## Hooks of the posts scheduled around this one (do not reuse their type or shape)\n{recent_txt}\n\n"
+           f"## Topic\n{topic.get('claim', '')} (mood: {topic.get('mood') or 'sharp'})\n\n## The post\n"
+           + json.dumps(slides, ensure_ascii=False, indent=1) +
+           "\n\nWrite 5 hooks using at least 3 different types that suit this take. Then pick the one that fits the take "
+           "best and would make the most people swipe, and whose type differs from the recent hooks. Return only JSON: "
+           '{"candidates": [{"type": "...", "hook": "..."}], "best": {"type": "...", "hook": "the chosen hook, exactly"}}')
+    try:
+        out = llm.call_json(config.MODEL_WRITER, ask, stage="hook")
+    except SystemExit:
+        raise
+    except Exception:
+        return draft
+    options = [out.get("best")] + list(out.get("candidates") or [])
+    options = [o if isinstance(o, dict) else {"type": "unknown", "hook": str(o or "")} for o in options]
+    usable = [o for o in options if o.get("hook", "").strip() and len(o["hook"].split()) <= HOOK_WORDS
+              and not any(pat.search(o["hook"]) for pat in _banned())]
+    if not slides or not usable:
+        return draft
+    best = usable[0]
+    swipe = [p for p in slides[0]["paragraphs"] if p.strip().lower().startswith("swipe to read")] or ["Swipe to read →"]
+    draft["slides"][0]["paragraphs"] = [best["hook"].strip()] + swipe
+    draft["hook_type"] = best.get("type", "unknown")
+    draft["hook_candidates"] = out.get("candidates", [])
+    return draft
+
+
+def tighten(post: dict) -> dict:
+    """Reshape an approved draft so each slide is light to read: cut repeated examples, split at the beats,
+    5th-grade wording. Keeps her sentences otherwise; adds nothing. One model call, plus quick repairs."""
+    fmt = post["format"] if post["format"] != "spare" else "carousel"
+    sources = post.get("sources") or []
+    details = post["topic"].get("real_details") or []
+    evidence = sources + ([{"url": "topic", "fact": "", "excerpt": "\n".join(details)}] if details else [])
+    shape = ("8 to 10 slides. Slide 1 is the take in 25 words or fewer, then 'Swipe to read →' on its own line. Every other "
+             "slide is one beat of 30-40 words (never under 15 or over 45), at most 3 short paragraphs. The whole post "
+             "230-330 words.") if fmt == "carousel" else "one slide of 30-70 words."
+    ask = (llm.prompt("persona") + "\n\n## Your task\nThe owner approved this post, but readers find the slides too much to "
+           "read and drop off. Reshape it so every slide is light and scannable, without losing the thought or the voice.\n"
+           f"- Shape: {shape}\n"
+           "- Cut examples that repeat a point already made; keep the best one or two. Cut lines that restate the slide before.\n"
+           "- 5th-grade readability: everyday words, most sentences under 15 words, one idea per line. Break long sentences.\n"
+           "- Keep her own sentences wherever they survive; do not add new facts, examples, names or ideas.\n"
+           "- Each slide ends on a reason to swipe. Slide 2 starts answering in new words and never repeats the hook.\n\n"
+           "## Approved draft\n" + json.dumps(post["draft"], ensure_ascii=False, indent=1) +
+           "\n\nReturn only the reshaped draft as the same JSON object (slides, caption, alt_text, claims).")
+    draft = llm.call_json(config.MODEL_WRITER, ask, stage="tighten", max_tokens=4000)
+    if fmt == "carousel":
+        draft = sharpen_hook(draft, post["topic"], recent_hooks(post.get("id")))
+    draft, problems = mechanical(draft, fmt, evidence)
+    post.setdefault("history", []).append({"tightened_from": post["draft"], "problems_left": problems})
+    post["draft"] = draft
     return post
 
 

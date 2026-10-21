@@ -41,12 +41,14 @@ def produce(month: str | None = None, limit: int | None = None) -> None:
              and datetime.fromisoformat(p["due"]).astimezone(timezone.utc).isoformat() > soon  # skip missed slots
              and (month is None or p["id"].startswith(month))]
     queue.sort(key=lambda p: p["due"])
+    # Owner-approved drafts cost no model calls, so they render without using up the per-run writing limit.
+    ready, queue = [p for p in queue if p["status"] == "approved"], [p for p in queue if p["status"] != "approved"]
     attempts = 0
-    while queue and (limit is None or attempts < limit):
-        # Write a batch of posts in parallel; each is independent.
+    while ready or (queue and (limit is None or attempts < limit)):
         room = config.PARALLEL if limit is None else min(config.PARALLEL, limit - attempts)
         batch, queue = queue[:room], queue[room:]
         attempts += len(batch)
+        batch, ready = ready + batch, []
         # Drafts the owner already approved skip the writer and go straight to rendering.
         results = llm.pmap(lambda p: p if p["status"] == "approved" else writer.write_post(p), batch)
         for post, result in zip(batch, results):

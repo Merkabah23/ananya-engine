@@ -6,7 +6,10 @@
   "Plain and observational, like a sharp person talking. Not poetic, not sentimental, not a sociology essay.",
   "Brands, business, creators and money are core subjects, told so an ordinary customer cares.",
   "Facts are texture that establish the point; the thought is the post.",
-  "Feels like the reference creator's range and register, without copying his topics."
+  "Feels like the reference creator's range and register, without copying his topics.",
+  "Light to read: one beat per slide, about 30-40 words, 8-10 slides. Readers drop off on dense slides.",
+  "One or two examples make a point; never list every place it shows up (owner feedback on the QR post).",
+  "Hook: a concrete contradiction or a vivid reframe of what people actually did, with a reason to swipe (an open question, or a bigger stake still to be explained). Never the formulaic 'not X, it's Y', never abstract."
  ],
  "approved": [
   {
@@ -151,5 +154,28 @@
    "why": "Owner killed; reason not given.",
    "post": "trial2-2026-10-v2-033"
   }
- ]
+ ],
+ "hooks": {
+  "_note": "Slide-1 hooks the owner chose between. The hook step learns from these.",
+  "chosen": [
+   {
+    "hook": "India's best-selling phone costs more than most Indians earn in a month. So how is everyone affording it?",
+    "why": "A concrete contradiction the reader can feel, then an open question: the answer is behind the swipe."
+   },
+   {
+    "hook": "Nobody bought an iPhone 17 this Diwali. They bought twelve payments of ₹8,667. That's a much bigger story than Apple.",
+    "why": "A vivid, concrete reframe of what people actually did ('twelve payments of ₹8,667'), plus a bigger stake ('a much bigger story than Apple') that pulls you to slide 2."
+   }
+  ],
+  "passed_over": [
+   {
+    "hook": "The iPhone 17 is India's best-selling phone right now. That's not an Apple story. It's a credit story.",
+    "why": "Weak: 'not X, it's Y' formula, abstract ('credit story'), nothing at stake; owner would not swipe."
+   },
+   {
+    "hook": "Your iPhone didn't cost ₹99,900. It cost ₹8,667 a month. That's the trick the whole festive sale runs on.",
+    "why": "Gives the answer away on slide 1."
+   }
+  ]
+ }
 }

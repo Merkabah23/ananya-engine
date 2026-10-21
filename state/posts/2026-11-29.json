@@ -50,43 +50,67 @@
   "slides": [
    {
     "paragraphs": [
-     "Engineering into an IT job was the safest bet an Indian family could make. Paper degree, campus placement, maybe an onsite stint, done. This year that bet is quietly coming apart. Fresher hiring in IT is down roughly 80% from its peak, and a whole generation is finding out that safe isn't safe anymore.",
+     "IT firms once hired 600,000 freshers a year. Now it's about 120,000. The one job your parents swore was safe just cracked.",
      "Swipe to read →"
     ]
    },
    {
     "paragraphs": [
-     "Look at the size of the drop. Fresher intake went from a peak of 600,000 in FY22 to about 120,000 in FY25, going by Xpheno. That's not a bad quarter, that's the whole floor moving.",
-     "This was the plan papa and chacha agreed on without a single argument. Science stream, B.Tech, a service company, a stable salary by 22. The one path in an Indian house that nobody debated at dinner, because everyone already knew it worked."
+     "Look at the drop. Fresher intake fell from a peak of 600,000 in FY22 to about 120,000 in FY25, going by Xpheno.",
+     "That's roughly 80% gone. Not a bad quarter. The whole floor moving."
     ]
    },
    {
     "paragraphs": [
-     "Wipro trimmed its fresher guidance to 7,500 to 8,000. Oracle cut around 10,000 India jobs, the terminations sent by email at 6 AM. Qualcomm is doing its own round.",
-     "And the ones still technically hired are stuck in the worst place. Nearly a thousand candidates at Tech Mahindra are waiting on joining letters, and over 200 Wipro recruits were told their onboarding is deferred. Not rejected, not working. Just a boy at home holding an offer that means nothing yet, telling relatives he's joining soon."
+     "This was the plan papa and chacha agreed on without a single argument. Science stream, B.Tech, a service company, stable salary by 22.",
+     "The one path nobody debated at dinner, because everyone knew it worked."
     ]
    },
    {
     "paragraphs": [
-     "The exact thing that made this career feel safe is the thing killing it. It was safe because they hired in bulk, thousands of freshers for repetitive, entry-level work. That bulk is precisely what AI restructuring eats first. The safety was the vulnerability the whole time.",
-     "Meanwhile over 12,700 people who went abroad came back this year, loaded with AI and cloud skills, now competing for the same shrinking set of desks."
+     "Now look who's cutting. Wipro trimmed its fresher guidance to 7,500 to 8,000.",
+     "Oracle cut around 10,000 India jobs, the terminations sent by email at 6 AM. Qualcomm is doing its own round."
     ]
    },
    {
     "paragraphs": [
-     "And the cruel bit is who has to absorb it. Not the parents who picked the path. The 22-year-old who scored the way he was told, cracked the placement, and still ended up explaining a gap year he didn't choose.",
-     "The parents aren't villains here. They optimised for the world they knew, where this degree meant a letter and a salary and an end to log kya kahenge. The map was right for thirty years. It just stopped matching the ground this year."
+     "The ones still technically hired are stuck in the worst place. Nearly a thousand at Tech Mahindra are waiting on joining letters.",
+     "Over 200 Wipro recruits had onboarding deferred. Not rejected, not working."
     ]
    },
    {
     "paragraphs": [
-     "So the real shift isn't 25,000 to 35,000 jobs going in 2026. It's that the one career Indian families treated as risk-free has joined every other career as a bet. There is no lane left that you can point your kid at and stop thinking.",
-     "If you're a parent now, the honest thing is harder than the old plan. You can't hand a child one safe answer anymore."
+     "Just a boy at home holding an offer that means nothing yet. Telling relatives he's joining soon.",
+     "And the exact thing that made this career feel safe is the thing killing it now."
+    ]
+   },
+   {
+    "paragraphs": [
+     "It was safe because they hired in bulk. Thousands of freshers for repetitive, entry-level work.",
+     "That bulk is exactly what AI restructuring eats first. The safety was the vulnerability the whole time."
+    ]
+   },
+   {
+    "paragraphs": [
+     "And the desks are getting more crowded. Over 12,700 people who went abroad came back this year.",
+     "Loaded with AI and cloud skills. Now competing for the same shrinking set of chairs."
+    ]
+   },
+   {
+    "paragraphs": [
+     "And the cruel bit is who absorbs it. Not the parents who picked the path.",
+     "The 22-year-old who scored the way he was told, and still explains a gap year he didn't choose."
+    ]
+   },
+   {
+    "paragraphs": [
+     "So the real shift isn't 25,000 to 35,000 jobs in 2026. It's that the one career families treated as risk-free is now just a bet.",
+     "If you're a parent, you can't hand a child one safe answer anymore."
     ]
    }
   ],
   "caption": "What was the one safe career your family picked for you, and does it still look safe?",
-  "alt_text": "A six-slide text carousel about India's 2026 IT fresher hiring collapse. It argues that engineering into an IT job, long treated as the safest career path by Indian families, is no longer safe, citing an 80% drop in fresher hiring, Oracle and Qualcomm layoffs, deferred onboarding, and thousands of workers returning from the US.",
+  "alt_text": "A ten-slide text carousel about India's 2026 IT fresher hiring collapse. It argues that engineering into an IT job, long treated as the safest career path by Indian families, is no longer safe, citing an 80% drop in fresher hiring, Oracle and Qualcomm layoffs, deferred onboarding, and thousands of workers returning from the US.",
   "claims": [
    {
     "text": "Fresher hiring in India's IT sector has fallen roughly 80% from its peak",
@@ -120,7 +144,30 @@
     "text": "India's IT sector is shedding an estimated 25,000 to 35,000 jobs in 2026",
     "source_url": "topic"
    }
-  ]
+  ],
+  "hook_candidates": [
+   {
+    "type": "before_after",
+    "hook": "Five years ago IT firms hired 600,000 freshers a year. This year, 120,000. The one job your parents swore was safe just cracked."
+   },
+   {
+    "type": "open_letter",
+    "hook": "Dear parents who picked B.Tech so your kid would be safe: that exact path cut its fresher hiring from 600,000 a year to 120,000."
+   },
+   {
+    "type": "vivid_reframe",
+    "hook": "A 22-year-old did everything right — science, B.Tech, the offer letter. Now he's home, explaining a gap year he never chose."
+   },
+   {
+    "type": "bold_reframe",
+    "hook": "The one career nobody argued about at dinner just cut 80% of its fresher hiring in four years."
+   },
+   {
+    "type": "sounds_wrong",
+    "hook": "The safest career your parents ever picked became the first one AI came for. And I know how that sounds."
+   }
+  ],
+  "hook_type": "before_after"
  },
  "sources": [
   {
@@ -142,7 +189,87 @@
  "history": [
   {
    "approved_from": "trial3-2026-10-v2-029"
+  },
+  {
+   "reshaped_on": "2026-10-21",
+   "previous_draft": {
+    "slides": [
+     {
+      "paragraphs": [
+       "Engineering into an IT job was the safest bet an Indian family could make. Paper degree, campus placement, maybe an onsite stint, done. This year that bet is quietly coming apart. Fresher hiring in IT is down roughly 80% from its peak, and a whole generation is finding out that safe isn't safe anymore.",
+       "Swipe to read →"
+      ]
+     },
+     {
+      "paragraphs": [
+       "Look at the size of the drop. Fresher intake went from a peak of 600,000 in FY22 to about 120,000 in FY25, going by Xpheno. That's not a bad quarter, that's the whole floor moving.",
+       "This was the plan papa and chacha agreed on without a single argument. Science stream, B.Tech, a service company, a stable salary by 22. The one path in an Indian house that nobody debated at dinner, because everyone already knew it worked."
+      ]
+     },
+     {
+      "paragraphs": [
+       "Wipro trimmed its fresher guidance to 7,500 to 8,000. Oracle cut around 10,000 India jobs, the terminations sent by email at 6 AM. Qualcomm is doing its own round.",
+       "And the ones still technically hired are stuck in the worst place. Nearly a thousand candidates at Tech Mahindra are waiting on joining letters, and over 200 Wipro recruits were told their onboarding is deferred. Not rejected, not working. Just a boy at home holding an offer that means nothing yet, telling relatives he's joining soon."
+      ]
+     },
+     {
+      "paragraphs": [
+       "The exact thing that made this career feel safe is the thing killing it. It was safe because they hired in bulk, thousands of freshers for repetitive, entry-level work. That bulk is precisely what AI restructuring eats first. The safety was the vulnerability the whole time.",
+       "Meanwhile over 12,700 people who went abroad came back this year, loaded with AI and cloud skills, now competing for the same shrinking set of desks."
+      ]
+     },
+     {
+      "paragraphs": [
+       "And the cruel bit is who has to absorb it. Not the parents who picked the path. The 22-year-old who scored the way he was told, cracked the placement, and still ended up explaining a gap year he didn't choose.",
+       "The parents aren't villains here. They optimised for the world they knew, where this degree meant a letter and a salary and an end to log kya kahenge. The map was right for thirty years. It just stopped matching the ground this year."
+      ]
+     },
+     {
+      "paragraphs": [
+       "So the real shift isn't 25,000 to 35,000 jobs going in 2026. It's that the one career Indian families treated as risk-free has joined every other career as a bet. There is no lane left that you can point your kid at and stop thinking.",
+       "If you're a parent now, the honest thing is harder than the old plan. You can't hand a child one safe answer anymore."
+      ]
+     }
+    ],
+    "caption": "What was the one safe career your family picked for you, and does it still look safe?",
+    "alt_text": "A six-slide text carousel about India's 2026 IT fresher hiring collapse. It argues that engineering into an IT job, long treated as the safest career path by Indian families, is no longer safe, citing an 80% drop in fresher hiring, Oracle and Qualcomm layoffs, deferred onboarding, and thousands of workers returning from the US.",
+    "claims": [
+     {
+      "text": "Fresher hiring in India's IT sector has fallen roughly 80% from its peak",
+      "source_url": "https://www.businesstoday.in/technology/story/indian-its-fresher-hiring-slump-signals-structural-shift-not-just-slowdown-521374-2026-03-21"
+     },
+     {
+      "text": "Fresher intake fell from a peak of 600,000 in FY22 to about 120,000 in FY25, per Xpheno",
+      "source_url": "https://www.businesstoday.in/technology/story/indian-its-fresher-hiring-slump-signals-structural-shift-not-just-slowdown-521374-2026-03-21"
+     },
+     {
+      "text": "Wipro reduced its fresher hiring guidance to 7,500 to 8,000",
+      "source_url": "https://www.businesstoday.in/technology/story/indian-its-fresher-hiring-slump-signals-structural-shift-not-just-slowdown-521374-2026-03-21"
+     },
+     {
+      "text": "Nearly 1,000 candidates at Tech Mahindra are still awaiting joining letters, and more than 200 Wipro recruits flagged deferred onboarding",
+      "source_url": "https://www.businesstoday.in/technology/story/indian-its-fresher-hiring-slump-signals-structural-shift-not-just-slowdown-521374-2026-03-21"
+     },
+     {
+      "text": "Oracle eliminated approximately 10,000 Indian positions, deploying terminations via email at 6 AM",
+      "source_url": "https://offcampusjobs4u.com/india-job-market-today-21-oct-2026/"
+     },
+     {
+      "text": "Qualcomm is cutting jobs following its annual reviews, affecting its large India engineering hubs",
+      "source_url": "https://offcampusjobs4u.com/india-job-market-today-21-oct-2026/"
+     },
+     {
+      "text": "Around 12,700 Indian tech professionals had returned from the US to India by September 2026",
+      "source_url": "https://americanbazaaronline.com/2026/10/19/over-12000-indian-tech-professionals-leave-us-as-visa-uncertainty-layoffs-mount-490368/"
+     },
+     {
+      "text": "India's IT sector is shedding an estimated 25,000 to 35,000 jobs in 2026",
+      "source_url": "topic"
+     }
+    ]
+   },
+   "previous_buffer_post_id": null
   }
  ],
- "updated_at": "2026-10-21T08:13:32.959266+00:00"
+ "updated_at": "2026-10-21T10:06:42.024677+00:00"
 }

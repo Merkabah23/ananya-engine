@@ -51,6 +51,21 @@ def unwrap(slide: str) -> str:
     return re.sub(r"\s+", " ", slide).strip()
 
 
+def light(text: str, cap: int = 40) -> list[str]:
+    """Show a dense reference slide as lighter slides (split at sentences, words unchanged), so the writer copies
+    the tone without copying the density readers drop off on."""
+    sents = [x for x in re.split(r"(?<=[.!?])\s+", text) if x]
+    out, cur = [], []
+    for x in sents:
+        if cur and len(" ".join(cur + [x]).split()) > cap:
+            out.append(" ".join(cur))
+            cur = []
+        cur.append(x)
+    if cur:
+        out.append(" ".join(cur))
+    return out or [text]
+
+
 def rhythm_examples(k: int = 3, exclude_territory: str | None = None, seed: int | None = None,
                     fmt: str = "carousel") -> str:
     """Full text of a few of his posts in the same format, for tone. Never the same territory as the topic."""
@@ -60,7 +75,8 @@ def rhythm_examples(k: int = 3, exclude_territory: str | None = None, seed: int 
     picks = rnd.sample(pool, min(k, len(pool)))
     blocks = []
     for i, p in enumerate(picks, 1):
-        body = "\n\n".join(f"[slide {j + 1}] {unwrap(s)}" for j, s in enumerate(p["slides"][:8]))
+        beats = [b for s in p["slides"][:8] for b in light(unwrap(s))]
+        body = "\n\n".join(f"[slide {j + 1}] {b}" for j, b in enumerate(beats[:10]))
         blocks.append(f"### Example {i}\n{body}")
     return "\n\n".join(blocks)
 
