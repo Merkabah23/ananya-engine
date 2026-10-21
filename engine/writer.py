@@ -97,9 +97,11 @@ def verify_facts(draft: dict, sources: list[dict]) -> list[str]:
 def repair(draft: dict, problems: list[str], sources: list[dict]) -> dict:
     """Smallest possible edit that fixes the listed problems. Fast model; content and voice stay as they are."""
     ask = ("Edit this Instagram carousel draft to fix ONLY the problems listed. Make the smallest change that fixes each one: "
-           "split a long sentence, remove a ** bold marker, cut or reword a single phrase, replace an unsupported fact "
-           "with what the sources actually say or remove it. Do not rewrite anything else. Keep every slide's meaning and voice. "
+           "split a long sentence, remove a ** bold marker, cut or reword a single phrase. For an unsupported fact, restate it "
+           "exactly as a source says it, or delete the sentence; never replace it with a new scene, person, event or quote. "
+           "Do not rewrite anything else. Keep every slide's meaning and voice. "
            "No bold anywhere; at most one *italic* phrase per slide. Sentences of 18 words or fewer, at most 2 sentences per paragraph, "
+           "at most 3 paragraphs per slide (when you split a sentence, keep it in the same paragraph if that stays within 2 sentences), "
            "slide 1 at most 25 words plus 'Swipe to read →'.\n\n"
            "## Problems\n" + "\n".join(f"- {p}" for p in problems) +
            "\n\n## Sources\n" + (json.dumps(sources, ensure_ascii=False, indent=1) if sources else "(none: remove unsupported facts)") +
@@ -114,13 +116,31 @@ def repair(draft: dict, problems: list[str], sources: list[dict]) -> dict:
         return draft
 
 
+def merge_paragraphs(draft: dict, fmt: str) -> dict:
+    """Join adjacent short paragraphs until each carousel slide has at most 3. Text is unchanged, only the breaks move.
+
+    Splitting long sentences (a repair) tends to add paragraphs, so this runs after every repair."""
+    if fmt != "carousel":
+        return draft
+    for s in draft.get("slides", []):
+        paras = s.get("paragraphs", [])
+        tail = [p for p in paras if p.strip().lower().startswith("swipe to read")]
+        body = [p for p in paras if p not in tail]
+        while len(body) > 3:
+            i = min(range(len(body) - 1), key=lambda k: len(sentences(body[k])) + len(sentences(body[k + 1])))
+            body[i:i + 2] = [body[i].rstrip() + " " + body[i + 1].lstrip()]
+        s["paragraphs"] = body + tail
+    return draft
+
+
 def mechanical(draft: dict, fmt: str, sources: list[dict], rounds: int = 3) -> tuple[dict, list[str]]:
     """Code checks with quick repairs in between. Does not use up a rewrite attempt."""
+    draft = merge_paragraphs(draft, fmt)
     problems = hard_checks(draft, fmt, sources) + readability_problems(draft, fmt)
     for _ in range(rounds):
         if not problems:
             break
-        draft = repair(draft, problems, sources)
+        draft = merge_paragraphs(repair(draft, problems, sources), fmt)
         problems = hard_checks(draft, fmt, sources) + readability_problems(draft, fmt)
     return draft, problems
 

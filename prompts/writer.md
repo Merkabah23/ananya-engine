@@ -20,7 +20,7 @@ Plain language, built to be skimmed on a phone:
 - No bold. One weight throughout, like a real post. Scanability comes from short paragraphs and white space.
 - Italics only where they are needed: a quoted phrase someone actually says, a Hindi phrase, or the one word the sentence leans on. Wrap it in single asterisks, like *this*. At most one italic phrase per slide; most slides need none.
 
-Two layers. The fact layer: only what the sources say, stated exactly (no numbers, dates, durations or quotes unless they are in the sources). The opinion layer: your take on what those facts say about us. Be bold there; that is where the post earns its share. Use words instead ("within a day", "half the group"). Never put invented words in quotation marks as if someone really said them; paraphrase what people say instead.
+Two layers. The fact layer: only what the sources say, stated exactly (no numbers, dates, durations or quotes unless they are in the sources). The opinion layer: your take on what those facts say about us. Be bold there; that is where the post earns its share. Use words instead ("within a day", "half the group"). Never put invented words in quotation marks as if someone really said them; paraphrase what people say instead. Never invent a person, scene or anecdote ("a couple walked in...") or stitch two separate details into one story; use the real_details and sources as they are.
 
 Length is a hard limit: 4 or 5 slides; slide 1 at most 25 words; every other slide 20-55 words; the whole post at most 220 words. Short sentences. One idea per slide.
 

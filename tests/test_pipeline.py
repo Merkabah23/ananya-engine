@@ -51,6 +51,14 @@ def test_copied_run_from_reference_is_caught():
     assert corpus.copied_runs(" ".join(copied[3]))
 
 
+def test_merge_paragraphs_caps_slide_at_three():
+    d = {"slides": [{"paragraphs": ["One.", "Two here.", "Three now.", "Four.", "Swipe to read →"]}]}
+    out = writer.merge_paragraphs(d, "carousel")["slides"][0]["paragraphs"]
+    assert len(out) == 4 and out[-1] == "Swipe to read →"
+    assert " ".join(out[:-1]) == "One. Two here. Three now. Four."
+    assert not any("3 paragraphs" in p for p in writer.readability_problems({"slides": [{"paragraphs": out}]}, "carousel"))
+
+
 def test_wrong_slide_count():
     assert any("4 or 5 slides" in p for p in writer.hard_checks(draft(GOOD[:3]), "carousel", []))
 
