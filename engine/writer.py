@@ -26,7 +26,7 @@ MAX_SENT_WORDS = 22  # 5th-grade scanability: most sentences far shorter
 MAX_SLIDES = 7           # readers get the gist by slide 3 or 4; Buffer's own cap is 10
 SLIDE_WORDS = (15, 45)   # every slide after the hook
 HOOK_WORDS = 25
-POST_WORDS = (150, 240)
+POST_WORDS = (120, 240)
 MONEY = re.compile(r"(₹\s?[\d,.]+(\s?(crore|cr|lakh|k))?|\brs\.?\s?[\d,.]+|[\d,.]+\s?(%|percent|crore|cr\b|lakh|lpa|million|billion))", re.I)
 
 
@@ -418,7 +418,7 @@ def tighten(post: dict) -> dict:
     details = post["topic"].get("real_details") or []
     evidence = sources + ([{"url": "topic", "fact": "", "excerpt": "\n".join(details)}] if details else [])
     shape = ("5 to 7 slides. Keep slide 1 exactly as it is. Every other slide is one beat of 25-40 words (never under 15 "
-             "or over 45), at most 3 short paragraphs. The whole post 150-240 words. Merge slides that make the same point; "
+             "or over 45), at most 3 short paragraphs. The whole post 120-240 words. Merge slides that make the same point; "
              "end as soon as the insight has landed.") if fmt == "carousel" else "one slide of 30-70 words."
     ask = (llm.prompt("persona") + "\n\n## Your task\nThe owner approved this post, but readers find the slides too much to "
            "read and drop off. Reshape it so every slide is light and scannable, without losing the thought or the voice.\n"

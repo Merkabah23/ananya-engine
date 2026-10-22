@@ -155,3 +155,11 @@ def test_hashtags_brand_first_clean_and_capped():
     assert tags[0] == "#AboveMRP" and len(tags) == 5
     assert "#Diwali2026" in tags and sum(t.lower() == "#abovemrp" for t in tags) == 1
     assert buffer.caption_with_tags({"caption": "Which one are you?", "hashtags": ["#X"]}) == "Which one are you?\n\n#AboveMRP #X"
+
+
+def test_only_the_last_carousel_slide_is_the_end_card(tmp_path, monkeypatch):
+    from engine import config, render
+    monkeypatch.setattr(config, "OUT", tmp_path)
+    post = {"id": "x", "format": "carousel", "draft": draft(GOOD)}
+    shades = [render.Image.open(p).getpixel((5, 5)) for p in render.render_post(post)]
+    assert shades.count(shades[-1]) == 1 and len(set(shades[:-1])) == 1

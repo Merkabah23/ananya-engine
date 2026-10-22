@@ -29,7 +29,7 @@ Zoom out. The topic's real_details are evidence; they are never the subject. A t
 - 5th-grade readability, grown-up tone: everyday words, most sentences under 15 words, one idea per line, so a slide can be scanned in two seconds. Concept words like "status" or "EMI" are fine; anything that needs a second read is not. The voice stays the reference creator's: sharp, confident, a little blunt.
 - No bold. Italics (single asterisks) at most once per slide.
 - A dash list ("– item", one item per line inside a paragraph) is fine when listing things.
-- Length: 5 to 7 slides. Slide 1 up to 25 words. Every other slide one beat of 25-40 words (never under 15 or over 45), at most 3 short paragraphs. The whole post 150-240 words. Readers get the gist by slide 3 or 4: say each thing once, and end as soon as the insight lands.
+- Length: 5 to 7 slides. Slide 1 up to 25 words. Every other slide one beat of 25-40 words (never under 15 or over 45), at most 3 short paragraphs. The whole post 120-240 words. Readers get the gist by slide 3 or 4: say each thing once, and end as soon as the insight lands.
 
 ## Topic
 {topic}
