@@ -14,7 +14,7 @@ GOOD = [
     ["Every Indian home has one room nobody is allowed to sit in.", "Swipe to read →"],
     ["Think about who that room is for. Not the family. The family lives in the bedroom, TV on the bed, dinner on a steel plate, cousins on the floor on Sundays."],
     ["The best furniture and the best light are kept for people who don't live there. It is how a family is seen by relatives who visit twice a year."],
-    ["Nobody ever decided this out loud. It just happened, one sofa cover and one locked glass cabinet at a time, until the room became a stage for visitors.", "The visitors know it. They sip tea in the good cups."],
+    ["No one in the family ever decided this out loud. It just happened, one sofa cover and one locked glass cabinet at a time, until the room became a stage for visitors.", "The visitors know it. They sip tea in the good cups."],
     ["This generation said it was done with all of that. But look at the Instagram grid. The best angle of the best corner, kept for an audience that will never live in it either."],
     ["The drawing room didn't die. It just moved into our phones, and we still keep the best of ourselves for the people who are only visiting."],
 ]

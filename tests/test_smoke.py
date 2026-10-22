@@ -7,7 +7,7 @@ from engine import __main__ as cli, config, filter as topic_filter, llm, state  
 
 SLIDES = [
     ["Gill is No. 1 now. Half the group chat went quiet.", "Swipe to read →"],
-    ["Fans picked a side within an hour of the rankings coming out.", "Nobody wanted to say the old king was slipping, so they argued about strike rates instead."],
+    ["Fans picked a side within an hour of the rankings coming out.", "Fans didn't want to say the old king was slipping, so they argued about strike rates instead."],
     ["This generation grew up with one hero on every poster and every phone wallpaper.", "Letting go of him feels like getting old, and arguing about stats is easier than saying that."],
     ["Look at the comments under any highlight clip. Half of them are about the old numbers, not the match that just happened.", "Nobody says it, but everyone can feel it."],
     ["It is not really about cricket. It is about admitting that the years you spent watching him are now behind you, and that he is not twenty-five anymore."],
