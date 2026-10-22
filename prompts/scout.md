@@ -32,7 +32,7 @@ Reject: party politics, crime and disasters, gossip with nothing to say about th
 Return only JSON: {"topics": [ ... ]} where each topic is
 {
   "title": "short working title",
-  "claim": "the take in one sentence, as Ananya would say it, naming the thing",
+  "claim": "the take in one sentence, in the account's voice, naming the thing",
   "behaviour": "what people or brands are actually doing, concretely",
   "mechanism": "why, in one or two plain sentences",
   "group": "who the reader is",

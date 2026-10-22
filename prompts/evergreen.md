@@ -22,7 +22,7 @@ Never take an angle the reference creator has already posted (his hooks):
 Return only JSON: {"topics": [ ... ]} where each topic is
 {
   "title": "short working title",
-  "claim": "the take in one sentence, as Ananya would say it",
+  "claim": "the take in one sentence, in the account's voice",
   "behaviour": "what people or brands actually do, concretely, with real names and places where natural",
   "mechanism": "why, in one or two plain sentences",
   "group": "who the reader is",

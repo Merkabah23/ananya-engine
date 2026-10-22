@@ -1,6 +1,6 @@
-# Ananya engine
+# Above MRP engine
 
-Fully automated Instagram carousels for the Ananya Krishnan persona:
+Instagram carousels for Above MRP (@abovemrp), about how India spends, scrolls and gets sold to. Posts land in Buffer drafts and go out only when the owner approves them:
 Reddit → topics → filter → persona writer → carousel → Buffer → Instagram.
 
 It runs on **GitHub Actions + your Claude subscription + Buffer**. There's no API key, no server and no n8n. The Claude Code CLI runs inside each GitHub job, signed in with a subscription token. State is JSON committed back to this repo.
@@ -11,7 +11,7 @@ It runs on **GitHub Actions + your Claude subscription + Buffer**. There's no AP
 | --- | --- | --- | --- |
 | 1. Scout (persona) | 20th of each month | Culture first. Scans what India watched, bought and argued about in the last 30 days (screen, money, work, life, internet) and adds 20 evergreen observations with a new angle. Reddit is evidence only: discussion subreddits are read through public RSS feeds on the 19th, and each topic is matched to threads where real people are living it, for texture. If Reddit blocks GitHub's servers, it falls back to Claude's web search over reddit.com | `engine/scout.py`, `engine/reddit.py`, `prompts/scout.md`, `prompts/evergreen.md` |
 | 2. Filter | Same run | Scores each candidate on mirror, group, arguable, emotion and send-to. Rejects niche advice and anything close to the reference creator's posts or ours. Fills next month's 17 slots by territory mix and keeps 5 spares | `engine/filter.py`, `prompts/filter.md` |
-| 3. Writer (Ananya) | Daily, 3 posts a run | Writes each post from the real Reddit details. Searches the web for a sourced number only when the topic needs one | `engine/writer.py`, `prompts/persona.md`, `prompts/writer.md` |
+| 3. Writer | Daily, 3 posts a run | Writes each post from the real Reddit details. Searches the web for a sourced number only when the topic needs one | `engine/writer.py`, `prompts/persona.md`, `prompts/writer.md` |
 | Critic | Inside 3 | Code checks: slide count, length, banned AI phrases, em dashes, copied 6-word runs from the reference, unsourced ₹ or % figures. Then an editor model. Then a blind test: can a judge pick the draft out from three real human posts? Up to 2 rewrites, otherwise a spare takes the slot | `engine/writer.py`, `prompts/critic.md`, `prompts/blindtest.md` |
 | 4. Carousel | Inside the daily run | Renders 1080×1350 JPEG slides in the Facebook-post style (one weight, italics only where needed) and uploads them to a public GitHub repo for hosting | `engine/render.py`, `engine/storage.py` |
 | Publish | Daily | Schedules anything due in the next 8 days in Buffer. Buffer posts it to Instagram | `engine/buffer.py` |
@@ -30,7 +30,7 @@ Slots: Mon, Wed and Fri at 19:30 IST (carousels), Sat at 11:00 IST (single slide
    - Secrets: `CLAUDE_CODE_OAUTH_TOKEN`, `BUFFER_API_KEY`, `MEDIA_REPO_TOKEN`
    - Variables: `MEDIA_REPO` = `<your-username>/ananya-media`
    - Do **not** add `ANTHROPIC_API_KEY`. It would override the subscription and bill the API instead.
-   - The Buffer channel is found automatically from the Instagram handle `ananyakrishnan47` (`IG_HANDLE` in `engine/config.py`). Set `BUFFER_CHANNEL_ID` only if that lookup fails.
+   - The Buffer channel is found automatically from the Instagram handle `abovemrp` (`IG_HANDLE`; the old handle also matches while Buffer catches up). Set `BUFFER_CHANNEL_ID` only if that lookup fails.
 6. **Check everything:** go to Actions → engine → Run workflow → `doctor`. It tests the avatar, the Claude token, the Buffer channel, the media repo and the Reddit feed, and prints one OK or FAIL line for each.
 7. **Avatar:** already set, in `assets/avatar.png`, cropped from the profile image.
 8. **Calibrate:** run `calibrate`. The judge should rank the reference creator's best posts above his weakest at a pairwise accuracy of 0.65 or higher. Below that, tune `prompts/filter.md`.

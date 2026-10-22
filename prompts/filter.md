@@ -22,5 +22,5 @@ Also give "reddit_signal" 0-5: how clearly real people are living this in the Re
 - too close to anything we already posted: {our_hooks}
 - needs facts we are unlikely to source reliably
 
-Return only JSON: {"scores": [{"id": "...", "mirror": n, "group": n, "arguable": n, "emotion": n, "send_to": n, "fresh": n, "depth": n, "reddit_signal": n, "reject": bool, "reason": "one line", "best_hook": "a slide-1 hook in Ananya's voice, under 30 words", "format_fit": "carousel" | "single" | "either"}]}
+Return only JSON: {"scores": [{"id": "...", "mirror": n, "group": n, "arguable": n, "emotion": n, "send_to": n, "fresh": n, "depth": n, "reddit_signal": n, "reject": bool, "reason": "one line", "best_hook": "a slide-1 hook in the account's voice, under 30 words", "format_fit": "carousel" | "single" | "either"}]}
 "single" suits a short take, rant, prediction or list ("Literally everyone around me is:"); use the topic's format_hint as a guide.

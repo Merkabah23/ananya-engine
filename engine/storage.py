@@ -3,7 +3,7 @@
 Slides go to a separate PUBLIC GitHub repo (e.g. <you>/ananya-media) through GitHub's
 contents API and are served from raw.githubusercontent.com, which returns image/jpeg.
 The engine repo itself stays private. Secrets:
-  MEDIA_REPO        "<owner>/<repo>", e.g. "piyush/ananya-media"
+  MEDIA_REPO        "<owner>/<repo>", e.g. "your-github-user/ananya-media"
   MEDIA_REPO_TOKEN  fine-grained token with Contents: read & write on that repo only
 """
 from __future__ import annotations

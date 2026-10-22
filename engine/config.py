@@ -50,8 +50,12 @@ USE_BLIND_TEST = os.getenv("USE_BLIND_TEST", "false").lower() == "true"  # off: 
 
 # Rendering
 CANVAS = (1080, 1350)
-DISPLAY_NAME = os.getenv("DISPLAY_NAME", "Ananya Krishnan")
-IG_HANDLE = os.getenv("IG_HANDLE", "ananyakrishnan47")  # used to find the Instagram channel in Buffer
+DISPLAY_NAME = os.getenv("DISPLAY_NAME", "Above MRP")
+IG_HANDLE = os.getenv("IG_HANDLE", "abovemrp")  # used to find the Instagram channel in Buffer
+# Buffer may still show the old handle for a while after a rename, so either one matches.
+IG_HANDLES = [h.strip().lower() for h in os.getenv("IG_HANDLES", f"{IG_HANDLE},ananyakrishnan47").split(",") if h.strip()]
+BRAND_HASHTAG = "#AboveMRP"
+MAX_HASHTAGS = 5  # Instagram caps posts at 5 hashtags (Dec 2025)
 VERIFIED = False              # never draw a tick unless the account is verified
 
 # Publishing

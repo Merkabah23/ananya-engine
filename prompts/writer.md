@@ -42,7 +42,8 @@ Zoom out. The topic's real_details are evidence; they are never the subject. A t
 Return only JSON:
 {
   "slides": [{"paragraphs": ["...", "..."]}],
-  "caption": "one line, a question that invites the reader's own version, no hashtags",
+  "caption": "one line: either a specific question that invites the reader's own version, or a one-line point of view in your voice. No hashtags here",
+  "hashtags": ["3-4 specific, descriptive hashtags a reader would search for this topic, e.g. #PersonalFinanceIndia, #Dhanteras. No #AboveMRP (it is added automatically), no generic tags like #viral or #explore"],
   "alt_text": "plain description of the post for screen readers",
   "claims": [{"text": "any factual claim with a number or a named fact", "source_url": "from the sources list, or 'topic' for real_details"}]
 }

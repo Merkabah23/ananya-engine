@@ -1,4 +1,4 @@
-"""Agent 3, the writer (Ananya persona), with its critic loop.
+"""Agent 3, the writer (the Above MRP voice), with its critic loop.
 
 sources (searched and fetched once) -> draft -> code checks -> critic + fact check (in parallel)
 -> blind AI-spotting test
@@ -417,6 +417,7 @@ def tighten(post: dict) -> dict:
            "## Approved draft\n" + json.dumps(post["draft"], ensure_ascii=False, indent=1) +
            "\n\nReturn only the reshaped draft as the same JSON object (slides, caption, alt_text, claims).")
     draft = llm.call_json(config.MODEL_WRITER, ask, stage="tighten", max_tokens=4000)
+    draft.setdefault("hashtags", post["draft"].get("hashtags", []))
     if fmt == "carousel":
         draft = sharpen_hook(draft, post["topic"], recent_hooks(post.get("id")))
     draft, problems = mechanical(draft, fmt, evidence)

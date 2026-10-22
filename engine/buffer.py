@@ -6,6 +6,7 @@ Buffer posts an Instagram carousel as type 'post' with up to 10 image assets.
 """
 from __future__ import annotations
 
+import re
 from datetime import datetime, timezone
 
 import requests
@@ -49,13 +50,13 @@ _channel_cache: dict = {}
 
 
 def channel_id() -> str:
-    """BUFFER_CHANNEL_ID if set, otherwise the Instagram channel whose name matches IG_HANDLE."""
+    """BUFFER_CHANNEL_ID if set, otherwise the Instagram channel whose name matches one of IG_HANDLES."""
     explicit = config.env("BUFFER_CHANNEL_ID", required=False)
     if explicit or config.DRY_RUN:
         return explicit or "dry-run-channel"
     if "id" not in _channel_cache:
         matches = [c for c in list_channels() if c["service"].lower() == "instagram"
-                   and c["name"].lstrip("@").lower() == config.IG_HANDLE.lower()]
+                   and c["name"].lstrip("@").lower() in config.IG_HANDLES]
         if len(matches) != 1:
             raise SystemExit(f"Found {len(matches)} Instagram channels named {config.IG_HANDLE} in Buffer; "
                              "connect the account in Buffer or set BUFFER_CHANNEL_ID.")
@@ -63,12 +64,28 @@ def channel_id() -> str:
     return _channel_cache["id"]
 
 
+def hashtags(draft: dict) -> list[str]:
+    """The brand tag plus up to four topical ones, cleaned, deduplicated and capped at Instagram's limit."""
+    out, seen = [], set()
+    for t in [config.BRAND_HASHTAG] + list(draft.get("hashtags") or []):
+        tag = "#" + re.sub(r"[^0-9A-Za-z_]", "", str(t).lstrip("#"))
+        if len(tag) > 1 and tag.lower() not in seen:
+            seen.add(tag.lower())
+            out.append(tag)
+    return out[:config.MAX_HASHTAGS]
+
+
+def caption_with_tags(draft: dict) -> str:
+    caption = (draft.get("caption") or "").strip()
+    return (caption + "\n\n" + " ".join(hashtags(draft))).strip()
+
+
 def build_input(post: dict, image_urls: list[str]) -> dict:
     due = datetime.fromisoformat(post["due"]).astimezone(timezone.utc)
     alt = post["draft"].get("alt_text") or f"A text post by {config.DISPLAY_NAME}"
     return {
         "channelId": channel_id(),
-        "text": post["draft"].get("caption", ""),
+        "text": caption_with_tags(post["draft"]),
         "schedulingType": "automatic",
         "mode": "customScheduled",
         "dueAt": due.strftime("%Y-%m-%dT%H:%M:%S.000Z"),

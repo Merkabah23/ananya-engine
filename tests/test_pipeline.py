@@ -151,3 +151,10 @@ def test_italic_markers_render_and_are_stripped_from_text():
     from engine import render
     assert render._tokens("say *khana khaya* now") == [("say", False), ("khana", True), ("khaya", True), ("now", False)]
     assert writer.post_text(draft([["say *khana khaya* now"]])) == "say khana khaya now"
+
+
+def test_hashtags_brand_first_clean_and_capped():
+    tags = buffer.hashtags({"hashtags": ["PersonalFinanceIndia", "#Diwali 2026", "#aboveMRP", "#a", "#b", "#c", "#d"]})
+    assert tags[0] == "#AboveMRP" and len(tags) == 5
+    assert "#Diwali2026" in tags and sum(t.lower() == "#abovemrp" for t in tags) == 1
+    assert buffer.caption_with_tags({"caption": "Which one are you?", "hashtags": ["#X"]}) == "Which one are you?\n\n#AboveMRP #X"
