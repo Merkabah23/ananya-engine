@@ -1,6 +1,6 @@
 {
  "id": "2026-10-18",
- "status": "approved",
+ "status": "failed",
  "due": "2026-10-24T11:00:00+05:30",
  "format": "single",
  "topic": {
@@ -99,7 +99,7 @@
    "previous_buffer_post_id": "6ad8c992b535ec9954c56c4a"
   }
  ],
- "updated_at": "2026-10-22T15:00:49.412437+00:00",
+ "updated_at": "2026-10-22T16:38:48.590905+00:00",
  "sources": [
   {
    "url": "https://www.therealtytoday.com/news/real-estate-ads/the-rise-of-the-woman-homebuyer-how-indian-real-estate-is-being-reshaped",
@@ -142,5 +142,10 @@
   "caption_style": "pov"
  },
  "caption_style": "pov",
- "end_follow_line": false
+ "end_follow_line": false,
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-18/slide_01.jpg"
+ ],
+ "buffer_attempted_at": "2026-10-22T16:38:47.398361+00:00",
+ "error": "Buffer refused the post: Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed."
 }

@@ -1,6 +1,6 @@
 {
  "id": "2026-11-40",
- "status": "planned",
+ "status": "uploaded",
  "due": "2026-11-30T19:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -37,6 +37,137 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-10-22T16:16:28.452622+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "specificity": 4,
+     "mechanism": 4,
+     "ending": 4,
+     "voice": 4
+    },
+    "edits": [
+     "slide 4: swap 'reads all that typing as a fire' for 'sees all that typing and thinks people care', so a 5th grader gets it on the first read.",
+     "slide 5: cut 'The account got its reach.' The next line already makes the point.",
+     "slide 3: change 'nobody argues' to 'nobody really argues', since slide 2 mentions some pushback."
+    ]
+   },
+   "facts": []
+  }
+ ],
+ "updated_at": "2026-10-22T16:38:47.397231+00:00",
+ "sources": [],
+ "draft": {
+  "slides": [
+   {
+    "paragraphs": [
+     "Enough with the 'unpopular opinion' posts. Every single comment agrees with you. And I know exactly why you keep typing it.",
+     "Swipe to read →"
+    ]
+   },
+   {
+    "paragraphs": [
+     "Take a typical one. Someone ranks two old Bollywood comedies against each other. Caption: unpopular opinion.",
+     "The comments call it a popular opinion. Someone notes Hungama was the bigger hit anyway, in theatres and on TV."
+    ]
+   },
+   {
+    "paragraphs": [
+     "And then nobody really argues. They just quote the dog and hippopotamus line to each other.",
+     "Paresh Rawal is a comedy goldmine, says one. The actress who played the wife was underrated, says another. Everyone nods."
+    ]
+   },
+   {
+    "paragraphs": [
+     "The label is for the comment box.",
+     "Agreement gets a like and a scroll. Disagreement gets a reply, then a reply to that reply."
+    ]
+   },
+   {
+    "paragraphs": [
+     "The funny part: it works even when nobody fights. Typing popular opinion, actually, is still a comment.",
+     "I've typed it myself, feeling very clever. I got the satisfaction of being right on the internet."
+    ]
+   },
+   {
+    "paragraphs": [
+     "So now every take wears the costume. Chai over coffee, unpopular. Your mother's rajma is the best, unpopular. Sleep is nice, deeply unpopular.",
+     "Soon someone will call the monsoon wet and brace for the hate."
+    ]
+   },
+   {
+    "paragraphs": [
+     "A truly unpopular opinion never needs the label.",
+     "You can tell from the comments. They're quiet, and a little angry."
+    ]
+   }
+  ],
+  "caption": "I have corrected more fake unpopular opinions than I'd like to admit, and every single correction was free reach for them",
+  "hashtags": [
+   "#IndianInstagram",
+   "#ContentCreatorsIndia",
+   "#EngagementBait",
+   "#SocialMediaIndia"
+  ],
+  "alt_text": "A seven-slide text carousel about Indian Instagram posts captioned 'unpopular opinion' that are actually popular. It uses a typical example of a post ranking two old Bollywood comedies, where commenters mostly agree, quote famous lines and praise Paresh Rawal. It explains that disagreement drives reach, so captions fake a fight, and ends by saying a truly unpopular opinion never needs the label.",
+  "claims": [
+   {
+    "text": "A post ranking two old Bollywood comedies against each other drew pushback calling it a popular opinion, not unpopular",
+    "source_url": "topic"
+   },
+   {
+    "text": "Hungama was the bigger hit in theatres and on TV",
+    "source_url": "topic"
+   },
+   {
+    "text": "Commenters repeated the dog and hippopotamus exchange from the film",
+    "source_url": "topic"
+   },
+   {
+    "text": "A commenter called Paresh Rawal's performance a comedy goldmine",
+    "source_url": "topic"
+   },
+   {
+    "text": "A commenter said the actress playing the wife was underrated",
+    "source_url": "topic"
+   }
+  ],
+  "hook_type": "rant",
+  "hook_candidates": [
+   {
+    "type": "rant",
+    "hook": "Enough with the 'unpopular opinion' posts. Every single comment agrees with you. And I know exactly why you keep typing it."
+   },
+   {
+    "type": "weird_behaviour",
+    "hook": "There's something odd about Indian Instagram. People post an 'unpopular opinion,' and then the whole comment section agrees."
+   },
+   {
+    "type": "sounds_wrong",
+    "hook": "The most popular thing on Indian Instagram right now is the unpopular opinion. And I know how that sounds."
+   },
+   {
+    "type": "satire_list",
+    "hook": "Every 'unpopular opinion' on Indian Instagram right now: Chai beats coffee. Mom's rajma is the best. Sleep is nice."
+   },
+   {
+    "type": "rant",
+    "hook": "I'm done. Saying chai beats coffee is not an unpopular opinion. Nobody is coming for you. So why does everyone keep pretending?"
+   }
+  ],
+  "caption_style": "pov"
+ },
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-40/slide_01.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-40/slide_02.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-40/slide_03.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-40/slide_04.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-40/slide_05.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-40/slide_06.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-40/slide_07.jpg"
+ ]
 }
