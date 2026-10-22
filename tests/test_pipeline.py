@@ -12,13 +12,10 @@ def draft(slides, claims=None):
 
 GOOD = [
     ["Every Indian home has one room nobody is allowed to sit in.", "Swipe to read →"],
-    ["Think about who that room is for. Not the family. The family lives in the bedroom, TV on the bed, dinner on a steel plate, cousins on the floor."],
+    ["Think about who that room is for. Not the family. The family lives in the bedroom, TV on the bed, dinner on a steel plate, cousins on the floor on Sundays."],
     ["The best furniture and the best light are kept for people who don't live there. It is how a family is seen by relatives who visit twice a year."],
-    ["The good dinner set stays in the cupboard. The new bedsheet is saved for guests. Indian families keep their best for the audience, every single time."],
-    ["Nobody ever decided this out loud. It just happened, one sofa cover and one locked glass cabinet at a time, until the room became a stage for visitors."],
-    ["And the visitors know it too. They sit there for an hour, sip the tea in the good cups, and go home to a drawing room that works exactly the same way."],
-    ["This generation said it was done with all of that. Smaller flats, no showpieces, rented furniture, nothing kept aside for guests who might drop by."],
-    ["But look at the Instagram grid. Curated, cleaned up, the best angle of the best corner, kept for an audience that will never live in it either."],
+    ["Nobody ever decided this out loud. It just happened, one sofa cover and one locked glass cabinet at a time, until the room became a stage for visitors.", "The visitors know it. They sip tea in the good cups."],
+    ["This generation said it was done with all of that. But look at the Instagram grid. The best angle of the best corner, kept for an audience that will never live in it either."],
     ["The drawing room didn't die. It just moved into our phones, and we still keep the best of ourselves for the people who are only visiting."],
 ]
 
@@ -67,7 +64,7 @@ def test_explaining_signpost_and_unbalanced_slide_are_caught():
     bad = [list(s) for s in GOOD]
     bad[2] = ["Here's what's really going on with that room, and it is not about furniture or the light at all, honestly."]
     bad[4] = [" ".join(["word"] * 44) + "."]
-    bad[5] = ["Short one, nothing more here."]
+    bad[3] = ["Short one, nothing more here."]
     problems = " ".join(writer.hard_checks(draft(bad), "carousel", []))
     assert "here's what's really going on" in problems.lower() and "too thin" in problems
 
@@ -95,7 +92,7 @@ def test_voice_examples_rotate_from_the_bank():
 
 
 def test_wrong_slide_count():
-    assert any("8 to 10 slides" in p for p in writer.hard_checks(draft(GOOD[:3]), "carousel", []))
+    assert any("5 to 7 slides" in p for p in writer.hard_checks(draft(GOOD[:3]), "carousel", []))
 
 
 def test_slots_cover_month_in_ist():

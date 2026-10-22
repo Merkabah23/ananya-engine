@@ -1,6 +1,6 @@
 {
  "id": "2026-11-33",
- "status": "uploaded",
+ "status": "approved",
  "due": "2026-11-20T19:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -51,6 +51,104 @@
   {
    "rebranded_on": "2026-10-21",
    "previous_buffer_post_id": null
+  },
+  {
+   "tightened_from": {
+    "slides": [
+     {
+      "paragraphs": [
+       "There's something weird about close friends lists. Most people have about five real close friends. Their list has three hundred. And nobody asks why.",
+       "Swipe to read →"
+      ]
+     },
+     {
+      "paragraphs": [
+       "Picture the bad hair day, the rant about your landlord, the 2am thought. Those are the posts you'd want a small list for.",
+       "Then the list kept getting bigger. Nobody ever left. People only got added."
+      ]
+     },
+     {
+      "paragraphs": [
+       "You add the college group. Then the office people you like. Then the cousin who'd notice if she wasn't there.",
+       "Then someone you met once at a wedding, because removing them later feels rude.",
+       "That's how ten becomes three hundred."
+      ]
+     },
+     {
+      "paragraphs": [
+       "I check who's on mine more than I'd like to admit. And I notice who's on theirs.",
+       "When I can see a friend's close friends story, I feel a tiny bit chosen.",
+       "When I can't, I notice that too."
+      ]
+     },
+     {
+      "paragraphs": [
+       "That's the whole thing. The list stopped being about closeness. It became about access.",
+       "Being on it means you're inside something. Regular followers get the public version."
+      ]
+     },
+     {
+      "paragraphs": [
+       "Look at what people post there now. It's rarely the ugly stuff anymore.",
+       "It's the concert, the dinner, the vacation photo that felt too much for the main story.",
+       "Close friends became a VIP section with a velvet rope."
+      ]
+     },
+     {
+      "paragraphs": [
+       "The list isn't for the people on it. It's for you.",
+       "You get to decide, quietly, who feels included this week. Nobody gets told. Nobody can complain."
+      ]
+     },
+     {
+      "paragraphs": [
+       "It works like a wedding guest list. Half the names are there because leaving them out would start a conversation.",
+       "Nobody checks whether you're actually close. They just check whether they made the cut."
+      ]
+     },
+     {
+      "paragraphs": [
+       "So the real close friends had to move. They're in a WhatsApp group with four people and a stupid name.",
+       "That's where the bad hair day goes now.",
+       "The close friends list is for everyone else."
+      ]
+     }
+    ],
+    "caption": "How many people are on your close friends list, and how many would you actually call at 2am?",
+    "alt_text": "A text carousel arguing that Instagram's close friends lists have bloated into hundreds of names and now work as a popularity tier. It describes how people get added out of politeness, how the list became about access and feeling chosen, compares it to a wedding guest list, and says real close friends have moved to small WhatsApp groups.",
+    "claims": [],
+    "hook_type": "weird_behaviour",
+    "hook_candidates": [
+     {
+      "type": "weird_behaviour",
+      "hook": "There's something weird about close friends lists. Most people have about five real close friends. Their list has three hundred. And nobody asks why."
+     },
+     {
+      "type": "vivid_reframe",
+      "hook": "Your close friends list has three hundred people on it. Your real close friends left for a four-person WhatsApp group. Think about what that means."
+     },
+     {
+      "type": "sounds_wrong",
+      "hook": "Your Instagram close friends list has almost nothing to do with your close friends. And I know how that sounds."
+     },
+     {
+      "type": "motive_bust",
+      "hook": "Nobody adds three hundred people to close friends to share bad hair days. They're quietly deciding something else."
+     },
+     {
+      "type": "imagine",
+      "hook": "Imagine your close friends list. Three hundred names. Now count the ones you'd actually text at 2am."
+     }
+    ],
+    "hashtags": [
+     "#CloseFriends",
+     "#InstagramStories",
+     "#SocialMedia",
+     "#Friendship"
+    ],
+    "caption_style": "question"
+   },
+   "problems_left": []
   }
  ],
  "updated_at": "2026-10-22T15:00:06.995669+00:00",
@@ -65,12 +163,6 @@
    },
    {
     "paragraphs": [
-     "Picture the bad hair day, the rant about your landlord, the 2am thought. Those are the posts you'd want a small list for.",
-     "Then the list kept getting bigger. Nobody ever left. People only got added."
-    ]
-   },
-   {
-    "paragraphs": [
      "You add the college group. Then the office people you like. Then the cousin who'd notice if she wasn't there.",
      "Then someone you met once at a wedding, because removing them later feels rude.",
      "That's how ten becomes three hundred."
@@ -78,34 +170,15 @@
    },
    {
     "paragraphs": [
-     "I check who's on mine more than I'd like to admit. And I notice who's on theirs.",
-     "When I can see a friend's close friends story, I feel a tiny bit chosen.",
-     "When I can't, I notice that too."
+     "The list stopped being about closeness. It became about access.",
+     "When I can see a friend's close friends story, I feel a tiny bit chosen. When I can't, I notice that too."
     ]
    },
    {
     "paragraphs": [
-     "That's the whole thing. The list stopped being about closeness. It became about access.",
-     "Being on it means you're inside something. Regular followers get the public version."
-    ]
-   },
-   {
-    "paragraphs": [
-     "Look at what people post there now. It's rarely the ugly stuff anymore.",
+     "Look at what people post there now. Rarely the ugly stuff anymore.",
      "It's the concert, the dinner, the vacation photo that felt too much for the main story.",
-     "Close friends became a VIP section with a velvet rope."
-    ]
-   },
-   {
-    "paragraphs": [
-     "The list isn't for the people on it. It's for you.",
-     "You get to decide, quietly, who feels included this week. Nobody gets told. Nobody can complain."
-    ]
-   },
-   {
-    "paragraphs": [
-     "It works like a wedding guest list. Half the names are there because leaving them out would start a conversation.",
-     "Nobody checks whether you're actually close. They just check whether they made the cut."
+     "A VIP section with a velvet rope."
     ]
    },
    {
@@ -119,48 +192,13 @@
   "caption": "How many people are on your close friends list, and how many would you actually call at 2am?",
   "alt_text": "A text carousel arguing that Instagram's close friends lists have bloated into hundreds of names and now work as a popularity tier. It describes how people get added out of politeness, how the list became about access and feeling chosen, compares it to a wedding guest list, and says real close friends have moved to small WhatsApp groups.",
   "claims": [],
-  "hook_type": "weird_behaviour",
-  "hook_candidates": [
-   {
-    "type": "weird_behaviour",
-    "hook": "There's something weird about close friends lists. Most people have about five real close friends. Their list has three hundred. And nobody asks why."
-   },
-   {
-    "type": "vivid_reframe",
-    "hook": "Your close friends list has three hundred people on it. Your real close friends left for a four-person WhatsApp group. Think about what that means."
-   },
-   {
-    "type": "sounds_wrong",
-    "hook": "Your Instagram close friends list has almost nothing to do with your close friends. And I know how that sounds."
-   },
-   {
-    "type": "motive_bust",
-    "hook": "Nobody adds three hundred people to close friends to share bad hair days. They're quietly deciding something else."
-   },
-   {
-    "type": "imagine",
-    "hook": "Imagine your close friends list. Three hundred names. Now count the ones you'd actually text at 2am."
-   }
-  ],
   "hashtags": [
    "#CloseFriends",
    "#InstagramStories",
    "#SocialMedia",
    "#Friendship"
-  ],
-  "caption_style": "question"
+  ]
  },
  "caption_style": "question",
- "end_follow_line": false,
- "image_urls": [
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-33/slide_01.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-33/slide_02.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-33/slide_03.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-33/slide_04.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-33/slide_05.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-33/slide_06.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-33/slide_07.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-33/slide_08.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-33/slide_09.jpg"
- ]
+ "end_follow_line": false
 }

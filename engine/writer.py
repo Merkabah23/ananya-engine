@@ -14,8 +14,8 @@ import zlib
 from . import config, corpus, llm, state
 
 FORMAT_RULES = {
-    "carousel": "a carousel of 8 to 10 slides. Slide 1 is at most 25 words and ends with 'Swipe to read →'. "
-                "Every other slide is one beat of 30-40 words (never under 15 or over 45).",
+    "carousel": "a carousel of 5 to 7 slides. Slide 1 is at most 25 words and ends with 'Swipe to read →'. "
+                "Every other slide is one beat of 25-40 words (never under 15 or over 45).",
     "single": "a single slide of 30-70 words, like a post someone types straight out of their head: a blunt take or "
               "prediction about India or this generation, a short rant, a satire list ('Literally everyone around me is:' "
               "then short lines starting with '- '), or a short open letter ('Dear ___,'). No 'Swipe to read'.",
@@ -23,10 +23,10 @@ FORMAT_RULES = {
 MAX_PARAS = 3            # per carousel slide
 MAX_SENTS_PER_PARA = 4
 MAX_SENT_WORDS = 22  # 5th-grade scanability: most sentences far shorter
-MAX_SLIDES = 10          # Buffer posts at most 10 images to an Instagram carousel
+MAX_SLIDES = 7           # readers get the gist by slide 3 or 4; Buffer's own cap is 10
 SLIDE_WORDS = (15, 45)   # every slide after the hook
 HOOK_WORDS = 25
-POST_WORDS = (230, 340)
+POST_WORDS = (150, 240)
 MONEY = re.compile(r"(₹\s?[\d,.]+(\s?(crore|cr|lakh|k))?|\brs\.?\s?[\d,.]+|[\d,.]+\s?(%|percent|crore|cr\b|lakh|lpa|million|billion))", re.I)
 
 
@@ -196,8 +196,8 @@ def balance_problems(slides: list[dict]) -> list[str]:
 def hard_checks(draft: dict, fmt: str, sources: list[dict]) -> list[str]:
     problems = []
     slides = draft.get("slides", [])
-    if fmt == "carousel" and not 8 <= len(slides) <= MAX_SLIDES:
-        problems.append(f"Use 8 to {MAX_SLIDES} slides, not {len(slides)}: one light beat per slide.")
+    if fmt == "carousel" and not 5 <= len(slides) <= MAX_SLIDES:
+        problems.append(f"Use 5 to {MAX_SLIDES} slides, not {len(slides)}: say it once, and end once the insight lands.")
     if fmt == "single" and len(slides) != 1:
         problems.append("A single post must have exactly one slide.")
     total = 0
@@ -412,20 +412,23 @@ def sharpen_hook(draft: dict, topic: dict, recent: list[dict] | None = None) -> 
 
 def tighten(post: dict) -> dict:
     """Reshape an approved draft so each slide is light to read: cut repeated examples, split at the beats,
-    5th-grade wording. Keeps her sentences otherwise; adds nothing. One model call, plus quick repairs."""
+    5th-grade wording. Keeps his sentences otherwise; adds nothing. One model call, plus quick repairs."""
     fmt = post["format"] if post["format"] != "spare" else "carousel"
     sources = post.get("sources") or []
     details = post["topic"].get("real_details") or []
     evidence = sources + ([{"url": "topic", "fact": "", "excerpt": "\n".join(details)}] if details else [])
-    shape = ("8 to 10 slides. Slide 1 is the take in 25 words or fewer, then 'Swipe to read →' on its own line. Every other "
-             "slide is one beat of 30-40 words (never under 15 or over 45), at most 3 short paragraphs. The whole post "
-             "230-330 words.") if fmt == "carousel" else "one slide of 30-70 words."
+    shape = ("5 to 7 slides. Keep slide 1 exactly as it is. Every other slide is one beat of 25-40 words (never under 15 "
+             "or over 45), at most 3 short paragraphs. The whole post 150-240 words. Merge slides that make the same point; "
+             "end as soon as the insight has landed.") if fmt == "carousel" else "one slide of 30-70 words."
     ask = (llm.prompt("persona") + "\n\n## Your task\nThe owner approved this post, but readers find the slides too much to "
            "read and drop off. Reshape it so every slide is light and scannable, without losing the thought or the voice.\n"
            f"- Shape: {shape}\n"
-           "- Cut examples that repeat a point already made; keep the best one or two. Cut lines that restate the slide before.\n"
+           "- Readers get the gist by slide 3 or 4, so be precise: cut every slide and line that re-explains the point. "
+           "Keep the best one or two examples and the most recognisable everyday moment.\n"
+           "- The last slide is a short, understated ending built from this post's own thought (an image, an observation or a "
+           "small payoff), never a summary, a moral or the account's tagline.\n"
            "- 5th-grade readability: everyday words, most sentences under 15 words, one idea per line. Break long sentences.\n"
-           "- Keep her own sentences wherever they survive; do not add new facts, examples, names or ideas.\n"
+           "- Keep his own sentences wherever they survive; do not add new facts, examples, names or ideas.\n"
            "- Each slide ends on a reason to swipe. Slide 2 starts answering in new words and never repeats the hook.\n\n"
            "## Approved draft\n" + json.dumps(post["draft"], ensure_ascii=False, indent=1) +
            "\n\nReturn only the reshaped draft as the same JSON object (slides, caption, alt_text, claims).")
