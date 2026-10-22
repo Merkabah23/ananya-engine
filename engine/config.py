@@ -55,6 +55,9 @@ IG_HANDLE = os.getenv("IG_HANDLE", "abovemrp")  # used to find the Instagram cha
 # Buffer may still show the old handle for a while after a rename, so either one matches.
 IG_HANDLES = [h.strip().lower() for h in os.getenv("IG_HANDLES", f"{IG_HANDLE},ananyakrishnan47").split(",") if h.strip()]
 BRAND_HASHTAG = "#AboveMRP"
+TAGLINE = "How India spends, scrolls and gets sold to"
+END_CARD = os.getenv("END_CARD", "true").lower() == "true"  # last carousel slide in teal with the tagline
+END_FOLLOW_LINE = os.getenv("END_FOLLOW_LINE", "New post every Mon · Wed · Fri")  # only on posts marked end_follow_line
 MAX_HASHTAGS = 5  # Instagram caps posts at 5 hashtags (Dec 2025)
 VERIFIED = False              # never draw a tick unless the account is verified
 

@@ -21,7 +21,7 @@ Above MRP is written by one person who stays unnamed: in his mid-30s, from North
 - He's in it: his opinions, his habits and reactions, the kind of meetings and sales calls he has sat through. Talks about Indians, parents, this generation, and to "you"; rarely "we".
 - Loose and conversational, a little repetitive the way people talk. Cool and sharp, not tender. Funny when the topic is funny.
 - Facts are half a sentence of texture, then back to the thought. A 5th grader gets every line on the first read and can scan a slide in two seconds: everyday words, short sentences (most under 15 words), one idea per line. The tone stays sharp and grown-up.
-- On business and brand topics, end with what it means for brands or anyone building something in India. Not on other topics.
+- Endings: usually a line the reader would want to send to someone. Only on behind_the_brand posts, and not every time, end with what it means for brands or anyone building something in India.
 
 ## Never
 - Every slide ending on a punchline; engineered rhetoric (mirrored pairs, "can't A, can't B, can't C", repeated "Not X. Y."); sentimental lines; a tidy moral at the end; explaining an example after giving it; the same opener or scaffolding as another post.

@@ -260,6 +260,17 @@ def blind_test(draft: dict, seed: int, trials: int | None = None, fmt: str = "ca
     return spotted <= trials // 2 if trials > 1 else spotted == 0, tells
 
 
+CAPTION_STYLES = {
+    "question": "a specific question that invites the reader's own version (not a generic 'what do you think?').",
+    "pov": "a one-line point of view in his voice, a confession or a dry aside, no question mark.",
+}
+
+
+def caption_style(post: dict) -> str:
+    """Alternate caption shapes so the feed doesn't settle into one template, and the scorecard can compare them."""
+    return post.get("caption_style") or ("question" if zlib.crc32(post["id"].encode()) % 2 == 0 else "pov")
+
+
 def approved_posts() -> list[dict]:
     return json.loads((config.DATA / "approved_posts.json").read_text())
 
@@ -294,10 +305,11 @@ def write_post(post: dict) -> dict:
         user = llm.fill(
             llm.prompt("writer"), persona=persona, format_rules=FORMAT_RULES[fmt],
             rhythm_examples=corpus.rhythm_examples(3, exclude_territory=topic.get("territory"), seed=seed + attempt, fmt=fmt),
-            topic=json.dumps({k: topic.get(k) for k in ("claim", "mood", "news_peg", "why_now", "behaviour", "mechanism", "group", "territory", "real_details")},
+            topic=json.dumps({k: topic.get(k) for k in ("claim", "mood", "format_name", "send_to", "news_peg", "why_now", "behaviour", "mechanism", "group", "territory", "real_details")},
                              ensure_ascii=False, indent=1),
             sources=json.dumps(sources, ensure_ascii=False, indent=1) if sources else "(none: use no statistics)",
             voice_examples=voice_examples(seed + attempt),
+            caption_style=CAPTION_STYLES[caption_style(post)],
             revision_notes=notes,
         )
         draft = llm.call_json(config.MODEL_WRITER, user, stage="write", max_tokens=4000)
@@ -333,6 +345,7 @@ def write_post(post: dict) -> dict:
                 if human:
                     if fmt == "carousel":
                         draft = sharpen_hook(draft, topic, recent_hooks(post.get("id")))
+                    draft["caption_style"] = caption_style(post)
                     post.update(status="written", draft=draft, format=fmt)
                     state.log("writer", f"{post['id']} passed on attempt {attempt + 1}")
                     return post

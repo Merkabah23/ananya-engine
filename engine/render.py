@@ -94,7 +94,8 @@ def _globe(d: ImageDraw.ImageDraw, cx: int, cy: int, r: int) -> None:
     d.line((cx - r, cy, cx + r, cy), fill=GREY, width=2)
 
 
-def render_slide(paragraphs: list[str]) -> Image.Image:
+def render_slide(paragraphs: list[str], end: bool = False) -> Image.Image:
+    """end=True draws the end card: teal, white text, and the account's one-line description under the name."""
     header_h, gap = AVATAR, 44
     avail = H - 2 * 70 - header_h - gap
     for size in BODY_SIZES:
@@ -103,20 +104,24 @@ def render_slide(paragraphs: list[str]) -> Image.Image:
             break
     else:
         raise Overflow(f"text needs {text_h}px, {avail}px available")
-    img = Image.new("RGB", (W, H), "white")
+    bg, ink, sub = (TEAL, (255, 255, 255), (209, 240, 235)) if end else ((255, 255, 255), INK, GREY)
+    img = Image.new("RGB", (W, H), bg)
     d = ImageDraw.Draw(img)
     y0 = max(70, (H - (header_h + gap + text_h)) // 2)
     # Header: avatar, teal bar, name, "Just now · globe", dots
     img.paste(_avatar(), (MARGIN, y0), _avatar())
     nx = MARGIN + AVATAR + 26
-    d.rectangle((nx, y0 + 14, nx + 5, y0 + AVATAR - 14), fill=TEAL)
+    d.rectangle((nx, y0 + 14, nx + 5, y0 + AVATAR - 14), fill=ink if end else TEAL)
     nx += 22
-    d.text((nx, y0 + 18), config.DISPLAY_NAME, font=_font("Medium", 44), fill=INK)
+    d.text((nx, y0 + 18), config.DISPLAY_NAME, font=_font("Medium", 44), fill=ink)
     meta = _font("Regular", 32)
-    d.text((nx, y0 + 72), "Just now ·", font=meta, fill=GREY)
-    _globe(d, int(nx + meta.getlength("Just now ·") + 26), y0 + 72 + 19, 14)
+    if end:
+        d.text((nx, y0 + 72), config.TAGLINE, font=meta, fill=sub)
+    else:
+        d.text((nx, y0 + 72), "Just now ·", font=meta, fill=GREY)
+        _globe(d, int(nx + meta.getlength("Just now ·") + 26), y0 + 72 + 19, 14)
     for k in range(3):
-        d.ellipse((W - MARGIN - 52 + k * 20, y0 + 30, W - MARGIN - 42 + k * 20, y0 + 40), fill=GREY)
+        d.ellipse((W - MARGIN - 52 + k * 20, y0 + 30, W - MARGIN - 42 + k * 20, y0 + 40), fill=sub)
     # Body, at the size chosen above
     reg, ital = _font("Regular", size), _font("Italic", size)
     space = reg.getlength(" ")
@@ -131,7 +136,7 @@ def render_slide(paragraphs: list[str]) -> Image.Image:
             f = ital if b else reg
             if k:
                 x += space
-            d.text((x, y), word, font=f, fill=GREY if kind == "swipe" else INK)
+            d.text((x, y), word, font=f, fill=sub if kind == "swipe" else ink)
             x += f.getlength(word)
         y += lh
     return img
@@ -178,8 +183,12 @@ def render_post(post: dict) -> list[Path]:
     outdir = config.OUT / post["id"]
     outdir.mkdir(parents=True, exist_ok=True)
     paths = []
+    is_carousel = post.get("format") != "single" and len(slides) > 1
     for i, paras in enumerate(slides, 1):
         p = outdir / f"slide_{i:02d}.jpg"
-        render_slide(paras).save(p, "JPEG", quality=92, optimize=True)
+        end = is_carousel and i == len(slides) and config.END_CARD
+        if end and post.get("end_follow_line") and config.END_FOLLOW_LINE:
+            paras = paras + [config.END_FOLLOW_LINE]
+        render_slide(paras, end=end).save(p, "JPEG", quality=92, optimize=True)
         paths.append(p)
     return paths

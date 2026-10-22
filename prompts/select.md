@@ -24,7 +24,7 @@ Takes already scheduled (never pick one too close to these):
 ## Your job
 Pick the {n} best candidates, best first. A pick must be one the owner would approve for the same reasons as the approved takes, and must not have any of the problems behind the rejected ones. Also drop anything built on a tired trope ({tired_tropes}), anything that needs facts unlikely to be sourced, and anything that is insider mechanics with nothing in it for an ordinary customer.
 
-Keep the set varied: aim for roughly this mix of territories {mix}, a range of moods, and a few that suit a single-slide take or list. If fewer than {n} candidates are good enough, pick fewer; never pad.
+Prefer takes with a clear, specific send_to: sends are the strongest signal for reaching new people. Keep the set varied: aim for roughly this mix of territories {mix}, a range of moods, all five formats represented (family_ledger at least a few times a month), and a few that suit a single-slide take or list. If fewer than {n} candidates are good enough, pick fewer; never pad.
 
 Return only JSON:
 {"picks": [{"id": "...", "why": "one line in the owner's terms", "format_fit": "carousel" | "single" | "either"}]}

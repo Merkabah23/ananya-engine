@@ -47,7 +47,7 @@ def select(candidates: list[dict], n: int) -> list[dict]:
     """Pick the month's takes the way the owner would, from the owner's approved and rejected takes."""
     t = taste()
     lines = lambda items: "\n".join(f'- "{x["take"]}" ({x["why"]})' for x in items) or "(none yet)"
-    keys = ("id", "claim", "territory", "mood", "format_hint", "news_peg")
+    keys = ("id", "claim", "territory", "mood", "format_hint", "format_name", "send_to", "news_peg")
     cands = "\n".join(json.dumps({k: c.get(k) for k in keys}, ensure_ascii=False) for c in candidates)
     mix = ", ".join(f"{k} {round(v * 100)}%" for k, v in config.TERRITORY_MIX.items())
     ask = llm.fill(llm.prompt("select"), persona=llm.prompt("persona"),

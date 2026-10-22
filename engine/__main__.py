@@ -137,6 +137,11 @@ def status() -> None:
         counts[p["status"]] = counts.get(p["status"], 0) + 1
     print(json.dumps({"by_status": counts, "model_calls_this_month": state.month_calls(),
                       "cap": config.MAX_CALLS_PER_MONTH}, indent=1))
+    from . import scorecard
+    need = scorecard.missing(scorecard.sync())
+    if need:
+        print(f"Scorecard: {len(need)} published post(s) need their Insights numbers in state/scorecard.csv: "
+              + ", ".join(r["post"] for r in need))
     for p in rows[-25:]:
         print(f"{p['id']}  {p['status']:<10} {str(p.get('due'))[:16]:<16}  {p['topic'].get('claim', '')[:70]}")
 
@@ -205,7 +210,7 @@ def doctor() -> None:
 def main() -> None:
     ap = argparse.ArgumentParser(prog="engine")
     ap.add_argument("command", choices=["monthly", "daily", "fetch-reddit", "scout", "filter", "produce", "push",
-                                        "sample", "calibrate", "status", "buffer-channels", "doctor", "approve", "reject"])
+                                        "sample", "calibrate", "status", "buffer-channels", "doctor", "approve", "reject", "scorecard"])
     ap.add_argument("post_id", nargs="?", help="approve/reject: the post id, e.g. 2026-11-03")
     ap.add_argument("--why", default="", help="approve/reject: one line on why, in your own words")
     ap.add_argument("--n", type=int, default=3, help="sample: how many posts")
@@ -232,6 +237,9 @@ def main() -> None:
         produce(a.month)
     elif a.command == "push":
         push(a.days)
+    elif a.command == "scorecard":
+        from . import scorecard
+        print(scorecard.summary())
     elif a.command in ("approve", "reject"):
         verdict(a.command, a.post_id, a.why)
     elif a.command == "calibrate":

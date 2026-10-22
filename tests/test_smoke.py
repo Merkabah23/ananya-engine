@@ -118,3 +118,18 @@ def test_owner_approved_drafts_skip_the_writer(tmp_path, monkeypatch):
                      "topic": {"claim": "x"}, "draft": draft, "history": []})
     cli.produce("2026-11")
     assert state.posts("uploaded")[0]["id"] == "2026-11-01"
+
+
+def test_scorecard_rows_and_per_thousand(tmp_path, monkeypatch):
+    from engine import scorecard
+    monkeypatch.setattr(config, "STATE", tmp_path / "state")
+    monkeypatch.setattr(scorecard, "PATH", tmp_path / "scorecard.csv")
+    draft = {"slides": [{"paragraphs": ["A hook", "Swipe to read →"]}], "hook_type": "rant", "caption_style": "pov"}
+    state.save_post({"id": "2026-10-23x", "status": "scheduled", "due": "2026-10-23T19:30:00+05:30", "format": "carousel",
+                     "topic": {"claim": "x", "format_name": "price_tells"}, "draft": draft, "history": []})
+    rows = scorecard.sync()
+    assert rows[0]["format"] == "price_tells" and rows[0]["test"] == "baseline"
+    rows[0].update(reached="2000", shares="30", saves="10", follows="4", non_follower_pct="60")
+    scorecard.write(rows)
+    assert scorecard.per_k(scorecard.read()[0], "shares") == 15.0
+    assert "1 of 1 posts have numbers" in scorecard.summary()

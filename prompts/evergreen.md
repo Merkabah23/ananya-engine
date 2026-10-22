@@ -18,6 +18,14 @@ Never build on these tired tropes:
 Never take an angle the reference creator has already posted (his hooks):
 {varun_hooks}
 
+## The account's recurring formats (tag each topic with one)
+- price_tells: a price or number that hides a behaviour nobody admits.
+- behind_the_brand: something a brand does to customers on purpose that looks like an accident.
+- family_ledger: a money or status arrangement inside Indian families that nobody names.
+- feed_anthropology: how people actually behave on Instagram and the internet.
+- saturday_single: one quick, arguable take or short list for a single slide.
+A topic is only worth it if there's an obvious person a reader would send it to.
+
 ## Output
 Return only JSON: {"topics": [ ... ]} where each topic is
 {
@@ -28,6 +36,8 @@ Return only JSON: {"topics": [ ... ]} where each topic is
   "group": "who the reader is",
   "territory": one of ["business_brands","creators_internet","money_status","pop_culture","life_relationships"],
   "mood": one of ["sharp","funny","rant","warm","prediction"],
+  "format_name": one of ["price_tells","behind_the_brand","family_ledger","feed_anthropology","saturday_single"],
+  "send_to": "who a reader would send this to, and why, in one line (e.g. 'the friend who always adds chips to hit free delivery')",
   "format_hint": "carousel" or "single",
   "real_details": [],
   "why_now": "one line: why this take is worth saying now",

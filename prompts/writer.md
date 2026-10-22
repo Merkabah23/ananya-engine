@@ -10,7 +10,7 @@ Each slide is one beat that a reader takes in at a glance, and ends with a reaso
 3. Establish it fast: the named thing and one or two real details or a typical scenario. Half a sentence per fact, then move on.
 4. One or two concrete, named examples the reader recognises make the point. A third only if it adds something new. Never list every place it shows up; once the reader gets it, move on.
 5. Push it one step further: the part that's funnier, darker or more revealing than the reader expected. One sharp reframe, said once.
-6. Land it, then stop. On business and brand topics, the last slide can say what it means for brands or anyone building in India.
+6. Land it, then stop, ideally on a line the reader would send to the person in the topic's send_to. Only some behind_the_brand posts end on what it means for brands; never other formats. The last slide is shown as the account's end card, so it carries one or two closing lines, not a new point.
 
 Stay with one thought the whole way. Match the mood in the topic: sharp, funny, rant, warm or prediction. A funny topic should actually be funny; a rant can be one long breathless run; a warm one can be soft without being sentimental.
 
@@ -36,6 +36,8 @@ Zoom out. The topic's real_details are evidence; they are never the subject. A t
 
 ## Sources you may cite (only these and the topic's real_details; if empty, use no statistics)
 {sources}
+
+Caption style for this post: {caption_style}
 
 {revision_notes}
 
