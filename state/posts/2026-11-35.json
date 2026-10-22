@@ -1,6 +1,6 @@
 {
  "id": "2026-11-35",
- "status": "planned",
+ "status": "uploaded",
  "due": "2026-11-23T19:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -46,6 +46,168 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-10-22T14:41:12.700836+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 3,
+     "specificity": 4,
+     "mechanism": 4,
+     "ending": 3,
+     "voice": 4
+    },
+    "edits": [
+     "slide 5: cut the Bharat D2C Conclave line. It's a fact with no point attached, and the $63 million line already makes the 'not just two founders' case.",
+     "slide 6: soften 'A laptop sleeve has margin built in' to something like 'A laptop sleeve is just a product you sell at a profit.' The sources never give DailyObjects' margins.",
+     "slide 8: cut 'Investors finally agree.' The slide already lands on the 'boring with margins' line, and slide 9 closes the post."
+    ]
+   },
+   "facts": []
+  }
+ ],
+ "updated_at": "2026-10-22T15:00:27.462093+00:00",
+ "sources": [
+  {
+   "url": "https://inc42.com/buzz/d2c-lifestyle-brand-dailyobjects-raises-₹332-cr-to-expand-offline-presence/",
+   "fact": "DailyObjects raised ₹332 Cr ($34.3 Mn) in a Series C round, valuing it at ₹1,050 Cr, to scale its offline network.",
+   "excerpt": "has raised ₹332 Cr ($34.3 Mn) in a Series C funding round. The round included both primary and secondary transactions and valued the startup at ₹1,050 Cr ($108.4 Mn). The round was co-led by Xponentia Capital Partners, Anicut Capital and Axiom Asia Private Capital. The funds will be used to scale its offline network, deepen its product and R&D capabilities, and to strengthen brand building and evaluate opportunities in international markets."
+  },
+  {
+   "url": "https://inc42.com/?p=575466",
+   "fact": "Nat Habit raised ₹142 Cr (about $14.7 Mn) in an all-primary Series C led by Trident Growth Partners, and claims annualised gross revenue of ₹330 Cr.",
+   "excerpt": "has raised ₹142 Cr (around $14.7 Mn) in an all-primary Series C funding round led by Trident Growth Partners. Existing investors Bertelsmann India Investments, Mirabilis Investment Trust, and Sharrp Ventures participated in the round. Physis Capital and Hero Family Office joined the cap table. The company claims its annualised gross revenue reached ₹330 Cr."
+  }
+ ],
+ "draft": {
+  "slides": [
+   {
+    "paragraphs": [
+     "Zepto's IPO just got cut by 64%. Meanwhile, a laptop sleeve brand raised $34.3 million. So what are investors actually buying now?",
+     "Swipe to read →"
+    ]
+   },
+   {
+    "paragraphs": [
+     "Investors didn't get wiser. They got burned.",
+     "The money chased speed for years. Groceries in 10 minutes, discounts everywhere, losses explained as \"growth\".",
+     "Now they want something older. A product people buy again, at a price that actually makes money."
+    ]
+   },
+   {
+    "paragraphs": [
+     "DailyObjects, the laptop sleeve brand, raised $34.3 million in a Series C. It's now valued at ₹1,050 crore.",
+     "A big part of the plan is scaling offline. Yes, actual shops. With rent."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Then Nat Habit, the ayurveda skincare brand. ₹142 crore, all primary, led by Trident Growth Partners.",
+     "It claims ₹330 crore in annualised gross revenue.",
+     "Nobody calls it the future of India. Investors just call it a business."
+    ]
+   },
+   {
+    "paragraphs": [
+     "And it's not just two founders getting lucky. D2C ecommerce brands raised over $63 million in early October alone."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Nobody says this on stage.",
+     "A laptop sleeve is just a product you sell at a profit. A 10-minute grocery order has a rider, a dark store and a discount built in.",
+     "Speed is easy to copy. And very expensive to keep."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Then there's the reorder. You finish the face cream, you buy the same one again. No ad needed the second time.",
+     "Nobody reorders from a delivery app out of loyalty. They reorder because it's cheaper this week."
+    ]
+   },
+   {
+    "paragraphs": [
+     "So the money is moving to things your mummy would understand. Make something. Price it right. Sell it again.",
+     "Honestly, I'll take boring with margins over exciting with losses any day."
+    ]
+   },
+   {
+    "paragraphs": [
+     "The hottest startup story this month is a shop that makes money.",
+     "Imagine explaining that to 2021."
+    ]
+   }
+  ],
+  "caption": "I find a profitable laptop sleeve more exciting than most unicorns, and I'm done pretending otherwise",
+  "hashtags": [
+   "#D2CIndia",
+   "#IndianStartups",
+   "#StartupFunding",
+   "#QuickCommerce"
+  ],
+  "alt_text": "A text carousel arguing that startup funding in India is shifting from cash-burning quick commerce toward D2C brands with real margins and repeat buyers, citing DailyObjects' $34.3 million Series C, Nat Habit's ₹142 crore Series C on ₹330 crore annualised revenue, and over $63 million raised by D2C brands in early October.",
+  "claims": [
+   {
+    "text": "DailyObjects raised $34.3 million in a Series C",
+    "source_url": "https://inc42.com/buzz/d2c-lifestyle-brand-dailyobjects-raises-₹332-cr-to-expand-offline-presence/"
+   },
+   {
+    "text": "DailyObjects is valued at ₹1,050 crore",
+    "source_url": "https://inc42.com/buzz/d2c-lifestyle-brand-dailyobjects-raises-₹332-cr-to-expand-offline-presence/"
+   },
+   {
+    "text": "DailyObjects will use funds to scale its offline network",
+    "source_url": "https://inc42.com/buzz/d2c-lifestyle-brand-dailyobjects-raises-₹332-cr-to-expand-offline-presence/"
+   },
+   {
+    "text": "Nat Habit raised ₹142 crore in an all-primary Series C led by Trident Growth Partners",
+    "source_url": "https://inc42.com/?p=575466"
+   },
+   {
+    "text": "Nat Habit claims annualised gross revenue of ₹330 crore",
+    "source_url": "https://inc42.com/?p=575466"
+   },
+   {
+    "text": "D2C ecommerce brands raised over $63 million in early October alone",
+    "source_url": "topic"
+   }
+  ],
+  "hook_type": "question_gap",
+  "hook_candidates": [
+   {
+    "type": "question_gap",
+    "hook": "Zepto's IPO just got cut by 64%. Meanwhile, a laptop sleeve brand raised $34.3 million. So what are investors actually buying now?"
+   },
+   {
+    "type": "doesnt_add_up",
+    "hook": "A brand that makes laptop sleeves is now worth ₹1,050 crore. And 10-minute delivery just got a 64% haircut. Something big flipped."
+   },
+   {
+    "type": "motive_bust",
+    "hook": "Investors say they're backing laptop sleeves and face cream because they got smarter. The real reason is they got burned."
+   },
+   {
+    "type": "vivid_reframe",
+    "hook": "Investors just put $34.3 million into laptop sleeves and ₹142 crore into face cream. Zepto's IPO got cut by 64%. Follow the money."
+   },
+   {
+    "type": "bold_reframe",
+    "hook": "India's hottest startup bet this month is a laptop sleeve. The kind of business your mummy would actually understand."
+   }
+  ],
+  "caption_style": "pov"
+ },
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-35/slide_01.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-35/slide_02.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-35/slide_03.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-35/slide_04.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-35/slide_05.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-35/slide_06.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-35/slide_07.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-35/slide_08.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-35/slide_09.jpg"
+ ]
 }
