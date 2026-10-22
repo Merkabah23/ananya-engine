@@ -88,14 +88,14 @@ def _layout(paragraphs: list[str], size: int) -> tuple[list[tuple[list, str]], i
     return rows, height
 
 
-def _globe(d: ImageDraw.ImageDraw, cx: int, cy: int, r: int) -> None:
-    d.ellipse((cx - r, cy - r, cx + r, cy + r), outline=GREY, width=3)
-    d.ellipse((cx - r // 2, cy - r, cx + r // 2, cy + r), outline=GREY, width=2)
-    d.line((cx - r, cy, cx + r, cy), fill=GREY, width=2)
+def _globe(d: ImageDraw.ImageDraw, cx: int, cy: int, r: int, color=GREY) -> None:
+    d.ellipse((cx - r, cy - r, cx + r, cy + r), outline=color, width=3)
+    d.ellipse((cx - r // 2, cy - r, cx + r // 2, cy + r), outline=color, width=2)
+    d.line((cx - r, cy, cx + r, cy), fill=color, width=2)
 
 
 def render_slide(paragraphs: list[str], end: bool = False) -> Image.Image:
-    """end=True draws the end card: teal, white text, and the account's one-line description under the name."""
+    """end=True draws the end card: the same header and text, in teal with white type."""
     header_h, gap = AVATAR, 44
     avail = H - 2 * 70 - header_h - gap
     for size in BODY_SIZES:
@@ -115,11 +115,8 @@ def render_slide(paragraphs: list[str], end: bool = False) -> Image.Image:
     nx += 22
     d.text((nx, y0 + 18), config.DISPLAY_NAME, font=_font("Medium", 44), fill=ink)
     meta = _font("Regular", 32)
-    if end:
-        d.text((nx, y0 + 72), config.TAGLINE, font=meta, fill=sub)
-    else:
-        d.text((nx, y0 + 72), "Just now ·", font=meta, fill=GREY)
-        _globe(d, int(nx + meta.getlength("Just now ·") + 26), y0 + 72 + 19, 14)
+    d.text((nx, y0 + 72), "Just now ·", font=meta, fill=sub)  # same header on every slide, end card included
+    _globe(d, int(nx + meta.getlength("Just now ·") + 26), y0 + 72 + 19, 14, sub)
     for k in range(3):
         d.ellipse((W - MARGIN - 52 + k * 20, y0 + 30, W - MARGIN - 42 + k * 20, y0 + 40), fill=sub)
     # Body, at the size chosen above
