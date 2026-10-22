@@ -27,6 +27,8 @@ MAX_SLIDES = 7           # readers get the gist by slide 3 or 4; Buffer's own ca
 SLIDE_WORDS = (15, 45)   # every slide after the hook
 HOOK_WORDS = 25
 POST_WORDS = (120, 240)
+ENDING_REVERSAL = re.compile(r"\b(isn't|is not|wasn't|was not|aren't|never)\b[^.?!]{0,60}[.?!]\s*(it's|it is|it was|they're|"
+                             r"she's|he's|that's|this is)\b|\bwas never about\b|\bnever about the\b", re.I)
 MONEY = re.compile(r"(₹\s?[\d,.]+(\s?(crore|cr|lakh|k))?|\brs\.?\s?[\d,.]+|[\d,.]+\s?(%|percent|crore|cr\b|lakh|lpa|million|billion))", re.I)
 
 
@@ -98,7 +100,12 @@ def verify_facts(draft: dict, sources: list[dict]) -> list[str]:
            "illustrative round numbers in a typical scenario; vague time words (\"this month\", \"lately\"); and what anyone can see "
            "for themselves on a named app, shop or ad (\"the sale banner never goes away\", \"five QR codes on the counter\"). Those "
            "are the writer's voice, not facts. DO check claims about how a named company works on the inside (how a badge is "
-           "decided, what a team does, why a price is set) when stated as fact rather than opinion.\n\n"
+           "decided, what a team does, why a price is set) when stated as fact rather than opinion.\n"
+           "ALWAYS check, even inside an everyday observation: (1) arithmetic, such as an EMI times its months matching the "
+           "price it is applied to, totals, and percentage changes; (2) that a named app, platform or label really works the "
+           "way the post says (which app shows which timer, where a label sits, who pays a commission, which tax slab "
+           "applies); (3) that a comparison's premise is true (if two things are said to be treated differently, they must "
+           "be); (4) that the post's timing fits its go-live date (an event described as past must have happened).\n\n"
            f"## Post\n{text}\n\n## Source excerpts\n{excerpts or '(no sources)'}\n\n"
            'Return only JSON: {"unsupported": [{"statement": "...", "why": "what the sources actually say, or that none covers it"}]}')
     try:
@@ -223,6 +230,9 @@ def hard_checks(draft: dict, fmt: str, sources: list[dict]) -> list[str]:
             problems.append(f"Remove the phrase '{m.group(0)}'.")
     if len(re.findall(r"\bit'?s not\b[^.]{0,60}\bit'?s\b", text, re.I)) > 2:
         problems.append("'It's not X, it's Y' appears more than twice; keep at most two.")
+    if fmt == "carousel" and slides and ENDING_REVERSAL.search(" ".join(slides[-1]["paragraphs"])):
+        problems.append("The last slide ends on an 'isn't X, it's Y' / 'was never about' reversal, the account's most "
+                        "repeated tell. End on this post's own concrete detail or image instead.")
     copied = corpus.copied_runs(text)
     if copied:
         problems.append(f"These word runs copy the reference creator; rewrite them: {copied[:5]}")

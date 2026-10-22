@@ -163,3 +163,9 @@ def test_only_the_last_carousel_slide_is_the_end_card(tmp_path, monkeypatch):
     post = {"id": "x", "format": "carousel", "draft": draft(GOOD)}
     shades = [render.Image.open(p).getpixel((5, 5)) for p in render.render_post(post)]
     assert shades.count(shades[-1]) == 1 and len(set(shades[:-1])) == 1
+
+
+def test_reversal_ending_is_caught():
+    bad = [list(s) for s in GOOD]
+    bad[-1] = ["They didn't keep the drawing room for guests. It was never about the guests.", "It was always about being seen, by anyone at all."]
+    assert any("reversal" in p for p in writer.hard_checks(draft(bad), "carousel", []))

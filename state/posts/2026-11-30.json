@@ -1,10 +1,10 @@
 {
  "id": "2026-11-30",
- "status": "uploaded",
+ "status": "approved",
  "due": "2026-11-07T11:00:00+05:30",
  "format": "single",
  "topic": {
-  "title": "Experiences Are The New Logo",
+  "title": "Salary credited at 10 am.",
   "claim": "Young Indians saying they'd rather spend on a wellness retreat than a branded bag aren't rejecting status spending, they're just doing status spending that doesn't photograph as a logo anymore.",
   "behaviour": "Under-40 buyers account for 60% of India's luxury purchases versus 40% globally, Gen Z drives about 47% of fashion-and-lifestyle spend, and professionals still put 15-20% of income into premium products while increasingly prioritising travel and wellness over owning branded goods.",
   "mechanism": "A watch or a bag used to be the visible marker of status, now the visible marker is a story, a reel from a retreat, a boarding pass, so the spend hasn't dropped, only the format of the flex has changed.",
@@ -12,13 +12,7 @@
   "territory": "money_status",
   "mood": "sharp",
   "format_hint": "single",
-  "real_details": [
-   "India's luxury market is valued near $10.6 billion, growing toward $18.8 billion by 2034",
-   "under-40 buyers account for 60% of purchases versus 40% globally",
-   "Gen Z drives about 47% of fashion-and-lifestyle spend",
-   "professionals still allocate 15-20% of income to premium products",
-   "Bain estimates India has 20-25 million active luxury consumers, with millennials making up 40-45% of that base"
-  ],
+  "real_details": [],
   "evidence": [
    {
     "url": "https://impressivetimes.com/life-style/experience-based-spending-young-indians/",
@@ -63,53 +57,60 @@
   {
    "rebranded_on": "2026-10-21",
    "previous_buffer_post_id": null
+  },
+  {
+   "replaced_after_panel_review": {
+    "slides": [
+     {
+      "paragraphs": [
+       "Skipping the branded bag for a wellness retreat isn't giving up status. You just moved it.",
+       "A logo used to do the showing off. Now a reel from a retreat in the hills does it. So does a boarding pass on your story.",
+       "Professionals still put 15-20% of income into premium products. The spend didn't drop."
+      ]
+     }
+    ],
+    "caption": "The logo didn't disappear. It moved to the boarding pass.",
+    "alt_text": "A single text slide arguing that young Indians choosing wellness retreats over branded bags are still spending on status. The showing off has moved from logos to reels and boarding passes, and professionals still put 15-20% of their income into premium products.",
+    "claims": [
+     {
+      "text": "Professionals still allocate 15-20% of income to premium products",
+      "source_url": "topic"
+     },
+     {
+      "text": "Younger affluent Indian consumers are prioritising experiences over product ownership, with wellness becoming a status marker",
+      "source_url": "https://www.ibef.org/news/india-s-luxury-market-set-for-10-growth-in-2025-euromonitor-international"
+     }
+    ],
+    "hashtags": [
+     "#WellnessRetreat",
+     "#StatusSymbol",
+     "#ConsumerBehaviour"
+    ],
+    "caption_style": "pov"
+   }
   }
  ],
  "updated_at": "2026-10-22T14:58:19.666532+00:00",
- "sources": [
-  {
-   "url": "https://www.ibef.org/news/india-s-luxury-market-set-for-10-growth-in-2025-euromonitor-international",
-   "fact": "Euromonitor says younger, affluent Indian consumers are prioritising experiences over product ownership, and wellness and lifestyle are becoming new status markers.",
-   "excerpt": "Younger, affluent consumers are prioritising experiences and emotional engagement over product ownership,\" ... \"fuelling the rise of wellness and lifestyle as new status markers."
-  },
-  {
-   "url": "https://www.businesstoday.in/amp/latest/economy/story/driven-by-young-and-affluent-buyers-indias-luxury-market-is-expected-to-reach-121-billion-by-2025-499278-2025-10-23",
-   "fact": "Business Today, reporting Euromonitor, says younger affluent buyers are moving luxury spending from goods to experiences, with wellness and lifestyle now marking status.",
-   "excerpt": "Younger, affluent buyers are driving this change by favouring unique experiences over traditional luxury products\" ... \"Luxury spending has shifted from personal goods towards experience-led categories\" ... \"Wellness, lifestyle, and emotional resonance are now prominent markers of status"
-  }
- ],
+ "sources": [],
  "draft": {
   "slides": [
    {
     "paragraphs": [
-     "Skipping the branded bag for a wellness retreat isn't giving up status. You just moved it.",
-     "A logo used to do the showing off. Now a reel from a retreat in the hills does it. So does a boarding pass on your story.",
-     "Professionals still put 15-20% of income into premium products. The spend didn't drop."
+     "Salary credited at 10 am.",
+     "By 2 pm, the rent, two EMIs, the SIP and the credit card bill have each taken their share.",
+     "You were rich for four hours."
     ]
    }
   ],
-  "caption": "The logo didn't disappear. It moved to the boarding pass.",
-  "alt_text": "A single text slide arguing that young Indians choosing wellness retreats over branded bags are still spending on status. The showing off has moved from logos to reels and boarding passes, and professionals still put 15-20% of their income into premium products.",
-  "claims": [
-   {
-    "text": "Professionals still allocate 15-20% of income to premium products",
-    "source_url": "topic"
-   },
-   {
-    "text": "Younger affluent Indian consumers are prioritising experiences over product ownership, with wellness becoming a status marker",
-    "source_url": "https://www.ibef.org/news/india-s-luxury-market-set-for-10-growth-in-2025-euromonitor-international"
-   }
-  ],
+  "caption": "What time does your salary leave you?",
+  "alt_text": "A single text slide: salary arrives at 10 am, and by 2 pm rent, two EMIs, a SIP and the credit card bill have taken it. You were rich for four hours.",
+  "claims": [],
   "hashtags": [
-   "#WellnessRetreat",
-   "#StatusSymbol",
-   "#ConsumerBehaviour"
-  ],
-  "caption_style": "pov"
+   "#SalaryDay",
+   "#EMI",
+   "#MiddleClassIndia"
+  ]
  },
  "caption_style": "pov",
- "end_follow_line": false,
- "image_urls": [
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-30/slide_01.jpg"
- ]
+ "end_follow_line": false
 }

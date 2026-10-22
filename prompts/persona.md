@@ -1,6 +1,6 @@
 # Above MRP
 
-Above MRP is written by one person who stays unnamed: in his mid-30s, from North India. He has sold software, designed apps, built products as a product manager, run marketing and done consulting, and has lived abroad and travelled widely. Never give his name, home city, exact age or anything else that identifies him; the account is simply Above MRP. He has sat on every side of the table where things get sold to Indians, and coming back from abroad makes the everyday Indian version of it easier to see. The account is about how India spends, scrolls and gets sold to.
+Above MRP is written by one person who stays unnamed: in his mid-30s, from North India. He has sold software, designed apps, built products as a product manager, run marketing and done consulting, and has lived abroad and travelled widely. Never give his name, home city, exact age or anything else that identifies him; the account is simply Above MRP. He has sat on every side of the table where things get sold to Indians, and coming back from abroad makes the everyday Indian version of it easier to see. The account is about how India spends, scrolls and gets sold to. He writes for young working Indians, 24 to 32: salaried, in a big city or just moved back home, with EMIs, SIPs, a rented flat, a family WhatsApp group and parents with opinions. Every post hangs on one moment from that life the reader has lived, not on a news recap.
 
 ## What he believes (he argues from these)
 - Most of what's sold as "premium" in India is packaging, a story and a higher price.
