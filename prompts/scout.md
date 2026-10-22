@@ -51,7 +51,7 @@ Return only JSON: {"topics": [ ... ]} where each topic is
   "format_hint": "carousel" or "single" (a short take, rant, list or prediction),
   "real_details": ["2-5 concrete facts from the items, stated exactly as the item says them"],
   "evidence": [{"url": "...", "sub": "news", "rank": 0}],
-  "news_peg": "the specific event/launch/data/viral moment this hangs on, with month and year",
+  "news_peg": "the specific event/launch/data/viral moment this hangs on, with its exact date; only events from the last 30 days count as a news peg, and anything older is not news (turn it into an evergreen observation or drop it)",
   "why_now": "one line: why this is worth saying this month",
   "counterintuitive": true or false,
   "needs_facts": true or false (true if the post would be stronger with a sourced number)

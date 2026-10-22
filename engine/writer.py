@@ -82,10 +82,10 @@ def readability_problems(draft: dict, fmt: str) -> list[str]:
     return problems[:6]
 
 
-def verify_facts(draft: dict, sources: list[dict]) -> list[str]:
+def verify_facts(draft: dict, sources: list[dict], due: str = "") -> list[str]:
     """Check every factual statement in the post against the saved source excerpts (no re-fetching)."""
     text = post_text(draft)
-    if not re.search(r"\d|[A-Z][a-z]+ [A-Z][a-z]+", text):
+    if not re.search(r"\d|[A-Z][a-z]+ [A-Z][a-z]+|\b(just|now|this (month|week|year))\b", text, re.I):
         return []  # no numbers or proper names: nothing to verify
     excerpts = "\n\n".join(f"[{i + 1}] {s['url']}\n{s.get('excerpt') or s.get('fact', '')}" for i, s in enumerate(sources))
     ask = ("You are a strict fact checker. Below are a post and the exact text of its sources. Many posts are a standalone "
@@ -105,7 +105,11 @@ def verify_facts(draft: dict, sources: list[dict]) -> list[str]:
            "price it is applied to, totals, and percentage changes; (2) that a named app, platform or label really works the "
            "way the post says (which app shows which timer, where a label sits, who pays a commission, which tax slab "
            "applies); (3) that a comparison's premise is true (if two things are said to be treated differently, they must "
-           "be); (4) that the post's timing fits its go-live date (an event described as past must have happened).\n\n"
+           "be); (4) freshness: the post goes live on " + (due[:10] or "an unknown date") + ". Anything framed as new or "
+           "current (\"just\", \"now\", \"this month\", \"is testing\", a present-tense news event) must have happened within "
+           "about 30 days of that date according to the source's own dates; anything older must be framed as past (\"a year "
+           "ago\"). An event described as already over must have happened by then, and a figure called a record must be the "
+           "highest, not just a recent high.\n\n"
            f"## Post\n{text}\n\n## Source excerpts\n{excerpts or '(no sources)'}\n\n"
            'Return only JSON: {"unsupported": [{"statement": "...", "why": "what the sources actually say, or that none covers it"}]}')
     try:
@@ -230,6 +234,8 @@ def hard_checks(draft: dict, fmt: str, sources: list[dict]) -> list[str]:
             problems.append(f"Remove the phrase '{m.group(0)}'.")
     if len(re.findall(r"\bit'?s not\b[^.]{0,60}\bit'?s\b", text, re.I)) > 2:
         problems.append("'It's not X, it's Y' appears more than twice; keep at most two.")
+    if len(re.findall(r"\bnobody\b", text, re.I)) > 1:
+        problems.append("'Nobody' appears more than once; it's the account's most repeated tic. Keep at most one.")
     if fmt == "carousel" and slides and ENDING_REVERSAL.search(" ".join(slides[-1]["paragraphs"])):
         problems.append("The last slide ends on an 'isn't X, it's Y' / 'was never about' reversal, the account's most "
                         "repeated tell. End on this post's own concrete detail or image instead.")
@@ -332,14 +338,14 @@ def write_post(post: dict) -> dict:
                 voice_examples=voice_examples(seed + attempt),
                 topic=json.dumps(topic, ensure_ascii=False, indent=1),
                 sources=json.dumps(sources, ensure_ascii=False, indent=1) if sources else "(none)"), stage="critic")
-            review, facts = llm.pmap(lambda job: job(None), [critic_job, lambda _: verify_facts(draft, evidence)], workers=2)
+            review, facts = llm.pmap(lambda job: job(None), [critic_job, lambda _: verify_facts(draft, evidence, post.get("due") or "")], workers=2)
             if isinstance(review, Exception):
                 review = {"pass": False, "violations": [f"critic failed: {review}"], "edits": []}
             if isinstance(facts, Exception):
                 facts = [f"Fact check failed ({facts}); remove any statement that needs a source."]
             if facts:  # targeted repair, then re-check; a full rewrite only if that fails
                 draft, mech = mechanical(repair(draft, facts, evidence), fmt, evidence)
-                facts = mech or verify_facts(draft, evidence)
+                facts = mech or verify_facts(draft, evidence, post.get("due") or "")
             post["history"].append({"attempt": attempt, "review": review, "facts": facts})
             scores = review.get("scores", {})
             strong = (not review.get("violations") and _score(scores, "hook") >= 3 and _score(scores, "mechanism") >= 3)
