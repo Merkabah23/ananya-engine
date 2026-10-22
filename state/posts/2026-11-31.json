@@ -1,6 +1,6 @@
 {
  "id": "2026-11-31",
- "status": "planned",
+ "status": "uploaded",
  "due": "2026-11-14T11:00:00+05:30",
  "format": "single",
  "topic": {
@@ -38,6 +38,69 @@
    "format_fit": "either"
   }
  },
- "history": [],
- "updated_at": "2026-10-21T08:21:22.003524+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 3,
+     "specificity": 3,
+     "mechanism": 3,
+     "ending": 3,
+     "voice": 3
+    },
+    "edits": [
+     "slide 1: Change 'Literally every single person on dating apps right now is:' to 'Half of Indian daters are doing two things at once:'. The stats are 51.2% and 40.2%, so 'every single person' overshoots the data and weakens the hook.",
+     "slide 1: Change 'unmatching anyone whose photos look AI-smoothed' to 'ready to unmatch over an AI-smoothed photo'. The survey says 40.2% 'would feel deceived and likely unmatch', not that everyone does.",
+     "slide 1: Drop 'Your face has to show up to the date.' or put it in plainer words, like 'Your face has to turn up in person.' The mirrored pair and punchline ending is the one slightly engineered spot."
+    ]
+   },
+   "facts": []
+  }
+ ],
+ "updated_at": "2026-10-22T09:24:06.155052+00:00",
+ "sources": [
+  {
+   "url": "https://www.globaldatinginsights.com/featured/aisle-ai-dating-survey-india-2026/",
+   "fact": "Aisle's 2026 survey of 8,240 urban Indian singles found 51.2% run dating messages through AI, 46% use AI on their profiles, 53.1% of women use it to discuss feelings, 64.2% trust their instincts over AI, and 40.2% would feel deceived and likely unmatch over an AI-enhanced photo.",
+   "excerpt": "a survey of 8,240 urban Indian singles. | run dating messages through AI before sending them. | to write or improve their dating profiles. | use AI to discuss feelings and relationship concerns. | trust their own instincts over AI. | would feel deceived and likely unmatch if they discovered a match's photo was AI-enhanced or AI-generated. | Published 9th October 2026"
+  },
+  {
+   "url": "https://www.mediainfoline.com/article/aisle-industry-report-88-of-bengaluru-daters-say-ai-written-openers-are-inevitable",
+   "fact": "MediaInfoline's report on the Aisle study, published Oct 09, 2026, confirms the 8,240-singles sample, the 51.2% who run messages through AI, and the 40.2% who would unmatch over AI-enhanced photos.",
+   "excerpt": "8,240 urban Indian singles. | 51.2% run a message through AI before sending it | 40.2% would feel deceived and likely unmatch on finding a match's photo was AI-enhanced or AI-generated. | Oct 09, 2026, 11:12 am"
+  }
+ ],
+ "draft": {
+  "slides": [
+   {
+    "paragraphs": [
+     "Half of Indian daters are doing two things at once:\n- getting AI to write \"hey, how was your weekend\"\n- ready to unmatch over an AI-smoothed photo",
+     "Aisle surveyed 8,240 urban Indian singles. 51.2% run their messages through AI. 40.2% would feel deceived and unmatch over an AI-enhanced photo.",
+     "Your words can be ghostwritten. Your face has to turn up in person."
+    ]
+   }
+  ],
+  "caption": "What's the one thing you'd let AI fix on your dating profile, and the one thing you wouldn't?",
+  "alt_text": "A text-only post. It lists what people on dating apps are doing: getting AI to write casual openers and unmatching people whose photos look AI-smoothed. It cites Aisle's survey of 8,240 urban Indian singles: 51.2% run messages through AI, and 40.2% would feel deceived and unmatch over an AI-enhanced photo. It ends by saying your words can be ghostwritten but your face has to turn up in person.",
+  "claims": [
+   {
+    "text": "Aisle's survey covered 8,240 urban Indian singles",
+    "source_url": "https://www.globaldatinginsights.com/featured/aisle-ai-dating-survey-india-2026/"
+   },
+   {
+    "text": "51.2% run their dating messages through AI",
+    "source_url": "https://www.mediainfoline.com/article/aisle-industry-report-88-of-bengaluru-daters-say-ai-written-openers-are-inevitable"
+   },
+   {
+    "text": "40.2% would feel deceived and unmatch if a partner's photos turned out to be AI-enhanced",
+    "source_url": "topic"
+   }
+  ]
+ },
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-31/slide_01.jpg"
+ ]
 }

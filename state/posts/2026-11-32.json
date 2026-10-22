@@ -1,6 +1,6 @@
 {
  "id": "2026-11-32",
- "status": "planned",
+ "status": "uploaded",
  "due": "2026-11-18T19:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -35,6 +35,162 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-10-21T08:21:22.003836+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "specificity": 3,
+     "mechanism": 4,
+     "ending": 3,
+     "voice": 3
+    },
+    "edits": [
+     "slide 6: cut \"That's a lot of weight on one person.\" and the tricolon \"His shares, his loan, his bet.\" because slide 5 already makes this point.",
+     "slide 9: cut the last line (\"Every pledge, every sale, every silence gets read as a signal.\") because it repeats slide 5 and ends as a tidy moral.",
+     "slide 3: break \"And whether required internal audits for FY26 were skipped\" into a short separate sentence and replace \"*confirmed orders*\" with plain quotes, so a fast scan reads it more easily."
+    ]
+   },
+   "facts": []
+  }
+ ],
+ "updated_at": "2026-10-22T09:24:25.924627+00:00",
+ "sources": [
+  {
+   "url": "https://www.thehansindia.com/business/bhavish-pledges-432-ola-electric-stake-for-rights-issue-1128953",
+   "fact": "Aggarwal pledged a 4.32% stake (20 crore shares) in Ola Electric, which the company says is solely to fund his subscription to the rights issue.",
+   "excerpt": "has pledged a 4.32 per cent stake in the company to participate in the rights issue\n\nThis pledge is solely to fund his subscription to the issue\n\nno shares are being sold\n\n20 crore shares held by Aggarwal are being pledged against non-convertible debentures"
+  },
+  {
+   "url": "https://www.sahi.com/news/ola-electric-discloses-pending-sebi-review-of-25-000-unit-sales-data-disclosures",
+   "fact": "Ola Electric's filings disclose a pending SEBI show-cause notice dated April 10, 2026, over alleged false and misleading February 2025 sales disclosures, and a settlement application is pending.",
+   "excerpt": "Ola Electric's regulatory filings reveal a pending SEBI show-cause notice issued on April 10, 2026.\n\nThe regulator is examining the company's February 2025 sales disclosures\n\nalleged false and misleading sales disclosures from February 2025\n\nOla Electric completed an inspection of records in May 2026\n\nsubmitted a settlement application to SEBI in June 2026, which remains pending."
+  }
+ ],
+ "draft": {
+  "slides": [
+   {
+    "paragraphs": [
+     "The thing holding up Ola Electric's stock right now is a loan its founder just took. And I know how that sounds.",
+     "Swipe to read →"
+    ]
+   },
+   {
+    "paragraphs": [
+     "Bhavish Aggarwal has pledged 4.32% of Ola Electric. That's 20 crore shares.",
+     "The company says it's just to fund his part of a ₹1,000 crore rights issue. No shares are being sold.",
+     "He's borrowing against the company to buy more of it."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Now the other half. SEBI is looking at whether Ola reported \"confirmed orders\" as actual sales. And whether required internal audits for FY26 were skipped.",
+     "There's a show-cause notice from April 2026 too, over its February 2025 sales disclosures."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Nothing is proven. Ola has applied to settle, and that's still pending.",
+     "But think about what a retail investor holds right now. A sales number with a question mark on it. An audit question nobody has answered yet."
+    ]
+   },
+   {
+    "paragraphs": [
+     "When the numbers wobble, people stop reading numbers. They start reading the founder.",
+     "Is he selling? Is he buying? Is he still in?",
+     "A founder pledging his own shares to put in more money reads like a loud yes."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Here's the uncomfortable part. The trust left in this stock isn't coming from the company's reports anymore.",
+     "It's coming from one man's personal risk."
+    ]
+   },
+   {
+    "paragraphs": [
+     "And a pledge cuts both ways. Pledged shares are security for a loan.",
+     "If the price falls far enough, lenders usually want more.",
+     "So the thing calming investors is tied to the same price they're nervous about."
+    ]
+   },
+   {
+    "paragraphs": [
+     "This is how a lot of Indian retail investing works. People don't read the annual report. They buy the founder.",
+     "The IPO sold a story about one man and the future. Now that story is doing all the work."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Founders love being the face of the brand. This is the other side of it.",
+     "When the numbers are in doubt, your personal moves become the numbers."
+    ]
+   }
+  ],
+  "caption": "When a company's numbers are in doubt, what do you actually look at before you hold or sell?",
+  "alt_text": "A nine-slide text carousel about Ola Electric. Founder Bhavish Aggarwal has pledged a 4.32% stake, 20 crore shares, to fund his part in a ₹1,000 crore rights issue, while SEBI looks at whether the company reported confirmed orders as sales and whether FY26 internal audits were skipped. The post argues that retail investors' remaining trust now rests on the founder's personal bet rather than the company's reported numbers, and that pledged shares tie that trust back to the stock price.",
+  "claims": [
+   {
+    "text": "Bhavish Aggarwal pledged a 4.32% stake (20 crore shares) in Ola Electric",
+    "source_url": "https://www.thehansindia.com/business/bhavish-pledges-432-ola-electric-stake-for-rights-issue-1128953"
+   },
+   {
+    "text": "The pledge is solely to fund his subscription to the rights issue; no shares are being sold",
+    "source_url": "https://www.thehansindia.com/business/bhavish-pledges-432-ola-electric-stake-for-rights-issue-1128953"
+   },
+   {
+    "text": "The rights issue is ₹1,000 crore",
+    "source_url": "topic"
+   },
+   {
+    "text": "SEBI is investigating whether Ola reported confirmed orders as actual sales and whether internal audits for FY26 were skipped",
+    "source_url": "topic"
+   },
+   {
+    "text": "SEBI show-cause notice dated April 10, 2026 over alleged false and misleading February 2025 sales disclosures",
+    "source_url": "https://www.sahi.com/news/ola-electric-discloses-pending-sebi-review-of-25-000-unit-sales-data-disclosures"
+   },
+   {
+    "text": "Ola Electric submitted a settlement application to SEBI which remains pending",
+    "source_url": "https://www.sahi.com/news/ola-electric-discloses-pending-sebi-review-of-25-000-unit-sales-data-disclosures"
+   }
+  ],
+  "hook_type": "sounds_wrong",
+  "hook_candidates": [
+   {
+    "type": "sounds_wrong",
+    "hook": "The thing holding up Ola Electric's stock right now is a loan its founder just took. And I know how that sounds."
+   },
+   {
+    "type": "vivid_reframe",
+    "hook": "Bhavish Aggarwal just pledged 20 crore Ola Electric shares to buy more, while SEBI checks Ola's sales numbers. That loan is holding up the stock."
+   },
+   {
+    "type": "motive_bust",
+    "hook": "Ola Electric investors say they watch the sales numbers. Right now they're watching one thing: whether Bhavish Aggarwal keeps putting his own money in."
+   },
+   {
+    "type": "weird_behaviour",
+    "hook": "Something odd is happening with Ola Electric. SEBI is questioning its sales numbers, and investors are holding on anyway. Because of one man's loan."
+   },
+   {
+    "type": "bold_reframe",
+    "hook": "Ola Electric's most-read number right now isn't on its sales report. It's the 4.32% Bhavish Aggarwal just pledged to buy more."
+   }
+  ]
+ },
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-32/slide_01.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-32/slide_02.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-32/slide_03.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-32/slide_04.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-32/slide_05.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-32/slide_06.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-32/slide_07.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-32/slide_08.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-32/slide_09.jpg"
+ ]
 }
