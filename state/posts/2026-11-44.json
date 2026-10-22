@@ -1,6 +1,6 @@
 {
  "id": "2026-11-44",
- "status": "planned",
+ "status": "uploaded",
  "due": "2026-11-16T19:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -35,6 +35,155 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-10-22T17:38:38.868178+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "specificity": 4,
+     "mechanism": 4,
+     "ending": 3,
+     "voice": 4
+    },
+    "edits": [
+     "slide 2: cut the first line 'Wedding loans have a habit of moving into the earning kid's salary.' because the hook already says it. Open with the Zerodha Varsity line.",
+     "slide 7: cut 'already working out the monthly EMI'. The EMI idea is already in slides 2 and 5, so end on the kid standing at the edge of the photo, smiling.",
+     "slide 6: shorten 'A full shaadi hall, grading how well he did his duty as a father.' to 'A full shaadi hall is the grade.' It is the heaviest line to read."
+    ]
+   },
+   "facts": []
+  }
+ ],
+ "updated_at": "2026-10-22T17:47:32.145057+00:00",
+ "sources": [
+  {
+   "url": "https://www.outlookmoney.com/banking/big-fat-weddings-cost-couples-their-hard-earned-savings-only-15-per-cent-use-loans-report",
+   "fact": "The WedMeGood 2025 report found about 15% of couples took wedding loans, with an average loan of Rs 15.5 lakh against an average all-India wedding budget of Rs 39.5 lakh.",
+   "excerpt": "around 79 per cent of couples funded their weddings through their savings, while just 15 per cent took loans. The average loan size stood at Rs 15.5 lakh. The all-India average budget for a wedding reached Rs 39.5 lakh."
+  },
+  {
+   "url": "https://zerodha.com/varsity/the-dark-side-of-the-big-fat-indian-wedding",
+   "fact": "Zerodha Varsity says wedding debt often passes to the bride's father and brother, and cites IndiaLends surveys showing marriage as a large share of loans among young Indians.",
+   "excerpt": "The girl's father and brother will repay the loan. It does not impact the newly wedded couple. 20% of all loan applications received from young Indians aged 20-30 years in 2018-19 were for marriage. the average ticket size for marriage loans was the highest at ₹4.13 lakh. The longing to create one dreamy, colossal day could cripple your personal finance for years to come."
+  }
+ ],
+ "draft": {
+  "slides": [
+   {
+    "paragraphs": [
+     "Papa earns ₹30,000 a month and retires next year. The second sister's wedding costs ₹20 lakh. So whose salary is paying for it?",
+     "Swipe to read →"
+    ]
+   },
+   {
+    "paragraphs": [
+     "Zerodha Varsity says it plainly: the debt often falls on the bride's father and brother.",
+     "The couple goes on the honeymoon. The EMI stays home."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Picture a normal version.",
+     "Second sister's wedding, around ₹20 lakh. A ₹10-15 lakh loan planned. About ₹4 lakh unpaid from the first sister's.",
+     "Papa earns about ₹30,000 a month and retires in a year. The earning kid makes about ₹58,000."
+    ]
+   },
+   {
+    "paragraphs": [
+     "The math isn't hard.",
+     "In a year, papa's salary stops. The old ₹4 lakh and the new loan don't.",
+     "There's exactly one salary left in the house, and everyone at the dinner table knows whose."
+    ]
+   },
+   {
+    "paragraphs": [
+     "And the kid can't really say it.",
+     "Asking for a smaller wedding sounds like loving your sister less. Mention a postponement and you're the selfish one by dinner.",
+     "So you nod, and open the EMI calculator later."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Because the wedding is papa's report card. A full shaadi hall is the grade.",
+     "The loan is the part of the report card nobody prints. It just gets handed to the kid."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Look at the family photo from the sister's wedding.",
+     "The one paying for it is standing at the edge, smiling."
+    ]
+   }
+  ],
+  "caption": "If you're the earning kid, which family wedding are you still paying for?",
+  "hashtags": [
+   "#WeddingLoan",
+   "#IndianWeddings",
+   "#PersonalFinanceIndia",
+   "#WeddingSeason"
+  ],
+  "alt_text": "A seven-slide text carousel about how wedding loans in Indian families often pass to the earning son or sibling. It walks through a typical case: a second sister's wedding around ₹20 lakh, a planned ₹10-15 lakh loan, ₹4 lakh left from the first wedding, and a father earning ₹30,000 who retires in a year while the child earns ₹58,000. It argues that the wedding works as the parents' public report card, so questioning the budget feels like questioning love, and the debt lands on the next earner.",
+  "claims": [
+   {
+    "text": "Zerodha Varsity says wedding debt often falls on the bride's father and brother",
+    "source_url": "https://zerodha.com/varsity/the-dark-side-of-the-big-fat-indian-wedding"
+   },
+   {
+    "text": "Second sister's wedding estimated at about ₹20 lakh",
+    "source_url": "topic"
+   },
+   {
+    "text": "Parents plan a ₹10-15 lakh loan",
+    "source_url": "topic"
+   },
+   {
+    "text": "About ₹4 lakh of debt remains from the first sister's wedding",
+    "source_url": "topic"
+   },
+   {
+    "text": "Dad earns about ₹30,000 a month and retires in about a year; the earning child makes about ₹58,000",
+    "source_url": "topic"
+   },
+   {
+    "text": "The earning child has asked for a smaller wedding or a postponement and feels unheard",
+    "source_url": "topic"
+   }
+  ],
+  "hook_type": "question_gap",
+  "hook_candidates": [
+   {
+    "type": "question_gap",
+    "hook": "Papa earns ₹30,000 a month and retires next year. The second sister's wedding costs ₹20 lakh. So whose salary is paying for it?"
+   },
+   {
+    "type": "bold_reframe",
+    "hook": "In a lot of Indian homes, the wedding loan gets passed down to the next kid. Like the family jewellery, but worse."
+   },
+   {
+    "type": "imagine",
+    "hook": "Look at any big Indian wedding photo. Somewhere at the edge, smiling, is the person who'll be paying for it long after the honeymoon."
+   },
+   {
+    "type": "motive_bust",
+    "hook": "We say the whole family pays for a wedding. Usually it's one kid's salary, and nobody at the dinner table says it out loud."
+   },
+   {
+    "type": "vivid_reframe",
+    "hook": "The couple goes on the honeymoon. The EMI stays home. And it's looking for the next kid with a salary."
+   }
+  ],
+  "caption_style": "question"
+ },
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-44/slide_01.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-44/slide_02.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-44/slide_03.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-44/slide_04.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-44/slide_05.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-44/slide_06.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-44/slide_07.jpg"
+ ]
 }

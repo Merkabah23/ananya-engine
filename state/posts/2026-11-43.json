@@ -1,6 +1,6 @@
 {
  "id": "2026-11-43",
- "status": "planned",
+ "status": "uploaded",
  "due": "2026-11-11T19:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -36,6 +36,156 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-10-22T17:38:38.867855+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "specificity": 4,
+     "mechanism": 4,
+     "ending": 4,
+     "voice": 4
+    },
+    "edits": [
+     "slide 5: cut 'Now the part that should bother you.' and open with 'The same patient says staff scribbled a ₹15k discount on paper.'",
+     "slide 6: shorten to 'The Health Ministry has asked states to make hospitals display rates. People in the field doubt they do, and final bills can still drift.' Drop the extra sentence about the board on the wall.",
+     "slide 4: swap 'clubbed together' for 'lumped together' so it reads in one pass."
+    ]
+   },
+   "facts": []
+  }
+ ],
+ "updated_at": "2026-10-22T17:47:14.480526+00:00",
+ "sources": [
+  {
+   "url": "https://www.outlookmoney.com/news/hospital-bills-still-lack-itemised-charges-83-per-cent-want-standard-made-mandatory",
+   "fact": "A LocalCircles survey found only 28% of respondents with a recently hospitalised family member said the bill listed every charge, and 83% called a mandatory billing standard very critical.",
+   "excerpt": "Of 21,485 respondents whose family member had been hospitalised in the past 12 months | only 28 per cent said the bill listed every charge. | The remaining 38 per cent said many charges were clubbed together | The survey received more than 42,000 responses across 306 districts. | 83 per cent said it was “very critical”"
+  },
+  {
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/hospitals-must-display-treatment-rates-prominently-centre-urges-states-uts-181149",
+   "fact": "The Union Health Ministry has asked states and UTs to make hospitals display treatment rates prominently. Medical representatives question whether hospitals comply, and final bills can differ from the displayed rates.",
+   "excerpt": "ensure that hospitals prominently display treatment rates to improve billing transparency. | at a prominent location in both English and the local language. | help patients and their attendants plan expenses, make informed decisions and avoid disputes over hospital bills. | Display of hospital rates was enforced long back, but the compliance? | remains difficult to implement because the necessary costing exercise has not been completed."
+  }
+ ],
+ "draft": {
+  "slides": [
+   {
+    "paragraphs": [
+     "You'll fight an auto driver over the fare. Then sign a hospital estimate without reading one line. Where does that fight go?",
+     "Swipe to read →"
+    ]
+   },
+   {
+    "paragraphs": [
+     "It goes to the corridor outside the ward. Someone you love is on a bed inside.",
+     "The billing desk has the pen and the file. Asking why it costs this much feels like a risk to their care."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Take one Bengaluru patient's account. A planned leg-implant removal, estimated at about ₹1.7 lakh.",
+     "The bill, they say, rose toward ₹2.33 lakh. Then came the condition: pay about ₹2.08 lakh, or no discharge."
+    ]
+   },
+   {
+    "paragraphs": [
+     "It's not one bad hospital. In a LocalCircles survey, only 28% of people with a recently hospitalised family member said the bill listed every charge.",
+     "38% said many charges were lumped together. Good luck questioning a lump."
+    ]
+   },
+   {
+    "paragraphs": [
+     "The same patient says staff scribbled a ₹15k discount on paper.",
+     "So there was room all along. The first number was just what you'd pay if you stayed quiet."
+    ]
+   },
+   {
+    "paragraphs": [
+     "There is a rule on paper. The Health Ministry has asked states to make hospitals display rates.",
+     "People in the field doubt they do, and final bills can still drift."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Every family has a hospital bill story, told years later at dinner, with the exact number.",
+     "Almost none has a story about asking for the breakdown."
+    ]
+   }
+  ],
+  "caption": "I read every line of a phone plan and I'd still sign a hospital estimate blind",
+  "hashtags": [
+   "#HospitalBills",
+   "#HealthcareIndia",
+   "#PersonalFinanceIndia",
+   "#MedicalCosts"
+  ],
+  "alt_text": "A seven-slide text carousel about why Indian families pay hospital bills without questioning them. It contrasts haggling with an auto driver against signing a hospital estimate unread. It cites one Bengaluru patient's allegation that a leg-implant removal estimated at about ₹1.7 lakh rose toward ₹2.33 lakh, with discharge tied to paying about ₹2.08 lakh and a ₹15k discount later scribbled on paper. It notes a LocalCircles survey in which only 28% said their bill listed every charge, and a Health Ministry push for hospitals to display rates. It ends by observing that families tell hospital bill stories but rarely ask for the breakdown.",
+  "claims": [
+   {
+    "text": "A Bengaluru patient alleges a planned leg-implant removal had an estimate of about ₹1.7 lakh",
+    "source_url": "topic"
+   },
+   {
+    "text": "The patient says the bill rose toward ₹2.33 lakh",
+    "source_url": "topic"
+   },
+   {
+    "text": "The patient says they were told to pay about ₹2.08 lakh or not be discharged",
+    "source_url": "topic"
+   },
+   {
+    "text": "The patient says staff scribbled a ₹15k discount on paper",
+    "source_url": "topic"
+   },
+   {
+    "text": "In a LocalCircles survey, only 28% of respondents with a recently hospitalised family member said the bill listed every charge",
+    "source_url": "https://www.outlookmoney.com/news/hospital-bills-still-lack-itemised-charges-83-per-cent-want-standard-made-mandatory"
+   },
+   {
+    "text": "38% said many charges were clubbed together",
+    "source_url": "https://www.outlookmoney.com/news/hospital-bills-still-lack-itemised-charges-83-per-cent-want-standard-made-mandatory"
+   },
+   {
+    "text": "The Union Health Ministry has asked states and UTs to make hospitals display treatment rates prominently; compliance is questioned and final bills can differ from displayed rates",
+    "source_url": "https://medicaldialogues.in/news/health/hospital-diagnostics/hospitals-must-display-treatment-rates-prominently-centre-urges-states-uts-181149"
+   }
+  ],
+  "hook_type": "weird_behaviour",
+  "hook_candidates": [
+   {
+    "type": "weird_behaviour",
+    "hook": "You'll fight an auto driver over the fare. Then sign a hospital estimate without reading one line. Where does that fight go?"
+   },
+   {
+    "type": "question_gap",
+    "hook": "A Bengaluru hospital quoted about ₹1.7 lakh for a leg operation. The bill crept toward ₹2.33 lakh. So why didn't anyone ask why?"
+   },
+   {
+    "type": "sounds_wrong",
+    "hook": "Most Indian families pay hospital bills like hostages. And I know how that sounds."
+   },
+   {
+    "type": "vivid_reframe",
+    "hook": "Only 28% of families said their hospital bill listed every charge. Everyone else paid it anyway. Nobody asked a single question."
+   },
+   {
+    "type": "motive_bust",
+    "hook": "We don't skip questioning hospital bills because we trust the hospital. We skip it because someone we love is still on that bed."
+   }
+  ],
+  "caption_style": "pov"
+ },
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-43/slide_01.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-43/slide_02.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-43/slide_03.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-43/slide_04.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-43/slide_05.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-43/slide_06.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-43/slide_07.jpg"
+ ]
 }

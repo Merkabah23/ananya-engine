@@ -1,6 +1,6 @@
 {
  "id": "2026-11-42",
- "status": "planned",
+ "status": "uploaded",
  "due": "2026-11-02T19:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -35,6 +35,149 @@
    "format_fit": "either"
   }
  },
- "history": [],
- "updated_at": "2026-10-22T17:38:38.867462+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "specificity": 4,
+     "mechanism": 4,
+     "ending": 3,
+     "voice": 4
+    },
+    "edits": [
+     "slide 5: change \"He keeps waiting for one good month to fix it.\" to \"Often he keeps waiting for one good month to fix it.\" so it reads as typical, not a claim about the Jodhpur father.",
+     "slide 6: cut \"just to ask if the brand is good\". It repeats the mixer-grinder contrast from slides 1 and 3, and it clashes with slide 1, where papa reads every review himself.",
+     "slide 6: end on \"Nobody calls before handing over crores. Maybe you call first.\" and drop \"Maybe\", so the last line is firmer and easier to forward."
+    ]
+   },
+   "facts": []
+  }
+ ],
+ "updated_at": "2026-10-22T17:46:51.026696+00:00",
+ "sources": [
+  {
+   "url": "https://www.taxmann.com/post/blog/sebi-cautions-the-public-to-avoid-transactions-with-unregistered-entities/",
+   "fact": "SEBI has warned that a rising number of entities and online platforms falsely claim to be SEBI-registered, and it urges investors to verify registration status.",
+   "excerpt": "a rising trend of unscrupulous entities and online platforms that falsely claim to be registered with SEBI\n\nverify the registration status of any entity claiming to be a SEBI-registered intermediary\n\ninvestors are strongly advised to verify the entity's registration status\n\ninvestments offering high returns usually involve high risk including fraud risk\n\nKnowledge is your best defense against fraud."
+  },
+  {
+   "url": "https://ianslive.in/sebi-bars-2-operators-for-cheating-investors-orders-them-to-return-rs-483-crore--20250621184804",
+   "fact": "In June 2025 SEBI barred two operators for three years and ordered them to return Rs 4.83 crore for cheating investors in stock options after promising guaranteed returns.",
+   "excerpt": "barred two operators -- Shivprasad Pattiya and Alkesh Narware -- for three years.\n\nreturn Rs 4.83 crore (with 12 per cent from February 1, 2022) within 45 days.\n\nfraudulently created artificial volume in illiquid stocks options and cheated investors\n\nRs 25 lakh each\n\nInvestors shared their credentials with some WhatsApp group members for Algo/software trading\n\nplaced stock options bets in such a manner that investors ended up losing the premium."
+  }
+ ],
+ "draft": {
+  "slides": [
+   {
+    "paragraphs": [
+     "Papa reads every review before buying a mixer-grinder. Then hands a stranger crores because he said 'SEBI registered'. So why does that work?",
+     "Swipe to read →"
+    ]
+   },
+   {
+    "paragraphs": [
+     "An FIR in Jodhpur alleges exactly this.",
+     "A man allegedly claimed to be SEBI-registered. He allegedly got nearly ₹7 crore for options trading, with a 20% commission on gains promised.",
+     "One father lost ₹1.34 crore."
+    ]
+   },
+   {
+    "paragraphs": [
+     "The mixer-grinder is easy to doubt. You can see it, touch it, return it.",
+     "Options trading feels different. It sounds like a room only insiders get into.",
+     "And the man at the door seems to know the password."
+    ]
+   },
+   {
+    "paragraphs": [
+     "\"SEBI registered\" is that password. Few ask to see it.",
+     "SEBI itself has warned that more and more entities falsely claim to be registered. It keeps telling investors to verify.",
+     "But checking feels boring. Missing out feels worse."
+    ]
+   },
+   {
+    "paragraphs": [
+     "The darker part comes after the money goes.",
+     "Papa says nothing. Mummy doesn't know. The family WhatsApp group gets good morning messages as usual.",
+     "Often he keeps waiting for one good month to fix it. That waiting is where the real damage happens."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Your papa will still call you before buying a mixer-grinder.",
+     "Nobody calls before handing over crores. You call first."
+    ]
+   }
+  ],
+  "caption": "My parents will haggle over a ₹50 delivery fee and trust a stranger with a confident voice on the phone",
+  "hashtags": [
+   "#PersonalFinanceIndia",
+   "#InvestmentFraud",
+   "#SEBI",
+   "#OptionsTrading"
+  ],
+  "alt_text": "A six-slide text carousel about how Indian parents carefully research small purchases but trust strangers claiming to be SEBI-registered with large investments. It cites a Jodhpur FIR alleging a man got nearly ₹7 crore for options trading with a 20% commission promised, where one father lost ₹1.34 crore, notes SEBI's warning that entities falsely claim registration, and ends by urging adult children to call their parents first.",
+  "claims": [
+   {
+    "text": "An FIR was registered in Jodhpur",
+    "source_url": "topic"
+   },
+   {
+    "text": "The accused allegedly claimed to be SEBI-registered",
+    "source_url": "topic"
+   },
+   {
+    "text": "Nearly ₹7 crore was allegedly handed over for options trading",
+    "source_url": "topic"
+   },
+   {
+    "text": "A 20% commission on gains was promised",
+    "source_url": "topic"
+   },
+   {
+    "text": "The father lost ₹1.34 crore",
+    "source_url": "topic"
+   },
+   {
+    "text": "SEBI has warned that a rising number of entities falsely claim to be SEBI-registered and urges investors to verify registration",
+    "source_url": "https://www.taxmann.com/post/blog/sebi-cautions-the-public-to-avoid-transactions-with-unregistered-entities/"
+   }
+  ],
+  "hook_type": "question_gap",
+  "hook_candidates": [
+   {
+    "type": "question_gap",
+    "hook": "Papa reads every review before buying a mixer-grinder. Then hands a stranger crores because he said 'SEBI registered'. So why does that work?"
+   },
+   {
+    "type": "sounds_wrong",
+    "hook": "In most Indian homes, a mixer-grinder gets more checking than a crore of rupees. And I know how that sounds."
+   },
+   {
+    "type": "weird_behaviour",
+    "hook": "There's something strange about how Indian dads check things. A mixer-grinder gets every review read. A stranger asking for crores gets none."
+   },
+   {
+    "type": "open_letter",
+    "hook": "Dear Papa, you read every review before buying a mixer-grinder. Why didn't you call anyone before handing a stranger crores?"
+   },
+   {
+    "type": "vivid_reframe",
+    "hook": "In Jodhpur, one father allegedly lost ₹1.34 crore. He didn't lose it to a bad trade. He lost it to two words."
+   }
+  ],
+  "caption_style": "pov"
+ },
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-42/slide_01.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-42/slide_02.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-42/slide_03.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-42/slide_04.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-42/slide_05.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-42/slide_06.jpg"
+ ]
 }
