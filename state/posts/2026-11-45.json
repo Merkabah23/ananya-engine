@@ -1,6 +1,6 @@
 {
  "id": "2026-11-45",
- "status": "planned",
+ "status": "uploaded",
  "due": "2026-11-18T19:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -35,6 +35,145 @@
    "format_fit": "either"
   }
  },
- "history": [],
- "updated_at": "2026-10-22T17:38:38.868486+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "specificity": 4,
+     "mechanism": 4,
+     "ending": 4,
+     "voice": 4
+    },
+    "edits": [
+     "slide 3: Aon's 9.1% is a projection, so change 'Aon puts the 2026 average at 9.1%' to 'Aon projects the 2026 average raise at 9.1%'.",
+     "slide 4: Slide 4 is heavy with two stats. Consider cutting 'One in five expects over 40%.' since the 70% line already makes the point.",
+     "slide 6: 'offer letters' already appears in slide 2. Swap it for a plainer ask like 'How many jobs did that take?' so the ending doesn't repeat the earlier phrasing."
+    ]
+   },
+   "facts": []
+  }
+ ],
+ "updated_at": "2026-10-22T17:51:14.075455+00:00",
+ "sources": [
+  {
+   "url": "https://www.businesstoday.in/amp/latest/trends/story/rs-316-lpa-in-2007-rs-336-lpa-in-2026-indias-it-fresher-pay-freezes-even-as-revenues-double-515211-2026-02-09",
+   "fact": "Entry-level IT pay in India is about ₹3–4 LPA, so a ₹35 LPA figure is many multiples of where most careers start.",
+   "excerpt": "In 2026, the same position pays around Rs 3.36 lakh per annum, according to Careers360, a rise of just Rs 20,000 annually over nearly nineteen years. | Entry-level packages at Infosys, Wipro and multinational firms such as Accenture largely remain in the Rs 3–4 LPA range. | Base salaries for freshers have barely changed in close to two decades."
+  },
+  {
+   "url": "https://www.storyboard18.com/brand-makers/corporate-india-to-see-9-1-salary-hike-in-2026-as-attrition-normalises-aon-survey-90571.htm",
+   "fact": "Aon projects the average annual raise in India at 9.1% for 2026, so staying in one job grows pay slowly and big jumps usually come from other routes.",
+   "excerpt": "India's average salary increase is projected to rise slightly to 9.1% in 2026, up from 8.9% in 2025 | Overall attrition fell to 16.2% in 2025, down from 17.7% in 2024 and 18.7% in 2023"
+  },
+  {
+   "url": "https://www.businesstoday.in/jobs/story/almost-everyone-is-looking-to-switch-jobs-but-only-if-employers-meet-this-pay-demand-544684-2026-07-23",
+   "fact": "In foundit's 2026 survey, most professionals expect a 21% or larger raise when they switch jobs, which shows that switching drives big salary jumps.",
+   "excerpt": "70% of professionals expect a salary increase of 21% or more from a new employer, with 27% seeking a 21–30% jump. | One in five professionals expects a salary bump of more than 40% when switching jobs | just 7% of respondents said they would consider moving for a hike of less than 10% | a single-digit salary hike may not be enough to make the move worthwhile."
+  }
+ ],
+ "draft": {
+  "slides": [
+   {
+    "paragraphs": [
+     "Freshers in IT still start around 3 to 4 LPA. Raises average 9.1%. So how is someone your age already on 35?",
+     "Swipe to read →"
+    ]
+   },
+   {
+    "paragraphs": [
+     "You're missing everything except the last number.",
+     "A 35 LPA figure comes without the first salary, the age, or how many offer letters it took.",
+     "Comparison needs a clean number. Context makes it messy, so it gets cropped out."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Most IT careers start small. Freshers at Infosys, Wipro and Accenture still get around 3 to 4 LPA.",
+     "Then comes the yearly raise. Aon projects the 2026 average raise at 9.1%.",
+     "Nobody climbs to 35 on 9.1% a year."
+    ]
+   },
+   {
+    "paragraphs": [
+     "The jump comes from leaving. 70% of professionals expect 21% or more from a new employer.",
+     "So the same 35 LPA might be ten years. Or three years and six switches."
+    ]
+   },
+   {
+    "paragraphs": [
+     "And honestly, most people don't want the full story.",
+     "The full story has notice periods, new bosses, a fresh onboarding every year and a resume that looks restless.",
+     "Feeling behind is easier. It doesn't ask you to update your CV."
+    ]
+   },
+   {
+    "paragraphs": [
+     "So when a 35 LPA screenshot lands in your group chat, ask the boring question.",
+     "How many jobs did that take? And how old were they at the first resignation mail?"
+    ]
+   }
+  ],
+  "caption": "What was your first salary, and how many switches did it take to get to what you earn now?",
+  "hashtags": [
+   "#SalaryIndia",
+   "#JobSwitch",
+   "#AppraisalSeason",
+   "#CareerGrowthIndia"
+  ],
+  "alt_text": "A six-slide text carousel about comparing yourself to big salary numbers during appraisal season. It says a 35 LPA figure hides the starting salary, age and number of job switches. It notes fresher IT pay is still around 3 to 4 LPA, the average raise for 2026 is projected at 9.1%, and most professionals expect 21% or more when switching. It ends by suggesting you ask how many jobs a big number took.",
+  "claims": [
+   {
+    "text": "Freshers at Infosys, Wipro and Accenture still get around 3 to 4 LPA",
+    "source_url": "https://www.businesstoday.in/amp/latest/trends/story/rs-316-lpa-in-2007-rs-336-lpa-in-2026-indias-it-fresher-pay-freezes-even-as-revenues-double-515211-2026-02-09"
+   },
+   {
+    "text": "Aon projects the 2026 average raise in India at 9.1%",
+    "source_url": "https://www.storyboard18.com/brand-makers/corporate-india-to-see-9-1-salary-hike-in-2026-as-attrition-normalises-aon-survey-90571.htm"
+   },
+   {
+    "text": "70% of professionals expect 21% or more from a new employer",
+    "source_url": "https://www.businesstoday.in/jobs/story/almost-everyone-is-looking-to-switch-jobs-but-only-if-employers-meet-this-pay-demand-544684-2026-07-23"
+   },
+   {
+    "text": "A high salary figure might be ten years, or three years and six switches",
+    "source_url": "topic"
+   }
+  ],
+  "hook_type": "question_gap",
+  "hook_candidates": [
+   {
+    "type": "question_gap",
+    "hook": "Freshers in IT still start around 3 to 4 LPA. Raises average 9.1%. So how is someone your age already on 35?"
+   },
+   {
+    "type": "sounds_wrong",
+    "hook": "That 35 LPA screenshot in your group chat could be ten years of work. Or three. And you can't tell which."
+   },
+   {
+    "type": "imagine",
+    "hook": "Imagine starting on 4 LPA and getting a 9.1% raise every single year. Now guess how long it takes to reach 35."
+   },
+   {
+    "type": "motive_bust",
+    "hook": "Appraisal season makes you feel slow because someone your age is on 35 LPA. The number left out is the one that matters."
+   },
+   {
+    "type": "bold_reframe",
+    "hook": "A 35 LPA salary screenshot is a highlight reel. It shows the last number and cuts out every job before it."
+   }
+  ],
+  "caption_style": "question"
+ },
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-45/slide_01.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-45/slide_02.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-45/slide_03.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-45/slide_04.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-45/slide_05.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-45/slide_06.jpg"
+ ]
 }

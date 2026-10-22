@@ -1,6 +1,6 @@
 {
  "id": "2026-11-47",
- "status": "planned",
+ "status": "uploaded",
  "due": "2026-11-23T19:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -41,6 +41,136 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-10-22T17:38:38.869046+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 3,
+     "specificity": 3,
+     "mechanism": 4,
+     "ending": 4,
+     "voice": 4
+    },
+    "edits": [
+     "slide 7: cut 'Everyone on these apps acts like it's just business, no emotion involved.' Slide 5 already says nobody's heartless and everyone is running parallel. Start on the good-night texts.",
+     "slide 7: change 'Then they text good night for three months' to 'They still text good night every night'. Slide 2 already gave the three months.",
+     "slide 4: replace the asterisks around *please don't hate me* with plain quote marks, since they will show as stray symbols on a slide."
+    ]
+   },
+   "facts": []
+  }
+ ],
+ "updated_at": "2026-10-22T17:51:47.893421+00:00",
+ "sources": [],
+ "draft": {
+  "slides": [
+   {
+    "paragraphs": [
+     "Three months of calls every night. Then: 'I wish you luck, please don't hate me.' Why does every matrimony app goodbye sound this kind?",
+     "Swipe to read →"
+    ]
+   },
+   {
+    "paragraphs": [
+     "Picture the typical match. Good morning texts, lunch photos, calls every night for three months.",
+     "You've started planning around her in your head. Then one day the replies start taking hours."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Next comes a cheerful message. She's giving you time to enjoy with family.",
+     "Sounds generous. What it usually means is the decision has moved to another room, and you're not in it."
+    ]
+   },
+   {
+    "paragraphs": [
+     "The last message comes after she has said yes to someone else. Same app, by the way.",
+     "And it ends with \"please don't hate me\", like a very polite out-of-office reply."
+    ]
+   },
+   {
+    "paragraphs": [
+     "I've sat through enough sales calls to know this shape. Keep three leads warm. Never sound cold to any of them.",
+     "Close one, then send the rest a nice note. Nobody's heartless here. Everyone's just running parallel."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Meanwhile the family is reading the same signals. She replies after 3-4 hours, sometimes days, and keeps it short.",
+     "Bhaiya says that's normal. Someone else at the table says it's a no. The fight is really between them."
+    ]
+   },
+   {
+    "paragraphs": [
+     "They still text good night every night. The feelings were real. They just weren't exclusive."
+    ]
+   }
+  ],
+  "caption": "What's the politest goodbye you've ever got from a matrimony match, and how long did the slow replies run before it?",
+  "hashtags": [
+   "#MatrimonyApp",
+   "#ArrangedMarriageIndia",
+   "#IndianDatingLife",
+   "#ShaadiSeason"
+  ],
+  "alt_text": "A seven-slide text carousel about the matrimony app talking stage in India. It describes a typical pattern of daily texts and calls for months, then slow replies, a cheerful message about giving you time, and finally a kind goodbye after she says yes to someone else from the same app. It compares this to a sales pipeline where several leads are kept warm at once, shows families arguing over what slow, short replies mean, and ends by saying the feelings were real but not exclusive.",
+  "claims": [
+   {
+    "text": "A typical talking stage on a matrimony app can run three months of continuous texts and calls",
+    "source_url": "topic"
+   },
+   {
+    "text": "A message saying she was giving him time to enjoy with family, before going cold",
+    "source_url": "topic"
+   },
+   {
+    "text": "The goodbye message came after she said yes to someone else from the same app and asked him not to hate her",
+    "source_url": "topic"
+   },
+   {
+    "text": "A family debates a match where the woman replies after 3-4 hours, sometimes days, and tersely; the brother thinks it's fine, the sibling doesn't",
+    "source_url": "topic"
+   },
+   {
+    "text": "The talking stage feels like a business with no emotion",
+    "source_url": "topic"
+   }
+  ],
+  "hook_type": "question_gap",
+  "hook_candidates": [
+   {
+    "type": "question_gap",
+    "hook": "Three months of calls every night. Then: 'I wish you luck, please don't hate me.' Why does every matrimony app goodbye sound this kind?"
+   },
+   {
+    "type": "bold_reframe",
+    "hook": "The matrimony app talking stage is a sales pipeline. And 'please don't hate me' is the nice note to every lead that didn't close."
+   },
+   {
+    "type": "vivid_reframe",
+    "hook": "Three months of good night texts on a matrimony app. It ends with 'please don't hate me,' like a very polite out-of-office reply."
+   },
+   {
+    "type": "weird_behaviour",
+    "hook": "There's something strange about matrimony app goodbyes. The kinder the last message sounds, the further the decision has already moved."
+   },
+   {
+    "type": "sounds_wrong",
+    "hook": "Nobody on matrimony apps is heartless. And yet three months of calls every night can end in one cheerful text. I know how that sounds."
+   }
+  ],
+  "caption_style": "question"
+ },
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-47/slide_01.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-47/slide_02.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-47/slide_03.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-47/slide_04.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-47/slide_05.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-47/slide_06.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-47/slide_07.jpg"
+ ]
 }

@@ -1,6 +1,6 @@
 {
  "id": "2026-11-46",
- "status": "planned",
+ "status": "uploaded",
  "due": "2026-11-20T19:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -35,6 +35,130 @@
    "format_fit": "either"
   }
  },
- "history": [],
- "updated_at": "2026-10-22T17:38:38.868767+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "specificity": 3,
+     "mechanism": 4,
+     "ending": 3,
+     "voice": 3
+    },
+    "edits": [
+     "slide 6: cut \"Your own deliverables never come up.\" Slide 5 already says what you're like to live with never comes up.",
+     "slide 5: cut \"So what you're like to live with never comes up.\" Slide 4 already shows it with \"Simple guy, easy going.\"",
+     "slide 7: cut \"Most biodatas wouldn't clear the first round.\" It's a second punchline after the real ending. End on the resume line."
+    ]
+   },
+   "facts": []
+  }
+ ],
+ "updated_at": "2026-10-22T17:51:31.790184+00:00",
+ "sources": [],
+ "draft": {
+  "slides": [
+   {
+    "paragraphs": [
+     "Imagine a 30-year-old asking for a high-paying job with no resume. You'd laugh. Now put that same ask on a biodata. Why does nobody laugh?",
+     "Swipe to read →"
+    ]
+   },
+   {
+    "paragraphs": [
+     "Here's the candidate. He spent his 20s on relationships. Never written a resume. Doesn't know what a deliverable is.",
+     "He wants good pay, work-life balance and colleagues who get that he's new."
+    ]
+   },
+   {
+    "paragraphs": [
+     "His plan? The right company will come along and everything will naturally fall into place.",
+     "Any HR person would close that tab in four seconds. Papa would give him a full lecture on ambition."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Now read a typical matrimony profile. Looking for someone caring, ambitious, family-oriented, financially stable.",
+     "What does he bring? \"Simple guy, easy going.\"",
+     "It's the same candidate with the same plan, and everyone nods."
+    ]
+   },
+   {
+    "paragraphs": [
+     "We all know a job doesn't just happen to you. You build skills, you sit through a bad first boss.",
+     "Marriage gets talked about like luck. Find the right match, done."
+    ]
+   },
+   {
+    "paragraphs": [
+     "The funny part is that families do run a background check. Salary, company, does he own a flat.",
+     "They just run it on the other person."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Can you cook dinner on a weekday? Sit through a money fight without calling your mother?",
+     "That's the actual resume."
+    ]
+   }
+  ],
+  "caption": "What's one line you've seen on a biodata that would never survive a job interview?",
+  "hashtags": [
+   "#ArrangedMarriage",
+   "#IndianMarriage",
+   "#MatrimonyIndia",
+   "#ShaadiPressure"
+  ],
+  "alt_text": "A seven-slide text carousel comparing a 30-year-old who wants a high-paying job with no resume and no idea what a deliverable is to the way people approach arranged marriage. It argues that careers are treated as earned while marriage is treated as luck, that families check the other side's salary and flat but never their own child's readiness, and ends by asking whether you can cook a weekday dinner or handle a money fight, calling that the real resume.",
+  "claims": [
+   {
+    "text": "The 30-year-old spent his 20s on relationships, has never written a resume and doesn't know what a deliverable is",
+    "source_url": "topic"
+   },
+   {
+    "text": "He wants a high-paying job, work-life balance and supportive colleagues",
+    "source_url": "topic"
+   },
+   {
+    "text": "He hopes everything will naturally fall into place with the right company",
+    "source_url": "topic"
+   }
+  ],
+  "hook_type": "imagine",
+  "hook_candidates": [
+   {
+    "type": "imagine",
+    "hook": "Imagine a 30-year-old asking for a high-paying job with no resume. You'd laugh. Now put that same ask on a biodata. Why does nobody laugh?"
+   },
+   {
+    "type": "sounds_wrong",
+    "hook": "Most Indian men on matrimony sites are asking for a job they'd never get hired for. And I know how that sounds."
+   },
+   {
+    "type": "weird_behaviour",
+    "hook": "We'd laugh at a guy asking for a dream job with no resume. Put the same ask on a biodata and everyone nods."
+   },
+   {
+    "type": "open_letter",
+    "hook": "Dear 'simple guy, easy going' on every matrimony site, we need to talk about your resume."
+   },
+   {
+    "type": "question_gap",
+    "hook": "No company would hire a guy with no resume and no skills. So why do families say yes to him on a biodata?"
+   }
+  ],
+  "caption_style": "question"
+ },
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-46/slide_01.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-46/slide_02.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-46/slide_03.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-46/slide_04.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-46/slide_05.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-46/slide_06.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-46/slide_07.jpg"
+ ]
 }
