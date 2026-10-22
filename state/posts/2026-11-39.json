@@ -1,6 +1,6 @@
 {
  "id": "2026-11-39",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-30T19:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -35,6 +35,175 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-10-22T14:41:12.702077+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "specificity": 4,
+     "mechanism": 3,
+     "ending": 3,
+     "voice": 3
+    },
+    "edits": [
+     "slide 4: change 'went back to YouTube to check if it was really that good' to 'went back to check if it was really that good'. The source gives view counts but doesn't name YouTube.",
+     "slide 8: cut the whole slide or its last line ('It has a debut, a famous dad...'). It recaps slides 2 to 7 and the point has already landed.",
+     "slide 9: drop 'Honestly' from the last line, since slide 7 already uses it, and end on 'Bollywood replied the only way it knows how. More drama, more noise.'"
+    ]
+   },
+   "facts": [
+    "Unsupported fact: 'It has a debut, a famous dad, an old song back on top and a courtroom climax.' (No source says this is Aryan Khan's debut. The Bobby Deol song is only reported to have gained over 5 million fresh views, and no source says it is back on top of any chart.). Fix it to match the source or cut it."
+   ]
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Unsupported fact: 'It has a debut, a famous dad, an old song back on top and a courtroom climax.' (No source says this is Aryan Khan's debut. The Bobby Deol song is only reported to have gained over 5 million fresh views, and no source says it is back on top of any chart.). Fix it to match the source or cut it."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "specificity": 4,
+     "mechanism": 3,
+     "ending": 3,
+     "voice": 3
+    },
+    "edits": [
+     "slide 5: Change 'The insiders get them too.' to 'The people being joked about get them too.' Wankhede is an IRS officer, not a Bollywood insider.",
+     "slide 8: Cut this slide or its last line ('Famous dad, a 1997 song... Only the item number is missing.'). It recaps slides 2-7 and repeats the point of slide 9.",
+     "slide 9: Change 'Bollywood replied the only way it knows how' to 'The reply came the way it always does in this business'. Wankhede isn't Bollywood. Also drop one of the two 'Honestly' openers (slides 7 and 9)."
+    ]
+   },
+   "facts": [
+    "Unsupported fact: 'Aryan Khan set out to roast Bollywood. (also: \"A star's son makes fun of stardom\" / \"Famous dad\")' (None of the excerpts names Aryan Khan or says he created or directed the show. They also say nothing about his being a star's son or having a famous father.). Fix it to match the source or cut it."
+   ]
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Unsupported fact: 'Aryan Khan set out to roast Bollywood. (also: \"A star's son makes fun of stardom\" / \"Famous dad\")' (None of the excerpts names Aryan Khan or says he created or directed the show. They also say nothing about his being a star's son or having a famous father.). Fix it to match the source or cut it."
+   ]
+  }
+ ],
+ "updated_at": "2026-10-22T16:16:28.447762+00:00",
+ "sources": [
+  {
+   "url": "https://scroll.in/latest/1087425/delhi-hc-summons-netflix-red-chillies-in-sameer-wankhedes-suit-against-ba-ds-of-bollywood",
+   "fact": "Sameer Wankhede sued Netflix and Red Chillies in the Delhi High Court over a scene in the series, seeking Rs 2 crore in damages. The court summoned the defendants but declined an interim order.",
+   "excerpt": "The suit was \"deliberately conceptualised and executed\" to malign his reputation. The suit \"objected to a scene in which a character makes an obscene gesture after reciting the slogan\" \"Satyamev Jayate.\" Wankhede argued it was \"a grave violation of the provisions of the Prevention of Insults to National Honour Act, 1971.\" The court declined an interim order, observing: \"It could have wider ramifications.\""
+  },
+  {
+   "url": "https://filmibeat.com/ott/the-ba-ds-of-bollywood-global-dominance-peaks-stands-strong-among-the-top-5-non-english-tv-titles-o-482565.html",
+   "fact": "The series reached #1 on Netflix India's Top 10 soon after release and stayed among the Top 5 non-English TV titles globally. Fans shared memes and reels, and Netflix India said it \"opened to a phenomenal response\". The page does not give the 25 million streams figure.",
+   "excerpt": "The series \"continues to be amongst the Top 5 Non-English TV titles on Netflix's Global since it launched 2 weeks ago.\" It is trending in 14 countries and holding the #1 spot in 9 of them. Bobby Deol's 1997 song \"Duniya Haseeno Ka Mela\" gained \"over 5 million fresh views\" after the show's release. Netflix India's Monika Shergill said the show \"has opened to a phenomenal response.\""
+  }
+ ],
+ "draft": {
+  "slides": [
+   {
+    "paragraphs": [
+     "The Ba*ds of Bollywood roasts Bollywood. 25 million streams later, the funniest scene is happening off Netflix.",
+     "Swipe to read →"
+    ]
+   },
+   {
+    "paragraphs": [
+     "The Ba*ds of Bollywood is satire written from inside the house.",
+     "It jokes about the whole room, and the whole room is watching.",
+     "It crossed 25 million streams in its opening weekend."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Here's why it works so fast. Nobody needs the joke explained.",
+     "You already know the gossip. You've read every blind item for fifteen years.",
+     "The show just says the whispered stuff out loud, with a background score."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Even the nostalgia is an inside job.",
+     "Bobby Deol's 1997 song *Duniya Haseeno Ka Mela* picked up over 5 million fresh views after the release.",
+     "That is 5 million fresh views for a 1997 song."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Here's the catch with insider jokes. The insiders get them too.",
+     "Sameer Wankhede sued Netflix and Red Chillies in the Delhi High Court over one scene.",
+     "He argued it violated the Prevention of Insults to National Honour Act, 1971."
+    ]
+   },
+   {
+    "paragraphs": [
+     "The court summoned them but declined an interim order.",
+     "Separately, a Ranbir Kapoor e-cigarette scene drew its own complaint.",
+     "So now the show trends twice. Once for the jokes, once for the people who didn't laugh."
+    ]
+   },
+   {
+    "paragraphs": [
+     "And this is the funny part. Every complaint is free promotion.",
+     "A legal case becomes a headline. The headline becomes a reel. The reel sends people back to the show.",
+     "Honestly, no marketing team could have bought this."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Think about the full plot.",
+     "A star's son makes fun of stardom. Bollywood binges it. Then someone from the jokes goes to court.",
+     "Famous dad, a 1997 song getting fresh views, a courtroom twist. Only the item number is missing."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Aryan Khan set out to roast Bollywood.",
+     "Bollywood replied the only way it knows how. More drama, more noise, and a second half nobody wrote.",
+     "Honestly the most on-brand review the show could get."
+    ]
+   }
+  ],
+  "caption": "Which inside joke in the show did you get instantly, and which one sent you to Google?",
+  "hashtags": [
+   "#AryanKhan",
+   "#NetflixIndia",
+   "#BollywoodSatire",
+   "#BollywoodGossip"
+  ],
+  "alt_text": "A nine-slide text carousel about Aryan Khan's Netflix series The Ba***ds of Bollywood. It covers how the satire of the film industry crossed 25 million streams in its opening weekend, why insider jokes land instantly with Bollywood fans, the 5 million fresh views for Bobby Deol's 1997 song, Sameer Wankhede's Delhi High Court suit and a separate complaint over a Ranbir Kapoor e-cigarette scene. It ends on the point that the backlash itself turned the story into a very Bollywood plot.",
+  "claims": [
+   {
+    "text": "The Ba***ds of Bollywood crossed 25 million streams in its opening weekend",
+    "source_url": "topic"
+   },
+   {
+    "text": "Bobby Deol's 1997 song Duniya Haseeno Ka Mela gained over 5 million fresh views after the show's release",
+    "source_url": "https://filmibeat.com/ott/the-ba-ds-of-bollywood-global-dominance-peaks-stands-strong-among-the-top-5-non-english-tv-titles-o-482565.html"
+   },
+   {
+    "text": "Sameer Wankhede filed a Delhi High Court case over a scene",
+    "source_url": "topic"
+   },
+   {
+    "text": "Wankhede sued Netflix and Red Chillies in the Delhi High Court, arguing a violation of the Prevention of Insults to National Honour Act, 1971",
+    "source_url": "https://scroll.in/latest/1087425/delhi-hc-summons-netflix-red-chillies-in-sameer-wankhedes-suit-against-ba-ds-of-bollywood"
+   },
+   {
+    "text": "The court summoned the defendants but declined an interim order",
+    "source_url": "https://scroll.in/latest/1087425/delhi-hc-summons-netflix-red-chillies-in-sameer-wankhedes-suit-against-ba-ds-of-bollywood"
+   },
+   {
+    "text": "A Ranbir Kapoor e-cigarette scene drew a separate complaint",
+    "source_url": "topic"
+   }
+  ]
+ }
 }

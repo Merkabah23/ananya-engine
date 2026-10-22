@@ -1,6 +1,6 @@
 {
  "id": "2026-11-37",
- "status": "planned",
+ "status": "uploaded",
  "due": "2026-11-27T19:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -47,6 +47,165 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-10-22T14:41:12.701458+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "specificity": 4,
+     "mechanism": 4,
+     "ending": 3,
+     "voice": 4
+    },
+    "edits": [
+     "slide 3: cut 'Two platforms, one idea: pay people per sale, not per post.' Slide 4 makes the same point.",
+     "slide 8: cut 'without a salary or a Diwali bonus'. Slide 2 already made the 'sales force nobody had to hire' point.",
+     "slide 9: cut 'More of your friends are on commission than you think.' It restates the hook and reads like a tidy moral; end on 'This Diwali, your feed is the shop.'"
+    ]
+   },
+   "facts": []
+  }
+ ],
+ "updated_at": "2026-10-22T16:16:26.090671+00:00",
+ "sources": [
+  {
+   "url": "https://www.fonearena.com/blog/495062/myntra-instagram-affiliate-programme-1-million-sign-ups.html/amp",
+   "fact": "Myntra's Instagram affiliate programme recorded over 1 million sign-ups within a month of launch, with 200,000 creators already posting and about 3 million posts across Instagram and Facebook. Myntra expects creator posts to double this festive season.",
+   "excerpt": "Myntra recorded over 1 million sign-ups ... with 200,000 creators already creating content. ... creators have published around 3 million posts since the affiliate feature launched. ... a twofold rise in creator posts."
+  }
+ ],
+ "draft": {
+  "slides": [
+   {
+    "paragraphs": [
+     "Over a million Indians just signed up to sell Myntra clothes on their own Instagram. And the people they're selling to are you.",
+     "Swipe to read →"
+    ]
+   },
+   {
+    "paragraphs": [
+     "Myntra's Instagram affiliate programme crossed a million sign-ups. You tag a product, someone buys, you get a cut.",
+     "Around 200,000 are already posting. That's a sales force nobody had to hire."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Amazon is doing the same thing more quietly. Its India Influencer Program doubled to 200,000 creators.",
+     "Purchases through creators went up 107%. What each creator earns went up 60%."
+    ]
+   },
+   {
+    "paragraphs": [
+     "I've sat through enough brand calls about influencer budgets. A sponsored post gets paid whether anyone buys or not. Everyone in the room knows it.",
+     "Affiliate flips that. The creator eats only when you check out."
+    ]
+   },
+   {
+    "paragraphs": [
+     "So they push harder. The kurta gets a try-on reel, a close-up, a link in bio.",
+     "You trust it more because she's your cousin's college friend. She's also more of a salesperson than any celebrity in the TV ad."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Now look where it's growing. About 75% of Amazon's creators are from non-metro India. Nearly 70% of buyers too.",
+     "That's where a few thousand rupees from your phone actually changes the month. It's the scooty EMI sorted."
+    ]
+   },
+   {
+    "paragraphs": [
+     "The big money is still there. Creator spend this Diwali is projected at Rs 900 crore, up from Rs 700 crore.",
+     "The top 10-15% of brands take about 65% of it. For everyone else, paying per sale looks a lot smarter."
+    ]
+   },
+   {
+    "paragraphs": [
+     "I find this funny. A million people just joined a brand's sales team.",
+     "And the market they sell to is their own followers. Mostly friends, cousins and old classmates."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Next time a friend's story says \"loving this kurta\", check for the little tag.",
+     "This Diwali, your feed is the shop."
+    ]
+   }
+  ],
+  "caption": "The most effective Diwali ad this year will be your school friend's story, and she's on commission",
+  "hashtags": [
+   "#AffiliateMarketingIndia",
+   "#DiwaliShopping",
+   "#InfluencerMarketingIndia",
+   "#CreatorEconomyIndia"
+  ],
+  "alt_text": "A nine-slide text carousel arguing that this Diwali's real campaign is ordinary people tagging products on Instagram for a commission. It cites Myntra's affiliate programme crossing a million sign-ups, Amazon's influencer program doubling to 200,000 creators, most creators and buyers coming from non-metro India, and festive creator spend projected at Rs 900 crore.",
+  "claims": [
+   {
+    "text": "Myntra's Instagram affiliate programme crossed 1 million sign-ups",
+    "source_url": "https://www.fonearena.com/blog/495062/myntra-instagram-affiliate-programme-1-million-sign-ups.html/amp"
+   },
+   {
+    "text": "Around 200,000 creators are already posting on Myntra's affiliate programme",
+    "source_url": "https://www.fonearena.com/blog/495062/myntra-instagram-affiliate-programme-1-million-sign-ups.html/amp"
+   },
+   {
+    "text": "Amazon's India Influencer Program doubled to 200,000 creators",
+    "source_url": "topic"
+   },
+   {
+    "text": "Creator-led purchases on Amazon up 107%, per-creator earnings up 60%",
+    "source_url": "topic"
+   },
+   {
+    "text": "About 75% of participating creators and nearly 70% of buyers are from non-metro India",
+    "source_url": "topic"
+   },
+   {
+    "text": "Festive creator spend projected at Rs 900 crore this Diwali, up from Rs 700 crore",
+    "source_url": "topic"
+   },
+   {
+    "text": "Top 10-15% of brands account for about 65% of festive creator spend",
+    "source_url": "topic"
+   }
+  ],
+  "hook_type": "doesnt_add_up",
+  "hook_candidates": [
+   {
+    "type": "doesnt_add_up",
+    "hook": "Over a million Indians just signed up to sell Myntra clothes on their own Instagram. And the people they're selling to are you."
+   },
+   {
+    "type": "imagine",
+    "hook": "Imagine a sales team of a million people. Nobody hired them. And every one of them is selling to you through their stories."
+   },
+   {
+    "type": "sounds_wrong",
+    "hook": "This Diwali's best salesperson is your cousin's college friend. I know how that sounds. Wait till you see how she gets paid."
+   },
+   {
+    "type": "motive_bust",
+    "hook": "Your friend's Diwali kurta reel looks like she's just showing off her outfit. Look closer. There's a reason she posted it."
+   },
+   {
+    "type": "prediction",
+    "hook": "I have a prediction. This Diwali, you'll buy more from your friends' Instagram stories than from any TV ad."
+   }
+  ],
+  "caption_style": "pov"
+ },
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-37/slide_01.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-37/slide_02.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-37/slide_03.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-37/slide_04.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-37/slide_05.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-37/slide_06.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-37/slide_07.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-37/slide_08.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-37/slide_09.jpg"
+ ]
 }

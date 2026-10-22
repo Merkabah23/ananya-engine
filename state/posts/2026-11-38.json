@@ -1,6 +1,6 @@
 {
  "id": "2026-11-38",
- "status": "planned",
+ "status": "uploaded",
  "due": "2026-11-28T11:00:00+05:30",
  "format": "single",
  "topic": {
@@ -36,6 +36,73 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-10-22T14:41:12.701779+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "specificity": 3,
+     "mechanism": 3,
+     "ending": 3,
+     "voice": 4
+    },
+    "edits": [
+     "slide 1: The opener says 'Almost half' and then '49%', so the number lands twice. Keep 'Almost half of Indian singles are going slow on dating apps this festive season' and drop '49% said' in favour of 'They said they're delaying matches or commitment because of festive pressure.'",
+     "slide 1: The last line says apps 'moved the family meeting to your phone', but the data shows people slowing down on the app to avoid family. Swap for something closer to the data, like 'The apps never took family out of dating. Family just decides when you swipe.'",
+     "slide 1: Replace 'Nobody wants to take a three-week match to Diwali and face every chacha at once' with a shorter line, such as 'Nobody wants to bring a three-week match to Diwali and face every chacha at once.' This is easier on the first read and keeps the sentence under 15 words."
+    ]
+   },
+   "facts": []
+  }
+ ],
+ "updated_at": "2026-10-22T16:16:28.446947+00:00",
+ "sources": [
+  {
+   "url": "https://www.boldsky.com/insync/festive-fomo-is-changing-dating-habits-survey-finds-nearly-half-of-singles-are-delaying-matches-173403.html",
+   "fact": "Boldsky (October 19, 2026) reports a QuackQuack survey of 12,000 daters aged 22-35 in which almost 49% were intentionally delaying matches or commitment under festive pressure, and more than 43% of women and 36% of men had mistaken temporary loneliness for romantic compatibility.",
+   "excerpt": "\"The study was conducted among 12,000 daters aged 22 to 35.\" \"almost 49% of respondents\" ... \"intentionally delaying matches or commitment to avoid making decisions under festive pressure.\" \"more than 43% of women and 36% of men from Tier 1 and Tier 2 cities related to the experience of mistaking temporary loneliness for romantic compatibility.\" \"Questions from friends, family gatherings and invitations to festive events can bring a new relationship into the spotlight.\" Note: the page gives no explicit family-pressure statistic. I did not verify the 'eight in ten daters aged 23-30 think fondly of an ex' claim. The article instead reports that 17% matched with exes on the app and 6% reconnected. Some of these passages come from the fetch tool's quotes and short excerpts, so the wording may not be exact."
+  },
+  {
+   "url": "https://www.globaldatinginsights.com/featured/quackquack-survey-indian-online-daters-embrace-slower-matchmaking/",
+   "fact": "An earlier QuackQuack survey (March 2025) of 9,000+ daters found 39% deliberately delay progressing in their matches, and that family background and shared values matter more in Tier 2 and 3 cities.",
+   "excerpt": "\"over 9,000 daters across Tier 1, 2, and 3 cities\" ... \"39% of participants deliberately delay progressing in their matches.\" \"shared values and family background hold greater importance in Tier 2 and 3 cities.\" Note: this is background context from a different, earlier survey. The page does not discuss family pressure directly."
+  }
+ ],
+ "draft": {
+  "slides": [
+   {
+    "paragraphs": [
+     "Almost half of Indian singles are going slow on dating apps this festive season. QuackQuack asked 12,000 daters aged 22-35. They said they're delaying matches or commitment because of festive pressure.",
+     "Honestly, fair.",
+     "Nobody wants to bring a three-week match to Diwali and face every chacha at once.",
+     "The apps never took family out of dating. Family just decides when you swipe."
+    ]
+   }
+  ],
+  "caption": "What's the one festive question from a relative that made you pause a chat on a dating app?",
+  "hashtags": [
+   "#DatingInIndia",
+   "#FestiveSeason",
+   "#IndianFamilies",
+   "#DatingApps"
+  ],
+  "alt_text": "Text post: A QuackQuack survey of 12,000 Indian daters aged 22 to 35 found 49% are delaying matches or commitment this festive season because of festive pressure. The post says this is fair, since nobody wants to face every relative with a new match at Diwali. It ends by saying dating apps never took family out of dating; family just decides when you swipe.",
+  "claims": [
+   {
+    "text": "QuackQuack surveyed 12,000 Indian daters aged 22-35",
+    "source_url": "https://www.boldsky.com/insync/festive-fomo-is-changing-dating-habits-survey-finds-nearly-half-of-singles-are-delaying-matches-173403.html"
+   },
+   {
+    "text": "49% are deliberately delaying matches or commitment this festive season because of festive pressure",
+    "source_url": "https://www.boldsky.com/insync/festive-fomo-is-changing-dating-habits-survey-finds-nearly-half-of-singles-are-delaying-matches-173403.html"
+   }
+  ],
+  "caption_style": "question"
+ },
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-38/slide_01.jpg"
+ ]
 }
