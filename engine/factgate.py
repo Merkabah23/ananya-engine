@@ -178,15 +178,28 @@ def _public(url: str) -> bool:
     return all(ipaddress.ip_address(i[4][0]).is_global for i in infos)
 
 
+def _peer_is_global(r: requests.Response) -> bool:
+    try:
+        sock = r.raw.connection.sock
+        return ipaddress.ip_address(sock.getpeername()[0]).is_global
+    except Exception:
+        return False  # can't see where we connected: don't read it
+
+
 def _fetch(url: str, hops: int = 3) -> tuple[int, str, str] | None:
     """GET a public page, re-checking every redirect and reading at most MAX_BYTES. None if it can't be fetched."""
     for _ in range(hops + 1):
         if not _public(url):
             return None
+        session = requests.Session()
+        session.trust_env = False  # ignore proxy settings from the environment
         try:
-            r = requests.get(url, timeout=20, stream=True, allow_redirects=False,
-                             headers={"User-Agent": "Mozilla/5.0 (fact check)"})
+            r = session.get(url, timeout=20, stream=True, allow_redirects=False,
+                            headers={"User-Agent": "Mozilla/5.0 (fact check)"})
         except requests.RequestException:
+            return None
+        if not _peer_is_global(r):  # the address actually connected to, not the one checked (DNS rebinding)
+            r.close()
             return None
         if r.is_redirect and r.headers.get("location"):
             url = urljoin(url, r.headers["location"])
