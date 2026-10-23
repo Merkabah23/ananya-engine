@@ -1,0 +1,533 @@
+[
+ {
+  "id": "trial-2026-10-v2-002",
+  "status": "rejected",
+  "due": null,
+  "format": "carousel",
+  "topic": {
+   "title": "The iPhone that's never in stock",
+   "claim": "The iPhone 17 base model going out of stock right through Diwali while the Pro and Pro Max sit on shelves isn't bad planning, it's an upsell.",
+   "behaviour": "Croma, Vijay Sales and dealers in Nehru Place report zero iPhone 17 base inventory, turning away 10-12 customers a day, while buyers get pushed toward costlier Pro/Pro Max units on Amazon and Flipkart.",
+   "mechanism": "Initial Pro batches were imported and ready to sell while cheaper Made-in-India units are still ramping up, so the stock gap happens to sit exactly where it benefits the higher-margin model.",
+   "group": "upper middle class festive-season gadget buyers",
+   "territory": "money_status",
+   "mood": "sharp",
+   "format_hint": "single",
+   "real_details": [
+    "Croma and Vijay Sales report zero iPhone 17 inventory",
+    "turning away 10-12 customers a day",
+    "initial iPhone 17 Pro batches were imported while Made-in-India Pro units are still ramping up"
+   ],
+   "evidence": [
+    {
+     "url": "https://www.business-standard.com/industry/news/iphone-17-series-stock-shortage-retailers-diwali-sale-apple-india-125101500413_1.html",
+     "sub": "news",
+     "rank": 2
+    }
+   ],
+   "news_peg": "iPhone 17 stockouts across Indian retail during Diwali 2026 shopping season",
+   "why_now": "peak festive buying is happening right now and the base model still isn't back",
+   "counterintuitive": true,
+   "needs_facts": false,
+   "id": "2026-10-v2-002"
+  },
+  "history": [
+   {
+    "attempt": 0,
+    "review": {
+     "pass": false,
+     "violations": [
+      "slide 3: \"At that point the extra fifty thousand stops feeling like a jump\" is an invented/incorrect figure. The real price gap between the iPhone 17 base (~₹82,900) and the Pro (₹1,54,900 per the sourced article) is roughly ₹72,000, not fifty thousand, and no source gives this number at all — it reads as a fact when it isn't one."
+     ],
+     "scores": {
+      "hook": 4,
+      "specificity": 3,
+      "mechanism": 4,
+      "ending": 3,
+      "voice": 2
+     },
+     "edits": [
+      "slide 3: cut 'the extra fifty thousand stops feeling like a jump' — either drop the number entirely or let the actual sourced price (1,54,900) do the work without inventing a gap figure.",
+      "slide 4: rewrite 'isn't about making the expensive thing look better. It's that scarcity on your cheapest option does more upselling than any ad ever will' — this is the forbidden 'Not X. It's Y.' construction, flatten it into one plain sentence.",
+      "slide 4: cut 'But notice where the gap sits' — this is the 'notice how' AI tell (pointing at your own example instead of just stating it).",
+      "There is no 'I' anywhere in this post and no direct 'you' address to the reader — add at least one first-person line (e.g. 'every brand review I've sat in treats a stockout like a PR problem, not a lever') and one line that talks to the reader directly, per how this account actually sounds.",
+      "Vary the slide endings — slides 1, 3, 4 and 5 all close on a tidy punchline ('that isn't Apple being bad at planning' / 'the extra fifty thousand stops feeling like a jump' / 'the costlier phone is never the one that's missing' / 'talks themselves into the Pro by evening'). Let at least two of them just stop where the thought stops instead of landing a line."
+     ]
+    },
+    "facts": [
+     "Unsupported fact: 'The shortage is sitting precisely on the one model with the thinnest margin' (No source provides any information about Apple's profit margins on the base iPhone 17 versus the Pro/Pro Max models; this specific claim about margins is not supported by any excerpt.). Fix it to match the source or cut it."
+    ]
+   },
+   {
+    "attempt": 0,
+    "problems": [
+     "Unsupported fact: 'The shortage is sitting precisely on the one model with the thinnest margin' (No source provides any information about Apple's profit margins on the base iPhone 17 versus the Pro/Pro Max models; this specific claim about margins is not supported by any excerpt.). Fix it to match the source or cut it.",
+     "slide 3: \"At that point the extra fifty thousand stops feeling like a jump\" is an invented/incorrect figure. The real price gap between the iPhone 17 base (~₹82,900) and the Pro (₹1,54,900 per the sourced article) is roughly ₹72,000, not fifty thousand, and no source gives this number at all — it reads as a fact when it isn't one.",
+     "slide 3: cut 'the extra fifty thousand stops feeling like a jump' — either drop the number entirely or let the actual sourced price (1,54,900) do the work without inventing a gap figure.",
+     "slide 4: rewrite 'isn't about making the expensive thing look better. It's that scarcity on your cheapest option does more upselling than any ad ever will' — this is the forbidden 'Not X. It's Y.' construction, flatten it into one plain sentence.",
+     "slide 4: cut 'But notice where the gap sits' — this is the 'notice how' AI tell (pointing at your own example instead of just stating it).",
+     "There is no 'I' anywhere in this post and no direct 'you' address to the reader — add at least one first-person line (e.g. 'every brand review I've sat in treats a stockout like a PR problem, not a lever') and one line that talks to the reader directly, per how this account actually sounds.",
+     "Vary the slide endings — slides 1, 3, 4 and 5 all close on a tidy punchline ('that isn't Apple being bad at planning' / 'the extra fifty thousand stops feeling like a jump' / 'the costlier phone is never the one that's missing' / 'talks themselves into the Pro by evening'). Let at least two of them just stop where the thought stops instead of landing a line."
+    ]
+   },
+   {
+    "attempt": 1,
+    "review": {
+     "pass": false,
+     "violations": [],
+     "scores": {
+      "hook": 4,
+      "specificity": 4,
+      "mechanism": 4,
+      "ending": 3,
+      "voice": 3
+     },
+     "edits": [
+      "Slide 5: \"A stockout in March is just a lost sale. A stockout in Diwali is a customer standing in the shop with their wallet already open.\" is a mirrored Not-X-Y construction, the exact engineered rhetoric pattern the account avoids. Rewrite as one plain thought instead of two matched sentences.",
+      "There's no 'I' anywhere in this post. Ananya always anchors a business read in her own seat ('this is the first thing marketing teams look at', 'every brand review I've sat in'). Add one line in slide 3 or 4 grounding the upsell read in her own experience watching festive stock decisions.",
+      "Slide 4 ending ('the shortage lands on the cheaper phone... and the costlier phone is the one that's always available') is another near-parallel construction stacked right after the slide-5 one. Loosen it into a single running sentence instead of a balanced contrast.",
+      "The voice is thin on the loose filler words that make this account sound talked, not written ('honestly', 'genuinely', 'every single time', 'so yeah'). Drop at least two into slides 3-5 where the explaining happens.",
+      "Slide 3's closing line ('Once you've mentally crossed over to buying an iPhone this week, the model you actually wanted stops mattering') is the sharpest line in the post but reads a notch too clinical. Say it the way she'd say it out loud, e.g. 'once you've decided you're buying an iPhone this week, which iPhone stops being the point.'"
+     ]
+    },
+    "facts": []
+   },
+   {
+    "attempt": 1,
+    "problems": [
+     "Slide 5: \"A stockout in March is just a lost sale. A stockout in Diwali is a customer standing in the shop with their wallet already open.\" is a mirrored Not-X-Y construction, the exact engineered rhetoric pattern the account avoids. Rewrite as one plain thought instead of two matched sentences.",
+     "There's no 'I' anywhere in this post. Ananya always anchors a business read in her own seat ('this is the first thing marketing teams look at', 'every brand review I've sat in'). Add one line in slide 3 or 4 grounding the upsell read in her own experience watching festive stock decisions.",
+     "Slide 4 ending ('the shortage lands on the cheaper phone... and the costlier phone is the one that's always available') is another near-parallel construction stacked right after the slide-5 one. Loosen it into a single running sentence instead of a balanced contrast.",
+     "The voice is thin on the loose filler words that make this account sound talked, not written ('honestly', 'genuinely', 'every single time', 'so yeah'). Drop at least two into slides 3-5 where the explaining happens.",
+     "Slide 3's closing line ('Once you've mentally crossed over to buying an iPhone this week, the model you actually wanted stops mattering') is the sharpest line in the post but reads a notch too clinical. Say it the way she'd say it out loud, e.g. 'once you've decided you're buying an iPhone this week, which iPhone stops being the point.'"
+    ]
+   },
+   {
+    "attempt": 2,
+    "review": {
+     "pass": false,
+     "violations": [],
+     "scores": {
+      "hook": 4,
+      "specificity": 5,
+      "mechanism": 4,
+      "ending": 4,
+      "voice": 3
+     },
+     "edits": [
+      "Slide 5: 'a stockout in March is just a lost sale, but in Diwali it's a customer standing in the shop with their wallet already open' is a mirrored sentence pair (engineered rhetoric). Rewrite as a single plain thought without the A/B contrast scaffolding.",
+      "Slide 4: 'this one just happens to land on the cheaper phone during the exact three weeks people are most ready to spend, while the costlier one never runs out' is a second mirrored-pair ending. Cut the 'while the costlier one never runs out' clause so the slide ends on one plain idea, not a crafted contrast.",
+      "Slide 3: 'which iPhone stops being the point' is a stylized punchline and makes a 13-year-old reread it. Plain version: 'once you've decided you're buying an iPhone this week, it barely matters which one you walk out with.'",
+      "Slide 5: drop 'and genuinely, that's the whole game' — it reads as a tidy wrap-up line rather than the thought just ending.",
+      "Check overall rhythm: three slides (3, 4, 5) each close on a built punchline back to back. Let at least two of them just trail off on the observation instead."
+     ]
+    },
+    "facts": []
+   },
+   {
+    "attempt": 2,
+    "problems": [
+     "Slide 5: 'a stockout in March is just a lost sale, but in Diwali it's a customer standing in the shop with their wallet already open' is a mirrored sentence pair (engineered rhetoric). Rewrite as a single plain thought without the A/B contrast scaffolding.",
+     "Slide 4: 'this one just happens to land on the cheaper phone during the exact three weeks people are most ready to spend, while the costlier one never runs out' is a second mirrored-pair ending. Cut the 'while the costlier one never runs out' clause so the slide ends on one plain idea, not a crafted contrast.",
+     "Slide 3: 'which iPhone stops being the point' is a stylized punchline and makes a 13-year-old reread it. Plain version: 'once you've decided you're buying an iPhone this week, it barely matters which one you walk out with.'",
+     "Slide 5: drop 'and genuinely, that's the whole game' — it reads as a tidy wrap-up line rather than the thought just ending.",
+     "Check overall rhythm: three slides (3, 4, 5) each close on a built punchline back to back. Let at least two of them just trail off on the observation instead."
+    ]
+   },
+   {
+    "attempt": 3,
+    "review": {
+     "pass": true,
+     "violations": [],
+     "scores": {
+      "hook": 5,
+      "specificity": 5,
+      "mechanism": 4,
+      "ending": 4,
+      "voice": 4
+     },
+     "edits": [
+      "Slide 2: cut the lead-in 'Here's the situation on the ground.' and start directly with 'Croma, Vijay Sales, the dealers...' — announcing the facts before giving them reads as AI scaffolding, not how the account talks.",
+      "Slide 4: 'in every festive stock plan I've sat through' stretches the persona past brand marketing into supply chain/retail ops territory. Swap for something closer to what she'd actually sit in — a launch review, a channel allocation call she'd hear about secondhand — so the credential stays inside rule 1's lane.",
+      "Slide 4: the mechanism (Pro imported and ready vs Made-in-India Pro still ramping) doesn't actually explain why the BASE model is the one out of stock. As written it reads like a non-sequitur stitched to the base-model shortage. Make the connection explicit or cut the line rather than letting the reader assume it explains the base stockout.",
+      "Slide 5: 'a customer standing in the shop with their wallet already open, ready to be moved up one model' is a built punchline. Let the slide end on the plainer observation about Diwali urgency instead of closing on a crafted image.",
+      "Slide 3: 'Upper middle class, saved up for months, finally doing the Diwali phone upgrade, already emotionally committed to an iPhone this year' stacks four descriptors in a row — trim to the one or two that actually carry the point (saved up for months, already decided on iPhone) instead of piling on."
+     ]
+    },
+    "facts": [
+     "Unsupported fact: 'the Pro, the one that starts at 1,54,900' (Source [3] shows the iPhone 17 Pro's actual starting price is ₹1,34,900 (discounted to ₹1,30,490 at Croma). The ₹1,54,900 figure in source [2] is described as the starting price for 'high-end variants like the iPhone 17 Pro and Pro Max' collectively, not the Pro model specifically — likely reflecting the Pro Max or a higher configuration, not the Pro's actual starting price.). Fix it to match the source or cut it."
+    ]
+   },
+   {
+    "attempt": 3,
+    "problems": [
+     "Unsupported fact: 'the Pro, the one that starts at 1,54,900' (Source [3] shows the iPhone 17 Pro's actual starting price is ₹1,34,900 (discounted to ₹1,30,490 at Croma). The ₹1,54,900 figure in source [2] is described as the starting price for 'high-end variants like the iPhone 17 Pro and Pro Max' collectively, not the Pro model specifically — likely reflecting the Pro Max or a higher configuration, not the Pro's actual starting price.). Fix it to match the source or cut it."
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.communicationstoday.co.in/iphone-17-supply-crunch-leaves-retailers-empty-handed-this-diwali/",
+    "fact": "Croma and Vijay Sales are facing a severe iPhone 17 stock shortage this Diwali season, turning away about a dozen customers a day while Amazon and Flipkart get prioritized for the pricier Pro and Pro Max models.",
+    "excerpt": "iPhone 17 supply crunch leaves retailers empty-handed this Diwali — India's large retail chains, including Croma and Vijay Sales, are experiencing a severe shortage of iPhone 17 units during the crucial pre-Diwali shopping season, with many outlets completely out of stock and unable to commit timelines for incoming inventory. Retailers say the root of the problem is Apple's continued dependence on imports for the iPhone 17 Pro models, which has led to very limited allocations to third-party offline and online retail channels this year. As a result, retail staff are reportedly turning away up to a dozen customers per day, calling it a significant missed opportunity during the peak sales period. The uneven distribution strategy has led to further frustration, with some smaller dealers and chains complaining that company-owned stores and e-commerce platforms—Amazon and Flipkart are stocking the higher-end iPhone 17 Pro and Max models—are prioritized for fresh stock."
+   },
+   {
+    "url": "https://www.business-standard.com/industry/news/iphone-17-series-stock-shortage-retailers-diwali-sale-apple-india-125101500413_1.html",
+    "fact": "Croma, Vijay Sales and dealers at Delhi's Nehru Place have run out of iPhone 17 stock, with a retail chain manager confirming inventory is stuck on Apple's distribution side amid Diwali demand.",
+    "excerpt": "iPhone 17 shortage hits Indian retailers amid Diwali season frenzy — Retail giants such as Croma and Vijay Sales, along with local dealers at Delhi's Nehru Place, Asia's largest electronics market, are running out of iPhone 17 stock amid soaring demand. Retailers say they are turning away 10–12 customers daily due to the shortage, calling it a missed sales opportunity during the festival season. According to a retail chain manager: \"We have no iPhone 17 inventory currently and no visibility on when new stock will arrive. It's stuck from the company's distribution side.\" Apple's uneven distribution has reportedly diverted customers to company-owned Apple stores and e-commerce platforms, such as Amazon and Flipkart, which are mainly selling high-end variants like the iPhone 17 Pro and Pro Max, starting at ₹1,54,900."
+   },
+   {
+    "url": "https://www.tradingview.com/news/moodys:07c83350f515d:0-iphone-17-pro-pro-max-discounts-on-croma-amazon-flipkart-how-to-get-pro-under-rs-1-lakh/",
+    "fact": "While the base iPhone 17 is scarce, iPhone 17 Pro and Pro Max units are actively being discounted and sold on Croma, Amazon and Flipkart during the festive season.",
+    "excerpt": "Both models are offered at a discount during Croma's Festival of Dreams sale until 31 October, with availability subject to stock. The Croma offer shows the iPhone 17 Pro 256GB priced at Rs.1,30,490, compared to its MRP of Rs.1,34,900. The iPhone 17 Pro Max 256GB is priced at Rs.1,43,990 at Croma, compared with its MRP of Rs.1,49,900. Flipkart lists the lowest configuration of the device at Rs.1,34,900. Flipkart users who hold an Axis Bank credit card can avail a discount of Rs.4,500."
+   }
+  ]
+ },
+ {
+  "id": "trial-2026-10-v2-004",
+  "status": "rejected",
+  "due": null,
+  "format": "carousel",
+  "topic": {
+   "title": "Campa's ₹10 bottle and Coke's refusal to match it",
+   "claim": "Coca-Cola publicly refusing to match Campa's ₹10 price is more telling than Campa's price itself.",
+   "behaviour": "Campa sells a 200ml bottle at ₹10 and 500ml at ₹20, roughly half of Coke and Pepsi, crossing ₹4,700 crore in FY26 gross sales, while Coca-Cola's CEO rejected 'irrational pricing' and PepsiCo responded with a ₹5,700 crore India manufacturing push instead of discounting.",
+   "mechanism": "Global cola brands protect their price band even at the cost of share because the price itself is part of what they're selling, admitting a ₹10 bottle can compete would undercut the premium story the whole brand runs on.",
+   "group": "regular soft drink buyers, kirana shoppers",
+   "territory": "business_brands",
+   "mood": "sharp",
+   "format_hint": "single",
+   "real_details": [
+    "Campa's 200ml bottle at ₹10, 500ml at ₹20",
+    "FY26 gross sales over ₹4,700 crore",
+    "Coca-Cola CEO Henrique Braun rejected 'irrational pricing'",
+    "PepsiCo countered with a ₹5,700 crore India manufacturing push"
+   ],
+   "evidence": [
+    {
+     "url": "https://retailintel.in/signal/coca-cola-refuses-10-price-war-as-reliance-backed-campa-cola-83dadb85",
+     "sub": "news",
+     "rank": 4
+    }
+   ],
+   "news_peg": "Campa vs Coca-Cola price war during the 2026 festive season",
+   "why_now": "visible on kirana shelves and fridges right through this festive season",
+   "counterintuitive": true,
+   "needs_facts": false,
+   "id": "2026-10-v2-004"
+  },
+  "history": [
+   {
+    "attempt": 0,
+    "review": {
+     "pass": false,
+     "violations": [],
+     "scores": {
+      "hook": 4,
+      "specificity": 4,
+      "mechanism": 4,
+      "ending": 3,
+      "voice": 3
+     },
+     "edits": [
+      "slide 5: 'One side is screaming about ₹10. The other side is quietly spending thousands of crores on factories and refusing to even acknowledge the number.' is a mirrored sentence pair (engineered rhetoric). Rewrite as one continuous thought instead of two balanced halves.",
+      "slide 6: 'If you drop to ₹10, you win this quarter and lose your whole premium story. If you hold your price, you look expensive but you stay the brand people trade up to.' is a mirrored A/B pair. Collapse into a single plainer line, don't set up the two options as matched sentences.",
+      "slide 6: 'Losing a bit of share is survivable. Becoming a ₹10 brand in everyone's head is not.' is a 'X is true, Y is not' construction, the exact engineered rhetoric pattern to avoid. Rewrite as a looser, single thought.",
+      "slide 7: 'Sometimes the sharpest move is to refuse the fight out loud.' reads as a tidy aphoristic moral tacked on at the end. End the post where the brand-lesson thought actually stops instead of closing on a polished one-liner.",
+      "slide 3: 'That is not a company that forgot how to do a discount.' restates the point just made rather than adding anything new, trim or cut it so the slide ends where the thought ends."
+     ]
+    },
+    "facts": [
+     "Unsupported fact: 'PepsiCo's answer to Campa wasn't a cheaper bottle. It was a ₹5,700 crore plan to build more manufacturing in India through 2030.' (Source [3] confirms the ₹5,700 crore manufacturing investment through 2030, but it does not frame this investment as a response or 'answer' to Campa specifically — it only notes general beverage-segment competition increased in 2025, without linking the investment decision to Campa.). Fix it to match the source or cut it."
+    ]
+   },
+   {
+    "attempt": 0,
+    "problems": [
+     "Unsupported fact: 'PepsiCo's answer to Campa wasn't a cheaper bottle. It was a ₹5,700 crore plan to build more manufacturing in India through 2030.' (Source [3] confirms the ₹5,700 crore manufacturing investment through 2030, but it does not frame this investment as a response or 'answer' to Campa specifically — it only notes general beverage-segment competition increased in 2025, without linking the investment decision to Campa.). Fix it to match the source or cut it.",
+     "slide 5: 'One side is screaming about ₹10. The other side is quietly spending thousands of crores on factories and refusing to even acknowledge the number.' is a mirrored sentence pair (engineered rhetoric). Rewrite as one continuous thought instead of two balanced halves.",
+     "slide 6: 'If you drop to ₹10, you win this quarter and lose your whole premium story. If you hold your price, you look expensive but you stay the brand people trade up to.' is a mirrored A/B pair. Collapse into a single plainer line, don't set up the two options as matched sentences.",
+     "slide 6: 'Losing a bit of share is survivable. Becoming a ₹10 brand in everyone's head is not.' is a 'X is true, Y is not' construction, the exact engineered rhetoric pattern to avoid. Rewrite as a looser, single thought.",
+     "slide 7: 'Sometimes the sharpest move is to refuse the fight out loud.' reads as a tidy aphoristic moral tacked on at the end. End the post where the brand-lesson thought actually stops instead of closing on a polished one-liner.",
+     "slide 3: 'That is not a company that forgot how to do a discount.' restates the point just made rather than adding anything new, trim or cut it so the slide ends where the thought ends."
+    ]
+   },
+   {
+    "attempt": 1,
+    "review": {
+     "pass": false,
+     "violations": [],
+     "scores": {
+      "hook": 3,
+      "specificity": 5,
+      "mechanism": 4,
+      "ending": 3,
+      "voice": 2
+     },
+     "edits": [
+      "Whole post: there is not a single 'I' anywhere in seven slides. This account speaks from inside brand reviews ('in every brand review I've sat in', 'I genuinely think'). Add at least one real first-person line, e.g. in slide 3 or 4, something like 'I've sat in enough pricing meetings to know this is never actually about the ten rupees.'",
+      "Slide 1: 'is not the real story here. The story is...' is the exact 'Not X. Y.' mirrored construction the brief bans as an AI tell. Rewrite as a plain bold opinion instead of a reversal, e.g. start with the opinion directly: 'Coca-Cola refusing to match Campa's ₹10 is the real story here, not the ₹10 itself.'",
+      "Slide 3: 'Now here's what Coke did' is an announcing phrase ('here's the part...') and 'Read that again' is a directive instruction to the reader, both flagged AI tells. Cut both and let the fact lead straight into the thought.",
+      "Slides 3, 5, 6 and 7 each close on a deliberately crafted punchline ('You can't un-say that.' / '...priced it like everyone else.' / 'that they've been overpaying you all along.'). Let two or three of these just end where the thought ends instead of landing on a quotable line every time.",
+      "Slide 7: 'Your price is not just a number, it's a claim about what you are' reads as a tidy summary moral rather than a thought stopping naturally. Loosen it into something more talked, less engineered, e.g. drop the 'claim about what you are' abstraction and just say plainly what the price is telling the customer."
+     ]
+    },
+    "facts": []
+   },
+   {
+    "attempt": 1,
+    "problems": [
+     "Whole post: there is not a single 'I' anywhere in seven slides. This account speaks from inside brand reviews ('in every brand review I've sat in', 'I genuinely think'). Add at least one real first-person line, e.g. in slide 3 or 4, something like 'I've sat in enough pricing meetings to know this is never actually about the ten rupees.'",
+     "Slide 1: 'is not the real story here. The story is...' is the exact 'Not X. Y.' mirrored construction the brief bans as an AI tell. Rewrite as a plain bold opinion instead of a reversal, e.g. start with the opinion directly: 'Coca-Cola refusing to match Campa's ₹10 is the real story here, not the ₹10 itself.'",
+     "Slide 3: 'Now here's what Coke did' is an announcing phrase ('here's the part...') and 'Read that again' is a directive instruction to the reader, both flagged AI tells. Cut both and let the fact lead straight into the thought.",
+     "Slides 3, 5, 6 and 7 each close on a deliberately crafted punchline ('You can't un-say that.' / '...priced it like everyone else.' / 'that they've been overpaying you all along.'). Let two or three of these just end where the thought ends instead of landing on a quotable line every time.",
+     "Slide 7: 'Your price is not just a number, it's a claim about what you are' reads as a tidy summary moral rather than a thought stopping naturally. Loosen it into something more talked, less engineered, e.g. drop the 'claim about what you are' abstraction and just say plainly what the price is telling the customer."
+    ]
+   },
+   {
+    "attempt": 2,
+    "review": {
+     "pass": false,
+     "violations": [],
+     "scores": {
+      "hook": 4,
+      "specificity": 4,
+      "mechanism": 4,
+      "ending": 2,
+      "voice": 2
+     },
+     "edits": [
+      "Slide 1: 'is the real story here, not the ₹10 itself' is the exact 'Not X. Y.' mirrored-contrast pattern the house style bans. Rewrite as a flat claim without the not-X-but-Y frame, e.g. just state what the refusal reveals.",
+      "Slide 6: 'A few points of share usually come back. The idea that your bottle is the special one does not.' is engineered mirrored-sentence rhetoric — two short parallel clauses built to click into place. Let the thought end plainly instead, don't construct the pairing.",
+      "Slide 4 ('Every buyer who paid extra for years quietly learns the extra was never buying them anything') and slide 7 ('whether matching them would tell your best customers that the extra they've been paying you all these years bought them nothing') repeat the same zinger almost word for word and both read as polished punchlines. Cut one, and let the other stop mid-thought rather than landing on a crafted line.",
+      "Slide 7 as a whole ('If you run a brand in India, that one quote is the lesson... The harder question is whether...') is a tidy summary moral wrapping up the entire post's thesis in one bow. Make it a sharper, narrower point instead of restating the whole argument.",
+      "Slide 2 is almost entirely facts (Campa's launch, price points, ₹4,700 crore, fourth-largest brand) with no Ananya voice or opinion in it — reads like a stat dump. Cut one fact and add a line of her read on it, the way slide 3 blends the Coke quote with 'I've sat in enough pricing meetings.'"
+     ]
+    },
+    "facts": [
+     "Unsupported fact: 'It's sitting in your corner shop fridge right now, this whole festive season, at half of what Coke and Pepsi cost.' (No source gives Coca-Cola or Pepsi's bottle price, so the specific 'half of what Coke and Pepsi cost' comparison can't be verified.). Fix it to match the source or cut it."
+    ]
+   },
+   {
+    "attempt": 2,
+    "problems": [
+     "Unsupported fact: 'It's sitting in your corner shop fridge right now, this whole festive season, at half of what Coke and Pepsi cost.' (No source gives Coca-Cola or Pepsi's bottle price, so the specific 'half of what Coke and Pepsi cost' comparison can't be verified.). Fix it to match the source or cut it.",
+     "Slide 1: 'is the real story here, not the ₹10 itself' is the exact 'Not X. Y.' mirrored-contrast pattern the house style bans. Rewrite as a flat claim without the not-X-but-Y frame, e.g. just state what the refusal reveals.",
+     "Slide 6: 'A few points of share usually come back. The idea that your bottle is the special one does not.' is engineered mirrored-sentence rhetoric — two short parallel clauses built to click into place. Let the thought end plainly instead, don't construct the pairing.",
+     "Slide 4 ('Every buyer who paid extra for years quietly learns the extra was never buying them anything') and slide 7 ('whether matching them would tell your best customers that the extra they've been paying you all these years bought them nothing') repeat the same zinger almost word for word and both read as polished punchlines. Cut one, and let the other stop mid-thought rather than landing on a crafted line.",
+     "Slide 7 as a whole ('If you run a brand in India, that one quote is the lesson... The harder question is whether...') is a tidy summary moral wrapping up the entire post's thesis in one bow. Make it a sharper, narrower point instead of restating the whole argument.",
+     "Slide 2 is almost entirely facts (Campa's launch, price points, ₹4,700 crore, fourth-largest brand) with no Ananya voice or opinion in it — reads like a stat dump. Cut one fact and add a line of her read on it, the way slide 3 blends the Coke quote with 'I've sat in enough pricing meetings.'"
+    ]
+   },
+   {
+    "attempt": 3,
+    "review": {
+     "pass": false,
+     "violations": [],
+     "scores": {
+      "hook": 5,
+      "specificity": 5,
+      "mechanism": 4,
+      "ending": 3,
+      "voice": 3
+     },
+     "edits": [
+      "slide 6: cut the mirrored pair \"Share you can win back in a year or two. Once your customer figures out the special bottle was just a bottle, that doesn't come back.\" — this is the engineered mirrored-sentence construction the persona bans. Let the thought end on one plain line.",
+      "slide 7: cut the closing aphorism \"Sometimes the strongest thing a premium brand does about a price war is act like it isn't in one.\" It reads as a tidied-up moral/punchline, not a thought trailing off. End on the line before it.",
+      "slide 5: cut \"which is its own kind of answer\" — unnecessary crafted flourish on top of a fact that already makes the point.",
+      "slide 4: end on \"part of what you're paying for is a feeling\" or similar and drop the tacked-on \"Every buyer who paid extra for years quietly learns the extra was never buying them anything\" — it's a polished punchline rather than the thought just stopping.",
+      "Across slides 2-7, too many slides (4, 5, 6, 7 especially) close on a crafted punchy line. Let at least two or three just end where the point ends, flatly, the way the example posts do."
+     ]
+    },
+    "facts": []
+   },
+   {
+    "attempt": 3,
+    "problems": [
+     "slide 6: cut the mirrored pair \"Share you can win back in a year or two. Once your customer figures out the special bottle was just a bottle, that doesn't come back.\" — this is the engineered mirrored-sentence construction the persona bans. Let the thought end on one plain line.",
+     "slide 7: cut the closing aphorism \"Sometimes the strongest thing a premium brand does about a price war is act like it isn't in one.\" It reads as a tidied-up moral/punchline, not a thought trailing off. End on the line before it.",
+     "slide 5: cut \"which is its own kind of answer\" — unnecessary crafted flourish on top of a fact that already makes the point.",
+     "slide 4: end on \"part of what you're paying for is a feeling\" or similar and drop the tacked-on \"Every buyer who paid extra for years quietly learns the extra was never buying them anything\" — it's a polished punchline rather than the thought just stopping.",
+     "Across slides 2-7, too many slides (4, 5, 6, 7 especially) close on a crafted punchy line. Let at least two or three just end where the point ends, flatly, the way the example posts do."
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://fvbb.com/ns/coca-cola-ceo-says-don-t-chase-irrational/318495",
+    "fact": "Coca-Cola's leadership said it will not chase 'irrational' pricing moves by rivals like Campa Cola, even if it means short-term share loss in India's festive-season price war.",
+    "excerpt": "On Not Chasing Aggressive Pricing: \"You might lose share in one quarter here, or you got something else and another player will have an irrational play on pricing\" On Strategic Response: \"It is how you don't overreact to noise, but really act on the signals\" The Coca-Cola Company's leadership stated the beverage firm would not overreact to aggressive pricing by competitors in India, despite Reliance Industries' Campa Cola emerging as a serious challenger. The company views short-term market share fluctuations as normal in developing markets and says this won't alter their long-term strategy. Campa Cola has become India's fourth-largest carbonated soft drink brand in FY26 with sales exceeding ₹4,700 crore, targeting impulse purchases through competitive price points like ₹10 and ₹20 bottles. Newer entrants collectively captured 6-7% market share by FY26, up from 2% in FY24, according to Crisil Ratings."
+   },
+   {
+    "url": "https://www.storyboard18.com/brand-marketing/reliance-campa-tops-rs-4700-crore-sales-gains-double-digit-market-share-ws-l-101713.htm",
+    "fact": "Campa crossed Rs 4,700 crore in FY26 gross sales and gained double-digit market share in key markets, as announced by Isha Ambani at Reliance's AGM.",
+    "excerpt": "Campa achieved gross sales exceeding Rs 4,700 crore ($496 million) in FY26, securing double-digit market share in several key markets, according to statements made at Reliance Industries' 49th Annual General Meeting. Isha Ambani declared: \"Campa has emerged as a strong challenger in the carbonated soft drinks category, achieving over Rs 4,700 crore in gross sales during FY26 and gaining double-digit market share in important markets.\" She added a tagline: \"Campa is not merely a brand. It is India ka Thanda.\" The beverage brand's expansion helped drive RCPL's overall beverage business growth to 3.2 times year-on-year in FY26. Reliance acquired Campa Cola from Pure Drinks Group in 2022 for approximately Rs 22 crore and has since aggressively expanded distribution nationwide."
+   },
+   {
+    "url": "https://www.outlookbusiness.com/corporate/pepsico-commits-5700-cr-to-india-by-2030-bets-big-on-snacks",
+    "fact": "PepsiCo's CEO confirmed a committed ₹5,700 crore investment in India manufacturing capacity through 2030 rather than responding to Campa's pricing with discounts.",
+    "excerpt": "PepsiCo's CEO stated: \"from 2025 to 2030, we have committed almost ₹5,700 crore of investments.\" The funding targets manufacturing expansion across three states. The company is establishing facilities in Madhya Pradesh, Assam, and Tamil Nadu. According to the CEO: \"Some of this is going live in the next few months, like the concentrates plant in Madhya Pradesh and the Northeast plant in Assam.\" Regarding the southern expansion, leadership noted: \"The land purchase, which we have just done recently in Tamil Nadu, will allow us to open a massive footprint in the South for our snacks business.\" India ranks among PepsiCo's top 13 global markets. The company posted a profit after tax of ₹905 crore for the 12 months ended December 2025 on total revenue of ₹9,789 crore. ... It only notes that beverage segment competition \"went up quite a bit\" in 2025, while foods remained the stronger performer with approximately 11% growth."
+   }
+  ]
+ },
+ {
+  "id": "trial-2026-10-v2-048",
+  "status": "rejected",
+  "due": null,
+  "format": "carousel",
+  "topic": {
+   "title": "Second 47 Disclosure",
+   "claim": "Every 'get ready with me' reel buries the paid partnership tag around the 47th second, right after the hook and the outfit reveal.",
+   "behaviour": "Creators flash 'ad' in small text after they've already got you watching, just before the link in bio.",
+   "mechanism": "The disclosure exists to satisfy the platform's rule, not to actually tell you upfront what you're watching.",
+   "group": "anyone who watches GRWM content",
+   "territory": "creators_internet",
+   "mood": "funny",
+   "format_hint": "single",
+   "real_details": [],
+   "why_now": "this pattern has basically become the default across creator ads",
+   "counterintuitive": true,
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-10-v2-048"
+  },
+  "history": [
+   {
+    "attempt": 0,
+    "review": {
+     "pass": false,
+     "violations": [
+      "The '47th second' is stated as a literal, specific, universal fact ('Every single... reel', 'in the same exact spot', 'Somewhere around the 47th second') and repeated three times (slides 1, 3, 6) as if it were measured data. It is not in real_details (empty) or sources (none) — it is only in the topic's unverified premise. A precise invented number dressed as fact fails rule 2/3."
+     ],
+     "scores": {
+      "hook": 3,
+      "specificity": 2,
+      "mechanism": 4,
+      "ending": 3,
+      "voice": 2
+     },
+     "edits": [
+      "Slide 1/3/6: drop the literal '47th second' framing — it reads as a fabricated precise statistic with no source. Replace with a non-numeric version like 'always slipped in after the outfit reveal, right before the sell' so the observation stays true without pretending to be measured data.",
+      "Slide 4: 'Technically it's all there. Technically you were informed. Technically you agreed.' is a mirrored triplet — exactly the engineered-rhetoric pattern the persona avoids. Cut it to one or two lines in plain voice, e.g. 'Same as terms and conditions. It's technically there, nobody's reading it.'",
+      "There is no 'I' anywhere in this post, which breaks the account's core voice rule of being visibly in the post. Add a first-person line, e.g. 'I used to think the late disclosure was laziness. It isn't.' or similar, grounded in her brand-marketing vantage point.",
+      "Slide 3 ('The tag is just paperwork at that point.') and slide 4 ('Nobody involved expects you to actually look.') both land as tidy, polished punchlines back to back — flatten one of them so the thought just stops instead of landing a line.",
+      "Slide 5: 'You know it's an ad. She knows you know. Instagram knows both of you know.' is a mirrored escalation device, which reads as engineered rather than talked. Cut it down to a single plain line, e.g. 'Everyone involved knows it's an ad. That's not the point.'"
+     ]
+    },
+    "facts": []
+   },
+   {
+    "attempt": 0,
+    "problems": [
+     "The '47th second' is stated as a literal, specific, universal fact ('Every single... reel', 'in the same exact spot', 'Somewhere around the 47th second') and repeated three times (slides 1, 3, 6) as if it were measured data. It is not in real_details (empty) or sources (none) — it is only in the topic's unverified premise. A precise invented number dressed as fact fails rule 2/3.",
+     "Slide 1/3/6: drop the literal '47th second' framing — it reads as a fabricated precise statistic with no source. Replace with a non-numeric version like 'always slipped in after the outfit reveal, right before the sell' so the observation stays true without pretending to be measured data.",
+     "Slide 4: 'Technically it's all there. Technically you were informed. Technically you agreed.' is a mirrored triplet — exactly the engineered-rhetoric pattern the persona avoids. Cut it to one or two lines in plain voice, e.g. 'Same as terms and conditions. It's technically there, nobody's reading it.'",
+     "There is no 'I' anywhere in this post, which breaks the account's core voice rule of being visibly in the post. Add a first-person line, e.g. 'I used to think the late disclosure was laziness. It isn't.' or similar, grounded in her brand-marketing vantage point.",
+     "Slide 3 ('The tag is just paperwork at that point.') and slide 4 ('Nobody involved expects you to actually look.') both land as tidy, polished punchlines back to back — flatten one of them so the thought just stops instead of landing a line.",
+     "Slide 5: 'You know it's an ad. She knows you know. Instagram knows both of you know.' is a mirrored escalation device, which reads as engineered rather than talked. Cut it down to a single plain line, e.g. 'Everyone involved knows it's an ad. That's not the point.'"
+    ]
+   },
+   {
+    "attempt": 1,
+    "review": {
+     "pass": false,
+     "violations": [],
+     "scores": {
+      "hook": 4,
+      "specificity": 3,
+      "mechanism": 3,
+      "ending": 3,
+      "voice": 2
+     },
+     "edits": [
+      "Slide 1: Cut 'I used to think it was laziness. It isn't.' — this is the exact 'I used to think X. It isn't' scaffold from the account's own reference posts (mutual funds post), reused almost verbatim. Replace with a plainer transition that doesn't lean on that template.",
+      "Slide 6: Rewrite 'So the GRWM isn't really about getting ready. It's a very soft, very comfortable sales call' — this is a second 'Not X. It's Y' construction in the same post (after slide 1's 'It isn't. It's the system working perfectly'), which reads as engineered rhetoric when doubled up. Pick one plain way to say it.",
+      "Slide 6: Cut 'Not the reach, not the views.' — another negation-pair construction stacking on the two above. State what the brand is paying for directly without the triplet/pair rhetorical setup.",
+      "Slide 3: Cut 'By then you don't care that it's an ad. You've decided you like her and you like the serum.' — this explains the bulleted list right after giving it. Let the four-item breakdown land on its own.",
+      "Slide 4: 'the disclosure exists to satisfy Instagram, not to tell you what you're watching' restates the topic's mechanism almost word for word instead of being Ananya's own phrasing of it — rewrite in her voice, and swap in a real specific detail (a product category, a platform feature name) somewhere in the post instead of the generic 'a serum appears' to match the account's usual real-name texture."
+     ]
+    },
+    "facts": []
+   },
+   {
+    "attempt": 1,
+    "problems": [
+     "Slide 1: Cut 'I used to think it was laziness. It isn't.' — this is the exact 'I used to think X. It isn't' scaffold from the account's own reference posts (mutual funds post), reused almost verbatim. Replace with a plainer transition that doesn't lean on that template.",
+     "Slide 6: Rewrite 'So the GRWM isn't really about getting ready. It's a very soft, very comfortable sales call' — this is a second 'Not X. It's Y' construction in the same post (after slide 1's 'It isn't. It's the system working perfectly'), which reads as engineered rhetoric when doubled up. Pick one plain way to say it.",
+     "Slide 6: Cut 'Not the reach, not the views.' — another negation-pair construction stacking on the two above. State what the brand is paying for directly without the triplet/pair rhetorical setup.",
+     "Slide 3: Cut 'By then you don't care that it's an ad. You've decided you like her and you like the serum.' — this explains the bulleted list right after giving it. Let the four-item breakdown land on its own.",
+     "Slide 4: 'the disclosure exists to satisfy Instagram, not to tell you what you're watching' restates the topic's mechanism almost word for word instead of being Ananya's own phrasing of it — rewrite in her voice, and swap in a real specific detail (a product category, a platform feature name) somewhere in the post instead of the generic 'a serum appears' to match the account's usual real-name texture."
+    ]
+   },
+   {
+    "attempt": 2,
+    "review": {
+     "pass": false,
+     "violations": [],
+     "scores": {
+      "hook": 5,
+      "specificity": 4,
+      "mechanism": 4,
+      "ending": 3,
+      "voice": 3
+     },
+     "edits": [
+      "Whole post: there is no 'I' anywhere in any slide. This account is always in the post ('I used to think...', 'I'm only half joking') — add at least one first-person line, e.g. in slide 2 or the close, so it doesn't read like it was written from nowhere.",
+      "Topic mood is 'funny' but the post reads as flat and analytical, never actually lands a joke. Add a genuinely funny beat (the stretch-and-yawn line in slide 6 is close — build more of the post around that register instead of the T&C comparison, which is dry, not funny).",
+      "Slide 4: 'Technically present, nobody reading it, nobody ever meant for you to' is a three-beat engineered cadence. Cut it to one plain line.",
+      "Slide 2: 'And it's never \"this brand paid me\". It's \"I've been obsessed with this lately\"' explains the GRWM example right after giving it. Let the scenario sit and make the point once, not twice.",
+      "Slide 6's pivot to 'if you're putting money into creator ads in India, this is the thing you're actually buying' repeats the exact business-close shape from the account's example posts. Either earn it with a sharper final image specific to this topic, or drop the brand-advice framing since this topic sits in creators/internet, not brands/business."
+     ]
+    },
+    "facts": []
+   },
+   {
+    "attempt": 2,
+    "problems": [
+     "Whole post: there is no 'I' anywhere in any slide. This account is always in the post ('I used to think...', 'I'm only half joking') — add at least one first-person line, e.g. in slide 2 or the close, so it doesn't read like it was written from nowhere.",
+     "Topic mood is 'funny' but the post reads as flat and analytical, never actually lands a joke. Add a genuinely funny beat (the stretch-and-yawn line in slide 6 is close — build more of the post around that register instead of the T&C comparison, which is dry, not funny).",
+     "Slide 4: 'Technically present, nobody reading it, nobody ever meant for you to' is a three-beat engineered cadence. Cut it to one plain line.",
+     "Slide 2: 'And it's never \"this brand paid me\". It's \"I've been obsessed with this lately\"' explains the GRWM example right after giving it. Let the scenario sit and make the point once, not twice.",
+     "Slide 6's pivot to 'if you're putting money into creator ads in India, this is the thing you're actually buying' repeats the exact business-close shape from the account's example posts. Either earn it with a sharper final image specific to this topic, or drop the brand-advice framing since this topic sits in creators/internet, not brands/business."
+    ]
+   },
+   {
+    "attempt": 3,
+    "review": {
+     "pass": false,
+     "violations": [
+      "Slide 2: \"I've watched a full one before realising forty seconds in that I was being sold a face wash.\" — this presents a specific invented personal event with an exact count (\"forty seconds in\") as something that actually happened, which breaks hard rule 2 (no invented events presented as true) and the Format facts rule against inventing a specific count presented as something that occurred."
+     ],
+     "scores": {
+      "hook": 4,
+      "specificity": 4,
+      "mechanism": 4,
+      "ending": 3,
+      "voice": 3
+     },
+     "edits": [
+      "Slide 2: Rewrite \"I've watched a full one before realising forty seconds in that I was being sold a face wash\" as a typical-scenario line (e.g. \"You can be a good way into one of these before you realise you're being sold a face wash\") instead of a specific personal timestamped event.",
+      "Slide 6: Cut the \"The genius isn't hiding the ad. It's that...\" construction — it's the banned 'Not X. Y.' mirrored pattern and reads as a tidy moral/summary ending. End the thought plainly instead.",
+      "Slide 5: Flatten the mirrored pair \"'hi, a brand paid me...' gets scrolled past in half a yawn. And 'omg obsessed with my skin lately' gets saved and sent to a friend\" — this is engineered rhetoric (mirrored sentence pairs); pick one side of the comparison and drop the parallel construction.",
+      "Slide 4: \"It's the 'skip ad in 5' of Instagram, except the ad already played and you didn't notice\" is a polished punchline tacked onto an already-complete thought. Let the slide end on the sentence before it.",
+      "Across the post, slides 2, 4, 5 and 6 each close on a crafted punchline — that's too many for this house style. Pick one or two slides max to land hard and let the rest just stop where the thought ends."
+     ]
+    },
+    "facts": []
+   },
+   {
+    "attempt": 3,
+    "problems": [
+     "Slide 2: \"I've watched a full one before realising forty seconds in that I was being sold a face wash.\" — this presents a specific invented personal event with an exact count (\"forty seconds in\") as something that actually happened, which breaks hard rule 2 (no invented events presented as true) and the Format facts rule against inventing a specific count presented as something that occurred.",
+     "Slide 2: Rewrite \"I've watched a full one before realising forty seconds in that I was being sold a face wash\" as a typical-scenario line (e.g. \"You can be a good way into one of these before you realise you're being sold a face wash\") instead of a specific personal timestamped event.",
+     "Slide 6: Cut the \"The genius isn't hiding the ad. It's that...\" construction — it's the banned 'Not X. Y.' mirrored pattern and reads as a tidy moral/summary ending. End the thought plainly instead.",
+     "Slide 5: Flatten the mirrored pair \"'hi, a brand paid me...' gets scrolled past in half a yawn. And 'omg obsessed with my skin lately' gets saved and sent to a friend\" — this is engineered rhetoric (mirrored sentence pairs); pick one side of the comparison and drop the parallel construction.",
+     "Slide 4: \"It's the 'skip ad in 5' of Instagram, except the ad already played and you didn't notice\" is a polished punchline tacked onto an already-complete thought. Let the slide end on the sentence before it.",
+     "Across the post, slides 2, 4, 5 and 6 each close on a crafted punchline — that's too many for this house style. Pick one or two slides max to land hard and let the rest just stop where the thought ends."
+    ]
+   }
+  ],
+  "sources": []
+ }
+]

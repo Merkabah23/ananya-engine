@@ -1,0 +1,967 @@
+[
+ {
+  "id": "trial3-2026-10-v2-008",
+  "status": "written",
+  "due": null,
+  "format": "carousel",
+  "topic": {
+   "title": "Open to work, because of AI",
+   "claim": "Housing.com and IBM cutting jobs the same day, both filed under a year of AI-cited layoffs, says more about convenient corporate language than about AI.",
+   "behaviour": "Housing.com laid off around 300 employees and IBM cut 100 roles in Ahmedabad on the same day, part of a year where Indian startup layoffs crossed 4,500 across eight months, including Livspace cutting nearly 1,000 jobs (12% of staff) as part of what it called 'AI-native' restructuring.",
+   "mechanism": "Saying 'AI is restructuring us' reads better on LinkedIn than saying 'we needed to cut costs', so the stated reason for a layoff and the actual reason aren't always the same thing.",
+   "group": "20-something professionals in product, HR and ops roles at startups",
+   "territory": "life_relationships",
+   "mood": "rant",
+   "format_hint": "single",
+   "real_details": [
+    "Housing.com laid off around 300 employees",
+    "IBM cut 100 roles in Ahmedabad the same day",
+    "Indian startup layoffs crossed 4,500 across eight months",
+    "Livspace cut nearly 1,000 jobs (12% of staff) citing 'AI-native' restructuring"
+   ],
+   "evidence": [
+    {
+     "url": "https://www.peoplematters.in/news/strategic-hr/indian-startup-layoffs-cross-4500-in-eight-months-largely-linked-to-business-pressures-48597",
+     "sub": "news",
+     "rank": 9
+    }
+   ],
+   "news_peg": "Housing.com and IBM layoffs, October 2026, amid a year of AI-cited restructuring",
+   "why_now": "happened this month and is an ongoing anxiety for young professionals",
+   "counterintuitive": true,
+   "needs_facts": false,
+   "id": "2026-10-v2-008",
+   "score": {
+    "rank": 1,
+    "why": "batch 2",
+    "format_fit": "carousel"
+   }
+  },
+  "history": [
+   {
+    "attempt": 0,
+    "review": {
+     "pass": true,
+     "violations": [],
+     "scores": {
+      "hook": 4,
+      "specificity": 5,
+      "mechanism": 4,
+      "ending": 4,
+      "voice": 4
+     },
+     "edits": [
+      "slide 1: cut the standalone \"No.\" and fold it in — e.g. \"No, costs are restructuring you\" — so it doesn't read as a punchy engineered beat.",
+      "slide 3: the two dash-bullets read like a slide deck; consider one plain sentence instead, e.g. \"A company can call it 'we cut costs' or call it 'we're becoming AI-native' — same 300 people walking out.\"",
+      "slide 6: trim the closing clause \"and nobody's going to post that one\" so the line ends on the observation, not a tidy wrap-up."
+     ]
+    },
+    "facts": [
+     "Unsupported fact: 'Half these companies haven't shipped anything AI does end to end.' (None of the sources assess what proportion of companies have deployed functioning end-to-end AI systems; this specific quantified claim isn't supported by any source excerpt.). Fix it to match the source or cut it."
+    ]
+   },
+   {
+    "attempt": 0,
+    "problems": [
+     "Unsupported fact: 'Half these companies haven't shipped anything AI does end to end.' (None of the sources assess what proportion of companies have deployed functioning end-to-end AI systems; this specific quantified claim isn't supported by any source excerpt.). Fix it to match the source or cut it."
+    ]
+   },
+   {
+    "attempt": 1,
+    "review": {
+     "pass": true,
+     "violations": [],
+     "scores": {
+      "hook": 4,
+      "specificity": 5,
+      "mechanism": 4,
+      "ending": 3,
+      "voice": 4
+     },
+     "edits": [
+      "slide 3: drop the two dash-bulleted lines and fold them into one sentence so it doesn't read like a corporate comparison slide",
+      "slide 5: cut 'I'm not saying AI changes nothing at work. It changes plenty.' and just start with 'I'm saying the stated reason and the real reason...' — the mirrored setup reads engineered",
+      "slide 6: end on 'Ask what the number was and ask what the headline was' and cut the last sentence, it's landing as a tidy moral"
+     ]
+    },
+    "facts": []
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.teamblind.com/layoffs/2026/region/india",
+    "fact": "Housing.com laid off 300 employees in India and IBM cut 100 employees in Ahmedabad, both on October 1, 2026, confirming the same-day news peg.",
+    "excerpt": "Housing.com laid off 300 employees on Oct 1, 2026 in India. This represented 60% of their workforce. IBM conducted layoffs of 100 employees on Oct 1, 2026 in Ahmedabad, India. The reduction affected their tech and cloud services divisions. Both announcements were categorized as rumored at the time of reporting."
+   },
+   {
+    "url": "https://www.peoplematters.in/news/strategic-hr/indian-startup-layoffs-cross-4500-in-eight-months-largely-linked-to-business-pressures-48597",
+    "fact": "Indian startups cut more than 4,500 jobs over eight months per Longhouse Consulting data, with Livspace laying off around 1,000 employees as part of an AI-driven cost rationalisation.",
+    "excerpt": "Indian startups have cut more than 4,500 jobs over the past eight months. Data cited by The Times of India from executive search firm Longhouse Consulting. Home décor platform Livspace recently laid off around 1,000 employees as part of an AI-driven cost rationalisation effort. The restructuring was described by the company as 'operational streamlining rather than wholesale replacement of roles,' though it was characterized as an 'AI-driven' initiative by the reporting source."
+   },
+   {
+    "url": "https://www.latestly.com/technology/indian-startup-layoffs-4500-jobs-cut-since-july-in-india-amid-ai-shift-companies-undergo-massive-workforce-restructuring-7331240.html",
+    "fact": "More than 4,500 professionals have been laid off across Indian startups since July, with Livspace cutting 1,000 jobs framed as an AI-focused strategy.",
+    "excerpt": "More than 4,500 professionals laid off since July last year. Data from Longhouse Consulting indicates that the surge in job cuts is the result of regulatory changes, investor pressure for profitability and a rapid pivot towards artificial intelligence-driven business models. Livspace recently reduced its workforce by 1,000 employees as part of an AI-focused strategy, highlighting how automation is replacing traditional roles."
+   }
+  ],
+  "draft": {
+   "slides": [
+    {
+     "paragraphs": [
+      "Housing.com cut around 300 people and IBM cut 100 in Ahmedabad on the same day, and both got quietly filed under the same story everyone's telling this year: AI is restructuring us.",
+      "No. Costs are restructuring you. AI is just the word that sounds better on LinkedIn.",
+      "Swipe to read →"
+     ]
+    },
+    {
+     "paragraphs": [
+      "Look at the year. Indian startup layoffs crossed 4,500 in eight months. Livspace let go of nearly 1,000 people in what reporters framed as AI-driven restructuring.",
+      "Notice the shift in language. Nobody says we overhired in 2021. Nobody says the funding dried up. They say AI, like a tool walked in on Monday and quietly did everyone's job over the weekend."
+     ]
+    },
+    {
+     "paragraphs": [
+      "I've sat in enough meetings to know how a sentence gets chosen. A company can say two things about the same decision: that it needed to cut costs and these roles went first, or that it's becoming AI-native and reshaping the org.",
+      "Same 300 people walking out. But one version makes investors nervous and one makes you sound like you're ahead of the curve. Guess which one goes in the post."
+     ]
+    },
+    {
+     "paragraphs": [
+      "This actually bothers me. The person laid off now has to carry that story too.",
+      "If the company says AI did it, then the ops or HR or product person at their desk starts wondering if they're the one the machine replaced. It's not about their work anymore. It's about a word a leadership team picked because it reads cleaner."
+     ]
+    },
+    {
+     "paragraphs": [
+      "And it's a very convenient word. AI takes no blame. You can't be angry at a cost-cutting spreadsheet the way you can be angry at a model that supposedly got smart overnight.",
+      "You can announce that automation replaced a role long before any automation actually does it. But 'automation replaced the role' closes the conversation faster than 'the numbers didn't work', so that's the one they reach for."
+     ]
+    },
+    {
+     "paragraphs": [
+      "I'm saying the stated reason and the real reason are rarely the same sentence, and this year they've drifted further apart than usual.",
+      "So when you read the next layoff dressed up as a strategy, separate the two. Ask what the number was and ask what the headline was."
+     ]
+    }
+   ],
+   "caption": "When your company announced cuts, what did they call it versus what you knew it actually was?",
+   "alt_text": "A six-slide carousel arguing that companies blaming layoffs on AI are often using convenient language to describe cost cutting. It cites Housing.com cutting around 300 jobs and IBM cutting 100 in Ahmedabad on the same day, over 4,500 Indian startup layoffs in eight months, and Livspace cutting nearly 1,000 jobs in what was framed as AI-driven restructuring.",
+   "claims": [
+    {
+     "text": "Housing.com laid off around 300 employees and IBM cut 100 roles in Ahmedabad on the same day",
+     "source_url": "https://www.teamblind.com/layoffs/2026/region/india"
+    },
+    {
+     "text": "Indian startup layoffs crossed 4,500 across eight months",
+     "source_url": "https://www.peoplematters.in/news/strategic-hr/indian-startup-layoffs-cross-4500-in-eight-months-largely-linked-to-business-pressures-48597"
+    },
+    {
+     "text": "Livspace cut nearly 1,000 jobs in what reporting described as AI-driven cost rationalisation",
+     "source_url": "https://www.peoplematters.in/news/strategic-hr/indian-startup-layoffs-cross-4500-in-eight-months-largely-linked-to-business-pressures-48597"
+    }
+   ]
+  }
+ },
+ {
+  "id": "trial3-2026-10-v2-029",
+  "status": "written",
+  "due": null,
+  "format": "carousel",
+  "topic": {
+   "title": "Fresher Hiring In IT Just Collapsed 80%",
+   "claim": "Fresher hiring in IT dropping roughly 80% from its peak this year is this generation finding out, in real time, that the safest career path their parents picked for them isn't safe anymore.",
+   "behaviour": "India's IT sector is shedding an estimated 25,000-35,000 jobs in 2026, with TeamLease reporting 10,000-15,000 silent layoffs by May and fresh cuts at Qualcomm and Oracle's India units, while TCS, Infosys and Wipro scale back graduate intake and over 12,700 techies who had moved abroad have returned this year.",
+   "mechanism": "Engineering into an IT job was the default safe bet for a generation of Indian families, and AI-driven restructuring is hitting exactly the entry-level, high-volume hiring that made that bet feel safe.",
+   "group": "Engineering graduates and early-career tech employees, and their parents",
+   "territory": "life_relationships",
+   "mood": "rant",
+   "format_hint": "single",
+   "real_details": [
+    "India's IT sector is shedding an estimated 25,000-35,000 jobs in 2026",
+    "TeamLease reported 10,000-15,000 silent layoffs by May 2026",
+    "fresher hiring has collapsed roughly 80% from its peak",
+    "more than 12,700 Indian tech workers who had moved abroad have returned this year"
+   ],
+   "evidence": [
+    {
+     "url": "https://offcampusjobs4u.com/india-job-market-today-21-oct-2026/",
+     "sub": "news",
+     "rank": 56
+    },
+    {
+     "url": "https://www.reddit.com/r/hyderabad/comments/1wpuxtt/its_2026_and_were_seeing_iits_banning_companies/",
+     "sub": "hyderabad",
+     "rank": 20
+    },
+    {
+     "url": "https://www.reddit.com/r/hyderabad/comments/1wn8pv7/imagine_joining_it_back_in_the_90s_and_2000s/",
+     "sub": "hyderabad",
+     "rank": 2
+    }
+   ],
+   "news_peg": "2026 IT layoff wave and fresher hiring collapse reported October 21, 2026",
+   "why_now": "Numbers published this week, campus and LinkedIn anxiety threads trending",
+   "counterintuitive": false,
+   "needs_facts": false,
+   "id": "2026-10-v2-029",
+   "score": {
+    "rank": 2,
+    "why": "batch 2",
+    "format_fit": "carousel"
+   }
+  },
+  "history": [
+   {
+    "attempt": 0,
+    "review": {
+     "pass": true,
+     "violations": [],
+     "scores": {
+      "hook": 4,
+      "specificity": 5,
+      "mechanism": 4,
+      "ending": 3,
+      "voice": 4
+     },
+     "edits": [
+      "slide 3: 'Nearly a thousand candidates waiting on joining letters' is actually Tech Mahindra's figure in the source, not Wipro's — name Tech Mahindra there instead of leaving it attached to the Wipro sentence",
+      "slide 6: cut 'You can only teach them to keep moving when the floor does.' — it lands as a tidy moral, end on the bet-not-risk-free line instead",
+      "slide 1 and slide 3 both use 'quietly' — drop one to stop the echo"
+     ]
+    },
+    "facts": []
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.businesstoday.in/technology/story/indian-its-fresher-hiring-slump-signals-structural-shift-not-just-slowdown-521374-2026-03-21",
+    "fact": "Fresher hiring in India's IT sector has fallen roughly 80%, from a peak of 600,000 in FY22 to about 120,000 in FY25, per Xpheno, with Wipro and Infosys also trimming graduate intake targets.",
+    "excerpt": "Fresher hiring in India's IT sector has fallen from a peak of 600,000 in FY22 to about 120,000 in FY25, according to Xpheno, marking an 80% decline. Wipro has reduced its fresher hiring guidance to 7,500–8,000, from an earlier estimate of 10,000 and has onboarded roughly 5,000 so far. Infosys presents a relatively stronger outlook, maintaining its target of 20,000 fresher hires, with 18,000 already onboarded. Nearly 1,000 candidates are still awaiting joining letters from Tech Mahindra, while more than 200 Wipro recruits have flagged deferred onboarding. Hiring 10,000 freshers can require an outlay of around Rs 400 crore in salaries alone, excluding training costs."
+   },
+   {
+    "url": "https://offcampusjobs4u.com/india-job-market-today-21-oct-2026/",
+    "fact": "On October 21, 2026, reports confirmed fresh Qualcomm layoffs affecting its large India engineering hubs, following Oracle's roughly 10,000 India job cuts, amid a wave of over 12,700 tech professionals returning from the US.",
+    "excerpt": "Qualcomm will cut jobs globally in a 'performance-focused reduction' following its annual employee reviews, per CEO Cristiano Amon's internal memo. The chipmaker stated that business priorities, organisational needs, skills and expertise would be considered in making the cuts. Notifications are slated to begin in November. Qualcomm runs large engineering centres in India — Hyderabad and Bengaluru are among its biggest global design hubs. Oracle eliminated approximately 10,000 Indian positions — representing one of its largest bases outside the United States. The company deployed terminations via email at 6 AM with immediate effect. Around 12,700 professionals had made the move [from US to India] by September 2026, raising competitive pressure domestically. Returning engineers now prioritize artificial intelligence, cloud computing, cybersecurity and product leadership skills. C-DAC opened roughly 844 Project Engineer and Project Associate posts across 11 centres with freshers eligible to apply before the October 26 deadline."
+   },
+   {
+    "url": "https://americanbazaaronline.com/2026/10/19/over-12000-indian-tech-professionals-leave-us-as-visa-uncertainty-layoffs-mount-490368/",
+    "fact": "Around 12,700 Indian tech professionals had returned from the US to India by September 2026, per Xpheno data reported by The Economic Times, putting 2026 on track to surpass last year's record of 15,100 amid visa uncertainty and layoffs.",
+    "excerpt": "Around 12,700 professionals had made the move by September 2026, according to data from Xpheno, as reported by The Economic Times. This figure puts 2026 on track to surpass last year's record of 15,100, with numbers rising from 7,200 in 2023 to 9,800 in 2024. The exodus is attributed to growing uncertainty over immigration and visa policies under the Trump administration, combined with rising layoffs and limited stability in global hiring. The movement was also influenced by a suspension of PERM processing (Program Electronic Review Management) for major tech recruiters including Microsoft, Adobe, Infosys, Cognizant, Capgemini, Wipro, HCL Technologies, and Tata — a key step in employer-sponsored green card applications."
+   }
+  ],
+  "draft": {
+   "slides": [
+    {
+     "paragraphs": [
+      "Engineering into an IT job was the safest bet an Indian family could make. Paper degree, campus placement, maybe an onsite stint, done. This year that bet is quietly coming apart. Fresher hiring in IT is down roughly 80% from its peak, and a whole generation is finding out that safe isn't safe anymore.",
+      "Swipe to read →"
+     ]
+    },
+    {
+     "paragraphs": [
+      "Look at the size of the drop. Fresher intake went from a peak of 600,000 in FY22 to about 120,000 in FY25, going by Xpheno. That's not a bad quarter, that's the whole floor moving.",
+      "This was the plan papa and chacha agreed on without a single argument. Science stream, B.Tech, a service company, a stable salary by 22. The one path in an Indian house that nobody debated at dinner, because everyone already knew it worked."
+     ]
+    },
+    {
+     "paragraphs": [
+      "Wipro trimmed its fresher guidance to 7,500 to 8,000. Oracle cut around 10,000 India jobs, the terminations sent by email at 6 AM. Qualcomm is doing its own round.",
+      "And the ones still technically hired are stuck in the worst place. Nearly a thousand candidates at Tech Mahindra are waiting on joining letters, and over 200 Wipro recruits were told their onboarding is deferred. Not rejected, not working. Just a boy at home holding an offer that means nothing yet, telling relatives he's joining soon."
+     ]
+    },
+    {
+     "paragraphs": [
+      "The exact thing that made this career feel safe is the thing killing it. It was safe because they hired in bulk, thousands of freshers for repetitive, entry-level work. That bulk is precisely what AI restructuring eats first. The safety was the vulnerability the whole time.",
+      "Meanwhile over 12,700 people who went abroad came back this year, loaded with AI and cloud skills, now competing for the same shrinking set of desks."
+     ]
+    },
+    {
+     "paragraphs": [
+      "And the cruel bit is who has to absorb it. Not the parents who picked the path. The 22-year-old who scored the way he was told, cracked the placement, and still ended up explaining a gap year he didn't choose.",
+      "The parents aren't villains here. They optimised for the world they knew, where this degree meant a letter and a salary and an end to log kya kahenge. The map was right for thirty years. It just stopped matching the ground this year."
+     ]
+    },
+    {
+     "paragraphs": [
+      "So the real shift isn't 25,000 to 35,000 jobs going in 2026. It's that the one career Indian families treated as risk-free has joined every other career as a bet. There is no lane left that you can point your kid at and stop thinking.",
+      "If you're a parent now, the honest thing is harder than the old plan. You can't hand a child one safe answer anymore."
+     ]
+    }
+   ],
+   "caption": "What was the one safe career your family picked for you, and does it still look safe?",
+   "alt_text": "A six-slide text carousel about India's 2026 IT fresher hiring collapse. It argues that engineering into an IT job, long treated as the safest career path by Indian families, is no longer safe, citing an 80% drop in fresher hiring, Oracle and Qualcomm layoffs, deferred onboarding, and thousands of workers returning from the US.",
+   "claims": [
+    {
+     "text": "Fresher hiring in India's IT sector has fallen roughly 80% from its peak",
+     "source_url": "https://www.businesstoday.in/technology/story/indian-its-fresher-hiring-slump-signals-structural-shift-not-just-slowdown-521374-2026-03-21"
+    },
+    {
+     "text": "Fresher intake fell from a peak of 600,000 in FY22 to about 120,000 in FY25, per Xpheno",
+     "source_url": "https://www.businesstoday.in/technology/story/indian-its-fresher-hiring-slump-signals-structural-shift-not-just-slowdown-521374-2026-03-21"
+    },
+    {
+     "text": "Wipro reduced its fresher hiring guidance to 7,500 to 8,000",
+     "source_url": "https://www.businesstoday.in/technology/story/indian-its-fresher-hiring-slump-signals-structural-shift-not-just-slowdown-521374-2026-03-21"
+    },
+    {
+     "text": "Nearly 1,000 candidates at Tech Mahindra are still awaiting joining letters, and more than 200 Wipro recruits flagged deferred onboarding",
+     "source_url": "https://www.businesstoday.in/technology/story/indian-its-fresher-hiring-slump-signals-structural-shift-not-just-slowdown-521374-2026-03-21"
+    },
+    {
+     "text": "Oracle eliminated approximately 10,000 Indian positions, deploying terminations via email at 6 AM",
+     "source_url": "https://offcampusjobs4u.com/india-job-market-today-21-oct-2026/"
+    },
+    {
+     "text": "Qualcomm is cutting jobs following its annual reviews, affecting its large India engineering hubs",
+     "source_url": "https://offcampusjobs4u.com/india-job-market-today-21-oct-2026/"
+    },
+    {
+     "text": "Around 12,700 Indian tech professionals had returned from the US to India by September 2026",
+     "source_url": "https://americanbazaaronline.com/2026/10/19/over-12000-indian-tech-professionals-leave-us-as-visa-uncertainty-layoffs-mount-490368/"
+    },
+    {
+     "text": "India's IT sector is shedding an estimated 25,000 to 35,000 jobs in 2026",
+     "source_url": "topic"
+    }
+   ]
+  }
+ },
+ {
+  "id": "trial3-2026-10-v2-020",
+  "status": "written",
+  "due": null,
+  "format": "carousel",
+  "topic": {
+   "title": "An ad got memed before the campaign even finished running",
+   "claim": "JioStar's Kohli-Rohit ad getting renamed 'Ro-Ko' by the internet within days of airing is the fastest I've seen a brand's own message get taken over by the audience's joke.",
+   "behaviour": "A JioStar ad featuring Virat Kohli and Rohit Sharma spawned the nickname 'Ro-Ko', with fans remixing the ad's tone into meme formats about the duo's on-field partnership and off-field banter.",
+   "mechanism": "Cricket ads get adopted and remixed faster than any other category in India because the goodwill is already built in, the brand doesn't have to create affection, it just has to borrow it.",
+   "group": "cricket fans and marketers watching how fast campaigns get taken over",
+   "territory": "business_brands",
+   "mood": "funny",
+   "format_hint": "single",
+   "real_details": [
+    "JioStar advertisement featuring Virat Kohli and Rohit Sharma",
+    "Nickname 'Ro-Ko' coined and spread by fans online"
+   ],
+   "evidence": [
+    {
+     "url": "https://trends.bbnpost.com/2026/10/top-trending-memes-of-day-11-oct-2026.html",
+     "sub": "news",
+     "rank": 40
+    }
+   ],
+   "news_peg": "JioStar's 'Ro-Ko' ad meme trend, October 11, 2026",
+   "why_now": "It's a fresh example of a recurring pattern worth naming this month",
+   "counterintuitive": false,
+   "needs_facts": false,
+   "id": "2026-10-v2-020",
+   "score": {
+    "rank": 3,
+    "why": "batch 2",
+    "format_fit": "carousel"
+   }
+  },
+  "history": [
+   {
+    "attempt": 0,
+    "review": {
+     "pass": true,
+     "violations": [],
+     "scores": {
+      "hook": 4,
+      "specificity": 5,
+      "mechanism": 4,
+      "ending": 3,
+      "voice": 3
+     },
+     "edits": [
+      "slide 4: cut \"Marketers quietly know this.\" and ground it in her, e.g. \"I've sat through enough brand reviews to know this.\"",
+      "slide 6: cut the opening line \"That's the real lesson sitting in this ad.\" — it's a tidy-moral flourish, just start with \"The fastest way...\"",
+      "slide 5: cut \"That's the opposite\" framing feel — drop \"It's the opposite\" and let the next sentence stand alone so it doesn't read as a mirrored pair"
+     ]
+    },
+    "facts": [
+     "Unsupported fact: 'You've watched these two for fifteen years' (No source gives this figure; Rohit and Kohli have been fixtures in Indian cricket for closer to 18-19 years (debuts 2007/2008), and none of the excerpts state a specific number of years fans have followed them.). Fix it to match the source or cut it.",
+     "Unsupported fact: 'It's renting it for thirty seconds and putting its logo at the end' (None of the source excerpts give the ad's runtime; 'thirty seconds' is presented as a specific fact about the ad but is not supported by any source.). Fix it to match the source or cut it."
+    ]
+   },
+   {
+    "attempt": 0,
+    "problems": [
+     "Unsupported fact: 'You've watched these two for fifteen years' (No source gives this figure; Rohit and Kohli have been fixtures in Indian cricket for closer to 18-19 years (debuts 2007/2008), and none of the excerpts state a specific number of years fans have followed them.). Fix it to match the source or cut it.",
+     "Unsupported fact: 'It's renting it for thirty seconds and putting its logo at the end' (None of the source excerpts give the ad's runtime; 'thirty seconds' is presented as a specific fact about the ad but is not supported by any source.). Fix it to match the source or cut it."
+    ]
+   },
+   {
+    "attempt": 1,
+    "review": {
+     "pass": true,
+     "violations": [],
+     "scores": {
+      "hook": 4,
+      "specificity": 5,
+      "mechanism": 4,
+      "ending": 3,
+      "voice": 4
+     },
+     "edits": [
+      "slide 6: cut \"That's the real lesson sitting in this ad.\" — it reads like a summary slide; just start with \"The fastest way for a campaign to travel...\"",
+      "slide 4: trim \"for most of your cricket-watching life\" to \"most of your life\" — less repetition of 'cricket' in two lines",
+      "slide 1: cut \"for ages\" in \"They'd been calling the two Ro-Ko for ages\" — vaguer than her usual precise texture, just end the sentence at 'Ro-Ko'"
+     ]
+    },
+    "facts": []
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://cricketaddictor.com/cricket-news/virat-kohli-trolls-rohit-sharmas-famous-woh-habit-in-hilarious-new-ro-ko-advertisement-464732/",
+    "fact": "JioStar's new advertisement featuring Rohit Sharma and Virat Kohli explicitly built its joke around the fan-coined 'Ro-Ko' nickname for the duo, released ahead of India's ODI series against Sri Lanka.",
+    "excerpt": "Rohit Sharma and Virat Kohli have turned the famous 'Ro-Ko' nickname into their own joke in a new JioStar advertisement ahead of India's upcoming ODI series against Sri Lanka. Rohit has often used the word 'who' while trying to remember or describe someone without taking their name directly, and this time Kohli uses the moment to have some fun with his teammate. The advertisement begins with Rohit and Kohli meeting again after some time. Rohit points out that it has been years, while Kohli reminds him that the fun is still the same. When Kohli says \"our boys are also excited,\" Rohit responds with his famous 'woh', and Kohli plays along with the joke. The Indian batting icons mimicked team celebrations, including using sign language to help identify Ravindra Jadeja through his famous sword celebration, and mimicked Shubman Gill's familiar hat-doffing celebration."
+   },
+   {
+    "url": "https://indiantelevision.com/mam/jiostar-reunites-rohit-sharma-and-virat-kohli-in-a-new-film-ahead-of-the-2027-world-cup/",
+    "fact": "JioStar officially released the Rohit Sharma-Virat Kohli ad film on 7 October 2026, confirming the news peg's timing for the campaign ahead of the 2027 World Cup.",
+    "excerpt": "The film was released on 7 October 2026. JioStar has unveiled a new film bringing together Rohit Sharma and Virat Kohli in a rare and candid coming together, setting the stage for what promises to be a monumental year ahead for Team India. The film places the two in a light-hearted conversation as they reminisce about their journey with Team India. It celebrates their passion for the game and offers fans a glimpse of the duo's playful side, as they cheekily recreate the signature celebrations of KL Rahul, Ravindra Jadeja and captain Shubman Gill. Closing message: \"Desh ka sawaal hai, maza toh aayega\" (It's a matter of the country's pride, it's going to be fun)."
+   },
+   {
+    "url": "https://www.sportskeeda.com/cricket/news-people-want-masala-go-rohit-sharma-recalls-laughing-virat-kohli-viral-trend-amid-ind-vs-wi-2026-odis",
+    "fact": "Rohit Sharma and Virat Kohli themselves publicly acknowledged that 'Ro-Ko' had become a viral fan- and broadcaster-adopted tag that they found amusing, confirming the organic audience takeover of the nickname.",
+    "excerpt": "I think we were together. This started, I think, when we were playing in Australia, or right after Australia when we came to India. That's when this started, and whenever this plays on TV, we look at each other and laugh. Which is good, it's fun. People want masala, so there you go, there is some masala. Ro-Ko has a nice ring to it. It sounds nice, it sounds good, and people are having a lot of fun with it. Now that we only play one format, even from the broadcaster's perspective, I'm sure it's a very nice tagline to use - 'Oh, Ro-Ko aa gaye! They are back'."
+   }
+  ],
+  "draft": {
+   "slides": [
+    {
+     "paragraphs": [
+      "JioStar put out a Rohit and Kohli ad this month, and within days everyone was calling it the Ro-Ko ad. Except fans didn't invent that nickname off the ad. They'd been calling the two Ro-Ko. The brand just picked up a joke already lying there.",
+      "Swipe to read →"
+     ]
+    },
+    {
+     "paragraphs": [
+      "The film dropped on 7 October. Rohit and Kohli meeting after a while, Kohli ribbing Rohit about his habit of saying woh instead of naming someone. They do sign language for Jadeja's sword celebration, copy Gill's hat tip, and sign off with *desh ka sawaal hai, maza toh aayega*. All timed before the Sri Lanka ODIs, with the 2027 World Cup sitting right there."
+     ]
+    },
+    {
+     "paragraphs": [
+      "Then the internet did what it does, and the Ro-Ko tag was everywhere. Rohit himself said whenever it plays on TV they look at each other and laugh. People want masala, so there's your masala. Ro-Ko has a nice ring to it, he said."
+     ]
+    },
+    {
+     "paragraphs": [
+      "Marketers quietly know this. A cricket ad doesn't have to make you feel anything. The feeling is already built. You've been watching these two most of your life, you have opinions about both, you've argued about them at every family lunch. The brand isn't creating that affection. It's renting it and putting its logo at the end."
+     ]
+    },
+    {
+     "paragraphs": [
+      "In almost any other category, your campaign getting renamed by the audience is a small disaster. You spent weeks on a line and the internet tossed it for its own joke. Here it's the opposite. JioStar didn't lose the message to the Ro-Ko joke. It built the ad on top of a joke fans had already made, and let them carry it further."
+     ]
+    },
+    {
+     "paragraphs": [
+      "The fastest way for a campaign to travel is to not fully own it. Give people something half-finished they can bend into their own version. Cricket gets this for free because the love is pre-loaded. Everyone else has to earn the affection first, then hope the audience even bothers to remix it."
+     ]
+    }
+   ],
+   "caption": "What's a campaign line you remember only because the internet rewrote it into something funnier?",
+   "alt_text": "A six-slide carousel about JioStar's Rohit Sharma and Virat Kohli advertisement that fans adopted as the 'Ro-Ko' ad. The slides explain that the ad, released on 7 October 2026 ahead of the Sri Lanka ODIs and the 2027 World Cup, was built around a nickname fans had already coined, and argue that cricket ads spread fast because the audience's affection is already built in.",
+   "claims": [
+    {
+     "text": "JioStar released the Rohit Sharma and Virat Kohli ad film on 7 October 2026, ahead of the 2027 World Cup.",
+     "source_url": "https://indiantelevision.com/mam/jiostar-reunites-rohit-sharma-and-virat-kohli-in-a-new-film-ahead-of-the-2027-world-cup/"
+    },
+    {
+     "text": "The ad built its joke around the fan-coined 'Ro-Ko' nickname and was released ahead of India's ODI series against Sri Lanka, with Kohli teasing Rohit's habit of saying 'woh'.",
+     "source_url": "https://cricketaddictor.com/cricket-news/virat-kohli-trolls-rohit-sharmas-famous-woh-habit-in-hilarious-new-ro-ko-advertisement-464732/"
+    },
+    {
+     "text": "In the ad the duo recreate team celebrations, including sign language for Ravindra Jadeja's sword celebration and Shubman Gill's hat-doffing, closing with 'Desh ka sawaal hai, maza toh aayega'.",
+     "source_url": "https://indiantelevision.com/mam/jiostar-reunites-rohit-sharma-and-virat-kohli-in-a-new-film-ahead-of-the-2027-world-cup/"
+    },
+    {
+     "text": "Rohit Sharma said that whenever the Ro-Ko trend plays on TV they look at each other and laugh, that people want masala, and that 'Ro-Ko has a nice ring to it'.",
+     "source_url": "https://www.sportskeeda.com/cricket/news-people-want-masala-go-rohit-sharma-recalls-laughing-virat-kohli-viral-trend-amid-ind-vs-wi-2026-odis"
+    },
+    {
+     "text": "The 'Ro-Ko' nickname was coined and spread by fans online.",
+     "source_url": "topic"
+    }
+   ]
+  }
+ },
+ {
+  "id": "trial3-2026-10-v2-028",
+  "status": "written",
+  "due": null,
+  "format": "carousel",
+  "topic": {
+   "title": "Nobody's Buying The iPhone In Cash Anymore",
+   "claim": "The iPhone 17 becoming India's best-selling phone isn't really an iPhone story, it's a credit story, people financing a month's salary through EMI while credit card spending hits ₹23.6 lakh crore like that's just how you buy things now.",
+   "behaviour": "iPhone 17 topped India's smartphone volume charts with over 4% market share, and during Big Billion Days prices dropped to ₹77,999-79,999 against the ₹99,900 MRP, driven heavily by no-cost EMI offers, while credit card spending hit a record ₹23.62 lakh crore in FY26, up nearly 12%, with monthly spends crossing ₹2 trillion for three straight months.",
+   "mechanism": "When EMI and credit cards make the sticker price invisible, people stop comparing the real cost of a purchase and start comparing the monthly number instead, and the monthly number always looks smaller than it is.",
+   "group": "Young professionals financing lifestyle and gadget purchases on EMI and credit cards",
+   "territory": "money_status",
+   "mood": "sharp",
+   "format_hint": "single",
+   "real_details": [
+    "iPhone 17 topped India's smartphone volume charts in 2026 with over 4% market share",
+    "iPhone 17 prices dropped to ₹77,999-79,999 against the ₹99,900 MRP during Big Billion Days starting October 9",
+    "Indians spent ₹23.62 lakh crore on credit cards in FY2025-26, up nearly 12% from ₹21.09 lakh crore",
+    "monthly credit card spends crossed ₹2 trillion for three straight months",
+    "cards in circulation reached 12.16 crore"
+   ],
+   "evidence": [
+    {
+     "url": "https://techcrunch.com/2026/01/23/apple-iphone-just-had-its-best-year-in-india-as-the-smartphone-market-stays-broadly-flat",
+     "sub": "news",
+     "rank": 50
+    },
+    {
+     "url": "https://startuptalky.com/news/india-credit-card-spending-fy2026-trends-risks-rbi-changes/",
+     "sub": "news",
+     "rank": 53
+    }
+   ],
+   "news_peg": "iPhone 17's Big Billion Days pricing (Oct 9, 2026) alongside the FY26 credit card spending record",
+   "why_now": "Both data points are current and festive EMI financing is peaking this month",
+   "counterintuitive": true,
+   "needs_facts": false,
+   "id": "2026-10-v2-028",
+   "score": {
+    "rank": 4,
+    "why": "batch 2",
+    "format_fit": "carousel"
+   }
+  },
+  "history": [
+   {
+    "attempt": 0,
+    "review": {
+     "pass": true,
+     "violations": [],
+     "scores": {
+      "hook": 4,
+      "specificity": 5,
+      "mechanism": 4,
+      "ending": 3,
+      "voice": 4
+     },
+     "edits": [
+      "slide 4: cut the 'That's not a country that got richer. That's a country that got very comfortable...' line or rephrase it plainer — it repeats the same 'Not X. That's Y' construction from slide 1",
+      "slide 6: cut 'and let you walk out feeling clever' — it repeats the same button-up phrasing used in slide 3's checkout line",
+      "slide 3: 'nobody wants to feel that in the checkout screen' reads a touch written — say it plainer, like 'nobody wants to feel that when they're paying'"
+     ]
+    },
+    "facts": []
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.indiatvnews.com/technology/news/flipkart-big-billion-days-sale-2026-iphone-17-gets-almost-rs-20000-off-as-festive-discount-2026-09-28-1055540",
+    "fact": "During Flipkart's Big Billion Days 2026, the iPhone 17 (256GB) price dropped to ₹79,999 (and ₹77,999 with bank card cashback) from its ₹99,900 listed price, backed by no-cost EMI offers.",
+    "excerpt": "The 256GB storage variant will receive a price cut and will drop down to Rs 79,999 during the sale period. Flipkart has listed the unit at Rs 99,900- this means that the platform is offering around Rs 20000 cut. That price further comes with Rs 2,500 off for credit card EMI payments (already included) and a Rs 3,000 flat exchange bonus. If you have a Flipkart Axis Bank or SBI credit card, then you can easily get additional cashback and discount, reducing the offered discounted price to Rs 77,999 with 5 per cent cashback. the e-commerce platform will offer no-cost options for 6 months and 9 months. So users can start with the payment at Rs 8,667 per month."
+   },
+   {
+    "url": "https://startuptalky.com/news/india-credit-card-spending-fy2026-trends-risks-rbi-changes/",
+    "fact": "India's total credit card spending hit a record ₹23.62 trillion in FY2026, up 11.98% year-on-year, with monthly spends crossing ₹2 trillion multiple times during the year.",
+    "excerpt": "FY2026 total credit card spend: ₹23.62 trillion, up 11.98% year-on-year from ₹21.09 trillion in FY2025. This represents a deceleration from the prior year's expansion rate of 15.5%. The report indicates that monthly spending exceeded ₹2 trillion on multiple occasions during the fiscal year. Specifically, the data shows four separate months in 2025-26 when spending crossed this threshold—a significant achievement compared to earlier periods when such peaks were infrequent. March 2026: ₹2.19 trillion (described as \"a three-month high\"). December 2025: ₹2.05 trillion. January 2026: ₹2.00 trillion. The article notes that \"each time monthly spending dips sharply...the following month tends to rebound strongly,\" illustrating the seasonal volatility characteristic of India's credit card market."
+   },
+   {
+    "url": "https://www.communicationstoday.co.in/iphone-17-smashes-indian-launch-records-drives-apples-best-sales-month/",
+    "fact": "The iPhone 17 drove Apple's best-ever sales month in India, accounting for 57% of all iPhones sold — the highest-ever adoption rate for a new iPhone generation in the country, per Counterpoint.",
+    "excerpt": "Counterpoint's projections showed that the iPhone 17 accounted for 57% of all iPhones sold—the highest-ever adoption rate of Apple's latest generation smartphone in India to date."
+   }
+  ],
+  "draft": {
+   "slides": [
+    {
+     "paragraphs": [
+      "The iPhone 17 is India's best-selling phone right now. Over 4% of every phone sold.",
+      "That's not an Apple story. That's a credit story. Nobody paid ₹99,900. They paid ₹8,667 a month and told themselves that's different.",
+      "Swipe to read →"
+     ]
+    },
+    {
+     "paragraphs": [
+      "During Big Billion Days the iPhone 17 dropped from ₹99,900 to around ₹77,999 if you had the right bank card.",
+      "But the number that actually moved it wasn't the discount. It was the no-cost EMI. Six months, nine months, split it up, start at ₹8,667.",
+      "A phone that costs most people more than a month's salary suddenly reads like a Swiggy order you spread across a year."
+     ]
+    },
+    {
+     "paragraphs": [
+      "This is the whole trick, and it works on everyone. The sticker price disappears and your brain only sees the monthly number.",
+      "₹8,667 feels fine. You can do ₹8,667. What's ₹8,667 next to a salary.",
+      "You never once add it up. Because the day you add it up, you're holding a phone that cost you a month of work, and nobody wants to feel that when they're paying."
+     ]
+    },
+    {
+     "paragraphs": [
+      "And it's not just phones. Indians spent ₹23.62 lakh crore on credit cards last year, up almost 12%. Monthly spends crossed ₹2 trillion in four separate months this year.",
+      "12.16 crore cards in circulation now.",
+      "It means people got comfortable paying for today's thing with next month's money, one swipe at a time."
+     ]
+    },
+    {
+     "paragraphs": [
+      "The funny part is nobody feels reckless doing it. No-cost EMI even sounds responsible. You're being smart. You're using the offer. You'd be a fool to pay upfront.",
+      "So the phone, the TV, the vacation, the kitchen appliance all become ₹8,667 a month. Twelve little numbers that each look harmless.",
+      "And then the 2nd of every month arrives and every one of them hits at once."
+     ]
+    },
+    {
+     "paragraphs": [
+      "This is what the festive sale actually sells now. Not the discount. The permission to not think about the real price.",
+      "If you're building anything with a price tag in India, the real product isn't your product anymore. It's the monthly number you can make it shrink into.",
+      "The brand that wins this month isn't the one with the best phone. It's the one that made ₹99,900 feel like ₹8,667."
+     ]
+    }
+   ],
+   "caption": "Be honest, do you check the full price anymore or just the EMI number?",
+   "alt_text": "A six-slide carousel arguing that the iPhone 17 topping India's sales charts is really a story about credit and EMI. It cites the phone's Big Billion Days price drop from ₹99,900 to about ₹77,999, no-cost EMI starting at ₹8,667 a month, and record credit card spending of ₹23.62 lakh crore in FY26, ending with what this means for brands pricing products in India.",
+   "claims": [
+    {
+     "text": "The iPhone 17 topped India's smartphone volume charts with over 4% market share",
+     "source_url": "topic"
+    },
+    {
+     "text": "iPhone 17 price dropped to ₹77,999-79,999 against its ₹99,900 MRP during Big Billion Days",
+     "source_url": "https://www.indiatvnews.com/technology/news/flipkart-big-billion-days-sale-2026-iphone-17-gets-almost-rs-20000-off-as-festive-discount-2026-09-28-1055540"
+    },
+    {
+     "text": "No-cost EMI options over 6 and 9 months with payments starting at ₹8,667 per month",
+     "source_url": "https://www.indiatvnews.com/technology/news/flipkart-big-billion-days-sale-2026-iphone-17-gets-almost-rs-20000-off-as-festive-discount-2026-09-28-1055540"
+    },
+    {
+     "text": "India's credit card spending hit ₹23.62 lakh crore in FY2025-26, up nearly 12% from ₹21.09 lakh crore",
+     "source_url": "https://startuptalky.com/news/india-credit-card-spending-fy2026-trends-risks-rbi-changes/"
+    },
+    {
+     "text": "Monthly credit card spends crossed ₹2 trillion in four separate months during FY2025-26",
+     "source_url": "https://startuptalky.com/news/india-credit-card-spending-fy2026-trends-risks-rbi-changes/"
+    },
+    {
+     "text": "Cards in circulation reached 12.16 crore",
+     "source_url": "topic"
+    }
+   ]
+  }
+ },
+ {
+  "id": "trial3-2026-10-v2-026",
+  "status": "written",
+  "due": null,
+  "format": "carousel",
+  "topic": {
+   "title": "Groceries Got Cheaper, Phones Didn't",
+   "claim": "GST 2.0 made shampoo and dal cheaper and crashed inflation to 0.25%, but the GST Council held mobile phones at 18%, and that tells you exactly which purchases the government still treats as a luxury.",
+   "behaviour": "CPI inflation fell to 0.25% in October 2026 as GST cuts on everyday items fed through, with food inflation at -5.02% and small cars and two-wheelers now taxed at 18% instead of 28%, while the GST Council's October 8 meeting kept mobile phones unchanged at 18%.",
+   "mechanism": "Tax slabs are a policy statement about what counts as a basic need versus a discretionary buy, and a phone, despite being essential for work, banking and UPI now, is still filed under the second category.",
+   "group": "Young consumers tracking grocery bills and gadget prices, first-time vehicle buyers",
+   "territory": "money_status",
+   "mood": "sharp",
+   "format_hint": "single",
+   "real_details": [
+    "CPI inflation fell to 0.25% in October 2026",
+    "food inflation plunged to -5.02%",
+    "small cars and two-wheelers are now taxed at 18% instead of 28%",
+    "the GST Council's October 8 meeting kept mobile phones unchanged at 18%"
+   ],
+   "evidence": [
+    {
+     "url": "https://ddnews.gov.in/en/indias-cpi-inflation-declines-to-0-25-per-cent-in-october-as-gst-rate-cuts-kick-in/",
+     "sub": "news",
+     "rank": 47
+    }
+   ],
+   "news_peg": "GST 2.0's effect on October 2026 CPI data and the October 8 GST Council meeting",
+   "why_now": "Inflation data and the council's phone decision both landed this month",
+   "counterintuitive": true,
+   "needs_facts": false,
+   "id": "2026-10-v2-026",
+   "score": {
+    "rank": 5,
+    "why": "batch 2",
+    "format_fit": "carousel"
+   }
+  },
+  "history": [
+   {
+    "attempt": 0,
+    "review": {
+     "pass": true,
+     "violations": [],
+     "scores": {
+      "hook": 4,
+      "specificity": 5,
+      "mechanism": 4,
+      "ending": 3,
+      "voice": 4
+     },
+     "edits": [
+      "slide 7: cut the last line \"The number just hasn't caught up to how people actually live now.\" — it reads as a tidy moral, end on \"Everyone holding one for twelve hours a day already knows that's backwards.\"",
+      "slide 5: swap \"gets transacted\" for a plainer word like \"happens\" or \"runs\" — transacted sounds like a report, not her talking",
+      "slide 4: trim \"versus a thing you buy for fun\" — the line already lands without the explainer tacked on"
+     ]
+    },
+    "facts": []
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.freepressjournal.in/business/indias-cpi-inflation-cools-sharply-to-025-in-october-gst-rate-cuts-lower-food-prices-drive-down-consumer-costs",
+    "fact": "India's CPI inflation fell to 0.25% in October, with food inflation at -5.02%, largely due to the full month's impact of GST rate cuts.",
+    "excerpt": "India's inflation rate based on the Consumer Price Index (CPI) declined further to 0.25 per cent in October according to the Ministry of Statistics. food inflation fell deeper in the negative zone at (-) 5.02 per cent from (-) 2.28 per cent in September, marking the fifth consecutive month of negative food inflation. The decline in headline inflation and food inflation during October is mainly attributed to the full month's impact of the decline in GST along with favorable base effects and drops in prices for cooking oils, vegetables, fruits, and other items. The RBI Governor emphasized that the GST rate rationalisation would lead to a reduction in prices of several items in the CPI basket."
+   },
+   {
+    "url": "https://www.businessworld.in/article/retail-inflation-hits-10-year-low-of-0-25-in-oct-as-food-prices-plunge-579471",
+    "fact": "GST rate cuts on everyday items (vehicles, consumer goods) drove retail inflation down to a decade low of 0.25% in October, confirming the GST 2.0 CPI news peg.",
+    "excerpt": "The GST rate cuts brought down retail inflation by 85 basis points to a record low of 0.25 per cent in October, according to experts. The Consumer Price Index-based retail inflation was lowest in the current series (base year 2012), which captures data since January 2014. The new GST regime slashed the levy on entry-level two-wheelers and cars to 18% from 28% -- a move aimed at reviving demand in the price-sensitive segment. October's overall vehicle sales, the first full-month numbers since goods and services tax (GST) was simplified on September 22, jumped 40.5% year-on-year to more than 4.2 million units. Passenger vehicle sales rose 11.4%, while two-wheeler sales surged nearly 52%, both at record-high levels."
+   },
+   {
+    "url": "https://dailyfinancial.in/no-gst-cut-on-mobiles-flagship-prices-up-to-47-higher-what-a-5-rate-would-have-saved-on-the-iphone-18-pro-fold-8-and-pixel-11/",
+    "fact": "The 57th GST Council meeting on 8 October 2026 kept mobile phones unchanged at 18% GST despite industry requests for a cut to 5%.",
+    "excerpt": "The 57th GST Council meeting on 8 October 2026 made no change to the 18% GST on mobile phones. Phone GST has sat at 18% for six and a half years, unchanged since April 2020. Prior to this decision, the India Cellular and Electronics Association wrote to the finance minister on 2 September seeking a cut to 5%, but this request was not approved at the Council meeting."
+   }
+  ],
+  "draft": {
+   "slides": [
+    {
+     "paragraphs": [
+      "Inflation fell to 0.25% in October, the lowest in a decade. And your phone, the thing you run your entire life on, is still taxed like a treat you don't really need.",
+      "Swipe to read →"
+     ]
+    },
+    {
+     "paragraphs": [
+      "GST 2.0's full month showed up in the numbers. Food inflation went deeper negative at -5.02%, the fifth month in a row. Cooking oil, vegetables, fruit, all down. Small cars and two-wheelers went from 28% tax to 18%, and two-wheeler sales jumped almost 52% in the first full month after. Cheaper stuff, people buy more. No mystery there."
+     ]
+    },
+    {
+     "paragraphs": [
+      "Then the GST Council met on October 8. The phone industry had written in asking for the tax to come down to 5%. The Council kept it at 18%. That's where phones have sat since April 2020. Six and a half years, no movement, while everything around them got re-sorted and relabelled."
+     ]
+    },
+    {
+     "paragraphs": [
+      "A tax slab isn't just a number. It's the government telling you what it thinks counts as a basic need. Dal, basic. A scooter, now basic. Your phone, still filed on the same shelf as the stuff you buy to show off."
+     ]
+    },
+    {
+     "paragraphs": [
+      "Which is funny, because try getting through one normal day without it. Your salary lands there. Your rent goes out from there. UPI, the doctor's appointment, your boss's 9pm message, the bus ticket, the bank. The phone stopped being a gadget years ago. It's the counter where your whole life runs."
+     ]
+    },
+    {
+     "paragraphs": [
+      "And it hits hardest the people who have the least room to spare. The delivery guy whose entire income lives inside an app. The woman running her shop off a QR code taped to the wall. For them the phone isn't a want, it's the job itself. The slab doesn't see any of that."
+     ]
+    },
+    {
+     "paragraphs": [
+      "So when something gets held at the higher slab, read it as the government's quiet opinion of you. They decided the phone is something you want, not something you need. Everyone holding one for twelve hours a day already knows that's backwards."
+     ]
+    }
+   ],
+   "caption": "What's the one thing you use every single day that the tax still treats like a luxury?",
+   "alt_text": "A seven-slide carousel about GST 2.0. It notes that CPI inflation fell to 0.25% in October 2026 and food inflation dropped to -5.02% as GST cuts fed through, small cars and two-wheelers went from 28% to 18% tax, but the GST Council's October 8 meeting kept mobile phones at 18% despite an industry request for 5%. The argument: tax slabs signal what the government counts as a basic need, and phones, essential for work, banking and UPI, are still treated as discretionary.",
+   "claims": [
+    {
+     "text": "CPI inflation fell to 0.25% in October, the lowest in a decade",
+     "source_url": "https://www.businessworld.in/article/retail-inflation-hits-10-year-low-of-0-25-in-oct-as-food-prices-plunge-579471"
+    },
+    {
+     "text": "Food inflation fell to -5.02%, the fifth consecutive month of negative food inflation",
+     "source_url": "https://www.freepressjournal.in/business/indias-cpi-inflation-cools-sharply-to-025-in-october-gst-rate-cuts-lower-food-prices-drive-down-consumer-costs"
+    },
+    {
+     "text": "Small cars and two-wheelers are now taxed at 18% instead of 28%",
+     "source_url": "topic"
+    },
+    {
+     "text": "Two-wheeler sales surged nearly 52% in the first full month after the GST simplification",
+     "source_url": "https://www.businessworld.in/article/retail-inflation-hits-10-year-low-of-0-25-in-oct-as-food-prices-plunge-579471"
+    },
+    {
+     "text": "The GST Council's October 8 meeting kept mobile phones at 18%",
+     "source_url": "https://dailyfinancial.in/no-gst-cut-on-mobiles-flagship-prices-up-to-47-higher-what-a-5-rate-would-have-saved-on-the-iphone-18-pro-fold-8-and-pixel-11/"
+    },
+    {
+     "text": "The phone industry had asked for the GST to be cut to 5%",
+     "source_url": "https://dailyfinancial.in/no-gst-cut-on-mobiles-flagship-prices-up-to-47-higher-what-a-5-rate-would-have-saved-on-the-iphone-18-pro-fold-8-and-pixel-11/"
+    },
+    {
+     "text": "Phone GST has sat at 18% since April 2020, six and a half years",
+     "source_url": "https://dailyfinancial.in/no-gst-cut-on-mobiles-flagship-prices-up-to-47-higher-what-a-5-rate-would-have-saved-on-the-iphone-18-pro-fold-8-and-pixel-11/"
+    }
+   ]
+  }
+ },
+ {
+  "id": "trial3-2026-10-v2-023",
+  "status": "written",
+  "due": null,
+  "format": "carousel",
+  "topic": {
+   "title": "Gold Hit ₹1.5 Lakh And Nobody Stopped Buying It",
+   "claim": "Gold crossing ₹1,50,300 for 10 grams didn't kill the Dhanteras ritual this year, it just shrank it, everyone's still buying, just a lot less of it.",
+   "behaviour": "Urban buyers are switching to lightweight jewellery, small digital gold SIPs and gold ETFs instead of coins, and jewellers report footfall holding up even as grams purchased per customer falls sharply.",
+   "mechanism": "Buying gold at Dhanteras is a ritual obligation more than an investment call, so when the price spikes, people don't skip the ritual, they just downsize the quantity until the act of buying still happened.",
+   "group": "Urban buyers in their late 20s and 30s doing Dhanteras and wedding-season gold shopping",
+   "territory": "money_status",
+   "mood": "sharp",
+   "format_hint": "single",
+   "real_details": [
+    "Gold touched a record ₹1,50,300 per 10 grams in mid-October 2026",
+    "the monthly range swung between ₹1,45,780 and ₹1,51,507",
+    "jewellers report footfall holding up but per-customer grams purchased falling sharply"
+   ],
+   "evidence": [
+    {
+     "url": "https://www.whalesbook.com/news/English/commodities/Gold-Prices-Hit-Record-indian-rupee150300-per-10-Grams/6ad634e079a16deaeaf717ae",
+     "sub": "news",
+     "rank": 44
+    }
+   ],
+   "news_peg": "Gold hit an all-time high in mid-October 2026 right before Dhanteras-Diwali",
+   "why_now": "Record price hit this month, exactly when the festive gold-buying ritual peaks",
+   "counterintuitive": true,
+   "needs_facts": false,
+   "id": "2026-10-v2-023",
+   "score": {
+    "rank": 6,
+    "why": "batch 2",
+    "format_fit": "carousel"
+   }
+  },
+  "history": [
+   {
+    "attempt": 0,
+    "review": {
+     "pass": true,
+     "violations": [],
+     "scores": {
+      "hook": 4,
+      "specificity": 4,
+      "mechanism": 4,
+      "ending": 3,
+      "voice": 4
+     },
+     "edits": [
+      "slide 3: cut 'The gift became a pendant you can barely feel in your hand' so the line doesn't read as a three-part mirrored list (coin/necklace/gift)",
+      "slide 6: rework 'They're not selling you gold anymore. They're selling you the ability to keep the ritual going' to drop the 'Not X. Y.' construction",
+      "slide 5: tighten 'you don't skip the proof, you just quietly reduce the quantity until the receipt still exists and the photo still happens' to one clause, it's doing the job twice"
+     ]
+    },
+    "facts": [
+     "Unsupported fact: 'So when the price doubles, you don't skip the proof, you just quietly reduce the quantity' (No source states that gold prices have doubled. Source [1] reports a record of ₹1,50,300 per 10g with only a ₹400 daily increase, and source [4] confirms the same record price and a monthly range of ₹1,45,780–₹1,51,507 — nothing supports a doubling of the price.). Fix it to match the source or cut it."
+    ]
+   },
+   {
+    "attempt": 0,
+    "problems": [
+     "Unsupported fact: 'So when the price doubles, you don't skip the proof, you just quietly reduce the quantity' (No source states that gold prices have doubled. Source [1] reports a record of ₹1,50,300 per 10g with only a ₹400 daily increase, and source [4] confirms the same record price and a monthly range of ₹1,45,780–₹1,51,507 — nothing supports a doubling of the price.). Fix it to match the source or cut it."
+    ]
+   },
+   {
+    "attempt": 1,
+    "review": {
+     "pass": true,
+     "violations": [],
+     "scores": {
+      "hook": 4,
+      "specificity": 4,
+      "mechanism": 4,
+      "ending": 4,
+      "voice": 4
+     },
+     "edits": [
+      "slide 6: drop the specific '2-gram' figure (not in sources) — just say 'a visible coin' so no invented number reads as data",
+      "slide 6: cut 'every single' before 'Dhanteras' — tightens the line without losing the point"
+     ]
+    },
+    "facts": []
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.whalesbook.com/news/English/commodities/Gold-Prices-Hit-Record-indian-rupee150300-per-10-Grams/6ad634e079a16deaeaf717ae",
+    "fact": "Gold hit a fresh record of ₹1,50,300 per 10 grams in India on October 19, 2026, driven by festive demand ahead of Dussehra and Diwali.",
+    "excerpt": "Gold prices in the Indian market reached a fresh high of ₹1,50,300 per 10 grams on Monday. This represents a daily increase of ₹400. This increase is driven by high festive demand as India prepares for Dussehra and Diwali. ... seasonal wedding and festival demand within India serves as a primary price driver, with consumer buying has surged, pushing physical gold to trade at a premium during this period."
+   },
+   {
+    "url": "https://www.gold.org/goldhub/gold-focus/2026/10/india-gold-market-update-seasonal-demand-shows-early-strength",
+    "fact": "Ahead of the 2026 festive season, World Gold Council data shows jewellers' same-store sales rising on higher ticket sizes even as buyer/footfall growth stayed only mid-single digit, alongside strong growth in lightweight jewellery, digital gold and gold ETF demand.",
+    "excerpt": "Gold prices have remained rangebound in October. Seasonal demand is gathering pace as the market enters the key festive and wedding period. Retailers are emphasizing fresh designs and lighter weight pieces, which offer greater wearability, to attract consumers during peak purchasing periods. Digital gold demand remained firm in September, with purchases rising to INR25.9bn (US$271mn), up 4% from August and 83% higher than a year earlier; purchases totalled 16.3t year-to-date compared with 9.2t in the corresponding period of 2025, reflecting 76% growth. Gold ETFs saw stronger net inflows in September, reaching INR44.5bn (US$466.2mn), the highest in seven months, with momentum continuing into October. Same-store sales growth of around 20% was reported, while buyer growth remained in the mid-single digits, indicating higher average ticket sizes rather than increased customer volume."
+   },
+   {
+    "url": "https://elearnmarkets.substack.com/p/dhanteras-2026-could-be-the-most",
+    "fact": "Dhanteras 2026 falls on Friday, November 6, 2026, with bar-and-coin investment demand (lightweight, divisible gold formats) climbing to a record 52% share of India's total gold demand as jewellery demand softened under record prices.",
+    "excerpt": "This year, Dhanteras falls on Friday, November 6, 2026, the opening day of the five-day Diwali festival. By late January, spot gold had pushed past $5,300 an ounce for the first time in history, and domestic 24-karat gold touched somewhere between roughly ₹169,000 and ₹179,000 per 10 grams in the January to early March window, an all-time high for the Indian market. ... bar and coin investment already made up 52 percent of India's total domestic gold demand, the highest share on record since 2013, up from 42 percent a year earlier, even as jewelry demand softened."
+   }
+  ],
+  "draft": {
+   "slides": [
+    {
+     "paragraphs": [
+      "Gold hit ₹1,50,300 for 10 grams in mid-October this year, and everyone assumed the ritual would quietly die.",
+      "It didn't. People are still walking into the shop. They're just walking out with a lot less.",
+      "Swipe to read →"
+     ]
+    },
+    {
+     "paragraphs": [
+      "Dhanteras is on November 6 this year, and buying gold that day was never really an investment decision. It's an obligation. You buy because papa bought, because his papa bought, because not buying feels like you're tempting something.",
+      "So when the price jumps, nobody sits down and calculates returns. They just buy the ritual-sized version of it."
+     ]
+    },
+    {
+     "paragraphs": [
+      "That's exactly what jewellers are seeing. Footfall is holding up fine. The shop is full. But the grams per customer have dropped sharply.",
+      "Same number of people, much smaller purchases. The coin became a lighter coin. The necklace became a thin chain. The gift became a pendant you can barely feel in your hand."
+     ]
+    },
+    {
+     "paragraphs": [
+      "You can see it in where the money is going. Lightweight jewellery everyone can wear, not store. Digital gold in tiny amounts on an app. Gold ETFs sitting in a demat account nobody at Diwali will ever see.",
+      "The buying didn't shrink. It just got divisible."
+     ]
+    },
+    {
+     "paragraphs": [
+      "Nobody says it out loud. The gold was never fully about the gold.",
+      "It was about proving, once a year, that the family is doing okay. That we bought something. So when the price climbs to a record, you don't skip the proof, you just quietly reduce the quantity until the receipt still exists and the photo still happens."
+     ]
+    },
+    {
+     "paragraphs": [
+      "This is the thing with Indians and anything that gets witnessed. The act matters more than the amount. A visible coin beats an invisible SIP every Dhanteras.",
+      "The jewellers already figured it out. Fresh designs, lighter pieces, bigger tickets. They're not selling you gold anymore. They're selling you the ability to keep the ritual going at whatever price the year hands you."
+     ]
+    }
+   ],
+   "caption": "What did Dhanteras gold shopping look like in your house this year, full coin or a thin little chain?",
+   "alt_text": "A six-slide carousel about gold hitting a record ₹1,50,300 per 10 grams in mid-October 2026. It argues that the record price didn't end the Dhanteras gold-buying ritual, it just shrank it: footfall at jewellers holds up while grams bought per customer fall, and buyers shift to lightweight jewellery, small digital gold and gold ETFs.",
+   "claims": [
+    {
+     "text": "Gold hit a record ₹1,50,300 per 10 grams in mid-October 2026",
+     "source_url": "https://www.whalesbook.com/news/English/commodities/Gold-Prices-Hit-Record-indian-rupee150300-per-10-Grams/6ad634e079a16deaeaf717ae"
+    },
+    {
+     "text": "Dhanteras 2026 falls on Friday, November 6, 2026",
+     "source_url": "https://elearnmarkets.substack.com/p/dhanteras-2026-could-be-the-most"
+    },
+    {
+     "text": "Jewellers report footfall holding up but per-customer grams purchased falling sharply",
+     "source_url": "topic"
+    },
+    {
+     "text": "Retailers are emphasising fresh designs and lighter-weight pieces, with strong growth in lightweight jewellery, digital gold and gold ETF demand ahead of the 2026 festive season",
+     "source_url": "https://www.gold.org/goldhub/gold-focus/2026/10/india-gold-market-update-seasonal-demand-shows-early-strength"
+    }
+   ]
+  }
+ }
+]

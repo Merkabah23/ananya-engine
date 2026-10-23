@@ -1,0 +1,136 @@
+{
+ "id": "2026-10-18",
+ "status": "scheduled",
+ "due": "2026-10-24T11:00:00+05:30",
+ "format": "single",
+ "topic": {
+  "title": "Property is the new rishta",
+  "claim": "Single women are now buying homes purely as investment, not waiting for a husband's income or sanction, and I think homeownership just stopped being proof you got married and became proof you didn't have to wait.",
+  "behaviour": "Women now make up close to a third of India's homebuyer base, nearly a third of women buyers purchasing purely as an investment rather than for marriage or family use, most states now offering stamp-duty discounts for property registered in a woman's name, trend strongest in Bengaluru, Pune and Hyderabad.",
+  "mechanism": "Delayed marriage and rising incomes mean the biggest financial decision of a young woman's life no longer needs a man's name on it or a family's sanction.",
+  "group": "single, career-established women in their late 20s to 40s in metro cities",
+  "territory": "money_status",
+  "mood": "prediction",
+  "format_hint": "single",
+  "real_details": [
+   "women make up close to a third of India's homebuyer base in 2026",
+   "nearly a third of women buyers are purchasing purely as an investment rather than for marriage or family use",
+   "most states now offer stamp-duty discounts for property registered in a woman's name",
+   "trend is strongest in Bengaluru, Pune and Hyderabad"
+  ],
+  "evidence": [
+   {
+    "url": "https://www.yehey.com/2026/10/yeheycom-single-women-drive-2026.html",
+    "sub": "news",
+    "rank": 63
+   }
+  ],
+  "news_peg": "2026 industry homebuyer data on single women homebuyers, reported October 2026",
+  "why_now": "multiple 2026 datasets on this converged and were reported this month",
+  "counterintuitive": true,
+  "needs_facts": false,
+  "id": "2026-10-v2-035",
+  "score": {
+   "rank": 7,
+   "why": "Property and authority shifting to whoever owns it is her territory; this just puts a 2026 name on it without repeating the arranged-marriage angle.",
+   "format_fit": "single"
+  }
+ },
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "specificity": 3,
+     "mechanism": 3,
+     "ending": 3,
+     "voice": 4
+    },
+    "edits": [
+     "slide 1: In the second paragraph, cut 'even' from 'Most states even cut stamp duty' so it reads as a plain fact.",
+     "slide 1: Trim 'where plenty of women are delaying marriage anyway and paying the EMI themselves' to 'where women are paying the EMI themselves'. The delayed-marriage part is a claim the sources don't back, and the line is lighter without it.",
+     "slide 1: The ending 'He's a guest now' is a neat punchline. Consider dropping that last sentence and stopping at 'Papa still comes for the griha pravesh.'"
+    ]
+   },
+   "facts": []
+  },
+  {
+   "tightened_from": {
+    "slides": [
+     {
+      "paragraphs": [
+       "Prediction: in ten years, a single woman owning a flat won't make anyone ask who she married. They'll just ask which floor.",
+       "Women are now close to a third of India's homebuyers, and nearly a third of those women are buying purely as an investment. Most states cut stamp duty if it's in her name. It's strongest in Bengaluru, Pune and Hyderabad, where women are paying the EMI themselves.",
+       "The house used to be something the family arranged for you after the wedding. Now you just book it. Papa still comes for the griha pravesh."
+      ]
+     }
+    ],
+    "caption": "Who in your family still thinks a house comes after the wedding?",
+    "alt_text": "Text post predicting that single women buying homes will stop being linked to marriage. It notes women are close to a third of India's homebuyers, nearly a third of them buy purely as an investment, most states offer stamp-duty discounts for property in a woman's name, and the trend is strongest in Bengaluru, Pune and Hyderabad. It ends with the father still coming to the housewarming.",
+    "claims": [
+     {
+      "text": "Women are now close to a third of India's homebuyers",
+      "source_url": "topic"
+     },
+     {
+      "text": "Nearly a third of women buyers are buying purely as an investment",
+      "source_url": "topic"
+     },
+     {
+      "text": "Most states offer stamp-duty discounts for property registered in a woman's name",
+      "source_url": "topic"
+     },
+     {
+      "text": "The trend is strongest in Bengaluru, Pune and Hyderabad",
+      "source_url": "topic"
+     }
+    ]
+   },
+   "problems_left": []
+  }
+ ],
+ "updated_at": "2026-10-21T08:48:05.381081+00:00",
+ "sources": [
+  {
+   "url": "https://www.therealtytoday.com/news/real-estate-ads/the-rise-of-the-woman-homebuyer-how-indian-real-estate-is-being-reshaped",
+   "fact": "Women are now nearly a third of India's buyer base, about 31% of women buyers purchase mainly as an investment, and most states build an incentive into registering property in a woman's name.",
+   "excerpt": "From a fringe segment to nearly a third of the country's buyer base. | Roughly 69% of women buyers purchase for end-use, against 31% buying primarily as an investment. | close to a third of women buyers now purchase specifically for investment rather than end-use | Most states now build a direct financial incentive into registering property in a woman's name | Maharashtra's stamp duty concession for women buyers"
+  },
+  {
+   "url": "https://www.outlookmoney.com/invest/women-now-power-indias-housing-market-heres-whats-driving-their-choices",
+   "fact": "Women's registered share of homes reached 22% in 2024, and a NoBroker survey found about 30% of women buy for investment while 67-69% buy for self-use.",
+   "excerpt": "with their registered share rising to 22 per cent in 2024, according to industry sources. | women account for one-third of home loan applicants. | 67-69 per cent of women homebuyers buy for self-use and 30 per cent for investment. | certain states providing stamp duty rebates to women. | Many eligible women are unaware of stamp duty rebates and PMAY benefits."
+  }
+ ],
+ "draft": {
+  "slides": [
+   {
+    "paragraphs": [
+     "A single woman owning a flat won't make anyone ask who she married.",
+     "Women are now close to a third of India's homebuyers. Most states cut the stamp duty for her name.",
+     "Now you just book it yourself. Papa still comes for the griha pravesh."
+    ]
+   }
+  ],
+  "caption": "Who in your family still thinks a house comes after the wedding?",
+  "alt_text": "Text post predicting that single women buying homes will stop being linked to marriage. It notes women are close to a third of India's homebuyers and most states cut the stamp duty for property in a woman's name. It ends with the father still coming to the housewarming.",
+  "claims": [
+   {
+    "text": "Women are now close to a third of India's homebuyers",
+    "source_url": "topic"
+   },
+   {
+    "text": "Most states offer stamp-duty discounts for property registered in a woman's name",
+    "source_url": "topic"
+   }
+  ]
+ },
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-18/slide_01.jpg"
+ ],
+ "buffer_attempted_at": "2026-10-21T08:48:03.474009+00:00",
+ "buffer_post_id": "6ad87c4572c278511467f7a6"
+}

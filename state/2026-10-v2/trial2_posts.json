@@ -1,0 +1,734 @@
+[
+ {
+  "id": "trial2-2026-10-v2-014",
+  "status": "written",
+  "due": null,
+  "format": "carousel",
+  "topic": {
+   "title": "The free AI year is ending for a whole generation",
+   "claim": "Everyone who built their entire workday around free ChatGPT and free Perplexity is about to find out what their own thinking costs per month.",
+   "behaviour": "OpenAI's free one-year ChatGPT Go plan (started November 2025) and Airtel's bundled free Perplexity Pro, worth roughly Rs 17,000 a year and running July 2026 to January 2027, are both approaching expiry. Perplexity reverts to about Rs 1,417 a month once the free period ends. Google has responded with a free one-year AI Pro plan for Indian students.",
+   "mechanism": "This is the oldest India playbook there is, give it away free until it's a habit, then start charging, the same way Jio and the early cab apps did it. The difference is this time it's not a service, it's become how people write, study and work.",
+   "group": "22-38 year olds who built their college or office workflow on free AI tools",
+   "territory": "money_status",
+   "mood": "sharp",
+   "format_hint": "single",
+   "real_details": [
+    "ChatGPT Go free plan started November 2025",
+    "Airtel's free Perplexity Pro worth ~Rs 17,000/year, running July 2026 to January 2027",
+    "Perplexity reverts to ~Rs 1,417/month after the free period",
+    "Google offering a free one-year AI Pro plan for Indian students"
+   ],
+   "evidence": [
+    {
+     "url": "https://www.dqindia.com/data-and-ai/free-ai-tools-in-india-are-gemini-chatgpt-perplexity-really-free-in-2026-10965188",
+     "sub": "news",
+     "rank": 26
+    }
+   ],
+   "news_peg": "DQ India report on expiring free AI plans, October 19, 2026",
+   "why_now": "Renewal decisions are happening right now as the windows close",
+   "counterintuitive": true,
+   "needs_facts": false,
+   "id": "2026-10-v2-014",
+   "score": {
+    "rank": 1,
+    "why": "Most AI at work is already busywork theatre, and this is the month the free ride ends so people find out what their own thinking costs.",
+    "format_fit": "single"
+   }
+  },
+  "history": [
+   {
+    "attempt": 0,
+    "review": {
+     "pass": true,
+     "violations": [],
+     "scores": {
+      "hook": 4,
+      "specificity": 5,
+      "mechanism": 4,
+      "ending": 3,
+      "voice": 4
+     },
+     "edits": [
+      "slide 6: 'The free year was never about being generous. It was about turning your thinking into something you rent.' echoes slide 1's 'The free year was never a gift' almost word for word — cut this closing line or rephrase it plainer so it doesn't mirror the opener.",
+      "slide 5: 'Cancelling isn't switching brands. It's relearning how to do your own job without the thing that's been doing half of it.' is a Not-X-Y construction — flatten to one plain sentence, e.g. 'Cancelling means relearning how to do your own job without the thing that's been doing half of it.'",
+      "slide 2: the two currency figures (Rs 399, Rs 17,000) land back to back with no texture in between — let one breathe with a half-line before the next fact."
+     ]
+    },
+    "facts": [
+     "Unsupported fact: 'Jio gave away data until the whole country forgot what it cost, then put a price on it.' (None of the sources mention Jio or any free-data history; this specific company claim isn't covered by the source excerpts.). Fix it to match the source or cut it."
+    ]
+   },
+   {
+    "attempt": 0,
+    "problems": [
+     "Unsupported fact: 'Jio gave away data until the whole country forgot what it cost, then put a price on it.' (None of the sources mention Jio or any free-data history; this specific company claim isn't covered by the source excerpts.). Fix it to match the source or cut it."
+    ]
+   },
+   {
+    "attempt": 1,
+    "review": {
+     "pass": true,
+     "violations": [],
+     "scores": {
+      "hook": 4,
+      "specificity": 5,
+      "mechanism": 4,
+      "ending": 3,
+      "voice": 3
+     },
+     "edits": [
+      "slide 4: cut the second sentence of \"The free part is never the business. The free part is the hook.\" — keep just one line, the mirrored pair reads engineered",
+      "slide 5: cut \"Cancelling isn't switching brands.\" and keep only \"It's relearning how to do your own job without the thing that's been doing half of it.\"",
+      "slide 6: drop \"The free year was never about being generous.\" — it echoes slide 1's line almost word for word and makes the close feel like a tidy moral"
+     ]
+    },
+    "facts": []
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.dqindia.com/data-and-ai/free-ai-tools-in-india-are-gemini-chatgpt-perplexity-really-free-in-2026-10965188",
+    "fact": "DQ India reports that ChatGPT Go's free year in India ends around November 2026, after which auto-billing at the regular monthly price kicks in.",
+    "excerpt": "OpenAI offers ChatGPT Go (previously Rs.399/month) free to any Indian user who signs up between November 4, 2025 ... Jio, Airtel and OpenAI are offering free access to Gemini Pro, Perplexity Pro and ChatGPT Go, accelerating AI adoption for Indian creators, students and professionals. These temporary promotions of Jio, Airtel, and OpenAI make the advanced models available at thousands of rupees... 'Set a reminder' for November 2026, as auto-billing at ₹399/month begins when your 12 months end — around November 2026. Airtel prepaid/ post paid, Wi-Fi, and DTH users receive Airtel prepaid/postpaid 12 months Perplexity Pro (Rs17,000 value) on Airtel Thanks app no strings attached. (Updated 8 September 2026; originally published 02 Jan 2026 11:10 IST)"
+   },
+   {
+    "url": "https://techcrunch.com/2025/10/27/openai-offers-free-chatgpt-go-for-one-year-to-all-users-in-india/",
+    "fact": "OpenAI made its ChatGPT Go plan (normally under $5/month, i.e. Rs 399) free for one year to all users in India starting November 4, 2025.",
+    "excerpt": "OpenAI said Monday that it is offering ChatGPT Go, its cheapest subscription plan, for free in India for one year ... Priced at less than $5 per month ... users in India who sign up during a limited promotional period ... starting November 4 ... free of charge for one year ... Existing ChatGPT Go subscribers in India will also be eligible for the free 12-month plan."
+   },
+   {
+    "url": "https://www.airtel.in/blog/airtel-app/how-can-airtel-users-activate-their-free-perplexity-pro-subscription/",
+    "fact": "Airtel bundled a complimentary 12-month Perplexity Pro subscription, normally worth about Rs 17,000 a year, for its prepaid, postpaid, Wi-Fi and DTH customers.",
+    "excerpt": "Airtel prepaid/ post paid, Wi-Fi, and DTH users receive Airtel prepaid/postpaid 12 months Perplexity Pro (Rs17,000 value) on Airtel Thanks app no strings attached ... normally priced at ₹17,000 ... complimentary 1-year subscription ... 1 year of complimentary Perplexity Pro access. Start date: September 22, 2025. End date: May 21, 2026. (Offer details and eligibility criteria mentioned here are based on information available as of July 2025.)"
+   }
+  ],
+  "draft": {
+   "slides": [
+    {
+     "paragraphs": [
+      "Everyone who built their whole workday around free ChatGPT and free Perplexity is about to find out what their own thinking costs per month.",
+      "The free year was never a gift. It's the first half of a very old plan.",
+      "Swipe to read →"
+     ]
+    },
+    {
+     "paragraphs": [
+      "The numbers are already set. ChatGPT Go was free for a year from November 2025, and around November 2026 the auto-billing quietly starts at Rs 399 a month.",
+      "Airtel handed out Perplexity Pro worth about Rs 17,000 a year, no strings. When that window shuts, the price returns to roughly Rs 17,000 a year, about Rs 1,417 a month."
+     ]
+    },
+    {
+     "paragraphs": [
+      "You know exactly who I mean.",
+      "The analyst who hasn't written a cold email from scratch in a year. The student whose every assignment opens in a chat box. The marketing person who 'drafts' a deck by pasting one prompt.",
+      "None of them think they're paying for anything. The bill just hasn't landed yet."
+     ]
+    },
+    {
+     "paragraphs": [
+      "This is the oldest playbook in India, and it works every single time.",
+      "Give something away until a whole country builds its day around it. Let the habit set. Then put a price on it, once walking away actually hurts.",
+      "The free part is never the business."
+     ]
+    },
+    {
+     "paragraphs": [
+      "But the usual version of this was a service. You could downgrade the plan, you could take the bus.",
+      "This one is different because it stopped being a thing you use. It's how you write, study and work now.",
+      "It's relearning how to do your own job without the thing that's been doing half of it."
+     ]
+    },
+    {
+     "paragraphs": [
+      "And the next hook is already out. Google is giving Indian students a free year of its AI Pro plan, catching the next batch while they're broke and forming the habit.",
+      "It was about turning your own thinking into something you rent by the month."
+     ]
+    }
+   ],
+   "caption": "Which free tool are you quietly dreading the renewal reminder on?",
+   "alt_text": "A six-slide carousel arguing that free AI subscriptions in India, like the free year of ChatGPT Go and Airtel's bundled Perplexity Pro, follow the old give-it-free-then-charge habit playbook, that users have made these tools central to how they write, study and work before the paid bills arrive, and that Google's free year for students is the next version of the same hook.",
+   "claims": [
+    {
+     "text": "ChatGPT Go was free for a year from November 2025, with auto-billing at Rs 399 a month starting around November 2026",
+     "source_url": "https://www.dqindia.com/data-and-ai/free-ai-tools-in-india-are-gemini-chatgpt-perplexity-really-free-in-2026-10965188"
+    },
+    {
+     "text": "Airtel bundled a free 12-month Perplexity Pro subscription worth about Rs 17,000 a year",
+     "source_url": "https://www.airtel.in/blog/airtel-app/how-can-airtel-users-activate-their-free-perplexity-pro-subscription/"
+    },
+    {
+     "text": "Perplexity Pro's price returns to about Rs 17,000 a year, roughly Rs 1,417 a month, once the free period ends",
+     "source_url": "topic"
+    },
+    {
+     "text": "Google is offering a free one-year AI Pro plan for Indian students",
+     "source_url": "topic"
+    }
+   ]
+  }
+ },
+ {
+  "id": "trial2-2026-10-v2-053",
+  "status": "written",
+  "due": null,
+  "format": "carousel",
+  "topic": {
+   "title": "Portfolio Flex",
+   "claim": "Posting a mutual fund screenshot hitting a round number is the new way to show off, it's replaced the car.",
+   "behaviour": "People post Groww or Zerodha portfolio screenshots on close friends or LinkedIn when it crosses a milestone.",
+   "mechanism": "Showing the car invites questions about the EMI, showing the portfolio only ever invites respect.",
+   "group": "young earners with a demat account",
+   "territory": "money_status",
+   "mood": "sharp",
+   "format_hint": "single",
+   "real_details": [
+    "A 32-year-old woman posted about finishing the final installment of her MBA education loan, calling it an emotional milestone",
+    "She described getting through a divorce, depression and suicidal thoughts, and losing her job before rebuilding financially on her own",
+    "A commenter joked about finally paying off the credit card bill for a MacBook bought for studying but mostly used for movies",
+    "Another commenter asked which tier of college the OP did her MBA from, mentioning they were prepping for CAT and scoring poorly in mocks",
+    "OP replied she attended one of the 'baby IIMs', having not made it into the top-tier ones"
+   ],
+   "why_now": "portfolio flexing has replaced the obvious purchase flex this year",
+   "counterintuitive": true,
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [
+    {
+     "url": "https://www.reddit.com/r/TwoXIndia/comments/1wvrx2y/32_f_i_paid_the_last_installment_of_my_education/",
+     "sub": "TwoXIndia",
+     "rank": 5
+    }
+   ],
+   "id": "2026-10-v2-053",
+   "score": {
+    "rank": 2,
+    "why": "Pure Indians-pay-for-what-others-can-see: the mutual fund screenshot replacing the car as the thing you flex.",
+    "format_fit": "single"
+   }
+  },
+  "history": [
+   {
+    "attempt": 0,
+    "review": {
+     "pass": true,
+     "violations": [],
+     "scores": {
+      "hook": 4,
+      "specificity": 4,
+      "mechanism": 4,
+      "ending": 3,
+      "voice": 4
+     },
+     "edits": [
+      "slide 1: cut \"Same old urge to show off. New screen.\" — it's a tidy little punchline doing the mirrored-pair trick the voice avoids; the first two paragraphs already make the point",
+      "slide 6: cut \"It's the cleanest flex Indians have ever invented.\" — reads like a summary line wrapping things up neatly; end on the line before it instead",
+      "slide 4: \"a hard patch survived and then rebuilt on your own\" is close enough to the source story that it could read as referencing a specific person — keep it this vague or cut further, don't add any more detail from that thread"
+     ]
+    },
+    "facts": []
+   }
+  ],
+  "sources": [],
+  "draft": {
+   "slides": [
+    {
+     "paragraphs": [
+      "The car used to be the flex. Now it's a screenshot of your mutual fund portfolio crossing a round number, posted on close friends or quietly dropped on LinkedIn.",
+      "Ten lakhs. Twenty-five. Fifty. The green number, the little arrow, a caption about discipline.",
+      "Swipe to read →"
+     ]
+    },
+    {
+     "paragraphs": [
+      "The car stopped working as a flex. You post the new car and the first comment is from a cousin asking what the on-road price was, and the second one, in your head, is everyone wondering about the EMI.",
+      "A car invites questions you don't want. How long is the loan, what's the down payment, how are you managing all this. The thing is sitting in the parking, so anyone can do the math."
+     ]
+    },
+    {
+     "paragraphs": [
+      "The portfolio screenshot has none of that problem. Nobody can see the salary behind it, nobody knows if your parents topped it up, nobody asks how many years it took.",
+      "A Groww or Zerodha screen only ever invites one reaction. Respect. Maybe a \"how did you build this\" in the DMs. That's a very different comment section than the car post gets."
+     ]
+    },
+    {
+     "paragraphs": [
+      "And the format rewards you for being early with your own money. The milestone posts are rarely just a number anymore. They come wrapped in a whole story, a loan finally cleared, years of SIPs, a hard patch survived.",
+      "Which is honest, often it's genuinely hard-won. But it's also doing the exact work the car used to do. It's saying look where I am now."
+     ]
+    },
+    {
+     "paragraphs": [
+      "Watch the comments and you'll see the flex quietly working. Someone jokes about finally clearing the credit card bill for a MacBook they bought to study on and mostly watch movies on. Someone else, prepping for CAT and scoring badly in mocks, asks which college tier you did your MBA from.",
+      "Nobody's rude. But everyone in the comments is measuring their own number against yours. That's the whole point of the post."
+     ]
+    },
+    {
+     "paragraphs": [
+      "That's a little darker. The car at least gave something back to the people who saw it, a ride, a reason to visit. The portfolio gives them nothing except a feeling about where they stand.",
+      "All of the status, none of the follow-up questions, and nothing anyone can verify. Even the humble ones have a number ready for the day it hits round."
+     ]
+    }
+   ],
+   "caption": "What's the round number you're secretly waiting to hit before you tell anyone?",
+   "alt_text": "A six-slide text carousel arguing that posting a mutual fund portfolio screenshot at a round milestone has replaced the car as the main way young earners show off, because a car invites questions about the EMI while a portfolio only invites respect.",
+   "claims": [
+    {
+     "text": "A commenter joked about finally paying off the credit card bill for a MacBook bought for studying but mostly used for movies",
+     "source_url": "topic"
+    },
+    {
+     "text": "A commenter prepping for CAT and scoring poorly in mocks asked which tier of college the original poster did her MBA from",
+     "source_url": "topic"
+    }
+   ]
+  }
+ },
+ {
+  "id": "trial2-2026-10-v2-047",
+  "status": "written",
+  "due": null,
+  "format": "carousel",
+  "topic": {
+   "title": "Manufactured Bestseller",
+   "claim": "The 'bestseller' tag on half the products on Amazon or Myntra isn't a result, it's a setting someone in the catalog team switched on.",
+   "behaviour": "Dozens of near identical listings from the same seller all carry a bestseller or trending badge.",
+   "mechanism": "Consensus sells faster than quality, so the platform manufactures consensus instead of waiting for the real thing.",
+   "group": "online shoppers",
+   "territory": "business_brands",
+   "mood": "sharp",
+   "format_hint": "single",
+   "real_details": [],
+   "why_now": "this badge is on your screen every time you shop online",
+   "counterintuitive": true,
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-10-v2-047",
+   "score": {
+    "rank": 3,
+    "why": "Named thing (the bestseller tag) plus the reframe she lives by: most marketing signals are a switch someone flipped, not a result.",
+    "format_fit": "single"
+   }
+  },
+  "history": [
+   {
+    "attempt": 0,
+    "review": {
+     "pass": true,
+     "violations": [],
+     "scores": {
+      "hook": 5,
+      "specificity": 4,
+      "mechanism": 4,
+      "ending": 3,
+      "voice": 4
+     },
+     "edits": [
+      "slide 3: cut 'and it's not a conspiracy. It's basic.' — the fragment pair reads like engineered rhetoric; just go straight into 'People don't buy what's good...'",
+      "slide 4: cut 'The badge isn't reporting the crowd. The badge is the crowd.' — mirrored-pair construction feels built, not spoken; the next line carries the point fine on its own",
+      "slide 5: 'read a hundred reviews' reads like a stray stat — swap for something looser like 'read way too many reviews'"
+     ]
+    },
+    "facts": []
+   }
+  ],
+  "sources": [],
+  "draft": {
+   "slides": [
+    {
+     "paragraphs": [
+      "The little orange \"Bestseller\" tag on half the stuff you see on Amazon or Myntra isn't a result. It's a toggle somebody in a catalog team switched on that morning.",
+      "You read it as a verdict from millions of buyers. It's closer to a highlighter.",
+      "Swipe to read →"
+     ]
+    },
+    {
+     "paragraphs": [
+      "Open any category. Phone cases, running shoes, protein, kurtas. You'll see five near-identical listings, same seller, same photos with slightly different lighting, and every single one wearing a \"Bestseller\" or \"Trending\" badge.",
+      "If all five are the best-selling one, the word stopped meaning anything. That's the tell. A real bestseller is one per shelf. This is a sticker printed in bulk."
+     ]
+    },
+    {
+     "paragraphs": [
+      "I've sat in enough meetings to know why this exists.",
+      "People don't buy what's good. People buy what other people already bought. The badge is a shortcut for your brain: someone else did the thinking, you're safe, add to cart.",
+      "The platform knows that badge makes you click faster than any discount. So why wait for the sales to actually happen?"
+     ]
+    },
+    {
+     "paragraphs": [
+      "That's the quiet switch. Consensus sells faster than quality, so instead of waiting for real consensus to build, they manufacture it.",
+      "A product gets the tag so it sells more, and then it sells more because it has the tag. You're standing in a line that was drawn around you after you got there."
+     ]
+    },
+    {
+     "paragraphs": [
+      "And it works on me too, which is the annoying part. I check three apps for a price difference, I'll read way too many reviews, and then a tiny coloured label does what the whole comparison was supposed to do.",
+      "\"Bestseller\" bypasses the part of me that was being careful. That's the entire point of putting it there."
+     ]
+    },
+    {
+     "paragraphs": [
+      "So if you're buying, treat the badge like packaging, not proof. It tells you what the catalog team wanted you to click, not what held up over time.",
+      "And if you're building a brand in India, the lesson is older than any app. The crowd doesn't follow quality. It follows the look of a crowd. Someone figured out you can just paint that on."
+     ]
+    }
+   ],
+   "caption": "What's the one badge or label that still makes you click 'buy' before you've thought about it?",
+   "alt_text": "A six-slide carousel arguing that the 'Bestseller' badge on Amazon and Myntra is often a toggle switched on by a catalog team, not a real sales result. It describes seeing many near-identical listings all carrying the badge, explains that platforms manufacture consensus because it sells faster than quality, and closes with advice for shoppers to treat the badge as packaging and for brands to notice crowds follow the look of a crowd.",
+   "claims": []
+  }
+ },
+ {
+  "id": "trial2-2026-10-v2-042",
+  "status": "written",
+  "due": null,
+  "format": "carousel",
+  "topic": {
+   "title": "QR Code Wallpaper",
+   "claim": "Every kirana counter now has like five payment QR codes stuck one on top of the other, and that pile of stickers is the real fintech ad in India, not the IPL sponsorship.",
+   "behaviour": "Paytm, PhonePe, GPay stickers layered over each other at the kirana counter, the auto stand, the vegetable cart.",
+   "mechanism": "Trust isn't built through a campaign anymore, it's built through sheer repetition at the one spot where you're actually paying.",
+   "group": "anyone who's paid for sabzi digitally, and brand folks",
+   "territory": "business_brands",
+   "mood": "sharp",
+   "format_hint": "single",
+   "real_details": [],
+   "why_now": "everyone's seen the sticker pile but nobody's called it what it is",
+   "counterintuitive": true,
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-10-v2-042",
+   "score": {
+    "rank": 4,
+    "why": "Classic her move: a mundane, named visual (QR stickers at a kirana counter) carrying the real story about fintech's actual ad spend.",
+    "format_fit": "single"
+   }
+  },
+  "history": [
+   {
+    "attempt": 0,
+    "review": {
+     "pass": true,
+     "violations": [],
+     "scores": {
+      "hook": 4,
+      "specificity": 5,
+      "mechanism": 4,
+      "ending": 3,
+      "voice": 4
+     },
+     "edits": [
+      "slide 4: cut one of 'Not through a campaign. Not through a celebrity.' — keep just one, the pair reads a little engineered.",
+      "slide 6: cut 'the lesson is boring and expensive to ignore' and go straight to 'Be present at the exact second someone pays' — the line before it tips into tidy-moral territory.",
+      "slide 3: 'The medical shop counter has three of them fighting for space next to the discount strips' in slide 3 is good, keep as is — no change needed there."
+     ]
+    },
+    "facts": []
+   }
+  ],
+  "sources": [],
+  "draft": {
+   "slides": [
+    {
+     "paragraphs": [
+      "The real fintech ad in India isn't the IPL jersey or the stadium boundary. It's the pile of five QR stickers stuck one on top of the other at your kirana counter.",
+      "Paytm over PhonePe over GPay, corners peeling, half of them faded. Nobody designed that.",
+      "Swipe to read →"
+     ]
+    },
+    {
+     "paragraphs": [
+      "Think about where you actually see these brands. Not on your TV during a match. At the sabzi cart when you're holding a bag of tomatoes and the vendor points at a laminated square taped to a weighing scale.",
+      "That's the moment of truth. You're paying. You're deciding. And the logo that happens to be sitting there gets the sale, every single time, without saying a word."
+     ]
+    },
+    {
+     "paragraphs": [
+      "The auto stand has it. The chaiwala has it. The guy selling single cigarettes has a QR code now. The medical shop counter has three of them fighting for space next to the discount strips.",
+      "You've scanned all of them. You probably couldn't tell me which app you used this morning. You just pointed your phone at whatever square was clearest and moved on."
+     ]
+    },
+    {
+     "paragraphs": [
+      "This should make every brand team uncomfortable. Trust for these apps got built through sheer repetition at the exact spot where money changes hands. Not through a campaign.",
+      "Just the same logo, in the same place, a hundred times a week, until scanning it feels like second nature. That's not advertising. That's becoming furniture, and furniture wins."
+     ]
+    },
+    {
+     "paragraphs": [
+      "And the vendor keeps all five stickers up for a reason. Whichever app the customer trusts, there it is. He's not loyal to anyone. He just wants the payment to go through so the next person in line can pay.",
+      "That messy pile is the most honest thing in Indian fintech. No app actually won. They all just agreed to share a sticker-covered counter."
+     ]
+    },
+    {
+     "paragraphs": [
+      "So brands keep spending on the thing people can see, the jersey, the match, the big logo, while the thing that actually converts is a peeling sticker nobody budgeted for.",
+      "If you're building for India, be present at the exact second someone pays. Everything else is reach you'll stand in a meeting and fail to measure."
+     ]
+    }
+   ],
+   "caption": "What's the sticker pile at your usual shop, and which one do you actually scan?",
+   "alt_text": "A six-slide text carousel arguing that the layered pile of payment QR code stickers at Indian kirana counters, auto stands and vegetable carts is the real fintech advertising in India, more effective than IPL sponsorships, because trust is built through repetition at the exact point of payment.",
+   "claims": []
+  }
+ },
+ {
+  "id": "trial2-2026-10-v2-044",
+  "status": "rejected",
+  "due": null,
+  "format": "carousel",
+  "topic": {
+   "title": "The Sale That Never Ends",
+   "claim": "The 'limited period offer' on Swiggy, Zomato and Myntra has been running non stop for two years, so the discount is just the price now.",
+   "behaviour": "Flash sale banners go up every single week, year round, on the same apps.",
+   "mechanism": "Brands got scared to ever ask full price again because customers have been trained to just wait it out.",
+   "group": "anyone who shops on these apps, and the brands pricing on them",
+   "territory": "business_brands",
+   "mood": "rant",
+   "format_hint": "single",
+   "real_details": [],
+   "why_now": "discount fatigue is the quiet story under every festive sale push",
+   "counterintuitive": false,
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-10-v2-044",
+   "score": {
+    "rank": 5,
+    "why": "Premium is packaging and a story, pushed one step further: the discount has quietly become the real price.",
+    "format_fit": "single"
+   }
+  },
+  "history": [
+   {
+    "attempt": 0,
+    "problems": [
+     "The figure '100%' isn't in the sources; source it or remove it."
+    ]
+   },
+   {
+    "attempt": 1,
+    "review": {
+     "pass": true,
+     "violations": [],
+     "scores": {
+      "hook": 4,
+      "specificity": 4,
+      "mechanism": 4,
+      "ending": 3,
+      "voice": 4
+     },
+     "edits": [
+      "slide 2: cut \"There was never a reason.\" — repeats the line right before it",
+      "slide 7: drop \"ever gave away for free\" — tidies up into too neat a punchline",
+      "slide 4: cut \"forever\" after \"slapped a discount on everything\" — the sentence already says this"
+     ]
+    },
+    "facts": [
+     "Unsupported fact: 'Open Myntra on any random Tuesday in April. Open it again in June. There is no reason. The sale just never actually ended.' (No source provided to verify that Myntra runs continuous, uninterrupted sales across these months.). Fix it to match the source or cut it.",
+     "Unsupported fact: 'Swiggy and Zomato do the same thing with the little flash banner. Two hours left, order now.' (No source provided confirming Swiggy or Zomato use a 'two hours left' flash banner or this specific urgency mechanic.). Fix it to match the source or cut it."
+    ]
+   },
+   {
+    "attempt": 1,
+    "problems": [
+     "Unsupported fact: 'Open Myntra on any random Tuesday in April. Open it again in June. There is no reason. The sale just never actually ended.' (No source provided to verify that Myntra runs continuous, uninterrupted sales across these months.). Fix it to match the source or cut it.",
+     "Unsupported fact: 'Swiggy and Zomato do the same thing with the little flash banner. Two hours left, order now.' (No source provided confirming Swiggy or Zomato use a 'two hours left' flash banner or this specific urgency mechanic.). Fix it to match the source or cut it."
+    ]
+   }
+  ],
+  "sources": [],
+  "draft": {
+   "slides": [
+    {
+     "paragraphs": [
+      "Same banner, same countdown, same red urgency, every single week.",
+      "At some point the sale stops being a sale. It's just the price with a scary font on top.",
+      "Swipe to read →"
+     ]
+    },
+    {
+     "paragraphs": [
+      "Open Myntra on any random Tuesday in April. Open it again in June.",
+      "There is no reason. There was never a reason. The sale just never actually ended.",
+      "Swiggy and Zomato do the same thing with the little flash banner. Two hours left, order now."
+     ]
+    },
+    {
+     "paragraphs": [
+      "And everyone shopping on these apps has quietly figured it out. Nobody pays the first price you're shown anymore.",
+      "You add the shirt to the bag and wait. You hover over the food order and wait. Something inside you knows a coupon is coming, a \"use code\" is coming. Paying full price now feels like you missed a step everyone else knows about."
+     ]
+    },
+    {
+     "paragraphs": [
+      "That's actually funny. The brands did this to themselves.",
+      "They were so scared of an empty cart that they slapped a discount on everything, forever. They trained you to wait. And now they're trapped, because the day Myntra shows you a real full price with no sale, your brain reads it as a price hike. They can't ever go back up. The discount became the floor."
+     ]
+    },
+    {
+     "paragraphs": [
+      "So the discount isn't a gift anymore. It's just the number they decided to sell at, dressed up so you feel clever for buying.",
+      "The MRP on these apps is basically fiction now. A fake high number that exists only so the discount has something to subtract from. You're not saving anything. You're paying the real price and being told you're a genius for finding it."
+     ]
+    },
+    {
+     "paragraphs": [
+      "And this is the quiet problem under every festive sale push you'll see this month. The Big This, the End of That, the midnight deals.",
+      "When the offer runs all year, the festive one lands flat. You've seen this exact banner in March and July. There's no urgency left to sell, because you burned it being on sale every week of your life."
+     ]
+    },
+    {
+     "paragraphs": [
+      "If you're pricing anything on these apps, the discount isn't a lever anymore. It's the resting state. You've taught the customer that your real price is a lie and the sale is the truth.",
+      "Getting back the ability to just charge what something costs, without a countdown clock babysitting the number, might be the most expensive thing these apps ever gave away for free."
+     ]
+    }
+   ],
+   "caption": "When did you last actually pay the first price one of these apps showed you?",
+   "alt_text": "A seven-slide text carousel arguing that the permanent 'limited period offer' on Swiggy, Zomato and Myntra has turned the discount into the real price, training customers to always wait for a coupon and leaving brands unable to charge full price.",
+   "claims": []
+  }
+ },
+ {
+  "id": "trial2-2026-10-v2-033",
+  "status": "written",
+  "due": null,
+  "format": "carousel",
+  "topic": {
+   "title": "The live-in ruling that removes the whole point of a live-in",
+   "claim": "The Supreme Court just said if your live-in relationship looks enough like a marriage, the cruelty law under Section 498A applies to it too, and I genuinely think that kills the one reason a lot of couples choose live-in over marriage in the first place.",
+   "behaviour": "Supreme Court extended Section 498A protections to live-in partners, but only where the relationship is 'in the nature of marriage' and both partners intended to marry; court held denying this to such women while granting it to wives would be unconstitutional.",
+   "mechanism": "People pick live-in specifically to stay out of the legal and social weight of marriage, and now courts are being asked to decide, case by case, whether your relationship secretly counted as one.",
+   "group": "urban couples in their late 20s and 30s choosing to live together before marriage",
+   "territory": "life_relationships",
+   "mood": "sharp",
+   "format_hint": "single",
+   "real_details": [
+    "Supreme Court extended Section 498A (cruelty by husband/in-laws) to live-in partners",
+    "protection applies only if the relationship is 'in the nature of marriage' and both intended to marry",
+    "court held denying this protection to such women while granting it to wives would be unconstitutional"
+   ],
+   "evidence": [
+    {
+     "url": "https://thecriminallawblog.in/2026/10/19/when-does-a-live-in-relationship-become-a-criminal-law-relationship/",
+     "sub": "news",
+     "rank": 61
+    }
+   ],
+   "news_peg": "Supreme Court ruling extending Section 498A to live-in relationships, reported October 2026",
+   "why_now": "actively being debated by urban couples and in legal commentary this month",
+   "counterintuitive": true,
+   "needs_facts": false,
+   "id": "2026-10-v2-033",
+   "score": {
+    "rank": 6,
+    "why": "A real ruling with an uncomfortable, specific consequence for couples who chose live-in to dodge exactly this.",
+    "format_fit": "single"
+   }
+  },
+  "history": [
+   {
+    "attempt": 0,
+    "review": {
+     "pass": true,
+     "violations": [],
+     "scores": {
+      "hook": 4,
+      "specificity": 4,
+      "mechanism": 4,
+      "ending": 4,
+      "voice": 4
+     },
+     "edits": [
+      "slide 2: cut \"Fair point, honestly.\" — it's a small throwaway that softens the sharper line right before it",
+      "slide 4: \"decided later, by someone who wasn't in the room\" lands harder without \"later,\" — one less beat before the punch",
+      "slide 6: tighten \"You can skip the wedding. You can't opt out of what it looked like you were doing.\" to just the second sentence — the first restates slide 4"
+     ]
+    },
+    "facts": []
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.livelaw.in/supreme-court/supreme-court-extends-s498a-ipc-to-live-in-relationships-which-are-relationships-in-nature-of-marriage-544063",
+    "fact": "A Supreme Court bench of Justices Sanjay Karol and N. Kotiswar Singh, in Dr Lokesh BH & Ors. v. State of Karnataka & Anr. (2026 LiveLaw (SC) 753, decided August 3, 2026), held that Section 498A IPC applies to live-in relationships that are 'in the nature of marriage' with intent to marry, ruling that excluding such women would violate Article 14.",
+    "excerpt": "Section 498A is held to be applicable to 'live-in relationships' that qualify as 'relationships in the nature of marriage' with the intent to marry being established as an intrinsic part thereof. This distinction between 'married' and 'live-in relationship in the nature of marriage', in as much as it relates to the protection envisaged by Section 498A, has no rational nexus with the object of preventing domestic violence and is as such offensive to Article 14 of the Constitution of India. When the objective of the Section 498A was to provide coverage to those cases where harassment by husband or in-laws through wilful conduct causing mental or physical injury or driving the woman to suicide, then to say that such harassment can only be caused when they are married and not before that, in our considered view, would be a case of over simplification…"
+   },
+   {
+    "url": "https://www.deccanchronicle.com/legalnews/sc-extends-section-498a-protection-to-live-in-relationships-1976210",
+    "fact": "Deccan Chronicle (published August 3, 2026) confirms the Supreme Court extended Section 498A protection to live-in couples whose relationship is 'in the nature of marriage' with intent to marry, while also mandating a preliminary inquiry before arrest in such cases.",
+    "excerpt": "Section 498A is held to be applicable to 'live-in relationships' that qualify as 'relationships in the nature of marriage' with the intent to marry being established as an intrinsic part thereof. No person in a relationship 'in the nature of marriage'...shall be arrested without a preliminary inquiry. ...shall be limited to Section 498A IPC only, and this extended interpretation shall not affect any other provision."
+   },
+   {
+    "url": "https://www.tribuneindia.com/news/india/supreme-court-makes-section-498-a-of-ipc-applicable-to-live-in-relationships/",
+    "fact": "The Tribune (August 4, 2026) reports the Supreme Court upheld a Karnataka High Court order refusing to quash cruelty proceedings against a man, confirming the bench of Justices Sanjay Karol and N. Kotiswar Singh extended Section 498A to consenting adults in marriage-like live-in relationships with intent to marry, citing Article 14.",
+    "excerpt": "Section 498-A is held to be applicable to \"live-in relationships\" that qualify as \"relationships in the nature of marriage\" ... The \"live-in relationships\" protected by Section 498-A, it is stated for ample clarity, are those that are between two consenting adult individuals ... with the intent to marry being established as an intrinsic part thereof. This distinction between \"married\" and \"live-in relationship in the nature of marriage\"...has no rational nexus with the object of preventing domestic violence and is as such offensive to Article 14. The court upheld a Karnataka High Court verdict refusing to quash proceedings for cruelty against a man claiming exemption under Section 498A."
+   }
+  ],
+  "draft": {
+   "slides": [
+    {
+     "paragraphs": [
+      "The whole point of a live-in was to stay out of the paperwork. The Supreme Court just made that harder. It ruled that Section 498A, the cruelty law for wives, applies to live-in couples too, if the relationship looks enough like a marriage.",
+      "Swipe to read →"
+     ]
+    },
+    {
+     "paragraphs": [
+      "Section 498A is the law on cruelty by a husband or in-laws. For decades it stopped at the word married. No marriage, no 498A.",
+      "The court said that line makes no sense. If a woman is being harassed, the harassment doesn't start only after the pheras. Denying her the protection a wife gets, just because there's no certificate, is unconstitutional under Article 14."
+     ]
+    },
+    {
+     "paragraphs": [
+      "But read the fine print. It only applies if the relationship is *in the nature of marriage*, and both of them meant to marry eventually.",
+      "So the question is no longer are you married. It's was your thing basically a marriage. Did you share rent, call his parents mummy-papa, go to weddings as a couple, tell people you'd settle down someday. A court now decides that, case by case, after the fact."
+     ]
+    },
+    {
+     "paragraphs": [
+      "And that's the part that quietly kills it for a lot of urban couples in their late 20s and 30s.",
+      "You picked live-in precisely to keep things undefined. No families negotiating, no legal weight, you can walk out of a PG with your bags and nobody files anything. The appeal was that it stayed small and reversible. A relationship nobody outside the two of you had to approve of."
+     ]
+    },
+    {
+     "paragraphs": [
+      "Now the same arrangement can be ruled a marriage you never signed up for, with the same consequences.",
+      "Which flips the whole thing. You didn't want the legal commitment, that's why you didn't marry. But you built a life that looked married, because that's what living together is. So you get the obligations of the thing you were avoiding, decided by someone who wasn't in the room."
+     ]
+    },
+    {
+     "paragraphs": [
+      "I don't think this is the court being harsh. A woman treated badly for three years shouldn't be worse off because a priest wasn't involved. That reasoning holds.",
+      "But couples chose live-in to keep the exit cheap and the definition loose. The court just told them the definition was never theirs to set. You can't opt out of what it looked like you were doing."
+     ]
+    }
+   ],
+   "caption": "If a court looked at your relationship, would it call it a marriage you never agreed to?",
+   "alt_text": "A six-slide text carousel about a 2026 Supreme Court ruling extending Section 498A, the cruelty law for wives, to live-in couples whose relationship is 'in the nature of marriage' with intent to marry. The post argues this removes the main reason urban couples choose live-in over marriage: staying out of its legal and social weight.",
+   "claims": [
+    {
+     "text": "The Supreme Court held that Section 498A IPC (cruelty by husband or in-laws) applies to live-in relationships that are 'in the nature of marriage' with intent to marry.",
+     "source_url": "https://www.livelaw.in/supreme-court/supreme-court-extends-s498a-ipc-to-live-in-relationships-which-are-relationships-in-nature-of-marriage-544063"
+    },
+    {
+     "text": "The protection applies only where the relationship is 'in the nature of marriage' and both partners intended to marry.",
+     "source_url": "topic"
+    },
+    {
+     "text": "The court held that denying this protection to such women while granting it to wives has no rational nexus with preventing domestic violence and violates Article 14.",
+     "source_url": "https://www.tribuneindia.com/news/india/supreme-court-makes-section-498-a-of-ipc-applicable-to-live-in-relationships/"
+    },
+    {
+     "text": "The ruling was decided in August 2026 by a bench of Justices Sanjay Karol and N. Kotiswar Singh.",
+     "source_url": "https://www.livelaw.in/supreme-court/supreme-court-extends-s498a-ipc-to-live-in-relationships-which-are-relationships-in-nature-of-marriage-544063"
+    }
+   ]
+  }
+ }
+]
