@@ -12,7 +12,7 @@
    "actually": "it's a correction: the price of keeping you, paid only when replacing you costs more"
   },
   "because": "as long as you stay quiet, the cheapest raise is none; a resignation changes the company's sum, not your worth",
-  "payoff": "The real appraisal is the day you resign.",
+  "payoff": "The real appraisal calendar has three dates: March, September, and the day you resign. Only one comes with a number.",
   "lived": true,
   "mood": "mixed",
   "territory": "money_status",
@@ -20,57 +20,58 @@
  },
  "draft": {
   "cover": {
-   "headline": "Your counteroffer is the [raise you were never offered.]",
-   "sub": "The day you resign, the budget appears."
+   "headline": "Funny how \"budgets are tight\" lasts exactly until you [resign.]",
+   "sub": "Then a number shows up within two days."
   },
   "slides": [
    {
     "paragraphs": [
-     "Your counteroffer is the raise you were never offered.",
+     "Funny how \"budgets are tight\" lasts exactly until you resign. Then a number shows up within two days.",
      "Swipe to read →"
     ],
-    "why_swipe": "it states the take; the reader wants to see how a resignation finds a budget"
+    "why_swipe": "everyone has heard 'budgets are tight'; where does the money suddenly come from?"
    },
    {
     "paragraphs": [
-     "You asked twice this year. Both times: \"budgets are tight, next cycle for sure.\"",
-     "Then you put in your papers. Within two days there's a meeting, and suddenly there's a number."
+     "March appraisal: \"tough year, next cycle pakka.\" September: the same line, on a new slide deck.",
+     "Then you resign on a Monday. By Wednesday there's a Teams invite called \"Quick chat\", and suddenly there's a number on the table."
     ],
-    "why_swipe": "the scene is familiar; why did the number appear only now?"
+    "why_swipe": "the scene is familiar; why does the money appear only now?"
    },
    {
     "paragraphs": [
-     "I've watched this happen to friend after friend, and it always goes the same way.",
-     "Keeping you was never the question. The question was how little it would take. As long as you stayed quiet, the answer was nothing."
+     "I've seen this play out in almost every office I've been around. They always wanted to keep you.",
+     "They just wanted to keep you for free, and as long as asking was all you did, free worked."
     ],
-    "why_swipe": "the motive is out; what is a counteroffer, really?"
+    "why_swipe": "the motive is out; so what is that number, really?"
    },
    {
     "paragraphs": [
-     "**A counteroffer isn't a reward. It's a correction.**",
-     "It's the company admitting what you were worth, at the exact moment it became cheaper to pay you than to replace you."
+     "The money usually isn't from your manager's budget either. It tends to sit in a retention pot that nobody mentions until someone puts in their papers.",
+     "**That number isn't a reward. It's arrears.**"
     ],
-    "why_swipe": "the turn has landed; who else knew?"
+    "why_swipe": "the turn has landed; how does it feel to be on the receiving end?"
    },
    {
     "paragraphs": [
-     "Everyone in that meeting knows it. HR knows. Your manager knows. The only person hearing that number for the first time is you.",
-     "Part of you feels wanted. The other part wonders why it took a resignation letter."
+     "You feel flattered for about an hour. Then you do the maths on the last two years.",
+     "And if you take it, they now know your exit price. Your manager can't quite look at you in that meeting."
     ],
-    "why_swipe": "mixed feelings are out; where is the real appraisal?"
+    "why_swipe": "the feeling is out; what's the real lesson about appraisals?"
    },
    {
     "paragraphs": [
-     "So the real appraisal in an Indian office isn't in April.",
-     "**It's the day you resign.** Everything before that was a negotiation you didn't know you were in."
+     "The real appraisal calendar in most Indian offices has three dates: March, September, and the day you resign.",
+     "**Only one of them comes with a number.**"
     ]
    }
   ],
   "end": {
-   "save": "Read it again before your next appraisal meeting.",
-   "send": "Send it to the friend who's been told \"next cycle\" twice."
+   "save": "Read it again before your next \"next cycle\" conversation.",
+   "send": "Send it to the colleague who's heard \"next cycle pakka\" twice.",
+   "promise": "How Indian offices really work."
   },
-  "caption": "Has a resignation ever got you the raise your appraisal didn't?",
+  "caption": "Be it March or September, what's the most creative way you've been told \"next cycle\"?",
   "hashtags": [
    "#CorporateLife",
    "#Appraisal",
@@ -86,5 +87,202 @@
    "note": "opinion-first sample reviewed by the owner on 2026-10-23"
   }
  ],
- "updated_at": "2026-10-23T07:58:19.296888+00:00"
+ "updated_at": "2026-10-23T08:27:56.818205+00:00",
+ "verification_cache": {
+  "Money offered in a resignation-triggered counteroffer typically comes from a dedicated retention budget/pot rather than the departing employee's manager's regular budget.": {
+   "id": "c1",
+   "verdict": "unverifiable",
+   "event_date": null,
+   "correct": "Practice is mixed and not well-documented by primary or major-outlet sources. Some employers maintain a separate 'retention'/market-adjustment budget distinct from the manager's merit budget (compensation-consulting guidance recommends this), but other accounts describe managers simply finding money from their own team/cost-center budget once a resignation lands ('the budget appears within 48 hours'), and having a dedicated retention budget is described as increasing (not guaranteeing) the odds of a counteroffer being made at all. No SHRM, HBR, or similar authoritative source confirms which funding source is 'typical' across employers, so the claim as a general rule cannot be verified or disproven with reliable evidence.",
+   "sources": [
+    {
+     "url": "https://getstello.ai/merit-and-promotion-budget/",
+     "publisher": "Stello AI (compensation software blog)",
+     "published_date": null,
+     "quote": "A retention budget funds a specific, documented talent risk and should not quietly consume the pool approved for the broader workforce... Some smaller companies run one pool for merit, market adjustments and retention, so a higher number can include a counteroffer for someone who was about to leave.",
+     "tier": 3
+    },
+    {
+     "url": "https://compbldr.ai/blogs/merit-budget-2026",
+     "publisher": "CompBldr (HR/comp vendor blog)",
+     "published_date": null,
+     "quote": "When a manager has retention budget, the counter-offer likelihood is 90%+.",
+     "tier": 3
+    },
+    {
+     "url": "https://www.shrm.org/topics-tools/news/benefits-compensation/counteroffers-make-sense",
+     "publisher": "SHRM",
+     "published_date": null,
+     "quote": "[Article discusses counteroffer pay caps as 'not taking too many resources away from the department or the company overall' but does not identify a separate dedicated retention budget as the typical funding source.]",
+     "tier": 2
+    }
+   ]
+  },
+  "In most Indian offices, the effective appraisal/raise calendar has three key dates: March, September, and the day an employee resigns.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": "2026-04-09",
+   "correct": "The exact month varies by company rather than being literally 'March and September' everywhere: most large Indian employers (e.g., TCS) run their core cycle on the April 1–March 31 financial year, with ratings/decisions finalized around January–March and raises taking effect April 1 — TCS returned to this 'usual appraisal timeline' for 2026, effective April 1. A second cycle genuinely exists at major employers around Q3 (e.g., TCS's delayed FY25 hikes were rolled out September 1, 2025; Infosys runs an October-to-September review calendar; HCLTech's H2 rewards go into effect October 1), so 'September' is a reasonable shorthand for this second wave even though the precise month differs by firm. The third 'date' — a resignation triggering a raise/counteroffer — is well documented: India's attrition and counteroffer data (foundit's 2025 Appraisal Trends Report) show most employees who received hikes still plan to switch, underscoring how central resignation-driven negotiation is to actual pay movement in Indian offices. Overall framing holds as a fair characterization, with company-level variation in exact months.",
+   "sources": [
+    {
+     "url": "https://www.peoplematters.in/news/compensation-benefits/tcs-resumes-april-salary-hikes-after-delay-with-double-digit-raises-for-top-performers-49180",
+     "publisher": "People Matters",
+     "published_date": "2026-04-09",
+     "quote": "The move marks a return to TCS's usual appraisal timeline after salary hikes in the previous cycle were deferred by five months and implemented in September 2025.",
+     "tier": 2
+    },
+    {
+     "url": "https://www.peoplematters.in/news/compensation-benefits/tcs-to-give-pay-hikes-to-80percent-of-employees-from-september-1-42360",
+     "publisher": "People Matters (citing PTI / TCS spokesperson)",
+     "published_date": "2025-07-30",
+     "quote": "We will be issuing wage hikes to around 80% of our employees effective September 1, 2025.",
+     "tier": 2
+    },
+    {
+     "url": "https://www.foundit.in/career-advice/wp-content/uploads/2025/07/Appraisal-Survey-2025-1.pdf",
+     "publisher": "foundit (Appraisal Trends Report 2025)",
+     "published_date": "2025-07-22",
+     "quote": "74% of employees received an increment in the FY24–25 cycle, [yet] 86% are still planning to change jobs in the coming months.",
+     "tier": 2
+    }
+   ]
+  }
+ },
+ "verification": {
+  "passed": false,
+  "take_dead": false,
+  "notes": [
+   "The take's premise is wrong: The premise that a fast counteroffer proves the appraisal-era 'budgets are tight' was a lie about the same pot of money. The post treats one budget where there are two. Merit/increment budgets and retention budgets are set and justified separately, so a counteroffer existing does not mean a raise was being withheld from a scarce-but-available appraisal budget. Notably, the post's own slide 4 ('it sits in a retention pot that nobody mentions') is the correct fact that actually defeats its conclusion.. How it actually works: Annual merit/increment budgets are fixed top-down months in advance as a small percent of payroll (India's 2026 average is ~9.1%, and the core merit component is typically only 3-4%), and employers deliberately ring-fence separate retention/market-correction pools so those don't compress the merit pool — so 'the merit budget is tight' can be literally true at appraisal time. A resignation doesn't unlock withheld arrears; it supplies a credible outside number that flips the comparison from 'merit raise vs. an employee who is staying anyway' to 'retention payment vs. replacement cost,' and replacement runs 50-200% of annual salary (Gallup/SHRM). The counteroffer is a forward-looking cost-avoidance payment drawn on a different budget and justified by a different calculation, not back-pay the company was secretly pocketing. Rebuild the post on the correct mechanism.",
+   "Could not verify: 'Money offered in a resignation-triggered counteroffer typically comes from a dedicated retention budget/pot rather than the departing employee's manager's regular budget.'. Cut it, or state it only if a source says it."
+  ],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Money offered in a resignation-triggered counteroffer typically comes from a dedicated retention budget/pot rather than the departing employee's manager's regular budget.",
+    "sentence": "The money usually isn't from your manager's budget either. It tends to sit in a retention pot that nobody mentions until someone puts in their papers.",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "In most Indian offices, the effective appraisal/raise calendar has three key dates: March, September, and the day an employee resigns.",
+    "sentence": "The real appraisal calendar in most Indian offices has three dates: March, September, and the day you resign.",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c3",
+    "text": "The author has personally observed, in almost every office they have worked in or around, that employers only produce a retention offer after an employee resigns rather than during regular appraisal cycles.",
+    "sentence": "I've seen this play out in almost every office I've been around.",
+    "type": "anecdote",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c4",
+    "text": "Because companies can and do produce a monetary counteroffer quickly once an employee resigns, the 'budgets are tight' reasoning given during scheduled appraisal cycles is not true scarcity but a withheld raise that is only released under the threat of departure.",
+    "sentence": "Funny how 'budgets are tight' lasts exactly until you resign. Then a number shows up within two days. ... That number isn't a reward. It's arrears.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c1": {
+    "id": "c1",
+    "verdict": "unverifiable",
+    "event_date": null,
+    "correct": "Practice is mixed and not well-documented by primary or major-outlet sources. Some employers maintain a separate 'retention'/market-adjustment budget distinct from the manager's merit budget (compensation-consulting guidance recommends this), but other accounts describe managers simply finding money from their own team/cost-center budget once a resignation lands ('the budget appears within 48 hours'), and having a dedicated retention budget is described as increasing (not guaranteeing) the odds of a counteroffer being made at all. No SHRM, HBR, or similar authoritative source confirms which funding source is 'typical' across employers, so the claim as a general rule cannot be verified or disproven with reliable evidence.",
+    "sources": [
+     {
+      "url": "https://getstello.ai/merit-and-promotion-budget/",
+      "publisher": "Stello AI (compensation software blog)",
+      "published_date": null,
+      "quote": "A retention budget funds a specific, documented talent risk and should not quietly consume the pool approved for the broader workforce... Some smaller companies run one pool for merit, market adjustments and retention, so a higher number can include a counteroffer for someone who was about to leave.",
+      "tier": 3
+     },
+     {
+      "url": "https://compbldr.ai/blogs/merit-budget-2026",
+      "publisher": "CompBldr (HR/comp vendor blog)",
+      "published_date": null,
+      "quote": "When a manager has retention budget, the counter-offer likelihood is 90%+.",
+      "tier": 3
+     },
+     {
+      "url": "https://www.shrm.org/topics-tools/news/benefits-compensation/counteroffers-make-sense",
+      "publisher": "SHRM",
+      "published_date": null,
+      "quote": "[Article discusses counteroffer pay caps as 'not taking too many resources away from the department or the company overall' but does not identify a separate dedicated retention budget as the typical funding source.]",
+      "tier": 2
+     }
+    ]
+   },
+   "c2": {
+    "id": "c2",
+    "verdict": "supported",
+    "event_date": "2026-04-09",
+    "correct": "The exact month varies by company rather than being literally 'March and September' everywhere: most large Indian employers (e.g., TCS) run their core cycle on the April 1–March 31 financial year, with ratings/decisions finalized around January–March and raises taking effect April 1 — TCS returned to this 'usual appraisal timeline' for 2026, effective April 1. A second cycle genuinely exists at major employers around Q3 (e.g., TCS's delayed FY25 hikes were rolled out September 1, 2025; Infosys runs an October-to-September review calendar; HCLTech's H2 rewards go into effect October 1), so 'September' is a reasonable shorthand for this second wave even though the precise month differs by firm. The third 'date' — a resignation triggering a raise/counteroffer — is well documented: India's attrition and counteroffer data (foundit's 2025 Appraisal Trends Report) show most employees who received hikes still plan to switch, underscoring how central resignation-driven negotiation is to actual pay movement in Indian offices. Overall framing holds as a fair characterization, with company-level variation in exact months.",
+    "sources": [
+     {
+      "url": "https://www.peoplematters.in/news/compensation-benefits/tcs-resumes-april-salary-hikes-after-delay-with-double-digit-raises-for-top-performers-49180",
+      "publisher": "People Matters",
+      "published_date": "2026-04-09",
+      "quote": "The move marks a return to TCS's usual appraisal timeline after salary hikes in the previous cycle were deferred by five months and implemented in September 2025.",
+      "tier": 2
+     },
+     {
+      "url": "https://www.peoplematters.in/news/compensation-benefits/tcs-to-give-pay-hikes-to-80percent-of-employees-from-september-1-42360",
+      "publisher": "People Matters (citing PTI / TCS spokesperson)",
+      "published_date": "2025-07-30",
+      "quote": "We will be issuing wage hikes to around 80% of our employees effective September 1, 2025.",
+      "tier": 2
+     },
+     {
+      "url": "https://www.foundit.in/career-advice/wp-content/uploads/2025/07/Appraisal-Survey-2025-1.pdf",
+      "publisher": "foundit (Appraisal Trends Report 2025)",
+      "published_date": "2025-07-22",
+      "quote": "74% of employees received an increment in the FY24–25 cycle, [yet] 86% are still planning to change jobs in the coming months.",
+      "tier": 2
+     }
+    ]
+   }
+  },
+  "mechanism": {
+   "holds": false,
+   "broken_premise": "The premise that a fast counteroffer proves the appraisal-era 'budgets are tight' was a lie about the same pot of money. The post treats one budget where there are two. Merit/increment budgets and retention budgets are set and justified separately, so a counteroffer existing does not mean a raise was being withheld from a scarce-but-available appraisal budget. Notably, the post's own slide 4 ('it sits in a retention pot that nobody mentions') is the correct fact that actually defeats its conclusion.",
+   "actual_mechanism": "Annual merit/increment budgets are fixed top-down months in advance as a small percent of payroll (India's 2026 average is ~9.1%, and the core merit component is typically only 3-4%), and employers deliberately ring-fence separate retention/market-correction pools so those don't compress the merit pool — so 'the merit budget is tight' can be literally true at appraisal time. A resignation doesn't unlock withheld arrears; it supplies a credible outside number that flips the comparison from 'merit raise vs. an employee who is staying anyway' to 'retention payment vs. replacement cost,' and replacement runs 50-200% of annual salary (Gallup/SHRM). The counteroffer is a forward-looking cost-avoidance payment drawn on a different budget and justified by a different calculation, not back-pay the company was secretly pocketing.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://www.aon.com/apac/in-the-press/asia-newsroom/2025/salaries-in-india-projected-to-increase-by-nine-percent-in-2026-aon-study",
+     "published_date": "2025-10-07",
+     "quote": "Salaries in India are projected to increase by 9.1% in 2026... based on data from over 1,060 companies across 45 industries."
+    },
+    {
+     "url": "https://www.deloitte.com/in/en/about/press-room/average-increment-in-india-is-expected-to-be-9-1-percent-in-2026.html",
+     "published_date": "2025",
+     "quote": "Average increment in India is expected to be 9.1 percent in 2026, compared with 9.0 percent in 2025."
+    },
+    {
+     "url": "https://doc.workday.com/workday-education/en-us/course-manuals/advanced-compensation-for-administrators/merit-plans.html",
+     "published_date": "2024",
+     "quote": "Budgets can be allocated top-down from a total pool... pool amounts are calculated and can be adjusted using the Top-Down option — merit budgets are a fixed, pre-set pool, not open-ended."
+    },
+    {
+     "url": "https://www.pave.com/blog-posts/compensation-cycle",
+     "published_date": "2024",
+     "quote": "Separate pools for retention adjustments or market corrections prevent those decisions from compressing the core merit pool — retention money is budgeted apart from the merit/appraisal budget."
+    },
+    {
+     "url": "https://www.shrm.org/executive-network/insights/myth-replaceability-preparing-loss-key-employees",
+     "published_date": "2024",
+     "quote": "The cost of replacing an employee can range from 50% to 200% of their annual salary, depending on their level — the number a counteroffer is weighed against is replacement cost, not the merit budget."
+    }
+   ]
+  },
+  "text_hash": "50d7705a0bf255414df1da8226b05d4e39b17feb",
+  "at": "2026-10-23T08:27:56.818188+00:00"
+ }
 }

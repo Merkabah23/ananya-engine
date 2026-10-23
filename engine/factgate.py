@@ -29,6 +29,7 @@ from . import config, llm
 CHECKED = {"figure", "event", "superlative", "entity_attribute", "feature"}
 STRICT = {"superlative", "entity_attribute"}   # need a primary source or two independent major ones
 FRESH_DAYS = 30
+IMMEDIATE = re.compile(r"\b(just|right now|this (week|month)|is testing|today|yesterday|recently|this weekend)\b", re.I)
 
 
 def final_text(draft: dict) -> str:
@@ -284,7 +285,8 @@ def judge(claim: dict, verdict: dict | None, due: str, fetch=quote_on_page) -> s
         return f"Needs a stronger source: '{text}' (a primary source, or two independent major outlets)."
     if not strong and not any(tier(s) <= 2 for s in usable):
         return f"Only weak sources for: '{text}'. Find a primary source or a major outlet, or cut it."
-    if claim.get("framed_as") == "current" and claim.get("type") == "event":  # a rule still in force isn't stale news
+    if claim.get("type") == "event" and IMMEDIATE.search(str(claim.get("sentence", ""))):
+        # only "just / now / this month" framing makes a dated event stale; a trend or a rule still in force isn't news
         happened, live = _date(verdict.get("event_date")), _date(due)
         if happened and live and not 0 <= (live - happened).days <= FRESH_DAYS:
             return f"Framed as current but dated {happened}: '{text}'. Frame it as past, or drop it."

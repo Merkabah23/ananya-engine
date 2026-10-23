@@ -1,7 +1,7 @@
 {
  "id": "2026-10-93",
- "status": "written",
- "due": "2026-10-30T19:30:00+05:30",
+ "status": "approved",
+ "due": "2026-10-23T19:30:00+05:30",
  "format": "carousel",
  "topic": {
   "title": "Gold exchange before Dhanteras",
@@ -11,7 +11,7 @@
    "believed": "the exchange bonus is the jeweller doing you a favour",
    "actually": "since imports fell after the duty hike, old gold is a main supply line, and exchange guarantees a sale"
   },
-  "because": "exchange gold needs no import or upfront duty and only comes with a new purchase, with making charges and GST on it",
+  "because": "the exchange bonus has always been a sales incentive; since the May duty hike jewellers lean far more on old gold, so you can't tell from the counter whether the bonus is a real deal",
   "payoff": "If the exchange route isn't clearly cheaper than the cash route, it was never a bonus.",
   "territory": "money_status",
   "format_name": "behind_the_brand",
@@ -30,6 +30,16 @@
     "fact": "46% of Kalyan Jewellers' revenue in Q1 FY27 was from recycled gold; nearly 65% of jewellery sales at Joy Alukkas are from old gold exchanges",
     "source_url": "https://www.theweek.in/news/biz-tech/2026/09/12/strategic-sales-move-or-government-nudge-why-are-jewellers-pushing-for-selling-old-gold.html",
     "date": "2026-09-12"
+   },
+   {
+    "fact": "India raised import duties on gold and silver to 15% from 6%",
+    "source_url": "https://www.cnbc.com/2026/05/13/india-hikes-bullion-import-duties-to-arrest-rupee-slide.html",
+    "date": "2026-05-13"
+   },
+   {
+    "fact": "The import duty increased from 6% to 15%; exchange of old gold jewellery for new limited the price pass-through",
+    "source_url": "https://www.gold.org/goldhub/gold-focus/2026/05/india-gold-market-update-import-tightening",
+    "date": "2026-05-20"
    }
   ]
  },
@@ -37,46 +47,46 @@
   "slides": [
    {
     "paragraphs": [
-     "This Dhanteras, the jeweller will offer an \"exchange bonus\" on mummy's old bangles. It isn't generosity. Since May, her bangles are his supply line.",
+     "This Dhanteras, the jeweller will offer an \"exchange bonus\" on mummy's old bangles. Since May, old gold is a big part of what he sells.",
      "Swipe to read →"
     ],
     "why_swipe": "'supply line' contradicts the favour everyone assumes; what changed in May?"
    },
    {
     "paragraphs": [
-     "Glass counter. Small scale. The bangles from her wedding, still in the red pouch.",
-     "He tests them, weighs them, cuts a little for melting, then smiles. \"Aunty, exchange bonus bhi denge.\"",
-     "Everyone walks out feeling they won. I used to think so too."
+     "Mummy takes the red pouch from her wedding out of the almirah and puts the bangles on the glass counter.",
+     "He runs them through the karat machine, weighs them, knocks off a few percent for \"melting loss\", then smiles. \"Aunty, exchange bonus bhi denge.\"",
+     "Mummy came home happy. I did the maths later and wasn't so sure."
     ],
     "why_swipe": "the reader has lived this scene; the narrator found something out"
    },
    {
     "paragraphs": [
-     "Here's what changed. In May, the duty on imported gold went from 6% to 15%.",
-     "**After the hike, imports fell about 70%.** The wedding season didn't."
+     "In May, the duty on imported gold went from 6% to 15%. Within a month, import volumes fell about 70%.",
+     "**The wedding season didn't.**"
     ],
     "why_swipe": "imports collapsed; the gap is filled from somewhere"
    },
    {
     "paragraphs": [
-     "So more of the gold now comes from your family locker.",
-     "Kalyan says recycled gold was almost half its revenue in April to June.",
-     "**Mummy's almirah is a supply chain.**"
+     "After the hike, more of the gold started coming from family lockers.",
+     "Kalyan says recycled gold was almost half its revenue in April to June, and more than half by June."
     ],
     "why_swipe": "the scale is proven; what does the jeweller get beyond the gold?"
    },
    {
     "paragraphs": [
-     "Exchange offers aren't new. What changed in May is how much he needs your gold.",
-     "At most big chains, an exchange only works against a new purchase. The bonus is a sweetener he earns back on the new piece, in full making charges."
+     "The exchange bonus isn't new. It has always been a way to close a sale.",
+     "What changed in May is how much of that sale now runs on your gold. The bonus might be a genuine deal, or it might come back to him on the new piece.",
+     "**You just can't tell which from the counter.**"
     ],
     "why_swipe": "the seller's side is out; how do you tell if your bonus is real?"
    },
    {
     "paragraphs": [
-     "So before you say yes, get two numbers in writing.",
-     "One: the new piece with the exchange, after the bonus. Two: the new piece without exchange, minus what he'd pay in cash for the same bangles.",
-     "**If one isn't clearly lower, it was never a bonus. It was the price of mummy's gold.**"
+     "So get two numbers in writing, a few days before Dhanteras.",
+     "A: the new piece with the exchange, after the bonus. B: the new piece at full price, minus what another jeweller pays you in cash for the same bangles.",
+     "**If A isn't clearly lower than B, the bonus was just a fair price for mummy's gold, called a gift.**"
     ]
    }
   ],
@@ -91,11 +101,12 @@
   "caption_style": "question",
   "cover": {
    "headline": "Mummy's old gold is now the jeweller's [supply line.]",
-   "sub": "This Dhanteras, the exchange bonus isn't generosity."
+   "sub": "Before you take the exchange bonus, check one thing."
   },
   "end": {
-   "save": "Take the two numbers to the jeweller's counter on 6 Nov.",
-   "send": "Know someone exchanging old gold this Dhanteras? Send it to them."
+   "save": "Get the two numbers a few days before 6 Nov.",
+   "send": "Send it to whoever in your family is exchanging gold this Dhanteras.",
+   "promise": "The real price of things in India."
   }
  },
  "sources": [],
@@ -104,7 +115,7 @@
    "note": "written and tested in the 2026-10-23 quality reset (stages 1-2), approved by the owner"
   }
  ],
- "updated_at": "2026-10-23T07:33:55.420853+00:00",
+ "updated_at": "2026-10-23T08:35:30.928696+00:00",
  "verification_cache": {
   "India's customs duty on gold rose from 6% to 15%.": {
    "id": "c1",
@@ -303,6 +314,860 @@
      "tier": 2
     }
    ]
+  },
+  "India's import duty on gold was raised from 6% to 15% in May 2026.": {
+   "id": "c1",
+   "verdict": "supported",
+   "event_date": "2026-05-13",
+   "correct": "Basic Customs Duty on gold rose from 5% to 10% and AIDC from 1% to 5%, taking the combined/effective customs duty from 6% to 15%, via Customs Notifications 15-18/2026 dated 12 May 2026, effective 13 May 2026.",
+   "sources": [
+    {
+     "url": "https://taxguru.in/custom-duty/customs-duty-gold-silver-raised-15-percent-effective-13-may-2026.html",
+     "publisher": "TaxGuru",
+     "published_date": "2026-05-13",
+     "tier": 2,
+     "quote": "Four customs notifications were issued on May 12, 2026 ... This 15% rate is achieved through coordinated changes across three components ... standardize the effective import duty on gold and silver bullion at 15%."
+    },
+    {
+     "url": "https://www.businesstoday.in/latest/economy/story/government-raises-gold-import-duty-to-15-will-it-cool-indias-appetite-for-bullion-534099-2026-05-31",
+     "publisher": "Business Today",
+     "published_date": "2026-05-31",
+     "tier": 2,
+     "quote": "India raised gold import duty from 6% to 15% ... the new rates came into effect on May 13, 2026 ... Basic Customs Duty increased to 10%, AIDC increased to 5%."
+    }
+   ]
+  },
+  "Gold import volumes fell by about 70% within a month of the May 2026 duty hike.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": "2026-06-18",
+   "correct": "Within about a month of the 13 May 2026 duty hike, a government official said monthly gold imports fell roughly 70%, from 75–100 tonnes to 25–30 tonnes (though May's import value rose 34% YoY to $3.41bn on higher prices).",
+   "sources": [
+    {
+     "url": "https://www.business-standard.com/economy/news/india-s-gold-imports-drop-70-to-30-tonnes-after-duty-hike-official-126061800447_1.html",
+     "publisher": "Business Standard",
+     "published_date": "2026-06-18",
+     "tier": 2,
+     "quote": "India's gold imports drop 70% to 30 tonnes after duty hike: Official ... reduced about 70 per cent to 25-30 tonnes after customs duty ... more than doubled to 15 per cent."
+    },
+    {
+     "url": "https://www.tribuneindia.com/news/business/gold-imports-plunge-70-to-30-tonnes-after-customs-duty-hike/",
+     "publisher": "The Tribune",
+     "published_date": "2026-06-18",
+     "tier": 2,
+     "quote": "Following a month-long increase in import duties, gold imports have dropped from 75-100 tonnes to 25-30 tonnes."
+    }
+   ]
+  },
+  "A growing share of the gold jewellers sell now comes from customers' old gold (family lockers) rather than fresh imports.": {
+   "id": "c3",
+   "verdict": "supported",
+   "event_date": "2026-05-13",
+   "correct": "Immediately after the May 2026 duty hike, jewellers predicted exchange/recycled gold would become the dominant source of supply; by October 2026 (just before go-live) this was confirmed as an ongoing, not one-off, shift.",
+   "sources": [
+    {
+     "url": "https://theprint.in/economy/gold-duty-hike-may-hit-volumes-spike-recycling-jewellers/2930152/",
+     "publisher": "ThePrint",
+     "published_date": "2026-05-13",
+     "tier": 2,
+     "quote": "Malabar Group Chairman M P Ahammad stated: 'exchange of old gold for new jewellery is likely to emerge as the dominant mode of purchase over the coming quarters.'"
+    },
+    {
+     "url": "https://www.gold.org/goldhub/gold-focus/2026/10/india-gold-market-update-seasonal-demand-shows-early-strength",
+     "publisher": "World Gold Council",
+     "published_date": "2026-10-20",
+     "tier": 1,
+     "quote": "Old-gold exchange transactions remained an important source of demand, rising by more than 10% y/y and accounting for over 50% of sales for some retailers."
+    }
+   ]
+  },
+  "Recycled (exchanged) gold made up almost half of Kalyan Jewellers' revenue in the April–June 2026 quarter.": {
+   "id": "c4",
+   "verdict": "supported",
+   "event_date": "2026-08-04",
+   "correct": "Recycled/exchanged gold accounted for over 46% of Kalyan Jewellers' consolidated revenue in Q1 FY27 (April–June 2026), per the company's own business update (filed 7 July 2026) and Q1 FY27 results (4 Aug 2026).",
+   "sources": [
+    {
+     "url": "https://in.investing.com/news/company-news/kalyan-jewellers-q1-fy27-slides-38-revenue-growth-amid-margin-pressure-93CH-5533370",
+     "publisher": "Investing.com",
+     "published_date": "2026-08-04",
+     "tier": 2,
+     "quote": "recycled gold's share rise to 46% of sales, up from 30% in Q1 FY26 and 31% in Q4 FY26."
+    },
+    {
+     "url": "https://www.theweek.in/news/biz-tech/2026/09/12/strategic-sales-move-or-government-nudge-why-are-jewellers-pushing-for-selling-old-gold.html",
+     "publisher": "The Week",
+     "published_date": "2026-09-12",
+     "tier": 2,
+     "quote": "46 per cent of Kalyan Jewellers' revenue in the first quarter of FY27 was from recycled gold."
+    }
+   ]
+  },
+  "Recycled gold's share of Kalyan Jewellers' revenue rose to more than half by June 2026.": {
+   "id": "c5",
+   "verdict": "supported",
+   "event_date": "2026-07-07",
+   "correct": "Per Kalyan Jewellers' own Q1 FY27 business update (filed with exchanges on 7 July 2026), the recycled-gold share of revenue, which averaged 46% for the quarter, exceeded 55% specifically in June 2026.",
+   "sources": [
+    {
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/aaeaacc0-6c9a-4414-a67a-4de877feb32f.pdf",
+     "publisher": "Kalyan Jewellers India Ltd (BSE corporate filing)",
+     "published_date": "2026-07-07",
+     "tier": 1,
+     "quote": "helping increase the share of recycled gold to over 46% during Q1 FY 2027. For the month of June, the share of recycled gold as a percentage of revenue was in excess of 55%."
+    },
+    {
+     "url": "https://www.multibagg.ai/market-pulse/articles/kalyan-jewellers-q1-fy27-margins-cmsjx7kbh4aj70zn6zri9t5rg",
+     "publisher": "Multibagg",
+     "published_date": "2026-08-08",
+     "tier": 3,
+     "quote": "Recycled gold accounted for over 46% of revenue during Q1 FY27 ... June exceeded 55%."
+    }
+   ]
+  },
+  "Jewellers offering gold exchange schemes is not a new practice; it predates May 2026.": {
+   "id": "c6",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": "Gold exchange schemes are a long-running jewellery-industry practice that predates the May 2026 duty hike by years (Tanishq cites 5+ years of its exchange program; such schemes were already a staple of Akshaya Tritiya marketing/coverage well before 2026).",
+   "sources": [
+    {
+     "url": "https://www.tanishq.co.in/exchange?lang=en_IN",
+     "publisher": "Tanishq (Titan Company) — official program page",
+     "published_date": null,
+     "tier": 1,
+     "quote": "Tanishq has over 5 years of exchange expertise in India ... over 2.5 million customers have confidently exchanged their gold through Tanishq."
+    },
+    {
+     "url": "https://gullak.money/blog/gold-exchange-2025/",
+     "publisher": "Gullak",
+     "published_date": "2025-08-21",
+     "tier": 3,
+     "quote": "gold exchange schemes... popular in India... Tanishq '3139557+ exchange customers'."
+    }
+   ]
+  },
+  "Part of the value of an exchange bonus is recovered by jewellers through higher making charges on the new piece sold.": {
+   "id": "c7",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": "Jewellers can advertise a generous headline exchange rate on old gold while recovering part of that value via higher making charges on the new piece purchased — a mechanism flagged as a consumer caution, though independent corroboration beyond this outlet was limited despite extensive searching.",
+   "sources": [
+    {
+     "url": "https://www.business-standard.com/finance/personal-finance/gold-exchange-schemes-how-to-avoid-losses-while-trading-old-jewellery-126052100177_1.html",
+     "publisher": "Business Standard",
+     "published_date": "2026-05-21",
+     "tier": 2,
+     "quote": "Some retailers may offer a higher headline exchange rate but compensate through elevated making charges on the new purchase."
+    }
+   ]
+  },
+  "Kalyan Jewellers' profit margins declined in the April–June 2026 quarter.": {
+   "id": "c8",
+   "verdict": "supported",
+   "event_date": "2026-08-04",
+   "correct": "Kalyan Jewellers' EBITDA margin fell to about 6.0% in Q1 FY27 (Apr–Jun 2026) from about 7.0–7.2% in Q1 FY26, and standalone PBT margin contracted to 5.1% from 5.5–5.6%, driven partly by higher old-gold exchange penetration and promotional offers.",
+   "sources": [
+    {
+     "url": "https://in.investing.com/news/company-news/kalyan-jewellers-q1-fy27-slides-38-revenue-growth-amid-margin-pressure-93CH-5533370",
+     "publisher": "Investing.com",
+     "published_date": "2026-08-04",
+     "tier": 2,
+     "quote": "EBITDA margin declined to 6.0% from 7.0% year-over-year ... Standalone profit before tax (PBT) margin contracted to 5.1% from 5.5%-5.6% in the prior year period."
+    },
+    {
+     "url": "https://www.multibagg.ai/market-pulse/articles/kalyan-q1fy27-97165",
+     "publisher": "Multibagg",
+     "published_date": "2026-08-08",
+     "tier": 3,
+     "quote": "Kalyan Jewellers' EBITDA margin stood at 5.97% in Q1 FY27, compared with 7.20% in Q1 FY26, declining by 122 basis points year-over-year."
+    }
+   ]
+  },
+  "The import duty on gold was raised from 6% to 15% in May 2026.": {
+   "id": "c1",
+   "verdict": "supported",
+   "event_date": "2026-05-13",
+   "correct": "Government notifications (15/2026–18/2026-Customs, dated 12 May 2026) raised the combined BCD+AIDC duty on gold and silver bullion from 6% to 15%, effective 13 May 2026 (BCD doubled from 5% to 10%, AIDC raised from 1% to 5%).",
+   "sources": [
+    {
+     "url": "https://theprint.in/economy/govt-hikes-import-duty-on-gold-silver-to-15-pc-to-curb-non-essential-imports-save-forex-reserves/2929789/",
+     "publisher": "ThePrint",
+     "published_date": "2026-05-13",
+     "quote": "Effective May 13, import duty on gold and silver has been increased from 6 per cent to 15 per cent",
+     "tier": 2
+    },
+    {
+     "url": "https://taxguru.in/custom-duty/customs-duty-gold-silver-raised-15-percent-effective-13-may-2026.html",
+     "publisher": "TaxGuru (citing Notifications No. 15–18/2026-Customs dated 12 May 2026)",
+     "published_date": "2026-05-13",
+     "quote": "The combined effective import duty on Gold and Silver Bullion now stands at 15%",
+     "tier": 3
+    }
+   ]
+  },
+  "Within a month of the duty hike, gold import volumes fell by about 70%.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": "2026-06-18",
+   "correct": "About a month after the 13 May 2026 duty hike, monthly gold import volumes fell roughly 70%, from 75-100 tonnes to 25-30 tonnes, per a government official's statement reported June 18, 2026.",
+   "sources": [
+    {
+     "url": "https://www.tribuneindia.com/news/business/gold-imports-plunge-70-to-30-tonnes-after-customs-duty-hike/",
+     "publisher": "The Tribune",
+     "published_date": "2026-06-18",
+     "quote": "Gold imports have been reduced to 25-30 tonnes after an import duty hike in a month, from 75-100 tonnes earlier",
+     "tier": 2
+    },
+    {
+     "url": "https://telanganatoday.com/gold-imports-drop-70-pc-to-30-tonnes-after-duty-hike-official",
+     "publisher": "Telangana Today (PTI)",
+     "published_date": "2026-06-18",
+     "quote": "Gold imports have been reduced to 25-30 tonnes after an import duty hike in a month, from 75-100 tonnes earlier",
+     "tier": 2
+    }
+   ]
+  },
+  "Since the May duty hike, a greater share of jewellers' gold supply has come from customers' old gold (family lockers) rather than imports.": {
+   "id": "c3",
+   "verdict": "supported",
+   "event_date": "2026-09-12",
+   "correct": "Since the May 2026 duty hike made imports costlier, jewellers have leaned harder on old/recycled household gold; by Sept-Oct 2026 the industry-wide exchange share rose to ~50% of gold purchases (from ~30% before) versus collapsed import volumes (gold imports fell to $1.8bn in Sept 2026 from $9.61bn in Sept 2025), and this was still true on the Oct 23, 2026 go-live date.",
+   "sources": [
+    {
+     "url": "https://www.theweek.in/news/biz-tech/2026/09/12/strategic-sales-move-or-government-nudge-why-are-jewellers-pushing-for-selling-old-gold.html",
+     "publisher": "The Week",
+     "published_date": "2026-09-12",
+     "quote": "old gold from households became a cheap source of raw material with less exposure to foreign exchange movements and import costs",
+     "tier": 2
+    },
+    {
+     "url": "https://www.businesstoday.in/india/story/festive-cheer-for-gold-buying-despite-import-dip-563234-2026-10-23",
+     "publisher": "Business Today",
+     "published_date": "2026-10-23",
+     "quote": "Exchange of gold, which was traditionally at about 30% of gold purchases is now seen at about 50% ... India imported gold worth $1.8 billion in September 2026 as against $9.61 billion in September 2025",
+     "tier": 2
+    }
+   ]
+  },
+  "Kalyan Jewellers' recycled (old customer) gold accounted for almost half of its revenue in the April–June quarter.": {
+   "id": "c4",
+   "verdict": "supported",
+   "event_date": "2026-08-04",
+   "correct": "In Q1 FY27 (April-June 2026), recycled/old gold made up just over 46% of Kalyan Jewellers' revenue, per the company's own Q1 FY27 earnings call.",
+   "sources": [
+    {
+     "url": "https://stockanalysis.com/quote/nse/KALYANKJIL/transcripts/663771-q1-26-27/",
+     "publisher": "Kalyan Jewellers India Ltd. — Q1 FY27 Earnings Call (company transcript)",
+     "published_date": "2026-08-04",
+     "quote": "helping us to increase the share of recycled gold as a percentage of revenue to over 46% during Q1 FY 2027",
+     "tier": 1
+    },
+    {
+     "url": "https://www.theweek.in/news/biz-tech/2026/09/12/strategic-sales-move-or-government-nudge-why-are-jewellers-pushing-for-selling-old-gold.html",
+     "publisher": "The Week",
+     "published_date": "2026-09-12",
+     "quote": "46 per cent of Kalyan Jewellers' revenue in the first quarter of FY27 was from recycled gold",
+     "tier": 2
+    }
+   ]
+  },
+  "Kalyan Jewellers' recycled gold accounted for more than half of its revenue by June.": {
+   "id": "c5",
+   "verdict": "supported",
+   "event_date": "2026-08-04",
+   "correct": "True specifically for the month of June, not the full April-June quarter: Kalyan Jewellers' own Q1 FY27 earnings call disclosed recycled gold was in excess of 55% of revenue in June 2026 alone (versus 46% for the quarter overall, per c4). If the post pairs c4 and c5, clarify that c4 is the quarter average and c5 is the June figure, to avoid the two reading as contradictory.",
+   "sources": [
+    {
+     "url": "https://stockanalysis.com/quote/nse/KALYANKJIL/transcripts/663771-q1-26-27/",
+     "publisher": "Kalyan Jewellers India Ltd. — Q1 FY27 Earnings Call (company transcript)",
+     "published_date": "2026-08-04",
+     "quote": "For the month of June, the share of recycled gold was in excess of 55%",
+     "tier": 1
+    }
+   ]
+  },
+  "Gold exchange offers by jewellers existed before this year and are not a new practice.": {
+   "id": "c6",
+   "verdict": "supported",
+   "event_date": "2001-01-01",
+   "correct": "Gold exchange schemes predate 2026 by decades: Titan/Tanishq launched one of India's first jeweller gold-exchange programmes roughly 25 years ago (c. early 2000s), and exchange-sourced gold already made up 15% of Titan's supply in FY13, rising to 40% by FY18 — well before the 2026 duty hike revived interest in such schemes.",
+   "sources": [
+    {
+     "url": "https://www.outlookbusiness.com/strategy/feature/the-alchemist-4845",
+     "publisher": "Outlook Business",
+     "published_date": "2018-12-18",
+     "quote": "For Titan, the contribution of gold exchange (through customers) was hardly 15% in FY13... the contribution went up to 40% in FY18",
+     "tier": 2
+    },
+    {
+     "url": "https://www.tradingview.com/news/moneycontrol:f34148cfb094b:0-top-jewellers-push-for-old-gold-exchange-to-unlock-home-reserves/",
+     "publisher": "Moneycontrol",
+     "published_date": "2026-05-13",
+     "quote": "Titan, the country's largest jewellery retailer, was perhaps one of the first to come out with a gold exchange programme some 25 years ago",
+     "tier": 2
+    }
+   ]
+  },
+  "The import duty on gold was raised from 6% to 15% in May.": {
+   "id": "c1",
+   "verdict": "supported",
+   "event_date": "2026-05-13",
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.fxstreet.com/news/india-raises-import-tariffs-on-gold-and-silver-to-15-reuters-202605130256",
+     "publisher": "FXStreet (Reuters wire)",
+     "published_date": "2026-05-13",
+     "quote": "The Indian government has raised import tariffs on Gold and Silver to 15% from 6%",
+     "tier": 2
+    },
+    {
+     "url": "https://taxguru.in/custom-duty/customs-duty-gold-silver-raised-15-percent-effective-13-may-2026.html",
+     "publisher": "TaxGuru",
+     "published_date": "2026-05-13",
+     "quote": "Effective Date: May 13, 2026 — Notification No. 15/2026-Customs (dated May 12, 2026); Basic Customs Duty raised and AIDC raised, taking the combined effective rate on gold and silver bullion to 15%",
+     "tier": 2
+    }
+   ]
+  },
+  "Gold import volumes fell by about 70% within a month of the duty hike.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": "2026-06-18",
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.tribuneindia.com/news/business/gold-imports-plunge-70-to-30-tonnes-after-customs-duty-hike/",
+     "publisher": "The Tribune",
+     "published_date": "2026-06-18",
+     "quote": "India's imports of gold have decreased by almost 70 per cent to 25–30 tonnes after the customs levy on the yellow metal was more than doubled to 15 per cent... Following a month-long increase in import duties, gold imports have dropped from 75-100 tonnes to 25-30 tonnes.",
+     "tier": 2
+    },
+    {
+     "url": "https://www.outlookbusiness.com/news/gold-imports-drop-70-to-30-tonnes-after-duty-hike-official",
+     "publisher": "Outlook Business",
+     "published_date": "2026-06-18",
+     "quote": "Gold imports have been reduced to 25-30 tonnes after an import duty hike in a month, from 75-100 tonnes earlier, the official said.",
+     "tier": 2
+    }
+   ]
+  },
+  "Since the May duty hike, old gold brought in by customers has become a large part of what jewellers sell as new jewellery.": {
+   "id": "c3",
+   "verdict": "supported",
+   "event_date": "2026-05-22",
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.gold.org/goldhub/gold-focus/2026/05/india-gold-market-update-import-tightening",
+     "publisher": "World Gold Council",
+     "published_date": "2026-05-22",
+     "quote": "ample supply from the exchange of old gold jewellery for new, which limited full price pass-through of the duty increase",
+     "tier": 1
+    },
+    {
+     "url": "https://taxguru.in/custom-duty/gold-tariff-hike-gold-exchange-crucial-jewellery-retailers.html",
+     "publisher": "TaxGuru",
+     "published_date": "2026-09-01",
+     "quote": "For organized retail jewellers, old gold exchanges constitute 30-35% of their overall product range... the 15% customs duty (effective May 13, 2026) creates cost pressure, making domestic recycling economically preferable to imports.",
+     "tier": 2
+    }
+   ]
+  },
+  "After the duty hike, a greater share of jewellers' gold supply started coming from customers' old gold (family lockers) rather than imports.": {
+   "id": "c4",
+   "verdict": "supported",
+   "event_date": "2026-05-22",
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.gold.org/goldhub/gold-focus/2026/10/india-gold-market-update-seasonal-demand-shows-early-strength",
+     "publisher": "World Gold Council",
+     "published_date": "2026-10-20",
+     "quote": "Old-gold exchange transactions remained an important source of demand, rising by more than 10% y/y and accounting for over 50% of sales for some retailers... greater availability of domestic supply, including recycled gold generated through old-gold exchange programmes.",
+     "tier": 1
+    },
+    {
+     "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-kalyan-jewellers-posts-strong-q1-2027-growth-as-shares-fall-93CH-4834371",
+     "publisher": "Investing.com (Kalyan Jewellers Q1 FY27 earnings call)",
+     "published_date": "2026-08-04",
+     "quote": "helping us to increase the share of recycled gold as a percentage of revenue to over 46% during Q1 FY 2027... up from 30% in Q1 FY26",
+     "tier": 1
+    }
+   ]
+  },
+  "Kalyan Jewellers has stated that recycled (old customer) gold made up almost half of its revenue in the April-to-June period.": {
+   "id": "c5",
+   "verdict": "supported",
+   "event_date": "2026-08-04",
+   "correct": "Stated on the Q1 FY27 (Apr-Jun 2026) earnings call: recycled gold was over 46% of consolidated revenue for the quarter.",
+   "sources": [
+    {
+     "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-kalyan-jewellers-posts-strong-q1-2027-growth-as-shares-fall-93CH-4834371",
+     "publisher": "Investing.com (Kalyan Jewellers Q1 FY27 earnings call)",
+     "published_date": "2026-08-04",
+     "quote": "helping us to increase the share of recycled gold as a percentage of revenue to over 46% during Q1 FY 2027",
+     "tier": 1
+    },
+    {
+     "url": "https://alphastreet.com/india/kalyan-jewellers-india-limited-kalyankjil-q1-2027-earnings-call-transcript/",
+     "publisher": "AlphaStreet",
+     "published_date": "2026-08-04",
+     "quote": "The initiative was well received by our customers, helping us to increase the share of recycled gold as a percentage of revenue to over 46% during Q1 FY 2027.",
+     "tier": 1
+    }
+   ]
+  },
+  "Kalyan Jewellers has stated that recycled (old customer) gold made up more than half of its revenue by June.": {
+   "id": "c6",
+   "verdict": "supported",
+   "event_date": "2026-08-04",
+   "correct": "Stated on the Q1 FY27 earnings call (reported Aug 4, 2026): for the month of June 2026 specifically, recycled gold was in excess of 55% of revenue (not 'by June' cumulative, but the June monthly figure).",
+   "sources": [
+    {
+     "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-kalyan-jewellers-posts-strong-q1-2027-growth-as-shares-fall-93CH-4834371",
+     "publisher": "Investing.com (Kalyan Jewellers Q1 FY27 earnings call)",
+     "published_date": "2026-08-04",
+     "quote": "For the month of June, the share of recycled gold was in excess of 55%",
+     "tier": 1
+    },
+    {
+     "url": "https://alphastreet.com/india/kalyan-jewellers-india-limited-kalyankjil-q1-2027-earnings-call-transcript/",
+     "publisher": "AlphaStreet",
+     "published_date": "2026-08-04",
+     "quote": "For June specifically, he noted: \"For the month of June, the share of recycled gold was in excess of 55%,\" and added that management's target going forward is to \"maintain the share in the range of 55%-60%.\"",
+     "tier": 1
+    }
+   ]
+  },
+  "Jewellers offer an \"exchange bonus\" to customers who trade in old gold for new jewellery.": {
+   "id": "c7",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.indianjeweller.in/Indian-Jewellery-News/16568/joyalukkas-offers-additional-rs-150-per-gram-on-old-gold-exchange",
+     "publisher": "Indian Jeweller",
+     "published_date": "2026-10-17",
+     "quote": "offering customers an additional Rs 150 per gram over the prevailing exchange value of old gold jewellery",
+     "tier": 2
+    },
+    {
+     "url": "https://retailintel.in/signal/tanishq-offers-0-deduction-on-18kt-old-gold-exchanges-ahead-89ee3eb2",
+     "publisher": "Business Today / RetailIntel",
+     "published_date": "2026-09-17",
+     "quote": "0% deduction on 18KT+ old-gold exchanges ahead of wedding season... exchange programme brought over 14,000 kg of gold back into circulation last year and has served more than 36 lakh Indians",
+     "tier": 2
+    }
+   ]
+  },
+  "Gold import volumes fell by about 70% within a month of the May duty hike.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": "2026-06-18",
+   "correct": "Duty hiked to 15% on 2026-05-13; by 2026-06-18, a government/finance-ministry official said monthly imports had fallen to 25-30 tonnes from 75-100 tonnes, a ~70% drop within about a month.",
+   "sources": [
+    {
+     "url": "https://www.outlookbusiness.com/news/gold-imports-drop-70-to-30-tonnes-after-duty-hike-official",
+     "publisher": "Outlook Business",
+     "published_date": "2026-06-18",
+     "quote": "Gold imports have been reduced to 25-30 tonnes after an import duty hike in a month, from 75-100 tonnes earlier",
+     "tier": 2
+    },
+    {
+     "url": "https://www.tribuneindia.com/news/business/gold-imports-plunge-70-to-30-tonnes-after-customs-duty-hike/",
+     "publisher": "The Tribune",
+     "published_date": "2026-06-18",
+     "quote": "Following a month-long increase in import duties, gold imports have dropped from 75-100 tonnes to 25-30 tonnes.",
+     "tier": 2
+    }
+   ]
+  },
+  "After the May duty hike, a larger share of jewellers' gold supply began coming from old gold handed over by families (family lockers) rather than imports.": {
+   "id": "c3",
+   "verdict": "supported",
+   "event_date": "2026-05-13",
+   "correct": "After the 13 May 2026 duty hike (6%→15%), organised jewellers substituted imported bullion with secondary/old gold; by Sept 2026 old-gold exchange made up 30-35% of organised retailers' product range, and Kalyan Jewellers' recycled-gold revenue share rose to 46% in Q1 FY27 and over 55% in June alone.",
+   "sources": [
+    {
+     "url": "https://taxguru.in/custom-duty/gold-tariff-hike-gold-exchange-crucial-jewellery-retailers.html",
+     "publisher": "TaxGuru",
+     "published_date": "2026-09-01",
+     "quote": "For organized retail jewellers, old gold exchanges constitute 30-35% of their overall product range.",
+     "tier": 3
+    },
+    {
+     "url": "https://informistmedia.com/EquityWire/56764/Analyst-Concall-Kalyan-Jewellers-aims-to-cut-import-reliance-to-aid-margins",
+     "publisher": "Informist Media",
+     "published_date": "2026-08-04",
+     "quote": "Recycled gold accounted for more than 46% of revenues during the quarter and exceeded 55% in June.",
+     "tier": 2
+    },
+    {
+     "url": "https://theprint.in/economy/gold-duty-hike-may-hit-volumes-spike-recycling-jewellers/2930152/",
+     "publisher": "ThePrint",
+     "published_date": "2026-05-13",
+     "quote": "exchange of old gold for new jewellery is likely to emerge as the dominant mode of purchase over the coming quarters",
+     "tier": 2
+    }
+   ]
+  },
+  "Kalyan Jewellers has stated that recycled/old gold made up almost half of its revenue in the April–June 2026 quarter.": {
+   "id": "c4",
+   "verdict": "supported",
+   "event_date": "2026-08-04",
+   "correct": "For Q1 FY27 (Apr-Jun 2026), Kalyan Jewellers' recycled/old gold accounted for over 46% of revenue, as disclosed on its Q1 FY27 earnings call (4 Aug 2026).",
+   "sources": [
+    {
+     "url": "https://www.kalyanjewellers.net/images/investors-new/pdf/quarterly-results/FY%202026-2027/Earnings%20Call%20Transcript%202027/Q1.pdf",
+     "publisher": "Kalyan Jewellers India Ltd (company earnings call transcript)",
+     "published_date": "2026-08-04",
+     "quote": "the share of recycled gold as a percentage of revenue to over 46% during Q1 FY 2027",
+     "tier": 1
+    },
+    {
+     "url": "https://informistmedia.com/EquityWire/56764/Analyst-Concall-Kalyan-Jewellers-aims-to-cut-import-reliance-to-aid-margins",
+     "publisher": "Informist Media",
+     "published_date": "2026-08-04",
+     "quote": "Recycled gold accounted for more than 46% of revenues during the quarter and exceeded 55% in June.",
+     "tier": 2
+    }
+   ]
+  },
+  "Kalyan Jewellers has stated that recycled/old gold made up more than half of its revenue by June 2026.": {
+   "id": "c5",
+   "verdict": "supported",
+   "event_date": "2026-08-04",
+   "correct": "Precision matters: the >50% figure is the single-month (June 2026) run-rate, not the Q1 average (which was 46%). Kalyan disclosed on 4 Aug 2026 that recycled gold 'exceeded 55%' specifically for the month of June 2026.",
+   "sources": [
+    {
+     "url": "https://www.kalyanjewellers.net/images/investors-new/pdf/quarterly-results/FY%202026-2027/Earnings%20Call%20Transcript%202027/Q1.pdf",
+     "publisher": "Kalyan Jewellers India Ltd (company earnings call transcript)",
+     "published_date": "2026-08-04",
+     "quote": "For the month of June, the share of recycled gold was in excess of 55%",
+     "tier": 1
+    },
+    {
+     "url": "https://informistmedia.com/EquityWire/56764/Analyst-Concall-Kalyan-Jewellers-aims-to-cut-import-reliance-to-aid-margins",
+     "publisher": "Informist Media",
+     "published_date": "2026-08-04",
+     "quote": "Recycled gold accounted for more than 46% of revenues during the quarter and exceeded 55% in June.",
+     "tier": 2
+    }
+   ]
+  },
+  "The jeweller practice of offering an 'exchange bonus' to close a sale existed before the May 2026 duty hike and is not a new practice.": {
+   "id": "c6",
+   "verdict": "supported",
+   "event_date": "2013-02-01",
+   "correct": "Exchange bonuses on old gold are a long-standing jeweller practice predating the 2026 duty hike — e.g. Joyalukkas ran such offers (Rs 250/gram) in Dec 2025-Jan 2026, and Tanishq's gold-exchange program had already processed 2 million customers/100,000kg of gold by June 2023, with Joyalukkas running gold-exchange promotions as far back as 2013.",
+   "sources": [
+    {
+     "url": "https://www.tribuneindia.com/news/india/joyalukkas-announces-the-season-of-gifting-campaign-with-gold-diamond-offers/",
+     "publisher": "The Tribune",
+     "published_date": "2025-12-13",
+     "quote": "Customers can avail themselves of an additional Rs 250 per gram on old gold exchange",
+     "tier": 2
+    },
+    {
+     "url": "https://indianretailer.com/news/tanishq-jewellery-launches-revamped-gold-exchange-offerpolicy-2023-offering-unmatched-value",
+     "publisher": "Indian Retailer",
+     "published_date": "2023-06-02",
+     "quote": "100,000kg of gold exchanged ... from approximately 2 million customers",
+     "tier": 2
+    }
+   ]
+  },
+  "Since May 2026, old gold exchanged by customers has become a significant portion of what jewellers sell.": {
+   "id": "c8",
+   "verdict": "supported",
+   "event_date": "2026-05-13",
+   "correct": "Since the 13 May 2026 duty hike, old-gold exchange has indeed become a significant share of jewellers' sales: ~30-35% of product range for organised retailers generally, 46-55%+ of revenue at Kalyan Jewellers, and ~65% of sales at Joy Alukkas by September 2026.",
+   "sources": [
+    {
+     "url": "https://www.theweek.in/news/biz-tech/2026/09/12/strategic-sales-move-or-government-nudge-why-are-jewellers-pushing-for-selling-old-gold.html",
+     "publisher": "The Week",
+     "published_date": "2026-09-12",
+     "quote": "Currently, nearly 65 per cent of jewellery sales at Joy Alukkas are from old gold exchanges.",
+     "tier": 2
+    },
+    {
+     "url": "https://taxguru.in/custom-duty/gold-tariff-hike-gold-exchange-crucial-jewellery-retailers.html",
+     "publisher": "TaxGuru",
+     "published_date": "2026-09-01",
+     "quote": "For organized retail jewellers, old gold exchanges constitute 30-35% of their overall product range.",
+     "tier": 3
+    }
+   ]
   }
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "India's import duty on gold was raised from 6% to 15% in May 2026.",
+    "sentence": "In May, the duty on imported gold went from 6% to 15%.",
+    "type": "event",
+    "core": true,
+    "framed_as": "past"
+   },
+   {
+    "id": "c2",
+    "text": "Gold import volumes fell by about 70% within a month of the May duty hike.",
+    "sentence": "Within a month, import volumes fell about 70%.",
+    "type": "figure",
+    "core": true,
+    "framed_as": "past"
+   },
+   {
+    "id": "c3",
+    "text": "After the May duty hike, a larger share of jewellers' gold supply began coming from old gold handed over by families (family lockers) rather than imports.",
+    "sentence": "After the hike, more of the gold started coming from family lockers.",
+    "type": "event",
+    "core": true,
+    "framed_as": "past"
+   },
+   {
+    "id": "c4",
+    "text": "Kalyan Jewellers has stated that recycled/old gold made up almost half of its revenue in the April–June 2026 quarter.",
+    "sentence": "Kalyan says recycled gold was almost half its revenue in April to June",
+    "type": "figure",
+    "core": false,
+    "framed_as": "past"
+   },
+   {
+    "id": "c5",
+    "text": "Kalyan Jewellers has stated that recycled/old gold made up more than half of its revenue by June 2026.",
+    "sentence": "and more than half by June.",
+    "type": "figure",
+    "core": false,
+    "framed_as": "past"
+   },
+   {
+    "id": "c6",
+    "text": "The jeweller practice of offering an 'exchange bonus' to close a sale existed before the May 2026 duty hike and is not a new practice.",
+    "sentence": "The exchange bonus isn't new. It has always been a way to close a sale.",
+    "type": "feature",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c7",
+    "text": "The author's mother brought old wedding gold bangles to a jeweller, who karat-tested and weighed them, deducted a percentage for 'melting loss', and offered an exchange bonus; the author later calculated the numbers and found reason to doubt the deal.",
+    "sentence": "He runs them through the karat machine, weighs them, knocks off a few percent for \"melting loss\", then smiles. \"Aunty, exchange bonus bhi denge.\" Mummy came home happy. I did the maths later and wasn't so sure.",
+    "type": "anecdote",
+    "core": false,
+    "framed_as": "past"
+   },
+   {
+    "id": "c8",
+    "text": "Since May 2026, old gold exchanged by customers has become a significant portion of what jewellers sell.",
+    "sentence": "Since May, old gold is a big part of what he sells.",
+    "type": "event",
+    "core": false,
+    "framed_as": "past"
+   },
+   {
+    "id": "c9",
+    "text": "Because the May 2026 duty hike cut gold imports sharply and pushed jewellers to source more gold from customers' old pieces, the 'exchange bonus' offered on that old gold may not be a genuine discount — it could effectively be the fair cash value of the customer's own gold relabeled as a bonus — so the only way to tell is to compare the exchange-price quote against full price minus an independent cash valuation of the same gold.",
+    "sentence": "What changed in May is how much of that sale now runs on your gold. The bonus might be a genuine deal, or it might come back to him on the new piece. You just can't tell which from the counter. So get two numbers in writing... If A isn't clearly lower than B, the bonus was just a fair price for mummy's gold, called a gift.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c1": {
+    "id": "c1",
+    "verdict": "supported",
+    "event_date": "2026-05-13",
+    "correct": "Basic Customs Duty on gold rose from 5% to 10% and AIDC from 1% to 5%, taking the combined/effective customs duty from 6% to 15%, via Customs Notifications 15-18/2026 dated 12 May 2026, effective 13 May 2026.",
+    "sources": [
+     {
+      "url": "https://taxguru.in/custom-duty/customs-duty-gold-silver-raised-15-percent-effective-13-may-2026.html",
+      "publisher": "TaxGuru",
+      "published_date": "2026-05-13",
+      "tier": 2,
+      "quote": "Four customs notifications were issued on May 12, 2026 ... This 15% rate is achieved through coordinated changes across three components ... standardize the effective import duty on gold and silver bullion at 15%."
+     },
+     {
+      "url": "https://www.businesstoday.in/latest/economy/story/government-raises-gold-import-duty-to-15-will-it-cool-indias-appetite-for-bullion-534099-2026-05-31",
+      "publisher": "Business Today",
+      "published_date": "2026-05-31",
+      "tier": 2,
+      "quote": "India raised gold import duty from 6% to 15% ... the new rates came into effect on May 13, 2026 ... Basic Customs Duty increased to 10%, AIDC increased to 5%."
+     }
+    ]
+   },
+   "c2": {
+    "id": "c2",
+    "verdict": "supported",
+    "event_date": "2026-06-18",
+    "correct": "Duty hiked to 15% on 2026-05-13; by 2026-06-18, a government/finance-ministry official said monthly imports had fallen to 25-30 tonnes from 75-100 tonnes, a ~70% drop within about a month.",
+    "sources": [
+     {
+      "url": "https://www.outlookbusiness.com/news/gold-imports-drop-70-to-30-tonnes-after-duty-hike-official",
+      "publisher": "Outlook Business",
+      "published_date": "2026-06-18",
+      "quote": "Gold imports have been reduced to 25-30 tonnes after an import duty hike in a month, from 75-100 tonnes earlier",
+      "tier": 2
+     },
+     {
+      "url": "https://www.tribuneindia.com/news/business/gold-imports-plunge-70-to-30-tonnes-after-customs-duty-hike/",
+      "publisher": "The Tribune",
+      "published_date": "2026-06-18",
+      "quote": "Following a month-long increase in import duties, gold imports have dropped from 75-100 tonnes to 25-30 tonnes.",
+      "tier": 2
+     }
+    ]
+   },
+   "c3": {
+    "id": "c3",
+    "verdict": "supported",
+    "event_date": "2026-05-13",
+    "correct": "After the 13 May 2026 duty hike (6%→15%), organised jewellers substituted imported bullion with secondary/old gold; by Sept 2026 old-gold exchange made up 30-35% of organised retailers' product range, and Kalyan Jewellers' recycled-gold revenue share rose to 46% in Q1 FY27 and over 55% in June alone.",
+    "sources": [
+     {
+      "url": "https://taxguru.in/custom-duty/gold-tariff-hike-gold-exchange-crucial-jewellery-retailers.html",
+      "publisher": "TaxGuru",
+      "published_date": "2026-09-01",
+      "quote": "For organized retail jewellers, old gold exchanges constitute 30-35% of their overall product range.",
+      "tier": 3
+     },
+     {
+      "url": "https://informistmedia.com/EquityWire/56764/Analyst-Concall-Kalyan-Jewellers-aims-to-cut-import-reliance-to-aid-margins",
+      "publisher": "Informist Media",
+      "published_date": "2026-08-04",
+      "quote": "Recycled gold accounted for more than 46% of revenues during the quarter and exceeded 55% in June.",
+      "tier": 2
+     },
+     {
+      "url": "https://theprint.in/economy/gold-duty-hike-may-hit-volumes-spike-recycling-jewellers/2930152/",
+      "publisher": "ThePrint",
+      "published_date": "2026-05-13",
+      "quote": "exchange of old gold for new jewellery is likely to emerge as the dominant mode of purchase over the coming quarters",
+      "tier": 2
+     }
+    ]
+   },
+   "c4": {
+    "id": "c4",
+    "verdict": "supported",
+    "event_date": "2026-08-04",
+    "correct": "For Q1 FY27 (Apr-Jun 2026), Kalyan Jewellers' recycled/old gold accounted for over 46% of revenue, as disclosed on its Q1 FY27 earnings call (4 Aug 2026).",
+    "sources": [
+     {
+      "url": "https://www.kalyanjewellers.net/images/investors-new/pdf/quarterly-results/FY%202026-2027/Earnings%20Call%20Transcript%202027/Q1.pdf",
+      "publisher": "Kalyan Jewellers India Ltd (company earnings call transcript)",
+      "published_date": "2026-08-04",
+      "quote": "the share of recycled gold as a percentage of revenue to over 46% during Q1 FY 2027",
+      "tier": 1
+     },
+     {
+      "url": "https://informistmedia.com/EquityWire/56764/Analyst-Concall-Kalyan-Jewellers-aims-to-cut-import-reliance-to-aid-margins",
+      "publisher": "Informist Media",
+      "published_date": "2026-08-04",
+      "quote": "Recycled gold accounted for more than 46% of revenues during the quarter and exceeded 55% in June.",
+      "tier": 2
+     }
+    ]
+   },
+   "c5": {
+    "id": "c5",
+    "verdict": "supported",
+    "event_date": "2026-08-04",
+    "correct": "Precision matters: the >50% figure is the single-month (June 2026) run-rate, not the Q1 average (which was 46%). Kalyan disclosed on 4 Aug 2026 that recycled gold 'exceeded 55%' specifically for the month of June 2026.",
+    "sources": [
+     {
+      "url": "https://www.kalyanjewellers.net/images/investors-new/pdf/quarterly-results/FY%202026-2027/Earnings%20Call%20Transcript%202027/Q1.pdf",
+      "publisher": "Kalyan Jewellers India Ltd (company earnings call transcript)",
+      "published_date": "2026-08-04",
+      "quote": "For the month of June, the share of recycled gold was in excess of 55%",
+      "tier": 1
+     },
+     {
+      "url": "https://informistmedia.com/EquityWire/56764/Analyst-Concall-Kalyan-Jewellers-aims-to-cut-import-reliance-to-aid-margins",
+      "publisher": "Informist Media",
+      "published_date": "2026-08-04",
+      "quote": "Recycled gold accounted for more than 46% of revenues during the quarter and exceeded 55% in June.",
+      "tier": 2
+     }
+    ]
+   },
+   "c6": {
+    "id": "c6",
+    "verdict": "supported",
+    "event_date": "2013-02-01",
+    "correct": "Exchange bonuses on old gold are a long-standing jeweller practice predating the 2026 duty hike — e.g. Joyalukkas ran such offers (Rs 250/gram) in Dec 2025-Jan 2026, and Tanishq's gold-exchange program had already processed 2 million customers/100,000kg of gold by June 2023, with Joyalukkas running gold-exchange promotions as far back as 2013.",
+    "sources": [
+     {
+      "url": "https://www.tribuneindia.com/news/india/joyalukkas-announces-the-season-of-gifting-campaign-with-gold-diamond-offers/",
+      "publisher": "The Tribune",
+      "published_date": "2025-12-13",
+      "quote": "Customers can avail themselves of an additional Rs 250 per gram on old gold exchange",
+      "tier": 2
+     },
+     {
+      "url": "https://indianretailer.com/news/tanishq-jewellery-launches-revamped-gold-exchange-offerpolicy-2023-offering-unmatched-value",
+      "publisher": "Indian Retailer",
+      "published_date": "2023-06-02",
+      "quote": "100,000kg of gold exchanged ... from approximately 2 million customers",
+      "tier": 2
+     }
+    ]
+   },
+   "c8": {
+    "id": "c8",
+    "verdict": "supported",
+    "event_date": "2026-05-13",
+    "correct": "Since the 13 May 2026 duty hike, old-gold exchange has indeed become a significant share of jewellers' sales: ~30-35% of product range for organised retailers generally, 46-55%+ of revenue at Kalyan Jewellers, and ~65% of sales at Joy Alukkas by September 2026.",
+    "sources": [
+     {
+      "url": "https://www.theweek.in/news/biz-tech/2026/09/12/strategic-sales-move-or-government-nudge-why-are-jewellers-pushing-for-selling-old-gold.html",
+      "publisher": "The Week",
+      "published_date": "2026-09-12",
+      "quote": "Currently, nearly 65 per cent of jewellery sales at Joy Alukkas are from old gold exchanges.",
+      "tier": 2
+     },
+     {
+      "url": "https://taxguru.in/custom-duty/gold-tariff-hike-gold-exchange-crucial-jewellery-retailers.html",
+      "publisher": "TaxGuru",
+      "published_date": "2026-09-01",
+      "quote": "For organized retail jewellers, old gold exchanges constitute 30-35% of their overall product range.",
+      "tier": 3
+     }
+    ]
+   }
+  },
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "None fails outright. The weakest link is the causal framing — that the May 2026 duty hike is *why* the bonus might be illusory. The post itself concedes (slide 5) that an exchange bonus was always potentially just fair metal value relabeled; the hike only raised jewellers' appetite for recycled gold, which could as easily push bonuses up (competition for scrap) as hollow them out. But this framing is presented as context, not as a load-bearing premise, so it doesn't break the take.",
+   "actual_mechanism": "In an Indian gold exchange, the jeweller assays your old piece (karat + weight), applies a melting/purity deduction, values the metal at the prevailing rate, and subtracts that from the new piece's price; you then pay the difference plus making charges, with 3% GST levied on the new piece either way. An 'exchange bonus' is only a genuine discount if it exceeds fair metal value — e.g. a making-charge waiver or a valuation above spot — rather than merely waiving the melting-loss deduction you'd otherwise lose. Because the metal value and the 'bonus' are bundled into one counter quote, the only way to isolate a real discount is the post's A-vs-B test: exchange-quote-after-bonus versus full-price-minus-independent-cash-valuation.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://www.gold.org/goldhub/gold-focus/2026/05/india-gold-market-update-import-tightening",
+     "published_date": "2026-05",
+     "quote": "India increased the import duty on gold and silver to 15% from 6%, effective 13 May 2026, via CBIC notifications, raising the basic customs duty to 10% plus a 5% Agriculture Infrastructure and Development Cess."
+    },
+    {
+     "url": "https://www.outlookbusiness.com/news/gold-imports-drop-70-to-30-tonnes-after-duty-hike-official",
+     "published_date": "2026-06-18",
+     "quote": "Gold imports plunged about 70% to 25–30 tonnes a month after the customs duty was hiked to 15%, down from 75–100 tonnes per month."
+    },
+    {
+     "url": "https://www.angelone.in/news/stocks/kalyan-jewellers-share-price-falls-over-6-reports-38-revenue-growth-in-q1-fy27",
+     "published_date": "2026-07",
+     "quote": "Recycled gold accounted for 46.3% of total revenue in Q1 FY27 and 55.4% in June 2026, with management targeting 55–60% going forward via its 'Shine with India' recirculation campaign."
+    }
+   ]
+  },
+  "text_hash": "899ec6e0e0e32bfdcd6365ee41158bef2095cf94",
+  "at": "2026-10-23T08:35:30.928665+00:00"
  }
 }

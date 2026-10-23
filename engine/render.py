@@ -256,7 +256,7 @@ def render_end(end: dict, n: int) -> Image.Image:
     d = ImageDraw.Draw(img)
     _header(img, d, large=True, on_teal=True)
     y = 330
-    for line in _plain_lines(config.END_PROMISE, _font("Bold", 84), W - 2 * MARGIN):
+    for line in _plain_lines(end.get("promise") or config.END_PROMISE, _font("Bold", 84), W - 2 * MARGIN):
         d.text((MARGIN, y), line, font=_font("Bold", 84), fill=WHITE)
         y += 98
     y += 70

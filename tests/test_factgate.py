@@ -21,7 +21,8 @@ def verdict(kind="supported", sources=(PRIMARY,), event_date="", correct=""):
 
 
 def test_stale_news_framed_as_current_fails():
-    c = claim("Instagram is testing a Reels-first home screen in India", "event", framed="current")
+    c = claim("Instagram is testing a Reels-first home screen in India", "event", framed="current",
+              sentence="Instagram is testing a Reels-first home screen in India.")
     note = factgate.judge(c, verdict(event_date="2025-09-29"), DUE, on_page)
     assert note and "Framed as current" in note
     past = claim("A year ago Instagram tested a Reels-first home screen in India", "event", framed="past")
@@ -100,3 +101,9 @@ def test_fetch_refuses_private_and_odd_addresses():
                 "http://localhost:8080/", "ftp://example.com/x", "https://example.com:8443/x"):
         assert not factgate._public(url), url
     assert factgate.quote_on_page("http://169.254.169.254/latest/meta-data/", "anything") is None
+
+
+def test_an_ongoing_trend_is_not_stale_news():
+    trend = claim("Since May, old gold is a big part of what jewellers sell", "event", framed="current",
+                  sentence="Since May, old gold like hers is a big part of what he sells.")
+    assert factgate.judge(trend, verdict(event_date="2026-05-13"), DUE, on_page) is None

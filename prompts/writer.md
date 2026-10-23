@@ -26,7 +26,8 @@ Match the topic's mood, and let it be real: a rant can run hot, a dark pattern c
 - Concrete, everyday texture: places, brands, things people say. Hindi only where it's the exact word ("log kya kahenge", "next cycle pakka"), once or twice a post.
 - Dry humour in passing, never a joke for its own sake.
 - Never hedge a claim you state ("reportedly", "they say", "people doubt"); if a fact is too shaky to state plainly, leave it out.
-- Never: question hooks, stock connectors ("You know the scene", "You know the type", "Picture this", "Here's how X works"), fragment pairs more than once ("Not X. Not Y."), fact lists one per line, talking down ("That's the whole trick", "Good luck..."), more than one family prop (papa, chacha, dinner, thali) per post, "Nobody..." more than once.
+- Vary the shape from post to post: where the turn lands, how long it runs, how it ends (a scene, a number, a joke, a line). Never two posts in a row with the same arc.
+- Never: question hooks, stock connectors ("You know the scene", "You know the type", "Picture this", "Here's how X works"), fragment pairs more than once ("Not X. Not Y."), fact lists one per line, talking down ("That's the whole trick", "Good luck..."), more than one family prop (papa, chacha, dinner, thali) per post, "Nobody..." more than once, mirrored pairs ("Part of you... The other part..."), three-beat lists of fragments ("HR knows. Your manager knows. You know."), "The day X..." constructions, or a tidy aphorism as the last line when a concrete scene or detail would land harder.
 
 ## Voice examples (this account at its best: match how it sounds, never reuse these sentences or openings)
 {voice_examples}
@@ -60,7 +61,7 @@ Return only JSON:
 {
   "cover": {"headline": "6-12 words, the take as a claim, with exactly one key phrase in [brackets]", "sub": "one short line under it (the hook's tension, under 14 words)"},
   "slides": [{"paragraphs": ["...", "..."], "why_swipe": "for every slide except the last: the question or pull that makes the reader swipe to the next slide"}],
-  "end": {"save": "one line under a 'Save this' heading: why and when to come back (e.g. 'Read it again before your next appraisal meeting.'); don't start with 'Save'", "send": "one line: who to send it to"},
+  "end": {"save": "one line under a 'Save this' heading: why and when to come back (e.g. 'Read it again before your next appraisal meeting.'); don't start with 'Save'", "send": "one line: who to send it to", "promise": "optional: under 8 words, what this page is, fitted to this post (e.g. 'How Indian offices really work.')"},
   "caption": "one line: either a specific question that invites the reader's own version, or a one-line point of view in your voice. No hashtags here",
   "hashtags": ["3-4 specific, descriptive hashtags a reader would search for this topic. No #AboveMRP (added automatically), no generic tags like #viral"],
   "alt_text": "plain description of the post for screen readers",

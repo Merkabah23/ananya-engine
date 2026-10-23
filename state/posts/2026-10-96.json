@@ -1,0 +1,973 @@
+{
+ "id": "2026-10-96",
+ "status": "rejected",
+ "due": "2026-10-28T19:30:00+05:30",
+ "format": "carousel",
+ "topic": {
+  "title": "The QR menu",
+  "claim": "Restaurants switched to QR menus and called it hygiene; it really lets them change prices without reprinting a thing.",
+  "moment": "Scanning a QR code for the menu and the prices are quietly higher than last time.",
+  "turn": {
+   "believed": "It's clean and modern, a post-Covid upgrade.",
+   "actually": "A digital menu is a price tag they can edit any night, as often as they like."
+  },
+  "because": "A printed menu locks a price and costs money to reprint. A screen floats it, so they can nudge numbers up without you ever noticing the before.",
+  "payoff": "The QR code wasn't for your safety. It was for their pricing.",
+  "lived": false,
+  "behaviour": "Restaurants keep QR menus long after the hygiene reason faded.",
+  "mechanism": "A digital menu makes raising prices invisible and costless.",
+  "group": "Anyone who eats out in cities",
+  "territory": "business_brands",
+  "mood": "dark_pattern",
+  "format_name": "price_tells",
+  "send_to": "A friend who hates squinting at QR menus and never knew why they stayed.",
+  "format_hint": "carousel",
+  "why_now": "QR menus are permanent now, long past the hygiene excuse.",
+  "needs_facts": false,
+  "news_peg": null,
+  "evidence": [],
+  "id": "2026-10-e12",
+  "score": {
+   "rank": 1,
+   "why": "Everyone's scanned a QR menu and felt the price creep without proof; the reframe (hygiene excuse, real use is invisible price control) is a genuine 'never thought of it like that', no household trope, no overlap with anything scheduled.",
+   "scores": {
+    "relatable": 5,
+    "fresh_angle": 5,
+    "shareable": 4,
+    "saveable": 4,
+    "because": 5
+   },
+   "format_fit": "carousel"
+  }
+ },
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Rule 6 (facts as hero): the post carries three numbers (\"Last month the biryani was 320. Tonight it's 360.\" in slide 2, and \"They push the biryani up by 40\" in slide 4) — more than the two allowed.",
+     "Rule 7 (dead slide): slide 3's closing line — \"a menu you reach on a screen is a price tag they can edit any night they like\" — just restates the cover's sub (\"It's a price tag they can edit any night.\") almost word for word. The reader has no new reason to swipe past it."
+    ],
+    "scores": {
+     "hook": 2,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 2,
+     "payoff": 4,
+     "voice": 4
+    },
+    "notes": [
+     "Cover sub already hands over the full turn and the mechanism (\"It's a price tag they can edit any night\") before slide 1 even loads. That's the whole payoff given away at the door. Hold it back — let the cover just claim 'never about hygiene' and make the reader swipe to learn why, instead of explaining the printer/screen mechanic twice (once on the cover, once on slide 3, once on slide 4).",
+     "Cut the number in slide 4 (\"push the biryani up by 40\") — between that and the 320/360 in slide 2, you're at three figures. Drop one; the 320→360 jump alone makes the point.",
+     "Slide 3 is dead weight as written — its last line repeats the cover sub almost verbatim. Either give slide 3 a genuinely new beat (e.g. how staff reel off a tableside non-answer when you ask why it went up) or fold its one useful bit (\"sold as the clean upgrade\") into slide 2 and cut the slide.",
+     "The 'because' is thin — it explains that print costs money to change, but never lands who actually gains or what the restaurant avoids by hiding the before/after. Sharpen it: prices only ever climb, never drop back down after a slow month, because nobody's checking.",
+     "The closer works as a repeatable line, but add one line before it that gives the reader a test to run themselves (e.g. screenshot the menu tonight, check it again in a month) so the ending isn't just restating the hook a third time."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Rule 6 (facts as hero): the post carries three numbers (\"Last month the biryani was 320. Tonight it's 360.\" in slide 2, and \"They push the biryani up by 40\" in slide 4) — more than the two allowed.",
+    "Rule 7 (dead slide): slide 3's closing line — \"a menu you reach on a screen is a price tag they can edit any night they like\" — just restates the cover's sub (\"It's a price tag they can edit any night.\") almost word for word. The reader has no new reason to swipe past it.",
+    "Cover sub already hands over the full turn and the mechanism (\"It's a price tag they can edit any night\") before slide 1 even loads. That's the whole payoff given away at the door. Hold it back — let the cover just claim 'never about hygiene' and make the reader swipe to learn why, instead of explaining the printer/screen mechanic twice (once on the cover, once on slide 3, once on slide 4).",
+    "Cut the number in slide 4 (\"push the biryani up by 40\") — between that and the 320/360 in slide 2, you're at three figures. Drop one; the 320→360 jump alone makes the point.",
+    "Slide 3 is dead weight as written — its last line repeats the cover sub almost verbatim. Either give slide 3 a genuinely new beat (e.g. how staff reel off a tableside non-answer when you ask why it went up) or fold its one useful bit (\"sold as the clean upgrade\") into slide 2 and cut the slide.",
+    "The 'because' is thin — it explains that print costs money to change, but never lands who actually gains or what the restaurant avoids by hiding the before/after. Sharpen it: prices only ever climb, never drop back down after a slow month, because nobody's checking.",
+    "The closer works as a repeatable line, but add one line before it that gives the reader a test to run themselves (e.g. screenshot the menu tonight, check it again in a month) so the ending isn't just restating the hook a third time."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Hard failure #7 (dead slide): Slide 3's line 'But what you're holding is a menu they can rewrite after closing and reopen at a new price by lunch' only restates the mechanism already given in slide 1 ('Because paper can't change its price while you sleep'). Nothing new is learned, so the reader has no real reason to swipe from 1 to 3."
+    ],
+    "scores": {
+     "hook": 3,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4
+    },
+    "notes": [
+     "Slide 1 gives away the entire answer up front ('Because paper can't change its price while you sleep') — that's the because AND the payoff, stated before the reader has even seen the example. Hold it back: let slide 1 tease the turn (QR wasn't about hygiene) without explaining the mechanism, and move the 'paper locks the price, screen floats it' logic to slide 3/4 where it currently lives twice over.",
+     "Because of the above, slide 3 is now dead weight — it repeats slide 1's reveal in slightly different words ('sold as the clean upgrade... but what you're holding is a menu they can rewrite'). Once slide 1 stops giving away the mechanism, fold the 'sold as hygiene, modern, done with Covid' belief into slide 1 as the setup, and let slide 3 move straight into contrasting printed vs. digital pricing behaviour, which is currently stuck in slide 4.",
+     "Cover headline has an unresolved placeholder: 'The QR menu was never about [hygiene]' — the square brackets need to go, that reads like a template variable, not finished copy.",
+     "Slide 4's 'A printed menu locks the number... A screen costs nothing to edit' is a mirrored A/B pair, which is on the banned list as engineered rhetoric. Rewrite it as one continuous thought instead of two matched sentences doing the same grammatical move.",
+     "The biryani price jump (320 to 360) is the only lived, concrete beat in the post and it's spent in one line. Give it a touch more texture — what the diner actually does in that moment (pays anyway, mutters, moves on) — so slide 2 earns its swipe on its own rather than just stating a number change."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Hard failure #7 (dead slide): Slide 3's line 'But what you're holding is a menu they can rewrite after closing and reopen at a new price by lunch' only restates the mechanism already given in slide 1 ('Because paper can't change its price while you sleep'). Nothing new is learned, so the reader has no real reason to swipe from 1 to 3.",
+    "Slide 1 gives away the entire answer up front ('Because paper can't change its price while you sleep') — that's the because AND the payoff, stated before the reader has even seen the example. Hold it back: let slide 1 tease the turn (QR wasn't about hygiene) without explaining the mechanism, and move the 'paper locks the price, screen floats it' logic to slide 3/4 where it currently lives twice over.",
+    "Because of the above, slide 3 is now dead weight — it repeats slide 1's reveal in slightly different words ('sold as the clean upgrade... but what you're holding is a menu they can rewrite'). Once slide 1 stops giving away the mechanism, fold the 'sold as hygiene, modern, done with Covid' belief into slide 1 as the setup, and let slide 3 move straight into contrasting printed vs. digital pricing behaviour, which is currently stuck in slide 4.",
+    "Cover headline has an unresolved placeholder: 'The QR menu was never about [hygiene]' — the square brackets need to go, that reads like a template variable, not finished copy.",
+    "Slide 4's 'A printed menu locks the number... A screen costs nothing to edit' is a mirrored A/B pair, which is on the banned list as engineered rhetoric. Rewrite it as one continuous thought instead of two matched sentences doing the same grammatical move.",
+    "The biryani price jump (320 to 360) is the only lived, concrete beat in the post and it's spent in one line. Give it a touch more texture — what the diner actually does in that moment (pays anyway, mutters, moves on) — so slide 2 earns its swipe on its own rather than just stating a number change."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4
+    },
+    "notes": [
+     "Slide 3: the mechanism (press costs vs editing a screen) lands the 'because' but reads a touch like an explainer sentence ('A printed menu used to hold that number still'). Keep the same content but let it sound more like a thought than a fact statement.",
+     "Slide 6: the payoff names 'their pricing' but never says whose hands are on it. One word earlier (the owner, the manager) would make the who-gains land harder without naming anyone specific.",
+     "Keep the 320/360 figure exactly as scene-colour, not as a stat — it works because it reads as a typical plate, not a cited number. Don't let a future rewrite dress it up with a source or percentage.",
+     "Slide 4's 'Whatever is on screen is just the price, never the new one' is the sharpest line in the post — consider whether it or the final slide should carry the save-worthy line, since right now two slides compete for the same punch."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "verification": {
+    "passed": false,
+    "take_dead": true,
+    "notes": [
+     "The take's premise is wrong: Premise 3 (the conclusion's motive) and part of premise 2. The claim that restaurants kept QR menus *in order to* raise prices invisibly, and that digital menus 'keep no record' of past prices, both fail. Premise 1 (printed menus have real 'menu costs' that keep prices sticky) is sound.. How it actually works: 'Menu cost' is a literal economics term for the expense of changing a price, and digital displays do lower it, so prices can be changed more often and more quietly — that part is real. But restaurants that kept QR menus did so overwhelmingly for printing-cost and labor savings, contactless ordering/payment, photo-driven upselling (+8% spend) and customer data, not a hidden pricing scheme; and the 'no record' claim is false because past prices persist on Zomato/Swiggy, Google listings, the Wayback Machine, review sites and screenshots. The telling counter-fact is that many restaurants actually abandoned QR menus and brought paper back, because QR codes lowered check averages (~10%) and annoyed diners — the opposite of what a secret revenue tactic would produce. Rebuild the post on the correct mechanism.",
+     "Wrong: 'Restaurants have kept QR code menus and have not brought back printed/laminated menus years after Covid ended'. What's true: Restaurants have NOT uniformly kept QR-only menus years after Covid — a well-documented backlash has led many sit-down restaurants to reintroduce printed/laminated menus (fully or as a hybrid) since at least mid-2024, and by 2025 roughly 90% of US diners said they prefer printed menus over QR codes, up from 76% in 2023..",
+     "Needs a stronger source: 'Changing a price on a printed menu required a physical trip to the printing press and cost real money' (a primary source, or two independent major outlets).",
+     "Needs a stronger source: 'Because reprinting was costly, prices on printed menus typically stayed unchanged for months at a time' (a primary source, or two independent major outlets).",
+     "Says more than the sources: 'Digital QR menus do not retain or display any record of a previous price, so customers cannot see what the price used to be'. What's true: Not universally true: while most QR menus simply show the current price with no 'price history' log for permanent increases, several QR-menu platforms explicitly do show a prior price — displayed crossed out next to the new discounted price — during Happy Hour/promo campaigns, so the blanket claim that 'no record of a previous price' is ever shown is overstated..",
+     "Wrong: 'Because no old price record is kept on digital menus, prices only ever rise over time and do not drop back down after temporary increases'. What's true: Digital/QR menus routinely let prices drop as well as rise — restaurants use them for dynamic/time-based pricing, lowering prices during off-peak hours or for discounts (e.g., Puesto cut some items up to 20% in slow periods; Bartaco raised weekend prices 5–10% and lowered them on slow weekdays), so prices do not only ever rise.."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "QR code menus were originally introduced at restaurants for safety/hygiene reasons during Covid",
+      "sentence": "The QR code was never for your [safety]",
+      "type": "event",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c2",
+      "text": "The Covid pandemic and its associated restrictions have ended",
+      "sentence": "Covid is long gone.",
+      "type": "event",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c3",
+      "text": "Restaurants have kept QR code menus and have not brought back printed/laminated menus years after Covid ended",
+      "sentence": "The laminated card never came back. ... Years after Covid left, it's still on your table.",
+      "type": "event",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Changing a price on a printed menu required a physical trip to the printing press and cost real money",
+      "sentence": "Changing it meant a trip to the press and real money",
+      "type": "feature",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c5",
+      "text": "Because reprinting was costly, prices on printed menus typically stayed unchanged for months at a time",
+      "sentence": "a price would sit there for months",
+      "type": "feature",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c6",
+      "text": "On digital/QR menus, a staff member can edit a price in one field after closing and the new price is live by the next day with no printing cost or delay",
+      "sentence": "Someone edits one field after closing, and by lunch the new number is simply the price.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "Digital QR menus do not retain or display any record of a previous price, so customers cannot see what the price used to be",
+      "sentence": "You never see the before. Whatever is on screen is just the price, never the new one.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c8",
+      "text": "Because no old price record is kept on digital menus, prices only ever rise over time and do not drop back down after temporary increases",
+      "sentence": "the numbers only ever climb. After a slow week nothing drops back, because there's no old card kept around to argue with",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c9",
+      "text": "Mechanism: (1) printed menus cost money/time to reprint, so prices stayed fixed and visible for comparison; (2) digital QR menus can be edited instantly at no cost and keep no record of past prices; therefore (3) restaurants kept QR menus after Covid not for hygiene but because digital menus let them raise prices invisibly and irreversibly, with no printed record for customers to compare against",
+      "sentence": "The QR code wasn't for your safety. It was for their pricing.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2020-05-07",
+      "correct": "QR/digital menus were pushed by CDC reopening guidance (reported May 7, 2020) telling restaurants to use disposable or digital menus instead of shared paper ones, and restaurants rolled out QR ordering through spring-fall 2020 for contactless, hygienic service.",
+      "sources": [
+       {
+        "url": "https://thecounter.org/cdc-recommendations-reopening-restaurants-bars-covid-19-coronavirus/",
+        "publisher": "The Counter",
+        "published_date": "2020-05-07",
+        "quote": "It also recommends that restaurants adopt digital or disposable menus, and that customers use contactless payment options whenever possible.",
+        "tier": 2
+       },
+       {
+        "url": "https://dot.la/contactless-menu-qr-code-2647429102.html",
+        "publisher": "dot.LA",
+        "published_date": "2020-09-02",
+        "quote": "Those that have survived have adopted new contactless menus, delivery services and other tech-powered solutions to keep their employees safe and diners fed.",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2023-05-05",
+      "correct": "WHO's Director-General declared on May 5, 2023 that COVID-19 no longer constitutes a Public Health Emergency of International Concern; most government mandates/restrictions had already been lifted worldwide by that point, and none remain as of the 2026 post date.",
+      "sources": [
+       {
+        "url": "https://www.who.int/news/item/05-05-2023-statement-on-the-fifteenth-meeting-of-the-international-health-regulations-(2005)-emergency-committee-regarding-the-coronavirus-disease-(covid-19)-pandemic",
+        "publisher": "World Health Organization",
+        "published_date": "2023-05-05",
+        "quote": "COVID-19 is now an established and ongoing health issue which no longer constitutes a public health emergency of international concern (PHEIC)",
+        "tier": 1
+       },
+       {
+        "url": "https://www.cnn.com/2023/05/05/health/who-ends-covid-health-emergency",
+        "publisher": "CNN",
+        "published_date": "2023-05-05",
+        "quote": "WHO says Covid-19 is no longer a global health emergency",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "contradicted",
+      "event_date": "2024-05-31",
+      "correct": "Restaurants have NOT uniformly kept QR-only menus years after Covid — a well-documented backlash has led many sit-down restaurants to reintroduce printed/laminated menus (fully or as a hybrid) since at least mid-2024, and by 2025 roughly 90% of US diners said they prefer printed menus over QR codes, up from 76% in 2023.",
+      "sources": [
+       {
+        "url": "https://www.pymnts.com/restaurant-technology/2024/restaurants-reintroduce-paper-menus-amid-customer-complaints-about-qr-codes/",
+        "publisher": "PYMNTS",
+        "published_date": "2024-05-31",
+        "quote": "many sit-down eateries are ditching QR codes and reintroducing paper menus, according to the report",
+        "tier": 2
+       },
+       {
+        "url": "https://www.yahoo.com/lifestyle/restaurants-ditching-tacky-qr-codes-132850837.html",
+        "publisher": "Yahoo Lifestyle",
+        "published_date": "2024-05-31",
+        "quote": "Restaurants are ditching 'tacky' QR codes and bringing back paper menus after customer backlash",
+        "tier": 2
+       },
+       {
+        "url": "https://www.escoffier.edu/blog/world-food-drink/consumer-dining-trends-2025/",
+        "publisher": "Auguste Escoffier School of Culinary Arts (2025 Consumer Dining Trends report)",
+        "published_date": "2025-01-01",
+        "quote": "A sweeping 90% of Americans prefer physical printed menus over QR code-based digital menus when they eat at a restaurant... up since 2023, when about 76% overall favored physical menus.",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "",
+      "correct": "Accurate as a description of pre-digital menu economics: physical menu price changes require a new print run (industry figures cite roughly $0.10–$0.75+ per menu plus labor/mistake costs, part of the broader economic 'menu cost' concept), which is why operators batch changes rather than editing instantly.",
+      "sources": [
+       {
+        "url": "https://en.wikipedia.org/wiki/Menu_cost",
+        "publisher": "Wikipedia (citing economic literature on menu costs)",
+        "published_date": "",
+        "quote": "Menu costs include the labor cost to change shelf prices, the cost of printing and delivering new price tags, the costs of mistakes made during the price change process, and the cost of in-store supervision of the price change process.",
+        "tier": 3
+       },
+       {
+        "url": "https://tabres.com/articles/restaurant-menu-printing-cost-2026",
+        "publisher": "Tabres",
+        "published_date": "2026-01-01",
+        "quote": "Printing menus costs most restaurants somewhere between $0.10 and $0.75 per menu, depending on paper, size, color...",
+        "tier": 3
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "supported",
+      "event_date": "",
+      "correct": "Because reprinting costs money and effort, industry guidance has long recommended formally repricing a printed menu only once or twice a year (at most two to four times), meaning listed prices commonly stay fixed for months between print runs.",
+      "sources": [
+       {
+        "url": "https://thefutureofthings.com/29541-the-real-cadence-behind-restaurant-menu-changes/",
+        "publisher": "The Future of Things (TFOT)",
+        "published_date": "",
+        "quote": "recommendations... advise... formally adjust prices on the menu itself once or twice a year, and even then, touch 15 to 25 percent of listed items per pass rather than repricing the whole board at once",
+        "tier": 3
+       },
+       {
+        "url": "https://www.dinecard.in/blog/restaurant-menu-price-increase-frequency-timing-customer-retention",
+        "publisher": "DineCard",
+        "published_date": "",
+        "quote": "Industry guidance recommends reviewing costs monthly, adjusting prices two to four times a year, and never raising everything at once.",
+        "tier": 3
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "supported",
+      "event_date": "",
+      "correct": "Confirmed by QR-menu platforms themselves: a staff member edits a price in a dashboard/app and the change is live immediately (not just 'by the next day') across every device with no reprinting, cost, or delay.",
+      "sources": [
+       {
+        "url": "https://www.qrstuff.com/feeds/service/digital-menu-board-creator-update-prices-phone",
+        "publisher": "QRStuff (platform's own page)",
+        "published_date": "",
+        "quote": "Edit the digital menu from your phone or dashboard, and dynamic QR functionality lets updates appear without creating new codes or reprinting old materials.",
+        "tier": 1
+       },
+       {
+        "url": "https://menujo.com/blog/how-to-update-restaurant-menu-instantly",
+        "publisher": "Menujo (platform's own blog)",
+        "published_date": "",
+        "quote": "Update prices instantly and cut printing costs with contactless QR menus that update instantly, so guests order faster and you stop paying for reprints.",
+        "tier": 1
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "misframed",
+      "event_date": "",
+      "correct": "Not universally true: while most QR menus simply show the current price with no 'price history' log for permanent increases, several QR-menu platforms explicitly do show a prior price — displayed crossed out next to the new discounted price — during Happy Hour/promo campaigns, so the blanket claim that 'no record of a previous price' is ever shown is overstated.",
+      "sources": [
+       {
+        "url": "https://qrmenum.app/en/discounts",
+        "publisher": "QR Menu Num (platform's own page)",
+        "published_date": "",
+        "quote": "Strikethrough old price, bold discounted price — just like e-commerce. ... Old price gray and struck through, new price in bold red — the universal 'deal' signal.",
+        "tier": 1
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "contradicted",
+      "event_date": "2024-01-11",
+      "correct": "Digital/QR menus routinely let prices drop as well as rise — restaurants use them for dynamic/time-based pricing, lowering prices during off-peak hours or for discounts (e.g., Puesto cut some items up to 20% in slow periods; Bartaco raised weekend prices 5–10% and lowered them on slow weekdays), so prices do not only ever rise.",
+      "sources": [
+       {
+        "url": "https://www.cbsnews.com/news/dynamic-pricing-uber-restaurants/",
+        "publisher": "CBS News",
+        "published_date": "2024-03-23",
+        "quote": "Puesto in La Jolla, California...reduced them by as much as 20% during slower times.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.marketplace.org/story/2024/01/11/are-we-entering-a-world-of-surge-dining",
+        "publisher": "Marketplace (APM)",
+        "published_date": "2024-01-11",
+        "quote": "Bartaco...raised 'to-go' prices by 5-10% during weekend peak hours, then lowered them on slow weekdays",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "Premise 3 (the conclusion's motive) and part of premise 2. The claim that restaurants kept QR menus *in order to* raise prices invisibly, and that digital menus 'keep no record' of past prices, both fail. Premise 1 (printed menus have real 'menu costs' that keep prices sticky) is sound.",
+     "actual_mechanism": "'Menu cost' is a literal economics term for the expense of changing a price, and digital displays do lower it, so prices can be changed more often and more quietly — that part is real. But restaurants that kept QR menus did so overwhelmingly for printing-cost and labor savings, contactless ordering/payment, photo-driven upselling (+8% spend) and customer data, not a hidden pricing scheme; and the 'no record' claim is false because past prices persist on Zomato/Swiggy, Google listings, the Wayback Machine, review sites and screenshots. The telling counter-fact is that many restaurants actually abandoned QR menus and brought paper back, because QR codes lowered check averages (~10%) and annoyed diners — the opposite of what a secret revenue tactic would produce.",
+     "take_survives": false,
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Menu_cost",
+       "published_date": "n/a (reference article, accessed 2026-10-23)",
+       "quote": "Firms can reduce menu costs by adopting more flexible pricing practices, such as digital price displays or dynamic pricing strategies, which minimize the frequency and expense of physical price changes."
+      },
+      {
+       "url": "https://www.cnn.com/2022/08/20/business-food/qr-code-menus/index.html",
+       "published_date": "2022-08-20",
+       "quote": "Not because of hygiene fears — those faded long ago — but because restaurant owners discovered QR menus save money, increase order values, and give them data they never had before."
+      },
+      {
+       "url": "https://www.pymnts.com/restaurant-technology/2024/restaurants-reintroduce-paper-menus-amid-customer-complaints-about-qr-codes/",
+       "published_date": "2024",
+       "quote": "In response to customer complaints, many sit-down eateries are ditching QR codes and reintroducing paper menus."
+      },
+      {
+       "url": "https://www.restaurantbusinessonline.com/technology/restaurants-love-qr-code-menus-customers-arent-so-sure",
+       "published_date": "n/a",
+       "quote": "One restaurant group experienced a 10% decrease in check averages when using QR code menus, as diners often failed to scroll through all the offerings."
+      }
+     ]
+    },
+    "text_hash": "856c6a58a84056b8884abc1ac02319645476e209",
+    "at": "2026-10-23T08:20:35.558827+00:00"
+   }
+  }
+ ],
+ "sources": [],
+ "verification_cache": {
+  "QR code menus were originally introduced at restaurants for safety/hygiene reasons during Covid": {
+   "id": "c1",
+   "verdict": "supported",
+   "event_date": "2020-05-07",
+   "correct": "QR/digital menus were pushed by CDC reopening guidance (reported May 7, 2020) telling restaurants to use disposable or digital menus instead of shared paper ones, and restaurants rolled out QR ordering through spring-fall 2020 for contactless, hygienic service.",
+   "sources": [
+    {
+     "url": "https://thecounter.org/cdc-recommendations-reopening-restaurants-bars-covid-19-coronavirus/",
+     "publisher": "The Counter",
+     "published_date": "2020-05-07",
+     "quote": "It also recommends that restaurants adopt digital or disposable menus, and that customers use contactless payment options whenever possible.",
+     "tier": 2
+    },
+    {
+     "url": "https://dot.la/contactless-menu-qr-code-2647429102.html",
+     "publisher": "dot.LA",
+     "published_date": "2020-09-02",
+     "quote": "Those that have survived have adopted new contactless menus, delivery services and other tech-powered solutions to keep their employees safe and diners fed.",
+     "tier": 2
+    }
+   ]
+  },
+  "The Covid pandemic and its associated restrictions have ended": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": "2023-05-05",
+   "correct": "WHO's Director-General declared on May 5, 2023 that COVID-19 no longer constitutes a Public Health Emergency of International Concern; most government mandates/restrictions had already been lifted worldwide by that point, and none remain as of the 2026 post date.",
+   "sources": [
+    {
+     "url": "https://www.who.int/news/item/05-05-2023-statement-on-the-fifteenth-meeting-of-the-international-health-regulations-(2005)-emergency-committee-regarding-the-coronavirus-disease-(covid-19)-pandemic",
+     "publisher": "World Health Organization",
+     "published_date": "2023-05-05",
+     "quote": "COVID-19 is now an established and ongoing health issue which no longer constitutes a public health emergency of international concern (PHEIC)",
+     "tier": 1
+    },
+    {
+     "url": "https://www.cnn.com/2023/05/05/health/who-ends-covid-health-emergency",
+     "publisher": "CNN",
+     "published_date": "2023-05-05",
+     "quote": "WHO says Covid-19 is no longer a global health emergency",
+     "tier": 2
+    }
+   ]
+  },
+  "Restaurants have kept QR code menus and have not brought back printed/laminated menus years after Covid ended": {
+   "id": "c3",
+   "verdict": "contradicted",
+   "event_date": "2024-05-31",
+   "correct": "Restaurants have NOT uniformly kept QR-only menus years after Covid — a well-documented backlash has led many sit-down restaurants to reintroduce printed/laminated menus (fully or as a hybrid) since at least mid-2024, and by 2025 roughly 90% of US diners said they prefer printed menus over QR codes, up from 76% in 2023.",
+   "sources": [
+    {
+     "url": "https://www.pymnts.com/restaurant-technology/2024/restaurants-reintroduce-paper-menus-amid-customer-complaints-about-qr-codes/",
+     "publisher": "PYMNTS",
+     "published_date": "2024-05-31",
+     "quote": "many sit-down eateries are ditching QR codes and reintroducing paper menus, according to the report",
+     "tier": 2
+    },
+    {
+     "url": "https://www.yahoo.com/lifestyle/restaurants-ditching-tacky-qr-codes-132850837.html",
+     "publisher": "Yahoo Lifestyle",
+     "published_date": "2024-05-31",
+     "quote": "Restaurants are ditching 'tacky' QR codes and bringing back paper menus after customer backlash",
+     "tier": 2
+    },
+    {
+     "url": "https://www.escoffier.edu/blog/world-food-drink/consumer-dining-trends-2025/",
+     "publisher": "Auguste Escoffier School of Culinary Arts (2025 Consumer Dining Trends report)",
+     "published_date": "2025-01-01",
+     "quote": "A sweeping 90% of Americans prefer physical printed menus over QR code-based digital menus when they eat at a restaurant... up since 2023, when about 76% overall favored physical menus.",
+     "tier": 2
+    }
+   ]
+  },
+  "Changing a price on a printed menu required a physical trip to the printing press and cost real money": {
+   "id": "c4",
+   "verdict": "supported",
+   "event_date": "",
+   "correct": "Accurate as a description of pre-digital menu economics: physical menu price changes require a new print run (industry figures cite roughly $0.10–$0.75+ per menu plus labor/mistake costs, part of the broader economic 'menu cost' concept), which is why operators batch changes rather than editing instantly.",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Menu_cost",
+     "publisher": "Wikipedia (citing economic literature on menu costs)",
+     "published_date": "",
+     "quote": "Menu costs include the labor cost to change shelf prices, the cost of printing and delivering new price tags, the costs of mistakes made during the price change process, and the cost of in-store supervision of the price change process.",
+     "tier": 3
+    },
+    {
+     "url": "https://tabres.com/articles/restaurant-menu-printing-cost-2026",
+     "publisher": "Tabres",
+     "published_date": "2026-01-01",
+     "quote": "Printing menus costs most restaurants somewhere between $0.10 and $0.75 per menu, depending on paper, size, color...",
+     "tier": 3
+    }
+   ]
+  },
+  "Because reprinting was costly, prices on printed menus typically stayed unchanged for months at a time": {
+   "id": "c5",
+   "verdict": "supported",
+   "event_date": "",
+   "correct": "Because reprinting costs money and effort, industry guidance has long recommended formally repricing a printed menu only once or twice a year (at most two to four times), meaning listed prices commonly stay fixed for months between print runs.",
+   "sources": [
+    {
+     "url": "https://thefutureofthings.com/29541-the-real-cadence-behind-restaurant-menu-changes/",
+     "publisher": "The Future of Things (TFOT)",
+     "published_date": "",
+     "quote": "recommendations... advise... formally adjust prices on the menu itself once or twice a year, and even then, touch 15 to 25 percent of listed items per pass rather than repricing the whole board at once",
+     "tier": 3
+    },
+    {
+     "url": "https://www.dinecard.in/blog/restaurant-menu-price-increase-frequency-timing-customer-retention",
+     "publisher": "DineCard",
+     "published_date": "",
+     "quote": "Industry guidance recommends reviewing costs monthly, adjusting prices two to four times a year, and never raising everything at once.",
+     "tier": 3
+    }
+   ]
+  },
+  "On digital/QR menus, a staff member can edit a price in one field after closing and the new price is live by the next day with no printing cost or delay": {
+   "id": "c6",
+   "verdict": "supported",
+   "event_date": "",
+   "correct": "Confirmed by QR-menu platforms themselves: a staff member edits a price in a dashboard/app and the change is live immediately (not just 'by the next day') across every device with no reprinting, cost, or delay.",
+   "sources": [
+    {
+     "url": "https://www.qrstuff.com/feeds/service/digital-menu-board-creator-update-prices-phone",
+     "publisher": "QRStuff (platform's own page)",
+     "published_date": "",
+     "quote": "Edit the digital menu from your phone or dashboard, and dynamic QR functionality lets updates appear without creating new codes or reprinting old materials.",
+     "tier": 1
+    },
+    {
+     "url": "https://menujo.com/blog/how-to-update-restaurant-menu-instantly",
+     "publisher": "Menujo (platform's own blog)",
+     "published_date": "",
+     "quote": "Update prices instantly and cut printing costs with contactless QR menus that update instantly, so guests order faster and you stop paying for reprints.",
+     "tier": 1
+    }
+   ]
+  },
+  "Digital QR menus do not retain or display any record of a previous price, so customers cannot see what the price used to be": {
+   "id": "c7",
+   "verdict": "misframed",
+   "event_date": "",
+   "correct": "Not universally true: while most QR menus simply show the current price with no 'price history' log for permanent increases, several QR-menu platforms explicitly do show a prior price — displayed crossed out next to the new discounted price — during Happy Hour/promo campaigns, so the blanket claim that 'no record of a previous price' is ever shown is overstated.",
+   "sources": [
+    {
+     "url": "https://qrmenum.app/en/discounts",
+     "publisher": "QR Menu Num (platform's own page)",
+     "published_date": "",
+     "quote": "Strikethrough old price, bold discounted price — just like e-commerce. ... Old price gray and struck through, new price in bold red — the universal 'deal' signal.",
+     "tier": 1
+    }
+   ]
+  },
+  "Because no old price record is kept on digital menus, prices only ever rise over time and do not drop back down after temporary increases": {
+   "id": "c8",
+   "verdict": "contradicted",
+   "event_date": "2024-01-11",
+   "correct": "Digital/QR menus routinely let prices drop as well as rise — restaurants use them for dynamic/time-based pricing, lowering prices during off-peak hours or for discounts (e.g., Puesto cut some items up to 20% in slow periods; Bartaco raised weekend prices 5–10% and lowered them on slow weekdays), so prices do not only ever rise.",
+   "sources": [
+    {
+     "url": "https://www.cbsnews.com/news/dynamic-pricing-uber-restaurants/",
+     "publisher": "CBS News",
+     "published_date": "2024-03-23",
+     "quote": "Puesto in La Jolla, California...reduced them by as much as 20% during slower times.",
+     "tier": 2
+    },
+    {
+     "url": "https://www.marketplace.org/story/2024/01/11/are-we-entering-a-world-of-surge-dining",
+     "publisher": "Marketplace (APM)",
+     "published_date": "2024-01-11",
+     "quote": "Bartaco...raised 'to-go' prices by 5-10% during weekend peak hours, then lowered them on slow weekdays",
+     "tier": 2
+    }
+   ]
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "The QR code was never for your [safety]",
+   "sub": "Years after Covid left, it's still on your table. There's a reason."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Covid is long gone. The laminated card never came back.",
+     "That little sticker on your table stayed for a reason nobody told you about.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "If it wasn't about hygiene, what was the sticker really for?"
+   },
+   {
+    "paragraphs": [
+     "You sit down, aim your phone at the sticker, wait for the page to load.",
+     "The biryani was 320 last month. Tonight it says 360. Same plate, same table. You frown for half a second, then pay it and reach for the raita."
+    ],
+    "why_swipe": "Is that jump an accident, or something the format was built to allow?"
+   },
+   {
+    "paragraphs": [
+     "A printed menu used to hold that number still. Changing it meant a trip to the press and real money, so a price would sit there for months.",
+     "That friction is gone. Someone edits one field after closing, and by lunch the new number is simply the price."
+    ],
+    "why_swipe": "So what does that freedom quietly do to the numbers over time?"
+   },
+   {
+    "paragraphs": [
+     "**And the numbers only ever climb.** After a slow week nothing drops back, because there's no old card kept around to argue with.",
+     "You never see the before. Whatever is on screen is just *the price*, never the new one."
+    ],
+    "why_swipe": "Can you catch the thing you were never meant to see?"
+   },
+   {
+    "paragraphs": [
+     "So run it on yourself. Screenshot your regular place tonight, then open the same menu next month.",
+     "That quiet gap between the two is the exact part they were counting on you to miss."
+    ],
+    "why_swipe": "So what was the QR code actually for?"
+   },
+   {
+    "paragraphs": [
+     "**The QR code wasn't for your safety. It was for their pricing.**"
+    ]
+   }
+  ],
+  "end": {
+   "save": "Pull this up the next time a QR menu takes its sweet time to load.",
+   "send": "Send to a friend who hates squinting at QR menus and never knew why they stayed.",
+   "promise": "How things really get sold to us."
+  },
+  "caption": "Which dish at your regular place crept up without the menu ever admitting it had moved?",
+  "hashtags": [
+   "#QRmenu",
+   "#restaurantpricing",
+   "#dynamicpricing",
+   "#eatingout"
+  ],
+  "alt_text": "A six-slide carousel arguing that restaurants kept QR menus not for hygiene but because a digital menu lets them raise prices invisibly, with no printed card to compare against. It opens on a biryani quietly going from 320 to 360, explains that reprinting paper cost money while editing a screen costs nothing, notes that prices only climb because nobody keeps the old one, offers a screenshot test, and ends on the line that the QR code was for their pricing, not your safety.",
+  "claims": [],
+  "caption_style": "question"
+ },
+ "verification": {
+  "passed": false,
+  "take_dead": true,
+  "notes": [
+   "The take's premise is wrong: Premise 3 (the conclusion's motive) and part of premise 2. The claim that restaurants kept QR menus *in order to* raise prices invisibly, and that digital menus 'keep no record' of past prices, both fail. Premise 1 (printed menus have real 'menu costs' that keep prices sticky) is sound.. How it actually works: 'Menu cost' is a literal economics term for the expense of changing a price, and digital displays do lower it, so prices can be changed more often and more quietly — that part is real. But restaurants that kept QR menus did so overwhelmingly for printing-cost and labor savings, contactless ordering/payment, photo-driven upselling (+8% spend) and customer data, not a hidden pricing scheme; and the 'no record' claim is false because past prices persist on Zomato/Swiggy, Google listings, the Wayback Machine, review sites and screenshots. The telling counter-fact is that many restaurants actually abandoned QR menus and brought paper back, because QR codes lowered check averages (~10%) and annoyed diners — the opposite of what a secret revenue tactic would produce. Rebuild the post on the correct mechanism.",
+   "Wrong: 'Restaurants have kept QR code menus and have not brought back printed/laminated menus years after Covid ended'. What's true: Restaurants have NOT uniformly kept QR-only menus years after Covid — a well-documented backlash has led many sit-down restaurants to reintroduce printed/laminated menus (fully or as a hybrid) since at least mid-2024, and by 2025 roughly 90% of US diners said they prefer printed menus over QR codes, up from 76% in 2023..",
+   "Needs a stronger source: 'Changing a price on a printed menu required a physical trip to the printing press and cost real money' (a primary source, or two independent major outlets).",
+   "Needs a stronger source: 'Because reprinting was costly, prices on printed menus typically stayed unchanged for months at a time' (a primary source, or two independent major outlets).",
+   "Says more than the sources: 'Digital QR menus do not retain or display any record of a previous price, so customers cannot see what the price used to be'. What's true: Not universally true: while most QR menus simply show the current price with no 'price history' log for permanent increases, several QR-menu platforms explicitly do show a prior price — displayed crossed out next to the new discounted price — during Happy Hour/promo campaigns, so the blanket claim that 'no record of a previous price' is ever shown is overstated..",
+   "Wrong: 'Because no old price record is kept on digital menus, prices only ever rise over time and do not drop back down after temporary increases'. What's true: Digital/QR menus routinely let prices drop as well as rise — restaurants use them for dynamic/time-based pricing, lowering prices during off-peak hours or for discounts (e.g., Puesto cut some items up to 20% in slow periods; Bartaco raised weekend prices 5–10% and lowered them on slow weekdays), so prices do not only ever rise.."
+  ],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "QR code menus were originally introduced at restaurants for safety/hygiene reasons during Covid",
+    "sentence": "The QR code was never for your [safety]",
+    "type": "event",
+    "core": true,
+    "framed_as": "past"
+   },
+   {
+    "id": "c2",
+    "text": "The Covid pandemic and its associated restrictions have ended",
+    "sentence": "Covid is long gone.",
+    "type": "event",
+    "core": true,
+    "framed_as": "past"
+   },
+   {
+    "id": "c3",
+    "text": "Restaurants have kept QR code menus and have not brought back printed/laminated menus years after Covid ended",
+    "sentence": "The laminated card never came back. ... Years after Covid left, it's still on your table.",
+    "type": "event",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c4",
+    "text": "Changing a price on a printed menu required a physical trip to the printing press and cost real money",
+    "sentence": "Changing it meant a trip to the press and real money",
+    "type": "feature",
+    "core": true,
+    "framed_as": "past"
+   },
+   {
+    "id": "c5",
+    "text": "Because reprinting was costly, prices on printed menus typically stayed unchanged for months at a time",
+    "sentence": "a price would sit there for months",
+    "type": "feature",
+    "core": true,
+    "framed_as": "past"
+   },
+   {
+    "id": "c6",
+    "text": "On digital/QR menus, a staff member can edit a price in one field after closing and the new price is live by the next day with no printing cost or delay",
+    "sentence": "Someone edits one field after closing, and by lunch the new number is simply the price.",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c7",
+    "text": "Digital QR menus do not retain or display any record of a previous price, so customers cannot see what the price used to be",
+    "sentence": "You never see the before. Whatever is on screen is just the price, never the new one.",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c8",
+    "text": "Because no old price record is kept on digital menus, prices only ever rise over time and do not drop back down after temporary increases",
+    "sentence": "the numbers only ever climb. After a slow week nothing drops back, because there's no old card kept around to argue with",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c9",
+    "text": "Mechanism: (1) printed menus cost money/time to reprint, so prices stayed fixed and visible for comparison; (2) digital QR menus can be edited instantly at no cost and keep no record of past prices; therefore (3) restaurants kept QR menus after Covid not for hygiene but because digital menus let them raise prices invisibly and irreversibly, with no printed record for customers to compare against",
+    "sentence": "The QR code wasn't for your safety. It was for their pricing.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c1": {
+    "id": "c1",
+    "verdict": "supported",
+    "event_date": "2020-05-07",
+    "correct": "QR/digital menus were pushed by CDC reopening guidance (reported May 7, 2020) telling restaurants to use disposable or digital menus instead of shared paper ones, and restaurants rolled out QR ordering through spring-fall 2020 for contactless, hygienic service.",
+    "sources": [
+     {
+      "url": "https://thecounter.org/cdc-recommendations-reopening-restaurants-bars-covid-19-coronavirus/",
+      "publisher": "The Counter",
+      "published_date": "2020-05-07",
+      "quote": "It also recommends that restaurants adopt digital or disposable menus, and that customers use contactless payment options whenever possible.",
+      "tier": 2
+     },
+     {
+      "url": "https://dot.la/contactless-menu-qr-code-2647429102.html",
+      "publisher": "dot.LA",
+      "published_date": "2020-09-02",
+      "quote": "Those that have survived have adopted new contactless menus, delivery services and other tech-powered solutions to keep their employees safe and diners fed.",
+      "tier": 2
+     }
+    ]
+   },
+   "c2": {
+    "id": "c2",
+    "verdict": "supported",
+    "event_date": "2023-05-05",
+    "correct": "WHO's Director-General declared on May 5, 2023 that COVID-19 no longer constitutes a Public Health Emergency of International Concern; most government mandates/restrictions had already been lifted worldwide by that point, and none remain as of the 2026 post date.",
+    "sources": [
+     {
+      "url": "https://www.who.int/news/item/05-05-2023-statement-on-the-fifteenth-meeting-of-the-international-health-regulations-(2005)-emergency-committee-regarding-the-coronavirus-disease-(covid-19)-pandemic",
+      "publisher": "World Health Organization",
+      "published_date": "2023-05-05",
+      "quote": "COVID-19 is now an established and ongoing health issue which no longer constitutes a public health emergency of international concern (PHEIC)",
+      "tier": 1
+     },
+     {
+      "url": "https://www.cnn.com/2023/05/05/health/who-ends-covid-health-emergency",
+      "publisher": "CNN",
+      "published_date": "2023-05-05",
+      "quote": "WHO says Covid-19 is no longer a global health emergency",
+      "tier": 2
+     }
+    ]
+   },
+   "c3": {
+    "id": "c3",
+    "verdict": "contradicted",
+    "event_date": "2024-05-31",
+    "correct": "Restaurants have NOT uniformly kept QR-only menus years after Covid — a well-documented backlash has led many sit-down restaurants to reintroduce printed/laminated menus (fully or as a hybrid) since at least mid-2024, and by 2025 roughly 90% of US diners said they prefer printed menus over QR codes, up from 76% in 2023.",
+    "sources": [
+     {
+      "url": "https://www.pymnts.com/restaurant-technology/2024/restaurants-reintroduce-paper-menus-amid-customer-complaints-about-qr-codes/",
+      "publisher": "PYMNTS",
+      "published_date": "2024-05-31",
+      "quote": "many sit-down eateries are ditching QR codes and reintroducing paper menus, according to the report",
+      "tier": 2
+     },
+     {
+      "url": "https://www.yahoo.com/lifestyle/restaurants-ditching-tacky-qr-codes-132850837.html",
+      "publisher": "Yahoo Lifestyle",
+      "published_date": "2024-05-31",
+      "quote": "Restaurants are ditching 'tacky' QR codes and bringing back paper menus after customer backlash",
+      "tier": 2
+     },
+     {
+      "url": "https://www.escoffier.edu/blog/world-food-drink/consumer-dining-trends-2025/",
+      "publisher": "Auguste Escoffier School of Culinary Arts (2025 Consumer Dining Trends report)",
+      "published_date": "2025-01-01",
+      "quote": "A sweeping 90% of Americans prefer physical printed menus over QR code-based digital menus when they eat at a restaurant... up since 2023, when about 76% overall favored physical menus.",
+      "tier": 2
+     }
+    ]
+   },
+   "c4": {
+    "id": "c4",
+    "verdict": "supported",
+    "event_date": "",
+    "correct": "Accurate as a description of pre-digital menu economics: physical menu price changes require a new print run (industry figures cite roughly $0.10–$0.75+ per menu plus labor/mistake costs, part of the broader economic 'menu cost' concept), which is why operators batch changes rather than editing instantly.",
+    "sources": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Menu_cost",
+      "publisher": "Wikipedia (citing economic literature on menu costs)",
+      "published_date": "",
+      "quote": "Menu costs include the labor cost to change shelf prices, the cost of printing and delivering new price tags, the costs of mistakes made during the price change process, and the cost of in-store supervision of the price change process.",
+      "tier": 3
+     },
+     {
+      "url": "https://tabres.com/articles/restaurant-menu-printing-cost-2026",
+      "publisher": "Tabres",
+      "published_date": "2026-01-01",
+      "quote": "Printing menus costs most restaurants somewhere between $0.10 and $0.75 per menu, depending on paper, size, color...",
+      "tier": 3
+     }
+    ]
+   },
+   "c5": {
+    "id": "c5",
+    "verdict": "supported",
+    "event_date": "",
+    "correct": "Because reprinting costs money and effort, industry guidance has long recommended formally repricing a printed menu only once or twice a year (at most two to four times), meaning listed prices commonly stay fixed for months between print runs.",
+    "sources": [
+     {
+      "url": "https://thefutureofthings.com/29541-the-real-cadence-behind-restaurant-menu-changes/",
+      "publisher": "The Future of Things (TFOT)",
+      "published_date": "",
+      "quote": "recommendations... advise... formally adjust prices on the menu itself once or twice a year, and even then, touch 15 to 25 percent of listed items per pass rather than repricing the whole board at once",
+      "tier": 3
+     },
+     {
+      "url": "https://www.dinecard.in/blog/restaurant-menu-price-increase-frequency-timing-customer-retention",
+      "publisher": "DineCard",
+      "published_date": "",
+      "quote": "Industry guidance recommends reviewing costs monthly, adjusting prices two to four times a year, and never raising everything at once.",
+      "tier": 3
+     }
+    ]
+   },
+   "c6": {
+    "id": "c6",
+    "verdict": "supported",
+    "event_date": "",
+    "correct": "Confirmed by QR-menu platforms themselves: a staff member edits a price in a dashboard/app and the change is live immediately (not just 'by the next day') across every device with no reprinting, cost, or delay.",
+    "sources": [
+     {
+      "url": "https://www.qrstuff.com/feeds/service/digital-menu-board-creator-update-prices-phone",
+      "publisher": "QRStuff (platform's own page)",
+      "published_date": "",
+      "quote": "Edit the digital menu from your phone or dashboard, and dynamic QR functionality lets updates appear without creating new codes or reprinting old materials.",
+      "tier": 1
+     },
+     {
+      "url": "https://menujo.com/blog/how-to-update-restaurant-menu-instantly",
+      "publisher": "Menujo (platform's own blog)",
+      "published_date": "",
+      "quote": "Update prices instantly and cut printing costs with contactless QR menus that update instantly, so guests order faster and you stop paying for reprints.",
+      "tier": 1
+     }
+    ]
+   },
+   "c7": {
+    "id": "c7",
+    "verdict": "misframed",
+    "event_date": "",
+    "correct": "Not universally true: while most QR menus simply show the current price with no 'price history' log for permanent increases, several QR-menu platforms explicitly do show a prior price — displayed crossed out next to the new discounted price — during Happy Hour/promo campaigns, so the blanket claim that 'no record of a previous price' is ever shown is overstated.",
+    "sources": [
+     {
+      "url": "https://qrmenum.app/en/discounts",
+      "publisher": "QR Menu Num (platform's own page)",
+      "published_date": "",
+      "quote": "Strikethrough old price, bold discounted price — just like e-commerce. ... Old price gray and struck through, new price in bold red — the universal 'deal' signal.",
+      "tier": 1
+     }
+    ]
+   },
+   "c8": {
+    "id": "c8",
+    "verdict": "contradicted",
+    "event_date": "2024-01-11",
+    "correct": "Digital/QR menus routinely let prices drop as well as rise — restaurants use them for dynamic/time-based pricing, lowering prices during off-peak hours or for discounts (e.g., Puesto cut some items up to 20% in slow periods; Bartaco raised weekend prices 5–10% and lowered them on slow weekdays), so prices do not only ever rise.",
+    "sources": [
+     {
+      "url": "https://www.cbsnews.com/news/dynamic-pricing-uber-restaurants/",
+      "publisher": "CBS News",
+      "published_date": "2024-03-23",
+      "quote": "Puesto in La Jolla, California...reduced them by as much as 20% during slower times.",
+      "tier": 2
+     },
+     {
+      "url": "https://www.marketplace.org/story/2024/01/11/are-we-entering-a-world-of-surge-dining",
+      "publisher": "Marketplace (APM)",
+      "published_date": "2024-01-11",
+      "quote": "Bartaco...raised 'to-go' prices by 5-10% during weekend peak hours, then lowered them on slow weekdays",
+      "tier": 2
+     }
+    ]
+   }
+  },
+  "mechanism": {
+   "holds": false,
+   "broken_premise": "Premise 3 (the conclusion's motive) and part of premise 2. The claim that restaurants kept QR menus *in order to* raise prices invisibly, and that digital menus 'keep no record' of past prices, both fail. Premise 1 (printed menus have real 'menu costs' that keep prices sticky) is sound.",
+   "actual_mechanism": "'Menu cost' is a literal economics term for the expense of changing a price, and digital displays do lower it, so prices can be changed more often and more quietly — that part is real. But restaurants that kept QR menus did so overwhelmingly for printing-cost and labor savings, contactless ordering/payment, photo-driven upselling (+8% spend) and customer data, not a hidden pricing scheme; and the 'no record' claim is false because past prices persist on Zomato/Swiggy, Google listings, the Wayback Machine, review sites and screenshots. The telling counter-fact is that many restaurants actually abandoned QR menus and brought paper back, because QR codes lowered check averages (~10%) and annoyed diners — the opposite of what a secret revenue tactic would produce.",
+   "take_survives": false,
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Menu_cost",
+     "published_date": "n/a (reference article, accessed 2026-10-23)",
+     "quote": "Firms can reduce menu costs by adopting more flexible pricing practices, such as digital price displays or dynamic pricing strategies, which minimize the frequency and expense of physical price changes."
+    },
+    {
+     "url": "https://www.cnn.com/2022/08/20/business-food/qr-code-menus/index.html",
+     "published_date": "2022-08-20",
+     "quote": "Not because of hygiene fears — those faded long ago — but because restaurant owners discovered QR menus save money, increase order values, and give them data they never had before."
+    },
+    {
+     "url": "https://www.pymnts.com/restaurant-technology/2024/restaurants-reintroduce-paper-menus-amid-customer-complaints-about-qr-codes/",
+     "published_date": "2024",
+     "quote": "In response to customer complaints, many sit-down eateries are ditching QR codes and reintroducing paper menus."
+    },
+    {
+     "url": "https://www.restaurantbusinessonline.com/technology/restaurants-love-qr-code-menus-customers-arent-so-sure",
+     "published_date": "n/a",
+     "quote": "One restaurant group experienced a 10% decrease in check averages when using QR code menus, as diners often failed to scroll through all the offerings."
+    }
+   ]
+  },
+  "text_hash": "856c6a58a84056b8884abc1ac02319645476e209",
+  "at": "2026-10-23T08:20:35.558827+00:00"
+ },
+ "updated_at": "2026-10-23T08:20:35.559006+00:00"
+}

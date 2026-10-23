@@ -1,0 +1,148 @@
+{
+ "id": "2026-10-97",
+ "status": "written",
+ "due": "2026-10-28T19:30:00+05:30",
+ "format": "carousel",
+ "topic": {
+  "title": "Destination wedding filter",
+  "claim": "A destination wedding isn't about the view; it's a polite way to shrink the guest list without uninviting anyone.",
+  "moment": "The Udaipur wedding where half the relatives 'just couldn't make it.'",
+  "turn": {
+   "believed": "The couple wanted a scenic, special celebration.",
+   "actually": "Distance and cost quietly remove the guests you didn't want, and nobody has to be cut."
+  },
+  "because": "Flights and three-night stays do the filtering for you. The people who won't spend are exactly the ones you were never close to anyway.",
+  "payoff": "A destination wedding is the softest 'you're not invited' ever invented.",
+  "lived": false,
+  "behaviour": "Families pick far-off venues partly to keep numbers and obligations down.",
+  "mechanism": "The airfare cuts the guest list so the host doesn't have to.",
+  "group": "Couples and families planning weddings, and the relatives who feel the distance",
+  "territory": "life_relationships",
+  "mood": "sharp",
+  "format_name": "family_ledger",
+  "send_to": "A cousin planning a 'small intimate' wedding somewhere expensive.",
+  "format_hint": "carousel",
+  "why_now": "Destination weddings keep rising and the guest lists keep shrinking.",
+  "needs_facts": false,
+  "news_peg": null,
+  "evidence": [],
+  "id": "2026-10-e06"
+ },
+ "history": [
+  {
+   "attempt": 0,
+   "problems": [
+    "'Nobody' appears more than once; it's the account's most repeated tic. Keep at most one."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Hard failure 7 (dead slide): slide 6 repeats the point already made in slide 1 and the cover sub, just with a word swap — slide 1: 'It's a way to trim the guest list without cutting a single name,' cover sub: 'No name gets struck off. The airfare does that for you,' slide 6: 'You didn't cut anyone. The ticket price did it for you.' Nothing new is added, so there's no reason to read slide 6 after slide 1/4/5.",
+     "Hard failure 9 (reads like a template): the cover headline contains a literal unresolved placeholder — 'A destination wedding is the softest [guest-list cut] ever made' — bracket text left in, not finished prose."
+    ],
+    "scores": {
+     "hook": 2,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 3
+    },
+    "notes": [
+     "Cover: 'A destination wedding is the softest [guest-list cut] ever made' has a literal unfilled bracket — write the actual line (e.g. 'A destination wedding is the softest guest-list cut ever made') before this goes anywhere.",
+     "Slide 6 is dead weight: it says the same thing as slide 1 ('trim the guest list without cutting a name') and slide 4/5 ('the airfare does the filtering,' 'no name gets struck off'). Rewrite the close so it pushes past the mechanism — what the host actually gets out of it (a clean conscience, a lower bill, zero awkward calls) or a one-line test the reader can run on their own invite list, not a fourth restatement of 'the ticket did it.'",
+     "The whole thesis is given away in the cover sub ('No name gets struck off. The airfare does that for you') before slide 1 even starts. That kills the pull on slides 4-6, which exist only to prove a thing the reader was already told. Hold the explicit 'airfare does the cutting' line back — let slides 2-3 just show the odd pattern of who dropped out, and land the mechanism once, later, not three separate times.",
+     "Slide 4 ('The airfare does the filtering. The host just picks the venue and waits.') and slide 5 ('No name gets struck off a list... She removes herself') are the same point twice. Cut one and use the slide you free up for the 'because' the topic gives you more sharply — who actually gains (the host controls the guest list and the budget without ever looking like the bad guy), since right now that's only implied, not said.",
+     "Once the headline and repeats are fixed, check the new closing line earns its place as something people would actually screenshot or repeat — right now it's interchangeable with three earlier lines, so it won't feel like a payoff even to someone reading for the first time."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Hard failure 7 (dead slide): slide 6 repeats the point already made in slide 1 and the cover sub, just with a word swap — slide 1: 'It's a way to trim the guest list without cutting a single name,' cover sub: 'No name gets struck off. The airfare does that for you,' slide 6: 'You didn't cut anyone. The ticket price did it for you.' Nothing new is added, so there's no reason to read slide 6 after slide 1/4/5.",
+    "Hard failure 9 (reads like a template): the cover headline contains a literal unresolved placeholder — 'A destination wedding is the softest [guest-list cut] ever made' — bracket text left in, not finished prose.",
+    "Cover: 'A destination wedding is the softest [guest-list cut] ever made' has a literal unfilled bracket — write the actual line (e.g. 'A destination wedding is the softest guest-list cut ever made') before this goes anywhere.",
+    "Slide 6 is dead weight: it says the same thing as slide 1 ('trim the guest list without cutting a name') and slide 4/5 ('the airfare does the filtering,' 'no name gets struck off'). Rewrite the close so it pushes past the mechanism — what the host actually gets out of it (a clean conscience, a lower bill, zero awkward calls) or a one-line test the reader can run on their own invite list, not a fourth restatement of 'the ticket did it.'",
+    "The whole thesis is given away in the cover sub ('No name gets struck off. The airfare does that for you') before slide 1 even starts. That kills the pull on slides 4-6, which exist only to prove a thing the reader was already told. Hold the explicit 'airfare does the cutting' line back — let slides 2-3 just show the odd pattern of who dropped out, and land the mechanism once, later, not three separate times.",
+    "Slide 4 ('The airfare does the filtering. The host just picks the venue and waits.') and slide 5 ('No name gets struck off a list... She removes herself') are the same point twice. Cut one and use the slide you free up for the 'because' the topic gives you more sharply — who actually gains (the host controls the guest list and the budget without ever looking like the bad guy), since right now that's only implied, not said.",
+    "Once the headline and repeats are fixed, check the new closing line earns its place as something people would actually screenshot or repeat — right now it's interchangeable with three earlier lines, so it won't feel like a payoff even to someone reading for the first time."
+   ]
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Remove the phrase 'be honest'."
+   ]
+  }
+ ],
+ "sources": [],
+ "draft": {
+  "cover": {
+   "headline": "A destination wedding [uninvites] the relatives you didn't want",
+   "sub": "Half of them 'just couldn't make it.' Funny, which half."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "A destination wedding isn't really about the view. It removes the guests you didn't want, and nobody ever has to say so.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "How does a venue remove guests? The reader wants the trick."
+   },
+   {
+    "paragraphs": [
+     "The wedding is in Udaipur. Three nights at a hotel by the lake, flights for two, sometimes four.",
+     "And suddenly half the relatives 'just couldn't make it.' Work came up. Kids' exams. Something always comes up."
+    ],
+    "why_swipe": "Why did exactly those people drop out, and not the others?"
+   },
+   {
+    "paragraphs": [
+     "Everyone says the couple wanted something scenic. Nice photos, a break from the usual banquet hall near home.",
+     "But look at who vanished. **It's never the inner circle. It's always the far edge of the family.**"
+    ],
+    "why_swipe": "What makes the far edge drop out so neatly?"
+   },
+   {
+    "paragraphs": [
+     "A flight and three nights cost real money. The people who won't spend it are, almost always, the ones you were never close to.",
+     "So the ticket price sorts the list for you. No one is told anything. They just do the maths and stay home."
+    ],
+    "why_swipe": "If nobody is cut, who actually walks away happy?"
+   },
+   {
+    "paragraphs": [
+     "And the couple comes out clean. They get the smaller crowd and the lower bill, without making one awkward call.",
+     "No aunty is told she wasn't wanted. She removes herself, politely, over a WhatsApp 'beta, itni door yaar.' The lake is just the alibi."
+    ],
+    "why_swipe": "So what should you actually watch for in your own plans?"
+   },
+   {
+    "paragraphs": [
+     "So before you book that fort on a hill, ask yourself one thing.",
+     "**The guests you're secretly hoping can't afford it are the ones this whole plan was for.**"
+    ],
+    "why_swipe": ""
+   }
+  ],
+  "end": {
+   "save": "Open this again the next time a 'small, intimate' wedding somewhere expensive lands in your chats.",
+   "send": "Send to a cousin planning a 'small intimate' wedding in a hill fort.",
+   "promise": "How Indian families really work."
+  },
+  "caption": "Think about the last destination wedding you skipped. Was it the flight, or did you both already know you weren't that close?",
+  "hashtags": [
+   "destinationwedding",
+   "indianweddings",
+   "weddingguestlist",
+   "udaipurwedding"
+  ],
+  "alt_text": "A six-slide text post arguing that a destination wedding is a polite way to shrink the guest list. Because flights and a three-night stay cost money, the relatives the couple was never close to quietly stay home, so the host controls the numbers and the budget without ever uninviting anyone.",
+  "claims": []
+ },
+ "updated_at": "2026-10-23T08:23:36.377495+00:00"
+}
