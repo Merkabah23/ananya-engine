@@ -1,0 +1,121 @@
+{
+ "id": "2026-10-93",
+ "status": "approved",
+ "due": "2026-10-30T19:30:00+05:30",
+ "format": "carousel",
+ "topic": {
+  "title": "Gold exchange before Dhanteras",
+  "claim": "After May's duty hike, old gold became a big part of jewellers' supply, and the exchange bonus is what it costs them to turn your locker into a sale.",
+  "moment": "The jeweller weighing mummy's old bangles before Dhanteras and offering an exchange bonus.",
+  "turn": {
+   "believed": "the exchange bonus is the jeweller doing you a favour",
+   "actually": "since imports fell after the duty hike, old gold is a main supply line, and exchange guarantees a sale"
+  },
+  "because": "exchange gold needs no import or upfront duty and only comes with a new purchase, with making charges and GST on it",
+  "payoff": "If the exchange route isn't clearly cheaper than the cash route, it was never a bonus.",
+  "territory": "money_status",
+  "format_name": "behind_the_brand",
+  "proof": [
+   {
+    "fact": "Customs duty on gold rose from 6% to 15% (BCD 5 to 10, AIDC 1 to 5) from 13 May 2026; gold imports fell about 70% after the hike",
+    "source_url": "https://www.outlookbusiness.com/news/gold-imports-drop-70-to-30-tonnes-after-duty-hike-official",
+    "date": "2026-06-18"
+   },
+   {
+    "fact": "GTRI: effective duty on gold including IGST rose to 18.45% from 9.18%",
+    "source_url": "https://www.angelone.in/news/economy/new-import-duties-could-drive-demand-for-dubai-gold-says-gtri",
+    "date": "2026-05-13"
+   },
+   {
+    "fact": "46% of Kalyan Jewellers' revenue in Q1 FY27 was from recycled gold; nearly 65% of jewellery sales at Joy Alukkas are from old gold exchanges",
+    "source_url": "https://www.theweek.in/news/biz-tech/2026/09/12/strategic-sales-move-or-government-nudge-why-are-jewellers-pushing-for-selling-old-gold.html",
+    "date": "2026-09-12"
+   }
+  ]
+ },
+ "draft": {
+  "slides": [
+   {
+    "paragraphs": [
+     "This Dhanteras, the jeweller will offer an \"exchange bonus\" on mummy's old bangles. It isn't generosity. Since May, her bangles are his supply line.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "'supply line' contradicts the favour everyone assumes; what changed in May?"
+   },
+   {
+    "paragraphs": [
+     "Glass counter. Small scale. The bangles from her wedding, still in the red pouch.",
+     "He tests them, weighs them, cuts a little for melting, then smiles. \"Aunty, exchange bonus bhi denge.\"",
+     "Everyone walks out feeling they won. I used to think so too."
+    ],
+    "why_swipe": "the reader has lived this scene; the narrator found something out"
+   },
+   {
+    "paragraphs": [
+     "With GST, imported gold now carries about 18.45% in tax, double the 9.18% before.",
+     "**After the hike, imports fell about 70%.**"
+    ],
+    "why_swipe": "imports collapsed; the gap is filled from somewhere",
+    "big": {
+     "figure": "18.45%",
+     "label": "tax on imported gold, up from 9.18%"
+    },
+    "source": "Source: CBIC notification 16/2026; GTRI; PTI, 18 Jun 2026"
+   },
+   {
+    "paragraphs": [
+     "So more of the gold now comes from your family locker.",
+     "**Mummy's almirah is a supply chain.**"
+    ],
+    "why_swipe": "the scale is proven; what does the jeweller get beyond the gold?",
+    "big": {
+     "figure": "46%",
+     "label": "of Kalyan's revenue from recycled gold, Apr-Jun 2026"
+    },
+    "source": "Source: Kalyan Jewellers Q1 FY27 earnings call"
+   },
+   {
+    "paragraphs": [
+     "Exchange offers aren't new. What changed in May is how much he needs your gold.",
+     "At most big chains, an exchange only works against a new purchase. The bonus is a sweetener he earns back on the new piece, in full making charges."
+    ],
+    "why_swipe": "the seller's side is out; how do you tell if your bonus is real?"
+   },
+   {
+    "paragraphs": [
+     "So before you say yes, get two numbers in writing.",
+     "One: the new piece with the exchange, after the bonus. Two: the new piece without exchange, minus what he'd pay in cash for the same bangles.",
+     "**If one isn't clearly lower, it was never a bonus. It was the price of mummy's gold.**"
+    ]
+   }
+  ],
+  "caption": "Has anyone in your family ever asked for the cash price of their old gold before taking the exchange bonus?",
+  "hashtags": [
+   "#Dhanteras",
+   "#GoldExchange",
+   "#PersonalFinanceIndia"
+  ],
+  "alt_text": "A text carousel arguing that after the May 2026 gold duty hike, old gold exchange became a main supply for jewellers, with a test for whether an exchange bonus is real.",
+  "claims": [],
+  "caption_style": "question",
+  "cover": {
+   "headline": "Mummy's old gold is now the jeweller's [supply line.]",
+   "sub": "This Dhanteras, the exchange bonus isn't generosity.",
+   "proof": {
+    "figure": "6% → 15%",
+    "label": "customs duty on gold, since 13 May 2026"
+   }
+  },
+  "end": {
+   "save": "Take the two numbers to the jeweller's counter on 6 Nov.",
+   "send": "Know someone exchanging old gold this Dhanteras? Send it to them."
+  }
+ },
+ "sources": [],
+ "history": [
+  {
+   "note": "written and tested in the 2026-10-23 quality reset (stages 1-2), approved by the owner"
+  }
+ ],
+ "updated_at": "2026-10-23T07:11:03.197944+00:00"
+}

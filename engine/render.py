@@ -1,4 +1,9 @@
-"""Render a draft into 1080x1350 JPEG slides in the 'Facebook post' style (section 4 of the playbook)."""
+"""Render a draft into 1080x1350 JPEG slides: an editorial cover, calm reading slides and an end card.
+
+The design was chosen in a blind test with 750 simulated readers (2026-10-23): a big cover headline with one teal
+keyword and a proof number, a pinned header with a monogram and the struck-through MRP tag, one bold teal line per
+slide at most, big figures with a source line on data slides, a page count, and an end card that asks for a save.
+"""
 from __future__ import annotations
 
 import math
@@ -11,13 +16,19 @@ from . import config
 
 W, H = config.CANVAS
 MARGIN = 80
-AVATAR = 120
+SAFE = 112              # Instagram's 3:4 profile grid crops ~34px off each side; cover text stays inside this
+PAPER = (250, 248, 244)
+INK = (17, 17, 17)
+SUB = (74, 79, 76)
+COUNT = (88, 93, 90)
 TEAL = (15, 118, 110)
-INK = (5, 5, 5)
-GREY = (101, 103, 107)
+TEAL_TINT = (226, 241, 238)
+WHITE = (255, 255, 255)
+ON_TEAL = (220, 236, 233)
 FONTS = config.ASSETS / "fonts"
-BODY_SIZES = [48, 46]  # never shrink a dense slide into small print: split it instead (split_for_fit)
+BODY_SIZES = [54, 50]   # never shrink a dense slide into small print: split it instead (split_for_fit)
 SWIPE = "swipe to read"
+BODY_TOP, BODY_BOTTOM = 230, H - 120
 
 
 class Overflow(Exception):
@@ -28,133 +39,232 @@ def _font(weight: str, size: int) -> ImageFont.FreeTypeFont:
     return ImageFont.truetype(str(FONTS / f"Inter-{weight}.ttf"), size)
 
 
-def _avatar() -> Image.Image:
-    p = config.ASSETS / "avatar.png"
-    if p.exists():
-        img = Image.open(p).convert("RGB").resize((AVATAR, AVATAR))
-    else:  # placeholder until the illustrated avatar is added
-        img = Image.new("RGB", (AVATAR, AVATAR), TEAL)
-        d = ImageDraw.Draw(img)
-        f = _font("Medium", 46)
-        initials = "".join(w[0] for w in config.DISPLAY_NAME.split()[:2]).upper()
-        d.text((AVATAR / 2, AVATAR / 2), initials, font=f, fill="white", anchor="mm")
-    mask = Image.new("L", (AVATAR, AVATAR), 0)
-    ImageDraw.Draw(mask).ellipse((0, 0, AVATAR - 1, AVATAR - 1), fill=255)
-    img.putalpha(mask)
+# --- chrome: monogram, price tag, header, page count --------------------------------------------------------
+
+def _monogram(size: int, on_teal: bool = False) -> Image.Image:
+    img = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    d.ellipse((0, 0, size - 1, size - 1), fill=WHITE if on_teal else TEAL)
+    d.text((size / 2, size / 2 + 2), config.MONOGRAM, font=_font("Bold", int(size * 0.34)),
+           fill=TEAL if on_teal else WHITE, anchor="mm")
     return img
 
 
-def _tokens(text: str) -> list[tuple[str, bool]]:
-    """Split a paragraph into (word, is_italic) using *single-asterisk* markers. Any **bold** markers are
-    dropped: the house style is one weight throughout. Newlines become ('\n', False)."""
-    text = text.replace("**", "")
-    out: list[tuple[str, bool]] = []
+def _tag(d: ImageDraw.ImageDraw, x: int, y: int, w: int, h: int, on_teal: bool = False) -> None:
+    """The brand mark: a price tag reading MRP, struck through."""
+    fill, ink = (WHITE, TEAL) if on_teal else (TEAL, WHITE)
+    notch = h // 2
+    d.polygon([(x, y + notch), (x + notch, y), (x + w, y), (x + w, y + h), (x + notch, y + h)], fill=fill)
+    hole = max(5, h // 6)
+    d.ellipse((x + notch - hole, y + notch - hole, x + notch + hole, y + notch + hole), fill=TEAL if on_teal else PAPER)
+    f = _font("Bold", int(h * 0.55))
+    tx = x + notch + (w - notch) / 2
+    d.text((tx, y + h / 2), "MRP", font=f, fill=ink, anchor="mm")
+    half = f.getlength("MRP") / 2 + 4
+    d.line((tx - half, y + h / 2 + 2, tx + half, y + h / 2 + 2), fill=ink, width=max(3, h // 14))
+
+
+def _header(img: Image.Image, d: ImageDraw.ImageDraw, large: bool = False, on_teal: bool = False) -> None:
+    size, y = (96, 72) if large else (72, 72)
+    mark = _monogram(size, on_teal)
+    img.paste(mark, (MARGIN, y), mark)
+    x = MARGIN + size + 22
+    d.text((x, y + (12 if large else 6)), config.DISPLAY_NAME, font=_font("Bold", 40 if large else 34),
+           fill=WHITE if on_teal else INK)
+    d.text((x, y + (58 if large else 44)), "@" + config.IG_HANDLE, font=_font("Regular", 30 if large else 26),
+           fill=ON_TEAL if on_teal else SUB)
+    tw, th = (150, 58) if large else (116, 44)
+    _tag(d, W - MARGIN - tw, y + (20 if large else 8), tw, th, on_teal)
+
+
+def _count(d: ImageDraw.ImageDraw, i: int, n: int, on_teal: bool = False) -> None:
+    if n < 2:
+        return
+    d.text((W - MARGIN, H - 64), f"{i}/{n}  →" if i < n else f"{i}/{n}", font=_font("SemiBold", 36),
+           fill=ON_TEAL if on_teal else COUNT, anchor="rs")
+
+
+# --- text: **bold** (teal), *italic*, wrapping ----------------------------------------------------------------
+
+def _tokens(text: str) -> list[tuple[str, str]]:
+    """(word, style) with style in regular/bold/italic. Newlines become ('\\n', 'regular')."""
+    out: list[tuple[str, str]] = []
     for line_no, line in enumerate(text.split("\n")):
         if line_no:
-            out.append(("\n", False))
-        for k, part in enumerate(line.split("*")):
-            out += [(w, k % 2 == 1) for w in part.split()]
+            out.append(("\n", "regular"))
+        for b, chunk in enumerate(line.split("**")):
+            for k, part in enumerate(chunk.split("*")):
+                style = "bold" if b % 2 else ("italic" if k % 2 else "regular")
+                out += [(w, style) for w in part.split()]
     return out
 
 
-def _wrap_runs(text: str, size: int, width: int) -> list[list[tuple[str, bool]]]:
-    reg, ital = _font("Regular", size), _font("Italic", size)
-    space = reg.getlength(" ")
-    lines: list[list[tuple[str, bool]]] = [[]]
+def _face(style: str, size: int) -> ImageFont.FreeTypeFont:
+    return _font({"bold": "SemiBold", "italic": "Italic"}.get(style, "Regular"), size)
+
+
+def _wrap(text: str, size: int, width: int) -> list[list[tuple[str, str]]]:
+    space = _font("Regular", size).getlength(" ")
+    lines: list[list[tuple[str, str]]] = [[]]
     x = 0.0
-    for word, b in _tokens(text):
+    for word, style in _tokens(text):
         if word == "\n":
             lines.append([]); x = 0.0
             continue
-        w = (ital if b else reg).getlength(word)
+        w = _face(style, size).getlength(word)
         if lines[-1] and x + space + w > width:
             lines.append([]); x = 0.0
         x += (space if lines[-1] else 0) + w
-        lines[-1].append((word, b))
+        lines[-1].append((word, style))
     return lines
 
 
-def _layout(paragraphs: list[str], size: int) -> tuple[list[tuple[list, str]], int]:
-    """Return [(runs, kind)] with kind in body/swipe/gap and the total height."""
-    lh = int(size * 1.38)
-    rows: list[tuple[list, str]] = []
-    for i, p in enumerate(paragraphs):
-        kind = "swipe" if p.strip().lower().startswith(SWIPE) else "body"
-        for runs in _wrap_runs(p.strip(), size, W - 2 * MARGIN):
-            rows.append((runs, kind))
-        if i < len(paragraphs) - 1:
-            rows.append(([], "gap"))
-    height = sum(lh if k != "gap" else int(lh * 0.62) for _, k in rows)
-    return rows, height
-
-
-def _globe(d: ImageDraw.ImageDraw, cx: int, cy: int, r: int, color=GREY) -> None:
-    d.ellipse((cx - r, cy - r, cx + r, cy + r), outline=color, width=3)
-    d.ellipse((cx - r // 2, cy - r, cx + r // 2, cy + r), outline=color, width=2)
-    d.line((cx - r, cy, cx + r, cy), fill=color, width=2)
-
-
-def render_slide(paragraphs: list[str], end: bool = False) -> Image.Image:
-    """end=True draws the end card: the same header and text, in teal with white type."""
-    header_h, gap = AVATAR, 44
-    avail = H - 2 * 70 - header_h - gap
-    for size in BODY_SIZES:
-        rows, text_h = _layout(paragraphs, size)
-        if text_h <= avail:
-            break
-    else:
-        raise Overflow(f"text needs {text_h}px, {avail}px available")
-    bg, ink, sub = (TEAL, (255, 255, 255), (209, 240, 235)) if end else ((255, 255, 255), INK, GREY)
-    img = Image.new("RGB", (W, H), bg)
-    d = ImageDraw.Draw(img)
-    y0 = max(70, (H - (header_h + gap + text_h)) // 2)
-    # Header: avatar, teal bar, name, "Just now · globe", dots
-    img.paste(_avatar(), (MARGIN, y0), _avatar())
-    nx = MARGIN + AVATAR + 26
-    d.rectangle((nx, y0 + 14, nx + 5, y0 + AVATAR - 14), fill=ink if end else TEAL)
-    nx += 22
-    d.text((nx, y0 + 18), config.DISPLAY_NAME, font=_font("Medium", 44), fill=ink)
-    meta = _font("Regular", 32)
-    d.text((nx, y0 + 72), "Just now ·", font=meta, fill=sub)  # same header on every slide, end card included
-    _globe(d, int(nx + meta.getlength("Just now ·") + 26), y0 + 72 + 19, 14, sub)
-    for k in range(3):
-        d.ellipse((W - MARGIN - 52 + k * 20, y0 + 30, W - MARGIN - 42 + k * 20, y0 + 40), fill=sub)
-    # Body, at the size chosen above
-    reg, ital = _font("Regular", size), _font("Italic", size)
-    space = reg.getlength(" ")
-    lh = int(size * 1.38)
-    y = y0 + header_h + gap
-    for runs, kind in rows:
-        if kind == "gap":
-            y += int(lh * 0.62)
-            continue
-        x = float(MARGIN)
-        for k, (word, b) in enumerate(runs):
-            f = ital if b else reg
+def _draw_lines(d: ImageDraw.ImageDraw, lines, x: int, y: int, size: int, color, bold_color) -> int:
+    space, lh = _font("Regular", size).getlength(" "), int(size * 1.44)
+    for runs in lines:
+        cx = float(x)
+        for k, (word, style) in enumerate(runs):
             if k:
-                x += space
-            d.text((x, y), word, font=f, fill=sub if kind == "swipe" else ink)
-            x += f.getlength(word)
+                cx += space
+            f = _face(style, size)
+            d.text((cx, y), word, font=f, fill=bold_color if style == "bold" else color)
+            cx += f.getlength(word)
         y += lh
+    return y
+
+
+def _body_height(paragraphs: list[str], size: int) -> int:
+    lh = int(size * 1.44)
+    return sum(len(_wrap(p, size, W - 2 * MARGIN)) * lh for p in paragraphs) + int(lh * 0.6) * (len(paragraphs) - 1)
+
+
+# --- slides -------------------------------------------------------------------------------------------------
+
+def _clean(paragraphs: list[str]) -> list[str]:
+    return [p for p in paragraphs if p.strip() and not p.strip().lower().startswith(SWIPE)]
+
+
+def render_cover(cover: dict, n: int) -> Image.Image:
+    """Big headline ([keyword] in teal, kept on one line), a sub-line, and one proof number in the lower third."""
+    img = Image.new("RGB", (W, H), PAPER)
+    d = ImageDraw.Draw(img)
+    _header(img, d, large=True)
+    headline = re.sub(r"\[([^\]]+)\]", lambda m: "[" + m.group(1).replace(" ", " ") + "]", cover["headline"])
+    words, safe = headline.split(), W - 2 * SAFE
+    for size in range(108, 70, -2):
+        f = _font("Bold", size)
+        lines, cur = [], []
+        for w in words:
+            test = " ".join(cur + [w]).replace("[", "").replace("]", "")
+            if cur and f.getlength(test) > safe:
+                lines.append(cur); cur = []
+            cur.append(w)
+        lines.append(cur)
+        if len(lines) <= 4 and all(f.getlength(" ".join(l).replace("[", "").replace("]", "")) <= safe for l in lines):
+            break
+    y, teal = 250, False
+    for line in lines:
+        x = float(SAFE)
+        for w in line:
+            if w.startswith("["):
+                teal = True
+            word = w.strip("[]").replace(" ", " ")
+            d.text((x, y), word, font=f, fill=TEAL if teal else INK)
+            x += f.getlength(word + " ")
+            if w.endswith("]"):
+                teal = False
+        y += int(size * 1.12)
+    y += 34
+    for runs in _wrap(cover.get("sub", ""), 44, safe):
+        d.text((SAFE, y), " ".join(w for w, _ in runs), font=_font("Medium", 44), fill=SUB)
+        y += 60
+    proof = cover.get("proof") or {}
+    if proof.get("figure"):
+        by = H - 330
+        d.rounded_rectangle((MARGIN, by, W - MARGIN, by + 210), radius=24, fill=TEAL_TINT)
+        d.text((MARGIN + 44, by + 28), proof["figure"], font=_font("Bold", 84), fill=TEAL)
+        ly = by + 130
+        for runs in _wrap(proof.get("label", ""), 32, W - 2 * (MARGIN + 44))[:2]:
+            d.text((MARGIN + 44, ly), " ".join(w for w, _ in runs), font=_font("Medium", 32), fill=SUB)
+            ly += 40
+    _count(d, 1, n)
     return img
 
 
-def split_for_fit(slides: list[list[str]]) -> list[list[str]]:
-    """Split any slide that overflows at the smallest size into two, at a paragraph boundary."""
-    out: list[list[str]] = []
-    for paras in slides:
-        try:
-            render_slide(paras)
-            out.append(paras)
-        except Overflow:
-            if len(paras) >= 2:
-                mid = math.ceil(len(paras) / 2)
-                out += split_for_fit([paras[:mid], paras[mid:]])
-                continue
-            halves = _halve(paras[0])
-            if len(halves) < 2:
-                raise
-            out += split_for_fit([[h] for h in halves])
+def render_slide(paragraphs: list[str], i: int = 1, n: int = 1, big: dict | None = None,
+                 source: str | None = None) -> Image.Image:
+    """A reading slide: paragraphs with at most one **bold** teal line, an optional big figure and a source line."""
+    paragraphs = _clean(paragraphs)
+    room = BODY_BOTTOM - BODY_TOP - (330 if big else 0)
+    for size in BODY_SIZES:
+        if _body_height(paragraphs, size) <= room:
+            break
+    else:
+        raise Overflow(f"text needs {_body_height(paragraphs, BODY_SIZES[-1])}px, {room}px available")
+    img = Image.new("RGB", (W, H), PAPER)
+    d = ImageDraw.Draw(img)
+    _header(img, d)
+    y = BODY_TOP
+    for p in paragraphs:
+        y = _draw_lines(d, _wrap(p, size, W - 2 * MARGIN), MARGIN, y, size, INK, TEAL) + int(size * 1.44 * 0.6)
+    if big and big.get("figure"):
+        fy = max(y + 10, H - 470)
+        d.text((MARGIN, fy), big["figure"], font=_font("Bold", 150), fill=TEAL)
+        d.text((MARGIN + 4, fy + 178), big.get("label", ""), font=_font("Medium", 34), fill=SUB)
+    if source:
+        d.text((MARGIN, H - 64), source, font=_font("Regular", 26), fill=COUNT, anchor="ls")
+    _count(d, i, n)
+    return img
+
+
+def render_end(end: dict, n: int) -> Image.Image:
+    """The end card: the page's promise, one ask (save, with a reason), who to send it to, and the posting days."""
+    img = Image.new("RGB", (W, H), TEAL)
+    d = ImageDraw.Draw(img)
+    _header(img, d, large=True, on_teal=True)
+    y = 330
+    for runs in _wrap(config.END_PROMISE, 84, W - 2 * MARGIN):
+        d.text((MARGIN, y), " ".join(w for w, _ in runs), font=_font("Bold", 84), fill=WHITE)
+        y += 98
+    y += 70
+    save = (end.get("save") or "").replace(" Nov", " Nov")
+    if save:
+        d.rounded_rectangle((MARGIN, y, W - MARGIN, y + 250), radius=28, fill=WHITE)
+        d.text((MARGIN + 44, y + 42), "Save this", font=_font("Bold", 56), fill=TEAL)
+        yy = y + 120
+        for runs in _wrap(save, 40, W - 2 * MARGIN - 88)[:2]:
+            d.text((MARGIN + 44, yy), " ".join(w for w, _ in runs).replace(" ", " "), font=_font("Medium", 40), fill=INK)
+            yy += 54
+        y += 320
+    for runs in _wrap(end.get("send", ""), 38, W - 2 * MARGIN)[:3]:
+        d.text((MARGIN, y), " ".join(w for w, _ in runs), font=_font("Regular", 38), fill=(230, 244, 241))
+        y += 52
+    d.text((MARGIN, H - 64), config.END_FOLLOW_LINE, font=_font("Medium", 32), fill=ON_TEAL, anchor="ls")
+    _count(d, n, n, on_teal=True)
+    return img
+
+
+def _fits(paragraphs: list[str], big: dict | None = None) -> bool:
+    room = BODY_BOTTOM - BODY_TOP - (330 if big else 0)
+    return _body_height(_clean(paragraphs), BODY_SIZES[-1]) <= room
+
+
+def split_for_fit(slides: list[dict]) -> list[dict]:
+    """Split any reading slide that overflows at the smallest size into two, at a paragraph boundary."""
+    out: list[dict] = []
+    for s in slides:
+        paras = s["paragraphs"]
+        if _fits(paras, s.get("big")):
+            out.append(s)
+            continue
+        if len(paras) >= 2:
+            mid = math.ceil(len(paras) / 2)
+            out += split_for_fit([{"paragraphs": paras[:mid]}, {**s, "paragraphs": paras[mid:]}])
+            continue
+        halves = _halve(paras[0])
+        if len(halves) < 2:
+            raise Overflow("a single sentence is too long for a slide")
+        out += split_for_fit([{"paragraphs": [halves[0]]}, {**s, "paragraphs": [halves[1]]}])
     return out
 
 
@@ -173,19 +283,34 @@ def _halve(paragraph: str) -> list[str]:
     return [" ".join(w[: len(w) // 2]), " ".join(w[len(w) // 2:])] if len(w) > 1 else [paragraph]
 
 
+def cover_for(draft: dict) -> dict:
+    """The draft's cover, or one built from the hook when an older draft has none."""
+    cover = dict(draft.get("cover") or {})
+    if not cover.get("headline"):
+        hook = _clean(draft["slides"][0]["paragraphs"]) or [""]
+        cover = {"headline": hook[0], "sub": " ".join(hook[1:]), **cover}
+    return cover
+
+
 def render_post(post: dict) -> list[Path]:
-    slides = split_for_fit([s["paragraphs"] for s in post["draft"]["slides"]])
-    if len(slides) > config.BUFFER_MAX_IMAGES:
-        raise Overflow(f"{len(slides)} slides after splitting; Buffer allows {config.BUFFER_MAX_IMAGES}")
+    draft = post["draft"]
     outdir = config.OUT / post["id"]
     outdir.mkdir(parents=True, exist_ok=True)
+    if post.get("format") == "single" or len(draft["slides"]) == 1:
+        images = [render_slide(draft["slides"][0]["paragraphs"])]
+    else:
+        body = split_for_fit([s for s in draft["slides"][1:]])
+        end = bool(config.END_CARD)
+        n = 1 + len(body) + end
+        if n > config.BUFFER_MAX_IMAGES:
+            raise Overflow(f"{n} slides after splitting; Buffer allows {config.BUFFER_MAX_IMAGES}")
+        images = [render_cover(cover_for(draft), n)]
+        images += [render_slide(s["paragraphs"], i, n, s.get("big"), s.get("source")) for i, s in enumerate(body, 2)]
+        if end:
+            images.append(render_end(draft.get("end") or {}, n))
     paths = []
-    is_carousel = post.get("format") != "single" and len(slides) > 1
-    for i, paras in enumerate(slides, 1):
+    for i, img in enumerate(images, 1):
         p = outdir / f"slide_{i:02d}.jpg"
-        end = is_carousel and i == len(slides) and config.END_CARD
-        if end and post.get("end_follow_line") and config.END_FOLLOW_LINE:
-            paras = paras + [config.END_FOLLOW_LINE]
-        render_slide(paras, end=end).save(p, "JPEG", quality=92, optimize=True)
+        img.save(p, "JPEG", quality=92, optimize=True)
         paths.append(p)
     return paths

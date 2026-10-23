@@ -47,7 +47,8 @@ def select(candidates: list[dict], n: int) -> list[dict]:
     """Pick the month's takes the way the owner would, from the owner's approved and rejected takes."""
     t = taste()
     lines = lambda items: "\n".join(f'- "{x["take"]}" ({x["why"]})' for x in items) or "(none yet)"
-    keys = ("id", "claim", "territory", "mood", "format_hint", "format_name", "send_to", "news_peg")
+    keys = ("id", "claim", "moment", "turn", "because", "proof", "payoff", "territory", "mood", "format_hint",
+            "format_name", "send_to", "news_peg")
     cands = "\n".join(json.dumps({k: c.get(k) for k in keys}, ensure_ascii=False) for c in candidates)
     mix = ", ".join(f"{k} {round(v * 100)}%" for k, v in config.TERRITORY_MIX.items())
     ask = llm.fill(llm.prompt("select"), persona=llm.prompt("persona"),
@@ -61,7 +62,7 @@ def select(candidates: list[dict], n: int) -> list[dict]:
     for rank, p in enumerate(out.get("picks", [])):
         c = by_id.get(p.get("id"))
         if c and all(c["id"] != x["id"] for x in picks):
-            picks.append({**c, "score": {"rank": rank + 1, "why": p.get("why", ""),
+            picks.append({**c, "score": {"rank": rank + 1, "why": p.get("why", ""), "scores": p.get("scores", {}),
                                          "format_fit": p.get("format_fit") or c.get("format_hint") or "carousel"}})
     state.log("filter", f"selected {len(picks)} of {len(candidates)} takes by the owner's taste")
     return picks

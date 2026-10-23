@@ -26,10 +26,14 @@ def fake_call_json(model, user, stage="", **kw):
         return {"verdicts": []}
     if stage == "write":
         slides = SLIDES[:1] if "a single slide of 30-70 words" in user else SLIDES
-        return {"slides": [{"paragraphs": p} for p in slides], "caption": "Which room was off-limits?",
+        return {"slides": [{"paragraphs": p, "why_swipe": "what happens next"} for p in slides], "caption": "Which room was off-limits?",
+                "cover": {"headline": "Gill is No. 1 and the [group chat] went quiet", "sub": "s"},
                 "alt_text": "A text post", "claims": []}
     if stage == "critic":
-        return {"pass": True, "violations": [], "scores": {}, "edits": []}
+        return {"pass": True, "violations": [], "notes": [],
+                "scores": {k: 5 for k in ("hook", "new_to_reader", "pull", "because", "payoff", "voice")}}
+    if stage == "ledger":
+        return {"claims": []}
     if stage == "blindtest":
         return {"ai_post": 99, "confidence": 0.3, "tells": []}  # judge fails to spot it
     raise AssertionError(stage)
@@ -63,13 +67,19 @@ def test_scout_is_culture_first_and_uses_reddit_as_evidence(tmp_path, monkeypatc
     monkeypatch.setattr(scout, "fetch_reddit", lambda month=None: reddit)
     seen = []
 
+    whole = {"moment": "m", "because": "b", "turn": {"believed": "x", "actually": "y"}}
+    proof = [{"fact": "f", "source_url": "https://news.example/0", "date": "2026-10-01"}]
+
     def fake(model, user, stage="", **kw):
         seen.append(stage)
         if stage == "scout":
             assert "reddit.com" not in user  # Reddit never feeds topic creation
-            return {"topics": [{"claim": "news claim", "real_details": ["a fact"], "evidence": [{"url": "https://news.example/0"}]}]}
-        if stage == "scout-evergreen":
-            return {"topics": [{"claim": "evergreen claim"}]}
+            return {"topics": [{"claim": "news claim", "real_details": ["a fact"], "territory": "money_status", "proof": proof,
+                                "evidence": [{"url": "https://news.example/0"}], **whole},
+                               {"claim": "money claim without proof", "territory": "money_status", **whole},
+                               {"claim": "recognition only", "territory": "life_relationships"}]}
+        if stage == "scout-research":
+            return {"topics": [{"claim": "evergreen claim", "territory": "life_relationships", **whole}]}
         if stage == "evidence-match":
             return {"matches": [{"topic": 1, "threads": [2, 99]}]}
         if stage == "evidence-details":
@@ -104,17 +114,21 @@ def test_approve_and_reject_teach_the_engine(tmp_path, monkeypatch):
     assert bank[-1]["slides"] == ["one\ntwo", "three"]
 
 
-def test_owner_approved_drafts_skip_the_writer(tmp_path, monkeypatch):
+def test_owner_approved_drafts_skip_the_writer_but_not_the_fact_gate(tmp_path, monkeypatch):
     monkeypatch.setattr(config, "STATE", tmp_path / "state")
     monkeypatch.setattr(config, "OUT", tmp_path / "out")
-    def no_writing(*a, **k):
+    stages = []
+    def gate_only(model, user, stage="", **kw):
+        stages.append(stage)
+        if stage == "ledger":
+            return {"claims": []}
         raise AssertionError("an approved draft must not be rewritten")
-    monkeypatch.setattr(llm, "call_json", no_writing)
+    monkeypatch.setattr(llm, "call_json", gate_only)
     draft = {"slides": [{"paragraphs": p} for p in SLIDES], "caption": "c", "alt_text": "a", "claims": []}
     state.save_post({"id": "2026-11-01", "status": "approved", "due": "2026-11-02T19:30:00+05:30", "format": "carousel",
                      "topic": {"claim": "x"}, "draft": draft, "history": []})
     cli.produce("2026-11")
-    assert state.posts("uploaded")[0]["id"] == "2026-11-01"
+    assert state.posts("uploaded")[0]["id"] == "2026-11-01" and stages == ["ledger"]
 
 
 def test_scorecard_rows_and_per_thousand(tmp_path, monkeypatch):

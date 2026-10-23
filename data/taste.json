@@ -1,18 +1,11 @@
 {
- "_note": "The owner's taste, used to select takes automatically. Grows with every `python -m engine approve|reject`. Reasons matter more than the takes themselves.",
+ "_note": "The owner's taste. principles are ranked; approved and rejected are takes with the owner's reasons; register_only are the reference creator's posts, shown for range and register, never as approved topics.",
  "principles": [
-  "A specific, named thing India is doing or talking about, plus one crisp reframe people feel but haven't said.",
-  "Hard-hitting: the take has an uncomfortable or surprising edge, and goes one step further than the reader expected.",
-  "Plain and observational, like a sharp person talking. Not poetic, not sentimental, not a sociology essay.",
-  "Brands, business, creators and money are core subjects, told so an ordinary customer cares.",
-  "Facts are texture that establish the point; the thought is the post.",
-  "Feels like the reference creator's range and register, without copying his topics.",
-  "Light and precise: one beat per slide, about 25-40 words, 5-7 slides. Readers drop off on dense slides and get the gist by slide 3 or 4, so say each thing once and stop when the insight lands.",
-  "One or two examples make a point; never list every place it shows up (owner feedback on the QR post).",
-  "Hook: a concrete contradiction or a vivid reframe of what people actually did, with a reason to swipe (an open question, or a bigger stake still to be explained). Never the formulaic 'not X, it's Y', never abstract.",
-  "Lane: young working Indians, 24-32. Their own salary, EMIs, office, family WhatsApp group, friends and phone. Posts about a company's news, a stock, a funding round or box office lose them; a moment they have lived wins.",
-  "Freshness: a news peg must be within about 30 days of the post's date. Older news is not news; prefer an evergreen observation over a stale peg.",
-  "Avoid accusing a named company of wrongdoing (fake badges, fake timers, skipped audits) unless a source says so. Describe the pattern, not the brand."
+  "1. Something the reader didn't know. Every post leaves a smart 27-year-old with a fact or a way of seeing they hadn't put together. Recognition alone ('we all do this') never qualifies.",
+  "2. The turn and the because. 'Everyone thinks X; actually Y', where X is genuinely believed, explained from the seller's side (who earns what, and how) or by the hidden motive. Insider mechanics are the point; translate them for a customer.",
+  "3. A lived moment. The take hangs on a scene at least half of young working Indians (24-32) live: salary day, the checkout screen, the appraisal letter, the jeweller's counter, the family WhatsApp group.",
+  "4. Proof that holds. Any claim about money, a company or the world rests on a verified fact with a dated source, primary where possible; never one stranger's story, never stale news framed as new, never an accusation a source doesn't support.",
+  "5. A payoff. The post ends on a line people repeat, a test the reader can run, or what happens next. Fewer, fuller slides that chain into each other."
  ],
  "approved": [
   {
@@ -30,46 +23,6 @@
   {
    "take": "Matrimony filters aren't chosen for the marriage, they're chosen for the relatives.",
    "why": "Sharp reframe of something everyone has seen; turns on the reader."
-  },
-  {
-   "take": "India's real luxury market isn't fashion or cars It's privacy. Gated communities, private hospitals, business class, VIP darshan. The wealthiest Indians are pay",
-   "why": "Top-performing carousel by the reference creator: a named thing and one crisp reframe. Learn the kind of take; never repeat the angle.",
-   "source": "reference creator"
-  },
-  {
-   "take": "Imagine you're in a massive auditorium with 362 million Indians. Every age. Every income level. Every social class. And one by one, each person gets to walk on",
-   "why": "Top-performing carousel by the reference creator: a named thing and one crisp reframe. Learn the kind of take; never repeat the angle.",
-   "source": "reference creator"
-  },
-  {
-   "take": "Dhurandhar 2 is almost 4 hours long. And people are sitting through every single minute of it. That tells you something important about how cinema is quietly ch",
-   "why": "Top-performing carousel by the reference creator: a named thing and one crisp reframe. Learn the kind of take; never repeat the angle.",
-   "source": "reference creator"
-  },
-  {
-   "take": "There's something bizarre about Indian consumer behaviour. I know a guy who spent 71,00,000 on a phone and then spent 45 minutes last month looking for a",
-   "why": "Top-performing carousel by the reference creator: a named thing and one crisp reframe. Learn the kind of take; never repeat the angle.",
-   "source": "reference creator"
-  },
-  {
-   "take": "People don't move to Bangalore, Hyderabad, Pune etc, just for the job. They move to become someone their hometown wouldn't recognize.",
-   "why": "Top-performing carousel by the reference creator: a named thing and one crisp reframe. Learn the kind of take; never repeat the angle.",
-   "source": "reference creator"
-  },
-  {
-   "take": "The Millennial Silence Problem Why one of the most experienced generation on the internet stopped talking and what it's costing all of us. Swipe to read - →",
-   "why": "Top-performing carousel by the reference creator: a named thing and one crisp reframe. Learn the kind of take; never repeat the angle.",
-   "source": "reference creator"
-  },
-  {
-   "take": "There's a generation in India earning 30 LPA that genuinely feels poor. And I know how that sounds. 30 lakhs is top 1% of this country. Our parents would've cal",
-   "why": "Top-performing carousel by the reference creator: a named thing and one crisp reframe. Learn the kind of take; never repeat the angle.",
-   "source": "reference creator"
-  },
-  {
-   "take": "India went from \"therapy is for crazy people\" to \"therapy is cool\" in about four years. Somewhere in that jump, an entire generation learned the language of men",
-   "why": "Top-performing carousel by the reference creator: a named thing and one crisp reframe. Learn the kind of take; never repeat the angle.",
-   "source": "reference creator"
   },
   {
    "take": "Everyone who built their entire workday around free ChatGPT and free Perplexity is about to find out what their own thinking costs per month.",
@@ -156,6 +109,70 @@
    "take": "The Supreme Court just said if your live-in relationship looks enough like a marriage, the cruelty law under Section 498A applies to it too, and I genuinely think that kills the one reason a lot of couples choose live-in over marriage in the first place.",
    "why": "Owner killed; reason not given.",
    "post": "trial2-2026-10-v2-033"
+  },
+  {
+   "take": "Close Friends is a popularity tier, not a friendship list",
+   "why": "recognition only: readers nod and learn nothing"
+  },
+  {
+   "take": "Friends split every bill on an app",
+   "why": "a meme everyone has seen; nothing new"
+  },
+  {
+   "take": "'Unpopular opinion' posts are popular",
+   "why": "seen in 2021; no fact, no mechanism"
+  },
+  {
+   "take": "A CV vs a marriage wishlist",
+   "why": "off the page's essence and a gender-war magnet"
+  },
+  {
+   "take": "Matrimony apps' polite goodbye is still ghosting",
+   "why": "off the page's essence; one stranger's story"
+  },
+  {
+   "take": "A 'no' in arranged marriage costs differently for each side",
+   "why": "off the page's essence"
+  },
+  {
+   "take": "Family goalposts keep moving",
+   "why": "recognition only, preachy"
+  },
+  {
+   "take": "Employers banning freelancing",
+   "why": "single anecdote, off the essence"
+  },
+  {
+   "take": "Indian singles slow down dating in the festive season",
+   "why": "an app's PR survey; nothing to learn"
+  },
+  {
+   "take": "Half of daters use AI to text",
+   "why": "an app's PR survey; reads like a press release"
+  },
+  {
+   "take": "Salary screenshots hide the years it took",
+   "why": "LinkedIn-style truism; recognition only"
+  },
+  {
+   "take": "The paid-partnership tag appears at second 47",
+   "why": "made-up precision; the real mechanics were never checked"
+  },
+  {
+   "take": "Instagram is testing a Reels-first app",
+   "why": "stale news framed as current"
+  },
+  {
+   "take": "India just cut GST on scooters but not phones",
+   "why": "stale news, and the premise was false (both 18%)"
+  },
+  {
+   "take": "DailyObjects proves boring brands with margins win",
+   "why": "a loss-making brand called profitable"
+  },
+  {
+   "take": "Ola's founder pledge is holding up the stock",
+   "why": "unprovable causal claim and a legal risk about a listed company"
   }
  ],
  "hooks": {
@@ -180,5 +197,47 @@
     "why": "Gives the answer away on slide 1."
    }
   ]
- }
+ },
+ "register_only": [
+  {
+   "take": "India's real luxury market isn't fashion or cars It's privacy. Gated communities, private hospitals, business class, VIP darshan. The wealthiest Indians are pay",
+   "why": "Top-performing carousel by the reference creator: a named thing and one crisp reframe. Learn the kind of take; never repeat the angle.",
+   "source": "reference creator"
+  },
+  {
+   "take": "Imagine you're in a massive auditorium with 362 million Indians. Every age. Every income level. Every social class. And one by one, each person gets to walk on",
+   "why": "Top-performing carousel by the reference creator: a named thing and one crisp reframe. Learn the kind of take; never repeat the angle.",
+   "source": "reference creator"
+  },
+  {
+   "take": "Dhurandhar 2 is almost 4 hours long. And people are sitting through every single minute of it. That tells you something important about how cinema is quietly ch",
+   "why": "Top-performing carousel by the reference creator: a named thing and one crisp reframe. Learn the kind of take; never repeat the angle.",
+   "source": "reference creator"
+  },
+  {
+   "take": "There's something bizarre about Indian consumer behaviour. I know a guy who spent 71,00,000 on a phone and then spent 45 minutes last month looking for a",
+   "why": "Top-performing carousel by the reference creator: a named thing and one crisp reframe. Learn the kind of take; never repeat the angle.",
+   "source": "reference creator"
+  },
+  {
+   "take": "People don't move to Bangalore, Hyderabad, Pune etc, just for the job. They move to become someone their hometown wouldn't recognize.",
+   "why": "Top-performing carousel by the reference creator: a named thing and one crisp reframe. Learn the kind of take; never repeat the angle.",
+   "source": "reference creator"
+  },
+  {
+   "take": "The Millennial Silence Problem Why one of the most experienced generation on the internet stopped talking and what it's costing all of us. Swipe to read - →",
+   "why": "Top-performing carousel by the reference creator: a named thing and one crisp reframe. Learn the kind of take; never repeat the angle.",
+   "source": "reference creator"
+  },
+  {
+   "take": "There's a generation in India earning 30 LPA that genuinely feels poor. And I know how that sounds. 30 lakhs is top 1% of this country. Our parents would've cal",
+   "why": "Top-performing carousel by the reference creator: a named thing and one crisp reframe. Learn the kind of take; never repeat the angle.",
+   "source": "reference creator"
+  },
+  {
+   "take": "India went from \"therapy is for crazy people\" to \"therapy is cool\" in about four years. Somewhere in that jump, an entire generation learned the language of men",
+   "why": "Top-performing carousel by the reference creator: a named thing and one crisp reframe. Learn the kind of take; never repeat the angle.",
+   "source": "reference creator"
+  }
+ ]
 }

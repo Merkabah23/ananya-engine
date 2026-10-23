@@ -1,21 +1,22 @@
-"""Agent 3, the writer (the Above MRP voice), with its critic loop.
+"""Agent 3, the writer (the Above MRP voice), with its editor loop.
 
-sources (searched and fetched once) -> draft -> code checks -> critic + fact check (in parallel)
--> blind AI-spotting test
-Fails send specific notes back to the writer, up to MAX_REWRITES times.
+sources (searched and fetched once) -> draft -> code checks -> editor + fact check (in parallel)
+Every failure goes back to the writer as notes, up to MAX_REWRITES times. Nothing after the writer
+rewrites content; the only automatic edit is a mechanical one (splitting sentences, removing bold).
 """
 from __future__ import annotations
 
 import json
 import random
 import re
+import statistics
 import zlib
 
 from . import config, corpus, llm, state
 
 FORMAT_RULES = {
-    "carousel": "a carousel of 5 to 7 slides. Slide 1 is at most 25 words and ends with 'Swipe to read →'. "
-                "Every other slide is one beat of 25-40 words (never under 15 or over 45).",
+    "carousel": "a carousel of 4 to 7 slides, as few as the idea needs. Slide 1 is at most 25 words and ends with "
+                "'Swipe to read →'. The last slide is the payoff and is shown as the account's end card.",
     "single": "a single slide of 30-70 words, like a post someone types straight out of their head: a blunt take or "
               "prediction about India or this generation, a short rant, a satire list ('Literally everyone around me is:' "
               "then short lines starting with '- '), or a short open letter ('Dear ___,'). No 'Swipe to read'.",
@@ -23,12 +24,14 @@ FORMAT_RULES = {
 MAX_PARAS = 3            # per carousel slide
 MAX_SENTS_PER_PARA = 4
 MAX_SENT_WORDS = 22  # 5th-grade scanability: most sentences far shorter
-MAX_SLIDES = 7           # readers get the gist by slide 3 or 4; Buffer's own cap is 10
-SLIDE_WORDS = (15, 45)   # every slide after the hook
+MIN_SLIDES, MAX_SLIDES = 4, 7  # the reference creator's best carousels run 3-7 slides; 10+ halves likes
+SLIDE_WORDS = (12, 60)   # every slide after the hook: fewer, fuller slides that chain, not thin ones
 HOOK_WORDS = 25
-POST_WORDS = (120, 240)
-ENDING_REVERSAL = re.compile(r"\b(isn't|is not|wasn't|was not|aren't|never)\b[^.?!]{0,60}[.?!]\s*(it's|it is|it was|they're|"
-                             r"she's|he's|that's|this is)\b|\bwas never about\b|\bnever about the\b", re.I)
+POST_WORDS = (130, 320)
+MIN_RHYTHM = 3.5         # sentence-length spread; a metronome rhythm (every sentence ~8 words) reads as AI
+# "isn't X, it's Y" closes many of the reference creator's best posts; repeated mid-post it reads as a template.
+REVERSAL = re.compile(r"\b(isn't|is not|wasn't|was not|aren't|never)\b[^.?!]{0,60}[.?!]\s*(it's|it is|it was|they're|"
+                      r"she's|he's|that's|this is)\b|\bwas never about\b", re.I)
 MONEY = re.compile(r"(₹\s?[\d,.]+(\s?(crore|cr|lakh|k))?|\brs\.?\s?[\d,.]+|[\d,.]+\s?(%|percent|crore|cr\b|lakh|lpa|million|billion))", re.I)
 
 
@@ -59,9 +62,9 @@ def readability_problems(draft: dict, fmt: str) -> list[str]:
         if fmt == "carousel":
             if len(paras) > MAX_PARAS:
                 problems.append(f"Slide {i} has {len(paras)} paragraphs; use at most {MAX_PARAS}.")
-            if any("**" in p for p in paras):
-                problems.append(f"Slide {i} uses bold (**). The house style has no bold; remove it.")
-            italics = sum(p.count("*") // 2 for p in paras)
+            if sum(p.count("**") // 2 for p in paras) > 1:
+                problems.append(f"Slide {i} has more than one **bold** line; keep one at most, on the line that matters.")
+            italics = sum(p.replace("**", "").count("*") // 2 for p in paras)
             if italics > 1:
                 problems.append(f"Slide {i} has {italics} italic phrases; use at most one, only where it's needed.")
         for p in paras:
@@ -77,63 +80,34 @@ def readability_problems(draft: dict, fmt: str) -> list[str]:
                     problems.append(f"Slide {i}: this sentence has {n} words, max {MAX_SENT_WORDS}: '{x[:70]}...'")
     words = [len(x.split()) for s in draft.get("slides", []) for p in s.get("paragraphs", [])
              for x in sentences(p) if not x.lower().startswith("swipe")]
-    if fmt == "carousel" and words and sum(words) / len(words) > 15:
-        problems.append(f"Average sentence is {sum(words) / len(words):.1f} words; keep it at 15 or under.")
+    if fmt == "carousel" and words and sum(words) / len(words) > 16:
+        problems.append(f"Average sentence is {sum(words) / len(words):.1f} words; keep it at 16 or under.")
+    if fmt == "carousel" and len(words) >= 8 and statistics.pstdev(words) < MIN_RHYTHM:
+        problems.append("Every sentence is about the same length, which reads as a template. Put one longer, concrete "
+                        "sentence next to a short punch on most slides.")
     return problems[:6]
 
 
-def verify_facts(draft: dict, sources: list[dict], due: str = "") -> list[str]:
-    """Check every factual statement in the post against the saved source excerpts (no re-fetching)."""
-    text = post_text(draft)
-    if not re.search(r"\d|[A-Z][a-z]+ [A-Z][a-z]+|\b(just|now|this (month|week|year))\b", text, re.I):
-        return []  # no numbers or proper names: nothing to verify
-    excerpts = "\n\n".join(f"[{i + 1}] {s['url']}\n{s.get('excerpt') or s.get('fact', '')}" for i, s in enumerate(sources))
-    ask = ("You are a strict fact checker. Below are a post and the exact text of its sources. Many posts are a standalone "
-           "observation about everyday Indian life and need no source at all. Check ONLY specific, checkable claims about the "
-           "world: statistics and percentages, prices and amounts presented as real figures, ranks, dates, named people, "
-           "companies, products and their details, titles and roles, quotes, and specific events (a launch, a rule, a release). "
-           "Those pass only if a source excerpt says it, with the same meaning and no stronger wording (\"captain\" is not "
-           "\"all-format captain\"; \"in the first hour\" is not \"this sale\").\n"
-           "Do NOT check, and never flag: observations and opinions about how people live, feel, behave or react; typical "
-           "scenarios framed as typical (\"two people with normal jobs in Bangalore\", \"both paying rent for years\", \"it usually "
-           "goes like this\"); cities and places used as a setting; everyday ages and durations (\"in your mid-20s\", \"for years\"); "
-           "illustrative round numbers in a typical scenario; vague time words (\"this month\", \"lately\"); and what anyone can see "
-           "for themselves on a named app, shop or ad (\"the sale banner never goes away\", \"five QR codes on the counter\"). Those "
-           "are the writer's voice, not facts. DO check claims about how a named company works on the inside (how a badge is "
-           "decided, what a team does, why a price is set) when stated as fact rather than opinion.\n"
-           "ALWAYS check, even inside an everyday observation: (1) arithmetic, such as an EMI times its months matching the "
-           "price it is applied to, totals, and percentage changes; (2) that a named app, platform or label really works the "
-           "way the post says (which app shows which timer, where a label sits, who pays a commission, which tax slab "
-           "applies); (3) that a comparison's premise is true (if two things are said to be treated differently, they must "
-           "be); (4) freshness: the post goes live on " + (due[:10] or "an unknown date") + ". Anything framed as new or "
-           "current (\"just\", \"now\", \"this month\", \"is testing\", a present-tense news event) must have happened within "
-           "about 30 days of that date according to the source's own dates; anything older must be framed as past (\"a year "
-           "ago\"). An event described as already over must have happened by then, and a figure called a record must be the "
-           "highest, not just a recent high.\n\n"
-           f"## Post\n{text}\n\n## Source excerpts\n{excerpts or '(no sources)'}\n\n"
-           'Return only JSON: {"unsupported": [{"statement": "...", "why": "what the sources actually say, or that none covers it"}]}')
-    try:
-        out = llm.call_json(config.MODEL_JUDGE, ask, stage="factcheck")
-    except SystemExit:
-        raise
-    except Exception as e:
-        return [f"Fact check could not run ({e}); remove any statement that needs a source."]
-    return [f"Unsupported fact: '{u.get('statement')}' ({u.get('why')}). Fix it to match the source or cut it."
-            for u in out.get("unsupported", [])]
+
+
+MECHANICAL = ("sentence has", "paragraphs; use at most", "more than 4 sentences", "**bold** line", "italic phrases",
+              "Average sentence is")
+
+
+def is_mechanical(problem: str) -> bool:
+    """Layout problems a quick edit can fix without touching what the post says."""
+    return any(m in problem for m in MECHANICAL)
 
 
 def repair(draft: dict, problems: list[str], sources: list[dict]) -> dict:
-    """Smallest possible edit that fixes the listed problems. Fast model; content and voice stay as they are."""
-    ask = ("Edit this Instagram carousel draft to fix ONLY the problems listed. Make the smallest change that fixes each one: "
-           "split a long sentence, remove a ** bold marker, cut or reword a single phrase. For an unsupported fact, restate it "
-           "exactly as a source says it, or delete the sentence; never replace it with a new scene, person, event or quote. "
-           "Do not rewrite anything else. Keep every slide's meaning and voice. After any cut, re-read the slide: every "
-           "sentence must still be complete and follow from the one before it. "
-           f"No bold anywhere; at most one *italic* phrase per slide. Sentences of {MAX_SENT_WORDS} words or fewer, "
-           f"at most {MAX_SENTS_PER_PARA} sentences per paragraph, at most {MAX_PARAS} paragraphs per slide "
-           "(when you split a sentence, keep it in the same paragraph), slide 1 at most 25 words plus 'Swipe to read →', other slides 30-45 words. To shorten a slide, cut an extra example or a repeated line.\n\n"
+    """Mechanical fixes only: split long sentences, move paragraph breaks, remove bold. Never deletes a sentence or
+    touches a fact; anything about content goes back to the writer as a note."""
+    ask = ("Fix ONLY the layout problems listed in this Instagram carousel draft, by splitting long sentences into two, "
+           "moving paragraph breaks, or removing extra ** bold markers (keep at most one bold line per slide). Do not delete any sentence, idea, number or fact, do not "
+           "add anything, and do not change wording beyond what a split needs. "
+           f"Sentences of {MAX_SENT_WORDS} words or fewer, at most {MAX_SENTS_PER_PARA} sentences per paragraph, at most "
+           f"{MAX_PARAS} paragraphs per slide, at most one *italic* phrase per slide. Keep every other field as it is.\n\n"
            "## Problems\n" + "\n".join(f"- {p}" for p in problems) +
-           "\n\n## Sources\n" + (json.dumps(sources, ensure_ascii=False, indent=1) if sources else "(none: remove unsupported facts)") +
            "\n\n## Draft\n" + json.dumps(draft, ensure_ascii=False, indent=1) +
            "\n\nReturn only the corrected draft as the same JSON object.")
     try:
@@ -162,14 +136,16 @@ def merge_paragraphs(draft: dict, fmt: str) -> dict:
     return draft
 
 
-def mechanical(draft: dict, fmt: str, sources: list[dict], rounds: int = 3) -> tuple[dict, list[str]]:
-    """Code checks with quick repairs in between. Does not use up a rewrite attempt."""
+def mechanical(draft: dict, fmt: str, sources: list[dict], rounds: int = 2) -> tuple[dict, list[str]]:
+    """Code checks. Layout problems get a quick mechanical repair; content problems are returned for the writer.
+    Does not use up a rewrite attempt."""
     draft = merge_paragraphs(draft, fmt)
     problems = hard_checks(draft, fmt, sources) + readability_problems(draft, fmt)
     for _ in range(rounds):
-        if not problems:
+        layout = [p for p in problems if is_mechanical(p)]
+        if not layout:
             break
-        draft = merge_paragraphs(repair(draft, problems, sources), fmt)
+        draft = merge_paragraphs(repair(draft, layout, sources), fmt)
         problems = hard_checks(draft, fmt, sources) + readability_problems(draft, fmt)
     return draft, problems
 
@@ -178,12 +154,14 @@ def find_sources(topic: dict) -> list[dict]:
     """Find sources AND save the relevant text of each page, once. The writer may only use these excerpts."""
     if not topic.get("needs_facts") and not topic.get("news_peg"):
         return []
-    ask = ("Find 1-3 reliable, recent sources (news outlets, government data, company filings, reputable surveys) about this "
-           "topic in India. Use WebSearch, then open each page with WebFetch. Include at least one source that confirms the "
-           "news peg itself, if there is one. From each page, copy the passages that contain the key facts word for word.\n\n"
+    ask = ("Find 1-3 reliable sources about this topic in India: prefer primary ones (regulators, government data, company "
+           "filings and results, official announcements, research with a stated method), then major outlets that cite them. "
+           "Use WebSearch, then open each page with WebFetch. Look for what is true, including anything that contradicts the "
+           "claim; never pick a source only because it agrees. Record each page's publication date from the page itself. "
+           "From each page, copy the passages that contain the key facts word for word.\n\n"
            f"Claim: {topic['claim']}\nNews peg: {topic.get('news_peg') or 'none'}\nBehaviour: {topic.get('behaviour', '')}\n\n"
            'Return only JSON: {"sources": [{"url": "...", "fact": "the key fact in one sentence", '
-           '"excerpt": "verbatim passages from the page, up to 1200 characters"}]}')
+           '"excerpt": "verbatim passages from the page, up to 1200 characters", "date": "the page\'s publication date, YYYY-MM-DD"}]}')
     try:
         out = llm.call_json(config.MODEL_JUDGE, ask, stage="sources", tools=["WebSearch", "WebFetch"], timeout=1200)
         return [s for s in out.get("sources", []) if s.get("url", "").startswith("http") and s.get("excerpt")]
@@ -194,21 +172,26 @@ def find_sources(topic: dict) -> list[dict]:
         return []
 
 
-def balance_problems(slides: list[dict]) -> list[str]:
-    """Slides after the hook should carry similar weight. Bounds cover 90% of the reference creator's slides."""
-    words = [len(" ".join(s.get("paragraphs", [])).split()) for s in slides[1:]]
-    if len(words) < 3:
-        return []
-    mid = sorted(words)[len(words) // 2]
-    return [f"Slide {i} has {w} words while most slides have about {mid}; balance it with the others."
-            for i, w in enumerate(words, 2) if w > 1.8 * mid or w < 0.4 * mid]
-
-
 def hard_checks(draft: dict, fmt: str, sources: list[dict]) -> list[str]:
     problems = []
     slides = draft.get("slides", [])
-    if fmt == "carousel" and not 5 <= len(slides) <= MAX_SLIDES:
-        problems.append(f"Use 5 to {MAX_SLIDES} slides, not {len(slides)}: say it once, and end once the insight lands.")
+    if fmt == "carousel" and not MIN_SLIDES <= len(slides) <= MAX_SLIDES:
+        problems.append(f"Use {MIN_SLIDES} to {MAX_SLIDES} slides, not {len(slides)}: as few as the idea needs.")
+    if fmt == "carousel":
+        head = re.sub(r"[\[\]]", "", str((draft.get("cover") or {}).get("headline", "")))
+        if not 5 <= len(head.split()) <= 13:
+            problems.append("The cover needs a headline of 6-12 words (cover.headline), with the key phrase in [brackets].")
+        if (draft.get("cover") or {}).get("headline", "").count("[") != 1:
+            problems.append("Mark exactly one key phrase in the cover headline with [brackets]; it is shown in teal.")
+    if fmt == "carousel" and slides:
+        hook = slides[0].get("paragraphs", [""])[0].strip()
+        if hook.endswith("?"):
+            problems.append("Slide 1 ends on a question. Open with a claim that contains the turn, or two facts that "
+                            "shouldn't sit together.")
+        dead = [i for i, s in enumerate(slides[:-1], 1) if len(str(s.get("why_swipe", "")).split()) < 3]
+        if dead:
+            problems.append(f"Slides {dead} have no why_swipe: say what pulls the reader to the next slide, or rewrite "
+                            "the slide until something does.")
     if fmt == "single" and len(slides) != 1:
         problems.append("A single post must have exactly one slide.")
     total = 0
@@ -226,27 +209,26 @@ def hard_checks(draft: dict, fmt: str, sources: list[dict]) -> list[str]:
         problems.append(f"The post is {total} words; keep it under {POST_WORDS[1]} by cutting extra examples, not the thought.")
     if fmt == "carousel" and total < POST_WORDS[0]:
         problems.append(f"The post is only {total} words; the thought needs room ({POST_WORDS[0]}+).")
-    problems += balance_problems(slides) if fmt == "carousel" else []
     text = post_text(draft)
     for pat in _banned():
         m = pat.search(text)
         if m:
             problems.append(f"Remove the phrase '{m.group(0)}'.")
-    if len(re.findall(r"\bit'?s not\b[^.]{0,60}\bit'?s\b", text, re.I)) > 2:
-        problems.append("'It's not X, it's Y' appears more than twice; keep at most two.")
     if len(re.findall(r"\bnobody\b", text, re.I)) > 1:
         problems.append("'Nobody' appears more than once; it's the account's most repeated tic. Keep at most one.")
-    if fmt == "carousel" and slides and ENDING_REVERSAL.search(" ".join(slides[-1]["paragraphs"])):
-        problems.append("The last slide ends on an 'isn't X, it's Y' / 'was never about' reversal, the account's most "
-                        "repeated tell. End on this post's own concrete detail or image instead.")
+    if fmt == "carousel" and slides:
+        middle = "\n".join(" ".join(s.get("paragraphs", [])) for s in slides[:-1])
+        if len(REVERSAL.findall(middle)) > 1:
+            problems.append("'Isn't X, it's Y' reversals appear more than once before the last slide; that rhythm reads "
+                            "as a template. Keep one at most mid-post; a single one can close the post.")
     copied = corpus.copied_runs(text)
     if copied:
         problems.append(f"These word runs copy the reference creator; rewrite them: {copied[:5]}")
-    # Every money/percentage figure must trace to the sources: its digits must appear in a source fact
-    # or in a claim that cites a source URL we actually have.
-    source_urls = {s["url"] for s in sources}
+    # Every money/percentage figure must trace to the evidence (sources and the topic's proof), or be a number the
+    # writer worked out and declared with its sum (the fact gate checks the arithmetic). The writer's own claim text
+    # never counts as backing.
     backed = " ".join(s.get("fact", "") + " " + s.get("excerpt", "") for s in sources) + " " + " ".join(
-        c.get("text", "") for c in draft.get("claims", []) if c.get("source_url") in source_urls)
+        c.get("text", "") for c in draft.get("claims", []) if c.get("derived_from"))
     backed_digits = set(re.findall(r"\d[\d,.]*", backed.replace(",", "")))
     for m in MONEY.finditer(text):
         digits = re.findall(r"\d[\d,.]*", m.group(0).replace(",", ""))
@@ -256,24 +238,6 @@ def hard_checks(draft: dict, fmt: str, sources: list[dict]) -> list[str]:
     return problems
 
 
-def blind_test(draft: dict, seed: int, trials: int | None = None, fmt: str = "carousel") -> tuple[bool, list[str]]:
-    """True if the judge failed to spot the draft among real posts in most trials."""
-    trials = trials or config.BLIND_TEST_TRIALS
-    spotted, tells = 0, []
-    ours = "\n\n".join(" ".join(s["paragraphs"]) for s in draft.get("slides", [])).replace("*", "")
-    for trial in range(trials):
-        real = corpus.blind_samples(3, seed + trial, fmt)
-        items = real + [ours]
-        order = list(range(len(items)))
-        random.Random(seed + trial).shuffle(order)
-        shown = "\n\n".join(f"=== Post {n + 1} ===\n{items[i]}" for n, i in enumerate(order))
-        out = llm.call_json(config.MODEL_JUDGE, llm.fill(llm.prompt("blindtest"), n=str(len(items)), posts=shown),
-                            stage="blindtest", max_tokens=800)
-        guess = int(out.get("ai_post", 0)) - 1
-        if 0 <= guess < len(order) and order[guess] == len(items) - 1:
-            spotted += 1
-            tells += out.get("tells", [])
-    return spotted <= trials // 2 if trials > 1 else spotted == 0, tells
 
 
 CAPTION_STYLES = {
@@ -292,12 +256,12 @@ def approved_posts() -> list[dict]:
 
 
 def voice_examples(seed: int, k: int = 3) -> str:
-    """A rotating few examples: one owner-approved post plus top posts by the reference creator, so no single
+    """A rotating few examples: two owner-approved posts plus one top post by the reference creator, so no single
     example's scaffolding takes over."""
     bank, rnd = approved_posts(), random.Random(seed)
     owner = [b for b in bank if b.get("source") != "reference creator"]
     ref = [b for b in bank if b.get("source") == "reference creator"]
-    picks = rnd.sample(owner, min(1, len(owner)))
+    picks = rnd.sample(owner, min(2, len(owner)))
     picks += rnd.sample(ref, min(k - len(picks), len(ref)))
     def slides(p: dict) -> list[str]:  # the reference creator's dense slides are shown lighter; owner posts as approved
         return [b for s in p["slides"] for b in corpus.light(s)][:10] if p.get("source") == "reference creator" else p["slides"]
@@ -305,157 +269,104 @@ def voice_examples(seed: int, k: int = 3) -> str:
                        for p in picks)
 
 
+TOPIC_FIELDS = ("claim", "moment", "turn", "because", "proof", "payoff", "mood", "format_name", "send_to", "news_peg",
+                "why_now", "behaviour", "mechanism", "group", "territory", "real_details")
+
+
+def evidence_for(post: dict) -> list[dict]:
+    """What the writer may state as fact: the saved sources and the topic's proof (each with a URL and a date).
+    real_details are texture for a typical scene, never backing for a claim about the world."""
+    proof = [{"url": p.get("source_url") or p.get("url", ""), "fact": p.get("fact", ""), "date": p.get("date", ""),
+              "excerpt": " ".join(x for x in (p.get("fact", ""), p.get("quote", ""), p.get("date", "")) if x)}
+             for p in (post["topic"].get("proof") or []) if isinstance(p, dict)]
+    return (post.get("sources") or []) + proof
+
+
+def length_rules(fmt: str) -> str:
+    if fmt == "single":
+        return "one slide of 30-70 words."
+    return (f"{MIN_SLIDES} to {MAX_SLIDES} slides, as few as the idea needs. Slide 1 up to {HOOK_WORDS} words. Other slides "
+            f"{SLIDE_WORDS[0]}-{SLIDE_WORDS[1]} words, at most {MAX_PARAS} short paragraphs. The whole post "
+            f"{POST_WORDS[0]}-{POST_WORDS[1]} words.")
+
+
+def critique(post: dict, draft: dict, seed: int) -> dict:
+    topic, fmt = post["topic"], post["format"]
+    try:
+        return llm.call_json(config.MODEL_JUDGE, llm.fill(
+            llm.prompt("critic"), persona=llm.prompt("persona"), post=json.dumps(draft, ensure_ascii=False, indent=1),
+            tone_examples=corpus.rhythm_examples(2, seed=seed + 101, fmt=fmt), voice_examples=voice_examples(seed),
+            topic=json.dumps({k: topic.get(k) for k in TOPIC_FIELDS}, ensure_ascii=False, indent=1),
+            sources=json.dumps(evidence_for(post), ensure_ascii=False, indent=1) or "(none)"), stage="critic")
+    except SystemExit:
+        raise
+    except Exception as e:
+        return {"pass": False, "violations": [f"The editor could not run ({e})."], "notes": []}
+
+
+def passes(review: dict) -> bool:
+    scores = review.get("scores") or {}
+    keys = ("hook", "new_to_reader", "pull", "because", "payoff", "voice")
+    return not review.get("violations") and all(_score(scores, k) >= 4 for k in keys)
+
+
 def write_post(post: dict) -> dict:
-    topic, fmt = post["topic"], post["format"] if post["format"] != "spare" else "carousel"
+    """Write, check, edit and verify. The writer is the only thing that changes what the post says: the editor and
+    the fact gate send notes back to it."""
+    from . import factgate
+    topic = post["topic"]
+    fmt = post["format"] = post["format"] if post["format"] != "spare" else "carousel"
     persona = llm.prompt("persona")
-    sources = post.get("sources") if post.get("sources") is not None else find_sources(topic)
-    post["sources"] = sources
-    # The topic's real_details are the post's evidence too: checks treat them as a source, so texture
-    # taken from them ("the portfolio crosses 25 lakhs") isn't rejected as unsourced.
-    details = topic.get("real_details") or []
-    evidence = sources + ([{"url": "topic", "fact": "What people reported (real_details)", "excerpt": "\n".join(details)}]
-                          if details else [])
-    notes = ""
+    if post.get("sources") is None:
+        post["sources"] = find_sources(topic)
+    evidence = evidence_for(post)
+    notes, draft = "", None
     seed = zlib.crc32(post["id"].encode()) % 10_000  # deterministic across runs, unlike hash()
     for attempt in range(config.MAX_REWRITES + 1):
         user = llm.fill(
-            llm.prompt("writer"), persona=persona, format_rules=FORMAT_RULES[fmt],
+            llm.prompt("writer"), persona=persona, format_rules=FORMAT_RULES[fmt], length_rules=length_rules(fmt),
             rhythm_examples=corpus.rhythm_examples(3, exclude_territory=topic.get("territory"), seed=seed + attempt, fmt=fmt),
-            topic=json.dumps({k: topic.get(k) for k in ("claim", "mood", "format_name", "send_to", "news_peg", "why_now", "behaviour", "mechanism", "group", "territory", "real_details")},
-                             ensure_ascii=False, indent=1),
-            sources=json.dumps(sources, ensure_ascii=False, indent=1) if sources else "(none: use no statistics)",
+            topic=json.dumps({k: topic.get(k) for k in TOPIC_FIELDS if topic.get(k)}, ensure_ascii=False, indent=1),
+            sources=json.dumps(evidence, ensure_ascii=False, indent=1) if evidence else "(none: use no statistics)",
             voice_examples=voice_examples(seed + attempt),
             caption_style=CAPTION_STYLES[caption_style(post)],
             revision_notes=notes,
         )
-        draft = llm.call_json(config.MODEL_WRITER, user, stage="write", max_tokens=4000)
+        draft = llm.call_json(config.MODEL_WRITER, user, stage="write", max_tokens=5000)
         draft, problems = mechanical(draft, fmt, evidence)
         if not problems:
-            # Critic and fact check are independent: run them at the same time.
-            critic_job = lambda _: llm.call_json(config.MODEL_JUDGE, llm.fill(
-                llm.prompt("critic"), persona=persona, post=json.dumps(draft, ensure_ascii=False, indent=1),
-                tone_examples=corpus.rhythm_examples(2, seed=seed + 101, fmt=fmt),
-                voice_examples=voice_examples(seed + attempt),
-                topic=json.dumps(topic, ensure_ascii=False, indent=1),
-                sources=json.dumps(sources, ensure_ascii=False, indent=1) if sources else "(none)"), stage="critic")
-            review, facts = llm.pmap(lambda job: job(None), [critic_job, lambda _: verify_facts(draft, evidence, post.get("due") or "")], workers=2)
-            if isinstance(review, Exception):
-                review = {"pass": False, "violations": [f"critic failed: {review}"], "edits": []}
-            if isinstance(facts, Exception):
-                facts = [f"Fact check failed ({facts}); remove any statement that needs a source."]
-            if facts:  # targeted repair, then re-check; a full rewrite only if that fails
-                draft, mech = mechanical(repair(draft, facts, evidence), fmt, evidence)
-                facts = mech or verify_facts(draft, evidence, post.get("due") or "")
-            post["history"].append({"attempt": attempt, "review": review, "facts": facts})
-            scores = review.get("scores", {})
-            strong = (not review.get("violations") and _score(scores, "hook") >= 3 and _score(scores, "mechanism") >= 3)
-            if strong and not facts and review.get("edits"):
-                # Polish notes get one quick edit, never a full rewrite that invents new problems.
-                polished, mech = mechanical(repair(draft, review["edits"][:5], evidence), fmt, evidence)
-                if not mech:
-                    draft = polished
-            if (review.get("pass") or strong) and not facts:
-                last = attempt == config.MAX_REWRITES
-                human, tells = (blind_test(draft, seed + attempt, trials=2 if last else None, fmt=fmt)
-                                if config.USE_BLIND_TEST else (True, []))
-                if human:
-                    if fmt == "carousel":
-                        draft = sharpen_hook(draft, topic, recent_hooks(post.get("id")))
-                    draft["caption_style"] = caption_style(post)
-                    post.update(status="written", draft=draft, format=fmt)
+            review = critique(post, draft, seed + attempt)
+            post["history"].append({"attempt": attempt, "review": review})
+            if passes(review):
+                draft["caption_style"] = caption_style(post)
+                verification = factgate.verify(post, draft)
+                post["history"].append({"attempt": attempt, "verification": verification})
+                if verification["passed"]:
+                    post.update(status="written", draft=draft, verification=verification)
                     state.log("writer", f"{post['id']} passed on attempt {attempt + 1}")
                     return post
-                problems = [f"An editor could tell this was AI-written: {t}" for t in tells[:4]]
+                if verification.get("take_dead"):
+                    post.update(status="rejected", draft=draft, verification=verification)
+                    state.log("writer", f"{post['id']} rejected: the take's premise is false")
+                    return post
+                problems = verification["notes"]
             else:
-                problems = facts + review.get("violations", []) + ([] if review.get("pass") else review.get("edits", [])[:5])
+                problems = review.get("violations", []) + review.get("notes", [])[:5]
+                if not problems:
+                    problems = [f"The editor scored it below 4 on: {', '.join(k for k, v in (review.get('scores') or {}).items() if _score(review['scores'], k) < 4)}."]
         post["history"].append({"attempt": attempt, "problems": problems})
         notes = ("## Your previous draft\n" + json.dumps(draft, ensure_ascii=False, indent=1) +
-                 "\n\n## Revision notes from the editor (fix every one, keep what works)\n" + "\n".join(f"- {p}" for p in problems))
+                 "\n\n## Notes from the editor and fact checker (fix every one, keep what works; if a fact is wrong, "
+                 "rebuild the point on the corrected fact rather than deleting the point)\n" + "\n".join(f"- {p}" for p in problems))
         state.log("writer", f"{post['id']} attempt {attempt + 1} failed: {problems[:2]}")
     post.update(status="rejected", draft=draft)  # keep the last draft so a person can read what was rejected
     return post
 
 
-def recent_hooks(exclude_id: str | None = None, n: int = 4) -> list[dict]:
-    """Hooks of the posts around now, so the next hook doesn't repeat their type."""
-    rows = [p for p in state.posts() if p.get("id") != exclude_id and p.get("draft") and p.get("due")
-            and p["status"] in ("approved", "written", "uploaded", "scheduled")]
-    rows.sort(key=lambda p: p["due"])
-    return [{"hook": p["draft"]["slides"][0]["paragraphs"][0], "type": p["draft"].get("hook_type", "unknown")}
-            for p in rows[-n:]]
 
 
-def sharpen_hook(draft: dict, topic: dict, recent: list[dict] | None = None) -> dict:
-    """Slide 1 decides whether anyone swipes, so it gets its own step. The hook type is chosen to fit the take,
-    and differs from the recent posts' hooks so the feed doesn't settle into one template."""
-    taste = json.loads((config.DATA / "taste.json").read_text()).get("hooks", {})
-    chosen = "\n".join(f'- "{h["hook"]}" ({h["why"]})' for h in taste.get("chosen", [])) or "(none yet)"
-    passed = "\n".join(f'- "{h["hook"]}" ({h["why"]})' for h in taste.get("passed_over", [])) or "(none yet)"
-    recent = recent if recent is not None else []
-    recent_txt = "\n".join(f'- [{r["type"]}] {r["hook"]}' for r in recent) or "(none)"
-    slides = draft.get("slides", [])
-    ask = ("Write the slide-1 hook for this Instagram carousel. Slide 1 decides whether anyone swipes.\n\n"
-           + llm.prompt("hooks") +
-           "\n\nEvery hook: names the specific thing; gives the reader a reason to swipe; 25 words or fewer; everyday words a "
-           "5th grader reads in two seconds; the reference creator's register. Never 'not X, it's Y' as a formula, never "
-           "abstract nouns like 'story' or 'shift' as the payoff, never a fact that isn't in the post or its sources.\n\n"
-           f"## Hooks the owner chose, and why\n{chosen}\n\n## Hooks the owner passed over, and why\n{passed}\n\n"
-           f"## Hooks of the posts scheduled around this one (do not reuse their type or shape)\n{recent_txt}\n\n"
-           f"## Topic\n{topic.get('claim', '')} (mood: {topic.get('mood') or 'sharp'})\n\n## The post\n"
-           + json.dumps(slides, ensure_ascii=False, indent=1) +
-           "\n\nWrite 5 hooks using at least 3 different types that suit this take. Then pick the one that fits the take "
-           "best and would make the most people swipe, and whose type differs from the recent hooks. Return only JSON: "
-           '{"candidates": [{"type": "...", "hook": "..."}], "best": {"type": "...", "hook": "the chosen hook, exactly"}}')
-    try:
-        out = llm.call_json(config.MODEL_WRITER, ask, stage="hook")
-    except SystemExit:
-        raise
-    except Exception:
-        return draft
-    options = [out.get("best")] + list(out.get("candidates") or [])
-    options = [o if isinstance(o, dict) else {"type": "unknown", "hook": str(o or "")} for o in options]
-    usable = [o for o in options if o.get("hook", "").strip() and len(o["hook"].split()) <= HOOK_WORDS
-              and not any(pat.search(o["hook"]) for pat in _banned())]
-    if not slides or not usable:
-        return draft
-    best = usable[0]
-    swipe = [p for p in slides[0]["paragraphs"] if p.strip().lower().startswith("swipe to read")] or ["Swipe to read →"]
-    draft["slides"][0]["paragraphs"] = [best["hook"].strip()] + swipe
-    draft["hook_type"] = best.get("type", "unknown")
-    draft["hook_candidates"] = out.get("candidates", [])
-    return draft
 
 
-def tighten(post: dict) -> dict:
-    """Reshape an approved draft so each slide is light to read: cut repeated examples, split at the beats,
-    5th-grade wording. Keeps his sentences otherwise; adds nothing. One model call, plus quick repairs."""
-    fmt = post["format"] if post["format"] != "spare" else "carousel"
-    sources = post.get("sources") or []
-    details = post["topic"].get("real_details") or []
-    evidence = sources + ([{"url": "topic", "fact": "", "excerpt": "\n".join(details)}] if details else [])
-    shape = ("5 to 7 slides. Keep slide 1 exactly as it is. Every other slide is one beat of 25-40 words (never under 15 "
-             "or over 45), at most 3 short paragraphs. The whole post 120-240 words. Merge slides that make the same point; "
-             "end as soon as the insight has landed.") if fmt == "carousel" else "one slide of 30-70 words."
-    ask = (llm.prompt("persona") + "\n\n## Your task\nThe owner approved this post, but readers find the slides too much to "
-           "read and drop off. Reshape it so every slide is light and scannable, without losing the thought or the voice.\n"
-           f"- Shape: {shape}\n"
-           "- Readers get the gist by slide 3 or 4, so be precise: cut every slide and line that re-explains the point. "
-           "Keep the best one or two examples and the most recognisable everyday moment.\n"
-           "- The last slide is a short, understated ending built from this post's own thought (an image, an observation or a "
-           "small payoff), never a summary, a moral or the account's tagline.\n"
-           "- 5th-grade readability: everyday words, most sentences under 15 words, one idea per line. Break long sentences.\n"
-           "- Keep his own sentences wherever they survive; do not add new facts, examples, names or ideas.\n"
-           "- Each slide ends on a reason to swipe. Slide 2 starts answering in new words and never repeats the hook.\n\n"
-           "## Approved draft\n" + json.dumps(post["draft"], ensure_ascii=False, indent=1) +
-           "\n\nReturn only the reshaped draft as the same JSON object (slides, caption, alt_text, claims).")
-    draft = llm.call_json(config.MODEL_WRITER, ask, stage="tighten", max_tokens=4000)
-    draft.setdefault("hashtags", post["draft"].get("hashtags", []))
-    if fmt == "carousel":
-        draft = sharpen_hook(draft, post["topic"], recent_hooks(post.get("id")))
-    draft, problems = mechanical(draft, fmt, evidence)
-    post.setdefault("history", []).append({"tightened_from": post["draft"], "problems_left": problems})
-    post["draft"] = draft
-    return post
 
 
 def _score(scores: dict, key: str) -> int:

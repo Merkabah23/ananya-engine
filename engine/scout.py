@@ -76,24 +76,27 @@ def tired_tropes() -> str:
 
 
 NEWS_THEMES = {
-    "business": "brand launches, ad campaigns and ad controversies, D2C and startup news, funding and shutdowns, quick commerce, product shortages and queues, brand rivalries, business stories people are discussing",
-    "creators": "creator economy and influencer news, Instagram and YouTube changes, viral creators and creator deals, AI tools people actually use, apps and new features, what is trending in India online",
-    "screen": "films, OTT shows and music people are watching and arguing about, box office numbers, celebrities and comebacks, cricket moments, memes and online debates",
-    "money": "prices people feel (rent, flats, gold, phones, food delivery, groceries), status purchases, sales and spending data, salaries, UPI, banking and tax changes, consumer surveys",
-    "life": "dating, marriage, family and friendship, work culture and office life, cities and migration, health and fitness trends, new rules that change daily life, foreign events that say something about India",
+    "pricing": "changes in prices, fees and charges people pay (platform, convenience, handling and small-cart fees, bank and card charges, subscription and plan prices, telecom tariffs), how brands and apps price and sell, and regulator action on dark patterns or misleading pricing",
+    "money": "changes in rules and data that touch salaried people's money: tax, GST, EMIs and loan rates, PF and pensions, insurance terms, gold, credit cards, UPI, RBI/SEBI/IRDAI/NPCI circulars and data releases, salary and hiring studies",
+    "work": "salaries, increments, hiring and layoffs, company policies (return to office, moonlighting, AI at work), new labour rules, and studies of what jobs and cities pay",
+    "internet": "creator economy and influencer money, platform and app changes that change how people buy or scroll, affiliate and ad rules, AI products people pay for",
+    "life": "spending data and business-model changes behind weddings, festivals, housing and rent, education, health and everyday purchases",
 }
 
 
 def _fetch_news() -> list[dict]:
     """What happened in India in the last 30 days, scanned as three themes in parallel."""
     def scan(theme: str) -> list[dict]:
-        ask = (f"Search the web for what happened in India in the last 30 days in this area: {NEWS_THEMES[theme]}. "
-               "Focus on what urban Indians aged 22-38 are actually talking about. Skip party politics, crime and disasters. "
-               "Find 15 distinct items, each with its source.\n\n"
-               'Return only JSON: {"items": [{"source": "news", "title": "...", "date": "YYYY-MM-DD", "url": "...", '
-               '"body": "3-5 sentences: what happened, the key numbers, and what people are saying about it"}]}')
-        return llm.call_json(config.MODEL_JUDGE, ask, stage=f"scout-news-{theme}", tools=[llm.web_search_tool()],
-                             timeout=1800).get("items", [])
+        ask = (f"Search the web for what changed in India in the last 45 days in this area: {NEWS_THEMES[theme]}. "
+               "Prefer the primary document (the regulator's circular, the company's results or announcement, the pricing "
+               "page, the study itself) or a major outlet that cites it. Open each page with WebFetch and take the date from "
+               "the page itself, never from memory. Skip anything older than 45 days, party politics, crime and disasters. "
+               "Find 12 distinct items, each with its source.\n\n"
+               'Return only JSON: {"items": [{"source": "news", "title": "...", "date": "YYYY-MM-DD as printed on the page", '
+               '"url": "...", "body": "3-5 sentences: what changed, the key numbers exactly as the page states them, and who '
+               'earns or pays because of it"}]}')
+        return llm.call_json(config.MODEL_JUDGE, ask, stage=f"scout-news-{theme}",
+                             tools=[llm.web_search_tool(), "WebFetch"], timeout=1800).get("items", [])
     results = llm.pmap(scan, list(NEWS_THEMES))
     items, seen = [], set()
     for theme, res in zip(NEWS_THEMES, results):
@@ -122,11 +125,27 @@ def fetch_reddit(month: str | None = None) -> list[dict]:
     return threads
 
 
-def _evergreen(persona: str) -> list[dict]:
-    """Big everyday behaviours with a non-obvious reason. No news peg needed; the angle has to be new."""
-    ask = llm.fill(llm.prompt("evergreen"), persona=persona, tired_tropes=tired_tropes(), varun_hooks=corpus.all_hooks())
-    out = llm.call_json(config.MODEL_JUDGE, ask, stage="scout-evergreen")
+def _evergreen(persona: str, n: int = 12) -> list[dict]:
+    """Research, not brainstorming: topics on what readers asked this page to explain, each resting on sources the
+    model opened and dated itself."""
+    demand = json.loads((config.DATA / "demand.json").read_text())["subjects"]
+    ask = llm.fill(llm.prompt("evergreen"), persona=persona, tired_tropes=tired_tropes(), varun_hooks=corpus.all_hooks(),
+                   demand="\n".join(f"- {d}" for d in demand), n=str(n))
+    out = llm.call_json(config.MODEL_WRITER, ask, stage="scout-research", tools=[llm.web_search_tool(), "WebFetch"],
+                        timeout=2400)
     return [dict(t, news_peg=None, evidence=[]) for t in out.get("topics", [])]
+
+
+NEEDS_PROOF = {"business_brands", "money_status"}
+
+
+def complete(topic: dict) -> bool:
+    """A topic reaches the selector only with its moment, turn and because, and, for money and brand topics, at least
+    one fact with a source URL and a date."""
+    turn = topic.get("turn") if isinstance(topic.get("turn"), dict) else {}
+    has_parts = all(str(topic.get(k) or "").strip() for k in ("moment", "because")) and turn.get("believed") and turn.get("actually")
+    proof = [p for p in topic.get("proof") or [] if isinstance(p, dict) and str(p.get("source_url", "")).startswith("http") and p.get("date")]
+    return bool(has_parts) and (bool(proof) or topic.get("territory") not in NEEDS_PROOF)
 
 
 def _attach_evidence(topics: list[dict], reddit: list[dict]) -> list[dict]:
@@ -194,7 +213,9 @@ def run(month: str | None = None) -> list[dict]:
             continue
         topics += out.get("topics", [])
         state.log("scout", f"scout job {n}: {len(out.get('topics', []))} topics")
-    topics = _attach_evidence(topics, reddit)
+    whole = [t for t in topics if complete(t)]
+    state.log("scout", f"{len(whole)} of {len(topics)} topics have a moment, a turn, a because and the proof they need")
+    topics = _attach_evidence(whole, reddit)
     for i, t in enumerate(topics, 1):
         t["id"] = f"{month}-{i:03d}"
     state.write(topics, month, "candidates.json")

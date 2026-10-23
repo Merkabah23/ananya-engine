@@ -1,0 +1,112 @@
+{
+ "id": "2026-10-91",
+ "status": "approved",
+ "due": "2026-10-26T19:30:00+05:30",
+ "format": "carousel",
+ "topic": {
+  "title": "IT services raise budgets",
+  "claim": "In IT services, the raise budget is fixed before ratings; the sector sets the cake, the rating cuts the slice.",
+  "moment": "Appraisal letter day: 'meets expectations plus' and a single-digit hike.",
+  "turn": {
+   "believed": "your rating decides your hike",
+   "actually": "the company fixes a raise budget first; ratings only split it, and IT services has the smallest budget of any sector"
+  },
+  "because": "companies set merit budgets from margins and market benchmarks; services runs on thinner margins, so its pool is smaller",
+  "payoff": "Your rating decides your slice. Your sector decides the cake.",
+  "territory": "money_status",
+  "format_name": "price_tells",
+  "proof": [
+   {
+    "fact": "Aon projects India's average salary increase at 9.1% for 2027; Technology Consulting and Services 6.6% in both 2026 and 2027, the lowest of any sector; Technology Platform and Products 9.5%; NBFCs 10.1%",
+    "source_url": "https://www.aon.com/apac/in-the-press/asia-newsroom/2026/aon-study-finds-salaries-in-india-projected-to-fise-9-1-in-2027-employers-balance-growth-and-cost-pressures",
+    "date": "2026-10-14"
+   },
+   {
+    "fact": "TCS 2026 hikes: top bands about 10-13%, lowest bands about 2-3%",
+    "source_url": "https://www.republicworld.com/business/tcs-salary-hike-2026-appraisal-letter-ctc-restructure-labour-code-details-2026-05-19-124864",
+    "date": "2026-05-19"
+   }
+  ]
+ },
+ "draft": {
+  "slides": [
+   {
+    "paragraphs": [
+     "In IT services, your raise budget was fixed before your manager rated you. The rating only decides how it gets split.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "it overturns what every salaried reader believes about appraisals"
+   },
+   {
+    "paragraphs": [
+     "Letter day. \"Meets expectations plus.\" Nice. You scroll down. Single digit.",
+     "Then the replay starts: every sprint, every 1:1, looking for what you did wrong.",
+     "Probably nothing unusual."
+    ],
+    "why_swipe": "the reader has lived this; what actually decided it?"
+   },
+   {
+    "paragraphs": [
+     "First, the company fixes a raise budget, guided by its margins and what the market is paying. Then the ratings happen.",
+     "The split is steep. At TCS this year, employees reported 9-13% in the top band, and little or no change in the lowest.",
+     "**But no rating grows the budget.**"
+    ],
+    "why_swipe": "if the budget is fixed first, how big is yours?",
+    "source": "Source: HRKatha, 19 May 2026"
+   },
+   {
+    "paragraphs": [
+     "Aon's 2027 projections. India's average raise: 9.1%. Tech products: 9.5%. NBFCs: 10.1%.",
+     "IT services: 6.6%, the lowest of any sector, and the same as this year."
+    ],
+    "why_swipe": "'the lowest of any sector' stings; what does it mean for the next ten years?",
+    "big": {
+     "figure": "6.6% vs 9.5%",
+     "label": "IT services vs tech products, 2027 raise budgets"
+    },
+    "source": "Source: Aon, 14 Oct 2026"
+   },
+   {
+    "paragraphs": [
+     "So yes, your rating matters. It moves you around inside the budget.",
+     "But the budget comes from the business you're in. A top rating in services is still fighting over a smaller cake than the product company down the road."
+    ],
+    "why_swipe": "the concession makes the turn credible; the payoff is next"
+   },
+   {
+    "paragraphs": [
+     "Move to products and, if this gap holds, every raise comes out of a bigger budget. That compounds.",
+     "**Your rating decides your slice. Your sector decides the cake.**"
+    ]
+   }
+  ],
+  "caption": "IT services folks: was your hike closer to your rating or closer to 6.6%?",
+  "hashtags": [
+   "#Appraisal",
+   "#ITJobs",
+   "#SalaryHike"
+  ],
+  "alt_text": "A text carousel arguing that in Indian IT services the raise budget is fixed before ratings, using Aon's 2027 projections: 9.1% average, 6.6% for IT services, 9.5% for tech products, 10.1% for NBFCs.",
+  "claims": [],
+  "caption_style": "question",
+  "cover": {
+   "headline": "Your raise was fixed before your manager [rated you.]",
+   "sub": "In IT services, the rating only decides how it gets split.",
+   "proof": {
+    "figure": "6.6%",
+    "label": "IT services' 2027 raise budget, lowest of any sector (Aon)"
+   }
+  },
+  "end": {
+   "save": "Read it again before your next appraisal letter.",
+   "send": "Send it to the friend replaying their 1:1s right now."
+  }
+ },
+ "sources": [],
+ "history": [
+  {
+   "note": "written and tested in the 2026-10-23 quality reset (stages 1-2), approved by the owner"
+  }
+ ],
+ "updated_at": "2026-10-23T07:00:13.615234+00:00"
+}

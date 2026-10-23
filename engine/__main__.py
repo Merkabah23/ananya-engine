@@ -11,7 +11,7 @@ import argparse
 import json
 from datetime import datetime, timedelta, timezone
 
-from . import buffer, config, filter as topic_filter, llm, render, scout, state, storage, writer
+from . import buffer, config, factgate, filter as topic_filter, llm, render, scout, state, storage, writer
 
 
 def _month(offset: int = 0) -> str:
@@ -33,9 +33,23 @@ def _take_spare(slot_post: dict) -> dict | None:
     return None
 
 
+def check_approved(post: dict) -> dict:
+    """Owner-approved drafts skip the writer, never the fact gate."""
+    if factgate.still_valid(post):
+        return post
+    post["verification"] = factgate.verify(post, post["draft"])
+    if not post["verification"]["passed"]:
+        post["status"] = "failed"
+        post["error"] = ("Fact gate: " + " | ".join(post["verification"]["notes"]))[:900]
+    return post
+
+
 def produce(month: str | None = None, limit: int | None = None) -> None:
     """Write, render and upload planned posts, soonest first. `limit` keeps each run inside
     subscription usage windows; the daily run calls this with PRODUCE_PER_RUN."""
+    if config.PAUSED:
+        state.log("produce", "ENGINE_PAUSED is set; nothing written.")
+        return
     soon = (datetime.now(timezone.utc) + timedelta(hours=3)).isoformat()
     queue = [p for p in state.posts("planned") + state.posts("approved") if p["format"] != "spare" and p.get("due")
              and datetime.fromisoformat(p["due"]).astimezone(timezone.utc).isoformat() > soon  # skip missed slots
@@ -50,7 +64,7 @@ def produce(month: str | None = None, limit: int | None = None) -> None:
         attempts += len(batch)
         batch, ready = ready + batch, []
         # Drafts the owner already approved skip the writer and go straight to rendering.
-        results = llm.pmap(lambda p: p if p["status"] == "approved" else writer.write_post(p), batch)
+        results = llm.pmap(lambda p: check_approved(p) if p["status"] == "approved" else writer.write_post(p), batch)
         for post, result in zip(batch, results):
             try:
                 if isinstance(result, Exception):
@@ -61,6 +75,9 @@ def produce(month: str | None = None, limit: int | None = None) -> None:
                     spare = _take_spare(post)
                     if spare:
                         queue.append(spare)
+                    continue
+                if post["status"] == "failed":
+                    state.log("produce", f"{post['id']} held: {post.get('error', '')[:200]}")
                     continue
                 paths = render.render_post(post)
                 post["image_urls"] = [storage.upload(p, f"{post['id']}/{p.name}") for p in paths]
@@ -118,6 +135,11 @@ def push(days: int = 8) -> None:
             state.save_post(post)
             state.log("push", f"{post['id']} needs a manual check in Buffer")
             continue
+        if not factgate.still_valid(post):
+            post["status"], post["error"] = "failed", "The text was never verified, or changed after verification."
+            state.save_post(post)
+            state.log("push", f"{post['id']} held: text not verified")
+            continue
         post["buffer_attempted_at"] = now.isoformat()
         state.save_post(post)
         try:
@@ -125,8 +147,12 @@ def push(days: int = 8) -> None:
             post["status"] = "scheduled"
             state.log("push", f"{post['id']} scheduled in Buffer for {post['due']}")
         except Exception as e:
-            post["status"], post["error"] = "failed", str(e)[:500]
-            state.log("push", f"{post['id']} failed: {e}")
+            if "Buffer refused the post" in str(e):  # a clear refusal (e.g. the 10-post limit): safe to retry next run
+                post["status"], post["error"] = "uploaded", str(e)[:500]
+                post.pop("buffer_attempted_at", None)
+            else:
+                post["status"], post["error"] = "failed", str(e)[:500]
+            state.log("push", f"{post['id']} not scheduled: {e}")
         state.save_post(post)
 
 
@@ -223,8 +249,10 @@ def main() -> None:
         scout.run(_month(0))
         topic_filter.run(_month(0), _month(1))
     elif a.command == "daily":      # every day: write a few posts, then schedule what's due soon
-        produce(limit=config.PRODUCE_PER_RUN)
-        push(a.days)
+        try:
+            produce(limit=config.PRODUCE_PER_RUN)
+        finally:  # a usage cap mid-writing must not stop ready posts reaching Buffer
+            push(a.days)
     elif a.command == "fetch-reddit":  # 19th: the slow, rate-limited part, so the monthly run never waits on it
         scout.fetch_reddit(_month(0))
     elif a.command == "sample":

@@ -6,7 +6,9 @@ from engine import buffer, corpus, filter as topic_filter, writer  # noqa: E402
 
 
 def draft(slides, claims=None):
-    return {"slides": [{"paragraphs": p} for p in slides], "caption": "Which one are you?",
+    return {"slides": [{"paragraphs": p, "why_swipe": "the reader wants to see where this goes next"} for p in slides],
+            "cover": {"headline": "Every Indian home keeps its [best room] for guests", "sub": "s"},
+            "caption": "Which one are you?",
             "alt_text": "A text post", "claims": claims or []}
 
 
@@ -38,7 +40,7 @@ def test_unsourced_money_figure_is_caught():
 
 
 def test_sourced_money_figure_passes():
-    src = [{"fact": "x", "url": "https://example.com/report"}]
+    src = [{"fact": "Indians spent ₹10 lakh crore on weddings in 2025", "url": "https://example.com/report"}]
     bad = [list(s) for s in GOOD]
     bad[2] = ["Indians spent ₹10 lakh crore on weddings last year, mostly on the guest list and the decor."]
     claims = [{"text": "Indians spent ₹10 lakh crore on weddings", "source_url": "https://example.com/report"}]
@@ -62,11 +64,11 @@ def test_merge_paragraphs_caps_slide():
 
 def test_explaining_signpost_and_unbalanced_slide_are_caught():
     bad = [list(s) for s in GOOD]
-    bad[2] = ["Here's what's really going on with that room, and it is not about furniture or the light at all, honestly."]
+    bad[2] = ["You know the scene: that room, and it is not about the furniture or the light at all, honestly."]
     bad[4] = [" ".join(["word"] * 44) + "."]
     bad[3] = ["Short one, nothing more here."]
     problems = " ".join(writer.hard_checks(draft(bad), "carousel", []))
-    assert "here's what's really going on" in problems.lower() and "too thin" in problems
+    assert "you know the scene" in problems.lower() and "too thin" in problems
 
 
 def test_approved_posts_pass_code_checks():
@@ -82,8 +84,8 @@ def test_approved_posts_pass_code_checks():
                     paras[-1] += "\n" + line  # a dash list lives inside one paragraph
                 else:
                     paras.append(line)
-            slides.append({"paragraphs": paras})
-        d = {"slides": slides, "claims": []}
+            slides.append({"paragraphs": paras, "why_swipe": "approved by the owner"})
+        d = {"slides": slides, "claims": [], "cover": {"headline": "A placeholder cover headline with a [key phrase]"}}
         assert writer.hard_checks(d, "carousel", evidence) + writer.readability_problems(d, "carousel") == [], post["title"]
 
 
@@ -92,7 +94,7 @@ def test_voice_examples_rotate_from_the_bank():
 
 
 def test_wrong_slide_count():
-    assert any("5 to 7 slides" in p for p in writer.hard_checks(draft(GOOD[:3]), "carousel", []))
+    assert any("4 to 7 slides" in p for p in writer.hard_checks(draft(GOOD[:3]), "carousel", []))
 
 
 def test_slots_cover_month_in_ist():
@@ -139,14 +141,15 @@ def test_sentence_split_keeps_abbreviations():
 
 def test_readability_flags_long_sentences_bold_and_extra_italics():
     d = draft([["This sentence is deliberately far too long because it keeps going and going and going without any pause at all for the reader, who by now has stopped reading and moved on to a reel."],
-               ["**Bold is not house style.**"], ["*One* and *two* italics."], ["Fine."]])
+               ["**One bold line.** And **a second one.**"], ["*One* and *two* italics."], ["Fine."]])
     problems = " ".join(writer.readability_problems(d, "carousel"))
-    assert f"max {writer.MAX_SENT_WORDS}" in problems and "uses bold" in problems and "2 italic" in problems
+    assert f"max {writer.MAX_SENT_WORDS}" in problems and "more than one **bold**" in problems and "2 italic" in problems
 
 
 def test_italic_markers_render_and_are_stripped_from_text():
     from engine import render
-    assert render._tokens("say *khana khaya* now") == [("say", False), ("khana", True), ("khaya", True), ("now", False)]
+    assert render._tokens("say *khana khaya* now **then**") == [("say", "regular"), ("khana", "italic"), ("khaya", "italic"),
+                                                                ("now", "regular"), ("then", "bold")]
     assert writer.post_text(draft([["say *khana khaya* now"]])) == "say khana khaya now"
 
 
@@ -165,7 +168,18 @@ def test_only_the_last_carousel_slide_is_the_end_card(tmp_path, monkeypatch):
     assert shades.count(shades[-1]) == 1 and len(set(shades[:-1])) == 1
 
 
-def test_reversal_ending_is_caught():
-    bad = [list(s) for s in GOOD]
-    bad[-1] = ["They didn't keep the drawing room for guests. It was never about the guests.", "It was always about being seen, by anyone at all."]
-    assert any("reversal" in p for p in writer.hard_checks(draft(bad), "carousel", []))
+def test_one_closing_reversal_is_fine_but_repeats_mid_post_are_caught():
+    closing = [list(s) for s in GOOD]
+    closing[-1] = ["They didn't keep the drawing room for guests. It was never about the guests.", "It was always about being seen, by anyone at all."]
+    assert not any("reversal" in p for p in writer.hard_checks(draft(closing), "carousel", []))
+    repeated = [list(s) for s in GOOD]
+    repeated[2] = ["The room isn't for the family. It's for the relatives who visit twice a year and judge the sofa."]
+    repeated[3] = ["The good cups aren't for drinking. They're for being seen, and the visitors know it as well as you do."]
+    assert any("reversal" in p for p in writer.hard_checks(draft(repeated), "carousel", []))
+
+
+def test_question_hook_and_missing_swipe_reason_are_caught():
+    bad = draft([["Why does every Indian home have one room nobody may sit in?", "Swipe to read →"]] + [list(s) for s in GOOD[1:]])
+    bad["slides"][2]["why_swipe"] = ""
+    problems = " ".join(writer.hard_checks(bad, "carousel", []))
+    assert "question" in problems and "why_swipe" in problems

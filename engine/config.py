@@ -43,10 +43,8 @@ TERRITORY_MIX = {  # roughly the reference creator's spread of subjects
 
 # Gates
 MIN_TOPIC_SCORE = 22          # out of 35 (seven criteria x 5), plus fresh >= 4
-MAX_REWRITES = 1             # one rewrite at most: quality comes from the take and the examples, not loops
+MAX_REWRITES = 2             # notes from the editor and the fact gate go back to the writer; nothing else rewrites
 NGRAM_BLOCK = 6               # any shared 6-word run with Varun's corpus blocks a draft
-BLIND_TEST_TRIALS = 1         # per attempt; the final attempt uses 2
-USE_BLIND_TEST = os.getenv("USE_BLIND_TEST", "false").lower() == "true"  # off: it rewards impersonation, not quality
 
 # Rendering
 CANVAS = (1080, 1350)
@@ -56,8 +54,10 @@ IG_HANDLE = os.getenv("IG_HANDLE", "abovemrp")  # used to find the Instagram cha
 IG_HANDLES = [h.strip().lower() for h in os.getenv("IG_HANDLES", f"{IG_HANDLE},ananyakrishnan47").split(",") if h.strip()]
 BRAND_HASHTAG = "#AboveMRP"
 TAGLINE = "How India spends, scrolls and gets sold to"
-END_CARD = os.getenv("END_CARD", "true").lower() == "true"  # last carousel slide in teal with the tagline
-END_FOLLOW_LINE = os.getenv("END_FOLLOW_LINE", "New post every Mon · Wed · Fri")  # only on posts marked end_follow_line
+END_CARD = os.getenv("END_CARD", "true").lower() == "true"  # a teal end card after the last slide of every carousel
+END_PROMISE = "The seller's side of how India spends."
+END_FOLLOW_LINE = os.getenv("END_FOLLOW_LINE", "New post every Mon · Wed · Fri")
+MONOGRAM = "A/M"  # the slide-header mark; the Instagram profile picture is set separately in the app
 MAX_HASHTAGS = 5  # Instagram caps posts at 5 hashtags (Dec 2025)
 VERIFIED = False              # never draw a tick unless the account is verified
 
