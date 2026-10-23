@@ -93,3 +93,10 @@ def test_text_edited_after_verification_is_not_uploaded(tmp_path, monkeypatch):
     cli.push()
     held = state.posts()[0]
     assert held["status"] == "failed" and "verified" in held["error"]
+
+
+def test_fetch_refuses_private_and_odd_addresses():
+    for url in ("http://169.254.169.254/latest/meta-data/", "http://127.0.0.1/x", "http://10.0.0.5/", "file:///etc/passwd",
+                "http://localhost:8080/", "ftp://example.com/x", "https://example.com:8443/x"):
+        assert not factgate._public(url), url
+    assert factgate.quote_on_page("http://169.254.169.254/latest/meta-data/", "anything") is None

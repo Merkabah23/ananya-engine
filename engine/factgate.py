@@ -14,12 +14,15 @@ from __future__ import annotations
 import ast
 import hashlib
 import html
+import ipaddress
 import json
 import operator
 import re
+import socket
 from datetime import date, datetime, timezone
 
 import requests
+from urllib.parse import urljoin, urlsplit
 
 from . import config, llm
 
@@ -159,20 +162,60 @@ def _norm(text: str) -> str:
     return re.sub(r"[^a-z0-9%₹.]+", " ", text.lower()).strip()
 
 
+MAX_BYTES = 3_000_000
+
+
+def _public(url: str) -> bool:
+    """Only plain web pages on public addresses: the URLs come from model output, and the runner must never be
+    steered to a private network, a loopback service or a cloud metadata endpoint."""
+    parts = urlsplit(url)
+    if parts.scheme not in ("http", "https") or not parts.hostname or parts.port not in (None, 80, 443):
+        return False
+    try:
+        infos = socket.getaddrinfo(parts.hostname, parts.port or (443 if parts.scheme == "https" else 80))
+    except OSError:
+        return False
+    return all(ipaddress.ip_address(i[4][0]).is_global for i in infos)
+
+
+def _fetch(url: str, hops: int = 3) -> tuple[int, str, str] | None:
+    """GET a public page, re-checking every redirect and reading at most MAX_BYTES. None if it can't be fetched."""
+    for _ in range(hops + 1):
+        if not _public(url):
+            return None
+        try:
+            r = requests.get(url, timeout=20, stream=True, allow_redirects=False,
+                             headers={"User-Agent": "Mozilla/5.0 (fact check)"})
+        except requests.RequestException:
+            return None
+        if r.is_redirect and r.headers.get("location"):
+            url = urljoin(url, r.headers["location"])
+            r.close()
+            continue
+        body = b""
+        for chunk in r.iter_content(64_000):
+            body += chunk
+            if len(body) >= MAX_BYTES:
+                break
+        r.close()
+        return r.status_code, r.headers.get("content-type", ""), body.decode(r.encoding or "utf-8", "replace")
+    return None
+
+
 def quote_on_page(url: str, quote: str) -> bool | None:
     """True if the page carries the quote's numbers and most of its words (checkers paraphrase), False if the page doesn't
     exist or clearly doesn't say it, None if it can't be read here (blocked, paywalled, rendered by script)."""
-    if not url.startswith("http") or not quote:
+    if not quote:
         return False
-    try:
-        r = requests.get(url, timeout=20, headers={"User-Agent": "Mozilla/5.0 (fact check)"})
-    except requests.RequestException:
+    fetched = _fetch(url)
+    if fetched is None:
         return None
-    if r.status_code in (404, 410):
+    status, ctype, text = fetched
+    if status in (404, 410):
         return False
-    if r.status_code != 200 or "pdf" in r.headers.get("content-type", "").lower():
+    if status != 200 or "pdf" in ctype.lower():
         return None  # blocked, or a PDF we can't read here
-    page, q = _norm(r.text), _norm(quote)
+    page, q = _norm(text), _norm(quote)
     if len(page.split()) < 400:
         return None  # a bot wall or a page rendered by script, not the article
     numbers = [n for n in re.findall(r"\d[\d.]*", q) if len(n) > 1 or "." in n]
