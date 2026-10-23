@@ -28,6 +28,7 @@ MIN_SLIDES, MAX_SLIDES = 4, 7  # the reference creator's best carousels run 3-7 
 SLIDE_WORDS = (12, 60)   # every slide after the hook: fewer, fuller slides that chain, not thin ones
 HOOK_WORDS = 25
 POST_WORDS = (130, 320)
+MAX_FIGURES = 3          # facts only map the opinion; a post with more numbers is a data explainer
 MIN_RHYTHM = 3.5         # sentence-length spread; a metronome rhythm (every sentence ~8 words) reads as AI
 # "isn't X, it's Y" closes many of the reference creator's best posts; repeated mid-post it reads as a template.
 REVERSAL = re.compile(r"\b(isn't|is not|wasn't|was not|aren't|never)\b[^.?!]{0,60}[.?!]\s*(it's|it is|it was|they're|"
@@ -214,6 +215,10 @@ def hard_checks(draft: dict, fmt: str, sources: list[dict]) -> list[str]:
         m = pat.search(text)
         if m:
             problems.append(f"Remove the phrase '{m.group(0)}'.")
+    figures = len(MONEY.findall(text))
+    if figures > MAX_FIGURES:
+        problems.append(f"The post carries {figures} numbers. Facts only back the opinion: keep {MAX_FIGURES} at most, "
+                        "and only where they make the point land.")
     if len(re.findall(r"\bnobody\b", text, re.I)) > 1:
         problems.append("'Nobody' appears more than once; it's the account's most repeated tic. Keep at most one.")
     if fmt == "carousel" and slides:
@@ -269,7 +274,7 @@ def voice_examples(seed: int, k: int = 3) -> str:
                        for p in picks)
 
 
-TOPIC_FIELDS = ("claim", "moment", "turn", "because", "proof", "payoff", "mood", "format_name", "send_to", "news_peg",
+TOPIC_FIELDS = ("claim", "moment", "turn", "because", "payoff", "lived", "proof", "mood", "format_name", "send_to", "news_peg",
                 "why_now", "behaviour", "mechanism", "group", "territory", "real_details")
 
 
@@ -306,7 +311,7 @@ def critique(post: dict, draft: dict, seed: int) -> dict:
 
 def passes(review: dict) -> bool:
     scores = review.get("scores") or {}
-    keys = ("hook", "new_to_reader", "pull", "because", "payoff", "voice")
+    keys = ("hook", "relatable", "fresh_angle", "pull", "payoff", "voice")
     return not review.get("violations") and all(_score(scores, k) >= 4 for k in keys)
 
 

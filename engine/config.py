@@ -55,9 +55,9 @@ IG_HANDLES = [h.strip().lower() for h in os.getenv("IG_HANDLES", f"{IG_HANDLE},a
 BRAND_HASHTAG = "#AboveMRP"
 TAGLINE = "How India spends, scrolls and gets sold to"
 END_CARD = os.getenv("END_CARD", "true").lower() == "true"  # a teal end card after the last slide of every carousel
-END_PROMISE = "The seller's side of how India spends."
+END_PROMISE = "How India really works, from the selling side."
 END_FOLLOW_LINE = os.getenv("END_FOLLOW_LINE", "New post every Mon · Wed · Fri")
-MONOGRAM = "A/M"  # the slide-header mark; the Instagram profile picture is set separately in the app
+MONOGRAM = "A/M"  # fallback slide-header mark when assets/avatar.png is missing
 MAX_HASHTAGS = 5  # Instagram caps posts at 5 hashtags (Dec 2025)
 VERIFIED = False              # never draw a tick unless the account is verified
 

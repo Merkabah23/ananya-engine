@@ -1,8 +1,8 @@
-"""Render a draft into 1080x1350 JPEG slides: an editorial cover, calm reading slides and an end card.
+"""Render a draft into 1080x1350 JPEG slides: the take as the cover, calm reading slides and an end card.
 
-The design was chosen in a blind test with 750 simulated readers (2026-10-23): a big cover headline with one teal
-keyword and a proof number, a pinned header with a monogram and the struck-through MRP tag, one bold teal line per
-slide at most, big figures with a source line on data slides, a page count, and an end card that asks for a save.
+Opinion first: the cover is the take in a very large headline with one teal phrase; a pinned header carries the
+owner's photo and the struck-through MRP tag; reading slides have one bold teal line at most and a page count; the
+end card asks for a save. Number boxes, big figures and source lines appear only on the rare post that uses them.
 """
 from __future__ import annotations
 
@@ -26,9 +26,9 @@ TEAL_TINT = (226, 241, 238)
 WHITE = (255, 255, 255)
 ON_TEAL = (220, 236, 233)
 FONTS = config.ASSETS / "fonts"
-BODY_SIZES = [54, 50]   # never shrink a dense slide into small print: split it instead (split_for_fit)
+BODY_SIZES = [56, 52]   # never shrink a dense slide into small print: split it instead (split_for_fit)
 SWIPE = "swipe to read"
-BODY_TOP, BODY_BOTTOM = 230, H - 120
+BODY_TOP, BODY_BOTTOM = 250, H - 120
 
 
 class Overflow(Exception):
@@ -40,6 +40,23 @@ def _font(weight: str, size: int) -> ImageFont.FreeTypeFont:
 
 
 # --- chrome: monogram, price tag, header, page count --------------------------------------------------------
+
+def _avatar(size: int, on_teal: bool = False) -> Image.Image:
+    """The owner's photo in a circle (a thin white ring on teal), or the monogram if there is no photo."""
+    photo = config.ASSETS / "avatar.png"
+    if not photo.exists():
+        return _monogram(size, on_teal)
+    ring = 4 if on_teal else 0
+    img = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+    if ring:
+        ImageDraw.Draw(img).ellipse((0, 0, size - 1, size - 1), fill=WHITE)
+    inner = size - 2 * ring
+    face = Image.open(photo).convert("RGB").resize((inner, inner))
+    mask = Image.new("L", (inner, inner), 0)
+    ImageDraw.Draw(mask).ellipse((0, 0, inner - 1, inner - 1), fill=255)
+    img.paste(face, (ring, ring), mask)
+    return img
+
 
 def _monogram(size: int, on_teal: bool = False) -> Image.Image:
     img = Image.new("RGBA", (size, size), (0, 0, 0, 0))
@@ -66,7 +83,7 @@ def _tag(d: ImageDraw.ImageDraw, x: int, y: int, w: int, h: int, on_teal: bool =
 
 def _header(img: Image.Image, d: ImageDraw.ImageDraw, large: bool = False, on_teal: bool = False) -> None:
     size, y = (96, 72) if large else (72, 72)
-    mark = _monogram(size, on_teal)
+    mark = _avatar(size, on_teal)
     img.paste(mark, (MARGIN, y), mark)
     x = MARGIN + size + 22
     d.text((x, y + (12 if large else 6)), config.DISPLAY_NAME, font=_font("Bold", 40 if large else 34),
@@ -119,6 +136,18 @@ def _wrap(text: str, size: int, width: int) -> list[list[tuple[str, str]]]:
     return lines
 
 
+def _plain_lines(text: str, font: ImageFont.FreeTypeFont, width: int) -> list[str]:
+    """Wrap plain text measured in the font it is drawn in (bold runs wider than regular)."""
+    lines, cur = [], ""
+    for w in text.split():
+        test = f"{cur} {w}".strip()
+        if cur and font.getlength(test) > width:
+            lines.append(cur); cur = w
+        else:
+            cur = test
+    return lines + ([cur] if cur else [])
+
+
 def _draw_lines(d: ImageDraw.ImageDraw, lines, x: int, y: int, size: int, color, bold_color) -> int:
     space, lh = _font("Regular", size).getlength(" "), int(size * 1.44)
     for runs in lines:
@@ -145,13 +174,15 @@ def _clean(paragraphs: list[str]) -> list[str]:
 
 
 def render_cover(cover: dict, n: int) -> Image.Image:
-    """Big headline ([keyword] in teal, kept on one line), a sub-line, and one proof number in the lower third."""
+    """The take as a very large headline ([keyword] in teal, kept on one line) and a sub-line, centred on the slide.
+    Only a post whose point is a number carries it in a box in the lower third."""
     img = Image.new("RGB", (W, H), PAPER)
     d = ImageDraw.Draw(img)
     _header(img, d, large=True)
     headline = re.sub(r"\[([^\]]+)\]", lambda m: "[" + m.group(1).replace(" ", " ") + "]", cover["headline"])
     words, safe = headline.split(), W - 2 * SAFE
-    for size in range(108, 70, -2):
+    proof = cover.get("proof") or {}
+    for size in range(124 if not proof.get("figure") else 108, 70, -2):
         f = _font("Bold", size)
         lines, cur = [], []
         for w in words:
@@ -162,7 +193,10 @@ def render_cover(cover: dict, n: int) -> Image.Image:
         lines.append(cur)
         if len(lines) <= 4 and all(f.getlength(" ".join(l).replace("[", "").replace("]", "")) <= safe for l in lines):
             break
-    y, teal = 250, False
+    sub_lines = _plain_lines(cover.get("sub", ""), _font("Medium", 46), safe)
+    block = len(lines) * int(size * 1.12) + 40 + 62 * len(sub_lines)
+    y = 250 if proof.get("figure") else max(260, (H - block) // 2 - 20)  # no number: the take sits in the optical centre
+    teal = False
     for line in lines:
         x = float(SAFE)
         for w in line:
@@ -174,11 +208,10 @@ def render_cover(cover: dict, n: int) -> Image.Image:
             if w.endswith("]"):
                 teal = False
         y += int(size * 1.12)
-    y += 34
-    for runs in _wrap(cover.get("sub", ""), 44, safe):
-        d.text((SAFE, y), " ".join(w for w, _ in runs), font=_font("Medium", 44), fill=SUB)
-        y += 60
-    proof = cover.get("proof") or {}
+    y += 40
+    for line in sub_lines:
+        d.text((SAFE, y), line, font=_font("Medium", 46), fill=SUB)
+        y += 62
     if proof.get("figure"):
         by = H - 330
         d.rounded_rectangle((MARGIN, by, W - MARGIN, by + 210), radius=24, fill=TEAL_TINT)
@@ -223,8 +256,8 @@ def render_end(end: dict, n: int) -> Image.Image:
     d = ImageDraw.Draw(img)
     _header(img, d, large=True, on_teal=True)
     y = 330
-    for runs in _wrap(config.END_PROMISE, 84, W - 2 * MARGIN):
-        d.text((MARGIN, y), " ".join(w for w, _ in runs), font=_font("Bold", 84), fill=WHITE)
+    for line in _plain_lines(config.END_PROMISE, _font("Bold", 84), W - 2 * MARGIN):
+        d.text((MARGIN, y), line, font=_font("Bold", 84), fill=WHITE)
         y += 98
     y += 70
     save = (end.get("save") or "").replace(" Nov", " Nov")
@@ -232,8 +265,8 @@ def render_end(end: dict, n: int) -> Image.Image:
         d.rounded_rectangle((MARGIN, y, W - MARGIN, y + 250), radius=28, fill=WHITE)
         d.text((MARGIN + 44, y + 42), "Save this", font=_font("Bold", 56), fill=TEAL)
         yy = y + 120
-        for runs in _wrap(save, 40, W - 2 * MARGIN - 88)[:2]:
-            d.text((MARGIN + 44, yy), " ".join(w for w, _ in runs).replace(" ", " "), font=_font("Medium", 40), fill=INK)
+        for line in _plain_lines(save, _font("Medium", 40), W - 2 * MARGIN - 88)[:2]:
+            d.text((MARGIN + 44, yy), line.replace("\u00a0", " "), font=_font("Medium", 40), fill=INK)
             yy += 54
         y += 320
     for runs in _wrap(end.get("send", ""), 38, W - 2 * MARGIN)[:3]:

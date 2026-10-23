@@ -76,25 +76,24 @@ def tired_tropes() -> str:
 
 
 NEWS_THEMES = {
-    "pricing": "changes in prices, fees and charges people pay (platform, convenience, handling and small-cart fees, bank and card charges, subscription and plan prices, telecom tariffs), how brands and apps price and sell, and regulator action on dark patterns or misleading pricing",
-    "money": "changes in rules and data that touch salaried people's money: tax, GST, EMIs and loan rates, PF and pensions, insurance terms, gold, credit cards, UPI, RBI/SEBI/IRDAI/NPCI circulars and data releases, salary and hiring studies",
-    "work": "salaries, increments, hiring and layoffs, company policies (return to office, moonlighting, AI at work), new labour rules, and studies of what jobs and cities pay",
-    "internet": "creator economy and influencer money, platform and app changes that change how people buy or scroll, affiliate and ad rules, AI products people pay for",
-    "life": "spending data and business-model changes behind weddings, festivals, housing and rent, education, health and everyday purchases",
+    "brands": "how brands launched, priced, advertised and sold things to Indians, campaigns people argued about, fees and pricing changes people noticed",
+    "work": "office life and how companies treat people: appraisals, layoffs, return to office, hiring, policies, AI at work",
+    "internet": "what people did and argued about online: creators, Instagram and app changes, viral moments, how people behave on the internet",
+    "screen": "films, OTT shows, music and cricket people were watching and arguing about, what worked and what flopped",
+    "society": "money, status, cities, dating and friendship, everyday behaviour and new rules that change daily life",
 }
 
 
 def _fetch_news() -> list[dict]:
     """What happened in India in the last 30 days, scanned as three themes in parallel."""
     def scan(theme: str) -> list[dict]:
-        ask = (f"Search the web for what changed in India in the last 45 days in this area: {NEWS_THEMES[theme]}. "
-               "Prefer the primary document (the regulator's circular, the company's results or announcement, the pricing "
-               "page, the study itself) or a major outlet that cites it. Open each page with WebFetch and take the date from "
-               "the page itself, never from memory. Skip anything older than 45 days, party politics, crime and disasters. "
-               "Find 12 distinct items, each with its source.\n\n"
+        ask = (f"Search the web for what happened in India in the last 30 days in this area: {NEWS_THEMES[theme]}. "
+               "Focus on what ordinary working Indians actually noticed, talked about or felt. Open each page with WebFetch "
+               "and take the date from the page itself, never from memory. Skip anything older than 30 days, party "
+               "politics, crime and disasters. Find 12 distinct items, each with its source.\n\n"
                'Return only JSON: {"items": [{"source": "news", "title": "...", "date": "YYYY-MM-DD as printed on the page", '
-               '"url": "...", "body": "3-5 sentences: what changed, the key numbers exactly as the page states them, and who '
-               'earns or pays because of it"}]}')
+               '"url": "...", "body": "3-5 sentences: what happened, any key number exactly as the page states it, and what people '
+               'are saying about it"}]}')
         return llm.call_json(config.MODEL_JUDGE, ask, stage=f"scout-news-{theme}",
                              tools=[llm.web_search_tool(), "WebFetch"], timeout=1800).get("items", [])
     results = llm.pmap(scan, list(NEWS_THEMES))
@@ -125,27 +124,20 @@ def fetch_reddit(month: str | None = None) -> list[dict]:
     return threads
 
 
-def _evergreen(persona: str, n: int = 12) -> list[dict]:
-    """Research, not brainstorming: topics on what readers asked this page to explain, each resting on sources the
-    model opened and dated itself."""
+def _evergreen(persona: str, n: int = 24) -> list[dict]:
+    """Observations with no news hook: everyday things seen differently. Facts are never needed."""
     demand = json.loads((config.DATA / "demand.json").read_text())["subjects"]
     ask = llm.fill(llm.prompt("evergreen"), persona=persona, tired_tropes=tired_tropes(), varun_hooks=corpus.all_hooks(),
                    demand="\n".join(f"- {d}" for d in demand), n=str(n))
-    out = llm.call_json(config.MODEL_WRITER, ask, stage="scout-research", tools=[llm.web_search_tool(), "WebFetch"],
-                        timeout=2400)
+    out = llm.call_json(config.MODEL_WRITER, ask, stage="scout-evergreen", timeout=1800)
     return [dict(t, news_peg=None, evidence=[]) for t in out.get("topics", [])]
 
 
-NEEDS_PROOF = {"business_brands", "money_status"}
-
-
 def complete(topic: dict) -> bool:
-    """A topic reaches the selector only with its moment, turn and because, and, for money and brand topics, at least
-    one fact with a source URL and a date."""
+    """A topic reaches the selector only with its moment, a real turn and a because. Facts are never required."""
     turn = topic.get("turn") if isinstance(topic.get("turn"), dict) else {}
-    has_parts = all(str(topic.get(k) or "").strip() for k in ("moment", "because")) and turn.get("believed") and turn.get("actually")
-    proof = [p for p in topic.get("proof") or [] if isinstance(p, dict) and str(p.get("source_url", "")).startswith("http") and p.get("date")]
-    return bool(has_parts) and (bool(proof) or topic.get("territory") not in NEEDS_PROOF)
+    return bool(all(str(topic.get(k) or "").strip() for k in ("moment", "because"))
+                and turn.get("believed") and turn.get("actually"))
 
 
 def _attach_evidence(topics: list[dict], reddit: list[dict]) -> list[dict]:
@@ -214,7 +206,7 @@ def run(month: str | None = None) -> list[dict]:
         topics += out.get("topics", [])
         state.log("scout", f"scout job {n}: {len(out.get('topics', []))} topics")
     whole = [t for t in topics if complete(t)]
-    state.log("scout", f"{len(whole)} of {len(topics)} topics have a moment, a turn, a because and the proof they need")
+    state.log("scout", f"{len(whole)} of {len(topics)} topics have a moment, a turn and a because")
     topics = _attach_evidence(whole, reddit)
     for i, t in enumerate(topics, 1):
         t["id"] = f"{month}-{i:03d}"

@@ -1,7 +1,7 @@
 {
  "id": "2026-10-92",
  "status": "approved",
- "due": "2026-10-28T19:30:00+05:30",
+ "due": null,
  "format": "carousel",
  "topic": {
   "title": "No Cost EMI",
@@ -109,7 +109,507 @@
  "history": [
   {
    "note": "written and tested in the 2026-10-23 quality reset (stages 1-2), approved by the owner"
+  },
+  {
+   "note": "parked 2026-10-23: fact-led, kept for an occasional slot"
   }
  ],
- "updated_at": "2026-10-23T07:07:35.993937+00:00"
+ "updated_at": "2026-10-23T07:30:48.910301+00:00",
+ "verification_cache": {
+  "An iPhone 17 256GB unit was priced at ₹86,999 during a Big Billion Days sale earlier in October 2026.": {
+   "id": "c1",
+   "verdict": "supported",
+   "event_date": "2026-10-09",
+   "correct": "Flipkart listed the iPhone 17 256GB at ₹86,999 (down from ₹99,900) through the Big Billion Days sale, which ran Oct 9–18, 2026 (early access from midnight Oct 8). Price reverted to ₹88,999 on Flipkart's live listing after the sale ended.",
+   "sources": [
+    {
+     "url": "https://www.flipkart.com/apple-iphone-17-white-256-gb/p/itm68ad8410784c7",
+     "publisher": "Flipkart (product page)",
+     "published_date": "2026-10-23",
+     "quote": "₹88,999 ... 11% off ... (price shown post-sale; was ₹86,999 during Big Billion Days)",
+     "tier": 1
+    },
+    {
+     "url": "https://businessupturn.com/lifestyle/online-shopping/apple-iphone-17-13-percent-off-flipkart-big-billion-days/",
+     "publisher": "Business Upturn",
+     "published_date": "2026-10-09",
+     "quote": "The Lavender 256GB model is listed at Rs 86,999 on Flipkart's Big Billion Days, a 13% cut from its Rs 99,900 price.",
+     "tier": 3
+    },
+    {
+     "url": "https://telecomtalk.info/appleiphone17-discount-on-flipkart-ends-today-checkprice/1013011/",
+     "publisher": "TelecomTalk",
+     "published_date": "2026-10-18",
+     "quote": "Rs 86,999 ... the discount ends at midnight on October 18, 2026",
+     "tier": 3
+    }
+   ]
+  },
+  "The same phone was offered with a 'No Cost EMI' plan of six monthly payments of about ₹14,500 each.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": "2026-10-09",
+   "correct": "The six-month No Cost EMI on the ₹86,999 iPhone 17 256GB worked out to roughly ₹14,083–₹14,416/month depending on the bank/card (e.g., ₹14,083 per Business Upturn, ₹14,416 on Flipkart's live listing, ₹13,867 with the Axis card) — close to, but generally a bit below, the stated ₹14,500.",
+   "sources": [
+    {
+     "url": "https://businessupturn.com/lifestyle/online-shopping/apple-iphone-17-13-percent-off-flipkart-big-billion-days/",
+     "publisher": "Business Upturn",
+     "published_date": "2026-10-09",
+     "quote": "No Cost EMI is available at Rs 14,083 a month over 6 months.",
+     "tier": 3
+    },
+    {
+     "url": "https://www.flipkart.com/apple-iphone-17-white-256-gb/p/itm68ad8410784c7",
+     "publisher": "Flipkart (product page)",
+     "published_date": "2026-10-23",
+     "quote": "Pay ₹14,416 x 6m — No Cost EMI",
+     "tier": 1
+    }
+   ]
+  },
+  "On most credit-card EMI plans, the bank charges interest on the amount financed.": {
+   "id": "c4",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=8461&Mode=0",
+     "publisher": "Reserve Bank of India (Notification RBI/2013-14/292)",
+     "published_date": "2013-09-17",
+     "quote": "the interest element is often camouflaged and passed on to customer in the form of processing fee",
+     "tier": 1
+    },
+    {
+     "url": "https://www.bankbazaar.com/credit-card/gst-on-credit-card-emi.html",
+     "publisher": "BankBazaar",
+     "published_date": "2026-01-01",
+     "quote": "The 18% GST is charged on both the EMI interest component and the processing fee.",
+     "tier": 2
+    }
+   ]
+  },
+  "Under 'No Cost EMI', the seller reduces the listed price upfront by an amount equal to the interest that would otherwise be charged, so the buyer's total outlay is unchanged.": {
+   "id": "c5",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://cleartax.in/s/gst-on-no-cost-emi",
+     "publisher": "ClearTax",
+     "published_date": "2026-01-01",
+     "quote": "The seller gives a discount equal to the interest that would have been charged. That discount is used to cover the cost of interest to the bank or finance company.",
+     "tier": 2
+    },
+    {
+     "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=8461&Mode=0",
+     "publisher": "Reserve Bank of India (Notification RBI/2013-14/292)",
+     "published_date": "2013-09-17",
+     "quote": "the very concept of zero percent interest is non-existent ... the interest element is often camouflaged and passed on to customer",
+     "tier": 1
+    }
+   ]
+  },
+  "Card statements often show an 18% GST charge applied to the interest component of an EMI.": {
+   "id": "c6",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://cleartax.in/s/gst-on-no-cost-emi",
+     "publisher": "ClearTax",
+     "published_date": "2026-01-01",
+     "quote": "An 18% tax is applied on the interest component of the EMI.",
+     "tier": 2
+    },
+    {
+     "url": "https://www.bankbazaar.com/credit-card/gst-on-credit-card-emi.html",
+     "publisher": "BankBazaar",
+     "published_date": "2026-01-01",
+     "quote": "The 18% GST is charged on both the EMI interest component and the processing fee.",
+     "tier": 2
+    }
+   ]
+  },
+  "Many banks charge a processing fee on EMI transactions.": {
+   "id": "c7",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://v.hdfc.bank.in/easy-emi/2022/index.html",
+     "publisher": "HDFC Bank (official EasyEMI page)",
+     "published_date": "2026-01-01",
+     "quote": "Enjoy the HDFC Bank EasyEMI at a low processing fee of ₹199 + GST",
+     "tier": 1
+    },
+    {
+     "url": "https://cleartax.in/s/gst-on-no-cost-emi",
+     "publisher": "ClearTax",
+     "published_date": "2026-01-01",
+     "quote": "Apart from GST, banks may charge a processing fee (usually 1–3%), which also comes with GST.",
+     "tier": 2
+    }
+   ]
+  },
+  "Online festive sales totalled about ₹24,000 crore in the first two days of the sale period.": {
+   "id": "c8",
+   "verdict": "supported",
+   "event_date": "2026-10-11",
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.storyboard18.com/amp/brand-marketing/festive-e-commerce-sales-hit-rs-24000-crore-in-2-days-gen-z-accounts-for-a-third-of-shoppers-redseer-112354.htm",
+     "publisher": "Storyboard18 (Network18)",
+     "published_date": "2026-10-11",
+     "quote": "an estimated Rs 24,000 crore in gross merchandise value (GMV) during the first two days of festive sales",
+     "tier": 2
+    },
+    {
+     "url": "https://www.business-standard.com/industry/news/ecomm-sell-goods-worth-24-000-crore-in-first-two-days-of-festive-sales-redseer-126101100344_1.html",
+     "publisher": "Business Standard",
+     "published_date": "2026-10-11",
+     "quote": "Ecomm sell goods worth ₹24k cr in first two days of festive sales: Redseer",
+     "tier": 2
+    }
+   ]
+  },
+  "Phones accounted for nearly 40% of that online festive sales figure.": {
+   "id": "c9",
+   "verdict": "supported",
+   "event_date": "2026-10-11",
+   "correct": "Redseer put mobile phones' share at 38–40% of the two-day GMV (≈₹9,100–9,600 crore), consistent with 'nearly 40%.'",
+   "sources": [
+    {
+     "url": "https://www.storyboard18.com/amp/brand-marketing/festive-e-commerce-sales-hit-rs-24000-crore-in-2-days-gen-z-accounts-for-a-third-of-shoppers-redseer-112354.htm",
+     "publisher": "Storyboard18 (Network18)",
+     "published_date": "2026-10-11",
+     "quote": "mobile devices accounted for an estimated 38-40% of the total sales value, translating to around Rs 9,100 crore to Rs 9,600 crore",
+     "tier": 2
+    },
+    {
+     "url": "https://www.ibtimes.co.in/e-commerce-festive-sales-touch-rs-24000-crore-first-two-days-mobiles-lead-907408",
+     "publisher": "International Business Times (India)",
+     "published_date": "2026-10-11",
+     "quote": "E-commerce festive sales touch Rs 24,000 crore in first two days, mobiles lead",
+     "tier": 2
+    }
+   ]
+  }
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "An iPhone 17 256GB unit was priced at ₹86,999 during a Big Billion Days sale earlier in October 2026.",
+    "sentence": "iPhone 17, 256GB. ₹86,999 in Big Billion Days earlier this month.",
+    "type": "figure",
+    "core": false,
+    "framed_as": "past"
+   },
+   {
+    "id": "c2",
+    "text": "The same phone was offered with a 'No Cost EMI' plan of six monthly payments of about ₹14,500 each.",
+    "sentence": "Right under it: No Cost EMI. Six months, about ₹14,500.",
+    "type": "feature",
+    "core": false,
+    "framed_as": "past"
+   },
+   {
+    "id": "c3",
+    "text": "₹86,999 split over six months works out to roughly ₹14,500 per month.",
+    "sentence": "₹86,999 → ₹14,500 the same phone, shown as six monthly payments",
+    "type": "arithmetic",
+    "core": false,
+    "framed_as": "past",
+    "expr": "86999/6",
+    "stated": "14500"
+   },
+   {
+    "id": "c4",
+    "text": "On most credit-card EMI plans, the bank charges interest on the amount financed.",
+    "sentence": "On most card EMIs, the bank still charges interest.",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c5",
+    "text": "Under 'No Cost EMI', the seller reduces the listed price upfront by an amount equal to the interest that would otherwise be charged, so the buyer's total outlay is unchanged.",
+    "sentence": "The seller knocks the same amount off the price upfront. Net zero, on paper.",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c6",
+    "text": "Card statements often show an 18% GST charge applied to the interest component of an EMI.",
+    "sentence": "Off paper, your card statement often shows 18% GST on that interest",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c7",
+    "text": "Many banks charge a processing fee on EMI transactions.",
+    "sentence": "many banks add a processing fee.",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c8",
+    "text": "Online festive sales totalled about ₹24,000 crore in the first two days of the sale period.",
+    "sentence": "₹24,000 cr online festive sales in the first two days",
+    "type": "figure",
+    "core": false,
+    "framed_as": "past"
+   },
+   {
+    "id": "c9",
+    "text": "Phones accounted for nearly 40% of that online festive sales figure.",
+    "sentence": "phones nearly 40%",
+    "type": "figure",
+    "core": false,
+    "framed_as": "past"
+   },
+   {
+    "id": "c10",
+    "text": "Brands, platforms or banks fund the interest on 'No Cost EMI' because offering EMI leads more people to buy, and to buy higher-value items, than they otherwise would.",
+    "sentence": "The brand, the platform or the bank pays that interest because EMI makes more people buy, and buy bigger.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c11",
+    "text": "Premises: card EMIs normally carry real bank interest; 'No Cost EMI' offsets that interest with an upfront discount rather than eliminating it, while GST on the interest and bank processing fees often still apply; sellers, platforms or banks absorb the residual cost because EMI increases purchase volume and basket size. Conclusion: splitting a price into monthly installments doesn't remove its cost, it changes how large that cost feels, which is why breaking a price into months works in sellers' favour.",
+    "sentence": "What they're paying for is how the price feels. ... When a price gets broken into months, the full number was losing the argument.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c1": {
+    "id": "c1",
+    "verdict": "supported",
+    "event_date": "2026-10-09",
+    "correct": "Flipkart listed the iPhone 17 256GB at ₹86,999 (down from ₹99,900) through the Big Billion Days sale, which ran Oct 9–18, 2026 (early access from midnight Oct 8). Price reverted to ₹88,999 on Flipkart's live listing after the sale ended.",
+    "sources": [
+     {
+      "url": "https://www.flipkart.com/apple-iphone-17-white-256-gb/p/itm68ad8410784c7",
+      "publisher": "Flipkart (product page)",
+      "published_date": "2026-10-23",
+      "quote": "₹88,999 ... 11% off ... (price shown post-sale; was ₹86,999 during Big Billion Days)",
+      "tier": 1
+     },
+     {
+      "url": "https://businessupturn.com/lifestyle/online-shopping/apple-iphone-17-13-percent-off-flipkart-big-billion-days/",
+      "publisher": "Business Upturn",
+      "published_date": "2026-10-09",
+      "quote": "The Lavender 256GB model is listed at Rs 86,999 on Flipkart's Big Billion Days, a 13% cut from its Rs 99,900 price.",
+      "tier": 3
+     },
+     {
+      "url": "https://telecomtalk.info/appleiphone17-discount-on-flipkart-ends-today-checkprice/1013011/",
+      "publisher": "TelecomTalk",
+      "published_date": "2026-10-18",
+      "quote": "Rs 86,999 ... the discount ends at midnight on October 18, 2026",
+      "tier": 3
+     }
+    ]
+   },
+   "c2": {
+    "id": "c2",
+    "verdict": "supported",
+    "event_date": "2026-10-09",
+    "correct": "The six-month No Cost EMI on the ₹86,999 iPhone 17 256GB worked out to roughly ₹14,083–₹14,416/month depending on the bank/card (e.g., ₹14,083 per Business Upturn, ₹14,416 on Flipkart's live listing, ₹13,867 with the Axis card) — close to, but generally a bit below, the stated ₹14,500.",
+    "sources": [
+     {
+      "url": "https://businessupturn.com/lifestyle/online-shopping/apple-iphone-17-13-percent-off-flipkart-big-billion-days/",
+      "publisher": "Business Upturn",
+      "published_date": "2026-10-09",
+      "quote": "No Cost EMI is available at Rs 14,083 a month over 6 months.",
+      "tier": 3
+     },
+     {
+      "url": "https://www.flipkart.com/apple-iphone-17-white-256-gb/p/itm68ad8410784c7",
+      "publisher": "Flipkart (product page)",
+      "published_date": "2026-10-23",
+      "quote": "Pay ₹14,416 x 6m — No Cost EMI",
+      "tier": 1
+     }
+    ]
+   },
+   "c4": {
+    "id": "c4",
+    "verdict": "supported",
+    "event_date": null,
+    "correct": null,
+    "sources": [
+     {
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=8461&Mode=0",
+      "publisher": "Reserve Bank of India (Notification RBI/2013-14/292)",
+      "published_date": "2013-09-17",
+      "quote": "the interest element is often camouflaged and passed on to customer in the form of processing fee",
+      "tier": 1
+     },
+     {
+      "url": "https://www.bankbazaar.com/credit-card/gst-on-credit-card-emi.html",
+      "publisher": "BankBazaar",
+      "published_date": "2026-01-01",
+      "quote": "The 18% GST is charged on both the EMI interest component and the processing fee.",
+      "tier": 2
+     }
+    ]
+   },
+   "c5": {
+    "id": "c5",
+    "verdict": "supported",
+    "event_date": null,
+    "correct": null,
+    "sources": [
+     {
+      "url": "https://cleartax.in/s/gst-on-no-cost-emi",
+      "publisher": "ClearTax",
+      "published_date": "2026-01-01",
+      "quote": "The seller gives a discount equal to the interest that would have been charged. That discount is used to cover the cost of interest to the bank or finance company.",
+      "tier": 2
+     },
+     {
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=8461&Mode=0",
+      "publisher": "Reserve Bank of India (Notification RBI/2013-14/292)",
+      "published_date": "2013-09-17",
+      "quote": "the very concept of zero percent interest is non-existent ... the interest element is often camouflaged and passed on to customer",
+      "tier": 1
+     }
+    ]
+   },
+   "c6": {
+    "id": "c6",
+    "verdict": "supported",
+    "event_date": null,
+    "correct": null,
+    "sources": [
+     {
+      "url": "https://cleartax.in/s/gst-on-no-cost-emi",
+      "publisher": "ClearTax",
+      "published_date": "2026-01-01",
+      "quote": "An 18% tax is applied on the interest component of the EMI.",
+      "tier": 2
+     },
+     {
+      "url": "https://www.bankbazaar.com/credit-card/gst-on-credit-card-emi.html",
+      "publisher": "BankBazaar",
+      "published_date": "2026-01-01",
+      "quote": "The 18% GST is charged on both the EMI interest component and the processing fee.",
+      "tier": 2
+     }
+    ]
+   },
+   "c7": {
+    "id": "c7",
+    "verdict": "supported",
+    "event_date": null,
+    "correct": null,
+    "sources": [
+     {
+      "url": "https://v.hdfc.bank.in/easy-emi/2022/index.html",
+      "publisher": "HDFC Bank (official EasyEMI page)",
+      "published_date": "2026-01-01",
+      "quote": "Enjoy the HDFC Bank EasyEMI at a low processing fee of ₹199 + GST",
+      "tier": 1
+     },
+     {
+      "url": "https://cleartax.in/s/gst-on-no-cost-emi",
+      "publisher": "ClearTax",
+      "published_date": "2026-01-01",
+      "quote": "Apart from GST, banks may charge a processing fee (usually 1–3%), which also comes with GST.",
+      "tier": 2
+     }
+    ]
+   },
+   "c8": {
+    "id": "c8",
+    "verdict": "supported",
+    "event_date": "2026-10-11",
+    "correct": null,
+    "sources": [
+     {
+      "url": "https://www.storyboard18.com/amp/brand-marketing/festive-e-commerce-sales-hit-rs-24000-crore-in-2-days-gen-z-accounts-for-a-third-of-shoppers-redseer-112354.htm",
+      "publisher": "Storyboard18 (Network18)",
+      "published_date": "2026-10-11",
+      "quote": "an estimated Rs 24,000 crore in gross merchandise value (GMV) during the first two days of festive sales",
+      "tier": 2
+     },
+     {
+      "url": "https://www.business-standard.com/industry/news/ecomm-sell-goods-worth-24-000-crore-in-first-two-days-of-festive-sales-redseer-126101100344_1.html",
+      "publisher": "Business Standard",
+      "published_date": "2026-10-11",
+      "quote": "Ecomm sell goods worth ₹24k cr in first two days of festive sales: Redseer",
+      "tier": 2
+     }
+    ]
+   },
+   "c9": {
+    "id": "c9",
+    "verdict": "supported",
+    "event_date": "2026-10-11",
+    "correct": "Redseer put mobile phones' share at 38–40% of the two-day GMV (≈₹9,100–9,600 crore), consistent with 'nearly 40%.'",
+    "sources": [
+     {
+      "url": "https://www.storyboard18.com/amp/brand-marketing/festive-e-commerce-sales-hit-rs-24000-crore-in-2-days-gen-z-accounts-for-a-third-of-shoppers-redseer-112354.htm",
+      "publisher": "Storyboard18 (Network18)",
+      "published_date": "2026-10-11",
+      "quote": "mobile devices accounted for an estimated 38-40% of the total sales value, translating to around Rs 9,100 crore to Rs 9,600 crore",
+      "tier": 2
+     },
+     {
+      "url": "https://www.ibtimes.co.in/e-commerce-festive-sales-touch-rs-24000-crore-first-two-days-mobiles-lead-907408",
+      "publisher": "International Business Times (India)",
+      "published_date": "2026-10-11",
+      "quote": "E-commerce festive sales touch Rs 24,000 crore in first two days, mobiles lead",
+      "tier": 2
+     }
+    ]
+   }
+  },
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "None. Every premise checks out against primary sources. The only slight overstatement is 'many banks add a processing fee' on No Cost EMI specifically — for genuine No-Cost EMI the processing fee is frequently waived or token (₹0–₹199), though its GST and the GST on the notional interest are real and customer-borne. This doesn't break the argument.",
+   "actual_mechanism": "The bank does lend at a real rate (~13–16% p.a.) and books an interest component; the merchant/brand/platform funds an equal upfront discount so the financed interest nets to roughly zero for the buyer — RBI's 2013 circular confirms 'zero percent interest is non-existent' and that the cost is simply repackaged (historically as a hidden processing fee or dealer discount). What the discount does NOT cover is 18% GST on that interest, which uniquely applies to credit-card EMI interest (ordinary loan interest is GST-exempt, but credit-card services are carved out), plus any processing fee and its GST — all billed to the customer. Sellers absorb the residual because EMI reliably lifts conversion and basket size, so the framing pays for itself.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://www.moneylife.in/article/rbi-says-no-zero-percent-interest-scheme-for-buying-consumer-goods/34611.html",
+     "published_date": "2013-09-25",
+     "quote": "In the zero percent EMI schemes offered on credit card outstandings, the interest element is often camouflaged and passed on to the customer in the form of processing fee... the very concept of zero percent interest is non-existent."
+    },
+    {
+     "url": "https://cleartax.in/s/gst-on-no-cost-emi",
+     "published_date": "2025-01-01",
+     "quote": "the seller covers the interest amount, but not the GST liability on that interest... This GST is not part of the discount and is not visible in the product price. It gets added to your monthly EMI."
+    },
+    {
+     "url": "https://zerodhavarsity.substack.com/p/the-actual-cost-of-no-cost-emi",
+     "published_date": "2023-08-01",
+     "quote": "NCEMI means there's no additional interest charged to you. But we're a bank and we can't lend money for free... Only credit card interest is charged GST, and this is not applicable to any other loan."
+    },
+    {
+     "url": "https://www.business-standard.com/article/finance/rbi-cracks-whip-on-retail-finance-schemes-with-hidden-cost-113092500706_1.html",
+     "published_date": "2013-09-25",
+     "quote": "the customer paid the sticker price for the goods while the bank got a dealer-discount that was opaque to the customer and effectively, it was the interest charged by the bank."
+    }
+   ]
+  },
+  "text_hash": "22038df0b4727c1c7dc462b0348bfcecebbc9fe6",
+  "at": "2026-10-23T07:30:48.910282+00:00"
+ }
 }

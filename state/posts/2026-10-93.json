@@ -1,6 +1,6 @@
 {
  "id": "2026-10-93",
- "status": "approved",
+ "status": "written",
  "due": "2026-10-30T19:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -52,27 +52,18 @@
    },
    {
     "paragraphs": [
-     "With GST, imported gold now carries about 18.45% in tax, double the 9.18% before.",
-     "**After the hike, imports fell about 70%.**"
+     "Here's what changed. In May, the duty on imported gold went from 6% to 15%.",
+     "**After the hike, imports fell about 70%.** The wedding season didn't."
     ],
-    "why_swipe": "imports collapsed; the gap is filled from somewhere",
-    "big": {
-     "figure": "18.45%",
-     "label": "tax on imported gold, up from 9.18%"
-    },
-    "source": "Source: CBIC notification 16/2026; GTRI; PTI, 18 Jun 2026"
+    "why_swipe": "imports collapsed; the gap is filled from somewhere"
    },
    {
     "paragraphs": [
      "So more of the gold now comes from your family locker.",
+     "Kalyan says recycled gold was almost half its revenue in April to June.",
      "**Mummy's almirah is a supply chain.**"
     ],
-    "why_swipe": "the scale is proven; what does the jeweller get beyond the gold?",
-    "big": {
-     "figure": "46%",
-     "label": "of Kalyan's revenue from recycled gold, Apr-Jun 2026"
-    },
-    "source": "Source: Kalyan Jewellers Q1 FY27 earnings call"
+    "why_swipe": "the scale is proven; what does the jeweller get beyond the gold?"
    },
    {
     "paragraphs": [
@@ -100,11 +91,7 @@
   "caption_style": "question",
   "cover": {
    "headline": "Mummy's old gold is now the jeweller's [supply line.]",
-   "sub": "This Dhanteras, the exchange bonus isn't generosity.",
-   "proof": {
-    "figure": "6% → 15%",
-    "label": "customs duty on gold, since 13 May 2026"
-   }
+   "sub": "This Dhanteras, the exchange bonus isn't generosity."
   },
   "end": {
    "save": "Take the two numbers to the jeweller's counter on 6 Nov.",
@@ -117,5 +104,205 @@
    "note": "written and tested in the 2026-10-23 quality reset (stages 1-2), approved by the owner"
   }
  ],
- "updated_at": "2026-10-23T07:11:03.197944+00:00"
+ "updated_at": "2026-10-23T07:33:55.420853+00:00",
+ "verification_cache": {
+  "India's customs duty on gold rose from 6% to 15%.": {
+   "id": "c1",
+   "verdict": "supported",
+   "event_date": "2026-05-13",
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://taxguru.in/custom-duty/customs-duty-gold-silver-raised-15-percent-effective-13-may-2026.html",
+     "publisher": "TaxGuru (citing Customs Notifications 15–18/2026 dated 12 May 2026)",
+     "published_date": "2026-05-13",
+     "quote": "The combined effective import duty on Gold and Silver Bullion now stands at 15%... Effective May 13, 2026",
+     "tier": 2
+    },
+    {
+     "url": "https://www.freepressjournal.in/business/customs-duty-on-gold-silver-and-platinum-tops-10460-crore-since-may-2026-duty-hike",
+     "publisher": "Free Press Journal",
+     "published_date": "2026-08-10",
+     "quote": "With effect from May 13, the government had increased the import duty on gold and silver to 15 per cent from 6 per cent",
+     "tier": 2
+    }
+   ]
+  },
+  "The gold customs duty hike took effect on 13 May 2026.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": "2026-05-13",
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://taxguru.in/custom-duty/customs-duty-gold-silver-raised-15-percent-effective-13-may-2026.html",
+     "publisher": "TaxGuru",
+     "published_date": "2026-05-13",
+     "quote": "Notifications No. 15/2026, 16/2026, 17/2026, and 18/2026-Customs, all dated 12th May 2026 ... Effective May 13, 2026",
+     "tier": 2
+    },
+    {
+     "url": "https://www.freepressjournal.in/business/customs-duty-on-gold-silver-and-platinum-tops-10460-crore-since-may-2026-duty-hike",
+     "publisher": "Free Press Journal",
+     "published_date": "2026-08-10",
+     "quote": "With effect from May 13, the government had increased the import duty on gold and silver to 15 per cent from 6 per cent",
+     "tier": 2
+    }
+   ]
+  },
+  "After the GST add-on, total tax on imported gold is now about 18.45%.": {
+   "id": "c3",
+   "verdict": "supported",
+   "event_date": "2026-05-13",
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://knnindia.co.in/news/newsdetails/sectors/exportimports/gold-duty-hike-to-15-may-boost-imports-via-dubai-gtri",
+     "publisher": "KNN India (citing GTRI)",
+     "published_date": "2026-05-13",
+     "quote": "Including IGST, the effective duty has risen to 18.45 per cent",
+     "tier": 2
+    },
+    {
+     "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/gold-import-duty-hiked-to-18-4",
+     "publisher": "Drishti IAS",
+     "published_date": "2026-05-14",
+     "quote": "New structure: Basic customs duty 10% + AIDC 5% + IGST 3% = Total 18.4%",
+     "tier": 3
+    }
+   ]
+  },
+  "Before the duty hike, total tax on imported gold was about 9.18%.": {
+   "id": "c4",
+   "verdict": "supported",
+   "event_date": "2026-05-12",
+   "correct": "9.18% was the effective rate up to 12 May 2026, immediately before the hike took effect on 13 May 2026.",
+   "sources": [
+    {
+     "url": "https://knnindia.co.in/news/newsdetails/sectors/exportimports/gold-duty-hike-to-15-may-boost-imports-via-dubai-gtri",
+     "publisher": "KNN India (citing GTRI)",
+     "published_date": "2026-05-13",
+     "quote": "With an additional 3 per cent Integrated GST (IGST), the effective import duty had stood at 9.18 per cent",
+     "tier": 2
+    },
+    {
+     "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/gold-import-duty-hiked-to-18-4",
+     "publisher": "Drishti IAS",
+     "published_date": "2026-05-14",
+     "quote": "Previous structure: Basic customs duty 5% + AIDC 1% + IGST 3% = Total 9.2%",
+     "tier": 3
+    }
+   ]
+  },
+  "Gold imports fell by about 70% after the duty hike.": {
+   "id": "c6",
+   "verdict": "supported",
+   "event_date": "2026-06-18",
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.tribuneindia.com/news/business/gold-imports-plunge-70-to-30-tonnes-after-customs-duty-hike/",
+     "publisher": "The Tribune (citing a senior Finance Ministry official)",
+     "published_date": "2026-06-18",
+     "quote": "India's imports of gold have decreased by almost 70 per cent to 25–30 tonnes after the customs levy on the yellow metal was more than doubled to 15 per cent",
+     "tier": 2
+    },
+    {
+     "url": "https://www.outlookbusiness.com/news/gold-imports-drop-70-to-30-tonnes-after-duty-hike-official",
+     "publisher": "Outlook Business (citing an official)",
+     "published_date": "2026-06-18",
+     "quote": "Gold imports have been reduced to 25-30 tonnes after an import duty hike in a month, from 75-100 tonnes earlier",
+     "tier": 2
+    }
+   ]
+  },
+  "Kalyan Jewellers got 46% of its revenue from recycled gold between April and June 2026.": {
+   "id": "c7",
+   "verdict": "supported",
+   "event_date": "2026-08-04",
+   "correct": "Figure refers to Q1 FY27 (April–June 2026); Kalyan Jewellers' own Q1 FY27 results were announced 4 Aug 2026, and the share rose further within the quarter (over 55% in June alone).",
+   "sources": [
+    {
+     "url": "https://alphastreet.com/india/kalyan-jewellers-india-limited-kalyankjil-q1-2027-earnings-call-transcript/",
+     "publisher": "Kalyan Jewellers Q1 FY27 earnings call transcript (company statement, via AlphaStreet)",
+     "published_date": "2026-08-04",
+     "quote": "The initiative was well received by our customers, helping us to increase the share of recycled gold as a percentage of revenue to over 46% during Q1 FY '27.",
+     "tier": 1
+    },
+    {
+     "url": "https://www.theweek.in/news/biz-tech/2026/09/12/strategic-sales-move-or-government-nudge-why-are-jewellers-pushing-for-selling-old-gold.html",
+     "publisher": "The Week",
+     "published_date": "2026-09-12",
+     "quote": "46 per cent of Kalyan Jewellers' revenue in the first quarter of FY27 was from recycled gold.",
+     "tier": 2
+    }
+   ]
+  },
+  "At most big jewellery chains, an exchange offer only applies toward a new purchase.": {
+   "id": "c8",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": "Standard 'exchange' programmes at major chains (Tanishq, Joyalukkas, CaratLane) are store credit only; separate 'buyback' programmes at some retailers (e.g., Candere) do pay cash via bank transfer, so exceptions exist outside the core exchange offer.",
+   "sources": [
+    {
+     "url": "https://www.caratlane.com/gold-exchange",
+     "publisher": "CaratLane (company's own exchange policy page)",
+     "published_date": null,
+     "quote": "You cannot exchange your old gold for cash or gold coins... The value of your old gold is credited towards your purchase, and you only pay the difference.",
+     "tier": 1
+    },
+    {
+     "url": "https://www.tanishq.com/gold-exchange-program.html",
+     "publisher": "Tanishq (company's own Gold Exchange Programme page)",
+     "published_date": null,
+     "quote": "No cash refund will be provided for exchange at Tanishq... GEP is an exchange program providing store credit against eligible purchases and is not a gold buyback, resale, or cash purchase program.",
+     "tier": 1
+    }
+   ]
+  },
+  "Jewellers recoup the exchange bonus by charging full making charges on the new piece bought.": {
+   "id": "c9",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": "The precise mechanism: making charges paid on the old piece are never refunded, and the new piece carries its own (often undiscounted) making charges, which is how retailers offset the exchange value given — not literally 'full making charges' as a stated policy line on any single jeweller's page.",
+   "sources": [
+    {
+     "url": "https://www.iifl.com/blogs/gold-loan/gold-jewellery-exchange-offer-at-jewellers",
+     "publisher": "IIFL",
+     "published_date": null,
+     "quote": "Making charges from the original bill never return, because they paid for labour, not gold; on exchange there is no fresh making charge on the old piece... many jewellers apply fresh making charges to the new piece.",
+     "tier": 3
+    },
+    {
+     "url": "https://www.candere.com/buy-back-lifetime-exchange-policy.html",
+     "publisher": "Candere (company's own buyback/exchange policy)",
+     "published_date": null,
+     "quote": "Valuations will be based on the current market value of your jewellery (as per net weight of the metal and stone) and doesn't cover manufacturing charges and/or taxes.",
+     "tier": 1
+    }
+   ]
+  },
+  "Gold exchange offers from jewellers existed before May 2026.": {
+   "id": "c10",
+   "verdict": "supported",
+   "event_date": "2001-01-01",
+   "correct": "Gold exchange programmes are decades old in India — Titan/Tanishq's exchange scheme dates back roughly 25 years before 2026 (~2001), well before the May 2026 duty hike.",
+   "sources": [
+    {
+     "url": "https://bullionworld.in/documents/news/DtGold6_051426.html",
+     "publisher": "Bullion World",
+     "published_date": "2026-05-14",
+     "quote": "Titan, the country's largest jewellery retailer, was perhaps one of the first to come out with a gold exchange programme some 25 years ago.",
+     "tier": 3
+    },
+    {
+     "url": "https://www.business-standard.com/content/press-releases-ani/high-gold-prices-holding-you-back-tanishq-s-latest-gold-exchange-offer-unlocks-maximum-value-for-its-customers-125031800804_1.html",
+     "publisher": "Business Standard (ANI press release)",
+     "published_date": "2025-03-18",
+     "quote": "Tanishq's Latest Gold Exchange Offer Unlocks Maximum Value for its Customers",
+     "tier": 2
+    }
+   ]
+  }
+ }
 }

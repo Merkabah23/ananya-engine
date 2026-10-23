@@ -31,7 +31,7 @@ def fake_call_json(model, user, stage="", **kw):
                 "alt_text": "A text post", "claims": []}
     if stage == "critic":
         return {"pass": True, "violations": [], "notes": [],
-                "scores": {k: 5 for k in ("hook", "new_to_reader", "pull", "because", "payoff", "voice")}}
+                "scores": {k: 5 for k in ("hook", "relatable", "fresh_angle", "pull", "payoff", "voice")}}
     if stage == "ledger":
         return {"claims": []}
     if stage == "blindtest":
@@ -78,19 +78,20 @@ def test_scout_is_culture_first_and_uses_reddit_as_evidence(tmp_path, monkeypatc
                                 "evidence": [{"url": "https://news.example/0"}], **whole},
                                {"claim": "money claim without proof", "territory": "money_status", **whole},
                                {"claim": "recognition only", "territory": "life_relationships"}]}
-        if stage == "scout-research":
+        if stage == "scout-evergreen":
             return {"topics": [{"claim": "evergreen claim", "territory": "life_relationships", **whole}]}
         if stage == "evidence-match":
-            return {"matches": [{"topic": 1, "threads": [2, 99]}]}
+            return {"matches": [{"topic": 2, "threads": [2, 99]}]}
         if stage == "evidence-details":
-            return {"topics": [{"topic": 1, "real_details": ["someone said x"]}]}
+            return {"topics": [{"topic": 2, "real_details": ["someone said x"]}]}
         raise AssertionError(stage)
 
     monkeypatch.setattr(llm, "call_json", fake)
     topics = scout.run("2026-10")
-    assert [t["claim"] for t in topics] == ["news claim", "evergreen claim"]
-    assert [t["id"] for t in topics] == ["2026-10-001", "2026-10-002"]
-    evergreen = topics[1]
+    # facts are never required; a take with no turn or because is dropped
+    assert [t["claim"] for t in topics] == ["news claim", "money claim without proof", "evergreen claim"]
+    assert [t["id"] for t in topics] == ["2026-10-001", "2026-10-002", "2026-10-003"]
+    evergreen = topics[2]
     assert evergreen["news_peg"] is None
     assert evergreen["real_details"] == ["someone said x"]
     assert evergreen["evidence"] == [{"url": reddit[2]["url"], "sub": "india", "rank": 3}]  # out-of-range id 99 dropped

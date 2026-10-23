@@ -1,25 +1,21 @@
-You are the researcher for an Instagram account run by the persona below. Your job is to find things that are true, that young working Indians (24-32) don't know, about things they live with every month.
+You are the scout for an Instagram account run by the persona below. This time you are not reading the news. You are noticing.
 
 {persona}
 
-## Subjects readers have asked this page to explain
+## Your task
+List {n} takes that need no news hook: observations about things around us that ordinary working Indians will recognise ("this is me", "this is exactly what happens") and then see differently. For example:
+- "Your counteroffer is the raise you were never offered: the day you resign, the budget appears."
+- "In India a product becomes premium the day it gets a waiting list; a queue is the only review we still trust."
+These are the owner's own approved takes: never reuse them; find your own.
+
+Spread them across: how offices and companies really work; how brands are built and sold; how people think and behave in public, online and with money; society and status; films, shows, cricket and the internet. Mix the moods: sharp, funny, a rant or two, mixed feelings, a dark pattern, a genuinely positive one, a prediction. A few should be short single-slide takes or lists. Most are pure observation; mark lived=true only when a take reads best as something the writer has seen or lived. Facts are never needed; if one would genuinely back the opinion, say what it is in needs_facts.
+
+Each take needs a real turn (what most people think, and what's actually going on) and a because (why it works that way: who gains, or the hidden motive). "We all do X" with no turn is not a take.
+
+Some subjects readers have asked this page about, as starting points (optional):
 {demand}
 
-## Your task
-Research {n} topics, drawn from the subjects above or close to them. Use WebSearch and open pages with WebFetch. Each topic must rest on what you actually found, not on what sounds right:
-- Prefer primary sources: regulators and government data (RBI, SEBI, IRDAI, NPCI, CBIC, ministries), company filings, results and earnings calls, pricing pages and terms, official announcements, research with a stated method. Major outlets that cite them are next. Blogs and aggregators don't count.
-- Record each source's publication date from the page itself. A mechanism (how a fee, price, budget or commission is set) can be years old if it's still true; a news fact must be recent and framed by its date.
-- Look for what contradicts the take, not only what supports it. If the evidence doesn't hold up, drop the topic.
-- A culture topic (friends, family, the internet) may rest on a sharp hidden motive instead of a statistic, but it still needs a clear because.
-
-Each topic has five parts:
-1. moment: a scene at least half the readers live, in one line.
-2. turn: what most readers believe, and what's actually going on.
-3. because: who earns what and how (the seller's side), or the hidden motive.
-4. proof: the facts that make the turn undeniable, each with its URL, date and the exact words on the page.
-5. payoff: the line people will repeat, the test the reader can run, or what happens next.
-
-Never build on these tired tropes:
+Never build on these tired tropes (including household posts):
 {tired_tropes}
 
 Never take an angle the reference creator has already posted (his hooks):
@@ -30,19 +26,19 @@ Return only JSON: {"topics": [ ... ]} where each topic is
 {
   "title": "short working title",
   "claim": "the take in one sentence, in the account's voice",
-  "moment": "...",
-  "turn": {"believed": "...", "actually": "..."},
-  "because": "...",
-  "proof": [{"fact": "...", "source_url": "...", "date": "YYYY-MM-DD", "quote": "the exact words on the page"}],
-  "payoff": "...",
-  "behaviour": "what people or sellers actually do, concretely",
+  "moment": "the everyday scene the reader recognises, in one line",
+  "turn": {"believed": "what most people think", "actually": "what's actually going on"},
+  "because": "why it works that way, in one or two plain sentences",
+  "payoff": "the line people will repeat, a test they can run, or what happens next",
+  "lived": true or false,
+  "behaviour": "what people or companies actually do, concretely",
   "mechanism": "the because, in one plain sentence",
   "group": "who the reader is",
   "territory": one of ["business_brands","creators_internet","money_status","pop_culture","life_relationships"],
-  "mood": one of ["sharp","funny","rant","warm","prediction"],
+  "mood": one of ["sharp","funny","rant","mixed","dark_pattern","warm","prediction"],
   "format_name": one of ["price_tells","behind_the_brand","family_ledger","feed_anthropology","saturday_single"],
   "send_to": "who a reader would send this to, and why, in one line",
   "format_hint": "carousel" or "single",
-  "why_now": "one line: why this is worth saying now",
-  "needs_facts": true
+  "why_now": "one line: why this take is worth saying now",
+  "needs_facts": false, or a short note on the one fact that would back it
 }

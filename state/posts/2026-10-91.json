@@ -1,7 +1,7 @@
 {
  "id": "2026-10-91",
  "status": "approved",
- "due": "2026-10-26T19:30:00+05:30",
+ "due": null,
  "format": "carousel",
  "topic": {
   "title": "IT services raise budgets",
@@ -106,7 +106,611 @@
  "history": [
   {
    "note": "written and tested in the 2026-10-23 quality reset (stages 1-2), approved by the owner"
+  },
+  {
+   "note": "parked 2026-10-23: fact-led, kept for an occasional slot"
   }
  ],
- "updated_at": "2026-10-23T07:00:13.615234+00:00"
+ "updated_at": "2026-10-23T07:38:15.917131+00:00",
+ "verification_cache": {
+  "Aon projects India's average salary raise for 2027 at 9.1%.": {
+   "id": "c5",
+   "verdict": "supported",
+   "event_date": "2026-10-14",
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.aon.com/apac/in-the-press/asia-newsroom/2026/aon-study-finds-salaries-in-india-projected-to-fise-9-1-in-2027-employers-balance-growth-and-cost-pressures",
+     "publisher": "Aon",
+     "published_date": "2026-10-14",
+     "quote": "Aon Study Finds Salaries in India Projected to Rise 9.1% in 2027 as Employers Balance Growth and Cost Pressures",
+     "tier": 1
+    },
+    {
+     "url": "https://telanganatoday.com/salaries-in-india-likely-to-rise-9-1pc-in-2027-aon-survey-finds",
+     "publisher": "Telangana Today",
+     "published_date": "2026-10-14",
+     "quote": "Salaries in India are expected to rise by 9.1 per cent in 2027 as employers maintain stable compensation budgets",
+     "tier": 2
+    }
+   ]
+  },
+  "Aon projects the tech products sector's 2027 raise budget at 9.5%.": {
+   "id": "c6",
+   "verdict": "supported",
+   "event_date": "2026-10-14",
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.aon.com/apac/in-the-press/asia-newsroom/2026/aon-study-finds-salaries-in-india-projected-to-fise-9-1-in-2027-employers-balance-growth-and-cost-pressures",
+     "publisher": "Aon",
+     "published_date": "2026-10-14",
+     "quote": "Technology Platform and Products: 9.5% (same as 2026)",
+     "tier": 1
+    },
+    {
+     "url": "https://www.capitalvia.com/insights/india-salary-increase-2027-it-services-6-6-percent-aon-survey/",
+     "publisher": "CapitalVia",
+     "published_date": "2026-10-21",
+     "quote": "Build tech products and the 2027 budget is 9.5%. Sell tech services and it is 6.6%, a 2.9-point gap inside the same industry.",
+     "tier": 3
+    }
+   ]
+  },
+  "Aon projects the NBFC sector's 2027 raise budget at 10.1%.": {
+   "id": "c7",
+   "verdict": "supported",
+   "event_date": "2026-10-14",
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://telanganatoday.com/salaries-in-india-likely-to-rise-9-1pc-in-2027-aon-survey-finds",
+     "publisher": "Telangana Today",
+     "published_date": "2026-10-14",
+     "quote": "non-banking financial companies (NBFCs) are expected to lead salary growth in 2027 with projected increments of 10.1 per cent",
+     "tier": 2
+    },
+    {
+     "url": "https://www.aon.com/apac/in-the-press/asia-newsroom/2026/aon-study-finds-salaries-in-india-projected-to-fise-9-1-in-2027-employers-balance-growth-and-cost-pressures",
+     "publisher": "Aon",
+     "published_date": "2026-10-14",
+     "quote": "Non-banking Financial Companies (NBFCs): 10.1% (highest among sectors listed)",
+     "tier": 1
+    }
+   ]
+  },
+  "Aon projects the IT services sector's 2027 raise budget at 6.6%.": {
+   "id": "c8",
+   "verdict": "supported",
+   "event_date": "2026-10-14",
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.aon.com/apac/in-the-press/asia-newsroom/2026/aon-study-finds-salaries-in-india-projected-to-fise-9-1-in-2027-employers-balance-growth-and-cost-pressures",
+     "publisher": "Aon",
+     "published_date": "2026-10-14",
+     "quote": "Technology Consulting and Services: 6.6% (unchanged from 2026)",
+     "tier": 1
+    },
+    {
+     "url": "https://www.peoplematters.in/news/business/indian-companies-project-91percent-salary-hikes-in-2027-up-from-9percent-in-2026-52751",
+     "publisher": "People Matters",
+     "published_date": "2026-10-15",
+     "quote": "technology consulting and services firms are projected to record the lowest salary increase among the sectors surveyed, at 6.6%, unchanged from 2026",
+     "tier": 2
+    }
+   ]
+  },
+  "IT services' 2027 projected raise budget (6.6%) is unchanged from its 2026 raise budget.": {
+   "id": "c10",
+   "verdict": "supported",
+   "event_date": "2026-10-14",
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.aon.com/apac/in-the-press/asia-newsroom/2026/aon-study-finds-salaries-in-india-projected-to-fise-9-1-in-2027-employers-balance-growth-and-cost-pressures",
+     "publisher": "Aon",
+     "published_date": "2026-10-14",
+     "quote": "Technology Consulting and Services: 6.6% (unchanged from 2026)",
+     "tier": 1
+    },
+    {
+     "url": "https://www.peoplematters.in/news/business/indian-companies-project-91percent-salary-hikes-in-2027-up-from-9percent-in-2026-52751",
+     "publisher": "People Matters",
+     "published_date": "2026-10-15",
+     "quote": "at 6.6%, unchanged from 2026",
+     "tier": 2
+    }
+   ]
+  },
+  "At TCS in 2026, employees in the top performance rating band reported raises of 9-13%.": {
+   "id": "c11",
+   "verdict": "supported",
+   "event_date": "2026-05-18",
+   "correct": "Media reports (citing a Moneycontrol investigation and employee accounts) put TCS's top-band (A+) FY26 hikes at roughly 9-13%; TCS itself has not published official band-wise figures, so this is employee/media-sourced, not a company disclosure.",
+   "sources": [
+    {
+     "url": "https://www.storyboard18.com/amp/brand-marketing/tcs-hikes-average-5-but-several-employees-allege-reduced-compensation-report-98513.htm",
+     "publisher": "Storyboard18 (Network18)",
+     "published_date": "2026-05-18",
+     "quote": "Employees in the top-rated A+ category reportedly received hikes between 9 percent and 13 percent",
+     "tier": 2
+    },
+    {
+     "url": "https://www.peoplematters.in/news/compensation-benefits/tcs-employees-claim-appraisals-reduced-monthly-salaries-as-ceo-pay-crosses-indian-rupee28-crore-49834",
+     "publisher": "People Matters",
+     "published_date": "2026-05-20",
+     "quote": "A+ Band: increments ranging between 9% and 13%",
+     "tier": 2
+    }
+   ]
+  },
+  "At TCS in 2026, employees in the top performance rating band reported raise increases of 9-13%.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": "2026-05-18",
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.storyboard18.com/brand-marketing/tcs-hikes-average-5-but-several-employees-allege-reduced-compensation-report-98513.htm",
+     "publisher": "Storyboard18",
+     "published_date": "2026-05-18",
+     "quote": "Top Performers (A+ Category): Range: 9-13% hikes, Average: approximately 10%",
+     "tier": 2
+    },
+    {
+     "url": "https://www.hrkatha.com/news/tcs-appraisal-cycle-triggers-employee-concerns-over-pay-and-compensation-changes/",
+     "publisher": "HRKatha",
+     "published_date": "2026-05-19",
+     "quote": "A+ Category (Top Performers): \"hikes between 9 per cent and 13 per cent\"",
+     "tier": 2
+    },
+    {
+     "url": "https://www.republicworld.com/business/tcs-salary-hike-2026-appraisal-letter-ctc-restructure-labour-code-details-2026-05-19-124864",
+     "publisher": "Republic World",
+     "published_date": "2026-05-19",
+     "quote": "Top Performers (A+ Band): Double-digit increases ranging from 10% to 13%",
+     "tier": 2
+    }
+   ]
+  },
+  "At TCS in 2026, employees in the lowest performance rating band reported little or no raise increase.": {
+   "id": "c3",
+   "verdict": "supported",
+   "event_date": "2026-05-18",
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.hrkatha.com/news/tcs-appraisal-cycle-triggers-employee-concerns-over-pay-and-compensation-changes/",
+     "publisher": "HRKatha",
+     "published_date": "2026-05-19",
+     "quote": "C Category: \"either marginal increases or little change in compensation\"",
+     "tier": 2
+    },
+    {
+     "url": "https://www.storyboard18.com/brand-marketing/tcs-hikes-average-5-but-several-employees-allege-reduced-compensation-report-98513.htm",
+     "publisher": "Storyboard18",
+     "published_date": "2026-05-18",
+     "quote": "Lowest Band (C Category): Range: Marginal to negative revisions, Average: roughly 0.3%",
+     "tier": 2
+    }
+   ]
+  },
+  "Aon projects India's average salary raise budget for 2027 at 9.1%.": {
+   "id": "c4",
+   "verdict": "supported",
+   "event_date": "2026-10-14",
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.aon.com/apac/in-the-press/asia-newsroom/2026/aon-study-finds-salaries-in-india-projected-to-fise-9-1-in-2027-employers-balance-growth-and-cost-pressures",
+     "publisher": "Aon (press release)",
+     "published_date": "2026-10-14",
+     "quote": "Aon Study Finds Salaries in India Projected to Rise 9.1% in 2027",
+     "tier": 1
+    },
+    {
+     "url": "https://www.peoplematters.in/news/business/indian-companies-project-91percent-salary-hikes-in-2027-up-from-9percent-in-2026-52751",
+     "publisher": "People Matters",
+     "published_date": "2026-10-15",
+     "quote": "Indian companies project 9.1% salary hikes in 2027, up from 9% in 2026",
+     "tier": 2
+    }
+   ]
+  },
+  "Aon projects the tech products sector's salary raise budget for 2027 at 9.5%.": {
+   "id": "c5",
+   "verdict": "supported",
+   "event_date": "2026-10-14",
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.aon.com/apac/in-the-press/asia-newsroom/2026/aon-study-finds-salaries-in-india-projected-to-fise-9-1-in-2027-employers-balance-growth-and-cost-pressures",
+     "publisher": "Aon (press release)",
+     "published_date": "2026-10-14",
+     "quote": "Technology Platform and Products: Actual Salary Increases (2026) (%) 9.5, Projected Salary Increases (2027) (%) 9.5",
+     "tier": 1
+    },
+    {
+     "url": "https://www.peoplematters.in/news/business/indian-companies-project-91percent-salary-hikes-in-2027-up-from-9percent-in-2026-52751",
+     "publisher": "People Matters",
+     "published_date": "2026-10-15",
+     "quote": "Automotive/Vehicle Manufacturing: 9.5%, Engineering Design Services: 9.5%, Technology Platform and Products: 9.5%",
+     "tier": 2
+    }
+   ]
+  },
+  "Aon projects the NBFC sector's salary raise budget for 2027 at 10.1%.": {
+   "id": "c6",
+   "verdict": "supported",
+   "event_date": "2026-10-14",
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.aon.com/apac/in-the-press/asia-newsroom/2026/aon-study-finds-salaries-in-india-projected-to-fise-9-1-in-2027-employers-balance-growth-and-cost-pressures",
+     "publisher": "Aon (press release)",
+     "published_date": "2026-10-14",
+     "quote": "Non-banking Financial Companies (NBFCs) are projected to lead salary growth in 2027 at 10.1%",
+     "tier": 1
+    },
+    {
+     "url": "https://telanganatoday.com/salaries-in-india-likely-to-rise-9-1pc-in-2027-aon-survey-finds",
+     "publisher": "Telangana Today",
+     "published_date": "2026-10-14",
+     "quote": "NBFCs: 10.1%",
+     "tier": 2
+    }
+   ]
+  },
+  "Aon projects the IT services sector's salary raise budget for 2027 at 6.6%.": {
+   "id": "c7",
+   "verdict": "supported",
+   "event_date": "2026-10-14",
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.aon.com/apac/in-the-press/asia-newsroom/2026/aon-study-finds-salaries-in-india-projected-to-fise-9-1-in-2027-employers-balance-growth-and-cost-pressures",
+     "publisher": "Aon (press release)",
+     "published_date": "2026-10-14",
+     "quote": "Technology Consulting and Services: Actual Salary Increases (2026) (%) 6.6, Projected Salary Increases (2027) (%) 6.6",
+     "tier": 1
+    },
+    {
+     "url": "https://www.capitalvia.com/insights/india-salary-increase-2027-it-services-6-6-percent-aon-survey/",
+     "publisher": "CapitalVia",
+     "published_date": "2026-10-14",
+     "quote": "IT Services Pay to Rise 6.6% in 2027, India Inc 9.1%",
+     "tier": 2
+    }
+   ]
+  },
+  "Among all sectors in Aon's 2027 projections, IT services has the lowest raise budget at 6.6%.": {
+   "id": "c8",
+   "verdict": "supported",
+   "event_date": "2026-10-14",
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.peoplematters.in/news/business/indian-companies-project-91percent-salary-hikes-in-2027-up-from-9percent-in-2026-52751",
+     "publisher": "People Matters",
+     "published_date": "2026-10-15",
+     "quote": "Technology consulting and services firms are projected to record the lowest salary increase among the sectors surveyed, at 6.6%, unchanged from 2026.",
+     "tier": 2
+    },
+    {
+     "url": "https://www.aon.com/apac/in-the-press/asia-newsroom/2026/aon-study-finds-salaries-in-india-projected-to-fise-9-1-in-2027-employers-balance-growth-and-cost-pressures",
+     "publisher": "Aon (press release)",
+     "published_date": "2026-10-14",
+     "quote": "Sector table shows Technology Consulting and Services at 6.6%, the lowest figure among all listed sectors (next-lowest Chemicals at 8.0%)",
+     "tier": 1
+    }
+   ]
+  },
+  "IT services' projected 2027 raise budget of 6.6% is unchanged from its 2026 raise budget.": {
+   "id": "c9",
+   "verdict": "supported",
+   "event_date": "2026-10-14",
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.aon.com/apac/in-the-press/asia-newsroom/2026/aon-study-finds-salaries-in-india-projected-to-fise-9-1-in-2027-employers-balance-growth-and-cost-pressures",
+     "publisher": "Aon (press release)",
+     "published_date": "2026-10-14",
+     "quote": "Technology Consulting and Services: Actual Salary Increases (2026) (%) 6.6, Projected Salary Increases (2027) (%) 6.6",
+     "tier": 1
+    },
+    {
+     "url": "https://www.peoplematters.in/news/business/indian-companies-project-91percent-salary-hikes-in-2027-up-from-9percent-in-2026-52751",
+     "publisher": "People Matters",
+     "published_date": "2026-10-15",
+     "quote": "...at 6.6%, unchanged from 2026.",
+     "tier": 2
+    }
+   ]
+  }
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "In IT services, companies fix the total raise budget based on company margins and market pay before employee performance ratings are assigned, and the rating then only determines how that already-fixed budget is distributed among employees rather than its overall size.",
+    "sentence": "In IT services, your raise budget was fixed before your manager rated you. The rating only decides how it gets split. ... First, the company fixes a raise budget, guided by its margins and what the market is paying. Then the ratings happen... But no rating grows the budget.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "At TCS in 2026, employees in the top performance rating band reported raise increases of 9-13%.",
+    "sentence": "At TCS this year, employees reported 9-13% in the top band",
+    "type": "figure",
+    "core": true,
+    "framed_as": "past"
+   },
+   {
+    "id": "c3",
+    "text": "At TCS in 2026, employees in the lowest performance rating band reported little or no raise increase.",
+    "sentence": "and little or no change in the lowest",
+    "type": "figure",
+    "core": true,
+    "framed_as": "past"
+   },
+   {
+    "id": "c4",
+    "text": "Aon projects India's average salary raise budget for 2027 at 9.1%.",
+    "sentence": "India's average raise: 9.1%.",
+    "type": "figure",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c5",
+    "text": "Aon projects the tech products sector's salary raise budget for 2027 at 9.5%.",
+    "sentence": "Tech products: 9.5%.",
+    "type": "figure",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c6",
+    "text": "Aon projects the NBFC sector's salary raise budget for 2027 at 10.1%.",
+    "sentence": "NBFCs: 10.1%.",
+    "type": "figure",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c7",
+    "text": "Aon projects the IT services sector's salary raise budget for 2027 at 6.6%.",
+    "sentence": "IT services: 6.6%, the lowest of any sector, and the same as this year.",
+    "type": "figure",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c8",
+    "text": "Among all sectors in Aon's 2027 projections, IT services has the lowest raise budget at 6.6%.",
+    "sentence": "IT services: 6.6%, the lowest of any sector",
+    "type": "superlative",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c9",
+    "text": "IT services' projected 2027 raise budget of 6.6% is unchanged from its 2026 raise budget.",
+    "sentence": "the same as this year",
+    "type": "figure",
+    "core": false,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c2": {
+    "id": "c2",
+    "verdict": "supported",
+    "event_date": "2026-05-18",
+    "correct": null,
+    "sources": [
+     {
+      "url": "https://www.storyboard18.com/brand-marketing/tcs-hikes-average-5-but-several-employees-allege-reduced-compensation-report-98513.htm",
+      "publisher": "Storyboard18",
+      "published_date": "2026-05-18",
+      "quote": "Top Performers (A+ Category): Range: 9-13% hikes, Average: approximately 10%",
+      "tier": 2
+     },
+     {
+      "url": "https://www.hrkatha.com/news/tcs-appraisal-cycle-triggers-employee-concerns-over-pay-and-compensation-changes/",
+      "publisher": "HRKatha",
+      "published_date": "2026-05-19",
+      "quote": "A+ Category (Top Performers): \"hikes between 9 per cent and 13 per cent\"",
+      "tier": 2
+     },
+     {
+      "url": "https://www.republicworld.com/business/tcs-salary-hike-2026-appraisal-letter-ctc-restructure-labour-code-details-2026-05-19-124864",
+      "publisher": "Republic World",
+      "published_date": "2026-05-19",
+      "quote": "Top Performers (A+ Band): Double-digit increases ranging from 10% to 13%",
+      "tier": 2
+     }
+    ]
+   },
+   "c3": {
+    "id": "c3",
+    "verdict": "supported",
+    "event_date": "2026-05-18",
+    "correct": null,
+    "sources": [
+     {
+      "url": "https://www.hrkatha.com/news/tcs-appraisal-cycle-triggers-employee-concerns-over-pay-and-compensation-changes/",
+      "publisher": "HRKatha",
+      "published_date": "2026-05-19",
+      "quote": "C Category: \"either marginal increases or little change in compensation\"",
+      "tier": 2
+     },
+     {
+      "url": "https://www.storyboard18.com/brand-marketing/tcs-hikes-average-5-but-several-employees-allege-reduced-compensation-report-98513.htm",
+      "publisher": "Storyboard18",
+      "published_date": "2026-05-18",
+      "quote": "Lowest Band (C Category): Range: Marginal to negative revisions, Average: roughly 0.3%",
+      "tier": 2
+     }
+    ]
+   },
+   "c4": {
+    "id": "c4",
+    "verdict": "supported",
+    "event_date": "2026-10-14",
+    "correct": null,
+    "sources": [
+     {
+      "url": "https://www.aon.com/apac/in-the-press/asia-newsroom/2026/aon-study-finds-salaries-in-india-projected-to-fise-9-1-in-2027-employers-balance-growth-and-cost-pressures",
+      "publisher": "Aon (press release)",
+      "published_date": "2026-10-14",
+      "quote": "Aon Study Finds Salaries in India Projected to Rise 9.1% in 2027",
+      "tier": 1
+     },
+     {
+      "url": "https://www.peoplematters.in/news/business/indian-companies-project-91percent-salary-hikes-in-2027-up-from-9percent-in-2026-52751",
+      "publisher": "People Matters",
+      "published_date": "2026-10-15",
+      "quote": "Indian companies project 9.1% salary hikes in 2027, up from 9% in 2026",
+      "tier": 2
+     }
+    ]
+   },
+   "c5": {
+    "id": "c5",
+    "verdict": "supported",
+    "event_date": "2026-10-14",
+    "correct": null,
+    "sources": [
+     {
+      "url": "https://www.aon.com/apac/in-the-press/asia-newsroom/2026/aon-study-finds-salaries-in-india-projected-to-fise-9-1-in-2027-employers-balance-growth-and-cost-pressures",
+      "publisher": "Aon (press release)",
+      "published_date": "2026-10-14",
+      "quote": "Technology Platform and Products: Actual Salary Increases (2026) (%) 9.5, Projected Salary Increases (2027) (%) 9.5",
+      "tier": 1
+     },
+     {
+      "url": "https://www.peoplematters.in/news/business/indian-companies-project-91percent-salary-hikes-in-2027-up-from-9percent-in-2026-52751",
+      "publisher": "People Matters",
+      "published_date": "2026-10-15",
+      "quote": "Automotive/Vehicle Manufacturing: 9.5%, Engineering Design Services: 9.5%, Technology Platform and Products: 9.5%",
+      "tier": 2
+     }
+    ]
+   },
+   "c6": {
+    "id": "c6",
+    "verdict": "supported",
+    "event_date": "2026-10-14",
+    "correct": null,
+    "sources": [
+     {
+      "url": "https://www.aon.com/apac/in-the-press/asia-newsroom/2026/aon-study-finds-salaries-in-india-projected-to-fise-9-1-in-2027-employers-balance-growth-and-cost-pressures",
+      "publisher": "Aon (press release)",
+      "published_date": "2026-10-14",
+      "quote": "Non-banking Financial Companies (NBFCs) are projected to lead salary growth in 2027 at 10.1%",
+      "tier": 1
+     },
+     {
+      "url": "https://telanganatoday.com/salaries-in-india-likely-to-rise-9-1pc-in-2027-aon-survey-finds",
+      "publisher": "Telangana Today",
+      "published_date": "2026-10-14",
+      "quote": "NBFCs: 10.1%",
+      "tier": 2
+     }
+    ]
+   },
+   "c7": {
+    "id": "c7",
+    "verdict": "supported",
+    "event_date": "2026-10-14",
+    "correct": null,
+    "sources": [
+     {
+      "url": "https://www.aon.com/apac/in-the-press/asia-newsroom/2026/aon-study-finds-salaries-in-india-projected-to-fise-9-1-in-2027-employers-balance-growth-and-cost-pressures",
+      "publisher": "Aon (press release)",
+      "published_date": "2026-10-14",
+      "quote": "Technology Consulting and Services: Actual Salary Increases (2026) (%) 6.6, Projected Salary Increases (2027) (%) 6.6",
+      "tier": 1
+     },
+     {
+      "url": "https://www.capitalvia.com/insights/india-salary-increase-2027-it-services-6-6-percent-aon-survey/",
+      "publisher": "CapitalVia",
+      "published_date": "2026-10-14",
+      "quote": "IT Services Pay to Rise 6.6% in 2027, India Inc 9.1%",
+      "tier": 2
+     }
+    ]
+   },
+   "c8": {
+    "id": "c8",
+    "verdict": "supported",
+    "event_date": "2026-10-14",
+    "correct": null,
+    "sources": [
+     {
+      "url": "https://www.peoplematters.in/news/business/indian-companies-project-91percent-salary-hikes-in-2027-up-from-9percent-in-2026-52751",
+      "publisher": "People Matters",
+      "published_date": "2026-10-15",
+      "quote": "Technology consulting and services firms are projected to record the lowest salary increase among the sectors surveyed, at 6.6%, unchanged from 2026.",
+      "tier": 2
+     },
+     {
+      "url": "https://www.aon.com/apac/in-the-press/asia-newsroom/2026/aon-study-finds-salaries-in-india-projected-to-fise-9-1-in-2027-employers-balance-growth-and-cost-pressures",
+      "publisher": "Aon (press release)",
+      "published_date": "2026-10-14",
+      "quote": "Sector table shows Technology Consulting and Services at 6.6%, the lowest figure among all listed sectors (next-lowest Chemicals at 8.0%)",
+      "tier": 1
+     }
+    ]
+   },
+   "c9": {
+    "id": "c9",
+    "verdict": "supported",
+    "event_date": "2026-10-14",
+    "correct": null,
+    "sources": [
+     {
+      "url": "https://www.aon.com/apac/in-the-press/asia-newsroom/2026/aon-study-finds-salaries-in-india-projected-to-fise-9-1-in-2027-employers-balance-growth-and-cost-pressures",
+      "publisher": "Aon (press release)",
+      "published_date": "2026-10-14",
+      "quote": "Technology Consulting and Services: Actual Salary Increases (2026) (%) 6.6, Projected Salary Increases (2027) (%) 6.6",
+      "tier": 1
+     },
+     {
+      "url": "https://www.peoplematters.in/news/business/indian-companies-project-91percent-salary-hikes-in-2027-up-from-9percent-in-2026-52751",
+      "publisher": "People Matters",
+      "published_date": "2026-10-15",
+      "quote": "...at 6.6%, unchanged from 2026.",
+      "tier": 2
+     }
+    ]
+   }
+  },
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "none — all load-bearing premises hold",
+   "actual_mechanism": "Salary-increase (merit) budgets are set top-down months before appraisals: Finance and HR size a pool as a percentage of payroll using revenue/margin forecasts, inflation and external market benchmarks like Aon's survey, which is precisely what the 6.6% IT-services vs 9.5% tech-products figures measure — budgets, not outcomes. Managers then distribute that fixed pool through a merit matrix keyed to performance ratings, so a rating redistributes shares but never enlarges the pool. Aon's 2027 data confirms the sector gap (India avg 9.1%, IT services 6.6% and the lowest sector, tech products 9.5%, NBFCs 10.1%), so a top rating in a 6.6% sector is dividing a structurally smaller cake than a product firm's.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://www.aon.com/apac/in-the-press/asia-newsroom/2026/aon-study-finds-salaries-in-india-projected-to-fise-9-1-in-2027-employers-balance-growth-and-cost-pressures",
+     "published_date": "2026-10-14",
+     "quote": "Technology Consulting and Services at 6.6% represents the minimum growth rate across all industries in the survey; Technology Platform and Products are projected at 9.5% and NBFCs at 10.1%, against an overall India projection of 9.1%."
+    },
+    {
+     "url": "https://hrsoft.com/7-steps-for-the-comp-cycle-mastering-the-merit-increase-process/",
+     "published_date": "2024-01-01",
+     "quote": "Before the matrix is applied, the merit budget is set and modeled, eligibility is confirmed, and performance ratings are calibrated — Finance weighs revenue forecasts, inflation and labor-market movement to size the pool, which Compensation then translates into guidelines benchmarked against external survey sources."
+    }
+   ]
+  },
+  "text_hash": "7e474b124c946d4e61b66d271ab1a83304759b0c",
+  "at": "2026-10-23T07:38:15.917094+00:00"
+ }
 }

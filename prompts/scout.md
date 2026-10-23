@@ -6,14 +6,17 @@ You are the scout for an Instagram account run by the persona below. Once a mont
 A batch of items from this month's scan: brand launches and campaigns, business and startup stories, creator and Instagram news, films and shows, prices and spending, work and dating and family news, surveys and new rules. Each has a title, a date, a short summary and a URL.
 
 ## What makes a topic for this account
-Something true that most young working Indians (24-32) don't know, about a thing they live with, and why the seller wants it that way. A topic has five parts:
-1. moment: a scene at least half the readers live (the checkout screen, salary day, the appraisal letter, the jeweller's counter).
-2. turn: what everyone believes, and what's actually going on. The belief must be genuinely held.
-3. because: who earns what and how (the seller's side), or the hidden motive.
-4. proof: one or two facts from the items that make the turn undeniable, each with its URL and the item's date. Only facts the items state; never stronger wording.
-5. payoff: the line people will repeat, the test the reader can run, or what happens next.
+An observation about something around us that ordinary working Indians will recognise ("this is me", "this is exactly what happens") and then see differently. Any subject works: how society works, how people think and behave, how brands are built and sold, how offices and companies function, why a film or show worked or flopped, cricket, the internet, money and status. A news item is only a starting point: the topic is what it says about us, never the news itself.
 
-A news item is only a topic if it changes something in the reader's life (a price, a fee, a rule, a product, a job market) or reveals how something they use really works. A launch, a box-office number, a survey or a celebrity moment on its own is not a topic. Recognition alone ("we all do this") is never a topic.
+A topic has these parts:
+1. moment: the everyday scene the reader recognises, in one line.
+2. turn: what most people think, and what's actually going on.
+3. because: why it works that way (who gains, or the hidden motive).
+4. payoff: the line people will repeat, a test the reader can run on themselves, or what happens next.
+5. proof (optional): a fact from the items only if it backs the opinion, with its URL and the item's date. Most topics need none.
+6. lived: true only if it reads best as something the writer has seen or lived; most topics are pure observation.
+
+Any mood: sharp, funny, a rant, mixed feelings, a dark pattern, the genuinely good side, a prediction.
 
 Never build a topic on these tired tropes (they read as "I've seen this a hundred times"):
 {tired_tropes}
@@ -39,12 +42,13 @@ Return only JSON: {"topics": [ ... ]} where each topic is
   "mechanism": "why, in one or two plain sentences",
   "group": "who the reader is",
   "territory": one of ["business_brands","creators_internet","money_status","pop_culture","life_relationships"],
-  "mood": one of ["sharp","funny","rant","warm","prediction"],
+  "mood": one of ["sharp","funny","rant","mixed","dark_pattern","warm","prediction"],
   "format_name": one of ["price_tells","behind_the_brand","family_ledger","feed_anthropology","saturday_single"],
   "moment": "the scene the reader lives, in one line",
   "turn": {"believed": "what most readers believe", "actually": "what's actually going on"},
   "because": "who earns what and how, or the hidden motive, in one or two plain sentences",
-  "proof": [{"fact": "the fact, exactly as the item says it", "source_url": "...", "date": "YYYY-MM-DD from the item"}],
+  "proof": [{"fact": "optional; only a fact that backs the opinion, exactly as the item says it", "source_url": "...", "date": "YYYY-MM-DD from the item"}],
+  "lived": true or false,
   "payoff": "the line people will repeat, the test the reader can run, or what happens next",
   "send_to": "who a reader would send this to, and why, in one line",
   "format_hint": "carousel" or "single" (a short take, rant, list or prediction),
