@@ -1,0 +1,809 @@
+{
+ "id": "2026-10-84",
+ "status": "approved",
+ "due": "2026-11-06T19:30:00+05:30",
+ "format": "carousel",
+ "topic": {
+  "title": "The kirana runs a credit bureau",
+  "claim": "The corner shop that lets you pay at month-end trusts you on data no bank has, and that's genuinely good.",
+  "moment": "You're short on cash, the shopkeeper says 'baad mein de dena', and writes it in a diary.",
+  "turn": {
+   "believed": "Udhaar is just an old, informal habit that's dying out.",
+   "actually": "It's a credit system that reads your character off years of showing up, which an app can't do."
+  },
+  "because": "He knows your routine, your family, whether you keep your word. That lived knowledge beats a credit score built on documents you don't fully control.",
+  "payoff": "The shop that extends you credit on a handshake is backing you harder than any bank app ever will.",
+  "lived": false,
+  "behaviour": "Neighbourhood shops extend informal credit based on long personal knowledge.",
+  "mechanism": "Years of observed behaviour beat a document-based score for judging trust.",
+  "group": "anyone who still shops at a local kirana",
+  "territory": "money_status",
+  "mood": "warm",
+  "format_name": "family_ledger",
+  "send_to": "the friend who's gone fully cashless and app-only",
+  "format_hint": "carousel",
+  "why_now": "quick-commerce is quietly replacing the shop that actually knew you",
+  "needs_facts": false,
+  "news_peg": null,
+  "evidence": [],
+  "id": "2026-10-f16",
+  "score": {
+   "rank": 6,
+   "why": "Gives the page its genuinely-good register: the shopkeeper's udhaar diary beating an app's credit score is a warm turn, not just a rant.",
+   "scores": {
+    "relatable": 4,
+    "fresh_angle": 4,
+    "shareable": 4,
+    "saveable": 3,
+    "because": 4
+   },
+   "format_fit": "carousel"
+  }
+ },
+ "history": [
+  {
+   "attempt": 0,
+   "problems": [
+    "Slide 1 has 33 words; the limit is 25. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Rule 2/3 (invented specific, named company not in sources): 'No form, no CIBIL check, no interest.' and caption 'Your CIBIL score is a stranger's guess, the kirana diary is kept by someone who actually knows you.' — CIBIL is a named company/product; it is not in the sources or the topic.",
+     "Rule 13 (cover unclear in two seconds): 'The corner shop backs you harder than your [bank app] ever will' — the literal bracket reads like an unfilled placeholder, not a finished headline.",
+     "Rule 7 (dead slide, restates idea in new words): slide 5 — 'An app knows your card number. The shopkeeper knows you'll be back tomorrow for milk.' repeats slide 4's bank/app-vs-shopkeeper contrast ('A bank reads documents... neither of them knows you') without adding anything new."
+    ],
+    "scores": {
+     "hook": 3,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "tight": 3
+    },
+    "notes": [
+     "Cover: fix the literal '[bank app]' bracket — it looks like unfilled template text, not a finished line. Pick a plain word (app, banking app) so the headline passes the two-second test.",
+     "Slides 2 and caption: drop 'CIBIL' — it's a named company with no source/topic backing. Swap for a generic phrase like 'credit check' or 'credit score' to keep the same meaning without the named-brand risk.",
+     "Slide 5: it restates slide 4's point (documents/card-number vs knowing-you) almost beat for beat. Either cut the overlap and give slide 5 a genuinely new layer, or merge 4 and 5 and spend the freed slide on a sharper close.",
+     "Ending: 'That's why he let you walk out today without paying' is a soft recap, not a line people will repeat or a test they'll run. Push it further — e.g. what happens to this trust the day the kirana shuts and only the app is left — so the last slide actually stings or gives the reader something to check on themselves.",
+     "Slide 2: 'No form, no CIBIL check, no interest' is a three-item 'no, no, no' list, close to the mirrored-triplet pattern the voice avoids. Land it as one plain sentence instead of a list."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Rule 2/3 (invented specific, named company not in sources): 'No form, no CIBIL check, no interest.' and caption 'Your CIBIL score is a stranger's guess, the kirana diary is kept by someone who actually knows you.' — CIBIL is a named company/product; it is not in the sources or the topic.",
+    "Rule 13 (cover unclear in two seconds): 'The corner shop backs you harder than your [bank app] ever will' — the literal bracket reads like an unfilled placeholder, not a finished headline.",
+    "Rule 7 (dead slide, restates idea in new words): slide 5 — 'An app knows your card number. The shopkeeper knows you'll be back tomorrow for milk.' repeats slide 4's bank/app-vs-shopkeeper contrast ('A bank reads documents... neither of them knows you') without adding anything new.",
+    "Cover: fix the literal '[bank app]' bracket — it looks like unfilled template text, not a finished line. Pick a plain word (app, banking app) so the headline passes the two-second test.",
+    "Slides 2 and caption: drop 'CIBIL' — it's a named company with no source/topic backing. Swap for a generic phrase like 'credit check' or 'credit score' to keep the same meaning without the named-brand risk.",
+    "Slide 5: it restates slide 4's point (documents/card-number vs knowing-you) almost beat for beat. Either cut the overlap and give slide 5 a genuinely new layer, or merge 4 and 5 and spend the freed slide on a sharper close.",
+    "Ending: 'That's why he let you walk out today without paying' is a soft recap, not a line people will repeat or a test they'll run. Push it further — e.g. what happens to this trust the day the kirana shuts and only the app is left — so the last slide actually stings or gives the reader something to check on themselves.",
+    "Slide 2: 'No form, no CIBIL check, no interest' is a three-item 'no, no, no' list, close to the mirrored-triplet pattern the voice avoids. Land it as one plain sentence instead of a list."
+   ]
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Slide 1 has 27 words; the limit is 25. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide."
+   ]
+  }
+ ],
+ "sources": [],
+ "draft": {
+  "cover": {
+   "headline": "The corner shop backs you harder than any [bank] will",
+   "sub": "Baad mein de dena isn't charity. It's a credit call."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "The corner shop backs you harder than any bank will.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "what's really going on?"
+   },
+   {
+    "paragraphs": [
+     "You're at the counter with bread, eggs and a Maggi packet, a hundred rupees short. You reach for your phone and he waves it away. \"Baad mein de dena.\"",
+     "He finds your page in a diary held shut with a rubber band, adds a line in pencil. And you walk out with your bag anyway."
+    ],
+    "why_swipe": "why does he do that?"
+   },
+   {
+    "paragraphs": [
+     "You tell yourself it's a sweet old habit, a kindness from another time.",
+     "Next month you drop the money on the counter. He scratches the line out and nods. Done."
+    ],
+    "why_swipe": "was it really just a kindness?"
+   },
+   {
+    "paragraphs": [
+     "But that line was a loan, approved in two seconds with your bag already packed.",
+     "He'd read you off years of showing up: the milk you take, the week your salary lands. He'd read how you clear the old line before you ask for a new one."
+    ],
+    "why_swipe": "doesn't a bank know all that too?"
+   },
+   {
+    "paragraphs": [
+     "A bank goes by your score, and the score is your record: paid on time, or late.",
+     "Late because a parent was in hospital and the salary got stuck? The record shows the late payment. It doesn't show the hospital."
+    ],
+    "why_swipe": "so what goes when the shop goes?"
+   },
+   {
+    "paragraphs": [
+     "**The bank knows whether you paid. He knows why you didn't.**",
+     "The day that shutter stays down for good, that's what goes with it."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Read it again the next time you cancel a shop trip for a delivery app.",
+   "send": "Send it to the friend who hasn't stepped into a kirana in a year.",
+   "promise": "How money and trust really move in India."
+  },
+  "caption": "Who was the shopkeeper who let you pay later?",
+  "hashtags": [
+   "#kirana",
+   "#udhaar",
+   "#quickcommerce",
+   "#creditscore"
+  ],
+  "alt_text": "A five-slide carousel about neighbourhood shop credit. A shopkeeper says baad mein de dena and notes it in a diary. The post argues this informal udhaar is a real credit system built on years of knowing your character, something a bank or a ten-minute delivery app cannot read, and warns what is lost when the local shop is replaced by quick-commerce.",
+  "claims": []
+ },
+ "updated_at": "2026-10-23T12:06:59.244374+00:00",
+ "verification_cache": {
+  "Informal shop credit (udhaar) is typically handed over without any formal paperwork": {
+   "id": "c1",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": "Udhaar (shop credit) is widely documented as paperwork-free: shopkeepers track it in a handwritten khata/notebook, not a signed contract, with no collateral or formal documentation.",
+   "sources": [
+    {
+     "url": "https://wheelerblog.london.edu/between-trust-and-trade-on-informal-credit-networks-in-india-2/",
+     "publisher": "Wheeler Institute, London Business School",
+     "published_date": "2026-04-13",
+     "quote": "No credit scores. No collateral. No paperwork. Just a shopkeeper's quick judgment call, about whether to let a customer walk out with goods and pay later.",
+     "tier": 2
+    },
+    {
+     "url": "https://indilogs.com/culture/indias-corner-shops-run-banking-system-without-interest/",
+     "publisher": "Indilogs",
+     "published_date": "2025-07-26",
+     "quote": "The khata is not a legally binding document. There are no signed contracts or collateral.",
+     "tier": 3
+    }
+   ]
+  },
+  "Informal shop credit (udhaar) is typically given without charging interest": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": "Udhaar extended by shopkeepers to regular customers is typically interest-free, settled at month-end/income timing, distinct from wholesale/trade credit between businesses which can carry interest.",
+   "sources": [
+    {
+     "url": "https://indilogs.com/culture/indias-corner-shops-run-banking-system-without-interest/",
+     "publisher": "Indilogs",
+     "published_date": "2025-07-26",
+     "quote": "There is zero interest charged. The credit is extended as a service, a gesture of goodwill to a loyal customer.",
+     "tier": 3
+    },
+    {
+     "url": "https://www.nabard.org/auth/writereaddata/WhatsNew/2603255836RECSS%20Mar%202025%20Report.pdf",
+     "publisher": "NABARD (Rural Economic Conditions & Sentiments Survey)",
+     "published_date": "2025-03-01",
+     "quote": "Around 30 percent of households borrowing from informal sources paid no interest at all, primarily because they borrowed from relatives, friends or known local lenders/traders.",
+     "tier": 1
+    }
+   ]
+  },
+  "Shopkeepers decide to extend credit based on years of personally observing a customer's habits, family and income timing": {
+   "id": "c3",
+   "verdict": "supported",
+   "event_date": "2026-04-13",
+   "correct": "Academic field research (transaction data from 26 Mumbai grocery stores plus experiments with store owners) confirms shopkeepers decide on credit using direct, personal knowledge of a customer built over time — not a formal check.",
+   "sources": [
+    {
+     "url": "https://wheelerblog.london.edu/between-trust-and-trade-on-informal-credit-networks-in-india-2/",
+     "publisher": "Wheeler Institute, London Business School (summarizing Sungu, Alhorr & Srivastava, SSRN working paper)",
+     "published_date": "2026-04-13",
+     "quote": "the shopkeeper often understood the household budget better than a spreadsheet ever could... decisions stem from direct experience and relationship-building with customers.",
+     "tier": 2
+    },
+    {
+     "url": "https://dev.to/ybrijwasi1010/udhaar-khata-the-notebook-behind-the-counter-bh7",
+     "publisher": "DEV Community",
+     "published_date": null,
+     "quote": "The kirana store did not need to know your credit score. It knew you.",
+     "tier": 3
+    }
+   ]
+  },
+  "Shopkeepers track whether a customer has repaid past credit before extending new credit": {
+   "id": "c4",
+   "verdict": "supported",
+   "event_date": "2026-04-13",
+   "correct": "Repayment history is confirmed as a live input: a field experiment found a single repaid loan materially changed a shopkeeper's willingness to extend future credit, and industry guidance lists past payment history as a standard factor in setting customer credit limits.",
+   "sources": [
+    {
+     "url": "https://wheelerblog.london.edu/between-trust-and-trade-on-informal-credit-networks-in-india-2/",
+     "publisher": "Wheeler Institute, London Business School",
+     "published_date": "2026-04-13",
+     "quote": "A single positive transaction—where a customer repaid a subsidized loan—dramatically shifted store owners' willingness to extend future credit.",
+     "tier": 2
+    },
+    {
+     "url": "https://www.logicerp.com/blog/how-to-track-customer-credit-and-outstanding-dues-in-a-kirana-business/",
+     "publisher": "LogicERP",
+     "published_date": null,
+     "quote": "Retailers consider factors such as previous payment history, purchase frequency, average monthly purchases, existing outstanding balance, and payment delays when setting customer credit limits.",
+     "tier": 3
+    }
+   ]
+  },
+  "Banks assess creditworthiness using documents submitted by the applicant, over which the applicant has limited control": {
+   "id": "c5",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": "Banks assess loan eligibility from documents the applicant submits (salary certificate, Form 16/ITR, bank statements, KYC proofs) — a document-based, applicant-submitted process, confirmed by a bank's own published checklist.",
+   "sources": [
+    {
+     "url": "https://pnb.bank.in/checklist.html",
+     "publisher": "Punjab National Bank (bank's own loan document checklist)",
+     "published_date": null,
+     "quote": "Latest Salary certificate issued by the employer (indicating gross and net salary). Income tax Return/Form16 for last 2 years whichever is applicable. Bank Statement of salary accounts for last 6/12 months whichever is applicable.",
+     "tier": 1
+    },
+    {
+     "url": "https://perfios.ai/resources/blogs/a-comprehensive-guide-for-banks-to-follow-kyc-compliance-as-mandated-by-rbi/",
+     "publisher": "Perfios (summarizing RBI KYC norms)",
+     "published_date": null,
+     "quote": "As per RBI's KYC guidelines, banks are required to collect proof of identity and officially valid documents as proof of address from customers.",
+     "tier": 3
+    }
+   ]
+  },
+  "Ten-minute delivery/banking apps assess users based only on card or payment data, with no other personal knowledge of the user": {
+   "id": "c6",
+   "verdict": "contradicted",
+   "event_date": "2022-09-02",
+   "correct": "Fast/instant lending and quick-commerce-adjacent credit apps (e.g., KreditBee) assess users on far more than card or payment data: personal, employment and income information, PAN/Aadhaar, bank statements, and KYC documents — and, before RBI's 2022 Digital Lending Guidelines curbed it, also device data such as contacts, call logs, files/media, camera and location. RBI's own guidelines exist precisely because these apps were pulling extensive personal data beyond payment/card data, not relying on it alone.",
+   "sources": [
+    {
+     "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12848",
+     "publisher": "Reserve Bank of India (Digital Lending Guidelines, Sept 2022)",
+     "published_date": "2022-09-02",
+     "quote": "Data collection by regulated entities, lending service providers, and digital lending apps must be need-based... digital lending apps have been asked to desist from collecting files and media, call logs, and contact lists; one-time permission for the microphone, camera, location, etc. can be taken for KYC purposes.",
+     "tier": 1
+    },
+    {
+     "url": "https://www.kreditbee.in/",
+     "publisher": "KreditBee (company's own site)",
+     "published_date": null,
+     "quote": "You will need to provide your personal information, employment information, and income information... Upload the required documents. These documents may include your PAN card, Aadhaar card, bank statements, and proof of income.",
+     "tier": 1
+    }
+   ]
+  },
+  "A credit score is produced by an assessor who does not personally know the individual being scored": {
+   "id": "c7",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": "A credit score such as CIBIL's is generated by an algorithm run by a credit bureau using data lenders report monthly — a statistical process with no personal relationship with or knowledge of the individual scored.",
+   "sources": [
+    {
+     "url": "https://www.cibil.com/faq/understand-your-credit-score-and-report",
+     "publisher": "TransUnion CIBIL (company's own FAQ)",
+     "published_date": null,
+     "quote": "CIBIL Score is a three-digit numeric summary of your credit history, derived using the credit history found in the CIBIL Report (also known as CIR i.e Credit Information Report).",
+     "tier": 1
+    },
+    {
+     "url": "https://www.business-standard.com/finance/personal-finance/cibil-score-how-it-tracks-your-credit-history-how-to-improve-your-record-124032200432_1.html",
+     "publisher": "Business Standard",
+     "published_date": "2024-03-22",
+     "quote": "Cibil score: How it tracks your credit history... calculated and generated by the Credit Information Companies (CICs) or credit bureaus, based on the consumer credit information provided by the member lending institutions to them monthly.",
+     "tier": 2
+    }
+   ]
+  },
+  "Lending apps assess borrowers using KYC, bank statements, and a credit score.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": "Timeless and accurate: RBI-regulated digital lending apps/NBFCs are required to collect KYC, and most apps combine a CIBIL/credit bureau score with bank-statement/cash-flow analysis to assess borrowers.",
+   "sources": [
+    {
+     "url": "https://www.nobroker.in/blog/low-cibil-score-loan-apps-list/",
+     "publisher": "NoBroker",
+     "published_date": "2026",
+     "quote": "KreditBee uses a combination of CIBIL score, bank statement data, and its internal \"KreditBee Score\" which factors in alternative data",
+     "tier": 3
+    },
+    {
+     "url": "https://www.yuverse.ai/resources/posts/rbi-digital-lending-guidelines-a-working-checklist-for",
+     "publisher": "YuVerse (RBI Digital Lending Directions summary)",
+     "published_date": "2025-05-08",
+     "quote": "REs have an obligation to collect key borrower information, specifically age, occupation and income, as a minimum standard for assessing creditworthiness before loan approval",
+     "tier": 3
+    }
+   ]
+  },
+  "Banks assess loan/credit applicants primarily through documents.": {
+   "id": "c3",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": "Timeless and accurate: banks underwrite primarily on documentary evidence — identity/address KYC, salary slips/Form 16, and 3–6 months of bank statements.",
+   "sources": [
+    {
+     "url": "https://www.hdfc.bank.in/blogs/personal-loan/tips-to-fulfill-documentation-criteria-for-personal-loan",
+     "publisher": "HDFC Bank (official blog)",
+     "published_date": "2026",
+     "quote": "bank statements of the previous three months and latest salary slips (for two months) or current dated salary certificate along with Form 16 are required",
+     "tier": 1
+    },
+    {
+     "url": "https://www.mymoneymantra.com/sbi-personal-loan-documents-required",
+     "publisher": "MyMoneyMantra",
+     "published_date": "2026",
+     "quote": "SBI requires latest salary slips (3 months), latest Form 16 and IT Returns, and bank account statement showing salary credit for the last 6 months",
+     "tier": 3
+    }
+   ]
+  },
+  "Credit scores are generated without the scoring entity having personal, firsthand knowledge of the borrower built over time.": {
+   "id": "c4",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": "Timeless and accurate: credit bureaus (CIBIL, Experian, Equifax, CRIF) generate scores statistically from data that member lenders report (payment history, utilisation, inquiries), not from any personal/firsthand relationship with the borrower.",
+   "sources": [
+    {
+     "url": "https://www.bankbazaar.com/cibil/cibil-score-calculation.html",
+     "publisher": "BankBazaar",
+     "published_date": "2026",
+     "quote": "Your CIBIL score is calculated using credit-related information reported by lenders... Payment history (35%), Credit utilisation ratio (30%), Length of credit history (15%), Types of credit (10%), Recent credit inquiries (10%)",
+     "tier": 3
+    },
+    {
+     "url": "https://www.axis.bank.in/blogs/credit-score/what-is-cibil-score",
+     "publisher": "Axis Bank (official blog)",
+     "published_date": "2026",
+     "quote": "Banks and financial institutions that are CIBIL members share your account information, which the bureau analyses to generate your score",
+     "tier": 2
+    }
+   ]
+  },
+  "Quick-commerce delivery apps offer delivery within about ten minutes.": {
+   "id": "c5",
+   "verdict": "outdated",
+   "event_date": "2026-01-13",
+   "correct": "As of the Jan 2026 Labour Ministry intervention (prompted by gig-worker protests over safety), Blinkit, Zepto and Swiggy Instamart dropped their fixed '10-minute' delivery branding. Blinkit's own tagline is now 'Groceries & more' and Zepto's is 'Groceries in minutes' — neither commits to a ten-minute figure anymore, and this holds on the Play Store as late as Oct 20, 2026, well before the Nov 6 go-live date. Actual delivery can still be fast (minutes) but platforms no longer promise ~10 minutes.",
+   "sources": [
+    {
+     "url": "https://entrackr.com/news/blinkit-removes-10-min-delivery-branding-after-govt-intervention-zepto-instamart-others-in-focus-10994919",
+     "publisher": "Entrackr",
+     "published_date": "2026-01-13",
+     "quote": "the ministry advised platforms to avoid fixed delivery time commitments that could impact the safety and wellbeing of gig workers",
+     "tier": 2
+    },
+    {
+     "url": "https://telanganatoday.com/after-blinkit-zepto-and-swiggy-instamart-scrap-10-minute-delivery-taglines",
+     "publisher": "Telangana Today",
+     "published_date": "2026-01-14",
+     "quote": "Zepto: tagline updated to 'Groceries in minutes'... Swiggy Instamart: now displays 'Groceries and More'... following Union Labour Minister Mansukh Mandaviya's directive",
+     "tier": 2
+    },
+    {
+     "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&hl=en_IN",
+     "publisher": "Google Play Store (Blinkit's own app listing)",
+     "published_date": "2026-10-20",
+     "quote": "Blinkit: Groceries & more",
+     "tier": 1
+    }
+   ]
+  },
+  "Kirana shop credit (udhaar) is extended without any paperwork and without charging interest.": {
+   "id": "c1",
+   "verdict": "supported",
+   "event_date": "",
+   "correct": "",
+   "sources": [
+    {
+     "url": "https://indilogs.com/culture/indias-corner-shops-run-banking-system-without-interest/",
+     "publisher": "IndiLogs",
+     "published_date": "2025-07-26",
+     "quote": "The khata is not a legally binding document. There are no signed contracts or collateral... The shopkeeper's profit comes from the sale of goods, not from lending.",
+     "tier": 3
+    },
+    {
+     "url": "https://wheelerblog.london.edu/between-trust-and-trade-on-informal-credit-networks-in-india-2/",
+     "publisher": "London Business School – Wheeler Institute (reporting on Alhorr, Srivastava & Sungu field study)",
+     "published_date": "",
+     "quote": "No credit scores. No collateral. No paperwork. Just a shopkeeper's quick judgment call, about whether to let a customer walk out with goods and pay later.",
+     "tier": 2
+    }
+   ]
+  },
+  "Lending apps assess creditworthiness using uploaded documents and a computed credit score, not direct observation of a borrower's repayment behaviour.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": "2025-05-08",
+   "correct": "",
+   "sources": [
+    {
+     "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12848",
+     "publisher": "Reserve Bank of India (Digital Lending Directions, 2025, Para 7)",
+     "published_date": "2025-05-08",
+     "quote": "RE shall obtain the necessary information relating to economic profile of the borrower with a view to assessing the borrower's creditworthiness before extending any loan, including, at a minimum, age, occupation and income details.",
+     "tier": 1
+    },
+    {
+     "url": "https://www.kreditbee.in/money-loans",
+     "publisher": "KreditBee (company page)",
+     "published_date": "",
+     "quote": "The credit score calculates your creditworthiness and predicts how likely you are to pay back your debts. The range is between 300 and 850 ... generated by four different credit reporting agencies: CIBIL, Experian, Equifax, and CRIF High Mark.",
+     "tier": 1
+    }
+   ]
+  },
+  "Lending/credit-scoring apps do not check whether a borrower cleared a previous loan before approving a new one.": {
+   "id": "c3",
+   "verdict": "supported",
+   "event_date": "2021-11-18",
+   "correct": "",
+   "sources": [
+    {
+     "url": "https://rbidocs.rbi.org.in/rdocs/PublicationReport/Pdfs/DIGITALLENDINGF6A90CA76A9B4B3E84AA0EBD24B307F1.PDF",
+     "publisher": "Reserve Bank of India – Report of the Working Group on Digital Lending",
+     "published_date": "2021-11-18",
+     "quote": "While it may be difficult to prescribe a quantitative definition of over indebtedness, a uniform and principle-based approach to determining indebtedness should be worked out factoring in the long term liability profile of the borrower rather than his short-term liability profile.",
+     "tier": 1
+    },
+    {
+     "url": "https://www.taipeitimes.com/News/editorials/archives/2026/08/10/2003862215",
+     "publisher": "Bloomberg Opinion (carried by Taipei Times)",
+     "published_date": "2026-08-06",
+     "quote": "The business model relies on serial refinancing — knowing an over-leveraged borrower would take out a second loan from a rival app to service the first ... under current rules, there are no legal limits on the number of loans an individual may carry.",
+     "tier": 2
+    },
+    {
+     "url": "https://www.businesstoday.in/personal-finance/story/40-of-borrowers-are-taking-fresh-loans-to-repay-existing-emis-why-festive-credit-can-deepen-debt-557037-2026-09-22",
+     "publisher": "Business Today",
+     "published_date": "2026-09-22",
+     "quote": "40% of borrowers were using new loans or credit cards to manage their existing EMIs ... 60% of borrowers have EMIs that either exceed or nearly equal their total monthly family income.",
+     "tier": 2
+    }
+   ]
+  },
+  "Shopkeepers decide whether to extend credit based on years of personally observing a customer's routines and repayment history.": {
+   "id": "c4",
+   "verdict": "supported",
+   "event_date": "",
+   "correct": "",
+   "sources": [
+    {
+     "url": "https://wheelerblog.london.edu/between-trust-and-trade-on-informal-credit-networks-in-india-2/",
+     "publisher": "London Business School – Wheeler Institute (reporting on Alhorr, Srivastava & Sungu field study)",
+     "published_date": "",
+     "quote": "No credit scores. No collateral. No paperwork. Just a shopkeeper's quick judgment call ... subsidizing businesses' ability to lend to random customers allows them to experiment, learn borrower type, and to increase future lending ... even after the subsidy concludes.",
+     "tier": 2
+    },
+    {
+     "url": "https://indilogs.com/culture/indias-corner-shops-run-banking-system-without-interest/",
+     "publisher": "IndiLogs",
+     "published_date": "2025-07-26",
+     "quote": "The kirana-wala assesses you based on your character. Have you lived in the neighbourhood long? Are you known to be reliable? ... The shopkeeper knows them, their neighbours know them.",
+     "tier": 3
+    }
+   ]
+  },
+  "UPI (India's digital payments system) was expected to eliminate informal cash-based credit habits like shopkeeper udhaar": {
+   "id": "c1",
+   "verdict": "supported",
+   "event_date": "2016-04-11",
+   "correct": "UPI's launch (pilot 11 Apr 2016, public rollout Aug 2016) came with an explicit government narrative that digital transaction trails would let small merchants access formal 'soft loans' and reduce dependence on informal, usurious credit. As of Oct 2026, that expectation is only partly realized: UPI dominates payments, but digital credit adoption still lags badly, so informal cash-based credit (udhaar) persists alongside it.",
+   "sources": [
+    {
+     "url": "https://knnindia.co.in/news/newsdetails/economy/upi-dominates-digital-payments-in-urban-india-but-digital-credit-adoption-lags-report",
+     "publisher": "KNN India (reporting the Amazon Pay / Pahlé India Foundation 'How Urban India Pays 2026' report)",
+     "published_date": "2026-10-14",
+     "quote": "only 31 per cent of consumers using it despite 88 per cent awareness... confidence 'fell to 3.10 when the same platforms offered credit'",
+     "tier": 2
+    },
+    {
+     "url": "https://indiangrowth.substack.com/p/indian-growth-stories-upi",
+     "publisher": "Indian Growth Stories (Substack, citing PM Modi's remarks at UPI's launch)",
+     "published_date": "2016-04-11",
+     "quote": "Once people start using digital payments for everyday transactions, small merchants and micro-merchants... will be able to get soft loans from banks due to their transaction history, which will be now available, weaning them away from usury.",
+     "tier": 3
+    }
+   ]
+  },
+  "Informal shopkeeper credit (udhaar) is extended without any loan application form or formal credit score check": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://wheelerblog.london.edu/between-trust-and-trade-on-informal-credit-networks-in-india-2/",
+     "publisher": "London Business School (Wheeler Institute blog)",
+     "published_date": "2026-04-13",
+     "quote": "No credit scores. No collateral. No paperwork. Just a shopkeeper's quick judgment call, about whether to let a customer walk out with goods and pay later.",
+     "tier": 2
+    },
+    {
+     "url": "https://indilogs.com/culture/indias-corner-shops-run-banking-system-without-interest/",
+     "publisher": "Indilogs",
+     "published_date": "2025-07-26",
+     "quote": "The khata is not a legally binding document. There are no signed contracts or collateral... A formal bank assesses you based on your income, your assets, your CIBIL score. The kirana-wala assesses you based on your character.",
+     "tier": 3
+    }
+   ]
+  },
+  "Credit scores used by banks and lending apps are based mainly on whether payments were made on time": {
+   "id": "c3",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": "Payment history (on-time vs. late payment) is consistently the single largest weighted component in both FICO (used globally) and CIBIL (India's dominant bureau) scoring models — roughly 30-35% of the score, more than any other single factor — which supports 'mainly' as an accurate characterization even though other factors (utilization, credit age, inquiries) also contribute.",
+   "sources": [
+    {
+     "url": "https://www.myfico.com/credit-education/whats-in-your-credit-score",
+     "publisher": "myFICO (official FICO site)",
+     "published_date": null,
+     "quote": "Payment history shows how you've paid your accounts over the length of your credit history. Research shows that your track record of payment tends to be the strongest predictor of the likelihood that you'll pay all debts as agreed, which is why it makes up 35% of your score.",
+     "tier": 1
+    },
+    {
+     "url": "https://www.bankbazaar.com/cibil/major-factors-that-affect-your-cibil-score.html",
+     "publisher": "BankBazaar (citing CIBIL/TransUnion CIBIL scoring factors)",
+     "published_date": null,
+     "quote": "Payment History (30%), Credit Exposure (25%), Credit Mix & Duration (25%), and Other Factors (20%)... payment history is the most important factor",
+     "tier": 3
+    }
+   ]
+  },
+  "Credit scoring systems do not distinguish the reason for a late payment from any other late payment; a late payment is recorded the same way regardless of cause": {
+   "id": "c4",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.myfico.com/credit-education/faq/negative-reasons/late-payments",
+     "publisher": "myFICO (official FICO site)",
+     "published_date": null,
+     "quote": "There may be circumstances which cause you to be unable to keep current with your bills... FICO Scores consider late payments in these general areas: how recent the late payments are, how severe the late payments are, and how frequently the late payments occur.",
+     "tier": 1
+    },
+    {
+     "url": "https://www.creditmantri.com/does-making-late-payments-affect-the-cibil-score/",
+     "publisher": "CreditMantri",
+     "published_date": null,
+     "quote": "even if you have been a good borrower and paid off instalments timely in the past, one default could erase that reputation from your credit score... impact applies regardless of the circumstances",
+     "tier": 3
+    }
+   ]
+  },
+  "Credit scores calculated by lending/banking apps are determined mainly by whether a person paid on time, i.e. payment history.": {
+   "id": "c1",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.myfico.com/credit-education/whats-in-your-credit-score",
+     "publisher": "FICO (myFICO)",
+     "published_date": null,
+     "quote": "Payment history shows how you've paid your accounts over the length of your credit history... your track record of payment tends to be the strongest predictor of the likelihood that you'll pay all debts as agreed. Approximately 35% of a FICO Score is based on payment information.",
+     "tier": 1
+    },
+    {
+     "url": "https://www.experian.com/blogs/ask-experian/credit-education/score-basics/what-affects-your-credit-scores/",
+     "publisher": "Experian",
+     "published_date": "2026-09-22",
+     "quote": "Payment history is the most influential factor of your credit score... Payment history makes up 35% of your FICO® Score.",
+     "tier": 1
+    }
+   ]
+  },
+  "Credit scoring systems do not account for the reason behind a late payment (e.g. a medical emergency) — a late payment is recorded the same way regardless of cause.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.myfico.com/credit-education/faq/negative-reasons/late-payments",
+     "publisher": "FICO (myFICO)",
+     "published_date": null,
+     "quote": "FICO Scores consider late payments using...how recent the late payments are, how severe the late payments are, and how frequently the late payments occur...there may be circumstances which cause you to be unable to keep current with bills — maybe an unexpected medical emergency or losing your job",
+     "tier": 1
+    },
+    {
+     "url": "https://www.nerdwallet.com/credit-cards/learn/missed-credit-card-payments-cause-repossession",
+     "publisher": "NerdWallet",
+     "published_date": null,
+     "quote": "late or missed payments can hurt credit scores regardless of the reason — whether it's due to financial hardship or any other circumstance. The credit scoring system treats all 30+ day late payments the same way in terms of reporting and impact.",
+     "tier": 2
+    },
+    {
+     "url": "https://www.experian.com/blogs/ask-experian/what-to-do-if-you-miss-a-payment/",
+     "publisher": "Experian",
+     "published_date": null,
+     "quote": "Lenders typically report a payment as late once it's 30 days past due",
+     "tier": 1
+    }
+   ]
+  },
+  "Banks decide creditworthiness based on a credit score that reflects an applicant's payment history, i.e., whether past payments were made on time or late.": {
+   "id": "c1",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.myfico.com/credit-education/credit-scores/payment-history",
+     "publisher": "myFICO (Fair Isaac Corporation)",
+     "published_date": null,
+     "quote": "payment history makes up 35% of your score and is a major factor in its calculation... a lender's number one priority is your past record of paying back (or not) your loans",
+     "tier": 1
+    },
+    {
+     "url": "https://www.cibil.com/blog/all-you-need-to-know-about-cibil-score",
+     "publisher": "TransUnion CIBIL",
+     "published_date": null,
+     "quote": "Your payment history is one of the factors that lenders consider when determining your creditworthiness. It shows how consistently you have made your payments on time and in full. Late payments, missed payments and delinquencies can negatively impact your CIBIL Score.",
+     "tier": 1
+    }
+   ]
+  },
+  "A credit record/report shows that a payment was late but does not capture or record the reason why it was late.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.indusind.bank.in/iblogs/credit-card/what-is-dpd-days-past-due-in-the-cibil-report/",
+     "publisher": "IndusInd Bank",
+     "published_date": null,
+     "quote": "DPD, or Days Past Due, shows how many days a payment on a loan or credit card was late during a reported month... DPD is different from the amount overdue. The amount overdue tells you how much remains unpaid, while DPD tells you how late the payment was.",
+     "tier": 1
+    },
+    {
+     "url": "https://www.bankbazaar.com/cibil/dpd-day-past-due.html",
+     "publisher": "BankBazaar",
+     "published_date": null,
+     "quote": "DPD indicates the days a payment has been delayed for... DPD essentially shows how many days the borrower has skipped or been late with payments.",
+     "tier": 3
+    },
+    {
+     "url": "https://www.equifax.com/personal/education/credit/report/articles/-/learn/remove-late-payments-credit-report/",
+     "publisher": "Equifax",
+     "published_date": null,
+     "quote": "Your credit reports will note how many days the payment is past due in 30-day increments.",
+     "tier": 1
+    }
+   ]
+  }
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Banks decide creditworthiness based on a credit score that reflects an applicant's payment history, i.e., whether past payments were made on time or late.",
+    "sentence": "A bank goes by your score, and the score is your record: paid on time, or late.",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "A credit record/report shows that a payment was late but does not capture or record the reason why it was late.",
+    "sentence": "The record shows the late payment. It doesn't show the hospital.",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c3",
+    "text": "Mechanism: Premise 1 — bank credit scoring judges a customer only on the fact of on-time vs. late payment, with no record of the reason behind a late payment. Premise 2 — a shopkeeper judges a customer on years of direct personal observation (regular purchases, pay-day timing, history of clearing past dues) and knows the context behind any lapse. Conclusion — therefore the shopkeeper's informal udhaar system is a more complete/attentive form of credit assessment than a bank's score-based system.",
+    "sentence": "The bank knows whether you paid. He knows why you didn't.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c1": {
+    "id": "c1",
+    "verdict": "supported",
+    "event_date": null,
+    "correct": null,
+    "sources": [
+     {
+      "url": "https://www.myfico.com/credit-education/credit-scores/payment-history",
+      "publisher": "myFICO (Fair Isaac Corporation)",
+      "published_date": null,
+      "quote": "payment history makes up 35% of your score and is a major factor in its calculation... a lender's number one priority is your past record of paying back (or not) your loans",
+      "tier": 1
+     },
+     {
+      "url": "https://www.cibil.com/blog/all-you-need-to-know-about-cibil-score",
+      "publisher": "TransUnion CIBIL",
+      "published_date": null,
+      "quote": "Your payment history is one of the factors that lenders consider when determining your creditworthiness. It shows how consistently you have made your payments on time and in full. Late payments, missed payments and delinquencies can negatively impact your CIBIL Score.",
+      "tier": 1
+     }
+    ]
+   },
+   "c2": {
+    "id": "c2",
+    "verdict": "supported",
+    "event_date": null,
+    "correct": null,
+    "sources": [
+     {
+      "url": "https://www.indusind.bank.in/iblogs/credit-card/what-is-dpd-days-past-due-in-the-cibil-report/",
+      "publisher": "IndusInd Bank",
+      "published_date": null,
+      "quote": "DPD, or Days Past Due, shows how many days a payment on a loan or credit card was late during a reported month... DPD is different from the amount overdue. The amount overdue tells you how much remains unpaid, while DPD tells you how late the payment was.",
+      "tier": 1
+     },
+     {
+      "url": "https://www.bankbazaar.com/cibil/dpd-day-past-due.html",
+      "publisher": "BankBazaar",
+      "published_date": null,
+      "quote": "DPD indicates the days a payment has been delayed for... DPD essentially shows how many days the borrower has skipped or been late with payments.",
+      "tier": 3
+     },
+     {
+      "url": "https://www.equifax.com/personal/education/credit/report/articles/-/learn/remove-late-payments-credit-report/",
+      "publisher": "Equifax",
+      "published_date": null,
+      "quote": "Your credit reports will note how many days the payment is past due in 30-day increments.",
+      "tier": 1
+     }
+    ]
+   }
+  },
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "No premise fully fails. The weakest link is a conflation in Premise 1: the post equates 'the bank' with 'the credit score.' The score genuinely is reason-blind (it records days-past-due, not the hospital), so the premise holds as written ('a bank goes by your score'). But a bank's actual lending/recovery decision is not score-only — RBI fair-practice and restructuring rules require banks to consider documented hardship (medical emergency, income disruption) through moratoria or restructuring, so the broader 'the bank can't know why' idea is overstated.",
+   "actual_mechanism": "A CIBIL/credit-bureau score is a hard-information model weighted mainly on payment history (~35%) plus utilisation, history length, mix and enquiries; it logs the fact and timing of repayment, not the circumstances. Kirana udhaar is textbook relationship (soft-information) lending: the shopkeeper approves tiny, non-portable credit off years of direct observation of character and context. Both are real credit assessment, but the shopkeeper's edge is narrow — it is more attentive to context for that one person, not more 'complete,' since it lacks scale, portability, verification and recourse, and banks do have hardship mechanisms the score alone doesn't show.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://www.axis.bank.in/blogs/credit-score/how-is-cibil-score-calculated",
+     "published_date": "n/a",
+     "quote": "Payment history is the most significant factor, usually accounting for about 35% of your CIBIL score, and looks at how consistently you've paid your credit card bills and loan instalments."
+    },
+    {
+     "url": "https://www.bankbazaar.com/cibil/cibil-score-calculation.html",
+     "published_date": "n/a",
+     "quote": "CIBIL scores are calculated based on: payment history (35%), credit utilisation (30%), length of credit history (10%), credit mix (10%), and new credit applications (10%)."
+    },
+    {
+     "url": "https://freed.care/blog/loan-restructuring-rbi-rules",
+     "published_date": "n/a",
+     "quote": "Under the FPC, banks are required to consider requests for EMI restructuring or a temporary payment pause (moratorium) when you document genuine financial hardship."
+    }
+   ]
+  },
+  "text_hash": "799d31eb09451ff95fe37af175cf4969733603bb",
+  "at": "2026-10-23T12:03:10.125285+00:00"
+ }
+}

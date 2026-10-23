@@ -1,0 +1,295 @@
+{
+ "id": "2026-10-80",
+ "status": "approved",
+ "due": "2026-10-30T19:30:00+05:30",
+ "format": "carousel",
+ "topic": {
+  "title": "Let's catch up soon",
+  "claim": "'Let's catch up soon' is mostly a polite way to end a conversation, not a plan to meet.",
+  "moment": "You run into an old colleague, both say it with warmth, and neither of you ever follows up.",
+  "turn": {
+   "believed": "You both meant it and life just got busy.",
+   "actually": "It was a kind exit line, and you both understood it as one in the moment."
+  },
+  "because": "Saying goodbye flatly feels cold, so we borrow the language of a future that neither side intends to build. It closes the chat nicely and commits no one.",
+  "payoff": "If you actually want to meet them, put a date on it before you both walk away.",
+  "lived": true,
+  "behaviour": "People use 'let's catch up' as a warm way to end interactions with no follow-through.",
+  "mechanism": "A soft promise ends a conversation without the coldness of a plain goodbye.",
+  "group": "anyone with old friends and ex-colleagues",
+  "territory": "life_relationships",
+  "mood": "mixed",
+  "format_name": "saturday_single",
+  "send_to": "the friend you keep saying this to and never meeting",
+  "format_hint": "single",
+  "why_now": "a year-end full of run-ins and 'we must meet' that never happen",
+  "needs_facts": false,
+  "news_peg": null,
+  "evidence": [],
+  "id": "2026-10-f17",
+  "score": {
+   "rank": 1,
+   "why": "Everyone's said this line and meant nothing by it, dead relatable, and the turn (both sides knew) lands clean on one slide.",
+   "scores": {
+    "relatable": 5,
+    "fresh_angle": 4,
+    "shareable": 4,
+    "saveable": 4,
+    "because": 4
+   },
+   "format_fit": "single"
+  }
+ },
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Cover headline rule (clear in two seconds): \"'Let's catch up soon' is a [goodbye], not a plan\" — the literal brackets around 'goodbye' read as a broken placeholder, not a finished line. As written it does not communicate the idea cleanly to a stranger scrolling past."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "tight": 3
+    },
+    "notes": [
+     "Slide 1 / cover: strip the brackets — \"'Let's catch up soon' is a goodbye, not a plan.\" Ship-ready text should never carry placeholder punctuation.",
+     "Slide 5: this mostly restates slide 4's point in new words (\"we meant the smile, we didn't mean the meeting\" = \"closes the chat warmly and commits no one\"). Keep only the new beat — that both people silently understood it in the moment, still smiling — and cut the rest so the slide earns its swipe instead of re-explaining.",
+     "The core insight (it's a polite exit line, not forgetfulness) is something most readers already half-know. Sharpen the 'because' a notch further: say what it actually protects — not just avoiding a cold goodbye, but both people getting to walk away still liking each other, no awkward non-plan hanging in the air. That gives the post a sharper new idea, not just a confirmation of a felt truth.",
+     "Slide 3: good instinct to undercut the 'we got busy' excuse, but tighten — 'Maybe. But replay the moment' plus the parenthetical question is doing one job twice. Pick one phrasing.",
+     "Ending lands the test well — keep it. Just make sure slide 5's trim (note above) doesn't leave slide 6 feeling like it's answering a question slide 5 no longer clearly asked."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Cover headline rule (clear in two seconds): \"'Let's catch up soon' is a [goodbye], not a plan\" — the literal brackets around 'goodbye' read as a broken placeholder, not a finished line. As written it does not communicate the idea cleanly to a stranger scrolling past.",
+    "Slide 1 / cover: strip the brackets — \"'Let's catch up soon' is a goodbye, not a plan.\" Ship-ready text should never carry placeholder punctuation.",
+    "Slide 5: this mostly restates slide 4's point in new words (\"we meant the smile, we didn't mean the meeting\" = \"closes the chat warmly and commits no one\"). Keep only the new beat — that both people silently understood it in the moment, still smiling — and cut the rest so the slide earns its swipe instead of re-explaining.",
+    "The core insight (it's a polite exit line, not forgetfulness) is something most readers already half-know. Sharpen the 'because' a notch further: say what it actually protects — not just avoiding a cold goodbye, but both people getting to walk away still liking each other, no awkward non-plan hanging in the air. That gives the post a sharper new idea, not just a confirmation of a felt truth.",
+    "Slide 3: good instinct to undercut the 'we got busy' excuse, but tighten — 'Maybe. But replay the moment' plus the parenthetical question is doing one job twice. Pick one phrasing.",
+    "Ending lands the test well — keep it. Just make sure slide 5's trim (note above) doesn't leave slide 6 feeling like it's answering a question slide 5 no longer clearly asked."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Hard failure 7 (last slide repeats the cover's point): slide 6's closing line 'Everything else is just a warmer way to say bye' is the same claim as the cover's 'Let's catch up soon is a goodbye, not a plan' — just reworded, not a new payoff."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "tight": 4
+    },
+    "notes": [
+     "Slide 6: cut 'Everything else is just a warmer way to say bye' — it just echoes the cover's headline instead of cashing in something new. Keep 'name a day before you turn away' as the test, and swap the second line for something that stings (what you actually lose by not naming a day) rather than relabeling the behaviour.",
+     "Slide 4's bolded line ('It closes the chat warmly and commits no one') and the cut candidate in slide 6 both land on the exact same 'warm but commits no one' idea — pick one slide to own that line, don't say it twice.",
+     "Slide 5: tighten so it only does the one new job it has — showing both people silently knew it was a goodbye in the moment. Right now 'I've done this with people I genuinely missed' + the rest drifts back into re-explaining slide 4's mechanism instead of adding the mutual-awareness beat.",
+     "Fresh_angle check: by the end the reader has a label (polite exit line) they probably already suspected. Make sure the final line gives them something to actually do differently next time, not just a tidier name for what they already know they do.",
+     "Read slides 3 and 4 back to back — 'no date, no which side of town are you on now' and 'we borrow the language of a future neither side plans to build' are circling the same point from two angles; see if one can be trimmed so the post doesn't pause on the same beat twice before moving to the turn."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Hard failure 7 (last slide repeats the cover's point): slide 6's closing line 'Everything else is just a warmer way to say bye' is the same claim as the cover's 'Let's catch up soon is a goodbye, not a plan' — just reworded, not a new payoff.",
+    "Slide 6: cut 'Everything else is just a warmer way to say bye' — it just echoes the cover's headline instead of cashing in something new. Keep 'name a day before you turn away' as the test, and swap the second line for something that stings (what you actually lose by not naming a day) rather than relabeling the behaviour.",
+    "Slide 4's bolded line ('It closes the chat warmly and commits no one') and the cut candidate in slide 6 both land on the exact same 'warm but commits no one' idea — pick one slide to own that line, don't say it twice.",
+    "Slide 5: tighten so it only does the one new job it has — showing both people silently knew it was a goodbye in the moment. Right now 'I've done this with people I genuinely missed' + the rest drifts back into re-explaining slide 4's mechanism instead of adding the mutual-awareness beat.",
+    "Fresh_angle check: by the end the reader has a label (polite exit line) they probably already suspected. Make sure the final line gives them something to actually do differently next time, not just a tidier name for what they already know they do.",
+    "Read slides 3 and 4 back to back — 'no date, no which side of town are you on now' and 'we borrow the language of a future neither side plans to build' are circling the same point from two angles; see if one can be trimmed so the post doesn't pause on the same beat twice before moving to the turn."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 5,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 5,
+     "eq": 4,
+     "iq": 4,
+     "tight": 4
+    },
+    "notes": [
+     "Slide 5: 'both of us knew, standing right there, that this was the goodbye' restates slide 4's mechanism ('it closes the chat warmly and commits no one') almost exactly. Give slide 5 a genuinely new beat instead — the specific, physical tell that gives the game away (the eyes already drifting toward the door, the 'okay okay' that starts before the sentence ends) — so it earns its place rather than confirming slide 4 in first person.",
+     "Slide 6: 'name a day before you turn away' reads close to a lecture/instruction ('do this'), which the rules flag. Turn it into a test the reader runs on themselves rather than advice — e.g. something that makes them check their own last three 'let's catch up soon's for whether a date ever got named — so it stings rather than coaches.",
+     "Slide 3: 'Kids, work, the usual' is filler that doesn't add texture over slide 2's lift scene — cut it or replace with one sharp concrete detail unique to this slide so every line is earning its slot.",
+     "Consider whether the you/we/I shifts (slide 1-2 'you', slide 3-4 'we', slide 5 'I', slide 6 'you') read as one steady voice or as drifting persona — tighten so the 'I' admission in slide 5 feels like the one deliberate lived beat, not a third register."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "verification": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "When two people say 'let's catch up soon' while parting, both feel real warmth but neither later initiates contact or proposes a date, so the phrase functions as a warm way to end the interaction rather than as a genuine commitment to meet again",
+      "sentence": "'Let's catch up soon' is a goodbye, not a plan. You both say it with real warmth, and neither of you ever follows up... It closes the chat warmly and commits no one.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "The author has said 'let's catch up soon' to people she genuinely missed, while knowing at the moment of saying it that it was actually a goodbye rather than a real plan",
+      "sentence": "I've said it to people I genuinely missed. And the quiet part is that both of us knew, standing right there, that this was the goodbye. We smiled through it anyway.",
+      "type": "anecdote",
+      "core": false,
+      "framed_as": "past"
+     }
+    ],
+    "verdicts": {},
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "none — the premises hold; the only overreach is the absolute 'neither ever follows up,' which is a strong-form tendency, not a law, but the core function claim is correct",
+     "actual_mechanism": "The phrase is phatic communication: an utterance whose primary purpose is social bonding and smoothly closing an interaction, not conveying information or a binding commitment — the same class as 'How are you?' or 'We should do this again.' Its warmth is real and its function is a graceful exit; because no concrete anchor (a day, a date, a 'which side of town?') is attached, it carries no actionable commitment, so follow-up is the exception rather than the default. The post correctly separates sincere feeling from literal intent, which is exactly the distinction linguists draw.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Phatic_expression",
+       "published_date": "2026-10-23",
+       "quote": "A communication which primarily serves to establish or maintain social relationships ... these expressions do not seek or offer information of intrinsic value but rather signal willingness to observe conventional local expectations for politeness."
+      },
+      {
+       "url": "https://pure.mpg.de/rest/items/item_68366_5/component/file_468107/content",
+       "published_date": "2009-01-01",
+       "quote": "Malinowski coined the term 'phatic communion' to describe 'a type of speech in which ties of union are created by a mere exchange of words' — words that fulfil a social function as their principal aim rather than conveying information."
+      },
+      {
+       "url": "https://www.academia.edu/34525631/Malinowski_Bronislaw_1923_Phatic_Communion_printout_material_",
+       "published_date": "1923-01-01",
+       "quote": "Language in its primitive function ... has an essentially pragmatic character; it is a mode of action and not an instrument of reflection — a 'mere exchange of words' that establishes links of fellowship."
+      }
+     ]
+    },
+    "text_hash": "5c66b04756ae02a4f11016d16d60ab61192191a2",
+    "at": "2026-10-23T10:24:20.307480+00:00"
+   }
+  }
+ ],
+ "sources": [],
+ "verification_cache": {},
+ "draft": {
+  "cover": {
+   "headline": "'Let's catch up soon' is a [goodbye], not a plan",
+   "sub": "You both mean it. Neither of you will call."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "'Let's catch up soon' is a goodbye, not a plan.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "we all say it; what does it actually mean?"
+   },
+   {
+    "paragraphs": [
+     "Remember the person you sat next to at your first job? You knew how they took their chai, which cab they took home, the excuse they used to leave early."
+    ],
+    "why_swipe": "so what happens when you meet again?"
+   },
+   {
+    "paragraphs": [
+     "A few years later you run into them at a social gathering. A hug that lasts a second too long. \"Bhai, this time pakka. Next month.\""
+    ],
+    "why_swipe": "does anyone actually follow up?"
+   },
+   {
+    "paragraphs": [
+     "In the cab home you type \"so good to see you!!\" They send three hearts. Neither of you types a date."
+    ],
+    "why_swipe": "so will you ever meet?"
+   },
+   {
+    "paragraphs": [
+     "You'll see them again, at another gathering, two years from now. Same hug, same line. And you'll both mean it again."
+    ],
+    "why_swipe": "then what is that line, really?"
+   },
+   {
+    "paragraphs": [
+     "**That line isn't a plan. It's how you say goodbye to someone you still love without saying goodbye.**"
+    ]
+   }
+  ],
+  "end": {
+   "save": "Read it again the next time that warm line comes out at a gathering.",
+   "send": "Send it to the friend you keep saying this to and never meeting.",
+   "promise": "How we really talk to each other."
+  },
+  "caption": "Who's the person you keep saying this to?",
+  "hashtags": [
+   "catchupsoon",
+   "oldfriends",
+   "adultfriendships",
+   "runningintopeople"
+  ],
+  "alt_text": "A six-slide carousel. The cover reads that 'Let's catch up soon' is a goodbye, not a plan. The slides describe bumping into an old colleague, both saying it warmly with no follow-up, undercutting the 'we got busy' excuse, explaining it as a soft exit line that commits no one, admitting both people silently knew it was a goodbye while smiling, and ending with a test: name a real day before you walk away, or that person becomes someone you keep greeting and never sit with.",
+  "claims": [],
+  "caption_style": "question"
+ },
+ "updated_at": "2026-10-23T12:06:59.239752+00:00",
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Premise: people who say 'let's catch up soon' at a chance meeting sincerely mean it in the moment, but neither person follows up or proposes a concrete date afterward. Conclusion: because of this pattern, the phrase functions as a way of ending the encounter (a goodbye) rather than as an actual plan to meet again.",
+    "sentence": "'Let's catch up soon' is a goodbye, not a plan. You both mean it. Neither of you will call. / That line isn't a plan. It's how you say goodbye to someone you still love without saying goodbye.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {},
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "none",
+   "actual_mechanism": "This is textbook phatic communication (Malinowski's 'phatic communion'): a stock social phrase whose job is to establish or maintain a bond, not to transmit information or commit to action. 'Let's catch up soon' at a chance meeting carries none of the features of an actual plan — no date, time, or place — so it operates as a warm relationship-affirming closing to the encounter. The sincerity in the moment and the absence of follow-up aren't a contradiction; they are exactly what a phatic ritual looks like, which is why the post's 'goodbye, not a plan' reading is correct.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Phatic_expression",
+     "published_date": "2026-10-23",
+     "quote": "a communication which primarily serves to establish or maintain social relationships... emphasizes socio-pragmatic rather than semantic functions"
+    },
+    {
+     "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/phatic-communion",
+     "published_date": "1923",
+     "quote": "The term phatic communion ('bonding by language') was coined by anthropologist Bronisław Malinowski... language used primarily to establish, maintain, or signal social connection rather than to convey factual or propositional information."
+    }
+   ]
+  },
+  "text_hash": "7e1ec712feead009ee3127b25dc94a96624e362f",
+  "at": "2026-10-23T11:35:44.804257+00:00"
+ }
+}

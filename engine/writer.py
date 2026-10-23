@@ -27,7 +27,7 @@ MAX_SENT_WORDS = 22  # 5th-grade scanability: most sentences far shorter
 MIN_SLIDES, MAX_SLIDES = 4, 7  # the reference creator's best carousels run 3-7 slides; 10+ halves likes
 SLIDE_WORDS = (12, 60)   # every slide after the hook: fewer, fuller slides that chain, not thin ones
 HOOK_WORDS = 25
-POST_WORDS = (130, 320)
+POST_WORDS = (110, 320)
 MAX_FIGURES = 3          # facts only map the opinion; a post with more numbers is a data explainer
 MIN_RHYTHM = 3.5         # sentence-length spread; a metronome rhythm (every sentence ~8 words) reads as AI
 # "isn't X, it's Y" closes many of the reference creator's best posts; repeated mid-post it reads as a template.
@@ -211,8 +211,10 @@ def hard_checks(draft: dict, fmt: str, sources: list[dict]) -> list[str]:
     if fmt == "carousel" and total < POST_WORDS[0]:
         problems.append(f"The post is only {total} words; the thought needs room ({POST_WORDS[0]}+).")
     text = post_text(draft)
-    for pat in _banned():
-        m = pat.search(text)
+    shown = " ".join([text, *(str(v) for v in (draft.get("cover") or {}).values() if isinstance(v, str)),
+                      *(str(v) for v in (draft.get("end") or {}).values() if isinstance(v, str)), draft.get("caption") or ""])
+    for pat in _banned():  # everything the reader sees, cover and end card included
+        m = pat.search(shown)
         if m:
             problems.append(f"Remove the phrase '{m.group(0)}'.")
     figures = len(MONEY.findall(text))
@@ -261,12 +263,13 @@ def approved_posts() -> list[dict]:
 
 
 def voice_examples(seed: int, k: int = 3) -> str:
-    """A rotating few examples: two owner-approved posts plus one top post by the reference creator, so no single
-    example's scaffolding takes over."""
+    """The owner's story standard, one more owner-approved post and one top post by the reference creator, rotating
+    so no single example's scaffolding takes over."""
     bank, rnd = approved_posts(), random.Random(seed)
-    owner = [b for b in bank if b.get("source") != "reference creator"]
+    standard = [b for b in bank if b.get("standard")]  # the owner's story standard is always shown
+    owner = [b for b in bank if b.get("source") != "reference creator" and not b.get("standard")]
     ref = [b for b in bank if b.get("source") == "reference creator"]
-    picks = rnd.sample(owner, min(2, len(owner)))
+    picks = standard + rnd.sample(owner, min(max(2 - len(standard), 1), len(owner)))
     picks += rnd.sample(ref, min(k - len(picks), len(ref)))
     def slides(p: dict) -> list[str]:  # the reference creator's dense slides are shown lighter; owner posts as approved
         return [b for s in p["slides"] for b in corpus.light(s)][:10] if p.get("source") == "reference creator" else p["slides"]
@@ -312,15 +315,15 @@ def critique(post: dict, draft: dict, seed: int) -> dict:
 def passes(review: dict) -> bool:
     """No hard failure, 4+ on craft, and real EQ or IQ: one of them 4+, the other at least 3."""
     scores = review.get("scores") or {}
-    keys = ("hook", "relatable", "fresh_angle", "pull", "payoff", "voice", "tight")
+    keys = ("hook", "relatable", "fresh_angle", "pull", "payoff", "voice", "story", "tight")
     eq, iq = _score(scores, "eq"), _score(scores, "iq")
     return (not review.get("violations") and all(_score(scores, k) >= 4 for k in keys)
             and max(eq, iq) >= 4 and min(eq, iq) >= 3)
 
 
-def write_post(post: dict) -> dict:
+def write_post(post: dict, notes: str = "") -> dict:
     """Write, check, edit and verify. The writer is the only thing that changes what the post says: the editor and
-    the fact gate send notes back to it."""
+    the fact gate send notes back to it. `notes` seeds the first attempt (an owner's rewrite request)."""
     from . import factgate
     topic = post["topic"]
     fmt = post["format"] = post["format"] if post["format"] != "spare" else "carousel"
@@ -328,7 +331,7 @@ def write_post(post: dict) -> dict:
     if post.get("sources") is None:
         post["sources"] = find_sources(topic)
     evidence = evidence_for(post)
-    notes, draft = "", None
+    draft = None
     seed = zlib.crc32(post["id"].encode()) % 10_000  # deterministic across runs, unlike hash()
     for attempt in range(config.MAX_REWRITES + 1):
         user = llm.fill(

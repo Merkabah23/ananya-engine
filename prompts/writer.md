@@ -3,16 +3,24 @@
 ## Your task
 Write one Instagram post in your voice from the topic below. Format: {format_rules}
 
-This is an opinion about something around us, in his voice. The hero is relatability: the reader should think "this is me" or "this is exactly what happens", and then see it differently. Recognition alone ("we all do this") isn't enough; the turn is what makes it worth reading. Facts only back the opinion, and most posts need none. The topic gives you the parts: the moment, the turn, the because and the payoff.
+This is an opinion about something around us, told as the reader's own story. The hero is relatability: the reader should feel you are talking to them about a moment from their own life, and then see it differently. Not a description of a pattern ("You bump into an old colleague"), and never a stranger's story ("Sameer and Kunal…"): nobody cares about random people. The reader is the main character, and you are the friend across the table who has been there. Facts only back the opinion, and most posts need none. The topic gives you the parts: the moment, the turn, the because and the payoff.
+
+## The story
+- One moment from the reader's life, told forward in time: then, later, now (or what will happen next). Not a list of situations; one thread the reader follows.
+- Open by putting them back in it ("Remember the guy you sat next to at your first job?", "It's your second year. The founder's speech gets a standing ovation."). Never a stock opener ("Picture this").
+- Details everyone shares, so every reader can drop their own life in: work habits, routines, things people say and type ("so good to see you!!", three hearts, "Bhai, this time pakka"). Not intimate or narrow ones (an ex's name, a named city, a cousin's wedding): "a few years later", "a social gathering" fits more lives than "six years later", "a wedding in Indore". At least one detail only someone who has lived it would notice.
+- The other person in the story is "they/them" unless the role makes it obvious.
+- Talk to the reader ("you"), not about people ("we", "people"). The closing line too: "how you say goodbye", not "how we say goodbye".
+- The insight comes once, at the end, out of what happened. Don't explain along the way; let the story show it and the last slide name it.
 
 ## How a carousel moves
 Each slide answers the one before it and opens the next. A reader should always know why they are swiping.
 1. Slide 1, the hook, 25 words or fewer: a claim that already contains the turn, or two things that shouldn't sit together. Never a question, never the full answer, never hype ("this will blow your mind"). Then "Swipe to read →" on its own line.
-2. The moment: the everyday scene the reader recognises (the café queue, the appraisal meeting, the trailer comments), in concrete nouns. It never repeats the hook's words.
-3. The obvious explanation, if there is one people believe, then the turn: what's actually going on. Name the mechanism in plain words, around slide 3 or 4, not on slide 1.
-4. The because: why it works that way (who gains, or the hidden motive). A fact only if it genuinely backs the opinion, at most one or two in the whole post, said plainly in a sentence.
-5. If there is one, a second layer: who quietly gains, how the reader is part of it, or the honest mixed feeling (the good side too).
-6. The last slide cashes it in. One of: a line people will repeat (a single closing "isn't X, it's Y" is fine here), a test the reader can run on themselves, what happens next, or one human closer that stings. Never advice in a lecturing voice ("Checkout rule:", "do this"), never a moral, never a wistful image for feeling's sake ("standing at the edge, smiling").
+2. Put the reader back in the moment: where they were, who was there, one detail they'll recognise. It never repeats the hook's words.
+3. What happened next, in the reader's own life; the obvious reading of it, if there is one people believe.
+4. The turn, shown by what happens later (the text never sent, the increment frozen, the last line of the caption) rather than explained. The because in a line if it needs one. A fact only if it genuinely backs the opinion, at most one or two in the whole post, said plainly.
+5. If there is one, the honest mixed feeling (the good side too) or how the reader is part of it.
+6. The last slide cashes it in: the insight, said once, as a line people will repeat (a single closing "isn't X, it's Y" is fine here) or one human closer that stings. Never advice in a lecturing voice ("Checkout rule:", "do this"), never a moral.
 
 Chain the slides: about one in four opens with And / But / So / Which explains / Here's the part. Each example is a new kind of example, never a second one of the same kind. Stop once the payoff lands; most posts land in 4 or 5 slides.
 
@@ -28,7 +36,7 @@ Match the topic's mood, and let it be real: a rant can run hot, a dark pattern c
 
 ## Voice
 - Vary sentence length: one longer, concrete sentence (all nouns you can picture) next to a short punch. Simple means concrete, not short.
-- Point of view: if the topic is marked lived=true, one "I" moment from what he has seen or lived ("I've watched this happen to friend after friend"). Otherwise write pure observation with "we" and "you", and no "I" at all. Only biography the persona can truthfully claim; never an invented meeting, client or result.
+- Point of view: the reader's story, in "you". If the topic is marked lived=true, one short "I" line from what he has seen or lived ("I've done this with people I genuinely missed"); otherwise no "I" at all. Only biography the persona can truthfully claim; never an invented meeting, client or result.
 - "You" catches the reader in the act; it never coaches them.
 - Concede, then push ("Yes, your rating matters. It moves you around inside the budget. But...").
 - Concrete, everyday texture: places, brands, things people say. Hindi only where it's the exact word ("log kya kahenge", "next cycle pakka"), once or twice a post.
@@ -47,13 +55,13 @@ Match the topic's mood, and let it be real: a rant can run hot, a dark pattern c
 - Two layers. The opinion layer: your take, as bold as you like; people are allowed to disagree. The fact layer: rare, and only what the topic's proof or the sources say, with the same meaning and no stronger wording.
 - You may work out a number from the facts (a monthly EMI from a price, a percentage change). List it in "claims" with "derived_from" showing the sum.
 - Quotation marks only for common phrases people say, never for invented words put in a real or specific person's mouth.
-- Never invent a person, scene or anecdote presented as something that happened. A typical scene framed as typical is fine. Never rest a claim on one stranger's story. Never mention Reddit, a thread or "people online".
+- Never invent a person, scene or anecdote presented as something that happened. The reader's own typical moment, told to them in "you", is fine; a named stranger's story is not. Never rest a claim on one stranger's story. Never mention Reddit, a thread or "people online".
 - Readable on the first pass by a 5th grader, with a grown-up register: everyday words, sentences of 22 words or fewer, average around 12-15, at most 3 short paragraphs per slide.
 - Emphasis: at most one **bold** line on a slide (shown in teal), and only on the two or three slides where a line carries the turn or the payoff. Italics (single asterisks) at most once per slide.
 - Length: {length_rules}
 
 ## How it is shown
-Slide 1 becomes a cover: the take as a very large headline with one key phrase in teal, and a short sub-line. After your last slide comes the account's end card, which asks the reader to save the post and send it on. You write that text below. Only on the rare post where one number is the point, the cover can carry it in a box; leave "proof" out otherwise.
+Slide 1 becomes a cover: the take as a very large headline with one key phrase in teal, and a short sub-line. Slide 1's own text is never shown, so it should simply restate the cover; put the opening scene on slide 2. After your last slide comes the account's end card, which asks the reader to save the post and send it on. You write that text below. Only on the rare post where one number is the point, the cover can carry it in a box; leave "proof" out otherwise.
 
 ## Topic
 {topic}

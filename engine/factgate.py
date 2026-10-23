@@ -62,8 +62,10 @@ def still_valid(post: dict) -> bool:
 
 def ledger(draft: dict, due: str) -> list[dict]:
     ask = ("List every checkable claim about the world in this Instagram post, including implicit ones, as atomic claims. "
-           "Ignore opinions, jokes, rhetorical lines (\"Nobody cancelled the weddings\"), typical scenes framed as typical, and "
-           "anything about the post itself or its sources. Types: figure (a number presented as real data), event (something "
+           "Ignore opinions, jokes, rhetorical lines (\"Nobody cancelled the weddings\"), typical scenes framed as typical, "
+           "everyday practices any Indian reader has seen for themselves (udhaar written in a kirana diary, a 'Quick chat' "
+           "invite after a resignation, a relative saying 'itni door yaar'), and anything about the post itself or its sources. "
+           "Do check how named companies, apps, rules and markets work, and any figure. Types: figure (a number presented as real data), event (something "
            "that happened or is happening; note how it is framed), superlative (record, first, biggest, lowest, best-selling), "
            "entity_attribute (a named company or person is profitable, owned by, valued at, does X), feature (an app, "
            "platform, label or rule works a certain way, who pays what), arithmetic (a number worked out from others), "

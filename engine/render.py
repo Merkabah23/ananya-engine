@@ -200,13 +200,13 @@ def render_cover(cover: dict, n: int) -> Image.Image:
     for line in lines:
         x = float(SAFE)
         for w in line:
-            if w.startswith("["):
-                teal = True
-            word = w.strip("[]").replace(" ", " ")
-            d.text((x, y), word, font=f, fill=TEAL if teal else INK)
-            x += f.getlength(word + " ")
-            if w.endswith("]"):
-                teal = False
+            for piece in re.split(r"([\[\]])", w.replace(" ", " ")):  # brackets can sit inside punctuation: '[no],
+                if piece in "[]":
+                    teal = piece == "[" if piece else teal
+                    continue
+                d.text((x, y), piece, font=f, fill=TEAL if teal else INK)
+                x += f.getlength(piece)
+            x += f.getlength(" ")
         y += int(size * 1.12)
     y += 40
     for line in sub_lines:
@@ -262,13 +262,15 @@ def render_end(end: dict, n: int) -> Image.Image:
     y += 70
     save = (end.get("save") or "").replace(" Nov", " Nov")
     if save:
-        d.rounded_rectangle((MARGIN, y, W - MARGIN, y + 250), radius=28, fill=WHITE)
+        lines = _plain_lines(save, _font("Medium", 40), W - 2 * MARGIN - 88)  # the box grows; a save line is never cut
+        box = 142 + 54 * len(lines)
+        d.rounded_rectangle((MARGIN, y, W - MARGIN, y + box), radius=28, fill=WHITE)
         d.text((MARGIN + 44, y + 42), "Save this", font=_font("Bold", 56), fill=TEAL)
         yy = y + 120
-        for line in _plain_lines(save, _font("Medium", 40), W - 2 * MARGIN - 88)[:2]:
+        for line in lines:
             d.text((MARGIN + 44, yy), line.replace("\u00a0", " "), font=_font("Medium", 40), fill=INK)
             yy += 54
-        y += 320
+        y += box + 70
     for runs in _wrap(end.get("send", ""), 38, W - 2 * MARGIN)[:3]:
         d.text((MARGIN, y), " ".join(w for w, _ in runs), font=_font("Regular", 38), fill=(230, 244, 241))
         y += 52

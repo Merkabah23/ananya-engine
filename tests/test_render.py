@@ -37,3 +37,18 @@ def test_cover_headline_stays_inside_the_grid_crop():
     img = render.render_cover({"headline": "An unusually long cover headline that must shrink to [stay inside]"}, 5)
     strip = [img.getpixel((x, 400)) for x in list(range(0, render.SAFE - 40)) + list(range(render.W - render.SAFE + 40, render.W))]
     assert all(px == render.PAPER for px in strip)
+
+
+def test_cover_bracket_next_to_punctuation_closes_the_teal():
+    # "[goodbye]," used to leave the "]" on the slide and the rest of the line teal
+    img = render.render_cover({"headline": "'Let's catch up soon' is a [goodbye], not a plan", "sub": ""}, 5)
+    assert img.size == (render.W, render.H)
+
+
+def test_long_save_line_is_not_cut(monkeypatch):
+    drawn = []
+    real = render.ImageDraw.ImageDraw.text
+    monkeypatch.setattr(render.ImageDraw.ImageDraw, "text", lambda self, xy, t, *a, **k: (drawn.append(t), real(self, xy, t, *a, **k))[1])
+    save = "Pull this up before the next offsite speech that makes a weekend call feel compulsory, again and again."
+    render.render_end({"save": save, "send": "x"}, 5)
+    assert "compulsory," in " ".join(drawn) and "again." in " ".join(drawn)

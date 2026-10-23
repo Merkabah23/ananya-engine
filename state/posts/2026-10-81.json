@@ -1,0 +1,181 @@
+{
+ "id": "2026-10-81",
+ "status": "rejected",
+ "due": null,
+ "format": "carousel",
+ "topic": {
+  "title": "A new title instead of a raise",
+  "claim": "A fancier title is what a company hands you when it doesn't want to hand you money.",
+  "moment": "You asked for a hike, you got 'Senior' added to your designation and a pat on the back.",
+  "turn": {
+   "believed": "The promotion means they value you and the money will follow.",
+   "actually": "The title cost them nothing and bought your silence for another year."
+  },
+  "because": "Titles don't touch the salary budget, and they make you feel you've moved up. The company keeps the cost down and the loyalty up.",
+  "payoff": "A title you can't put on your next salary slip is a compliment, not a promotion.",
+  "lived": false,
+  "behaviour": "Firms rename roles at appraisal time and defer the actual raise.",
+  "mechanism": "A title is free to give and feels like progress, so it replaces cash.",
+  "group": "salaried people around appraisal season",
+  "territory": "business_brands",
+  "mood": "rant",
+  "format_name": "behind_the_brand",
+  "send_to": "the friend who just became a 'Lead' with no pay change",
+  "format_hint": "carousel",
+  "why_now": "hiring is tight and companies are freezing budgets but still need to hold people",
+  "needs_facts": false,
+  "news_peg": null,
+  "evidence": [],
+  "id": "2026-10-f02",
+  "score": {
+   "rank": 2,
+   "why": "Every office reader has gotten a title instead of a raise, and 'costs them nothing, buys your silence' is a real turn, not a nod.",
+   "scores": {
+    "relatable": 5,
+    "fresh_angle": 4,
+    "shareable": 4,
+    "saveable": 3,
+    "because": 4
+   },
+   "format_fit": "carousel"
+  }
+ },
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Hard failure #13 (cover clarity): the cover headline contains an unfilled placeholder — \"A new [title] is what they give when they won't give money.\" This reads as broken template text, not a finished claim, and fails the two-second clarity test."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 3,
+     "eq": 4,
+     "iq": 4,
+     "tight": 3
+    },
+    "notes": [
+     "Cover: replace the literal \"[title]\" with an actual word the post uses later (e.g. 'Senior', 'Lead') so it reads as a finished line — e.g. \"A new 'Senior' is what they give you when they won't give you money.\" This is the one thing blocking approval.",
+     "Slide 4 repeats slide 3's point almost verbatim — slide 3: \"a word added to your designation cost them nothing. Not one rupee left the budget,\" slide 4: \"A title hits nothing.\" Cut the repeated 'costs nothing' framing from slide 4 and keep only the new material (recurring cost forever vs. one-time, budgets frozen so they can't afford a real raise) — that's the actual payoff of slide 4 and it gets buried under the restatement.",
+     "Once slide 4 is trimmed to just the new material, check if it still needs its own slide or can fold into slide 3's back half — right now the two slides do one job between them, which is costing tightness.",
+     "Slide 2's '\"we really see you\"' line is good concrete texture — keep that, it's doing real work making the scene specific without inventing an event."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Hard failure #13 (cover clarity): the cover headline contains an unfilled placeholder — \"A new [title] is what they give when they won't give money.\" This reads as broken template text, not a finished claim, and fails the two-second clarity test.",
+    "Cover: replace the literal \"[title]\" with an actual word the post uses later (e.g. 'Senior', 'Lead') so it reads as a finished line — e.g. \"A new 'Senior' is what they give you when they won't give you money.\" This is the one thing blocking approval.",
+    "Slide 4 repeats slide 3's point almost verbatim — slide 3: \"a word added to your designation cost them nothing. Not one rupee left the budget,\" slide 4: \"A title hits nothing.\" Cut the repeated 'costs nothing' framing from slide 4 and keep only the new material (recurring cost forever vs. one-time, budgets frozen so they can't afford a real raise) — that's the actual payoff of slide 4 and it gets buried under the restatement.",
+    "Once slide 4 is trimmed to just the new material, check if it still needs its own slide or can fold into slide 3's back half — right now the two slides do one job between them, which is costing tightness.",
+    "Slide 2's '\"we really see you\"' line is good concrete texture — keep that, it's doing real work making the scene specific without inventing an event."
+   ]
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Every sentence is about the same length, which reads as a template. Put one longer, concrete sentence next to a short punch on most slides."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Hard failure 13 (cover clarity): the cover headline is a broken template — 'A new \"Senior\" is what they hand you instead of [money].' The literal bracket '[money]' was never filled in, so slide 1 reads as unfinished text, not a finished opinion a stranger can grasp in two seconds."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "tight": 4
+    },
+    "notes": [
+     "Cover: fix 'A new \"Senior\" is what they hand you instead of [money].' — the bracket is a leftover placeholder. Replace with a finished word, e.g. 'instead of a raise.' This has to be clean before anything else ships.",
+     "Slide 4: 'Budgets are frozen and they still can't afford to watch you walk, so the cheapest thing in the room becomes a title.' This states a specific company budget condition as universal fact. Keep the logic (title costs nothing, cash is scarce) but phrase it as the general incentive, not as if every reader's company has a frozen budget this exact appraisal cycle — tie it back to the why_now (hiring is tight) without overstating it as a fact about the reader's own office.",
+     "Slide 2: the quoted line 'we really see you' works as typical-manager-script, same convention as other posts' quoted lines — keep it, just make sure it doesn't read like it's quoting one specific real conversation (it currently reads fine as generic)."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Hard failure 13 (cover clarity): the cover headline is a broken template — 'A new \"Senior\" is what they hand you instead of [money].' The literal bracket '[money]' was never filled in, so slide 1 reads as unfinished text, not a finished opinion a stranger can grasp in two seconds.",
+    "Cover: fix 'A new \"Senior\" is what they hand you instead of [money].' — the bracket is a leftover placeholder. Replace with a finished word, e.g. 'instead of a raise.' This has to be clean before anything else ships.",
+    "Slide 4: 'Budgets are frozen and they still can't afford to watch you walk, so the cheapest thing in the room becomes a title.' This states a specific company budget condition as universal fact. Keep the logic (title costs nothing, cash is scarce) but phrase it as the general incentive, not as if every reader's company has a frozen budget this exact appraisal cycle — tie it back to the why_now (hiring is tight) without overstating it as a fact about the reader's own office.",
+    "Slide 2: the quoted line 'we really see you' works as typical-manager-script, same convention as other posts' quoted lines — keep it, just make sure it doesn't read like it's quoting one specific real conversation (it currently reads fine as generic)."
+   ]
+  }
+ ],
+ "sources": [],
+ "draft": {
+  "cover": {
+   "headline": "A new 'Senior' is what they hand you instead of [money].",
+   "sub": "You asked for a raise and walked out a 'Senior'."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "You walked in asking for a hike. You walked out a 'Senior' with the exact same salary.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "Reader wants to see how the 'Senior' trick actually plays out."
+   },
+   {
+    "paragraphs": [
+     "The manager slides it across like good news: new designation, more ownership, \"we really see you.\"",
+     "Your bank balance doesn't notice. Same number, longer name in the email signature."
+    ],
+    "why_swipe": "If the money didn't move, what did they actually give you?"
+   },
+   {
+    "paragraphs": [
+     "You tell yourself the money follows the title. Next cycle pakka.",
+     "But a raise lands in your account every month, for as long as you stay. A word added to your designation lands nowhere."
+    ],
+    "why_swipe": "So why does the free option beat a real raise for them?"
+   },
+   {
+    "paragraphs": [
+     "Budgets are frozen and they still can't afford to watch you walk, so the cheapest thing in the room becomes a title.",
+     "**It costs nothing to print and buys another year of your loyalty.**"
+    ],
+    "why_swipe": "There's a way to test whether your shiny new title is worth anything."
+   },
+   {
+    "paragraphs": [
+     "Here's the test. Open a job site and type in your new title. Watch the offers come back based on what you do, not the word on your card.",
+     "**A title you can't put on your next salary slip is a compliment, not a promotion.**"
+    ],
+    "why_swipe": ""
+   }
+  ],
+  "end": {
+   "save": "Keep it for the week they add a word to your title and nothing to your account.",
+   "send": "Send to the friend who just became a 'Lead' with the same pay.",
+   "promise": "How Indian offices really work."
+  },
+  "caption": "What title did they hand you the year you asked for a raise instead?",
+  "hashtags": [
+   "#appraisalseason",
+   "#salaryhike",
+   "#corporatelife",
+   "#promotion"
+  ],
+  "alt_text": "A five-slide carousel arguing that companies hand out fancier job titles at appraisal time to avoid giving actual raises, because a title costs nothing and still feels like progress.",
+  "claims": []
+ },
+ "updated_at": "2026-10-23T10:24:20.309170+00:00",
+ "error": "held: too many office posts in a row; revisit later"
+}

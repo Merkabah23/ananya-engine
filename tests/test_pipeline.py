@@ -186,7 +186,14 @@ def test_question_hook_and_missing_swipe_reason_are_caught():
 
 
 def test_editor_needs_real_eq_or_iq_and_a_tight_post():
-    craft = {k: 4 for k in ("hook", "relatable", "fresh_angle", "pull", "payoff", "voice", "tight")}
+    craft = {k: 4 for k in ("hook", "relatable", "fresh_angle", "pull", "payoff", "voice", "story", "tight")}
     assert writer.passes({"violations": [], "scores": {**craft, "eq": 5, "iq": 3}})
     assert not writer.passes({"violations": [], "scores": {**craft, "eq": 3, "iq": 3}})       # neither lands
     assert not writer.passes({"violations": [], "scores": {**craft, "tight": 3, "eq": 5, "iq": 5}})  # over-explained
+    assert not writer.passes({"violations": [], "scores": {**craft, "story": 3, "eq": 5, "iq": 5}})  # a pattern, not the reader's story
+
+
+def test_banned_phrase_on_the_cover_is_caught():
+    d = {"cover": {"headline": "A [take] here", "sub": "The rules quietly stop applying."},
+         "slides": [{"paragraphs": ["hook"]}, {"paragraphs": ["one two three"]}], "claims": []}
+    assert any("quietly" in p for p in writer.hard_checks(d, "carousel", []))

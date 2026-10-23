@@ -31,7 +31,7 @@ def fake_call_json(model, user, stage="", **kw):
                 "alt_text": "A text post", "claims": []}
     if stage == "critic":
         return {"pass": True, "violations": [], "notes": [],
-                "scores": {k: 5 for k in ("hook", "relatable", "fresh_angle", "pull", "payoff", "voice", "eq", "iq", "tight")}}
+                "scores": {k: 5 for k in ("hook", "relatable", "fresh_angle", "pull", "payoff", "voice", "eq", "iq", "story", "tight")}}
     if stage == "ledger":
         return {"claims": []}
     if stage == "blindtest":
