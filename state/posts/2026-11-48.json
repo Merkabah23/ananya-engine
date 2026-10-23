@@ -1,6 +1,6 @@
 {
  "id": "2026-11-48",
- "status": "planned",
+ "status": "uploaded",
  "due": "2026-11-25T19:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -35,6 +35,136 @@
    "format_fit": "either"
   }
  },
- "history": [],
- "updated_at": "2026-10-22T17:38:38.869326+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "specificity": 3,
+     "mechanism": 4,
+     "ending": 4,
+     "voice": 4
+    },
+    "edits": [
+     "slide 5: replace 'The salary was never the real complaint. The rest was.' with 'It was never about the salary. It was about being seen resting.' The current line is a vague pun a quick reader may miss.",
+     "slide 3: cut 'That's the bar for not being called useless at breakfast.' It repeats the hook's framing. Let 'Roughly half a percent.' land as the end of the slide.",
+     "slide 2: change 'Still sorted, supposedly.' to 'Sorted again.' The word 'supposedly' is soft and the line is shorter and plainer."
+    ]
+   },
+   "facts": []
+  }
+ ],
+ "updated_at": "2026-10-23T05:20:20.996523+00:00",
+ "sources": [
+  {
+   "url": "https://ianslive.in/taxpayers-earning-rs-100-crore-plus-jump-39-pc-to-576-in-ay26-report--20260817110445",
+   "fact": "Taxpayers reporting income of Rs 1 crore or more rose 14% to 5,35,672 in AY26, which is more than double the AY22 level. This is a very small group, so the ₹1 Cr bar is far above where most families are.",
+   "excerpt": "the number of taxpayers reporting income of Rs 1 crore or more increased by 14 per cent to 5,35,672 in AY26 | The Rs 1 crore-plus taxpayer population has more than doubled since AY22 | The number of taxpayers reporting annual income of Rs 100 crore or more rose 39 per cent to 576 | the Rs 100 crore-plus category has quadrupled over the same period."
+  },
+  {
+   "url": "https://studycafe.in/more-than-4-68-lakh-taxpayers-filed-itr-for-income-over-rs-1-crore-till-feb-2025-371171.html",
+   "fact": "Only about 4.69 lakh of more than 9.11 crore ITR filers had reported income above Rs 1 crore as of 28 Feb 2025 (FY 2024-25). That is roughly 0.5% of filers.",
+   "excerpt": "4,68,658 taxpayers filed returns exceeding Rs.1 crore | more than 9.11 crore registered users have filed their income tax returns (ITRs)"
+  }
+ ],
+ "draft": {
+  "slides": [
+   {
+    "paragraphs": [
+     "Only about half a percent of Indian tax filers earn ₹1 crore a year. In a lot of homes, that's now the bare minimum.",
+     "Swipe to read →"
+    ]
+   },
+   {
+    "paragraphs": [
+     "First the bar was a college. Get into a top one and you're sorted.",
+     "Then it was a salary. ₹2 lakh a month and you're sorted.",
+     "Now in a lot of homes it's ₹1 crore a year. Sorted again."
+    ]
+   },
+   {
+    "paragraphs": [
+     "For scale: as of February 2025, about 4.69 lakh out of 9.11 crore tax filers reported income above ₹1 crore.",
+     "Roughly half a percent."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Nobody in the family sat down and picked it. The number comes from the circle.",
+     "Whatever chacha's son or the neighbour's daughter is doing this year becomes the minimum.",
+     "So it moves the way prices move. Up, every few years."
+    ]
+   },
+   {
+    "paragraphs": [
+     "I see it in my own house. Work till 2 am and no one says a word.",
+     "Sit with chai at 10 am and suddenly there's a talk about the future.",
+     "It was never about the salary. It was about being seen resting."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Say you hit ₹1 crore next year. Enjoy that one lazy morning on the sofa.",
+     "By the next Diwali lunch, someone will have added a zero."
+    ]
+   }
+  ],
+  "caption": "The bar at home moves faster than any appraisal I've ever had",
+  "hashtags": [
+   "#IndianParents",
+   "#SalaryIndia",
+   "#AppraisalSeason",
+   "#MiddleClassIndia"
+  ],
+  "alt_text": "A six-slide text carousel about how Indian families keep raising the bar for success. It moves from getting into a top college, to earning ₹2 lakh a month, to earning ₹1 crore a year. It notes that only about 4.69 lakh of 9.11 crore tax filers reported income above ₹1 crore as of February 2025. It argues the bar is set by what relatives are doing, rises like prices, and is really about rest being seen as failure. It ends with the joke that by the next Diwali lunch someone will have added a zero.",
+  "claims": [
+   {
+    "text": "The bar was once getting into a top college, then ₹2 lakh a month, now ₹1 crore a year",
+    "source_url": "topic"
+   },
+   {
+    "text": "Being found lazing in the morning leads to being called useless unless earning ₹1 crore a year",
+    "source_url": "topic"
+   },
+   {
+    "text": "As of February 2025, about 4.69 lakh of 9.11 crore ITR filers reported income above ₹1 crore, roughly half a percent",
+    "source_url": "https://studycafe.in/more-than-4-68-lakh-taxpayers-filed-itr-for-income-over-rs-1-crore-till-feb-2025-371171.html"
+   }
+  ],
+  "hook_type": "doesnt_add_up",
+  "hook_candidates": [
+   {
+    "type": "doesnt_add_up",
+    "hook": "Only about half a percent of Indian tax filers earn ₹1 crore a year. In a lot of homes, that's now the bare minimum."
+   },
+   {
+    "type": "sounds_wrong",
+    "hook": "In a lot of Indian homes, you now need ₹1 crore a year before you're allowed one lazy morning. And I know how that sounds."
+   },
+   {
+    "type": "weird_behaviour",
+    "hook": "Work till 2 am and nobody in my house says a word. Sit with chai at 10 am, and suddenly we need to talk about the future."
+   },
+   {
+    "type": "before_after",
+    "hook": "In Indian homes, 'sorted' used to mean a good college. Then ₹2 lakh a month. Now it's ₹1 crore a year. Guess what's next."
+   },
+   {
+    "type": "motive_bust",
+    "hook": "Indian families don't push you toward ₹1 crore a year because of the money. They push because of what they can't stand to see."
+   }
+  ],
+  "caption_style": "pov"
+ },
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-48/slide_01.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-48/slide_02.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-48/slide_03.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-48/slide_04.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-48/slide_05.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-48/slide_06.jpg"
+ ]
 }

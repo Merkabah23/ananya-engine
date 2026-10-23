@@ -1,6 +1,6 @@
 {
  "id": "2026-11-49",
- "status": "planned",
+ "status": "uploaded",
  "due": "2026-11-07T11:00:00+05:30",
  "format": "single",
  "topic": {
@@ -36,6 +36,77 @@
    "format_fit": "either"
   }
  },
- "history": [],
- "updated_at": "2026-10-22T17:38:38.869585+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 3,
+     "specificity": 3,
+     "mechanism": 4,
+     "ending": 3,
+     "voice": 3
+    },
+    "edits": [
+     "slide 1: Open with the take, not the report. Try 'A ban on freelancing tells you what your boss thinks he bought.' Then bring in the Rajkot designer.",
+     "slide 1: Change 'Almost 12 hours a day' to 'Almost 12 hours of work'. The source says only 'reportedly almost 12 hours of work', so 'a day' and the lack of 'reportedly' go slightly past it.",
+     "slide 1: Change 'describes an agency's offer' to 'shared an agency's offer'. It reads less like a news report and more like a person talking."
+    ]
+   },
+   "facts": []
+  }
+ ],
+ "updated_at": "2026-10-23T05:20:05.736548+00:00",
+ "sources": [],
+ "draft": {
+  "slides": [
+   {
+    "paragraphs": [
+     "A ban on freelancing tells you what your boss thinks he bought.",
+     "A designer in Rajkot shared an agency's offer. Almost 12 hours of work. No phone. A one-year bond, and no freelancing from home.",
+     "That last rule is the honest one. It says they think they paid for your evenings too. The poster says no company in their Tier 2 city gives a Saturday-Sunday weekend."
+    ]
+   }
+  ],
+  "caption": "A salary used to buy your hours, and outside the big metros that fine print is quietly getting longer",
+  "hashtags": [
+   "#JobOfferIndia",
+   "#FreelancingIndia",
+   "#Tier2Cities",
+   "#WorkCultureIndia"
+  ],
+  "alt_text": "A single text slide. It describes a job offer a designer in Rajkot received from an agency: almost 12 hours of work, no phone, a one-year bond and no freelancing from home. It argues the freelancing ban shows the employer thinks it paid for the worker's evenings too, and notes that the poster says no company in their Tier 2 city gives a Saturday-Sunday weekend.",
+  "claims": [
+   {
+    "text": "A designer in Rajkot describes an agency's offer",
+    "source_url": "topic"
+   },
+   {
+    "text": "The offer reportedly involved almost 12 hours of work",
+    "source_url": "topic"
+   },
+   {
+    "text": "No phone allowed",
+    "source_url": "topic"
+   },
+   {
+    "text": "A one-year bond",
+    "source_url": "topic"
+   },
+   {
+    "text": "No freelancing from home",
+    "source_url": "topic"
+   },
+   {
+    "text": "No company in their Tier 2 city gives a Saturday-Sunday weekend, per the person describing the offer",
+    "source_url": "topic"
+   }
+  ],
+  "caption_style": "pov"
+ },
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-49/slide_01.jpg"
+ ]
 }

@@ -1,6 +1,6 @@
 {
  "id": "2026-11-52",
- "status": "planned",
+ "status": "uploaded",
  "due": "2026-11-21T11:00:00+05:30",
  "format": "single",
  "topic": {
@@ -34,6 +34,77 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-10-22T17:38:38.870407+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 3,
+     "specificity": 3,
+     "mechanism": 4,
+     "ending": 4,
+     "voice": 4
+    },
+    "edits": [
+     "slide 1: change 'Then markets fell 15-20% between Oct 2024 and March 2025.' to 'Between Oct 2024 and March 2025, markets fell 15-20%.' The 'Then' implies the same people who posted were the ones who stopped, and the source doesn't say that.",
+     "slide 1: split the opener. Make 'Bad times come and go, keep investing.' its own short line so it reads like the quoted post.",
+     "slide 1: swap 'every like is a small loan of courage' for something plainer, e.g. 'every like helps him believe it.' The loan metaphor is a bit engineered for a 5th grader."
+    ]
+   },
+   "facts": []
+  }
+ ],
+ "updated_at": "2026-10-23T05:20:08.296801+00:00",
+ "sources": [
+  {
+   "url": "https://www.outlookmoney.com/invest/sip-stop-ratio-surges-from-october-2024-march-2025-as-market-corrects-15-20-per-cent",
+   "fact": "Indian retail investors stopped SIPs in large numbers when markets fell 15–20% between Oct 2024 and Mar 2025. This is the opposite of the long-horizon 'stonks are forever' stance that is posted publicly.",
+   "excerpt": "began rising from Sep–Oct 2024, climbing to 80 per cent and further spiking to 128 per cent by March 2025. ... the SIP stop ratio during the Oct 2024–Mar 2025 period, when the markets corrected nearly 15–20 per cent. ... Retail investors stopped their SIPs when the markets started to fall and their portfolios started showing low/negative returns. ... The fact that the SIP stop ratio was at its highest when it should have been at its lowest, and vice versa, is most concerning"
+  },
+  {
+   "url": "https://www.outlookbusiness.com/markets/fo-frenzy-over-93-retail-investors-lost-average-rs-2-lakh-in-three-years-says-sebi",
+   "fact": "A SEBI study found that over 93% of individual F&O traders lost money over FY22-FY24, an average of about Rs 2 lakh each. This shows how many retail investors have bad portfolios to cope with.",
+   "excerpt": "Over 93 per cent of over 1 crore individual F&O traders incurred average losses of around Rs 2 lakh per trader ... only 7.2 per cent of individual F&O traders made a profit over the last three years ... The top 3.5 per cent of loss-makers, approximately 4 lakh traders, faced an average loss of Rs 28 lakh per person"
+  }
+ ],
+ "draft": {
+  "slides": [
+   {
+    "paragraphs": [
+     "Every time the market dips, someone shows up to say they've been investing for 10 years.\nBad times come and go, keep investing.",
+     "Nobody says this when Nifty is green. He's calming himself in public, and every like helps him believe it.",
+     "Between Oct 2024 and March 2025, markets fell 15-20%. The SIP stop ratio hit 128%.",
+     "Brave in the comments. Quiet in the app."
+    ]
+   }
+  ],
+  "caption": "What's the line you tell yourself when your portfolio goes red, and did you actually keep your SIP running?",
+  "hashtags": [
+   "#PersonalFinanceIndia",
+   "#SIPInvesting",
+   "#StockMarketIndia",
+   "#RetailInvestors"
+  ],
+  "alt_text": "Single text slide. Every time the market dips, someone says they've been investing for 10 years and bad times come and go. Nobody says this when the market is up; they are calming themselves in public. When markets fell 15-20% between October 2024 and March 2025, the SIP stop ratio hit 128%. Closing line: brave in the comments, quiet in the app.",
+  "claims": [
+   {
+    "text": "Retail investors post that they have been investing for 10 years and that bad times come and go, urging others to keep investing",
+    "source_url": "topic"
+   },
+   {
+    "text": "Markets corrected nearly 15-20% between Oct 2024 and Mar 2025",
+    "source_url": "https://www.outlookmoney.com/invest/sip-stop-ratio-surges-from-october-2024-march-2025-as-market-corrects-15-20-per-cent"
+   },
+   {
+    "text": "The SIP stop ratio spiked to 128% by March 2025",
+    "source_url": "https://www.outlookmoney.com/invest/sip-stop-ratio-surges-from-october-2024-march-2025-as-market-corrects-15-20-per-cent"
+   }
+  ],
+  "caption_style": "question"
+ },
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-52/slide_01.jpg"
+ ]
 }
