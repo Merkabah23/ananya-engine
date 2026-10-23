@@ -107,3 +107,31 @@ def test_an_ongoing_trend_is_not_stale_news():
     trend = claim("Since May, old gold is a big part of what jewellers sell", "event", framed="current",
                   sentence="Since May, old gold like hers is a big part of what he sells.")
     assert factgate.judge(trend, verdict(event_date="2026-05-13"), DUE, on_page) is None
+
+
+def test_same_text_gets_the_same_verdict_without_new_calls(monkeypatch):
+    calls = []
+    def fake(model, user, stage="", **kw):
+        calls.append(stage)
+        return {"claims": []} if stage == "ledger" else {}
+    monkeypatch.setattr(llm, "call_json", fake)
+    post, draft = {"due": DUE, "topic": {}}, {"slides": [{"paragraphs": ["He waves your phone away."]}]}
+    first = factgate.verify(post, draft, on_page)
+    assert factgate.verify(post, draft, on_page)["passed"] == first["passed"] and calls == ["ledger"]
+
+
+def test_an_edit_only_rereads_the_changed_sentences(monkeypatch):
+    asks = []
+    kept = claim("Banks use credit scores", "feature", sentence="A bank goes by your score.")
+    def fake(model, user, stage="", **kw):
+        asks.append(user)
+        if stage == "ledger":
+            return {"claims": [kept]} if len(asks) == 1 else {"claims": []}
+        return {"c1": verdict()}
+    monkeypatch.setattr(llm, "call_json", fake)
+    monkeypatch.setattr(factgate, "web_verify", lambda claims, due, leads: {c["id"]: verdict() for c in claims})
+    post = {"due": DUE, "topic": {}}
+    factgate.verify(post, {"slides": [{"paragraphs": ["A bank goes by your score.", "He knows why."]}]}, on_page)
+    out = factgate.verify(post, {"slides": [{"paragraphs": ["A bank goes by your score.", "He knows why you didn't."]}]}, on_page)
+    assert "- He knows why you didn't." in asks[-1] and "- A bank goes by your score." not in asks[-1]
+    assert [c["text"] for c in out["ledger"]] == ["Banks use credit scores"] and out["passed"]

@@ -60,7 +60,24 @@ def still_valid(post: dict) -> bool:
 
 # --- A: claim ledger -------------------------------------------------------------------------------------------
 
-def ledger(draft: dict, due: str) -> list[dict]:
+def _sentences(text: str) -> list[str]:
+    return [x for x in re.split(r"(?<=[.!?])\s+|\n+", re.sub(r"\[(cover|slide \d+|end card|caption|alt text)\]", "", text))
+            if _norm(x)]
+
+
+def ledger(draft: dict, due: str, prior: dict | None = None) -> list[dict]:
+    """The post's checkable claims. With `prior` (the last ledger of this post and the text it was read from), claims
+    from sentences that are still in the post are kept word for word, and only new sentences go to the model, so an
+    edit to one line can't change how the rest is read (or which cached verdicts apply)."""
+    text, kept, changed = final_text(draft), [], None
+    if prior and prior.get("text"):
+        seen = {_norm(x) for x in _sentences(prior["text"])}
+        changed = [x for x in _sentences(text) if _norm(x) not in seen]
+        body = _norm(text)
+        kept = [c for c in prior.get("claims", []) if c.get("type") != "mechanism" and c.get("sentence")
+                and _norm(c["sentence"]) in body]
+        if not changed:
+            return _numbered(kept + [c for c in prior.get("claims", []) if c.get("type") == "mechanism"])
     ask = ("List every checkable claim about the world in this Instagram post, including implicit ones, as atomic claims. "
            "Ignore opinions, jokes, rhetorical lines (\"Nobody cancelled the weddings\"), typical scenes framed as typical, "
            "everyday practices any Indian reader has seen for themselves (udhaar written in a kirana diary, a 'Quick chat' "
@@ -77,8 +94,15 @@ def ledger(draft: dict, due: str) -> list[dict]:
            'the post presents it as just happened or happening now (just, now, this week, this month, is testing); past for '
            'anything dated or over; timeless for how things work and annual figures", '
            '"expr": "arithmetic only: the sum in digits, e.g. 86999/6", "stated": "arithmetic only: the number the post states"}]}')
+    if changed is not None:
+        ask += ("\n\nThe rest of this post was already checked. List only claims whose words come from these new "
+                "sentences, plus the post's mechanism claim:\n" + "\n".join(f"- {x}" for x in changed))
     out = llm.call_json(config.MODEL_JUDGE, ask, stage="ledger")
-    return [c for c in out.get("claims", []) if isinstance(c, dict) and c.get("text")]
+    return _numbered(kept + [c for c in out.get("claims", []) if isinstance(c, dict) and c.get("text")])
+
+
+def _numbered(claims: list[dict]) -> list[dict]:
+    return [{**c, "id": f"c{i}"} for i, c in enumerate(claims, 1)]
 
 
 # --- B: arithmetic --------------------------------------------------------------------------------------------
@@ -298,7 +322,11 @@ def judge(claim: dict, verdict: dict | None, due: str, fetch=quote_on_page) -> s
 def verify(post: dict, draft: dict, fetch=quote_on_page) -> dict:
     due = post.get("due") or ""
     cache = post.setdefault("verification_cache", {})
-    claims = ledger(draft, due)
+    done = cache.get("_by_text", {}).get(text_hash(draft))
+    if done:  # exactly this text was judged before: the same verdict, no new calls
+        return {**done, "at": datetime.now(timezone.utc).isoformat()}
+    claims = ledger(draft, due, cache.get("_ledger"))
+    cache["_ledger"] = {"text": final_text(draft), "claims": claims}
     checkable = [c for c in claims if c.get("type") in CHECKED]
     fresh = [c for c in checkable if c["text"] not in cache]
     verdicts = {c["id"]: cache[c["text"]] for c in checkable if c["text"] in cache}
@@ -316,5 +344,7 @@ def verify(post: dict, draft: dict, fetch=quote_on_page) -> dict:
             take_dead = mechanism.get("take_survives") is False
             notes.insert(0, f"The take's premise is wrong: {mechanism.get('broken_premise')}. How it actually works: "
                             f"{mechanism.get('actual_mechanism')} Rebuild the post on the correct mechanism.")
-    return {"passed": not notes, "take_dead": take_dead, "notes": notes, "ledger": claims, "verdicts": verdicts,
-            "mechanism": mechanism, "text_hash": text_hash(draft), "at": datetime.now(timezone.utc).isoformat()}
+    result = {"passed": not notes, "take_dead": take_dead, "notes": notes, "ledger": claims, "verdicts": verdicts,
+              "mechanism": mechanism, "text_hash": text_hash(draft), "at": datetime.now(timezone.utc).isoformat()}
+    cache.setdefault("_by_text", {})[result["text_hash"]] = result
+    return result
