@@ -743,3 +743,11 @@
 {"at": "2026-10-23T05:34:58.196642+00:00", "stage": "select", "model": "sonnet", "ok": true, "secs": 139.0, "notional_usd": 0.364275}
 {"at": "2026-10-23T05:35:46.006677+00:00", "stage": "seen-check", "model": "sonnet", "ok": true, "secs": 47.8, "notional_usd": 0.7938688999999999}
 {"at": "2026-10-23T05:36:16.668295+00:00", "stage": "seen-check", "model": "sonnet", "ok": true, "secs": 78.5, "notional_usd": 0.9833544999999998}
+{"at": "2026-10-23T05:37:34.877376+00:00", "stage": "sources", "model": "sonnet", "ok": true, "secs": 37.2, "notional_usd": 0.08703349999999999}
+{"at": "2026-10-23T05:38:08.404902+00:00", "stage": "write", "model": "opus", "ok": true, "secs": 33.5, "notional_usd": 0.14129999999999998}
+{"at": "2026-10-23T05:38:20.527984+00:00", "stage": "repair", "model": "sonnet", "ok": true, "secs": 12.1, "notional_usd": 0.030382}
+{"at": "2026-10-23T05:38:31.415331+00:00", "stage": "repair", "model": "sonnet", "ok": true, "secs": 10.9, "notional_usd": 0.029496}
+{"at": "2026-10-23T05:38:36.579691+00:00", "stage": "factcheck", "model": "sonnet", "ok": true, "secs": 5.2, "notional_usd": 0.013794}
+{"at": "2026-10-23T05:38:39.693102+00:00", "stage": "critic", "model": "sonnet", "ok": true, "secs": 8.3, "notional_usd": 0.043016}
+{"at": "2026-10-23T05:38:50.174365+00:00", "stage": "repair", "model": "sonnet", "ok": true, "secs": 10.5, "notional_usd": 0.029048000000000004}
+{"at": "2026-10-23T05:39:01.686313+00:00", "stage": "hook", "model": "opus", "ok": true, "secs": 11.5, "notional_usd": 0.041752}

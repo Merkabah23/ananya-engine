@@ -1,6 +1,6 @@
 {
  "id": "2026-11-53",
- "status": "planned",
+ "status": "uploaded",
  "due": "2026-11-16T19:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -40,6 +40,136 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-10-23T05:36:16.671896+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "specificity": 4,
+     "mechanism": 4,
+     "ending": 3,
+     "voice": 4
+    },
+    "edits": [
+     "slide 5: drop 'The funny part?' and open straight with 'From 1 October, RBI wants banks to publish deposit rates in advance.' Then cut 'They must keep them the same at every branch' to lighten the slide.",
+     "slide 6: cut 'So far, that's been a very safe bet.' The first line is the sendable one and the second explains it.",
+     "slide 2: cut 'You probably grumbled. You probably didn't leave.' The 'stay' point lands harder in slide 4, and the grumbling is already in the caption."
+    ]
+   },
+   "facts": []
+  }
+ ],
+ "updated_at": "2026-10-23T05:39:12.474428+00:00",
+ "sources": [
+  {
+   "url": "https://www.freepressjournal.in/business/sbi-halves-free-atm-limit-salary-customers-to-pay-sooner",
+   "fact": "From 1 October 2026, SBI salary account holders get 5 free transactions a month at other banks' ATMs, down from 10, and pay Rs 23 plus GST per cash withdrawal after that.",
+   "excerpt": "From October 1, SBI salary account holders will get five free monthly transactions at other banks ATMs. The monthly allowance will include financial and non-financial transactions. The bank has not increased the fee levied on each additional transaction. After the free limit, cash withdrawals cost ₹23 plus GST per withdrawal, and non-financial transactions cost ₹11 plus GST. Cardless withdrawals remain outside the revised limit."
+  },
+  {
+   "url": "https://www.businesstoday.in/personal-finance/investment/story/rbis-new-fd-rules-from-october-1-what-fixed-deposit-investors-need-to-know-546667-2026-08-01",
+   "fact": "RBI's revised deposit rules, effective 1 October 2026, require uniform deposit rates across branches and advance publication of rate schedules, but they do not directly change FD rates.",
+   "excerpt": "banks will no longer be allowed to offer different interest rates on similar deposits accepted on the same day. interest rates offered on deposits, including bulk deposits, must remain uniform across all branches. publish their deposit interest rate schedule on their websites before offering those rates to customers. deposit rates, including those applicable to bulk deposits, must strictly follow the schedule disclosed in advance. banks will be required to upload applicable interest rates on their websites at 10:00 am on every business day. The revised rules do not directly alter FD interest rates."
+  },
+  {
+   "url": "https://www.businesstoday.in/personal-finance/story/sbi-customers-alert-4-cash-withdrawals-free-from-october-1-but-the-5th-will-cost-you-this-much-550927-2026-08-24",
+   "fact": "From 1 October 2026, SBI also tightens limits on Basic Savings Bank Deposit accounts, with 4 free cash withdrawals a month, and AePS withdrawals now count toward that limit.",
+   "excerpt": "Customers who withdraw cash more than four times a month will have to pay ₹15 plus applicable GST. Under the revised rules, BSBD account holders will continue to get four free cash withdrawals every month. Earlier, AePS transactions were not included in the monthly four-transaction limit. From October 1, they will be counted along with ATM and branch withdrawals."
+  }
+ ],
+ "draft": {
+  "slides": [
+   {
+    "paragraphs": [
+     "SBI salary accounts now get 5 free withdrawals at other banks' ATMs, down from 10. So why will almost nobody switch banks?",
+     "Swipe to read →"
+    ]
+   },
+   {
+    "paragraphs": [
+     "From 1 October, SBI salary accounts get 5 free transactions a month at other banks' ATMs. It used to be 10. After that, ₹23 plus GST per cash withdrawal."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Nobody shops for a bank account. It's like the geyser. It came with the flat, it works, and you only notice it when it breaks.",
+     "I'm the same. I've changed countries and kept the account."
+    ]
+   },
+   {
+    "paragraphs": [
+     "And moving it means touching everything. The SIP mandate. The EMI auto-debit. The UPI ID saved in the family group.",
+     "All that, to dodge ₹23 plus GST. So you stay, and the next charge slips in too."
+    ]
+   },
+   {
+    "paragraphs": [
+     "From 1 October, RBI wants banks to publish deposit rates in advance and upload them at 10 am every business day.",
+     "The price list is right there now. Hardly anyone will open it."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Banks don't need you to love them. They just need you to dread one form more than you hate ₹23."
+    ]
+   }
+  ],
+  "caption": "Which charge did your bank quietly add that still wasn't enough to make you switch?",
+  "hashtags": [
+   "#PersonalFinanceIndia",
+   "#SalaryAccount",
+   "#BankCharges",
+   "#SBI"
+  ],
+  "alt_text": "Six-slide text carousel about why salaried Indians never move their salary account. It notes that from 1 October SBI salary account holders get 5 free transactions a month at other banks' ATMs, down from 10, with ₹23 plus GST per cash withdrawal after that. It says people treat a bank account like a household appliance, that SIPs, EMIs and UPI IDs make moving feel like too much work, and that new RBI rules require banks to publish deposit rates in advance even though few people check. It ends by saying banks only need customers to dread the paperwork more than the fees.",
+  "claims": [
+   {
+    "text": "From 1 October 2026, SBI salary account holders get 5 free transactions a month at other banks' ATMs, down from 10",
+    "source_url": "https://www.freepressjournal.in/business/sbi-halves-free-atm-limit-salary-customers-to-pay-sooner"
+   },
+   {
+    "text": "After the free limit, SBI charges ₹23 plus GST per cash withdrawal",
+    "source_url": "https://www.freepressjournal.in/business/sbi-halves-free-atm-limit-salary-customers-to-pay-sooner"
+   },
+   {
+    "text": "From 1 October 2026, RBI rules require banks to publish deposit rate schedules in advance, upload rates at 10 am every business day, and keep rates uniform across branches",
+    "source_url": "https://www.businesstoday.in/personal-finance/investment/story/rbis-new-fd-rules-from-october-1-what-fixed-deposit-investors-need-to-know-546667-2026-08-01"
+   }
+  ],
+  "hook_type": "question_gap",
+  "hook_candidates": [
+   {
+    "type": "weird_behaviour",
+    "hook": "You've switched phones, apps, maybe even jobs. The salary account HR opened in week one is still there. Your bank is counting on that."
+   },
+   {
+    "type": "question_gap",
+    "hook": "SBI salary accounts now get 5 free withdrawals at other banks' ATMs, down from 10. So why will almost nobody switch banks?"
+   },
+   {
+    "type": "vivid_reframe",
+    "hook": "You never picked your bank. HR did, in your first week. Years and jobs later, that one form still decides what you pay."
+   },
+   {
+    "type": "sounds_wrong",
+    "hook": "Your bank's favourite customer is the one who's too tired to leave. And I'm pretty sure that's you. It's definitely me."
+   },
+   {
+    "type": "motive_bust",
+    "hook": "People say they stay with their bank because it's fine. They really stay because leaving means touching every EMI, SIP and UPI ID."
+   }
+  ],
+  "caption_style": "question"
+ },
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-53/slide_01.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-53/slide_02.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-53/slide_03.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-53/slide_04.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-53/slide_05.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-53/slide_06.jpg"
+ ]
 }
