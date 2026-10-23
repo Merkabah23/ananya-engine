@@ -14,7 +14,15 @@ Each slide answers the one before it and opens the next. A reader should always 
 5. If there is one, a second layer: who quietly gains, how the reader is part of it, or the honest mixed feeling (the good side too).
 6. The last slide cashes it in. One of: a line people will repeat (a single closing "isn't X, it's Y" is fine here), a test the reader can run on themselves, what happens next, or one human closer that stings. Never advice in a lecturing voice ("Checkout rule:", "do this"), never a moral, never a wistful image for feeling's sake ("standing at the edge, smiling").
 
-Chain the slides: about one in four opens with And / But / So / Which explains / Here's the part. Each example is a new kind of example, never a second one of the same kind. Stop once the payoff lands; use as few slides as the idea needs.
+Chain the slides: about one in four opens with And / But / So / Which explains / Here's the part. Each example is a new kind of example, never a second one of the same kind. Stop once the payoff lands; most posts land in 4 or 5 slides.
+
+Say the idea once. Every slide adds something the reader didn't have yet: a scene, the turn, the because, a consequence, the feeling. Never restate the point in new words, and never let the last slide repeat the cover; end on the strongest concrete line in the post (a scene, a line someone says, a joke, an image). Don't explain what every reader already knows (that hiring is expensive, that weddings cost money); a clause is enough.
+
+Every post carries EQ, IQ, or both: EQ is a moment the reader feels (recognition, a laugh, a sting, mixed feelings); IQ is a way of seeing it they hadn't put together. A post with neither isn't worth posting.
+
+The mechanism must be true. Don't claim a hidden budget, a secret motive or a deliberate plan you can't show (say what changes, e.g. what the raise is compared against, rather than "they had the money all along"). Get the basics right about who pays for what and how something actually works; if you're not sure, say less.
+
+The cover must make it obvious in two seconds what the post is about. A stranger should never wonder "what is this?".
 
 Match the topic's mood, and let it be real: a rant can run hot, a dark pattern can be blunt, mixed feelings can stay mixed, a positive take can be warm without being sweet.
 

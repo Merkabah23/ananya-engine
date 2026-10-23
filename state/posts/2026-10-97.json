@@ -1,6 +1,6 @@
 {
  "id": "2026-10-97",
- "status": "written",
+ "status": "approved",
  "due": "2026-10-28T19:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -11,7 +11,7 @@
    "believed": "The couple wanted a scenic, special celebration.",
    "actually": "Distance and cost quietly remove the guests you didn't want, and nobody has to be cut."
   },
-  "because": "Flights and three-night stays do the filtering for you. The people who won't spend are exactly the ones you were never close to anyway.",
+  "because": "guests at a destination wedding usually pay for flights, leave and outfits while the hosts cover the hotel, so distance quietly filters out the relatives who aren't close",
   "payoff": "A destination wedding is the softest 'you're not invited' ever invented.",
   "lived": false,
   "behaviour": "Families pick far-off venues partly to keep numbers and obligations down.",
@@ -95,38 +95,24 @@
    },
    {
     "paragraphs": [
-     "The wedding is in Udaipur. Three nights at a hotel by the lake, flights for two, sometimes four.",
+     "The wedding is in Udaipur. The hosts cover the hotel by the lake. You just need flights for two, three days of leave and outfits for four functions.",
      "And suddenly half the relatives 'just couldn't make it.' Work came up. Kids' exams. Something always comes up."
     ],
     "why_swipe": "Why did exactly those people drop out, and not the others?"
    },
    {
     "paragraphs": [
-     "Everyone says the couple wanted something scenic. Nice photos, a break from the usual banquet hall near home.",
-     "But look at who vanished. **It's never the inner circle. It's always the far edge of the family.**"
+     "Everyone says the couple wanted something scenic. But look at who vanished: never the inner circle, always the far edge of the family.",
+     "**Flights, leave and four outfits did the cutting.** Not a single name had to be struck off."
     ],
-    "why_swipe": "What makes the far edge drop out so neatly?"
+    "why_swipe": "so how does the far edge leave without anyone saying a word?"
    },
    {
     "paragraphs": [
-     "A flight and three nights cost real money. The people who won't spend it are, almost always, the ones you were never close to.",
-     "So the ticket price sorts the list for you. No one is told anything. They just do the maths and stay home."
-    ],
-    "why_swipe": "If nobody is cut, who actually walks away happy?"
-   },
-   {
-    "paragraphs": [
-     "And the couple comes out clean. They get the smaller crowd and the lower bill, without making one awkward call.",
-     "No aunty is told she wasn't wanted. She removes herself, politely, over a WhatsApp 'beta, itni door yaar.' The lake is just the alibi."
-    ],
-    "why_swipe": "So what should you actually watch for in your own plans?"
-   },
-   {
-    "paragraphs": [
-     "So before you book that fort on a hill, ask yourself one thing.",
-     "**The guests you're secretly hoping can't afford it are the ones this whole plan was for.**"
-    ],
-    "why_swipe": ""
+     "No aunty is told she wasn't wanted. She removes herself, politely, on WhatsApp: \"beta, itni door yaar.\"",
+     "The couple gets the smaller crowd without one awkward phone call.",
+     "**The lake is just the alibi.**"
+    ]
    }
   ],
   "end": {
@@ -144,5 +130,47 @@
   "alt_text": "A six-slide text post arguing that a destination wedding is a polite way to shrink the guest list. Because flights and a three-night stay cost money, the relatives the couple was never close to quietly stay home, so the host controls the numbers and the budget without ever uninviting anyone.",
   "claims": []
  },
- "updated_at": "2026-10-23T08:23:36.377495+00:00"
+ "updated_at": "2026-10-23T09:58:05.414112+00:00",
+ "verification_cache": {},
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Because destination weddings require guests to pay for flights, take leave, and buy multiple outfits, and these costs fall hardest on distant relatives rather than close family, destination weddings function as a socially acceptable way to shrink the guest list without ever explicitly uninviting anyone",
+    "sentence": "A destination wedding isn't really about the view. It removes the guests you didn't want, and nobody ever has to say so.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {},
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "None fully breaks. The weakest link is 'these costs fall hardest on distant relatives' — flights/leave/outfits cost close and distant guests roughly the same in absolute terms; what differs is each guest's willingness to bear that cost relative to how close they feel. So the filter runs on the guest's own cost-benefit threshold, not on costs being heavier for distant relatives.",
+   "actual_mechanism": "In Indian destination weddings the host typically covers the hotel, meals and local transfers but guests pay their own flights, leave and outfits, so attending carries a real per-guest price that is independent of closeness. Distant relatives, for whom the trip isn't 'worth it,' decline on their own citing distance or work, which lets the host end up with a smaller, closer crowd without striking a single name — though the host also caps numbers directly through venue capacity and which guests get paid rooms, so self-selection is one layer on top of that, not the whole story.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://www.bridestoday.in/wedding-ideas/story/who-pays-for-what-the-logistics-behind-planning-a-destination-wedding-1397311-2026-06-01",
+     "published_date": "2026-06-01",
+     "quote": "Guests book their own flights, while the couple handles accommodation, food, and local transport."
+    },
+    {
+     "url": "https://varniya.com/blogs/labgrown-diamond-news/cost-of-destination-weddings",
+     "published_date": "2026",
+     "quote": "For 100 guests, the per-head cost ranges from ₹18,000 to ₹40,000; the per-head figure drops as guest lists grow because fixed spending is shared by more people."
+    },
+    {
+     "url": "https://plannersy.com/wedding/destination-wedding-cost-in-india/",
+     "published_date": "2026",
+     "quote": "Ideal guest counts for destination weddings range from 80 to 150 guests, though destination weddings typically have 100–300 guests."
+    }
+   ]
+  },
+  "text_hash": "7f26ca6ff0d22f539b3f3745df5a1c153db88bd8",
+  "at": "2026-10-23T09:58:05.414094+00:00"
+ }
 }

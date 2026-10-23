@@ -272,7 +272,8 @@ def render_end(end: dict, n: int) -> Image.Image:
     for runs in _wrap(end.get("send", ""), 38, W - 2 * MARGIN)[:3]:
         d.text((MARGIN, y), " ".join(w for w, _ in runs), font=_font("Regular", 38), fill=(230, 244, 241))
         y += 52
-    d.text((MARGIN, H - 64), config.END_FOLLOW_LINE, font=_font("Medium", 32), fill=ON_TEAL, anchor="ls")
+    if config.END_FOLLOW_LINE:
+        d.text((MARGIN, H - 64), config.END_FOLLOW_LINE, font=_font("Medium", 32), fill=ON_TEAL, anchor="ls")
     _count(d, n, n, on_teal=True)
     return img
 

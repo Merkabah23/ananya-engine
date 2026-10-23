@@ -24,11 +24,13 @@ You are the editor before a post goes to the owner. The take was already chosen;
 4. No turn: the post never says what's actually going on behind the obvious explanation.
 5. No because: it never explains why it works that way (who gains, or the hidden motive).
 6. Facts as the hero: it reads like a news recap or a data explainer, or carries more than two numbers, or a fact is stated without a source.
-7. A dead slide: a slide that repeats the hook, a point, an example or a figure, or a slide after which a reader has no reason to swipe. Name the slide.
+7. A dead slide: a slide that repeats the hook, a point, an example or a figure, or restates the idea in new words, or explains something every reader already knows, or a slide after which a reader has no reason to swipe. Name the slide. The last slide repeating the cover's point is a dead slide too.
 8. No payoff: the last slide doesn't leave a line to repeat, a test to run, what happens next, or a closer that stings. A wistful image, a moral or a lecture ("Checkout rule:", "do this") fails.
 9. It reads like a template, not a person: an explainer, a LinkedIn post, an AI summary, a lecture. Signs: every sentence the same length, fact lists one per line, stock connectors ("You know the scene", "Here's how X works"), a question hook, hedges ("reportedly", "they say").
 10. It rests a claim on one stranger's story, or it's a typical household post (drawing room, sofa covers, locked crockery).
 11. "I" in a post the topic marks as pure observation (lived is false), or an invented meeting, client or result.
+12. A mechanism that isn't true or can't be shown: a hidden budget, a secret motive or a deliberate plan stated as fact, or a basic error about who pays for what or how something works.
+13. A cover that doesn't make clear in two seconds what the post is about.
 
 ## Scores (1-5)
 - hook: would a stranger stop, and does slide 1 contain the turn without giving the answer away?
@@ -37,7 +39,10 @@ You are the editor before a post goes to the owner. The take was already chosen;
 - pull: does every slide make the next one necessary?
 - payoff: will people repeat the last line, run the test, or feel it?
 - voice: a sharp, human person talking (varied rhythm, concrete nouns, the mood the topic asks for), not a template?
+- eq: does the reader feel something (recognition, a laugh, a sting, mixed feelings)?
+- iq: does the reader see it in a way they hadn't put together?
+- tight: is every slide needed, with the idea said once and nothing over-explained?
 
 Return only JSON:
-{"pass": bool, "violations": ["..."], "scores": {"hook": n, "relatable": n, "fresh_angle": n, "pull": n, "payoff": n, "voice": n}, "notes": ["slide N: what to change and why, specific enough for the writer to act on; you may ask for a missing beat the topic already contains"]}
-"violations" lists only the hard failures above. Pass only if there are no violations and every score is 4 or more. Give at most 5 notes, most important first. Never ask for a fact the sources and topic don't contain.
+{"pass": bool, "violations": ["..."], "scores": {"hook": n, "relatable": n, "fresh_angle": n, "pull": n, "payoff": n, "voice": n, "eq": n, "iq": n, "tight": n}, "notes": ["slide N: what to change and why, specific enough for the writer to act on; you may ask for a missing beat the topic already contains"]}
+"violations" lists only the hard failures above. Pass only if there are no violations, every score except eq and iq is 4 or more, and of eq and iq one is 4 or more and the other at least 3. Give at most 5 notes, most important first. Never ask for a fact the sources and topic don't contain.

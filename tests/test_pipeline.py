@@ -183,3 +183,10 @@ def test_question_hook_and_missing_swipe_reason_are_caught():
     bad["slides"][2]["why_swipe"] = ""
     problems = " ".join(writer.hard_checks(bad, "carousel", []))
     assert "question" in problems and "why_swipe" in problems
+
+
+def test_editor_needs_real_eq_or_iq_and_a_tight_post():
+    craft = {k: 4 for k in ("hook", "relatable", "fresh_angle", "pull", "payoff", "voice", "tight")}
+    assert writer.passes({"violations": [], "scores": {**craft, "eq": 5, "iq": 3}})
+    assert not writer.passes({"violations": [], "scores": {**craft, "eq": 3, "iq": 3}})       # neither lands
+    assert not writer.passes({"violations": [], "scores": {**craft, "tight": 3, "eq": 5, "iq": 5}})  # over-explained

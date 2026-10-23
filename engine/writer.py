@@ -310,9 +310,12 @@ def critique(post: dict, draft: dict, seed: int) -> dict:
 
 
 def passes(review: dict) -> bool:
+    """No hard failure, 4+ on craft, and real EQ or IQ: one of them 4+, the other at least 3."""
     scores = review.get("scores") or {}
-    keys = ("hook", "relatable", "fresh_angle", "pull", "payoff", "voice")
-    return not review.get("violations") and all(_score(scores, k) >= 4 for k in keys)
+    keys = ("hook", "relatable", "fresh_angle", "pull", "payoff", "voice", "tight")
+    eq, iq = _score(scores, "eq"), _score(scores, "iq")
+    return (not review.get("violations") and all(_score(scores, k) >= 4 for k in keys)
+            and max(eq, iq) >= 4 and min(eq, iq) >= 3)
 
 
 def write_post(post: dict) -> dict:
