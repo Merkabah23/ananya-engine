@@ -1,6 +1,6 @@
 {
  "id": "2026-11-58",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-03T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -52,6 +52,169 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-10-25T08:21:47.902407+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Hard failure 12: a hidden motive and deliberate plan stated as fact, with no allowance for a real budget problem. Lines: \"Nobody asked you to leave. They asked you to want to.\"; \"A resignation looks like your choice. No severance talk, no awkward record, and the budget line comes out clean.\"; the cover and slide 1 claim \"it was never about your work.\" The only source is one unverified viral account, and the legal source says pressured resignations can count as constructive dismissal. So 'no awkward record' is not safe to state flatly."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 3,
+     "eq": 3,
+     "iq": 4,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "Slide 4: Drop the certainty that someone planned it. 'Nobody asked you to leave. They asked you to want to.' reads as a proven intent. Reframe as what the setup rewards, not what the manager schemed. For example: whether or not anyone meant it, this kind of chat ends well for the company only if you walk. Show it through the effect, not a claimed plan.",
+     "Slide 5: The mechanism is over-asserted. 'No severance talk, no awkward record, budget line comes out clean' is stated as guaranteed fact. Keep the core because: firing someone with good feedback for earning well looks bad, while a resignation looks like the person's own choice. Cut the 'no record' and 'clean budget line' claims, or soften them into what the company gets out of it. Also remove the stock opener 'Here's the part that makes it work.'",
+     "Slide 4 and slide 5: These overlap. Both say 'it looks like your choice'. Say it once. Use the freed space for one new beat: the reader's own reaction afterwards (you start updating the CV and feel it was your idea), which makes the turn land emotionally and lifts eq.",
+     "Cover and slide 1: 'isn't discussing your work' and 'it was never about your work' are absolute. Make the claim sharper but defensible: the timing says more than the feedback does, or a budget talk this close to appraisal is about your pay, not your work. The slide 6 test already supports that wording.",
+     "Slide 6: 'Your work didn't change in those eight weeks. The date on that invite did.' is a good line. The bold closer then restates the cover's point. End on the sharper image, the date on the invite, and trim the closing instruction so it stays a test and does not read as advice."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Hard failure 12: a hidden motive and deliberate plan stated as fact, with no allowance for a real budget problem. Lines: \"Nobody asked you to leave. They asked you to want to.\"; \"A resignation looks like your choice. No severance talk, no awkward record, and the budget line comes out clean.\"; the cover and slide 1 claim \"it was never about your work.\" The only source is one unverified viral account, and the legal source says pressured resignations can count as constructive dismissal. So 'no awkward record' is not safe to state flatly.",
+    "Slide 4: Drop the certainty that someone planned it. 'Nobody asked you to leave. They asked you to want to.' reads as a proven intent. Reframe as what the setup rewards, not what the manager schemed. For example: whether or not anyone meant it, this kind of chat ends well for the company only if you walk. Show it through the effect, not a claimed plan.",
+    "Slide 5: The mechanism is over-asserted. 'No severance talk, no awkward record, budget line comes out clean' is stated as guaranteed fact. Keep the core because: firing someone with good feedback for earning well looks bad, while a resignation looks like the person's own choice. Cut the 'no record' and 'clean budget line' claims, or soften them into what the company gets out of it. Also remove the stock opener 'Here's the part that makes it work.'",
+    "Slide 4 and slide 5: These overlap. Both say 'it looks like your choice'. Say it once. Use the freed space for one new beat: the reader's own reaction afterwards (you start updating the CV and feel it was your idea), which makes the turn land emotionally and lifts eq.",
+    "Cover and slide 1: 'isn't discussing your work' and 'it was never about your work' are absolute. Make the claim sharper but defensible: the timing says more than the feedback does, or a budget talk this close to appraisal is about your pay, not your work. The slide 6 test already supports that wording.",
+    "Slide 6: 'Your work didn't change in those eight weeks. The date on that invite did.' is a good line. The bold closer then restates the cover's point. End on the sharper image, the date on the invite, and trim the closing instruction so it stays a test and does not read as advice."
+   ]
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Slide 1 has 26 words; the limit is 25. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 6 is a dead slide: 'If a manager you've met twice suddenly has an opinion about your pay, check the calendar before you check your performance' restates the cover and slide 4, and reads as advice. The closer 'The date on that invite did' also doesn't hold up, because the invite's date never changed.",
+     "Slide 5: 'Naukri' is a named company that is not in the sources, the proof or real_details (hard failure 2)."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 6: Delete the advice paragraph (it repeats the cover) and rebuild the closer. 'The date on that invite did' doesn't work, since the date didn't change. Use something that stings and can be repeated, e.g. what the chat was really about: the raise was due, not your work. Or end on the Sunday-night 'my own idea' feeling, which is the real sting.",
+     "slide 5: Replace 'Naukri' with 'a job portal' or 'job sites'. Also state the because from the topic more plainly: a resignation costs the company nothing and shows up nowhere, so no severance and a clean budget line. At the moment 'looks like your choice' carries the whole mechanism.",
+     "slide 4: The bold line gives the verdict before the because arrives on slide 5. Fold slides 4 and 5 so the reason lands right after the soft line at the door, and cut 'Maybe the budget really is tight' unless it's one short concession. 'Think about what's best for you' is an invented quote, so frame it as the kind of line you hear, not a fixed line.",
+     "slide 3: Add one concrete detail only someone who lived it would notice, e.g. the manager can't name a single thing you did wrong, or nobody says a number. Right now the scene is generic and the sting is soft.",
+     "slide 2: Good, but 'hobbies' lunch is the only texture. Add the detail that the manager has never seen your work, only your CTC on a sheet, to set up the turn without announcing it."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Slide 6 is a dead slide: 'If a manager you've met twice suddenly has an opinion about your pay, check the calendar before you check your performance' restates the cover and slide 4, and reads as advice. The closer 'The date on that invite did' also doesn't hold up, because the invite's date never changed.",
+    "Slide 5: 'Naukri' is a named company that is not in the sources, the proof or real_details (hard failure 2).",
+    "slide 6: Delete the advice paragraph (it repeats the cover) and rebuild the closer. 'The date on that invite did' doesn't work, since the date didn't change. Use something that stings and can be repeated, e.g. what the chat was really about: the raise was due, not your work. Or end on the Sunday-night 'my own idea' feeling, which is the real sting.",
+    "slide 5: Replace 'Naukri' with 'a job portal' or 'job sites'. Also state the because from the topic more plainly: a resignation costs the company nothing and shows up nowhere, so no severance and a clean budget line. At the moment 'looks like your choice' carries the whole mechanism.",
+    "slide 4: The bold line gives the verdict before the because arrives on slide 5. Fold slides 4 and 5 so the reason lands right after the soft line at the door, and cut 'Maybe the budget really is tight' unless it's one short concession. 'Think about what's best for you' is an invented quote, so frame it as the kind of line you hear, not a fixed line.",
+    "slide 3: Add one concrete detail only someone who lived it would notice, e.g. the manager can't name a single thing you did wrong, or nobody says a number. Right now the scene is generic and the sting is soft.",
+    "slide 2: Good, but 'hobbies' lunch is the only texture. Add the detail that the manager has never seen your work, only your CTC on a sheet, to set up the turn without announcing it."
+   ]
+  }
+ ],
+ "updated_at": "2026-10-25T09:10:19.207928+00:00",
+ "sources": [
+  {
+   "url": "https://www.hrkatha.com/news/bengaluru-employee-alleges-manager-pressured-him-to-resign-over-high-salary/",
+   "fact": "A Bengaluru employee alleged in a social-media post that a manager who had been in the role about two months asked him to resign before the next appraisal cycle, saying his pay was too high for the team's budget. The claim is unverified, and the company has not responded.",
+   "excerpt": "asking him to submit his resignation before the next appraisal cycle. | his salary was too high for the team's budget. | [Page notes, paraphrased by the fetch tool: the manager changed about two months earlier; the salary revision was expected around 24 October; the employee knew of no performance problems; the claims come from his social-media post and have not been independently verified; there is no company response.]",
+   "date": "2026-10-22"
+  },
+  {
+   "url": "https://indiacorplaw.in/2022/03/03/x-v-registrar-mp-high-court-recognising-involuntary-resignations-as-constructive-dismissal/",
+   "fact": "In X v. Registrar, MP High Court (Feb 2022), the Supreme Court held that a resignation given amid an unfair work environment was not voluntary and amounted to constructive dismissal. This is legal context and does not show that managers pressure expensive employees to resign before appraisals.",
+   "excerpt": "is not voluntary and amounts to 'constructive dismissal' | the resignation was not voluntary | forced resignation | constructive dismissal [Fragments quoted by the fetch tool from the page; the full passages were not retrieved.]",
+   "date": "2022-03-03"
+  }
+ ],
+ "draft": {
+  "cover": {
+   "headline": "A budget chat before appraisal is about your [pay], not your work",
+   "sub": "Especially from a manager you met eight weeks ago."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "A budget chat before appraisal is about your pay, not your work. Especially from a manager you met eight weeks ago.\nSwipe to read →"
+    ],
+    "why_swipe": "What does that chat actually look like?"
+   },
+   {
+    "paragraphs": [
+     "Your new manager joined two months ago. So far you've had one intro call and one team lunch where everyone shared their hobbies.",
+     "Then, a week before appraisals, an invite lands on your calendar. No agenda. Just \"Quick chat?\""
+    ],
+    "why_swipe": "What does the quick chat turn out to be?"
+   },
+   {
+    "paragraphs": [
+     "They start kindly. Your work has been good. Nothing you did was wrong.",
+     "But the team budget doesn't really support your role at your level. You walk out thinking the company is in a tight spot, and you just drew the short straw."
+    ],
+    "why_swipe": "Is it really just bad luck?"
+   },
+   {
+    "paragraphs": [
+     "Later you notice what the chat left out. No warning mail, no list of misses, no improvement plan. Only a soft line at the door: \"Think about what's best for you.\"",
+     "**Whether anyone planned it or not, that chat only ends well for the company if you walk.**"
+    ],
+    "why_swipe": "Why would walking suit them better than any other ending?"
+   },
+   {
+    "paragraphs": [
+     "Maybe the budget really is tight. But letting go of someone with good feedback because they earn well looks bad. A resignation looks like your choice.",
+     "So that night you open Naukri and fix your CV. By Sunday it feels like your own idea."
+    ],
+    "why_swipe": "So what should you look at before you decide?"
+   },
+   {
+    "paragraphs": [
+     "If a manager you've met twice suddenly has a view on your pay, check the calendar before you check your performance.",
+     "**Your work didn't change in those eight weeks. The date on that invite did.**"
+    ]
+   }
+  ],
+  "end": {
+   "save": "Come back to this the next time a new boss books a \"quick chat\" before appraisals.",
+   "send": "Send it to the friend whose new manager just got weirdly specific about \"team budget.\"",
+   "promise": "How Indian offices really work."
+  },
+  "caption": "Has a new manager ever brought up \"budget\" a week before your appraisal? What exact line did they use on you?",
+  "hashtags": [
+   "#AppraisalSeason",
+   "#CorporateIndia",
+   "#OfficePolitics",
+   "#SalaryHike"
+  ],
+  "alt_text": "A six-slide text carousel. The cover reads: A budget chat before appraisal is about your pay, not your work, especially from a manager you met eight weeks ago. The slides describe a manager who joined two months ago calling you in a week before appraisals, saying your work is fine but the team budget can't support your role, and suggesting you think about what's best for you. The post notes that, planned or not, such a chat only ends well for the company if you resign, since a resignation looks like your own choice, and that you end up updating your CV feeling it was your idea. It ends: your work didn't change in those eight weeks, the date on that invite did.",
+  "claims": []
+ }
 }

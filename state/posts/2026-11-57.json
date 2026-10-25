@@ -1,6 +1,6 @@
 {
  "id": "2026-11-57",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-01T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -55,6 +55,177 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-10-25T08:21:47.901937+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 4: \"The economy is the same. The list of allowed jobs isn't.\" presents family restrictions as the full explanation of the 26.6% vs 16.4% gap. The source only gives the two rates and says nothing about why they differ. The mechanism is stated as fact when the numbers can't show it (hard failure 12)."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "Slide 6: The payoff is muddled. Offers declined at home before applying don't create a résumé gap, and slide 3 already says the offer came. Use the topic's own payoff instead: ask any woman you know how many offers she turned down because of a commute or a city her family wouldn't approve, and that number is the real unemployment rate. End on that test or a sting line, not on the résumé gap.",
+     "Slide 4: Soften the causal jump. Say the gap is what the survey sees and that the vetoes at home are part of what it can't see. Don't say the economy is identical and the list alone explains the whole difference. Keep the two figures, but drop the implication that they prove the family rule.",
+     "Slide 2: The brother's \"six weeks\" reads like one real case. Frame it as a typical pattern (\"Your brother, same degree, usually gets a call back sooner and nobody asks him where the office is\"), or keep it clearly hypothetical, so it isn't an invented one-off.",
+     "Slide 5: \"When your brother took a job two states away, there was no meeting\" is a good contrast, but it reads as a specific event. Phrase it as the usual habit. Cut the list of worries to one or two, since the idea is said twice.",
+     "Slide 3: The \"Itni door?\" scene is the strongest moment in the post. Put the sting right there, with a detail like the offer dying without anyone saying no, so the later slides add something new instead of explaining it."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Slide 4: \"The economy is the same. The list of allowed jobs isn't.\" presents family restrictions as the full explanation of the 26.6% vs 16.4% gap. The source only gives the two rates and says nothing about why they differ. The mechanism is stated as fact when the numbers can't show it (hard failure 12).",
+    "Slide 6: The payoff is muddled. Offers declined at home before applying don't create a résumé gap, and slide 3 already says the offer came. Use the topic's own payoff instead: ask any woman you know how many offers she turned down because of a commute or a city her family wouldn't approve, and that number is the real unemployment rate. End on that test or a sting line, not on the résumé gap.",
+    "Slide 4: Soften the causal jump. Say the gap is what the survey sees and that the vetoes at home are part of what it can't see. Don't say the economy is identical and the list alone explains the whole difference. Keep the two figures, but drop the implication that they prove the family rule.",
+    "Slide 2: The brother's \"six weeks\" reads like one real case. Frame it as a typical pattern (\"Your brother, same degree, usually gets a call back sooner and nobody asks him where the office is\"), or keep it clearly hypothetical, so it isn't an invented one-off.",
+    "Slide 5: \"When your brother took a job two states away, there was no meeting\" is a good contrast, but it reads as a specific event. Phrase it as the usual habit. Cut the list of worries to one or two, since the idea is said twice.",
+    "Slide 3: The \"Itni door?\" scene is the strongest moment in the post. Put the sting right there, with a detail like the offer dying without anyone saying no, so the later slides add something new instead of explaining it."
+   ]
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Slide 3 has 62 words; the limit is 60. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 2: \"When he looks, the calls usually come back sooner. Nobody asks him where the office is.\" This is a claim about how the job market treats men and women, and neither the sources nor the topic's proof support it. The only sourced figures are unemployment rates. The topic's 'six weeks vs six months' beat is the only support available, and the post dropped it.",
+     "Slides 4 and 6: the mechanism is shown as fact when it can't be shown. \"That gap is the part the survey can see. It can't see the dinner...\" implies the 26.6 vs 16.4 gap comes from family vetoes. The data says nothing about cause. Slide 6's \"the unemployment rate no one prints\" also misstates how the survey works: a woman who turns down an offer and keeps looking is still counted as unemployed, so those offers don't hide inside the rate. It also isn't a rate, just a count of lost offers.",
+     "Slide 4: after the stat, the line \"It can't see the dinner where a good offer died without anyone saying no\" restates slide 3's \"the offer email sits until it expires\". That makes the second half of the slide a dead beat."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 3,
+     "eq": 3,
+     "iq": 3,
+     "story": 3,
+     "tight": 3
+    },
+    "notes": [
+     "Slide 6 and caption: fix the payoff logic. The survey does count her as unemployed; what it can't show is why she is still looking. Change the closer to something true that still stings, for example that the offers she let go never appear anywhere, only the 'still looking' does. Keep the test (count your own vetoed offers) but drop 'unemployment rate no one prints', or say plainly that the survey can't see the reason.",
+     "Slide 2: replace the unsourced 'calls usually come back sooner' with the topic's own moment. Her brother, same degree, same city, landed something in six weeks while she is at six months. Make it a concrete, typical scene. Don't assume every reader has a brother; 'a male friend' or 'your cousin' as a typical case works.",
+     "Slide 4: keep one number (26.6%) or both briefly, then cut the line that re-explains slide 3. Don't let the stat imply family vetoes caused the gap. Frame it as 'the market can't explain why it's worse for her', and leave the dinner table as the opinion, not a proven cause.",
+     "Slide 5: this is the 'because', and it's thin. Say who gets protected and who pays, and why a son's move is read as ambition while a daughter's is read as risk. Show the quiet rule (safe jobs, safe cities, how long she can keep hunting before marriage talk starts) and not just 'they worry about the cab'. Keep the affection but add the sting. Cut 'usually' in the son example by framing it as a typical scene.",
+     "Voice: the cover sub 'The market is tough. Your dinner table is tougher.' is a mirrored pair, and 'every job offer' is overstated. Rewrite the sub as a plain claim. Vary the sentence rhythm in slides 3 to 5 so they read like a person typing out a thought and not a tidy explainer."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Slide 2: \"When he looks, the calls usually come back sooner. Nobody asks him where the office is.\" This is a claim about how the job market treats men and women, and neither the sources nor the topic's proof support it. The only sourced figures are unemployment rates. The topic's 'six weeks vs six months' beat is the only support available, and the post dropped it.",
+    "Slides 4 and 6: the mechanism is shown as fact when it can't be shown. \"That gap is the part the survey can see. It can't see the dinner...\" implies the 26.6 vs 16.4 gap comes from family vetoes. The data says nothing about cause. Slide 6's \"the unemployment rate no one prints\" also misstates how the survey works: a woman who turns down an offer and keeps looking is still counted as unemployed, so those offers don't hide inside the rate. It also isn't a rate, just a count of lost offers.",
+    "Slide 4: after the stat, the line \"It can't see the dinner where a good offer died without anyone saying no\" restates slide 3's \"the offer email sits until it expires\". That makes the second half of the slide a dead beat.",
+    "Slide 6 and caption: fix the payoff logic. The survey does count her as unemployed; what it can't show is why she is still looking. Change the closer to something true that still stings, for example that the offers she let go never appear anywhere, only the 'still looking' does. Keep the test (count your own vetoed offers) but drop 'unemployment rate no one prints', or say plainly that the survey can't see the reason.",
+    "Slide 2: replace the unsourced 'calls usually come back sooner' with the topic's own moment. Her brother, same degree, same city, landed something in six weeks while she is at six months. Make it a concrete, typical scene. Don't assume every reader has a brother; 'a male friend' or 'your cousin' as a typical case works.",
+    "Slide 4: keep one number (26.6%) or both briefly, then cut the line that re-explains slide 3. Don't let the stat imply family vetoes caused the gap. Frame it as 'the market can't explain why it's worse for her', and leave the dinner table as the opinion, not a proven cause.",
+    "Slide 5: this is the 'because', and it's thin. Say who gets protected and who pays, and why a son's move is read as ambition while a daughter's is read as risk. Show the quiet rule (safe jobs, safe cities, how long she can keep hunting before marriage talk starts) and not just 'they worry about the cab'. Keep the affection but add the sting. Cut 'usually' in the son example by framing it as a typical scene.",
+    "Voice: the cover sub 'The market is tough. Your dinner table is tougher.' is a mirrored pair, and 'every job offer' is overstated. Rewrite the sub as a plain claim. Vary the sentence rhythm in slides 3 to 5 so they read like a person typing out a thought and not a tidy explainer."
+   ]
+  }
+ ],
+ "updated_at": "2026-10-25T09:10:19.198885+00:00",
+ "sources": [
+  {
+   "url": "https://www.devdiscourse.com/article/business/3993040-urban-youth-unemployment-rises-to-19-in-september-reaches-266-among-young-women",
+   "fact": "In September 2026 PLFS data, urban unemployment among women aged 15-29 was 26.6% against 16.4% for urban men of the same age. That is about 1.6 times the male rate, not more than double, so the claim is overstated.",
+   "excerpt": "Among young urban women, unemployment increased from 26.4 per cent to 26.6 per cent, while the rate among young urban men rose from 16.2 per cent to 16.4 per cent.",
+   "date": "2026-10-15"
+  }
+ ],
+ "draft": {
+  "cover": {
+   "headline": "For young women, every job offer faces [a second interview] at home",
+   "sub": "The market is tough. Your dinner table is tougher."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "For young women, every job offer faces a second interview, and that one happens at home.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "What second interview?"
+   },
+   {
+    "paragraphs": [
+     "It's month six of the hunt. You have a spreadsheet of applications, an \"Open to work\" banner on LinkedIn, and a relative who keeps forwarding exam forms.",
+     "Your brother has the same degree. When he looks, the calls usually come back sooner. Nobody asks him where the office is."
+    ],
+    "why_swipe": "So why is it taking her so much longer?"
+   },
+   {
+    "paragraphs": [
+     "Everyone has the same answer: the market is bad right now. And it is.",
+     "Then an offer does come. Good team, an office across town, a shift that ends at 9 pm. You mention it at dinner. Someone says \"Itni door?\"",
+     "Not one person says no. The talk moves on, and the offer email sits until it expires."
+    ],
+    "why_swipe": "Does that offer ever show up anywhere?"
+   },
+   {
+    "paragraphs": [
+     "In September, urban unemployment among women aged 15 to 29 was 26.6%. For young men in the same cities, it was 16.4%.",
+     "**That gap is the part the survey can see.**",
+     "It can't see the dinner where a good offer died without anyone saying no."
+    ],
+    "why_swipe": "Why does nobody stop it?"
+   },
+   {
+    "paragraphs": [
+     "And the people at that table don't mean you harm. They worry about the cab home at night, and they mean it.",
+     "But when a son gets a job two states away, there's usually no discussion. Just a packed bag and a send-off at the station."
+    ],
+    "why_swipe": "So what does all that worry actually cost?"
+   },
+   {
+    "paragraphs": [
+     "Count the offers you let go because of a commute or a city home wouldn't approve. Then ask your friends for theirs.",
+     "**Add those up. That's the unemployment rate no one prints.**"
+    ]
+   }
+  ],
+  "end": {
+   "save": "Come back to it the next time someone says the market is just slow.",
+   "send": "Send to a friend whose family keeps vetoing job offers 'for her own good.'",
+   "promise": "How money and families really work."
+  },
+  "caption": "The survey counts you as unemployed and never counts the offers that died at dinner.",
+  "hashtags": [
+   "#WomenAtWork",
+   "#YouthUnemployment",
+   "#JobHuntIndia",
+   "#IndianFamilies"
+  ],
+  "alt_text": "A six-slide carousel about young women's job hunting in Indian cities. A young woman is six months into her job search, while her brother with the same degree usually hears back sooner and is never asked where the office is. A good offer with a far office and a 9 pm shift comes up at dinner. Someone asks 'Itni door?', no one says no, and the offer email sits until it expires. September 2026 data shows urban unemployment of 26.6% among women aged 15 to 29, against 16.4% among men of the same age. The post says the survey sees that gap but cannot see offers that died at home. It notes the family worries out of love, while a son moving two states away usually gets a send-off at the station. It ends by asking the reader to count the offers she and her friends let go because of a commute or city the family wouldn't approve, calling that total the unemployment rate no one prints.",
+  "claims": [
+   {
+    "text": "In September 2026, urban unemployment among women aged 15 to 29 was 26.6%.",
+    "source_url": "https://www.devdiscourse.com/article/business/3993040-urban-youth-unemployment-rises-to-19-in-september-reaches-266-among-young-women"
+   },
+   {
+    "text": "In September 2026, urban unemployment among men aged 15 to 29 was 16.4%.",
+    "source_url": "https://www.devdiscourse.com/article/business/3993040-urban-youth-unemployment-rises-to-19-in-september-reaches-266-among-young-women"
+   }
+  ]
+ }
 }
