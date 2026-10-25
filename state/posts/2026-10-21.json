@@ -1,6 +1,6 @@
 {
  "id": "2026-10-21",
- "status": "rejected",
+ "status": "approved",
  "due": "2026-10-29T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -133,25 +133,605 @@
     "Slide 1 has 26 words; the limit is 25. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide.",
     "Slide 4 has 65 words; the limit is 60. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide."
    ]
+  },
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "slide 5: \"You were never really a contestant. You were the medium the ad ran on\" restates the mechanism slide 4 already landed (\"the phone looks like the cheap part\"). Keep the real-winner concession but cut one of the two framings so the insight lands once, not twice.",
+     "slide 2: the creator's line \"This one's for my amazing family!\" reads a touch generic — a sharper, more specific-feeling (but still typical, non-attributed) festive phrasing would sell the scene harder without naming anyone.",
+     "slide 6: strong closer, but check it doesn't feel like it needs the winner line restated — currently it works because it pivots to a new detail (the batchmate) rather than repeating the account/winner contrast; keep that balance if revised."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Needs a stronger source: 'In this type of giveaway, only one entrant receives the prize while every other entrant performs the same promotional tasks and receives nothing of comparable value in return.' (a primary source, or two independent major outlets)."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "The combined promotional value of everyone's free giveaway actions (permanent follows, friend-tag notifications, story shares reaching new audiences) across all entrants exceeds the cost of the single phone given away, making entrants unpaid marketing labor rather than contestants.",
+      "sentence": "Add up every entry and the phone looks like the cheap part. ... You were never really a contestant. You were the medium the ad ran on.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "A follow given to an account during a giveaway does not automatically expire or reverse once the user stops engaging with that content; it remains active indefinitely unless manually undone.",
+      "sentence": "The follow stays long after the reel is forgotten.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Tagging someone in an Instagram comment sends that person a notification that comes from the tagging user (someone they know), not from the brand or account running the giveaway.",
+      "sentence": "Each tag lands in three people's notifications, from a name they trust.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Sharing a post to one's Instagram story displays it to that user's own followers, including people who do not already follow the giveaway account and would not otherwise encounter it.",
+      "sentence": "Your story share drops the reel in front of your circle, who'd never have found that account alone.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "In this type of giveaway, only one entrant receives the prize while every other entrant performs the same promotional tasks and receives nothing of comparable value in return.",
+      "sentence": "It's one person, though. Everyone else in those comments did the same work for the same week and got a story view count.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "N/A",
+      "correct": "Instagram has no feature that auto-expires or auto-reverses a follow based on inactivity or lack of engagement. Unfollowing is always a deliberate, manual action (tap 'Following' → 'Unfollow'). A follow gained during a giveaway stays in place indefinitely unless the user manually unfollows.",
+      "sources": [
+       {
+        "url": "https://www.facebook.com/help/instagram/286340048138725",
+        "publisher": "Meta / Instagram Help Center",
+        "published_date": "N/A",
+        "quote": "Click Following above, then click Unfollow to confirm. [...] The article does not mention any automatic expiration or time-based features for unfollow actions.",
+        "tier": 1
+       },
+       {
+        "url": "https://brands.joinstatus.com/new-giveaway-followers",
+        "publisher": "Status (joinstatus.com)",
+        "published_date": "N/A",
+        "quote": "Many of the followers you gain from giveaways will most likely unfollow shortly after it's ended... these people unfollow when they lose (or even worse when they win!)",
+        "tier": 3
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "N/A",
+      "correct": "Tagging/mentioning someone in a comment triggers an Instagram-generated notification that names the person who did the tagging, e.g. '[username] mentioned you in a comment' — not the brand/giveaway account hosting the post. Minor caveat: if the tagging account is private and the tagged person doesn't follow them, the notification may not fire.",
+      "sources": [
+       {
+        "url": "https://www.facebook.com/help/instagram/1422266748076581",
+        "publisher": "Meta / Instagram Help Center",
+        "published_date": "N/A",
+        "quote": "When you mention accounts that follow you, they'll be notified about your mention.",
+        "tier": 1
+       },
+       {
+        "url": "https://socialrails.com/blog/instagram-mentions-complete-guide",
+        "publisher": "SocialRails",
+        "published_date": "2026",
+        "quote": "a notification appears in their Activity/Notifications tab and reads along the lines of 'so-and-so mentioned you in a comment,' with a snippet of what you wrote.",
+        "tier": 3
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "N/A",
+      "correct": "Adding a post to one's Story puts it in front of that user's own follower base (Instagram's Story audience defaults to all followers, or Close Friends if selected) — a separate audience from the original/giveaway account's followers, so it does expose the post to people who don't already follow the giveaway account.",
+      "sources": [
+       {
+        "url": "https://about.instagram.com/features/stories",
+        "publisher": "Instagram (Meta) — official feature page",
+        "published_date": "N/A",
+        "quote": "when you share someone's post to your story, anyone who views it can see who originally posted it and can view the original account.",
+        "tier": 1
+       },
+       {
+        "url": "https://www.facebook.com/help/instagram/4194195024242103",
+        "publisher": "Meta / Instagram Help Center",
+        "published_date": "N/A",
+        "quote": "You can only share someone's post from Feed to your story if their account is public and they've allowed resharing of their posts.",
+        "tier": 1
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "supported",
+      "event_date": "N/A",
+      "correct": "This describes the standard structure of a single-prize follow/tag/share giveaway: one winner receives the prize; all other entrants who completed the same tasks (follow, tag, share) receive no tangible reward — this is a structural description of the mechanic itself, not a claim tied to a specific entity, so no primary/regulatory source names it directly, but it is consistently described this way across independent giveaway-marketing sources.",
+      "sources": [
+       {
+        "url": "https://www.inro.social/blog/how-to-run-instagram-giveaways",
+        "publisher": "Inro.social",
+        "published_date": "2026",
+        "quote": "An Instagram giveaway is a promotion where you offer a prize in exchange for an action... Common entry requirements include: Comment..., follow, or tag a friend, Share to Story.",
+        "tier": 3
+       },
+       {
+        "url": "https://kickofflabs.com/blog/how-to-run-successful-instagram-giveaway/",
+        "publisher": "KickoffLabs",
+        "published_date": "2026",
+        "quote": "while only one person wins the prize, the real value for the account owner lies elsewhere... entrants don't get tangible rewards (only the one winner does)",
+        "tier": 3
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "The 'permanent follows' sub-claim is the one premise that fails. Giveaway followers churn heavily (a one-year case study of 52 accounts found ~61% unfollow within two weeks of the result), and Meta explicitly demotes follow/like/tag/share 'engagement bait,' so each entry's follow is mostly temporary and the reel's reach is throttled, not amplified. This overstates the per-entrant value but does not overturn the conclusion.",
+     "actual_mechanism": "A giveaway's follow-like-tag-share rules convert each entrant into a distribution node: comment tags fire real notifications, story shares push the post to circles that would never find the account, and even short-lived follows plus the engagement spike cost the organiser nothing but a few taps per person. Across thousands of entrants, buying that same reach and follower volume through ads would cost well more than one ~₹80,000 iPhone, so the aggregate promotional value genuinely exceeds the prize and the single winner is the only paid party, exactly as the post argues. The real-world caveats (most new follows leave, and Meta's algorithm suppresses this kind of bait) shrink the margin and mean much of the 'growth' is vanity, but they do not reverse who is working for whom.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.socialmediaexaminer.com/do-sponsored-instagram-contests-really-work-case-study/",
+       "published_date": "2021",
+       "quote": "On average, 61% of giveaway participants unfollowed the sponsors' accounts within 2 weeks of the giveaway result announcement."
+      },
+      {
+       "url": "https://about.fb.com/news/2017/12/news-feed-fyi-fighting-engagement-bait-on-facebook/",
+       "published_date": "2017-12-18",
+       "quote": "Posts that use this tactic will be demoted... 'Engagement bait' refers to a spammy post that goads people into interacting through likes, shares, comments, and other actions."
+      },
+      {
+       "url": "https://transparency.meta.com/enforcement/taking-action/lowering-distribution-of-problematic-content/",
+       "published_date": "2024",
+       "quote": "If content... might still be problematic or otherwise low-quality, we may reduce its distribution."
+      }
+     ]
+    },
+    "text_hash": "82acc8b8d58d747d00b1c572af04921257816498",
+    "at": "2026-10-25T08:34:49.890131+00:00"
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Needs a stronger source: 'In this type of giveaway, only one entrant receives the prize while every other entrant performs the same promotional tasks and receives nothing of comparable value in return.' (a primary source, or two independent major outlets)."
+   ]
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Slide 5 has 61 words; the limit is 60. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "slide 3: the three-sentence list of actions (follow, tag, open comments, share) reads slightly procedural — tuck the comments-scrolling beat into the same breath as the tagging so it stays one continuous motion instead of a checklist.",
+     "slide 5: 'Somewhere a stranger opens a DM and screams' is a nice beat but slightly undercuts the dark-pattern mood right before the sting lands — consider trimming it to one flatter line so the pivot to 'You were the medium the ad ran on' hits harder.",
+     "cover: 'made you its unpaid growth team' states the turn almost completely — fine by this account's own precedent, but if you want slide 1 to pull harder, test a version that names the cost without naming the mechanism yet (save 'growth team' for the turn slide)."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "The take's premise is wrong: The conclusion's 'rather than genuine contestants' is a false dichotomy, and the supporting premise that non-winners 'get nothing' is false. A single-prize giveaway with a real draw is a genuine sweepstakes: every valid entry carries a real, positive expected value (prize value ÷ number of entrants), so entrants are simultaneously genuine contestants AND a source of marketing actions. The two are not mutually exclusive, and 'unpaid' overstates it — participants are paid in a lottery ticket priced in effort rather than cash.. How it actually works: A follow/tag/share giveaway is a barter-sweepstakes: the brand swaps a fixed-cost prize and a small chance of winning for engagement actions, buying reach and followers at roughly $0.50–$3 per lead (one case: $1.70 per subscriber), far below paid ads — so yes, the single phone is cheap customer acquisition and the entrants' aggregated actions are the real value. But each entrant is a bona fide contestant in a real draw with non-zero expected value, not merely unpaid staff; the structure is 'contestant who also markets,' not 'marketer instead of contestant.' (Caveat: this holds only when there is an actual draw and real winner — which the post concedes — and much of the reach is weak, since such giveaways see ~30%+ follower churn within a month.) Rebuild the post on the correct mechanism."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "A follow given to an account during a giveaway does not automatically expire or reverse once the user stops engaging with that content; it remains active indefinitely unless manually undone.",
+      "sentence": "The follow stays long after the reel is forgotten.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Tagging someone in an Instagram comment sends that person a notification that comes from the tagging user (someone they know), not from the brand or account running the giveaway.",
+      "sentence": "Each tag lands in three people's notifications, from a name they trust.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Sharing a post to one's Instagram story displays it to that user's own followers, including people who do not already follow the giveaway account and would not otherwise encounter it.",
+      "sentence": "Your story share drops the reel in front of your circle, who'd never have found that account alone.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "A giveaway with only one physical prize (one phone) can have only one winner among all entrants.",
+      "sentence": "But it's one sealed box, so one winner.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Because the giveaway has only one prize, only one entrant wins it while everyone else who followed, tagged, and shared gets nothing but has still generated marketing actions for the account, making entrants function as unpaid promotional labor rather than genuine contestants.",
+      "sentence": "It admits a real person does win a real phone, but since one sealed box means one winner, everyone else did the same work for nothing, which makes you the medium the ad ran on rather than a contestant.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "N/A",
+      "correct": "Instagram has no feature that auto-expires or auto-reverses a follow based on inactivity or lack of engagement. Unfollowing is always a deliberate, manual action (tap 'Following' → 'Unfollow'). A follow gained during a giveaway stays in place indefinitely unless the user manually unfollows.",
+      "sources": [
+       {
+        "url": "https://www.facebook.com/help/instagram/286340048138725",
+        "publisher": "Meta / Instagram Help Center",
+        "published_date": "N/A",
+        "quote": "Click Following above, then click Unfollow to confirm. [...] The article does not mention any automatic expiration or time-based features for unfollow actions.",
+        "tier": 1
+       },
+       {
+        "url": "https://brands.joinstatus.com/new-giveaway-followers",
+        "publisher": "Status (joinstatus.com)",
+        "published_date": "N/A",
+        "quote": "Many of the followers you gain from giveaways will most likely unfollow shortly after it's ended... these people unfollow when they lose (or even worse when they win!)",
+        "tier": 3
+       }
+      ]
+     },
+     "c2": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "N/A",
+      "correct": "Tagging/mentioning someone in a comment triggers an Instagram-generated notification that names the person who did the tagging, e.g. '[username] mentioned you in a comment' — not the brand/giveaway account hosting the post. Minor caveat: if the tagging account is private and the tagged person doesn't follow them, the notification may not fire.",
+      "sources": [
+       {
+        "url": "https://www.facebook.com/help/instagram/1422266748076581",
+        "publisher": "Meta / Instagram Help Center",
+        "published_date": "N/A",
+        "quote": "When you mention accounts that follow you, they'll be notified about your mention.",
+        "tier": 1
+       },
+       {
+        "url": "https://socialrails.com/blog/instagram-mentions-complete-guide",
+        "publisher": "SocialRails",
+        "published_date": "2026",
+        "quote": "a notification appears in their Activity/Notifications tab and reads along the lines of 'so-and-so mentioned you in a comment,' with a snippet of what you wrote.",
+        "tier": 3
+       }
+      ]
+     },
+     "c3": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "N/A",
+      "correct": "Adding a post to one's Story puts it in front of that user's own follower base (Instagram's Story audience defaults to all followers, or Close Friends if selected) — a separate audience from the original/giveaway account's followers, so it does expose the post to people who don't already follow the giveaway account.",
+      "sources": [
+       {
+        "url": "https://about.instagram.com/features/stories",
+        "publisher": "Instagram (Meta) — official feature page",
+        "published_date": "N/A",
+        "quote": "when you share someone's post to your story, anyone who views it can see who originally posted it and can view the original account.",
+        "tier": 1
+       },
+       {
+        "url": "https://www.facebook.com/help/instagram/4194195024242103",
+        "publisher": "Meta / Instagram Help Center",
+        "published_date": "N/A",
+        "quote": "You can only share someone's post from Feed to your story if their account is public and they've allowed resharing of their posts.",
+        "tier": 1
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": "Standard giveaway practice (and basic logic): when a giveaway has a single physical prize unit (e.g., one phone) and no stated duplicate/backup prizes, exactly one entrant is selected as winner of that prize; a second name is drawn only as an alternate if the first winner forfeits — not as a co-winner.",
+      "sources": [
+       {
+        "url": "https://www.uscellular.com/content/dam/uscc-static/assets/snippets/week-of-giveaways-official-rules.html",
+        "publisher": "US Cellular (official rules page)",
+        "published_date": null,
+        "quote": "if a subscriber is drawn more than one time, they will be awarded only one phone and another winner will be randomly chosen... The selected winner must confirm acceptance of the prize within 48 hours of being contacted... if the winner does not respond, is deemed ineligible, or declines the prize, an alternate winner may be selected.",
+        "tier": 1
+       },
+       {
+        "url": "https://www.oneplus.com/ca_en/launch/11/rules",
+        "publisher": "OnePlus (official rules page)",
+        "published_date": null,
+        "quote": "Two (2) winners will each receive one (1) OnePlus 11 5G... One (1) winner will be selected in a random drawing from all eligible entries received.",
+        "tier": 1
+       },
+       {
+        "url": "https://www.shortstack.com/blog/example-giveaway-rules-for-instagram-contests-and-giveaways",
+        "publisher": "ShortStack",
+        "published_date": null,
+        "quote": "One (1) winner will be selected in a random drawing on or about [Date] from all eligible entries received.",
+        "tier": 3
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "The conclusion's 'rather than genuine contestants' is a false dichotomy, and the supporting premise that non-winners 'get nothing' is false. A single-prize giveaway with a real draw is a genuine sweepstakes: every valid entry carries a real, positive expected value (prize value ÷ number of entrants), so entrants are simultaneously genuine contestants AND a source of marketing actions. The two are not mutually exclusive, and 'unpaid' overstates it — participants are paid in a lottery ticket priced in effort rather than cash.",
+     "actual_mechanism": "A follow/tag/share giveaway is a barter-sweepstakes: the brand swaps a fixed-cost prize and a small chance of winning for engagement actions, buying reach and followers at roughly $0.50–$3 per lead (one case: $1.70 per subscriber), far below paid ads — so yes, the single phone is cheap customer acquisition and the entrants' aggregated actions are the real value. But each entrant is a bona fide contestant in a real draw with non-zero expected value, not merely unpaid staff; the structure is 'contestant who also markets,' not 'marketer instead of contestant.' (Caveat: this holds only when there is an actual draw and real winner — which the post concedes — and much of the reach is weak, since such giveaways see ~30%+ follower churn within a month.)",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://winbigdaily.com/sweepstakes-expected-value/",
+       "published_date": "2026",
+       "quote": "expected value is the prize amount multiplied by your probability of winning it—if a promotion gives away $1,000,000 and receives 100 million entries, each entry carries an expected value of one cent"
+      },
+      {
+       "url": "https://sweeppea.medium.com/breaking-down-the-numbers-how-much-does-it-really-cost-to-open-a-sweepstakes-87f737b75cc1",
+       "published_date": "2023",
+       "quote": "a sweepstakes costing $17,000 generated 10,000 participants with an acquisition cost of $1.70 per subscriber"
+      },
+      {
+       "url": "https://sweepwidget.com/blog/giveaway-marketing-strategy",
+       "published_date": "2026",
+       "quote": "Instagram giveaway posts pull roughly 64 times more comments and 3.5 times more likes than standard posts, and accounts running giveaways grow about 70 percent faster ... expect follower churn above 30% within a month"
+      },
+      {
+       "url": "https://woobox.com/articles/instagram-giveaway-rules-and-compliance",
+       "published_date": "2026",
+       "quote": "Your promotion must include complete official rules that cover entry conditions, prize details, eligibility requirements, and selection criteria"
+      }
+     ]
+    },
+    "text_hash": "0f7d38e2157b80eb4cf59459c801a53a184ef05d",
+    "at": "2026-10-25T08:39:06.172276+00:00"
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "The take's premise is wrong: The conclusion's 'rather than genuine contestants' is a false dichotomy, and the supporting premise that non-winners 'get nothing' is false. A single-prize giveaway with a real draw is a genuine sweepstakes: every valid entry carries a real, positive expected value (prize value ÷ number of entrants), so entrants are simultaneously genuine contestants AND a source of marketing actions. The two are not mutually exclusive, and 'unpaid' overstates it — participants are paid in a lottery ticket priced in effort rather than cash.. How it actually works: A follow/tag/share giveaway is a barter-sweepstakes: the brand swaps a fixed-cost prize and a small chance of winning for engagement actions, buying reach and followers at roughly $0.50–$3 per lead (one case: $1.70 per subscriber), far below paid ads — so yes, the single phone is cheap customer acquisition and the entrants' aggregated actions are the real value. But each entrant is a bona fide contestant in a real draw with non-zero expected value, not merely unpaid staff; the structure is 'contestant who also markets,' not 'marketer instead of contestant.' (Caveat: this holds only when there is an actual draw and real winner — which the post concedes — and much of the reach is weak, since such giveaways see ~30%+ follower churn within a month.) Rebuild the post on the correct mechanism."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 5,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 5,
+     "tight": 4
+    },
+    "notes": [
+     "Slide 6: 'You weren't only a contestant. You were the medium the ad ran on' echoes the cover's 'isn't a gift / it's renting your reach' shape too closely — it's the same claim in a new coat, not a new beat. Give the closer something the cover didn't already say: what happens to the follow and the tags after the giveaway ends (the account keeps them, you don't keep the phone), so the last slide earns its own swipe instead of restating slide 1.",
+     "Slide 3: it mostly re-performs the rules slide 2 already listed (follow, tag three, share to story) without adding anything slide 2 didn't have. Keep the batchmate detail — it's good texture — but attach one genuinely new piece of information here (the comment count, the sameness of the three names) so the slide isn't just demonstrating a rule the reader already read.",
+     "Slide 5: 'the draw is real' and 'the reach was the whole point' are doing two different jobs in a short space — make sure the concession (draw is fair) fully lands before the pivot (reach is the real prize), or the mixed-feelings beat the mood calls for gets rushed.",
+     "Ending: 'ad wearing a gift box' is a strong line, but pair it with a concrete test or next-step per the account's usual close (e.g. a prompt to tally how many giveaways they've tagged into this year against what they've actually won) so the payoff gives the reader something to do, not just a line to agree with."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "verification": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "A follow given to an account during a giveaway does not automatically expire or reverse once the user stops engaging with that content; it remains active indefinitely unless manually undone.",
+      "sentence": "The follow stays long after the reel is forgotten.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Tagging someone in an Instagram comment sends that person a notification that comes from the tagging user (someone they know), not from the brand or account running the giveaway.",
+      "sentence": "Each tag lands in three people's notifications, from a name they trust.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Festive giveaways built on follow + tag-three-friends + story-share rules work as disguised advertising: the follow persists after the post is forgotten, each tag notifies three trusted contacts, and the story share puts the account in front of the entrant's whole follower circle, so the combined reach this generates exceeds what an ad budget could buy; the prize draw itself is genuine but is only the minor part of the exchange, making entrants the medium the ad runs on rather than just contestants.",
+      "sentence": "Your story share drops the account in front of your whole circle. One sealed phone buys a week of reach no ad budget could touch. And yes, the draw is real. ... so the chance was genuine and fair. But that chance was always the small part. The reach was the whole point. You weren't only a contestant. You were the medium the ad ran on, three tagged names at a time. The giveaway where you do all the sharing is just an ad wearing a gift box.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "On Instagram, sharing a post to your story displays it to the people who view your story (your followers/circle).",
+      "sentence": "Your story share drops the account in front of your whole circle.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "N/A",
+      "correct": "Instagram has no feature that auto-expires or auto-reverses a follow based on inactivity or lack of engagement. Unfollowing is always a deliberate, manual action (tap 'Following' → 'Unfollow'). A follow gained during a giveaway stays in place indefinitely unless the user manually unfollows.",
+      "sources": [
+       {
+        "url": "https://www.facebook.com/help/instagram/286340048138725",
+        "publisher": "Meta / Instagram Help Center",
+        "published_date": "N/A",
+        "quote": "Click Following above, then click Unfollow to confirm. [...] The article does not mention any automatic expiration or time-based features for unfollow actions.",
+        "tier": 1
+       },
+       {
+        "url": "https://brands.joinstatus.com/new-giveaway-followers",
+        "publisher": "Status (joinstatus.com)",
+        "published_date": "N/A",
+        "quote": "Many of the followers you gain from giveaways will most likely unfollow shortly after it's ended... these people unfollow when they lose (or even worse when they win!)",
+        "tier": 3
+       }
+      ]
+     },
+     "c2": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "N/A",
+      "correct": "Tagging/mentioning someone in a comment triggers an Instagram-generated notification that names the person who did the tagging, e.g. '[username] mentioned you in a comment' — not the brand/giveaway account hosting the post. Minor caveat: if the tagging account is private and the tagged person doesn't follow them, the notification may not fire.",
+      "sources": [
+       {
+        "url": "https://www.facebook.com/help/instagram/1422266748076581",
+        "publisher": "Meta / Instagram Help Center",
+        "published_date": "N/A",
+        "quote": "When you mention accounts that follow you, they'll be notified about your mention.",
+        "tier": 1
+       },
+       {
+        "url": "https://socialrails.com/blog/instagram-mentions-complete-guide",
+        "publisher": "SocialRails",
+        "published_date": "2026",
+        "quote": "a notification appears in their Activity/Notifications tab and reads along the lines of 'so-and-so mentioned you in a comment,' with a snippet of what you wrote.",
+        "tier": 3
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": null,
+      "sources": [
+       {
+        "url": "https://about.instagram.com/features/stories",
+        "publisher": "Instagram (Meta)",
+        "published_date": null,
+        "quote": "You can choose to share your Stories with all your followers or your Close Friends list, and also add them to your profile as story highlights.",
+        "tier": 1
+       },
+       {
+        "url": "https://www.socialbee.com/blog/how-to-put-a-post-on-your-story/",
+        "publisher": "SocialBee",
+        "published_date": "2026-01-01",
+        "quote": "Sharing an Instagram post to your story helps boost visibility and engagement by reaching followers who may have missed it in their feeds.",
+        "tier": 3
+       },
+       {
+        "url": "https://www.socialchamp.com/blog/how-to-share-instagram-post-to-story/",
+        "publisher": "SocialChamp",
+        "published_date": "2026-01-01",
+        "quote": "To share a post to your story, tap the arrow icon under the post and select 'Add post to your story'... anyone who taps it is taken straight to the creator's profile and post.",
+        "tier": 3
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "Only the 'the follow stays long after the reel is forgotten' sub-claim is overstated — follows are not durable: ~61% of giveaway entrants unfollow within two weeks and 60–80% within 30 days, so the persistent-follow value is largely illusory. Every other premise (comment-tags notify trusted contacts, story shares expose the entrant's circle, the draw is genuine, entrants supply the distribution) holds, and the central claim survives.",
+     "actual_mechanism": "Follow + tag-three + story-share is a standard engagement/loop-giveaway growth tactic: the comment mentions fire real notifications to named contacts, the story reshares surface the account to the entrant's followers, and the prize is a one-time cost spread across thousands of unpaid distributors — adjusted cost works out to roughly $0.16–$0.23 per follower, cheap reach bought with entrants' labour rather than ad spend. The one correction is durability: most of the followers churn within weeks, so what the prize actually buys is a short burst of entrant-driven reach (matching the post's own 'a week of reach' line) rather than lasting audience, and the 'tag three friends' mechanic sits at the edge of Instagram's own promotion guidelines on tagging. So entrants genuinely are the medium the ad runs on, even if the acquired follows mostly evaporate.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.inro.social/blog/how-to-run-instagram-giveaways-that-boost-followers-engagement",
+       "published_date": "2026",
+       "quote": "On average, 61% of giveaway participants unfollowed sponsors' accounts within 2 weeks of the giveaway result announcement."
+      },
+      {
+       "url": "https://www.icekulfi.com/blogs/instagram-giveaway-strategy-guide",
+       "published_date": "2026",
+       "quote": "A follower is not a customer. It is not even a lead... Once the giveaway ends, they'll either unfollow your account or turn into 'ghost followers.'"
+      },
+      {
+       "url": "https://www.shortstack.com/help/facebook-promotion-guidelines/",
+       "published_date": "2026",
+       "quote": "Instagram prohibits tagging content inaccurately or encouraging people to do so... Asking participants to tag a friend in the comments is fine."
+      }
+     ]
+    },
+    "text_hash": "22b38d1c045ee82e4d1bf67e595ed92fff4676b7",
+    "at": "2026-10-25T14:47:36.551370+00:00"
+   }
   }
  ],
- "updated_at": "2026-10-25T08:25:45.910903+00:00",
+ "updated_at": "2026-10-25T14:48:01.235606+00:00",
  "sources": [],
  "draft": {
   "cover": {
-   "headline": "That iPhone giveaway made you [its unpaid growth team]",
-   "sub": "You entered to win a phone. You ended up doing the marketing."
+   "headline": "That iPhone giveaway isn't a gift. It's [renting your reach].",
+   "sub": "You entered to win a phone. Your tags became the ad."
   },
   "slides": [
    {
     "paragraphs": [
-     "That iPhone giveaway looks like a thank-you to followers. Your follow, your tags and your story share are what it's really collecting.\nSwipe to read →"
+     "That iPhone giveaway isn't a gift. It's renting your reach.",
+     "Swipe to read →"
     ],
-    "why_swipe": "What exactly is a giveaway collecting from the people who enter?"
+    "why_swipe": "What does a giveaway actually collect from the people who enter?"
    },
    {
     "paragraphs": [
-     "It's festive season and a reel stops your thumb. A new iPhone, still sealed in the box, and a creator smiling into the camera. \"This one's for my amazing family!\"",
+     "It's festive season and a reel stops your thumb. A sealed iPhone in the box, a creator smiling into the camera. \"This one's for my amazing family!\"",
      "The rules sit in the caption. Follow, like, tag three friends, share it to your story."
     ],
     "why_swipe": "What does the reader do next, and who else is doing it?"
@@ -159,37 +739,33 @@
    {
     "paragraphs": [
      "So you follow. You tag the friend who always replies, the one who never does, and a college batchmate just to make it three.",
-     "Then you open the comments. Thousands of strangers, three names each, the same small chore done over and over.",
-     "You share it to your story because the caption said so, and go back to scrolling."
+     "Then you open the comments. Thousands of strangers, three names each, the same tiny chore on repeat. You share it to your story because the caption said so, and go back to scrolling."
     ],
-    "why_swipe": "It felt like nothing. So what did all those small steps actually do?"
+    "why_swipe": "It felt like nothing. So what did all those small steps leave behind?"
    },
    {
     "paragraphs": [
-     "But look at what each rule leaves behind. The follow stays long after the reel is forgotten. Each tag lands in three people's notifications, from a name they recognise.",
-     "Your story share puts the reel in front of your circle, people who would never have found that account on their own.",
-     "**Add up every entry and the phone starts to look like the cheap part.**"
+     "But look at what each rule does. The follow stays long after the reel is forgotten. Each tag lands in three people's notifications, from a name they trust. Your story share drops the account in front of your whole circle.",
+     "**One sealed phone buys a week of reach no ad budget could touch.**"
     ],
-    "why_swipe": "Is it all a trick, or does someone actually get the phone?"
+    "why_swipe": "Is it just a trick, or do you actually stand to win?"
    },
    {
     "paragraphs": [
-     "And yes, a real person gets a real phone. Somewhere a stranger opens a DM and screams, and that part is genuine.",
-     "It's one person, though. Everyone else in those comments did the same work for the same week and got a story view count.",
-     "You were never really a contestant. You were the medium the ad ran on."
+     "And yes, the draw is real. A stranger opens a DM and screams. You paid for your ticket in follows and tags, not rupees, so the chance was genuine and fair.",
+     "But that chance was always the small part. The reach was the whole point."
     ],
-    "why_swipe": "So what's left on the reader's side once it's over?"
+    "why_swipe": "So what were you really, once the entry was done?"
    },
    {
     "paragraphs": [
-     "Think back to the last giveaway you entered.",
-     "That account still turns up in your feed. The winner's name never did.",
-     "**But you still remember the batchmate you tagged just to make it three.**"
+     "You weren't only a contestant. You were the medium the ad ran on, three tagged names at a time.",
+     "**The giveaway where you do all the sharing is just an ad wearing a gift box. That's true down to the batchmate you tagged to make three.**"
     ]
    }
   ],
   "end": {
-   "save": "Read it again before you tag three friends under the next festive giveaway.",
+   "save": "Open this again before you tag three friends under the next festive giveaway.",
    "send": "Send it to the friend who tags you in every giveaway.",
    "promise": "How the internet sells to you."
   },
@@ -200,7 +776,813 @@
    "#InfluencerMarketing",
    "#SocialMediaIndia"
   ],
-  "alt_text": "Carousel post. The cover reads: That iPhone giveaway made you its unpaid growth team. The slides follow you through a festive iPhone giveaway reel. You follow the account, tag three friends including a college batchmate just to make it three, see thousands of strangers in the comments doing the same, and share it to your story. The next slide shows what each rule leaves behind: the follow stays, each tag lands in three people's notifications, and the story share puts the reel in front of your circle, so the phone starts to look like the cheap part. It admits a real person does win a real phone, but everyone else did the same work for nothing, which makes you the medium the ad ran on rather than a contestant. It closes by asking you to think of the last giveaway you entered: the account still shows up in your feed, you never learned the winner's name, but you still remember the batchmate you tagged to make it three.",
-  "claims": []
+  "alt_text": "Carousel post. The cover reads: That iPhone giveaway isn't a gift, it's renting your reach. The slides walk you through a festive iPhone giveaway reel. You follow the account, tag three friends including a college batchmate just to make it three, see thousands of strangers doing the same in the comments, and share it to your story. The next slide shows what each rule leaves behind: the follow stays, each tag lands in three trusted notifications, and the story share puts the account in front of your circle, so one sealed phone buys a week of reach no ad budget could touch. It concedes the draw is real and your ticket was genuine, paid in effort not cash, but the chance was always the small part and the reach was the point. It closes by saying you weren't only a contestant, you were the medium the ad ran on, three tagged names at a time.",
+  "claims": [],
+  "caption_style": "question"
+ },
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] That iPhone giveaway isn't a gift. It's [renting your reach].\nYou entered to win a phone. Your tags became the ad.\n \n\n[slide 1] That iPhone giveaway isn't a gift. It's renting your reach.\nSwipe to read →\n\n[slide 2] It's festive season and a reel stops your thumb. A sealed iPhone in the box, a creator smiling into the camera. \"This one's for my amazing family!\"\nThe rules sit in the caption. Follow, like, tag three friends, share it to your story.\n\n[slide 3] So you follow. You tag the friend who always replies, the one who never does, and a college batchmate just to make it three.\nThen you open the comments. Thousands of strangers, three names each, the same tiny chore on repeat. You share it to your story because the caption said so, and go back to scrolling.\n\n[slide 4] But look at what each rule does. The follow stays long after the reel is forgotten. Each tag lands in three people's notifications, from a name they trust. Your story share drops the account in front of your whole circle.\nOne sealed phone buys a week of reach no ad budget could touch.\n\n[slide 5] And yes, the draw is real. A stranger opens a DM and screams. You paid for your ticket in follows and tags, not rupees, so the chance was genuine and fair.\nBut that chance was always the small part. The reach was the whole point.\n\n[slide 6] You weren't only a contestant. You were the medium the ad ran on, three tagged names at a time.\nThe giveaway where you do all the sharing is just an ad wearing a gift box. That's true down to the batchmate you tagged to make three.\n\n[end card] Open this again before you tag three friends under the next festive giveaway.\nSend it to the friend who tags you in every giveaway.\n\n[caption] Who won the last giveaway you entered? And who did you tag just to make it three?\n\n[alt text] Carousel post. The cover reads: That iPhone giveaway isn't a gift, it's renting your reach. The slides walk you through a festive iPhone giveaway reel. You follow the account, tag three friends including a college batchmate just to make it three, see thousands of strangers doing the same in the comments, and share it to your story. The next slide shows what each rule leaves behind: the follow stays, each tag lands in three trusted notifications, and the story share puts the account in front of your circle, so one sealed phone buys a week of reach no ad budget could touch. It concedes the draw is real and your ticket was genuine, paid in effort not cash, but the chance was always the small part and the reach was the point. It closes by saying you weren't only a contestant, you were the medium the ad ran on, three tagged names at a time.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "A follow given to an account during a giveaway does not automatically expire or reverse once the user stops engaging with that content; it remains active indefinitely unless manually undone.",
+     "sentence": "The follow stays long after the reel is forgotten.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "Tagging someone in an Instagram comment sends that person a notification that comes from the tagging user (someone they know), not from the brand or account running the giveaway.",
+     "sentence": "Each tag lands in three people's notifications, from a name they trust.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c3",
+     "text": "Festive giveaways built on follow + tag-three-friends + story-share rules work as disguised advertising: the follow persists after the post is forgotten, each tag notifies three trusted contacts, and the story share puts the account in front of the entrant's whole follower circle, so the combined reach this generates exceeds what an ad budget could buy; the prize draw itself is genuine but is only the minor part of the exchange, making entrants the medium the ad runs on rather than just contestants.",
+     "sentence": "Your story share drops the account in front of your whole circle. One sealed phone buys a week of reach no ad budget could touch. And yes, the draw is real. ... so the chance was genuine and fair. But that chance was always the small part. The reach was the whole point. You weren't only a contestant. You were the medium the ad ran on, three tagged names at a time. The giveaway where you do all the sharing is just an ad wearing a gift box.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c4",
+     "text": "On Instagram, sharing a post to your story displays it to the people who view your story (your followers/circle).",
+     "sentence": "Your story share drops the account in front of your whole circle.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "A follow given to an account during a giveaway does not automatically expire or reverse once the user stops engaging with that content; it remains active indefinitely unless manually undone.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": "N/A",
+   "correct": "Instagram has no feature that auto-expires or auto-reverses a follow based on inactivity or lack of engagement. Unfollowing is always a deliberate, manual action (tap 'Following' → 'Unfollow'). A follow gained during a giveaway stays in place indefinitely unless the user manually unfollows.",
+   "sources": [
+    {
+     "url": "https://www.facebook.com/help/instagram/286340048138725",
+     "publisher": "Meta / Instagram Help Center",
+     "published_date": "N/A",
+     "quote": "Click Following above, then click Unfollow to confirm. [...] The article does not mention any automatic expiration or time-based features for unfollow actions.",
+     "tier": 1
+    },
+    {
+     "url": "https://brands.joinstatus.com/new-giveaway-followers",
+     "publisher": "Status (joinstatus.com)",
+     "published_date": "N/A",
+     "quote": "Many of the followers you gain from giveaways will most likely unfollow shortly after it's ended... these people unfollow when they lose (or even worse when they win!)",
+     "tier": 3
+    }
+   ]
+  },
+  "Tagging someone in an Instagram comment sends that person a notification that comes from the tagging user (someone they know), not from the brand or account running the giveaway.": {
+   "id": "c3",
+   "verdict": "supported",
+   "event_date": "N/A",
+   "correct": "Tagging/mentioning someone in a comment triggers an Instagram-generated notification that names the person who did the tagging, e.g. '[username] mentioned you in a comment' — not the brand/giveaway account hosting the post. Minor caveat: if the tagging account is private and the tagged person doesn't follow them, the notification may not fire.",
+   "sources": [
+    {
+     "url": "https://www.facebook.com/help/instagram/1422266748076581",
+     "publisher": "Meta / Instagram Help Center",
+     "published_date": "N/A",
+     "quote": "When you mention accounts that follow you, they'll be notified about your mention.",
+     "tier": 1
+    },
+    {
+     "url": "https://socialrails.com/blog/instagram-mentions-complete-guide",
+     "publisher": "SocialRails",
+     "published_date": "2026",
+     "quote": "a notification appears in their Activity/Notifications tab and reads along the lines of 'so-and-so mentioned you in a comment,' with a snippet of what you wrote.",
+     "tier": 3
+    }
+   ]
+  },
+  "Sharing a post to one's Instagram story displays it to that user's own followers, including people who do not already follow the giveaway account and would not otherwise encounter it.": {
+   "id": "c4",
+   "verdict": "supported",
+   "event_date": "N/A",
+   "correct": "Adding a post to one's Story puts it in front of that user's own follower base (Instagram's Story audience defaults to all followers, or Close Friends if selected) — a separate audience from the original/giveaway account's followers, so it does expose the post to people who don't already follow the giveaway account.",
+   "sources": [
+    {
+     "url": "https://about.instagram.com/features/stories",
+     "publisher": "Instagram (Meta) — official feature page",
+     "published_date": "N/A",
+     "quote": "when you share someone's post to your story, anyone who views it can see who originally posted it and can view the original account.",
+     "tier": 1
+    },
+    {
+     "url": "https://www.facebook.com/help/instagram/4194195024242103",
+     "publisher": "Meta / Instagram Help Center",
+     "published_date": "N/A",
+     "quote": "You can only share someone's post from Feed to your story if their account is public and they've allowed resharing of their posts.",
+     "tier": 1
+    }
+   ]
+  },
+  "In this type of giveaway, only one entrant receives the prize while every other entrant performs the same promotional tasks and receives nothing of comparable value in return.": {
+   "id": "c5",
+   "verdict": "supported",
+   "event_date": "N/A",
+   "correct": "This describes the standard structure of a single-prize follow/tag/share giveaway: one winner receives the prize; all other entrants who completed the same tasks (follow, tag, share) receive no tangible reward — this is a structural description of the mechanic itself, not a claim tied to a specific entity, so no primary/regulatory source names it directly, but it is consistently described this way across independent giveaway-marketing sources.",
+   "sources": [
+    {
+     "url": "https://www.inro.social/blog/how-to-run-instagram-giveaways",
+     "publisher": "Inro.social",
+     "published_date": "2026",
+     "quote": "An Instagram giveaway is a promotion where you offer a prize in exchange for an action... Common entry requirements include: Comment..., follow, or tag a friend, Share to Story.",
+     "tier": 3
+    },
+    {
+     "url": "https://kickofflabs.com/blog/how-to-run-successful-instagram-giveaway/",
+     "publisher": "KickoffLabs",
+     "published_date": "2026",
+     "quote": "while only one person wins the prize, the real value for the account owner lies elsewhere... entrants don't get tangible rewards (only the one winner does)",
+     "tier": 3
+    }
+   ]
+  },
+  "_by_text": {
+   "82acc8b8d58d747d00b1c572af04921257816498": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Needs a stronger source: 'In this type of giveaway, only one entrant receives the prize while every other entrant performs the same promotional tasks and receives nothing of comparable value in return.' (a primary source, or two independent major outlets)."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "The combined promotional value of everyone's free giveaway actions (permanent follows, friend-tag notifications, story shares reaching new audiences) across all entrants exceeds the cost of the single phone given away, making entrants unpaid marketing labor rather than contestants.",
+      "sentence": "Add up every entry and the phone looks like the cheap part. ... You were never really a contestant. You were the medium the ad ran on.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "A follow given to an account during a giveaway does not automatically expire or reverse once the user stops engaging with that content; it remains active indefinitely unless manually undone.",
+      "sentence": "The follow stays long after the reel is forgotten.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Tagging someone in an Instagram comment sends that person a notification that comes from the tagging user (someone they know), not from the brand or account running the giveaway.",
+      "sentence": "Each tag lands in three people's notifications, from a name they trust.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Sharing a post to one's Instagram story displays it to that user's own followers, including people who do not already follow the giveaway account and would not otherwise encounter it.",
+      "sentence": "Your story share drops the reel in front of your circle, who'd never have found that account alone.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "In this type of giveaway, only one entrant receives the prize while every other entrant performs the same promotional tasks and receives nothing of comparable value in return.",
+      "sentence": "It's one person, though. Everyone else in those comments did the same work for the same week and got a story view count.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "N/A",
+      "correct": "Instagram has no feature that auto-expires or auto-reverses a follow based on inactivity or lack of engagement. Unfollowing is always a deliberate, manual action (tap 'Following' → 'Unfollow'). A follow gained during a giveaway stays in place indefinitely unless the user manually unfollows.",
+      "sources": [
+       {
+        "url": "https://www.facebook.com/help/instagram/286340048138725",
+        "publisher": "Meta / Instagram Help Center",
+        "published_date": "N/A",
+        "quote": "Click Following above, then click Unfollow to confirm. [...] The article does not mention any automatic expiration or time-based features for unfollow actions.",
+        "tier": 1
+       },
+       {
+        "url": "https://brands.joinstatus.com/new-giveaway-followers",
+        "publisher": "Status (joinstatus.com)",
+        "published_date": "N/A",
+        "quote": "Many of the followers you gain from giveaways will most likely unfollow shortly after it's ended... these people unfollow when they lose (or even worse when they win!)",
+        "tier": 3
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "N/A",
+      "correct": "Tagging/mentioning someone in a comment triggers an Instagram-generated notification that names the person who did the tagging, e.g. '[username] mentioned you in a comment' — not the brand/giveaway account hosting the post. Minor caveat: if the tagging account is private and the tagged person doesn't follow them, the notification may not fire.",
+      "sources": [
+       {
+        "url": "https://www.facebook.com/help/instagram/1422266748076581",
+        "publisher": "Meta / Instagram Help Center",
+        "published_date": "N/A",
+        "quote": "When you mention accounts that follow you, they'll be notified about your mention.",
+        "tier": 1
+       },
+       {
+        "url": "https://socialrails.com/blog/instagram-mentions-complete-guide",
+        "publisher": "SocialRails",
+        "published_date": "2026",
+        "quote": "a notification appears in their Activity/Notifications tab and reads along the lines of 'so-and-so mentioned you in a comment,' with a snippet of what you wrote.",
+        "tier": 3
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "N/A",
+      "correct": "Adding a post to one's Story puts it in front of that user's own follower base (Instagram's Story audience defaults to all followers, or Close Friends if selected) — a separate audience from the original/giveaway account's followers, so it does expose the post to people who don't already follow the giveaway account.",
+      "sources": [
+       {
+        "url": "https://about.instagram.com/features/stories",
+        "publisher": "Instagram (Meta) — official feature page",
+        "published_date": "N/A",
+        "quote": "when you share someone's post to your story, anyone who views it can see who originally posted it and can view the original account.",
+        "tier": 1
+       },
+       {
+        "url": "https://www.facebook.com/help/instagram/4194195024242103",
+        "publisher": "Meta / Instagram Help Center",
+        "published_date": "N/A",
+        "quote": "You can only share someone's post from Feed to your story if their account is public and they've allowed resharing of their posts.",
+        "tier": 1
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "supported",
+      "event_date": "N/A",
+      "correct": "This describes the standard structure of a single-prize follow/tag/share giveaway: one winner receives the prize; all other entrants who completed the same tasks (follow, tag, share) receive no tangible reward — this is a structural description of the mechanic itself, not a claim tied to a specific entity, so no primary/regulatory source names it directly, but it is consistently described this way across independent giveaway-marketing sources.",
+      "sources": [
+       {
+        "url": "https://www.inro.social/blog/how-to-run-instagram-giveaways",
+        "publisher": "Inro.social",
+        "published_date": "2026",
+        "quote": "An Instagram giveaway is a promotion where you offer a prize in exchange for an action... Common entry requirements include: Comment..., follow, or tag a friend, Share to Story.",
+        "tier": 3
+       },
+       {
+        "url": "https://kickofflabs.com/blog/how-to-run-successful-instagram-giveaway/",
+        "publisher": "KickoffLabs",
+        "published_date": "2026",
+        "quote": "while only one person wins the prize, the real value for the account owner lies elsewhere... entrants don't get tangible rewards (only the one winner does)",
+        "tier": 3
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "The 'permanent follows' sub-claim is the one premise that fails. Giveaway followers churn heavily (a one-year case study of 52 accounts found ~61% unfollow within two weeks of the result), and Meta explicitly demotes follow/like/tag/share 'engagement bait,' so each entry's follow is mostly temporary and the reel's reach is throttled, not amplified. This overstates the per-entrant value but does not overturn the conclusion.",
+     "actual_mechanism": "A giveaway's follow-like-tag-share rules convert each entrant into a distribution node: comment tags fire real notifications, story shares push the post to circles that would never find the account, and even short-lived follows plus the engagement spike cost the organiser nothing but a few taps per person. Across thousands of entrants, buying that same reach and follower volume through ads would cost well more than one ~₹80,000 iPhone, so the aggregate promotional value genuinely exceeds the prize and the single winner is the only paid party, exactly as the post argues. The real-world caveats (most new follows leave, and Meta's algorithm suppresses this kind of bait) shrink the margin and mean much of the 'growth' is vanity, but they do not reverse who is working for whom.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.socialmediaexaminer.com/do-sponsored-instagram-contests-really-work-case-study/",
+       "published_date": "2021",
+       "quote": "On average, 61% of giveaway participants unfollowed the sponsors' accounts within 2 weeks of the giveaway result announcement."
+      },
+      {
+       "url": "https://about.fb.com/news/2017/12/news-feed-fyi-fighting-engagement-bait-on-facebook/",
+       "published_date": "2017-12-18",
+       "quote": "Posts that use this tactic will be demoted... 'Engagement bait' refers to a spammy post that goads people into interacting through likes, shares, comments, and other actions."
+      },
+      {
+       "url": "https://transparency.meta.com/enforcement/taking-action/lowering-distribution-of-problematic-content/",
+       "published_date": "2024",
+       "quote": "If content... might still be problematic or otherwise low-quality, we may reduce its distribution."
+      }
+     ]
+    },
+    "text_hash": "82acc8b8d58d747d00b1c572af04921257816498",
+    "at": "2026-10-25T08:34:49.890131+00:00"
+   },
+   "0f7d38e2157b80eb4cf59459c801a53a184ef05d": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "The take's premise is wrong: The conclusion's 'rather than genuine contestants' is a false dichotomy, and the supporting premise that non-winners 'get nothing' is false. A single-prize giveaway with a real draw is a genuine sweepstakes: every valid entry carries a real, positive expected value (prize value ÷ number of entrants), so entrants are simultaneously genuine contestants AND a source of marketing actions. The two are not mutually exclusive, and 'unpaid' overstates it — participants are paid in a lottery ticket priced in effort rather than cash.. How it actually works: A follow/tag/share giveaway is a barter-sweepstakes: the brand swaps a fixed-cost prize and a small chance of winning for engagement actions, buying reach and followers at roughly $0.50–$3 per lead (one case: $1.70 per subscriber), far below paid ads — so yes, the single phone is cheap customer acquisition and the entrants' aggregated actions are the real value. But each entrant is a bona fide contestant in a real draw with non-zero expected value, not merely unpaid staff; the structure is 'contestant who also markets,' not 'marketer instead of contestant.' (Caveat: this holds only when there is an actual draw and real winner — which the post concedes — and much of the reach is weak, since such giveaways see ~30%+ follower churn within a month.) Rebuild the post on the correct mechanism."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "A follow given to an account during a giveaway does not automatically expire or reverse once the user stops engaging with that content; it remains active indefinitely unless manually undone.",
+      "sentence": "The follow stays long after the reel is forgotten.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Tagging someone in an Instagram comment sends that person a notification that comes from the tagging user (someone they know), not from the brand or account running the giveaway.",
+      "sentence": "Each tag lands in three people's notifications, from a name they trust.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Sharing a post to one's Instagram story displays it to that user's own followers, including people who do not already follow the giveaway account and would not otherwise encounter it.",
+      "sentence": "Your story share drops the reel in front of your circle, who'd never have found that account alone.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "A giveaway with only one physical prize (one phone) can have only one winner among all entrants.",
+      "sentence": "But it's one sealed box, so one winner.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Because the giveaway has only one prize, only one entrant wins it while everyone else who followed, tagged, and shared gets nothing but has still generated marketing actions for the account, making entrants function as unpaid promotional labor rather than genuine contestants.",
+      "sentence": "It admits a real person does win a real phone, but since one sealed box means one winner, everyone else did the same work for nothing, which makes you the medium the ad ran on rather than a contestant.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "N/A",
+      "correct": "Instagram has no feature that auto-expires or auto-reverses a follow based on inactivity or lack of engagement. Unfollowing is always a deliberate, manual action (tap 'Following' → 'Unfollow'). A follow gained during a giveaway stays in place indefinitely unless the user manually unfollows.",
+      "sources": [
+       {
+        "url": "https://www.facebook.com/help/instagram/286340048138725",
+        "publisher": "Meta / Instagram Help Center",
+        "published_date": "N/A",
+        "quote": "Click Following above, then click Unfollow to confirm. [...] The article does not mention any automatic expiration or time-based features for unfollow actions.",
+        "tier": 1
+       },
+       {
+        "url": "https://brands.joinstatus.com/new-giveaway-followers",
+        "publisher": "Status (joinstatus.com)",
+        "published_date": "N/A",
+        "quote": "Many of the followers you gain from giveaways will most likely unfollow shortly after it's ended... these people unfollow when they lose (or even worse when they win!)",
+        "tier": 3
+       }
+      ]
+     },
+     "c2": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "N/A",
+      "correct": "Tagging/mentioning someone in a comment triggers an Instagram-generated notification that names the person who did the tagging, e.g. '[username] mentioned you in a comment' — not the brand/giveaway account hosting the post. Minor caveat: if the tagging account is private and the tagged person doesn't follow them, the notification may not fire.",
+      "sources": [
+       {
+        "url": "https://www.facebook.com/help/instagram/1422266748076581",
+        "publisher": "Meta / Instagram Help Center",
+        "published_date": "N/A",
+        "quote": "When you mention accounts that follow you, they'll be notified about your mention.",
+        "tier": 1
+       },
+       {
+        "url": "https://socialrails.com/blog/instagram-mentions-complete-guide",
+        "publisher": "SocialRails",
+        "published_date": "2026",
+        "quote": "a notification appears in their Activity/Notifications tab and reads along the lines of 'so-and-so mentioned you in a comment,' with a snippet of what you wrote.",
+        "tier": 3
+       }
+      ]
+     },
+     "c3": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "N/A",
+      "correct": "Adding a post to one's Story puts it in front of that user's own follower base (Instagram's Story audience defaults to all followers, or Close Friends if selected) — a separate audience from the original/giveaway account's followers, so it does expose the post to people who don't already follow the giveaway account.",
+      "sources": [
+       {
+        "url": "https://about.instagram.com/features/stories",
+        "publisher": "Instagram (Meta) — official feature page",
+        "published_date": "N/A",
+        "quote": "when you share someone's post to your story, anyone who views it can see who originally posted it and can view the original account.",
+        "tier": 1
+       },
+       {
+        "url": "https://www.facebook.com/help/instagram/4194195024242103",
+        "publisher": "Meta / Instagram Help Center",
+        "published_date": "N/A",
+        "quote": "You can only share someone's post from Feed to your story if their account is public and they've allowed resharing of their posts.",
+        "tier": 1
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": "Standard giveaway practice (and basic logic): when a giveaway has a single physical prize unit (e.g., one phone) and no stated duplicate/backup prizes, exactly one entrant is selected as winner of that prize; a second name is drawn only as an alternate if the first winner forfeits — not as a co-winner.",
+      "sources": [
+       {
+        "url": "https://www.uscellular.com/content/dam/uscc-static/assets/snippets/week-of-giveaways-official-rules.html",
+        "publisher": "US Cellular (official rules page)",
+        "published_date": null,
+        "quote": "if a subscriber is drawn more than one time, they will be awarded only one phone and another winner will be randomly chosen... The selected winner must confirm acceptance of the prize within 48 hours of being contacted... if the winner does not respond, is deemed ineligible, or declines the prize, an alternate winner may be selected.",
+        "tier": 1
+       },
+       {
+        "url": "https://www.oneplus.com/ca_en/launch/11/rules",
+        "publisher": "OnePlus (official rules page)",
+        "published_date": null,
+        "quote": "Two (2) winners will each receive one (1) OnePlus 11 5G... One (1) winner will be selected in a random drawing from all eligible entries received.",
+        "tier": 1
+       },
+       {
+        "url": "https://www.shortstack.com/blog/example-giveaway-rules-for-instagram-contests-and-giveaways",
+        "publisher": "ShortStack",
+        "published_date": null,
+        "quote": "One (1) winner will be selected in a random drawing on or about [Date] from all eligible entries received.",
+        "tier": 3
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "The conclusion's 'rather than genuine contestants' is a false dichotomy, and the supporting premise that non-winners 'get nothing' is false. A single-prize giveaway with a real draw is a genuine sweepstakes: every valid entry carries a real, positive expected value (prize value ÷ number of entrants), so entrants are simultaneously genuine contestants AND a source of marketing actions. The two are not mutually exclusive, and 'unpaid' overstates it — participants are paid in a lottery ticket priced in effort rather than cash.",
+     "actual_mechanism": "A follow/tag/share giveaway is a barter-sweepstakes: the brand swaps a fixed-cost prize and a small chance of winning for engagement actions, buying reach and followers at roughly $0.50–$3 per lead (one case: $1.70 per subscriber), far below paid ads — so yes, the single phone is cheap customer acquisition and the entrants' aggregated actions are the real value. But each entrant is a bona fide contestant in a real draw with non-zero expected value, not merely unpaid staff; the structure is 'contestant who also markets,' not 'marketer instead of contestant.' (Caveat: this holds only when there is an actual draw and real winner — which the post concedes — and much of the reach is weak, since such giveaways see ~30%+ follower churn within a month.)",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://winbigdaily.com/sweepstakes-expected-value/",
+       "published_date": "2026",
+       "quote": "expected value is the prize amount multiplied by your probability of winning it—if a promotion gives away $1,000,000 and receives 100 million entries, each entry carries an expected value of one cent"
+      },
+      {
+       "url": "https://sweeppea.medium.com/breaking-down-the-numbers-how-much-does-it-really-cost-to-open-a-sweepstakes-87f737b75cc1",
+       "published_date": "2023",
+       "quote": "a sweepstakes costing $17,000 generated 10,000 participants with an acquisition cost of $1.70 per subscriber"
+      },
+      {
+       "url": "https://sweepwidget.com/blog/giveaway-marketing-strategy",
+       "published_date": "2026",
+       "quote": "Instagram giveaway posts pull roughly 64 times more comments and 3.5 times more likes than standard posts, and accounts running giveaways grow about 70 percent faster ... expect follower churn above 30% within a month"
+      },
+      {
+       "url": "https://woobox.com/articles/instagram-giveaway-rules-and-compliance",
+       "published_date": "2026",
+       "quote": "Your promotion must include complete official rules that cover entry conditions, prize details, eligibility requirements, and selection criteria"
+      }
+     ]
+    },
+    "text_hash": "0f7d38e2157b80eb4cf59459c801a53a184ef05d",
+    "at": "2026-10-25T08:39:06.172276+00:00"
+   },
+   "22b38d1c045ee82e4d1bf67e595ed92fff4676b7": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "A follow given to an account during a giveaway does not automatically expire or reverse once the user stops engaging with that content; it remains active indefinitely unless manually undone.",
+      "sentence": "The follow stays long after the reel is forgotten.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Tagging someone in an Instagram comment sends that person a notification that comes from the tagging user (someone they know), not from the brand or account running the giveaway.",
+      "sentence": "Each tag lands in three people's notifications, from a name they trust.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Festive giveaways built on follow + tag-three-friends + story-share rules work as disguised advertising: the follow persists after the post is forgotten, each tag notifies three trusted contacts, and the story share puts the account in front of the entrant's whole follower circle, so the combined reach this generates exceeds what an ad budget could buy; the prize draw itself is genuine but is only the minor part of the exchange, making entrants the medium the ad runs on rather than just contestants.",
+      "sentence": "Your story share drops the account in front of your whole circle. One sealed phone buys a week of reach no ad budget could touch. And yes, the draw is real. ... so the chance was genuine and fair. But that chance was always the small part. The reach was the whole point. You weren't only a contestant. You were the medium the ad ran on, three tagged names at a time. The giveaway where you do all the sharing is just an ad wearing a gift box.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "On Instagram, sharing a post to your story displays it to the people who view your story (your followers/circle).",
+      "sentence": "Your story share drops the account in front of your whole circle.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "N/A",
+      "correct": "Instagram has no feature that auto-expires or auto-reverses a follow based on inactivity or lack of engagement. Unfollowing is always a deliberate, manual action (tap 'Following' → 'Unfollow'). A follow gained during a giveaway stays in place indefinitely unless the user manually unfollows.",
+      "sources": [
+       {
+        "url": "https://www.facebook.com/help/instagram/286340048138725",
+        "publisher": "Meta / Instagram Help Center",
+        "published_date": "N/A",
+        "quote": "Click Following above, then click Unfollow to confirm. [...] The article does not mention any automatic expiration or time-based features for unfollow actions.",
+        "tier": 1
+       },
+       {
+        "url": "https://brands.joinstatus.com/new-giveaway-followers",
+        "publisher": "Status (joinstatus.com)",
+        "published_date": "N/A",
+        "quote": "Many of the followers you gain from giveaways will most likely unfollow shortly after it's ended... these people unfollow when they lose (or even worse when they win!)",
+        "tier": 3
+       }
+      ]
+     },
+     "c2": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "N/A",
+      "correct": "Tagging/mentioning someone in a comment triggers an Instagram-generated notification that names the person who did the tagging, e.g. '[username] mentioned you in a comment' — not the brand/giveaway account hosting the post. Minor caveat: if the tagging account is private and the tagged person doesn't follow them, the notification may not fire.",
+      "sources": [
+       {
+        "url": "https://www.facebook.com/help/instagram/1422266748076581",
+        "publisher": "Meta / Instagram Help Center",
+        "published_date": "N/A",
+        "quote": "When you mention accounts that follow you, they'll be notified about your mention.",
+        "tier": 1
+       },
+       {
+        "url": "https://socialrails.com/blog/instagram-mentions-complete-guide",
+        "publisher": "SocialRails",
+        "published_date": "2026",
+        "quote": "a notification appears in their Activity/Notifications tab and reads along the lines of 'so-and-so mentioned you in a comment,' with a snippet of what you wrote.",
+        "tier": 3
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": null,
+      "sources": [
+       {
+        "url": "https://about.instagram.com/features/stories",
+        "publisher": "Instagram (Meta)",
+        "published_date": null,
+        "quote": "You can choose to share your Stories with all your followers or your Close Friends list, and also add them to your profile as story highlights.",
+        "tier": 1
+       },
+       {
+        "url": "https://www.socialbee.com/blog/how-to-put-a-post-on-your-story/",
+        "publisher": "SocialBee",
+        "published_date": "2026-01-01",
+        "quote": "Sharing an Instagram post to your story helps boost visibility and engagement by reaching followers who may have missed it in their feeds.",
+        "tier": 3
+       },
+       {
+        "url": "https://www.socialchamp.com/blog/how-to-share-instagram-post-to-story/",
+        "publisher": "SocialChamp",
+        "published_date": "2026-01-01",
+        "quote": "To share a post to your story, tap the arrow icon under the post and select 'Add post to your story'... anyone who taps it is taken straight to the creator's profile and post.",
+        "tier": 3
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "Only the 'the follow stays long after the reel is forgotten' sub-claim is overstated — follows are not durable: ~61% of giveaway entrants unfollow within two weeks and 60–80% within 30 days, so the persistent-follow value is largely illusory. Every other premise (comment-tags notify trusted contacts, story shares expose the entrant's circle, the draw is genuine, entrants supply the distribution) holds, and the central claim survives.",
+     "actual_mechanism": "Follow + tag-three + story-share is a standard engagement/loop-giveaway growth tactic: the comment mentions fire real notifications to named contacts, the story reshares surface the account to the entrant's followers, and the prize is a one-time cost spread across thousands of unpaid distributors — adjusted cost works out to roughly $0.16–$0.23 per follower, cheap reach bought with entrants' labour rather than ad spend. The one correction is durability: most of the followers churn within weeks, so what the prize actually buys is a short burst of entrant-driven reach (matching the post's own 'a week of reach' line) rather than lasting audience, and the 'tag three friends' mechanic sits at the edge of Instagram's own promotion guidelines on tagging. So entrants genuinely are the medium the ad runs on, even if the acquired follows mostly evaporate.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.inro.social/blog/how-to-run-instagram-giveaways-that-boost-followers-engagement",
+       "published_date": "2026",
+       "quote": "On average, 61% of giveaway participants unfollowed sponsors' accounts within 2 weeks of the giveaway result announcement."
+      },
+      {
+       "url": "https://www.icekulfi.com/blogs/instagram-giveaway-strategy-guide",
+       "published_date": "2026",
+       "quote": "A follower is not a customer. It is not even a lead... Once the giveaway ends, they'll either unfollow your account or turn into 'ghost followers.'"
+      },
+      {
+       "url": "https://www.shortstack.com/help/facebook-promotion-guidelines/",
+       "published_date": "2026",
+       "quote": "Instagram prohibits tagging content inaccurately or encouraging people to do so... Asking participants to tag a friend in the comments is fine."
+      }
+     ]
+    },
+    "text_hash": "22b38d1c045ee82e4d1bf67e595ed92fff4676b7",
+    "at": "2026-10-25T14:47:36.551370+00:00"
+   }
+  },
+  "A giveaway with only one physical prize (one phone) can have only one winner among all entrants.": {
+   "id": "c4",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": "Standard giveaway practice (and basic logic): when a giveaway has a single physical prize unit (e.g., one phone) and no stated duplicate/backup prizes, exactly one entrant is selected as winner of that prize; a second name is drawn only as an alternate if the first winner forfeits — not as a co-winner.",
+   "sources": [
+    {
+     "url": "https://www.uscellular.com/content/dam/uscc-static/assets/snippets/week-of-giveaways-official-rules.html",
+     "publisher": "US Cellular (official rules page)",
+     "published_date": null,
+     "quote": "if a subscriber is drawn more than one time, they will be awarded only one phone and another winner will be randomly chosen... The selected winner must confirm acceptance of the prize within 48 hours of being contacted... if the winner does not respond, is deemed ineligible, or declines the prize, an alternate winner may be selected.",
+     "tier": 1
+    },
+    {
+     "url": "https://www.oneplus.com/ca_en/launch/11/rules",
+     "publisher": "OnePlus (official rules page)",
+     "published_date": null,
+     "quote": "Two (2) winners will each receive one (1) OnePlus 11 5G... One (1) winner will be selected in a random drawing from all eligible entries received.",
+     "tier": 1
+    },
+    {
+     "url": "https://www.shortstack.com/blog/example-giveaway-rules-for-instagram-contests-and-giveaways",
+     "publisher": "ShortStack",
+     "published_date": null,
+     "quote": "One (1) winner will be selected in a random drawing on or about [Date] from all eligible entries received.",
+     "tier": 3
+    }
+   ]
+  },
+  "On Instagram, sharing a post to your story displays it to the people who view your story (your followers/circle).": {
+   "id": "c4",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://about.instagram.com/features/stories",
+     "publisher": "Instagram (Meta)",
+     "published_date": null,
+     "quote": "You can choose to share your Stories with all your followers or your Close Friends list, and also add them to your profile as story highlights.",
+     "tier": 1
+    },
+    {
+     "url": "https://www.socialbee.com/blog/how-to-put-a-post-on-your-story/",
+     "publisher": "SocialBee",
+     "published_date": "2026-01-01",
+     "quote": "Sharing an Instagram post to your story helps boost visibility and engagement by reaching followers who may have missed it in their feeds.",
+     "tier": 3
+    },
+    {
+     "url": "https://www.socialchamp.com/blog/how-to-share-instagram-post-to-story/",
+     "publisher": "SocialChamp",
+     "published_date": "2026-01-01",
+     "quote": "To share a post to your story, tap the arrow icon under the post and select 'Add post to your story'... anyone who taps it is taken straight to the creator's profile and post.",
+     "tier": 3
+    }
+   ]
+  }
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "A follow given to an account during a giveaway does not automatically expire or reverse once the user stops engaging with that content; it remains active indefinitely unless manually undone.",
+    "sentence": "The follow stays long after the reel is forgotten.",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "Tagging someone in an Instagram comment sends that person a notification that comes from the tagging user (someone they know), not from the brand or account running the giveaway.",
+    "sentence": "Each tag lands in three people's notifications, from a name they trust.",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c3",
+    "text": "Festive giveaways built on follow + tag-three-friends + story-share rules work as disguised advertising: the follow persists after the post is forgotten, each tag notifies three trusted contacts, and the story share puts the account in front of the entrant's whole follower circle, so the combined reach this generates exceeds what an ad budget could buy; the prize draw itself is genuine but is only the minor part of the exchange, making entrants the medium the ad runs on rather than just contestants.",
+    "sentence": "Your story share drops the account in front of your whole circle. One sealed phone buys a week of reach no ad budget could touch. And yes, the draw is real. ... so the chance was genuine and fair. But that chance was always the small part. The reach was the whole point. You weren't only a contestant. You were the medium the ad ran on, three tagged names at a time. The giveaway where you do all the sharing is just an ad wearing a gift box.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c4",
+    "text": "On Instagram, sharing a post to your story displays it to the people who view your story (your followers/circle).",
+    "sentence": "Your story share drops the account in front of your whole circle.",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c1": {
+    "id": "c2",
+    "verdict": "supported",
+    "event_date": "N/A",
+    "correct": "Instagram has no feature that auto-expires or auto-reverses a follow based on inactivity or lack of engagement. Unfollowing is always a deliberate, manual action (tap 'Following' → 'Unfollow'). A follow gained during a giveaway stays in place indefinitely unless the user manually unfollows.",
+    "sources": [
+     {
+      "url": "https://www.facebook.com/help/instagram/286340048138725",
+      "publisher": "Meta / Instagram Help Center",
+      "published_date": "N/A",
+      "quote": "Click Following above, then click Unfollow to confirm. [...] The article does not mention any automatic expiration or time-based features for unfollow actions.",
+      "tier": 1
+     },
+     {
+      "url": "https://brands.joinstatus.com/new-giveaway-followers",
+      "publisher": "Status (joinstatus.com)",
+      "published_date": "N/A",
+      "quote": "Many of the followers you gain from giveaways will most likely unfollow shortly after it's ended... these people unfollow when they lose (or even worse when they win!)",
+      "tier": 3
+     }
+    ]
+   },
+   "c2": {
+    "id": "c3",
+    "verdict": "supported",
+    "event_date": "N/A",
+    "correct": "Tagging/mentioning someone in a comment triggers an Instagram-generated notification that names the person who did the tagging, e.g. '[username] mentioned you in a comment' — not the brand/giveaway account hosting the post. Minor caveat: if the tagging account is private and the tagged person doesn't follow them, the notification may not fire.",
+    "sources": [
+     {
+      "url": "https://www.facebook.com/help/instagram/1422266748076581",
+      "publisher": "Meta / Instagram Help Center",
+      "published_date": "N/A",
+      "quote": "When you mention accounts that follow you, they'll be notified about your mention.",
+      "tier": 1
+     },
+     {
+      "url": "https://socialrails.com/blog/instagram-mentions-complete-guide",
+      "publisher": "SocialRails",
+      "published_date": "2026",
+      "quote": "a notification appears in their Activity/Notifications tab and reads along the lines of 'so-and-so mentioned you in a comment,' with a snippet of what you wrote.",
+      "tier": 3
+     }
+    ]
+   },
+   "c4": {
+    "id": "c4",
+    "verdict": "supported",
+    "event_date": null,
+    "correct": null,
+    "sources": [
+     {
+      "url": "https://about.instagram.com/features/stories",
+      "publisher": "Instagram (Meta)",
+      "published_date": null,
+      "quote": "You can choose to share your Stories with all your followers or your Close Friends list, and also add them to your profile as story highlights.",
+      "tier": 1
+     },
+     {
+      "url": "https://www.socialbee.com/blog/how-to-put-a-post-on-your-story/",
+      "publisher": "SocialBee",
+      "published_date": "2026-01-01",
+      "quote": "Sharing an Instagram post to your story helps boost visibility and engagement by reaching followers who may have missed it in their feeds.",
+      "tier": 3
+     },
+     {
+      "url": "https://www.socialchamp.com/blog/how-to-share-instagram-post-to-story/",
+      "publisher": "SocialChamp",
+      "published_date": "2026-01-01",
+      "quote": "To share a post to your story, tap the arrow icon under the post and select 'Add post to your story'... anyone who taps it is taken straight to the creator's profile and post.",
+      "tier": 3
+     }
+    ]
+   }
+  },
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "Only the 'the follow stays long after the reel is forgotten' sub-claim is overstated — follows are not durable: ~61% of giveaway entrants unfollow within two weeks and 60–80% within 30 days, so the persistent-follow value is largely illusory. Every other premise (comment-tags notify trusted contacts, story shares expose the entrant's circle, the draw is genuine, entrants supply the distribution) holds, and the central claim survives.",
+   "actual_mechanism": "Follow + tag-three + story-share is a standard engagement/loop-giveaway growth tactic: the comment mentions fire real notifications to named contacts, the story reshares surface the account to the entrant's followers, and the prize is a one-time cost spread across thousands of unpaid distributors — adjusted cost works out to roughly $0.16–$0.23 per follower, cheap reach bought with entrants' labour rather than ad spend. The one correction is durability: most of the followers churn within weeks, so what the prize actually buys is a short burst of entrant-driven reach (matching the post's own 'a week of reach' line) rather than lasting audience, and the 'tag three friends' mechanic sits at the edge of Instagram's own promotion guidelines on tagging. So entrants genuinely are the medium the ad runs on, even if the acquired follows mostly evaporate.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://www.inro.social/blog/how-to-run-instagram-giveaways-that-boost-followers-engagement",
+     "published_date": "2026",
+     "quote": "On average, 61% of giveaway participants unfollowed sponsors' accounts within 2 weeks of the giveaway result announcement."
+    },
+    {
+     "url": "https://www.icekulfi.com/blogs/instagram-giveaway-strategy-guide",
+     "published_date": "2026",
+     "quote": "A follower is not a customer. It is not even a lead... Once the giveaway ends, they'll either unfollow your account or turn into 'ghost followers.'"
+    },
+    {
+     "url": "https://www.shortstack.com/help/facebook-promotion-guidelines/",
+     "published_date": "2026",
+     "quote": "Instagram prohibits tagging content inaccurately or encouraging people to do so... Asking participants to tag a friend in the comments is fine."
+    }
+   ]
+  },
+  "text_hash": "22b38d1c045ee82e4d1bf67e595ed92fff4676b7",
+  "at": "2026-10-25T14:47:36.551370+00:00"
  }
 }
