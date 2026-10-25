@@ -160,9 +160,97 @@
    "problems": [
     "Slide 1 has 27 words; the limit is 25. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide."
    ]
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Every sentence is about the same length, which reads as a template. Put one longer, concrete sentence next to a short punch on most slides."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Hard failure #6 (facts as the hero / more than two numbers): slide 4 stacks three separate statistics in a row — 'Oracle sent termination mails to around 10,000 people in India, roughly a third of its staff here. The US suspended TCS, Infosys, Wipro and others from the first green card filing. And nearly 12,700 tech workers had already flown back from the US by September.' — and slide 5 adds a fourth number, 'These firms had over a lakh of those filings cleared over the years.' That's at least three numeric facts (10,000 / a third, 12,700, a lakh), well past the one-or-two limit, and slide 4 reads like a news recap rather than a person talking."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 3,
+     "eq": 4,
+     "iq": 4,
+     "story": 3,
+     "tight": 3
+    },
+    "notes": [
+     "Slide 4: cut to one number max here. Keep the Oracle figure since it anchors the month, but drop 'roughly a third' and the exact '12,700' — say something like 'thousands had already quietly flown back by September' instead of the precise count. The green card suspension fact needs no number at all.",
+     "Slide 4 is three flat news sentences back to back ('Oracle sent... The US suspended... And nearly 12,700...'). Rewrite in the 'you' voice that slide 3 was in — show the reader hearing about this (a termination mail landing, a WhatsApp forward about the suspension) instead of reporting it like a bulletin.",
+     "Slide 5's 'over a lakh' stat is the one that should carry the because — it's the number that makes 'your green card was never only your effort' land. Move or keep only this number here and strip the rest of the post's numbers so this one has room to hit.",
+     "Slide 3 and the folder/onsite/lottery detail are good story work — don't lose that texture when you trim slide 4. The fix is subtraction of numbers, not subtraction of the lived-through sequence.",
+     "Once slide 4 is down to one fact, check slide 4 and 5 still each force a swipe on their own (right now slide 4 half-answers itself by listing everything at once, which flattens the 'why did all three land together' question slide 4 is supposed to raise)."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Hard failure #6 (facts as the hero / more than two numbers): slide 4 stacks three separate statistics in a row — 'Oracle sent termination mails to around 10,000 people in India, roughly a third of its staff here. The US suspended TCS, Infosys, Wipro and others from the first green card filing. And nearly 12,700 tech workers had already flown back from the US by September.' — and slide 5 adds a fourth number, 'These firms had over a lakh of those filings cleared over the years.' That's at least three numeric facts (10,000 / a third, 12,700, a lakh), well past the one-or-two limit, and slide 4 reads like a news recap rather than a person talking.",
+    "Slide 4: cut to one number max here. Keep the Oracle figure since it anchors the month, but drop 'roughly a third' and the exact '12,700' — say something like 'thousands had already quietly flown back by September' instead of the precise count. The green card suspension fact needs no number at all.",
+    "Slide 4 is three flat news sentences back to back ('Oracle sent... The US suspended... And nearly 12,700...'). Rewrite in the 'you' voice that slide 3 was in — show the reader hearing about this (a termination mail landing, a WhatsApp forward about the suspension) instead of reporting it like a bulletin.",
+    "Slide 5's 'over a lakh' stat is the one that should carry the because — it's the number that makes 'your green card was never only your effort' land. Move or keep only this number here and strip the rest of the post's numbers so this one has room to hit.",
+    "Slide 3 and the folder/onsite/lottery detail are good story work — don't lose that texture when you trim slide 4. The fix is subtraction of numbers, not subtraction of the lived-through sequence.",
+    "Once slide 4 is down to one fact, check slide 4 and 5 still each force a swipe on their own (right now slide 4 half-answers itself by listing everything at once, which flattens the 'why did all three land together' question slide 4 is supposed to raise)."
+   ]
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Slide 4 has 64 words; the limit is 60. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 4: 'A friend from Oracle forwards a screenshot: around 10,000 people in India got the termination mail, theirs included. The next forward says the US froze TCS, Infosys, Wipro and the rest out of the first green card filing.' — this invents a one-off event with another person (a specific friend, a specific action, a specific personal outcome for them) to deliver the news. This is the same shape as the banned 'my manager told me' / 'a client said' examples, and it also pulls in a stranger's story where the topic calls for the reader's own (lived: false, 'no strangers' stories')."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 3,
+     "tight": 4
+    },
+    "notes": [
+     "Slide 4: Drop the invented friend. Deliver the same three facts as things landing in the reader's own feed/inbox that month — 'That month your own feed did three things at once' or similar — so the reader lives it directly instead of hearing it secondhand through someone else's screenshot and someone else's termination.",
+     "Slide 4: Once the friend device is removed, make sure the reader is still the one discovering each fact (scrolling, refreshing, a notification), matching how slide 3 kept the reader as the only actor in the onsite/H-1B wait.",
+     "Mood check: topic calls for 'rant' but the post reads measured and explanatory, especially slides 4-5. Sharpen with a sharper, more irritated turn of phrase somewhere in slide 5 or 6 so the frustration comes through, not just the mechanism.",
+     "Slide 6: strong closer, but double-check 'The folder in your drawer is ready. The queue it was for isn't' lands with more bite once slide 4 no longer leans on a friend's bad luck — it should feel like it's aimed squarely at the reader's own folder, mentioned in slide 3."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Slide 4: 'A friend from Oracle forwards a screenshot: around 10,000 people in India got the termination mail, theirs included. The next forward says the US froze TCS, Infosys, Wipro and the rest out of the first green card filing.' — this invents a one-off event with another person (a specific friend, a specific action, a specific personal outcome for them) to deliver the news. This is the same shape as the banned 'my manager told me' / 'a client said' examples, and it also pulls in a stranger's story where the topic calls for the reader's own (lived: false, 'no strangers' stories').",
+    "Slide 4: Drop the invented friend. Deliver the same three facts as things landing in the reader's own feed/inbox that month — 'That month your own feed did three things at once' or similar — so the reader lives it directly instead of hearing it secondhand through someone else's screenshot and someone else's termination.",
+    "Slide 4: Once the friend device is removed, make sure the reader is still the one discovering each fact (scrolling, refreshing, a notification), matching how slide 3 kept the reader as the only actor in the onsite/H-1B wait.",
+    "Mood check: topic calls for 'rant' but the post reads measured and explanatory, especially slides 4-5. Sharpen with a sharper, more irritated turn of phrase somewhere in slide 5 or 6 so the frustration comes through, not just the mechanism.",
+    "Slide 6: strong closer, but double-check 'The folder in your drawer is ready. The queue it was for isn't' lands with more bite once slide 4 no longer leans on a friend's bad luck — it should feel like it's aimed squarely at the reader's own folder, mentioned in slide 3."
+   ]
   }
  ],
- "updated_at": "2026-10-25T08:25:45.915446+00:00",
+ "updated_at": "2026-10-25T08:32:40.360191+00:00",
  "sources": [
   {
    "url": "https://www.theweek.in/news/biz-tech/2026/10/08/us-labour-department-halts-green-cards-for-tcs-infosys.amp.html",
@@ -185,77 +273,77 @@
  ],
  "draft": {
   "cover": {
-   "headline": "The 'IT job, H-1B, green card' plan just [got a lot narrower]",
-   "sub": "The company that was meant to sponsor you is now locked out."
+   "headline": "The 'IT job, H-1B, green card' plan just [broke at every step]",
+   "sub": "And all three cracked in the same month."
   },
   "slides": [
    {
     "paragraphs": [
-     "IT job, H-1B, green card. The company you joined to make that plan work just got locked out of the green card step.\nSwipe to read →"
+     "The 'IT job, H-1B, green card' plan just broke at every step.",
+     "Swipe to read →"
     ],
-    "why_swipe": "Which plan, and what does locked out mean?"
+    "why_swipe": "Which plan, and what broke?"
    },
    {
     "paragraphs": [
-     "Remember the plan from your engineering years? A service company job first. Onsite in two years. Then the H-1B, the green card, and you were \"settled\".",
-     "Every relative at every gathering understood that one word. It needed no follow-up question."
+     "Remember the plan from your engineering years? Crack a service company job, go onsite in two years, then the H-1B, then the green card.",
+     "One word covered all of it at family gatherings: settled. Nobody asked a follow-up."
     ],
-    "why_swipe": "So what happened once you were inside it?"
+    "why_swipe": "So what happened once you were inside that plan?"
    },
    {
     "paragraphs": [
-     "So you joined. You kept a plastic folder with your passport, degree and experience letters, all photocopied twice.",
-     "Onsite came. Then a March of refreshing your inbox every hour. Your name got picked, and you bought the whole team lunch.",
-     "After that, the green card was just paperwork. Your company would file it. You only had to wait."
+     "So you joined. You kept a plastic folder with your passport, degree and experience letters, each photocopied twice, just in case.",
+     "Onsite came. Then a March of refreshing your inbox every hour, until your name got picked and you bought the whole team lunch. After that, the green card felt like paperwork someone else would file."
     ],
     "why_swipe": "And then the wait hit something?"
    },
    {
     "paragraphs": [
-     "But this month the US Labour Department suspended TCS, Infosys, Wipro and a few others. The suspension is from the first filing for a green card.",
-     "New applications won't be accepted. Pending ones won't be processed either.",
-     "**The company holding your folder can't file the first form.**"
+     "Then one month did three things at once.",
+     "A friend from Oracle forwards a screenshot: around 10,000 people in India got the termination mail, theirs included. The next forward says the US froze TCS, Infosys, Wipro and the rest out of the first green card filing.",
+     "And your onsite group? People have been flying home all year."
     ],
-    "why_swipe": "Why those companies, and why now?"
+    "why_swipe": "Why did all three land together?"
    },
    {
     "paragraphs": [
-     "Here's the part the plan never mentioned. It worked because the US treated this pipeline as routine. These firms had over 1 lakh of those filings approved.",
-     "That volume is exactly what the US is now protecting its own job market from. Your green card was never only your effort. It was a slot in your employer's pipeline."
+     "Here's the part the plan never mentioned. It only ran while the US treated this pipeline as routine. These firms had over a lakh of those green card filings cleared over the years.",
+     "That exact volume is what's now being fenced off. Your green card was never only your effort. It was a slot in someone else's queue."
     ],
-    "why_swipe": "So what does that change for you?"
+    "why_swipe": "So what does that leave you holding?"
    },
    {
     "paragraphs": [
-     "At the next gathering a relative will ask, \"Onsite kab ja rahe ho?\"",
-     "**They'll think it's a question about you. It's now a question about who signs your forms.**"
+     "At the next gathering, someone will still ask when you're going onsite.",
+     "**If your five-year plan still has 'eventually move abroad' as step two, you wrote it for a year that just ended.** The folder in your drawer is ready. The queue it was for isn't."
     ]
    }
   ],
   "end": {
-   "save": "Come back to it the next time someone at a gathering asks when you're going onsite.",
+   "save": "Open it again the next time a relative asks when you're going onsite.",
    "send": "Send to the friend still prepping for an H-1B like it's 2015.",
    "promise": "How money and status really move."
   },
-  "caption": "Your green card was always a line in someone else's paperwork.",
+  "caption": "You wrote a five-year plan for a world that just shut three doors in one month.",
   "hashtags": [
    "#H1BVisa",
    "#GreenCardIndia",
    "#IndianITJobs",
-   "#OnsiteLife"
+   "#TechLayoffs"
   ],
-  "alt_text": "Carousel of six text slides. Cover headline: The 'IT job, H-1B, green card' plan just got a lot narrower. The slides walk the reader through the familiar plan: joining an Indian IT services company, keeping a folder of photocopied documents, going onsite, getting picked in the H-1B lottery and waiting for the company to file the green card. They then say the US Labour Department suspended TCS, Infosys, Wipro and others from the first filing for a green card, accepting no new applications and processing no pending ones. The post argues the plan only worked while the US treated this pipeline as routine, since these firms had over 100,000 such filings approved. The last slide says that when a relative asks when you're going onsite, it is now a question about who signs your forms.",
+  "alt_text": "Carousel of six text slides. Cover headline: The 'IT job, H-1B, green card' plan just broke at every step, and all three cracked in the same month. The slides walk the reader through the familiar plan: a service company job, going onsite, getting picked in the H-1B lottery, and keeping a folder of photocopied documents while the company files the green card. One slide describes the reader hearing, in the same month, that around 10,000 Oracle staff in India got termination emails, that the US froze TCS, Infosys, Wipro and others out of the first green card filing, and that colleagues have been returning from the US all year. The post argues the plan only worked while the US treated this pipeline as routine, since these firms had over a lakh such filings cleared, and that your green card was always a slot in someone else's queue. The last slide says that if your five-year plan still has moving abroad as step two, you wrote it for a year that just ended.",
   "claims": [
    {
-    "text": "This month (8 October 2026) the US Labour Department suspended TCS, Infosys, Wipro and others from the Permanent Labour Certification programme, the first filing for a green card.",
-    "source_url": "https://www.theweek.in/news/biz-tech/2026/10/08/us-labour-department-halts-green-cards-for-tcs-infosys.amp.html"
+    "text": "Around 10,000 Oracle employees in India received termination emails.",
+    "source_url": "https://offcampusjobs4u.com/india-job-market-today-21-oct-2026/"
    },
    {
-    "text": "No new applications will be accepted and pending ones will not be processed for these companies.",
-    "source_url": "https://www.theweek.in/news/biz-tech/2026/10/08/us-labour-department-halts-green-cards-for-tcs-infosys.amp.html"
+    "text": "On 8 October 2026 the US Labour Department suspended TCS, Infosys, Wipro, HCL, Cognizant and Capgemini from the Permanent Labour Certification programme, the first step toward a green card.",
+    "source_url": "https://www.theweek.in/news/biz-tech/2026/10/08/us-labour-department-halts-green-cards-for-tcs-infosys.html"
    },
    {
-    "text": "These firms had over 1 lakh (100,000) permanent labour certifications approved.",
+    "text": "These firms had over a lakh (100,000) permanent labour certifications approved.",
     "source_url": "https://www.theweek.in/news/biz-tech/2026/10/08/us-labour-department-halts-green-cards-for-tcs-infosys.amp.html",
     "derived_from": "Source states 'over 100,000 permanent labour certifications'; 100,000 = 1 lakh"
    }

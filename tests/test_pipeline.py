@@ -197,3 +197,34 @@ def test_banned_phrase_on_the_cover_is_caught():
     d = {"cover": {"headline": "A [take] here", "sub": "The rules quietly stop applying."},
          "slides": [{"paragraphs": ["hook"]}, {"paragraphs": ["one two three"]}], "claims": []}
     assert any("quietly" in p for p in writer.hard_checks(d, "carousel", []))
+
+
+def test_office_takes_are_spaced_out():
+    office = [{"id": f"o{i}", "territory": t, "title": "appraisal season", "score": {"format_fit": "carousel"}}
+              for i, t in enumerate(["money_status", "business_brands"] * 3)]
+    other = [{"id": f"x{i}", "territory": t, "title": "trip photos", "score": {"format_fit": "carousel"}}
+             for i, t in enumerate(["creators_internet", "pop_culture", "life_relationships"] * 3)]
+    slots = topic_filter.slots_for_month("2026-11")[:9]
+    plan = [p for p in topic_filter._assign(office + other, slots) if p["due"]]
+    flags = [topic_filter._is_office(p["topic"]) for p in plan]
+    assert not any(flags[i] and (flags[i - 1] or flags[i - 2]) for i in range(2, len(flags)))
+
+
+def test_top_up_plans_open_days_once(tmp_path, monkeypatch):
+    from engine import __main__ as cli, config, scout, state
+    monkeypatch.setattr(config, "STATE", tmp_path / "state")
+    calls = []
+    monkeypatch.setattr(scout, "run", lambda month, fresh_news=False: calls.append(("scout", fresh_news)))
+    monkeypatch.setattr(topic_filter, "run", lambda month, plan_month=None: calls.append(("plan", plan_month)))
+    cli.top_up()
+    assert calls[0] == ("scout", True) and any(c[0] == "plan" for c in calls)
+    calls.clear()
+    cli.top_up()  # ran moments ago: waits a few days before scouting again
+    assert calls == []
+
+
+def test_slide_one_becomes_the_cover():
+    d = {"cover": {"headline": "The corner shop backs you harder than any [bank] will"},
+         "slides": [{"paragraphs": [" ".join(["word"] * 30), "Swipe to read →"]}, {"paragraphs": ["x"]}], "claims": []}
+    out, _ = writer.mechanical(d, "carousel", [])
+    assert out["slides"][0]["paragraphs"][0] == "The corner shop backs you harder than any bank will."

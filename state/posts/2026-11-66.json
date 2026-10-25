@@ -1,7 +1,7 @@
 {
  "id": "2026-11-66",
- "status": "planned",
- "due": "2026-11-13T20:30:00+05:30",
+ "status": "approved",
+ "due": "2026-10-31T20:30:00+05:30",
  "format": "carousel",
  "topic": {
   "title": "The generous return window",
@@ -40,6 +40,278 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-10-25T08:21:47.905307+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Rule 7 (dead slide / last slide repeats cover's point): the cover's sub \"The promise closes the sale. Your inertia keeps their money.\" already states the full mechanism before the reader swipes, and slide 6, \"The easier they make returns on paper, the more they're counting on you not bothering,\" just restates that same idea in new words instead of adding anything new."
+    ],
+    "scores": {
+     "hook": 3,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 4,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "Cover sub gives away the entire \"because\" before the swipe. Rewrite the sub so it names the subject without stating the mechanism (e.g. point at the trust feeling, not at what it buys the brand) — right now there's nothing left for slide 5/6 to reveal.",
+     "Slide 6 just repeats slide 5's point (\"nobody uses them, that's what makes it work\" vs \"counting on you not bothering\"). Collapse these into one slide and use the freed slide for something the post hasn't said yet — e.g. the specific moment the window quietly closes, or what the kurta's fate says about the reader rather than about brands in general.",
+     "Slide 3 is doing two jobs at once (the physical friction of returning + the trust belief \"a brand this relaxed clearly trusts its own stuff\"). Separate these or trim one so the misconception lands clean before the turn in slide 4.",
+     "The closing line reads as a restated rule about brand behaviour, close to the cover's claim. Land it back on the reader's own box/kurta for a sharper, more specific sting instead of a general brand-tactics sentence.",
+     "Slide 2 and slide 3 both linger on \"you meant to return it but didn't yet\" — tighten so the week-long delay and the trust-belief land faster, giving slide 4's turn more room to hit."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Rule 7 (dead slide / last slide repeats cover's point): the cover's sub \"The promise closes the sale. Your inertia keeps their money.\" already states the full mechanism before the reader swipes, and slide 6, \"The easier they make returns on paper, the more they're counting on you not bothering,\" just restates that same idea in new words instead of adding anything new.",
+    "Cover sub gives away the entire \"because\" before the swipe. Rewrite the sub so it names the subject without stating the mechanism (e.g. point at the trust feeling, not at what it buys the brand) — right now there's nothing left for slide 5/6 to reveal.",
+    "Slide 6 just repeats slide 5's point (\"nobody uses them, that's what makes it work\" vs \"counting on you not bothering\"). Collapse these into one slide and use the freed slide for something the post hasn't said yet — e.g. the specific moment the window quietly closes, or what the kurta's fate says about the reader rather than about brands in general.",
+    "Slide 3 is doing two jobs at once (the physical friction of returning + the trust belief \"a brand this relaxed clearly trusts its own stuff\"). Separate these or trim one so the misconception lands clean before the turn in slide 4.",
+    "The closing line reads as a restated rule about brand behaviour, close to the cover's claim. Land it back on the reader's own box/kurta for a sharper, more specific sting instead of a general brand-tactics sentence.",
+    "Slide 2 and slide 3 both linger on \"you meant to return it but didn't yet\" — tighten so the week-long delay and the trust-belief land faster, giving slide 4's turn more room to hit."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 5,
+     "tight": 4
+    },
+    "notes": [
+     "Slide 5: 'They advertise returns loud and rely on almost nobody using them' reads as a grammar slip — fix to 'advertise returns loudly' so the line doesn't trip the reader right before the closer.",
+     "Slide 3: the two lines ('felt good... clearly trusts its own stuff' / 'That's the read they wanted you to have') are doing one job twice. Cut the first line and let 'That's the read they wanted you to have' carry the setup alone — tighter and still sets up the reveal.",
+     "Slide 4: 'The brand had this exact outcome priced in the day they wrote easy returns' is strong — keep it, but make sure slide 5 cashes out *who* benefits more concretely (you already name 'your laziness keeps their money and your goodwill' — consider moving that line earlier so slide 4 ends on the day-31 image instead of the explanation, since slide 5 is where the because belongs)."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "verification": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Most shoppers who intend to return an ill-fitting or wrong item within a long return window never actually complete the return, due to the friction and procrastination involved, so brands keep the sale revenue while appearing generous",
+      "sentence": "They advertise returns loud and rely on almost nobody using them. The promise closes the sale; your laziness keeps their money and your goodwill.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {},
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "The causal premise is only partly right. The post pins non-returns on 'friction and procrastination' ('your laziness keeps their money'). The strongest primary evidence (Janakiraman, Syrdal & Freling's 2016 Journal of Retailing meta-analysis of 21 studies) finds that *time* leniency — a longer window — reduces returns mainly through the endowment effect: the longer you hold an item, the more attached you get and the more you talk yourself into keeping it. It also separates the mechanisms the post merges: it is *monetary* and *low-effort* leniency that lift purchases, while the *long window* is what suppresses returns — so the window is doing the retention work more than the conversion work the post credits it with.",
+     "actual_mechanism": "A generous policy does boost sales and most items never come back (US ecommerce return rates run ~17–25%, so the large majority are kept), which is exactly the asymmetry the post describes. But the dominant reason long windows cut returns is psychological ownership, not just inertia: time to bond with the product plus genuine friction (labels, pickups) both push the keep-rate up, and retailers knowingly tune these levers — long windows to reduce returns, easy refunds to win the sale. Net effect matches the take: the promise closes the sale and few redeem it.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://news.utdallas.edu/business-management/researchers-examine-effect-of-return-policies-on-c/",
+       "published_date": "2016",
+       "quote": "leniency in time reduced return rates ... attributed to the endowment effect, whereby consumers develop stronger attachment to products they possess longer ... lenient return policies led to increased purchases"
+      },
+      {
+       "url": "https://www.koji.so/blog/return-rate-reduction-research-2026",
+       "published_date": "2026",
+       "quote": "lengthening the return window reduces returns, via the endowment effect, while reducing the effort required to return increases purchases"
+      },
+      {
+       "url": "https://redstagfulfillment.com/average-return-rates-for-ecommerce/",
+       "published_date": "2024",
+       "quote": "the average U.S. ecommerce return rate was around 20.4% in 2024 ... apparel return rates run roughly 25%"
+      }
+     ]
+    },
+    "text_hash": "ec4daff6eee0da0e3454fe9f251bc1631ed99509",
+    "at": "2026-10-25T08:38:05.345645+00:00"
+   }
+  }
+ ],
+ "updated_at": "2026-10-25T14:45:29.796245+00:00",
+ "sources": [],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] A 30-day return window is a bet you'll never [bother]\nThat easy-returns promise feels like respect. Watch what you actually do with it.\n \n\n[slide 1] A 30-day return window is a bet you'll never bother.\nSwipe to read →\n\n[slide 2] The kurta arrives and it's a little off. Tight at the shoulder, the colour a shade louder than the app promised.\nNo stress. Thirty days, no questions. You'll send it back this weekend.\n\n[slide 3] And buying from them felt good in the first place. A brand this relaxed about returns clearly trusts its own stuff.\nThat's the read they wanted you to have.\n\n[slide 4] The box sits by the door. Returning it means printing a label, booking a pickup slot, keeping an afternoon free for a delivery guy who comes whenever.\nDay 31. The return button is gone. The brand had this exact outcome priced in the day they wrote \"easy returns.\"\n\n[slide 5] The long window was never about trust. It was the last doubt removed at checkout, the line that made your thumb stop hovering and tap buy.\nThey advertise returns loud and rely on almost nobody using them. The promise closes the sale; your laziness keeps their money and your goodwill.\n\n[slide 6] Count the things in your cupboard with the tags still on. Each one is a bet the brand placed on you, and won.\n\n[end card] Open this again the next time a return window is about to close on you.\nSend it to the friend with three unworn things still in their boxes, return date long gone.\n\n[caption] What's the one thing sitting in its box right now, tags on, because you never got around to printing the label?\n\n[alt text] A six-slide carousel arguing that a generous 30-day return policy is a sales tactic, not kindness. It follows a reader who buys a slightly-wrong kurta online, trusts the relaxed return promise, keeps meaning to send it back, and lets the window close, showing that brands advertise easy returns while relying on customer inertia to keep both the money and the goodwill.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Most shoppers who intend to return an ill-fitting or wrong item within a long return window never actually complete the return, due to the friction and procrastination involved, so brands keep the sale revenue while appearing generous",
+     "sentence": "They advertise returns loud and rely on almost nobody using them. The promise closes the sale; your laziness keeps their money and your goodwill.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "_by_text": {
+   "ec4daff6eee0da0e3454fe9f251bc1631ed99509": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Most shoppers who intend to return an ill-fitting or wrong item within a long return window never actually complete the return, due to the friction and procrastination involved, so brands keep the sale revenue while appearing generous",
+      "sentence": "They advertise returns loud and rely on almost nobody using them. The promise closes the sale; your laziness keeps their money and your goodwill.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {},
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "The causal premise is only partly right. The post pins non-returns on 'friction and procrastination' ('your laziness keeps their money'). The strongest primary evidence (Janakiraman, Syrdal & Freling's 2016 Journal of Retailing meta-analysis of 21 studies) finds that *time* leniency — a longer window — reduces returns mainly through the endowment effect: the longer you hold an item, the more attached you get and the more you talk yourself into keeping it. It also separates the mechanisms the post merges: it is *monetary* and *low-effort* leniency that lift purchases, while the *long window* is what suppresses returns — so the window is doing the retention work more than the conversion work the post credits it with.",
+     "actual_mechanism": "A generous policy does boost sales and most items never come back (US ecommerce return rates run ~17–25%, so the large majority are kept), which is exactly the asymmetry the post describes. But the dominant reason long windows cut returns is psychological ownership, not just inertia: time to bond with the product plus genuine friction (labels, pickups) both push the keep-rate up, and retailers knowingly tune these levers — long windows to reduce returns, easy refunds to win the sale. Net effect matches the take: the promise closes the sale and few redeem it.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://news.utdallas.edu/business-management/researchers-examine-effect-of-return-policies-on-c/",
+       "published_date": "2016",
+       "quote": "leniency in time reduced return rates ... attributed to the endowment effect, whereby consumers develop stronger attachment to products they possess longer ... lenient return policies led to increased purchases"
+      },
+      {
+       "url": "https://www.koji.so/blog/return-rate-reduction-research-2026",
+       "published_date": "2026",
+       "quote": "lengthening the return window reduces returns, via the endowment effect, while reducing the effort required to return increases purchases"
+      },
+      {
+       "url": "https://redstagfulfillment.com/average-return-rates-for-ecommerce/",
+       "published_date": "2024",
+       "quote": "the average U.S. ecommerce return rate was around 20.4% in 2024 ... apparel return rates run roughly 25%"
+      }
+     ]
+    },
+    "text_hash": "ec4daff6eee0da0e3454fe9f251bc1631ed99509",
+    "at": "2026-10-25T08:38:05.345645+00:00"
+   }
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "A 30-day return window is a bet you'll never [bother]",
+   "sub": "That easy-returns promise feels like respect. Watch what you actually do with it."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "A 30-day return window is a bet you'll never bother.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "The reader wants to know how the bet works on them."
+   },
+   {
+    "paragraphs": [
+     "The kurta arrives and it's a little off. Tight at the shoulder, the colour a shade louder than the app promised.",
+     "No stress. Thirty days, no questions. You'll send it back this weekend."
+    ],
+    "why_swipe": "If it's that easy, why does the weekend keep passing?"
+   },
+   {
+    "paragraphs": [
+     "And buying from them felt good in the first place. A brand this relaxed about returns clearly trusts its own stuff.",
+     "That's the read they wanted you to have."
+    ],
+    "why_swipe": "If that read is engineered, what actually happens to the kurta?"
+   },
+   {
+    "paragraphs": [
+     "The box sits by the door. Returning it means printing a label, booking a pickup slot, keeping an afternoon free for a delivery guy who comes whenever.",
+     "Day 31. The return button is gone. **The brand had this exact outcome priced in the day they wrote \"easy returns.\"**"
+    ],
+    "why_swipe": "Priced in how? The reader wants the real mechanism."
+   },
+   {
+    "paragraphs": [
+     "The long window was never about trust. It was the last doubt removed at checkout, the line that made your thumb stop hovering and tap buy.",
+     "They advertise returns loud and rely on almost nobody using them. The promise closes the sale; your laziness keeps their money and your goodwill."
+    ],
+    "why_swipe": "So what does that leave sitting in the reader's own cupboard?"
+   },
+   {
+    "paragraphs": [
+     "**Count the things in your cupboard with the tags still on. Each one is a bet the brand placed on you, and won.**"
+    ],
+    "why_swipe": null
+   }
+  ],
+  "end": {
+   "save": "Open this again the next time a return window is about to close on you.",
+   "send": "Send it to the friend with three unworn things still in their boxes, return date long gone.",
+   "promise": "How brands really sell to us."
+  },
+  "caption": "What's the one thing sitting in its box right now, tags on, because you never got around to printing the label?",
+  "hashtags": [
+   "#returnpolicy",
+   "#onlineshopping",
+   "#darkpatterns",
+   "#ecommerceindia"
+  ],
+  "alt_text": "A six-slide carousel arguing that a generous 30-day return policy is a sales tactic, not kindness. It follows a reader who buys a slightly-wrong kurta online, trusts the relaxed return promise, keeps meaning to send it back, and lets the window close, showing that brands advertise easy returns while relying on customer inertia to keep both the money and the goodwill.",
+  "claims": [],
+  "caption_style": "question"
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Most shoppers who intend to return an ill-fitting or wrong item within a long return window never actually complete the return, due to the friction and procrastination involved, so brands keep the sale revenue while appearing generous",
+    "sentence": "They advertise returns loud and rely on almost nobody using them. The promise closes the sale; your laziness keeps their money and your goodwill.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {},
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "The causal premise is only partly right. The post pins non-returns on 'friction and procrastination' ('your laziness keeps their money'). The strongest primary evidence (Janakiraman, Syrdal & Freling's 2016 Journal of Retailing meta-analysis of 21 studies) finds that *time* leniency — a longer window — reduces returns mainly through the endowment effect: the longer you hold an item, the more attached you get and the more you talk yourself into keeping it. It also separates the mechanisms the post merges: it is *monetary* and *low-effort* leniency that lift purchases, while the *long window* is what suppresses returns — so the window is doing the retention work more than the conversion work the post credits it with.",
+   "actual_mechanism": "A generous policy does boost sales and most items never come back (US ecommerce return rates run ~17–25%, so the large majority are kept), which is exactly the asymmetry the post describes. But the dominant reason long windows cut returns is psychological ownership, not just inertia: time to bond with the product plus genuine friction (labels, pickups) both push the keep-rate up, and retailers knowingly tune these levers — long windows to reduce returns, easy refunds to win the sale. Net effect matches the take: the promise closes the sale and few redeem it.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://news.utdallas.edu/business-management/researchers-examine-effect-of-return-policies-on-c/",
+     "published_date": "2016",
+     "quote": "leniency in time reduced return rates ... attributed to the endowment effect, whereby consumers develop stronger attachment to products they possess longer ... lenient return policies led to increased purchases"
+    },
+    {
+     "url": "https://www.koji.so/blog/return-rate-reduction-research-2026",
+     "published_date": "2026",
+     "quote": "lengthening the return window reduces returns, via the endowment effect, while reducing the effort required to return increases purchases"
+    },
+    {
+     "url": "https://redstagfulfillment.com/average-return-rates-for-ecommerce/",
+     "published_date": "2024",
+     "quote": "the average U.S. ecommerce return rate was around 20.4% in 2024 ... apparel return rates run roughly 25%"
+    }
+   ]
+  },
+  "text_hash": "ec4daff6eee0da0e3454fe9f251bc1631ed99509",
+  "at": "2026-10-25T08:38:05.345645+00:00"
+ }
 }

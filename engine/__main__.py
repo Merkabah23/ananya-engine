@@ -1,7 +1,8 @@
 """Command line for the engine.
 
   python -m engine monthly            scout -> filter -> produce next month's posts
-  python -m engine push               schedule the next 8 days of ready posts in Buffer
+  python -m engine daily              keep two weeks planned, write a few posts, schedule the next 7 days
+  python -m engine push               schedule the next 7 days of ready posts in Buffer
   python -m engine scout|filter|produce|calibrate|status|buffer-channels
   python -m engine approve|reject <post_id> --why "..."   teach the engine your taste
 """
@@ -31,6 +32,21 @@ def _take_spare(slot_post: dict) -> dict | None:
             state.log("produce", f"{p['id']} replaces rejected {slot_post['id']}")
             return p
     return None
+
+
+def top_up(days: int = 14, min_open: int = 3, every: int = 3) -> None:
+    """Keep the next two weeks planned: when 3+ of the next 14 days have no post, scout today's news and plan those
+    days. At most every 3 days, so a thin news week can't burn the call budget."""
+    today = datetime.now(topic_filter.IST).date()
+    live = {p["due"][:10] for p in state.posts() if p.get("due") and p["status"] not in ("cancelled", "rejected")}
+    open_days = [d for d in (today + timedelta(n) for n in range(1, days + 1)) if d.isoformat() not in live]
+    last = (state.read(_month(0), "topup.json") or {}).get("at", "")
+    if len(open_days) < min_open or last > (datetime.now(timezone.utc) - timedelta(days=every)).isoformat():
+        return
+    state.write({"at": datetime.now(timezone.utc).isoformat(), "open": [d.isoformat() for d in open_days]}, _month(0), "topup.json")
+    scout.run(_month(0), fresh_news=True)
+    for month in sorted({d.strftime("%Y-%m") for d in open_days}):
+        topic_filter.run(_month(0), month)
 
 
 def check_approved(post: dict) -> dict:
@@ -248,8 +264,12 @@ def main() -> None:
     if a.command == "monthly":      # 20th: scout + plan next month (writing happens daily)
         scout.run(_month(0))
         topic_filter.run(_month(0), _month(1))
-    elif a.command == "daily":      # every day: write a few posts, then schedule what's due soon
+    elif a.command == "daily":      # every day: keep two weeks planned, write a few posts, schedule what's due soon
         try:
+            try:
+                top_up()
+            except Exception as e:  # planning ahead must never stop today's writing and scheduling
+                state.log("top_up", f"failed: {e}")
             produce(limit=config.PRODUCE_PER_RUN)
         finally:  # a usage cap mid-writing must not stop ready posts reaching Buffer
             push(a.days)

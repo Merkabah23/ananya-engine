@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 import math
+import re
 from datetime import date, datetime, time, timedelta, timezone
 
 from . import config, corpus, llm, state
@@ -105,6 +106,14 @@ def slots_for_month(month: str) -> list[dict]:
     return out
 
 
+OFFICE = re.compile(r"\b(office|appraisal|manager|boss|layoffs?|laid off|fired|hr|colleague|salary|bonus|increment|"
+                    r"hike|resign\w*|job|jobs|hiring|career|reorg|team structure)\b", re.I)
+
+
+def _is_office(t: dict) -> bool:
+    return bool(OFFICE.search(" ".join(str(t.get(k) or "") for k in ("title", "claim", "moment"))))
+
+
 def _assign(ranked: list[dict], slots: list[dict]) -> list[dict]:
     n = len(slots)
     quota = {t: max(1, math.ceil(w * n)) for t, w in config.TERRITORY_MIX.items()}  # ceil so quotas cover every slot
@@ -116,7 +125,8 @@ def _assign(ranked: list[dict], slots: list[dict]) -> list[dict]:
             fits = slot["format"] == "carousel" or t["score"].get("format_fit") in ("single", "either")
             if not strict:
                 return fits
-            return fits and terr != last and used.get(terr, 0) < quota.get(terr, 0)
+            office_ok = not (_is_office(t) and any(_is_office(x["topic"]) for x in plan[-2:]))  # one office take in 3 days
+            return fits and office_ok and terr != last and used.get(terr, 0) < quota.get(terr, 0)
         pick = next((t for t in pool if ok(t, True)), None) or next((t for t in pool if ok(t, False)), None)
         if not pick:
             continue  # e.g. no single-format topic left for a Saturday; later carousel slots can still fill

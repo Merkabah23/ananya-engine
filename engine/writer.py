@@ -140,6 +140,9 @@ def merge_paragraphs(draft: dict, fmt: str) -> dict:
 def mechanical(draft: dict, fmt: str, sources: list[dict], rounds: int = 2) -> tuple[dict, list[str]]:
     """Code checks. Layout problems get a quick mechanical repair; content problems are returned for the writer.
     Does not use up a rewrite attempt."""
+    headline = re.sub(r"[\[\]]", "", (draft.get("cover") or {}).get("headline", "")).strip()
+    if fmt == "carousel" and headline and draft.get("slides"):  # slide 1 is never shown: the cover replaces it
+        draft["slides"][0]["paragraphs"] = [headline.rstrip(".") + ".", "Swipe to read →"]
     draft = merge_paragraphs(draft, fmt)
     problems = hard_checks(draft, fmt, sources) + readability_problems(draft, fmt)
     for _ in range(rounds):

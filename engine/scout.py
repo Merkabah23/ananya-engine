@@ -184,11 +184,11 @@ def _attach_evidence(topics: list[dict], reddit: list[dict]) -> list[dict]:
     return topics
 
 
-def run(month: str | None = None) -> list[dict]:
+def run(month: str | None = None, fresh_news: bool = False) -> list[dict]:
     """Culture first: topics come from what India is watching, buying and arguing about, plus evergreen
     observations. Reddit is then used as evidence and texture, never as the origin of a topic."""
     month = month or datetime.now(timezone.utc).strftime("%Y-%m")
-    news = state.read(month, "news.json")
+    news = None if fresh_news else state.read(month, "news.json")  # a mid-month top-up reads today's news
     if news is None:
         news = _fetch_news()
         state.write(news, month, "news.json")

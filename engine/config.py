@@ -42,7 +42,7 @@ TERRITORY_MIX = {  # roughly the reference creator's spread of subjects
 
 # Gates
 MIN_TOPIC_SCORE = 22          # out of 35 (seven criteria x 5), plus fresh >= 4
-MAX_REWRITES = 2             # notes from the editor and the fact gate go back to the writer; nothing else rewrites
+MAX_REWRITES = 3  # four attempts: most drafts that fail on the third pass clear on the fourth
 NGRAM_BLOCK = 6               # any shared 6-word run with Varun's corpus blocks a draft
 
 # Rendering
