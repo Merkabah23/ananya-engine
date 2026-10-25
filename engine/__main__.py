@@ -266,13 +266,13 @@ def main() -> None:
         topic_filter.run(_month(0), _month(1))
     elif a.command == "daily":      # every day: keep two weeks planned, write a few posts, schedule what's due soon
         try:
-            try:
-                top_up()
-            except Exception as e:  # planning ahead must never stop today's writing and scheduling
-                state.log("top_up", f"failed: {e}")
             produce(limit=config.PRODUCE_PER_RUN)
         finally:  # a usage cap mid-writing must not stop ready posts reaching Buffer
             push(a.days)
+            try:  # planning ahead comes last, so it can never hold up today's posts
+                top_up()
+            except (Exception, SystemExit) as e:  # the call cap exits with SystemExit
+                state.log("top_up", f"skipped: {e}")
     elif a.command == "fetch-reddit":  # 19th: the slow, rate-limited part, so the monthly run never waits on it
         scout.fetch_reddit(_month(0))
     elif a.command == "sample":
