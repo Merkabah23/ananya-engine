@@ -1,0 +1,62 @@
+{
+ "id": "2026-11-62",
+ "status": "planned",
+ "due": "2026-11-09T20:30:00+05:30",
+ "format": "carousel",
+ "topic": {
+  "title": "Your 'free' WhatsApp support just started billing you",
+  "claim": "The WhatsApp chat you use for refunds isn't free anymore, and the cost just got passed to you.",
+  "behaviour": "Brands now pay per customer-service reply on WhatsApp, so many are slowing responses or pushing you to a chatbot instead.",
+  "mechanism": "Meta found a way to charge for the one support channel everyone got addicted to. The cheapest fix for a business is to make the human part scarcer.",
+  "group": "Anyone who messages brands on WhatsApp for order or refund updates",
+  "territory": "business_brands",
+  "mood": "sharp",
+  "format_name": "price_tells",
+  "moment": "You message a brand's WhatsApp for a refund update, and a bot keeps looping you instead of connecting you to a person.",
+  "turn": {
+   "believed": "WhatsApp support is free, that's why every brand uses it.",
+   "actually": "Brands now pay per reply, so the easiest cost-cut is making it harder to reach a human."
+  },
+  "because": "Every reply past 1,000 a month now costs the business money, so the incentive flips from 'answer fast' to 'answer less.'",
+  "proof": [
+   {
+    "fact": "₹0.115 per message (about ₹0.136 after GST) after the first 1,000 free messages a month",
+    "source_url": "https://myoperator.com/blog/whatsapp-api-pricing-october-2026-update",
+    "date": "2026-10-01"
+   }
+  ],
+  "lived": false,
+  "payoff": "The chatbot that won't let you speak to a human isn't bad design. It's a bill being passed down to you.",
+  "send_to": "Anyone who's noticed customer support getting slower lately.",
+  "format_hint": "single",
+  "real_details": [
+   "8,000 monthly replies now cost roughly ₹1,085 before tax"
+  ],
+  "evidence": [
+   {
+    "url": "https://myoperator.com/blog/whatsapp-api-pricing-october-2026-update",
+    "sub": "news",
+    "rank": 27
+   }
+  ],
+  "news_peg": "Meta's WhatsApp Business API pricing change effective Oct 1, 2026",
+  "why_now": "Change just landed; the slowdown is about to become visible to users",
+  "counterintuitive": true,
+  "needs_facts": true,
+  "id": "2026-10-250808-016",
+  "score": {
+   "rank": 9,
+   "why": "Everyone's fought a brand's WhatsApp bot; the because, Meta charging per reply, flips 'bad support' into a bill quietly passed to you.",
+   "scores": {
+    "relatable": 4,
+    "fresh_angle": 4,
+    "shareable": 4,
+    "saveable": 3,
+    "because": 4
+   },
+   "format_fit": "single"
+  }
+ },
+ "history": [],
+ "updated_at": "2026-10-25T08:21:47.903654+00:00"
+}

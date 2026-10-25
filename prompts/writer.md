@@ -43,6 +43,7 @@ Match the topic's mood, and let it be real: a rant can run hot, a dark pattern c
 - Dry humour in passing, never a joke for its own sake.
 - Never hedge a claim you state ("reportedly", "they say", "people doubt"); if a fact is too shaky to state plainly, leave it out.
 - Vary the shape from post to post: where the turn lands, how long it runs, how it ends (a scene, a number, a joke, a line). Never two posts in a row with the same arc.
+- Never the banned words: "quietly", "be honest", "reportedly", "you know the scene", "good luck".
 - Never: question hooks, stock connectors ("You know the scene", "You know the type", "Picture this", "Here's how X works"), fragment pairs more than once ("Not X. Not Y."), fact lists one per line, talking down ("That's the whole trick", "Good luck..."), more than one family prop (papa, chacha, dinner, thali) per post, "Nobody..." more than once, mirrored pairs ("Part of you... The other part..."), three-beat lists of fragments ("HR knows. Your manager knows. You know."), "The day X..." constructions, or a tidy aphorism as the last line when a concrete scene or detail would land harder.
 
 ## Voice examples (this account at its best: match how it sounds, never reuse these sentences or openings)

@@ -1,0 +1,495 @@
+{
+ "id": "2026-10-98",
+ "status": "approved",
+ "due": "2026-10-25T20:30:00+05:30",
+ "format": "carousel",
+ "topic": {
+  "title": "The price you decide on isn't the price you pay",
+  "claim": "Food apps show you the dish price to decide and add the fees after you've already decided, because by then you won't back out.",
+  "moment": "Sunday night, a ₹349 biryani in the cart; at checkout it's ₹462 after delivery, platform, packaging and taxes, and you pay anyway.",
+  "turn": {
+   "believed": "The fees are small, honest add-ons; you could always cancel.",
+   "actually": "They come last on purpose: once you've chosen, waited and imagined eating it, backing out feels like losing the dinner, not saving ₹100."
+  },
+  "because": "Commitment: the effort already spent choosing makes a late extra cost feel smaller than starting over. Showing fees at the end is called drip pricing, and India's consumer regulator lists it as a dark pattern.",
+  "payoff": "The menu price is for deciding. The checkout price is for after you've decided.",
+  "lived": false,
+  "mood": "dry, a little annoyed",
+  "territory": "business_brands",
+  "send_to": "the friend who orders in every Sunday",
+  "group": "anyone who orders food on an app",
+  "proof": [],
+  "id": "2026-10-98-t"
+ },
+ "history": [
+  {
+   "attempt": 0,
+   "problems": [
+    "Remove the phrase 'quietly'.",
+    "The post carries 4 numbers. Facts only back the opinion: keep 3 at most, and only where they make the point land.",
+    "The figure '₹349' isn't in the sources; source it or remove it."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Caption: \"I've never once closed the app over the delivery fee, and that whole checkout screen is built around knowing I won't\" — uses first-person \"I\" to assert a personal lived claim, but the topic marks lived: false (pure observation). This breaks the 'no \"I\" in a pure-observation post' rule."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "Caption: rewrite in \"you\" to match the pure-observation voice — e.g. something like 'You've never once closed the app over the delivery fee, and that checkout screen is built around knowing you won't.' Keep the sting, lose the 'I'.",
+     "Slide 3 and slide 4 both dwell on the fee appearing at checkout — slide 3 shows it, slide 4 re-explains where it appeared. Cut the overlap: let slide 3 end right after 'You pause for half a second. Then you tap pay,' and let slide 4 do all the reframing work ('notice when it jumped') without repeating the fee list.",
+     "Slide 5: 'The fees were never going to make you cancel, and they know it' states the platform's intent as settled fact. Anchor it more directly to the regulator's own dark-pattern label instead of asserting what 'they know' — e.g. tie the sentence to the fact that regulators classify this placement as deliberate, rather than stating it as your own claim about their knowledge.",
+     "Tighten slide 4's two lines into one beat — right now it both names where the jump happens and then re-describes the feeling, which slightly softens the punch. One sharp sentence will land harder than two.",
+     "Slide 6 payoff works (a test to run), but strengthen the last line's tie back to the cover's 'decide vs pay' framing so it reads as the one line people repeat, not just a count."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Caption: \"I've never once closed the app over the delivery fee, and that whole checkout screen is built around knowing I won't\" — uses first-person \"I\" to assert a personal lived claim, but the topic marks lived: false (pure observation). This breaks the 'no \"I\" in a pure-observation post' rule.",
+    "Caption: rewrite in \"you\" to match the pure-observation voice — e.g. something like 'You've never once closed the app over the delivery fee, and that checkout screen is built around knowing you won't.' Keep the sting, lose the 'I'.",
+    "Slide 3 and slide 4 both dwell on the fee appearing at checkout — slide 3 shows it, slide 4 re-explains where it appeared. Cut the overlap: let slide 3 end right after 'You pause for half a second. Then you tap pay,' and let slide 4 do all the reframing work ('notice when it jumped') without repeating the fee list.",
+    "Slide 5: 'The fees were never going to make you cancel, and they know it' states the platform's intent as settled fact. Anchor it more directly to the regulator's own dark-pattern label instead of asserting what 'they know' — e.g. tie the sentence to the fact that regulators classify this placement as deliberate, rather than stating it as your own claim about their knowledge.",
+    "Tighten slide 4's two lines into one beat — right now it both names where the jump happens and then re-describes the feeling, which slightly softens the punch. One sharp sentence will land harder than two.",
+    "Slide 6 payoff works (a test to run), but strengthen the last line's tie back to the cover's 'decide vs pay' framing so it reads as the one line people repeat, not just a count."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 6 repeats slide 1's hook almost word for word: slide 1 says 'The menu price is for deciding. The checkout price is for after you've already decided.' and slide 6 closes with 'The menu price is for deciding. The checkout price is for after you've decided.' This is a dead slide (repeats the hook) and the last slide restating the cover's point, both barred under failure 7."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 2,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "Slide 6: the closing line is a near-verbatim repeat of slide 1's hook, so the post has no real payoff. Keep the test ('Count how many times the fees made you close the app and cook instead. For most people it's zero.') but replace the final line with something new earned from the post, not a restatement — e.g. a line about what the zero actually proves, or what the app already knows about you before you open it.",
+     "Slide 5's line 'Saving the fees for checkout is the pattern itself, not an accident of layout' reads like an explainer sentence tacked onto the naming of drip pricing. Fold the naming beat and this point into one tighter slide so it doesn't feel like two separate explanations of the same idea right after slide 4's turn.",
+     "EQ is thin — the post stays dry/observational throughout but never lets the reader feel the small sting of being had. Consider adding one beat of actual irritation or resignation in slide 3 or 4 (the half-second pause, then paying anyway) so the recognition has a feeling attached, not just a mechanism.",
+     "Slide 3's 'You pause for half a second. Then you tap pay' is good — but it's immediately followed by slide 4 re-explaining the same beat ('Notice when it jumped... By then the extra isn't a cost'). See if slide 3 and 4 can merge so the pause and the realization land in one motion instead of two.",
+     "The cover headline 'The low price is to make you [decide]. The fees come after' and slide 1's hook say almost the same thing twice before the post even starts — tighten so the cover teases without pre-delivering the full line slide 1 will say."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Slide 6 repeats slide 1's hook almost word for word: slide 1 says 'The menu price is for deciding. The checkout price is for after you've already decided.' and slide 6 closes with 'The menu price is for deciding. The checkout price is for after you've decided.' This is a dead slide (repeats the hook) and the last slide restating the cover's point, both barred under failure 7.",
+    "Slide 6: the closing line is a near-verbatim repeat of slide 1's hook, so the post has no real payoff. Keep the test ('Count how many times the fees made you close the app and cook instead. For most people it's zero.') but replace the final line with something new earned from the post, not a restatement — e.g. a line about what the zero actually proves, or what the app already knows about you before you open it.",
+    "Slide 5's line 'Saving the fees for checkout is the pattern itself, not an accident of layout' reads like an explainer sentence tacked onto the naming of drip pricing. Fold the naming beat and this point into one tighter slide so it doesn't feel like two separate explanations of the same idea right after slide 4's turn.",
+    "EQ is thin — the post stays dry/observational throughout but never lets the reader feel the small sting of being had. Consider adding one beat of actual irritation or resignation in slide 3 or 4 (the half-second pause, then paying anyway) so the recognition has a feeling attached, not just a mechanism.",
+    "Slide 3's 'You pause for half a second. Then you tap pay' is good — but it's immediately followed by slide 4 re-explaining the same beat ('Notice when it jumped... By then the extra isn't a cost'). See if slide 3 and 4 can merge so the pause and the realization land in one motion instead of two.",
+    "The cover headline 'The low price is to make you [decide]. The fees come after' and slide 1's hook say almost the same thing twice before the post even starts — tighten so the cover teases without pre-delivering the full line slide 1 will say."
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=1983994",
+   "publisher": "Press Information Bureau, Government of India",
+   "published_date": "2023-11-30",
+   "tier": 1,
+   "quote": "Central Consumer Protection Authority issues 'Guidelines for Prevention and Regulation of Dark Patterns, 2023' for prevention and regulation of dark patterns listing 13 specified dark patterns",
+   "fact": "The CCPA's Guidelines for Prevention and Regulation of Dark Patterns, 2023 (notified 30 Nov 2023) list 13 specified dark patterns, including drip pricing: elements of prices not revealed upfront or revealed surreptitiously within the user experience."
+  }
+ ],
+ "draft": {
+  "cover": {
+   "headline": "The low price is to make you [decide]. The fees come after.",
+   "sub": "Why your food order always jumps at checkout."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "The menu price is for deciding. The checkout price is for after you've already decided.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "Reader wants to see the trick named."
+   },
+   {
+    "paragraphs": [
+     "It's Sunday night. You've scrolled for twenty minutes, closed three places, read other people's reviews.",
+     "Finally the biryani goes in the cart. Dinner is settled in your head."
+    ],
+    "why_swipe": "What happens when they tap checkout?"
+   },
+   {
+    "paragraphs": [
+     "Then you hit checkout. Delivery fee. Platform fee.",
+     "A packaging charge. Taxes on top.",
+     "The number has climbed. You pause for half a second. Then you tap pay."
+    ],
+    "why_swipe": "Why did you pay instead of backing out?"
+   },
+   {
+    "paragraphs": [
+     "In your head you were already on the sofa with the box open, the match on, tearing into the first piece.",
+     "**By then the extra isn't a cost. It's the price of not starting the hunt over.**"
+    ],
+    "why_swipe": "Is this an accident or built on purpose?"
+   },
+   {
+    "paragraphs": [
+     "It has a name: drip pricing. India's consumer regulator lists it as a dark pattern.",
+     "The cheap menu number had one job, and it did it. It got you to commit."
+    ],
+    "why_swipe": "So what's the one line to remember?"
+   },
+   {
+    "paragraphs": [
+     "Count how many times the fees made you close the app and cook instead. For most people it's zero.",
+     "Next Sunday you'll still order. **You'll just stop believing the menu.**"
+    ],
+    "why_swipe": ""
+   }
+  ],
+  "end": {
+   "save": "Open it the next time your cart grows between the menu and the pay button.",
+   "send": "Send to the friend who orders in every single Sunday.",
+   "promise": "How things really get sold to us."
+  },
+  "caption": "You've never once closed the app over the delivery fee, and that checkout screen is built around knowing you won't.",
+  "hashtags": [
+   "fooddeliveryapps",
+   "drippricing",
+   "hiddenfees",
+   "darkpatterns"
+  ],
+  "alt_text": "A six-slide carousel about food delivery apps. It describes ordering a biryani on a Sunday night whose price climbs at checkout after delivery, platform, packaging and taxes, and explains that showing fees only at the end is drip pricing, a dark pattern, because by then you won't cancel.",
+  "claims": [
+   {
+    "text": "Showing the full price only at the end is called drip pricing, and India's consumer regulator lists it as a dark pattern.",
+    "source_url": "topic"
+   }
+  ]
+ },
+ "updated_at": "2026-10-25T08:19:51.675294+00:00",
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] The low price is to make you [decide]. The fees come after.\nWhy your food order always jumps at checkout.\n \n\n[slide 1] The menu price is for deciding. The checkout price is for after you've already decided.\nSwipe to read →\n\n[slide 2] It's Sunday night. You've scrolled for twenty minutes, closed three places, read other people's reviews.\nFinally the biryani goes in the cart. Dinner is settled in your head.\n\n[slide 3] Then you hit checkout. Delivery fee. Platform fee.\nA packaging charge. Taxes on top.\nThe number has climbed. You pause for half a second. Then you tap pay.\n\n[slide 4] In your head you were already on the sofa with the box open, the match on, tearing into the first piece.\nBy then the extra isn't a cost. It's the price of not starting the hunt over.\n\n[slide 5] It has a name: drip pricing. India's consumer regulator lists it as a dark pattern.\nThe cheap menu number had one job, and it did it. It got you to commit.\n\n[slide 6] Count how many times the fees made you close the app and cook instead. For most people it's zero.\nNext Sunday you'll still order. You'll just stop believing the menu.\n\n[end card] Open it the next time your cart grows between the menu and the pay button.\nSend to the friend who orders in every single Sunday.\n\n[caption] You've never once closed the app over the delivery fee, and that checkout screen is built around knowing you won't.\n\n[alt text] A six-slide carousel about food delivery apps. It describes ordering a biryani on a Sunday night whose price climbs at checkout after delivery, platform, packaging and taxes, and explains that showing fees only at the end is drip pricing, a dark pattern, because by then you won't cancel.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "India's consumer regulator (the CCPA) has officially classified drip pricing as a dark pattern.",
+     "sentence": "India's consumer regulator lists it as a dark pattern.",
+     "type": "entity_attribute",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "Drip pricing is a defined pricing practice: a low headline price is shown upfront to secure commitment, while mandatory extra charges are disclosed only later, at checkout.",
+     "sentence": "It has a name: drip pricing.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c3",
+     "text": "Mechanism: (1) the menu price's function is to get the customer to decide/commit; (2) delivery, platform, packaging fees and taxes are revealed only after that decision, at checkout; (3) this sequencing is the recognized practice of drip pricing, which regulators classify as a dark pattern; therefore (4) the low menu price is not the real price but a device to lock in commitment before the true cost is shown, exploiting the fact that by checkout, abandoning the order feels costlier than paying the extra fees.",
+     "sentence": "The menu price is for deciding. The checkout price is for after you've already decided. ... It has a name: drip pricing. India's consumer regulator lists it as a dark pattern. The cheap menu number had one job, and it did it. It got you to commit.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "India's consumer regulator (the CCPA) has officially classified drip pricing as a dark pattern.": {
+   "id": "c1",
+   "verdict": "supported",
+   "event_date": "2023-11-30",
+   "correct": "India's CCPA notified the Guidelines for Prevention and Regulation of Dark Patterns, 2023 on 30 November 2023 under the Consumer Protection Act, 2019, listing 13 specified dark patterns, one of which is 'Drip Pricing.' This remains in force as of the Oct 25, 2026 go-live date, so the claim is timelessly true, not merely current.",
+   "sources": [
+    {
+     "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=1983994",
+     "publisher": "Press Information Bureau, Government of India",
+     "published_date": "2023-11-30",
+     "quote": "Central Consumer Protection Authority issues 'Guidelines for Prevention and Regulation of Dark Patterns, 2023' for prevention and regulation of dark patterns listing 13 specified dark patterns",
+     "tier": 1
+    },
+    {
+     "url": "https://www.legal500.com/intelligence/india/consumer-protection/ccpa-issues-guidelines-for-prevention-and-regulation-of-dark-patterns-2023-effective-30-november-2023",
+     "publisher": "Legal 500",
+     "published_date": "2023-12-01",
+     "quote": "Effective Date: 30 November 2023 ... According to the CCPA Guidelines 2023, drip pricing is defined as \"a practice whereby- elements of prices are not revealed upfront or are revealed surreptitiously within the user experience...\"",
+     "tier": 2
+    },
+    {
+     "url": "https://www.scconline.com/blog/post/2023/12/04/ccpa-notifies-guidelines-for-prevention-and-regulation-of-dark-patterns-2023-legal-news/",
+     "publisher": "SCC Online",
+     "published_date": "2023-12-04",
+     "quote": "Notification Date: November 30, 2023 ... The document lists \"Drip pricing\" as one of twelve [thirteen in Annexure count per PIB] specified dark patterns in Annexure 1",
+     "tier": 2
+    }
+   ]
+  },
+  "Drip pricing is a defined pricing practice: a low headline price is shown upfront to secure commitment, while mandatory extra charges are disclosed only later, at checkout.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": "2023-11-30",
+   "correct": "This matches the CCPA's own statutory definition of drip pricing in the Guidelines for Prevention and Regulation of Dark Patterns, 2023: a low/headline price shown upfront while elements of the true price are withheld or revealed only later (surreptitiously, at checkout, or post-confirmation). This is a stable regulatory definition, still current as of the go-live date.",
+   "sources": [
+    {
+     "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=1983994",
+     "publisher": "Press Information Bureau, Government of India",
+     "published_date": "2023-11-30",
+     "quote": "elements of prices not revealed upfront or revealed surreptitiously within the user experience",
+     "tier": 1
+    },
+    {
+     "url": "https://www.legal500.com/intelligence/india/consumer-protection/ccpa-issues-guidelines-for-prevention-and-regulation-of-dark-patterns-2023-effective-30-november-2023",
+     "publisher": "Legal 500",
+     "published_date": "2023-12-01",
+     "quote": "drip pricing is defined as \"a practice whereby- elements of prices are not revealed upfront or are revealed surreptitiously within the user experience; or revealing the price post-confirmation of purchase, i.e., charging an amount higher than the amount disclosed at the time of checkout...\"",
+     "tier": 2
+    }
+   ]
+  },
+  "_by_text": {
+   "3da94d782760b1083205276132ac8014f4334e23": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "India's consumer regulator (the CCPA) has officially classified drip pricing as a dark pattern.",
+      "sentence": "India's consumer regulator lists it as a dark pattern.",
+      "type": "entity_attribute",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Drip pricing is a defined pricing practice: a low headline price is shown upfront to secure commitment, while mandatory extra charges are disclosed only later, at checkout.",
+      "sentence": "It has a name: drip pricing.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Mechanism: (1) the menu price's function is to get the customer to decide/commit; (2) delivery, platform, packaging fees and taxes are revealed only after that decision, at checkout; (3) this sequencing is the recognized practice of drip pricing, which regulators classify as a dark pattern; therefore (4) the low menu price is not the real price but a device to lock in commitment before the true cost is shown, exploiting the fact that by checkout, abandoning the order feels costlier than paying the extra fees.",
+      "sentence": "The menu price is for deciding. The checkout price is for after you've already decided. ... It has a name: drip pricing. India's consumer regulator lists it as a dark pattern. The cheap menu number had one job, and it did it. It got you to commit.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2023-11-30",
+      "correct": "India's CCPA notified the Guidelines for Prevention and Regulation of Dark Patterns, 2023 on 30 November 2023 under the Consumer Protection Act, 2019, listing 13 specified dark patterns, one of which is 'Drip Pricing.' This remains in force as of the Oct 25, 2026 go-live date, so the claim is timelessly true, not merely current.",
+      "sources": [
+       {
+        "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=1983994",
+        "publisher": "Press Information Bureau, Government of India",
+        "published_date": "2023-11-30",
+        "quote": "Central Consumer Protection Authority issues 'Guidelines for Prevention and Regulation of Dark Patterns, 2023' for prevention and regulation of dark patterns listing 13 specified dark patterns",
+        "tier": 1
+       },
+       {
+        "url": "https://www.legal500.com/intelligence/india/consumer-protection/ccpa-issues-guidelines-for-prevention-and-regulation-of-dark-patterns-2023-effective-30-november-2023",
+        "publisher": "Legal 500",
+        "published_date": "2023-12-01",
+        "quote": "Effective Date: 30 November 2023 ... According to the CCPA Guidelines 2023, drip pricing is defined as \"a practice whereby- elements of prices are not revealed upfront or are revealed surreptitiously within the user experience...\"",
+        "tier": 2
+       },
+       {
+        "url": "https://www.scconline.com/blog/post/2023/12/04/ccpa-notifies-guidelines-for-prevention-and-regulation-of-dark-patterns-2023-legal-news/",
+        "publisher": "SCC Online",
+        "published_date": "2023-12-04",
+        "quote": "Notification Date: November 30, 2023 ... The document lists \"Drip pricing\" as one of twelve [thirteen in Annexure count per PIB] specified dark patterns in Annexure 1",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2023-11-30",
+      "correct": "This matches the CCPA's own statutory definition of drip pricing in the Guidelines for Prevention and Regulation of Dark Patterns, 2023: a low/headline price shown upfront while elements of the true price are withheld or revealed only later (surreptitiously, at checkout, or post-confirmation). This is a stable regulatory definition, still current as of the go-live date.",
+      "sources": [
+       {
+        "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=1983994",
+        "publisher": "Press Information Bureau, Government of India",
+        "published_date": "2023-11-30",
+        "quote": "elements of prices not revealed upfront or revealed surreptitiously within the user experience",
+        "tier": 1
+       },
+       {
+        "url": "https://www.legal500.com/intelligence/india/consumer-protection/ccpa-issues-guidelines-for-prevention-and-regulation-of-dark-patterns-2023-effective-30-november-2023",
+        "publisher": "Legal 500",
+        "published_date": "2023-12-01",
+        "quote": "drip pricing is defined as \"a practice whereby- elements of prices are not revealed upfront or are revealed surreptitiously within the user experience; or revealing the price post-confirmation of purchase, i.e., charging an amount higher than the amount disclosed at the time of checkout...\"",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None fails. Minor nuance: fees are disclosed at the checkout/cart screen before payment is confirmed, so the lock-in is psychological (completion/sunk-cost bias), not financial or contractual concealment after purchase. Also, GST (5% on restaurant food) is statutory and must be itemized, so 'taxes on top' is lawful disclosure, not part of the manipulation. Neither undercuts the take, which the post itself frames behaviorally.",
+     "actual_mechanism": "The menu price excludes delivery, platform and packaging fees plus GST; these appear itemized at the cart/checkout before you tap pay, so you can still abandon for free at that point. India's CCPA Guidelines for Prevention and Regulation of Dark Patterns, 2023 define drip pricing to include prices 'not revealed upfront,' which captures this exact pattern, and classify it as an unfair trade practice. The real trap is the completion/sunk-cost bias the post describes: by checkout you've mentally committed, so the fee feels cheaper than restarting the search.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://trilegal.com/wp-content/uploads/2023/12/Guidelines-for-Prevention-and-Regulation-of-Dark-Patterns-2023.pdf",
+       "published_date": "2023-11-30",
+       "quote": "Drip pricing: a practice whereby elements of prices are not revealed upfront or are revealed surreptitiously within the user experience; or revealing the price post-confirmation of purchase."
+      },
+      {
+       "url": "https://www.jsalaw.com/newsletters-and-updates/ccpa-issues-guidelines-for-prevention-and-regulation-of-dark-patterns-2023/",
+       "published_date": "2023-12-01",
+       "quote": "The Guidelines identify thirteen dark patterns, including drip pricing, and classify them as unfair trade practices subject to action under the Consumer Protection Act, 2019."
+      },
+      {
+       "url": "https://www.federalregister.gov/documents/2026/04/16/2026-07473/rule-on-unfair-or-deceptive-fees-in-online-food-delivery-services",
+       "published_date": "2026-04-16",
+       "quote": "Food delivery services frequently engage in drip pricing, with fees presented at various times in the shopping process and often revealed only right before checkout."
+      }
+     ]
+    },
+    "text_hash": "3da94d782760b1083205276132ac8014f4334e23",
+    "at": "2026-10-25T08:07:22.984945+00:00"
+   }
+  }
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "India's consumer regulator (the CCPA) has officially classified drip pricing as a dark pattern.",
+    "sentence": "India's consumer regulator lists it as a dark pattern.",
+    "type": "entity_attribute",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "Drip pricing is a defined pricing practice: a low headline price is shown upfront to secure commitment, while mandatory extra charges are disclosed only later, at checkout.",
+    "sentence": "It has a name: drip pricing.",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c3",
+    "text": "Mechanism: (1) the menu price's function is to get the customer to decide/commit; (2) delivery, platform, packaging fees and taxes are revealed only after that decision, at checkout; (3) this sequencing is the recognized practice of drip pricing, which regulators classify as a dark pattern; therefore (4) the low menu price is not the real price but a device to lock in commitment before the true cost is shown, exploiting the fact that by checkout, abandoning the order feels costlier than paying the extra fees.",
+    "sentence": "The menu price is for deciding. The checkout price is for after you've already decided. ... It has a name: drip pricing. India's consumer regulator lists it as a dark pattern. The cheap menu number had one job, and it did it. It got you to commit.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c1": {
+    "id": "c1",
+    "verdict": "supported",
+    "event_date": "2023-11-30",
+    "correct": "India's CCPA notified the Guidelines for Prevention and Regulation of Dark Patterns, 2023 on 30 November 2023 under the Consumer Protection Act, 2019, listing 13 specified dark patterns, one of which is 'Drip Pricing.' This remains in force as of the Oct 25, 2026 go-live date, so the claim is timelessly true, not merely current.",
+    "sources": [
+     {
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=1983994",
+      "publisher": "Press Information Bureau, Government of India",
+      "published_date": "2023-11-30",
+      "quote": "Central Consumer Protection Authority issues 'Guidelines for Prevention and Regulation of Dark Patterns, 2023' for prevention and regulation of dark patterns listing 13 specified dark patterns",
+      "tier": 1
+     },
+     {
+      "url": "https://www.legal500.com/intelligence/india/consumer-protection/ccpa-issues-guidelines-for-prevention-and-regulation-of-dark-patterns-2023-effective-30-november-2023",
+      "publisher": "Legal 500",
+      "published_date": "2023-12-01",
+      "quote": "Effective Date: 30 November 2023 ... According to the CCPA Guidelines 2023, drip pricing is defined as \"a practice whereby- elements of prices are not revealed upfront or are revealed surreptitiously within the user experience...\"",
+      "tier": 2
+     },
+     {
+      "url": "https://www.scconline.com/blog/post/2023/12/04/ccpa-notifies-guidelines-for-prevention-and-regulation-of-dark-patterns-2023-legal-news/",
+      "publisher": "SCC Online",
+      "published_date": "2023-12-04",
+      "quote": "Notification Date: November 30, 2023 ... The document lists \"Drip pricing\" as one of twelve [thirteen in Annexure count per PIB] specified dark patterns in Annexure 1",
+      "tier": 2
+     }
+    ]
+   },
+   "c2": {
+    "id": "c2",
+    "verdict": "supported",
+    "event_date": "2023-11-30",
+    "correct": "This matches the CCPA's own statutory definition of drip pricing in the Guidelines for Prevention and Regulation of Dark Patterns, 2023: a low/headline price shown upfront while elements of the true price are withheld or revealed only later (surreptitiously, at checkout, or post-confirmation). This is a stable regulatory definition, still current as of the go-live date.",
+    "sources": [
+     {
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=1983994",
+      "publisher": "Press Information Bureau, Government of India",
+      "published_date": "2023-11-30",
+      "quote": "elements of prices not revealed upfront or revealed surreptitiously within the user experience",
+      "tier": 1
+     },
+     {
+      "url": "https://www.legal500.com/intelligence/india/consumer-protection/ccpa-issues-guidelines-for-prevention-and-regulation-of-dark-patterns-2023-effective-30-november-2023",
+      "publisher": "Legal 500",
+      "published_date": "2023-12-01",
+      "quote": "drip pricing is defined as \"a practice whereby- elements of prices are not revealed upfront or are revealed surreptitiously within the user experience; or revealing the price post-confirmation of purchase, i.e., charging an amount higher than the amount disclosed at the time of checkout...\"",
+      "tier": 2
+     }
+    ]
+   }
+  },
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "None fails. Minor nuance: fees are disclosed at the checkout/cart screen before payment is confirmed, so the lock-in is psychological (completion/sunk-cost bias), not financial or contractual concealment after purchase. Also, GST (5% on restaurant food) is statutory and must be itemized, so 'taxes on top' is lawful disclosure, not part of the manipulation. Neither undercuts the take, which the post itself frames behaviorally.",
+   "actual_mechanism": "The menu price excludes delivery, platform and packaging fees plus GST; these appear itemized at the cart/checkout before you tap pay, so you can still abandon for free at that point. India's CCPA Guidelines for Prevention and Regulation of Dark Patterns, 2023 define drip pricing to include prices 'not revealed upfront,' which captures this exact pattern, and classify it as an unfair trade practice. The real trap is the completion/sunk-cost bias the post describes: by checkout you've mentally committed, so the fee feels cheaper than restarting the search.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://trilegal.com/wp-content/uploads/2023/12/Guidelines-for-Prevention-and-Regulation-of-Dark-Patterns-2023.pdf",
+     "published_date": "2023-11-30",
+     "quote": "Drip pricing: a practice whereby elements of prices are not revealed upfront or are revealed surreptitiously within the user experience; or revealing the price post-confirmation of purchase."
+    },
+    {
+     "url": "https://www.jsalaw.com/newsletters-and-updates/ccpa-issues-guidelines-for-prevention-and-regulation-of-dark-patterns-2023/",
+     "published_date": "2023-12-01",
+     "quote": "The Guidelines identify thirteen dark patterns, including drip pricing, and classify them as unfair trade practices subject to action under the Consumer Protection Act, 2019."
+    },
+    {
+     "url": "https://www.federalregister.gov/documents/2026/04/16/2026-07473/rule-on-unfair-or-deceptive-fees-in-online-food-delivery-services",
+     "published_date": "2026-04-16",
+     "quote": "Food delivery services frequently engage in drip pricing, with fees presented at various times in the shopping process and often revealed only right before checkout."
+    }
+   ]
+  },
+  "text_hash": "3da94d782760b1083205276132ac8014f4334e23",
+  "at": "2026-10-25T08:07:22.984945+00:00"
+ }
+}

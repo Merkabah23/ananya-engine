@@ -1,0 +1,283 @@
+{
+ "id": "2026-10-99",
+ "status": "approved",
+ "due": "2026-10-26T20:30:00+05:30",
+ "format": "carousel",
+ "topic": {
+  "title": "Your trip is the nine photos you posted",
+  "claim": "You come back with hundreds of trip photos and post a handful, and years later the handful is the trip you remember.",
+  "moment": "Back from a trip with 1,400 photos; you spend an evening choosing nine, the ones where everyone looks like they're having the time you meant to have.",
+  "turn": {
+   "believed": "You're sharing the trip.",
+   "actually": "You're choosing which version of it you'll keep. The nine you posted are the ones you'll scroll back to, and they slowly replace the rest."
+  },
+  "because": "The photos you look at again are the moments you keep revisiting; the 1,391 in the gallery you never open again. The fight at the airport and the rainy day aren't in the nine, so a few years on they barely exist.",
+  "payoff": "You didn't post the trip. You picked the one you'll remember.",
+  "lived": false,
+  "mood": "bittersweet, warm",
+  "territory": "creators_internet",
+  "send_to": "the friend who took all the photos on your last trip",
+  "group": "anyone who has posted trip photos",
+  "proof": [],
+  "id": "2026-10-99-t"
+ },
+ "history": [
+  {
+   "attempt": 0,
+   "problems": [
+    "Remove the phrase 'quietly'."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Facts as hero / too many numbers: the post carries three numeric figures — \"1,400 photos sitting on your phone\", \"picking the nine\", \"The 1,391 stay in the gallery, never opened again\" — exceeding the two-number cap (Hard failure 6)."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "Hard fail — cut a number: post uses nine, 1,400, and 1,391. Drop the exact photo count (\"1,400 photos sitting on your phone\" and \"The 1,391 stay in the gallery\") and replace with non-numeric language (e.g. \"hundreds of photos\", \"the rest\"), keeping only 'nine' as the one number the whole post turns on.",
+     "Slide 5 is close to a dead slide: 'It's not fake... They just won' just restates slide 4's 'those are the nine you'll scroll back to... never opened again.' Keep only the new mechanism line ('memory keeps whatever you keep looking at') and fold it into slide 4; cut the restatement so slide 5 isn't just rephrasing.",
+     "Slides 2 and 3 both sit inside the same beat (choosing photos, then captioning and posting) without moving the story forward much — tighten into one slide so the carousel has room to let the turn (slide 4) land harder.",
+     "Sharpen the because: right now it's 'memory keeps whatever you keep looking at, and you only look at nine' — true but a little flat. Make the mechanism more vivid: the 1,391 sit under Recents, nobody opens Recents again, so they quietly stop existing. That's a sharper, more specific why than the current phrasing.",
+     "Payoff is good but purely reflective — consider giving the reader something to actually do (e.g., 'open your camera roll right now and find photo 50') alongside the line, so the ending cashes in as a test, not just a thought."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Facts as hero / too many numbers: the post carries three numeric figures — \"1,400 photos sitting on your phone\", \"picking the nine\", \"The 1,391 stay in the gallery, never opened again\" — exceeding the two-number cap (Hard failure 6).",
+    "Hard fail — cut a number: post uses nine, 1,400, and 1,391. Drop the exact photo count (\"1,400 photos sitting on your phone\" and \"The 1,391 stay in the gallery\") and replace with non-numeric language (e.g. \"hundreds of photos\", \"the rest\"), keeping only 'nine' as the one number the whole post turns on.",
+    "Slide 5 is close to a dead slide: 'It's not fake... They just won' just restates slide 4's 'those are the nine you'll scroll back to... never opened again.' Keep only the new mechanism line ('memory keeps whatever you keep looking at') and fold it into slide 4; cut the restatement so slide 5 isn't just rephrasing.",
+    "Slides 2 and 3 both sit inside the same beat (choosing photos, then captioning and posting) without moving the story forward much — tighten into one slide so the carousel has room to let the turn (slide 4) land harder.",
+    "Sharpen the because: right now it's 'memory keeps whatever you keep looking at, and you only look at nine' — true but a little flat. Make the mechanism more vivid: the 1,391 sit under Recents, nobody opens Recents again, so they quietly stop existing. That's a sharper, more specific why than the current phrasing.",
+    "Payoff is good but purely reflective — consider giving the reader something to actually do (e.g., 'open your camera roll right now and find photo 50') alongside the line, so the ending cashes in as a test, not just a thought."
+   ]
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Remove the phrase 'quietly'."
+   ]
+  }
+ ],
+ "sources": [],
+ "draft": {
+  "cover": {
+   "headline": "You posted nine photos. They [became the whole trip]",
+   "sub": "The rest you never open again."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "You posted nine photos from the trip. A few years on, those nine are the only trip you remember.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "How could nine photos be the whole trip?"
+   },
+   {
+    "paragraphs": [
+     "You're back home, bag still half unpacked, hundreds of photos sitting on your phone.",
+     "You spend the evening on the sofa, swiping. You pick the nine where everyone looks like they're having the time you meant to have. Crop one, pick a caption, post.",
+     "Felt like sharing it with everyone who wasn't there."
+    ],
+    "why_swipe": "If not sharing, then what were you doing?"
+   },
+   {
+    "paragraphs": [
+     "But those nine are the ones you'll scroll back to. The rest sit under *Recents*, and nobody opens Recents again.",
+     "Memory keeps whatever you keep looking at. So the fight at the airport and the rainy day stuck inside slowly stop existing."
+    ],
+    "why_swipe": "So is the posted version a lie?"
+   },
+   {
+    "paragraphs": [
+     "It's not a lie. Those nine moments really happened, and you really were that happy in them.",
+     "The trip just got edited down to one good evening on the sofa, by you."
+    ],
+    "why_swipe": "So what did posting really do?"
+   },
+   {
+    "paragraphs": [
+     "**You didn't post the trip. You picked the one you'll remember.**",
+     "Open your camera roll right now, scroll past the nine, and meet the trip you forgot you took."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Come back to it the next time you sit down to choose which photos to post.",
+   "send": "Send it to the friend who took every photo on your last trip.",
+   "promise": "How the internet edits your life."
+  },
+  "caption": "You think you're sharing the trip. You're deciding which one you get to keep.",
+  "hashtags": [
+   "#travelphotos",
+   "#cameraroll",
+   "#photodump",
+   "#instagramvsreality"
+  ],
+  "alt_text": "A five-slide carousel about coming home from a trip with hundreds of photos, posting nine of them, and how years later those nine become the only version of the trip you remember.",
+  "claims": []
+ },
+ "updated_at": "2026-10-25T08:19:51.678684+00:00",
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] You posted nine photos. They [became the whole trip]\nThe rest you never open again.\n \n\n[slide 1] You posted nine photos from the trip. A few years on, those nine are the only trip you remember.\nSwipe to read →\n\n[slide 2] You're back home, bag still half unpacked, hundreds of photos sitting on your phone.\nYou spend the evening on the sofa, swiping. You pick the nine where everyone looks like they're having the time you meant to have. Crop one, pick a caption, post.\nFelt like sharing it with everyone who wasn't there.\n\n[slide 3] But those nine are the ones you'll scroll back to. The rest sit under Recents, and nobody opens Recents again.\nMemory keeps whatever you keep looking at. So the fight at the airport and the rainy day stuck inside slowly stop existing.\n\n[slide 4] It's not a lie. Those nine moments really happened, and you really were that happy in them.\nThe trip just got edited down to one good evening on the sofa, by you.\n\n[slide 5] You didn't post the trip. You picked the one you'll remember.\nOpen your camera roll right now, scroll past the nine, and meet the trip you forgot you took.\n\n[end card] Come back to it the next time you sit down to choose which photos to post.\nSend it to the friend who took every photo on your last trip.\n\n[caption] You think you're sharing the trip. You're deciding which one you get to keep.\n\n[alt text] A five-slide carousel about coming home from a trip with hundreds of photos, posting nine of them, and how years later those nine become the only version of the trip you remember.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Repeated viewing of a specific photo or moment reinforces and strengthens the memory of it.",
+     "sentence": "Memory keeps whatever you keep looking at.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "Moments or events that are not revisited/looked at again gradually fade from memory, to the point of effectively ceasing to be remembered.",
+     "sentence": "So the fight at the airport and the rainy day stuck inside slowly stop existing.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c3",
+     "text": "As a result of this selective reinforcement, the small set of posted, repeatedly-viewed photos becomes the entirety of a person's remembered trip years later, replacing the memory of the whole trip.",
+     "sentence": "A few years on, those nine are the only trip you remember.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "_by_text": {
+   "fa2551d41aa32befd0ac6bb8ec3d8799b67b8c76": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Repeated viewing of a specific photo or moment reinforces and strengthens the memory of it.",
+      "sentence": "Memory keeps whatever you keep looking at.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Moments or events that are not revisited/looked at again gradually fade from memory, to the point of effectively ceasing to be remembered.",
+      "sentence": "So the fight at the airport and the rainy day stuck inside slowly stop existing.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "As a result of this selective reinforcement, the small set of posted, repeatedly-viewed photos becomes the entirety of a person's remembered trip years later, replacing the memory of the whole trip.",
+      "sentence": "A few years on, those nine are the only trip you remember.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {},
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None breaks. Premise 2 is overstated in degree: unrevisited memories lose accessibility and can become effectively unrecoverable, but the mechanism suppresses/weakens rather than literally deleting the trace.",
+     "actual_mechanism": "Looking at the posted photos again is retrieval practice, which strengthens those specific memories (the testing effect and Henkel's finding that actively reviewing photos aids memory). Crucially, selectively retrieving part of an experience actively inhibits the related parts you don't revisit — 'retrieval-induced forgetting' (Anderson, Bjork & Bjork, 1994) — so the un-posted moments don't merely decay, they get suppressed. Over years the repeatedly-viewed nine therefore dominate and come to stand in for the whole trip, exactly as the post claims, with the only caveat that the faded moments are made inaccessible rather than erased.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.researchgate.net/publication/15268332_Remembering_Can_Cause_Forgetting_Retrieval_Dynamics_in_Long-Term_Memory",
+       "published_date": "1994-09-01",
+       "quote": "retrieving a subset of items from a category caused the forgetting of other items from that category... this effect apparently reflects inhibition that occurs as a by-product of memory retrieval"
+      },
+      {
+       "url": "https://www.sciencedirect.com/topics/neuroscience/retrieval-induced-forgetting",
+       "published_date": "2014-01-01",
+       "quote": "Retrieval-induced forgetting denotes the phenomenon that selectively retrieving only a subset of information from memory lowers the accessibility of the non-retrieved rest of that set."
+      },
+      {
+       "url": "https://www.npr.org/sections/health-shots/2021/08/05/1022041431/to-remember-the-moment-try-taking-fewer-photos",
+       "published_date": "2021-08-05",
+       "quote": "photos might help museum-goers remember their trip in the long term, but only if they actively review and interact with the pictures rather than just amass them"
+      }
+     ]
+    },
+    "text_hash": "fa2551d41aa32befd0ac6bb8ec3d8799b67b8c76",
+    "at": "2026-10-25T07:56:02.516464+00:00"
+   }
+  }
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Repeated viewing of a specific photo or moment reinforces and strengthens the memory of it.",
+    "sentence": "Memory keeps whatever you keep looking at.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "Moments or events that are not revisited/looked at again gradually fade from memory, to the point of effectively ceasing to be remembered.",
+    "sentence": "So the fight at the airport and the rainy day stuck inside slowly stop existing.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c3",
+    "text": "As a result of this selective reinforcement, the small set of posted, repeatedly-viewed photos becomes the entirety of a person's remembered trip years later, replacing the memory of the whole trip.",
+    "sentence": "A few years on, those nine are the only trip you remember.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {},
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "None breaks. Premise 2 is overstated in degree: unrevisited memories lose accessibility and can become effectively unrecoverable, but the mechanism suppresses/weakens rather than literally deleting the trace.",
+   "actual_mechanism": "Looking at the posted photos again is retrieval practice, which strengthens those specific memories (the testing effect and Henkel's finding that actively reviewing photos aids memory). Crucially, selectively retrieving part of an experience actively inhibits the related parts you don't revisit — 'retrieval-induced forgetting' (Anderson, Bjork & Bjork, 1994) — so the un-posted moments don't merely decay, they get suppressed. Over years the repeatedly-viewed nine therefore dominate and come to stand in for the whole trip, exactly as the post claims, with the only caveat that the faded moments are made inaccessible rather than erased.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://www.researchgate.net/publication/15268332_Remembering_Can_Cause_Forgetting_Retrieval_Dynamics_in_Long-Term_Memory",
+     "published_date": "1994-09-01",
+     "quote": "retrieving a subset of items from a category caused the forgetting of other items from that category... this effect apparently reflects inhibition that occurs as a by-product of memory retrieval"
+    },
+    {
+     "url": "https://www.sciencedirect.com/topics/neuroscience/retrieval-induced-forgetting",
+     "published_date": "2014-01-01",
+     "quote": "Retrieval-induced forgetting denotes the phenomenon that selectively retrieving only a subset of information from memory lowers the accessibility of the non-retrieved rest of that set."
+    },
+    {
+     "url": "https://www.npr.org/sections/health-shots/2021/08/05/1022041431/to-remember-the-moment-try-taking-fewer-photos",
+     "published_date": "2021-08-05",
+     "quote": "photos might help museum-goers remember their trip in the long term, but only if they actively review and interact with the pictures rather than just amass them"
+    }
+   ]
+  },
+  "text_hash": "fa2551d41aa32befd0ac6bb8ec3d8799b67b8c76",
+  "at": "2026-10-25T07:56:02.516464+00:00"
+ }
+}

@@ -119,7 +119,7 @@ def sample(n: int, topics_file: str | None) -> None:
         print("   saved:", dest)
 
 
-def push(days: int = 8) -> None:
+def push(days: int = config.PUSH_DAYS) -> None:
     if config.PAUSED:
         state.log("push", "ENGINE_PAUSED is set; nothing scheduled.")
         return
@@ -243,7 +243,7 @@ def main() -> None:
     ap.add_argument("--topics", help="sample: JSON file of topics to write from")
     ap.add_argument("--month", help="YYYY-MM; defaults depend on the command")
     ap.add_argument("--plan-month", help="YYYY-MM to plan posts for (filter); defaults to the month after --month")
-    ap.add_argument("--days", type=int, default=8)
+    ap.add_argument("--days", type=int, default=config.PUSH_DAYS)
     a = ap.parse_args()
     if a.command == "monthly":      # 20th: scout + plan next month (writing happens daily)
         scout.run(_month(0))

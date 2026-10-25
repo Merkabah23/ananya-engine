@@ -24,13 +24,12 @@ MAX_CALLS_PER_MONTH = int(os.getenv("MAX_CALLS_PER_MONTH", "400"))
 PRODUCE_PER_RUN = int(os.getenv("PRODUCE_PER_RUN", "3"))
 PARALLEL = int(os.getenv("PARALLEL", "3"))  # model calls in flight at once
 
-# Posting plan. Times are IST; weekday 0 = Monday.
-SLOTS = [
-    {"weekday": 0, "time": "19:30", "format": "carousel"},
-    {"weekday": 2, "time": "19:30", "format": "carousel"},
-    {"weekday": 4, "time": "19:30", "format": "carousel"},
-    {"weekday": 5, "time": "11:00", "format": "single"},
-]
+# Posting plan: one carousel every day. Times are IST; weekday 0 = Monday. 20:30 lands after the commute and before
+# dinner, just ahead of the 8-10pm peak in the large global studies (Buffer 9.6M posts, Metricool 24M); once the
+# account has 100+ followers, Instagram Insights' "Most active times" should override it.
+POST_TIME = "20:30"
+SLOTS = [{"weekday": d, "time": POST_TIME, "format": "carousel"} for d in range(7)]
+PUSH_DAYS = 7  # posts go to Buffer a week ahead: 7-8 daily posts stay under Buffer's 10-post queue
 SPARE_TOPICS = 5  # extra approved topics per month, used when a draft fails
 
 TERRITORY_MIX = {  # roughly the reference creator's spread of subjects

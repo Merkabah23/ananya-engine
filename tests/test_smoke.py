@@ -49,10 +49,10 @@ def test_month_end_to_end(tmp_path, monkeypatch):
              for i in range(30)]
     state.write(cands, "2026-10", "candidates.json")
     plan = topic_filter.run("2026-10", "2026-11")
-    assert len([p for p in plan if p["due"]]) == 17
+    assert len([p for p in plan if p["due"]]) == 30
     cli.produce("2026-11")
     done = state.posts("uploaded")
-    assert len(done) == 17
+    assert len(done) == 30
     assert all(1 <= len(p["image_urls"]) <= 10 for p in done)
     assert (tmp_path / "out" / done[0]["id"] / "slide_01.jpg").exists()
 
@@ -90,7 +90,8 @@ def test_scout_is_culture_first_and_uses_reddit_as_evidence(tmp_path, monkeypatc
     topics = scout.run("2026-10")
     # facts are never required; a take with no turn or because is dropped
     assert [t["claim"] for t in topics] == ["news claim", "money claim without proof", "evergreen claim"]
-    assert [t["id"] for t in topics] == ["2026-10-001", "2026-10-002", "2026-10-003"]
+    ids = [t["id"] for t in topics]
+    assert len(set(ids)) == 3 and all(i.startswith("2026-10-") and i.endswith(f"-00{n}") for n, i in enumerate(ids, 1))
     evergreen = topics[2]
     assert evergreen["news_peg"] is None
     assert evergreen["real_details"] == ["someone said x"]

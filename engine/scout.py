@@ -208,8 +208,9 @@ def run(month: str | None = None) -> list[dict]:
     whole = [t for t in topics if complete(t)]
     state.log("scout", f"{len(whole)} of {len(topics)} topics have a moment, a turn and a because")
     topics = _attach_evidence(whole, reddit)
+    run_tag = datetime.now(timezone.utc).strftime("%d%H%M")  # a re-scout mid-month never reuses an id a post already has
     for i, t in enumerate(topics, 1):
-        t["id"] = f"{month}-{i:03d}"
+        t["id"] = f"{month}-{run_tag}-{i:03d}"
     state.write(topics, month, "candidates.json")
     backed = sum(1 for t in topics if any("reddit.com" in e.get("url", "") for e in t.get("evidence", [])))
     state.log("scout", f"{len(topics)} candidate topics from {len(news)} news items; {backed} backed by Reddit threads")

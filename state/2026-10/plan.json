@@ -1,63 +1,255 @@
 [
  {
-  "due": "2026-10-31T11:00:00+05:30",
-  "format": "single",
+  "due": "2026-10-27T20:30:00+05:30",
+  "format": "carousel",
   "topic": {
-   "title": "Second 47 Disclosure",
-   "claim": "Every 'get ready with me' reel buries the paid partnership tag around the 47th second, right after the hook and the outfit reveal.",
-   "behaviour": "Creators flash 'ad' in small text after they've already got you watching, just before the link in bio.",
-   "mechanism": "The disclosure exists to satisfy the platform's rule, not to actually tell you upfront what you're watching.",
-   "group": "anyone who watches GRWM content",
-   "territory": "creators_internet",
-   "mood": "funny",
-   "format_hint": "single",
-   "real_details": [],
-   "why_now": "this pattern has basically become the default across creator ads",
+   "title": "The Entire IT Career Plan Just Got Rewritten In One Month",
+   "claim": "The three-step plan this generation was sold — get into IT, get an H-1B, get a green card — broke at every single step in the same month.",
+   "behaviour": "Oracle cut roughly a third of its India staff, the US suspended green card sponsorship for TCS, Infosys, Wipro and other majors, and nearly 12,700 Indian tech workers returned from the US by September, on pace to beat last year.",
+   "group": "anyone who still treats an H-1B and a green card as the career finish line",
+   "territory": "money_status",
+   "mood": "rant",
+   "format_name": "saturday_single",
+   "moment": "You grew up hearing that a good engineering job, then an H-1B, then a green card, was proof you'd made it, and this month all three got harder in the same breath.",
+   "turn": {
+    "believed": "Getting into IT and eventually moving abroad is still the dependable ladder it used to be.",
+    "actually": "Every rung of that ladder — the India job, the US visa, the green card — is getting pulled up at the same time."
+   },
+   "mechanism": "Companies cut cost where AI makes roles look replaceable, and the US is protecting its own labour market from the same visa pipeline that used to be routine.",
+   "because": "Both the Indian IT job and the American visa dream depended on assumptions that stopped holding this month, which is why it feels sudden even though it's been building for years.",
+   "proof": [
+    {
+     "fact": "Around 10,000 Oracle employees in India — roughly one-third of its ~30,000-person India workforce — received termination emails",
+     "source_url": "https://offcampusjobs4u.com/india-job-market-today-21-oct-2026/",
+     "date": "2026-10-21"
+    },
+    {
+     "fact": "The Trump administration suspended TCS, Infosys, Wipro, HCL, Cognizant and Capgemini...from the Permanent Labour Certification Programme, blocking fresh green card sponsorship",
+     "source_url": "https://www.theweek.in/news/biz-tech/2026/10/08/us-labour-department-halts-green-cards-for-tcs-infosys.html",
+     "date": "2026-10-08"
+    },
+    {
+     "fact": "around 12,700 Indian tech workers returned from the US by September 2026, on track to beat last year's 15,100 returnees",
+     "source_url": "https://offcampusjobs4u.com/india-job-market-today-21-oct-2026/",
+     "date": "2026-10-21"
+    }
+   ],
+   "lived": false,
+   "payoff": "If your five-year plan still has 'eventually move abroad' as step two, this is the month to write a new one.",
+   "send_to": "Send to the friend still prepping for an H-1B like it's 2015.",
+   "format_hint": "carousel",
+   "real_details": [
+    "C-DAC opened 844 government engineering posts paying ₹4.49-7.11 lakh a year, which drew heavy attention as a rare 'safe' option",
+    "Joined Wipro in 2006 straight out of college with a group of friends, starting pay 18k",
+    "No laptops or work phones given, so stepping away from desk meant being disconnected from work",
+    "Freshers today reportedly starting at 15k, lower than the 18k from 2006",
+    "Chef working at Westin 5 years ago earned 12k/month doing 14-hour shifts",
+    "Now working abroad making around 3L/month doing about 10 hours a day",
+    "Worker on a 10-month-old job got a performance warning in the third month for not meeting client expectations",
+    "Colleague with more experience was slow, too dependent on AI, got emotional saying he was trying his best",
+    "Moving-to-India tax post claims landing between 2 October and 30 January gives NR status plus 2 years RNOR, avoiding US capital gains tax on both sides",
+    "Commenters called the tax-saving post AI-generated slop and questioned whether it was verified before posting"
+   ],
+   "evidence": [
+    {
+     "url": "https://offcampusjobs4u.com/india-job-market-today-21-oct-2026/",
+     "sub": "news",
+     "rank": 51
+    },
+    {
+     "url": "https://www.theweek.in/news/biz-tech/2026/10/08/us-labour-department-halts-green-cards-for-tcs-infosys.html",
+     "sub": "news",
+     "rank": 57
+    },
+    {
+     "url": "https://www.reddit.com/r/hyderabad/comments/1wn8pv7/imagine_joining_it_back_in_the_90s_and_2000s/",
+     "sub": "hyderabad",
+     "rank": 2
+    },
+    {
+     "url": "https://www.reddit.com/r/IndiaInvestments/comments/1wy69sl/moving_to_india_your_ideal_window_is_now_open/",
+     "sub": "IndiaInvestments",
+     "rank": 3
+    },
+    {
+     "url": "https://www.reddit.com/r/hyderabad/comments/1wxewvd/5_years_ago_i_was_working_here_for_12kmonth_today/",
+     "sub": "hyderabad",
+     "rank": 9
+    },
+    {
+     "url": "https://www.reddit.com/r/IndianWorkplace/comments/1wma6eh/the_it_job_market_is_seeing_ais_impact_a_simple/",
+     "sub": "IndianWorkplace",
+     "rank": 12
+    }
+   ],
+   "news_peg": "Oracle's October 21 layoffs and the US green card sponsorship suspension reported October 8, 2026, in the same month",
+   "why_now": "Three separate signals landed in the same four weeks, which rarely happens together.",
    "counterintuitive": true,
+   "needs_facts": false,
+   "id": "2026-10-250808-029",
+   "score": {
+    "rank": 2,
+    "why": "Names the exact three-step ladder this generation was sold and shows all three rungs breaking in one month; a real 'rewrite your five-year plan' gut-punch, not a news recap.",
+    "scores": {
+     "relatable": 4,
+     "fresh_angle": 5,
+     "shareable": 4,
+     "saveable": 4,
+     "because": 5
+    },
+    "format_fit": "carousel"
+   }
+  }
+ },
+ {
+  "due": "2026-10-29T20:30:00+05:30",
+  "format": "carousel",
+  "topic": {
+   "title": "Friends only at weddings and funerals",
+   "claim": "Your closest college friends now meet only at weddings and funerals, and you've quietly accepted that as staying in touch.",
+   "moment": "You hug a best friend at a shaadi, say 'we must do this more often', and both know the next time is someone else's big event.",
+   "turn": {
+    "believed": "You're still close; life just got busy for a while.",
+    "actually": "The friendship has shrunk to attendance. Big events are the only thing with enough force left to get you all in one room."
+   },
+   "because": "Nobody wants to be the one who plans and chases, so everyone waits for an occasion that summons them. The event does the work the friendship stopped doing.",
+   "payoff": "If your only reunions need a wedding card or a condolence call, pick a random Tuesday and be the one who calls.",
+   "lived": true,
+   "behaviour": "Old friend groups reunite only at weddings and funerals, calling it staying in touch.",
+   "mechanism": "Nobody initiates, so only big events have the pull to gather everyone.",
+   "group": "people in their 30s drifting from college friends",
+   "territory": "life_relationships",
+   "mood": "warm",
+   "format_name": "saturday_single",
+   "send_to": "the college friend you only meet at other people's weddings",
+   "format_hint": "single",
+   "why_now": "Wedding season is when this quietly dawns on people.",
    "needs_facts": false,
    "news_peg": null,
    "evidence": [],
-   "id": "2026-10-v2-048",
+   "id": "2026-10-250808-054",
    "score": {
-    "rank": 3,
-    "why": "Named, funny, deflates influencer marketing exactly the way she already believes nobody's really measuring the pitch.",
+    "rank": 5,
+    "why": "The 'we must do this more often' hug at a wedding is lived by almost everyone; the turn that the event is doing the work the friendship stopped doing stings exactly right, no household trope involved.",
+    "scores": {
+     "relatable": 5,
+     "fresh_angle": 4,
+     "shareable": 4,
+     "saveable": 3,
+     "because": 4
+    },
     "format_fit": "single"
    }
   }
  },
  {
-  "due": null,
-  "format": "spare",
+  "due": "2026-10-31T20:30:00+05:30",
+  "format": "carousel",
   "topic": {
-   "title": "Instagram is testing a homescreen with no photos on it",
-   "claim": "Instagram quietly testing a homescreen that opens straight into Reels instead of photos is the company finally admitting what it already knows about what you actually watch.",
-   "behaviour": "Meta is piloting a redesigned Instagram in India and South Korea where users land directly on a Reels feed, with a new bottom bar ordering Home, Reels, Stories, DMs and Profile, and three feed tabs called All, Friends and Latest.",
-   "mechanism": "India has the biggest short-video audience Instagram has anywhere, built on the back of the 2020 TikTok ban, and app design always follows where the attention already is, not where the company wants it to be.",
-   "group": "Instagram users and creators who still post photo carousels",
+   "title": "The giveaway that farms you",
+   "claim": "The iPhone giveaway asking you to follow, tag and share isn't generosity; you're the unpaid growth team.",
+   "moment": "You tag three friends under a giveaway reel, and so do forty thousand strangers.",
+   "turn": {
+    "believed": "A creator is giving away a phone to thank their followers.",
+    "actually": "One phone buys them tens of thousands of new follows, tags and shares, which is cheaper than any ad."
+   },
+   "because": "Each entry rule converts you into free reach. The prize is a tiny cost against the followers and spread it manufactures in a week.",
+   "payoff": "The giveaway where you do all the sharing is the ad where you're the medium.",
+   "lived": false,
+   "behaviour": "Accounts run follow-tag-share giveaways to cheaply buy reach and followers.",
+   "mechanism": "Each entry rule turns followers into free distribution worth more than the prize.",
+   "group": "people who enter Instagram giveaways",
    "territory": "creators_internet",
-   "mood": "sharp",
+   "mood": "dark_pattern",
+   "format_name": "feed_anthropology",
+   "send_to": "the friend who tags you in every giveaway",
+   "format_hint": "carousel",
+   "why_now": "Festive-season giveaways are everywhere right now.",
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-10-250808-049",
+   "score": {
+    "rank": 8,
+    "why": "Tagging three friends under a giveaway feels generous to the reader; flipping it to 'you're the unpaid growth team' is the sharp Varun-style reframe on a thing everyone's done.",
+    "scores": {
+     "relatable": 4,
+     "fresh_angle": 4,
+     "shareable": 4,
+     "saveable": 3,
+     "because": 4
+    },
+    "format_fit": "carousel"
+   }
+  }
+ },
+ {
+  "due": null,
+  "format": "spare",
+  "topic": {
+   "title": "Your Samosa Didn't Get Expensive On Its Own",
+   "claim": "Food prices creep up one rupee at a time so you never notice the real hike happening upstream.",
+   "behaviour": "Oil companies raised commercial LPG cylinder prices sharply while keeping the politically sensitive domestic cylinder price flat for the fifth straight month.",
+   "mechanism": "Protecting the visible domestic price looks good in a headline, letting the invisible commercial price absorb the hit, which then reaches you slowly, through the shopkeeper's plate, not a news story.",
+   "group": "anyone who's noticed their regular food order got quietly pricier",
+   "territory": "money_status",
+   "mood": "mixed",
+   "format_name": "price_tells",
+   "moment": "Your regular chai-samosa stall bumps the price by a few rupees, and you don't think twice about it.",
+   "turn": {
+    "believed": "Small vendors raise prices because costs rise everywhere, equally, all the time.",
+    "actually": "Commercial LPG, what every dhaba and food stall runs on, just got a steep hike, while the domestic cylinder stayed untouched."
+   },
+   "because": "The domestic cylinder price is the one everyone notices, so it stays flat for optics, while the commercial cylinder quietly absorbs the real cost and small vendors pass it on, plate by plate.",
+   "proof": [
+    {
+     "fact": "Commercial 19kg LPG cylinder prices rose ₹62.50 to ₹71.50 across cities from October 1, while the domestic 14.2kg cylinder stayed unchanged for a fifth straight month",
+     "source_url": "https://www.goodreturns.in/news/lpg-gas-cylinder-prices-hiked-october-1-2026-19-kg-commercial-lpg-prices-up-rs-62-71-50-city-wise-1538497.html",
+     "date": "2026-10-01"
+    }
+   ],
+   "lived": false,
+   "payoff": "When a price climbs a few rupees at a time, somewhere upstream, a bigger number just moved.",
+   "send_to": "anyone who's noticed their usual food order got pricier for no obvious reason",
    "format_hint": "single",
    "real_details": [
-    "India has 300+ million Instagram users",
-    "Test markets are India and South Korea",
-    "New bottom bar order: Home, Reels, Stories, DMs, Profile",
-    "Three feed tabs: All, Friends, Latest"
+    "Patna saw the steepest commercial LPG hike, up ₹71.50 to ₹3,100.50",
+    "A ₹5 Lays packet marketed as 11g+1.3g actually weighed 4.32g on a gold scale",
+    "Tea alone now costs ₹20-30 in some places",
+    "Hyderabad street corners still serve a hot, filling breakfast for ₹25"
    ],
    "evidence": [
     {
-     "url": "https://techcrunch.com/2026/10/06/facebook-tests-going-reels-first-in-india/",
+     "url": "https://www.goodreturns.in/news/lpg-gas-cylinder-prices-hiked-october-1-2026-19-kg-commercial-lpg-prices-up-rs-62-71-50-city-wise-1538497.html",
      "sub": "news",
-     "rank": 24
+     "rank": 12
+    },
+    {
+     "url": "https://www.reddit.com/r/indiasocial/comments/1x7ipe1/this_is_the_amount_of_chips_that_was_in_the_5/",
+     "sub": "indiasocial",
+     "rank": 5
+    },
+    {
+     "url": "https://www.reddit.com/r/hyderabad/comments/1wplw7j/hyderabads_25_breakfast_deserves_way_more/",
+     "sub": "hyderabad",
+     "rank": 13
     }
    ],
-   "news_peg": "TechCrunch report on Meta's Reels-first homescreen test, October 6, 2026",
-   "why_now": "The test just leaked and is being discussed by creators this month",
+   "news_peg": "Commercial LPG hike effective Oct 1, 2026",
+   "why_now": "Shows up in food prices exactly as festive spending peaks",
    "counterintuitive": true,
-   "needs_facts": false,
-   "id": "2026-10-v2-013",
+   "needs_facts": true,
+   "id": "2026-10-250808-007",
    "score": {
-    "rank": 6,
-    "why": "A named platform quietly admitting what it already knows about its own users, sharp and plain, no sociology detour.",
+    "rank": 4,
+    "why": "The chai-samosa price creep is something everyone's noticed and shrugged off; connecting it to the domestic-cylinder-stays-flat-for-optics trick gives it a because nobody had.",
+    "scores": {
+     "relatable": 5,
+     "fresh_angle": 4,
+     "shareable": 4,
+     "saveable": 3,
+     "because": 4
+    },
     "format_fit": "single"
    }
   }
@@ -66,36 +258,63 @@
   "due": null,
   "format": "spare",
   "topic": {
-   "title": "Property is the new rishta",
-   "claim": "Single women are now buying homes purely as investment, not waiting for a husband's income or sanction, and I think homeownership just stopped being proof you got married and became proof you didn't have to wait.",
-   "behaviour": "Women now make up close to a third of India's homebuyer base, nearly a third of women buyers purchasing purely as an investment rather than for marriage or family use, most states now offering stamp-duty discounts for property registered in a woman's name, trend strongest in Bengaluru, Pune and Hyderabad.",
-   "mechanism": "Delayed marriage and rising incomes mean the biggest financial decision of a young woman's life no longer needs a man's name on it or a family's sanction.",
-   "group": "single, career-established women in their late 20s to 40s in metro cities",
-   "territory": "money_status",
-   "mood": "prediction",
-   "format_hint": "single",
-   "real_details": [
-    "women make up close to a third of India's homebuyer base in 2026",
-    "nearly a third of women buyers are purchasing purely as an investment rather than for marriage or family use",
-    "most states now offer stamp-duty discounts for property registered in a woman's name",
-    "trend is strongest in Bengaluru, Pune and Hyderabad"
-   ],
+   "title": "The reorg that's a layoff",
+   "claim": "When a company 'restructures for efficiency', count the chairs after; a reorg is often a layoff in a nicer shirt.",
+   "moment": "An email announces 'exciting changes to our team structure', and by Friday three people have 'decided to move on'.",
+   "turn": {
+    "believed": "A reorg is about aligning the org for the next phase of growth.",
+    "actually": "It's frequently a way to cut heads without the headline of a layoff, with roles 'merged' instead of people fired."
+   },
+   "because": "A layoff spooks customers, investors and the rest of the staff. A reorg does the same cutting with softer words, so the stock and the morale hold.",
+   "payoff": "Every time your company gets 'leaner and more agile', update your resume that weekend.",
+   "lived": false,
+   "behaviour": "Firms rebrand cost-cutting as restructuring to avoid the optics of layoffs.",
+   "mechanism": "Softer language hides the same cuts and protects morale and reputation.",
+   "group": "people working in tech and startups",
+   "territory": "business_brands",
+   "mood": "sharp",
+   "format_name": "behind_the_brand",
+   "send_to": "the friend who just got a 'new reporting structure' email",
+   "format_hint": "carousel",
+   "why_now": "Year-end is quiet-cut season across the industry.",
+   "needs_facts": false,
+   "news_peg": null,
    "evidence": [
     {
-     "url": "https://www.yehey.com/2026/10/yeheycom-single-women-drive-2026.html",
-     "sub": "news",
-     "rank": 63
+     "url": "https://www.reddit.com/r/IndianWorkplace/comments/1x843gp/laid_off_and_losing_hope/",
+     "sub": "IndianWorkplace",
+     "rank": 8
+    },
+    {
+     "url": "https://www.reddit.com/r/IndianWorkplace/comments/1wpwcwn/six_months_after_getting_laid_off_i_finally_have/",
+     "sub": "IndianWorkplace",
+     "rank": 17
+    },
+    {
+     "url": "https://www.reddit.com/r/IndianWorkplace/comments/1wz6acb/got_fired_today_because_peeps_at_my_office/",
+     "sub": "IndianWorkplace",
+     "rank": 11
     }
    ],
-   "news_peg": "2026 industry homebuyer data on single women homebuyers, reported October 2026",
-   "why_now": "multiple 2026 datasets on this converged and were reported this month",
-   "counterintuitive": true,
-   "needs_facts": false,
-   "id": "2026-10-v2-035",
+   "real_details": [
+    "Laid off 2 months ago, still applying and tailoring resumes, can join immediately with no notice period",
+    "16 years into a career, unemployed for six months and through hundreds of applications before landing an offer",
+    "Startup laid off a 1.5-year employee (plus 6 months as intern) when cutting costs during a downturn",
+    "Manager chose to retain the other colleague because he was vocal about financial struggles, despite the one let go having bigger money problems",
+    "Outgoing manager justified the firing by saying others stay till 9pm while this employee left on time at 6pm"
+   ],
+   "id": "2026-10-250808-037",
    "score": {
-    "rank": 7,
-    "why": "Property and authority shifting to whoever owns it is her territory; this just puts a 2026 name on it without repeating the arranged-marriage angle.",
-    "format_fit": "single"
+    "rank": 11,
+    "why": "The 'exciting restructuring' email is instantly familiar to any office reader; naming it as a layoff in a nicer shirt gives people a test to run the next time they see one.",
+    "scores": {
+     "relatable": 4,
+     "fresh_angle": 4,
+     "shareable": 4,
+     "saveable": 3,
+     "because": 4
+    },
+    "format_fit": "carousel"
    }
   }
  }

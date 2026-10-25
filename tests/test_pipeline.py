@@ -99,17 +99,18 @@ def test_wrong_slide_count():
 
 def test_slots_cover_month_in_ist():
     slots = topic_filter.slots_for_month("2026-11")
-    assert len(slots) == 17  # 5 Mon, 4 Wed, 4 Fri, 4 Sat in Nov 2026
+    assert len(slots) == 30  # one a day
+    assert all(s["due"][11:16] == "20:30" and s["format"] == "carousel" for s in slots)
     assert slots[0]["due"].endswith("+05:30")
 
 
 def test_assign_respects_format_and_no_repeat():
     from engine import config
     ranked = [{"id": str(i), "territory": t, "score": {"format_fit": "either" if i % 4 == 0 else "carousel"}}
-              for i, t in enumerate(list(config.TERRITORY_MIX) * 5)]
+              for i, t in enumerate(list(config.TERRITORY_MIX) * 7)]
     plan = topic_filter._assign(ranked, topic_filter.slots_for_month("2026-11"))
     dated = [p for p in plan if p["due"]]
-    assert len(dated) == 17
+    assert len(dated) == 30
     for a, b in zip(dated, dated[1:]):
         assert a["topic"]["territory"] != b["topic"]["territory"]
     for p in dated:
@@ -118,11 +119,10 @@ def test_assign_respects_format_and_no_repeat():
 
 
 def test_assign_skips_unfillable_single_slot():
-    ranked = [{"id": str(i), "territory": "money_status", "score": {"format_fit": "carousel"}} for i in range(30)]
-    plan = topic_filter._assign(ranked, topic_filter.slots_for_month("2026-11"))
-    dated = [p for p in plan if p["due"]]
-    assert len(dated) == 13  # every carousel slot filled; the 4 Saturdays stay empty instead of ending the month
-    assert dated[-1]["due"].startswith("2026-11-30")
+    slots = [{"due": "2026-11-07T11:00:00+05:30", "format": "single"}, {"due": "2026-11-08T20:30:00+05:30", "format": "carousel"}]
+    ranked = [{"id": str(i), "territory": "money_status", "score": {"format_fit": "carousel"}} for i in range(3)]
+    dated = [p for p in topic_filter._assign(ranked, slots) if p["due"]]
+    assert [p["due"][:10] for p in dated] == ["2026-11-08"]  # the single slot stays empty instead of ending the plan
 
 
 def test_buffer_input_shape():

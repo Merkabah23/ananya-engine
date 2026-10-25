@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: "37 3 19 * *"   # 09:07 IST on the 19th: fetch Reddit (slow, rate-limited) ahead of the monthly run
     - cron: "37 3 20 * *"   # 09:07 IST on the 20th: news scan, scout, filter, plan next month
-    - cron: "7 4 * * *"     # 09:37 IST daily: write 3 posts, schedule anything due in 8 days
+    - cron: "7 4 * * *"     # 09:37 IST daily: write 3 posts, schedule anything due in 7 days
   push:                     # touching .github/run-now starts a daily run (pushes by the workflow itself never re-trigger it)
     branches: [main]
     paths: [".github/run-now"]
@@ -39,7 +39,7 @@ jobs:
       ENGINE_PAUSED: ${{ vars.ENGINE_PAUSED || 'false' }}
       PRODUCE_PER_RUN: ${{ vars.PRODUCE_PER_RUN || '3' }}
       MODEL_WRITER: ${{ vars.MODEL_WRITER || 'opus' }}
-      MAX_CALLS_PER_MONTH: ${{ vars.MAX_CALLS_PER_MONTH || '400' }}
+      MAX_CALLS_PER_MONTH: ${{ vars.MAX_CALLS_PER_MONTH || '1500' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

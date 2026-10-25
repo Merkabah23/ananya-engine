@@ -141,9 +141,9 @@ def run(month: str, plan_month: str | None = None) -> list[dict]:
         plan_month = f"{y + (m == 12)}-{(m % 12) + 1:02d}"
     # Only open slots far enough ahead to write and schedule, so a month can be (re)planned mid-way.
     cutoff = datetime.now(timezone.utc) + timedelta(hours=6)
-    occupied = {p["due"] for p in existing if p.get("due") and p["status"] != "cancelled"}
-    slots = [s for s in slots_for_month(plan_month)
-             if datetime.fromisoformat(s["due"]) > cutoff and s["due"] not in occupied]
+    occupied = {p["due"][:10] for p in existing if p.get("due") and p["status"] not in ("cancelled", "rejected")}
+    slots = [s for s in slots_for_month(plan_month)  # one post a day: a date with a live post is taken, whatever its time
+             if datetime.fromisoformat(s["due"]) > cutoff and s["due"][:10] not in occupied]
     if not slots:
         state.log("filter", f"no open slots left in {plan_month}")
         return []
