@@ -1,6 +1,6 @@
 {
  "id": "2026-11-63",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-10-27T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -40,6 +40,720 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-10-25T14:58:45.635150+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "problems": [
+    "The figure '₹300.' isn't in the sources; source it or remove it."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "Slide 5: it already ends on its own sting (\"By the time the reviews land, your ticket is already paid for\"), which steals the job of slide 6. Keep slide 5 to the mechanism only and let slide 6 carry the single cashed-in line, or the ending feels like two payoffs instead of one.",
+     "Slide 3: \"The slow-mo entry, the one dialogue, the drop in the music\" is three examples in a row. Cut to the two sharpest (the dialogue and the music drop) so it reads like a person remembering, not a list.",
+     "Slide 2: \"Three hearts back\" is the exact closing beat from the 'let's catch up soon' flagship example. Swap the group-chat reaction for something else so this post doesn't echo another post's device.",
+     "Slide 2: \"booked the second the trailer dropped\" narrows this to superfan behaviour. Most readers just book a first-day show because the trailer looked good, not within seconds of release — loosen this so more people place themselves in the seat."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "The take's premise is wrong: The second premise — that a trailer packed with the best moments means the production budget and creative effort went 'into the trailer rather than the film.' A trailer contains nothing that wasn't already shot and paid for as part of the film; its best two minutes ARE the film's best two minutes, just concentrated and spoiled in advance. Trailers are cut by outside trailer houses from the film's existing footage, and their cost sits in the marketing/P&A budget, which is a wholly separate line from the production budget. So a great trailer signals good scene selection and spoiler-heavy marketing, not that money was diverted away from making the film.. How it actually works: Studios send raw footage to specialist trailer houses that cut multiple versions from the film's own material; editing, music and voiceover are charged to the marketing (P&A) budget, which is separate from the production budget that pays for the movie itself. A trailer is built to sell opening weekend — when marketing and anticipation dominate — before reviews and word of mouth can land, so it rationally front-loads and spoils the highest peaks. The flat feeling is real, but it comes from those peaks being pre-shown and spread thin across two hours, not from cash being spent on the trailer instead of the film. Rebuild the post on the correct mechanism.",
+     "Says more than the sources: 'Word-of-mouth and reviews about a film's actual quality only become available after it opens, not before opening-weekend tickets are bought.'. What's true: Critic/press reviews often become available BEFORE a film opens, not only after — studios routinely lift review embargoes 1–3+ days ahead of release (sometimes longer), which is often before or around when opening-weekend tickets are purchased. Wide public word-of-mouth typically does build mainly after release, but the claim's absolute framing ('only after it opens, not before') is false for critic reviews specifically, which frequently precede release and can even shape last-minute booking decisions..",
+     "Wrong: 'When a trailer packs in nearly all of a film's standout moments, that indicates the production's budget and creative effort were concentrated on the trailer rather than spread through the full film.'. What's true: When a trailer contains nearly all of a film's standout moments, the recognized industry explanation is a marketing/editing decision (cutting the trailer to maximize familiarity and perceived appeal, or because the film itself lacks enough additional strong material) — not evidence that the production's budget was 'concentrated on the trailer' versus the film. Trailer budgets and film production budgets are separate line items; packing highlights into a trailer is an editorial/marketing choice about what footage from the already-shot film to reveal, not a statement about where money was spent.."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "The post's central argument: a film too weak to sustain two hours leads studios to compile all of its best moments into a two-minute trailer; this trailer drives opening-weekend ticket sales before reviews or word-of-mouth can warn viewers; therefore a trailer that shows 'everything good' is a sign the film has little left to offer beyond what's already shown, and that money/effort went into the trailer rather than the film.",
+      "sentence": "A trailer that shows everything good is a warning. ... When a film can't carry two hours, cramming every high point into two minutes is the only way. It fills seats on day one. By the time the reviews land, your ticket is already paid for. ... the budget went to the trailer.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Word-of-mouth and reviews about a film's actual quality only become available after it opens, not before opening-weekend tickets are bought.",
+      "sentence": "A trailer sells the opening weekend, before word of mouth lands.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "When a trailer packs in nearly all of a film's standout moments, that indicates the production's budget and creative effort were concentrated on the trailer rather than spread through the full film.",
+      "sentence": "If the trailer gave you goosebumps and the film gave you nothing, the budget went to the trailer.",
+      "type": "entity_attribute",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c2": {
+      "id": "c2",
+      "verdict": "misframed",
+      "event_date": null,
+      "correct": "Critic/press reviews often become available BEFORE a film opens, not only after — studios routinely lift review embargoes 1–3+ days ahead of release (sometimes longer), which is often before or around when opening-weekend tickets are purchased. Wide public word-of-mouth typically does build mainly after release, but the claim's absolute framing ('only after it opens, not before') is false for critic reviews specifically, which frequently precede release and can even shape last-minute booking decisions.",
+      "sources": [
+       {
+        "url": "https://screenrant.com/wonder-woman-early-reviews-positive-superhero-origin/",
+        "publisher": "ScreenRant",
+        "published_date": "2017-05-30",
+        "quote": "The review embargo for Patty Jenkins' Wonder Woman has lifted...and we've compiled several SPOILER FREE excerpts for the highly-anticipated DC Comics movie.' (Film released June 2, 2017 — embargo lifted roughly 3 days before opening.)",
+        "tier": 2
+       },
+       {
+        "url": "https://www.denofgeek.com/culture/review-embargoes-what-are-they-and-do-they-help/",
+        "publisher": "Den of Geek",
+        "published_date": null,
+        "quote": "Wonder Woman had a review embargo two days before release... [Blade Runner 2049's embargo moved] from a Monday to the preceding Friday, meaning reviews could run several days ahead of the film's debut.",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "contradicted",
+      "event_date": null,
+      "correct": "When a trailer contains nearly all of a film's standout moments, the recognized industry explanation is a marketing/editing decision (cutting the trailer to maximize familiarity and perceived appeal, or because the film itself lacks enough additional strong material) — not evidence that the production's budget was 'concentrated on the trailer' versus the film. Trailer budgets and film production budgets are separate line items; packing highlights into a trailer is an editorial/marketing choice about what footage from the already-shot film to reveal, not a statement about where money was spent.",
+      "sources": [
+       {
+        "url": "https://portalhollywood.com/screen/movie-trailer-drop-strategy-explained/",
+        "publisher": "Portal Hollywood",
+        "published_date": null,
+        "quote": "Because research keeps telling marketers that familiarity sells tickets. Testing consistently shows audiences more likely to attend when they feel they understand the plot, and comedy campaigns in particular compress a film's best jokes into the sell.",
+        "tier": 3
+       },
+       {
+        "url": "https://screenrant.com/comedy-trailers-spoiled-best-jokes/",
+        "publisher": "ScreenRant",
+        "published_date": "2016-05-17",
+        "quote": "It is the job of a trailer to make moviegoers want to see the film, and packing a two or three minute promotional video full of the movie's best jokes is certainly a way to do that... Like the majority of the titles on this list, the marketing team simply suffered from a lack of material.",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "The second premise — that a trailer packed with the best moments means the production budget and creative effort went 'into the trailer rather than the film.' A trailer contains nothing that wasn't already shot and paid for as part of the film; its best two minutes ARE the film's best two minutes, just concentrated and spoiled in advance. Trailers are cut by outside trailer houses from the film's existing footage, and their cost sits in the marketing/P&A budget, which is a wholly separate line from the production budget. So a great trailer signals good scene selection and spoiler-heavy marketing, not that money was diverted away from making the film.",
+     "actual_mechanism": "Studios send raw footage to specialist trailer houses that cut multiple versions from the film's own material; editing, music and voiceover are charged to the marketing (P&A) budget, which is separate from the production budget that pays for the movie itself. A trailer is built to sell opening weekend — when marketing and anticipation dominate — before reviews and word of mouth can land, so it rationally front-loads and spoils the highest peaks. The flat feeling is real, but it comes from those peaks being pre-shown and spread thin across two hours, not from cash being spent on the trailer instead of the film.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.forbes.com/sites/mattcraig/2025/05/02/inside-the-secretive-pay-for-play-world-of-movie-trailers/",
+       "published_date": "2025-05-02",
+       "quote": "Studio marketing departments hire outside trailer houses... A studio typically sends footage to several houses at once and asks each to pitch cuts; trailer houses receive raw footage, scripts, and marketing briefs and sift through hours of material to identify the most impactful moments."
+      },
+      {
+       "url": "https://teasytrailers.com/en/blog/posts/film-marketing-strategie/",
+       "published_date": "2024-01-01",
+       "quote": "For every dollar that goes into producing a major Hollywood film, an average of fifty to seventy cents goes into marketing it... The cost of editing, music, and voiceovers is considered part of the overall marketing budget for the film."
+      },
+      {
+       "url": "https://www.npr.org/2026/04/18/nx-s1-5787983/new-data-show-tiktok-engagement-as-a-key-indicator-of-long-term-box-office-success",
+       "published_date": "2026-04-18",
+       "quote": "Content really takes off after the first weekend, because people have seen the entire movie and they want to talk about it — keeping a movie thriving after opening weekend, which marketing drives first."
+      }
+     ]
+    },
+    "text_hash": "3c67ebe93be400418c14b6ab3373ae662a8f25eb",
+    "at": "2026-10-25T15:05:26.535522+00:00"
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "The take's premise is wrong: The second premise — that a trailer packed with the best moments means the production budget and creative effort went 'into the trailer rather than the film.' A trailer contains nothing that wasn't already shot and paid for as part of the film; its best two minutes ARE the film's best two minutes, just concentrated and spoiled in advance. Trailers are cut by outside trailer houses from the film's existing footage, and their cost sits in the marketing/P&A budget, which is a wholly separate line from the production budget. So a great trailer signals good scene selection and spoiler-heavy marketing, not that money was diverted away from making the film.. How it actually works: Studios send raw footage to specialist trailer houses that cut multiple versions from the film's own material; editing, music and voiceover are charged to the marketing (P&A) budget, which is separate from the production budget that pays for the movie itself. A trailer is built to sell opening weekend — when marketing and anticipation dominate — before reviews and word of mouth can land, so it rationally front-loads and spoils the highest peaks. The flat feeling is real, but it comes from those peaks being pre-shown and spread thin across two hours, not from cash being spent on the trailer instead of the film. Rebuild the post on the correct mechanism.",
+    "Says more than the sources: 'Word-of-mouth and reviews about a film's actual quality only become available after it opens, not before opening-weekend tickets are bought.'. What's true: Critic/press reviews often become available BEFORE a film opens, not only after — studios routinely lift review embargoes 1–3+ days ahead of release (sometimes longer), which is often before or around when opening-weekend tickets are purchased. Wide public word-of-mouth typically does build mainly after release, but the claim's absolute framing ('only after it opens, not before') is false for critic reviews specifically, which frequently precede release and can even shape last-minute booking decisions..",
+    "Wrong: 'When a trailer packs in nearly all of a film's standout moments, that indicates the production's budget and creative effort were concentrated on the trailer rather than spread through the full film.'. What's true: When a trailer contains nearly all of a film's standout moments, the recognized industry explanation is a marketing/editing decision (cutting the trailer to maximize familiarity and perceived appeal, or because the film itself lacks enough additional strong material) — not evidence that the production's budget was 'concentrated on the trailer' versus the film. Trailer budgets and film production budgets are separate line items; packing highlights into a trailer is an editorial/marketing choice about what footage from the already-shot film to reveal, not a statement about where money was spent.."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 5: 'A trailer is cut from the film's own footage. Nothing extra is shot for it.' is stated as a flat, certain fact with no source (sources list is empty and this isn't in the topic's proof/real_details). It's also an overclaim — trailers regularly include alternate takes, b-roll or exclusive shots not in the final cut — so this is an invented/incorrect specific about how something works."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "Slide 5: Drop or soften 'Nothing extra is shot for it.' It's an unsourced, overstated technical claim. Keep the point as opinion/observation ('mostly cut from what's already in the can') rather than an absolute fact about production — the turn doesn't need this line to land, the 'they put the highs up front to sell the first weekend' point does the real work.",
+     "Slide 5: The second sentence carries the whole 'because' — consider trimming the first sentence further so the slide doesn't read like it's teaching trailer-production trivia before getting to the actual insight.",
+     "Slide 6 payoff is strong ('three weeks early, for free') — keep that, just make sure slide 5's fix doesn't weaken the setup for it."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Slide 5: 'A trailer is cut from the film's own footage. Nothing extra is shot for it.' is stated as a flat, certain fact with no source (sources list is empty and this isn't in the topic's proof/real_details). It's also an overclaim — trailers regularly include alternate takes, b-roll or exclusive shots not in the final cut — so this is an invented/incorrect specific about how something works.",
+    "Slide 5: Drop or soften 'Nothing extra is shot for it.' It's an unsourced, overstated technical claim. Keep the point as opinion/observation ('mostly cut from what's already in the can') rather than an absolute fact about production — the turn doesn't need this line to land, the 'they put the highs up front to sell the first weekend' point does the real work.",
+    "Slide 5: The second sentence carries the whole 'because' — consider trimming the first sentence further so the slide doesn't read like it's teaching trailer-production trivia before getting to the actual insight.",
+    "Slide 6 payoff is strong ('three weeks early, for free') — keep that, just make sure slide 5's fix doesn't weaken the setup for it."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "Slide 6: the closer leans on 'for free' almost word for word from the cover sub ('the best two minutes, for free'). It works as a callback but reads as an echo rather than a new landing. Rephrase the close so the payoff feels like a fresh gut-punch, not a repeat of the cover line.",
+     "Slide 5: the because (trailer sells day one, reviews arrive too late) is true but a known idea; sharpen it with one more specific beat on what gets held back in the trailer versus what gets shown, so the reader learns something they hadn't quite named before, not just a restatement of 'hype sells opening weekend'.",
+     "Slide 2: 'typed blockbuster confirmed' and 'three hearts back' are good typical-texture details, keep that level of specificity through slide 3 and 4 too, the parking-lot line ('strangely flat') is a bit generic compared to the texture in slide 2, give it one concrete physical beat (what you do with your hands, what you say to the friend next to you) to keep the story grounded."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "verification": {
+    "passed": false,
+    "take_dead": true,
+    "notes": [
+     "The take's premise is wrong: The hidden premise that a 'complete-feeling' trailer is a quality signal unique to weak films. Front-loading a trailer with the film's strongest two minutes is universal marketing practice done identically for great films and bad ones, so it carries no diagnostic information about how much good material remains. The secondary premise also fails: in the social-media/first-day-first-show era, reactions and reviews circulate within hours of the first shows, not by 'day three.'. How it actually works: Trailers are cut by marketing departments and specialist trailer houses (not the filmmakers) from a film's strongest, most sellable moments — that is the trailer's entire job for every release, hit or flop — and often use library music, not the actual score. So a trailer packed with peaks tells you nothing about whether more peaks exist; you only run the 'every high was in the trailer' math after a film disappoints, while a great film whose trailer also front-loaded its best shots simply over-delivers and you never notice. Studios do front-load marketing to secure the opening before word of mouth lands, but today that word of mouth (Twitter reactions, morning FDFS reviews, pre-release critic embargoes) arrives in hours, undercutting the clean 'day one = trailer, day three = reviews' split. Rebuild the post on the correct mechanism.",
+     "Wrong: 'Movie trailers are typically released about three weeks before a film's theatrical release.'. What's true: Trailers are typically released far more than three weeks before a film's theatrical release — on average about 4 months (126 days) ahead based on industry data, with main trailers commonly dropping 2–5 months out and teasers 6–12+ months out. Voluntary U.S. theater-owner (NATO) guidelines even cap how early trailers can run in theaters at 120–150 days (4–5 months) before release, not three weeks.."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Movie trailers are typically released about three weeks before a film's theatrical release.",
+      "sentence": "Three weeks early, for free.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Studios deliberately front-load a trailer with a film's best/peak moments to drive opening-weekend bookings, which happen before word of mouth or reviews can circulate; review-driven bookings only kick in by around day three, by which point it is too late to rescue a weak film — so a trailer that contains every good moment signals the film has no more good moments beyond what was shown.",
+      "sentence": "The highs go up front to sell the first weekend, before word of mouth catches up. Day one is booked on the trailer. Day three is booked on reviews, and by then it's too late to help a weak film.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "contradicted",
+      "event_date": null,
+      "correct": "Trailers are typically released far more than three weeks before a film's theatrical release — on average about 4 months (126 days) ahead based on industry data, with main trailers commonly dropping 2–5 months out and teasers 6–12+ months out. Voluntary U.S. theater-owner (NATO) guidelines even cap how early trailers can run in theaters at 120–150 days (4–5 months) before release, not three weeks.",
+      "sources": [
+       {
+        "url": "https://stephenfollows.com/p/far-advance-film-trailers-released",
+        "publisher": "Stephen Follows (film data analyst)",
+        "published_date": "2024-08-01",
+        "quote": "the average time between first trailer and theatrical release was 126 days (i.e. around four months)",
+        "tier": 2
+       },
+       {
+        "url": "https://www.thewrap.com/movie-trailers-need-get-shorter-nato-says/",
+        "publisher": "TheWrap",
+        "published_date": "2014-01-27",
+        "quote": "marketing should not heat up until 150 days prior to a film's release ... should not be displayed more than 120 days before a film hits theaters",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "The hidden premise that a 'complete-feeling' trailer is a quality signal unique to weak films. Front-loading a trailer with the film's strongest two minutes is universal marketing practice done identically for great films and bad ones, so it carries no diagnostic information about how much good material remains. The secondary premise also fails: in the social-media/first-day-first-show era, reactions and reviews circulate within hours of the first shows, not by 'day three.'",
+     "actual_mechanism": "Trailers are cut by marketing departments and specialist trailer houses (not the filmmakers) from a film's strongest, most sellable moments — that is the trailer's entire job for every release, hit or flop — and often use library music, not the actual score. So a trailer packed with peaks tells you nothing about whether more peaks exist; you only run the 'every high was in the trailer' math after a film disappoints, while a great film whose trailer also front-loaded its best shots simply over-delivers and you never notice. Studios do front-load marketing to secure the opening before word of mouth lands, but today that word of mouth (Twitter reactions, morning FDFS reviews, pre-release critic embargoes) arrives in hours, undercutting the clean 'day one = trailer, day three = reviews' split.",
+     "take_survives": false,
+     "sources": [
+      {
+       "url": "https://www.masterclass.com/articles/how-to-make-a-movie-trailer",
+       "published_date": "2026",
+       "quote": "A movie trailer is a short promotional cut of a film's strongest moments, built to sell the film in two to three minutes."
+      },
+      {
+       "url": "https://www.dfirentals.com/news/how-are-movie-trailers-made",
+       "published_date": "unknown",
+       "quote": "Studios send footage to trailer houses that specialize in cutting trailers; the film's own director or editor usually does not cut the trailer, and the music is often a trailer-specific or library track rather than the film's score."
+      },
+      {
+       "url": "https://www.boxofficemojo.com/article/ed1518273540",
+       "published_date": "unknown",
+       "quote": "Films with weak reviews and poor word-of-mouth, like Fifty Shades of Grey, drop sharply in their second weekend — showing that reception circulates fast enough to shape the run, not only after day three."
+      },
+      {
+       "url": "https://projectgruvi.medium.com/the-myth-of-the-opening-weekend-1f8f75bf4a4e",
+       "published_date": "unknown",
+       "quote": "The opening weekend is treated as the key performance indicator, but a strong or weak reaction reshapes a film's trajectory well inside the first weekend rather than waiting for later reviews."
+      }
+     ]
+    },
+    "text_hash": "3b22ebe01bab0b5545257b28e230be2798699df7",
+    "at": "2026-10-25T15:11:49.182146+00:00"
+   }
+  }
+ ],
+ "updated_at": "2026-10-25T16:13:34.196882+00:00",
+ "sources": [],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] A trailer that shows everything good is a [warning]\nThey just handed you the best two minutes, for free.\n \n\n[slide 1] A trailer that shows everything good is a warning.\nSwipe to read →\n\n[slide 2] Friday, first-day show. You booked the second the trailer dropped, forwarded it to the group chat, typed \"blockbuster confirmed.\"\nThree hearts back. Tickets locked before anyone had seen a frame.\n\n[slide 3] Lights down. You wait for that goosebump shot to come back. The slow-mo entry, the one dialogue, the drop in the music.\nTwo hours later you're walking to the parking, strangely flat. It never hit again.\n\n[slide 4] So you do the math in the car. The interval twist, the goosebump line, the shot everyone quoted.\nEvery one of them was in the trailer. The film was just the long gaps between those clips.\n\n[slide 5] When every peak fits into two minutes, it's usually because there weren't many more peaks to find.\nThe highs go up front to sell the first weekend, before word of mouth catches up. Day one is booked on the trailer. Day three is booked on reviews, and by then it's too late to help a weak film.\n\n[slide 6] If the trailer gave you chills and the film gave you nothing, you already watched the best of it. On your phone. Three weeks early, for free.\n\n[end card] Open this the next time a trailer makes you reach for your card.\nSend it to the friend who books tickets purely on the trailer.\n\n[caption] The best two minutes of most films this year were already free on your phone, and that's the whole problem.\n\n[alt text] A six-slide carousel arguing that a trailer packed with every good moment is a warning sign. It follows a reader who books first-day tickets on a trailer, walks out flat because every high point was already in those two minutes, and learns that studios front-load a film's best moments to sell the opening weekend before reviews and word of mouth can spread.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Movie trailers are typically released about three weeks before a film's theatrical release.",
+     "sentence": "Three weeks early, for free.",
+     "type": "figure",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "Studios deliberately front-load a trailer with a film's best/peak moments to drive opening-weekend bookings, which happen before word of mouth or reviews can circulate; review-driven bookings only kick in by around day three, by which point it is too late to rescue a weak film — so a trailer that contains every good moment signals the film has no more good moments beyond what was shown.",
+     "sentence": "The highs go up front to sell the first weekend, before word of mouth catches up. Day one is booked on the trailer. Day three is booked on reviews, and by then it's too late to help a weak film.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "Word-of-mouth and reviews about a film's actual quality only become available after it opens, not before opening-weekend tickets are bought.": {
+   "id": "c2",
+   "verdict": "misframed",
+   "event_date": null,
+   "correct": "Critic/press reviews often become available BEFORE a film opens, not only after — studios routinely lift review embargoes 1–3+ days ahead of release (sometimes longer), which is often before or around when opening-weekend tickets are purchased. Wide public word-of-mouth typically does build mainly after release, but the claim's absolute framing ('only after it opens, not before') is false for critic reviews specifically, which frequently precede release and can even shape last-minute booking decisions.",
+   "sources": [
+    {
+     "url": "https://screenrant.com/wonder-woman-early-reviews-positive-superhero-origin/",
+     "publisher": "ScreenRant",
+     "published_date": "2017-05-30",
+     "quote": "The review embargo for Patty Jenkins' Wonder Woman has lifted...and we've compiled several SPOILER FREE excerpts for the highly-anticipated DC Comics movie.' (Film released June 2, 2017 — embargo lifted roughly 3 days before opening.)",
+     "tier": 2
+    },
+    {
+     "url": "https://www.denofgeek.com/culture/review-embargoes-what-are-they-and-do-they-help/",
+     "publisher": "Den of Geek",
+     "published_date": null,
+     "quote": "Wonder Woman had a review embargo two days before release... [Blade Runner 2049's embargo moved] from a Monday to the preceding Friday, meaning reviews could run several days ahead of the film's debut.",
+     "tier": 2
+    }
+   ]
+  },
+  "When a trailer packs in nearly all of a film's standout moments, that indicates the production's budget and creative effort were concentrated on the trailer rather than spread through the full film.": {
+   "id": "c3",
+   "verdict": "contradicted",
+   "event_date": null,
+   "correct": "When a trailer contains nearly all of a film's standout moments, the recognized industry explanation is a marketing/editing decision (cutting the trailer to maximize familiarity and perceived appeal, or because the film itself lacks enough additional strong material) — not evidence that the production's budget was 'concentrated on the trailer' versus the film. Trailer budgets and film production budgets are separate line items; packing highlights into a trailer is an editorial/marketing choice about what footage from the already-shot film to reveal, not a statement about where money was spent.",
+   "sources": [
+    {
+     "url": "https://portalhollywood.com/screen/movie-trailer-drop-strategy-explained/",
+     "publisher": "Portal Hollywood",
+     "published_date": null,
+     "quote": "Because research keeps telling marketers that familiarity sells tickets. Testing consistently shows audiences more likely to attend when they feel they understand the plot, and comedy campaigns in particular compress a film's best jokes into the sell.",
+     "tier": 3
+    },
+    {
+     "url": "https://screenrant.com/comedy-trailers-spoiled-best-jokes/",
+     "publisher": "ScreenRant",
+     "published_date": "2016-05-17",
+     "quote": "It is the job of a trailer to make moviegoers want to see the film, and packing a two or three minute promotional video full of the movie's best jokes is certainly a way to do that... Like the majority of the titles on this list, the marketing team simply suffered from a lack of material.",
+     "tier": 2
+    }
+   ]
+  },
+  "_by_text": {
+   "3c67ebe93be400418c14b6ab3373ae662a8f25eb": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "The take's premise is wrong: The second premise — that a trailer packed with the best moments means the production budget and creative effort went 'into the trailer rather than the film.' A trailer contains nothing that wasn't already shot and paid for as part of the film; its best two minutes ARE the film's best two minutes, just concentrated and spoiled in advance. Trailers are cut by outside trailer houses from the film's existing footage, and their cost sits in the marketing/P&A budget, which is a wholly separate line from the production budget. So a great trailer signals good scene selection and spoiler-heavy marketing, not that money was diverted away from making the film.. How it actually works: Studios send raw footage to specialist trailer houses that cut multiple versions from the film's own material; editing, music and voiceover are charged to the marketing (P&A) budget, which is separate from the production budget that pays for the movie itself. A trailer is built to sell opening weekend — when marketing and anticipation dominate — before reviews and word of mouth can land, so it rationally front-loads and spoils the highest peaks. The flat feeling is real, but it comes from those peaks being pre-shown and spread thin across two hours, not from cash being spent on the trailer instead of the film. Rebuild the post on the correct mechanism.",
+     "Says more than the sources: 'Word-of-mouth and reviews about a film's actual quality only become available after it opens, not before opening-weekend tickets are bought.'. What's true: Critic/press reviews often become available BEFORE a film opens, not only after — studios routinely lift review embargoes 1–3+ days ahead of release (sometimes longer), which is often before or around when opening-weekend tickets are purchased. Wide public word-of-mouth typically does build mainly after release, but the claim's absolute framing ('only after it opens, not before') is false for critic reviews specifically, which frequently precede release and can even shape last-minute booking decisions..",
+     "Wrong: 'When a trailer packs in nearly all of a film's standout moments, that indicates the production's budget and creative effort were concentrated on the trailer rather than spread through the full film.'. What's true: When a trailer contains nearly all of a film's standout moments, the recognized industry explanation is a marketing/editing decision (cutting the trailer to maximize familiarity and perceived appeal, or because the film itself lacks enough additional strong material) — not evidence that the production's budget was 'concentrated on the trailer' versus the film. Trailer budgets and film production budgets are separate line items; packing highlights into a trailer is an editorial/marketing choice about what footage from the already-shot film to reveal, not a statement about where money was spent.."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "The post's central argument: a film too weak to sustain two hours leads studios to compile all of its best moments into a two-minute trailer; this trailer drives opening-weekend ticket sales before reviews or word-of-mouth can warn viewers; therefore a trailer that shows 'everything good' is a sign the film has little left to offer beyond what's already shown, and that money/effort went into the trailer rather than the film.",
+      "sentence": "A trailer that shows everything good is a warning. ... When a film can't carry two hours, cramming every high point into two minutes is the only way. It fills seats on day one. By the time the reviews land, your ticket is already paid for. ... the budget went to the trailer.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Word-of-mouth and reviews about a film's actual quality only become available after it opens, not before opening-weekend tickets are bought.",
+      "sentence": "A trailer sells the opening weekend, before word of mouth lands.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "When a trailer packs in nearly all of a film's standout moments, that indicates the production's budget and creative effort were concentrated on the trailer rather than spread through the full film.",
+      "sentence": "If the trailer gave you goosebumps and the film gave you nothing, the budget went to the trailer.",
+      "type": "entity_attribute",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c2": {
+      "id": "c2",
+      "verdict": "misframed",
+      "event_date": null,
+      "correct": "Critic/press reviews often become available BEFORE a film opens, not only after — studios routinely lift review embargoes 1–3+ days ahead of release (sometimes longer), which is often before or around when opening-weekend tickets are purchased. Wide public word-of-mouth typically does build mainly after release, but the claim's absolute framing ('only after it opens, not before') is false for critic reviews specifically, which frequently precede release and can even shape last-minute booking decisions.",
+      "sources": [
+       {
+        "url": "https://screenrant.com/wonder-woman-early-reviews-positive-superhero-origin/",
+        "publisher": "ScreenRant",
+        "published_date": "2017-05-30",
+        "quote": "The review embargo for Patty Jenkins' Wonder Woman has lifted...and we've compiled several SPOILER FREE excerpts for the highly-anticipated DC Comics movie.' (Film released June 2, 2017 — embargo lifted roughly 3 days before opening.)",
+        "tier": 2
+       },
+       {
+        "url": "https://www.denofgeek.com/culture/review-embargoes-what-are-they-and-do-they-help/",
+        "publisher": "Den of Geek",
+        "published_date": null,
+        "quote": "Wonder Woman had a review embargo two days before release... [Blade Runner 2049's embargo moved] from a Monday to the preceding Friday, meaning reviews could run several days ahead of the film's debut.",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "contradicted",
+      "event_date": null,
+      "correct": "When a trailer contains nearly all of a film's standout moments, the recognized industry explanation is a marketing/editing decision (cutting the trailer to maximize familiarity and perceived appeal, or because the film itself lacks enough additional strong material) — not evidence that the production's budget was 'concentrated on the trailer' versus the film. Trailer budgets and film production budgets are separate line items; packing highlights into a trailer is an editorial/marketing choice about what footage from the already-shot film to reveal, not a statement about where money was spent.",
+      "sources": [
+       {
+        "url": "https://portalhollywood.com/screen/movie-trailer-drop-strategy-explained/",
+        "publisher": "Portal Hollywood",
+        "published_date": null,
+        "quote": "Because research keeps telling marketers that familiarity sells tickets. Testing consistently shows audiences more likely to attend when they feel they understand the plot, and comedy campaigns in particular compress a film's best jokes into the sell.",
+        "tier": 3
+       },
+       {
+        "url": "https://screenrant.com/comedy-trailers-spoiled-best-jokes/",
+        "publisher": "ScreenRant",
+        "published_date": "2016-05-17",
+        "quote": "It is the job of a trailer to make moviegoers want to see the film, and packing a two or three minute promotional video full of the movie's best jokes is certainly a way to do that... Like the majority of the titles on this list, the marketing team simply suffered from a lack of material.",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "The second premise — that a trailer packed with the best moments means the production budget and creative effort went 'into the trailer rather than the film.' A trailer contains nothing that wasn't already shot and paid for as part of the film; its best two minutes ARE the film's best two minutes, just concentrated and spoiled in advance. Trailers are cut by outside trailer houses from the film's existing footage, and their cost sits in the marketing/P&A budget, which is a wholly separate line from the production budget. So a great trailer signals good scene selection and spoiler-heavy marketing, not that money was diverted away from making the film.",
+     "actual_mechanism": "Studios send raw footage to specialist trailer houses that cut multiple versions from the film's own material; editing, music and voiceover are charged to the marketing (P&A) budget, which is separate from the production budget that pays for the movie itself. A trailer is built to sell opening weekend — when marketing and anticipation dominate — before reviews and word of mouth can land, so it rationally front-loads and spoils the highest peaks. The flat feeling is real, but it comes from those peaks being pre-shown and spread thin across two hours, not from cash being spent on the trailer instead of the film.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.forbes.com/sites/mattcraig/2025/05/02/inside-the-secretive-pay-for-play-world-of-movie-trailers/",
+       "published_date": "2025-05-02",
+       "quote": "Studio marketing departments hire outside trailer houses... A studio typically sends footage to several houses at once and asks each to pitch cuts; trailer houses receive raw footage, scripts, and marketing briefs and sift through hours of material to identify the most impactful moments."
+      },
+      {
+       "url": "https://teasytrailers.com/en/blog/posts/film-marketing-strategie/",
+       "published_date": "2024-01-01",
+       "quote": "For every dollar that goes into producing a major Hollywood film, an average of fifty to seventy cents goes into marketing it... The cost of editing, music, and voiceovers is considered part of the overall marketing budget for the film."
+      },
+      {
+       "url": "https://www.npr.org/2026/04/18/nx-s1-5787983/new-data-show-tiktok-engagement-as-a-key-indicator-of-long-term-box-office-success",
+       "published_date": "2026-04-18",
+       "quote": "Content really takes off after the first weekend, because people have seen the entire movie and they want to talk about it — keeping a movie thriving after opening weekend, which marketing drives first."
+      }
+     ]
+    },
+    "text_hash": "3c67ebe93be400418c14b6ab3373ae662a8f25eb",
+    "at": "2026-10-25T15:05:26.535522+00:00"
+   },
+   "3b22ebe01bab0b5545257b28e230be2798699df7": {
+    "passed": false,
+    "take_dead": true,
+    "notes": [
+     "The take's premise is wrong: The hidden premise that a 'complete-feeling' trailer is a quality signal unique to weak films. Front-loading a trailer with the film's strongest two minutes is universal marketing practice done identically for great films and bad ones, so it carries no diagnostic information about how much good material remains. The secondary premise also fails: in the social-media/first-day-first-show era, reactions and reviews circulate within hours of the first shows, not by 'day three.'. How it actually works: Trailers are cut by marketing departments and specialist trailer houses (not the filmmakers) from a film's strongest, most sellable moments — that is the trailer's entire job for every release, hit or flop — and often use library music, not the actual score. So a trailer packed with peaks tells you nothing about whether more peaks exist; you only run the 'every high was in the trailer' math after a film disappoints, while a great film whose trailer also front-loaded its best shots simply over-delivers and you never notice. Studios do front-load marketing to secure the opening before word of mouth lands, but today that word of mouth (Twitter reactions, morning FDFS reviews, pre-release critic embargoes) arrives in hours, undercutting the clean 'day one = trailer, day three = reviews' split. Rebuild the post on the correct mechanism.",
+     "Wrong: 'Movie trailers are typically released about three weeks before a film's theatrical release.'. What's true: Trailers are typically released far more than three weeks before a film's theatrical release — on average about 4 months (126 days) ahead based on industry data, with main trailers commonly dropping 2–5 months out and teasers 6–12+ months out. Voluntary U.S. theater-owner (NATO) guidelines even cap how early trailers can run in theaters at 120–150 days (4–5 months) before release, not three weeks.."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Movie trailers are typically released about three weeks before a film's theatrical release.",
+      "sentence": "Three weeks early, for free.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Studios deliberately front-load a trailer with a film's best/peak moments to drive opening-weekend bookings, which happen before word of mouth or reviews can circulate; review-driven bookings only kick in by around day three, by which point it is too late to rescue a weak film — so a trailer that contains every good moment signals the film has no more good moments beyond what was shown.",
+      "sentence": "The highs go up front to sell the first weekend, before word of mouth catches up. Day one is booked on the trailer. Day three is booked on reviews, and by then it's too late to help a weak film.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "contradicted",
+      "event_date": null,
+      "correct": "Trailers are typically released far more than three weeks before a film's theatrical release — on average about 4 months (126 days) ahead based on industry data, with main trailers commonly dropping 2–5 months out and teasers 6–12+ months out. Voluntary U.S. theater-owner (NATO) guidelines even cap how early trailers can run in theaters at 120–150 days (4–5 months) before release, not three weeks.",
+      "sources": [
+       {
+        "url": "https://stephenfollows.com/p/far-advance-film-trailers-released",
+        "publisher": "Stephen Follows (film data analyst)",
+        "published_date": "2024-08-01",
+        "quote": "the average time between first trailer and theatrical release was 126 days (i.e. around four months)",
+        "tier": 2
+       },
+       {
+        "url": "https://www.thewrap.com/movie-trailers-need-get-shorter-nato-says/",
+        "publisher": "TheWrap",
+        "published_date": "2014-01-27",
+        "quote": "marketing should not heat up until 150 days prior to a film's release ... should not be displayed more than 120 days before a film hits theaters",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "The hidden premise that a 'complete-feeling' trailer is a quality signal unique to weak films. Front-loading a trailer with the film's strongest two minutes is universal marketing practice done identically for great films and bad ones, so it carries no diagnostic information about how much good material remains. The secondary premise also fails: in the social-media/first-day-first-show era, reactions and reviews circulate within hours of the first shows, not by 'day three.'",
+     "actual_mechanism": "Trailers are cut by marketing departments and specialist trailer houses (not the filmmakers) from a film's strongest, most sellable moments — that is the trailer's entire job for every release, hit or flop — and often use library music, not the actual score. So a trailer packed with peaks tells you nothing about whether more peaks exist; you only run the 'every high was in the trailer' math after a film disappoints, while a great film whose trailer also front-loaded its best shots simply over-delivers and you never notice. Studios do front-load marketing to secure the opening before word of mouth lands, but today that word of mouth (Twitter reactions, morning FDFS reviews, pre-release critic embargoes) arrives in hours, undercutting the clean 'day one = trailer, day three = reviews' split.",
+     "take_survives": false,
+     "sources": [
+      {
+       "url": "https://www.masterclass.com/articles/how-to-make-a-movie-trailer",
+       "published_date": "2026",
+       "quote": "A movie trailer is a short promotional cut of a film's strongest moments, built to sell the film in two to three minutes."
+      },
+      {
+       "url": "https://www.dfirentals.com/news/how-are-movie-trailers-made",
+       "published_date": "unknown",
+       "quote": "Studios send footage to trailer houses that specialize in cutting trailers; the film's own director or editor usually does not cut the trailer, and the music is often a trailer-specific or library track rather than the film's score."
+      },
+      {
+       "url": "https://www.boxofficemojo.com/article/ed1518273540",
+       "published_date": "unknown",
+       "quote": "Films with weak reviews and poor word-of-mouth, like Fifty Shades of Grey, drop sharply in their second weekend — showing that reception circulates fast enough to shape the run, not only after day three."
+      },
+      {
+       "url": "https://projectgruvi.medium.com/the-myth-of-the-opening-weekend-1f8f75bf4a4e",
+       "published_date": "unknown",
+       "quote": "The opening weekend is treated as the key performance indicator, but a strong or weak reaction reshapes a film's trajectory well inside the first weekend rather than waiting for later reviews."
+      }
+     ]
+    },
+    "text_hash": "3b22ebe01bab0b5545257b28e230be2798699df7",
+    "at": "2026-10-25T15:11:49.182146+00:00"
+   }
+  },
+  "Movie trailers are typically released about three weeks before a film's theatrical release.": {
+   "id": "c1",
+   "verdict": "contradicted",
+   "event_date": null,
+   "correct": "Trailers are typically released far more than three weeks before a film's theatrical release — on average about 4 months (126 days) ahead based on industry data, with main trailers commonly dropping 2–5 months out and teasers 6–12+ months out. Voluntary U.S. theater-owner (NATO) guidelines even cap how early trailers can run in theaters at 120–150 days (4–5 months) before release, not three weeks.",
+   "sources": [
+    {
+     "url": "https://stephenfollows.com/p/far-advance-film-trailers-released",
+     "publisher": "Stephen Follows (film data analyst)",
+     "published_date": "2024-08-01",
+     "quote": "the average time between first trailer and theatrical release was 126 days (i.e. around four months)",
+     "tier": 2
+    },
+    {
+     "url": "https://www.thewrap.com/movie-trailers-need-get-shorter-nato-says/",
+     "publisher": "TheWrap",
+     "published_date": "2014-01-27",
+     "quote": "marketing should not heat up until 150 days prior to a film's release ... should not be displayed more than 120 days before a film hits theaters",
+     "tier": 2
+    }
+   ]
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "A trailer that shows everything good is a [warning]",
+   "sub": "They just handed you the best two minutes, for free."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "A trailer that shows everything good is a warning.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "The reader wants to know why the thing that sold them was the red flag."
+   },
+   {
+    "paragraphs": [
+     "Friday, first-day show. You booked the second the trailer dropped, forwarded it to the group chat, typed \"blockbuster confirmed.\"",
+     "Three hearts back. Tickets locked before anyone had seen a frame."
+    ],
+    "why_swipe": "They're back in the moment and want to see how the night went."
+   },
+   {
+    "paragraphs": [
+     "Lights down. You wait for that goosebump shot to come back. The slow-mo entry, the one dialogue, the drop in the music.",
+     "Two hours later you're walking to the parking, strangely flat. It never hit again."
+    ],
+    "why_swipe": "They recognise the flatness and want to know why it happened."
+   },
+   {
+    "paragraphs": [
+     "So you do the math in the car. The interval twist, the goosebump line, the shot everyone quoted.",
+     "Every one of them was in the trailer. The film was just the long gaps between those clips."
+    ],
+    "why_swipe": "They want to know why a studio would give its best scenes away."
+   },
+   {
+    "paragraphs": [
+     "When every peak fits into two minutes, it's usually because there weren't many more peaks to find.",
+     "The highs go up front to sell the first weekend, before word of mouth catches up. Day one is booked on the trailer. Day three is booked on reviews, and by then it's too late to help a weak film."
+    ],
+    "why_swipe": "They want the line that names what just happened to them."
+   },
+   {
+    "paragraphs": [
+     "**If the trailer gave you chills and the film gave you nothing, you already watched the best of it. On your phone. Three weeks early, for free.**"
+    ],
+    "why_swipe": null
+   }
+  ],
+  "end": {
+   "save": "Open this the next time a trailer makes you reach for your card.",
+   "send": "Send it to the friend who books tickets purely on the trailer.",
+   "promise": "How things get sold to us."
+  },
+  "caption": "The best two minutes of most films this year were already free on your phone, and that's the whole problem.",
+  "hashtags": [
+   "#BollywoodTrailers",
+   "#OpeningWeekend",
+   "#FilmMarketing",
+   "#TrailerVsFilm"
+  ],
+  "alt_text": "A six-slide carousel arguing that a trailer packed with every good moment is a warning sign. It follows a reader who books first-day tickets on a trailer, walks out flat because every high point was already in those two minutes, and learns that studios front-load a film's best moments to sell the opening weekend before reviews and word of mouth can spread.",
+  "claims": [],
+  "caption_style": "pov"
+ },
+ "verification": {
+  "passed": false,
+  "take_dead": true,
+  "notes": [
+   "The take's premise is wrong: The hidden premise that a 'complete-feeling' trailer is a quality signal unique to weak films. Front-loading a trailer with the film's strongest two minutes is universal marketing practice done identically for great films and bad ones, so it carries no diagnostic information about how much good material remains. The secondary premise also fails: in the social-media/first-day-first-show era, reactions and reviews circulate within hours of the first shows, not by 'day three.'. How it actually works: Trailers are cut by marketing departments and specialist trailer houses (not the filmmakers) from a film's strongest, most sellable moments — that is the trailer's entire job for every release, hit or flop — and often use library music, not the actual score. So a trailer packed with peaks tells you nothing about whether more peaks exist; you only run the 'every high was in the trailer' math after a film disappoints, while a great film whose trailer also front-loaded its best shots simply over-delivers and you never notice. Studios do front-load marketing to secure the opening before word of mouth lands, but today that word of mouth (Twitter reactions, morning FDFS reviews, pre-release critic embargoes) arrives in hours, undercutting the clean 'day one = trailer, day three = reviews' split. Rebuild the post on the correct mechanism.",
+   "Wrong: 'Movie trailers are typically released about three weeks before a film's theatrical release.'. What's true: Trailers are typically released far more than three weeks before a film's theatrical release — on average about 4 months (126 days) ahead based on industry data, with main trailers commonly dropping 2–5 months out and teasers 6–12+ months out. Voluntary U.S. theater-owner (NATO) guidelines even cap how early trailers can run in theaters at 120–150 days (4–5 months) before release, not three weeks.."
+  ],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Movie trailers are typically released about three weeks before a film's theatrical release.",
+    "sentence": "Three weeks early, for free.",
+    "type": "figure",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "Studios deliberately front-load a trailer with a film's best/peak moments to drive opening-weekend bookings, which happen before word of mouth or reviews can circulate; review-driven bookings only kick in by around day three, by which point it is too late to rescue a weak film — so a trailer that contains every good moment signals the film has no more good moments beyond what was shown.",
+    "sentence": "The highs go up front to sell the first weekend, before word of mouth catches up. Day one is booked on the trailer. Day three is booked on reviews, and by then it's too late to help a weak film.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c1": {
+    "id": "c1",
+    "verdict": "contradicted",
+    "event_date": null,
+    "correct": "Trailers are typically released far more than three weeks before a film's theatrical release — on average about 4 months (126 days) ahead based on industry data, with main trailers commonly dropping 2–5 months out and teasers 6–12+ months out. Voluntary U.S. theater-owner (NATO) guidelines even cap how early trailers can run in theaters at 120–150 days (4–5 months) before release, not three weeks.",
+    "sources": [
+     {
+      "url": "https://stephenfollows.com/p/far-advance-film-trailers-released",
+      "publisher": "Stephen Follows (film data analyst)",
+      "published_date": "2024-08-01",
+      "quote": "the average time between first trailer and theatrical release was 126 days (i.e. around four months)",
+      "tier": 2
+     },
+     {
+      "url": "https://www.thewrap.com/movie-trailers-need-get-shorter-nato-says/",
+      "publisher": "TheWrap",
+      "published_date": "2014-01-27",
+      "quote": "marketing should not heat up until 150 days prior to a film's release ... should not be displayed more than 120 days before a film hits theaters",
+      "tier": 2
+     }
+    ]
+   }
+  },
+  "mechanism": {
+   "holds": false,
+   "broken_premise": "The hidden premise that a 'complete-feeling' trailer is a quality signal unique to weak films. Front-loading a trailer with the film's strongest two minutes is universal marketing practice done identically for great films and bad ones, so it carries no diagnostic information about how much good material remains. The secondary premise also fails: in the social-media/first-day-first-show era, reactions and reviews circulate within hours of the first shows, not by 'day three.'",
+   "actual_mechanism": "Trailers are cut by marketing departments and specialist trailer houses (not the filmmakers) from a film's strongest, most sellable moments — that is the trailer's entire job for every release, hit or flop — and often use library music, not the actual score. So a trailer packed with peaks tells you nothing about whether more peaks exist; you only run the 'every high was in the trailer' math after a film disappoints, while a great film whose trailer also front-loaded its best shots simply over-delivers and you never notice. Studios do front-load marketing to secure the opening before word of mouth lands, but today that word of mouth (Twitter reactions, morning FDFS reviews, pre-release critic embargoes) arrives in hours, undercutting the clean 'day one = trailer, day three = reviews' split.",
+   "take_survives": false,
+   "sources": [
+    {
+     "url": "https://www.masterclass.com/articles/how-to-make-a-movie-trailer",
+     "published_date": "2026",
+     "quote": "A movie trailer is a short promotional cut of a film's strongest moments, built to sell the film in two to three minutes."
+    },
+    {
+     "url": "https://www.dfirentals.com/news/how-are-movie-trailers-made",
+     "published_date": "unknown",
+     "quote": "Studios send footage to trailer houses that specialize in cutting trailers; the film's own director or editor usually does not cut the trailer, and the music is often a trailer-specific or library track rather than the film's score."
+    },
+    {
+     "url": "https://www.boxofficemojo.com/article/ed1518273540",
+     "published_date": "unknown",
+     "quote": "Films with weak reviews and poor word-of-mouth, like Fifty Shades of Grey, drop sharply in their second weekend — showing that reception circulates fast enough to shape the run, not only after day three."
+    },
+    {
+     "url": "https://projectgruvi.medium.com/the-myth-of-the-opening-weekend-1f8f75bf4a4e",
+     "published_date": "unknown",
+     "quote": "The opening weekend is treated as the key performance indicator, but a strong or weak reaction reshapes a film's trajectory well inside the first weekend rather than waiting for later reviews."
+    }
+   ]
+  },
+  "text_hash": "3b22ebe01bab0b5545257b28e230be2798699df7",
+  "at": "2026-10-25T15:11:49.182146+00:00"
+ },
+ "error": "Gate verdict flips on the premise; parked"
 }

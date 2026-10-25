@@ -338,8 +338,10 @@ def verify(post: dict, draft: dict, fetch=quote_on_page) -> dict:
     notes = [n for c in claims if (n := judge(c, verdicts.get(c.get("id")), due, fetch))]
     mechanism, take_dead = None, False
     argument = [c for c in claims if c.get("type") in ("mechanism", "entity_attribute")]
-    if argument:
-        mechanism = skeptic(draft, argument, due)
+    if argument:  # the same argument gets the same verdict, so a wording edit elsewhere can't flip it
+        key = hashlib.sha1(json.dumps(sorted(c.get("text", "") for c in argument)).encode()).hexdigest()
+        mechanism = cache.setdefault("_skeptic", {}).get(key) or skeptic(draft, argument, due)
+        cache["_skeptic"][key] = mechanism
         if mechanism.get("holds") is False:
             take_dead = mechanism.get("take_survives") is False
             notes.insert(0, f"The take's premise is wrong: {mechanism.get('broken_premise')}. How it actually works: "

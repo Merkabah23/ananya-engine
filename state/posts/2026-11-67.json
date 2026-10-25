@@ -1,7 +1,7 @@
 {
  "id": "2026-11-67",
- "status": "planned",
- "due": "2026-11-05T20:30:00+05:30",
+ "status": "approved",
+ "due": "2026-10-27T20:30:00+05:30",
  "format": "carousel",
  "topic": {
   "title": "The housewarming is a reveal",
@@ -40,6 +40,570 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-10-25T08:27:36.289988+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "problems": [
+    "Every sentence is about the same length, which reads as a template. Put one longer, concrete sentence next to a short punch on most slides."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 3,
+     "eq": 4,
+     "iq": 4,
+     "story": 3,
+     "tight": 3
+    },
+    "notes": [
+     "slide 4: 'You can't post your bank balance. You can host a walk through it.' is a mirrored can't-X/Y construction, the exact engineered-rhetoric pattern the voice rules ban. Say it as one plain sentence instead, e.g. let the image carry it without the negate-then-affirm setup.",
+     "slides 2-4: 'you' is the guest watching someone else's tour, but slide 4's turn line ('You can host a walk through it') suddenly addresses the host. Pick one: keep the reader as guest the whole way and phrase the turn as what you're watching them do, or move the reader into the host's shoes from slide 2 to match the topic's lived angle.",
+     "slide 6: the closer 'The pooja room gets the prayer. The island gets the show' just re-states slide 4's thirty-seconds/four-minutes contrast in new words. Let the 'count the minutes' line be the payoff on its own, and use the closing beat to push one step further instead of repeating the same split.",
+     "slide 5: 'There's nothing shameful in it' tips into reassurance/lecture. The admission 'I've given this exact tour, holding a beat too long' already carries the mixed feeling; cut the absolution line and let the next sentence (years of quiet saving made solid) do the softening instead.",
+     "slides 2-3: both are pure scene-setting before the turn arrives in slide 4. See if the soft-close drawer / TV wall beat can carry a hint of the contrast earlier (e.g. note the pause at the gods right there) so slide 4 can go further instead of being the first place the idea actually lands."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "slide 4: 'You can't post your bank balance. You can host a walk through it.' is a mirrored can't-X/Y construction, the exact engineered-rhetoric pattern the voice rules ban. Say it as one plain sentence instead, e.g. let the image carry it without the negate-then-affirm setup.",
+    "slides 2-4: 'you' is the guest watching someone else's tour, but slide 4's turn line ('You can host a walk through it') suddenly addresses the host. Pick one: keep the reader as guest the whole way and phrase the turn as what you're watching them do, or move the reader into the host's shoes from slide 2 to match the topic's lived angle.",
+    "slide 6: the closer 'The pooja room gets the prayer. The island gets the show' just re-states slide 4's thirty-seconds/four-minutes contrast in new words. Let the 'count the minutes' line be the payoff on its own, and use the closing beat to push one step further instead of repeating the same split.",
+    "slide 5: 'There's nothing shameful in it' tips into reassurance/lecture. The admission 'I've given this exact tour, holding a beat too long' already carries the mixed feeling; cut the absolution line and let the next sentence (years of quiet saving made solid) do the softening instead.",
+    "slides 2-3: both are pure scene-setting before the turn arrives in slide 4. See if the soft-close drawer / TV wall beat can carry a hint of the contrast earlier (e.g. note the pause at the gods right there) so slide 4 can go further instead of being the first place the idea actually lands."
+   ]
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Slide 4 has 61 words; the limit is 60. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 5,
+     "tight": 4
+    },
+    "notes": [
+     "Slide 4: the 'because' stays implicit. The topic's mechanism is 'you can't post your net worth, but you can host a tour of it — the ritual gives the status reveal a reason nobody can object to.' Right now slide 4 only gives the savings-into-walls metaphor. Add a line that names the cover directly: the pooja room is why nobody can call it showing off.",
+     "Slide 4: 'Thirty seconds of folded hands at the gods. Four slow minutes at the island' reads like asserted data on exact durations. Make it qualitative instead ('a blink at the gods, long minutes at the island') so it stays scene-texture, not a stat someone could fact-check.",
+     "Slide 1 restates the cover headline almost verbatim with no new texture. Since it's the first swipe-earning slide, consider opening on a concrete beat (the sweets, the shoes off) and letting the claim land a beat later, so the swipe pays off with something besides repetition.",
+     "iq is only middling: the reader gets 'this is a status tour' but the sharper, more surprising idea (the ritual itself is the permission slip) isn't stated plainly anywhere. Landing that line in slide 4 would lift the insight past something readers already half-suspect."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "The take's premise is wrong: The premise that the religious ritual is perfunctory (\"thirty seconds of folded hands\") while the real event is the feature tour. This conflates two separate things: the *griha pravesh* proper is the Vastu Shanti puja — a priest-led, 2-to-8-hour ritual (Ganesh puja, kalash sthapana, navagraha, a 45–90 min havan, the milk boil-over) performed at the muhurat with family present — not the thirty-second pooja-room pause a dropping-in guest gets. The post times the casual guest walk-through and mistakes it for the ceremony, so it measures the wrong thing.. How it actually works: A griha pravesh is the religious entry ceremony itself: a multi-hour Vedic ritual that is the main event and happened before most guests ever arrive. Layered on top of it is a social open-house custom where hosts give newcomers a tour — and that guest-facing layer genuinely runs on status signaling, where lingering longest at the modular kitchen or the wall-sized TV advertises newly-affordable wealth, exactly as the conspicuous-consumption literature predicts. So the tour is a real status display, but it sits alongside the religious ceremony rather than replacing it. Rebuild the post on the correct mechanism."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "At Indian housewarmings, hosts spend only a brief moment on the religious ritual (pooja room) but deliberately slow down and linger when showing off newly affordable features like modular kitchen drawers and the TV, because where a host lingers on the tour signals what they most want guests to notice and admire — so a griha pravesh functions less as a religious housewarming and more as a tour of what the owner can now afford.",
+      "sentence": "A griha pravesh is a guided tour of what you can now afford... Thirty seconds of folded hands at the gods. Four slow minutes at the island.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Soft-close drawers in modular kitchens are built with a mechanism that lets them glide shut slowly and quietly on their own instead of slamming.",
+      "sentence": "They slide open a kitchen drawer and let it glide shut on its own, just so you catch the soft-close.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "The author has personally given a housewarming tour and held a beat too long at the one feature they were proudest of.",
+      "sentence": "And I've given this exact tour, holding a beat too long at the one thing I was proudest of.",
+      "type": "anecdote",
+      "core": false,
+      "framed_as": "past"
+     }
+    ],
+    "verdicts": {
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": null,
+      "sources": [
+       {
+        "url": "https://www.blum.com/in/en/products/motion-technologies/blumotion/overview/",
+        "publisher": "Blum (manufacturer)",
+        "published_date": null,
+        "quote": "BLUMOTION allows doors and drawers to close softly and effortlessly no matter how hard you slam them or how heavy they are.",
+        "tier": 1
+       },
+       {
+        "url": "https://www.hettich.com/en-us/topline-grant-sd/hd/xhd",
+        "publisher": "Hettich (manufacturer)",
+        "published_date": null,
+        "quote": "Silent System automatically slows the door down as it closes, bringing it to a gentle halt... leaving them to open and close with a gentle movement in complete silence.",
+        "tier": 1
+       },
+       {
+        "url": "https://www.designcafe.com/blog/modular-kitchen-interiors/all-about-soft-close-kitchen-cabinets/",
+        "publisher": "Design Cafe",
+        "published_date": null,
+        "quote": "Soft close drawer slides add a hydraulic damper... as the drawer approaches its final position, the damper slows its momentum and gently guides it shut.",
+        "tier": 3
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "The premise that the religious ritual is perfunctory (\"thirty seconds of folded hands\") while the real event is the feature tour. This conflates two separate things: the *griha pravesh* proper is the Vastu Shanti puja — a priest-led, 2-to-8-hour ritual (Ganesh puja, kalash sthapana, navagraha, a 45–90 min havan, the milk boil-over) performed at the muhurat with family present — not the thirty-second pooja-room pause a dropping-in guest gets. The post times the casual guest walk-through and mistakes it for the ceremony, so it measures the wrong thing.",
+     "actual_mechanism": "A griha pravesh is the religious entry ceremony itself: a multi-hour Vedic ritual that is the main event and happened before most guests ever arrive. Layered on top of it is a social open-house custom where hosts give newcomers a tour — and that guest-facing layer genuinely runs on status signaling, where lingering longest at the modular kitchen or the wall-sized TV advertises newly-affordable wealth, exactly as the conspicuous-consumption literature predicts. So the tour is a real status display, but it sits alongside the religious ceremony rather than replacing it.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.navdhya.com/ceremonies/griha-pravesh-ceremony-explained",
+       "published_date": "unknown",
+       "quote": "When construction is finished and the house is ready for occupation, Vastu Shanti is performed as part of the Griha Pravesh (house-entering) ceremony."
+      },
+      {
+       "url": "https://nakshamastro.com/astrohub/vastu/learn/vastu-puja-shanti",
+       "published_date": "unknown",
+       "quote": "Full Vastu Shanti with Havan: 3-5 hours; Full Vastu Shanti with Griha Pravesh and feast: 5-8 hours (full day event)... the homa lasts 45-90 minutes."
+      },
+      {
+       "url": "https://business.columbia.edu/sites/default/files-efs/citation_file_upload/Bellezza%20Distance%20Framework%20JCR%202023.pdf",
+       "published_date": "2023",
+       "quote": "Status signaling fundamentally drives human behavior, wherein individuals take actions to advertise otherwise unobservable traits like wealth, fitness, or group allegiance."
+      }
+     ]
+    },
+    "text_hash": "a7833d43808835070c56797242cc5b4a35f9b6c4",
+    "at": "2026-10-25T16:22:26.416573+00:00"
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "The take's premise is wrong: The premise that the religious ritual is perfunctory (\"thirty seconds of folded hands\") while the real event is the feature tour. This conflates two separate things: the *griha pravesh* proper is the Vastu Shanti puja — a priest-led, 2-to-8-hour ritual (Ganesh puja, kalash sthapana, navagraha, a 45–90 min havan, the milk boil-over) performed at the muhurat with family present — not the thirty-second pooja-room pause a dropping-in guest gets. The post times the casual guest walk-through and mistakes it for the ceremony, so it measures the wrong thing.. How it actually works: A griha pravesh is the religious entry ceremony itself: a multi-hour Vedic ritual that is the main event and happened before most guests ever arrive. Layered on top of it is a social open-house custom where hosts give newcomers a tour — and that guest-facing layer genuinely runs on status signaling, where lingering longest at the modular kitchen or the wall-sized TV advertises newly-affordable wealth, exactly as the conspicuous-consumption literature predicts. So the tour is a real status display, but it sits alongside the religious ceremony rather than replacing it. Rebuild the post on the correct mechanism."
+   ]
+  }
+ ],
+ "updated_at": "2026-10-25T16:32:20.124437+00:00",
+ "sources": [],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] A housewarming is a [guided tour] of how far they've come\nThe sweets are real. So is the slow walk past the kitchen.\n \n\n[slide 1] A housewarming is a guided tour of how far they've come.\nSwipe to read →\n\n[slide 2] You reach with a box of sweets, shoes off at the door, fresh paint still hanging in the air.\nThey take your arm before you've even sat down. 'Come, I'll show you around.'\n\n[slide 3] Pooja room first. Folded hands, one quick pause, done.\nThen the walk slows right down. They slide open a kitchen drawer and let it glide shut on its own, just so you catch the soft-close. The TV eats a whole wall.\n\n[slide 4] Here's the part. The soft-close drawer and the wall-sized TV aren't on the way somewhere. They are where the tour was headed.\nYou can't post how far you've come. But you can host a tour of it, and no one says no to a housewarming.\n\n[slide 5] And it isn't vanity, not really. You catch it in the pause, a beat too long at the one thing they're proudest of.\nThey want one person to stand inside it and actually see what all those years added up to.\n\n[slide 6] So go to the next one and count the minutes yourself.\nOn the drive home, nobody brings up the blessing. They're still talking about that kitchen.\n\n[end card] Pull this up before you plan your own housewarming guest list.\nSend it to the friend building their griha pravesh list very carefully.\n\n[caption] Which room in your place would you slow the tour down at, hoping they'd notice without you having to say it?\n\n[alt text] A six-slide carousel. The cover says a griha pravesh is a guided tour of what you can now afford. The slides walk through a housewarming as a guest: sweets at the door, a quick pause at the pooja room, then a slow tour of the modular kitchen's soft-close drawers and the wall-sized TV. It ends by telling you to count the minutes at the next one, and notes that on the drive home everyone is still talking about the kitchen, not the blessing.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Soft-close drawers in modular kitchens are built with a mechanism that lets them glide shut slowly and quietly on their own instead of slamming.",
+     "sentence": "They slide open a kitchen drawer and let it glide shut on its own, just so you catch the soft-close.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "A housewarming functions as a guided tour in which hosts showcase material progress (modular kitchen, large TV) to a guest, serving the purpose of displaying prosperity that can't be shown via social media.",
+     "sentence": "A housewarming is a guided tour of how far they've come. ... You can't post how far you've come. But you can host a tour of it, and no one says no to a housewarming.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "Soft-close drawers in modular kitchens are built with a mechanism that lets them glide shut slowly and quietly on their own instead of slamming.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.blum.com/in/en/products/motion-technologies/blumotion/overview/",
+     "publisher": "Blum (manufacturer)",
+     "published_date": null,
+     "quote": "BLUMOTION allows doors and drawers to close softly and effortlessly no matter how hard you slam them or how heavy they are.",
+     "tier": 1
+    },
+    {
+     "url": "https://www.hettich.com/en-us/topline-grant-sd/hd/xhd",
+     "publisher": "Hettich (manufacturer)",
+     "published_date": null,
+     "quote": "Silent System automatically slows the door down as it closes, bringing it to a gentle halt... leaving them to open and close with a gentle movement in complete silence.",
+     "tier": 1
+    },
+    {
+     "url": "https://www.designcafe.com/blog/modular-kitchen-interiors/all-about-soft-close-kitchen-cabinets/",
+     "publisher": "Design Cafe",
+     "published_date": null,
+     "quote": "Soft close drawer slides add a hydraulic damper... as the drawer approaches its final position, the damper slows its momentum and gently guides it shut.",
+     "tier": 3
+    }
+   ]
+  },
+  "_by_text": {
+   "a7833d43808835070c56797242cc5b4a35f9b6c4": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "The take's premise is wrong: The premise that the religious ritual is perfunctory (\"thirty seconds of folded hands\") while the real event is the feature tour. This conflates two separate things: the *griha pravesh* proper is the Vastu Shanti puja — a priest-led, 2-to-8-hour ritual (Ganesh puja, kalash sthapana, navagraha, a 45–90 min havan, the milk boil-over) performed at the muhurat with family present — not the thirty-second pooja-room pause a dropping-in guest gets. The post times the casual guest walk-through and mistakes it for the ceremony, so it measures the wrong thing.. How it actually works: A griha pravesh is the religious entry ceremony itself: a multi-hour Vedic ritual that is the main event and happened before most guests ever arrive. Layered on top of it is a social open-house custom where hosts give newcomers a tour — and that guest-facing layer genuinely runs on status signaling, where lingering longest at the modular kitchen or the wall-sized TV advertises newly-affordable wealth, exactly as the conspicuous-consumption literature predicts. So the tour is a real status display, but it sits alongside the religious ceremony rather than replacing it. Rebuild the post on the correct mechanism."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "At Indian housewarmings, hosts spend only a brief moment on the religious ritual (pooja room) but deliberately slow down and linger when showing off newly affordable features like modular kitchen drawers and the TV, because where a host lingers on the tour signals what they most want guests to notice and admire — so a griha pravesh functions less as a religious housewarming and more as a tour of what the owner can now afford.",
+      "sentence": "A griha pravesh is a guided tour of what you can now afford... Thirty seconds of folded hands at the gods. Four slow minutes at the island.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Soft-close drawers in modular kitchens are built with a mechanism that lets them glide shut slowly and quietly on their own instead of slamming.",
+      "sentence": "They slide open a kitchen drawer and let it glide shut on its own, just so you catch the soft-close.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "The author has personally given a housewarming tour and held a beat too long at the one feature they were proudest of.",
+      "sentence": "And I've given this exact tour, holding a beat too long at the one thing I was proudest of.",
+      "type": "anecdote",
+      "core": false,
+      "framed_as": "past"
+     }
+    ],
+    "verdicts": {
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": null,
+      "sources": [
+       {
+        "url": "https://www.blum.com/in/en/products/motion-technologies/blumotion/overview/",
+        "publisher": "Blum (manufacturer)",
+        "published_date": null,
+        "quote": "BLUMOTION allows doors and drawers to close softly and effortlessly no matter how hard you slam them or how heavy they are.",
+        "tier": 1
+       },
+       {
+        "url": "https://www.hettich.com/en-us/topline-grant-sd/hd/xhd",
+        "publisher": "Hettich (manufacturer)",
+        "published_date": null,
+        "quote": "Silent System automatically slows the door down as it closes, bringing it to a gentle halt... leaving them to open and close with a gentle movement in complete silence.",
+        "tier": 1
+       },
+       {
+        "url": "https://www.designcafe.com/blog/modular-kitchen-interiors/all-about-soft-close-kitchen-cabinets/",
+        "publisher": "Design Cafe",
+        "published_date": null,
+        "quote": "Soft close drawer slides add a hydraulic damper... as the drawer approaches its final position, the damper slows its momentum and gently guides it shut.",
+        "tier": 3
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "The premise that the religious ritual is perfunctory (\"thirty seconds of folded hands\") while the real event is the feature tour. This conflates two separate things: the *griha pravesh* proper is the Vastu Shanti puja — a priest-led, 2-to-8-hour ritual (Ganesh puja, kalash sthapana, navagraha, a 45–90 min havan, the milk boil-over) performed at the muhurat with family present — not the thirty-second pooja-room pause a dropping-in guest gets. The post times the casual guest walk-through and mistakes it for the ceremony, so it measures the wrong thing.",
+     "actual_mechanism": "A griha pravesh is the religious entry ceremony itself: a multi-hour Vedic ritual that is the main event and happened before most guests ever arrive. Layered on top of it is a social open-house custom where hosts give newcomers a tour — and that guest-facing layer genuinely runs on status signaling, where lingering longest at the modular kitchen or the wall-sized TV advertises newly-affordable wealth, exactly as the conspicuous-consumption literature predicts. So the tour is a real status display, but it sits alongside the religious ceremony rather than replacing it.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.navdhya.com/ceremonies/griha-pravesh-ceremony-explained",
+       "published_date": "unknown",
+       "quote": "When construction is finished and the house is ready for occupation, Vastu Shanti is performed as part of the Griha Pravesh (house-entering) ceremony."
+      },
+      {
+       "url": "https://nakshamastro.com/astrohub/vastu/learn/vastu-puja-shanti",
+       "published_date": "unknown",
+       "quote": "Full Vastu Shanti with Havan: 3-5 hours; Full Vastu Shanti with Griha Pravesh and feast: 5-8 hours (full day event)... the homa lasts 45-90 minutes."
+      },
+      {
+       "url": "https://business.columbia.edu/sites/default/files-efs/citation_file_upload/Bellezza%20Distance%20Framework%20JCR%202023.pdf",
+       "published_date": "2023",
+       "quote": "Status signaling fundamentally drives human behavior, wherein individuals take actions to advertise otherwise unobservable traits like wealth, fitness, or group allegiance."
+      }
+     ]
+    },
+    "text_hash": "a7833d43808835070c56797242cc5b4a35f9b6c4",
+    "at": "2026-10-25T16:22:26.416573+00:00"
+   },
+   "909e3bb549a987410b736acd6d7cea8f1f5cb4b5": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Soft-close drawers in modular kitchens are built with a mechanism that lets them glide shut slowly and quietly on their own instead of slamming.",
+      "sentence": "They slide open a kitchen drawer and let it glide shut on its own, just so you catch the soft-close.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "A housewarming functions as a guided tour in which hosts showcase material progress (modular kitchen, large TV) to a guest, serving the purpose of displaying prosperity that can't be shown via social media.",
+      "sentence": "A housewarming is a guided tour of how far they've come. ... You can't post how far you've come. But you can host a tour of it, and no one says no to a housewarming.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": null,
+      "sources": [
+       {
+        "url": "https://www.blum.com/in/en/products/motion-technologies/blumotion/overview/",
+        "publisher": "Blum (manufacturer)",
+        "published_date": null,
+        "quote": "BLUMOTION allows doors and drawers to close softly and effortlessly no matter how hard you slam them or how heavy they are.",
+        "tier": 1
+       },
+       {
+        "url": "https://www.hettich.com/en-us/topline-grant-sd/hd/xhd",
+        "publisher": "Hettich (manufacturer)",
+        "published_date": null,
+        "quote": "Silent System automatically slows the door down as it closes, bringing it to a gentle halt... leaving them to open and close with a gentle movement in complete silence.",
+        "tier": 1
+       },
+       {
+        "url": "https://www.designcafe.com/blog/modular-kitchen-interiors/all-about-soft-close-kitchen-cabinets/",
+        "publisher": "Design Cafe",
+        "published_date": null,
+        "quote": "Soft close drawer slides add a hydraulic damper... as the drawer approaches its final position, the damper slows its momentum and gently guides it shut.",
+        "tier": 3
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None that breaks the take. The weakest link is the implied premise that this prosperity 'can't be shown via social media' — people post home-reveal reels constantly — but the post itself reframes this (slide 5) as wanting one person to physically stand inside it and witness it, which is a different, defensible claim about embodied witnessing rather than literal un-postability.",
+     "actual_mechanism": "A griha pravesh has a genuine religious core: the Vastu Shanti / havan puja is a priest-led rite to purify the home, appease Vastu Purusha and invoke blessings before first occupancy — that is its defined purpose. But the social housewarming layered on top of it is, by the event's own convention, built around the house tour, which etiquette and party guides describe plainly as the central activity whose 'point is to show off' the new space, its favourite details and upgrades. So both things are true at once: the ceremony is the blessing, the gathering is the showcase — and the post is making an observational claim about where the hosts' energy actually goes, not denying the puja happens.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Grihapravesha",
+       "published_date": "",
+       "quote": "Through these rituals, it is believed that the evil spirits inhabiting the new house are driven out while also invoking gods to obtain their blessings... It is thought to clear the area, fend off bad energy, and bring luck, wealth, and tranquility to the family."
+      },
+      {
+       "url": "https://todayshomeowner.com/moving/guides/12-housewarming-party-etiquette-rules/",
+       "published_date": "2026",
+       "quote": "One of the most important parts of a housewarming party is the tour of your new home, with the point of the party being to show off."
+      },
+      {
+       "url": "https://www.extraspace.com/moving/guides/tips/how-to-host-housewarming-party/",
+       "published_date": "",
+       "quote": "Hosts throw a housewarming party to show off their new place, and guests will probably arrive expecting a tour of the house... During tours, hosts walk guests through each room while sharing what drew them to the home, their favorite details, and any plans they have for future renovation projects."
+      }
+     ]
+    },
+    "text_hash": "909e3bb549a987410b736acd6d7cea8f1f5cb4b5",
+    "at": "2026-10-25T16:31:55.543844+00:00"
+   }
+  },
+  "_skeptic": {
+   "333eb2fa181207c33760b2f87d0afe7d4bb32693": {
+    "holds": true,
+    "broken_premise": "None that breaks the take. The weakest link is the implied premise that this prosperity 'can't be shown via social media' — people post home-reveal reels constantly — but the post itself reframes this (slide 5) as wanting one person to physically stand inside it and witness it, which is a different, defensible claim about embodied witnessing rather than literal un-postability.",
+    "actual_mechanism": "A griha pravesh has a genuine religious core: the Vastu Shanti / havan puja is a priest-led rite to purify the home, appease Vastu Purusha and invoke blessings before first occupancy — that is its defined purpose. But the social housewarming layered on top of it is, by the event's own convention, built around the house tour, which etiquette and party guides describe plainly as the central activity whose 'point is to show off' the new space, its favourite details and upgrades. So both things are true at once: the ceremony is the blessing, the gathering is the showcase — and the post is making an observational claim about where the hosts' energy actually goes, not denying the puja happens.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Grihapravesha",
+      "published_date": "",
+      "quote": "Through these rituals, it is believed that the evil spirits inhabiting the new house are driven out while also invoking gods to obtain their blessings... It is thought to clear the area, fend off bad energy, and bring luck, wealth, and tranquility to the family."
+     },
+     {
+      "url": "https://todayshomeowner.com/moving/guides/12-housewarming-party-etiquette-rules/",
+      "published_date": "2026",
+      "quote": "One of the most important parts of a housewarming party is the tour of your new home, with the point of the party being to show off."
+     },
+     {
+      "url": "https://www.extraspace.com/moving/guides/tips/how-to-host-housewarming-party/",
+      "published_date": "",
+      "quote": "Hosts throw a housewarming party to show off their new place, and guests will probably arrive expecting a tour of the house... During tours, hosts walk guests through each room while sharing what drew them to the home, their favorite details, and any plans they have for future renovation projects."
+     }
+    ]
+   }
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "A housewarming is a [guided tour] of how far they've come",
+   "sub": "The sweets are real. So is the slow walk past the kitchen."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "A housewarming is a guided tour of how far they've come.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "Names the turn but not how it plays out; reader wants the scene."
+   },
+   {
+    "paragraphs": [
+     "You reach with a box of sweets, shoes off at the door, fresh paint still hanging in the air.",
+     "They take your arm before you've even sat down. 'Come, I'll show you around.'"
+    ],
+    "why_swipe": "The tour is starting; reader wants to follow where it leads."
+   },
+   {
+    "paragraphs": [
+     "Pooja room first. Folded hands, one quick pause, done.",
+     "Then the walk slows right down. They slide open a kitchen drawer and let it glide shut on its own, just so you catch the soft-close. The TV eats a whole wall."
+    ],
+    "why_swipe": "The pace change is already visible; reader wants it named."
+   },
+   {
+    "paragraphs": [
+     "Here's the part. The soft-close drawer and the wall-sized TV aren't on the way somewhere. They are where the tour was headed.",
+     "**You can't post how far you've come. But you can host a tour of it, and no one says no to a housewarming.**"
+    ],
+    "why_swipe": "The turn lands; reader wants to know if that makes it wrong."
+   },
+   {
+    "paragraphs": [
+     "And it isn't vanity, not really. You catch it in the pause, a beat too long at the one thing they're proudest of.",
+     "They want one person to stand inside it and actually see what all those years added up to."
+    ],
+    "why_swipe": "The mixed feeling softens it; reader wants the closer."
+   },
+   {
+    "paragraphs": [
+     "So go to the next one and count the minutes yourself.",
+     "On the drive home, nobody brings up the blessing. They're still talking about that kitchen."
+    ],
+    "why_swipe": null
+   }
+  ],
+  "end": {
+   "save": "Pull this up before you plan your own housewarming guest list.",
+   "send": "Send it to the friend building their griha pravesh list very carefully.",
+   "promise": "How money and status really move in India."
+  },
+  "caption": "Which room in your place would you slow the tour down at, hoping they'd notice without you having to say it?",
+  "hashtags": [
+   "grihapravesh",
+   "housewarming",
+   "firsthome",
+   "statusgames"
+  ],
+  "alt_text": "A six-slide carousel. The cover says a griha pravesh is a guided tour of what you can now afford. The slides walk through a housewarming as a guest: sweets at the door, a quick pause at the pooja room, then a slow tour of the modular kitchen's soft-close drawers and the wall-sized TV. It ends by telling you to count the minutes at the next one, and notes that on the drive home everyone is still talking about the kitchen, not the blessing.",
+  "claims": [],
+  "caption_style": "question"
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Soft-close drawers in modular kitchens are built with a mechanism that lets them glide shut slowly and quietly on their own instead of slamming.",
+    "sentence": "They slide open a kitchen drawer and let it glide shut on its own, just so you catch the soft-close.",
+    "type": "feature",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "A housewarming functions as a guided tour in which hosts showcase material progress (modular kitchen, large TV) to a guest, serving the purpose of displaying prosperity that can't be shown via social media.",
+    "sentence": "A housewarming is a guided tour of how far they've come. ... You can't post how far you've come. But you can host a tour of it, and no one says no to a housewarming.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c1": {
+    "id": "c2",
+    "verdict": "supported",
+    "event_date": null,
+    "correct": null,
+    "sources": [
+     {
+      "url": "https://www.blum.com/in/en/products/motion-technologies/blumotion/overview/",
+      "publisher": "Blum (manufacturer)",
+      "published_date": null,
+      "quote": "BLUMOTION allows doors and drawers to close softly and effortlessly no matter how hard you slam them or how heavy they are.",
+      "tier": 1
+     },
+     {
+      "url": "https://www.hettich.com/en-us/topline-grant-sd/hd/xhd",
+      "publisher": "Hettich (manufacturer)",
+      "published_date": null,
+      "quote": "Silent System automatically slows the door down as it closes, bringing it to a gentle halt... leaving them to open and close with a gentle movement in complete silence.",
+      "tier": 1
+     },
+     {
+      "url": "https://www.designcafe.com/blog/modular-kitchen-interiors/all-about-soft-close-kitchen-cabinets/",
+      "publisher": "Design Cafe",
+      "published_date": null,
+      "quote": "Soft close drawer slides add a hydraulic damper... as the drawer approaches its final position, the damper slows its momentum and gently guides it shut.",
+      "tier": 3
+     }
+    ]
+   }
+  },
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "None that breaks the take. The weakest link is the implied premise that this prosperity 'can't be shown via social media' — people post home-reveal reels constantly — but the post itself reframes this (slide 5) as wanting one person to physically stand inside it and witness it, which is a different, defensible claim about embodied witnessing rather than literal un-postability.",
+   "actual_mechanism": "A griha pravesh has a genuine religious core: the Vastu Shanti / havan puja is a priest-led rite to purify the home, appease Vastu Purusha and invoke blessings before first occupancy — that is its defined purpose. But the social housewarming layered on top of it is, by the event's own convention, built around the house tour, which etiquette and party guides describe plainly as the central activity whose 'point is to show off' the new space, its favourite details and upgrades. So both things are true at once: the ceremony is the blessing, the gathering is the showcase — and the post is making an observational claim about where the hosts' energy actually goes, not denying the puja happens.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Grihapravesha",
+     "published_date": "",
+     "quote": "Through these rituals, it is believed that the evil spirits inhabiting the new house are driven out while also invoking gods to obtain their blessings... It is thought to clear the area, fend off bad energy, and bring luck, wealth, and tranquility to the family."
+    },
+    {
+     "url": "https://todayshomeowner.com/moving/guides/12-housewarming-party-etiquette-rules/",
+     "published_date": "2026",
+     "quote": "One of the most important parts of a housewarming party is the tour of your new home, with the point of the party being to show off."
+    },
+    {
+     "url": "https://www.extraspace.com/moving/guides/tips/how-to-host-housewarming-party/",
+     "published_date": "",
+     "quote": "Hosts throw a housewarming party to show off their new place, and guests will probably arrive expecting a tour of the house... During tours, hosts walk guests through each room while sharing what drew them to the home, their favorite details, and any plans they have for future renovation projects."
+    }
+   ]
+  },
+  "text_hash": "909e3bb549a987410b736acd6d7cea8f1f5cb4b5",
+  "at": "2026-10-25T16:31:55.543844+00:00"
+ }
 }
