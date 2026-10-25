@@ -1,6 +1,6 @@
 {
  "id": "2026-11-60",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-09T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -67,6 +67,178 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-10-25T08:27:36.291865+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "problems": [
+    "Slide 4 has 65 words; the limit is 60. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 5 hedges and speculates: \"Probably not. The line costs nothing, and your lead likely heard it from their own boss that same week.\" and \"people who track tech hiring say\". This is a hedged, unsourced guess about managers, and it reads like a hedge, not a take."
+    ],
+    "scores": {
+     "hook": 3,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 5: Cut the \"Probably not... your lead likely heard it from their own boss\" guess. It is invented, and it blurs the mechanism by saying nobody is doing this on purpose. Say plainly what the topic holds: the comparison costs the company nothing and buys silence, so nobody has to manage anyone. Keep one plain sourced line (Xpheno's Kamal Karanth: AI hasn't visibly caused significant layoffs) and drop \"people who track tech hiring say\". Also remove \"some grunt work will shrink\", which has no source.",
+     "slide 1 and cover: \"nerve to ask\" doesn't say ask for what, so a stranger can't tell in two seconds what the post is about. Make the hook name the stakes, like a raise or pushing back on scope, while still holding the turn (AI isn't replacing you, it's being used to keep you quiet). Don't wait until slide 4 to say what the nerve was for.",
+     "slides 3-4: These overlap. Slide 3 is the overwork and the scared story, and slide 4 is the raise that never comes up. Merge them into one stronger beat. Show the timeline across weeks to appraisal: reply in a minute, stay online till nine, then in the 1:1 you say \"sure\" to the extra module and never mention the hike. That removes the repeated 'you're proving yourself' idea and keeps the bold line.",
+     "slide 6: The final line (\"the AI keeps doing one job perfectly. It keeps you from asking for a raise\") restates slide 4 and sits awkwardly after slide 5 said it isn't deliberate. End on the test line and one sting, such as the room going quiet when someone asks what it shipped yesterday, not a second summary of the thesis."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Slide 5 hedges and speculates: \"Probably not. The line costs nothing, and your lead likely heard it from their own boss that same week.\" and \"people who track tech hiring say\". This is a hedged, unsourced guess about managers, and it reads like a hedge, not a take.",
+    "slide 5: Cut the \"Probably not... your lead likely heard it from their own boss\" guess. It is invented, and it blurs the mechanism by saying nobody is doing this on purpose. Say plainly what the topic holds: the comparison costs the company nothing and buys silence, so nobody has to manage anyone. Keep one plain sourced line (Xpheno's Kamal Karanth: AI hasn't visibly caused significant layoffs) and drop \"people who track tech hiring say\". Also remove \"some grunt work will shrink\", which has no source.",
+    "slide 1 and cover: \"nerve to ask\" doesn't say ask for what, so a stranger can't tell in two seconds what the post is about. Make the hook name the stakes, like a raise or pushing back on scope, while still holding the turn (AI isn't replacing you, it's being used to keep you quiet). Don't wait until slide 4 to say what the nerve was for.",
+    "slides 3-4: These overlap. Slide 3 is the overwork and the scared story, and slide 4 is the raise that never comes up. Merge them into one stronger beat. Show the timeline across weeks to appraisal: reply in a minute, stay online till nine, then in the 1:1 you say \"sure\" to the extra module and never mention the hike. That removes the repeated 'you're proving yourself' idea and keeps the bold line.",
+    "slide 6: The final line (\"the AI keeps doing one job perfectly. It keeps you from asking for a raise\") restates slide 4 and sits awkwardly after slide 5 said it isn't deliberate. End on the test line and one sting, such as the room going quiet when someone asks what it shipped yesterday, not a second summary of the thesis."
+   ]
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Slide 4 has 61 words; the limit is 60. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide.",
+    "Every sentence is about the same length, which reads as a template. Put one longer, concrete sentence next to a short punch on most slides."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 5: 'The room goes silent. Then your lead says, \"Let's take this offline.\"' A made-up exchange is presented as what happens, and the proof gives no basis for it. It also turns the payoff into a script for the reader, which is coaching.",
+     "Slide 4 (dead slide): the bold line 'The comparison is cheaper than the tool. Once you're scared, it does the managing.' restates slide 3's 'A scared engineer doesn't negotiate.' Slide 3 already delivered the idea.",
+     "Caption: 'AI hasn't shipped much in most offices yet, but it has ended a lot of salary conversations.' Both halves are unsourced claims about the world, and the second is stronger than anything in the sources.",
+     "Cover sub, 'It buys your silence', and slide 4's 'it does the managing' state a manager motive as fact. The source says it does not report managers using the comparison as a pressure tactic. The post shows the lead's line as light, so the cover and slide 4 read as a plan when the story shows a side effect."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 5: Drop the scripted room-goes-silent scene. Land the topic's payoff as the reader's own next move, for example the moment next time when you could ask 'what did it actually do yesterday?' and the line you will actually say instead. End on a sting about what the silence has cost you, not on an invented reaction from the lead.",
+     "slides 3 and 4: Make each say something different. Slide 3 keeps the felt cost (green dot, 'sure, will do', the hike that never comes up) and stops at the bare moment. Slide 4 carries the turn and the because (who gains from the comparison), with the bold line saying it once. Cut the 'scared engineer' line or the 'does the managing' line.",
+     "slide 4: Frame the mechanism as an effect, not a plan, e.g. 'whether or not anyone means it, the comparison works like this...'. Keep the Karanth quote exactly as sourced. You could add that the TCS CEO said its cuts were 'not because of AI giving some 20 per cent productivity gains', but only if you still hold to the two-number limit.",
+     "caption and cover sub: Rewrite the caption without 'hasn't shipped much' or 'ended a lot of salary conversations'. Make it a claim about the comparison itself, e.g. what it does to the conversation before you've asked for anything. Soften the cover sub so it states a result, not a motive.",
+     "slide 2: The scene is strong. Add one more detail only someone who has lived it would notice, for instance what you do right after the laugh (reopen the ticket and re-check it), so the quiet proving-yourself starts here and slide 3 doesn't have to explain it."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Slide 5: 'The room goes silent. Then your lead says, \"Let's take this offline.\"' A made-up exchange is presented as what happens, and the proof gives no basis for it. It also turns the payoff into a script for the reader, which is coaching.",
+    "Slide 4 (dead slide): the bold line 'The comparison is cheaper than the tool. Once you're scared, it does the managing.' restates slide 3's 'A scared engineer doesn't negotiate.' Slide 3 already delivered the idea.",
+    "Caption: 'AI hasn't shipped much in most offices yet, but it has ended a lot of salary conversations.' Both halves are unsourced claims about the world, and the second is stronger than anything in the sources.",
+    "Cover sub, 'It buys your silence', and slide 4's 'it does the managing' state a manager motive as fact. The source says it does not report managers using the comparison as a pressure tactic. The post shows the lead's line as light, so the cover and slide 4 read as a plan when the story shows a side effect.",
+    "slide 5: Drop the scripted room-goes-silent scene. Land the topic's payoff as the reader's own next move, for example the moment next time when you could ask 'what did it actually do yesterday?' and the line you will actually say instead. End on a sting about what the silence has cost you, not on an invented reaction from the lead.",
+    "slides 3 and 4: Make each say something different. Slide 3 keeps the felt cost (green dot, 'sure, will do', the hike that never comes up) and stops at the bare moment. Slide 4 carries the turn and the because (who gains from the comparison), with the bold line saying it once. Cut the 'scared engineer' line or the 'does the managing' line.",
+    "slide 4: Frame the mechanism as an effect, not a plan, e.g. 'whether or not anyone means it, the comparison works like this...'. Keep the Karanth quote exactly as sourced. You could add that the TCS CEO said its cuts were 'not because of AI giving some 20 per cent productivity gains', but only if you still hold to the two-number limit.",
+    "caption and cover sub: Rewrite the caption without 'hasn't shipped much' or 'ended a lot of salary conversations'. Make it a claim about the comparison itself, e.g. what it does to the conversation before you've asked for anything. Soften the cover sub so it states a result, not a motive.",
+    "slide 2: The scene is strong. Add one more detail only someone who has lived it would notice, for instance what you do right after the laugh (reopen the ticket and re-check it), so the quiet proving-yourself starts here and slide 3 doesn't have to explain it."
+   ]
+  }
+ ],
+ "updated_at": "2026-10-25T16:40:08.057115+00:00",
+ "sources": [
+  {
+   "url": "https://theprint.in/ground-reports/indias-it-giants-rode-labour-arbitrage-ai-billable-hours/3075677/",
+   "fact": "ThePrint's ground report finds mixed evidence. Xpheno's Kamal Karanth says AI has not yet visibly caused significant layoffs, which partly supports the claim. A Cognizant HR associate calls the constant comparison of human output to an AI agent's \"sad\", but the article does not report managers using that comparison as a pressure tactic.",
+   "excerpt": "\"AI hasn't really shown up as a visible cause of significant layoffs or restructured hiring funnel through 2026.\" (Kamal Karanth, Xpheno) | \"Suddenly, 2021 onwards, we started over-hiring\" (Phani Pattamatta, HYSEA) | \"It is sad to constantly compare a human's work output to an AI agent's.\" (Cognizant HR associate) | \"At 1.23 lakh, active tech jobs in India in October marked an 18-month high.\"",
+   "date": "2026-10-19"
+  },
+  {
+   "url": "https://forkast.news/indias-it-giants-are-cutting-jobs-for-the-first-time-in-20-years-ai-agents-are-eating-the-model-that-built-them/",
+   "fact": "Five big Indian IT firms posted a net headcount decline of 7,389 in FY26, the first in two decades. Forkast links this to AI, but TCS's CEO attributes TCS's cuts to skill mismatches rather than AI productivity gains.",
+   "excerpt": "\"posted the first net headcount decline in two decades in FY26, shedding 7,389 employees.\" | TCS CEO K. Krithivasan: \"This is not because of AI giving some 20 per cent productivity gains.\" | TeamLease executive: \"companies are hiring fewer people as a matter of caution.\"",
+   "date": "2026-07-10"
+  }
+ ],
+ "draft": {
+  "cover": {
+   "headline": "AI hasn't taken your IT job. It's taken your [hike conversation].",
+   "sub": "Comparing you to a machine costs nothing. It buys your silence."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "AI hasn't taken your IT job. It's taken your hike conversation.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "How does a tool that hasn't replaced me still cost me my raise?"
+   },
+   {
+    "paragraphs": [
+     "You finally close the ticket that ate your week: three days of logs, two late client calls, one fix that holds.",
+     "In standup your lead says it lightly. \"AI would've done this in ten minutes, na.\" Everyone laughs. You laugh too, a second late."
+    ],
+    "why_swipe": "What does that one line do to the weeks after it?"
+   },
+   {
+    "paragraphs": [
+     "For the next few weeks you reply to every Teams message within a minute, and your green dot stays on till nine.",
+     "In the 1:1 before appraisals, a new module lands on your plate. You type \"sure, will do\" before reading it. The hike you rehearsed in the shower never comes up.",
+     "**A scared engineer doesn't negotiate.**"
+    ],
+    "why_swipe": "So is AI actually coming for your seat, or not?"
+   },
+   {
+    "paragraphs": [
+     "Yes, the tools are real, and you probably have one open in another tab right now, fixing your regex. But Xpheno's Kamal Karanth says AI hasn't shown up as a visible cause of significant layoffs through 2026.",
+     "**The comparison is cheaper than the tool. Once you're scared, it does the managing.**"
+    ],
+    "why_swipe": "Then what happens the next time someone says ten minutes?"
+   },
+   {
+    "paragraphs": [
+     "The ten-minute line comes back the week before appraisals, same lead, same light tone, same laugh waiting to happen. This time someone asks, \"Okay. What did it actually do yesterday?\"",
+     "**The room goes silent. Then your lead says, \"Let's take this offline.\"**"
+    ]
+   }
+  ],
+  "end": {
+   "save": "Read it again the night before your next 1:1.",
+   "send": "Anyone in IT who laughed a second late in standup this week.",
+   "promise": "How Indian offices really work."
+  },
+  "caption": "AI hasn't shipped much in most offices yet, but it has ended a lot of salary conversations.",
+  "hashtags": [
+   "#ITjobsIndia",
+   "#AIatwork",
+   "#appraisalseason",
+   "#corporatelife"
+  ],
+  "alt_text": "A five-slide carousel. Cover headline: AI hasn't taken your IT job. It's taken your hike conversation. The slides follow a typical IT employee who fixes a hard ticket and hears in standup that AI would have done it in ten minutes. Over the following weeks they reply to messages within a minute, stay online till nine, accept a new module without reading it and never bring up their hike in the appraisal 1:1. The post admits AI tools are real, notes that Xpheno's Kamal Karanth says AI hasn't visibly caused significant layoffs through 2026, and argues the comparison is cheaper than the tool and keeps staff quiet. It ends with someone asking what the AI actually did yesterday, the room going silent, and the lead saying let's take this offline.",
+  "claims": [
+   {
+    "text": "Xpheno's Kamal Karanth says AI hasn't shown up as a visible cause of significant layoffs through 2026.",
+    "source_url": "https://theprint.in/ground-reports/indias-it-giants-rode-labour-arbitrage-ai-billable-hours/3075677/"
+   }
+  ]
+ }
 }

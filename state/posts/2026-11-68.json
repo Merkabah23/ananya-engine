@@ -1,6 +1,6 @@
 {
  "id": "2026-11-68",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-07T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -40,6 +40,172 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-10-25T08:27:36.290728+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "problems": [
+    "Slide 4 has 67 words; the limit is 60. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Hard failure 12 (a deliberate plan stated as fact): the caption says \"the league planned it that way\" and slide 5 says \"The league just knows which part kept you up past midnight.\" Neither can be shown. The league is never shown designing the auction for suspense. Slide 4's \"for almost nothing\" is also an unprovable claim about cost.",
+     "Hard failure 7 (dead slide): slide 3 repeats slide 2. Slide 2 already shows the auction hooking you harder than the games, and slide 3 says it again with score notifications and a flat chase. Slide 3's only new beat is the \"admin\" belief, and it comes too late to carry a slide.",
+     "Hard failure 2 (invented specific): slide 6 says \"The commentator will say what he cost before he faces a ball.\" This is stated as a certain fact about broadcasts. It is not in the topic or sources, and it is the closing image.",
+     "Hard failure 5 (no real because): slide 4 says money and suspense are cheap and never go flat, but never says who gains or why the league and broadcasters want this. The topic's \"because\" is only half used, so the post asserts the turn without proving it."
+    ],
+    "scores": {
+     "hook": 3,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 3,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 1: It repeats the cover and carries no turn. Put the \"it's not admin, it's the product\" turn here in plain words, so it works as a claim that already contains the turn. Drop \"best show\" if it only restates the headline.",
+     "slide 3: Cut it, or merge it into slide 2. Keep only the believed-belief beat (\"it's just admin before the real cricket\") and the small, true detail of following the season by notification. Don't re-prove that the auction beats the games.",
+     "slide 4: Make the mechanism concrete, as observation and not a stated plan. Say who gains: attention in the off-season, something to argue about, a hook before the season starts. Cut \"for almost nothing\" and \"the league planned it\". Use framing like \"it works like content\" so you don't claim intent you can't show.",
+     "slides 5-6: Replace the unsourced \"commentator will say what he cost\" line with a test the reader can run on themselves. For example: \"Next auction night, count how many players you can name after, and how many prices you remember.\" Keep the repeatable payoff line, but let the ending add something new instead of restating the cover.",
+     "caption: Remove \"the league planned it that way\". Say what the reader did, for example that they gave more of their evening to a paddle going up than to three matches, and leave the intent out."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Hard failure 12 (a deliberate plan stated as fact): the caption says \"the league planned it that way\" and slide 5 says \"The league just knows which part kept you up past midnight.\" Neither can be shown. The league is never shown designing the auction for suspense. Slide 4's \"for almost nothing\" is also an unprovable claim about cost.",
+    "Hard failure 7 (dead slide): slide 3 repeats slide 2. Slide 2 already shows the auction hooking you harder than the games, and slide 3 says it again with score notifications and a flat chase. Slide 3's only new beat is the \"admin\" belief, and it comes too late to carry a slide.",
+    "Hard failure 2 (invented specific): slide 6 says \"The commentator will say what he cost before he faces a ball.\" This is stated as a certain fact about broadcasts. It is not in the topic or sources, and it is the closing image.",
+    "Hard failure 5 (no real because): slide 4 says money and suspense are cheap and never go flat, but never says who gains or why the league and broadcasters want this. The topic's \"because\" is only half used, so the post asserts the turn without proving it.",
+    "slide 1: It repeats the cover and carries no turn. Put the \"it's not admin, it's the product\" turn here in plain words, so it works as a claim that already contains the turn. Drop \"best show\" if it only restates the headline.",
+    "slide 3: Cut it, or merge it into slide 2. Keep only the believed-belief beat (\"it's just admin before the real cricket\") and the small, true detail of following the season by notification. Don't re-prove that the auction beats the games.",
+    "slide 4: Make the mechanism concrete, as observation and not a stated plan. Say who gains: attention in the off-season, something to argue about, a hook before the season starts. Cut \"for almost nothing\" and \"the league planned it\". Use framing like \"it works like content\" so you don't claim intent you can't show.",
+    "slides 5-6: Replace the unsourced \"commentator will say what he cost\" line with a test the reader can run on themselves. For example: \"Next auction night, count how many players you can name after, and how many prices you remember.\" Keep the repeatable payoff line, but let the ending add something new instead of restating the cover.",
+    "caption: Remove \"the league planned it that way\". Say what the reader did, for example that they gave more of their evening to a paddle going up than to three matches, and leave the intent out."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Dead slide 3: its bold line 'The paperwork was never paperwork. It plays like a show' restates the cover/slide 1 claim and the point slide 2 already dramatised. The only new beat is the lock-screen notifications.",
+     "Dead slide 5, last line: 'You just stayed up for the number, not the cover drive' repeats the idea again in new words.",
+     "Dead last slide: the bold line 'the product is the spectacle, not the sport' restates the cover's point. Only the test sentence is new."
+    ],
+    "scores": {
+     "hook": 3,
+     "relatable": 3,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 3,
+     "eq": 3,
+     "iq": 3,
+     "story": 3,
+     "tight": 2
+    },
+    "notes": [
+     "Slide 3: cut or merge it. Slide 2 already shows the turn. Keep the lock-screen detail (you watched the auction live but get matches as notifications) and fold it into slide 2 or 4 so the story keeps moving forward in time. Don't re-announce the thesis in bold here.",
+     "Slide 4: this is the 'because' and it is the weakest part. Say plainly who gains and why it is cheap: the auction needs no match, no pitch and no weather, just a room, a screen and numbers going up, so a channel can fill prime time in the dead off-season. Cut the generic 'headlines' line, and replace 'almost never does' with something concrete that a viewer would recognise.",
+     "Slide 1 and cover: 'admin' is not a word an ordinary fan uses for the auction, so the believed side doesn't ring true. Use the phrase fans actually say, such as 'just a formality before the real cricket' or 'boring paperwork'. Keep the turn in the claim but don't give away 'the show itself' so flatly.",
+     "Slide 5: 'That moment deserves an audience' reads like a mild moral, and the generic 'family's life' line is a stock image. Keep the mixed feeling (it is real, and it is good for the player) but make it one dry concession and drop the closing line that repeats the thesis.",
+     "Slide 6: drop the bold restatement of the cover and end on the test, sharpened into a sting. For example, you can list the price of a buy but not a single innings. Make sure the test reads as something the reader runs on themselves, not instructions."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Dead slide 3: its bold line 'The paperwork was never paperwork. It plays like a show' restates the cover/slide 1 claim and the point slide 2 already dramatised. The only new beat is the lock-screen notifications.",
+    "Dead slide 5, last line: 'You just stayed up for the number, not the cover drive' repeats the idea again in new words.",
+    "Dead last slide: the bold line 'the product is the spectacle, not the sport' restates the cover's point. Only the test sentence is new.",
+    "Slide 3: cut or merge it. Slide 2 already shows the turn. Keep the lock-screen detail (you watched the auction live but get matches as notifications) and fold it into slide 2 or 4 so the story keeps moving forward in time. Don't re-announce the thesis in bold here.",
+    "Slide 4: this is the 'because' and it is the weakest part. Say plainly who gains and why it is cheap: the auction needs no match, no pitch and no weather, just a room, a screen and numbers going up, so a channel can fill prime time in the dead off-season. Cut the generic 'headlines' line, and replace 'almost never does' with something concrete that a viewer would recognise.",
+    "Slide 1 and cover: 'admin' is not a word an ordinary fan uses for the auction, so the believed side doesn't ring true. Use the phrase fans actually say, such as 'just a formality before the real cricket' or 'boring paperwork'. Keep the turn in the claim but don't give away 'the show itself' so flatly.",
+    "Slide 5: 'That moment deserves an audience' reads like a mild moral, and the generic 'family's life' line is a stock image. Keep the mixed feeling (it is real, and it is good for the player) but make it one dry concession and drop the closing line that repeats the thesis.",
+    "Slide 6: drop the bold restatement of the cover and end on the test, sharpened into a sting. For example, you can list the price of a buy but not a single innings. Make sure the test reads as something the reader runs on themselves, not instructions."
+   ]
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Slide 4 has 65 words; the limit is 60. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide."
+   ]
+  }
+ ],
+ "updated_at": "2026-10-25T16:40:08.037869+00:00",
+ "sources": [],
+ "draft": {
+  "cover": {
+   "headline": "The auction you call a formality is [what you actually watch]",
+   "sub": "Two hours of paddles. Then the season reached you as notifications."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "The auction you call a formality is what you actually watch.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "A formality? I only check who my team picks."
+   },
+   {
+    "paragraphs": [
+     "It's a weekday evening in the off-season. You open the auction stream for ten minutes, just to see who your team picks. Boring paperwork, you tell yourself.",
+     "Two hours later, the purse-left graphic in the corner is the only number you care about. You're typing \"WHAT\" in the group chat over a bowler you'd never heard of."
+    ],
+    "why_swipe": "Fine, but the real season grips you even harder, right?"
+   },
+   {
+    "paragraphs": [
+     "Then the season starts. By the third week, most games reach you as score notifications on your lock screen.",
+     "A chase that's settled by the 14th over doesn't even make you unlock the phone. You check the table on Sunday and call that following it."
+    ],
+    "why_swipe": "So why did paddles beat the actual cricket?"
+   },
+   {
+    "paragraphs": [
+     "Here's the part that makes it cheap. The auction needs no pitch, no toss, no rain delay. Just a room, a screen and a number that keeps going up.",
+     "And every few minutes it ends the same way. The hammer, the price, the camera cutting to a team table clapping or groaning. **A channel gets a full prime-time evening out of months with no cricket.**"
+    ],
+    "why_swipe": "So is all of it just a TV trick?"
+   },
+   {
+    "paragraphs": [
+     "Some of it is the good kind of drama. A kid from a domestic side watches his price climb live, and his teammates pile on him on camera.",
+     "That clip will get more views than most of his overs that season."
+    ],
+    "why_swipe": "So what do you actually remember from all this?"
+   },
+   {
+    "paragraphs": [
+     "A few weeks into the season, you can still rattle off the five costliest buys, down to the lakh.",
+     "Then someone at work asks about one innings any of them has played.",
+     "**You reach for your phone.**"
+    ]
+   }
+  ],
+  "end": {
+   "save": "Come back to this the next time auction night eats your whole evening.",
+   "send": "The friend who watches the auction live but skips half the matches.",
+   "promise": "Why the things we watch work."
+  },
+  "caption": "I gave a paddle going up more of my evening than three full matches, and I'll do it again next year",
+  "hashtags": [
+   "#CricketAuction",
+   "#PlayerAuction",
+   "#CricketFans",
+   "#SportsBusiness"
+  ],
+  "alt_text": "A carousel arguing that the cricket player auction, which fans call a formality, is the part they actually watch. It follows a fan who opens the auction stream for ten minutes and stays for two hours, reacting in the group chat, then follows the real season mostly through lock-screen score notifications. It explains that the auction needs no pitch, toss or weather, just a room, a screen and rising numbers, so a channel can fill prime time in the off-season. It admits some of the drama is genuinely good for young players, and ends with the fan able to list the five costliest buys but reaching for the phone when asked about one innings any of them played.",
+  "claims": []
+ }
 }
