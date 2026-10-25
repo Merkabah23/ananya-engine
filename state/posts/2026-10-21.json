@@ -1,6 +1,6 @@
 {
  "id": "2026-10-21",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-10-29T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -40,6 +40,167 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-10-25T08:20:08.864607+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 6: the bolded last line ('The giveaway where you do all the sharing is an ad, and you were the medium') restates the cover and slide 1 ('unpaid growth team') and slide 4 ('cheapest ad') in new words. A last slide that repeats the cover's point is a dead slide, and it leaves no new payoff.",
+     "Slide 5: 'the follower count, which jumped in a week and rarely comes back down' is a claim about how follower retention works. It has no source and isn't in the topic, so it is a stated fact the post can't back.",
+     "Slide 4: 'the cheapest ad they'll run all year' is a stronger claim than the topic's 'cheaper than any ad'. 'All year' presents a creator's secret budget and plan as fact, with no basis."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 2,
+     "voice": 3,
+     "eq": 3,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 6: Don't end on the ad/medium line again; the reader already has it from slide 1 and slide 4. Keep the 'friends tagged in two more giveaways' detail and push one step further: what happens next, or a small test the reader can run on themselves (e.g. what they remember about the last giveaway they entered, other than tagging). End on a sting, not a restatement.",
+     "slide 5: Remove or reword 'rarely comes back down', since it can't be sourced. Use what the topic supports: the entries and shares did the creator's reach work in a week, and the prize was a small cost next to that. Also cut 'That's the part you see. The part you don't is...', which sounds like an explainer template. Say it in plain, human words.",
+     "slide 4: Drop 'all year'. Stick to the topic's claim that one phone buys more follows, tags and shares than the phone costs. Slides 4 and 6 now both deliver the 'it's an ad' idea, so give slide 4 the because (each rule turns you into free reach) and let slide 6 do something new.",
+     "slide 3: This is the strongest slide, but 'terrible odds' lets the reader off the hook. Sharpen the turn at the end, so the reader feels caught in the act of doing the work rather than just being a lottery loser.",
+     "slide 5: 'someone does win' plus 'unboxing reel to prove it' is a fine concession, but 'usually' is an unsourced generalisation. Keep the concession short and human, and fold it into the swipe toward the final beat, so the last slide has a new reason to exist."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Slide 6: the bolded last line ('The giveaway where you do all the sharing is an ad, and you were the medium') restates the cover and slide 1 ('unpaid growth team') and slide 4 ('cheapest ad') in new words. A last slide that repeats the cover's point is a dead slide, and it leaves no new payoff.",
+    "Slide 5: 'the follower count, which jumped in a week and rarely comes back down' is a claim about how follower retention works. It has no source and isn't in the topic, so it is a stated fact the post can't back.",
+    "Slide 4: 'the cheapest ad they'll run all year' is a stronger claim than the topic's 'cheaper than any ad'. 'All year' presents a creator's secret budget and plan as fact, with no basis.",
+    "slide 6: Don't end on the ad/medium line again; the reader already has it from slide 1 and slide 4. Keep the 'friends tagged in two more giveaways' detail and push one step further: what happens next, or a small test the reader can run on themselves (e.g. what they remember about the last giveaway they entered, other than tagging). End on a sting, not a restatement.",
+    "slide 5: Remove or reword 'rarely comes back down', since it can't be sourced. Use what the topic supports: the entries and shares did the creator's reach work in a week, and the prize was a small cost next to that. Also cut 'That's the part you see. The part you don't is...', which sounds like an explainer template. Say it in plain, human words.",
+    "slide 4: Drop 'all year'. Stick to the topic's claim that one phone buys more follows, tags and shares than the phone costs. Slides 4 and 6 now both deliver the 'it's an ad' idea, so give slide 4 the because (each rule turns you into free reach) and let slide 6 do something new.",
+    "slide 3: This is the strongest slide, but 'terrible odds' lets the reader off the hook. Sharpen the turn at the end, so the reader feels caught in the act of doing the work rather than just being a lottery loser.",
+    "slide 5: 'someone does win' plus 'unboxing reel to prove it' is a fine concession, but 'usually' is an unsourced generalisation. Keep the concession short and human, and fold it into the swipe toward the final beat, so the last slide has a new reason to exist."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Hard failure 12, slide 4: \"One phone costs less than any ad that could buy all that.\" This states a hidden budget comparison as fact, with \"any ad\" as an absolute nobody can show. Slide 4 also says every story share \"shows it to everyone who follows you\", which overstates how stories reach people. Slide 5's \"the phone was a small price for all that reach\" repeats the same unprovable claim.",
+     "Hard failure 7, slide 5: the second paragraph (tags and shares carried the reel for a week, the phone was a small price) restates slide 4's point in new words. Slide 3's closing line, \"You've actually just clocked in\", also gives away what slide 4 then explains.",
+     "Hard failure 9, slide 6: the closer is muddled. \"Your three friends have been tagged in two more giveaways since. One of those tags was yours.\" invents a count and a loop that doesn't parse, and it doesn't land."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 3,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 4: Rework the cost claim so it is a visible mechanism, not a stated budget. Show what each rule produces (a follow stays, a tag lands in three people's notifications, a story share puts it in front of your circle) and let the reader conclude the phone is the cheap part. Drop \"any ad\" and the absolute. Keep the line it ends on short and sharp. Say \"your circle\" or \"people who watch your story\" instead of \"everyone who follows you\".",
+     "slide 5: Cut the second paragraph, which repeats slide 4. Keep the honest concession that a real person wins a real phone, then push past it with a new beat from the topic: the winner is one person, and the other forty thousand worked for nothing. That is the \"you are the medium\" payoff, and the slide currently doesn't reach it.",
+     "slide 3: End on the chore, not the reveal. Remove \"You've actually just clocked in\" or move it to the final slide so slide 4 has something left to uncover. The detail about tagging a batchmate just to make it three is the best line in the post, so build on it.",
+     "slide 6: Replace the confusing \"two more giveaways, one of those tags was yours\" with one clean closer built on the test the reader can run. For example, name the winner of the last giveaway you entered, and notice that you can name the three people you tagged. Or end on the topic's payoff: the giveaway where you do all the sharing is the ad where you are the medium. Pick one and make it sting.",
+     "slide 1 and cover: The cover headline and slide 1 say nearly the same thing. Keep the cover as is, but make slide 1 carry the turn from \"a creator thanking followers\" to \"you are the distribution\", so it adds something."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Hard failure 12, slide 4: \"One phone costs less than any ad that could buy all that.\" This states a hidden budget comparison as fact, with \"any ad\" as an absolute nobody can show. Slide 4 also says every story share \"shows it to everyone who follows you\", which overstates how stories reach people. Slide 5's \"the phone was a small price for all that reach\" repeats the same unprovable claim.",
+    "Hard failure 7, slide 5: the second paragraph (tags and shares carried the reel for a week, the phone was a small price) restates slide 4's point in new words. Slide 3's closing line, \"You've actually just clocked in\", also gives away what slide 4 then explains.",
+    "Hard failure 9, slide 6: the closer is muddled. \"Your three friends have been tagged in two more giveaways since. One of those tags was yours.\" invents a count and a loop that doesn't parse, and it doesn't land.",
+    "slide 4: Rework the cost claim so it is a visible mechanism, not a stated budget. Show what each rule produces (a follow stays, a tag lands in three people's notifications, a story share puts it in front of your circle) and let the reader conclude the phone is the cheap part. Drop \"any ad\" and the absolute. Keep the line it ends on short and sharp. Say \"your circle\" or \"people who watch your story\" instead of \"everyone who follows you\".",
+    "slide 5: Cut the second paragraph, which repeats slide 4. Keep the honest concession that a real person wins a real phone, then push past it with a new beat from the topic: the winner is one person, and the other forty thousand worked for nothing. That is the \"you are the medium\" payoff, and the slide currently doesn't reach it.",
+    "slide 3: End on the chore, not the reveal. Remove \"You've actually just clocked in\" or move it to the final slide so slide 4 has something left to uncover. The detail about tagging a batchmate just to make it three is the best line in the post, so build on it.",
+    "slide 6: Replace the confusing \"two more giveaways, one of those tags was yours\" with one clean closer built on the test the reader can run. For example, name the winner of the last giveaway you entered, and notice that you can name the three people you tagged. Or end on the topic's payoff: the giveaway where you do all the sharing is the ad where you are the medium. Pick one and make it sting.",
+    "slide 1 and cover: The cover headline and slide 1 say nearly the same thing. Keep the cover as is, but make slide 1 carry the turn from \"a creator thanking followers\" to \"you are the distribution\", so it adds something."
+   ]
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Slide 1 has 26 words; the limit is 25. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide.",
+    "Slide 4 has 65 words; the limit is 60. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide."
+   ]
+  }
+ ],
+ "updated_at": "2026-10-25T08:25:45.910903+00:00",
+ "sources": [],
+ "draft": {
+  "cover": {
+   "headline": "That iPhone giveaway made you [its unpaid growth team]",
+   "sub": "You entered to win a phone. You ended up doing the marketing."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "That iPhone giveaway looks like a thank-you to followers. Your follow, your tags and your story share are what it's really collecting.\nSwipe to read →"
+    ],
+    "why_swipe": "What exactly is a giveaway collecting from the people who enter?"
+   },
+   {
+    "paragraphs": [
+     "It's festive season and a reel stops your thumb. A new iPhone, still sealed in the box, and a creator smiling into the camera. \"This one's for my amazing family!\"",
+     "The rules sit in the caption. Follow, like, tag three friends, share it to your story."
+    ],
+    "why_swipe": "What does the reader do next, and who else is doing it?"
+   },
+   {
+    "paragraphs": [
+     "So you follow. You tag the friend who always replies, the one who never does, and a college batchmate just to make it three.",
+     "Then you open the comments. Thousands of strangers, three names each, the same small chore done over and over.",
+     "You share it to your story because the caption said so, and go back to scrolling."
+    ],
+    "why_swipe": "It felt like nothing. So what did all those small steps actually do?"
+   },
+   {
+    "paragraphs": [
+     "But look at what each rule leaves behind. The follow stays long after the reel is forgotten. Each tag lands in three people's notifications, from a name they recognise.",
+     "Your story share puts the reel in front of your circle, people who would never have found that account on their own.",
+     "**Add up every entry and the phone starts to look like the cheap part.**"
+    ],
+    "why_swipe": "Is it all a trick, or does someone actually get the phone?"
+   },
+   {
+    "paragraphs": [
+     "And yes, a real person gets a real phone. Somewhere a stranger opens a DM and screams, and that part is genuine.",
+     "It's one person, though. Everyone else in those comments did the same work for the same week and got a story view count.",
+     "You were never really a contestant. You were the medium the ad ran on."
+    ],
+    "why_swipe": "So what's left on the reader's side once it's over?"
+   },
+   {
+    "paragraphs": [
+     "Think back to the last giveaway you entered.",
+     "That account still turns up in your feed. The winner's name never did.",
+     "**But you still remember the batchmate you tagged just to make it three.**"
+    ]
+   }
+  ],
+  "end": {
+   "save": "Read it again before you tag three friends under the next festive giveaway.",
+   "send": "Send it to the friend who tags you in every giveaway.",
+   "promise": "How the internet sells to you."
+  },
+  "caption": "Who won the last giveaway you entered? And who did you tag just to make it three?",
+  "hashtags": [
+   "#InstagramGiveaway",
+   "#CreatorEconomy",
+   "#InfluencerMarketing",
+   "#SocialMediaIndia"
+  ],
+  "alt_text": "Carousel post. The cover reads: That iPhone giveaway made you its unpaid growth team. The slides follow you through a festive iPhone giveaway reel. You follow the account, tag three friends including a college batchmate just to make it three, see thousands of strangers in the comments doing the same, and share it to your story. The next slide shows what each rule leaves behind: the follow stays, each tag lands in three people's notifications, and the story share puts the reel in front of your circle, so the phone starts to look like the cheap part. It admits a real person does win a real phone, but everyone else did the same work for nothing, which makes you the medium the ad ran on rather than a contestant. It closes by asking you to think of the last giveaway you entered: the account still shows up in your feed, you never learned the winner's name, but you still remember the batchmate you tagged to make it three.",
+  "claims": []
+ }
 }

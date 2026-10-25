@@ -1,6 +1,6 @@
 {
  "id": "2026-10-19",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-10-31T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -101,6 +101,164 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-10-25T08:20:08.865289+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "problems": [
+    "Slide 1 has 27 words; the limit is 25. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "No because (hard failure 5): the post says what happened but never why. It never says what the US is protecting or what the suspension is for, and never explains the pipeline these firms ran. The topic's mechanism (the US protecting its own labour market from a once-routine visa pipeline) is missing.",
+     "Facts as the hero / news recap (hard failure 6): slides 4 and 5 are a list of six companies, a policy name and two return numbers. The relatable story of slides 2-3 is dropped for a news recap.",
+     "Unsupported claim (hard failure 2): slide 5, 'Some of them are honestly happier. Closer to their parents, no visa calendar running their life.' This is not in the sources, the proof or real_details, and it states a claim about the world.",
+     "Overstated claim (hard failures 2 and 12): 'the ones who made it are coming back' and the cover sub 'already flying home'. The 12,700 figure covers white-collar tech workers returning from the US and is not limited to H-1B or green card holders. Also, 'the last step of that plan stopped working' and 'a country that changed this month' stretch one PERM suspension of named firms into the whole route being closed.",
+     "Dead slide (hard failure 7): slide 6 restates the cover and slide 1 ('a country that changed this month'). Its second paragraph ('the plan inside it needs a new first page') is a tidy moral wrapped around the photocopies image, which fails the payoff rule (hard failure 8)."
+    ],
+    "scores": {
+     "hook": 3,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 3,
+     "eq": 3,
+     "iq": 3,
+     "story": 3,
+     "tight": 3
+    },
+    "notes": [
+     "Slides 4-5: add the because the topic already contains. The US is protecting its own labour market from the same visa pipeline that used to be routine, and the firms that filed the forms are the ones now blocked. Say in plain words who loses and why the plan only worked while that pipeline stayed open. This is the new angle readers don't have.",
+     "Slide 4: cut it down. Name two or three companies at most, drop 'PERM' jargon or explain it in one plain phrase ('the first filing for a green card'). Say what the suspension means for the reader sitting in that bay, not a list of six names.",
+     "Slide 5: remove 'honestly happier' and the parents/visa-calendar line, since they are unsourced. Also stop calling returnees 'the ones who made it'. Either say 'tech workers coming back from the US' as the figure does, or drop the sentence and use the numbers only to show direction. Keep one number if possible, not two.",
+     "Slide 3: make it a moment followed forward in time, not a pattern. Walk the reader from joining, to the folder, to the March refresh, to the wait, and end on a concrete detail (the team lunch, the cab ride after the result). Then slide 4 lands as the sting of that wait.",
+     "Slide 6: replace the 'new first page' moral with a closer that stings or a test the reader can run, for example what the next gathering question 'when are you going onsite?' now really means. Drop 'changed this month', since slide 1 already says it. Keep the claim at 'this route is getting narrower', not 'closed'."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "No because (hard failure 5): the post says what happened but never why. It never says what the US is protecting or what the suspension is for, and never explains the pipeline these firms ran. The topic's mechanism (the US protecting its own labour market from a once-routine visa pipeline) is missing.",
+    "Facts as the hero / news recap (hard failure 6): slides 4 and 5 are a list of six companies, a policy name and two return numbers. The relatable story of slides 2-3 is dropped for a news recap.",
+    "Unsupported claim (hard failure 2): slide 5, 'Some of them are honestly happier. Closer to their parents, no visa calendar running their life.' This is not in the sources, the proof or real_details, and it states a claim about the world.",
+    "Overstated claim (hard failures 2 and 12): 'the ones who made it are coming back' and the cover sub 'already flying home'. The 12,700 figure covers white-collar tech workers returning from the US and is not limited to H-1B or green card holders. Also, 'the last step of that plan stopped working' and 'a country that changed this month' stretch one PERM suspension of named firms into the whole route being closed.",
+    "Dead slide (hard failure 7): slide 6 restates the cover and slide 1 ('a country that changed this month'). Its second paragraph ('the plan inside it needs a new first page') is a tidy moral wrapped around the photocopies image, which fails the payoff rule (hard failure 8).",
+    "Slides 4-5: add the because the topic already contains. The US is protecting its own labour market from the same visa pipeline that used to be routine, and the firms that filed the forms are the ones now blocked. Say in plain words who loses and why the plan only worked while that pipeline stayed open. This is the new angle readers don't have.",
+    "Slide 4: cut it down. Name two or three companies at most, drop 'PERM' jargon or explain it in one plain phrase ('the first filing for a green card'). Say what the suspension means for the reader sitting in that bay, not a list of six names.",
+    "Slide 5: remove 'honestly happier' and the parents/visa-calendar line, since they are unsourced. Also stop calling returnees 'the ones who made it'. Either say 'tech workers coming back from the US' as the figure does, or drop the sentence and use the numbers only to show direction. Keep one number if possible, not two.",
+    "Slide 3: make it a moment followed forward in time, not a pattern. Walk the reader from joining, to the folder, to the March refresh, to the wait, and end on a concrete detail (the team lunch, the cab ride after the result). Then slide 4 lands as the sting of that wait.",
+    "Slide 6: replace the 'new first page' moral with a closer that stings or a test the reader can run, for example what the next gathering question 'when are you going onsite?' now really means. Drop 'changed this month', since slide 1 already says it. Keep the claim at 'this route is getting narrower', not 'closed'."
+   ]
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Slide 1 has 27 words; the limit is 25. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide."
+   ]
+  }
+ ],
+ "updated_at": "2026-10-25T08:25:45.915446+00:00",
+ "sources": [
+  {
+   "url": "https://www.theweek.in/news/biz-tech/2026/10/08/us-labour-department-halts-green-cards-for-tcs-infosys.amp.html",
+   "fact": "On 8 October 2026 the US Labour Secretary suspended TCS, Infosys, Wipro, HCL, Cognizant, Capgemini, Microsoft and Adobe from the Permanent Labour Certification (PERM) programme. This is the first step toward a green card.",
+   "excerpt": "Sonderling said: \"I am hereby suspending from the Permanent Labour Certification Programme\" ... \"We will not accept any new or process any pending permanent labour certification applications involving these companies.\" ... \"They've received over 230,000 H-1B visa approvals and over 100,000 permanent labour certifications\"",
+   "date": "2026-10-08"
+  },
+  {
+   "url": "https://www.gulte.com/overseas/437078/record-number-of-tech-workers-return-to-india-from-usa",
+   "fact": "About 12,700 white-collar tech workers have returned from the US to India so far in 2026, against last year's record of 15,100. That puts 2026 on pace to beat 2025.",
+   "excerpt": "\"about 12,700 white-collar workers have returned till now\" ... \"last year's record of 15,100 people.\" (The page's date line reads: \"Published on: 5:10 pm, 19 October 2026\". The page does not name Xpheno. Other coverage attributes the figure to Xpheno, via The Economic Times. The figures are not limited to H-1B holders.)",
+   "date": "2026-10-19"
+  },
+  {
+   "url": "https://www.outlookbusiness.com/corporate/oracle-fires-12000-in-india-more-cuts-expected-within-a-month",
+   "fact": "Reports say Oracle cut about 12,000 jobs in India, roughly 40% of its approximately 30,000 India staff. The article was published on 1 April 2026. I found no source for an October 21 round or for a one-third figure. The figures are unconfirmed reports.",
+   "excerpt": "\"American software giant Oracle has laid off around 12,000 employees in India\" ... \"Globally, Oracle has reportedly let go of around 30,000 workers.\" ... \"The company currently has approximately 30,000 employees in India, including those already impacted by the layoffs.\"",
+   "date": "2026-04-01"
+  }
+ ],
+ "draft": {
+  "cover": {
+   "headline": "The 'IT job, H-1B, green card' plan just [got a lot narrower]",
+   "sub": "The company that was meant to sponsor you is now locked out."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "IT job, H-1B, green card. The company you joined to make that plan work just got locked out of the green card step.\nSwipe to read →"
+    ],
+    "why_swipe": "Which plan, and what does locked out mean?"
+   },
+   {
+    "paragraphs": [
+     "Remember the plan from your engineering years? A service company job first. Onsite in two years. Then the H-1B, the green card, and you were \"settled\".",
+     "Every relative at every gathering understood that one word. It needed no follow-up question."
+    ],
+    "why_swipe": "So what happened once you were inside it?"
+   },
+   {
+    "paragraphs": [
+     "So you joined. You kept a plastic folder with your passport, degree and experience letters, all photocopied twice.",
+     "Onsite came. Then a March of refreshing your inbox every hour. Your name got picked, and you bought the whole team lunch.",
+     "After that, the green card was just paperwork. Your company would file it. You only had to wait."
+    ],
+    "why_swipe": "And then the wait hit something?"
+   },
+   {
+    "paragraphs": [
+     "But this month the US Labour Department suspended TCS, Infosys, Wipro and a few others. The suspension is from the first filing for a green card.",
+     "New applications won't be accepted. Pending ones won't be processed either.",
+     "**The company holding your folder can't file the first form.**"
+    ],
+    "why_swipe": "Why those companies, and why now?"
+   },
+   {
+    "paragraphs": [
+     "Here's the part the plan never mentioned. It worked because the US treated this pipeline as routine. These firms had over 1 lakh of those filings approved.",
+     "That volume is exactly what the US is now protecting its own job market from. Your green card was never only your effort. It was a slot in your employer's pipeline."
+    ],
+    "why_swipe": "So what does that change for you?"
+   },
+   {
+    "paragraphs": [
+     "At the next gathering a relative will ask, \"Onsite kab ja rahe ho?\"",
+     "**They'll think it's a question about you. It's now a question about who signs your forms.**"
+    ]
+   }
+  ],
+  "end": {
+   "save": "Come back to it the next time someone at a gathering asks when you're going onsite.",
+   "send": "Send to the friend still prepping for an H-1B like it's 2015.",
+   "promise": "How money and status really move."
+  },
+  "caption": "Your green card was always a line in someone else's paperwork.",
+  "hashtags": [
+   "#H1BVisa",
+   "#GreenCardIndia",
+   "#IndianITJobs",
+   "#OnsiteLife"
+  ],
+  "alt_text": "Carousel of six text slides. Cover headline: The 'IT job, H-1B, green card' plan just got a lot narrower. The slides walk the reader through the familiar plan: joining an Indian IT services company, keeping a folder of photocopied documents, going onsite, getting picked in the H-1B lottery and waiting for the company to file the green card. They then say the US Labour Department suspended TCS, Infosys, Wipro and others from the first filing for a green card, accepting no new applications and processing no pending ones. The post argues the plan only worked while the US treated this pipeline as routine, since these firms had over 100,000 such filings approved. The last slide says that when a relative asks when you're going onsite, it is now a question about who signs your forms.",
+  "claims": [
+   {
+    "text": "This month (8 October 2026) the US Labour Department suspended TCS, Infosys, Wipro and others from the Permanent Labour Certification programme, the first filing for a green card.",
+    "source_url": "https://www.theweek.in/news/biz-tech/2026/10/08/us-labour-department-halts-green-cards-for-tcs-infosys.amp.html"
+   },
+   {
+    "text": "No new applications will be accepted and pending ones will not be processed for these companies.",
+    "source_url": "https://www.theweek.in/news/biz-tech/2026/10/08/us-labour-department-halts-green-cards-for-tcs-infosys.amp.html"
+   },
+   {
+    "text": "These firms had over 1 lakh (100,000) permanent labour certifications approved.",
+    "source_url": "https://www.theweek.in/news/biz-tech/2026/10/08/us-labour-department-halts-green-cards-for-tcs-infosys.amp.html",
+    "derived_from": "Source states 'over 100,000 permanent labour certifications'; 100,000 = 1 lakh"
+   }
+  ]
+ }
 }

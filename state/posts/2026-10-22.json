@@ -1,6 +1,6 @@
 {
  "id": "2026-10-22",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-10-27T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -70,6 +70,186 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-10-25T08:20:08.863445+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "problems": [
+    "Slide 5 has 69 words; the limit is 60. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "7. Dead slide, slide 6: \"Next time the change comes back short, the samosa didn't get expensive. The flame under the kadhai did.\" It repeats the cover and slide 1 (samosa pricier because of a cylinder you never see). The bold line above it is a tidy moral that restates the same idea.",
+     "7. Dead slide, slide 3: \"It feels like everything climbs a little, everywhere... you file it under mehngai\". Every reader already knows this, and slide 2 already shows the shrug.",
+     "6. Facts as the hero, slide 4: it stacks 19 kg, ₹62.50 to ₹71.50, 14.2 kg, October 1 and fifth month in a row. That is more than two numbers, and the slide reads like a news line.",
+     "5. No real because. The post never says why the home cylinder stays flat while the commercial one jumps. Slide 5 offers only \"home makes headlines\". Slide 4's own hook question, \"why does one stay flat while the other jumps?\", goes unanswered."
+    ],
+    "scores": {
+     "hook": 3,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 2,
+     "voice": 3,
+     "eq": 2,
+     "iq": 3,
+     "story": 4,
+     "tight": 2
+    },
+    "notes": [
+     "slide 4: Cut it to one number, ideally just \"the cylinder every stall cooks on went up this month, the one in your kitchen didn't\". Drop the kg sizes and the date. Keep the ₹62.50 to ₹71.50 range only if you drop everything else. Right now the facts, not the opinion, carry the slide.",
+     "slide 5: Add the real because. The price people check and complain about is the home cylinder, so that is the one that stays flat and visible. The commercial one reaches you only through a stall's plate price, with no headline attached. Frame it as how it plays out, not as a secret plan, since the sources only show the prices. Also cut \"That's kinder than one big jump. It's also why you never ask...\", which is a soft moral.",
+     "slide 6 and cover: The last slide repeats the cover's point, and \"the samosa didn't get expensive, the flame did\" is stated as certain for this stall. Slide 3 says milk, onion and rent are really rising, so it contradicts itself. Replace it with a payoff the cover doesn't already give: a test the reader can run, such as the next time your usual order creeps up, ask what the stall cooks on. Or end on a human sting. Drop \"usually a bigger number moved upstream\" as the closer.",
+     "slide 1 and cover: The cover, slide 1 and slide 6 all give the whole answer (the cylinder). Keep the cylinder as the hook if you like, but let slide 1 withhold something. Also soften \"went up a lot more\", which compares a ₹2 samosa rise with a cylinder price and invites an \"is that even the same thing?\" objection. The cover sub, \"didn't move. Theirs did.\", is also a mirrored pair, so reword it.",
+     "slide 3: Merge it into slide 2 or cut it. The change coming back short and the nod already carry the shrug. Use the freed slide for the missing beat from the topic: the visible home price versus the invisible commercial one, so the turn arrives sooner and slide 5's because has room."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "7. Dead slide, slide 6: \"Next time the change comes back short, the samosa didn't get expensive. The flame under the kadhai did.\" It repeats the cover and slide 1 (samosa pricier because of a cylinder you never see). The bold line above it is a tidy moral that restates the same idea.",
+    "7. Dead slide, slide 3: \"It feels like everything climbs a little, everywhere... you file it under mehngai\". Every reader already knows this, and slide 2 already shows the shrug.",
+    "6. Facts as the hero, slide 4: it stacks 19 kg, ₹62.50 to ₹71.50, 14.2 kg, October 1 and fifth month in a row. That is more than two numbers, and the slide reads like a news line.",
+    "5. No real because. The post never says why the home cylinder stays flat while the commercial one jumps. Slide 5 offers only \"home makes headlines\". Slide 4's own hook question, \"why does one stay flat while the other jumps?\", goes unanswered.",
+    "slide 4: Cut it to one number, ideally just \"the cylinder every stall cooks on went up this month, the one in your kitchen didn't\". Drop the kg sizes and the date. Keep the ₹62.50 to ₹71.50 range only if you drop everything else. Right now the facts, not the opinion, carry the slide.",
+    "slide 5: Add the real because. The price people check and complain about is the home cylinder, so that is the one that stays flat and visible. The commercial one reaches you only through a stall's plate price, with no headline attached. Frame it as how it plays out, not as a secret plan, since the sources only show the prices. Also cut \"That's kinder than one big jump. It's also why you never ask...\", which is a soft moral.",
+    "slide 6 and cover: The last slide repeats the cover's point, and \"the samosa didn't get expensive, the flame did\" is stated as certain for this stall. Slide 3 says milk, onion and rent are really rising, so it contradicts itself. Replace it with a payoff the cover doesn't already give: a test the reader can run, such as the next time your usual order creeps up, ask what the stall cooks on. Or end on a human sting. Drop \"usually a bigger number moved upstream\" as the closer.",
+    "slide 1 and cover: The cover, slide 1 and slide 6 all give the whole answer (the cylinder). Keep the cylinder as the hook if you like, but let slide 1 withhold something. Also soften \"went up a lot more\", which compares a ₹2 samosa rise with a cylinder price and invites an \"is that even the same thing?\" objection. The cover sub, \"didn't move. Theirs did.\", is also a mirrored pair, so reword it.",
+    "slide 3: Merge it into slide 2 or cut it. The change coming back short and the nod already carry the shrug. Use the freed slide for the missing beat from the topic: the visible home price versus the invisible commercial one, so the turn arrives sooner and slide 5's because has room."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Hard failure 12 (mechanism stated as fact that can't be shown): slide 6 says \"you already paid this month's hike. You just paid it in samosas,\" and slide 5 says \"he spreads one bigger bill across a month of plates.\" Nothing in the sources shows this stall's price rise came from the LPG hike. A ₹62.50 to ₹71.50 rise on a cylinder of roughly ₹2,800 or more is small, and a cylinder cooks many plates. The post treats a possible cause as the certain one.",
+     "Hard failure 7 (dead slides): slide 5 restates slide 4. Both say the hike reaches you only through plate prices. Slide 6 restates the cover: the hike started at the cylinder and you paid it in samosas."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 3,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 6: The ending claims certainty the facts can't carry. Reframe it as a possibility or a test, such as the upstream number moving first while you only see a rupee. Keep the claim at \"a bigger number moved upstream,\" which the topic's payoff supports. Drop \"you already paid this month's hike.\" Also cut \"look behind the counter before you blame the stall,\" which is coaching. End on a line people will repeat instead.",
+     "slide 5: Merge it into slide 4 or give it a new beat. As written, it repeats that the hike arrives with no headline and adds only the over-explained idea of spreading the bill across a month of plates. A new beat the topic already contains is the believed-versus-actual turn: we assume vendors raise prices because everything costs more everywhere. Say that plainly, since the post never states the belief it overturns.",
+     "slide 4: The because is thin. Say why the home cylinder is the one that gets protected: it's the price every family checks, and a hike there is a headline. Keep it as an observation about visibility and don't present it as a deliberate plan. Cut or soften \"Nobody tweets about a dhaba's gas bill,\" which is a flat claim about the world with no source.",
+     "slide 2: The scene is good, but the numbers wobble. The cover says \"two-rupee hike\" while the slide says change came back \"a few rupees short.\" Pick one vague, typical amount and keep it consistent. Add one detail only someone who has stood there would notice, such as the price handwritten on the board or the regular not asking twice.",
+     "cover/slide 1: The hook works, but \"started nowhere near the stall\" overpromises given the evidence. Soften the cover so it claims the bigger number moves upstream and you only see the rupee, not that this samosa's hike was caused by the cylinder."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Hard failure 12 (mechanism stated as fact that can't be shown): slide 6 says \"you already paid this month's hike. You just paid it in samosas,\" and slide 5 says \"he spreads one bigger bill across a month of plates.\" Nothing in the sources shows this stall's price rise came from the LPG hike. A ₹62.50 to ₹71.50 rise on a cylinder of roughly ₹2,800 or more is small, and a cylinder cooks many plates. The post treats a possible cause as the certain one.",
+    "Hard failure 7 (dead slides): slide 5 restates slide 4. Both say the hike reaches you only through plate prices. Slide 6 restates the cover: the hike started at the cylinder and you paid it in samosas.",
+    "slide 6: The ending claims certainty the facts can't carry. Reframe it as a possibility or a test, such as the upstream number moving first while you only see a rupee. Keep the claim at \"a bigger number moved upstream,\" which the topic's payoff supports. Drop \"you already paid this month's hike.\" Also cut \"look behind the counter before you blame the stall,\" which is coaching. End on a line people will repeat instead.",
+    "slide 5: Merge it into slide 4 or give it a new beat. As written, it repeats that the hike arrives with no headline and adds only the over-explained idea of spreading the bill across a month of plates. A new beat the topic already contains is the believed-versus-actual turn: we assume vendors raise prices because everything costs more everywhere. Say that plainly, since the post never states the belief it overturns.",
+    "slide 4: The because is thin. Say why the home cylinder is the one that gets protected: it's the price every family checks, and a hike there is a headline. Keep it as an observation about visibility and don't present it as a deliberate plan. Cut or soften \"Nobody tweets about a dhaba's gas bill,\" which is a flat claim about the world with no source.",
+    "slide 2: The scene is good, but the numbers wobble. The cover says \"two-rupee hike\" while the slide says change came back \"a few rupees short.\" Pick one vague, typical amount and keep it consistent. Add one detail only someone who has stood there would notice, such as the price handwritten on the board or the regular not asking twice.",
+    "cover/slide 1: The hook works, but \"started nowhere near the stall\" overpromises given the evidence. Soften the cover so it claims the bigger number moves upstream and you only see the rupee, not that this samosa's hike was caused by the cylinder."
+   ]
+  }
+ ],
+ "updated_at": "2026-10-25T08:25:45.903128+00:00",
+ "sources": [
+  {
+   "url": "https://www.goodreturns.in/news/lpg-gas-cylinder-prices-hiked-october-1-2026-19-kg-commercial-lpg-prices-up-rs-62-71-50-city-wise-1538497.html",
+   "fact": "Oil marketing companies raised 19 kg commercial LPG prices by Rs 62.50–71.50 per cylinder from Oct 1, 2026, while the 14.2 kg domestic cylinder price stayed unchanged for the fifth consecutive month.",
+   "excerpt": "19 Kg commercial LPG rates in the range of Rs 62.50 to Rs 71.50 per cylinder across major cities. | the domestic LPG cylinders or 14.2 Kg LPG prices remain unchanged for the fifth consecutive month. | The domestic LPG prices are kept the same since June 7, 2026.",
+   "date": "2026-10-01"
+  },
+  {
+   "url": "https://www.dynamitenews.com/business/lpg-price-hike-today-commercial-cylinder-gets-rs-70-costlier-in-some-cities-domestic-rate-unchanged",
+   "fact": "The Delhi 19-kg commercial cylinder rose Rs 62.50 to Rs 2,810, Patna rose Rs 71.50 to Rs 3,100.50, and the household 14.2-kg cylinder stayed at Rs 942 in Delhi.",
+   "excerpt": "the price of a 19-kg commercial LPG cylinder has increased by Rs 62.50, taking the latest rate to Rs 2,810 from Rs 2,747.50 in September | 19-kg cylinder prices rising by up to Rs 71.50 across cities | For households, however, there is no change in the price of the 14.2-kg domestic LPG cylinder.",
+   "date": "2026-10-01"
+  }
+ ],
+ "draft": {
+  "cover": {
+   "headline": "Your samosa's two-rupee hike started [nowhere near the stall]",
+   "sub": "A price rise you paid without ever reading about it."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Your samosa's two-rupee hike started nowhere near the stall.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "Then where did it start?"
+   },
+   {
+    "paragraphs": [
+     "It's evening, the laptop is shut, and you're at the stall near the office. Two chai, one samosa, the paper plate going soft under the green chutney.",
+     "The change comes back a few rupees short. \"Bhaiya, rate badh gaya?\" He nods without looking up from the kadhai. You shrug and pick up the samosa."
+    ],
+    "why_swipe": "But was it really just everything getting costlier?"
+   },
+   {
+    "paragraphs": [
+     "But one cost behind that counter jumped this month. The tall commercial gas cylinder every stall and dhaba cooks on went up by ₹62.50 to ₹71.50, depending on the city.",
+     "**The cylinder in your own kitchen didn't move at all.**"
+    ],
+    "why_swipe": "Why would one cylinder jump and the other stay put?"
+   },
+   {
+    "paragraphs": [
+     "The home cylinder is the price you notice. Every family checks it, the TV debates it, and a hike there becomes news within hours.",
+     "The commercial one has no audience. Nobody tweets about a dhaba's gas bill.",
+     "**So its hike reaches you only through a plate, with no headline attached.**"
+    ],
+    "why_swipe": "So is bhaiya the one squeezing you?"
+   },
+   {
+    "paragraphs": [
+     "And bhaiya isn't going to stick a notice on the stall about his gas bill. His regulars would just walk to the next one.",
+     "So he spreads one bigger bill across a month of plates, a rupee here, two there. Fair enough. He's not the one who raised it."
+    ],
+    "why_swipe": "So what do you do with this the next time it happens?"
+   },
+   {
+    "paragraphs": [
+     "Next time your usual order creeps up, look behind the counter before you blame the stall.",
+     "If there's a gas cylinder standing there, you already paid this month's hike. You just paid it in samosas."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Come back to it the next time your usual order costs a few rupees more.",
+   "send": "Send it to the friend who still splits the chai bill to the rupee.",
+   "promise": "Where your money really goes."
+  },
+  "caption": "What's the one thing at your regular stall that's gone up a few rupees this year without anyone saying a word?",
+  "hashtags": [
+   "#LPGPriceHike",
+   "#CommercialLPG",
+   "#StreetFoodIndia",
+   "#Mehngai"
+  ],
+  "alt_text": "A six-slide carousel. The cover says your samosa's two-rupee hike started nowhere near the stall. The slides follow a reader at their regular evening chai and samosa stall, getting back a few rupees less change and shrugging it off. It then points out that this month the commercial gas cylinder stalls and dhabas cook on went up by ₹62.50 to ₹71.50 depending on the city, while the home cylinder price did not change. It argues the home price is the one everyone watches, so the commercial hike reaches people only through plate prices, and the vendor spreads it out a rupee at a time. It ends by saying that if there's a gas cylinder behind the counter, you already paid this month's hike, just in samosas.",
+  "claims": [
+   {
+    "text": "This month the commercial gas cylinder every stall and dhaba cooks on went up by ₹62.50 to ₹71.50, depending on the city.",
+    "source_url": "https://www.goodreturns.in/news/lpg-gas-cylinder-prices-hiked-october-1-2026-19-kg-commercial-lpg-prices-up-rs-62-71-50-city-wise-1538497.html"
+   },
+   {
+    "text": "The domestic (home) LPG cylinder price did not change.",
+    "source_url": "https://www.goodreturns.in/news/lpg-gas-cylinder-prices-hiked-october-1-2026-19-kg-commercial-lpg-prices-up-rs-62-71-50-city-wise-1538497.html"
+   }
+  ]
+ }
 }
