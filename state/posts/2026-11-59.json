@@ -1,6 +1,6 @@
 {
  "id": "2026-11-59",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-12T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -66,6 +66,180 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-10-25T08:27:36.293080+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "problems": [
+    "The figure '70%' isn't in the sources; source it or remove it."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Hard failure 5 (no because): the post never says who gains from a targeted zero or why the company would do it this way. The topic's because is that a targeted zero costs less than a visible layoff and sends a sharper signal to exactly the people senior enough to act on it. That is missing. Slide 5 only describes how the zero feels.",
+     "Hard failure 12 (unsupported mechanism): the last slide states a motive as fact: 'A zero bonus isn't a cost cut. It's a message, sent only to the people old enough to read it.' The only sourced reason is that performance fell short of internal targets. A deliberate message is the writer's reading, not something the sources show. The line also denies the stated cost reason outright.",
+     "Hard failure 7 (dead slide): slide 5 ('a zero that stops exactly at your grade feels like it was written for you') says the same thing as the cover and slide 1 and sets up the closing line without adding a new beat. Slide 3 mostly repeats slide 2's 'you shrugged it off' beat."
+    ],
+    " scores": {
+     "hook": 3,
+     "relatable": 3,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 3,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 6 (and the payoff): stop stating the message as fact. Frame it as the opinion it is, e.g. what a flat zero does compared with a cut, or what readers will assume it means. Do not deny the memo's stated reason. Use the cover's ask to land the idea that people at this grade read it as a signal, without claiming it was a plan.",
+     "slide 5: replace the restated feeling with the missing because, framed as opinion. A zero aimed at one grade is cheap, it shrinks the pay bill without a layoff headline, and it lands on the people who can read it and who have the most options to leave. Cut the 'written for you' line, which repeats the cover.",
+     "slides 2-3: merge them into one slide. The habitual grumble and the fair-enough explanation are one beat, 'a cut felt like weather'. The freed slide can carry the because from note 2, so every slide moves the idea forward.",
+     "slide 1: it repeats the cover headline word for word. Give slide 1 a different angle on the same turn, such as the reader's old assumption that a bad quarter hits everyone the same, so the cover and slide 1 are not twins.",
+     "slide 4: keep the memo moment but make it more concrete and everyday: opening the mail, looking for the percentage that isn't there. The bold fact line reads like a news recap. Fold it into the scene in plain words and keep it to one fact."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Hard failure 5 (no because): the post never says who gains from a targeted zero or why the company would do it this way. The topic's because is that a targeted zero costs less than a visible layoff and sends a sharper signal to exactly the people senior enough to act on it. That is missing. Slide 5 only describes how the zero feels.",
+    "Hard failure 12 (unsupported mechanism): the last slide states a motive as fact: 'A zero bonus isn't a cost cut. It's a message, sent only to the people old enough to read it.' The only sourced reason is that performance fell short of internal targets. A deliberate message is the writer's reading, not something the sources show. The line also denies the stated cost reason outright.",
+    "Hard failure 7 (dead slide): slide 5 ('a zero that stops exactly at your grade feels like it was written for you') says the same thing as the cover and slide 1 and sets up the closing line without adding a new beat. Slide 3 mostly repeats slide 2's 'you shrugged it off' beat.",
+    "slide 6 (and the payoff): stop stating the message as fact. Frame it as the opinion it is, e.g. what a flat zero does compared with a cut, or what readers will assume it means. Do not deny the memo's stated reason. Use the cover's ask to land the idea that people at this grade read it as a signal, without claiming it was a plan.",
+    "slide 5: replace the restated feeling with the missing because, framed as opinion. A zero aimed at one grade is cheap, it shrinks the pay bill without a layoff headline, and it lands on the people who can read it and who have the most options to leave. Cut the 'written for you' line, which repeats the cover.",
+    "slides 2-3: merge them into one slide. The habitual grumble and the fair-enough explanation are one beat, 'a cut felt like weather'. The freed slide can carry the because from note 2, so every slide moves the idea forward.",
+    "slide 1: it repeats the cover headline word for word. Give slide 1 a different angle on the same turn, such as the reader's old assumption that a bad quarter hits everyone the same, so the cover and slide 1 are not twins.",
+    "slide 4: keep the memo moment but make it more concrete and everyday: opening the mail, looking for the percentage that isn't there. The bold fact line reads like a news recap. Fold it into the scene in plain words and keep it to one fact."
+   ]
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Slide 4 has 64 words; the limit is 60. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 5: the bold line 'a zero at your grade doesn't read like a cost cut. It reads like a note addressed to you' restates the cover and slide 1 in new words, so the last slide repeats the cover's point (dead slide).",
+     "Slide 4: 'Senior pay is where the big numbers sit', 'shrinks the bill without a layoff or a headline' and 'the people with the most options to leave' state an unsourced mechanism as fact. The 'without a headline' part is also wrong, because this exact memo became news.",
+     "Slide 4 and slide 5 land the same point twice: slide 4 says it hits people who can leave, slide 5 says it reads as a message."
+    ],
+    "scores": {
+     "hook": 3,
+     "relatable": 3,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 3,
+     "iq": 3,
+     "story": 3,
+     "tight": 3
+    },
+    "notes": [
+     "slide 5: Cut the paragraph that repeats the cover. End on the topic's payoff instead: a zero is a message sent only to people senior enough to read it. Keep the 'well deserved 👏' and Naukri beat as the sting, but let the final line say something the cover didn't.",
+     "slide 4: Merge slides 4 and 5 into one beat for the reason. Drop 'senior pay is where the big numbers sit' and 'without a headline'. Say what the topic supports: a flat zero aimed at one grade costs less than a visible layoff and gives the sharpest signal to the people senior enough to act on it. Frame the 'because' as how it reads, not as a proven plan.",
+     "slide 3: The 'you' and the TCS line sit awkwardly together, since most readers don't work at TCS. Either tell the whole moment as a typical office scene and then say 'this is what TCS told grade C3A and above', or open with the TCS fact as the peg and then move to 'you'. Keep the junior's 🎉 as a typical reaction, not a one-off event.",
+     "slide 1: It just repeats the cover headline. Give it a different line that carries the turn, for example that a bad quarter used to mean a smaller bonus for everyone, and this time it didn't. That makes the why_swipe question land.",
+     "slide 2: 'Always went one way' is a broad claim. Make the grumble more concrete (the percentage you check first, the 'at least it's something' text to a friend) so a reader recognises the moment. Cut the weather metaphor repeat if slide 1 already carries it."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Slide 5: the bold line 'a zero at your grade doesn't read like a cost cut. It reads like a note addressed to you' restates the cover and slide 1 in new words, so the last slide repeats the cover's point (dead slide).",
+    "Slide 4: 'Senior pay is where the big numbers sit', 'shrinks the bill without a layoff or a headline' and 'the people with the most options to leave' state an unsourced mechanism as fact. The 'without a headline' part is also wrong, because this exact memo became news.",
+    "Slide 4 and slide 5 land the same point twice: slide 4 says it hits people who can leave, slide 5 says it reads as a message.",
+    "slide 5: Cut the paragraph that repeats the cover. End on the topic's payoff instead: a zero is a message sent only to people senior enough to read it. Keep the 'well deserved 👏' and Naukri beat as the sting, but let the final line say something the cover didn't.",
+    "slide 4: Merge slides 4 and 5 into one beat for the reason. Drop 'senior pay is where the big numbers sit' and 'without a headline'. Say what the topic supports: a flat zero aimed at one grade costs less than a visible layoff and gives the sharpest signal to the people senior enough to act on it. Frame the 'because' as how it reads, not as a proven plan.",
+    "slide 3: The 'you' and the TCS line sit awkwardly together, since most readers don't work at TCS. Either tell the whole moment as a typical office scene and then say 'this is what TCS told grade C3A and above', or open with the TCS fact as the peg and then move to 'you'. Keep the junior's 🎉 as a typical reaction, not a one-off event.",
+    "slide 1: It just repeats the cover headline. Give it a different line that carries the turn, for example that a bad quarter used to mean a smaller bonus for everyone, and this time it didn't. That makes the why_swipe question land.",
+    "slide 2: 'Always went one way' is a broad claim. Make the grumble more concrete (the percentage you check first, the 'at least it's something' text to a friend) so a reader recognises the moment. Cut the weather metaphor repeat if slide 1 already carries it."
+   ]
+  }
+ ],
+ "updated_at": "2026-10-26T10:08:48.612671+00:00",
+ "sources": [
+  {
+   "url": "https://www.indiaweekly.biz/tcs-senior-staff-quarterly-bonus-cut/",
+   "fact": "A TCS internal memo reviewed by Reuters said senior staff (grade C3A and above) get no quarterly variable allowance this quarter, while junior employees get 100% of their eligible variable pay.",
+   "excerpt": "For associates C3A grade and above, there will be no QVA (quarterly variable allowance) this quarter. | Junior employees, meanwhile, will receive 100% of their eligible variable pay. | This decision was taken after careful consideration as our performance for the quarter fell short of internal targets.",
+   "date": "2026-10-10"
+  }
+ ],
+ "draft": {
+  "cover": {
+   "headline": "A bonus cut is weather. A [zero bonus] reads like a message.",
+   "sub": "Bad quarters used to hit everyone a little. Not this one."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "A bonus cut is weather. A zero bonus reads like a message.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "How did a bad quarter usually feel before this?"
+   },
+   {
+    "paragraphs": [
+     "Appraisal season always went one way. The variable pay mail lands, you scroll past the HR paragraph to the percentage, and sigh.",
+     "Lower than last time. Bad quarter, smaller pot, everyone takes a haircut. You grumble at the coffee machine for a day and forget it, like rain on a weekday."
+    ],
+    "why_swipe": "So what was different about this mail?"
+   },
+   {
+    "paragraphs": [
+     "This quarter you open the mail and look for the number. There isn't one. A single line says your grade gets no variable pay, because targets fell short.",
+     "An hour later your junior drops a 🎉 in the team chat. Theirs came in full.",
+     "At TCS, that was the Q2 mail for everyone at grade C3A and above."
+    ],
+    "why_swipe": "Why would a zero for one grade make more sense than a small cut for all?"
+   },
+   {
+    "paragraphs": [
+     "Yes, the targets fell short. That part is real. But a zero for one grade does something a cut for everyone can't.",
+     "Senior pay is where the big numbers sit. Skipping it shrinks the bill without a layoff or a headline.",
+     "**And it lands on the people with the most options to leave.**"
+    ],
+    "why_swipe": "So how does it actually get read?"
+   },
+   {
+    "paragraphs": [
+     "**Whatever the memo meant, a zero at your grade doesn't read like a cost cut. It reads like a note addressed to you.**",
+     "On the team call your junior thanks everyone for a great quarter. You type \"well deserved 👏\" and open Naukri in another tab."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Come back to it the next time a variable pay mail skips your grade.",
+   "send": "Send it to the senior colleague whose bonus came in at zero, not reduced.",
+   "promise": "How Indian offices really work."
+  },
+  "caption": "When the variable pay mail lands, which line do you scroll to first, and what did it say this quarter?",
+  "hashtags": [
+   "#VariablePay",
+   "#AppraisalSeason",
+   "#CorporateIndia",
+   "#ITJobsIndia"
+  ],
+  "alt_text": "A five-slide carousel. The cover reads: A bonus cut is weather. A zero bonus reads like a message. The slides follow a reader who used to grumble about a trimmed bonus every appraisal season and then forget it. This quarter the mail has no percentage, only a line saying their grade gets no variable pay because targets fell short, while their junior gets full pay. It notes this was the Q2 mail at TCS for grade C3A and above. It argues that a zero for one grade shrinks the pay bill without a layoff and lands on the people with the most options to leave. It ends with the reader typing 'well deserved' to their junior and opening a job site in another tab.",
+  "claims": [
+   {
+    "text": "TCS told staff at grade C3A and above there would be no quarterly variable allowance for Q2 FY27, citing targets that fell short.",
+    "source_url": "topic"
+   },
+   {
+    "text": "Junior TCS employees still got their full variable pay that quarter.",
+    "source_url": "https://www.indiaweekly.biz/tcs-senior-staff-quarterly-bonus-cut/"
+   }
+  ]
+ }
 }

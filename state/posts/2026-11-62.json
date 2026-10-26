@@ -1,6 +1,6 @@
 {
  "id": "2026-11-62",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-10T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -57,6 +57,189 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-10-25T08:27:36.292554+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Hard failure 12 (mechanism not true or can't be shown): \"The bot that won't let you reach a human isn't bad design. It's a bill being passed down to you.\" and \"The shortest chat is the cheapest one, so the link back to the app shows up long before a human does.\" These state a deliberate cost-cutting motive as fact, and nothing in the sources shows it. The mechanism also contradicts itself. A bot that loops the menu, sends a smiley and asks \"Did this solve your problem?\" sends more billable replies, not fewer. Menu loops and tracking-link bots existed before October 1, so the new fee can't be what explains the day-nine scene.",
+     "Hard failure 7 (dead slides): slide 5 restates slide 4's meter idea (\"reply fast\" becoming \"reply less\", and 11.5 paise across lakhs of chats) with no new beat. Slide 6's bolded line repeats the cover's point in new words, and \"you pay it in waiting\" is a claim the post never shows."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 3,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 3-5: Fix the logic. Every bot reply is also a billable message, so a looping bot can't be a cost saving. Reframe around what the fee actually changes: every reply now has a price, so brands want each chat to end in as few replies as possible. Use the \"Did this solve your problem? Yes / No\" prompt as the sign of that. It is a button that lets a chat close. Say the incentive is to close the chat, not that the loop is a plan.",
+     "slide 6: Drop \"isn't bad design, it's a bill being passed down to you\" as a stated fact. Soften the claim to what the numbers support: the fee gives brands a reason to keep chats short, and you feel it as waiting. Don't claim day nine became day twelve as if it were data. It is a typical scene, so frame it as typical, e.g. \"the wait gets longer\".",
+     "slide 5: Cut or merge it into slide 4. It repeats the meter. If you keep it, give it a new beat, such as the one-line shift from \"reply fast\" to \"close the chat\". Remove the \"lakhs of chats / budget review\" speculation, which no source supports.",
+     "slide 4: The bolded line is the cover sentence word for word. Replace it with a fresh line, and drop \"1,000 runs out fast\", which no source supports. State the two sourced figures once, plainly: 1,000 free a month, then about 11.5 paise a reply.",
+     "slide 6: The ending needs a line people will repeat or a test to run, not a recap of the cover. For example, give a test: next time the bot asks \"Did this solve your problem?\", notice that Yes closes the chat and No sends you around the menu again. That gives a sting without asserting a secret plan."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Hard failure 12 (mechanism not true or can't be shown): \"The bot that won't let you reach a human isn't bad design. It's a bill being passed down to you.\" and \"The shortest chat is the cheapest one, so the link back to the app shows up long before a human does.\" These state a deliberate cost-cutting motive as fact, and nothing in the sources shows it. The mechanism also contradicts itself. A bot that loops the menu, sends a smiley and asks \"Did this solve your problem?\" sends more billable replies, not fewer. Menu loops and tracking-link bots existed before October 1, so the new fee can't be what explains the day-nine scene.",
+    "Hard failure 7 (dead slides): slide 5 restates slide 4's meter idea (\"reply fast\" becoming \"reply less\", and 11.5 paise across lakhs of chats) with no new beat. Slide 6's bolded line repeats the cover's point in new words, and \"you pay it in waiting\" is a claim the post never shows.",
+    "slide 3-5: Fix the logic. Every bot reply is also a billable message, so a looping bot can't be a cost saving. Reframe around what the fee actually changes: every reply now has a price, so brands want each chat to end in as few replies as possible. Use the \"Did this solve your problem? Yes / No\" prompt as the sign of that. It is a button that lets a chat close. Say the incentive is to close the chat, not that the loop is a plan.",
+    "slide 6: Drop \"isn't bad design, it's a bill being passed down to you\" as a stated fact. Soften the claim to what the numbers support: the fee gives brands a reason to keep chats short, and you feel it as waiting. Don't claim day nine became day twelve as if it were data. It is a typical scene, so frame it as typical, e.g. \"the wait gets longer\".",
+    "slide 5: Cut or merge it into slide 4. It repeats the meter. If you keep it, give it a new beat, such as the one-line shift from \"reply fast\" to \"close the chat\". Remove the \"lakhs of chats / budget review\" speculation, which no source supports.",
+    "slide 4: The bolded line is the cover sentence word for word. Replace it with a fresh line, and drop \"1,000 runs out fast\", which no source supports. State the two sourced figures once, plainly: 1,000 free a month, then about 11.5 paise a reply.",
+    "slide 6: The ending needs a line people will repeat or a test to run, not a recap of the cover. For example, give a test: next time the bot asks \"Did this solve your problem?\", notice that Yes closes the chat and No sends you around the menu again. That gives a sting without asserting a secret plan."
+   ]
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Slides [3] have no why_swipe: say what pulls the reader to the next slide, or rewrite the slide until something does."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Hard failure 12, slide 5: \"That button isn't a survey. It's the exit. Yes closes the ticket. No sends you back to 3, then 2...\" states as fact that the Yes/No button was built as a cost-driven exit. Nothing in the sources or topic shows that. It is a deliberate-plan claim. The 'Yes' button closing a ticket is shown nowhere either.",
+     "Hard failure 7, slide 3: \"You decide the bot is badly built. Fair enough... You also assume brands love WhatsApp support because it's free.\" It mostly restates the cover and slide 2 and holds back the turn. The reader gets no new reason to swipe beyond 'it changed'.",
+     "Hard failure 4/5 (weak): the post never lands the topic's turn that brands now have a reason to answer less and make humans harder to reach. It stops at 'close in fewest replies', so the 'because' is thin and the topic's payoff (the bill is being passed down to you) is missing."
+    ],
+    "scores": {
+     "hook": 3,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 3,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 5: Stop asserting the button is a designed exit. Keep the lived moment (day twelve, thumb taps Yes just to make it stop) and frame the incentive as what the price now rewards: every extra reply costs the brand 11.5 paise, so a chat that ends is cheaper than one that gets solved. Say what you can show (the incentive), not a plan someone made.",
+     "slide 3: Cut or merge it. It repeats the 'bad bot' doubt from slide 2 and delays the turn. Fold the 'brands assumed WhatsApp was free' belief directly into the slide that gives the price, so the turn arrives one slide earlier and the post can spend a slide on the because.",
+     "slide 4: Add the missing beat from the topic: the cheapest way for a brand to cut this cost is to make the human part scarcer, because each extra reply past 1,000 now costs money. Write it as an incentive that flips from 'answer fast' to 'answer less'. Do not write it as a secret instruction. Right now the slide only says 'fewest replies', which is not the same thing as 'harder to reach a person'.",
+     "slide 5 / end: The payoff should land the topic line in your own words: the looping bot may not be bad design, it may be the bill being passed down to you, paid in your time. The current closer is a scene, not a line people will repeat. Also make the save line a test the reader can run, not just 'read it again'.",
+     "slide 2: Good scene. Add one concrete detail only someone who lived it would notice, such as the bot replying to 'talk to agent' with 'I can help with that!'. Cut the tracking-link repeat if you need room. Keep it to the typical-scenario framing."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Hard failure 12, slide 5: \"That button isn't a survey. It's the exit. Yes closes the ticket. No sends you back to 3, then 2...\" states as fact that the Yes/No button was built as a cost-driven exit. Nothing in the sources or topic shows that. It is a deliberate-plan claim. The 'Yes' button closing a ticket is shown nowhere either.",
+    "Hard failure 7, slide 3: \"You decide the bot is badly built. Fair enough... You also assume brands love WhatsApp support because it's free.\" It mostly restates the cover and slide 2 and holds back the turn. The reader gets no new reason to swipe beyond 'it changed'.",
+    "Hard failure 4/5 (weak): the post never lands the topic's turn that brands now have a reason to answer less and make humans harder to reach. It stops at 'close in fewest replies', so the 'because' is thin and the topic's payoff (the bill is being passed down to you) is missing.",
+    "slide 5: Stop asserting the button is a designed exit. Keep the lived moment (day twelve, thumb taps Yes just to make it stop) and frame the incentive as what the price now rewards: every extra reply costs the brand 11.5 paise, so a chat that ends is cheaper than one that gets solved. Say what you can show (the incentive), not a plan someone made.",
+    "slide 3: Cut or merge it. It repeats the 'bad bot' doubt from slide 2 and delays the turn. Fold the 'brands assumed WhatsApp was free' belief directly into the slide that gives the price, so the turn arrives one slide earlier and the post can spend a slide on the because.",
+    "slide 4: Add the missing beat from the topic: the cheapest way for a brand to cut this cost is to make the human part scarcer, because each extra reply past 1,000 now costs money. Write it as an incentive that flips from 'answer fast' to 'answer less'. Do not write it as a secret instruction. Right now the slide only says 'fewest replies', which is not the same thing as 'harder to reach a person'.",
+    "slide 5 / end: The payoff should land the topic line in your own words: the looping bot may not be bad design, it may be the bill being passed down to you, paid in your time. The current closer is a scene, not a line people will repeat. Also make the save line a test the reader can run, not just 'read it again'.",
+    "slide 2: Good scene. Add one concrete detail only someone who lived it would notice, such as the bot replying to 'talk to agent' with 'I can help with that!'. Cut the tracking-link repeat if you need room. Keep it to the typical-scenario framing."
+   ]
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Slide 4 has 61 words; the limit is 60. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide."
+   ]
+  }
+ ],
+ "updated_at": "2026-10-26T10:08:48.604228+00:00",
+ "sources": [
+  {
+   "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing/",
+   "fact": "Meta's official pricing documentation says service messages that were previously free became billable per message from Oct 1, 2026, but each business phone number gets 1,000 free delivered service messages a month.",
+   "excerpt": "Meta resumed charging, on a per-message basis, for messages that were previously free. | Each business phone number has one free tier of 1,000 delivered service messages per month. | This page reflects pricing updates that became effective as of October 1, 2026 by Messaging account timezone. | Eligible customers must ensure all Messaging accounts in their business portfolio are migrated to INR",
+   "date": "2026-10-01"
+  },
+  {
+   "url": "https://m.aisensy.com/blog/whatsapp-pricing-update-october-2026/",
+   "fact": "A WhatsApp Business solution provider (AiSensy) says service messages became chargeable from 1 Oct 2026, with billing from the 1,001st delivered message and an India price of ₹0.145 per message on its platform. This is a vendor blog, not a primary source.",
+   "excerpt": "From 1 October 2026, WhatsApp service messages will become chargeable. | Each WhatsApp Business API will get 1,000 free service messages every month. | Billing will start from the 1,001st delivered service message. | In India, service messages will cost ₹0.145 per delivered message on AiSensy.",
+   "date": "2026-09-12"
+  }
+ ],
+ "draft": {
+  "cover": {
+   "headline": "Your WhatsApp refund chat now has a [meter running]",
+   "sub": "Past 1,000 messages a month, every reply costs the brand."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Your WhatsApp refund chat now has a meter running.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "What meter? The chat has always felt free."
+   },
+   {
+    "paragraphs": [
+     "It's day nine of waiting for a refund. You open the brand's WhatsApp and type \"Hi\".",
+     "A menu arrives. You tap 3 for Order issues, then 2 for Refund status. You type \"talk to agent\".",
+     "\"I can help with that! 😊\" Then the same menu, from the top."
+    ],
+    "why_swipe": "Isn't this just a badly built bot?"
+   },
+   {
+    "paragraphs": [
+     "You'd assume brands moved support to WhatsApp because it cost them nothing. For years, those replies were free.",
+     "From October 1, each business number gets 1,000 free service messages a month. **Past that, every reply costs the brand about 11.5 paise.**"
+    ],
+    "why_swipe": "11.5 paise is nothing. Why would that change anything?"
+   },
+   {
+    "paragraphs": [
+     "Yes, 11.5 paise is nothing. Now add up every \"Hi\", every \"any update?\" and every \"talk to agent\" across lakhs of orders.",
+     "A person who actually fixes your refund asks questions, says sorry, checks back. That's a lot of replies.",
+     "So the price now rewards a different chat. It used to pay to answer fast. Now it pays to answer less."
+    ],
+    "why_swipe": "So what does 'answer less' feel like from your side?"
+   },
+   {
+    "paragraphs": [
+     "Somewhere around day twelve, the bot asks \"Did this solve your problem?\" and your thumb taps Yes just to make it stop.",
+     "**That loop isn't always bad design. Sometimes it's the brand's bill, passed down to you and paid in minutes.**"
+    ]
+   }
+  ],
+  "end": {
+   "save": "Next time a bot loops you, count the replies it takes to reach a human.",
+   "send": "Send it to the friend who has typed \"talk to agent\" five times this week.",
+   "promise": "How brands really work behind the screen."
+  },
+  "caption": "I used to blame the bot. Now I check the pricing page first.",
+  "hashtags": [
+   "#WhatsAppBusiness",
+   "#CustomerSupport",
+   "#RefundStatus",
+   "#IndianConsumers"
+  ],
+  "alt_text": "A five-slide carousel. The cover says your WhatsApp refund chat now has a meter running, because past 1,000 messages a month every reply costs the brand. The slides follow a reader on day nine of waiting for a refund. They tap through a menu, type 'talk to agent', and the bot replies 'I can help with that!' before sending the same menu again. The post explains that brands used to get these replies free. From October 1, 2026, each business number gets 1,000 free service messages a month and pays about 11.5 paise per reply after that. A person who really solves a problem sends many replies, so the price now rewards answering less instead of answering fast. It ends on day twelve, when the reader taps Yes on 'Did this solve your problem?' just to make it stop. The final line says the loop isn't always bad design; sometimes it's the brand's bill, passed down to you and paid in minutes.",
+  "claims": [
+   {
+    "text": "From October 1, 2026, WhatsApp service messages that were previously free became billable per message.",
+    "source_url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing/"
+   },
+   {
+    "text": "Each business phone number gets 1,000 free service messages a month.",
+    "source_url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing/"
+   },
+   {
+    "text": "After the first 1,000 free messages a month, each reply costs the brand about 11.5 paise.",
+    "source_url": "topic",
+    "derived_from": "₹0.115 per message = 11.5 paise (before GST)"
+   }
+  ]
+ }
 }

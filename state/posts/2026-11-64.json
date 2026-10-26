@@ -1,6 +1,6 @@
 {
  "id": "2026-11-64",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-07T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -57,6 +57,1278 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-10-25T16:40:08.046734+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "slide 6: The closer's logic wobbles. The post's own scenes show seniors shouting when no phone was out, so \"a phone is the only thing keeping your senior polite\" doesn't match what we just walked through. Rework the bold line so it says the opposite plainly: the shouting stops only when proof exists, so the proof is the only rule. Keep it as one line people would repeat.",
+     "slide 6: \"Notice your own hand reaching for the record button\" is a little contrived. Many offices don't allow recording calls, and slide 5 says the junior has no witness who will speak up. Try a sharper test the reader can run on their own memory, such as how many times the shouting was loud enough that everyone muted, and what happened after.",
+     "slide 4: The IAS slide is the only news beat and is fine at one number. Tie the source wording more closely: JKAS members alleged a pattern. \"Fellow officers said it was a pattern\" is close, but \"alleged\" keeps it safe. Make sure the bolded line leans on the reader's own experience from slides 2 and 3, not on the news.",
+     "slide 5: The because is right (it costs the senior nothing, and the junior has an EMI and an appraisal). To lift iq, add one beat on who gains from the silence: the senior keeps his authority, and the room learns to go on mute. Do this only if it replaces words and doesn't add a slide."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "The take's premise is wrong: Premise 1 (the IAS case) fails as stated, and premise 3 gets the cause wrong. Premise 2 is mostly right in general but overstated. (1) None of the coverage I found has 'fellow officers' calling this a pattern. The Wire and The Pioneer report no earlier complaints about his conduct at work; his record is separate CBI cases over gun licences and disproportionate assets. The only talk of a pattern is a former director saying insults like this usually go unreported, and one colleague claiming the junior officer can be abrasive with her own staff. The clip also wasn't the only new thing. It came from an official virtual review meeting (14 or 15 October; reports differ), and the department says the National Informatics Centre holds the full recording and the circulating clips are selectively edited. So an institutional record already existed. The junior officer, Beenish Wani, also answered back on the call ('Go to hell'). (2) In this case the junior did not go without support: her service association (JKAS) called a one-day pen-down strike, the National Commission for Women (NCW) acted on its own and asked for an action-taken report within 7 days, and party leaders condemned him. Even so, all of this started only after the clip went public, so the post's main point that visibility is what creates cost holds up here. (3) 'Stress never makes them shout at their own boss' does not rule out stress. Research on abusive supervision as displaced aggression (Hoobler & Brass 2006) says the opposite: supervisors who feel wronged by their own organisation take it out on subordinates, because they are the safe targets. Stress drives it, and the power gap decides who gets hit. Timing: 'this month' is wrong for a 7 November post because the incident was in October. The 15-day report was due around 31 October, so it may already be out by posting day, which needs checking.. How it actually works: Abusive supervision usually works as displaced aggression. Pressure from above, or a sense of being treated unfairly, gets turned on whoever can't hit back, so stress and power together explain it. Neither one rules the other out. Formal remedies do exist in principle; for IAS officers, conduct rules are enforced through the Lieutenant Governor's office, not the elected government. In practice they only get used once something is visible and documented: here, the leaked clip led to a government inquiry with a 15-day deadline (GAD Order 1654-JK(GAD) of 2026, dated 16 October), the NCW stepping in on its own, and a strike by the officers' association. Rebuild the post on the correct mechanism.",
+     "Says more than the sources: 'A call in which an IAS officer verbally abused a junior officer leaked and went viral in the month before the post (November 2026).'. What's true: The abuse came out in a video of an online NRLM/Mission YUVA review meeting around 13–15 October 2026. It was a video of a meeting, not a leaked phone call. It went viral in mid-October 2026. ThePrint reported it on 15 Oct 2026, which is the first report date found. The post goes live on 7 Nov 2026, so the incident was in October, not in the month of November..",
+     "Old news framed as new: 'The J&K government's inquiry report is due within 15 days.' (first reported 2026-10-16). Frame it as past, or drop it. What's true: The 15-day deadline ran from the 16 Oct 2026 order, so it fell around 31 Oct 2026. That is before the 7 Nov go-live date. 'Is due' will be stale unless the report has been submitted or the deadline extended. I found no report on the outcome. Reword it to 'was due within 15 days' and check for the outcome before publishing..",
+     "Says more than the sources: 'Fellow officers said the IAS officer's abusive behaviour was a pattern, not a one-off.'. What's true: The JKAS fraternity, the association of J&K Administrative Service officers, alleged the pattern. It is an allegation, not an established finding. They said it was 'not an isolated incident' and that he had earlier used 'unparliamentary and demeaning language'. Attribute it to 'the JKAS fraternity alleged', not to 'fellow officers said'.."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "A call in which an IAS officer verbally abused a junior officer leaked and went viral in the month before the post (November 2026).",
+      "sentence": "This month, a call where an IAS officer verbally abused a junior officer leaked and went viral.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c2",
+      "text": "The J&K government ordered an inquiry into the IAS officer's abuse of the junior officer.",
+      "sentence": "The J&K government ordered an inquiry, with a report due in 15 days.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c3",
+      "text": "The J&K government's inquiry report is due within 15 days.",
+      "sentence": "The J&K government ordered an inquiry, with a report due in 15 days.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c4",
+      "text": "Fellow officers said the IAS officer's abusive behaviour was a pattern, not a one-off.",
+      "sentence": "Fellow officers said it was a pattern, not a one-off.",
+      "type": "event",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c5",
+      "text": "The only new element in the IAS officer story was the clip; the abusive behaviour itself was not new.",
+      "sentence": "The only new thing in that story was the clip.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c6",
+      "text": "Seniors who shout at juniors in closed rooms face no cost because juniors have financial obligations (EMI), pending appraisals and no witnesses willing to speak up, so abuse persists unless recorded and made public.",
+      "sentence": "Because shouting at a junior in a closed room costs the senior nothing. The junior has an EMI, an appraisal coming and no witness who will speak up.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "Stressed bosses do not shout at their own bosses, so stress does not explain shouting at juniors.",
+      "sentence": "But stress never seems to make them shout at their own boss.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "misframed",
+      "event_date": "2026-10-14",
+      "correct": "The abuse came out in a video of an online NRLM/Mission YUVA review meeting around 13–15 October 2026. It was a video of a meeting, not a leaked phone call. It went viral in mid-October 2026. ThePrint reported it on 15 Oct 2026, which is the first report date found. The post goes live on 7 Nov 2026, so the incident was in October, not in the month of November.",
+      "sources": [
+       {
+        "url": "https://theprint.in/india/j-k-ias-officer-abuses-woman-official-jkas-fraternity-seeks-probe/3073255/",
+        "publisher": "ThePrint",
+        "published_date": "2026-10-15",
+        "quote": "came to light through a purported video",
+        "tier": 2
+       },
+       {
+        "url": "https://www.theweek.in/news/india/2026/10/16/who-is-kumar-rajeev-ranjan-jandk-ias-officer-faces-action-for-abusing-woman-officer-years-after-arms-licence-row.html",
+        "publisher": "The Week",
+        "published_date": "2026-10-16",
+        "quote": "You are bl***y sh*t. I can always talk to you like this ... I am your boss",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2026-10-16",
+      "correct": "The J&K General Administration Department ordered the inquiry on 16 Oct 2026 (GO No. 1654-JK(GAD) of 2026) and appointed Mandeep Kaur, IAS, to conduct it.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/india/2026/10/16/who-is-kumar-rajeev-ranjan-jandk-ias-officer-faces-action-for-abusing-woman-officer-years-after-arms-licence-row.html",
+        "publisher": "The Week",
+        "published_date": "2026-10-16",
+        "quote": "the J&K government ordered an in-depth inquiry and appointed senior IAS officer Mandeep Kaur to investigate",
+        "tier": 2
+       },
+       {
+        "url": "https://www.deccanchronicle.com/news/current-affairs/jk-orders-probe-into-verbal-spat-between-senior-ias-jkas-officers-1996384",
+        "publisher": "Deccan Chronicle",
+        "published_date": "2026-10-16",
+        "quote": "J&K Orders Probe Into Verbal Spat Between Senior IAS, JKAS Officers",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "outdated",
+      "event_date": "2026-10-16",
+      "correct": "The 15-day deadline ran from the 16 Oct 2026 order, so it fell around 31 Oct 2026. That is before the 7 Nov go-live date. 'Is due' will be stale unless the report has been submitted or the deadline extended. I found no report on the outcome. Reword it to 'was due within 15 days' and check for the outcome before publishing.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/india/2026/10/16/who-is-kumar-rajeev-ranjan-jandk-ias-officer-faces-action-for-abusing-woman-officer-years-after-arms-licence-row.html",
+        "publisher": "The Week",
+        "published_date": "2026-10-16",
+        "quote": "She has 15 days to submit a report.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.deccanchronicle.com/news/current-affairs/jk-orders-probe-into-verbal-spat-between-senior-ias-jkas-officers-1996384",
+        "publisher": "Deccan Chronicle",
+        "published_date": "2026-10-16",
+        "quote": "J&K Orders Probe Into Verbal Spat Between Senior IAS, JKAS Officers",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "misframed",
+      "event_date": "2026-10-15",
+      "correct": "The JKAS fraternity, the association of J&K Administrative Service officers, alleged the pattern. It is an allegation, not an established finding. They said it was 'not an isolated incident' and that he had earlier used 'unparliamentary and demeaning language'. Attribute it to 'the JKAS fraternity alleged', not to 'fellow officers said'.",
+      "sources": [
+       {
+        "url": "https://theprint.in/india/j-k-ias-officer-abuses-woman-official-jkas-fraternity-seeks-probe/3073255/",
+        "publisher": "ThePrint",
+        "published_date": "2026-10-15",
+        "quote": "this is not an isolated incident",
+        "tier": 2
+       },
+       {
+        "url": "https://www.theweek.in/news/india/2026/10/16/who-is-kumar-rajeev-ranjan-jandk-ias-officer-faces-action-for-abusing-woman-officer-years-after-arms-licence-row.html",
+        "publisher": "The Week",
+        "published_date": "2026-10-16",
+        "quote": "not an isolated incident",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "Premise 1 (the IAS case) fails as stated, and premise 3 gets the cause wrong. Premise 2 is mostly right in general but overstated. (1) None of the coverage I found has 'fellow officers' calling this a pattern. The Wire and The Pioneer report no earlier complaints about his conduct at work; his record is separate CBI cases over gun licences and disproportionate assets. The only talk of a pattern is a former director saying insults like this usually go unreported, and one colleague claiming the junior officer can be abrasive with her own staff. The clip also wasn't the only new thing. It came from an official virtual review meeting (14 or 15 October; reports differ), and the department says the National Informatics Centre holds the full recording and the circulating clips are selectively edited. So an institutional record already existed. The junior officer, Beenish Wani, also answered back on the call ('Go to hell'). (2) In this case the junior did not go without support: her service association (JKAS) called a one-day pen-down strike, the National Commission for Women (NCW) acted on its own and asked for an action-taken report within 7 days, and party leaders condemned him. Even so, all of this started only after the clip went public, so the post's main point that visibility is what creates cost holds up here. (3) 'Stress never makes them shout at their own boss' does not rule out stress. Research on abusive supervision as displaced aggression (Hoobler & Brass 2006) says the opposite: supervisors who feel wronged by their own organisation take it out on subordinates, because they are the safe targets. Stress drives it, and the power gap decides who gets hit. Timing: 'this month' is wrong for a 7 November post because the incident was in October. The 15-day report was due around 31 October, so it may already be out by posting day, which needs checking.",
+     "actual_mechanism": "Abusive supervision usually works as displaced aggression. Pressure from above, or a sense of being treated unfairly, gets turned on whoever can't hit back, so stress and power together explain it. Neither one rules the other out. Formal remedies do exist in principle; for IAS officers, conduct rules are enforced through the Lieutenant Governor's office, not the elected government. In practice they only get used once something is visible and documented: here, the leaked clip led to a government inquiry with a 15-day deadline (GAD Order 1654-JK(GAD) of 2026, dated 16 October), the NCW stepping in on its own, and a strike by the officers' association.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://dailypioneer.com/page1/ias-officers-abuse-video-sparks-outrage-in-jk",
+       "published_date": "2026-10-16",
+       "quote": "As a UT, we expect the authorities with control over the IAS officers to set the right example (Omar Abdullah). Not a quote, summary of report: GAD Order 1654-JK(GAD) of 2026 gives inquiry officer Mandeep Kaur 15 days; Labour Dept says clips selectively edited and NIC holds the complete recording; no prior conduct complaints mentioned."
+      },
+      {
+       "url": "https://m.thewire.in/article/politics/in-jammu-and-kashmir-an-ias-officers-rant-exposes-a-system-where-every-superior-has-someone-to-humiliate",
+       "published_date": "2026-10-20",
+       "quote": "I can always speak to you like this. Not a quote, summary of report: Wani replied 'Go to hell'; a former director says such insults usually go unreported; no formal prior complaints named."
+      },
+      {
+       "url": "https://newsable.asianetnews.com/india/ncw-seeks-inquiry-into-j-k-ias-officer-seen-abusing-woman-officer-articleshow-42ra75a",
+       "published_date": "2026-10",
+       "quote": "Not a quote, summary of coverage: NCW took suo motu cognisance and sought an Action Taken Report within seven days; the JKAS Association called a one-day pen-down strike."
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Abusive_supervision",
+       "published_date": "n.d.",
+       "quote": "Not a quote, summary: Hoobler & Brass (2006, Journal of Applied Psychology 91(5):1125-1133), with 210 supervisors, found that supervisors' perceived psychological contract violations predicted subordinates' reports of abusive supervision, i.e. displaced aggression."
+      },
+      {
+       "url": "https://deepblue.lib.umich.edu/items/abc81797-2456-4011-b42c-f4f276d0291e/full",
+       "published_date": "n.d.",
+       "quote": "A Trickle-Down Model Of Abusive Supervision (title only; supports supervisor-mistreated-by-own-boss -> abuses subordinates)"
+      }
+     ]
+    },
+    "text_hash": "315db777ec96cba9b352c773caef764740f2b867",
+    "at": "2026-10-26T10:05:40.546320+00:00"
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "The take's premise is wrong: Premise 1 (the IAS case) fails as stated, and premise 3 gets the cause wrong. Premise 2 is mostly right in general but overstated. (1) None of the coverage I found has 'fellow officers' calling this a pattern. The Wire and The Pioneer report no earlier complaints about his conduct at work; his record is separate CBI cases over gun licences and disproportionate assets. The only talk of a pattern is a former director saying insults like this usually go unreported, and one colleague claiming the junior officer can be abrasive with her own staff. The clip also wasn't the only new thing. It came from an official virtual review meeting (14 or 15 October; reports differ), and the department says the National Informatics Centre holds the full recording and the circulating clips are selectively edited. So an institutional record already existed. The junior officer, Beenish Wani, also answered back on the call ('Go to hell'). (2) In this case the junior did not go without support: her service association (JKAS) called a one-day pen-down strike, the National Commission for Women (NCW) acted on its own and asked for an action-taken report within 7 days, and party leaders condemned him. Even so, all of this started only after the clip went public, so the post's main point that visibility is what creates cost holds up here. (3) 'Stress never makes them shout at their own boss' does not rule out stress. Research on abusive supervision as displaced aggression (Hoobler & Brass 2006) says the opposite: supervisors who feel wronged by their own organisation take it out on subordinates, because they are the safe targets. Stress drives it, and the power gap decides who gets hit. Timing: 'this month' is wrong for a 7 November post because the incident was in October. The 15-day report was due around 31 October, so it may already be out by posting day, which needs checking.. How it actually works: Abusive supervision usually works as displaced aggression. Pressure from above, or a sense of being treated unfairly, gets turned on whoever can't hit back, so stress and power together explain it. Neither one rules the other out. Formal remedies do exist in principle; for IAS officers, conduct rules are enforced through the Lieutenant Governor's office, not the elected government. In practice they only get used once something is visible and documented: here, the leaked clip led to a government inquiry with a 15-day deadline (GAD Order 1654-JK(GAD) of 2026, dated 16 October), the NCW stepping in on its own, and a strike by the officers' association. Rebuild the post on the correct mechanism.",
+    "Says more than the sources: 'A call in which an IAS officer verbally abused a junior officer leaked and went viral in the month before the post (November 2026).'. What's true: The abuse came out in a video of an online NRLM/Mission YUVA review meeting around 13–15 October 2026. It was a video of a meeting, not a leaked phone call. It went viral in mid-October 2026. ThePrint reported it on 15 Oct 2026, which is the first report date found. The post goes live on 7 Nov 2026, so the incident was in October, not in the month of November..",
+    "Old news framed as new: 'The J&K government's inquiry report is due within 15 days.' (first reported 2026-10-16). Frame it as past, or drop it. What's true: The 15-day deadline ran from the 16 Oct 2026 order, so it fell around 31 Oct 2026. That is before the 7 Nov go-live date. 'Is due' will be stale unless the report has been submitted or the deadline extended. I found no report on the outcome. Reword it to 'was due within 15 days' and check for the outcome before publishing..",
+    "Says more than the sources: 'Fellow officers said the IAS officer's abusive behaviour was a pattern, not a one-off.'. What's true: The JKAS fraternity, the association of J&K Administrative Service officers, alleged the pattern. It is an allegation, not an established finding. They said it was 'not an isolated incident' and that he had earlier used 'unparliamentary and demeaning language'. Attribute it to 'the JKAS fraternity alleged', not to 'fellow officers said'.."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Hard failure 7 (dead slide), slide 6: the bolded line 'that's not a bad boss. That's the whole culture' restates the cover's point in new words, and the closing 'red recording dot' image adds no new step.",
+     "Hard failure 12 (mechanism that can't be shown), slide 6: 'Everyone is checking for the red recording dot' is stated as fact, and it contradicts slide 2, where the senior shouted live in front of everyone with no fear of a clip. The mechanism is that private humiliation has no cost, not that seniors watch for recording."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 3,
+     "eq": 3,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 6: Rebuild the ending around the gap the post has already set up: the shouting on your call was seen by everyone and still nothing happened, so the clip is the only thing that ever moved anything. Drop the 'red recording dot' line. End on a sting or a test the reader can run, such as 'who on that call would have said a word if it hadn't been recorded?'. Don't restate the cover.",
+     "slide 4: The news beat reads like a recap (October, IAS, inquiry, association). Cut it to one or two plain sentences and tie it back to the reader's call. The sourced fact and the real_details line ('Had this not happened online, nobody would have said a word about it') should serve the opinion, not carry the slide. Also say 'JKAS members' rather than 'officers' association', to match the source.",
+     "slide 3: This slide mostly explains the excuses the reader already knows, and the 'different junior' line is the only new beat. Merge it into slide 2 or sharpen it with a concrete detail, such as fixing the slides at night while the senior acts like nothing happened, so the reader has a reason to swipe.",
+     "slide 5: The 'because' is thin and generic ('costs your senior nothing'). Say who gains: the senior uses the shout to pass pressure down, and the junior's EMI, appraisal and the muted room are what keep it free of cost. Make the cost asymmetry the turn, and say it once in plain words.",
+     "cover: The sub 'Think about every time it wasn't.' is vague and reads like a nudge. Make it a plain claim that adds to the headline, or cut it."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Hard failure 7 (dead slide), slide 6: the bolded line 'that's not a bad boss. That's the whole culture' restates the cover's point in new words, and the closing 'red recording dot' image adds no new step.",
+    "Hard failure 12 (mechanism that can't be shown), slide 6: 'Everyone is checking for the red recording dot' is stated as fact, and it contradicts slide 2, where the senior shouted live in front of everyone with no fear of a clip. The mechanism is that private humiliation has no cost, not that seniors watch for recording.",
+    "slide 6: Rebuild the ending around the gap the post has already set up: the shouting on your call was seen by everyone and still nothing happened, so the clip is the only thing that ever moved anything. Drop the 'red recording dot' line. End on a sting or a test the reader can run, such as 'who on that call would have said a word if it hadn't been recorded?'. Don't restate the cover.",
+    "slide 4: The news beat reads like a recap (October, IAS, inquiry, association). Cut it to one or two plain sentences and tie it back to the reader's call. The sourced fact and the real_details line ('Had this not happened online, nobody would have said a word about it') should serve the opinion, not carry the slide. Also say 'JKAS members' rather than 'officers' association', to match the source.",
+    "slide 3: This slide mostly explains the excuses the reader already knows, and the 'different junior' line is the only new beat. Merge it into slide 2 or sharpen it with a concrete detail, such as fixing the slides at night while the senior acts like nothing happened, so the reader has a reason to swipe.",
+    "slide 5: The 'because' is thin and generic ('costs your senior nothing'). Say who gains: the senior uses the shout to pass pressure down, and the junior's EMI, appraisal and the muted room are what keep it free of cost. Make the cost asymmetry the turn, and say it once in plain words.",
+    "cover: The sub 'Think about every time it wasn't.' is vague and reads like a nudge. Make it a plain claim that adds to the headline, or cut it."
+   ]
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Slide 2 has 67 words; the limit is 60. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 5,
+     "tight": 4
+    },
+    "notes": [
+     "slide 4: the bold line says \"The complaint was a pattern\", which is stronger than the source. JKAS members alleged a pattern. Keep \"alleged\" in the line itself, e.g. \"Colleagues alleged a pattern. What got an inquiry ordered was a clip people could watch.\" Also, the inquiry follows the clip in the sources, so avoid wording that says the clip alone was the cause.",
+     "slide 5: the first line (\"they pass their own pressure down and log off lighter\") repeats the \"bad quarter, bigger boss\" excuse from slide 3. Cut it, or make it new by saying why the excuse is so convenient for everyone on the call. The sharpest line is \"Shouting at you costs them nothing\". Lead with the cost gap (appraisal, next project, EMI) and trim the rest.",
+     "slide 6: \"Every one of them saw it, then logged off\" restates slide 2, where everyone went on mute. Drop the recap and open straight on the stranger point. Strangers having nothing to lose is the freshest idea in the post, so give it room. Say plainly that this is your opinion, since the clip's viewers did not witness the call live.",
+     "slide 3: the \"bad quarter\" excuse list is good and relatable, but the why_swipe is weak. End the slide on the sting of being one of the faces on mute, then let slide 4 bring in the news peg as the contrast.",
+     "slide 4: the news peg sits in the middle as a recap of three facts. Keep it to two quick sentences, so the post stays about the reader's own call and the IAS clip only proves the point."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "The take's premise is wrong: Premises 3 and 4 fail. The post says colleagues who saw it stay silent and strangers are the only ones who act, but the case it cites shows the opposite. Wani's own colleagues and service association drove the response: the JKAS association held a pen-down strike, sent a memorandum to the Chief Secretary and called the incident 'not a one-off'. Officials who were on the call vouched that the video was real. The footage itself came from an official virtual meeting (sources don't say who leaked it). Premise 1, that shouting 'costs them nothing', also needs a qualifier: being filmed did not make the cost automatic. The department's first response was to call the video 'AI-generated', and that only collapsed because insiders backed Wani. What also raised the stakes was a woman officer being targeted, which drew in the NCW, and the opposition taking it up. So the conclusion that 'strangers are the only witnesses with nothing to lose' does not follow from the case.. How it actually works: Abuse by a senior is rarely costly because there are no channels a junior can use safely. Formal complaints go up the same hierarchy, and no general anti-bullying rule protects the person who complains, so juniors and witnesses absorb it, as the ex-director quoted in The Wire describes. A video helps because it is evidence nobody can deny, but here the inquiry came from what happened next: an organised group of the victim's peers acted together, insiders confirmed the footage was real, and political actors took it up (the CM, opposition leaders, and the NCW because the target was a woman). That outside pressure made the government open an inquiry. Strangers watching added public pressure, but the push came from peers acting as a group, and the people on the call weren't simply silent. Rebuild the post on the correct mechanism.",
+     "Wrong: 'A clip of an IAS officer abusing a junior officer on a call went viral in the month the post was published (November 2026).'. What's true: The clip is from a virtual meeting on about 14 October 2026. It went viral and was reported by 16 October 2026, so it went viral in October, not November. The post goes live on 7 November, so 'this month' is wrong..",
+     "Says more than the sources: 'The J&K government's inquiry was opened because of the viral clip, not because of the earlier complaints of a pattern by JKAS members.'. What's true: The reports do not say the inquiry was opened because of the clip and not because of the JKAS complaints. The clip went viral first. The inquiry followed backlash from political parties, a JKAS demand for an impartial probe and a pen-down strike, and a National Commission for Women (NCW) suo motu notice. The JKAS pattern allegation was made in response to the clip. No earlier formal complaints are reported as a separate trigger. The claim sets up a false either/or.."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "A clip of an IAS officer abusing a junior officer on a call went viral in the month the post was published (November 2026).",
+      "sentence": "This month, a clip of an IAS officer abusing a junior officer on a call went viral.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c2",
+      "text": "The J&K government ordered a 15-day inquiry into the IAS officer's alleged abuse of a junior officer.",
+      "sentence": "The J&K government ordered a 15-day inquiry.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c3",
+      "text": "JKAS members alleged that the IAS officer's abusive behaviour towards juniors was a pattern, not a one-off.",
+      "sentence": "JKAS members alleged it was a pattern, not a one-off.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c4",
+      "text": "The J&K government's inquiry was opened because of the viral clip, not because of the earlier complaints of a pattern by JKAS members.",
+      "sentence": "What opened the inquiry was a clip people could watch.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c5",
+      "text": "Workplace shouting by seniors at juniors typically becomes news or draws action only when it is filmed and goes public; unfilmed shouting happens regularly with no consequence.",
+      "sentence": "A senior shouting at a junior is news only when it's filmed.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Mechanism: (1) shouting costs the senior nothing, since they pass pressure down and face no consequence; (2) a junior who complains risks their appraisal, projects and income; (3) colleagues who witness it have something to lose by speaking up, so they stay silent; (4) strangers who see a viral clip have nothing to lose by speaking up. Conclusion: this cost gap is why shouting keeps happening and why it draws action only when filmed and made viral.",
+      "sentence": "Shouting at you costs them nothing. That gap is why it keeps happening.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "contradicted",
+      "event_date": "2026-10-14",
+      "correct": "The clip is from a virtual meeting on about 14 October 2026. It went viral and was reported by 16 October 2026, so it went viral in October, not November. The post goes live on 7 November, so 'this month' is wrong.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/india/2026/10/16/who-is-kumar-rajeev-ranjan-jandk-ias-officer-faces-action-for-abusing-woman-officer-years-after-arms-licence-row.html",
+        "publisher": "The Week",
+        "published_date": "2026-10-16",
+        "quote": "The National Commission for Women also took suo motu cognisance of the viral video",
+        "tier": 2
+       },
+       {
+        "url": "https://www.republicworld.com/viral/by-st-jk-ias-officer-abuses-woman-colleague-during-virtual-meeting-sparks-row-2026-10-16-139046",
+        "publisher": "Republic World",
+        "published_date": "2026-10-16",
+        "quote": "J&K IAS Officer Abuses Woman Colleague During Virtual Meeting, Sparks Row",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2026-10-16",
+      "correct": "The J&K General Administration Department (GAD) order is dated 16 October 2026. It appointed IAS officer Mandeep Kaur to inquire and report within 15 days. The lead's date of 15 October is slightly off.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/india/2026/10/16/who-is-kumar-rajeev-ranjan-jandk-ias-officer-faces-action-for-abusing-woman-officer-years-after-arms-licence-row.html",
+        "publisher": "The Week",
+        "published_date": "2026-10-16",
+        "quote": "The government appointed senior IAS officer Mandeep Kaur to investigate and report within 15 days.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.deccanchronicle.com/amp/news/current-affairs/jk-orders-probe-into-verbal-spat-between-senior-ias-jkas-officers-1996384",
+        "publisher": "Deccan Chronicle",
+        "published_date": "2026-10-16",
+        "quote": "J&K Orders Probe Into Verbal Spat Between Senior IAS, JKAS Officers",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "2026-10-16",
+      "correct": "The JKAS fraternity said the conduct was not an isolated incident. It pointed to Ranjan's earlier use of 'unparliamentary and demeaning language' in an official capacity.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/india/2026/10/16/who-is-kumar-rajeev-ranjan-jandk-ias-officer-faces-action-for-abusing-woman-officer-years-after-arms-licence-row.html",
+        "publisher": "The Week",
+        "published_date": "2026-10-16",
+        "quote": "not an isolated incident",
+        "tier": 2
+       },
+       {
+        "url": "https://theprint.in/india/j-k-ias-officer-abuses-woman-official-jkas-fraternity-seeks-probe/3073255/",
+        "publisher": "ThePrint",
+        "published_date": "2026-10-16",
+        "quote": "JKAS fraternity seeks probe",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "misframed",
+      "event_date": "2026-10-16",
+      "correct": "The reports do not say the inquiry was opened because of the clip and not because of the JKAS complaints. The clip went viral first. The inquiry followed backlash from political parties, a JKAS demand for an impartial probe and a pen-down strike, and a National Commission for Women (NCW) suo motu notice. The JKAS pattern allegation was made in response to the clip. No earlier formal complaints are reported as a separate trigger. The claim sets up a false either/or.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/india/2026/10/16/who-is-kumar-rajeev-ranjan-jandk-ias-officer-faces-action-for-abusing-woman-officer-years-after-arms-licence-row.html",
+        "publisher": "The Week",
+        "published_date": "2026-10-16",
+        "quote": "The alleged abuse drew backlash from political parties and the Jammu and Kashmir Administrative Service (JKAS).",
+        "tier": 2
+       },
+       {
+        "url": "https://theprint.in/india/j-k-ias-officer-abuses-woman-official-jkas-fraternity-seeks-probe/3073255/",
+        "publisher": "ThePrint",
+        "published_date": "2026-10-16",
+        "quote": "JKAS fraternity seeks probe",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "Premises 3 and 4 fail. The post says colleagues who saw it stay silent and strangers are the only ones who act, but the case it cites shows the opposite. Wani's own colleagues and service association drove the response: the JKAS association held a pen-down strike, sent a memorandum to the Chief Secretary and called the incident 'not a one-off'. Officials who were on the call vouched that the video was real. The footage itself came from an official virtual meeting (sources don't say who leaked it). Premise 1, that shouting 'costs them nothing', also needs a qualifier: being filmed did not make the cost automatic. The department's first response was to call the video 'AI-generated', and that only collapsed because insiders backed Wani. What also raised the stakes was a woman officer being targeted, which drew in the NCW, and the opposition taking it up. So the conclusion that 'strangers are the only witnesses with nothing to lose' does not follow from the case.",
+     "actual_mechanism": "Abuse by a senior is rarely costly because there are no channels a junior can use safely. Formal complaints go up the same hierarchy, and no general anti-bullying rule protects the person who complains, so juniors and witnesses absorb it, as the ex-director quoted in The Wire describes. A video helps because it is evidence nobody can deny, but here the inquiry came from what happened next: an organised group of the victim's peers acted together, insiders confirmed the footage was real, and political actors took it up (the CM, opposition leaders, and the NCW because the target was a woman). That outside pressure made the government open an inquiry. Strangers watching added public pressure, but the push came from peers acting as a group, and the people on the call weren't simply silent.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.dnaindia.com/india/report-jk-govt-seeks-15-day-inquiry-into-ias-officer-s-alleged-misconduct-against-woman-colleague-3222445",
+       "published_date": "2026-10-16",
+       "quote": "abusive language or intimidation cannot be justified by any authority"
+      },
+      {
+       "url": "https://zeenews.india.com/india/jk-ias-officer-viral-video-beenish-wani-probe-pen-down-strike-3076211.html",
+       "published_date": "2026-10-16",
+       "quote": "defend the dignity, self-respect and institutional honour of the JKAS fraternity"
+      },
+      {
+       "url": "https://www.thedailyjagran.com/india/news/jk-news-ias-officer-abuses-jkas-officer-review-meeting-viral-video-10332915",
+       "published_date": "2026-10-16",
+       "quote": "The video is authentic, as testified by the officer herself and other officials who were present during the virtual meeting."
+      },
+      {
+       "url": "https://m.thewire.in/article/politics/in-jammu-and-kashmir-an-ias-officers-rant-exposes-a-system-where-every-superior-has-someone-to-humiliate",
+       "published_date": "2026-10-20",
+       "quote": "Insults such as these are drunk as a poison without any complaint."
+      },
+      {
+       "url": "https://www.theweek.in/news/india/2026/10/16/who-is-kumar-rajeev-ranjan-jandk-ias-officer-faces-action-for-abusing-woman-officer-years-after-arms-licence-row.html",
+       "published_date": "2026-10-16",
+       "quote": "J&K IAS officer faces action for verbally abusing woman officer years after arms licence row"
+      }
+     ]
+    },
+    "text_hash": "a4c63e54517905dfdaad5295ecdcf6cd97fb96e4",
+    "at": "2026-10-26T10:08:48.591280+00:00"
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "The take's premise is wrong: Premises 3 and 4 fail. The post says colleagues who saw it stay silent and strangers are the only ones who act, but the case it cites shows the opposite. Wani's own colleagues and service association drove the response: the JKAS association held a pen-down strike, sent a memorandum to the Chief Secretary and called the incident 'not a one-off'. Officials who were on the call vouched that the video was real. The footage itself came from an official virtual meeting (sources don't say who leaked it). Premise 1, that shouting 'costs them nothing', also needs a qualifier: being filmed did not make the cost automatic. The department's first response was to call the video 'AI-generated', and that only collapsed because insiders backed Wani. What also raised the stakes was a woman officer being targeted, which drew in the NCW, and the opposition taking it up. So the conclusion that 'strangers are the only witnesses with nothing to lose' does not follow from the case.. How it actually works: Abuse by a senior is rarely costly because there are no channels a junior can use safely. Formal complaints go up the same hierarchy, and no general anti-bullying rule protects the person who complains, so juniors and witnesses absorb it, as the ex-director quoted in The Wire describes. A video helps because it is evidence nobody can deny, but here the inquiry came from what happened next: an organised group of the victim's peers acted together, insiders confirmed the footage was real, and political actors took it up (the CM, opposition leaders, and the NCW because the target was a woman). That outside pressure made the government open an inquiry. Strangers watching added public pressure, but the push came from peers acting as a group, and the people on the call weren't simply silent. Rebuild the post on the correct mechanism.",
+    "Wrong: 'A clip of an IAS officer abusing a junior officer on a call went viral in the month the post was published (November 2026).'. What's true: The clip is from a virtual meeting on about 14 October 2026. It went viral and was reported by 16 October 2026, so it went viral in October, not November. The post goes live on 7 November, so 'this month' is wrong..",
+    "Says more than the sources: 'The J&K government's inquiry was opened because of the viral clip, not because of the earlier complaints of a pattern by JKAS members.'. What's true: The reports do not say the inquiry was opened because of the clip and not because of the JKAS complaints. The clip went viral first. The inquiry followed backlash from political parties, a JKAS demand for an impartial probe and a pen-down strike, and a National Commission for Women (NCW) suo motu notice. The JKAS pattern allegation was made in response to the clip. No earlier formal complaints are reported as a separate trigger. The claim sets up a false either/or.."
+   ]
+  }
+ ],
+ "updated_at": "2026-10-26T10:08:48.593353+00:00",
+ "sources": [
+  {
+   "url": "https://www.theweek.in/news/india/2026/10/16/who-is-kumar-rajeev-ranjan-jandk-ias-officer-faces-action-for-abusing-woman-officer-years-after-arms-licence-row.html",
+   "fact": "After a video of IAS officer Kumar Rajeev Ranjan abusing junior JKAS officer Beenish Wani went viral, the J&K government ordered an inquiry, and JKAS members said this was not an isolated incident but part of a pattern of demeaning language.",
+   "excerpt": "Ranjan reportedly told Beenish Wani: \"You are bl***y sh*t. I can always talk to you like this ... I am your boss,\" The National Commission for Women said it took suo motu cognisance of a video showing Ranjan \"verbally abusing, humiliating, and threatening\" the junior officer. The J&K government ordered an \"in-depth inquiry\" into the alleged misconduct, appointing senior IAS officer Mandeep Kaur to investigate, with a report due \"within 15 days.\" The JKAS fraternity alleged his use of \"unparliamentary and demeaning language\" in an official capacity was a pattern, not an isolated incident.",
+   "date": "2026-10-16"
+  },
+  {
+   "url": "https://www.peoplematters.in/news/organisational-culture/55-percent-employees-face-bullying-at-workplace-7038",
+   "fact": "A CareerBuilder.in survey found about 55% of Indian workers had experienced workplace bullying, which suggests such behaviour is common, though the survey is old and does not show how often it goes unreported.",
+   "excerpt": "A large number of employees have been bullied at their workplace. A CareerBuilder.in survey found that roughly 55% of Indian workers had experienced bullying: \"being falsely accused of mistakes they didn't commit (33 per cent)\"; \"being ignored, wherein their comments were dismissed or not acknowledged (32 per cent)\".",
+   "date": "2014-11-26"
+  }
+ ],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] A senior shouting at a junior is news only [when it's filmed]\nOff camera, the same shouting happens every single week.\n \n\n[slide 1] A senior shouting at a junior is news only when it's filmed.\nSwipe to read →\n\n[slide 2] Remember the review call where your senior lost it at you? Eight faces on screen. Everyone went on mute and looked away from the camera.\nTwo minutes after the call, a \"you ok?\" landed on WhatsApp. Never on the office chat.\nNext morning they opened the standup with \"good morning team\", like nothing had happened.\n\n[slide 3] You told yourself it was a bad quarter. Targets, a client on their back, a bigger boss shouting at them.\nThen the next week the same tone landed on someone else. And this time you were one of the faces on mute.\n\n[slide 4] This month, a clip of an IAS officer abusing a junior officer on a call went viral. The J&K government ordered a 15-day inquiry.\nJKAS members alleged it was a pattern, not a one-off.\nThe complaint was a pattern. What opened the inquiry was a clip people could watch.\n\n[slide 5] Look at what each side pays. When your senior shouts, they pass their own pressure down and log off lighter.\nWhen you complain, you put your appraisal, your next project and the EMI that depends on both on the table.\nShouting at you costs them nothing. That gap is why it keeps happening.\n\n[slide 6] Your call had eight witnesses. Every one of them saw it, then logged off and went for lunch.\nA viral clip brings strangers. Strangers are the only witnesses with nothing to lose by saying something.\nNow count the people on your call who would have spoken up if it had never gone online.\n\n[end card] Come back to it the next time a call goes silent while someone is being shouted at.\nAnyone who's had a senior talk down to them and known nothing would ever happen about it.\n\n[caption] What's one thing a senior said to you on a call that would have started an inquiry if a stranger had heard it?\n\n[alt text] A six-slide carousel from Above MRP. The cover reads: A senior shouting at a junior is news only when it's filmed. The slides take the reader back to a review call where a senior shouted at them while everyone went on mute, a colleague checked in on WhatsApp, and the senior said good morning at the next standup like nothing happened. A week later the same tone hit another junior. The post mentions the viral clip of an IAS officer abusing a junior officer, after which the J&K government ordered a 15-day inquiry and JKAS members alleged a pattern. It argues that shouting costs the senior nothing while complaining puts the junior's appraisal at risk, and ends by asking the reader to count how many people on their own call would have spoken up if it had never gone online.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "A clip of an IAS officer abusing a junior officer on a call went viral in the month the post was published (November 2026).",
+     "sentence": "This month, a clip of an IAS officer abusing a junior officer on a call went viral.",
+     "type": "event",
+     "core": true,
+     "framed_as": "current"
+    },
+    {
+     "id": "c2",
+     "text": "The J&K government ordered a 15-day inquiry into the IAS officer's alleged abuse of a junior officer.",
+     "sentence": "The J&K government ordered a 15-day inquiry.",
+     "type": "event",
+     "core": true,
+     "framed_as": "current"
+    },
+    {
+     "id": "c3",
+     "text": "JKAS members alleged that the IAS officer's abusive behaviour towards juniors was a pattern, not a one-off.",
+     "sentence": "JKAS members alleged it was a pattern, not a one-off.",
+     "type": "event",
+     "core": true,
+     "framed_as": "current"
+    },
+    {
+     "id": "c4",
+     "text": "The J&K government's inquiry was opened because of the viral clip, not because of the earlier complaints of a pattern by JKAS members.",
+     "sentence": "What opened the inquiry was a clip people could watch.",
+     "type": "event",
+     "core": true,
+     "framed_as": "current"
+    },
+    {
+     "id": "c5",
+     "text": "Workplace shouting by seniors at juniors typically becomes news or draws action only when it is filmed and goes public; unfilmed shouting happens regularly with no consequence.",
+     "sentence": "A senior shouting at a junior is news only when it's filmed.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c6",
+     "text": "Mechanism: (1) shouting costs the senior nothing, since they pass pressure down and face no consequence; (2) a junior who complains risks their appraisal, projects and income; (3) colleagues who witness it have something to lose by speaking up, so they stay silent; (4) strangers who see a viral clip have nothing to lose by speaking up. Conclusion: this cost gap is why shouting keeps happening and why it draws action only when filmed and made viral.",
+     "sentence": "Shouting at you costs them nothing. That gap is why it keeps happening.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "A call in which an IAS officer verbally abused a junior officer leaked and went viral in the month before the post (November 2026).": {
+   "id": "c1",
+   "verdict": "misframed",
+   "event_date": "2026-10-14",
+   "correct": "The abuse came out in a video of an online NRLM/Mission YUVA review meeting around 13–15 October 2026. It was a video of a meeting, not a leaked phone call. It went viral in mid-October 2026. ThePrint reported it on 15 Oct 2026, which is the first report date found. The post goes live on 7 Nov 2026, so the incident was in October, not in the month of November.",
+   "sources": [
+    {
+     "url": "https://theprint.in/india/j-k-ias-officer-abuses-woman-official-jkas-fraternity-seeks-probe/3073255/",
+     "publisher": "ThePrint",
+     "published_date": "2026-10-15",
+     "quote": "came to light through a purported video",
+     "tier": 2
+    },
+    {
+     "url": "https://www.theweek.in/news/india/2026/10/16/who-is-kumar-rajeev-ranjan-jandk-ias-officer-faces-action-for-abusing-woman-officer-years-after-arms-licence-row.html",
+     "publisher": "The Week",
+     "published_date": "2026-10-16",
+     "quote": "You are bl***y sh*t. I can always talk to you like this ... I am your boss",
+     "tier": 2
+    }
+   ]
+  },
+  "The J&K government ordered an inquiry into the IAS officer's abuse of the junior officer.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": "2026-10-16",
+   "correct": "The J&K General Administration Department ordered the inquiry on 16 Oct 2026 (GO No. 1654-JK(GAD) of 2026) and appointed Mandeep Kaur, IAS, to conduct it.",
+   "sources": [
+    {
+     "url": "https://www.theweek.in/news/india/2026/10/16/who-is-kumar-rajeev-ranjan-jandk-ias-officer-faces-action-for-abusing-woman-officer-years-after-arms-licence-row.html",
+     "publisher": "The Week",
+     "published_date": "2026-10-16",
+     "quote": "the J&K government ordered an in-depth inquiry and appointed senior IAS officer Mandeep Kaur to investigate",
+     "tier": 2
+    },
+    {
+     "url": "https://www.deccanchronicle.com/news/current-affairs/jk-orders-probe-into-verbal-spat-between-senior-ias-jkas-officers-1996384",
+     "publisher": "Deccan Chronicle",
+     "published_date": "2026-10-16",
+     "quote": "J&K Orders Probe Into Verbal Spat Between Senior IAS, JKAS Officers",
+     "tier": 2
+    }
+   ]
+  },
+  "The J&K government's inquiry report is due within 15 days.": {
+   "id": "c3",
+   "verdict": "outdated",
+   "event_date": "2026-10-16",
+   "correct": "The 15-day deadline ran from the 16 Oct 2026 order, so it fell around 31 Oct 2026. That is before the 7 Nov go-live date. 'Is due' will be stale unless the report has been submitted or the deadline extended. I found no report on the outcome. Reword it to 'was due within 15 days' and check for the outcome before publishing.",
+   "sources": [
+    {
+     "url": "https://www.theweek.in/news/india/2026/10/16/who-is-kumar-rajeev-ranjan-jandk-ias-officer-faces-action-for-abusing-woman-officer-years-after-arms-licence-row.html",
+     "publisher": "The Week",
+     "published_date": "2026-10-16",
+     "quote": "She has 15 days to submit a report.",
+     "tier": 2
+    },
+    {
+     "url": "https://www.deccanchronicle.com/news/current-affairs/jk-orders-probe-into-verbal-spat-between-senior-ias-jkas-officers-1996384",
+     "publisher": "Deccan Chronicle",
+     "published_date": "2026-10-16",
+     "quote": "J&K Orders Probe Into Verbal Spat Between Senior IAS, JKAS Officers",
+     "tier": 2
+    }
+   ]
+  },
+  "Fellow officers said the IAS officer's abusive behaviour was a pattern, not a one-off.": {
+   "id": "c4",
+   "verdict": "misframed",
+   "event_date": "2026-10-15",
+   "correct": "The JKAS fraternity, the association of J&K Administrative Service officers, alleged the pattern. It is an allegation, not an established finding. They said it was 'not an isolated incident' and that he had earlier used 'unparliamentary and demeaning language'. Attribute it to 'the JKAS fraternity alleged', not to 'fellow officers said'.",
+   "sources": [
+    {
+     "url": "https://theprint.in/india/j-k-ias-officer-abuses-woman-official-jkas-fraternity-seeks-probe/3073255/",
+     "publisher": "ThePrint",
+     "published_date": "2026-10-15",
+     "quote": "this is not an isolated incident",
+     "tier": 2
+    },
+    {
+     "url": "https://www.theweek.in/news/india/2026/10/16/who-is-kumar-rajeev-ranjan-jandk-ias-officer-faces-action-for-abusing-woman-officer-years-after-arms-licence-row.html",
+     "publisher": "The Week",
+     "published_date": "2026-10-16",
+     "quote": "not an isolated incident",
+     "tier": 2
+    }
+   ]
+  },
+  "_skeptic": {
+   "dca11eb280dc1b2ff056caa9d2d9f08665474cb6": {
+    "holds": false,
+    "broken_premise": "Premise 1 (the IAS case) fails as stated, and premise 3 gets the cause wrong. Premise 2 is mostly right in general but overstated. (1) None of the coverage I found has 'fellow officers' calling this a pattern. The Wire and The Pioneer report no earlier complaints about his conduct at work; his record is separate CBI cases over gun licences and disproportionate assets. The only talk of a pattern is a former director saying insults like this usually go unreported, and one colleague claiming the junior officer can be abrasive with her own staff. The clip also wasn't the only new thing. It came from an official virtual review meeting (14 or 15 October; reports differ), and the department says the National Informatics Centre holds the full recording and the circulating clips are selectively edited. So an institutional record already existed. The junior officer, Beenish Wani, also answered back on the call ('Go to hell'). (2) In this case the junior did not go without support: her service association (JKAS) called a one-day pen-down strike, the National Commission for Women (NCW) acted on its own and asked for an action-taken report within 7 days, and party leaders condemned him. Even so, all of this started only after the clip went public, so the post's main point that visibility is what creates cost holds up here. (3) 'Stress never makes them shout at their own boss' does not rule out stress. Research on abusive supervision as displaced aggression (Hoobler & Brass 2006) says the opposite: supervisors who feel wronged by their own organisation take it out on subordinates, because they are the safe targets. Stress drives it, and the power gap decides who gets hit. Timing: 'this month' is wrong for a 7 November post because the incident was in October. The 15-day report was due around 31 October, so it may already be out by posting day, which needs checking.",
+    "actual_mechanism": "Abusive supervision usually works as displaced aggression. Pressure from above, or a sense of being treated unfairly, gets turned on whoever can't hit back, so stress and power together explain it. Neither one rules the other out. Formal remedies do exist in principle; for IAS officers, conduct rules are enforced through the Lieutenant Governor's office, not the elected government. In practice they only get used once something is visible and documented: here, the leaked clip led to a government inquiry with a 15-day deadline (GAD Order 1654-JK(GAD) of 2026, dated 16 October), the NCW stepping in on its own, and a strike by the officers' association.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://dailypioneer.com/page1/ias-officers-abuse-video-sparks-outrage-in-jk",
+      "published_date": "2026-10-16",
+      "quote": "As a UT, we expect the authorities with control over the IAS officers to set the right example (Omar Abdullah). Not a quote, summary of report: GAD Order 1654-JK(GAD) of 2026 gives inquiry officer Mandeep Kaur 15 days; Labour Dept says clips selectively edited and NIC holds the complete recording; no prior conduct complaints mentioned."
+     },
+     {
+      "url": "https://m.thewire.in/article/politics/in-jammu-and-kashmir-an-ias-officers-rant-exposes-a-system-where-every-superior-has-someone-to-humiliate",
+      "published_date": "2026-10-20",
+      "quote": "I can always speak to you like this. Not a quote, summary of report: Wani replied 'Go to hell'; a former director says such insults usually go unreported; no formal prior complaints named."
+     },
+     {
+      "url": "https://newsable.asianetnews.com/india/ncw-seeks-inquiry-into-j-k-ias-officer-seen-abusing-woman-officer-articleshow-42ra75a",
+      "published_date": "2026-10",
+      "quote": "Not a quote, summary of coverage: NCW took suo motu cognisance and sought an Action Taken Report within seven days; the JKAS Association called a one-day pen-down strike."
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Abusive_supervision",
+      "published_date": "n.d.",
+      "quote": "Not a quote, summary: Hoobler & Brass (2006, Journal of Applied Psychology 91(5):1125-1133), with 210 supervisors, found that supervisors' perceived psychological contract violations predicted subordinates' reports of abusive supervision, i.e. displaced aggression."
+     },
+     {
+      "url": "https://deepblue.lib.umich.edu/items/abc81797-2456-4011-b42c-f4f276d0291e/full",
+      "published_date": "n.d.",
+      "quote": "A Trickle-Down Model Of Abusive Supervision (title only; supports supervisor-mistreated-by-own-boss -> abuses subordinates)"
+     }
+    ]
+   },
+   "0bca290da518739f1aee38396d64ef3481488200": {
+    "holds": false,
+    "broken_premise": "Premises 3 and 4 fail. The post says colleagues who saw it stay silent and strangers are the only ones who act, but the case it cites shows the opposite. Wani's own colleagues and service association drove the response: the JKAS association held a pen-down strike, sent a memorandum to the Chief Secretary and called the incident 'not a one-off'. Officials who were on the call vouched that the video was real. The footage itself came from an official virtual meeting (sources don't say who leaked it). Premise 1, that shouting 'costs them nothing', also needs a qualifier: being filmed did not make the cost automatic. The department's first response was to call the video 'AI-generated', and that only collapsed because insiders backed Wani. What also raised the stakes was a woman officer being targeted, which drew in the NCW, and the opposition taking it up. So the conclusion that 'strangers are the only witnesses with nothing to lose' does not follow from the case.",
+    "actual_mechanism": "Abuse by a senior is rarely costly because there are no channels a junior can use safely. Formal complaints go up the same hierarchy, and no general anti-bullying rule protects the person who complains, so juniors and witnesses absorb it, as the ex-director quoted in The Wire describes. A video helps because it is evidence nobody can deny, but here the inquiry came from what happened next: an organised group of the victim's peers acted together, insiders confirmed the footage was real, and political actors took it up (the CM, opposition leaders, and the NCW because the target was a woman). That outside pressure made the government open an inquiry. Strangers watching added public pressure, but the push came from peers acting as a group, and the people on the call weren't simply silent.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.dnaindia.com/india/report-jk-govt-seeks-15-day-inquiry-into-ias-officer-s-alleged-misconduct-against-woman-colleague-3222445",
+      "published_date": "2026-10-16",
+      "quote": "abusive language or intimidation cannot be justified by any authority"
+     },
+     {
+      "url": "https://zeenews.india.com/india/jk-ias-officer-viral-video-beenish-wani-probe-pen-down-strike-3076211.html",
+      "published_date": "2026-10-16",
+      "quote": "defend the dignity, self-respect and institutional honour of the JKAS fraternity"
+     },
+     {
+      "url": "https://www.thedailyjagran.com/india/news/jk-news-ias-officer-abuses-jkas-officer-review-meeting-viral-video-10332915",
+      "published_date": "2026-10-16",
+      "quote": "The video is authentic, as testified by the officer herself and other officials who were present during the virtual meeting."
+     },
+     {
+      "url": "https://m.thewire.in/article/politics/in-jammu-and-kashmir-an-ias-officers-rant-exposes-a-system-where-every-superior-has-someone-to-humiliate",
+      "published_date": "2026-10-20",
+      "quote": "Insults such as these are drunk as a poison without any complaint."
+     },
+     {
+      "url": "https://www.theweek.in/news/india/2026/10/16/who-is-kumar-rajeev-ranjan-jandk-ias-officer-faces-action-for-abusing-woman-officer-years-after-arms-licence-row.html",
+      "published_date": "2026-10-16",
+      "quote": "J&K IAS officer faces action for verbally abusing woman officer years after arms licence row"
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "315db777ec96cba9b352c773caef764740f2b867": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "The take's premise is wrong: Premise 1 (the IAS case) fails as stated, and premise 3 gets the cause wrong. Premise 2 is mostly right in general but overstated. (1) None of the coverage I found has 'fellow officers' calling this a pattern. The Wire and The Pioneer report no earlier complaints about his conduct at work; his record is separate CBI cases over gun licences and disproportionate assets. The only talk of a pattern is a former director saying insults like this usually go unreported, and one colleague claiming the junior officer can be abrasive with her own staff. The clip also wasn't the only new thing. It came from an official virtual review meeting (14 or 15 October; reports differ), and the department says the National Informatics Centre holds the full recording and the circulating clips are selectively edited. So an institutional record already existed. The junior officer, Beenish Wani, also answered back on the call ('Go to hell'). (2) In this case the junior did not go without support: her service association (JKAS) called a one-day pen-down strike, the National Commission for Women (NCW) acted on its own and asked for an action-taken report within 7 days, and party leaders condemned him. Even so, all of this started only after the clip went public, so the post's main point that visibility is what creates cost holds up here. (3) 'Stress never makes them shout at their own boss' does not rule out stress. Research on abusive supervision as displaced aggression (Hoobler & Brass 2006) says the opposite: supervisors who feel wronged by their own organisation take it out on subordinates, because they are the safe targets. Stress drives it, and the power gap decides who gets hit. Timing: 'this month' is wrong for a 7 November post because the incident was in October. The 15-day report was due around 31 October, so it may already be out by posting day, which needs checking.. How it actually works: Abusive supervision usually works as displaced aggression. Pressure from above, or a sense of being treated unfairly, gets turned on whoever can't hit back, so stress and power together explain it. Neither one rules the other out. Formal remedies do exist in principle; for IAS officers, conduct rules are enforced through the Lieutenant Governor's office, not the elected government. In practice they only get used once something is visible and documented: here, the leaked clip led to a government inquiry with a 15-day deadline (GAD Order 1654-JK(GAD) of 2026, dated 16 October), the NCW stepping in on its own, and a strike by the officers' association. Rebuild the post on the correct mechanism.",
+     "Says more than the sources: 'A call in which an IAS officer verbally abused a junior officer leaked and went viral in the month before the post (November 2026).'. What's true: The abuse came out in a video of an online NRLM/Mission YUVA review meeting around 13–15 October 2026. It was a video of a meeting, not a leaked phone call. It went viral in mid-October 2026. ThePrint reported it on 15 Oct 2026, which is the first report date found. The post goes live on 7 Nov 2026, so the incident was in October, not in the month of November..",
+     "Old news framed as new: 'The J&K government's inquiry report is due within 15 days.' (first reported 2026-10-16). Frame it as past, or drop it. What's true: The 15-day deadline ran from the 16 Oct 2026 order, so it fell around 31 Oct 2026. That is before the 7 Nov go-live date. 'Is due' will be stale unless the report has been submitted or the deadline extended. I found no report on the outcome. Reword it to 'was due within 15 days' and check for the outcome before publishing..",
+     "Says more than the sources: 'Fellow officers said the IAS officer's abusive behaviour was a pattern, not a one-off.'. What's true: The JKAS fraternity, the association of J&K Administrative Service officers, alleged the pattern. It is an allegation, not an established finding. They said it was 'not an isolated incident' and that he had earlier used 'unparliamentary and demeaning language'. Attribute it to 'the JKAS fraternity alleged', not to 'fellow officers said'.."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "A call in which an IAS officer verbally abused a junior officer leaked and went viral in the month before the post (November 2026).",
+      "sentence": "This month, a call where an IAS officer verbally abused a junior officer leaked and went viral.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c2",
+      "text": "The J&K government ordered an inquiry into the IAS officer's abuse of the junior officer.",
+      "sentence": "The J&K government ordered an inquiry, with a report due in 15 days.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c3",
+      "text": "The J&K government's inquiry report is due within 15 days.",
+      "sentence": "The J&K government ordered an inquiry, with a report due in 15 days.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c4",
+      "text": "Fellow officers said the IAS officer's abusive behaviour was a pattern, not a one-off.",
+      "sentence": "Fellow officers said it was a pattern, not a one-off.",
+      "type": "event",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c5",
+      "text": "The only new element in the IAS officer story was the clip; the abusive behaviour itself was not new.",
+      "sentence": "The only new thing in that story was the clip.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c6",
+      "text": "Seniors who shout at juniors in closed rooms face no cost because juniors have financial obligations (EMI), pending appraisals and no witnesses willing to speak up, so abuse persists unless recorded and made public.",
+      "sentence": "Because shouting at a junior in a closed room costs the senior nothing. The junior has an EMI, an appraisal coming and no witness who will speak up.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "Stressed bosses do not shout at their own bosses, so stress does not explain shouting at juniors.",
+      "sentence": "But stress never seems to make them shout at their own boss.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "misframed",
+      "event_date": "2026-10-14",
+      "correct": "The abuse came out in a video of an online NRLM/Mission YUVA review meeting around 13–15 October 2026. It was a video of a meeting, not a leaked phone call. It went viral in mid-October 2026. ThePrint reported it on 15 Oct 2026, which is the first report date found. The post goes live on 7 Nov 2026, so the incident was in October, not in the month of November.",
+      "sources": [
+       {
+        "url": "https://theprint.in/india/j-k-ias-officer-abuses-woman-official-jkas-fraternity-seeks-probe/3073255/",
+        "publisher": "ThePrint",
+        "published_date": "2026-10-15",
+        "quote": "came to light through a purported video",
+        "tier": 2
+       },
+       {
+        "url": "https://www.theweek.in/news/india/2026/10/16/who-is-kumar-rajeev-ranjan-jandk-ias-officer-faces-action-for-abusing-woman-officer-years-after-arms-licence-row.html",
+        "publisher": "The Week",
+        "published_date": "2026-10-16",
+        "quote": "You are bl***y sh*t. I can always talk to you like this ... I am your boss",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2026-10-16",
+      "correct": "The J&K General Administration Department ordered the inquiry on 16 Oct 2026 (GO No. 1654-JK(GAD) of 2026) and appointed Mandeep Kaur, IAS, to conduct it.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/india/2026/10/16/who-is-kumar-rajeev-ranjan-jandk-ias-officer-faces-action-for-abusing-woman-officer-years-after-arms-licence-row.html",
+        "publisher": "The Week",
+        "published_date": "2026-10-16",
+        "quote": "the J&K government ordered an in-depth inquiry and appointed senior IAS officer Mandeep Kaur to investigate",
+        "tier": 2
+       },
+       {
+        "url": "https://www.deccanchronicle.com/news/current-affairs/jk-orders-probe-into-verbal-spat-between-senior-ias-jkas-officers-1996384",
+        "publisher": "Deccan Chronicle",
+        "published_date": "2026-10-16",
+        "quote": "J&K Orders Probe Into Verbal Spat Between Senior IAS, JKAS Officers",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "outdated",
+      "event_date": "2026-10-16",
+      "correct": "The 15-day deadline ran from the 16 Oct 2026 order, so it fell around 31 Oct 2026. That is before the 7 Nov go-live date. 'Is due' will be stale unless the report has been submitted or the deadline extended. I found no report on the outcome. Reword it to 'was due within 15 days' and check for the outcome before publishing.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/india/2026/10/16/who-is-kumar-rajeev-ranjan-jandk-ias-officer-faces-action-for-abusing-woman-officer-years-after-arms-licence-row.html",
+        "publisher": "The Week",
+        "published_date": "2026-10-16",
+        "quote": "She has 15 days to submit a report.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.deccanchronicle.com/news/current-affairs/jk-orders-probe-into-verbal-spat-between-senior-ias-jkas-officers-1996384",
+        "publisher": "Deccan Chronicle",
+        "published_date": "2026-10-16",
+        "quote": "J&K Orders Probe Into Verbal Spat Between Senior IAS, JKAS Officers",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "misframed",
+      "event_date": "2026-10-15",
+      "correct": "The JKAS fraternity, the association of J&K Administrative Service officers, alleged the pattern. It is an allegation, not an established finding. They said it was 'not an isolated incident' and that he had earlier used 'unparliamentary and demeaning language'. Attribute it to 'the JKAS fraternity alleged', not to 'fellow officers said'.",
+      "sources": [
+       {
+        "url": "https://theprint.in/india/j-k-ias-officer-abuses-woman-official-jkas-fraternity-seeks-probe/3073255/",
+        "publisher": "ThePrint",
+        "published_date": "2026-10-15",
+        "quote": "this is not an isolated incident",
+        "tier": 2
+       },
+       {
+        "url": "https://www.theweek.in/news/india/2026/10/16/who-is-kumar-rajeev-ranjan-jandk-ias-officer-faces-action-for-abusing-woman-officer-years-after-arms-licence-row.html",
+        "publisher": "The Week",
+        "published_date": "2026-10-16",
+        "quote": "not an isolated incident",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "Premise 1 (the IAS case) fails as stated, and premise 3 gets the cause wrong. Premise 2 is mostly right in general but overstated. (1) None of the coverage I found has 'fellow officers' calling this a pattern. The Wire and The Pioneer report no earlier complaints about his conduct at work; his record is separate CBI cases over gun licences and disproportionate assets. The only talk of a pattern is a former director saying insults like this usually go unreported, and one colleague claiming the junior officer can be abrasive with her own staff. The clip also wasn't the only new thing. It came from an official virtual review meeting (14 or 15 October; reports differ), and the department says the National Informatics Centre holds the full recording and the circulating clips are selectively edited. So an institutional record already existed. The junior officer, Beenish Wani, also answered back on the call ('Go to hell'). (2) In this case the junior did not go without support: her service association (JKAS) called a one-day pen-down strike, the National Commission for Women (NCW) acted on its own and asked for an action-taken report within 7 days, and party leaders condemned him. Even so, all of this started only after the clip went public, so the post's main point that visibility is what creates cost holds up here. (3) 'Stress never makes them shout at their own boss' does not rule out stress. Research on abusive supervision as displaced aggression (Hoobler & Brass 2006) says the opposite: supervisors who feel wronged by their own organisation take it out on subordinates, because they are the safe targets. Stress drives it, and the power gap decides who gets hit. Timing: 'this month' is wrong for a 7 November post because the incident was in October. The 15-day report was due around 31 October, so it may already be out by posting day, which needs checking.",
+     "actual_mechanism": "Abusive supervision usually works as displaced aggression. Pressure from above, or a sense of being treated unfairly, gets turned on whoever can't hit back, so stress and power together explain it. Neither one rules the other out. Formal remedies do exist in principle; for IAS officers, conduct rules are enforced through the Lieutenant Governor's office, not the elected government. In practice they only get used once something is visible and documented: here, the leaked clip led to a government inquiry with a 15-day deadline (GAD Order 1654-JK(GAD) of 2026, dated 16 October), the NCW stepping in on its own, and a strike by the officers' association.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://dailypioneer.com/page1/ias-officers-abuse-video-sparks-outrage-in-jk",
+       "published_date": "2026-10-16",
+       "quote": "As a UT, we expect the authorities with control over the IAS officers to set the right example (Omar Abdullah). Not a quote, summary of report: GAD Order 1654-JK(GAD) of 2026 gives inquiry officer Mandeep Kaur 15 days; Labour Dept says clips selectively edited and NIC holds the complete recording; no prior conduct complaints mentioned."
+      },
+      {
+       "url": "https://m.thewire.in/article/politics/in-jammu-and-kashmir-an-ias-officers-rant-exposes-a-system-where-every-superior-has-someone-to-humiliate",
+       "published_date": "2026-10-20",
+       "quote": "I can always speak to you like this. Not a quote, summary of report: Wani replied 'Go to hell'; a former director says such insults usually go unreported; no formal prior complaints named."
+      },
+      {
+       "url": "https://newsable.asianetnews.com/india/ncw-seeks-inquiry-into-j-k-ias-officer-seen-abusing-woman-officer-articleshow-42ra75a",
+       "published_date": "2026-10",
+       "quote": "Not a quote, summary of coverage: NCW took suo motu cognisance and sought an Action Taken Report within seven days; the JKAS Association called a one-day pen-down strike."
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Abusive_supervision",
+       "published_date": "n.d.",
+       "quote": "Not a quote, summary: Hoobler & Brass (2006, Journal of Applied Psychology 91(5):1125-1133), with 210 supervisors, found that supervisors' perceived psychological contract violations predicted subordinates' reports of abusive supervision, i.e. displaced aggression."
+      },
+      {
+       "url": "https://deepblue.lib.umich.edu/items/abc81797-2456-4011-b42c-f4f276d0291e/full",
+       "published_date": "n.d.",
+       "quote": "A Trickle-Down Model Of Abusive Supervision (title only; supports supervisor-mistreated-by-own-boss -> abuses subordinates)"
+      }
+     ]
+    },
+    "text_hash": "315db777ec96cba9b352c773caef764740f2b867",
+    "at": "2026-10-26T10:05:40.546320+00:00"
+   },
+   "a4c63e54517905dfdaad5295ecdcf6cd97fb96e4": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "The take's premise is wrong: Premises 3 and 4 fail. The post says colleagues who saw it stay silent and strangers are the only ones who act, but the case it cites shows the opposite. Wani's own colleagues and service association drove the response: the JKAS association held a pen-down strike, sent a memorandum to the Chief Secretary and called the incident 'not a one-off'. Officials who were on the call vouched that the video was real. The footage itself came from an official virtual meeting (sources don't say who leaked it). Premise 1, that shouting 'costs them nothing', also needs a qualifier: being filmed did not make the cost automatic. The department's first response was to call the video 'AI-generated', and that only collapsed because insiders backed Wani. What also raised the stakes was a woman officer being targeted, which drew in the NCW, and the opposition taking it up. So the conclusion that 'strangers are the only witnesses with nothing to lose' does not follow from the case.. How it actually works: Abuse by a senior is rarely costly because there are no channels a junior can use safely. Formal complaints go up the same hierarchy, and no general anti-bullying rule protects the person who complains, so juniors and witnesses absorb it, as the ex-director quoted in The Wire describes. A video helps because it is evidence nobody can deny, but here the inquiry came from what happened next: an organised group of the victim's peers acted together, insiders confirmed the footage was real, and political actors took it up (the CM, opposition leaders, and the NCW because the target was a woman). That outside pressure made the government open an inquiry. Strangers watching added public pressure, but the push came from peers acting as a group, and the people on the call weren't simply silent. Rebuild the post on the correct mechanism.",
+     "Wrong: 'A clip of an IAS officer abusing a junior officer on a call went viral in the month the post was published (November 2026).'. What's true: The clip is from a virtual meeting on about 14 October 2026. It went viral and was reported by 16 October 2026, so it went viral in October, not November. The post goes live on 7 November, so 'this month' is wrong..",
+     "Says more than the sources: 'The J&K government's inquiry was opened because of the viral clip, not because of the earlier complaints of a pattern by JKAS members.'. What's true: The reports do not say the inquiry was opened because of the clip and not because of the JKAS complaints. The clip went viral first. The inquiry followed backlash from political parties, a JKAS demand for an impartial probe and a pen-down strike, and a National Commission for Women (NCW) suo motu notice. The JKAS pattern allegation was made in response to the clip. No earlier formal complaints are reported as a separate trigger. The claim sets up a false either/or.."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "A clip of an IAS officer abusing a junior officer on a call went viral in the month the post was published (November 2026).",
+      "sentence": "This month, a clip of an IAS officer abusing a junior officer on a call went viral.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c2",
+      "text": "The J&K government ordered a 15-day inquiry into the IAS officer's alleged abuse of a junior officer.",
+      "sentence": "The J&K government ordered a 15-day inquiry.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c3",
+      "text": "JKAS members alleged that the IAS officer's abusive behaviour towards juniors was a pattern, not a one-off.",
+      "sentence": "JKAS members alleged it was a pattern, not a one-off.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c4",
+      "text": "The J&K government's inquiry was opened because of the viral clip, not because of the earlier complaints of a pattern by JKAS members.",
+      "sentence": "What opened the inquiry was a clip people could watch.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c5",
+      "text": "Workplace shouting by seniors at juniors typically becomes news or draws action only when it is filmed and goes public; unfilmed shouting happens regularly with no consequence.",
+      "sentence": "A senior shouting at a junior is news only when it's filmed.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Mechanism: (1) shouting costs the senior nothing, since they pass pressure down and face no consequence; (2) a junior who complains risks their appraisal, projects and income; (3) colleagues who witness it have something to lose by speaking up, so they stay silent; (4) strangers who see a viral clip have nothing to lose by speaking up. Conclusion: this cost gap is why shouting keeps happening and why it draws action only when filmed and made viral.",
+      "sentence": "Shouting at you costs them nothing. That gap is why it keeps happening.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "contradicted",
+      "event_date": "2026-10-14",
+      "correct": "The clip is from a virtual meeting on about 14 October 2026. It went viral and was reported by 16 October 2026, so it went viral in October, not November. The post goes live on 7 November, so 'this month' is wrong.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/india/2026/10/16/who-is-kumar-rajeev-ranjan-jandk-ias-officer-faces-action-for-abusing-woman-officer-years-after-arms-licence-row.html",
+        "publisher": "The Week",
+        "published_date": "2026-10-16",
+        "quote": "The National Commission for Women also took suo motu cognisance of the viral video",
+        "tier": 2
+       },
+       {
+        "url": "https://www.republicworld.com/viral/by-st-jk-ias-officer-abuses-woman-colleague-during-virtual-meeting-sparks-row-2026-10-16-139046",
+        "publisher": "Republic World",
+        "published_date": "2026-10-16",
+        "quote": "J&K IAS Officer Abuses Woman Colleague During Virtual Meeting, Sparks Row",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2026-10-16",
+      "correct": "The J&K General Administration Department (GAD) order is dated 16 October 2026. It appointed IAS officer Mandeep Kaur to inquire and report within 15 days. The lead's date of 15 October is slightly off.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/india/2026/10/16/who-is-kumar-rajeev-ranjan-jandk-ias-officer-faces-action-for-abusing-woman-officer-years-after-arms-licence-row.html",
+        "publisher": "The Week",
+        "published_date": "2026-10-16",
+        "quote": "The government appointed senior IAS officer Mandeep Kaur to investigate and report within 15 days.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.deccanchronicle.com/amp/news/current-affairs/jk-orders-probe-into-verbal-spat-between-senior-ias-jkas-officers-1996384",
+        "publisher": "Deccan Chronicle",
+        "published_date": "2026-10-16",
+        "quote": "J&K Orders Probe Into Verbal Spat Between Senior IAS, JKAS Officers",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "2026-10-16",
+      "correct": "The JKAS fraternity said the conduct was not an isolated incident. It pointed to Ranjan's earlier use of 'unparliamentary and demeaning language' in an official capacity.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/india/2026/10/16/who-is-kumar-rajeev-ranjan-jandk-ias-officer-faces-action-for-abusing-woman-officer-years-after-arms-licence-row.html",
+        "publisher": "The Week",
+        "published_date": "2026-10-16",
+        "quote": "not an isolated incident",
+        "tier": 2
+       },
+       {
+        "url": "https://theprint.in/india/j-k-ias-officer-abuses-woman-official-jkas-fraternity-seeks-probe/3073255/",
+        "publisher": "ThePrint",
+        "published_date": "2026-10-16",
+        "quote": "JKAS fraternity seeks probe",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "misframed",
+      "event_date": "2026-10-16",
+      "correct": "The reports do not say the inquiry was opened because of the clip and not because of the JKAS complaints. The clip went viral first. The inquiry followed backlash from political parties, a JKAS demand for an impartial probe and a pen-down strike, and a National Commission for Women (NCW) suo motu notice. The JKAS pattern allegation was made in response to the clip. No earlier formal complaints are reported as a separate trigger. The claim sets up a false either/or.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/india/2026/10/16/who-is-kumar-rajeev-ranjan-jandk-ias-officer-faces-action-for-abusing-woman-officer-years-after-arms-licence-row.html",
+        "publisher": "The Week",
+        "published_date": "2026-10-16",
+        "quote": "The alleged abuse drew backlash from political parties and the Jammu and Kashmir Administrative Service (JKAS).",
+        "tier": 2
+       },
+       {
+        "url": "https://theprint.in/india/j-k-ias-officer-abuses-woman-official-jkas-fraternity-seeks-probe/3073255/",
+        "publisher": "ThePrint",
+        "published_date": "2026-10-16",
+        "quote": "JKAS fraternity seeks probe",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "Premises 3 and 4 fail. The post says colleagues who saw it stay silent and strangers are the only ones who act, but the case it cites shows the opposite. Wani's own colleagues and service association drove the response: the JKAS association held a pen-down strike, sent a memorandum to the Chief Secretary and called the incident 'not a one-off'. Officials who were on the call vouched that the video was real. The footage itself came from an official virtual meeting (sources don't say who leaked it). Premise 1, that shouting 'costs them nothing', also needs a qualifier: being filmed did not make the cost automatic. The department's first response was to call the video 'AI-generated', and that only collapsed because insiders backed Wani. What also raised the stakes was a woman officer being targeted, which drew in the NCW, and the opposition taking it up. So the conclusion that 'strangers are the only witnesses with nothing to lose' does not follow from the case.",
+     "actual_mechanism": "Abuse by a senior is rarely costly because there are no channels a junior can use safely. Formal complaints go up the same hierarchy, and no general anti-bullying rule protects the person who complains, so juniors and witnesses absorb it, as the ex-director quoted in The Wire describes. A video helps because it is evidence nobody can deny, but here the inquiry came from what happened next: an organised group of the victim's peers acted together, insiders confirmed the footage was real, and political actors took it up (the CM, opposition leaders, and the NCW because the target was a woman). That outside pressure made the government open an inquiry. Strangers watching added public pressure, but the push came from peers acting as a group, and the people on the call weren't simply silent.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.dnaindia.com/india/report-jk-govt-seeks-15-day-inquiry-into-ias-officer-s-alleged-misconduct-against-woman-colleague-3222445",
+       "published_date": "2026-10-16",
+       "quote": "abusive language or intimidation cannot be justified by any authority"
+      },
+      {
+       "url": "https://zeenews.india.com/india/jk-ias-officer-viral-video-beenish-wani-probe-pen-down-strike-3076211.html",
+       "published_date": "2026-10-16",
+       "quote": "defend the dignity, self-respect and institutional honour of the JKAS fraternity"
+      },
+      {
+       "url": "https://www.thedailyjagran.com/india/news/jk-news-ias-officer-abuses-jkas-officer-review-meeting-viral-video-10332915",
+       "published_date": "2026-10-16",
+       "quote": "The video is authentic, as testified by the officer herself and other officials who were present during the virtual meeting."
+      },
+      {
+       "url": "https://m.thewire.in/article/politics/in-jammu-and-kashmir-an-ias-officers-rant-exposes-a-system-where-every-superior-has-someone-to-humiliate",
+       "published_date": "2026-10-20",
+       "quote": "Insults such as these are drunk as a poison without any complaint."
+      },
+      {
+       "url": "https://www.theweek.in/news/india/2026/10/16/who-is-kumar-rajeev-ranjan-jandk-ias-officer-faces-action-for-abusing-woman-officer-years-after-arms-licence-row.html",
+       "published_date": "2026-10-16",
+       "quote": "J&K IAS officer faces action for verbally abusing woman officer years after arms licence row"
+      }
+     ]
+    },
+    "text_hash": "a4c63e54517905dfdaad5295ecdcf6cd97fb96e4",
+    "at": "2026-10-26T10:08:48.591280+00:00"
+   }
+  },
+  "A clip of an IAS officer abusing a junior officer on a call went viral in the month the post was published (November 2026).": {
+   "id": "c1",
+   "verdict": "contradicted",
+   "event_date": "2026-10-14",
+   "correct": "The clip is from a virtual meeting on about 14 October 2026. It went viral and was reported by 16 October 2026, so it went viral in October, not November. The post goes live on 7 November, so 'this month' is wrong.",
+   "sources": [
+    {
+     "url": "https://www.theweek.in/news/india/2026/10/16/who-is-kumar-rajeev-ranjan-jandk-ias-officer-faces-action-for-abusing-woman-officer-years-after-arms-licence-row.html",
+     "publisher": "The Week",
+     "published_date": "2026-10-16",
+     "quote": "The National Commission for Women also took suo motu cognisance of the viral video",
+     "tier": 2
+    },
+    {
+     "url": "https://www.republicworld.com/viral/by-st-jk-ias-officer-abuses-woman-colleague-during-virtual-meeting-sparks-row-2026-10-16-139046",
+     "publisher": "Republic World",
+     "published_date": "2026-10-16",
+     "quote": "J&K IAS Officer Abuses Woman Colleague During Virtual Meeting, Sparks Row",
+     "tier": 2
+    }
+   ]
+  },
+  "The J&K government ordered a 15-day inquiry into the IAS officer's alleged abuse of a junior officer.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": "2026-10-16",
+   "correct": "The J&K General Administration Department (GAD) order is dated 16 October 2026. It appointed IAS officer Mandeep Kaur to inquire and report within 15 days. The lead's date of 15 October is slightly off.",
+   "sources": [
+    {
+     "url": "https://www.theweek.in/news/india/2026/10/16/who-is-kumar-rajeev-ranjan-jandk-ias-officer-faces-action-for-abusing-woman-officer-years-after-arms-licence-row.html",
+     "publisher": "The Week",
+     "published_date": "2026-10-16",
+     "quote": "The government appointed senior IAS officer Mandeep Kaur to investigate and report within 15 days.",
+     "tier": 2
+    },
+    {
+     "url": "https://www.deccanchronicle.com/amp/news/current-affairs/jk-orders-probe-into-verbal-spat-between-senior-ias-jkas-officers-1996384",
+     "publisher": "Deccan Chronicle",
+     "published_date": "2026-10-16",
+     "quote": "J&K Orders Probe Into Verbal Spat Between Senior IAS, JKAS Officers",
+     "tier": 2
+    }
+   ]
+  },
+  "JKAS members alleged that the IAS officer's abusive behaviour towards juniors was a pattern, not a one-off.": {
+   "id": "c3",
+   "verdict": "supported",
+   "event_date": "2026-10-16",
+   "correct": "The JKAS fraternity said the conduct was not an isolated incident. It pointed to Ranjan's earlier use of 'unparliamentary and demeaning language' in an official capacity.",
+   "sources": [
+    {
+     "url": "https://www.theweek.in/news/india/2026/10/16/who-is-kumar-rajeev-ranjan-jandk-ias-officer-faces-action-for-abusing-woman-officer-years-after-arms-licence-row.html",
+     "publisher": "The Week",
+     "published_date": "2026-10-16",
+     "quote": "not an isolated incident",
+     "tier": 2
+    },
+    {
+     "url": "https://theprint.in/india/j-k-ias-officer-abuses-woman-official-jkas-fraternity-seeks-probe/3073255/",
+     "publisher": "ThePrint",
+     "published_date": "2026-10-16",
+     "quote": "JKAS fraternity seeks probe",
+     "tier": 2
+    }
+   ]
+  },
+  "The J&K government's inquiry was opened because of the viral clip, not because of the earlier complaints of a pattern by JKAS members.": {
+   "id": "c4",
+   "verdict": "misframed",
+   "event_date": "2026-10-16",
+   "correct": "The reports do not say the inquiry was opened because of the clip and not because of the JKAS complaints. The clip went viral first. The inquiry followed backlash from political parties, a JKAS demand for an impartial probe and a pen-down strike, and a National Commission for Women (NCW) suo motu notice. The JKAS pattern allegation was made in response to the clip. No earlier formal complaints are reported as a separate trigger. The claim sets up a false either/or.",
+   "sources": [
+    {
+     "url": "https://www.theweek.in/news/india/2026/10/16/who-is-kumar-rajeev-ranjan-jandk-ias-officer-faces-action-for-abusing-woman-officer-years-after-arms-licence-row.html",
+     "publisher": "The Week",
+     "published_date": "2026-10-16",
+     "quote": "The alleged abuse drew backlash from political parties and the Jammu and Kashmir Administrative Service (JKAS).",
+     "tier": 2
+    },
+    {
+     "url": "https://theprint.in/india/j-k-ias-officer-abuses-woman-official-jkas-fraternity-seeks-probe/3073255/",
+     "publisher": "ThePrint",
+     "published_date": "2026-10-16",
+     "quote": "JKAS fraternity seeks probe",
+     "tier": 2
+    }
+   ]
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "A senior shouting at a junior is news only [when it's filmed]",
+   "sub": "Off camera, the same shouting happens every single week."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "A senior shouting at a junior is news only when it's filmed.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "Wait, it has happened to me, and there was no camera."
+   },
+   {
+    "paragraphs": [
+     "Remember the review call where your senior lost it at you? Eight faces on screen. Everyone went on mute and looked away from the camera.",
+     "Two minutes after the call, a \"you ok?\" landed on WhatsApp. Never on the office chat.",
+     "Next morning they opened the standup with \"good morning team\", like nothing had happened."
+    ],
+    "why_swipe": "So was it just one bad day?"
+   },
+   {
+    "paragraphs": [
+     "You told yourself it was a bad quarter. Targets, a client on their back, a bigger boss shouting at them.",
+     "Then the next week the same tone landed on someone else. And this time you were one of the faces on mute."
+    ],
+    "why_swipe": "What would it take for anything to actually happen?"
+   },
+   {
+    "paragraphs": [
+     "This month, a clip of an IAS officer abusing a junior officer on a call went viral. The J&K government ordered a 15-day inquiry.",
+     "JKAS members alleged it was a pattern, not a one-off.",
+     "**The complaint was a pattern. What opened the inquiry was a clip people could watch.**"
+    ],
+    "why_swipe": "Why does it take a clip, when everyone on the call already saw it?"
+   },
+   {
+    "paragraphs": [
+     "Look at what each side pays. When your senior shouts, they pass their own pressure down and log off lighter.",
+     "When you complain, you put your appraisal, your next project and the EMI that depends on both on the table.",
+     "Shouting at you costs them nothing. That gap is why it keeps happening."
+    ],
+    "why_swipe": "So who on that call was ever going to speak up?"
+   },
+   {
+    "paragraphs": [
+     "Your call had eight witnesses. Every one of them saw it, then logged off and went for lunch.",
+     "A viral clip brings strangers. Strangers are the only witnesses with nothing to lose by saying something.",
+     "**Now count the people on your call who would have spoken up if it had never gone online.**"
+    ]
+   }
+  ],
+  "end": {
+   "save": "Come back to it the next time a call goes silent while someone is being shouted at.",
+   "send": "Anyone who's had a senior talk down to them and known nothing would ever happen about it.",
+   "promise": "How Indian offices really work."
+  },
+  "caption": "What's one thing a senior said to you on a call that would have started an inquiry if a stranger had heard it?",
+  "hashtags": [
+   "#ToxicBoss",
+   "#WorkplaceBullying",
+   "#IndianOffice",
+   "#CorporateIndia"
+  ],
+  "alt_text": "A six-slide carousel from Above MRP. The cover reads: A senior shouting at a junior is news only when it's filmed. The slides take the reader back to a review call where a senior shouted at them while everyone went on mute, a colleague checked in on WhatsApp, and the senior said good morning at the next standup like nothing happened. A week later the same tone hit another junior. The post mentions the viral clip of an IAS officer abusing a junior officer, after which the J&K government ordered a 15-day inquiry and JKAS members alleged a pattern. It argues that shouting costs the senior nothing while complaining puts the junior's appraisal at risk, and ends by asking the reader to count how many people on their own call would have spoken up if it had never gone online.",
+  "claims": [
+   {
+    "text": "This month (October 2026), a clip of an IAS officer abusing a junior officer on a call went viral.",
+    "source_url": "https://www.theweek.in/news/india/2026/10/16/who-is-kumar-rajeev-ranjan-jandk-ias-officer-faces-action-for-abusing-woman-officer-years-after-arms-licence-row.html"
+   },
+   {
+    "text": "The J&K government ordered a 15-day inquiry after the clip went viral.",
+    "source_url": "topic"
+   },
+   {
+    "text": "JKAS members alleged the officer's demeaning language was a pattern, not an isolated incident.",
+    "source_url": "https://www.theweek.in/news/india/2026/10/16/who-is-kumar-rajeev-ranjan-jandk-ias-officer-faces-action-for-abusing-woman-officer-years-after-arms-licence-row.html"
+   }
+  ],
+  "caption_style": "question"
+ }
 }
