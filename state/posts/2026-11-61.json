@@ -1,6 +1,6 @@
 {
  "id": "2026-11-61",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-15T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -68,6 +68,215 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-10-25T08:27:36.293546+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Hard failure 6 and 2: the post carries too many numbers and an unsourced one. Slide 3 has '$66 million' and '$1 billion'. Slide 4 has 'forty could be twenty'. Slide 5 has 'shut down in eighteen months, and plenty do'. 'Eighteen months' and 'plenty do' are not in the sources or the topic's proof.",
+     "Hard failure 7: slide 3's second paragraph ('The easy reading writes itself. The startup got lucky. The big company had a bad quarter.') only sets up a straw man and adds nothing. Slide 4's line 'It's one economy, moving money away from headcount and toward a few big bets' repeats the claim in the paragraph above it.",
+     "Hard failure 4/5 (weak turn and because): the cover and slide 1 promise a swap ('safe' and 'risky' traded places). Slide 5 then takes it back ('Not exactly... isn't the same thing as safe'). The 'because' is one flat sentence about 'fewer, bigger AI bets' with no one who gains and no hidden motive. It never explains why a unicorn round says anything about a startup job offer."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 3,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 3,
+     "eq": 3,
+     "iq": 3,
+     "story": 3,
+     "tight": 3
+    },
+    "notes": [
+     "slides 3-4: Cut the numbers down to one headline figure at most. Drop 'forty could be twenty' and 'eighteen months / plenty do' entirely, since they're not sourced. Delete the 'easy reading writes itself' paragraph. Use the space to say who gains: the money goes to a few AI names, and the AI story also lets a big company call a smaller team 'efficiency'. That is the because, and it is currently missing.",
+     "slide 4: The line 'It's one economy...' restates the claim. Replace it with the actual turn: one big funding round is not startup safety. Be careful with the AI-justifies-layoffs motive. State it as what companies say and what it lets them do, not as a secret plan.",
+     "cover/slide 1 vs slide 5: The 'swapped places' hook is retracted by slide 5, so the post contradicts itself. Reframe the hook so the turn survives to the end. For example: 'safe' was never about the company, it was about how replaceable your role looks, and that now changes with the AI story. Slide 5's concession (the MNC still pays on the 1st, the startup can fail) should sharpen that turn rather than undo it.",
+     "slides 2 and 6: The story stops being a moment. It starts in bed scrolling, then drops that thread and turns to coaching ('Before you pick... check where that word came from'). Carry the same scroll into the ending: you keep the layoff screenshot and the unicorn headline in your head while the offer letter sits in your inbox. Remove the instruction and let the sting land. Keep the 'date on the word safe' idea, but say what it is: your parents' definition, from a time when a big name meant a job for life.",
+     "slide 6: The closer, 'The safe in your head has a date on it... your parents got their first job', is a decent line, but 'probably the year' is a hedge and slightly cute. Make it a flat claim the reader can test. The save and send lines are fine."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Hard failure 6 and 2: the post carries too many numbers and an unsourced one. Slide 3 has '$66 million' and '$1 billion'. Slide 4 has 'forty could be twenty'. Slide 5 has 'shut down in eighteen months, and plenty do'. 'Eighteen months' and 'plenty do' are not in the sources or the topic's proof.",
+    "Hard failure 7: slide 3's second paragraph ('The easy reading writes itself. The startup got lucky. The big company had a bad quarter.') only sets up a straw man and adds nothing. Slide 4's line 'It's one economy, moving money away from headcount and toward a few big bets' repeats the claim in the paragraph above it.",
+    "Hard failure 4/5 (weak turn and because): the cover and slide 1 promise a swap ('safe' and 'risky' traded places). Slide 5 then takes it back ('Not exactly... isn't the same thing as safe'). The 'because' is one flat sentence about 'fewer, bigger AI bets' with no one who gains and no hidden motive. It never explains why a unicorn round says anything about a startup job offer.",
+    "slides 3-4: Cut the numbers down to one headline figure at most. Drop 'forty could be twenty' and 'eighteen months / plenty do' entirely, since they're not sourced. Delete the 'easy reading writes itself' paragraph. Use the space to say who gains: the money goes to a few AI names, and the AI story also lets a big company call a smaller team 'efficiency'. That is the because, and it is currently missing.",
+    "slide 4: The line 'It's one economy...' restates the claim. Replace it with the actual turn: one big funding round is not startup safety. Be careful with the AI-justifies-layoffs motive. State it as what companies say and what it lets them do, not as a secret plan.",
+    "cover/slide 1 vs slide 5: The 'swapped places' hook is retracted by slide 5, so the post contradicts itself. Reframe the hook so the turn survives to the end. For example: 'safe' was never about the company, it was about how replaceable your role looks, and that now changes with the AI story. Slide 5's concession (the MNC still pays on the 1st, the startup can fail) should sharpen that turn rather than undo it.",
+    "slides 2 and 6: The story stops being a moment. It starts in bed scrolling, then drops that thread and turns to coaching ('Before you pick... check where that word came from'). Carry the same scroll into the ending: you keep the layoff screenshot and the unicorn headline in your head while the offer letter sits in your inbox. Remove the instruction and let the sting land. Keep the 'date on the word safe' idea, but say what it is: your parents' definition, from a time when a big name meant a job for life.",
+    "slide 6: The closer, 'The safe in your head has a date on it... your parents got their first job', is a decent line, but 'probably the year' is a hedge and slightly cute. Make it a flat claim the reader can test. The save and send lines are fine."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Caption: \"I grew up thinking a big name on the offer letter was a guarantee...\" uses \"I\" and a lived claim, but the topic is marked lived: false (pure observation).",
+     "Slide 5 is a dead slide. It half-restates the turn from slide 4 (\"never protected a role that looked replaceable\") and adds a generic both-sides line about pay on the 1st and health cover."
+    ],
+    "scores": {
+     "hook": 3,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 3,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "Slide 4: The central logic is muddled. A funding round for Blacksmith has nothing to do with \"which work looks easy to replace\", so the bolded line doesn't join the two headlines. Use the topic's actual because: money is concentrating on a few big AI bets, and large companies use the same AI story to justify thinner teams. One simple line that shows who gains in each headline will work better than the replaceability frame.",
+     "Slide 3: \"Your first thought is the old one. The steady giant is shrinking, and the risky startup is winning.\" This is the flipped belief, not the old one. Write the old belief (big company safe, startup a gamble) first as the reader's reflex, then let the two headlines break it. Slide 1's hook also needs to carry that turn more sharply, e.g. the 'safe' job is the one being cut.",
+     "Slide 5: Cut it or merge it into slide 4. The startup-isn't-safe-either hedge and the MNC-still-pays-on-the-1st concession muddy the take. If you keep a concession, keep it to one short line and push past it.",
+     "Slide 6: The payoff is a mini-lecture (\"the word 'safe' is your parents' word\") and asserts what the reader's parents think. Use the topic's payoff instead: a test the reader can run, such as which job you still call 'safe' without checking the date on that belief. Keep the sting of the big name at the top of the termination email as the last line.",
+     "Caption: Remove the first-person line. Write it as an observation using \"we\" or \"you\", for example that the big name in the header was the guarantee our parents trusted, and this year's emails carried it too."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Caption: \"I grew up thinking a big name on the offer letter was a guarantee...\" uses \"I\" and a lived claim, but the topic is marked lived: false (pure observation).",
+    "Slide 5 is a dead slide. It half-restates the turn from slide 4 (\"never protected a role that looked replaceable\") and adds a generic both-sides line about pay on the 1st and health cover.",
+    "Slide 4: The central logic is muddled. A funding round for Blacksmith has nothing to do with \"which work looks easy to replace\", so the bolded line doesn't join the two headlines. Use the topic's actual because: money is concentrating on a few big AI bets, and large companies use the same AI story to justify thinner teams. One simple line that shows who gains in each headline will work better than the replaceability frame.",
+    "Slide 3: \"Your first thought is the old one. The steady giant is shrinking, and the risky startup is winning.\" This is the flipped belief, not the old one. Write the old belief (big company safe, startup a gamble) first as the reader's reflex, then let the two headlines break it. Slide 1's hook also needs to carry that turn more sharply, e.g. the 'safe' job is the one being cut.",
+    "Slide 5: Cut it or merge it into slide 4. The startup-isn't-safe-either hedge and the MNC-still-pays-on-the-1st concession muddy the take. If you keep a concession, keep it to one short line and push past it.",
+    "Slide 6: The payoff is a mini-lecture (\"the word 'safe' is your parents' word\") and asserts what the reader's parents think. Use the topic's payoff instead: a test the reader can run, such as which job you still call 'safe' without checking the date on that belief. Keep the sting of the big name at the top of the termination email as the last line.",
+    "Caption: Remove the first-person line. Write it as an observation using \"we\" or \"you\", for example that the big name in the header was the guarantee our parents trusted, and this year's emails carried it too."
+   ]
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Slide 2 has 62 words; the limit is 60. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "slide 5: The ending is weak. 'But notice which job you still call safe, and when you last checked the date on that belief' coaches the reader, which is the lecture register this page avoids. The 'big name at the top of the email' line is the sting, but it sits behind the coaching and the 'Yes, the MNC still pays' concession. Cut the 'notice' sentence. Turn the test into something the reader runs on themselves in the scene, for example what they would have said about that company a year ago. End on one repeatable line, such as the brand name being what made it feel safe and now also being what is on the email.",
+     "slide 4: The mechanism is stated as fact in a flat, slogan way. 'One story raised the startup's money and wrote the layoff email' reads like a deliberate plan. Say who gains in plain words: investors want the few AI bets they can brag about, and a big company that says 'AI' sounds like it is investing even while it cuts staff. Frame it as one story being told to two audiences, not as one author. Keep it to the topic's 'because' and add no new facts.",
+     "slide 3: 'One thumb flick later' feels staged, and Blacksmith arrives as an unexplained name with no reason for an Indian reader to care. Keep the line about the cheque and 'your reflex didn't plan for that'. Add one beat that ties it to the reader's own choice. For example, the startup offer in their inbox suddenly looks less like a gamble than the layoff story made the MNC look. Do not claim Blacksmith is Indian or say where it is based, because the sources don't confirm either.",
+     "slide 2: The details of the layoff story ('which teams', 'laptop login died first') are fine as texture, but the slide never says what the reader stands to lose by leaning MNC. Add the one real stake: 'sensible' means the choice parents and relatives would approve of. That gives the reader a reason to feel the turn on slide 3 instead of just noting it.",
+     "slides 1-5: The fresh angle is only partly landed. 'Safe is risky, risky is funded' is the obvious reading. The newer idea is that 'safe' was a belief inherited from someone else's timeline, and the AI story is what is now rewriting it. Say this once, in a sharper line on slide 4 or 5, and do not repeat it in the caption."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "slide 5: The ending is weak. 'But notice which job you still call safe, and when you last checked the date on that belief' coaches the reader, which is the lecture register this page avoids. The 'big name at the top of the email' line is the sting, but it sits behind the coaching and the 'Yes, the MNC still pays' concession. Cut the 'notice' sentence. Turn the test into something the reader runs on themselves in the scene, for example what they would have said about that company a year ago. End on one repeatable line, such as the brand name being what made it feel safe and now also being what is on the email.",
+    "slide 4: The mechanism is stated as fact in a flat, slogan way. 'One story raised the startup's money and wrote the layoff email' reads like a deliberate plan. Say who gains in plain words: investors want the few AI bets they can brag about, and a big company that says 'AI' sounds like it is investing even while it cuts staff. Frame it as one story being told to two audiences, not as one author. Keep it to the topic's 'because' and add no new facts.",
+    "slide 3: 'One thumb flick later' feels staged, and Blacksmith arrives as an unexplained name with no reason for an Indian reader to care. Keep the line about the cheque and 'your reflex didn't plan for that'. Add one beat that ties it to the reader's own choice. For example, the startup offer in their inbox suddenly looks less like a gamble than the layoff story made the MNC look. Do not claim Blacksmith is Indian or say where it is based, because the sources don't confirm either.",
+    "slide 2: The details of the layoff story ('which teams', 'laptop login died first') are fine as texture, but the slide never says what the reader stands to lose by leaning MNC. Add the one real stake: 'sensible' means the choice parents and relatives would approve of. That gives the reader a reason to feel the turn on slide 3 instead of just noting it.",
+    "slides 1-5: The fresh angle is only partly landed. 'Safe is risky, risky is funded' is the obvious reading. The newer idea is that 'safe' was a belief inherited from someone else's timeline, and the AI story is what is now rewriting it. Say this once, in a sharper line on slide 4 or 5, and do not repeat it in the caption."
+   ]
+  }
+ ],
+ "updated_at": "2026-10-27T09:49:19.694162+00:00",
+ "sources": [
+  {
+   "url": "https://india.entrepreneur.com/?p=100701",
+   "fact": "Blacksmith raised a $66M Series C led by Sequoia Capital at a $1 billion valuation, reported October 22, 2026. Blacksmith manages most of its computing capacity in the US and Europe, and the sources don't say where it is headquartered.",
+   "excerpt": "Blacksmith, an AI code testing platform, \"has raised USD 66 million in a Series C round led by Sequoia Capital at a valuation of USD 1 billion.\" \"Premji Invest participated, along with existing investors Peak XV Partners, Google Ventures (GV) and Y Combinator.\" Total funding now reaches USD 125 million; the earlier Series B was USD 45 million, led by Peak XV Partners at a \"USD 550 million valuation.\"",
+   "date": "2026-10-22"
+  },
+  {
+   "url": "https://www.theweek.in/news/biz-tech/2026/04/01/oracle-fires-thousands-including-12000-in-india-to-fund-its-ai-ambitions-reports.html",
+   "fact": "The Oracle India layoff was reported on April 1, 2026, not in the week of October 21-23. The reported figure was about 12,000 of roughly 30,000 India staff (about 40%), not 10,000 (a third), and Oracle did not officially confirm it. The claim's timing and numbers do not match this source.",
+   "excerpt": "\"Approximately 12,000 employees in India have reportedly been laid off, out of a domestic workforce of around 30,00\" [the page text is cut off here] ... \"a cut of roughly 40 per cent of its India headcount\"",
+   "date": "2026-04-01"
+  }
+ ],
+ "draft": {
+  "cover": {
+   "headline": "This year the [safe job] is the one getting cut",
+   "sub": "One scroll later, the risky startup was a unicorn."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "This year the safe job is the one getting cut.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "Where did you see both of these?"
+   },
+   {
+    "paragraphs": [
+     "It's a weeknight and you're half-scrolling in bed. A layoff story pops up, at a company everyone called safe.",
+     "Screenshots of the termination email. The comments ask which teams, and whether the laptop login died first.",
+     "A startup offer sits unopened in your inbox. You've been leaning MNC, the sensible one."
+    ],
+    "why_swipe": "What shows up one scroll later?"
+   },
+   {
+    "paragraphs": [
+     "One thumb flick later, an AI code-testing startup called Blacksmith is a unicorn, with Sequoia leading the round.",
+     "So the sensible one is sending termination emails. The gamble is getting a fresh cheque. Your reflex didn't plan for that."
+    ],
+    "why_swipe": "How can the same economy do both at once?"
+   },
+   {
+    "paragraphs": [
+     "Because both headlines come from the same money moving. Investors are piling into a few big AI bets instead of spreading it around.",
+     "And big companies tell the same AI story to explain why they need fewer people.",
+     "**One story raised the startup's money and wrote the layoff email.**"
+    ],
+    "why_swipe": "So which offer do you pick?"
+   },
+   {
+    "paragraphs": [
+     "Yes, the MNC still pays on the 1st. That part is real.",
+     "**But notice which job you still call 'safe', and when you last checked the date on that belief.**",
+     "The termination email in those screenshots had the big name right at the top."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Read it again the night before you sign any offer letter.",
+   "send": "Send to the friend weighing a startup offer against a 'stable' MNC job right now.",
+   "promise": "How money and work really move."
+  },
+  "caption": "The big name in the header used to be the guarantee, and this year it showed up on the termination email too.",
+  "hashtags": [
+   "#StartupVsMNC",
+   "#TechLayoffs",
+   "#IndianTechJobs",
+   "#AIJobs"
+  ],
+  "alt_text": "A five-slide carousel. The cover reads: This year the safe job is the one getting cut. The slides follow a reader scrolling in bed past a layoff story at a company everyone called safe, with screenshots of termination emails, while a startup offer sits unopened in their inbox. One scroll later, AI code-testing startup Blacksmith becomes a unicorn in a Sequoia-led round. The post argues both headlines come from the same AI story: investors pile into a few big AI bets, and big companies use AI to explain smaller teams. It admits the big company still pays reliably, then asks the reader to notice which job they still call safe and when they last checked that belief. It ends on the big company name sitting at the top of the termination email.",
+  "claims": [
+   {
+    "text": "Blacksmith, an AI code-testing startup, became a unicorn in a round led by Sequoia.",
+    "source_url": "https://india.entrepreneur.com/?p=100701"
+   },
+   {
+    "text": "Blacksmith became a unicorn.",
+    "source_url": "https://www.localsamosa.com/news/startup-roundup-fourth-week-of-october-2026-12740723"
+   }
+  ]
+ }
 }
