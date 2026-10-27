@@ -3,55 +3,40 @@
   "due": "2026-11-01T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "The job market didn't get worse for everyone equally",
-   "claim": "It's not that the job market is tough right now, it's that it's roughly twice as tough if you're a young woman in a city.",
-   "behaviour": "Urban young women face unemployment at more than double the rate of urban young men with the same degrees, same cities, same economy.",
-   "mechanism": "Families still quietly limit where a daughter can relocate for work and which jobs are 'safe' to commute to, restrictions nobody places on sons the same way.",
-   "group": "Urban job-seekers and their families, especially women 22-29",
-   "territory": "money_status",
-   "mood": "sharp",
-   "format_name": "family_ledger",
-   "moment": "Your friend has been job-hunting for six months. Her brother, same degree, same city, landed something in six weeks.",
+   "title": "The small-cart fee is a nudge, not a fee",
+   "claim": "The small-cart fee isn't there to earn money; it's there to make you add a ₹150 thing you didn't need.",
+   "moment": "Adding a pack of chips to cross ₹199 so you don't pay the extra charge.",
    "turn": {
-    "believed": "The job market is just hard for everyone right now.",
-    "actually": "The numbers show it's nearly double the trouble if you're a young woman looking in a city."
+    "believed": "Apps charge these fees because delivery is expensive.",
+    "actually": "The fee is built so you'll avoid it by spending more, and most people do."
    },
-   "because": "An unnamed family rule still decides which jobs are 'appropriate,' which cities are 'safe,' and how long a daughter can stay unmarried and job-hunting, options nobody restricts for a son.",
-   "proof": [
-    {
-     "fact": "Urban youth unemployment rose to 19% in September 2026; among urban young women it reached 26.6%, more than double the 16.4% rate among urban young men",
-     "source_url": "https://www.aninews.in/news/business/urban-youth-unemployment-rises-to-19-in-september-reaches-266-among-young-women20261015183053/",
-     "date": "2026-10-15"
-    }
-   ],
+   "because": "A bigger basket earns the app far more than the fee would. You think you beat the system while doing exactly what it wanted.",
+   "payoff": "Next time, pay the fee once. Notice how much cheaper your order gets.",
    "lived": false,
-   "payoff": "Ask any woman you know how many offers she turned off because of a commute or a city her family wouldn't approve. That number is the real unemployment rate.",
-   "send_to": "Send to a friend whose family keeps vetoing job offers 'for her own good.'",
-   "format_hint": "single",
-   "real_details": [],
-   "evidence": [
-    {
-     "url": "https://www.aninews.in/news/business/urban-youth-unemployment-rises-to-19-in-september-reaches-266-among-young-women20261015183053/",
-     "sub": "news",
-     "rank": 24
-    }
-   ],
-   "news_peg": "MOSPI PLFS data for September 2026, reported 2026-10-15",
-   "why_now": "Fresh monthly data makes an everyday pattern measurable",
-   "counterintuitive": true,
-   "needs_facts": true,
-   "id": "2026-10-250808-021",
+   "behaviour": "Users pad orders to cross thresholds; apps keep moving the thresholds.",
+   "mechanism": "A small penalty pushes people to raise basket size, which is the real goal.",
+   "group": "Daily quick-commerce users in cities",
+   "territory": "money_status",
+   "mood": "rant",
+   "format_name": "price_tells",
+   "send_to": "The flatmate whose 10-minute orders always include something extra.",
+   "format_hint": "carousel",
+   "why_now": "Quick-commerce fees keep multiplying with every app update.",
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-10-271706-033",
    "score": {
-    "rank": 3,
-    "why": "Not 'market's tough for everyone,' it's a gendered family rule nobody names out loud, with a stat that reframes a friend's six-month job hunt.",
+    "rank": 1,
+    "why": "Everyone has added chips to dodge the fee; you think you beat the app while doing exactly what it wanted.",
     "scores": {
-     "relatable": 4,
+     "relatable": 5,
      "fresh_angle": 4,
-     "shareable": 4,
+     "shareable": 5,
      "saveable": 4,
-     "because": 4
+     "because": 5
     },
-    "format_fit": "single"
+    "format_fit": "carousel"
    }
   }
  },
@@ -59,52 +44,40 @@
   "due": "2026-11-03T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "Too expensive to keep",
-   "claim": "When a brand-new manager suddenly has strong opinions about your salary, the problem was never your performance.",
-   "behaviour": "Managers quietly pressure expensive employees to resign right before appraisal cycles, citing vague 'budget' instead of performance.",
-   "mechanism": "A resignation leaves no severance, no paper trail and a clean budget line. Firing someone for being well-paid looks bad on record; a voluntary exit doesn't.",
-   "group": "Salaried employees, 24-32, mid-career, approaching their first big appraisal",
-   "territory": "business_brands",
-   "mood": "dark_pattern",
-   "format_name": "saturday_single",
-   "moment": "A manager you've known for eight weeks calls you in right before appraisal season and says nothing you did was wrong, just that the budget doesn't support your role.",
+   "title": "AI made the documents longer",
+   "claim": "AI was meant to make work faster; in most offices it made documents three times longer and decisions no quicker.",
+   "moment": "A meeting summary with six headings and a 'key takeaways' box nobody scrolls to.",
    "turn": {
-    "believed": "The company has a genuine budget problem and you drew the short straw.",
-    "actually": "You're being quietly priced out before your raise is due, dressed up as a budget conversation."
+    "believed": "AI at work is making people more productive.",
+    "actually": "It mostly makes people look thorough, so everyone produces more pages for others to skim."
    },
-   "because": "A resignation costs the company nothing and shows up nowhere. Firing someone for earning well looks bad; asking them to leave on their own doesn't.",
-   "proof": [],
-   "lived": false,
-   "payoff": "If a manager you've met twice suddenly has an opinion about your pay, check the calendar before you check your performance.",
-   "send_to": "Anyone whose new manager just got weirdly specific about 'team budget.'",
-   "format_hint": "single",
-   "real_details": [
-    "New manager appointed roughly two months before the conversation",
-    "Timed right before an October appraisal cycle"
-   ],
-   "evidence": [
-    {
-     "url": "https://www.hrkatha.com/news/bengaluru-employee-alleges-manager-pressured-him-to-resign-over-high-salary/",
-     "sub": "news",
-     "rank": 21
-    }
-   ],
-   "news_peg": "Bengaluru employee's viral account of manager pressure ahead of the Oct 24 appraisal cycle (2026-10-22)",
-   "why_now": "Appraisal season is live right now and this exact story just went viral",
-   "counterintuitive": true,
+   "because": "Length still looks like effort to a busy boss. When writing costs nothing, the reader pays the cost instead.",
+   "payoff": "Before you send the AI version, ask if you'd have written half of it by hand. If not, delete that half.",
+   "lived": true,
+   "behaviour": "People paste AI-written notes, decks and emails that are longer than needed; colleagues feed them back into AI to summarise.",
+   "mechanism": "Effort is judged by volume, and AI makes volume free.",
+   "group": "Desk workers using AI tools daily",
+   "territory": "business_brands",
+   "mood": "funny",
+   "format_name": "behind_the_brand",
+   "send_to": "The colleague whose emails got four bullet points longer this year.",
+   "format_hint": "carousel",
+   "why_now": "Most offices now have AI tools switched on by default, and the side effects are visible in every inbox.",
    "needs_facts": false,
-   "id": "2026-10-250808-013",
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-10-271706-028",
    "score": {
-    "rank": 7,
-    "why": "Office politics everyone's lived near, with a clean test: a new manager's sudden opinion about your pay is a clock, not a review.",
+    "rank": 2,
+    "why": "Matches his belief that AI at work is used to look busy; the six-heading summary nobody reads is instantly familiar.",
     "scores": {
-     "relatable": 4,
+     "relatable": 5,
      "fresh_angle": 4,
-     "shareable": 4,
-     "saveable": 3,
+     "shareable": 5,
+     "saveable": 4,
      "because": 4
     },
-    "format_fit": "single"
+    "format_fit": "carousel"
    }
   }
  },
@@ -112,66 +85,40 @@
   "due": "2026-11-05T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "Zero Is a Different Message Than Less",
-   "claim": "A reduced bonus is a budget decision. A zero bonus is a message with your name on it.",
-   "behaviour": "TCS told senior staff there would be no quarterly bonus at all this quarter, while junior employees across the company still got their full variable pay.",
-   "mechanism": "A flat zero, aimed only at people senior enough to understand it, reads less like belt-tightening and more like a warning about where the next cut goes.",
-   "group": "mid-to-senior salaried professionals used to variable pay being a given, even if trimmed",
+   "title": "We pick credit cards for the airport",
+   "claim": "Most of us chose our credit card for the lounge, not the money, and the bank knew we would.",
+   "moment": "Tapping the card at the lounge desk and feeling, for a second, like you made it.",
+   "turn": {
+    "believed": "People choose cards for the best rewards.",
+    "actually": "We choose the perk other people can see us use, and miss the points quietly losing value."
+   },
+   "because": "A visible perk sells the card. Once you're in, the bank can trim the points and you rarely leave.",
+   "payoff": "Add up what your card actually gave you last year in rupees. Then compare it to the fee.",
+   "lived": false,
+   "behaviour": "Users sign up for cards with lounge access, then barely track rewards or devaluations.",
+   "mechanism": "Status perks get people in; inertia keeps them in after the rewards shrink.",
+   "group": "Salaried card users who fly a few times a year",
    "territory": "money_status",
    "mood": "sharp",
-   "format_name": "saturday_single",
-   "moment": "You're used to appraisal season trimming your bonus a little, a disappointing percentage you grumble about and then forget.",
-   "turn": {
-    "believed": "A bad quarter means a smaller bonus for everyone.",
-    "actually": "For senior staff this time, it meant zero, not reduced, while juniors were untouched."
-   },
-   "because": "A targeted zero costs the company less than a visible layoff and sends a sharper signal to exactly the people senior enough to act on it.",
-   "proof": [
-    {
-     "fact": "TCS told staff at grade C3A and above there would be no quarterly variable allowance for Q2 FY27, citing targets that 'fell short,' while junior employees continued to get full variable pay",
-     "source_url": "https://www.thepeoplesboard.com/news/tcs-variable-pay-senior-staff-to-miss-q2-bonus-after-target-shortfall/",
-     "date": "2026-10-12"
-    }
-   ],
-   "lived": false,
-   "payoff": "A zero bonus isn't a cost cut. It's a message sent only to the people old enough to read it.",
-   "send_to": "a senior colleague who just found out their bonus is zero, not reduced",
-   "format_hint": "single",
-   "real_details": [
-    "First time in at least two years TCS gave any staff slice a flat zero rather than a reduced percentage",
-    "An employee compares their bonus to a gameshow's joke prize of a 2-year ghee supply",
-    "A commenter calculates that a 2-year ghee supply costs about ₹17,280",
-    "The award is pointed out as taxable on top of being measly",
-    "Another commenter gets 100 points worth ₹70, redeemable only as an Amazon voucher"
-   ],
-   "evidence": [
-    {
-     "url": "https://www.thepeoplesboard.com/news/tcs-variable-pay-senior-staff-to-miss-q2-bonus-after-target-shortfall/",
-     "sub": "news",
-     "rank": 19
-    },
-    {
-     "url": "https://www.reddit.com/r/IndianWorkplace/comments/1wprjs0/measly_award_for_the_crazy_work/",
-     "sub": "IndianWorkplace",
-     "rank": 4
-    }
-   ],
-   "news_peg": "TCS internal memo dated Oct 10, 2026, reported Oct 12, 2026",
-   "why_now": "Fresh this month and a sharper story than the usual 'bonus cut' news",
-   "counterintuitive": true,
-   "needs_facts": true,
-   "id": "2026-10-250808-009",
+   "format_name": "price_tells",
+   "send_to": "The friend who checks lounge access before they check the flight time.",
+   "format_hint": "carousel",
+   "why_now": "Banks keep tightening lounge rules and reward rates, and people only notice at the airport.",
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-10-271706-036",
    "score": {
-    "rank": 6,
-    "why": "Appraisal-season dread, but the turn is sharp: a zero isn't a cut, it's a message sent only to people senior enough to read it.",
+    "rank": 3,
+    "why": "We pay for what others can see; the lounge card is a perfect example and the bank knows it.",
     "scores": {
-     "relatable": 4,
+     "relatable": 5,
      "fresh_angle": 4,
      "shareable": 4,
-     "saveable": 3,
+     "saveable": 4,
      "because": 4
     },
-    "format_fit": "single"
+    "format_fit": "carousel"
    }
   }
  },
@@ -179,63 +126,36 @@
   "due": "2026-11-07T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "The AI didn't take the job, it became the yardstick",
-   "claim": "AI isn't mainly replacing IT jobs yet, it's being used as a free stick to beat every employee with.",
-   "behaviour": "Managers compare employee output to what an AI agent could theoretically do, to keep people anxious and compliant.",
-   "mechanism": "Comparing a person to a machine costs a company nothing and buys silence. Nobody negotiates a raise standing next to something that works for free.",
-   "group": "IT and services employees, 24-32, watching layoffs and 'AI efficiency' talk around them",
-   "territory": "business_brands",
-   "mood": "mixed",
-   "format_name": "saturday_single",
-   "moment": "You finish a task, and someone casually mentions the AI would've done it in ten minutes. You spend the rest of the day quietly proving you're still worth your seat.",
+   "title": "Five words that add 30% to a price",
+   "claim": "Five words add a third to any price in India: artisanal, handcrafted, small-batch, clean and curated.",
+   "moment": "A ₹650 jar of 'small-batch' peanut butter next to a ₹250 one with the same two ingredients.",
    "turn": {
-    "believed": "AI is here and it's taking IT jobs.",
-    "actually": "AI is mostly being used as a benchmark to make everyone feel replaceable, whether or not it could really do the job."
+    "believed": "These words describe how the product is made.",
+    "actually": "They describe how you should feel about paying more."
    },
-   "because": "A scared employee doesn't ask for a raise or push back on scope. The comparison does the managing so nobody has to.",
-   "proof": [
-    {
-     "fact": "It is sad to constantly compare a human's work output to an AI agent's... we often tell our senior management to disengage in comparing oranges and apples",
-     "source_url": "https://theprint.in/ground-reports/indias-it-giants-rode-labour-arbitrage-ai-billable-hours/3075677/",
-     "date": "2026-10-19"
-    }
-   ],
+   "because": "Nobody can check if something is truly small-batch. A word you can't verify is the cheapest story a brand can buy.",
+   "payoff": "Cover the label and read the ingredients. If they match the cheap one, you were paying for the adjective.",
    "lived": false,
-   "payoff": "Next time someone brings up what the AI could do, ask what it actually did yesterday.",
-   "send_to": "Anyone in IT dreading their next 1:1.",
+   "behaviour": "Brands lean on unverifiable labels; shoppers pay more for them at cafés and stores.",
+   "mechanism": "Words that can't be checked make premium pricing cheap to justify.",
+   "group": "Urban shoppers at premium grocery and café counters",
+   "territory": "business_brands",
+   "mood": "funny",
+   "format_name": "saturday_single",
+   "send_to": "The friend whose kitchen shelf is all 'artisanal'.",
    "format_hint": "single",
-   "real_details": [
-    "TCS cut nearly 20,000 roles in a recent quarter",
-    "WEF estimates 88% of India's IT services work is AI-exposed",
-    "An employee got a performance warning in their third month on a new job",
-    "After the warning, they focused on understanding the role and raised their rating to B+/A",
-    "A new, more experienced teammate worked slower and leaned heavily on AI, getting the same warning",
-    "That teammate got emotional once or twice saying they were trying their best"
-   ],
-   "evidence": [
-    {
-     "url": "https://theprint.in/ground-reports/indias-it-giants-rode-labour-arbitrage-ai-billable-hours/3075677/",
-     "sub": "news",
-     "rank": 23
-    },
-    {
-     "url": "https://www.reddit.com/r/IndianWorkplace/comments/1wma6eh/the_it_job_market_is_seeing_ais_impact_a_simple/",
-     "sub": "IndianWorkplace",
-     "rank": 12
-    }
-   ],
-   "news_peg": "ThePrint ground report on AI reshaping IT's billable-hours model, published 2026-10-19",
-   "why_now": "Lands the same week as appraisal-season anxiety, compounding the mood",
-   "counterintuitive": true,
-   "needs_facts": true,
-   "id": "2026-10-250808-014",
+   "why_now": "Gift hampers full of these words are filling the shelves before Diwali.",
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-10-271706-049",
    "score": {
-    "rank": 8,
-    "why": "The AI-comparison dig at work is instantly recognisable, and the reframe, it's a management tool not a threat, is the one-step-further the page wants.",
+    "rank": 4,
+    "why": "Premium is packaging and a story; the artisanal peanut butter shelf is exactly what people see.",
     "scores": {
-     "relatable": 4,
+     "relatable": 5,
      "fresh_angle": 4,
-     "shareable": 4,
+     "shareable": 5,
      "saveable": 3,
      "because": 4
     },
@@ -247,64 +167,36 @@
   "due": "2026-11-08T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "Fired And Funded In The Same Week",
-   "claim": "One company cut a third of its India staff and another Indian startup became a billion-dollar company in the same week, and both headlines are the same economy talking.",
-   "behaviour": "Oracle sent termination emails to roughly 10,000 of its ~30,000 India employees; days later, AI infra startup Blacksmith raised money at a $1 billion valuation.",
-   "mechanism": "Capital is concentrating on a handful of big AI bets while big companies use the same AI story to justify thinning teams that now look replaceable.",
-   "group": "anyone deciding between a 'stable' corporate job and a startup offer this year",
-   "territory": "money_status",
-   "mood": "mixed",
-   "format_name": "saturday_single",
-   "moment": "You scroll past a unicorn announcement right after reading that layoffs just hit a company everyone called safe.",
+   "title": "Comment 'LINK' and you work for them",
+   "claim": "When a creator asks you to comment 'LINK', you're not getting a link; you're doing their marketing for free.",
+   "moment": "Four thousand comments under a reel, all of them just the word 'link'.",
    "turn": {
-    "believed": "A big corporate job is the safe bet, a startup is the risky gamble.",
-    "actually": "This year the 'safe' job is the one getting cut in bulk, and the 'risky' bet is the one pulling in fresh funding."
+    "believed": "It's an easy way to get the product link.",
+    "actually": "Each comment tells the app the reel is popular, so it gets shown to more people."
    },
-   "because": "Investors are putting money behind fewer, bigger AI bets, while large companies use the same AI wave to justify shrinking headcount.",
-   "proof": [
-    {
-     "fact": "Around 10,000 Oracle employees in India — roughly one-third of its ~30,000-person India workforce — received termination emails",
-     "source_url": "https://offcampusjobs4u.com/india-job-market-today-21-oct-2026/",
-     "date": "2026-10-21"
-    },
-    {
-     "fact": "Blacksmith...raised $66 million at a $1 billion valuation to become India's latest unicorn",
-     "source_url": "https://www.localsamosa.com/news/startup-roundup-fourth-week-of-october-2026-12740723",
-     "date": "2026-10-23"
-    }
-   ],
+   "because": "Comments push reach, and reach gets the creator paid. The link could just be in the bio.",
+   "payoff": "Next time, go to the bio. See if the link was there all along.",
    "lived": false,
-   "payoff": "Ask yourself which one you still call 'safe' without checking the date on that belief.",
-   "send_to": "Send to the friend weighing a startup offer against a 'stable' MNC job right now.",
+   "behaviour": "Creators gate links behind comments and auto-DMs; followers comply.",
+   "mechanism": "Comments drive the algorithm, so creators trade a link for your engagement.",
+   "group": "Instagram users who shop from reels",
+   "territory": "creators_internet",
+   "mood": "dark_pattern",
+   "format_name": "feed_anthropology",
+   "send_to": "The friend who has commented 'link' on 40 reels this month.",
    "format_hint": "single",
-   "real_details": [
-    "Qualcomm's CEO announced 'performance-focused' layoffs the same week",
-    "around 12,700 Indian tech workers returned from the US by September 2026"
-   ],
-   "evidence": [
-    {
-     "url": "https://offcampusjobs4u.com/india-job-market-today-21-oct-2026/",
-     "sub": "news",
-     "rank": 51
-    },
-    {
-     "url": "https://www.localsamosa.com/news/startup-roundup-fourth-week-of-october-2026-12740723",
-     "sub": "news",
-     "rank": 60
-    }
-   ],
-   "news_peg": "Oracle's ~10,000-person India layoff and Blacksmith's unicorn round, both reported the week of October 21-23, 2026",
-   "why_now": "Both landed in the same seven days, which almost never happens this visibly.",
-   "counterintuitive": true,
+   "why_now": "Comment-to-DM tricks are now on almost every product reel.",
    "needs_facts": false,
-   "id": "2026-10-250808-024",
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-10-271706-044",
    "score": {
-    "rank": 11,
-    "why": "The safe-job-vs-startup instinct gets flipped hard by one week's headlines, a genuinely surprising reframe for anyone weighing an offer.",
+    "rank": 7,
+    "why": "Commenting 'LINK' feels like help but is unpaid growth work; the link was in the bio all along.",
     "scores": {
-     "relatable": 4,
+     "relatable": 5,
      "fresh_angle": 4,
-     "shareable": 4,
+     "shareable": 5,
      "saveable": 3,
      "because": 4
     },
@@ -316,90 +208,32 @@
   "due": "2026-11-09T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "Your 'free' WhatsApp support just started billing you",
-   "claim": "The WhatsApp chat you use for refunds isn't free anymore, and the cost just got passed to you.",
-   "behaviour": "Brands now pay per customer-service reply on WhatsApp, so many are slowing responses or pushing you to a chatbot instead.",
-   "mechanism": "Meta found a way to charge for the one support channel everyone got addicted to. The cheapest fix for a business is to make the human part scarcer.",
-   "group": "Anyone who messages brands on WhatsApp for order or refund updates",
+   "title": "You're paying for the box",
+   "claim": "A heavy box makes a ₹500 product feel like ₹2,000, and brands now spend more on the unboxing than on the thing inside.",
+   "moment": "The magnetic flap, the tissue paper and the card that says 'you deserve this'.",
+   "turn": {
+    "believed": "Premium packaging means a premium product.",
+    "actually": "The box is built for the first thirty seconds, because that's the part that gets filmed and shared."
+   },
+   "because": "Your unboxing reel is free ads for the brand. The product only has to be fine after that.",
+   "payoff": "Throw away the box in your head. Would you still pay this for what's left in your hand?",
+   "lived": false,
+   "behaviour": "D2C brands invest in rigid boxes, inserts and notes; buyers film unboxings and post them.",
+   "mechanism": "Packaging buys free reach and a feeling of value, which is cheaper than improving the product.",
+   "group": "Online shoppers who buy D2C brands",
    "territory": "business_brands",
-   "mood": "sharp",
-   "format_name": "price_tells",
-   "moment": "You message a brand's WhatsApp for a refund update, and a bot keeps looping you instead of connecting you to a person.",
-   "turn": {
-    "believed": "WhatsApp support is free, that's why every brand uses it.",
-    "actually": "Brands now pay per reply, so the easiest cost-cut is making it harder to reach a human."
-   },
-   "because": "Every reply past 1,000 a month now costs the business money, so the incentive flips from 'answer fast' to 'answer less.'",
-   "proof": [
-    {
-     "fact": "₹0.115 per message (about ₹0.136 after GST) after the first 1,000 free messages a month",
-     "source_url": "https://myoperator.com/blog/whatsapp-api-pricing-october-2026-update",
-     "date": "2026-10-01"
-    }
-   ],
-   "lived": false,
-   "payoff": "The chatbot that won't let you speak to a human isn't bad design. It's a bill being passed down to you.",
-   "send_to": "Anyone who's noticed customer support getting slower lately.",
-   "format_hint": "single",
-   "real_details": [
-    "8,000 monthly replies now cost roughly ₹1,085 before tax"
-   ],
-   "evidence": [
-    {
-     "url": "https://myoperator.com/blog/whatsapp-api-pricing-october-2026-update",
-     "sub": "news",
-     "rank": 27
-    }
-   ],
-   "news_peg": "Meta's WhatsApp Business API pricing change effective Oct 1, 2026",
-   "why_now": "Change just landed; the slowdown is about to become visible to users",
-   "counterintuitive": true,
-   "needs_facts": true,
-   "id": "2026-10-250808-016",
-   "score": {
-    "rank": 9,
-    "why": "Everyone's fought a brand's WhatsApp bot; the because, Meta charging per reply, flips 'bad support' into a bill quietly passed to you.",
-    "scores": {
-     "relatable": 4,
-     "fresh_angle": 4,
-     "shareable": 4,
-     "saveable": 3,
-     "because": 4
-    },
-    "format_fit": "single"
-   }
-  }
- },
- {
-  "due": "2026-11-10T20:30:00+05:30",
-  "format": "carousel",
-  "topic": {
-   "title": "The trailer is the best part",
-   "claim": "A trailer that shows you everything good is a warning, not a promotion; they're spending the whole film in two minutes.",
-   "moment": "You walk out of the film feeling you'd already seen the best scenes in the trailer, because you had.",
-   "turn": {
-    "believed": "A great trailer means a great film is coming.",
-    "actually": "When the marketing has to pack every high point into the trailer, it's usually because the film can't carry two hours on its own."
-   },
-   "because": "A trailer sells the opening weekend before word of mouth lands. For a weak film, front-loading every good moment is the only way to fill seats on day one.",
-   "payoff": "If the trailer gave you goosebumps and the film gave you nothing, the budget went to the trailer.",
-   "lived": false,
-   "behaviour": "Studios cram a film's best moments into trailers to drive opening-weekend sales.",
-   "mechanism": "Opening-day collections depend on the trailer, before reviews can spread.",
-   "group": "people who decide what to watch from trailers",
-   "territory": "pop_culture",
-   "mood": "sharp",
+   "mood": "mixed",
    "format_name": "behind_the_brand",
-   "send_to": "the friend who booked tickets purely on the trailer",
+   "send_to": "The friend who keeps every nice box 'just in case'.",
    "format_hint": "carousel",
-   "why_now": "Every big release lives or dies on trailer hype now.",
+   "why_now": "Gifting season means the box matters more than ever this month.",
    "needs_facts": false,
    "news_peg": null,
    "evidence": [],
-   "id": "2026-10-250808-044",
+   "id": "2026-10-271706-034",
    "score": {
-    "rank": 14,
-    "why": "Everyone's felt let down after a great trailer; the because, front-loading the best bits before word of mouth lands, is the part nobody says out loud.",
+    "rank": 6,
+    "why": "Premium packaging is built for the first thirty seconds that get filmed; the box is the ad.",
     "scores": {
      "relatable": 4,
      "fresh_angle": 4,
@@ -412,60 +246,84 @@
   }
  },
  {
+  "due": "2026-11-10T20:30:00+05:30",
+  "format": "carousel",
+  "topic": {
+   "title": "Dad's new TV needs your approval",
+   "claim": "The TV in your parents' home was approved on your video call, and that small call is how family power changed hands.",
+   "moment": "Dad in the showroom, phone held up to a 55-inch screen: 'Yeh theek hai?'",
+   "turn": {
+    "believed": "Parents still run the house and kids just help with tech.",
+    "actually": "The one who earns more and knows more now signs off, and that's slowly becoming the kids."
+   },
+   "because": "Authority follows money and knowing how things work. Both have quietly moved to the children.",
+   "payoff": "Count the last five big purchases at home. See whose phone each one went through.",
+   "lived": false,
+   "behaviour": "Parents call kids before buying appliances, insurance or tickets; kids often pay or choose.",
+   "mechanism": "Money and know-how carry authority, and both have shifted to the younger earner.",
+   "group": "Working children supporting parents in another city",
+   "territory": "life_relationships",
+   "mood": "warm",
+   "format_name": "family_ledger",
+   "send_to": "A sibling, with 'this is literally Papa'.",
+   "format_hint": "carousel",
+   "why_now": "Festive buying season means a lot of these calls are happening this month.",
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-10-271706-041",
+   "score": {
+    "rank": 10,
+    "why": "The video-call TV approval shows authority quietly moving to the kids; a send-to-sibling take.",
+    "scores": {
+     "relatable": 4,
+     "fresh_angle": 5,
+     "shareable": 5,
+     "saveable": 3,
+     "because": 4
+    },
+    "format_fit": "carousel"
+   }
+  }
+ },
+ {
   "due": "2026-11-11T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "It only became a problem because it was recorded",
-   "claim": "A senior screaming at a junior only becomes a scandal when there's footage, which tells you how often it happens without one.",
-   "behaviour": "Seniors humiliate juniors in private calls and meetings with no consequence, until a clip leaks and forces an inquiry.",
-   "mechanism": "Humiliating someone junior costs a senior nothing as long as there's no recording. The clip is the only enforcement that's ever actually worked.",
-   "group": "Anyone who's had a boss speak to them like that off the record",
-   "territory": "business_brands",
-   "mood": "rant",
-   "format_name": "saturday_single",
-   "moment": "A senior loses it on a video call, cursing out a junior colleague in front of everyone, and an inquiry only opens because the clip leaked.",
+   "title": "The sample flat is built to lie politely",
+   "claim": "A sample flat isn't a preview of your home; it's a set, built so small rooms look big.",
+   "moment": "Walking through a show flat with soft lights, a narrow bed and no wardrobe doors open.",
    "turn": {
-    "believed": "This is one bad boss having a bad day.",
-    "actually": "Every workplace has someone who talks to juniors like this off camera, and nothing happens until there's proof."
+    "believed": "The sample flat shows what you'll get.",
+    "actually": "Furniture is chosen and placed to hide how tight the rooms are."
    },
-   "because": "There's no cost to humiliating a junior privately. A recording is the only thing that's ever actually triggered a consequence.",
-   "proof": [
-    {
-     "fact": "J&K government ordered a 15-day inquiry after the clip went viral",
-     "source_url": "https://m.thewire.in/article/politics/in-jammu-and-kashmir-an-ias-officers-rant-exposes-a-system-where-every-superior-has-someone-to-humiliate",
-     "date": "2026-10-15"
-    }
-   ],
+   "because": "You decide with your eyes, not a tape measure. A builder only needs you to feel space for ten minutes.",
+   "payoff": "Carry a tape. Measure where your own double bed would go. That's the real flat.",
    "lived": false,
-   "payoff": "If the only thing stopping bad behaviour is whether your phone was recording, that's not a bad-boss problem, that's the whole culture.",
-   "send_to": "Anyone who's had a senior talk down to them and known nothing would ever happen about it.",
-   "format_hint": "single",
-   "real_details": [
-    "Line from the clip's fallout: 'Had this not happened online, nobody would have said a word about it'"
-   ],
-   "evidence": [
-    {
-     "url": "https://m.thewire.in/article/politics/in-jammu-and-kashmir-an-ias-officers-rant-exposes-a-system-where-every-superior-has-someone-to-humiliate",
-     "sub": "news",
-     "rank": 30
-    }
-   ],
-   "news_peg": "Viral IAS officer-junior call clip and resulting inquiry, 2026-10-15",
-   "why_now": "Fresh viral moment with real institutional response this month",
-   "counterintuitive": false,
+   "behaviour": "Buyers fall for staged flats; builders style them with slim furniture and mirrors.",
+   "mechanism": "A feeling of space sells faster than square feet on paper.",
+   "group": "First-time flat buyers in their late 20s and 30s",
+   "territory": "money_status",
+   "mood": "dark_pattern",
+   "format_name": "price_tells",
+   "send_to": "The friend who just booked a flat after one site visit.",
+   "format_hint": "carousel",
+   "why_now": "Festive launches and 'Diwali offers' bring a wave of site visits.",
    "needs_facts": false,
-   "id": "2026-10-250808-018",
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-10-271706-039",
    "score": {
-    "rank": 10,
-    "why": "Being talked down to by a senior is near-universal; the turn, only footage ever triggers consequence, indicts the whole culture, not one boss.",
+    "rank": 11,
+    "why": "The sample flat is a set; the tape-measure test is saveable and ties to the flat-costs-a-decade theme.",
     "scores": {
      "relatable": 4,
      "fresh_angle": 4,
      "shareable": 4,
-     "saveable": 3,
+     "saveable": 4,
      "because": 4
     },
-    "format_fit": "single"
+    "format_fit": "carousel"
    }
   }
  },
@@ -473,32 +331,32 @@
   "due": "2026-11-12T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "Honest review, link in bio",
-   "claim": "The 'honest review' that ends with a discount code isn't a review; it's a paid ad that keeps the word honest to lower your guard.",
-   "moment": "A creator lists a product's 'one small flaw' then drops their code 'HONEST10' with a wink.",
+   "title": "The vitamin became a dessert",
+   "claim": "Wellness brands turned vitamins into gummies because you'll take a sweet every day and forget a pill.",
+   "moment": "A jar of 'sleep gummies' next to the laptop, two eaten at once because they taste nice.",
    "turn": {
-    "believed": "Admitting one flaw proves the review is unbiased.",
-    "actually": "The small flaw is a trust trick; naming one minor con makes you believe the praise and buy through their earning link."
+    "believed": "Gummies are a better, gentler way to take supplements.",
+    "actually": "They're a habit product dressed as health, often with less of the active thing and some sugar."
    },
-   "because": "A perfect review reads as paid, so a tiny criticism performs balance. The code underneath still pays the creator on every sale.",
-   "payoff": "If the only flaw is 'the packaging could be better' and there's a code below, that's an ad.",
+   "because": "A brand needs you to come back every month. Candy you enjoy gets reordered; a pill you dread doesn't.",
+   "payoff": "Read the label once. If sugar is near the top, you're buying a sweet with a promise.",
    "lived": false,
-   "behaviour": "Creators add one token flaw to paid reviews to seem balanced before pushing affiliate codes.",
-   "mechanism": "A minor con builds false trust, and the affiliate link still earns on every buy.",
-   "group": "people who research buys through creator reviews",
-   "territory": "creators_internet",
-   "mood": "sharp",
-   "format_name": "feed_anthropology",
-   "send_to": "the friend who only buys after watching an 'honest review'",
+   "behaviour": "People buy biotin, ashwagandha and melatonin gummies on subscription and eat them like snacks.",
+   "mechanism": "Taste drives repeat orders, and repeat orders are the business.",
+   "group": "Health-curious young professionals",
+   "territory": "business_brands",
+   "mood": "rant",
+   "format_name": "behind_the_brand",
+   "send_to": "The colleague with four gummy jars on their desk.",
    "format_hint": "carousel",
-   "why_now": "Affiliate-driven reviews spike during sale season.",
-   "needs_facts": "How affiliate commissions work: the creator earns a cut on every sale through their code, review or not.",
+   "why_now": "Gummy supplements are now on every quick-commerce home screen.",
+   "needs_facts": false,
    "news_peg": null,
    "evidence": [],
-   "id": "2026-10-250808-050",
+   "id": "2026-10-271706-035",
    "score": {
-    "rank": 15,
-    "why": "The 'honest review' with a code underneath is everywhere; naming the one-flaw trust trick gives readers a test they'll actually use.",
+    "rank": 12,
+    "why": "Wellness is marketing wearing a yoga mat; gummies are a habit product, which most people never think about.",
     "scores": {
      "relatable": 4,
      "fresh_angle": 4,
@@ -514,32 +372,50 @@
   "due": "2026-11-13T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "The generous return window",
-   "claim": "The 30-day no-questions return policy isn't kindness; it's a bet that you won't send it back, and you almost never do.",
-   "moment": "You keep the slightly-wrong kurta because returning it means printing a label and finding a pickup slot.",
+   "title": "The reviews were dead. The theatre was full.",
+   "claim": "Critics reviewing a film and the public buying a ticket for it are two different markets now, and Vvaan showed it in one weekend.",
+   "behaviour": "We read the harsh reviews, shrug, and still book the Saturday show because the trailer, the folklore setting and a comedian we like feel like enough. Reviews now work as gossip for after the film, not as advice before it.",
+   "mechanism": "A review is one stranger's taste. A friend saying 'it's timepass, go' is a person we trust. Word of mouth in a group chat beats a star rating, and studios know it, so they spend on trailers and not on critics.",
+   "group": "Urban 24-32 cinema-goers who check reviews and then book anyway",
+   "territory": "pop_culture",
+   "mood": "funny",
+   "format_name": "saturday_single",
+   "moment": "You read a one-star review at 6 pm and book the 9 pm show anyway.",
    "turn": {
-    "believed": "A long return window means the brand trusts its product and respects you.",
-    "actually": "They've counted that most people never return anything, so the promise costs them little and closes the sale for them."
+    "believed": "Bad reviews kill a film and good reviews make one.",
+    "actually": "Reviews are now an opinion we collect for the post-film argument. The ticket gets decided by the trailer and one friend's text."
    },
-   "because": "A visible safety net removes the last doubt at checkout, and human laziness guarantees most returns never happen. The brand keeps your money and your trust.",
-   "payoff": "The easier they make returns on paper, the more they're counting on you not bothering.",
+   "because": "Studios gain when we trust friends over critics, because a friend's text costs them nothing and a critic can't be bought. So they put money into trailers, songs and release dates.",
+   "proof": [
+    {
+     "fact": "Vvaan made ₹33.25 crore net in three days, with ₹8 crore on Friday, ₹11.25 crore on Saturday and ₹14 crore on Sunday. The article says reviewers were almost unanimous in dismissing it, and daily collections kept rising, which it credits to positive word of mouth.",
+     "source_url": "https://gulfnews.com/entertainment/vvaan-box-office-collection-sidharth-malhotra-scores-his-biggest-opening-weekend-since-2015-1.500690252",
+     "date": "2026-09-28"
+    }
+   ],
    "lived": false,
-   "behaviour": "Brands advertise easy returns prominently while quietly relying on low actual return rates to boost conversion.",
-   "mechanism": "The promise closes the sale; inertia means it rarely gets used.",
-   "group": "online shoppers who buy clothes and gadgets on apps",
-   "territory": "business_brands",
-   "mood": "dark_pattern",
-   "format_name": "behind_the_brand",
-   "send_to": "the friend with three unworn things still in their boxes, because the return date passed",
-   "format_hint": "carousel",
-   "why_now": "Festive sale returns are piling up and most people are letting the window close.",
+   "payoff": "The test: name the last film you skipped because of a review. Now name the last one you skipped because a friend said it was bad. The second list is longer.",
+   "send_to": "The friend who reads every review and then books the first-day show anyway.",
+   "format_hint": "single",
+   "real_details": [
+    "Praise went to the folklore and Chhath Puja setting and to Sunil Grover",
+    "Others criticised the slow first half and weak visuals"
+   ],
+   "evidence": [
+    {
+     "url": "https://gulfnews.com/entertainment/vvaan-box-office-collection-sidharth-malhotra-scores-his-biggest-opening-weekend-since-2015-1.500690252",
+     "sub": "news",
+     "rank": 41
+    }
+   ],
+   "news_peg": "Vvaan's opening weekend of ₹33.25 crore net despite harsh reviews, reported 2026-09-28",
+   "why_now": "The film is still running and people are still arguing critic versus audience.",
+   "counterintuitive": false,
    "needs_facts": false,
-   "news_peg": null,
-   "evidence": [],
-   "id": "2026-10-250808-032",
+   "id": "2026-10-271706-018",
    "score": {
-    "rank": 13,
-    "why": "Everyone has the unreturned kurta; the turn, the easy return window is a bet you won't bother, is a sharp dark pattern with a built-in test.",
+    "rank": 19,
+    "why": "We read reviews for the post-film argument but buy on a friend's text; the Vvaan weekend backs it with one fact.",
     "scores": {
      "relatable": 4,
      "fresh_angle": 4,
@@ -547,7 +423,7 @@
      "saveable": 3,
      "because": 4
     },
-    "format_fit": "carousel"
+    "format_fit": "single"
    }
   }
  },
@@ -555,36 +431,36 @@
   "due": "2026-11-14T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "The housewarming is a reveal",
-   "claim": "The griha pravesh invite is less about blessings and more about the first guided tour of what you can now afford.",
-   "moment": "You're walked room by room through the new flat, pausing just long enough at the modular kitchen and the big TV.",
+   "title": "The 90-day notice is a cage, not a handover",
+   "claim": "Companies keep a 90-day notice period because it kills your next offer, not because handover takes three months.",
+   "moment": "The recruiter's voice going flat when you say 'my notice is ninety days'.",
    "turn": {
-    "believed": "A housewarming is a warm ritual to bless a new home.",
-    "actually": "It's also the socially approved day to show the extended circle exactly how well things are going, one room at a time."
+    "believed": "Long notice periods exist so work can be handed over properly.",
+    "actually": "They make you expensive to hire, so you stay where you are."
    },
-   "because": "You can't post your net worth, but you can host a tour of it. The ritual gives the status reveal a reason nobody can object to.",
-   "payoff": "Count how many minutes the tour spends on the pooja room versus the kitchen island.",
+   "because": "A new employer won't wait three months for most roles. The old one keeps you without paying a rupee more.",
+   "payoff": "Ask HR how many people have actually served the full ninety days. The answer tells you what it's for.",
    "lived": true,
-   "behaviour": "People use housewarmings as guided tours to display new financial standing.",
-   "mechanism": "The ritual provides acceptable cover for a status display.",
-   "group": "young couples and families buying their first big home",
-   "territory": "money_status",
-   "mood": "mixed",
-   "format_name": "family_ledger",
-   "send_to": "the friend planning their griha pravesh guest list very carefully",
+   "behaviour": "Firms set long notice periods, then offer buyouts or early release only when it suits them.",
+   "mechanism": "A long exit raises the cost of hiring you, which lowers your bargaining power.",
+   "group": "Mid-level employees thinking of switching",
+   "territory": "business_brands",
+   "mood": "dark_pattern",
+   "format_name": "behind_the_brand",
+   "send_to": "The friend who lost an offer because they couldn't join in 30 days.",
    "format_hint": "carousel",
-   "why_now": "Post-festive is peak new-home and housewarming season.",
+   "why_now": "Hiring has slowed, and companies are holding on harder to the people they have.",
    "needs_facts": false,
    "news_peg": null,
    "evidence": [],
-   "id": "2026-10-250808-052",
+   "id": "2026-10-271706-029",
    "score": {
-    "rank": 18,
-    "why": "The housewarming tour is a ritual everyone's attended; naming it the socially-approved net-worth reveal is the kind of reframe people forward to the cousin planning theirs.",
+    "rank": 13,
+    "why": "The 90-day notice period is built to kill your next offer, not for handover; the flat recruiter voice is a real scene.",
     "scores": {
      "relatable": 4,
      "fresh_angle": 4,
-     "shareable": 4,
+     "shareable": 5,
      "saveable": 3,
      "because": 4
     },
@@ -596,38 +472,386 @@
   "due": "2026-11-15T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "The auction is the show",
-   "claim": "The cricket auction gets more coverage than half the matches because selling the drama is easier than selling the sport.",
-   "moment": "You spend a full evening glued to men raising paddles, more hooked than you were during an actual league game.",
-   "turn": {
-    "believed": "The auction is just the boring admin before the real cricket.",
-    "actually": "It's engineered entertainment; the bidding wars, the shock buys and the price reveals are content in themselves."
-   },
-   "because": "A season is long and matches can be dull, but money and suspense never are. Numbers on a screen pull eyeballs cheaply, all off-season.",
-   "payoff": "When the price tag draws a bigger crowd than the player, the product is the spectacle, not the sport.",
-   "lived": false,
-   "behaviour": "Leagues turn player auctions into prime-time televised events with full analysis.",
-   "mechanism": "Money and suspense hold attention cheaply across the long off-season.",
-   "group": "cricket fans who follow the league year-round",
-   "territory": "pop_culture",
-   "mood": "mixed",
+   "title": "Lock today's gold rate, pay for tomorrow's fear",
+   "claim": "A jeweller's rate-lock scheme before Dhanteras sells us the fear of a price rise, and we pay in advance to feel safe.",
+   "behaviour": "With gold near ₹1.42 to 1.44 lakh per 10 grams, we start hearing 'book now, the price will only go up'. We put money down weeks early, for a purchase the calendar had already fixed.",
+   "mechanism": "Dhanteras is a date nobody can move, so the jeweller doesn't have to find demand, only convert worry into a deposit. Advance booking brings the cash in early and ties the customer to one shop before the festival rush.",
+   "group": "Salaried families who buy a little gold every Dhanteras",
+   "territory": "money_status",
+   "mood": "dark_pattern",
    "format_name": "behind_the_brand",
-   "send_to": "the friend who watches the auction live but skips half the matches",
+   "moment": "The jeweller's WhatsApp message arrives two weeks before Dhanteras: 'Lock today's rate.'",
+   "turn": {
+    "believed": "A rate lock protects us from rising gold prices.",
+    "actually": "It moves our payment earlier and our loyalty to one shop. The protection is real only if the price goes up, and the urgency is sold either way."
+   },
+   "because": "The jeweller gets cash early, a committed buyer and a guaranteed festival footfall. The buyer gets a feeling of control over a number they can't control.",
+   "proof": [
+    {
+     "fact": "Kalyan Jewellers and Joyalukkas offer advance-booking schemes so buyers can fix today's price. Dhanteras falls on November 6, 2026.",
+     "source_url": "https://www.indianjeweller.in/Indian-Jewellery-News/16597/jewellers-turn-to-rate-locking-schemes-to-drive-dhanteras-sales-amid-gold-price-volatility",
+     "date": "2026-10-26"
+    }
+   ],
+   "lived": false,
+   "payoff": "Ask one thing before you lock: if the price falls by Dhanteras, does the shop let you pay the lower rate? The answer tells you who the scheme is for.",
+   "send_to": "The family member who 'always buys a small coin on Dhanteras' and gets the shop's messages.",
    "format_hint": "carousel",
-   "why_now": "Auction season pulls numbers bigger than many games.",
+   "real_details": [
+    "Sales were weak during Dussehra",
+    "High prices are pushing some shoppers toward lightweight jewellery and old-gold trade-ins"
+   ],
+   "evidence": [
+    {
+     "url": "https://www.indianjeweller.in/Indian-Jewellery-News/16597/jewellers-turn-to-rate-locking-schemes-to-drive-dhanteras-sales-amid-gold-price-volatility",
+     "sub": "news",
+     "rank": 50
+    }
+   ],
+   "news_peg": "Jewellers pushing rate-locking and advance booking ahead of Dhanteras on 2026-11-06, reported 2026-10-26",
+   "why_now": "Dhanteras is ten days away and the offers are in every inbox.",
+   "counterintuitive": true,
    "needs_facts": false,
-   "news_peg": null,
-   "evidence": [],
-   "id": "2026-10-250808-046",
+   "id": "2026-10-271706-019",
    "score": {
-    "rank": 23,
-    "why": "People watch the auction more than the matches and never ask why; naming the spectacle as the real product is a decent one-level-deeper, if a lighter take.",
+    "rank": 21,
+    "why": "The jeweller's rate lock sells fear; the 'what if the price falls' question shows who the scheme is for.",
     "scores": {
      "relatable": 4,
      "fresh_angle": 4,
-     "shareable": 3,
+     "shareable": 4,
+     "saveable": 4,
+     "because": 4
+    },
+    "format_fit": "carousel"
+   }
+  }
+ },
+ {
+  "due": "2026-11-16T20:30:00+05:30",
+  "format": "carousel",
+  "topic": {
+   "title": "The offsite is cheaper than a raise",
+   "claim": "The team offsite in Goa costs the company less than one good raise, and makes you feel more seen than the raise would.",
+   "moment": "Matching t-shirts, a resort pool and a 'vision for next year' session after lunch.",
+   "turn": {
+    "believed": "Offsites are a perk or a waste of money.",
+    "actually": "They're a retention tool that works, and it's cheaper than paying people to stay."
+   },
+   "because": "A raise is private and forgotten in two months. A trip with photos becomes a memory you tie to the team.",
+   "payoff": "The trip is real fun. Just notice which month it lands in, and whether it's near appraisals.",
+   "lived": false,
+   "behaviour": "Companies fund trips, parties and swag while keeping increments tight.",
+   "mechanism": "A shared experience buys loyalty at a lower price than salary does.",
+   "group": "Employees at startups and mid-size firms",
+   "territory": "business_brands",
+   "mood": "mixed",
+   "format_name": "behind_the_brand",
+   "send_to": "The colleague still posting offsite photos while complaining about their hike.",
+   "format_hint": "carousel",
+   "why_now": "Year-end offsite season is about to start.",
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [
+    {
+     "url": "https://www.reddit.com/r/IndianWorkplace/comments/1wprjs0/measly_award_for_the_crazy_work/",
+     "sub": "IndianWorkplace",
+     "rank": 4
+    }
+   ],
+   "real_details": [
+    "A post shared a Kaun Banega Crorepati clip where Amitabh Bachchan announces, with fake excitement, a 2-year ghee supply as the prize for answering 10 questions. Saif Ali Khan answers with equally ironic excitement.",
+    "A commenter worked out that a 2-year ghee supply costs about ₹17,280, assuming 1 litre a month at roughly ₹720 a litre.",
+    "Another commenter pointed out that the prize would also be taxable.",
+    "One person said their workplace rewards give 100 points worth ₹70, redeemable only as an Amazon voucher."
+   ],
+   "id": "2026-10-271706-030",
+   "score": {
+    "rank": 14,
+    "why": "A Goa offsite is a cheaper retention tool than a raise, and he also admits the trip is genuinely fun.",
+    "scores": {
+     "relatable": 4,
+     "fresh_angle": 4,
+     "shareable": 4,
      "saveable": 3,
-     "because": 3
+     "because": 4
+    },
+    "format_fit": "carousel"
+   }
+  }
+ },
+ {
+  "due": "2026-11-17T20:30:00+05:30",
+  "format": "carousel",
+  "topic": {
+   "title": "The ₹5 lakh reel is a rumour with a rate card",
+   "claim": "The big number for what a reel earns is mostly a story, and it works as marketing for the person quoted.",
+   "behaviour": "Articles and friends quote lakhs per reel. Young people start to feel a 15-second video is a salary, and brands feel they are getting a bargain or a prestige buy.",
+   "mechanism": "Rate figures are rarely checked, so a high number lifts the creator's price and makes the brand's spend look serious. Everyone in the room benefits from believing it.",
+   "group": "young people thinking of 'reels as a career', and marketers",
+   "territory": "creators_internet",
+   "mood": "sharp",
+   "format_name": "feed_anthropology",
+   "moment": "A cousin says 'bhai, ek reel ke lakhs milte hain' and starts shooting in the balcony.",
+   "turn": {
+    "believed": "Top creators are paid lakhs per reel, so anyone can be.",
+    "actually": "The number is a quoted price nobody verifies, and it protects the price for the few who are actually booked."
+   },
+   "because": "A high quoted price makes both creator and brand look important. Verifying it helps no one in the deal.",
+   "proof": [
+    {
+     "fact": "AajTak reports the top five Gen Z fashion influencers earn ₹2 lakh to ₹7 lakh per branded reel. The article says the rate figures are not attributed to the creators or verified.",
+     "source_url": "https://www.aajtak.in/lifestyle/fashion/story/gen-z-fashion-influencers-earn-lakhs-from-instagram-reels-and-brand-deals-srss-dskc-2680759-2026-10-27",
+     "date": "2026-10-27"
+    }
+   ],
+   "lived": false,
+   "payoff": "A price nobody can check is a story. Stories are what the page is actually selling.",
+   "send_to": "The sibling who just bought a ring light.",
+   "format_hint": "carousel",
+   "real_details": [
+    "Brand endorsements are about 70% of earnings, and affiliate links add 5%-15% commission."
+   ],
+   "evidence": [
+    {
+     "url": "https://www.aajtak.in/lifestyle/fashion/story/gen-z-fashion-influencers-earn-lakhs-from-instagram-reels-and-brand-deals-srss-dskc-2680759-2026-10-27",
+     "sub": "news",
+     "rank": 34
+    },
+    {
+     "url": "https://www.businesstoday.in/jobs/story/youtubes-india-creator-ecosystem-generates-9-6-lakh-jobs-rs18000-crore-economic-value-report-558620-2026-09-29",
+     "sub": "news",
+     "rank": 29
+    }
+   ],
+   "news_peg": "AajTak report on influencer rates per reel, 2026-10-27",
+   "why_now": "Festive-season brand budgets are about to be spent, and 'reels as a career' is trending again.",
+   "counterintuitive": true,
+   "needs_facts": true,
+   "id": "2026-10-271706-013",
+   "score": {
+    "rank": 22,
+    "why": "The lakhs-per-reel number is a quoted price nobody checks; matches his view on influencer marketing.",
+    "scores": {
+     "relatable": 4,
+     "fresh_angle": 4,
+     "shareable": 4,
+     "saveable": 3,
+     "because": 4
+    },
+    "format_fit": "carousel"
+   }
+  }
+ },
+ {
+  "due": "2026-11-18T20:30:00+05:30",
+  "format": "carousel",
+  "topic": {
+   "title": "Fastest reply wins",
+   "claim": "In most offices the person who replies in ten seconds gets promoted over the person who did the actual work.",
+   "moment": "The green dot on Teams that someone keeps alive while doing nothing.",
+   "turn": {
+    "believed": "Good work gets noticed eventually.",
+    "actually": "Managers can't see work, only replies, so speed on chat gets read as commitment."
+   },
+   "because": "A manager with eight reports judges by what shows up on their screen. A quick 'on it' feels like ownership even when nothing follows.",
+   "payoff": "Count how often your manager has seen your work versus your replies. That ratio is your review.",
+   "lived": false,
+   "behaviour": "People keep chat open all day, answer instantly and do deep work after hours.",
+   "mechanism": "Visibility is cheap to judge and output is hard to judge, so visibility wins.",
+   "group": "Corporate employees who do slow, careful work",
+   "territory": "business_brands",
+   "mood": "rant",
+   "format_name": "behind_the_brand",
+   "send_to": "The quiet colleague who does the hardest work and gets the 'meets expectations' rating.",
+   "format_hint": "carousel",
+   "why_now": "Hybrid work made chat the main way managers see their team at all.",
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-10-271706-027",
+   "score": {
+    "rank": 16,
+    "why": "Managers see replies, not work, so the green-dot person gets promoted; very relatable office truth.",
+    "scores": {
+     "relatable": 5,
+     "fresh_angle": 4,
+     "shareable": 5,
+     "saveable": 3,
+     "because": 4
+    },
+    "format_fit": "carousel"
+   }
+  }
+ },
+ {
+  "due": "2026-11-19T20:30:00+05:30",
+  "format": "carousel",
+  "topic": {
+   "title": "We log in to the sale and log out without buying",
+   "claim": "This Diwali the sale is a place to browse, because the prices went up and the discounts got smaller, so the cart became a wishlist.",
+   "behaviour": "You open the app, fill the cart with the TV or phone, check it twice over three days, and close it. The order count stays huge because small things still get bought.",
+   "mechanism": "Prices on appliances rose before the festive sales, so a discount is cut from a higher starting number. Salaries did not move, so the big purchase waits.",
+   "group": "Salaried Indians planning a big festive purchase",
+   "territory": "money_status",
+   "mood": "mixed",
+   "format_name": "price_tells",
+   "moment": "Your cart has the ₹50,000 TV in it, and it has had it for a week.",
+   "turn": {
+    "believed": "Festive sales are when Indians splurge.",
+    "actually": "They still show up and order small things, but the big ticket waits, because the goalposts moved while the pay stayed put."
+   },
+   "because": "Platforms need traffic and orders to look healthy, so they keep the show running. Households quietly pay the extra and decide what can wait.",
+   "proof": [
+    {
+     "fact": "Datum put online sales at ₹29,800-₹30,900 Cr, down 7-10% from ₹33,200 Cr a year earlier, while Redseer saw nearly 100 Mn shoppers placing more than 350 Mn orders.",
+     "source_url": "https://inc42.com/features/festive-sales-see-shoppers-log-in-but-hold-back-on-big-ticket-purchases/",
+     "date": "2026-10-23"
+    },
+    {
+     "fact": "Prices of TVs, air conditioners, refrigerators and washing machines were set to rise 5% to 8% from October 1, so a ₹50,000 TV would cost ₹2,500 to ₹4,000 more.",
+     "source_url": "https://www.onmanorama.com/news/business/2026/09/30/october-1-new-financial-changes-price-hikes.html",
+     "date": "2026-09-30"
+    }
+   ],
+   "lived": false,
+   "payoff": "A sale only counts if the final price is below last year's final price. Check that before you check the percentage.",
+   "send_to": "The friend who is 'waiting for the Diwali sale' on a fridge",
+   "format_hint": "carousel",
+   "real_details": [
+    "Sachin Taparia said 'Household earnings are not rising, and inflation continues to rise.'",
+    "The page cites an Economic Times report that festive discounts were 35-40% lower than last year."
+   ],
+   "evidence": [
+    {
+     "url": "https://inc42.com/features/festive-sales-see-shoppers-log-in-but-hold-back-on-big-ticket-purchases/",
+     "sub": "news",
+     "rank": 8
+    },
+    {
+     "url": "https://www.onmanorama.com/news/business/2026/09/30/october-1-new-financial-changes-price-hikes.html",
+     "sub": "news",
+     "rank": 3
+    }
+   ],
+   "news_peg": "Festive sales first-leg data, Oct 8-18, reported 2026-10-23",
+   "why_now": "Dhanteras and Diwali are days away and the big-ticket decision is being made right now.",
+   "counterintuitive": true,
+   "needs_facts": true,
+   "id": "2026-10-271706-003",
+   "score": {
+    "rank": 23,
+    "why": "The cart became a wishlist because pay stayed put; the ₹50,000 TV waiting a week is a familiar moment.",
+    "scores": {
+     "relatable": 4,
+     "fresh_angle": 4,
+     "shareable": 4,
+     "saveable": 3,
+     "because": 4
+    },
+    "format_fit": "carousel"
+   }
+  }
+ },
+ {
+  "due": "2026-11-20T20:30:00+05:30",
+  "format": "carousel",
+  "topic": {
+   "title": "We panic about WhatsApp because it is the office",
+   "claim": "A false claim that WhatsApp would shut down in India spread fast because WhatsApp is no longer an app, it is how work and shops run.",
+   "behaviour": "A forwarded image said Meta would exit India, and people took it as news. Shopkeepers, clients and teams who run on one chat thread felt it at once.",
+   "mechanism": "When one app carries orders, payments and approvals, even a rumour feels like a threat to income. That makes it travel faster than a correction.",
+   "group": "small business owners, freelancers and office workers",
+   "territory": "creators_internet",
+   "mood": "mixed",
+   "format_name": "feed_anthropology",
+   "moment": "Someone forwards 'WhatsApp is shutting down' and your first thought is the client group, not your family.",
+   "turn": {
+    "believed": "People fall for these claims because they are careless.",
+    "actually": "They react because one app has quietly become the place where their work lives."
+   },
+   "because": "Dependence on a single tool makes any threat to it feel personal. A viral claim only has to land on that nerve.",
+   "proof": [
+    {
+     "fact": "A viral post shared an image reading 'We Will Exit India if Forced to Break Encryption'. The fact-check found no new announcement from Meta; the line goes back to 2024.",
+     "source_url": "https://www.oneindia.com/fact-check/whatsapp-instagram-to-shut-down-in-india-here-is-the-truth-8242089.html",
+     "date": "2026-10-23"
+    }
+   ],
+   "lived": false,
+   "payoff": "Test: if WhatsApp went down tomorrow, count how many of your jobs would stop.",
+   "send_to": "The boss who runs the whole team on one WhatsApp thread.",
+   "format_hint": "single",
+   "real_details": [
+    "The Department of Telecommunications has told messaging apps such as WhatsApp and Telegram to keep accounts linked to an active SIM in the device, with a deadline of December 31, 2026."
+   ],
+   "evidence": [
+    {
+     "url": "https://www.oneindia.com/fact-check/whatsapp-instagram-to-shut-down-in-india-here-is-the-truth-8242089.html",
+     "sub": "news",
+     "rank": 27
+    },
+    {
+     "url": "https://helloentrepreneurs.com/trending/no-sim-no-whatsapp-new-rules-kick-in-from-january-1-2027-experts-question-the-tech-behind-the-policy-101958/",
+     "sub": "news",
+     "rank": 26
+    }
+   ],
+   "news_peg": "Fact-check of the viral 'Meta will exit India' claim, 2026-10-23",
+   "why_now": "A new SIM-binding rule is also in the news, so the panic was easy to believe.",
+   "counterintuitive": false,
+   "needs_facts": false,
+   "id": "2026-10-271706-015",
+   "score": {
+    "rank": 24,
+    "why": "People panic about WhatsApp shutting because their work lives there, not because they're careless; the test is easy to run.",
+    "scores": {
+     "relatable": 4,
+     "fresh_angle": 4,
+     "shareable": 4,
+     "saveable": 3,
+     "because": 4
+    },
+    "format_fit": "single"
+   }
+  }
+ },
+ {
+  "due": "2026-11-21T20:30:00+05:30",
+  "format": "carousel",
+  "topic": {
+   "title": "Your rating was decided before your self-review",
+   "claim": "The self-appraisal you spent a weekend polishing is paperwork; your rating was fixed in a calibration meeting you weren't in.",
+   "moment": "Writing 'went above and beyond' in a portal at 11pm, two days before the deadline.",
+   "turn": {
+    "believed": "A strong self-review and good work decide your rating.",
+    "actually": "Each manager gets a fixed number of top ratings and argues for them in a closed room, usually before reading your form."
+   },
+   "because": "The increment budget is set first and the bell curve has to fit it. Your form gives the decision something to point at.",
+   "payoff": "If your manager can't name what you did without opening your form, your rating was settled in that room.",
+   "lived": false,
+   "behaviour": "Employees write long self-reviews; managers trade top ratings among themselves in calibration to fit a fixed curve.",
+   "mechanism": "A fixed raise budget needs a fixed number of winners, so the curve comes before the review.",
+   "group": "Salaried employees, 2 to 8 years in",
+   "territory": "business_brands",
+   "mood": "dark_pattern",
+   "format_name": "behind_the_brand",
+   "send_to": "The teammate who is still editing their self-review at midnight.",
+   "format_hint": "carousel",
+   "why_now": "Appraisal season is coming, and people are about to over-invest in the wrong document.",
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-10-271706-026",
+   "score": {
+    "rank": 25,
+    "why": "The self-appraisal polished at 11pm is paperwork after a closed-room calibration; a relatable dark pattern.",
+    "scores": {
+     "relatable": 5,
+     "fresh_angle": 4,
+     "shareable": 5,
+     "saveable": 3,
+     "because": 4
     },
     "format_fit": "carousel"
    }

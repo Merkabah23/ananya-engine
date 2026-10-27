@@ -1,0 +1,73 @@
+{
+ "id": "2026-11-84",
+ "status": "planned",
+ "due": "2026-11-19T20:30:00+05:30",
+ "format": "carousel",
+ "topic": {
+  "title": "We log in to the sale and log out without buying",
+  "claim": "This Diwali the sale is a place to browse, because the prices went up and the discounts got smaller, so the cart became a wishlist.",
+  "behaviour": "You open the app, fill the cart with the TV or phone, check it twice over three days, and close it. The order count stays huge because small things still get bought.",
+  "mechanism": "Prices on appliances rose before the festive sales, so a discount is cut from a higher starting number. Salaries did not move, so the big purchase waits.",
+  "group": "Salaried Indians planning a big festive purchase",
+  "territory": "money_status",
+  "mood": "mixed",
+  "format_name": "price_tells",
+  "moment": "Your cart has the ₹50,000 TV in it, and it has had it for a week.",
+  "turn": {
+   "believed": "Festive sales are when Indians splurge.",
+   "actually": "They still show up and order small things, but the big ticket waits, because the goalposts moved while the pay stayed put."
+  },
+  "because": "Platforms need traffic and orders to look healthy, so they keep the show running. Households quietly pay the extra and decide what can wait.",
+  "proof": [
+   {
+    "fact": "Datum put online sales at ₹29,800-₹30,900 Cr, down 7-10% from ₹33,200 Cr a year earlier, while Redseer saw nearly 100 Mn shoppers placing more than 350 Mn orders.",
+    "source_url": "https://inc42.com/features/festive-sales-see-shoppers-log-in-but-hold-back-on-big-ticket-purchases/",
+    "date": "2026-10-23"
+   },
+   {
+    "fact": "Prices of TVs, air conditioners, refrigerators and washing machines were set to rise 5% to 8% from October 1, so a ₹50,000 TV would cost ₹2,500 to ₹4,000 more.",
+    "source_url": "https://www.onmanorama.com/news/business/2026/09/30/october-1-new-financial-changes-price-hikes.html",
+    "date": "2026-09-30"
+   }
+  ],
+  "lived": false,
+  "payoff": "A sale only counts if the final price is below last year's final price. Check that before you check the percentage.",
+  "send_to": "The friend who is 'waiting for the Diwali sale' on a fridge",
+  "format_hint": "carousel",
+  "real_details": [
+   "Sachin Taparia said 'Household earnings are not rising, and inflation continues to rise.'",
+   "The page cites an Economic Times report that festive discounts were 35-40% lower than last year."
+  ],
+  "evidence": [
+   {
+    "url": "https://inc42.com/features/festive-sales-see-shoppers-log-in-but-hold-back-on-big-ticket-purchases/",
+    "sub": "news",
+    "rank": 8
+   },
+   {
+    "url": "https://www.onmanorama.com/news/business/2026/09/30/october-1-new-financial-changes-price-hikes.html",
+    "sub": "news",
+    "rank": 3
+   }
+  ],
+  "news_peg": "Festive sales first-leg data, Oct 8-18, reported 2026-10-23",
+  "why_now": "Dhanteras and Diwali are days away and the big-ticket decision is being made right now.",
+  "counterintuitive": true,
+  "needs_facts": true,
+  "id": "2026-10-271706-003",
+  "score": {
+   "rank": 23,
+   "why": "The cart became a wishlist because pay stayed put; the ₹50,000 TV waiting a week is a familiar moment.",
+   "scores": {
+    "relatable": 4,
+    "fresh_angle": 4,
+    "shareable": 4,
+    "saveable": 3,
+    "because": 4
+   },
+   "format_fit": "carousel"
+  }
+ },
+ "history": [],
+ "updated_at": "2026-10-27T17:07:10.471819+00:00"
+}
