@@ -34,19 +34,21 @@ def _take_spare(slot_post: dict) -> dict | None:
     return None
 
 
-def top_up(days: int = 14, min_open: int = 3, every: int = 3) -> None:
-    """Keep the next two weeks planned: when 3+ of the next 14 days have no post, scout today's news and plan those
-    days. At most every 3 days, so a thin news week can't burn the call budget."""
+def top_up(days: int = 14, min_open: int = 3, every: int = 2) -> None:
+    """Keep the next two weeks planned: when 3+ of the next 14 days (or any of the next 7) have no post, scout
+    today's news and plan those days. At most every 2 days, so a thin news week can't burn the call budget."""
     today = datetime.now(topic_filter.IST).date()
     live = {p["due"][:10] for p in state.posts() if p.get("due") and p["status"] not in ("cancelled", "rejected")}
     open_days = [d for d in (today + timedelta(n) for n in range(1, days + 1)) if d.isoformat() not in live]
+    urgent = any(d <= today + timedelta(7) for d in open_days)
     last = (state.read(_month(0), "topup.json") or {}).get("at", "")
-    if len(open_days) < min_open or last > (datetime.now(timezone.utc) - timedelta(days=every)).isoformat():
+    if not (urgent or len(open_days) >= min_open) or last > (datetime.now(timezone.utc) - timedelta(days=every)).isoformat():
         return
-    state.write({"at": datetime.now(timezone.utc).isoformat(), "open": [d.isoformat() for d in open_days]}, _month(0), "topup.json")
     scout.run(_month(0), fresh_news=True)
     for month in sorted({d.strftime("%Y-%m") for d in open_days}):
         topic_filter.run(_month(0), month)
+    # stamped only once it worked: a run cut off by the call cap tries again the next day
+    state.write({"at": datetime.now(timezone.utc).isoformat(), "open": [d.isoformat() for d in open_days]}, _month(0), "topup.json")
 
 
 def check_approved(post: dict) -> dict:

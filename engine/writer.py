@@ -137,6 +137,23 @@ def merge_paragraphs(draft: dict, fmt: str) -> dict:
     return draft
 
 
+def split_long_slides(draft: dict) -> dict:
+    """A slide a few words over the limit becomes two slides at a paragraph break, while the post has room for one
+    more. Text is unchanged; only where it sits."""
+    slides = draft.get("slides", [])
+    i = 1
+    while i < len(slides) and len(slides) < MAX_SLIDES:
+        body = slides[i].get("paragraphs", [])
+        words = [len(p.split()) for p in body]
+        if sum(words) > SLIDE_WORDS[1] and len(body) >= 2:
+            cut = min(range(1, len(body)), key=lambda k: abs(sum(words[:k]) - sum(words[k:])))
+            if min(sum(words[:cut]), sum(words[cut:])) >= SLIDE_WORDS[0]:
+                first = {**slides[i], "paragraphs": body[:cut], "why_swipe": "what happens next?"}
+                slides[i:i + 1] = [first, {**slides[i], "paragraphs": body[cut:]}]
+        i += 1
+    return draft
+
+
 def mechanical(draft: dict, fmt: str, sources: list[dict], rounds: int = 2) -> tuple[dict, list[str]]:
     """Code checks. Layout problems get a quick mechanical repair; content problems are returned for the writer.
     Does not use up a rewrite attempt."""
@@ -144,6 +161,8 @@ def mechanical(draft: dict, fmt: str, sources: list[dict], rounds: int = 2) -> t
     if fmt == "carousel" and headline and draft.get("slides"):  # slide 1 is never shown: the cover replaces it
         draft["slides"][0]["paragraphs"] = [headline.rstrip(".") + ".", "Swipe to read →"]
     draft = merge_paragraphs(draft, fmt)
+    if fmt == "carousel":
+        draft = split_long_slides(draft)
     problems = hard_checks(draft, fmt, sources) + readability_problems(draft, fmt)
     for _ in range(rounds):
         layout = [p for p in problems if is_mechanical(p)]

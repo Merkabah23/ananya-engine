@@ -228,3 +228,11 @@ def test_slide_one_becomes_the_cover():
          "slides": [{"paragraphs": [" ".join(["word"] * 30), "Swipe to read →"]}, {"paragraphs": ["x"]}], "claims": []}
     out, _ = writer.mechanical(d, "carousel", [])
     assert out["slides"][0]["paragraphs"][0] == "The corner shop backs you harder than any bank will."
+
+
+def test_a_slide_a_few_words_long_is_split_not_failed():
+    long = {"paragraphs": [" ".join(["alpha"] * 34) + ".", " ".join(["beta"] * 30) + "."], "why_swipe": "w"}
+    d = {"slides": [{"paragraphs": ["hook"]}, long, {"paragraphs": ["x"]}]}
+    out = writer.split_long_slides(d)
+    assert len(out["slides"]) == 4 and out["slides"][1]["paragraphs"][0].startswith("alpha")
+    assert out["slides"][2]["paragraphs"][0].startswith("beta") and out["slides"][2]["why_swipe"] == "w"

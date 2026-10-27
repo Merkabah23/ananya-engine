@@ -36,7 +36,7 @@ Hard gates (a candidate failing any of these is out, whatever its score):
 - not resting on one stranger's story or an accusation a source doesn't support.
 Facts are never required.
 
-Then pick the {n} best by weighted score, best first. Keep the set varied: roughly this mix of territories {mix}; a range of moods (sharp, funny, rant, mixed, dark_pattern, warm, prediction), with no single mood above a third; at most a quarter about offices, jobs, appraisals or layoffs (the page already has many); mostly pure observation, with lived takes (lived=true) at most a third; and a few that suit a single-slide take. If fewer than {n} candidates pass the gates, pick fewer; never pad.
+Then pick the {n} best by weighted score, best first. Keep the set varied: roughly this mix of territories {mix}; a range of moods (sharp, funny, rant, mixed, dark_pattern, warm, prediction), with no single mood above a third; at most a quarter about offices, jobs, appraisals or layoffs (the page already has many); mostly everyday observations that need no facts (a moment every reader has lived), with at most one in four resting on news or figures; mostly pure observation, with lived takes (lived=true) at most a third; and a few that suit a single-slide take. If fewer than {n} candidates pass the gates, pick fewer; never pad.
 
 Return only JSON:
 {"picks": [{"id": "...", "scores": {"relatable": n, "fresh_angle": n, "shareable": n, "saveable": n, "because": n}, "why": "one line in the owner's terms", "format_fit": "carousel" | "single" | "either"}]}
