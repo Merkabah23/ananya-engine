@@ -1,6 +1,6 @@
 {
  "id": "2026-11-75",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-01T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -40,6 +40,167 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-10-27T17:07:53.115296+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "problems": [
+    "Every sentence is about the same length, which reads as a template. Put one longer, concrete sentence next to a short punch on most slides."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Caption: \"I have approved more appliances over video call than I have bought for myself.\" The topic is pure observation (lived: false), so this \"I\" claims a personal history the account can't back (hard failure 11)."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "Caption: remove the \"I\". Rewrite it as observation with \"we\" or \"you\", or as a typical scene, e.g. what the child says at the end of the call. Do not claim a count of appliances approved.",
+     "slide 3-4: the money half of the because is never shown. Slide 3 only shows know-how (model number, Amazon). Slide 4 then says \"whoever pays\" and \"both live in your pocket\" without any moment where the child pays. Add one beat from the call itself, such as \"Paytm ya card?\" or the UPI request, or the EMI the child covers, so the claim is earned and not asserted.",
+     "slide 4: the AC, insurance and train tickets are three items, and the third adds nothing new. Keep one or two. The bolded line is the only because in the post. Say why authority follows money and know-how in the post's own plain words, not as a slogan.",
+     "slide 5: \"And it doesn't feel like a takeover\" explains what the next lines already show. Cut it and open on the haggling. Keep \"He just checked with the new boss first.\" It is the best line in the post.",
+     "slide 6: the pressure cooker closer is funny, but the test and the joke compete. Keep the five-purchases test as the final instruction and make the steel-shop call the sting, or reverse them, so only one lands last. Also check that \"next month\" fits the festive-season framing."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Caption: \"I have approved more appliances over video call than I have bought for myself.\" The topic is pure observation (lived: false), so this \"I\" claims a personal history the account can't back (hard failure 11).",
+    "Caption: remove the \"I\". Rewrite it as observation with \"we\" or \"you\", or as a typical scene, e.g. what the child says at the end of the call. Do not claim a count of appliances approved.",
+    "slide 3-4: the money half of the because is never shown. Slide 3 only shows know-how (model number, Amazon). Slide 4 then says \"whoever pays\" and \"both live in your pocket\" without any moment where the child pays. Add one beat from the call itself, such as \"Paytm ya card?\" or the UPI request, or the EMI the child covers, so the claim is earned and not asserted.",
+    "slide 4: the AC, insurance and train tickets are three items, and the third adds nothing new. Keep one or two. The bolded line is the only because in the post. Say why authority follows money and know-how in the post's own plain words, not as a slogan.",
+    "slide 5: \"And it doesn't feel like a takeover\" explains what the next lines already show. Cut it and open on the haggling. Keep \"He just checked with the new boss first.\" It is the best line in the post.",
+    "slide 6: the pressure cooker closer is funny, but the test and the joke compete. Keep the five-purchases test as the final instruction and make the steel-shop call the sting, or reverse them, so only one lands last. Also check that \"next month\" fits the festive-season framing."
+   ]
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Slides [6] have no why_swipe: say what pulls the reader to the next slide, or rewrite the slide until something does."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 3,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "slide 3/4: The post claims the TV was 'approved' on your call, but the child never approves anything. You research and you pay. Add the verdict beat the story is missing: Papa asks 'Yeh theek hai?', you say 'le lo, Papa', and only then does he turn to the salesman. The caption already has the line 'le lo, Papa'. Move it into the body, because it is the moment power actually changes hands.",
+     "slide 5: This is the 'because', but it is generic and reads like a lecture. 'In any house, the last word goes to the one who pays and the one who understands' is a mirrored pair, and 'know-how sits in your pocket' is vague. Make it one concrete contrast. When you were small, he decided, you were told, and the TV just arrived. Now he asks you. Say the shift as a direction change in who asks whom, and drop the abstract rule.",
+     "slide 5/6: The fresh angle is thin. 'Kids now run things' is a familiar idea. The sharpest line in the post is 'He just checked with the new boss first', and it sits too close to the end and too far from any earlier setup. Plant the old order earlier (he used to be the one who was asked) so that line lands as a reversal and not just a joke.",
+     "slide 7: The closer is a coaching instruction ('Before you pick up, count...'), and the pressure cooker opener is cute but adds little. Turn the test into an observation, or end on what happens next and let the reader run the count on their own. One human closer that stings is better than an instruction.",
+     "slide 2: The salesman's 'exchange offer bhi hai' line and the second repeated-question beat in slide 3 slow the pace without adding anything. Trim them so the slides carry only the steps that build toward the approval moment."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "slide 3/4: The post claims the TV was 'approved' on your call, but the child never approves anything. You research and you pay. Add the verdict beat the story is missing: Papa asks 'Yeh theek hai?', you say 'le lo, Papa', and only then does he turn to the salesman. The caption already has the line 'le lo, Papa'. Move it into the body, because it is the moment power actually changes hands.",
+    "slide 5: This is the 'because', but it is generic and reads like a lecture. 'In any house, the last word goes to the one who pays and the one who understands' is a mirrored pair, and 'know-how sits in your pocket' is vague. Make it one concrete contrast. When you were small, he decided, you were told, and the TV just arrived. Now he asks you. Say the shift as a direction change in who asks whom, and drop the abstract rule.",
+    "slide 5/6: The fresh angle is thin. 'Kids now run things' is a familiar idea. The sharpest line in the post is 'He just checked with the new boss first', and it sits too close to the end and too far from any earlier setup. Plant the old order earlier (he used to be the one who was asked) so that line lands as a reversal and not just a joke.",
+    "slide 7: The closer is a coaching instruction ('Before you pick up, count...'), and the pressure cooker opener is cute but adds little. Turn the test into an observation, or end on what happens next and let the reader run the count on their own. One human closer that stings is better than an instruction.",
+    "slide 2: The salesman's 'exchange offer bhi hai' line and the second repeated-question beat in slide 3 slow the pace without adding anything. Trim them so the slides carry only the steps that build toward the approval moment."
+   ]
+  }
+ ],
+ "updated_at": "2026-10-28T10:33:49.827033+00:00",
+ "sources": [],
+ "draft": {
+  "cover": {
+   "headline": "Your parents' new TV was approved on [your video call]",
+   "sub": "That small call is where family power changed hands."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Your parents' new TV was approved on your video call.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "Which call? You know exactly which one."
+   },
+   {
+    "paragraphs": [
+     "Papa video calls on a weekday evening, and you pick up to a wall of TVs and half a ceiling fan.",
+     "He holds the phone up to a 55-inch screen, his thumb half over the price tag. \"Yeh theek hai?\"",
+     "A salesman leans into the frame. \"Sir, exchange offer bhi hai.\""
+    ],
+    "why_swipe": "What do you do next? The same thing every time."
+   },
+   {
+    "paragraphs": [
+     "You ask him to flip the camera, read the model number off the sticker, and check it on Amazon in another tab.",
+     "He repeats your questions to the salesman word for word, a little louder than you asked them."
+    ],
+    "why_swipe": "The model checks out. Now comes the bill, and who pays it."
+   },
+   {
+    "paragraphs": [
+     "Then the salesman asks how he'll pay. Papa looks at the phone, not his wallet. You say \"bhej deta hoon\" and open UPI."
+    ],
+    "why_swipe": "Looks like helping out. Is that all it is?"
+   },
+   {
+    "paragraphs": [
+     "Now scroll back. The AC last summer and the insurance renewal went through the same phone.",
+     "In any house, the last word goes to the one who pays and the one who understands what's being bought. For thirty years, that was him.",
+     "**Now the money and the know-how both sit in your pocket.**"
+    ],
+    "why_swipe": "So what does Papa do with that?"
+   },
+   {
+    "paragraphs": [
+     "He still walks the whole showroom, presses every remote, and haggles a free wall mount out of the salesman himself.",
+     "He'll tell the relatives he chose it. He did.",
+     "**He just checked with the new boss first.**"
+    ],
+    "why_swipe": "And it's festive season. The next call is already on its way."
+   },
+   {
+    "paragraphs": [
+     "Your phone will ring again before Diwali is out. A steel shop this time, about a pressure cooker.",
+     "**Before you pick up, count the last five big purchases at home. See whose phone each one went through.**"
+    ]
+   }
+  ],
+  "end": {
+   "save": "Come back to it after the next showroom call this festive season.",
+   "send": "Your sibling, with 'this is literally Papa'.",
+   "promise": "How Indian families really run."
+  },
+  "caption": "Somewhere between the AC and the TV, you became the one who says 'le lo, Papa'.",
+  "hashtags": [
+   "#IndianParents",
+   "#IndianFamilies",
+   "#FestiveShopping",
+   "#WorkingAwayFromHome"
+  ],
+  "alt_text": "Seven-slide carousel. The cover says your parents' new TV was approved on your video call, and that small call is where family power changed hands. The slides follow a father video calling from a showroom, holding his phone up to a 55-inch TV and asking 'Yeh theek hai?'. The child checks the model number online, the father repeats the questions to the salesman, and when it is time to pay he looks at the phone and the child pays on UPI. The post points out that the AC and the insurance renewal also went through the child's phone. Its take is that the last word in a house goes to whoever pays and whoever understands what's being bought, and both have moved to the kids. The father still haggles and tells relatives he chose it, after checking with the new boss first. It ends by saying the next call will come from a steel shop about a pressure cooker, and asks readers to count whose phone the last five big purchases at home went through.",
+  "claims": []
+ }
 }

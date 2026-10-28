@@ -1,6 +1,6 @@
 {
  "id": "2026-11-71",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-05T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -40,6 +40,206 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-10-27T17:07:10.469145+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "problems": [
+    "Slide 5 has 63 words; the limit is 60. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide.",
+    "Slide 6 has 66 words; the limit is 60. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Hard failure 12 (mechanism stated as deliberate plan): the cover sub 'And the bank built the card around that.' and slide 6 'The bank counts on that.' present the bank's motive as known fact. Slide 5 'The points are what the bank can trim without a word' and 'The lounge rules tighten too' are also stated as fact with no proof.",
+     "Hard failure 7 (dead slide): slide 2 only sets the scene ('skip the food court queue, hand over card'). Slide 3 then tells the same lounge moment, so slide 2 gives no reason to swipe and its why_swipe is filler. Slide 4 ('you checked the points page once') and the first half of slide 5 ('you open the points page') also overlap."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 3,
+     "eq": 3,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 2/3: Merge them into one lounge-moment slide. Keep the best detail only: the half-second before the beep and 'for a second, you feel like you made it'. Drop the food court queue and the boarding pass. This frees a slot and removes the dead slide.",
+     "cover sub and slide 6: Reword the bank's intent as an observable outcome the reader can verify, not a plan. Example: 'The lounge gets you to sign. After that, most of us stay whether the points shrink or not.' Cut 'the bank built the card around that' and 'the bank counts on that'. Say who gains by showing the pattern: a visible perk sells the card, inertia keeps it.",
+     "slide 4/5: Collapse 'checked once, then ignored' and 'the catalogue is thin' into one beat. Slide 5's bold line says points are the quiet loss and the lounge is visible, then 'The lounge rules tighten too' undercuts it. Either cut that line or make it the sting: you only find out at the desk, in front of the person behind you. Avoid asserting 'trim without a word' as fact. Frame it as 'you never notice because you never looked'.",
+     "slide 6: 'Here's a test for your next statement' reads like a template connector. Use a plainer, more personal voice. 'To be fair' and the concession are good, but 'The bank counts on that' should go. Keep the inertia details (new forms, credit score worry) as the reader's own habit.",
+     "slide 7: The final bold line mirrors the cover ('not rewards, you paid for the beep') and so repeats the hook. Give the test a sharper closer, such as what the number usually shows, or the feeling of doing the math. Make it sting in a new way, not restate the thesis."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Hard failure 12 (mechanism stated as deliberate plan): the cover sub 'And the bank built the card around that.' and slide 6 'The bank counts on that.' present the bank's motive as known fact. Slide 5 'The points are what the bank can trim without a word' and 'The lounge rules tighten too' are also stated as fact with no proof.",
+    "Hard failure 7 (dead slide): slide 2 only sets the scene ('skip the food court queue, hand over card'). Slide 3 then tells the same lounge moment, so slide 2 gives no reason to swipe and its why_swipe is filler. Slide 4 ('you checked the points page once') and the first half of slide 5 ('you open the points page') also overlap.",
+    "slide 2/3: Merge them into one lounge-moment slide. Keep the best detail only: the half-second before the beep and 'for a second, you feel like you made it'. Drop the food court queue and the boarding pass. This frees a slot and removes the dead slide.",
+    "cover sub and slide 6: Reword the bank's intent as an observable outcome the reader can verify, not a plan. Example: 'The lounge gets you to sign. After that, most of us stay whether the points shrink or not.' Cut 'the bank built the card around that' and 'the bank counts on that'. Say who gains by showing the pattern: a visible perk sells the card, inertia keeps it.",
+    "slide 4/5: Collapse 'checked once, then ignored' and 'the catalogue is thin' into one beat. Slide 5's bold line says points are the quiet loss and the lounge is visible, then 'The lounge rules tighten too' undercuts it. Either cut that line or make it the sting: you only find out at the desk, in front of the person behind you. Avoid asserting 'trim without a word' as fact. Frame it as 'you never notice because you never looked'.",
+    "slide 6: 'Here's a test for your next statement' reads like a template connector. Use a plainer, more personal voice. 'To be fair' and the concession are good, but 'The bank counts on that' should go. Keep the inertia details (new forms, credit score worry) as the reader's own habit.",
+    "slide 7: The final bold line mirrors the cover ('not rewards, you paid for the beep') and so repeats the hook. Give the test a sharper closer, such as what the number usually shows, or the feeling of doing the math. Make it sting in a new way, not restate the thesis."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 3-4: The post never shows the bank's side, which the topic's 'because' already contains. A visible perk sells the card, then the bank can trim points and reward rates and you rarely leave. Add one plain line, in slide 4 or 5, that says who gains and that devaluation happens quietly. Right now 'the bank knew we would' is promised but not delivered, and the idea lands as 'you were lazy' rather than 'this is how it's built'.",
+     "slide 3-4: The logic wobbles. Slide 1 says you picked it for the lounge, slide 3 says the sales call was about points, and slide 4 says you 'never once looked' right after you looked at the catalogue. Fix it. Either show the lounge as what actually made you say yes on that call, or say you looked once and never again. Make the bold line say the same thing as the scene around it.",
+     "slide 4: 'If the desk ever says no, you hear it with the person behind you listening' is unclear and reads like a stray beat. Either cut it or make it the point that the visible perk is the one you defend. As it stands it adds nothing the lounge scene in slide 2 hasn't said, and it dilutes the strong bold line above it.",
+     "slide 5: The inertia beat is good but runs long. Merge the 'pays for itself if you fly monthly' concession and the hassle list into fewer, punchier lines. Keep 'the lounge got you to sign, and the hassle keeps you there' as the turn, and make sure it is the first time the reader sees the trap, not a restatement of slide 3.",
+     "slide 6: The test is a bit heavy to run in your head ('lounge at what you'd really have spent at the food court'). Simplify it to one clear sum: rupees you actually got back, plus the lounge visits you really made, against the annual fee. Keep the filter coffee closer, since it works."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "slide 3-4: The post never shows the bank's side, which the topic's 'because' already contains. A visible perk sells the card, then the bank can trim points and reward rates and you rarely leave. Add one plain line, in slide 4 or 5, that says who gains and that devaluation happens quietly. Right now 'the bank knew we would' is promised but not delivered, and the idea lands as 'you were lazy' rather than 'this is how it's built'.",
+    "slide 3-4: The logic wobbles. Slide 1 says you picked it for the lounge, slide 3 says the sales call was about points, and slide 4 says you 'never once looked' right after you looked at the catalogue. Fix it. Either show the lounge as what actually made you say yes on that call, or say you looked once and never again. Make the bold line say the same thing as the scene around it.",
+    "slide 4: 'If the desk ever says no, you hear it with the person behind you listening' is unclear and reads like a stray beat. Either cut it or make it the point that the visible perk is the one you defend. As it stands it adds nothing the lounge scene in slide 2 hasn't said, and it dilutes the strong bold line above it.",
+    "slide 5: The inertia beat is good but runs long. Merge the 'pays for itself if you fly monthly' concession and the hassle list into fewer, punchier lines. Keep 'the lounge got you to sign, and the hassle keeps you there' as the turn, and make sure it is the first time the reader sees the trap, not a restatement of slide 3.",
+    "slide 6: The test is a bit heavy to run in your head ('lounge at what you'd really have spent at the food court'). Simplify it to one clear sum: rupees you actually got back, plus the lounge visits you really made, against the annual fee. Keep the filter coffee closer, since it works."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Hard failure 12, slide 4: \"The points shrank while you weren't looking, and the bank counted on that.\" This states a deliberate bank plan as fact. Slide 5 repeats it with \"that's where the bank trims, with an email you archive\". The topic supports banks tightening rewards and people not tracking them. It does not support the bank knowingly banking on your inattention, or points always shrinking.",
+     "Hard failure 7, slide 5: it restates slide 4's point (visible lounge vs invisible points) in new words and adds no new beat. Slides 4 and 5 should be one slide."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 4: Remove the claim that \"the bank counted on that\". Show the typical moment instead: you open the points page a year later and see what the points buy, and what you remember versus what you find. Say plainly that reward rates and catalogues get tightened and the notice is easy to miss. Don't claim intent.",
+     "slide 4/5: Merge them. Keep the redemption moment from slide 4. Put the because into one plain, defensible line: a visible perk is what gets you to sign, and once you're in, trimming the quiet part costs the bank little because most people don't check or leave. Cut the \"lounge is visible, points are invisible\" restatement and the \"email you archive\" line, which also overreaches.",
+     "slide 3: Not everyone gets a card through a sales call (many take it from an app or a bank offer). Make the moment more universal: the offer page or call where you skimmed the rewards and the lounge line was the one you remembered. Keep the detail that you opened the points page once.",
+     "slide 6: This slide mixes two ideas, the fly-monthly concession and the renewal inertia. Tighten it to one clear push: it only pays if you fly often, you don't, and the fee SMS gets ignored. Cut the credit-score worry unless it carries a sharper image.",
+     "slide 7: The test and closer work. Make the arithmetic less of an instruction. Put the numbers first, then the sting line, and the unused-coffee image will land harder."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Hard failure 12, slide 4: \"The points shrank while you weren't looking, and the bank counted on that.\" This states a deliberate bank plan as fact. Slide 5 repeats it with \"that's where the bank trims, with an email you archive\". The topic supports banks tightening rewards and people not tracking them. It does not support the bank knowingly banking on your inattention, or points always shrinking.",
+    "Hard failure 7, slide 5: it restates slide 4's point (visible lounge vs invisible points) in new words and adds no new beat. Slides 4 and 5 should be one slide.",
+    "slide 4: Remove the claim that \"the bank counted on that\". Show the typical moment instead: you open the points page a year later and see what the points buy, and what you remember versus what you find. Say plainly that reward rates and catalogues get tightened and the notice is easy to miss. Don't claim intent.",
+    "slide 4/5: Merge them. Keep the redemption moment from slide 4. Put the because into one plain, defensible line: a visible perk is what gets you to sign, and once you're in, trimming the quiet part costs the bank little because most people don't check or leave. Cut the \"lounge is visible, points are invisible\" restatement and the \"email you archive\" line, which also overreaches.",
+    "slide 3: Not everyone gets a card through a sales call (many take it from an app or a bank offer). Make the moment more universal: the offer page or call where you skimmed the rewards and the lounge line was the one you remembered. Keep the detail that you opened the points page once.",
+    "slide 6: This slide mixes two ideas, the fly-monthly concession and the renewal inertia. Tighten it to one clear push: it only pays if you fly often, you don't, and the fee SMS gets ignored. Cut the credit-score worry unless it carries a sharper image.",
+    "slide 7: The test and closer work. Make the arithmetic less of an instruction. Put the numbers first, then the sting line, and the unused-coffee image will land harder."
+   ]
+  }
+ ],
+ "updated_at": "2026-10-28T10:33:49.856721+00:00",
+ "sources": [],
+ "draft": {
+  "cover": {
+   "headline": "You picked your credit card for the [lounge], not the money",
+   "sub": "The perk people see you use is rarely the one that pays."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "You picked your credit card for the lounge, not the money.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "Wait, didn't I pick it for the rewards?"
+   },
+   {
+    "paragraphs": [
+     "Remember your first trip after the card arrived? You hand it over at the lounge desk, and there's a half second before the machine beeps.",
+     "Then it goes green. Filter coffee, a soft chair by the glass, the gate announcements a little muffled.",
+     "For a second, you feel like you made it."
+    ],
+    "why_swipe": "So what actually made you say yes to that card?"
+   },
+   {
+    "paragraphs": [
+     "Go back to the sales call. They went through points on every swipe, extra on dining, a voucher at some milestone. You half listened.",
+     "Then they said \"complimentary lounge access\" and you said yes.",
+     "You opened the points page once in the first month. After that you only checked the total due."
+    ],
+    "why_swipe": "What were those points worth when you finally looked again?"
+   },
+   {
+    "paragraphs": [
+     "A year later you open it to redeem. A steel bottle. A speaker you'd never buy. A voucher that gets you less than you remember.",
+     "**The points shrank while you weren't looking, and the bank counted on that.**"
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "The lounge is what you can see, so the lounge sells the card. The points are what you can't see, so that's where the bank trims, with an email you archive."
+    ],
+    "why_swipe": "So why is the card still in your wallet?"
+   },
+   {
+    "paragraphs": [
+     "Fair enough, if you fly every month, the lounge can pay for itself. You fly a few times a year.",
+     "The renewal fee SMS arrives. Switching means forms, a call, and a vague worry about your credit score. You let it go through.",
+     "So the lounge got you to sign, and the hassle keeps you there."
+    ],
+    "why_swipe": "How do you tell if your card was worth it?"
+   },
+   {
+    "paragraphs": [
+     "Open last year's statements. Add the cashback and points you actually used, in rupees. Add a coffee and sandwich for each lounge visit you really made.",
+     "Put that one number next to the annual fee.",
+     "**If the fee wins, that filter coffee by the glass was the most expensive cup you drank all year.**"
+    ]
+   }
+  ],
+  "end": {
+   "save": "Come back to this when your card's renewal fee SMS arrives.",
+   "send": "The friend who checks lounge access before they check the flight time.",
+   "promise": "How money and status really move."
+  },
+  "caption": "What's the most useless thing you've ever redeemed your card points for?",
+  "hashtags": [
+   "#CreditCardRewards",
+   "#AirportLounge",
+   "#PersonalFinanceIndia",
+   "#CreditCardIndia"
+  ],
+  "alt_text": "A six-slide carousel arguing that people choose credit cards for visible airport lounge access rather than rewards. It follows the reader from the proud moment the lounge machine beeps green, back to the sales call where the points pitch went past them but 'complimentary lounge access' got a yes. They check the points page once, then a year later find the redemption catalogue buys less than expected. The post explains that the visible lounge sells the card while the invisible points are where the bank trims value. Renewing happens out of habit because switching feels like a hassle. It ends with a test: add up the rupees the card actually gave back plus the lounge visits really made, and compare that with the annual fee. If the fee is bigger, the lounge coffee was the most expensive cup of the year.",
+  "claims": []
+ }
 }
