@@ -1,6 +1,6 @@
 {
  "id": "2026-11-72",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-07T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -40,6 +40,202 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-10-27T17:07:10.469401+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "problems": [
+    "The post carries 5 numbers. Facts only back the opinion: keep 3 at most, and only where they make the point land.",
+    "The figure '₹650.' isn't in the sources; source it or remove it."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Dead slide, slide 6: 'Put your thumb over the front label and read the back.' Slide 3 already has the reader turn both jars around and see 'Peanuts, salt. Peanuts, salt.' The closing test repeats something the story already did, so it lands as a restatement and not a payoff. The cover sub ('Now check the back') also gives the test away before slide 2."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 3,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 3: Don't have the reader read the ingredients here. Today the reveal happens mid-post, so slides 4 to 6 explain a conclusion the reader already has. Keep the reader on the front of the jar. The handwritten line and the lovely story make the pricey one feel like what a sorted person eats on toast. The basket decision should come with the back still unturned. Save the 'Peanuts, salt. Peanuts, salt.' turn for the last slide, so the test lands as a sting and not a repeat.",
+     "slide 6 and cover sub: Once slide 3 is fixed, make slide 6 the moment of discovery. For example, at home you finally flip the pricey jar and it matches the cheap one. Then end on a line to repeat. 'One adjective' and 'Lovely handwriting, though' are good, so keep them. Remove 'Now check the back' from the cover sub so the ending isn't spoiled. Keep the sub to the five words only.",
+     "slides 1 and 4: The post promises 'five words', but only 'small-batch' ever appears in the story. Handcrafted, clean and curated stay on the cover. 'Those words' in slide 4 then refers to words the reader hasn't met in the scene. Bring a second or third word onto the jar's front label in slide 2 or 3 (for example 'handcrafted' or 'clean') so the claim feels earned. Don't list all five.",
+     "slide 4: This slide does the because, and it's the strongest idea ('cheapest story a brand can buy'). But it explains what slide 3 already showed. Cut the 'Try checking... Whose batch?' questions down to one beat and sharpen who gains. The verification gap is exactly what lets a brand add a third to the price at no cost. That is the fresh angle, since it goes past 'premium is packaging', which readers already half believe. Right now the angle feels familiar.",
+     "slide 5: The Diwali hamper line ('will carry all five words on one ribbon') reads as a prediction stated as fact. Frame it as typical ('the Diwali hamper at your door usually carries...') or tie it to why the extra price gets easier to justify as a gift. The 'it costs the same to print for everyone' concession is good, so keep it. Make sure slide 6's test still works for the honest small kitchen, because reading the back alone can't tell you whether a batch is small."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Dead slide, slide 6: 'Put your thumb over the front label and read the back.' Slide 3 already has the reader turn both jars around and see 'Peanuts, salt. Peanuts, salt.' The closing test repeats something the story already did, so it lands as a restatement and not a payoff. The cover sub ('Now check the back') also gives the test away before slide 2.",
+    "slide 3: Don't have the reader read the ingredients here. Today the reveal happens mid-post, so slides 4 to 6 explain a conclusion the reader already has. Keep the reader on the front of the jar. The handwritten line and the lovely story make the pricey one feel like what a sorted person eats on toast. The basket decision should come with the back still unturned. Save the 'Peanuts, salt. Peanuts, salt.' turn for the last slide, so the test lands as a sting and not a repeat.",
+    "slide 6 and cover sub: Once slide 3 is fixed, make slide 6 the moment of discovery. For example, at home you finally flip the pricey jar and it matches the cheap one. Then end on a line to repeat. 'One adjective' and 'Lovely handwriting, though' are good, so keep them. Remove 'Now check the back' from the cover sub so the ending isn't spoiled. Keep the sub to the five words only.",
+    "slides 1 and 4: The post promises 'five words', but only 'small-batch' ever appears in the story. Handcrafted, clean and curated stay on the cover. 'Those words' in slide 4 then refers to words the reader hasn't met in the scene. Bring a second or third word onto the jar's front label in slide 2 or 3 (for example 'handcrafted' or 'clean') so the claim feels earned. Don't list all five.",
+    "slide 4: This slide does the because, and it's the strongest idea ('cheapest story a brand can buy'). But it explains what slide 3 already showed. Cut the 'Try checking... Whose batch?' questions down to one beat and sharpen who gains. The verification gap is exactly what lets a brand add a third to the price at no cost. That is the fresh angle, since it goes past 'premium is packaging', which readers already half believe. Right now the angle feels familiar.",
+    "slide 5: The Diwali hamper line ('will carry all five words on one ribbon') reads as a prediction stated as fact. Frame it as typical ('the Diwali hamper at your door usually carries...') or tie it to why the extra price gets easier to justify as a gift. The 'it costs the same to print for everyone' concession is good, so keep it. Make sure slide 6's test still works for the honest small kitchen, because reading the back alone can't tell you whether a batch is small."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 5 is a dead slide. 'A word you can't check is the cheapest story a brand can buy' restates slide 4, which already says you can't check how small the batch is. The 'cheapest story' line is the strongest 'because' in the post, so it needs to live in one slide rather than two.",
+     "Slide 7 breaks its own story logic, which hurts the 'no story' and 'payoff' tests. The jar runs out and you 'grab the plain one', but you have no reason to switch yet. Then you 'line them up and flip both' although you only bought one. The test is the payoff and it doesn't work as written."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 3,
+     "tight": 3
+    },
+    "notes": [
+     "Slide 7: fix the sequence. For example, the pricey jar is finished, you buy the plain one for convenience or on a whim, and the two labels end up side by side on the shelf at home. Or the cheap one is already in the cupboard from another trip. Then flip both and compare. Also cut the hedge 'Small batch or not'. The topic says the ingredients match, so state that plainly. Keep 'The extra money bought you one adjective' and the handwriting joke.",
+     "Slide 5: merge it into slide 4 or cut it. Move 'cheapest story a brand can buy' and the who-gains point (more rupees per jar for the cost of a nicer font) into slide 4 right after the turn line. That removes the repetition and tightens the middle.",
+     "Slide 6: the Diwali hamper beat is the one new idea in the middle, because it shows why the words get used everywhere. Say it more sharply. 'It costs the same to print for everyone' is good. 'Call it a gift, and the extra price gets waved through' is the real insight, so make it land harder. The close of slide 6 also seems to lean on the hamper. Make sure the save line on the end card isn't a lecture ('Read it again before you pick…'). Reframe it as something people would repeat.",
+     "Slide 3: 'before the morning walk they actually took' is confusing, and it's unclear who 'they' is. Replace it with one clean, concrete image of the identity the jar sells, for example the person who has their life sorted and eats this on toast. Also make the swipe pull stronger. Right now slides 2 and 3 both show the same moment, picking the pricey jar without reading the back, so merge or sharpen them.",
+     "Slides 2-4: the five words in the cover sub never really appear in the story. Only 'small-batch' and 'handcrafted' do. Let a couple of the others (clean, curated, artisanal) show up on the shelf or the hamper so the cover promise is paid off."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Slide 5 is a dead slide. 'A word you can't check is the cheapest story a brand can buy' restates slide 4, which already says you can't check how small the batch is. The 'cheapest story' line is the strongest 'because' in the post, so it needs to live in one slide rather than two.",
+    "Slide 7 breaks its own story logic, which hurts the 'no story' and 'payoff' tests. The jar runs out and you 'grab the plain one', but you have no reason to switch yet. Then you 'line them up and flip both' although you only bought one. The test is the payoff and it doesn't work as written.",
+    "Slide 7: fix the sequence. For example, the pricey jar is finished, you buy the plain one for convenience or on a whim, and the two labels end up side by side on the shelf at home. Or the cheap one is already in the cupboard from another trip. Then flip both and compare. Also cut the hedge 'Small batch or not'. The topic says the ingredients match, so state that plainly. Keep 'The extra money bought you one adjective' and the handwriting joke.",
+    "Slide 5: merge it into slide 4 or cut it. Move 'cheapest story a brand can buy' and the who-gains point (more rupees per jar for the cost of a nicer font) into slide 4 right after the turn line. That removes the repetition and tightens the middle.",
+    "Slide 6: the Diwali hamper beat is the one new idea in the middle, because it shows why the words get used everywhere. Say it more sharply. 'It costs the same to print for everyone' is good. 'Call it a gift, and the extra price gets waved through' is the real insight, so make it land harder. The close of slide 6 also seems to lean on the hamper. Make sure the save line on the end card isn't a lecture ('Read it again before you pick…'). Reframe it as something people would repeat.",
+    "Slide 3: 'before the morning walk they actually took' is confusing, and it's unclear who 'they' is. Replace it with one clean, concrete image of the identity the jar sells, for example the person who has their life sorted and eats this on toast. Also make the swipe pull stronger. Right now slides 2 and 3 both show the same moment, picking the pricey jar without reading the back, so merge or sharpen them.",
+    "Slides 2-4: the five words in the cover sub never really appear in the story. Only 'small-batch' and 'handcrafted' do. Let a couple of the others (clean, curated, artisanal) show up on the shelf or the hamper so the cover promise is paid off."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 5: This is one thin sentence and a weak 'what happens next?' swipe. It also makes the 'to be fair' concession feel like a checkbox. Fold it into the start of slide 6 as a clause ('Some makers really are one kitchen and one grinder. But the word costs nothing to print for everyone else') and cut the standalone slide. Also fix 'it costs the same to print for everyone else'. It is unclear who 'everyone else' is and what 'it' refers to.",
+     "slide 3: It mostly repeats slide 2 ('you already know which one you picked'). Slide 4 then repeats the same point again, that you can't check and the label has already done its job. Merge 2 and 3, or give slide 3 its own beat. The topic's moment has real prices, so use them: a ₹650 jar next to a ₹250 one. 'A much friendlier price' is vague. Putting the two numbers on the shelf makes the sting concrete without turning the post into data.",
+     "slide 4: The turn and the because are here but too tidy. The bold line, then 'cheapest story a brand can buy', then 'a nicer font costs them very little' all say the same thing three times. Keep the bold line and one plain sentence on who gains, and drop the rest. Also, only three of the five words appear before this slide. Name all five early so the cover's promise is paid off.",
+     "slide 6: The Diwali hamper is the freshest part of the post because it adds a new idea, that gifts are where unverifiable words work hardest. It is squeezed into two lines, though. Let it breathe, with one concrete image of the hamper (the ribbon, the box being passed along without being opened). The 'this month' framing is good, so keep it.",
+     "slide 7: The ending works, but 'both sit side by side' after the fancy jar 'runs out midweek' feels staged, and the reveal is only 'peanuts, salt'. Set it up so the test is something the reader can run on their own shelf. For example, the plain jar is the one that comes home, and the only label you read this time is the ingredients. Keep 'Lovely handwriting, though.' and the 'one adjective' line."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "slide 5: This is one thin sentence and a weak 'what happens next?' swipe. It also makes the 'to be fair' concession feel like a checkbox. Fold it into the start of slide 6 as a clause ('Some makers really are one kitchen and one grinder. But the word costs nothing to print for everyone else') and cut the standalone slide. Also fix 'it costs the same to print for everyone else'. It is unclear who 'everyone else' is and what 'it' refers to.",
+    "slide 3: It mostly repeats slide 2 ('you already know which one you picked'). Slide 4 then repeats the same point again, that you can't check and the label has already done its job. Merge 2 and 3, or give slide 3 its own beat. The topic's moment has real prices, so use them: a ₹650 jar next to a ₹250 one. 'A much friendlier price' is vague. Putting the two numbers on the shelf makes the sting concrete without turning the post into data.",
+    "slide 4: The turn and the because are here but too tidy. The bold line, then 'cheapest story a brand can buy', then 'a nicer font costs them very little' all say the same thing three times. Keep the bold line and one plain sentence on who gains, and drop the rest. Also, only three of the five words appear before this slide. Name all five early so the cover's promise is paid off.",
+    "slide 6: The Diwali hamper is the freshest part of the post because it adds a new idea, that gifts are where unverifiable words work hardest. It is squeezed into two lines, though. Let it breathe, with one concrete image of the hamper (the ribbon, the box being passed along without being opened). The 'this month' framing is good, so keep it.",
+    "slide 7: The ending works, but 'both sit side by side' after the fancy jar 'runs out midweek' feels staged, and the reveal is only 'peanuts, salt'. Set it up so the test is something the reader can run on their own shelf. For example, the plain jar is the one that comes home, and the only label you read this time is the ingredients. Keep 'Lovely handwriting, though.' and the 'one adjective' line."
+   ]
+  }
+ ],
+ "updated_at": "2026-10-29T10:55:28.061558+00:00",
+ "sources": [],
+ "draft": {
+  "cover": {
+   "headline": "Five words that make you [pay more] for the same jar",
+   "sub": "Artisanal, handcrafted, small-batch, clean, curated."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Five words that make you pay more for the same jar.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "Which jar, and which words?"
+   },
+   {
+    "paragraphs": [
+     "It's a Sunday at the fancy grocery store. Soft music, wooden shelves, a basket with a leather handle you didn't ask for.",
+     "Two jars of peanut butter. One says *small-batch*, handcrafted and clean in a font that looks handwritten, next to a tiny drawing of a farm. The plain one sits a shelf lower, at a much friendlier price."
+    ],
+    "why_swipe": "You already know which one you picked."
+   },
+   {
+    "paragraphs": [
+     "You don't turn either one around. The front has already done its job.",
+     "The pricey one goes in the basket. It looks like what someone with their life sorted spreads on sourdough, standing at a clean kitchen counter."
+    ],
+    "why_swipe": "So what did the extra money actually buy?"
+   },
+   {
+    "paragraphs": [
+     "In that aisle, you can't check how small a batch is, or whose hands did the crafting.",
+     "**These words don't describe the peanuts. They describe how you should feel at the billing counter.**",
+     "A word you can't check is the cheapest story a brand can buy. A nicer font costs them very little. It adds rupees to every single jar."
+    ],
+    "why_swipe": "So is every fancy label a con?"
+   },
+   {
+    "paragraphs": [
+     "To be fair, some makers really are one small kitchen and one grinder. For them, the word is true."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "But it costs the same to print for everyone else. So this month the Diwali hamper at your door says curated on the box and artisanal on the ribbon.",
+     "**Nobody flips a gift over to read the back. That's where these words earn the most.**"
+    ],
+    "why_swipe": "So what was inside the jar all along?"
+   },
+   {
+    "paragraphs": [
+     "The fancy jar runs out midweek. The corner shop only has the plain one, so that comes home. Before the empty one gets washed for storing dal, both sit side by side.",
+     "You flip them. Peanuts, salt. Peanuts, salt. **The extra money bought you one adjective.**",
+     "Lovely handwriting, though."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Same ingredients, higher price: that's an adjective you paid for.",
+   "send": "The friend whose kitchen shelf is all 'artisanal'.",
+   "promise": "What you're really paying for."
+  },
+  "caption": "Which 'artisanal' thing in your kitchen turned out to have the exact same ingredients as the cheap one?",
+  "hashtags": [
+   "#PremiumPricing",
+   "#IndianConsumers",
+   "#BrandingInIndia",
+   "#DiwaliHampers"
+  ],
+  "alt_text": "Carousel about premium labels in India. A shopper at a fancy grocery store picks a pricey peanut butter jar labelled small-batch, handcrafted and clean in a handwritten-style font over a cheaper plain jar, without reading the back. The post argues these words can't be checked, so they sell a feeling about paying more rather than describing the product, which makes them a cheap story for brands. It grants that some small makers use them truthfully, and notes that Diwali hampers labelled curated and artisanal get away with it most because nobody checks a gift. Later the shopper ends up with the plain jar too, flips both and finds the same two ingredients, peanuts and salt. The extra money bought one adjective.",
+  "claims": []
+ }
 }
