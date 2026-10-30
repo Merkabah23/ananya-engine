@@ -1,0 +1,62 @@
+{
+ "id": "2026-11-94",
+ "status": "planned",
+ "due": "2026-11-11T20:30:00+05:30",
+ "format": "carousel",
+ "topic": {
+  "title": "The monthly plan is the expensive plan",
+  "claim": "We pay more for anything sold by the month, and the new FASTag pass shows it in plain numbers.",
+  "behaviour": "People take the small monthly option because it is easy to say yes to, and never compare it with the yearly one.",
+  "mechanism": "Monthly plans sell the feeling of low commitment. Sellers earn extra from everyone who never does the yearly sum.",
+  "group": "Salaried people who live on subscriptions, passes and auto-pay",
+  "territory": "money_status",
+  "mood": "dark_pattern",
+  "format_name": "price_tells",
+  "moment": "You renew something on auto-pay every month and have no idea what the year costs.",
+  "turn": {
+   "believed": "A small monthly payment is the careful, flexible choice.",
+   "actually": "The flexible choice is the one that costs the most over a year."
+  },
+  "because": "A low monthly figure hides the total, and not many people sit down and multiply. That gap is the seller's margin.",
+  "proof": [
+   {
+    "fact": "The annual FASTag local pass costs ₹1,500 at plazas outside town limits, while the current monthly local pass costs ₹360, or ₹4,320 a year.",
+    "source_url": "https://www.businesstoday.in/india/story/fastag-new-rules-from-november-1-who-can-apply-how-much-will-it-cost-and-more-564186-2026-10-28",
+    "date": "2026-10-28"
+   }
+  ],
+  "lived": false,
+  "payoff": "Test: pick one auto-pay today and multiply it by twelve before you renew.",
+  "send_to": "The friend with six subscriptions and no idea what they cost together.",
+  "format_hint": "carousel",
+  "real_details": [
+   "Living nearby does not qualify someone automatically; the pass is not available on closed-user-fee highways or where a service road exists."
+  ],
+  "evidence": [
+   {
+    "url": "https://www.businesstoday.in/india/story/fastag-new-rules-from-november-1-who-can-apply-how-much-will-it-cost-and-more-564186-2026-10-28",
+    "sub": "news",
+    "rank": 48
+   }
+  ],
+  "news_peg": "NHAI annual FASTag local pass from 1 November 2026, reported 28 October.",
+  "why_now": "The pass starts this week and puts a monthly-versus-yearly gap in print.",
+  "counterintuitive": true,
+  "needs_facts": true,
+  "id": "2026-10-301105-025",
+  "score": {
+   "rank": 8,
+   "why": "Monthly pricing hides the yearly total. The multiply-by-twelve test is saveable, and the FASTag numbers back it.",
+   "scores": {
+    "relatable": 4,
+    "fresh_angle": 4,
+    "shareable": 4,
+    "saveable": 5,
+    "because": 4
+   },
+   "format_fit": "carousel"
+  }
+ },
+ "history": [],
+ "updated_at": "2026-10-30T11:06:32.156047+00:00"
+}

@@ -1,6 +1,6 @@
 {
  "id": "2026-11-69",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-10T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -40,6 +40,166 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-10-27T17:07:53.114456+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "problems": [
+    "The post carries 4 numbers. Facts only back the opinion: keep 3 at most, and only where they make the point land.",
+    "The figure '₹120.' isn't in the sources; source it or remove it."
+   ]
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "The figure '₹199' isn't in the sources; source it or remove it."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Hard failure 12 (mechanism stated as a deliberate plan). Cover and slide 1: \"The small-cart fee exists to sell you the chips.\" Slide 4: \"your bigger basket earns the app far more than that fee ever would.\" Slide 5: \"This one comes with a progress bar and a reward for avoiding it.\" The post presents the fee as a deliberate trap and states what the app earns as fact. Nothing in the topic or sources can show that, and the post itself concedes the fee also covers a real delivery cost."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "slide 1 and cover: Stop asserting the app's intent as fact. Keep the sharp claim but frame it as what the fee does to you, for example \"The small-cart fee isn't there to be paid. It's there to be dodged, and the dodge costs more.\" That claim can be shown from the reader's own basket and needs no secret motive.",
+     "slide 4: \"Your bigger basket earns the app far more than that fee ever would\" is an unprovable earnings claim. Replace it with something the reader can verify, such as \"the fee only works if you'd rather spend than pay it\". Also soften \"Some update later, the line sits higher\" to a typical-habit framing (\"and the line has a way of creeping up\") so it doesn't read as a documented fact.",
+     "slide 5: Right now it half-explains what readers already know (delivery costs money). Make the concession shorter and sharper, then push the turn: a fee you can escape by spending isn't priced to cover the rider, it's priced to be avoided. Don't claim a plan. Say it behaves like a nudge whether or not anyone designed it.",
+     "slide 3: Good texture. Add one more detail only a lived user would notice, such as the cart total hovering just under the line, or you picking the item by price rather than want. That strengthens the \"I thought I beat it\" beat and the iq score.",
+     "slide 6: The payoff test is right and the unopened chips land. Keep the \"pay it once\" test, but make the final line less of a comparison to \"last week's smart order\" and more of a repeatable line, so the sting survives once the earlier claims are softened."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Hard failure 12 (mechanism stated as a deliberate plan). Cover and slide 1: \"The small-cart fee exists to sell you the chips.\" Slide 4: \"your bigger basket earns the app far more than that fee ever would.\" Slide 5: \"This one comes with a progress bar and a reward for avoiding it.\" The post presents the fee as a deliberate trap and states what the app earns as fact. Nothing in the topic or sources can show that, and the post itself concedes the fee also covers a real delivery cost.",
+    "slide 1 and cover: Stop asserting the app's intent as fact. Keep the sharp claim but frame it as what the fee does to you, for example \"The small-cart fee isn't there to be paid. It's there to be dodged, and the dodge costs more.\" That claim can be shown from the reader's own basket and needs no secret motive.",
+    "slide 4: \"Your bigger basket earns the app far more than that fee ever would\" is an unprovable earnings claim. Replace it with something the reader can verify, such as \"the fee only works if you'd rather spend than pay it\". Also soften \"Some update later, the line sits higher\" to a typical-habit framing (\"and the line has a way of creeping up\") so it doesn't read as a documented fact.",
+    "slide 5: Right now it half-explains what readers already know (delivery costs money). Make the concession shorter and sharper, then push the turn: a fee you can escape by spending isn't priced to cover the rider, it's priced to be avoided. Don't claim a plan. Say it behaves like a nudge whether or not anyone designed it.",
+    "slide 3: Good texture. Add one more detail only a lived user would notice, such as the cart total hovering just under the line, or you picking the item by price rather than want. That strengthens the \"I thought I beat it\" beat and the iq score.",
+    "slide 6: The payoff test is right and the unopened chips land. Keep the \"pay it once\" test, but make the final line less of a comparison to \"last week's smart order\" and more of a repeatable line, so the sting survives once the earlier claims are softened."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [
+     "5. No because: the post never says who gains. Slide 4's 'The fee works on you because you'd rather spend than pay it' only describes the reader's habit. Nowhere does it say a bigger basket earns the app far more than the fee would. Slide 5 backs away from motive with 'whether anyone planned it that way or not'.",
+     "7. Dead slide: slide 5 mostly concedes what every reader already knows (a rider for one lemon costs money). Its one useful line, 'a fee you can escape by spending more behaves like a nudge', is a restatement of the cover and slide 4 and adds no new beat. Slide 6's last line also restates the cover headline (dodging costs more than the fee) rather than adding something new."
+    ],
+    "scores": {
+     "hook": 3,
+     "relatable": 5,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 3,
+     "eq": 3,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 4: Add the missing because. The app wants the bigger basket, and a basket padded to ₹199 earns it far more than a small fee would. The fee is the stick and the 'add more' strip is the real product. Replace 'The fee works on you because you'd rather spend than pay it' with this, said plainly.",
+     "slide 5: Cut the hedge 'whether anyone planned it that way or not'. It weakens the turn. State what the fee is built to do (push you to spend more) in one confident line, and fold the delivery-cost concession into a single clause. Do not give it a whole slide.",
+     "slide 4: '**That green tick isn't a win. It's a receipt.**' is a mirrored 'isn't X, it's Y' pair, and the closer repeats the same shape. Rework the line. Also drop or ground 'that line has a way of creeping up with each update'. It is a loose, unsourced claim, so keep it only as a light observation of what users notice, or cut it.",
+     "slide 6: 'Smaller than any order where you won' is confusing. Make the payoff concrete and visible: the fee-paid order is plainly cheaper than the padded one (milk, lemon, one charge). Let the unopened chips in the drawer carry the sting, and end on a fresh line instead of restating the cover's point.",
+     "slide 1: It repeats the cover headline word for word. Give it a claim that carries the turn in different words, such as the app wants you to dodge the fee, without giving the whole answer away."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "5. No because: the post never says who gains. Slide 4's 'The fee works on you because you'd rather spend than pay it' only describes the reader's habit. Nowhere does it say a bigger basket earns the app far more than the fee would. Slide 5 backs away from motive with 'whether anyone planned it that way or not'.",
+    "7. Dead slide: slide 5 mostly concedes what every reader already knows (a rider for one lemon costs money). Its one useful line, 'a fee you can escape by spending more behaves like a nudge', is a restatement of the cover and slide 4 and adds no new beat. Slide 6's last line also restates the cover headline (dodging costs more than the fee) rather than adding something new.",
+    "slide 4: Add the missing because. The app wants the bigger basket, and a basket padded to ₹199 earns it far more than a small fee would. The fee is the stick and the 'add more' strip is the real product. Replace 'The fee works on you because you'd rather spend than pay it' with this, said plainly.",
+    "slide 5: Cut the hedge 'whether anyone planned it that way or not'. It weakens the turn. State what the fee is built to do (push you to spend more) in one confident line, and fold the delivery-cost concession into a single clause. Do not give it a whole slide.",
+    "slide 4: '**That green tick isn't a win. It's a receipt.**' is a mirrored 'isn't X, it's Y' pair, and the closer repeats the same shape. Rework the line. Also drop or ground 'that line has a way of creeping up with each update'. It is a loose, unsourced claim, so keep it only as a light observation of what users notice, or cut it.",
+    "slide 6: 'Smaller than any order where you won' is confusing. Make the payoff concrete and visible: the fee-paid order is plainly cheaper than the padded one (milk, lemon, one charge). Let the unopened chips in the drawer carry the sting, and end on a fresh line instead of restating the cover's point.",
+    "slide 1: It repeats the cover headline word for word. Give it a claim that carries the turn in different words, such as the app wants you to dodge the fee, without giving the whole answer away."
+   ]
+  }
+ ],
+ "updated_at": "2026-10-30T10:57:03.917974+00:00",
+ "sources": [],
+ "draft": {
+  "cover": {
+   "headline": "The small-cart fee costs less than [dodging it does]",
+   "sub": "You felt clever crossing the line. Check what you added."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "The small-cart fee costs less than dodging it does.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "How can dodging a fee cost more than the fee?"
+   },
+   {
+    "paragraphs": [
+     "It's late, you're already in bed, and you need milk and one lemon for the morning. The cart looks tiny.",
+     "Then the strip at the bottom of the screen lights up. Add a little more to skip the small cart fee."
+    ],
+    "why_swipe": "Everyone knows what you do next."
+   },
+   {
+    "paragraphs": [
+     "So you scroll. Your total sits a few rupees short of the line, and you start shopping by price, not by want.",
+     "A pack of chips, a chocolate you won't finish, the protein bar that's \"on offer\" again. The strip turns green with a little tick. You feel like you beat the app."
+    ],
+    "why_swipe": "Did you actually beat it?"
+   },
+   {
+    "paragraphs": [
+     "**That green tick isn't a win. It's a receipt.**",
+     "Add up what you threw in to cross the line. It's more than the fee you were running from. The fee works on you because you'd rather spend than pay it.",
+     "And that line has a way of creeping up a little with each update."
+    ],
+    "why_swipe": "But don't apps need to cover delivery somehow?"
+   },
+   {
+    "paragraphs": [
+     "Yes, a rider crossing town for one lemon costs real money. Charging for that is fair.",
+     "But a fee you can escape by spending more doesn't behave like a delivery charge. It behaves like a nudge, whether anyone planned it that way or not."
+    ],
+    "why_swipe": "So what happens if you just pay it?"
+   },
+   {
+    "paragraphs": [
+     "Pay the fee once and look at the total. Milk, a lemon, one small charge. Smaller than any order where you won.",
+     "Meanwhile the chips from your last victory are still unopened in the drawer.",
+     "**The most expensive thing in your cart is what you added to save money.**"
+    ]
+   }
+  ],
+  "end": {
+   "save": "Open this again the next time that strip asks you to add a little more.",
+   "send": "Send it to the flatmate whose 10-minute orders always come with something extra.",
+   "promise": "Why things cost what they cost."
+  },
+  "caption": "The fee you skip usually comes back as a snack you never wanted.",
+  "hashtags": [
+   "#quickcommerce",
+   "#smallcartfee",
+   "#onlineshoppinghabits",
+   "#indianconsumers"
+  ],
+  "alt_text": "A six-slide carousel arguing that dodging the small-cart fee on quick-commerce apps costs more than paying it. It follows a late-night order for milk and a lemon. A strip asks the reader to add a little more to skip the fee, so they pick items by price to fill the gap, add chips and a chocolate, and feel clever when the strip turns green. It argues that what they added costs more than the fee, and that the fee works because people would rather spend than pay it. It concedes that delivering tiny orders costs real money, but says a fee you can escape by spending more behaves like a nudge. It ends by suggesting paying the fee once, noting the chips from the last padded order are still unopened, and closes with the line that the most expensive thing in the cart is what you added to save money.",
+  "claims": []
+ }
 }
