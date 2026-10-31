@@ -1,6 +1,6 @@
 {
  "id": "2026-11-87",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-01T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -40,6 +40,681 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-10-30T11:06:32.153755+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 4: The last paragraph (\"A paid reviewer would never write it. Only someone who actually ate there would.\") gives away the payoff line, and slide 6 then says it again. Cut it or turn it into the because: who gains from the 4.9. Say that a place can buy praise, and that praise stops meaning anything once everyone knows it is for sale. Also drop the absolute \"only someone who ate there would\", since a rival could write a bad review too. That claim can't be shown.",
+     "slide 6: The bold line restates slide 4, so the ending reads as a recap. Keep the line, but earn it by building to it after the 4.9 twist in slide 5. Cut or replace the follow-up about the AC guy being \"the most trusted voice on the app\". It is a cute joke, not a sting. Better to end on something the reader can test: next time you open a restaurant, notice which review you scroll to first.",
+     "slide 5: This is the freshest beat (the honest 4.9 gets skipped too), so give it more room. Say who is hurt: the restaurants that did nothing wrong. Right now it is two lines and feels like a passing remark. Consider making it the post's real turn and moving slide 4's bold line closer to it.",
+     "slide 2: \"Half of them are from accounts with one review and no photo\" reads as a stat. Soften to a typical scene (\"a lot of them are from accounts with one review and no photo\"), or cut it, so it can't be read as a real figure. The group-chat opener and the \"Amazing ambience!! Must visit!!\" line are good concrete texture. Keep them.",
+     "slide 3: Good, specific scene. The AC argument detail is strong, but \"you read three of these, nod, and order\" is slightly too neat. Add one human, slightly irrational beat, such as enjoying the complaints or checking the date of the angry review, so the reader sees themselves doing it."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "slide 4: The last paragraph (\"A paid reviewer would never write it. Only someone who actually ate there would.\") gives away the payoff line, and slide 6 then says it again. Cut it or turn it into the because: who gains from the 4.9. Say that a place can buy praise, and that praise stops meaning anything once everyone knows it is for sale. Also drop the absolute \"only someone who ate there would\", since a rival could write a bad review too. That claim can't be shown.",
+    "slide 6: The bold line restates slide 4, so the ending reads as a recap. Keep the line, but earn it by building to it after the 4.9 twist in slide 5. Cut or replace the follow-up about the AC guy being \"the most trusted voice on the app\". It is a cute joke, not a sting. Better to end on something the reader can test: next time you open a restaurant, notice which review you scroll to first.",
+    "slide 5: This is the freshest beat (the honest 4.9 gets skipped too), so give it more room. Say who is hurt: the restaurants that did nothing wrong. Right now it is two lines and feels like a passing remark. Consider making it the post's real turn and moving slide 4's bold line closer to it.",
+    "slide 2: \"Half of them are from accounts with one review and no photo\" reads as a stat. Soften to a typical scene (\"a lot of them are from accounts with one review and no photo\"), or cut it, so it can't be read as a real figure. The group-chat opener and the \"Amazing ambience!! Must visit!!\" line are good concrete texture. Keep them.",
+    "slide 3: Good, specific scene. The AC argument detail is strong, but \"you read three of these, nod, and order\" is slightly too neat. Add one human, slightly irrational beat, such as enjoying the complaints or checking the date of the angry review, so the reader sees themselves doing it."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "slide 6: the last line, 'The places that bought praise have dragged the honest ones down with them', restates the point the bold line already lands. Cut it, or replace it with something new, such as what the honest place can't do to prove itself. Ending on 'looks exactly like the fake one' will sting more.",
+     "slide 5: 'Praise can be bought now, and everyone knows it' states what every reader already knows. Open instead on the sharper idea, that a perfect score now reads like a marketing budget. Say it once and keep the two sentences from repeating each other.",
+     "slide 7: the thumb test repeats slide 3 ('Your thumb skips the good reviews and goes straight to the bottom'). Make the test new. For example, ask the reader what they do when a place has no bad reviews at all, and let that be the sting. Or drop the slide 3 thumb detail so slide 7 reveals it.",
+     "slide 3: this slide is only one line, and its pull is weak. Merge it into slide 2 or slide 4, or add one concrete beat of the scroll, such as the thumb passing the star bars and the 'most relevant' tab, so it earns a slide.",
+     "slide 4: 'You're almost enjoying this' is the best human beat in the post. Keep it, and make the final line 'On paper, you just picked the worse restaurant' more dry. It currently over-explains the setup for slide 5."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "The take's premise is wrong: The post's punchline, 'A few bad reviews are the only reviews nobody paid for' (premise 4), is false. People are paid to write fake negative reviews, and scammers use them to extort restaurants. The FTC's 2024 rule bans fake reviews meant to hurt competitors and bans paying for negative reviews as well as positive ones. In the documented Google extortion scam, waves of one-star reviews hit restaurants, often with no text or photos, from people who never ate there, followed by demands for gift cards. That also weakens premise 2: 'one-review account, no photo' marks fake one-star reviews as much as fake five-star ones, so it can't tell you which kind to trust. Premises 3 and 5, that honest 4.9s get skipped and that people read one-star reviews first, are plausible but I found no evidence for them specific to restaurants. The conclusion that the 1-star reviews are what you can trust doesn't follow, because those reviews can be fake too.. How it actually works: Shoppers already distrust perfect scores. Northwestern's Spiegel Research Center found that the likelihood of buying peaks at roughly 4.2 to 4.5 stars and falls as the average nears 5.0, because a few negative reviews make the overall score more believable. But both kinds of review can be faked. Fake praise inflates scores, and fake one-star attacks from rivals or extortionists drag them down. The FTC rule (16 CFR Part 465) bans fake or paid reviews in both directions, and Google now has a form for reporting review extortion. So a 4.2 with complaints you can check (specific dishes, recent dates, reviewers with a real history) deserves more trust than a 4.9 full of generic praise. A one-star review earns trust through those details, not by being negative. Rebuild the post on the correct mechanism.",
+     "Needs a stronger source: 'Reviews for restaurants can be bought, i.e. paid five-star reviews are available for sale on restaurant rating platforms.' (a primary source, or two independent major outlets).",
+     "Says more than the sources: 'Many users now trust a 4.2-star restaurant more than a 4.9-star restaurant.'. What's true: The research behind this is about products, not restaurants. Northwestern's Spiegel Research Center found purchase likelihood peaks at 4.2–4.5 stars and falls as the rating nears 5.0. A small ReviewInc steakhouse survey found a lower-rated steakhouse trusted about 2 to 1, but it was a vendor survey with an unclear sample. No source found shows that 'many users' trust a 4.2-star restaurant over a 4.9-star one. The 'now' framing is also wrong, since the finding dates from about 2017. The date is approximate because I did not open the full report to confirm the year. A safer line would be 'research suggests near-perfect ratings can lower purchase likelihood'.."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Reviews for restaurants can be bought, i.e. paid five-star reviews are available for sale on restaurant rating platforms.",
+      "sentence": "Praise can be bought now, and everyone knows it. Once five stars are for sale, a perfect score stops telling you about the kitchen.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c2",
+      "text": "Many users now trust a 4.2-star restaurant more than a 4.9-star restaurant.",
+      "sentence": "You trust a 4.2-star restaurant more than a 4.9 now.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c3",
+      "text": "Mechanism: because paid fake praise exists and is widely known, a near-perfect rating no longer signals food quality to users, so users trust a lower rating with visible negative reviews more, and honest high-rated restaurants are discounted along with fake ones.",
+      "sentence": "Once five stars are for sale, a perfect score stops telling you about the kitchen. To you, it starts to read like a marketing budget.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Fake or bought reviews on restaurant listings often come from accounts with only one review and no profile photo.",
+      "sentence": "A lot of them come from accounts with one review and no photo.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Honest highly rated restaurants are being skipped by users because they look the same as restaurants with bought reviews, so places that bought praise have hurt the honest ones.",
+      "sentence": "The places that bought praise have dragged the honest ones down with them.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c6",
+      "text": "Bad reviews are the only reviews nobody paid for.",
+      "sentence": "A few bad reviews are the only reviews nobody paid for.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "People tend to go to the one-star or negative reviews first when opening a restaurant listing, before the menu.",
+      "sentence": "It finds the one-star reviews before it finds the menu.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2024-08-14",
+      "correct": "Fake reviews are sold. The FTC's final rule, announced 2024-08-14 and effective 2024-10-21, bans buying or selling fake reviews. Amazon and Google have also sued sellers of bulk fake reviews, such as BigBoostUp.com. The claim is true, but the FTC's rule was not aimed at restaurants specifically. Its first-ever date for paid reviews existing is much earlier, and I did not find that date.",
+      "sources": [
+       {
+        "url": "https://www.ftc.gov/news-events/news/press-releases/2024/08/federal-trade-commission-announces-final-rule-banning-fake-reviews-testimonials",
+        "publisher": "Federal Trade Commission",
+        "published_date": "2024-08-14",
+        "quote": "bans businesses from creating, buying or selling reviews and testimonials attributed to people who don't exist",
+        "tier": 1
+       },
+       {
+        "url": "https://techcrunch.com/2024/08/14/ftc-finalizes-rule-banning-fake-reviews",
+        "publisher": "TechCrunch",
+        "published_date": "2024-08-14",
+        "quote": "FTC finalizes rule banning fake reviews",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "misframed",
+      "event_date": "2017-01-01",
+      "correct": "The research behind this is about products, not restaurants. Northwestern's Spiegel Research Center found purchase likelihood peaks at 4.2–4.5 stars and falls as the rating nears 5.0. A small ReviewInc steakhouse survey found a lower-rated steakhouse trusted about 2 to 1, but it was a vendor survey with an unclear sample. No source found shows that 'many users' trust a 4.2-star restaurant over a 4.9-star one. The 'now' framing is also wrong, since the finding dates from about 2017. The date is approximate because I did not open the full report to confirm the year. A safer line would be 'research suggests near-perfect ratings can lower purchase likelihood'.",
+      "sources": [
+       {
+        "url": "https://spiegel.medill.northwestern.edu/wp-content/uploads/sites/2/2021/04/Online-Reviews-Whitepaper.pdf",
+        "publisher": "Northwestern University Spiegel Research Center",
+        "published_date": "2017-01-01",
+        "quote": "Purchase likelihood then peaks when the average star rating of a product is between 4.2 and 4.5 stars and starts to drop as the star rating approaches a perfect 5.",
+        "tier": 1
+       },
+       {
+        "url": "https://www.retailtouchpoints.com/topics/customer-experience/purchase-likelihood-highest-for-products-rated-between-4-2-and-4-5-out-of-5-stars",
+        "publisher": "Retail TouchPoints",
+        "published_date": "2017-01-01",
+        "quote": "Purchase Likelihood Highest For Products Rated Between 4.2 And 4.5 Out Of 5 Stars",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "The post's punchline, 'A few bad reviews are the only reviews nobody paid for' (premise 4), is false. People are paid to write fake negative reviews, and scammers use them to extort restaurants. The FTC's 2024 rule bans fake reviews meant to hurt competitors and bans paying for negative reviews as well as positive ones. In the documented Google extortion scam, waves of one-star reviews hit restaurants, often with no text or photos, from people who never ate there, followed by demands for gift cards. That also weakens premise 2: 'one-review account, no photo' marks fake one-star reviews as much as fake five-star ones, so it can't tell you which kind to trust. Premises 3 and 5, that honest 4.9s get skipped and that people read one-star reviews first, are plausible but I found no evidence for them specific to restaurants. The conclusion that the 1-star reviews are what you can trust doesn't follow, because those reviews can be fake too.",
+     "actual_mechanism": "Shoppers already distrust perfect scores. Northwestern's Spiegel Research Center found that the likelihood of buying peaks at roughly 4.2 to 4.5 stars and falls as the average nears 5.0, because a few negative reviews make the overall score more believable. But both kinds of review can be faked. Fake praise inflates scores, and fake one-star attacks from rivals or extortionists drag them down. The FTC rule (16 CFR Part 465) bans fake or paid reviews in both directions, and Google now has a form for reporting review extortion. So a 4.2 with complaints you can check (specific dishes, recent dates, reviewers with a real history) deserves more trust than a 4.9 full of generic praise. A one-star review earns trust through those details, not by being negative.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.consumerfinancemonitor.com/2024/08/20/ftc-issues-final-rule-to-fight-fake-product-reviews/",
+       "published_date": "2024-08-20",
+       "quote": "The Final Rule forbids businesses from creating, buying, selling or disseminating fake or false reviews or testimonials — including fabricating positive reviews for its own products, as well as negative reviews intended to harm competitors... prohibits businesses from providing compensation or other incentives for the writing of positive or negative reviews."
+      },
+      {
+       "url": "https://www.engadget.com/restaurant-scam-google-reviews-one-star-extortion-190651006.html",
+       "published_date": "2022-07",
+       "quote": "Those hit with the scam claimed that a raft of negative one-star reviews appeared on Google, with neither description nor photos, by people who hadn't eaten at the restaurant."
+      },
+      {
+       "url": "https://www.inquirer.com/food/restaurants/fake-google-reviews-philadelphia-restaurants-20251104.html",
+       "published_date": "2025-11-04",
+       "quote": "Google removed dozens of bogus one-star reviews from the pages of eight Philadelphia restaurants on Tuesday, hours after The Inquirer published an article about the scam."
+      },
+      {
+       "url": "https://restauranttechnologynews.com/2025/12/what-googles-new-merchant-extortion-tool-means-for-restaurant-operators/",
+       "published_date": "2025-12",
+       "quote": "allows restaurants and other merchants to report not just the fake reviews but the extortion attempt itself."
+      },
+      {
+       "url": "https://www.retailtouchpoints.com/topics/customer-experience/purchase-likelihood-highest-for-products-rated-between-4-2-and-4-5-out-of-5-stars",
+       "published_date": "2015",
+       "quote": "purchase likelihood then peaks when the average star rating of a product is between 4.2 and 4.5 stars and starts to drop as the star rating approaches a perfect 5."
+      },
+      {
+       "url": "https://spiegel.medill.northwestern.edu/wp-content/uploads/sites/2/2021/04/Online-Reviews-Whitepaper.pdf",
+       "published_date": "2017",
+       "quote": "Spiegel Research Center whitepaper (How Online Reviews Influence Sales): purchase likelihood rises with star rating but declines as ratings approach a perfect 5."
+      }
+     ]
+    },
+    "text_hash": "d62484f1760e0ac8ed8a72302d68a447c5258d52",
+    "at": "2026-10-31T10:23:02.479393+00:00"
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "The take's premise is wrong: The post's punchline, 'A few bad reviews are the only reviews nobody paid for' (premise 4), is false. People are paid to write fake negative reviews, and scammers use them to extort restaurants. The FTC's 2024 rule bans fake reviews meant to hurt competitors and bans paying for negative reviews as well as positive ones. In the documented Google extortion scam, waves of one-star reviews hit restaurants, often with no text or photos, from people who never ate there, followed by demands for gift cards. That also weakens premise 2: 'one-review account, no photo' marks fake one-star reviews as much as fake five-star ones, so it can't tell you which kind to trust. Premises 3 and 5, that honest 4.9s get skipped and that people read one-star reviews first, are plausible but I found no evidence for them specific to restaurants. The conclusion that the 1-star reviews are what you can trust doesn't follow, because those reviews can be fake too.. How it actually works: Shoppers already distrust perfect scores. Northwestern's Spiegel Research Center found that the likelihood of buying peaks at roughly 4.2 to 4.5 stars and falls as the average nears 5.0, because a few negative reviews make the overall score more believable. But both kinds of review can be faked. Fake praise inflates scores, and fake one-star attacks from rivals or extortionists drag them down. The FTC rule (16 CFR Part 465) bans fake or paid reviews in both directions, and Google now has a form for reporting review extortion. So a 4.2 with complaints you can check (specific dishes, recent dates, reviewers with a real history) deserves more trust than a 4.9 full of generic praise. A one-star review earns trust through those details, not by being negative. Rebuild the post on the correct mechanism.",
+    "Needs a stronger source: 'Reviews for restaurants can be bought, i.e. paid five-star reviews are available for sale on restaurant rating platforms.' (a primary source, or two independent major outlets).",
+    "Says more than the sources: 'Many users now trust a 4.2-star restaurant more than a 4.9-star restaurant.'. What's true: The research behind this is about products, not restaurants. Northwestern's Spiegel Research Center found purchase likelihood peaks at 4.2–4.5 stars and falls as the rating nears 5.0. A small ReviewInc steakhouse survey found a lower-rated steakhouse trusted about 2 to 1, but it was a vendor survey with an unclear sample. No source found shows that 'many users' trust a 4.2-star restaurant over a 4.9-star one. The 'now' framing is also wrong, since the finding dates from about 2017. The date is approximate because I did not open the full report to confirm the year. A safer line would be 'research suggests near-perfect ratings can lower purchase likelihood'.."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [
+     "No because (failure 5): the post never says why top scores are cheap or who gains from them. The topic's own because (paid reviews made top ratings cheap, so customers adjusted and honest flaws became the trust signal) never appears. Slide 5's \"A fake review wants something from you\" is a vague stand-in.",
+     "Dead slide (failure 7): slide 5 restates slide 4. Slide 4 already says fake praise and fake attacks both lack dish, date and history. Slide 5 then says \"you were hunting for details\", which is the same point in new words. Slide 6's second paragraph, \"That one bored, specific line is why you're eating at the 4.2 tonight\", replays slide 3's outcome."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 3,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 4/5: Merge them into one slide and use the freed slide for the missing because. Say plainly that a 4.9 is cheap to produce because someone with something to sell can pay for stars. That is why you stopped trusting it, and why a flaw nobody paid for is what reads as real. This is the topic's payoff and the post currently skips it.",
+     "slide 4: The wordless one-star is a good beat, but \"Praise can be faked, and so can an attack\" dilutes the topic's turn (complaints became proof). Make it a small concession, then push past it: some complaints are planted too, so you read for specifics. Keep the turn in focus: flaws are the one thing nobody pays to add.",
+     "slide 5: \"A fake review wants something from you, so it stays vague and loud\" is a motive stated as fact, and fakes can be specific. Soften it into what the reader does: you trust the line that costs the writer nothing and gains them nothing. Drop the claim about how fake reviews are written.",
+     "slide 6: Cut the repeat of slide 3's outcome. The bold line about the raita is strong, so end on it or on one sharper sting. The new ending could be a test the reader can run, or what happens once everyone starts faking flaws.",
+     "slide 1/cover: The sub \"it isn't the anger you're trusting\" gives away the answer that slides 4 and 5 later deliver. Keep the turn in the hook but save the \"details, not anger\" reveal for the late slides. Also check that the post's thesis (details) matches the topic's claim (bought perfection) so the cover promise is actually paid off."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "No because (failure 5): the post never says why top scores are cheap or who gains from them. The topic's own because (paid reviews made top ratings cheap, so customers adjusted and honest flaws became the trust signal) never appears. Slide 5's \"A fake review wants something from you\" is a vague stand-in.",
+    "Dead slide (failure 7): slide 5 restates slide 4. Slide 4 already says fake praise and fake attacks both lack dish, date and history. Slide 5 then says \"you were hunting for details\", which is the same point in new words. Slide 6's second paragraph, \"That one bored, specific line is why you're eating at the 4.2 tonight\", replays slide 3's outcome.",
+    "slide 4/5: Merge them into one slide and use the freed slide for the missing because. Say plainly that a 4.9 is cheap to produce because someone with something to sell can pay for stars. That is why you stopped trusting it, and why a flaw nobody paid for is what reads as real. This is the topic's payoff and the post currently skips it.",
+    "slide 4: The wordless one-star is a good beat, but \"Praise can be faked, and so can an attack\" dilutes the topic's turn (complaints became proof). Make it a small concession, then push past it: some complaints are planted too, so you read for specifics. Keep the turn in focus: flaws are the one thing nobody pays to add.",
+    "slide 5: \"A fake review wants something from you, so it stays vague and loud\" is a motive stated as fact, and fakes can be specific. Soften it into what the reader does: you trust the line that costs the writer nothing and gains them nothing. Drop the claim about how fake reviews are written.",
+    "slide 6: Cut the repeat of slide 3's outcome. The bold line about the raita is strong, so end on it or on one sharper sting. The new ending could be a test the reader can run, or what happens once everyone starts faking flaws.",
+    "slide 1/cover: The sub \"it isn't the anger you're trusting\" gives away the answer that slides 4 and 5 later deliver. Keep the turn in the hook but save the \"details, not anger\" reveal for the late slides. Also check that the post's thesis (details) matches the topic's claim (bought perfection) so the cover promise is actually paid off."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 6 is a dead slide. 'The 4.2 got your order because of a review its owner would delete if they could' repeats slide 4's point that a complaint is the one thing no owner would pay for. 'Anyone can buy stars' repeats slide 4's 'Anyone with something to sell can pay for stars'. The last slide adds no new beat."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 3,
+     "pull": 4,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 3,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 6: Cut or replace it. It says again what slide 4 already said. Give the reader a next step instead. One option is a test they can run on themselves: after you've picked the 4.2, you open the reviews of the place you'd picked before and can't unsee how clean they look. Another is what happens next: once owners know complaints earn trust, even the 'honest flaw' becomes something to manufacture.",
+     "slide 6 / slide 5: The closer 'Nobody bothers to make up the raita being warm' contradicts slide 5, which says complaints can be planted too. The raita detail also appears for the first time in the last line, so it isn't set up. Plant a small detail like it in slide 3 (for example the bill wait and the raita) so the last line pays off something the reader already saw. Drop the 'Anyone can buy stars. Nobody bothers...' mirrored pair.",
+     "slide 4: Cut 'Here's what changed.' It is a stock connector. Say it directly: a 4.9 costs money now, so a spotless wall started to read as bought. Merge the two sentences so the idea lands once, and keep the bold line about the complaint.",
+     "slide 5: This is the freshest beat, because it shows you don't trust every complaint, only the dull specific one that gets its writer nothing. Make it the spine of the post and trim the setup before it. Push it one step further: the reader is now judging the reviewer, not the restaurant. That is the angle people won't have put together yet.",
+     "slide 3: Strengthen the 'worse restaurant on paper' beat. Name what the reader is actually checking for (is anyone annoyed about something small and real?) in one concrete line, so slide 4 doesn't need to explain it again."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Slide 6 is a dead slide. 'The 4.2 got your order because of a review its owner would delete if they could' repeats slide 4's point that a complaint is the one thing no owner would pay for. 'Anyone can buy stars' repeats slide 4's 'Anyone with something to sell can pay for stars'. The last slide adds no new beat.",
+    "slide 6: Cut or replace it. It says again what slide 4 already said. Give the reader a next step instead. One option is a test they can run on themselves: after you've picked the 4.2, you open the reviews of the place you'd picked before and can't unsee how clean they look. Another is what happens next: once owners know complaints earn trust, even the 'honest flaw' becomes something to manufacture.",
+    "slide 6 / slide 5: The closer 'Nobody bothers to make up the raita being warm' contradicts slide 5, which says complaints can be planted too. The raita detail also appears for the first time in the last line, so it isn't set up. Plant a small detail like it in slide 3 (for example the bill wait and the raita) so the last line pays off something the reader already saw. Drop the 'Anyone can buy stars. Nobody bothers...' mirrored pair.",
+    "slide 4: Cut 'Here's what changed.' It is a stock connector. Say it directly: a 4.9 costs money now, so a spotless wall started to read as bought. Merge the two sentences so the idea lands once, and keep the bold line about the complaint.",
+    "slide 5: This is the freshest beat, because it shows you don't trust every complaint, only the dull specific one that gets its writer nothing. Make it the spine of the post and trim the setup before it. Push it one step further: the reader is now judging the reviewer, not the restaurant. That is the angle people won't have put together yet.",
+    "slide 3: Strengthen the 'worse restaurant on paper' beat. Name what the reader is actually checking for (is anyone annoyed about something small and real?) in one concrete line, so slide 4 doesn't need to explain it again."
+   ]
+  }
+ ],
+ "updated_at": "2026-10-31T10:24:44.674820+00:00",
+ "sources": [],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] You trust a [4.2-star restaurant] more than a 4.9 now\nThe angry reviews are why you picked it.\n \n\n[slide 1] You trust a 4.2-star restaurant more than a 4.9 now.\nSwipe to read →\n\n[slide 2] It's late on a Friday. Everyone in the group chat has typed \"anything is fine\", which means you're the one choosing.\nThe top result is a 4.9. The reviews are a wall of praise. \"Amazing ambience!! Must visit!!\" A lot of them come from accounts with one review and no photo.\n\n[slide 3] You close it and open the 4.2. Your thumb skips the good reviews and goes straight to the bottom.\n\n[slide 4] Cold paneer. Delivery took an hour. The staff argued about switching on the AC.\nYou check the date on the AC one, as if that settles anything. You're almost enjoying this.\nThen you order from there. On paper, you just picked the worse restaurant.\n\n[slide 5] But you didn't pick the worse food. You picked the score you could believe.\nPraise can be bought now, and everyone knows it. Once five stars are for sale, a perfect score stops telling you about the kitchen. To you, it starts to read like a marketing budget.\n\n[slide 6] Which is hard on one kind of place. Somewhere there's a 4.9 that earned every star. The cook tastes every gravy. The owner replies to every review.\nIt did nothing wrong, and it looks exactly like the fake one.\nSo you skip it too. The places that bought praise have dragged the honest ones down with them.\n\n[slide 7] A few bad reviews are the only reviews nobody paid for.\nWatch your thumb the next time you open a restaurant. It finds the one-star reviews before it finds the menu.\n\n[end card] Come back to it the next time a 4.9 looks too good to scroll past.\nSend it to the friend who reads only one-star reviews before any order.\n\n[caption] What's the one-star complaint that has actually made you trust a place more?\n\n[alt text] A six-slide carousel. The cover reads: You trust a 4.2-star restaurant more than a 4.9 now. The slides follow you choosing dinner late on a Friday after the group chat says 'anything is fine'. You skip a 4.9-rated place full of generic five-star reviews from accounts with one review. You open a 4.2 place, scroll straight to complaints about cold paneer, slow delivery and an argument over the AC, check the date on one, and order from there. Because praise can be bought, a perfect score now reads like a marketing budget. That also hurts honest 4.9 restaurants, which look just like the fake ones and get skipped too. It ends: A few bad reviews are the only reviews nobody paid for. Next time, your thumb finds the one-star reviews before the menu.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Reviews for restaurants can be bought, i.e. paid five-star reviews are available for sale on restaurant rating platforms.",
+     "sentence": "Praise can be bought now, and everyone knows it. Once five stars are for sale, a perfect score stops telling you about the kitchen.",
+     "type": "event",
+     "core": true,
+     "framed_as": "current"
+    },
+    {
+     "id": "c2",
+     "text": "Many users now trust a 4.2-star restaurant more than a 4.9-star restaurant.",
+     "sentence": "You trust a 4.2-star restaurant more than a 4.9 now.",
+     "type": "event",
+     "core": true,
+     "framed_as": "current"
+    },
+    {
+     "id": "c3",
+     "text": "Mechanism: because paid fake praise exists and is widely known, a near-perfect rating no longer signals food quality to users, so users trust a lower rating with visible negative reviews more, and honest high-rated restaurants are discounted along with fake ones.",
+     "sentence": "Once five stars are for sale, a perfect score stops telling you about the kitchen. To you, it starts to read like a marketing budget.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c4",
+     "text": "Fake or bought reviews on restaurant listings often come from accounts with only one review and no profile photo.",
+     "sentence": "A lot of them come from accounts with one review and no photo.",
+     "type": "mechanism",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c5",
+     "text": "Honest highly rated restaurants are being skipped by users because they look the same as restaurants with bought reviews, so places that bought praise have hurt the honest ones.",
+     "sentence": "The places that bought praise have dragged the honest ones down with them.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "current"
+    },
+    {
+     "id": "c6",
+     "text": "Bad reviews are the only reviews nobody paid for.",
+     "sentence": "A few bad reviews are the only reviews nobody paid for.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c7",
+     "text": "People tend to go to the one-star or negative reviews first when opening a restaurant listing, before the menu.",
+     "sentence": "It finds the one-star reviews before it finds the menu.",
+     "type": "mechanism",
+     "core": false,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "Reviews for restaurants can be bought, i.e. paid five-star reviews are available for sale on restaurant rating platforms.": {
+   "id": "c1",
+   "verdict": "supported",
+   "event_date": "2024-08-14",
+   "correct": "Fake reviews are sold. The FTC's final rule, announced 2024-08-14 and effective 2024-10-21, bans buying or selling fake reviews. Amazon and Google have also sued sellers of bulk fake reviews, such as BigBoostUp.com. The claim is true, but the FTC's rule was not aimed at restaurants specifically. Its first-ever date for paid reviews existing is much earlier, and I did not find that date.",
+   "sources": [
+    {
+     "url": "https://www.ftc.gov/news-events/news/press-releases/2024/08/federal-trade-commission-announces-final-rule-banning-fake-reviews-testimonials",
+     "publisher": "Federal Trade Commission",
+     "published_date": "2024-08-14",
+     "quote": "bans businesses from creating, buying or selling reviews and testimonials attributed to people who don't exist",
+     "tier": 1
+    },
+    {
+     "url": "https://techcrunch.com/2024/08/14/ftc-finalizes-rule-banning-fake-reviews",
+     "publisher": "TechCrunch",
+     "published_date": "2024-08-14",
+     "quote": "FTC finalizes rule banning fake reviews",
+     "tier": 2
+    }
+   ]
+  },
+  "Many users now trust a 4.2-star restaurant more than a 4.9-star restaurant.": {
+   "id": "c2",
+   "verdict": "misframed",
+   "event_date": "2017-01-01",
+   "correct": "The research behind this is about products, not restaurants. Northwestern's Spiegel Research Center found purchase likelihood peaks at 4.2–4.5 stars and falls as the rating nears 5.0. A small ReviewInc steakhouse survey found a lower-rated steakhouse trusted about 2 to 1, but it was a vendor survey with an unclear sample. No source found shows that 'many users' trust a 4.2-star restaurant over a 4.9-star one. The 'now' framing is also wrong, since the finding dates from about 2017. The date is approximate because I did not open the full report to confirm the year. A safer line would be 'research suggests near-perfect ratings can lower purchase likelihood'.",
+   "sources": [
+    {
+     "url": "https://spiegel.medill.northwestern.edu/wp-content/uploads/sites/2/2021/04/Online-Reviews-Whitepaper.pdf",
+     "publisher": "Northwestern University Spiegel Research Center",
+     "published_date": "2017-01-01",
+     "quote": "Purchase likelihood then peaks when the average star rating of a product is between 4.2 and 4.5 stars and starts to drop as the star rating approaches a perfect 5.",
+     "tier": 1
+    },
+    {
+     "url": "https://www.retailtouchpoints.com/topics/customer-experience/purchase-likelihood-highest-for-products-rated-between-4-2-and-4-5-out-of-5-stars",
+     "publisher": "Retail TouchPoints",
+     "published_date": "2017-01-01",
+     "quote": "Purchase Likelihood Highest For Products Rated Between 4.2 And 4.5 Out Of 5 Stars",
+     "tier": 2
+    }
+   ]
+  },
+  "_skeptic": {
+   "0c5c6d8b79d803fd76ef0a14769e186f1ce6d1c7": {
+    "holds": false,
+    "broken_premise": "The post's punchline, 'A few bad reviews are the only reviews nobody paid for' (premise 4), is false. People are paid to write fake negative reviews, and scammers use them to extort restaurants. The FTC's 2024 rule bans fake reviews meant to hurt competitors and bans paying for negative reviews as well as positive ones. In the documented Google extortion scam, waves of one-star reviews hit restaurants, often with no text or photos, from people who never ate there, followed by demands for gift cards. That also weakens premise 2: 'one-review account, no photo' marks fake one-star reviews as much as fake five-star ones, so it can't tell you which kind to trust. Premises 3 and 5, that honest 4.9s get skipped and that people read one-star reviews first, are plausible but I found no evidence for them specific to restaurants. The conclusion that the 1-star reviews are what you can trust doesn't follow, because those reviews can be fake too.",
+    "actual_mechanism": "Shoppers already distrust perfect scores. Northwestern's Spiegel Research Center found that the likelihood of buying peaks at roughly 4.2 to 4.5 stars and falls as the average nears 5.0, because a few negative reviews make the overall score more believable. But both kinds of review can be faked. Fake praise inflates scores, and fake one-star attacks from rivals or extortionists drag them down. The FTC rule (16 CFR Part 465) bans fake or paid reviews in both directions, and Google now has a form for reporting review extortion. So a 4.2 with complaints you can check (specific dishes, recent dates, reviewers with a real history) deserves more trust than a 4.9 full of generic praise. A one-star review earns trust through those details, not by being negative.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.consumerfinancemonitor.com/2024/08/20/ftc-issues-final-rule-to-fight-fake-product-reviews/",
+      "published_date": "2024-08-20",
+      "quote": "The Final Rule forbids businesses from creating, buying, selling or disseminating fake or false reviews or testimonials — including fabricating positive reviews for its own products, as well as negative reviews intended to harm competitors... prohibits businesses from providing compensation or other incentives for the writing of positive or negative reviews."
+     },
+     {
+      "url": "https://www.engadget.com/restaurant-scam-google-reviews-one-star-extortion-190651006.html",
+      "published_date": "2022-07",
+      "quote": "Those hit with the scam claimed that a raft of negative one-star reviews appeared on Google, with neither description nor photos, by people who hadn't eaten at the restaurant."
+     },
+     {
+      "url": "https://www.inquirer.com/food/restaurants/fake-google-reviews-philadelphia-restaurants-20251104.html",
+      "published_date": "2025-11-04",
+      "quote": "Google removed dozens of bogus one-star reviews from the pages of eight Philadelphia restaurants on Tuesday, hours after The Inquirer published an article about the scam."
+     },
+     {
+      "url": "https://restauranttechnologynews.com/2025/12/what-googles-new-merchant-extortion-tool-means-for-restaurant-operators/",
+      "published_date": "2025-12",
+      "quote": "allows restaurants and other merchants to report not just the fake reviews but the extortion attempt itself."
+     },
+     {
+      "url": "https://www.retailtouchpoints.com/topics/customer-experience/purchase-likelihood-highest-for-products-rated-between-4-2-and-4-5-out-of-5-stars",
+      "published_date": "2015",
+      "quote": "purchase likelihood then peaks when the average star rating of a product is between 4.2 and 4.5 stars and starts to drop as the star rating approaches a perfect 5."
+     },
+     {
+      "url": "https://spiegel.medill.northwestern.edu/wp-content/uploads/sites/2/2021/04/Online-Reviews-Whitepaper.pdf",
+      "published_date": "2017",
+      "quote": "Spiegel Research Center whitepaper (How Online Reviews Influence Sales): purchase likelihood rises with star rating but declines as ratings approach a perfect 5."
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "d62484f1760e0ac8ed8a72302d68a447c5258d52": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "The take's premise is wrong: The post's punchline, 'A few bad reviews are the only reviews nobody paid for' (premise 4), is false. People are paid to write fake negative reviews, and scammers use them to extort restaurants. The FTC's 2024 rule bans fake reviews meant to hurt competitors and bans paying for negative reviews as well as positive ones. In the documented Google extortion scam, waves of one-star reviews hit restaurants, often with no text or photos, from people who never ate there, followed by demands for gift cards. That also weakens premise 2: 'one-review account, no photo' marks fake one-star reviews as much as fake five-star ones, so it can't tell you which kind to trust. Premises 3 and 5, that honest 4.9s get skipped and that people read one-star reviews first, are plausible but I found no evidence for them specific to restaurants. The conclusion that the 1-star reviews are what you can trust doesn't follow, because those reviews can be fake too.. How it actually works: Shoppers already distrust perfect scores. Northwestern's Spiegel Research Center found that the likelihood of buying peaks at roughly 4.2 to 4.5 stars and falls as the average nears 5.0, because a few negative reviews make the overall score more believable. But both kinds of review can be faked. Fake praise inflates scores, and fake one-star attacks from rivals or extortionists drag them down. The FTC rule (16 CFR Part 465) bans fake or paid reviews in both directions, and Google now has a form for reporting review extortion. So a 4.2 with complaints you can check (specific dishes, recent dates, reviewers with a real history) deserves more trust than a 4.9 full of generic praise. A one-star review earns trust through those details, not by being negative. Rebuild the post on the correct mechanism.",
+     "Needs a stronger source: 'Reviews for restaurants can be bought, i.e. paid five-star reviews are available for sale on restaurant rating platforms.' (a primary source, or two independent major outlets).",
+     "Says more than the sources: 'Many users now trust a 4.2-star restaurant more than a 4.9-star restaurant.'. What's true: The research behind this is about products, not restaurants. Northwestern's Spiegel Research Center found purchase likelihood peaks at 4.2–4.5 stars and falls as the rating nears 5.0. A small ReviewInc steakhouse survey found a lower-rated steakhouse trusted about 2 to 1, but it was a vendor survey with an unclear sample. No source found shows that 'many users' trust a 4.2-star restaurant over a 4.9-star one. The 'now' framing is also wrong, since the finding dates from about 2017. The date is approximate because I did not open the full report to confirm the year. A safer line would be 'research suggests near-perfect ratings can lower purchase likelihood'.."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Reviews for restaurants can be bought, i.e. paid five-star reviews are available for sale on restaurant rating platforms.",
+      "sentence": "Praise can be bought now, and everyone knows it. Once five stars are for sale, a perfect score stops telling you about the kitchen.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c2",
+      "text": "Many users now trust a 4.2-star restaurant more than a 4.9-star restaurant.",
+      "sentence": "You trust a 4.2-star restaurant more than a 4.9 now.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c3",
+      "text": "Mechanism: because paid fake praise exists and is widely known, a near-perfect rating no longer signals food quality to users, so users trust a lower rating with visible negative reviews more, and honest high-rated restaurants are discounted along with fake ones.",
+      "sentence": "Once five stars are for sale, a perfect score stops telling you about the kitchen. To you, it starts to read like a marketing budget.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Fake or bought reviews on restaurant listings often come from accounts with only one review and no profile photo.",
+      "sentence": "A lot of them come from accounts with one review and no photo.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Honest highly rated restaurants are being skipped by users because they look the same as restaurants with bought reviews, so places that bought praise have hurt the honest ones.",
+      "sentence": "The places that bought praise have dragged the honest ones down with them.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c6",
+      "text": "Bad reviews are the only reviews nobody paid for.",
+      "sentence": "A few bad reviews are the only reviews nobody paid for.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "People tend to go to the one-star or negative reviews first when opening a restaurant listing, before the menu.",
+      "sentence": "It finds the one-star reviews before it finds the menu.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2024-08-14",
+      "correct": "Fake reviews are sold. The FTC's final rule, announced 2024-08-14 and effective 2024-10-21, bans buying or selling fake reviews. Amazon and Google have also sued sellers of bulk fake reviews, such as BigBoostUp.com. The claim is true, but the FTC's rule was not aimed at restaurants specifically. Its first-ever date for paid reviews existing is much earlier, and I did not find that date.",
+      "sources": [
+       {
+        "url": "https://www.ftc.gov/news-events/news/press-releases/2024/08/federal-trade-commission-announces-final-rule-banning-fake-reviews-testimonials",
+        "publisher": "Federal Trade Commission",
+        "published_date": "2024-08-14",
+        "quote": "bans businesses from creating, buying or selling reviews and testimonials attributed to people who don't exist",
+        "tier": 1
+       },
+       {
+        "url": "https://techcrunch.com/2024/08/14/ftc-finalizes-rule-banning-fake-reviews",
+        "publisher": "TechCrunch",
+        "published_date": "2024-08-14",
+        "quote": "FTC finalizes rule banning fake reviews",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "misframed",
+      "event_date": "2017-01-01",
+      "correct": "The research behind this is about products, not restaurants. Northwestern's Spiegel Research Center found purchase likelihood peaks at 4.2–4.5 stars and falls as the rating nears 5.0. A small ReviewInc steakhouse survey found a lower-rated steakhouse trusted about 2 to 1, but it was a vendor survey with an unclear sample. No source found shows that 'many users' trust a 4.2-star restaurant over a 4.9-star one. The 'now' framing is also wrong, since the finding dates from about 2017. The date is approximate because I did not open the full report to confirm the year. A safer line would be 'research suggests near-perfect ratings can lower purchase likelihood'.",
+      "sources": [
+       {
+        "url": "https://spiegel.medill.northwestern.edu/wp-content/uploads/sites/2/2021/04/Online-Reviews-Whitepaper.pdf",
+        "publisher": "Northwestern University Spiegel Research Center",
+        "published_date": "2017-01-01",
+        "quote": "Purchase likelihood then peaks when the average star rating of a product is between 4.2 and 4.5 stars and starts to drop as the star rating approaches a perfect 5.",
+        "tier": 1
+       },
+       {
+        "url": "https://www.retailtouchpoints.com/topics/customer-experience/purchase-likelihood-highest-for-products-rated-between-4-2-and-4-5-out-of-5-stars",
+        "publisher": "Retail TouchPoints",
+        "published_date": "2017-01-01",
+        "quote": "Purchase Likelihood Highest For Products Rated Between 4.2 And 4.5 Out Of 5 Stars",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "The post's punchline, 'A few bad reviews are the only reviews nobody paid for' (premise 4), is false. People are paid to write fake negative reviews, and scammers use them to extort restaurants. The FTC's 2024 rule bans fake reviews meant to hurt competitors and bans paying for negative reviews as well as positive ones. In the documented Google extortion scam, waves of one-star reviews hit restaurants, often with no text or photos, from people who never ate there, followed by demands for gift cards. That also weakens premise 2: 'one-review account, no photo' marks fake one-star reviews as much as fake five-star ones, so it can't tell you which kind to trust. Premises 3 and 5, that honest 4.9s get skipped and that people read one-star reviews first, are plausible but I found no evidence for them specific to restaurants. The conclusion that the 1-star reviews are what you can trust doesn't follow, because those reviews can be fake too.",
+     "actual_mechanism": "Shoppers already distrust perfect scores. Northwestern's Spiegel Research Center found that the likelihood of buying peaks at roughly 4.2 to 4.5 stars and falls as the average nears 5.0, because a few negative reviews make the overall score more believable. But both kinds of review can be faked. Fake praise inflates scores, and fake one-star attacks from rivals or extortionists drag them down. The FTC rule (16 CFR Part 465) bans fake or paid reviews in both directions, and Google now has a form for reporting review extortion. So a 4.2 with complaints you can check (specific dishes, recent dates, reviewers with a real history) deserves more trust than a 4.9 full of generic praise. A one-star review earns trust through those details, not by being negative.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.consumerfinancemonitor.com/2024/08/20/ftc-issues-final-rule-to-fight-fake-product-reviews/",
+       "published_date": "2024-08-20",
+       "quote": "The Final Rule forbids businesses from creating, buying, selling or disseminating fake or false reviews or testimonials — including fabricating positive reviews for its own products, as well as negative reviews intended to harm competitors... prohibits businesses from providing compensation or other incentives for the writing of positive or negative reviews."
+      },
+      {
+       "url": "https://www.engadget.com/restaurant-scam-google-reviews-one-star-extortion-190651006.html",
+       "published_date": "2022-07",
+       "quote": "Those hit with the scam claimed that a raft of negative one-star reviews appeared on Google, with neither description nor photos, by people who hadn't eaten at the restaurant."
+      },
+      {
+       "url": "https://www.inquirer.com/food/restaurants/fake-google-reviews-philadelphia-restaurants-20251104.html",
+       "published_date": "2025-11-04",
+       "quote": "Google removed dozens of bogus one-star reviews from the pages of eight Philadelphia restaurants on Tuesday, hours after The Inquirer published an article about the scam."
+      },
+      {
+       "url": "https://restauranttechnologynews.com/2025/12/what-googles-new-merchant-extortion-tool-means-for-restaurant-operators/",
+       "published_date": "2025-12",
+       "quote": "allows restaurants and other merchants to report not just the fake reviews but the extortion attempt itself."
+      },
+      {
+       "url": "https://www.retailtouchpoints.com/topics/customer-experience/purchase-likelihood-highest-for-products-rated-between-4-2-and-4-5-out-of-5-stars",
+       "published_date": "2015",
+       "quote": "purchase likelihood then peaks when the average star rating of a product is between 4.2 and 4.5 stars and starts to drop as the star rating approaches a perfect 5."
+      },
+      {
+       "url": "https://spiegel.medill.northwestern.edu/wp-content/uploads/sites/2/2021/04/Online-Reviews-Whitepaper.pdf",
+       "published_date": "2017",
+       "quote": "Spiegel Research Center whitepaper (How Online Reviews Influence Sales): purchase likelihood rises with star rating but declines as ratings approach a perfect 5."
+      }
+     ]
+    },
+    "text_hash": "d62484f1760e0ac8ed8a72302d68a447c5258d52",
+    "at": "2026-10-31T10:23:02.479393+00:00"
+   }
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "You trust a [4.2 with complaints] more than a perfect 4.9",
+   "sub": "The perfect score is the one that makes you nervous."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "You trust a 4.2 with complaints more than a perfect 4.9.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "Why would anyone pick the lower rating on purpose?"
+   },
+   {
+    "paragraphs": [
+     "It's late on a Friday. Everyone in the group chat has typed \"anything is fine\", which means you're the one choosing.",
+     "The top result is a 4.9. A wall of \"Amazing ambience!! Must visit!!\" Not one review names a single dish."
+    ],
+    "why_swipe": "So what do you do with the perfect score?"
+   },
+   {
+    "paragraphs": [
+     "You close it and open the 4.2. Your thumb skips the praise and goes straight to the bottom.",
+     "\"Dal makhani too salty on Sunday.\" \"Waited 25 minutes for the bill.\"",
+     "You order from there. On paper, you just picked the worse restaurant."
+    ],
+    "why_swipe": "Why did the perfect score lose?"
+   },
+   {
+    "paragraphs": [
+     "Here's what changed. A 4.9 is cheap to make now. Anyone with something to sell can pay for stars.",
+     "You've seen enough of those spotless walls that perfect stopped meaning good. It started meaning bought.",
+     "**A complaint is the one thing no owner would ever pay for.**"
+    ],
+    "why_swipe": "So does every complaint count?"
+   },
+   {
+    "paragraphs": [
+     "Not quite. A one-star with no words, from an account that has reviewed nothing else, gets scrolled past as fast as the praise. Complaints can be planted too.",
+     "So you trust the line that gets its writer nothing. A dull note about a slow bill, from someone with forty reviews and a photo of the receipt."
+    ],
+    "why_swipe": "So what's the review that wins you over?"
+   },
+   {
+    "paragraphs": [
+     "The 4.2 got your order because of a review its owner would delete if they could.",
+     "**Anyone can buy stars. Nobody bothers to make up the raita being warm.**"
+    ]
+   }
+  ],
+  "end": {
+   "save": "Come back to it the next time a 4.9 looks too good to scroll past.",
+   "send": "Send it to the friend who reads only one-star reviews before any order.",
+   "promise": "Why you buy the way you buy."
+  },
+  "caption": "What's the oddly specific complaint that made you trust a place more?",
+  "hashtags": [
+   "#OnlineReviews",
+   "#FakeReviews",
+   "#FoodDeliveryIndia",
+   "#ConsumerBehaviour"
+  ],
+  "alt_text": "A six-slide carousel. The cover reads: You trust a 4.2 with complaints more than a perfect 4.9. The slides follow you choosing dinner late on a Friday after the group chat says 'anything is fine'. You skip a 4.9-rated place full of vague praise that never names a dish. You open a 4.2 place, go straight to the complaints about salty dal makhani and a slow bill, and order there. The post explains that a 4.9 is cheap to make because anyone with something to sell can pay for stars, so perfect started to mean bought. A complaint is the one thing no owner would pay for. Some complaints are planted too, so you skip a wordless one-star from a new account and trust the dull, specific line from a regular reviewer with a receipt photo. It ends: The 4.2 got your order because of a review its owner would delete if they could. Anyone can buy stars. Nobody bothers to make up the raita being warm.",
+  "claims": []
+ }
 }

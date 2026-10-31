@@ -1,6 +1,6 @@
 {
  "id": "2026-11-88",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-03T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -81,6 +81,775 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-10-30T11:06:32.154052+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 4: \"thicker cardboard divider\" and the caption \"the cardboard divider is the only thing that grew this year\" state a product detail as fact. Neither the sources nor the topic's proof contain it.",
+     "Slide 4: \"last year's budget, signed off in a spreadsheet months ago\" states a hidden-budget mechanism as fact. The sources only say companies work within fixed budgets and are cutting basket weights."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "Slide 4 and caption: Drop the invented divider. Say plainly that the cut goes where nobody looks, as the sources support (reduced basket weight, cheaper items swapped in). Rewrite the caption on something sourced, like the sweet shop saying the price at the counter while the box stays silent.",
+     "Slide 4: Remove the \"spreadsheet signed off months ago\" detail. Use only the sourced fact that companies are working within fixed budgets. Then state the because clearly in a line or two: the buyer can't raise the budget, and the receiver judges the box by how it looks when it is handed over, so the cut goes into the part nobody checks. Also fix the awkward \"What they can't touch is the moment it's handed to you\".",
+     "Slide 5: Its first line (\"A smaller box you'd spot from across the floor...\") repeats slide 4's mechanism. Cut it. Keep only the new beat, the \"thank you for the lovely gift 🙏\" in the team group, and sharpen it so it adds a sting instead of restating the idea.",
+     "Slide 6: The test doesn't work as written. You never weighed last year's box, so weighing next year's tells you nothing. Change it to something runnable, such as weighing this one now and writing the number on the card to compare next Diwali. Also cut \"Nobody does, which is exactly why weight goes first\", because slides 4 and 5 already say it.",
+     "Slide 2: It's good and relatable, but slide 3's pistachio price line leans on a number. Keep that one figure and avoid adding a second. Make sure slide 3's \"Dry fruit prices doubled\" echo in the cover doesn't overclaim: the source says pistachios and dates doubled, and cashews stayed competitive."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Slide 4: \"thicker cardboard divider\" and the caption \"the cardboard divider is the only thing that grew this year\" state a product detail as fact. Neither the sources nor the topic's proof contain it.",
+    "Slide 4: \"last year's budget, signed off in a spreadsheet months ago\" states a hidden-budget mechanism as fact. The sources only say companies work within fixed budgets and are cutting basket weights.",
+    "Slide 4 and caption: Drop the invented divider. Say plainly that the cut goes where nobody looks, as the sources support (reduced basket weight, cheaper items swapped in). Rewrite the caption on something sourced, like the sweet shop saying the price at the counter while the box stays silent.",
+    "Slide 4: Remove the \"spreadsheet signed off months ago\" detail. Use only the sourced fact that companies are working within fixed budgets. Then state the because clearly in a line or two: the buyer can't raise the budget, and the receiver judges the box by how it looks when it is handed over, so the cut goes into the part nobody checks. Also fix the awkward \"What they can't touch is the moment it's handed to you\".",
+    "Slide 5: Its first line (\"A smaller box you'd spot from across the floor...\") repeats slide 4's mechanism. Cut it. Keep only the new beat, the \"thank you for the lovely gift 🙏\" in the team group, and sharpen it so it adds a sting instead of restating the idea.",
+    "Slide 6: The test doesn't work as written. You never weighed last year's box, so weighing next year's tells you nothing. Change it to something runnable, such as weighing this one now and writing the number on the card to compare next Diwali. Also cut \"Nobody does, which is exactly why weight goes first\", because slides 4 and 5 already say it.",
+    "Slide 2: It's good and relatable, but slide 3's pistachio price line leans on a number. Keep that one figure and avoid adding a second. Make sure slide 3's \"Dry fruit prices doubled\" echo in the cover doesn't overclaim: the source says pistachios and dates doubled, and cashews stayed competitive."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "slide 2 vs slide 4: slide 2 says your wrist notices the box is lighter, but slide 4 says nobody checks. Make them agree: you feel it for a second, shrug and blame your own memory, and nobody ever weighs it. That gives the reader a sharper 'this is me' beat.",
+     "slide 4: it opens with 'But', which follows the expectation in slide 3 awkwardly. Say outright that the cost went into the contents because the buyer's budget is fixed and the receiver judges by look. Also keep 'the mithai shop at least tells you' to one short line, since the caption repeats it.",
+     "slide 5: this is the weakest slide. The thank-you in the group chat shows why nobody complains, but it partly restates 'nobody checks'. Sharpen it into one new beat, such as you thanking them even though you noticed. Cut or soften 'the person who picked the pumpkin seeds', because it implies a culprit in the chat.",
+     "slide 6: 'The scale won't' states as fact that next year's box will weigh less. Soften it to a test you can run, such as 'next year, weigh it again', and don't promise the result. Also make 'write the number on the back of the card' feel like a dry joke, not an instruction."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Says more than the sources: 'Pistachio prices have doubled.'. What's true: Only one outlet, the Free Press Journal, reports a doubling, and that is for Mumbai wholesale/gifting pistachios against last Diwali. Economic Times (via FreshPlaza, 7 Oct 2026) reports in-shell pistachios up 60-74% year on year, not double. Telangana Today (25 Oct 2026) gives Hyderabad prices of about Rs 3,000-3,500/kg and does not report a doubling. A flat 'pistachio prices have doubled' is too broad. A safer wording is 'by one Mumbai trader account, pistachio prices roughly doubled from last Diwali', or 'up 60-70% or more'..",
+     "Says more than the sources: 'Wholesale pistachio prices went from Rs 900 a kilo to Rs 1,800 a kilo this year.'. What's true: The Free Press Journal says Rs 900 was the price 'last Diwali' and Rs 1,800 is the price now, and it calls these indicative trader prices. The claim says 'this year', which is not what the source says. The baseline is last Diwali (2025), not the start of this year. No second source confirms Rs 900 to Rs 1,800. ET/FreshPlaza gives wholesale in-shell at Rs 1,650/kg, up about 74% year on year. A 2025 Gujarat report put pistachios at Rs 1,050-1,200/kg, which conflicts with the Rs 900 baseline. The claim should be attributed to a Mumbai trader report and say 'since last Diwali'..",
+     "Could not verify: 'Mithai shops tell customers the new rate at the counter when prices rise.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Next year's gift box will look the same as this year's but weigh less.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Pistachio prices have doubled.",
+      "sentence": "Pistachio prices doubled.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c2",
+      "text": "Wholesale pistachio prices went from Rs 900 a kilo to Rs 1,800 a kilo this year.",
+      "sentence": "Wholesale pistachios went from Rs 900 a kilo to Rs 1,800 this year.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c3",
+      "text": "Rs 1,800 is double Rs 900, so the stated wholesale pistachio price change is a doubling.",
+      "sentence": "Wholesale pistachios went from Rs 900 a kilo to Rs 1,800 this year.",
+      "type": "arithmetic",
+      "core": false,
+      "framed_as": "current",
+      "expr": "1800/900",
+      "stated": "2"
+     },
+     {
+      "id": "c4",
+      "text": "Companies that buy corporate Diwali gift boxes have responded to higher pistachio prices by putting less or cheaper contents (such as pumpkin seeds instead of pistachios) in boxes of the same outward appearance.",
+      "sentence": "Where the pistachios used to sit, there's a neat row of pumpkin seeds",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c5",
+      "text": "Whoever orders corporate gift boxes works within a fixed budget that cannot be stretched.",
+      "sentence": "whoever orders the boxes is working within a fixed budget. They can't stretch it.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Mechanism: because the buyer's budget is fixed, pistachio prices have doubled, and recipients judge the box by its look on arrival, buyers cut the contents inside rather than change the box's look or price.",
+      "sentence": "So the cut goes inside, where nobody checks.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "Mithai shops tell customers the new rate at the counter when prices rise.",
+      "sentence": "The mithai shop at least tells you the new rate at the counter.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c8",
+      "text": "Next year's gift box will look the same as this year's but weigh less.",
+      "sentence": "Next Diwali the box will look exactly the same. The scale won't.",
+      "type": "event",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "misframed",
+      "event_date": "2026-10-22",
+      "correct": "Only one outlet, the Free Press Journal, reports a doubling, and that is for Mumbai wholesale/gifting pistachios against last Diwali. Economic Times (via FreshPlaza, 7 Oct 2026) reports in-shell pistachios up 60-74% year on year, not double. Telangana Today (25 Oct 2026) gives Hyderabad prices of about Rs 3,000-3,500/kg and does not report a doubling. A flat 'pistachio prices have doubled' is too broad. A safer wording is 'by one Mumbai trader account, pistachio prices roughly doubled from last Diwali', or 'up 60-70% or more'.",
+      "sources": [
+       {
+        "url": "https://www.freepressjournal.in/mumbai/diwali-2026-pistachio-and-date-prices-double-making-festive-gifting-costlier-in-mumbai",
+        "publisher": "Free Press Journal",
+        "published_date": "2026-10-23",
+        "quote": "Pistachios, which were selling at around Rs 900 per kg last Diwali, now cost Rs 1,800 per kg.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.freshplaza.com/asia/article/9880647/nut-and-dry-fruit-prices-rise-up-to-70-in-india-during-festive-season/",
+        "publisher": "FreshPlaza (citing Economic Times)",
+        "published_date": "2026-10-07",
+        "quote": "In-shell pistachio prices are 60-70% higher than last Diwali",
+        "tier": 2
+       },
+       {
+        "url": "https://telanganatoday.com/diwali-sweet-prices-leave-bigger-hole-in-families-budgets",
+        "publisher": "Telangana Today",
+        "published_date": "2026-10-25",
+        "quote": "About Rs 3,000 per kg, with premium varieties around Rs 3,500 per kg",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "misframed",
+      "event_date": "2026-10-22",
+      "correct": "The Free Press Journal says Rs 900 was the price 'last Diwali' and Rs 1,800 is the price now, and it calls these indicative trader prices. The claim says 'this year', which is not what the source says. The baseline is last Diwali (2025), not the start of this year. No second source confirms Rs 900 to Rs 1,800. ET/FreshPlaza gives wholesale in-shell at Rs 1,650/kg, up about 74% year on year. A 2025 Gujarat report put pistachios at Rs 1,050-1,200/kg, which conflicts with the Rs 900 baseline. The claim should be attributed to a Mumbai trader report and say 'since last Diwali'.",
+      "sources": [
+       {
+        "url": "https://www.freepressjournal.in/mumbai/diwali-2026-pistachio-and-date-prices-double-making-festive-gifting-costlier-in-mumbai",
+        "publisher": "Free Press Journal",
+        "published_date": "2026-10-23",
+        "quote": "Pistachios, which were selling at around Rs 900 per kg last Diwali, now cost Rs 1,800 per kg.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.freshplaza.com/asia/article/9880647/nut-and-dry-fruit-prices-rise-up-to-70-in-india-during-festive-season/",
+        "publisher": "FreshPlaza (citing Economic Times)",
+        "published_date": "2026-10-07",
+        "quote": "Wholesale in-shell pistachios are US$18.37/kg, based on ₹1,650/kg.",
+        "tier": 2
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "unverifiable",
+      "correct": "No source I found says mithai shops tell customers the new rate at the counter. Telangana Today quotes a sweet-shop manager saying costs are passed on to customers, and that is all it says on the point. The claim is a generalisation with no support.",
+      "sources": [
+       {
+        "url": "https://telanganatoday.com/diwali-sweet-prices-leave-bigger-hole-in-families-budgets",
+        "publisher": "Telangana Today",
+        "published_date": "2026-10-25",
+        "quote": "We have no option but to pass on the increased costs to customers.",
+        "tier": 2
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "unverifiable",
+      "correct": "This is a prediction about next year's gift box, and no source supports it. The Free Press Journal reports only that corporate buyers are cutting basket weights or quantities this year, and it says nothing about next year or about boxes looking the same. Rewrite it as something already reported, such as 'some corporate buyers are cutting basket weights this year'.",
+      "sources": [
+       {
+        "url": "https://www.freepressjournal.in/mumbai/diwali-2026-pistachio-and-date-prices-double-making-festive-gifting-costlier-in-mumbai",
+        "publisher": "Free Press Journal",
+        "published_date": "2026-10-23",
+        "quote": "corporate companies are reducing gift basket quantities and considering seeds as more affordable alternatives",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None fails outright, but two are overstated. (1) The price rise: the Rs 900 to Rs 1,800/kg figure matches the Free Press Journal's Mumbai trader quote, but ANI/ETV Bharat put the national rise at 60–70% (in-shell wholesale up about 74%). 'Doubled' is the top of the range, not a universal figure. (2) The budget: the reporting says 'most companies' work within fixed budgets. It does not say budgets cannot be stretched, and the same report says buyers are negotiating packages. The 'nobody checks' framing is also off. The buyer knowingly picks a lighter or seed-heavy hamper from the vendor, and retail pre-packaged boxes must state net weight on the label under the Legal Metrology (Packaged Commodities) Rules, 2011. Only the recipient doesn't see it. Custom or bulk corporate hampers may fall outside the retail labelling rules (I could not confirm that).",
+     "actual_mechanism": "Import disruption from Iran and Afghanistan (the US-Iran war), higher freight costs and a weaker rupee pushed Indian pistachio prices up roughly 60–100% before Diwali 2026. Most corporate gifting budgets are set per head, so buyers negotiate with hamper vendors. They take lighter baskets, swap costly nuts for cheaper items, and demand for seeds as gifting items is up about 30%. They do this rather than raise spend, so the per-unit price stays at the usual Rs 500–1,000 team tier while the grams of premium nuts fall. The cut is a deliberate, visible choice between buyer and vendor. It only looks hidden from the employee who receives the box.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.freepressjournal.in/amp/mumbai/diwali-2026-pistachio-and-date-prices-double-making-festive-gifting-costlier-in-mumbai",
+       "published_date": "2026-10-22",
+       "quote": "pistachios ... now cost Rs 1,800 per kg [about Rs 900 last Diwali]; companies are reducing the weight of gift baskets ... replacing expensive varieties with more affordable options; demand for seeds as gifting items has risen by around 30%; most companies working within fixed budgets"
+      },
+      {
+       "url": "https://www.etvbharat.com/en/business/almonds-pistachios-turn-costlier-why-are-dry-fruit-prices-rising-in-india-enn26100903247",
+       "published_date": "2026-10-09",
+       "quote": "Prices of in-shell pistachio have risen by 60-70% since Diwali 2025 ... Wholesale in-shell pistachio prices soared nearly 74% year-on-year ... The US-Iran war has impacted the imports of nuts and dry fruits from Tehran and Afghanistan."
+      },
+      {
+       "url": "https://www.equitypandit.com/dry-fruit-prices-rise-ahead-of-diwali/",
+       "published_date": "2026-10",
+       "quote": "Supplies from Iran and Afghanistan have been affected, while higher freight charges have increased the cost of bringing products to India."
+      },
+      {
+       "url": "https://themintbox.in/diwali-corporate-gifts",
+       "published_date": "2026",
+       "quote": "Corporate Diwali hampers and gift boxes ₹280–₹11,720 per unit ex GST; team tier ₹500–₹1,000 per unit"
+      },
+      {
+       "url": "https://blog.ipleaders.in/legal-metrology-packaged-commodities-rules-2011/",
+       "published_date": "unknown",
+       "quote": "Rule 6(1): every package shall bear a definite, plain and conspicuous declaration ... (c) the net quantity, in terms of standard unit of weight or measure or in number"
+      }
+     ]
+    },
+    "text_hash": "b2d7585e01784780a32cecb24ebdc96d3249168c",
+    "at": "2026-10-31T10:24:07.510723+00:00"
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Says more than the sources: 'Pistachio prices have doubled.'. What's true: Only one outlet, the Free Press Journal, reports a doubling, and that is for Mumbai wholesale/gifting pistachios against last Diwali. Economic Times (via FreshPlaza, 7 Oct 2026) reports in-shell pistachios up 60-74% year on year, not double. Telangana Today (25 Oct 2026) gives Hyderabad prices of about Rs 3,000-3,500/kg and does not report a doubling. A flat 'pistachio prices have doubled' is too broad. A safer wording is 'by one Mumbai trader account, pistachio prices roughly doubled from last Diwali', or 'up 60-70% or more'..",
+    "Says more than the sources: 'Wholesale pistachio prices went from Rs 900 a kilo to Rs 1,800 a kilo this year.'. What's true: The Free Press Journal says Rs 900 was the price 'last Diwali' and Rs 1,800 is the price now, and it calls these indicative trader prices. The claim says 'this year', which is not what the source says. The baseline is last Diwali (2025), not the start of this year. No second source confirms Rs 900 to Rs 1,800. ET/FreshPlaza gives wholesale in-shell at Rs 1,650/kg, up about 74% year on year. A 2025 Gujarat report put pistachios at Rs 1,050-1,200/kg, which conflicts with the Rs 900 baseline. The claim should be attributed to a Mumbai trader report and say 'since last Diwali'..",
+    "Could not verify: 'Mithai shops tell customers the new rate at the counter when prices rise.'. Cut it, or state it only if a source says it.",
+    "Could not verify: 'Next year's gift box will look the same as this year's but weigh less.'. Cut it, or state it only if a source says it."
+   ]
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "'Nobody' appears more than once; it's the account's most repeated tic. Keep at most one."
+   ]
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Slide 5 has 63 words; the limit is 60. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide."
+   ]
+  }
+ ],
+ "updated_at": "2026-10-31T10:24:44.690774+00:00",
+ "sources": [
+  {
+   "url": "https://www.freepressjournal.in/mumbai/diwali-2026-pistachio-and-date-prices-double-making-festive-gifting-costlier-in-mumbai",
+   "fact": "Pistachio and date prices have doubled before Diwali 2026 in Mumbai. Corporate buyers on fixed budgets are cutting the weight of gift baskets and moving to cheaper items, including seeds.",
+   "excerpt": "pistachio and date prices doubling to Rs 1,800 and Rs 500 per kg. | Pistachios that were \"selling at around Rs 900 per kg last Diwali\" now cost \"Rs 1,800 per kg.\" | \"With most companies working within fixed budgets, they are reducing the weight of gift baskets.\" | \"Companies are increasingly opting for pumpkin, watermelon, sunflower and chia seeds.\" | \"Cashews continue to attract demand because their prices remain comparatively competitive.\"",
+   "date": "2026-10-23"
+  },
+  {
+   "url": "https://telanganatoday.com/diwali-sweet-prices-leave-bigger-hole-in-families-budgets",
+   "fact": "Hyderabad sweet prices are up 20-25% before Diwali 2026 on higher sugar and ingredient costs. Dry fruit sellers blame lower imports linked to the US-Iran conflict.",
+   "excerpt": "sweet prices rising by 20-25 per cent across Hyderabad due to increased sugar, ingredient and production costs. | \"We have no option but to pass on the increased costs to customers.\" | \"A kilogram of sugar now costs between Rs. 60 and Rs. 70, as against Rs. 45 in July and August.\" | \"Lower imports from these countries have pushed up prices,\"",
+   "date": "2026-10-25"
+  }
+ ],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] Pistachio prices doubled. Your Diwali box just [got lighter].\nSame box, same ribbon. Less inside.\n \n\n[slide 1] Pistachio prices doubled. Your Diwali box just got lighter.\nSwipe to read →\n\n[slide 2] It's the week before Diwali. The box is on your desk when you get back from lunch.\nSame gold cardboard and ribbon. Same printed card signed by leadership.\nYou pick it up to move it off your keyboard. Your wrist notices before you do.\n\n[slide 3] You open it in the pantry. The cashews are still there, with room to roll around. Where the pistachios used to sit, there's a neat row of pumpkin seeds, now apparently a health choice.\nWholesale pistachios went from Rs 900 a kilo to Rs 1,800 this year. You'd expect the gift to cost more or look smaller.\n\n[slide 4] But whoever orders the boxes is working within a fixed budget. They can't stretch it. And you judge the box in the two seconds it takes to land on your desk.\nSo the cut goes inside, where nobody checks.\nThe mithai shop at least tells you the new rate at the counter. The gift box says nothing.\n\n[slide 5] You still type \"thank you for the lovely gift 🙏\" in the team group. Then a row of thumbs and diyas follows yours.\nSomewhere in that row is the person who picked the pumpkin seeds.\n\n[slide 6] Put this year's box on the kitchen scale before you open it. Write the number on the back of the card.\nNext Diwali the box will look exactly the same. The scale won't.\n\n[end card] Come back to this when next year's box lands on your desk.\nThe colleague who opens the box in the pantry and says 'last year it was bigger'\n\n[caption] The mithai shop tells you the new rate at the counter. The gift box just hopes you don't own a kitchen scale.\n\n[alt text] A six-slide carousel about office Diwali gift boxes. Pistachio prices doubled, so the box looks the same but holds less, with cheaper items like pumpkin seeds in place of pistachios. The buyer works within a fixed budget and you judge the box by how it looks when it arrives, so the cut happens inside where nobody checks. Everyone still thanks the team in the group chat. It ends by suggesting you weigh this year's box and write the number down, because next year's will look the same but weigh less.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Pistachio prices have doubled.",
+     "sentence": "Pistachio prices doubled.",
+     "type": "event",
+     "core": true,
+     "framed_as": "current"
+    },
+    {
+     "id": "c2",
+     "text": "Wholesale pistachio prices went from Rs 900 a kilo to Rs 1,800 a kilo this year.",
+     "sentence": "Wholesale pistachios went from Rs 900 a kilo to Rs 1,800 this year.",
+     "type": "figure",
+     "core": true,
+     "framed_as": "current"
+    },
+    {
+     "id": "c3",
+     "text": "Rs 1,800 is double Rs 900, so the stated wholesale pistachio price change is a doubling.",
+     "sentence": "Wholesale pistachios went from Rs 900 a kilo to Rs 1,800 this year.",
+     "type": "arithmetic",
+     "core": false,
+     "framed_as": "current",
+     "expr": "1800/900",
+     "stated": "2"
+    },
+    {
+     "id": "c4",
+     "text": "Companies that buy corporate Diwali gift boxes have responded to higher pistachio prices by putting less or cheaper contents (such as pumpkin seeds instead of pistachios) in boxes of the same outward appearance.",
+     "sentence": "Where the pistachios used to sit, there's a neat row of pumpkin seeds",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "current"
+    },
+    {
+     "id": "c5",
+     "text": "Whoever orders corporate gift boxes works within a fixed budget that cannot be stretched.",
+     "sentence": "whoever orders the boxes is working within a fixed budget. They can't stretch it.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c6",
+     "text": "Mechanism: because the buyer's budget is fixed, pistachio prices have doubled, and recipients judge the box by its look on arrival, buyers cut the contents inside rather than change the box's look or price.",
+     "sentence": "So the cut goes inside, where nobody checks.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c7",
+     "text": "Mithai shops tell customers the new rate at the counter when prices rise.",
+     "sentence": "The mithai shop at least tells you the new rate at the counter.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c8",
+     "text": "Next year's gift box will look the same as this year's but weigh less.",
+     "sentence": "Next Diwali the box will look exactly the same. The scale won't.",
+     "type": "event",
+     "core": false,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "Pistachio prices have doubled.": {
+   "id": "c1",
+   "verdict": "misframed",
+   "event_date": "2026-10-22",
+   "correct": "Only one outlet, the Free Press Journal, reports a doubling, and that is for Mumbai wholesale/gifting pistachios against last Diwali. Economic Times (via FreshPlaza, 7 Oct 2026) reports in-shell pistachios up 60-74% year on year, not double. Telangana Today (25 Oct 2026) gives Hyderabad prices of about Rs 3,000-3,500/kg and does not report a doubling. A flat 'pistachio prices have doubled' is too broad. A safer wording is 'by one Mumbai trader account, pistachio prices roughly doubled from last Diwali', or 'up 60-70% or more'.",
+   "sources": [
+    {
+     "url": "https://www.freepressjournal.in/mumbai/diwali-2026-pistachio-and-date-prices-double-making-festive-gifting-costlier-in-mumbai",
+     "publisher": "Free Press Journal",
+     "published_date": "2026-10-23",
+     "quote": "Pistachios, which were selling at around Rs 900 per kg last Diwali, now cost Rs 1,800 per kg.",
+     "tier": 2
+    },
+    {
+     "url": "https://www.freshplaza.com/asia/article/9880647/nut-and-dry-fruit-prices-rise-up-to-70-in-india-during-festive-season/",
+     "publisher": "FreshPlaza (citing Economic Times)",
+     "published_date": "2026-10-07",
+     "quote": "In-shell pistachio prices are 60-70% higher than last Diwali",
+     "tier": 2
+    },
+    {
+     "url": "https://telanganatoday.com/diwali-sweet-prices-leave-bigger-hole-in-families-budgets",
+     "publisher": "Telangana Today",
+     "published_date": "2026-10-25",
+     "quote": "About Rs 3,000 per kg, with premium varieties around Rs 3,500 per kg",
+     "tier": 2
+    }
+   ]
+  },
+  "Wholesale pistachio prices went from Rs 900 a kilo to Rs 1,800 a kilo this year.": {
+   "id": "c2",
+   "verdict": "misframed",
+   "event_date": "2026-10-22",
+   "correct": "The Free Press Journal says Rs 900 was the price 'last Diwali' and Rs 1,800 is the price now, and it calls these indicative trader prices. The claim says 'this year', which is not what the source says. The baseline is last Diwali (2025), not the start of this year. No second source confirms Rs 900 to Rs 1,800. ET/FreshPlaza gives wholesale in-shell at Rs 1,650/kg, up about 74% year on year. A 2025 Gujarat report put pistachios at Rs 1,050-1,200/kg, which conflicts with the Rs 900 baseline. The claim should be attributed to a Mumbai trader report and say 'since last Diwali'.",
+   "sources": [
+    {
+     "url": "https://www.freepressjournal.in/mumbai/diwali-2026-pistachio-and-date-prices-double-making-festive-gifting-costlier-in-mumbai",
+     "publisher": "Free Press Journal",
+     "published_date": "2026-10-23",
+     "quote": "Pistachios, which were selling at around Rs 900 per kg last Diwali, now cost Rs 1,800 per kg.",
+     "tier": 2
+    },
+    {
+     "url": "https://www.freshplaza.com/asia/article/9880647/nut-and-dry-fruit-prices-rise-up-to-70-in-india-during-festive-season/",
+     "publisher": "FreshPlaza (citing Economic Times)",
+     "published_date": "2026-10-07",
+     "quote": "Wholesale in-shell pistachios are US$18.37/kg, based on ₹1,650/kg.",
+     "tier": 2
+    }
+   ]
+  },
+  "Mithai shops tell customers the new rate at the counter when prices rise.": {
+   "id": "c7",
+   "verdict": "unverifiable",
+   "correct": "No source I found says mithai shops tell customers the new rate at the counter. Telangana Today quotes a sweet-shop manager saying costs are passed on to customers, and that is all it says on the point. The claim is a generalisation with no support.",
+   "sources": [
+    {
+     "url": "https://telanganatoday.com/diwali-sweet-prices-leave-bigger-hole-in-families-budgets",
+     "publisher": "Telangana Today",
+     "published_date": "2026-10-25",
+     "quote": "We have no option but to pass on the increased costs to customers.",
+     "tier": 2
+    }
+   ]
+  },
+  "Next year's gift box will look the same as this year's but weigh less.": {
+   "id": "c8",
+   "verdict": "unverifiable",
+   "correct": "This is a prediction about next year's gift box, and no source supports it. The Free Press Journal reports only that corporate buyers are cutting basket weights or quantities this year, and it says nothing about next year or about boxes looking the same. Rewrite it as something already reported, such as 'some corporate buyers are cutting basket weights this year'.",
+   "sources": [
+    {
+     "url": "https://www.freepressjournal.in/mumbai/diwali-2026-pistachio-and-date-prices-double-making-festive-gifting-costlier-in-mumbai",
+     "publisher": "Free Press Journal",
+     "published_date": "2026-10-23",
+     "quote": "corporate companies are reducing gift basket quantities and considering seeds as more affordable alternatives",
+     "tier": 2
+    }
+   ]
+  },
+  "_skeptic": {
+   "1c6a51315700a250724e6637edc3dd50045eac54": {
+    "holds": true,
+    "broken_premise": "None fails outright, but two are overstated. (1) The price rise: the Rs 900 to Rs 1,800/kg figure matches the Free Press Journal's Mumbai trader quote, but ANI/ETV Bharat put the national rise at 60–70% (in-shell wholesale up about 74%). 'Doubled' is the top of the range, not a universal figure. (2) The budget: the reporting says 'most companies' work within fixed budgets. It does not say budgets cannot be stretched, and the same report says buyers are negotiating packages. The 'nobody checks' framing is also off. The buyer knowingly picks a lighter or seed-heavy hamper from the vendor, and retail pre-packaged boxes must state net weight on the label under the Legal Metrology (Packaged Commodities) Rules, 2011. Only the recipient doesn't see it. Custom or bulk corporate hampers may fall outside the retail labelling rules (I could not confirm that).",
+    "actual_mechanism": "Import disruption from Iran and Afghanistan (the US-Iran war), higher freight costs and a weaker rupee pushed Indian pistachio prices up roughly 60–100% before Diwali 2026. Most corporate gifting budgets are set per head, so buyers negotiate with hamper vendors. They take lighter baskets, swap costly nuts for cheaper items, and demand for seeds as gifting items is up about 30%. They do this rather than raise spend, so the per-unit price stays at the usual Rs 500–1,000 team tier while the grams of premium nuts fall. The cut is a deliberate, visible choice between buyer and vendor. It only looks hidden from the employee who receives the box.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.freepressjournal.in/amp/mumbai/diwali-2026-pistachio-and-date-prices-double-making-festive-gifting-costlier-in-mumbai",
+      "published_date": "2026-10-22",
+      "quote": "pistachios ... now cost Rs 1,800 per kg [about Rs 900 last Diwali]; companies are reducing the weight of gift baskets ... replacing expensive varieties with more affordable options; demand for seeds as gifting items has risen by around 30%; most companies working within fixed budgets"
+     },
+     {
+      "url": "https://www.etvbharat.com/en/business/almonds-pistachios-turn-costlier-why-are-dry-fruit-prices-rising-in-india-enn26100903247",
+      "published_date": "2026-10-09",
+      "quote": "Prices of in-shell pistachio have risen by 60-70% since Diwali 2025 ... Wholesale in-shell pistachio prices soared nearly 74% year-on-year ... The US-Iran war has impacted the imports of nuts and dry fruits from Tehran and Afghanistan."
+     },
+     {
+      "url": "https://www.equitypandit.com/dry-fruit-prices-rise-ahead-of-diwali/",
+      "published_date": "2026-10",
+      "quote": "Supplies from Iran and Afghanistan have been affected, while higher freight charges have increased the cost of bringing products to India."
+     },
+     {
+      "url": "https://themintbox.in/diwali-corporate-gifts",
+      "published_date": "2026",
+      "quote": "Corporate Diwali hampers and gift boxes ₹280–₹11,720 per unit ex GST; team tier ₹500–₹1,000 per unit"
+     },
+     {
+      "url": "https://blog.ipleaders.in/legal-metrology-packaged-commodities-rules-2011/",
+      "published_date": "unknown",
+      "quote": "Rule 6(1): every package shall bear a definite, plain and conspicuous declaration ... (c) the net quantity, in terms of standard unit of weight or measure or in number"
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "b2d7585e01784780a32cecb24ebdc96d3249168c": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Says more than the sources: 'Pistachio prices have doubled.'. What's true: Only one outlet, the Free Press Journal, reports a doubling, and that is for Mumbai wholesale/gifting pistachios against last Diwali. Economic Times (via FreshPlaza, 7 Oct 2026) reports in-shell pistachios up 60-74% year on year, not double. Telangana Today (25 Oct 2026) gives Hyderabad prices of about Rs 3,000-3,500/kg and does not report a doubling. A flat 'pistachio prices have doubled' is too broad. A safer wording is 'by one Mumbai trader account, pistachio prices roughly doubled from last Diwali', or 'up 60-70% or more'..",
+     "Says more than the sources: 'Wholesale pistachio prices went from Rs 900 a kilo to Rs 1,800 a kilo this year.'. What's true: The Free Press Journal says Rs 900 was the price 'last Diwali' and Rs 1,800 is the price now, and it calls these indicative trader prices. The claim says 'this year', which is not what the source says. The baseline is last Diwali (2025), not the start of this year. No second source confirms Rs 900 to Rs 1,800. ET/FreshPlaza gives wholesale in-shell at Rs 1,650/kg, up about 74% year on year. A 2025 Gujarat report put pistachios at Rs 1,050-1,200/kg, which conflicts with the Rs 900 baseline. The claim should be attributed to a Mumbai trader report and say 'since last Diwali'..",
+     "Could not verify: 'Mithai shops tell customers the new rate at the counter when prices rise.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Next year's gift box will look the same as this year's but weigh less.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Pistachio prices have doubled.",
+      "sentence": "Pistachio prices doubled.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c2",
+      "text": "Wholesale pistachio prices went from Rs 900 a kilo to Rs 1,800 a kilo this year.",
+      "sentence": "Wholesale pistachios went from Rs 900 a kilo to Rs 1,800 this year.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c3",
+      "text": "Rs 1,800 is double Rs 900, so the stated wholesale pistachio price change is a doubling.",
+      "sentence": "Wholesale pistachios went from Rs 900 a kilo to Rs 1,800 this year.",
+      "type": "arithmetic",
+      "core": false,
+      "framed_as": "current",
+      "expr": "1800/900",
+      "stated": "2"
+     },
+     {
+      "id": "c4",
+      "text": "Companies that buy corporate Diwali gift boxes have responded to higher pistachio prices by putting less or cheaper contents (such as pumpkin seeds instead of pistachios) in boxes of the same outward appearance.",
+      "sentence": "Where the pistachios used to sit, there's a neat row of pumpkin seeds",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c5",
+      "text": "Whoever orders corporate gift boxes works within a fixed budget that cannot be stretched.",
+      "sentence": "whoever orders the boxes is working within a fixed budget. They can't stretch it.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Mechanism: because the buyer's budget is fixed, pistachio prices have doubled, and recipients judge the box by its look on arrival, buyers cut the contents inside rather than change the box's look or price.",
+      "sentence": "So the cut goes inside, where nobody checks.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "Mithai shops tell customers the new rate at the counter when prices rise.",
+      "sentence": "The mithai shop at least tells you the new rate at the counter.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c8",
+      "text": "Next year's gift box will look the same as this year's but weigh less.",
+      "sentence": "Next Diwali the box will look exactly the same. The scale won't.",
+      "type": "event",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "misframed",
+      "event_date": "2026-10-22",
+      "correct": "Only one outlet, the Free Press Journal, reports a doubling, and that is for Mumbai wholesale/gifting pistachios against last Diwali. Economic Times (via FreshPlaza, 7 Oct 2026) reports in-shell pistachios up 60-74% year on year, not double. Telangana Today (25 Oct 2026) gives Hyderabad prices of about Rs 3,000-3,500/kg and does not report a doubling. A flat 'pistachio prices have doubled' is too broad. A safer wording is 'by one Mumbai trader account, pistachio prices roughly doubled from last Diwali', or 'up 60-70% or more'.",
+      "sources": [
+       {
+        "url": "https://www.freepressjournal.in/mumbai/diwali-2026-pistachio-and-date-prices-double-making-festive-gifting-costlier-in-mumbai",
+        "publisher": "Free Press Journal",
+        "published_date": "2026-10-23",
+        "quote": "Pistachios, which were selling at around Rs 900 per kg last Diwali, now cost Rs 1,800 per kg.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.freshplaza.com/asia/article/9880647/nut-and-dry-fruit-prices-rise-up-to-70-in-india-during-festive-season/",
+        "publisher": "FreshPlaza (citing Economic Times)",
+        "published_date": "2026-10-07",
+        "quote": "In-shell pistachio prices are 60-70% higher than last Diwali",
+        "tier": 2
+       },
+       {
+        "url": "https://telanganatoday.com/diwali-sweet-prices-leave-bigger-hole-in-families-budgets",
+        "publisher": "Telangana Today",
+        "published_date": "2026-10-25",
+        "quote": "About Rs 3,000 per kg, with premium varieties around Rs 3,500 per kg",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "misframed",
+      "event_date": "2026-10-22",
+      "correct": "The Free Press Journal says Rs 900 was the price 'last Diwali' and Rs 1,800 is the price now, and it calls these indicative trader prices. The claim says 'this year', which is not what the source says. The baseline is last Diwali (2025), not the start of this year. No second source confirms Rs 900 to Rs 1,800. ET/FreshPlaza gives wholesale in-shell at Rs 1,650/kg, up about 74% year on year. A 2025 Gujarat report put pistachios at Rs 1,050-1,200/kg, which conflicts with the Rs 900 baseline. The claim should be attributed to a Mumbai trader report and say 'since last Diwali'.",
+      "sources": [
+       {
+        "url": "https://www.freepressjournal.in/mumbai/diwali-2026-pistachio-and-date-prices-double-making-festive-gifting-costlier-in-mumbai",
+        "publisher": "Free Press Journal",
+        "published_date": "2026-10-23",
+        "quote": "Pistachios, which were selling at around Rs 900 per kg last Diwali, now cost Rs 1,800 per kg.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.freshplaza.com/asia/article/9880647/nut-and-dry-fruit-prices-rise-up-to-70-in-india-during-festive-season/",
+        "publisher": "FreshPlaza (citing Economic Times)",
+        "published_date": "2026-10-07",
+        "quote": "Wholesale in-shell pistachios are US$18.37/kg, based on ₹1,650/kg.",
+        "tier": 2
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "unverifiable",
+      "correct": "No source I found says mithai shops tell customers the new rate at the counter. Telangana Today quotes a sweet-shop manager saying costs are passed on to customers, and that is all it says on the point. The claim is a generalisation with no support.",
+      "sources": [
+       {
+        "url": "https://telanganatoday.com/diwali-sweet-prices-leave-bigger-hole-in-families-budgets",
+        "publisher": "Telangana Today",
+        "published_date": "2026-10-25",
+        "quote": "We have no option but to pass on the increased costs to customers.",
+        "tier": 2
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "unverifiable",
+      "correct": "This is a prediction about next year's gift box, and no source supports it. The Free Press Journal reports only that corporate buyers are cutting basket weights or quantities this year, and it says nothing about next year or about boxes looking the same. Rewrite it as something already reported, such as 'some corporate buyers are cutting basket weights this year'.",
+      "sources": [
+       {
+        "url": "https://www.freepressjournal.in/mumbai/diwali-2026-pistachio-and-date-prices-double-making-festive-gifting-costlier-in-mumbai",
+        "publisher": "Free Press Journal",
+        "published_date": "2026-10-23",
+        "quote": "corporate companies are reducing gift basket quantities and considering seeds as more affordable alternatives",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None fails outright, but two are overstated. (1) The price rise: the Rs 900 to Rs 1,800/kg figure matches the Free Press Journal's Mumbai trader quote, but ANI/ETV Bharat put the national rise at 60–70% (in-shell wholesale up about 74%). 'Doubled' is the top of the range, not a universal figure. (2) The budget: the reporting says 'most companies' work within fixed budgets. It does not say budgets cannot be stretched, and the same report says buyers are negotiating packages. The 'nobody checks' framing is also off. The buyer knowingly picks a lighter or seed-heavy hamper from the vendor, and retail pre-packaged boxes must state net weight on the label under the Legal Metrology (Packaged Commodities) Rules, 2011. Only the recipient doesn't see it. Custom or bulk corporate hampers may fall outside the retail labelling rules (I could not confirm that).",
+     "actual_mechanism": "Import disruption from Iran and Afghanistan (the US-Iran war), higher freight costs and a weaker rupee pushed Indian pistachio prices up roughly 60–100% before Diwali 2026. Most corporate gifting budgets are set per head, so buyers negotiate with hamper vendors. They take lighter baskets, swap costly nuts for cheaper items, and demand for seeds as gifting items is up about 30%. They do this rather than raise spend, so the per-unit price stays at the usual Rs 500–1,000 team tier while the grams of premium nuts fall. The cut is a deliberate, visible choice between buyer and vendor. It only looks hidden from the employee who receives the box.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.freepressjournal.in/amp/mumbai/diwali-2026-pistachio-and-date-prices-double-making-festive-gifting-costlier-in-mumbai",
+       "published_date": "2026-10-22",
+       "quote": "pistachios ... now cost Rs 1,800 per kg [about Rs 900 last Diwali]; companies are reducing the weight of gift baskets ... replacing expensive varieties with more affordable options; demand for seeds as gifting items has risen by around 30%; most companies working within fixed budgets"
+      },
+      {
+       "url": "https://www.etvbharat.com/en/business/almonds-pistachios-turn-costlier-why-are-dry-fruit-prices-rising-in-india-enn26100903247",
+       "published_date": "2026-10-09",
+       "quote": "Prices of in-shell pistachio have risen by 60-70% since Diwali 2025 ... Wholesale in-shell pistachio prices soared nearly 74% year-on-year ... The US-Iran war has impacted the imports of nuts and dry fruits from Tehran and Afghanistan."
+      },
+      {
+       "url": "https://www.equitypandit.com/dry-fruit-prices-rise-ahead-of-diwali/",
+       "published_date": "2026-10",
+       "quote": "Supplies from Iran and Afghanistan have been affected, while higher freight charges have increased the cost of bringing products to India."
+      },
+      {
+       "url": "https://themintbox.in/diwali-corporate-gifts",
+       "published_date": "2026",
+       "quote": "Corporate Diwali hampers and gift boxes ₹280–₹11,720 per unit ex GST; team tier ₹500–₹1,000 per unit"
+      },
+      {
+       "url": "https://blog.ipleaders.in/legal-metrology-packaged-commodities-rules-2011/",
+       "published_date": "unknown",
+       "quote": "Rule 6(1): every package shall bear a definite, plain and conspicuous declaration ... (c) the net quantity, in terms of standard unit of weight or measure or in number"
+      }
+     ]
+    },
+    "text_hash": "b2d7585e01784780a32cecb24ebdc96d3249168c",
+    "at": "2026-10-31T10:24:07.510723+00:00"
+   }
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "Dry fruit got dearer. Your Diwali box just [got lighter].",
+   "sub": "Same box, same ribbon. Less inside."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Dry fruit got dearer. Your Diwali box just got lighter.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "How does a box get lighter without anyone noticing?"
+   },
+   {
+    "paragraphs": [
+     "It's the week before Diwali. The box is on your desk when you get back from lunch.",
+     "Same gold cardboard and ribbon. Same printed card signed by leadership.",
+     "You pick it up to move it off your keyboard. Your wrist notices before you do."
+    ],
+    "why_swipe": "What's missing inside?"
+   },
+   {
+    "paragraphs": [
+     "You open it in the pantry. The cashews are still there, with room to roll around. Where the pistachios used to sit, there's a neat row of pumpkin seeds, now apparently a health choice."
+    ],
+    "why_swipe": "Why would anyone swap pistachios for seeds?"
+   },
+   {
+    "paragraphs": [
+     "Mumbai traders say wholesale pistachios went from Rs 900 a kilo last Diwali to Rs 1,800 now. You'd expect the gift to cost more or look smaller."
+    ],
+    "why_swipe": "It did neither, so where did the price go?"
+   },
+   {
+    "paragraphs": [
+     "But whoever orders the boxes has a fixed budget. It doesn't stretch. And you judge the box in the two seconds it takes to land on your desk.",
+     "**So the cut goes inside, the one part you can't see from your chair.**",
+     "Sweet shops in Hyderabad raised prices 20-25% and said so out loud. The gift box changed its weight and said nothing."
+    ],
+    "why_swipe": "And what does everyone do about it?"
+   },
+   {
+    "paragraphs": [
+     "You still type \"thank you for the lovely gift 🙏\" in the team group. Then a row of thumbs and diyas follows yours.",
+     "Somewhere in that row is the person who picked the pumpkin seeds."
+    ],
+    "why_swipe": "So how would you ever catch it?"
+   },
+   {
+    "paragraphs": [
+     "Put this year's box on the kitchen scale before you open it. Write the number on the back of the leadership card.",
+     "**Nobody weighs a gift. That's exactly why the weight goes first.**"
+    ]
+   }
+  ],
+  "end": {
+   "save": "Come back to this when next year's box lands on your desk.",
+   "send": "The colleague who opens the box in the pantry and says 'last year it was bigger'",
+   "promise": "How things really get sold to you."
+  },
+  "caption": "The ribbon got the full budget this year. The pistachios got the pumpkin seeds.",
+  "hashtags": [
+   "#DiwaliGifts",
+   "#CorporateGifting",
+   "#Shrinkflation",
+   "#DryFruits"
+  ],
+  "alt_text": "A seven-slide carousel about office Diwali gift boxes. Dry fruit got more expensive this year, with Mumbai traders saying wholesale pistachios went from Rs 900 a kilo last Diwali to Rs 1,800. The office box looks the same but feels lighter, with pumpkin seeds where pistachios used to be. The buyer has a fixed budget and you judge the box by how it looks when it arrives, so the cut happens inside, the part you can't see. Sweet shops in Hyderabad raised prices 20-25% openly, while the gift box changed silently. Everyone still thanks the team in the group chat. It ends by suggesting you weigh this year's box and write the number down, because a gift never gets weighed and that's why the weight goes first.",
+  "claims": [
+   {
+    "text": "Mumbai traders say wholesale pistachios went from Rs 900 a kilo last Diwali to Rs 1,800 now.",
+    "source_url": "https://www.freepressjournal.in/mumbai/diwali-2026-pistachio-and-date-prices-double-making-festive-gifting-costlier-in-mumbai"
+   },
+   {
+    "text": "Corporate gift buyers are working within fixed budgets, cutting basket weights and swapping in cheaper items such as pumpkin seeds.",
+    "source_url": "https://www.freepressjournal.in/mumbai/diwali-2026-pistachio-and-date-prices-double-making-festive-gifting-costlier-in-mumbai"
+   },
+   {
+    "text": "Cashews remain comparatively competitively priced, so they stay in the box.",
+    "source_url": "https://www.freepressjournal.in/mumbai/diwali-2026-pistachio-and-date-prices-double-making-festive-gifting-costlier-in-mumbai"
+   },
+   {
+    "text": "Sweet shops in Hyderabad raised prices 20-25% before Diwali and say they are passing the higher costs on to customers.",
+    "source_url": "https://telanganatoday.com/diwali-sweet-prices-leave-bigger-hole-in-families-budgets"
+   }
+  ]
+ }
 }

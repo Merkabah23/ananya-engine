@@ -1,6 +1,6 @@
 {
  "id": "2026-11-89",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-05T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -62,6 +62,217 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-10-30T11:06:32.154653+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Caption: \"I've paid ₹700 extra for a logo on my Instagram story and called it the sound system.\" The topic has lived: false, so this \"I\" is an invented personal event (hard failure 11). The ₹700 is also a derived figure presented as personal experience.",
+     "Facts carry too much of the post (hard failure 6). Slide 3 gives ₹1,095 and ₹380. Slide 5 adds \"almost three times\", \"about 3.8% of shows\" and \"about a quarter of advance money\". The cover sub repeats \"almost three times\", and the caption adds ₹700. That is well over two numbers, and slide 5 reads like a stats recap."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "Slide 5: Cut this to one number at most. Drop the 3.8% and quarter line, or keep only the price gap on slide 3. Keep the because (the cinema earns more per seat, the film gets a bigger opening, you get something to post) in plain words. Ending on \"Your wallet is the only one not invited\" is good. Remove the \"almost three times\" repeat here and in the cover sub.",
+     "Caption: Rewrite it as observation with no \"I\". Use \"we\" or \"you\", for example the IMAX logo on the story gets more thought than the film. Do not mention ₹700 or any personal purchase.",
+     "Slide 3: Keep only one price comparison, or none (\"nearly three times the regular ticket\" would do). Right now slides 3 and 5 both argue the price gap. The \"some of it is true\" concession is good, so keep it.",
+     "Slide 2: \"only the neck-breaking front rows are left\" is a detail the sources don't back, and it is a stretch beside \"mostly empty\" regular seats. Make it a typical scene, such as the IMAX show looking fuller while the regular show sits empty. The thumb moment is the best beat, so sharpen it with a more concrete detail from the booking screen.",
+     "Slide 6 vs slide 4: Slide 4 already lands the reveal (the story post, the \"we saw it in IMAX\" line). The final test then repeats it. Make slide 6 add something new, such as what the reader would actually pick when nobody can see, or a sting about the seat itself. Also check that \"sell out first\" is not stated as fact, since the sources say IMAX is selling faster, not sold out."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Caption: \"I've paid ₹700 extra for a logo on my Instagram story and called it the sound system.\" The topic has lived: false, so this \"I\" is an invented personal event (hard failure 11). The ₹700 is also a derived figure presented as personal experience.",
+    "Facts carry too much of the post (hard failure 6). Slide 3 gives ₹1,095 and ₹380. Slide 5 adds \"almost three times\", \"about 3.8% of shows\" and \"about a quarter of advance money\". The cover sub repeats \"almost three times\", and the caption adds ₹700. That is well over two numbers, and slide 5 reads like a stats recap.",
+    "Slide 5: Cut this to one number at most. Drop the 3.8% and quarter line, or keep only the price gap on slide 3. Keep the because (the cinema earns more per seat, the film gets a bigger opening, you get something to post) in plain words. Ending on \"Your wallet is the only one not invited\" is good. Remove the \"almost three times\" repeat here and in the cover sub.",
+    "Caption: Rewrite it as observation with no \"I\". Use \"we\" or \"you\", for example the IMAX logo on the story gets more thought than the film. Do not mention ₹700 or any personal purchase.",
+    "Slide 3: Keep only one price comparison, or none (\"nearly three times the regular ticket\" would do). Right now slides 3 and 5 both argue the price gap. The \"some of it is true\" concession is good, so keep it.",
+    "Slide 2: \"only the neck-breaking front rows are left\" is a detail the sources don't back, and it is a stretch beside \"mostly empty\" regular seats. Make it a typical scene, such as the IMAX show looking fuller while the regular show sits empty. The thumb moment is the best beat, so sharpen it with a more concrete detail from the booking screen.",
+    "Slide 6 vs slide 4: Slide 4 already lands the reveal (the story post, the \"we saw it in IMAX\" line). The final test then repeats it. Make slide 6 add something new, such as what the reader would actually pick when nobody can see, or a sting about the seat itself. Also check that \"sell out first\" is not stated as fact, since the sources say IMAX is selling faster, not sold out."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Hard failure 2, slide 2: \"an orange 'Fast filling' tag\" is a specific BookMyShow product detail that is not in the sources, the proof or real_details. Slide 3 also states \"That's ₹1,095 a seat, against about ₹380 for the regular show\" as the price of the show you picked. The sources give these only as averages across shows."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 4,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 3,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 2: Cut the \"Fast filling\" tag and the exact 7:15 detail. Show the contrast through the seat map alone, mostly grey against mostly empty. Keep the lived moment, the group chat followed by \"book karo\", because it works.",
+     "slide 3: Frame the prices as averages (\"IMAX tickets are averaging about ₹1,095, regular about ₹380\"), not the price of your seat. Keep the concession that the screen is bigger. It is the best human beat in the post.",
+     "slide 5: This is the 'because' slide but it over-explains. \"Two friends see the logo and skip the regular show too\" is an invented count and also a claim about influence. Say it plainly and typically: the cinema gets a higher price per seat, the film gets a fuller opening, and you get something to post. Sharpen the sting: your story is free advertising that you paid ₹700 extra to make.",
+     "slide 6: The slide is half a restatement. \"Nobody at lunch asks which screen\" contradicts slide 4, where the colleague does ask. It also answers the test for the reader (\"You'd probably take the empty regular row...\") instead of handing it over. End on a line people can repeat, or a test they run themselves. Drop the popcorn advice, which reads like coaching.",
+     "slide 4: Good moment, but \"Your first line is 'we saw it in IMAX'\" is asserted as universal. Make it clearly typical, and keep one bold line only. The post currently bolds two lines, which dilutes both."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Hard failure 2, slide 2: \"an orange 'Fast filling' tag\" is a specific BookMyShow product detail that is not in the sources, the proof or real_details. Slide 3 also states \"That's ₹1,095 a seat, against about ₹380 for the regular show\" as the price of the show you picked. The sources give these only as averages across shows.",
+    "slide 2: Cut the \"Fast filling\" tag and the exact 7:15 detail. Show the contrast through the seat map alone, mostly grey against mostly empty. Keep the lived moment, the group chat followed by \"book karo\", because it works.",
+    "slide 3: Frame the prices as averages (\"IMAX tickets are averaging about ₹1,095, regular about ₹380\"), not the price of your seat. Keep the concession that the screen is bigger. It is the best human beat in the post.",
+    "slide 5: This is the 'because' slide but it over-explains. \"Two friends see the logo and skip the regular show too\" is an invented count and also a claim about influence. Say it plainly and typically: the cinema gets a higher price per seat, the film gets a fuller opening, and you get something to post. Sharpen the sting: your story is free advertising that you paid ₹700 extra to make.",
+    "slide 6: The slide is half a restatement. \"Nobody at lunch asks which screen\" contradicts slide 4, where the colleague does ask. It also answers the test for the reader (\"You'd probably take the empty regular row...\") instead of handing it over. End on a line people can repeat, or a test they run themselves. Drop the popcorn advice, which reads like coaching.",
+    "slide 4: Good moment, but \"Your first line is 'we saw it in IMAX'\" is asserted as universal. Make it clearly typical, and keep one bold line only. The post currently bolds two lines, which dilutes both."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Hard failure 6 (more than two numbers): slide 3 gives ₹1,095 and ₹380, and slides 3 and 5 add a third figure, 'about ₹700 extra'. Three rupee figures turn the middle of the post into a price comparison instead of the observation."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "slide 3: Cut to one number. Drop the ₹1,095 and ₹380 pair and say once that IMAX costs about ₹700 more per ticket. The ₹715 derivation stays valid in claims. On slide 5, call back to it as 'the extra' without repeating the figure.",
+     "slide 5: 'everyone at this table' refers to a table the post never set up. Open straight on who gains. The cinema earns more per seat, the film gets a fuller opening, you get the post, and your wallet pays for all three. Keep the bold 'free advertising' line, but make sure it adds something beyond slide 4 (you paid to advertise) and doesn't just restate the story-posting beat.",
+     "slide 6: The test is good, but 'watch where your thumb goes' reads like an instruction. End on a sting the reader can repeat, in the topic's wording: would you still pick that screen if you couldn't tell anyone which one you sat in? Also let the reader feel the answer, for example the half-empty regular show suddenly looking fine.",
+     "slide 2: 'almost all grey' against 'empty white squares' overstates the case, since the sourced average is about 170 tickets per IMAX show against 35 for regular. Keep it as a typical scene, but you could make the contrast about the thumb's instant choice rather than a near-sold-out map."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Hard failure 6 (more than two numbers): slide 3 gives ₹1,095 and ₹380, and slides 3 and 5 add a third figure, 'about ₹700 extra'. Three rupee figures turn the middle of the post into a price comparison instead of the observation.",
+    "slide 3: Cut to one number. Drop the ₹1,095 and ₹380 pair and say once that IMAX costs about ₹700 more per ticket. The ₹715 derivation stays valid in claims. On slide 5, call back to it as 'the extra' without repeating the figure.",
+    "slide 5: 'everyone at this table' refers to a table the post never set up. Open straight on who gains. The cinema earns more per seat, the film gets a fuller opening, you get the post, and your wallet pays for all three. Keep the bold 'free advertising' line, but make sure it adds something beyond slide 4 (you paid to advertise) and doesn't just restate the story-posting beat.",
+    "slide 6: The test is good, but 'watch where your thumb goes' reads like an instruction. End on a sting the reader can repeat, in the topic's wording: would you still pick that screen if you couldn't tell anyone which one you sat in? Also let the reader feel the answer, for example the half-empty regular show suddenly looking fine.",
+    "slide 2: 'almost all grey' against 'empty white squares' overstates the case, since the sourced average is about 170 tickets per IMAX show against 35 for regular. Keep it as a typical scene, but you could make the contrast about the thumb's instant choice rather than a near-sold-out map."
+   ]
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Every sentence is about the same length, which reads as a template. Put one longer, concrete sentence next to a short punch on most slides."
+   ]
+  }
+ ],
+ "updated_at": "2026-10-31T10:24:44.702410+00:00",
+ "sources": [
+  {
+   "url": "https://boxofficeworldwide.com/movies-latest-news/ramayana-advance-bookings-imax-sales-pace/",
+   "fact": "About ten days before release, IMAX shows of Ramayana: Part 1 were selling about 400% faster than regular shows, at an average ticket price of Rs 1,095 against about Rs 380 for regular shows.",
+   "excerpt": "while regular shows are averaging around Rs 380 per ticket, IMAX is clocking an average price of Rs 1,095. ... the sharpest push is coming from IMAX, where shows are selling at a pace nearly 400 percent higher than regular screenings. ... IMAX screenings have sold over 23,000 tickets across 140 shows, averaging about 170 tickets per screening.",
+   "date": "2026-10-25"
+  },
+  {
+   "fact": "By 29 October 2026, Ramayana: Part 1 had sold around 3.07 lakh advance tickets and collected Rs 15.94 crore including block seats. Premium formats, including IMAX, supplied about 27% of the gross from a small share of shows.",
+   "url": "https://www.etvbharat.com/en/entertainment/ramayana-part-1-advance-booking-india-gross-breaches-rs-15-cr-mark-as-us-sales-surge-enn26102902496",
+   "excerpt": "contributed around 27 pc of the gross ... around 3.07 lakh advance tickets across the country. ... collected Rs 15.94 crore in advance bookings across India ... Excluding block seats, the gross is Rs 13.12 crore.",
+   "date": "2026-10-29"
+  }
+ ],
+ "draft": {
+  "cover": {
+   "headline": "Ramayana's IMAX shows fill first because you're buying [a story to tell]",
+   "sub": "Same film on every screen. Only one ends up on your story."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Ramayana's IMAX shows fill first because you're buying a story to tell.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "If it isn't the picture, what am I paying for?"
+   },
+   {
+    "paragraphs": [
+     "The group chat has been at it since the trailer dropped. Someone finally types \"book karo\" and you open the app.",
+     "Same evening, two shows. The regular one still has the good middle rows open. Your thumb is on IMAX before you've even looked at them."
+    ],
+    "why_swipe": "Why skip the easy seats for the pricier show?"
+   },
+   {
+    "paragraphs": [
+     "That IMAX seat costs about ₹700 more. You tell yourself a film this big deserves the big screen.",
+     "And some of that is true. The screen is taller, and the sound lands in your chest during the big scenes."
+    ],
+    "why_swipe": "So where does the real reason show up?"
+   },
+   {
+    "paragraphs": [
+     "But watch your phone that night. Before the lights go down, the ticket goes on your story, IMAX logo carefully in frame.",
+     "A week later someone at work asks how the film was. **\"We saw it in IMAX\" comes out before a single scene does.**"
+    ],
+    "why_swipe": "Who actually wins from this?"
+   },
+   {
+    "paragraphs": [
+     "The cinema earns more on every seat. The film gets a bigger opening to announce. You get proof you were there for the big moment.",
+     "**That story is the cinema's ad, and you paid the extra to run it.**"
+    ],
+    "why_swipe": "So what would I pick if nobody could see it?"
+   },
+   {
+    "paragraphs": [
+     "Now imagine the ticket just said \"Screen 4\". No logo, nothing worth a photo, nobody ever finding out which seat you took.",
+     "Suddenly that regular show with the open middle rows looks fine. **Would you still pick IMAX if you couldn't tell anyone you sat there?**"
+    ]
+   }
+  ],
+  "end": {
+   "save": "Open it again the next time your thumb hovers over the IMAX show.",
+   "send": "Send it to the friend who books the premium show for every big release and calls it 'worth it'.",
+   "promise": "Why we pay what we pay."
+  },
+  "caption": "The IMAX logo on your story got more careful framing than anything in the film.",
+  "hashtags": [
+   "#Ramayana",
+   "#IMAXIndia",
+   "#BollywoodBoxOffice",
+   "#IndianConsumers"
+  ],
+  "alt_text": "Carousel about Ramayana: Part 1 IMAX bookings. The cover says IMAX shows fill first because you're buying a story to tell, not a better film. The slides follow a reader whose group chat says 'book karo'. They open a booking app and pick the IMAX show without looking at the regular show, which still has good middle rows open. The IMAX seat costs about ₹700 more, and the reader admits the bigger screen and sound are real. Then they post the ticket with the IMAX logo in frame, and when asked about the film they mention the screen before any scene. The cinema earns more per seat, the film gets a bigger opening, and the reader gets proof they were there, so their story becomes the cinema's ad that they paid extra to run. It ends with a test: if the ticket only said 'Screen 4' and nobody could know, the regular show suddenly looks fine. Would you still pick IMAX if you couldn't tell anyone?",
+  "claims": [
+   {
+    "text": "An IMAX ticket for Ramayana: Part 1 costs about ₹700 more than a regular ticket on average.",
+    "source_url": "https://boxofficeworldwide.com/movies-latest-news/ramayana-advance-bookings-imax-sales-pace/",
+    "derived_from": "₹1,095 average IMAX ticket minus ₹380 average regular ticket = ₹715, rounded to about ₹700"
+   },
+   {
+    "text": "Ramayana's IMAX shows are filling faster than regular shows.",
+    "source_url": "https://boxofficeworldwide.com/movies-latest-news/ramayana-advance-bookings-imax-sales-pace/"
+   }
+  ]
+ }
 }
