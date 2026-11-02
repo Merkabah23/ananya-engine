@@ -236,3 +236,15 @@ def test_a_slide_a_few_words_long_is_split_not_failed():
     out = writer.split_long_slides(d)
     assert len(out["slides"]) == 4 and out["slides"][1]["paragraphs"][0].startswith("alpha")
     assert out["slides"][2]["paragraphs"][0].startswith("beta") and out["slides"][2]["why_swipe"] == "w"
+
+
+def test_small_wording_problems_are_polished_not_rewritten(monkeypatch):
+    from engine import llm
+    asked = []
+    def fake(model, user, stage="", **kw):
+        asked.append(stage)
+        return {"slides": [{"paragraphs": ["hook"]}, {"paragraphs": ["A plain line that is long enough to count as a slide here."]}]}
+    monkeypatch.setattr(llm, "call_json", fake)
+    d = {"slides": [{"paragraphs": ["hook"]}, {"paragraphs": ["It quietly costs you more than you think every week."]}], "claims": []}
+    writer.mechanical(d, "single", [])
+    assert "polish" in asked and "repair" not in asked

@@ -95,9 +95,35 @@ MECHANICAL = ("sentence has", "paragraphs; use at most", "more than 4 sentences"
               "Average sentence is")
 
 
+# Small wording problems: a targeted edit to the named line fixes them without a rewrite.
+WORDING = ("Remove the phrase", "'Nobody' appears more than once", "words; the limit is", "Every sentence is about the same length",
+           "isn't in the sources; source it or remove it", "The post carries")
+
+
 def is_mechanical(problem: str) -> bool:
     """Layout problems a quick edit can fix without touching what the post says."""
     return any(m in problem for m in MECHANICAL)
+
+
+def is_wording(problem: str) -> bool:
+    return any(m in problem for m in WORDING)
+
+
+def polish(draft: dict, problems: list[str]) -> dict:
+    """Fix small wording problems by editing only the lines they name; every other line stays word for word."""
+    ask = ("Make the smallest edits that fix ONLY these problems in this Instagram carousel draft. Change only the sentences "
+           "they name or that cause them: swap a banned phrase for plain words, change a repeated 'nobody' to another "
+           "phrasing, trim a few words from an overlong slide, make one sentence longer or shorter to vary the rhythm, "
+           "write an unsourced figure out in words without a number. Keep every other sentence, the meaning and the voice "
+           "exactly as they are, and keep every other field.\n\n## Problems\n" + "\n".join(f"- {p}" for p in problems) +
+           "\n\n## Draft\n" + json.dumps(draft, ensure_ascii=False, indent=1) + "\n\nReturn only the corrected draft as the same JSON object.")
+    try:
+        fixed = llm.call_json(config.MODEL_JUDGE, ask, stage="polish")
+        return fixed if fixed.get("slides") else draft
+    except SystemExit:
+        raise
+    except Exception:
+        return draft
 
 
 def repair(draft: dict, problems: list[str], sources: list[dict]) -> dict:
@@ -166,9 +192,13 @@ def mechanical(draft: dict, fmt: str, sources: list[dict], rounds: int = 2) -> t
     problems = hard_checks(draft, fmt, sources) + readability_problems(draft, fmt)
     for _ in range(rounds):
         layout = [p for p in problems if is_mechanical(p)]
-        if not layout:
+        wording = [p for p in problems if is_wording(p)]
+        if not layout and not wording:
             break
-        draft = merge_paragraphs(repair(draft, layout, sources), fmt)
+        if layout:
+            draft = merge_paragraphs(repair(draft, layout, sources), fmt)
+        if wording:
+            draft = merge_paragraphs(polish(draft, wording), fmt)
         problems = hard_checks(draft, fmt, sources) + readability_problems(draft, fmt)
     return draft, problems
 
@@ -389,8 +419,9 @@ def write_post(post: dict, notes: str = "") -> dict:
                     problems = [f"The editor scored it below 4 on: {', '.join(k for k, v in (review.get('scores') or {}).items() if _score(review['scores'], k) < 4)}."]
         post["history"].append({"attempt": attempt, "problems": problems})
         notes = ("## Your previous draft\n" + json.dumps(draft, ensure_ascii=False, indent=1) +
-                 "\n\n## Notes from the editor and fact checker (fix every one, keep what works; if a fact is wrong, "
-                 "rebuild the point on the corrected fact rather than deleting the point)\n" + "\n".join(f"- {p}" for p in problems))
+                 "\n\n## Notes from the editor and fact checker\nEdit the draft above; don't write a new one. Change only "
+                 "the lines these notes name, and keep every other line word for word, so nothing that already passed "
+                 "breaks. If a fact or mechanism is wrong, rebuild that point on the corrected one rather than deleting it.\n" + "\n".join(f"- {p}" for p in problems))
         state.log("writer", f"{post['id']} attempt {attempt + 1} failed: {problems[:2]}")
     post.update(status="rejected", draft=draft)  # keep the last draft so a person can read what was rejected
     return post

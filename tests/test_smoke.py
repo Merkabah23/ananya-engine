@@ -40,17 +40,18 @@ def fake_call_json(model, user, stage="", **kw):
 
 
 def test_month_end_to_end(tmp_path, monkeypatch):
+    # a month far ahead: the planner skips days already gone, so a near date breaks the test once it passes
     monkeypatch.setattr(config, "STATE", tmp_path / "state")
     monkeypatch.setattr(config, "OUT", tmp_path / "out")
     monkeypatch.setattr(llm, "call_json", fake_call_json)
     territories = list(config.TERRITORY_MIX)
-    cands = [{"id": f"2026-10-{i:03d}", "title": f"t{i}", "claim": f"claim {i}", "behaviour": "b", "mechanism": "m",
+    cands = [{"id": f"2099-10-{i:03d}", "title": f"t{i}", "claim": f"claim {i}", "behaviour": "b", "mechanism": "m",
               "group": "g", "territory": territories[i % 5], "real_details": ["d"], "evidence": [], "needs_facts": False}
              for i in range(30)]
-    state.write(cands, "2026-10", "candidates.json")
-    plan = topic_filter.run("2026-10", "2026-11")
+    state.write(cands, "2099-10", "candidates.json")
+    plan = topic_filter.run("2099-10", "2099-11")
     assert len([p for p in plan if p["due"]]) == 30
-    cli.produce("2026-11")
+    cli.produce("2099-11")
     done = state.posts("uploaded")
     assert len(done) == 30
     assert all(1 <= len(p["image_urls"]) <= 10 for p in done)
@@ -127,10 +128,10 @@ def test_owner_approved_drafts_skip_the_writer_but_not_the_fact_gate(tmp_path, m
         raise AssertionError("an approved draft must not be rewritten")
     monkeypatch.setattr(llm, "call_json", gate_only)
     draft = {"slides": [{"paragraphs": p} for p in SLIDES], "caption": "c", "alt_text": "a", "claims": []}
-    state.save_post({"id": "2026-11-01", "status": "approved", "due": "2026-11-02T19:30:00+05:30", "format": "carousel",
+    state.save_post({"id": "2099-11-01", "status": "approved", "due": "2099-11-02T19:30:00+05:30", "format": "carousel",
                      "topic": {"claim": "x"}, "draft": draft, "history": []})
-    cli.produce("2026-11")
-    assert state.posts("uploaded")[0]["id"] == "2026-11-01" and stages == ["ledger"]
+    cli.produce("2099-11")
+    assert state.posts("uploaded")[0]["id"] == "2099-11-01" and stages == ["ledger"]
 
 
 def test_scorecard_rows_and_per_thousand(tmp_path, monkeypatch):
