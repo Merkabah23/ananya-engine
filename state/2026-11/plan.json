@@ -1,228 +1,42 @@
 [
  {
-  "due": "2026-11-01T20:30:00+05:30",
-  "format": "carousel",
-  "topic": {
-   "title": "4.2 beats 4.9",
-   "claim": "We trust a 4.2-star place more than a 4.9 now, because we've all learned that perfect ratings are usually bought.",
-   "moment": "You skip the 4.9-rated restaurant and pick the 4.2 one with a few angry reviews.",
-   "turn": {
-    "believed": "Higher rating means better place.",
-    "actually": "Too-perfect scores look fake, so a few complaints became proof that a place is real."
-   },
-   "because": "Paid reviews made top scores cheap. Customers adjusted, and honest flaws became the new trust signal.",
-   "payoff": "A few bad reviews are the only reviews nobody paid for.",
-   "lived": false,
-   "behaviour": "Users read one-star reviews first and distrust near-perfect ratings.",
-   "mechanism": "Once ratings can be bought, flaws become the proof of honesty.",
-   "group": "Anyone who checks ratings before ordering",
-   "territory": "creators_internet",
-   "mood": "sharp",
-   "format_name": "saturday_single",
-   "send_to": "The friend who reads only one-star reviews before any order.",
-   "format_hint": "single",
-   "why_now": "Fake reviews are now a known business, and readers have caught on.",
-   "needs_facts": false,
-   "news_peg": null,
-   "evidence": [],
-   "id": "2026-10-301105-048",
-   "score": {
-    "rank": 1,
-    "why": "Everyone has skipped the 4.9 for the 4.2. Flaws as the only unbought review is a sharp turn.",
-    "scores": {
-     "relatable": 5,
-     "fresh_angle": 4,
-     "shareable": 4,
-     "saveable": 3,
-     "because": 5
-    },
-    "format_fit": "single"
-   }
-  }
- },
- {
-  "due": "2026-11-03T20:30:00+05:30",
-  "format": "carousel",
-  "topic": {
-   "title": "The Diwali box got lighter",
-   "claim": "When dry fruit prices double, the gift box doesn't get dearer, it gets lighter, because nobody weighs a gift.",
-   "behaviour": "Corporate buyers with fixed budgets cut the weight in the basket or swap in cheaper items. The box, the ribbon and the card stay the same. Seeds are showing up as gifts instead.",
-   "mechanism": "A gift is judged by how it looks when handed over. Weight and quality are invisible at that moment, so they are the first things to be cut.",
-   "group": "Working Indians who receive or send Diwali boxes at the office",
-   "territory": "business_brands",
-   "mood": "funny",
-   "format_name": "price_tells",
-   "moment": "The office Diwali box arrives and looks the same as last year, only it feels lighter in the hand.",
-   "turn": {
-    "believed": "A bigger price means a smaller gift is a visible loss.",
-    "actually": "The shrink happens inside the box, where nobody checks, and the packaging carries the rest."
-   },
-   "because": "The buyer has a fixed budget and the receiver judges by appearance. So the smart move for the buyer is to cut what can't be seen. The sweet shops pass costs on openly, but the gift boxes do it silently.",
-   "proof": [
-    {
-     "fact": "Wholesale pistachios have gone from Rs 900 to Rs 1,800 per kg and dates from Rs 250 to Rs 500. Corporate gift buyers are working within fixed budgets, cutting basket weights or swapping in cheaper items.",
-     "source_url": "https://www.freepressjournal.in/mumbai/diwali-2026-pistachio-and-date-prices-double-making-festive-gifting-costlier-in-mumbai",
-     "date": "2026-10-23"
-    },
-    {
-     "fact": "Sweet prices in Hyderabad are up 20-25% ahead of Diwali, even though the Centre cut GST on nuts from 12% to 5%.",
-     "source_url": "https://telanganatoday.com/diwali-sweet-prices-leave-bigger-hole-in-families-budgets",
-     "date": "2026-10-25"
-    }
-   ],
-   "lived": false,
-   "payoff": "Weigh the box next year. Nobody does, and that's exactly why it's the first thing to shrink.",
-   "send_to": "The colleague who always opens the box in the pantry and says 'last year it was bigger'",
-   "format_hint": "single",
-   "real_details": [
-    "Demand for seeds as gifts has risen about 30% year on year, per CAIT's Shankar Thakkar.",
-    "A sweet-shop manager said 'We have no option but to pass on the increased costs to customers.'",
-    "Someone weighed a ₹5 Lay's packet with a gold weighing scale (they use it for clay miniatures) and found about 4.32g of chips, though the pack is marketed as 11+1.3g.",
-    "They said it was the lowest amount they had personally ever found in such a packet, and acknowledged it's only ₹5 but still felt cheated.",
-    "Another person asked why their KitKat had no wafer layers inside."
-   ],
-   "evidence": [
-    {
-     "url": "https://www.freepressjournal.in/mumbai/diwali-2026-pistachio-and-date-prices-double-making-festive-gifting-costlier-in-mumbai",
-     "sub": "news",
-     "rank": 11
-    },
-    {
-     "url": "https://telanganatoday.com/diwali-sweet-prices-leave-bigger-hole-in-families-budgets",
-     "sub": "news",
-     "rank": 10
-    },
-    {
-     "url": "https://www.reddit.com/r/indiasocial/comments/1x7ipe1/this_is_the_amount_of_chips_that_was_in_the_5/",
-     "sub": "indiasocial",
-     "rank": 5
-    },
-    {
-     "url": "https://www.reddit.com/r/indiasocial/comments/1x2gxrk/why_does_my_kitkat_not_have_the_wafer_layers/",
-     "sub": "indiasocial",
-     "rank": 18
-    }
-   ],
-   "news_peg": "Reports on 2026-10-23 and 2026-10-25 showed dry fruit and sweet prices climbing before Diwali.",
-   "why_now": "Gift boxes are landing on desks this week.",
-   "counterintuitive": false,
-   "needs_facts": true,
-   "id": "2026-10-301105-004",
-   "score": {
-    "rank": 2,
-    "why": "The office Diwali box that feels lighter. The shrink happens where nobody checks, with dry humour.",
-    "scores": {
-     "relatable": 5,
-     "fresh_angle": 4,
-     "shareable": 5,
-     "saveable": 3,
-     "because": 4
-    },
-    "format_fit": "single"
-   }
-  }
- },
- {
   "due": "2026-11-05T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "The IMAX seat is the film's real product",
-   "claim": "Ramayana's IMAX shows sell out first because people are paying for a story they can tell afterwards, not for a better film.",
-   "behaviour": "Audiences skip the regular screen and book the biggest screen for a big film, even at a higher ticket price. They post the seat or the screen, not the scenes.",
-   "mechanism": "A large film gets sold as an event, and an event needs a visible badge. IMAX is the badge, and the multiplex gets more per seat.",
-   "group": "Urban 24 to 32 year olds who book the 'right' screen for big releases",
-   "territory": "pop_culture",
-   "mood": "sharp",
-   "format_name": "price_tells",
-   "moment": "You open the booking app for a big film and your thumb goes straight to the IMAX show, even though the regular show is half empty.",
+   "title": "The farewell email",
+   "claim": "The nicest things your company will ever say about you are in replies to your farewell email.",
+   "moment": "'Will miss you so much, you were the backbone of this team' from someone who never replied to your messages.",
    "turn": {
-    "believed": "People pay more for IMAX because the film looks better on it.",
-    "actually": "People pay more because the screen announces that they were there at the big moment."
+    "believed": "Farewell praise is finally honest.",
+    "actually": "Praise is free once you're leaving, because it can no longer cost anyone a rating or a raise."
    },
-   "because": "The cinema earns more per seat, and the film earns a bigger opening. You get something to post, so everybody is happy except your wallet.",
-   "proof": [
-    {
-     "fact": "IMAX is about 25% of Ramayana's advance collections from 3.8% of screenings, averaging about 170 tickets per show against 35 for regular shows.",
-     "source_url": "https://www.businesstoday.in/latest/photo/rs1095-for-a-ticket-ramayanas-advance-booking-numbers-reveal-a-big-surprise-563701-2026-10-26",
-     "date": "2026-10-26"
-    }
-   ],
+   "because": "While you stay, praise has to be paid for in money and promotions. On your last day it costs nothing.",
+   "payoff": "If they only called you the backbone on your way out, they knew it all along.",
    "lived": false,
-   "payoff": "Test: would you still pick that screen if you could not tell anyone which one you sat in?",
-   "send_to": "The friend who books the premium show for every big release and calls it 'worth it'.",
-   "format_hint": "single",
-   "real_details": [
-    "Premium recliner seats sold out in some Mumbai cinemas."
-   ],
-   "evidence": [
-    {
-     "url": "https://www.businesstoday.in/latest/photo/rs1095-for-a-ticket-ramayanas-advance-booking-numbers-reveal-a-big-surprise-563701-2026-10-26",
-     "sub": "news",
-     "rank": 44
-    },
-    {
-     "url": "https://www.sacnilk.com/news/ramayana-vs-adipurush-advance-booking-how-the-two-films-compare",
-     "sub": "news",
-     "rank": 45
-    }
-   ],
-   "news_peg": "Ramayana: Part 1 advance booking numbers reported 26 October 2026, release 5 November.",
-   "why_now": "The film opens next week and the screen choice is being made right now.",
-   "counterintuitive": true,
-   "needs_facts": true,
-   "id": "2026-10-301105-020",
-   "score": {
-    "rank": 5,
-    "why": "People pay for the screen that says they were there. Reads as status, not a film review.",
-    "scores": {
-     "relatable": 4,
-     "fresh_angle": 4,
-     "shareable": 5,
-     "saveable": 3,
-     "because": 4
-    },
-    "format_fit": "single"
-   }
-  }
- },
- {
-  "due": "2026-11-07T20:30:00+05:30",
-  "format": "carousel",
-  "topic": {
-   "title": "Whoever writes the notes wins",
-   "claim": "In most offices, the decision belongs to whoever sends the meeting summary, not to whoever spoke best in the meeting.",
-   "moment": "An hour-long call ends with no clear answer, and twenty minutes later someone's email says 'As agreed...'",
-   "turn": {
-    "believed": "Power in meetings goes to the loudest or most senior person.",
-    "actually": "Nobody remembers what was said, so the written recap quietly becomes what was decided."
-   },
-   "because": "Busy people don't argue with an email that looks reasonable. Silence counts as agreement, and the writer picks the words.",
-   "payoff": "Next meeting, send the summary first and watch how often 'As agreed' goes unchallenged.",
-   "lived": false,
-   "behaviour": "People skip writing recaps because it feels like admin, while one person quietly frames every decision in writing.",
-   "mechanism": "Memory fades and the written version is the only one left standing.",
-   "group": "Young professionals in meeting-heavy jobs",
+   "behaviour": "Colleagues reply-all with warm tributes to someone whose appraisal they rated average.",
+   "mechanism": "Praise has a price only while it can turn into a raise.",
+   "group": "Anyone who has switched jobs at least once",
    "territory": "business_brands",
-   "mood": "sharp",
+   "mood": "funny",
    "format_name": "saturday_single",
-   "send_to": "The friend who does all the talking in meetings and still loses every decision.",
+   "send_to": "The friend serving notice period right now.",
    "format_hint": "single",
-   "why_now": "Remote and hybrid work put even more decisions inside emails and chat threads.",
+   "why_now": "Job-switch season is constant, and everyone has read or written one of these recently.",
    "needs_facts": false,
    "news_peg": null,
    "evidence": [],
-   "id": "2026-10-301105-029",
+   "id": "2026-11-021757-032",
    "score": {
     "rank": 3,
-    "why": "Whoever writes 'As agreed' owns the decision. Pure office observation with a test.",
+    "why": "Farewell praise is free because it can no longer cost a rating or a raise. It's dry, human and shareable.",
     "scores": {
      "relatable": 5,
      "fresh_angle": 4,
-     "shareable": 4,
-     "saveable": 4,
+     "shareable": 5,
+     "saveable": 3,
      "because": 5
     },
-    "format_fit": "carousel"
+    "format_fit": "single"
    }
   }
  },
@@ -230,60 +44,38 @@
   "due": "2026-11-08T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "Upskill is the new 'experience required'",
-   "claim": "Every fresher gets told to upskill because it moves the blame for a thin job market from the market to the candidate.",
-   "behaviour": "Graduates stack certificates and courses after a degree, while employers ask for soft skills and ready-to-work freshers. Edtech ads sell the same fix to everyone.",
-   "mechanism": "Employers save on training when candidates pay for it. Course sellers earn when the problem is called a skill gap. Nobody earns anything by calling it a shortage of jobs.",
-   "group": "Freshers and 24 to 28 year olds in their first or second job hunt",
-   "territory": "life_relationships",
-   "mood": "rant",
-   "format_name": "saturday_single",
-   "moment": "You have a degree and two certificates, and the job post still wants two years of experience for an entry-level role.",
+   "title": "Never say 'wedding'",
+   "claim": "Every family planning a wedding learns to call it a 'small family function' on the phone, because the word wedding changes the quote.",
+   "moment": "Your cousin calls the caterer and says 'just a get-together, around 150 people'.",
    "turn": {
-    "believed": "If you can't get hired, you haven't upskilled enough.",
-    "actually": "There are far more people looking than jobs open, and 'upskill' is advice that costs the giver nothing."
+    "believed": "Vendors charge more because weddings are more work.",
+    "actually": "Vendors charge more because families won't bargain on the most emotional day of their lives."
    },
-   "because": "Employers get ready-made hires without paying for training. Course sellers get a fresh customer every year. The candidate pays for both.",
-   "proof": [
-    {
-     "fact": "On the NCS portal, 28.9 million jobseekers were registered against 1.76 million active vacancies as of July 2026.",
-     "source_url": "https://www.businesstoday.in/jobs/story/bt-big-story-no-jobs-no-security-the-crisis-facing-indias-educated-youth-562512-2026-10-21",
-     "date": "2026-10-21"
-    }
-   ],
-   "lived": false,
-   "payoff": "Count how many courses you've done against how many interviews they got you. That ratio is your real market report.",
-   "send_to": "The friend who has done a fifth certificate and is quietly losing confidence.",
+   "because": "People don't want to look cheap at a wedding, and vendors know it. The word itself signals a buyer who won't walk away.",
+   "payoff": "If saying one word adds a lakh, the lakh was never for the work.",
+   "lived": true,
+   "behaviour": "Families hide the occasion while booking venues, decor and photographers to get normal rates.",
+   "mechanism": "Vendors price on how little the buyer will push back, and wedding buyers push back least.",
+   "group": "Young adults helping plan their own or a sibling's wedding",
+   "territory": "money_status",
+   "mood": "funny",
+   "format_name": "family_ledger",
+   "send_to": "The sibling who is booking the venue next month.",
    "format_hint": "single",
-   "real_details": [
-    "Indeed's survey of 2,633 job seekers found 70% say a first job is harder to get than three to five years ago."
-   ],
-   "evidence": [
-    {
-     "url": "https://www.businesstoday.in/jobs/story/bt-big-story-no-jobs-no-security-the-crisis-facing-indias-educated-youth-562512-2026-10-21",
-     "sub": "news",
-     "rank": 21
-    },
-    {
-     "url": "https://aifront-page.com/iit-madras-ai-jobs-report-entry-level-risk/",
-     "sub": "news",
-     "rank": 22
-    }
-   ],
-   "news_peg": "Business Today's big story on youth unemployment, published 2026-10-21, using the August 2026 PLFS and July 2026 NCS data.",
-   "why_now": "Fresh youth jobs data is out and the upskilling pitch is louder than ever.",
-   "counterintuitive": false,
-   "needs_facts": true,
-   "id": "2026-10-301105-010",
+   "why_now": "Wedding season is on, and every family is calling vendors right now.",
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-11-021757-038",
    "score": {
     "rank": 4,
-    "why": "'Upskill' moves blame from the market to the candidate. A rant with a clear who-gains.",
+    "why": "Calling a wedding a 'get-together' to dodge the quote. It's a family arrangement nobody names, and the closing line stings.",
     "scores": {
-     "relatable": 5,
+     "relatable": 4,
      "fresh_angle": 4,
      "shareable": 5,
      "saveable": 3,
-     "because": 5
+     "because": 4
     },
     "format_fit": "single"
    }
@@ -293,38 +85,38 @@
   "due": "2026-11-09T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "You're renting the table, not buying coffee",
-   "claim": "A ₹350 cold coffee is overpriced as a drink and fairly priced as two hours of a quiet table, and that's the honest deal.",
-   "moment": "You sit in a café with a laptop for three hours on one drink, and nobody asks you to leave.",
+   "title": "The handwritten note printed in lakhs",
+   "claim": "The 'note from our founder' in the box is the cheapest part of the packaging and the part that sells the next order.",
+   "moment": "You open a D2C parcel and find a cursive card that says 'Made with love, just for you'.",
    "turn": {
-    "believed": "Café coffee is a scam for people who want to look premium.",
-    "actually": "Our cities have almost no public places to sit, so cafés sell space, and the coffee is the ticket."
+    "believed": "It's a personal touch from a small brand.",
+    "actually": "It's a printed card that makes a factory product feel like a gift from a person."
    },
-   "because": "Small homes, crowded offices and few libraries mean a table with Wi-Fi is scarce. The café prices the space into the cup.",
-   "payoff": "The coffee is ₹350. The chair is the product.",
+   "because": "People forgive a higher price when they feel they know who made it. A card costs a few rupees and buys that feeling.",
+   "payoff": "Try this: read the note from your last two D2C orders side by side.",
    "lived": false,
-   "behaviour": "People work, date and hold meetings in cafés for hours on one order.",
-   "mechanism": "Space is scarce, so it gets sold disguised as a drink.",
-   "group": "Young urban workers and students",
-   "territory": "money_status",
-   "mood": "mixed",
-   "format_name": "price_tells",
-   "send_to": "The friend who complains about café prices from the same café every weekend.",
+   "behaviour": "D2C brands add founder notes and thank-you cards; buyers post unboxings and reorder.",
+   "mechanism": "A small story lets a brand charge for a feeling instead of the product.",
+   "group": "Online shoppers who buy from D2C brands",
+   "territory": "business_brands",
+   "mood": "funny",
+   "format_name": "behind_the_brand",
+   "send_to": "The friend who keeps every cute card from every parcel.",
    "format_hint": "carousel",
-   "why_now": "Café chains keep opening across cities while rents climb.",
+   "why_now": "Almost every D2C brand now ships with the same kind of personal-touch insert.",
    "needs_facts": false,
    "news_peg": null,
    "evidence": [],
-   "id": "2026-10-301105-035",
+   "id": "2026-11-021757-041",
    "score": {
-    "rank": 6,
-    "why": "The chair is the product, not the coffee. A fair-deal view of something people grumble about.",
+    "rank": 7,
+    "why": "The founder note card is a few rupees of printing that sells the next order. It's a behind-the-brand view of what D2C is selling.",
     "scores": {
      "relatable": 4,
      "fresh_angle": 4,
-     "shareable": 5,
+     "shareable": 4,
      "saveable": 3,
-     "because": 5
+     "because": 4
     },
     "format_fit": "carousel"
    }
@@ -334,37 +126,37 @@
   "due": "2026-11-10T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "Fantasy apps changed who we cheer for",
-   "claim": "Fantasy cricket quietly turned fans of teams into fans of their own points, and a six against your team can now make you happy.",
-   "moment": "Your team is losing, but you cheer because the opposition batter is your captain.",
+   "title": "Kinder to the laid off than the promoted",
+   "claim": "LinkedIn is kinder to someone who lost a job than to someone who got promoted, and both posts tell you something about us.",
+   "moment": "An 'open to work' post gets 400 warm comments; a promotion post gets 30 likes and a few 'congrats bro'.",
    "turn": {
-    "believed": "We watch cricket for our team.",
-    "actually": "Many of us now watch for our fantasy squad, and loyalty got split across both sides."
+    "believed": "People online love success stories.",
+    "actually": "Sympathy is easy to give, while cheering for someone's win quietly makes us measure our own."
    },
-   "because": "Fantasy apps make money when every ball matters to you personally. Team loyalty doesn't pay them, your players do.",
-   "payoff": "Test: did you cheer for the other team's wicket-keeper this season?",
+   "because": "Helping someone who is down makes us feel generous. Clapping for someone ahead of us makes us feel behind. The good part is real though: the referrals that follow a layoff post often work.",
+   "payoff": "Notice whose good news you scrolled past this week. That's the honest list of who you compare yourself to.",
    "lived": false,
-   "behaviour": "Fans track player points and cheer for individuals across teams.",
-   "mechanism": "Money on players breaks loyalty to teams.",
-   "group": "Cricket fans who play fantasy",
-   "territory": "pop_culture",
+   "behaviour": "People flood layoff posts with support and referrals but skim past promotions.",
+   "mechanism": "Support costs nothing to our ego, praise for a peer does.",
+   "group": "Professionals active on LinkedIn",
+   "territory": "creators_internet",
    "mood": "mixed",
    "format_name": "feed_anthropology",
-   "send_to": "The friend who celebrated a wicket against their own city's team.",
+   "send_to": "The friend who just posted 'open to work' and felt embarrassed about it.",
    "format_hint": "carousel",
-   "why_now": "The cricket season is busy, and fantasy talk fills every group chat.",
+   "why_now": "Layoffs and AI-led role cuts keep these posts in everyone's feed.",
    "needs_facts": false,
    "news_peg": null,
    "evidence": [],
-   "id": "2026-10-301105-050",
+   "id": "2026-11-021757-045",
    "score": {
-    "rank": 12,
-    "why": "Fantasy apps split fan loyalty, so a six against your team can make you happy. Funny and true.",
+    "rank": 8,
+    "why": "LinkedIn gives more warmth to a layoff than to a promotion. It's mixed feelings with a real turn about how we measure ourselves.",
     "scores": {
      "relatable": 4,
      "fresh_angle": 4,
      "shareable": 4,
-     "saveable": 2,
+     "saveable": 3,
      "because": 4
     },
     "format_fit": "carousel"
@@ -372,203 +164,180 @@
   }
  },
  {
-  "due": "2026-11-11T20:30:00+05:30",
+  "due": "2026-11-25T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "The monthly plan is the expensive plan",
-   "claim": "We pay more for anything sold by the month, and the new FASTag pass shows it in plain numbers.",
-   "behaviour": "People take the small monthly option because it is easy to say yes to, and never compare it with the yearly one.",
-   "mechanism": "Monthly plans sell the feeling of low commitment. Sellers earn extra from everyone who never does the yearly sum.",
-   "group": "Salaried people who live on subscriptions, passes and auto-pay",
+   "title": "We read the EMI, not the loan",
+   "claim": "We'll compare two apps for twenty minutes over ₹40, then sign a home loan where a longer tenure quietly adds lakhs.",
+   "moment": "The bank says 'we can bring the EMI down if we stretch it to 25 years' and everyone at the table relaxes.",
+   "turn": {
+    "believed": "A lower EMI means the loan got cheaper.",
+    "actually": "A longer tenure usually means far more interest overall, and the bank earns more from it."
+   },
+   "because": "We feel the EMI every month, but the total interest is a number we never see on one screen. Banks sell the comfortable monthly figure.",
+   "payoff": "Before you sign, ask for the total you'll pay over the full loan. Then decide if the low EMI still feels good.",
+   "lived": false,
+   "behaviour": "Buyers pick longer tenures to fit EMIs; banks offer tenure stretches as a favour.",
+   "mechanism": "Monthly comfort hides the total cost, which is where the bank earns.",
+   "group": "First-time home buyers, late 20s to early 30s",
    "territory": "money_status",
    "mood": "dark_pattern",
    "format_name": "price_tells",
-   "moment": "You renew something on auto-pay every month and have no idea what the year costs.",
-   "turn": {
-    "believed": "A small monthly payment is the careful, flexible choice.",
-    "actually": "The flexible choice is the one that costs the most over a year."
-   },
-   "because": "A low monthly figure hides the total, and not many people sit down and multiply. That gap is the seller's margin.",
-   "proof": [
-    {
-     "fact": "The annual FASTag local pass costs ₹1,500 at plazas outside town limits, while the current monthly local pass costs ₹360, or ₹4,320 a year.",
-     "source_url": "https://www.businesstoday.in/india/story/fastag-new-rules-from-november-1-who-can-apply-how-much-will-it-cost-and-more-564186-2026-10-28",
-     "date": "2026-10-28"
-    }
-   ],
-   "lived": false,
-   "payoff": "Test: pick one auto-pay today and multiply it by twelve before you renew.",
-   "send_to": "The friend with six subscriptions and no idea what they cost together.",
+   "send_to": "The couple in your life who is about to book their first flat.",
    "format_hint": "carousel",
-   "real_details": [
-    "Living nearby does not qualify someone automatically; the pass is not available on closed-user-fee highways or where a service road exists."
-   ],
-   "evidence": [
-    {
-     "url": "https://www.businesstoday.in/india/story/fastag-new-rules-from-november-1-who-can-apply-how-much-will-it-cost-and-more-564186-2026-10-28",
-     "sub": "news",
-     "rank": 48
-    }
-   ],
-   "news_peg": "NHAI annual FASTag local pass from 1 November 2026, reported 28 October.",
-   "why_now": "The pass starts this week and puts a monthly-versus-yearly gap in print.",
-   "counterintuitive": true,
-   "needs_facts": true,
-   "id": "2026-10-301105-025",
-   "score": {
-    "rank": 8,
-    "why": "Monthly pricing hides the yearly total. The multiply-by-twelve test is saveable, and the FASTag numbers back it.",
-    "scores": {
-     "relatable": 4,
-     "fresh_angle": 4,
-     "shareable": 4,
-     "saveable": 5,
-     "because": 4
-    },
-    "format_fit": "carousel"
-   }
-  }
- },
- {
-  "due": "2026-11-12T20:30:00+05:30",
-  "format": "carousel",
-  "topic": {
-   "title": "Salary secrecy only ever protected the company",
-   "claim": "Younger colleagues telling each other their salaries feels rude to older managers, and it's one of the best things happening in offices.",
-   "moment": "Two juniors compare offer letters over lunch and one realises she's paid less for the same work.",
-   "turn": {
-    "believed": "Talking about salary is unprofessional and causes trouble.",
-    "actually": "Secrecy let companies pay people differently for the same job, and silence helped only them."
-   },
-   "because": "When nobody knows the range, nobody can ask for it. Sharing numbers gives workers the one thing HR always had.",
-   "payoff": "If your company discourages salary talk, ask who benefits from you not knowing.",
-   "lived": true,
-   "behaviour": "Young employees share pay openly with peers and on anonymous apps.",
-   "mechanism": "Information was the company's leverage, and sharing it moves leverage to workers.",
-   "group": "Early-career employees",
-   "territory": "business_brands",
-   "mood": "warm",
-   "format_name": "behind_the_brand",
-   "send_to": "The colleague who thinks asking a peer's salary is bad manners.",
-   "format_hint": "carousel",
-   "why_now": "Appraisal season is when these lunch conversations happen most.",
-   "needs_facts": false,
-   "news_peg": null,
-   "evidence": [
-    {
-     "url": "https://www.reddit.com/r/IndianWorkplace/comments/1wwpt4e/lets_be_real_how_much_do_you_earn_and_whats_your/",
-     "sub": "IndianWorkplace",
-     "rank": 19
-    }
-   ],
-   "real_details": [
-    "A thread asked people to share role, first salary, current salary and age so salary figures come with the journey behind them.",
-    "The poster started with their own: product designer, ₹3 LPA first salary, ₹35 LPA now, age 28.",
-    "They noted that it might take 10 years or 3 years with 6 job switches to reach a high salary, so context matters.",
-    "The post got a bigger response than they expected."
-   ],
-   "id": "2026-10-301105-045",
-   "score": {
-    "rank": 14,
-    "why": "Salary secrecy only ever helped the company. The genuinely good side of a generational shift.",
-    "scores": {
-     "relatable": 4,
-     "fresh_angle": 4,
-     "shareable": 4,
-     "saveable": 3,
-     "because": 4
-    },
-    "format_fit": "carousel"
-   }
-  }
- },
- {
-  "due": "2026-11-22T20:30:00+05:30",
-  "format": "carousel",
-  "topic": {
-   "title": "We review a film by its second half",
-   "claim": "A comedy gets forgiven for a weak first hour, but a weak last hour is never forgiven, because the last hour is what we carry home.",
-   "behaviour": "Viewers of Udta Teer laughed, called it paisa-vasool, then argued about the second half, the romance and the climax. The argument is what gets posted.",
-   "mechanism": "We remember how a thing ended and how we felt walking out. Reviews are written in the parking lot, not in the interval.",
-   "group": "People who watch a film on the first weekend and then argue about it online",
-   "territory": "pop_culture",
-   "mood": "funny",
-   "format_name": "saturday_single",
-   "moment": "You laugh for an hour, then check your phone in the last twenty minutes, and the film is judged right there.",
-   "turn": {
-    "believed": "A film is rated on everything it did.",
-    "actually": "A film is rated on the part you were tired during."
-   },
-   "because": "Attention drops after the interval, so the climax has to work the hardest with the least goodwill left.",
-   "proof": [],
-   "lived": false,
-   "payoff": "Test: write your review before the last 30 minutes, then after. See which one you would post.",
-   "send_to": "The friend who always says 'first half was great, but...'",
-   "format_hint": "single",
-   "real_details": [
-    "Viewers praised the humour and Ayushmann Khurrana; many said the second half dropped and the climax was illogical."
-   ],
-   "evidence": [
-    {
-     "url": "https://theprint.in/feature/udta-teer-funny-internet-second-half/3080663/",
-     "sub": "news",
-     "rank": 42
-    }
-   ],
-   "news_peg": "Udta Teer audience reaction reported 24 October 2026.",
-   "why_now": "The film is in theatres and the argument is live.",
-   "counterintuitive": false,
-   "needs_facts": false,
-   "id": "2026-10-301105-022",
-   "score": {
-    "rank": 15,
-    "why": "A film is rated on the part you were tired during. Everyone has done this, and few have noticed it.",
-    "scores": {
-     "relatable": 4,
-     "fresh_angle": 4,
-     "shareable": 4,
-     "saveable": 3,
-     "because": 4
-    },
-    "format_fit": "single"
-   }
-  }
- },
- {
-  "due": "2026-11-23T20:30:00+05:30",
-  "format": "carousel",
-  "topic": {
-   "title": "Gyms sell to people who won't come",
-   "claim": "A gym's annual plan is priced for the members who stop coming by March, and the business only works because they do.",
-   "moment": "January, the gym is packed. By March, you get your favourite machine back.",
-   "turn": {
-    "believed": "Gyms want you to come every day.",
-    "actually": "If every member showed up, the gym couldn't fit them. It counts on most people staying home."
-   },
-   "because": "Annual plans take money upfront from people buying a better version of themselves. Their absence pays for the space.",
-   "payoff": "Your unused gym membership is paying for someone else's treadmill.",
-   "lived": false,
-   "behaviour": "People buy annual plans with big discounts and stop going in weeks.",
-   "mechanism": "Upfront payment plus low attendance is the business model.",
-   "group": "Young professionals who bought a plan on a resolution",
-   "territory": "money_status",
-   "mood": "funny",
-   "format_name": "saturday_single",
-   "send_to": "The friend who has paid for a gym they've visited eleven times.",
-   "format_hint": "single",
-   "why_now": "New Year plan pitches start in a few weeks.",
+   "why_now": "With flats costing a decade or more of salary, longer loans are becoming the default.",
    "needs_facts": false,
    "news_peg": null,
    "evidence": [],
-   "id": "2026-10-301105-042",
+   "id": "2026-11-021757-043",
    "score": {
-    "rank": 17,
-    "why": "The gym business works because members stay home. Funny and self-implicating.",
+    "rank": 9,
+    "why": "We compare apps over ₹40 and then take the low EMI of a longer loan. It's a dark pattern with a test the reader can run before signing.",
+    "scores": {
+     "relatable": 4,
+     "fresh_angle": 4,
+     "shareable": 4,
+     "saveable": 4,
+     "because": 4
+    },
+    "format_fit": "carousel"
+   }
+  }
+ },
+ {
+  "due": "2026-11-26T20:30:00+05:30",
+  "format": "carousel",
+  "topic": {
+   "title": "Dropped on Friday, forgotten by Wednesday",
+   "claim": "The show everyone binged on the weekend is forgotten by midweek, and the platform is mostly fine with that.",
+   "moment": "Friday it's all your group chat talks about; by Wednesday nobody remembers the lead's name.",
+   "turn": {
+    "believed": "A show flops when people stop talking about it.",
+    "actually": "Platforms often measure signups and watch hours in the first days, not how long a show stays in conversation."
+   },
+   "because": "Dropping every episode at once pulls people in for one weekend. Weekly releases keep a show alive longer, which is why big shows lately come out in parts.",
+   "payoff": "The shows you still quote years later were almost all ones you had to wait for.",
+   "lived": false,
+   "behaviour": "Platforms release full seasons at once; viewers binge and move on.",
+   "mechanism": "Platforms reward a weekend spike more than slow, lasting talk.",
+   "group": "OTT viewers in their 20s and 30s",
+   "territory": "pop_culture",
+   "mood": "mixed",
+   "format_name": "feed_anthropology",
+   "send_to": "The friend who finishes a season in one night and then has nobody to discuss it with.",
+   "format_hint": "carousel",
+   "why_now": "More big shows are switching between full drops and split releases.",
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-11-021757-050",
+   "score": {
+    "rank": 10,
+    "why": "Weekend binge, forgotten by Wednesday, and the platform is fine with that. It's pop culture seen from the seller's side.",
+    "scores": {
+     "relatable": 4,
+     "fresh_angle": 4,
+     "shareable": 4,
+     "saveable": 3,
+     "because": 4
+    },
+    "format_fit": "carousel"
+   }
+  }
+ },
+ {
+  "due": "2026-11-27T20:30:00+05:30",
+  "format": "carousel",
+  "topic": {
+   "title": "The badge swipe is the real KPI",
+   "claim": "Three mandatory office days have little to do with collaboration and a lot to do with managers who can't measure work, so they measure presence.",
+   "moment": "You commute ninety minutes to sit on Teams calls with people on the same floor.",
+   "turn": {
+    "believed": "Return to office is about culture and teamwork.",
+    "actually": "Swiping in is the easiest thing to count, and a counted thing feels like control."
+   },
+   "because": "Judging output takes effort and judgment. A badge report lands on the HR dashboard by itself, and an empty floor looks bad to the people paying the lease.",
+   "payoff": "If the meeting could happen from home, the office day was for someone else's spreadsheet.",
+   "lived": false,
+   "behaviour": "Companies track swipe-ins and link them to appraisals; employees come in, sit on calls, and leave after the minimum hours.",
+   "mechanism": "Presence is easier to measure than output, so presence becomes the metric.",
+   "group": "Hybrid office workers in metros",
+   "territory": "business_brands",
+   "mood": "rant",
+   "format_name": "behind_the_brand",
+   "send_to": "The colleague who also took a call in the office stairwell because every room was booked.",
+   "format_hint": "carousel",
+   "why_now": "More firms keep tightening office mandates and linking attendance to reviews.",
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-11-021757-029",
+   "score": {
+    "rank": 11,
+    "why": "Three office days mean managers count presence because output is hard to measure. It's a rant most readers have lived.",
     "scores": {
      "relatable": 5,
      "fresh_angle": 4,
      "shareable": 5,
-     "saveable": 2,
+     "saveable": 3,
+     "because": 4
+    },
+    "format_fit": "carousel"
+   }
+  }
+ },
+ {
+  "due": "2026-11-28T20:30:00+05:30",
+  "format": "carousel",
+  "topic": {
+   "title": "Reach is rented, not owned",
+   "claim": "Every Indian creator's income sits on land they do not own, and one bad week can cut it by two thirds.",
+   "behaviour": "Creator Raghav Trivedi had eight videos taken down in 48 hours and says his reach fell from 100 million to 30 million in October. Creators say they fear re-uploading deleted videos risks further restrictions.",
+   "mechanism": "A creator's audience belongs to the platform, which can change its distribution or remove posts. Followers are a number the platform lends out.",
+   "group": "Creators and the people who depend on creator income aged 22 to 32",
+   "territory": "creators_internet",
+   "mood": "dark_pattern",
+   "format_name": "feed_anthropology",
+   "moment": "You see a creator you follow post 'please share, my reach is down' and you wonder what happened.",
+   "turn": {
+    "believed": "A big following is an asset you own.",
+    "actually": "It is a lease that the platform can renegotiate without telling you."
+   },
+   "because": "Platforms moderate at scale, often automatically, and the person affected has little way to argue. The risk lands entirely on the creator.",
+   "proof": [
+    {
+     "fact": "SFLC.in recorded 268 content restrictions and 83 account restrictions across Meta platforms, X, Reddit and YouTube in October, with Instagram having the most, 174 posts and 59 accounts.",
+     "source_url": "https://thenewsminute.com/news/legal-requests-automated-takedowns-shrinking-reach-how-meta-is-restricting-content",
+     "date": "2026-11-01"
+    }
+   ],
+   "lived": false,
+   "payoff": "Test: if the platform vanished tomorrow, could you reach your audience by any other route? If not, it is not your audience.",
+   "send_to": "The friend who plans to quit a job to become a full-time creator.",
+   "format_hint": "single",
+   "real_details": [
+    "Raghav Trivedi has 772,000 followers"
+   ],
+   "evidence": [
+    {
+     "url": "https://thenewsminute.com/news/legal-requests-automated-takedowns-shrinking-reach-how-meta-is-restricting-content",
+     "sub": "news",
+     "rank": 27
+    }
+   ],
+   "news_peg": "Report on Instagram takedowns cutting creator reach, dated 2026-11-01",
+   "why_now": "Creators are talking openly about reach drops this month.",
+   "counterintuitive": true,
+   "needs_facts": false,
+   "id": "2026-11-021757-015",
+   "score": {
+    "rank": 17,
+    "why": "A following is a lease the platform can renegotiate, not an asset you own. It's the downside of the 'everyone is a brand' belief, with a test to run.",
+    "scores": {
+     "relatable": 4,
+     "fresh_angle": 4,
+     "shareable": 4,
+     "saveable": 4,
      "because": 4
     },
     "format_fit": "single"
@@ -576,35 +345,127 @@
   }
  },
  {
-  "due": "2026-11-24T20:30:00+05:30",
+  "due": "2026-11-29T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "Trailer view counts are a marketing budget",
-   "claim": "'Most viewed trailer in 24 hours' tells you how much was spent promoting it, not how much people want to watch the film.",
-   "moment": "A poster announces a trailer record, and fans fight in comments over whose star won.",
+   "title": "The menu price goes up and nobody says why",
+   "claim": "Restaurants quietly pass on their gas bill with a small bump on the menu, and we call it inflation instead of asking.",
+   "behaviour": "A dish costs ₹20 more than last month and there is no notice. You assume the place is greedy or the world is expensive. The kitchen's cooking gas has gone up while the one in your home hasn't.",
+   "mechanism": "A restaurant can't send a bill for the cylinder, so the cost moves a rupee at a time into the menu. Small changes are less likely to make a customer leave than one big one.",
+   "group": "People who eat out or order in every week",
+   "territory": "business_brands",
+   "mood": "mixed",
+   "format_name": "behind_the_brand",
+   "moment": "You order your usual and the total is a little higher. You don't check why.",
    "turn": {
-    "believed": "Trailer views measure hype.",
-    "actually": "Views come from ads, pushes and fan clubs, and the record is announced to create more hype."
+    "believed": "Menu prices go up because restaurants are greedy.",
+    "actually": "Some of it is a real cost, passed on in pieces small enough that we don't push back."
    },
-   "because": "A big number makes undecided viewers feel they're missing something. The record is part of the marketing, not a result of it.",
-   "payoff": "Watch the films that broke trailer records and check how many actually ran in theatres.",
+   "because": "A business protects its margin without announcing it. We keep paying because a ₹20 change is easier to accept than to question.",
+   "proof": [
+    {
+     "fact": "The 19 kg commercial cylinder is ₹2,810 in Delhi, while the 14.2 kg domestic cylinder is ₹942 in Delhi and has been unchanged since June 7, 2026. Many restaurants have raised menu prices.",
+     "source_url": "https://www.goodreturns.in/news/gas-cylinder-new-rules-in-november-2026-big-changes-likely-for-indane-gas-hp-gas-bharat-gas-diwali-1542483.html",
+     "date": "2026-10-19"
+    }
+   ],
    "lived": false,
-   "behaviour": "Studios promote trailers heavily and post 'record' numbers within a day.",
-   "mechanism": "A big number creates the hype it claims to measure.",
-   "group": "Film fans who track box office talk",
-   "territory": "pop_culture",
-   "mood": "sharp",
-   "format_name": "feed_anthropology",
-   "send_to": "The friend who fights star fan wars over trailer views.",
-   "format_hint": "carousel",
-   "why_now": "Big releases are lining up for the year-end and holiday window.",
-   "needs_facts": "Whether paid ad plays count toward public YouTube view numbers.",
-   "news_peg": null,
-   "evidence": [],
-   "id": "2026-10-301105-049",
+   "payoff": "Your home cylinder price stayed put while your biryani didn't. Notice who is carrying the gas bill.",
+   "send_to": "The friend who complains about delivery prices and orders anyway.",
+   "format_hint": "single",
+   "real_details": [
+    "Commercial LPG is ₹2,764.50 in Mumbai and ₹2,983 in Chennai",
+    "The article says price rises eventually reach consumers"
+   ],
+   "evidence": [
+    {
+     "url": "https://www.goodreturns.in/news/gas-cylinder-new-rules-in-november-2026-big-changes-likely-for-indane-gas-hp-gas-bharat-gas-diwali-1542483.html",
+     "sub": "news",
+     "rank": 57
+    },
+    {
+     "url": "https://www.businesstoday.in/latest/economy/story/indias-retail-inflation-rises-to-5-54-in-september-food-inflation-hits-7-74-561057-2026-10-12",
+     "sub": "news",
+     "rank": 53
+    }
+   ],
+   "news_peg": "Goodreturns report of 19 October 2026 on commercial LPG at ₹2,810 in Delhi and restaurants raising menu prices",
+   "why_now": "Diwali and winter mean more eating out, just as menus are getting repriced.",
+   "counterintuitive": false,
+   "needs_facts": true,
+   "id": "2026-11-021757-023",
    "score": {
-    "rank": 16,
-    "why": "A trailer record is part of the marketing, not a result of it. Fan wars are the obvious audience.",
+    "rank": 13,
+    "why": "The restaurant gas bill is passed on in ₹20 bumps while the home cylinder stays put. It's a mixed take with a real cost behind it.",
+    "scores": {
+     "relatable": 4,
+     "fresh_angle": 4,
+     "shareable": 3,
+     "saveable": 3,
+     "because": 4
+    },
+    "format_fit": "single"
+   }
+  }
+ },
+ {
+  "due": "2026-11-30T20:30:00+05:30",
+  "format": "carousel",
+  "topic": {
+   "title": "Diwali ads now sell the relief of not doing Diwali",
+   "claim": "This year's Diwali ads stopped selling the festival and started selling the errand you want to skip.",
+   "behaviour": "Zomato's film pushes restaurant hampers as gifts instead of towels, bedsheets and crockery. Instamart's film has a tired husband wearing a chandelier after a late-night party, ending with a delivery. Both ads sell the person who wants the work done for them.",
+   "mechanism": "Brands know the festival is now a to-do list for working people. The best pitch is the version where someone else does the list for a fee.",
+   "group": "Working couples and singles who run Diwali as a task list",
+   "territory": "business_brands",
+   "mood": "sharp",
+   "format_name": "behind_the_brand",
+   "moment": "It is the week before Diwali and your head has a list: gifts, decor, cleaning, sweets, and you are already tired.",
+   "turn": {
+    "believed": "Diwali ads are about family, light and togetherness.",
+    "actually": "The ads now compete to take over the chores around Diwali, and the gift itself is becoming something you order rather than choose."
+   },
+   "because": "A platform earns by becoming your default for gifts and decor. If the film makes the chore look like the enemy, the delivery looks like love.",
+   "proof": [
+    {
+     "fact": "Zomato's Diwali film with Saif Ali Khan pushes food hampers as gifts instead of towels, bedsheets and crockery.",
+     "source_url": "https://www.storyboard18.com/brand-marketing/zomato-launches-have-a-wow-diwali-campaign-with-saif-ali-khan-113798.htm",
+     "date": "2026-11-01"
+    },
+    {
+     "fact": "Swiggy's Instamart film skips lit-up homes and family gatherings, and a husband appears wearing a crystal chandelier to exaggerate his tiredness.",
+     "source_url": "https://www.storyboard18.com/brand-marketing/instamart-diwali-campaign-features-man-wearing-chandelier-to-promote-home-decor-113768.htm",
+     "date": "2026-10-31"
+    }
+   ],
+   "lived": false,
+   "payoff": "Watch the next Diwali ad and ask who is doing the work in it. If nobody is, you are the customer.",
+   "send_to": "The friend who spends Dhanteras week answering 'what do I even gift this year'.",
+   "format_hint": "carousel",
+   "real_details": [
+    "Zomato's film was made in-house",
+    "Instamart says its festive range covers linen, decor, cleaning supplies, electronics, appliances and beauty hampers"
+   ],
+   "evidence": [
+    {
+     "url": "https://www.storyboard18.com/brand-marketing/zomato-launches-have-a-wow-diwali-campaign-with-saif-ali-khan-113798.htm",
+     "sub": "news",
+     "rank": 0
+    },
+    {
+     "url": "https://www.storyboard18.com/brand-marketing/instamart-diwali-campaign-features-man-wearing-chandelier-to-promote-home-decor-113768.htm",
+     "sub": "news",
+     "rank": 0
+    }
+   ],
+   "news_peg": "Zomato and Instamart Diwali campaigns launched 2026-10-31 and 2026-11-01",
+   "why_now": "Diwali is days away and both ads are live.",
+   "counterintuitive": true,
+   "needs_facts": false,
+   "id": "2026-11-021757-002",
+   "score": {
+    "rank": 15,
+    "why": "Diwali ads now sell taking over the chore, so the delivery looks like love. It's a sharp read on a campaign everyone saw, and it rests on two sourced facts.",
     "scores": {
      "relatable": 4,
      "fresh_angle": 4,

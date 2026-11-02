@@ -1,6 +1,6 @@
 {
  "id": "2026-11-91",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-08T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -62,6 +62,1015 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-10-30T11:06:32.155351+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "slide 4: 'No course fixes a ratio like that. It just decides who gets blamed for it.' restates the cover's point. Cut it down to one short line, or replace it with a beat the topic already holds, such as 'entry level' meaning the job is entry level but the hire isn't. Keep the 16-per-vacancy figure as the only number.",
+     "slide 3: 'a fake strike-through price' is an accusation about course sellers that nothing in the sources supports. Say 'a strike-through price that is always on sale' or drop the word 'fake'. The scene works without it.",
+     "slide 5: 'a fresh batch of you every July' adds a timing detail with no source. Use 'every year', which is what the topic says. Also keep 'Nobody earns a rupee by calling it a shortage of jobs' as the line that lands, and trim the 'And you also carry the shame' sentence if it feels like extra explaining.",
+     "slide 6: 'That ratio is your real market report' is a slight logic stretch, because your personal ratio also reflects your CV. Tie it back to slide 4 so the test reads as a way to see the market, not to judge yourself. For example: if the interviews are few, that isn't a skill gap, it's the 16 in the queue ahead of you. Keep the badge line, which stings well.",
+     "slide 2: this is the strongest slide. To make it more specific to the reader, add one small detail of the wait after applying, for example the portal showing 'Application viewed' and then silence, so the move from the job post to 'upskill, yaar' feels like time passing."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Says more than the sources: 'On the government's National Career Service (NCS) portal, about 16 jobseekers were registered for every active vacancy in July 2026.'. What's true: The ratio is about 16 (16.3), but it uses ACTIVE jobseekers, not all registered ones. Official figures as of 15 July 2026: 2.89 crore (28.9 million) active jobseekers against 17.68 lakh (about 1.77 million) active vacancies. That is about 16.3 active jobseekers per active vacancy. The lead's 1.76 million vacancies is slightly off. Total registered jobseekers since inception are 6.64 crore, which would give a ratio of about 37.5 per active vacancy. The post should say 'active jobseekers'. The figures were first reported on 2026-08-05, from a Lok Sabha written reply of 3 August. The lead's date of 2026-10-21 is not the first report..",
+     "Only weak sources for: 'Certificates listed on LinkedIn profiles can display a 'Show credential' button.'. Find a primary source or a major outlet, or cut it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "On the government's National Career Service (NCS) portal, about 16 jobseekers were registered for every active vacancy in July 2026.",
+      "sentence": "On the government's own NCS portal, about 16 jobseekers were registered for every active vacancy in July 2026.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c2",
+      "text": "The NCS portal is run by the Indian government.",
+      "sentence": "On the government's own NCS portal",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Certificates listed on LinkedIn profiles can display a 'Show credential' button.",
+      "sentence": "your two certificates sit on LinkedIn with that little 'Show credential' button.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Because there are far more registered jobseekers than vacancies (about 16 per vacancy), extra courses cannot fix the shortage of jobs; telling freshers to 'upskill' therefore shifts blame for a thin job market onto candidates, while employers get hires they need not train and course sellers get paying customers.",
+      "sentence": "No course fixes a ratio like that. It just decides who gets blamed for it.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "misframed",
+      "event_date": "2026-07-15",
+      "correct": "The ratio is about 16 (16.3), but it uses ACTIVE jobseekers, not all registered ones. Official figures as of 15 July 2026: 2.89 crore (28.9 million) active jobseekers against 17.68 lakh (about 1.77 million) active vacancies. That is about 16.3 active jobseekers per active vacancy. The lead's 1.76 million vacancies is slightly off. Total registered jobseekers since inception are 6.64 crore, which would give a ratio of about 37.5 per active vacancy. The post should say 'active jobseekers'. The figures were first reported on 2026-08-05, from a Lok Sabha written reply of 3 August. The lead's date of 2026-10-21 is not the first report.",
+      "sources": [
+       {
+        "url": "https://ddindia.co.in/2026/08/ncs-portal-records-17-68-lakh-active-vacancies-2-89-crore-active-jobseekers/",
+        "publisher": "DD News / DD India (Prasar Bharati)",
+        "published_date": "2026-08-05",
+        "quote": "As of July 15, 2026, the portal has 2.89 crore active jobseekers and 17.68 lakh active vacancies.",
+        "tier": 2
+       },
+       {
+        "url": "https://newsable.asianetnews.com/india/ncs-portal-6-64-crore-jobseekers-registered-says-mansukh-mandaviya-articleshow-x1v6x49",
+        "publisher": "Asianet Newsable",
+        "published_date": "2026-08-05",
+        "quote": "NCS portal 6.64 crore jobseekers registered says Mansukh Mandaviya (headline; 6.64 crore is the total registered since inception)",
+        "tier": 3
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2015-07-20",
+      "correct": "The NCS portal (ncs.gov.in) is run by the Ministry of Labour and Employment, Government of India. It is run through the Directorate General of Employment. The 2015 launch date comes from secondary accounts and is not confirmed by a primary source.",
+      "sources": [
+       {
+        "url": "https://ddindia.co.in/2026/08/ncs-portal-records-17-68-lakh-active-vacancies-2-89-crore-active-jobseekers/",
+        "publisher": "DD News / DD India",
+        "published_date": "2026-08-05",
+        "quote": "According to the Ministry of Labour and Employment, the NCS Portal is a one-stop digital platform.",
+        "tier": 2
+       },
+       {
+        "url": "https://labour.gov.in/sites/default/files/55ae221915352NCSBrochure.pdf",
+        "publisher": "Ministry of Labour and Employment, Government of India",
+        "published_date": "2015-07-20",
+        "quote": "The Ministry is transforming the National Employment Service comprising a network of 978 Employment Exchanges into National Career Service (NCS) by leveraging information technology.",
+        "tier": 1
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "",
+      "correct": "Adding a credential URL to a licence or certification on LinkedIn produces a 'Show credential' button. I could not open a LinkedIn help page that names the button (the help URLs I tried returned 404), so the evidence is vendor guides only. The button shows only when a credential URL is present, so 'can display' is the correct wording. The introduction date is unknown.",
+      "sources": [
+       {
+        "url": "https://linkedgrow.ai/blog/how-to-add-certifications-on-linkedin",
+        "publisher": "LinkedGrow",
+        "published_date": "",
+        "quote": "when you add the credential URL, \"LinkedIn adds a Show credential button that opens the proof in one click.\"",
+        "tier": 3
+       },
+       {
+        "url": "https://www.usecarly.com/blog/how-to-add-certifications-to-linkedin/",
+        "publisher": "Carly",
+        "published_date": "",
+        "quote": "visitors get a Show credential button that opens proof.",
+        "tier": 3
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. The government statistic is accurate. 2.89 crore active jobseekers against 17.68 lakh active vacancies, as of 15 July 2026, works out to about 16.3 per vacancy. NCS is run by the Ministry of Labour and Employment. The idea that upskilling shifts blame onto candidates is the writer's interpretation, not a factual claim that can be checked. One caveat: NCS covers only part of India's labour market. Many private jobs are never posted there, and some registered jobseekers may already have jobs. So the ratio describes the portal, not the whole economy. The post does say 'on the government's own NCS portal', so it is scoped correctly.",
+     "actual_mechanism": "The National Career Service portal is run by the Ministry of Labour and Employment. Jobseekers register on it and employers post vacancies. The ministry reports 'active' counts at a given date. In a written Lok Sabha reply on 3 August 2026, Minister Mansukh Mandaviya said that as of 15 July 2026 the portal had 2.89 crore active jobseekers and 17.68 lakh active vacancies, about 16 to 1. A third certificate can change which candidate gets a job, but not how many jobs are on offer. That supports the post's point that courses re-rank applicants rather than create vacancies.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://ddindia.co.in/2026/08/ncs-portal-records-17-68-lakh-active-vacancies-2-89-crore-active-jobseekers/",
+       "published_date": "2026-08-05",
+       "quote": "As of July 15, 2026, the portal has 2.89 crore active jobseekers and 17.68 lakh active vacancies."
+      },
+      {
+       "url": "https://www.greaterkashmir.com/national/over-664-crore-jobseekers-registered-on-national-career-service-portal-govt-12233929",
+       "published_date": "2026-08-04",
+       "quote": "Over 6.64 crore jobseekers registered on National Career Service portal: Govt"
+      },
+      {
+       "url": "https://thenewsmill.com/2026/08/national-career-service-portal-mobilises-over-10-05-crore-vacancies-since-launch-says-mansukh-mandaviya/",
+       "published_date": "2026-08",
+       "quote": "National Career Service portal mobilises over 10.05 crore vacancies since launch, says Mansukh Mandaviya"
+      },
+      {
+       "url": "https://www.business-standard.com/economy/news/govt-job-portal-vacancies-plunge-62-in-june-fall-to-30-month-low-126092201188_1.html",
+       "published_date": "2026-09-22",
+       "quote": "Govt job portal vacancies plunge 62% in June, fall to 30-month low (a different monthly series; not directly comparable to the 15 July active counts)"
+      }
+     ]
+    },
+    "text_hash": "a0a324df67b7cd21d4311f4aa77daad7bff37d81",
+    "at": "2026-11-02T16:23:56.604684+00:00"
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Says more than the sources: 'On the government's National Career Service (NCS) portal, about 16 jobseekers were registered for every active vacancy in July 2026.'. What's true: The ratio is about 16 (16.3), but it uses ACTIVE jobseekers, not all registered ones. Official figures as of 15 July 2026: 2.89 crore (28.9 million) active jobseekers against 17.68 lakh (about 1.77 million) active vacancies. That is about 16.3 active jobseekers per active vacancy. The lead's 1.76 million vacancies is slightly off. Total registered jobseekers since inception are 6.64 crore, which would give a ratio of about 37.5 per active vacancy. The post should say 'active jobseekers'. The figures were first reported on 2026-08-05, from a Lok Sabha written reply of 3 August. The lead's date of 2026-10-21 is not the first report..",
+    "Only weak sources for: 'Certificates listed on LinkedIn profiles can display a 'Show credential' button.'. Find a primary source or a major outlet, or cut it."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "slide 4: \"about 16 active jobseekers for every active vacancy\" changes the source. The source says 28.9 million jobseekers were *registered* against 1.76 million active vacancies. Calling them \"active jobseekers\" is stronger wording than the source supports (hard failure 2). The claims entry's derived_from also uses \"about 1.77 million (17.68 lakh)\", which is not in the proof (1.76 million), and calls the 28.9 million \"active\"."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "slide 4: Say \"registered\" jobseekers, not \"active\". Keep \"active vacancies\" and \"July 2026\". For example: 'On the government's own NCS portal, about 16 registered jobseekers for every active vacancy in July 2026.' Then fix claims.text to match, and change derived_from to 28.9 million / 1.76 million = about 16.4, rounded to about 16. Drop the 17.68 lakh figure.",
+     "slide 3: \"a fake strike-through price\" asserts something about course sellers that no source backs. Make it a plain, typical detail, such as \"a course with a big strike-through price\". Keep \"4,000 likes\" and \"40 hours\" clearly as typical, illustrative texture.",
+     "slide 5: The because is right but reads a little like a list. Make it land harder with one concrete picture of who gains, such as the employer's \"ready from day one\" line against the course ad promising \"job-ready\". Cut the sentence \"And you also carry the shame\" if it feels like commentary. The sting of \"Nobody earns a rupee...\" is the strongest line, so let it close the slide.",
+     "slide 6: The test is good. Make the last line more repeatable and less about \"shareable badge\", which is a small side joke. Something that stings about certificates being the only thing that grows while the interview count stays still would work better.",
+     "slide 2: Good moment. Add one small detail only a fresher would notice, such as the job post still saying 'freshers welcome' above the experience line, so the contradiction hits harder."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "slide 4: \"about 16 active jobseekers for every active vacancy\" changes the source. The source says 28.9 million jobseekers were *registered* against 1.76 million active vacancies. Calling them \"active jobseekers\" is stronger wording than the source supports (hard failure 2). The claims entry's derived_from also uses \"about 1.77 million (17.68 lakh)\", which is not in the proof (1.76 million), and calls the 28.9 million \"active\".",
+    "slide 4: Say \"registered\" jobseekers, not \"active\". Keep \"active vacancies\" and \"July 2026\". For example: 'On the government's own NCS portal, about 16 registered jobseekers for every active vacancy in July 2026.' Then fix claims.text to match, and change derived_from to 28.9 million / 1.76 million = about 16.4, rounded to about 16. Drop the 17.68 lakh figure.",
+    "slide 3: \"a fake strike-through price\" asserts something about course sellers that no source backs. Make it a plain, typical detail, such as \"a course with a big strike-through price\". Keep \"4,000 likes\" and \"40 hours\" clearly as typical, illustrative texture.",
+    "slide 5: The because is right but reads a little like a list. Make it land harder with one concrete picture of who gains, such as the employer's \"ready from day one\" line against the course ad promising \"job-ready\". Cut the sentence \"And you also carry the shame\" if it feels like commentary. The sting of \"Nobody earns a rupee...\" is the strongest line, so let it close the slide.",
+    "slide 6: The test is good. Make the last line more repeatable and less about \"shareable badge\", which is a small side joke. Something that stings about certificates being the only thing that grows while the interview count stays still would work better.",
+    "slide 2: Good moment. Add one small detail only a fresher would notice, such as the job post still saying 'freshers welcome' above the experience line, so the contradiction hits harder."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "slide 5: The 'because' is the thinnest part. You name the employer's side (job post wants 'ready from day one') but the course seller's gain is only implied. Say plainly that every fresh batch of graduates is a new customer for the course sellers, and that the employer saves on training. Then 'costs the person saying it nothing' lands harder.",
+     "slide 4: 'No course fixes a ratio like that' sits next to slide 6 calling your own certificates-to-interviews count 'your real market report'. That reads as two different tests. Make the last slide clearly say your personal count is the same shortage you can see in the NCS number, so the ratio idea is said once and pays off.",
+     "slide 6: The closer ('interview count is still sitting at the number you had at convocation') is a good sting, but 'That ratio is your real market report' is a slightly abstract bold line. Try a plainer, more repeatable version in his voice, for example that the course count rises and the interview count doesn't, and that this isn't a skills problem.",
+     "slide 3: 'You watch 40 hours of video at 1.5x' is a nice lived detail. Keep it, but cut or tighten the 'Clearly you just weren't ready yet' beat if slide 1's hook already makes the blame point, so the rant mood comes through with more edge and less setup.",
+     "slide 2: The scene is relatable. Make sure 'Minimum 2 years of experience' under 'Entry level' stays the one clean contradiction, since slide 4's figure follows from it. Avoid adding more detail here."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Says more than the sources: 'In July 2026 the National Career Service (NCS) portal had about 16 registered jobseekers for every active vacancy.'. What's true: As of 15 July 2026 the NCS portal had 2.89 crore (28.9 million) ACTIVE jobseekers and 17.68 lakh (about 1.77 million) active vacancies, a ratio of about 16 to 1. The total number of jobseekers registered since inception is over 6.64 crore, which would be about 37 per active vacancy. So the claim's 'registered jobseekers' is wrong. The figure is active jobseekers. The numbers were given in a Lok Sabha reply on 3 August 2026 and first reported around 5 August 2026. I could not open the full-text pages for the registered-versus-active split, so it rests on search summaries and one article.."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "The NCS portal is run by the Indian government.",
+      "sentence": "On the government's own NCS portal",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "In July 2026 the National Career Service (NCS) portal had about 16 registered jobseekers for every active vacancy.",
+      "sentence": "On the government's own NCS portal, there were about 16 registered jobseekers for every active vacancy in July 2026.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c3",
+      "text": "The NCS (National Career Service) portal is run by the Indian government.",
+      "sentence": "On the government's own NCS portal, there were about 16 registered jobseekers for every active vacancy in July 2026.",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Telling jobseekers to 'upskill' shifts the blame for a thin job market onto candidates. Premises: (1) there are far more jobseekers than vacancies, about 16 per vacancy on the NCS portal; (2) buying more courses does not change that ratio; (3) employers want candidates ready from day one while course sellers promise to make people job-ready, so the cost of training falls on the candidate; (4) the people advising 'upskill' bear no cost, and no one profits from calling it a shortage of jobs. Conclusion: 'upskill' advice makes a shortage of jobs look like a shortcoming of the candidate.",
+      "sentence": "No course fixes a ratio like that. It just decides who gets blamed for it.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2015-07-20",
+      "correct": "The NCS portal (ncs.gov.in) is run by the Ministry of Labour and Employment, Government of India. It is run through the Directorate General of Employment. The 2015 launch date comes from secondary accounts and is not confirmed by a primary source.",
+      "sources": [
+       {
+        "url": "https://ddindia.co.in/2026/08/ncs-portal-records-17-68-lakh-active-vacancies-2-89-crore-active-jobseekers/",
+        "publisher": "DD News / DD India",
+        "published_date": "2026-08-05",
+        "quote": "According to the Ministry of Labour and Employment, the NCS Portal is a one-stop digital platform.",
+        "tier": 2
+       },
+       {
+        "url": "https://labour.gov.in/sites/default/files/55ae221915352NCSBrochure.pdf",
+        "publisher": "Ministry of Labour and Employment, Government of India",
+        "published_date": "2015-07-20",
+        "quote": "The Ministry is transforming the National Employment Service comprising a network of 978 Employment Exchanges into National Career Service (NCS) by leveraging information technology.",
+        "tier": 1
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "misframed",
+      "event_date": "2026-07-15",
+      "correct": "As of 15 July 2026 the NCS portal had 2.89 crore (28.9 million) ACTIVE jobseekers and 17.68 lakh (about 1.77 million) active vacancies, a ratio of about 16 to 1. The total number of jobseekers registered since inception is over 6.64 crore, which would be about 37 per active vacancy. So the claim's 'registered jobseekers' is wrong. The figure is active jobseekers. The numbers were given in a Lok Sabha reply on 3 August 2026 and first reported around 5 August 2026. I could not open the full-text pages for the registered-versus-active split, so it rests on search summaries and one article.",
+      "sources": [
+       {
+        "url": "https://ddindia.co.in/2026/08/ncs-portal-records-17-68-lakh-active-vacancies-2-89-crore-active-jobseekers/",
+        "publisher": "DD India (republishing DD News)",
+        "published_date": "2026-08-05",
+        "quote": "As of July 15, 2026, the portal has 2.89 crore active jobseekers and 17.68 lakh active vacancies.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.newkerala.com/news/a/over-664-crore-jobseekers-registered-national-career-service-891.htm",
+        "publisher": "NewKerala (IANS)",
+        "published_date": "2026-08-05",
+        "quote": "Over 6.64 crore jobseekers registered on National Career Service portal since inception (2.89 crore active as of July 15, 2026), per search-result summary; page not opened",
+        "tier": 3
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "2015-07-20",
+      "correct": "The NCS portal is run by the Government of India's Ministry of Labour and Employment, through the Directorate General of Employment. The Prime Minister launched it in July 2015. The date shown is the launch month, and I did not confirm the exact day.",
+      "sources": [
+       {
+        "url": "https://ddindia.co.in/2026/08/ncs-portal-records-17-68-lakh-active-vacancies-2-89-crore-active-jobseekers/",
+        "publisher": "DD India (republishing DD News)",
+        "published_date": "2026-08-05",
+        "quote": "According to the Ministry of Labour and Employment,",
+        "tier": 2
+       },
+       {
+        "url": "https://yourstory.com/2015/07/national-career-service-india/",
+        "publisher": "YourStory",
+        "published_date": "2015-07-20",
+        "quote": "Prime Minister launches National Career Service portal, here's everything you want to know about it",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. The one checkable fact is correct. Government figures as of 15 July 2026 show 2.89 crore active jobseekers against 17.68 lakh active vacancies on the NCS portal, which is about 16.3 per vacancy. One wording slip: the slide says 'registered jobseekers', but the 16:1 figure uses active jobseekers. Counting all 6.64 crore people who have ever registered would give about 38 per vacancy, so the post's figure is the conservative one. The other premises are interpretation (who carries the training cost, who gains from the 'upskill' story), not claims about how a product, price or law works. Paid courses are paid for by the learner, so the cost premise is accurate.",
+     "actual_mechanism": "NCS is the Ministry of Labour & Employment's job-matching portal. Employers post vacancies and jobseekers register. The ministry reports a running total of registrations, an active jobseeker count and an active vacancy count, and on 15 July 2026 the active figures were 2.89 crore jobseekers and 17.68 lakh vacancies. NCS covers only part of India's job market, since many private jobs are never posted there, so the ratio describes the portal rather than the whole economy. Still, an extra certificate can only move one candidate up the queue. It does not add vacancies, so the post's conclusion follows.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://ddindia.co.in/2026/08/ncs-portal-records-17-68-lakh-active-vacancies-2-89-crore-active-jobseekers/",
+       "published_date": "2026-08-05",
+       "quote": "As of July 15, 2026, the portal has 2.89 crore active jobseekers ... 17.68 lakh active vacancies ... over 6.64 crore jobseekers have registered on the platform"
+      },
+      {
+       "url": "https://ncs.gov.in/NCSReportDashboard",
+       "published_date": "2026-07-15",
+       "quote": "Registered jobseekers 66,463,394; active jobseekers 28,980,392; vacancies 100,574,483 (cumulative since launch)"
+      },
+      {
+       "url": "https://www.greaterkashmir.com/national/over-664-crore-jobseekers-registered-on-national-career-service-portal-govt-12233929",
+       "published_date": "2026-08-04",
+       "quote": "Over 6.64 crore jobseekers registered on National Career Service portal: Govt"
+      },
+      {
+       "url": "https://www.business-standard.com/economy/news/govt-job-portal-vacancies-plunge-62-in-june-fall-to-30-month-low-126092201188_1.html",
+       "published_date": "2026-09-22",
+       "quote": "Govt job portal vacancies plunge 62% in June, fall to 30-month low"
+      }
+     ]
+    },
+    "text_hash": "5ddfc50c4130fa1c04d37f57a36e6d9c35ff1625",
+    "at": "2026-11-02T16:26:08.708694+00:00"
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Says more than the sources: 'In July 2026 the National Career Service (NCS) portal had about 16 registered jobseekers for every active vacancy.'. What's true: As of 15 July 2026 the NCS portal had 2.89 crore (28.9 million) ACTIVE jobseekers and 17.68 lakh (about 1.77 million) active vacancies, a ratio of about 16 to 1. The total number of jobseekers registered since inception is over 6.64 crore, which would be about 37 per active vacancy. So the claim's 'registered jobseekers' is wrong. The figure is active jobseekers. The numbers were given in a Lok Sabha reply on 3 August 2026 and first reported around 5 August 2026. I could not open the full-text pages for the registered-versus-active split, so it rests on search summaries and one article.."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 4: \"about 16 active jobseekers for every active vacancy\" is stronger than the proof. The source says 28.9 million registered jobseekers against 1.76 million active vacancies. The post and the claims entry call the jobseekers \"active\", and the claims entry's derived_from uses 1.77 million and \"as of 15 July\", neither of which is in the sources. The ratio of about 16 holds, but the wording and the claims entry must match the source (rule 3, failure 2)."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "slide 4: Say \"registered jobseekers\" and \"active vacancies\". Keep it to about 16 and July 2026. Fix the claims entry to 28.9 million registered / 1.76 million active vacancies, and drop \"15 July\". Also soften \"No course fixes a ratio like that\" slightly, since registrations on one portal are not the whole market.",
+     "slide 3: The scene carries too many numbers (4,000 likes, 40 hours, 1.5x, second try) on top of 2 years and the 16 ratio. Failure 6 caps the post at two numbers. Keep one concrete texture detail, such as the strike-through price or the 1.5x speed, and cut the rest.",
+     "slide 5: The because is half-told. Employers save on training, but the post never says course sellers earn when the problem is called a skill gap. Add that in one plain line, since the topic's because contains it, and keep the closing line about nobody earning from \"shortage of jobs\".",
+     "slide 6: The payoff is a test, but \"the interview count is still sitting at the number you had at convocation\" is vague and flat. Land one sharper human closer, for example what the certificate count is really measuring: money spent, not progress. Avoid restating the cover.",
+     "slide 2: Good moment, but add one small detail only a fresher would notice, such as the certificate PDF in the folder or the same job post sitting open for weeks. That would raise eq, which is currently thin."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Slide 4: \"about 16 active jobseekers for every active vacancy\" is stronger than the proof. The source says 28.9 million registered jobseekers against 1.76 million active vacancies. The post and the claims entry call the jobseekers \"active\", and the claims entry's derived_from uses 1.77 million and \"as of 15 July\", neither of which is in the sources. The ratio of about 16 holds, but the wording and the claims entry must match the source (rule 3, failure 2).",
+    "slide 4: Say \"registered jobseekers\" and \"active vacancies\". Keep it to about 16 and July 2026. Fix the claims entry to 28.9 million registered / 1.76 million active vacancies, and drop \"15 July\". Also soften \"No course fixes a ratio like that\" slightly, since registrations on one portal are not the whole market.",
+    "slide 3: The scene carries too many numbers (4,000 likes, 40 hours, 1.5x, second try) on top of 2 years and the 16 ratio. Failure 6 caps the post at two numbers. Keep one concrete texture detail, such as the strike-through price or the 1.5x speed, and cut the rest.",
+    "slide 5: The because is half-told. Employers save on training, but the post never says course sellers earn when the problem is called a skill gap. Add that in one plain line, since the topic's because contains it, and keep the closing line about nobody earning from \"shortage of jobs\".",
+    "slide 6: The payoff is a test, but \"the interview count is still sitting at the number you had at convocation\" is vague and flat. Land one sharper human closer, for example what the certificate count is really measuring: money spent, not progress. Avoid restating the cover.",
+    "slide 2: Good moment, but add one small detail only a fresher would notice, such as the certificate PDF in the folder or the same job post sitting open for weeks. That would raise eq, which is currently thin."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-02T16:27:02.278143+00:00",
+ "sources": [
+  {
+   "url": "https://www.devdiscourse.com/article/business/3993040-urban-youth-unemployment-rises-to-19-in-september-reaches-266-among-young-women",
+   "fact": "Youth unemployment in India (ages 15-29) stood at 15.2% nationally in September 2026 and has risen steadily in urban areas, which points to weak demand in the job market and not only a lack of skills.",
+   "excerpt": "Unemployment among urban youth aged 15–29 years rose to 19 per cent in September 2026. | urban youth unemployment increased from 18.7 per cent in August to 19 per cent in September. | Among young urban women, unemployment increased from 26.4 per cent to 26.6 per cent. | At the national level, youth unemployment edged up from 15.1 per cent to 15.2 per cent. | rural youth unemployment declined marginally from 13.3 per cent to 13.2 per cent.",
+   "date": "2026-10-15"
+  },
+  {
+   "url": "https://news.careers360.com/ai-data-digital-skills-fresher-hiring-degree-screening-proof-of-work-adaptability-teamlease-edtech-report-india/amp",
+   "fact": "The TeamLease EdTech Career Outlook, a survey of 1,051 employers, reports employer intent to hire freshers at 73% for H1 2026. Employers are moving to skills-first screening and now look at adaptability and behavioural readiness. This partly contradicts the claim that the market is thin, but it supports the claim that employers ask for ready-to-work freshers.",
+   "excerpt": "Employer intent to hire freshers reportedly reached 73% in the first half of 2026, per the TeamLease EdTech Career Outlook report, which surveyed 1,051 employers from November 2025 to January 2026. | moving away from degree-based screening toward skills-first recruitment models | from \"degree and resume filters\" to \"skills, proof-of-work and behaviour.\" | candidates' adaptability, technical understanding and ability to apply knowledge in real workplace settings.",
+   "date": "2026-05-25"
+  },
+  {
+   "url": "https://www.businesstoday.in/technology/story/india-doesnt-have-a-skills-shortage-it-has-a-readiness-crisis-in-the-age-of-ai-523219-2026-03-31",
+   "fact": "A Business Today piece frames the problem as readiness that must be rebuilt continuously, not a one-off milestone. It finds that employers value proof of skills over degrees, and that willingness to learn is not the constraint. It also finds that 86% of employers say skilled talent is available, but only 49% are very confident they can find it.",
+   "excerpt": "Readiness is no longer a milestone reached at graduation; it must now be rebuilt continuously as work itself evolves. | Most people are willing to learn. Most organisations are willing to invest. | Formal qualifications alone no longer signal readiness. | Online courses are the most preferred format (42%), followed by on-the-job learning (37%). | While 86% of employers say skilled talent is available, only 49% are very confident they can find it.",
+   "date": "2026-03-31"
+  }
+ ],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] 'Upskill' is how a [thin job market] becomes your fault\nDegree, two certificates, and still 'two years experience required'.\n \n\n[slide 1] 'Upskill' is how a thin job market becomes your fault.\nSwipe to read →\n\n[slide 2] It's a few months after convocation. Your degree is in a plastic folder, and your two certificates sit on your LinkedIn, each posted with a proud little caption.\nYou open a job post. It says Entry level, and right under it, 'Freshers welcome!' Two lines down: 'Minimum 2 years of experience.'\n\n[slide 3] You ask around. A senior, a relative, a LinkedIn post with 4,000 likes. Everyone says the same thing: \"Upskill, yaar.\"\nSo you buy one more course, the one with a big strike-through price. You watch 40 hours of video at 1.5x and pass the quiz on the second try. Clearly you just weren't ready yet.\n\n[slide 4] The third certificate lands. Your inbox looks exactly the same.\nOn the government's own NCS portal, there were about 16 registered jobseekers for every active vacancy in July 2026.\nNo course fixes a ratio like that. It just decides who gets blamed for it.\n\n[slide 5] Because 'upskill' costs the person saying it nothing.\nThe job post wants someone 'ready from day one'. The course ad promises to make you 'job-ready'. Between those two lines sits the training bill, and you're the one paying it.\nNobody earns a rupee by calling it a shortage of jobs.\n\n[slide 6] Open your LinkedIn. Count the certificates. Then count the interviews they actually got you.\nThat ratio is your real market report.\nThe certificate count goes up every few months. The interview count is still sitting at the number you had at convocation.\n\n[end card] Come back to this before you pay for the next course.\nThe friend who just finished a fifth certificate and is losing confidence.\n\n[caption] How many courses have you done since college, and how many interviews did they actually get you?\n\n[alt text] A six-slide carousel arguing that telling freshers to 'upskill' moves the blame for a thin job market onto candidates. It follows a fresher with a degree and two certificates who keeps buying courses while entry-level posts marked 'freshers welcome' demand two years of experience. It notes that the NCS portal had about 16 registered jobseekers per active vacancy in July 2026. It ends by suggesting you count your courses against the interviews they got you.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "The NCS portal is run by the Indian government.",
+     "sentence": "On the government's own NCS portal",
+     "type": "entity_attribute",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "In July 2026 the National Career Service (NCS) portal had about 16 registered jobseekers for every active vacancy.",
+     "sentence": "On the government's own NCS portal, there were about 16 registered jobseekers for every active vacancy in July 2026.",
+     "type": "figure",
+     "core": true,
+     "framed_as": "past"
+    },
+    {
+     "id": "c3",
+     "text": "The NCS (National Career Service) portal is run by the Indian government.",
+     "sentence": "On the government's own NCS portal, there were about 16 registered jobseekers for every active vacancy in July 2026.",
+     "type": "entity_attribute",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c4",
+     "text": "Telling jobseekers to 'upskill' shifts the blame for a thin job market onto candidates. Premises: (1) there are far more jobseekers than vacancies, about 16 per vacancy on the NCS portal; (2) buying more courses does not change that ratio; (3) employers want candidates ready from day one while course sellers promise to make people job-ready, so the cost of training falls on the candidate; (4) the people advising 'upskill' bear no cost, and no one profits from calling it a shortage of jobs. Conclusion: 'upskill' advice makes a shortage of jobs look like a shortcoming of the candidate.",
+     "sentence": "No course fixes a ratio like that. It just decides who gets blamed for it.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "On the government's National Career Service (NCS) portal, about 16 jobseekers were registered for every active vacancy in July 2026.": {
+   "id": "c1",
+   "verdict": "misframed",
+   "event_date": "2026-07-15",
+   "correct": "The ratio is about 16 (16.3), but it uses ACTIVE jobseekers, not all registered ones. Official figures as of 15 July 2026: 2.89 crore (28.9 million) active jobseekers against 17.68 lakh (about 1.77 million) active vacancies. That is about 16.3 active jobseekers per active vacancy. The lead's 1.76 million vacancies is slightly off. Total registered jobseekers since inception are 6.64 crore, which would give a ratio of about 37.5 per active vacancy. The post should say 'active jobseekers'. The figures were first reported on 2026-08-05, from a Lok Sabha written reply of 3 August. The lead's date of 2026-10-21 is not the first report.",
+   "sources": [
+    {
+     "url": "https://ddindia.co.in/2026/08/ncs-portal-records-17-68-lakh-active-vacancies-2-89-crore-active-jobseekers/",
+     "publisher": "DD News / DD India (Prasar Bharati)",
+     "published_date": "2026-08-05",
+     "quote": "As of July 15, 2026, the portal has 2.89 crore active jobseekers and 17.68 lakh active vacancies.",
+     "tier": 2
+    },
+    {
+     "url": "https://newsable.asianetnews.com/india/ncs-portal-6-64-crore-jobseekers-registered-says-mansukh-mandaviya-articleshow-x1v6x49",
+     "publisher": "Asianet Newsable",
+     "published_date": "2026-08-05",
+     "quote": "NCS portal 6.64 crore jobseekers registered says Mansukh Mandaviya (headline; 6.64 crore is the total registered since inception)",
+     "tier": 3
+    }
+   ]
+  },
+  "The NCS portal is run by the Indian government.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": "2015-07-20",
+   "correct": "The NCS portal (ncs.gov.in) is run by the Ministry of Labour and Employment, Government of India. It is run through the Directorate General of Employment. The 2015 launch date comes from secondary accounts and is not confirmed by a primary source.",
+   "sources": [
+    {
+     "url": "https://ddindia.co.in/2026/08/ncs-portal-records-17-68-lakh-active-vacancies-2-89-crore-active-jobseekers/",
+     "publisher": "DD News / DD India",
+     "published_date": "2026-08-05",
+     "quote": "According to the Ministry of Labour and Employment, the NCS Portal is a one-stop digital platform.",
+     "tier": 2
+    },
+    {
+     "url": "https://labour.gov.in/sites/default/files/55ae221915352NCSBrochure.pdf",
+     "publisher": "Ministry of Labour and Employment, Government of India",
+     "published_date": "2015-07-20",
+     "quote": "The Ministry is transforming the National Employment Service comprising a network of 978 Employment Exchanges into National Career Service (NCS) by leveraging information technology.",
+     "tier": 1
+    }
+   ]
+  },
+  "Certificates listed on LinkedIn profiles can display a 'Show credential' button.": {
+   "id": "c3",
+   "verdict": "supported",
+   "event_date": "",
+   "correct": "Adding a credential URL to a licence or certification on LinkedIn produces a 'Show credential' button. I could not open a LinkedIn help page that names the button (the help URLs I tried returned 404), so the evidence is vendor guides only. The button shows only when a credential URL is present, so 'can display' is the correct wording. The introduction date is unknown.",
+   "sources": [
+    {
+     "url": "https://linkedgrow.ai/blog/how-to-add-certifications-on-linkedin",
+     "publisher": "LinkedGrow",
+     "published_date": "",
+     "quote": "when you add the credential URL, \"LinkedIn adds a Show credential button that opens the proof in one click.\"",
+     "tier": 3
+    },
+    {
+     "url": "https://www.usecarly.com/blog/how-to-add-certifications-to-linkedin/",
+     "publisher": "Carly",
+     "published_date": "",
+     "quote": "visitors get a Show credential button that opens proof.",
+     "tier": 3
+    }
+   ]
+  },
+  "_skeptic": {
+   "863e6e740902b40a074232700afcbe37a24ecfa0": {
+    "holds": true,
+    "broken_premise": "None. The government statistic is accurate. 2.89 crore active jobseekers against 17.68 lakh active vacancies, as of 15 July 2026, works out to about 16.3 per vacancy. NCS is run by the Ministry of Labour and Employment. The idea that upskilling shifts blame onto candidates is the writer's interpretation, not a factual claim that can be checked. One caveat: NCS covers only part of India's labour market. Many private jobs are never posted there, and some registered jobseekers may already have jobs. So the ratio describes the portal, not the whole economy. The post does say 'on the government's own NCS portal', so it is scoped correctly.",
+    "actual_mechanism": "The National Career Service portal is run by the Ministry of Labour and Employment. Jobseekers register on it and employers post vacancies. The ministry reports 'active' counts at a given date. In a written Lok Sabha reply on 3 August 2026, Minister Mansukh Mandaviya said that as of 15 July 2026 the portal had 2.89 crore active jobseekers and 17.68 lakh active vacancies, about 16 to 1. A third certificate can change which candidate gets a job, but not how many jobs are on offer. That supports the post's point that courses re-rank applicants rather than create vacancies.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://ddindia.co.in/2026/08/ncs-portal-records-17-68-lakh-active-vacancies-2-89-crore-active-jobseekers/",
+      "published_date": "2026-08-05",
+      "quote": "As of July 15, 2026, the portal has 2.89 crore active jobseekers and 17.68 lakh active vacancies."
+     },
+     {
+      "url": "https://www.greaterkashmir.com/national/over-664-crore-jobseekers-registered-on-national-career-service-portal-govt-12233929",
+      "published_date": "2026-08-04",
+      "quote": "Over 6.64 crore jobseekers registered on National Career Service portal: Govt"
+     },
+     {
+      "url": "https://thenewsmill.com/2026/08/national-career-service-portal-mobilises-over-10-05-crore-vacancies-since-launch-says-mansukh-mandaviya/",
+      "published_date": "2026-08",
+      "quote": "National Career Service portal mobilises over 10.05 crore vacancies since launch, says Mansukh Mandaviya"
+     },
+     {
+      "url": "https://www.business-standard.com/economy/news/govt-job-portal-vacancies-plunge-62-in-june-fall-to-30-month-low-126092201188_1.html",
+      "published_date": "2026-09-22",
+      "quote": "Govt job portal vacancies plunge 62% in June, fall to 30-month low (a different monthly series; not directly comparable to the 15 July active counts)"
+     }
+    ]
+   },
+   "083fae6847e3abaa8dc1c9c7895f8859af996dc8": {
+    "holds": true,
+    "broken_premise": "None. The one checkable fact is correct. Government figures as of 15 July 2026 show 2.89 crore active jobseekers against 17.68 lakh active vacancies on the NCS portal, which is about 16.3 per vacancy. One wording slip: the slide says 'registered jobseekers', but the 16:1 figure uses active jobseekers. Counting all 6.64 crore people who have ever registered would give about 38 per vacancy, so the post's figure is the conservative one. The other premises are interpretation (who carries the training cost, who gains from the 'upskill' story), not claims about how a product, price or law works. Paid courses are paid for by the learner, so the cost premise is accurate.",
+    "actual_mechanism": "NCS is the Ministry of Labour & Employment's job-matching portal. Employers post vacancies and jobseekers register. The ministry reports a running total of registrations, an active jobseeker count and an active vacancy count, and on 15 July 2026 the active figures were 2.89 crore jobseekers and 17.68 lakh vacancies. NCS covers only part of India's job market, since many private jobs are never posted there, so the ratio describes the portal rather than the whole economy. Still, an extra certificate can only move one candidate up the queue. It does not add vacancies, so the post's conclusion follows.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://ddindia.co.in/2026/08/ncs-portal-records-17-68-lakh-active-vacancies-2-89-crore-active-jobseekers/",
+      "published_date": "2026-08-05",
+      "quote": "As of July 15, 2026, the portal has 2.89 crore active jobseekers ... 17.68 lakh active vacancies ... over 6.64 crore jobseekers have registered on the platform"
+     },
+     {
+      "url": "https://ncs.gov.in/NCSReportDashboard",
+      "published_date": "2026-07-15",
+      "quote": "Registered jobseekers 66,463,394; active jobseekers 28,980,392; vacancies 100,574,483 (cumulative since launch)"
+     },
+     {
+      "url": "https://www.greaterkashmir.com/national/over-664-crore-jobseekers-registered-on-national-career-service-portal-govt-12233929",
+      "published_date": "2026-08-04",
+      "quote": "Over 6.64 crore jobseekers registered on National Career Service portal: Govt"
+     },
+     {
+      "url": "https://www.business-standard.com/economy/news/govt-job-portal-vacancies-plunge-62-in-june-fall-to-30-month-low-126092201188_1.html",
+      "published_date": "2026-09-22",
+      "quote": "Govt job portal vacancies plunge 62% in June, fall to 30-month low"
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "a0a324df67b7cd21d4311f4aa77daad7bff37d81": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Says more than the sources: 'On the government's National Career Service (NCS) portal, about 16 jobseekers were registered for every active vacancy in July 2026.'. What's true: The ratio is about 16 (16.3), but it uses ACTIVE jobseekers, not all registered ones. Official figures as of 15 July 2026: 2.89 crore (28.9 million) active jobseekers against 17.68 lakh (about 1.77 million) active vacancies. That is about 16.3 active jobseekers per active vacancy. The lead's 1.76 million vacancies is slightly off. Total registered jobseekers since inception are 6.64 crore, which would give a ratio of about 37.5 per active vacancy. The post should say 'active jobseekers'. The figures were first reported on 2026-08-05, from a Lok Sabha written reply of 3 August. The lead's date of 2026-10-21 is not the first report..",
+     "Only weak sources for: 'Certificates listed on LinkedIn profiles can display a 'Show credential' button.'. Find a primary source or a major outlet, or cut it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "On the government's National Career Service (NCS) portal, about 16 jobseekers were registered for every active vacancy in July 2026.",
+      "sentence": "On the government's own NCS portal, about 16 jobseekers were registered for every active vacancy in July 2026.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c2",
+      "text": "The NCS portal is run by the Indian government.",
+      "sentence": "On the government's own NCS portal",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Certificates listed on LinkedIn profiles can display a 'Show credential' button.",
+      "sentence": "your two certificates sit on LinkedIn with that little 'Show credential' button.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Because there are far more registered jobseekers than vacancies (about 16 per vacancy), extra courses cannot fix the shortage of jobs; telling freshers to 'upskill' therefore shifts blame for a thin job market onto candidates, while employers get hires they need not train and course sellers get paying customers.",
+      "sentence": "No course fixes a ratio like that. It just decides who gets blamed for it.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "misframed",
+      "event_date": "2026-07-15",
+      "correct": "The ratio is about 16 (16.3), but it uses ACTIVE jobseekers, not all registered ones. Official figures as of 15 July 2026: 2.89 crore (28.9 million) active jobseekers against 17.68 lakh (about 1.77 million) active vacancies. That is about 16.3 active jobseekers per active vacancy. The lead's 1.76 million vacancies is slightly off. Total registered jobseekers since inception are 6.64 crore, which would give a ratio of about 37.5 per active vacancy. The post should say 'active jobseekers'. The figures were first reported on 2026-08-05, from a Lok Sabha written reply of 3 August. The lead's date of 2026-10-21 is not the first report.",
+      "sources": [
+       {
+        "url": "https://ddindia.co.in/2026/08/ncs-portal-records-17-68-lakh-active-vacancies-2-89-crore-active-jobseekers/",
+        "publisher": "DD News / DD India (Prasar Bharati)",
+        "published_date": "2026-08-05",
+        "quote": "As of July 15, 2026, the portal has 2.89 crore active jobseekers and 17.68 lakh active vacancies.",
+        "tier": 2
+       },
+       {
+        "url": "https://newsable.asianetnews.com/india/ncs-portal-6-64-crore-jobseekers-registered-says-mansukh-mandaviya-articleshow-x1v6x49",
+        "publisher": "Asianet Newsable",
+        "published_date": "2026-08-05",
+        "quote": "NCS portal 6.64 crore jobseekers registered says Mansukh Mandaviya (headline; 6.64 crore is the total registered since inception)",
+        "tier": 3
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2015-07-20",
+      "correct": "The NCS portal (ncs.gov.in) is run by the Ministry of Labour and Employment, Government of India. It is run through the Directorate General of Employment. The 2015 launch date comes from secondary accounts and is not confirmed by a primary source.",
+      "sources": [
+       {
+        "url": "https://ddindia.co.in/2026/08/ncs-portal-records-17-68-lakh-active-vacancies-2-89-crore-active-jobseekers/",
+        "publisher": "DD News / DD India",
+        "published_date": "2026-08-05",
+        "quote": "According to the Ministry of Labour and Employment, the NCS Portal is a one-stop digital platform.",
+        "tier": 2
+       },
+       {
+        "url": "https://labour.gov.in/sites/default/files/55ae221915352NCSBrochure.pdf",
+        "publisher": "Ministry of Labour and Employment, Government of India",
+        "published_date": "2015-07-20",
+        "quote": "The Ministry is transforming the National Employment Service comprising a network of 978 Employment Exchanges into National Career Service (NCS) by leveraging information technology.",
+        "tier": 1
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "",
+      "correct": "Adding a credential URL to a licence or certification on LinkedIn produces a 'Show credential' button. I could not open a LinkedIn help page that names the button (the help URLs I tried returned 404), so the evidence is vendor guides only. The button shows only when a credential URL is present, so 'can display' is the correct wording. The introduction date is unknown.",
+      "sources": [
+       {
+        "url": "https://linkedgrow.ai/blog/how-to-add-certifications-on-linkedin",
+        "publisher": "LinkedGrow",
+        "published_date": "",
+        "quote": "when you add the credential URL, \"LinkedIn adds a Show credential button that opens the proof in one click.\"",
+        "tier": 3
+       },
+       {
+        "url": "https://www.usecarly.com/blog/how-to-add-certifications-to-linkedin/",
+        "publisher": "Carly",
+        "published_date": "",
+        "quote": "visitors get a Show credential button that opens proof.",
+        "tier": 3
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. The government statistic is accurate. 2.89 crore active jobseekers against 17.68 lakh active vacancies, as of 15 July 2026, works out to about 16.3 per vacancy. NCS is run by the Ministry of Labour and Employment. The idea that upskilling shifts blame onto candidates is the writer's interpretation, not a factual claim that can be checked. One caveat: NCS covers only part of India's labour market. Many private jobs are never posted there, and some registered jobseekers may already have jobs. So the ratio describes the portal, not the whole economy. The post does say 'on the government's own NCS portal', so it is scoped correctly.",
+     "actual_mechanism": "The National Career Service portal is run by the Ministry of Labour and Employment. Jobseekers register on it and employers post vacancies. The ministry reports 'active' counts at a given date. In a written Lok Sabha reply on 3 August 2026, Minister Mansukh Mandaviya said that as of 15 July 2026 the portal had 2.89 crore active jobseekers and 17.68 lakh active vacancies, about 16 to 1. A third certificate can change which candidate gets a job, but not how many jobs are on offer. That supports the post's point that courses re-rank applicants rather than create vacancies.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://ddindia.co.in/2026/08/ncs-portal-records-17-68-lakh-active-vacancies-2-89-crore-active-jobseekers/",
+       "published_date": "2026-08-05",
+       "quote": "As of July 15, 2026, the portal has 2.89 crore active jobseekers and 17.68 lakh active vacancies."
+      },
+      {
+       "url": "https://www.greaterkashmir.com/national/over-664-crore-jobseekers-registered-on-national-career-service-portal-govt-12233929",
+       "published_date": "2026-08-04",
+       "quote": "Over 6.64 crore jobseekers registered on National Career Service portal: Govt"
+      },
+      {
+       "url": "https://thenewsmill.com/2026/08/national-career-service-portal-mobilises-over-10-05-crore-vacancies-since-launch-says-mansukh-mandaviya/",
+       "published_date": "2026-08",
+       "quote": "National Career Service portal mobilises over 10.05 crore vacancies since launch, says Mansukh Mandaviya"
+      },
+      {
+       "url": "https://www.business-standard.com/economy/news/govt-job-portal-vacancies-plunge-62-in-june-fall-to-30-month-low-126092201188_1.html",
+       "published_date": "2026-09-22",
+       "quote": "Govt job portal vacancies plunge 62% in June, fall to 30-month low (a different monthly series; not directly comparable to the 15 July active counts)"
+      }
+     ]
+    },
+    "text_hash": "a0a324df67b7cd21d4311f4aa77daad7bff37d81",
+    "at": "2026-11-02T16:23:56.604684+00:00"
+   },
+   "5ddfc50c4130fa1c04d37f57a36e6d9c35ff1625": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Says more than the sources: 'In July 2026 the National Career Service (NCS) portal had about 16 registered jobseekers for every active vacancy.'. What's true: As of 15 July 2026 the NCS portal had 2.89 crore (28.9 million) ACTIVE jobseekers and 17.68 lakh (about 1.77 million) active vacancies, a ratio of about 16 to 1. The total number of jobseekers registered since inception is over 6.64 crore, which would be about 37 per active vacancy. So the claim's 'registered jobseekers' is wrong. The figure is active jobseekers. The numbers were given in a Lok Sabha reply on 3 August 2026 and first reported around 5 August 2026. I could not open the full-text pages for the registered-versus-active split, so it rests on search summaries and one article.."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "The NCS portal is run by the Indian government.",
+      "sentence": "On the government's own NCS portal",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "In July 2026 the National Career Service (NCS) portal had about 16 registered jobseekers for every active vacancy.",
+      "sentence": "On the government's own NCS portal, there were about 16 registered jobseekers for every active vacancy in July 2026.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c3",
+      "text": "The NCS (National Career Service) portal is run by the Indian government.",
+      "sentence": "On the government's own NCS portal, there were about 16 registered jobseekers for every active vacancy in July 2026.",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Telling jobseekers to 'upskill' shifts the blame for a thin job market onto candidates. Premises: (1) there are far more jobseekers than vacancies, about 16 per vacancy on the NCS portal; (2) buying more courses does not change that ratio; (3) employers want candidates ready from day one while course sellers promise to make people job-ready, so the cost of training falls on the candidate; (4) the people advising 'upskill' bear no cost, and no one profits from calling it a shortage of jobs. Conclusion: 'upskill' advice makes a shortage of jobs look like a shortcoming of the candidate.",
+      "sentence": "No course fixes a ratio like that. It just decides who gets blamed for it.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2015-07-20",
+      "correct": "The NCS portal (ncs.gov.in) is run by the Ministry of Labour and Employment, Government of India. It is run through the Directorate General of Employment. The 2015 launch date comes from secondary accounts and is not confirmed by a primary source.",
+      "sources": [
+       {
+        "url": "https://ddindia.co.in/2026/08/ncs-portal-records-17-68-lakh-active-vacancies-2-89-crore-active-jobseekers/",
+        "publisher": "DD News / DD India",
+        "published_date": "2026-08-05",
+        "quote": "According to the Ministry of Labour and Employment, the NCS Portal is a one-stop digital platform.",
+        "tier": 2
+       },
+       {
+        "url": "https://labour.gov.in/sites/default/files/55ae221915352NCSBrochure.pdf",
+        "publisher": "Ministry of Labour and Employment, Government of India",
+        "published_date": "2015-07-20",
+        "quote": "The Ministry is transforming the National Employment Service comprising a network of 978 Employment Exchanges into National Career Service (NCS) by leveraging information technology.",
+        "tier": 1
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "misframed",
+      "event_date": "2026-07-15",
+      "correct": "As of 15 July 2026 the NCS portal had 2.89 crore (28.9 million) ACTIVE jobseekers and 17.68 lakh (about 1.77 million) active vacancies, a ratio of about 16 to 1. The total number of jobseekers registered since inception is over 6.64 crore, which would be about 37 per active vacancy. So the claim's 'registered jobseekers' is wrong. The figure is active jobseekers. The numbers were given in a Lok Sabha reply on 3 August 2026 and first reported around 5 August 2026. I could not open the full-text pages for the registered-versus-active split, so it rests on search summaries and one article.",
+      "sources": [
+       {
+        "url": "https://ddindia.co.in/2026/08/ncs-portal-records-17-68-lakh-active-vacancies-2-89-crore-active-jobseekers/",
+        "publisher": "DD India (republishing DD News)",
+        "published_date": "2026-08-05",
+        "quote": "As of July 15, 2026, the portal has 2.89 crore active jobseekers and 17.68 lakh active vacancies.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.newkerala.com/news/a/over-664-crore-jobseekers-registered-national-career-service-891.htm",
+        "publisher": "NewKerala (IANS)",
+        "published_date": "2026-08-05",
+        "quote": "Over 6.64 crore jobseekers registered on National Career Service portal since inception (2.89 crore active as of July 15, 2026), per search-result summary; page not opened",
+        "tier": 3
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "2015-07-20",
+      "correct": "The NCS portal is run by the Government of India's Ministry of Labour and Employment, through the Directorate General of Employment. The Prime Minister launched it in July 2015. The date shown is the launch month, and I did not confirm the exact day.",
+      "sources": [
+       {
+        "url": "https://ddindia.co.in/2026/08/ncs-portal-records-17-68-lakh-active-vacancies-2-89-crore-active-jobseekers/",
+        "publisher": "DD India (republishing DD News)",
+        "published_date": "2026-08-05",
+        "quote": "According to the Ministry of Labour and Employment,",
+        "tier": 2
+       },
+       {
+        "url": "https://yourstory.com/2015/07/national-career-service-india/",
+        "publisher": "YourStory",
+        "published_date": "2015-07-20",
+        "quote": "Prime Minister launches National Career Service portal, here's everything you want to know about it",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. The one checkable fact is correct. Government figures as of 15 July 2026 show 2.89 crore active jobseekers against 17.68 lakh active vacancies on the NCS portal, which is about 16.3 per vacancy. One wording slip: the slide says 'registered jobseekers', but the 16:1 figure uses active jobseekers. Counting all 6.64 crore people who have ever registered would give about 38 per vacancy, so the post's figure is the conservative one. The other premises are interpretation (who carries the training cost, who gains from the 'upskill' story), not claims about how a product, price or law works. Paid courses are paid for by the learner, so the cost premise is accurate.",
+     "actual_mechanism": "NCS is the Ministry of Labour & Employment's job-matching portal. Employers post vacancies and jobseekers register. The ministry reports a running total of registrations, an active jobseeker count and an active vacancy count, and on 15 July 2026 the active figures were 2.89 crore jobseekers and 17.68 lakh vacancies. NCS covers only part of India's job market, since many private jobs are never posted there, so the ratio describes the portal rather than the whole economy. Still, an extra certificate can only move one candidate up the queue. It does not add vacancies, so the post's conclusion follows.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://ddindia.co.in/2026/08/ncs-portal-records-17-68-lakh-active-vacancies-2-89-crore-active-jobseekers/",
+       "published_date": "2026-08-05",
+       "quote": "As of July 15, 2026, the portal has 2.89 crore active jobseekers ... 17.68 lakh active vacancies ... over 6.64 crore jobseekers have registered on the platform"
+      },
+      {
+       "url": "https://ncs.gov.in/NCSReportDashboard",
+       "published_date": "2026-07-15",
+       "quote": "Registered jobseekers 66,463,394; active jobseekers 28,980,392; vacancies 100,574,483 (cumulative since launch)"
+      },
+      {
+       "url": "https://www.greaterkashmir.com/national/over-664-crore-jobseekers-registered-on-national-career-service-portal-govt-12233929",
+       "published_date": "2026-08-04",
+       "quote": "Over 6.64 crore jobseekers registered on National Career Service portal: Govt"
+      },
+      {
+       "url": "https://www.business-standard.com/economy/news/govt-job-portal-vacancies-plunge-62-in-june-fall-to-30-month-low-126092201188_1.html",
+       "published_date": "2026-09-22",
+       "quote": "Govt job portal vacancies plunge 62% in June, fall to 30-month low"
+      }
+     ]
+    },
+    "text_hash": "5ddfc50c4130fa1c04d37f57a36e6d9c35ff1625",
+    "at": "2026-11-02T16:26:08.708694+00:00"
+   }
+  },
+  "In July 2026 the National Career Service (NCS) portal had about 16 registered jobseekers for every active vacancy.": {
+   "id": "c2",
+   "verdict": "misframed",
+   "event_date": "2026-07-15",
+   "correct": "As of 15 July 2026 the NCS portal had 2.89 crore (28.9 million) ACTIVE jobseekers and 17.68 lakh (about 1.77 million) active vacancies, a ratio of about 16 to 1. The total number of jobseekers registered since inception is over 6.64 crore, which would be about 37 per active vacancy. So the claim's 'registered jobseekers' is wrong. The figure is active jobseekers. The numbers were given in a Lok Sabha reply on 3 August 2026 and first reported around 5 August 2026. I could not open the full-text pages for the registered-versus-active split, so it rests on search summaries and one article.",
+   "sources": [
+    {
+     "url": "https://ddindia.co.in/2026/08/ncs-portal-records-17-68-lakh-active-vacancies-2-89-crore-active-jobseekers/",
+     "publisher": "DD India (republishing DD News)",
+     "published_date": "2026-08-05",
+     "quote": "As of July 15, 2026, the portal has 2.89 crore active jobseekers and 17.68 lakh active vacancies.",
+     "tier": 2
+    },
+    {
+     "url": "https://www.newkerala.com/news/a/over-664-crore-jobseekers-registered-national-career-service-891.htm",
+     "publisher": "NewKerala (IANS)",
+     "published_date": "2026-08-05",
+     "quote": "Over 6.64 crore jobseekers registered on National Career Service portal since inception (2.89 crore active as of July 15, 2026), per search-result summary; page not opened",
+     "tier": 3
+    }
+   ]
+  },
+  "The NCS (National Career Service) portal is run by the Indian government.": {
+   "id": "c3",
+   "verdict": "supported",
+   "event_date": "2015-07-20",
+   "correct": "The NCS portal is run by the Government of India's Ministry of Labour and Employment, through the Directorate General of Employment. The Prime Minister launched it in July 2015. The date shown is the launch month, and I did not confirm the exact day.",
+   "sources": [
+    {
+     "url": "https://ddindia.co.in/2026/08/ncs-portal-records-17-68-lakh-active-vacancies-2-89-crore-active-jobseekers/",
+     "publisher": "DD India (republishing DD News)",
+     "published_date": "2026-08-05",
+     "quote": "According to the Ministry of Labour and Employment,",
+     "tier": 2
+    },
+    {
+     "url": "https://yourstory.com/2015/07/national-career-service-india/",
+     "publisher": "YourStory",
+     "published_date": "2015-07-20",
+     "quote": "Prime Minister launches National Career Service portal, here's everything you want to know about it",
+     "tier": 2
+    }
+   ]
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "'Upskill' is how a [thin job market] becomes your fault",
+   "sub": "Degree, two certificates, and still 'two years experience required'."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "'Upskill' is how a thin job market becomes your fault.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "How does advice move the blame onto me?"
+   },
+   {
+    "paragraphs": [
+     "It's a few months after convocation. Your degree is in a plastic folder, and your two certificates sit on your LinkedIn, each posted with a proud little caption.",
+     "You open a job post. It says *Entry level*, and right under it, 'Freshers welcome!' Two lines down: 'Minimum 2 years of experience.'"
+    ],
+    "why_swipe": "So what do you do when entry level wants experience?"
+   },
+   {
+    "paragraphs": [
+     "You ask around. A senior, a relative, a LinkedIn post with 4,000 likes. Everyone says the same thing: \"Upskill, yaar.\"",
+     "So you buy one more course, the one with a big strike-through price. You watch 40 hours of video at 1.5x and pass the quiz on the second try. Clearly you just weren't ready yet."
+    ],
+    "why_swipe": "Did the third certificate change anything?"
+   },
+   {
+    "paragraphs": [
+     "The third certificate lands. Your inbox looks exactly the same.",
+     "**On the government's own NCS portal, there were about 16 active jobseekers for every active vacancy in July 2026.**",
+     "No course fixes a ratio like that. It just decides who gets blamed for it."
+    ],
+    "why_swipe": "Then why does everyone keep saying upskill?"
+   },
+   {
+    "paragraphs": [
+     "Because 'upskill' costs the person saying it nothing.",
+     "The job post wants someone 'ready from day one'. The course ad promises to make you 'job-ready'. Between those two lines sits the training bill, and you're the one paying it.",
+     "Nobody earns a rupee by calling it a shortage of jobs."
+    ],
+    "why_swipe": "So how do you know what's really going on?"
+   },
+   {
+    "paragraphs": [
+     "Open your LinkedIn. Count the certificates. Then count the interviews they actually got you.",
+     "**That ratio is your real market report.**",
+     "The certificate count goes up every few months. The interview count is still sitting at the number you had at convocation."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Come back to this before you pay for the next course.",
+   "send": "The friend who just finished a fifth certificate and is losing confidence.",
+   "promise": "How the job market really works."
+  },
+  "caption": "How many courses have you done since college, and how many interviews did they actually get you?",
+  "hashtags": [
+   "#FresherJobs",
+   "#JobHuntIndia",
+   "#Upskilling",
+   "#YouthUnemployment"
+  ],
+  "alt_text": "A six-slide carousel arguing that telling freshers to 'upskill' moves the blame for a thin job market onto candidates. It follows a fresher with a degree and two certificates who keeps buying courses while entry-level posts marked 'freshers welcome' demand two years of experience. It notes that the NCS portal had about 16 active jobseekers per active vacancy in July 2026. It ends by suggesting you count your courses against the interviews they got you.",
+  "claims": [
+   {
+    "text": "On the government's NCS portal, there were about 16 active jobseekers for every active vacancy in July 2026.",
+    "source_url": "topic",
+    "derived_from": "28.9 million active jobseekers / about 1.77 million active vacancies (as of 15 July 2026) = about 16.3, rounded to about 16"
+   }
+  ]
+ }
 }

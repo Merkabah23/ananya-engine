@@ -1,6 +1,6 @@
 {
  "id": "2026-11-90",
- "status": "planned",
+ "status": "scheduled",
  "due": "2026-11-07T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -40,6 +40,497 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-10-30T11:06:32.155016+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 3 is a dead slide. \"Okay, let's align on next steps\" plus \"If anyone won, it was probably the loudest voice\" repeats slide 2's setup (the call ended with no result, the senior guy dominated). Only the \"only your own face is left\" detail is new."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 3: Merge it with slide 2 or cut it down to the one new beat, the tiles blinking out and your own face left, and drop \"If anyone won, it was probably the loudest voice\". That line says the belief again and weakens the turn. The email in the next slide can then arrive sooner.",
+     "slide 5: Add the missing beat from the topic: nobody else writes the recap because it feels like admin, so the one person who does gets to frame the decision. Right now only the replier's cost is explained, not why one person always ends up holding the pen. Trim \"Yes, a senior person can still overrule it...\" to one short clause so the slide isn't crowded.",
+     "slide 6: The bold line restates the cover almost word for word, so it is a half-dead closer. Lead with the Monday image (\"as agreed\" in the tracker, a thumbs-up from the person who argued against it) and make that the sting. Replace the bold line with something that adds to the cover, for example that the person who argued is now on record as agreeing.",
+     "slide 4: \"You don't remember agreeing... not sure anyone else did either\" overlaps with the bold \"call is a blur\" line. Keep one. Keep the concrete detail that the email arrives while the call is still fresh and still gets treated as the only version.",
+     "slide 2: Keep the \"let's take that offline\" line, but cut one filler detail from the opening (either \"one person eating on mute\" or \"most cameras off\") so the moment feels sharper and more like the reader's own afternoon."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Slide 3 is a dead slide. \"Okay, let's align on next steps\" plus \"If anyone won, it was probably the loudest voice\" repeats slide 2's setup (the call ended with no result, the senior guy dominated). Only the \"only your own face is left\" detail is new.",
+    "slide 3: Merge it with slide 2 or cut it down to the one new beat, the tiles blinking out and your own face left, and drop \"If anyone won, it was probably the loudest voice\". That line says the belief again and weakens the turn. The email in the next slide can then arrive sooner.",
+    "slide 5: Add the missing beat from the topic: nobody else writes the recap because it feels like admin, so the one person who does gets to frame the decision. Right now only the replier's cost is explained, not why one person always ends up holding the pen. Trim \"Yes, a senior person can still overrule it...\" to one short clause so the slide isn't crowded.",
+    "slide 6: The bold line restates the cover almost word for word, so it is a half-dead closer. Lead with the Monday image (\"as agreed\" in the tracker, a thumbs-up from the person who argued against it) and make that the sting. Replace the bold line with something that adds to the cover, for example that the person who argued is now on record as agreeing.",
+    "slide 4: \"You don't remember agreeing... not sure anyone else did either\" overlaps with the bold \"call is a blur\" line. Keep one. Keep the concrete detail that the email arrives while the call is still fresh and still gets treated as the only version.",
+    "slide 2: Keep the \"let's take that offline\" line, but cut one filler detail from the opening (either \"one person eating on mute\" or \"most cameras off\") so the moment feels sharper and more like the reader's own afternoon."
+   ]
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Slide 5: this sentence has 23 words, max 22: 'By Monday, \"as agreed\" is in the tracker with a due date next to it, a...'"
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "slide 5: The sting lands on a bystander, but the reader has been 'you' since slide 2. Consider making the closer catch the reader, for example you are the one who sends the thumbs-up on a decision you lost. That makes it a first-person sting and lifts eq.",
+     "slide 3: The sender is never shown, and 'twenty minutes later' echoes the senior guy's twenty minutes in slide 2. Change the timing (say 'by 5 pm') and show who sent it: the quiet person who took notes, with no title and no airtime. That makes the cover claim visible.",
+     "slide 3: 'You can still hear the call in your head, the senior guy's voice and your own sharp point included' is over-explained. Cut it to the memory-versus-forwardable contrast, so 'nobody can forward a call' carries the turn.",
+     "slide 4: 'seniors rarely overrule them' is stated as a fact about the world with nothing behind it. Frame it as the reason, not a stat. For example: the senior guy has ten other threads and is glad someone already wrote it down, so he lets it stand.",
+     "end.save: 'Read it again before your next long call ends with \"let's align on next steps\"' is vague. Use the topic's payoff test instead: next call, send the summary first and watch how rarely anyone writes back to challenge 'as agreed'."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "verification": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "In meetings, the person who sends the written summary effectively gets to decide the outcome, regardless of who talked most. The reasons: the written recap is the only shareable record of the call, replying to dispute it costs more than staying silent, silence is read as agreement, others skip writing recaps, and seniors rarely overrule the recap's wording.",
+      "sentence": "The decision belongs to whoever sends the meeting summary. Not whoever talked the most on the call.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "A recap email becomes the only version of the meeting that anyone can open or forward, because a call itself cannot be forwarded.",
+      "sentence": "But nobody can forward a call. The email is the only version anyone can open.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "People who disagree with a recap usually do not reply, because disputing it to a long cc list is costlier than staying silent, and the silence is treated as agreement.",
+      "sentence": "Replying means typing \"actually, I don't think we agreed\" to a long cc list, on a busy day. Silence is cheaper, so it counts as a yes.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Most attendees skip writing the meeting recap because it feels like admin, so whoever does write it gets to choose the wording.",
+      "sentence": "Writing the recap felt like admin, so everyone else skipped it. Whoever bothered got to pick the words",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Senior people rarely overrule the wording of a recap once it has been sent.",
+      "sentence": "seniors rarely overrule them.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "A thumbs-up reply to a recap or tracker entry puts the person on record as agreeing, even if they argued against the point on the call.",
+      "sentence": "One of them argued against it on the call. Now they're on record as agreeing.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {},
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None fails outright. The weakest point is the factual one in premise 2, \"nobody can forward a call\". It's true for the call in the story, which nobody recorded, because Zoom and Teams don't record or transcribe unless someone turns that on. It's not true across the board. When a call is recorded or transcribed, Teams lets the organizer share a recap link with the recording, transcript and AI summary, and even attendees who aren't organizers can share that link. Zoom AI Companion can also email a summary to the host and, depending on settings, to participants. In those cases the email isn't \"the only version anyone can open.\" The other premises (people stay silent, silence reads as yes, recaps feel like admin, seniors rarely overrule, a thumbs-up looks like agreement) are generalizations about office behavior and opinion. They aren't claims about how a product, fee or contract works, so they're not premises to falsify.",
+     "actual_mechanism": "Zoom and Teams only record, transcribe or summarize a call if the host or organizer turns it on. If nobody does, the only lasting record is whatever someone writes up afterward, which is the case the post describes. If recording or AI summaries are on, the organizer controls who gets the recording, transcript and summary. Teams can share these through a recap link. Zoom emails the summary to the host first and to participants only if settings allow, and the host can edit it before sending. So the first written account still shapes the record, but when a recording exists it can be checked against the call, and the person controlling the record is often the meeting host rather than whoever volunteered to write notes.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://support.microsoft.com/en-us/topic/65869725-a7d7-407c-91d4-8b7b8c8d0d0b",
+       "published_date": "unknown",
+       "quote": "Meeting organizers can grant access to the meeting recording, transcript, AI summary, and notes when copying or sharing a recap link... Meeting attendees who are not organizers can copy or share recap links."
+      },
+      {
+       "url": "https://support.microsoft.com/en-us/topic/f35329c2-57b1-487f-b5e3-70a7efb0945b",
+       "published_date": "unknown",
+       "quote": "If transcription was not started during the meeting, Teams cannot generate a transcript afterward from the recording. (Summary of the Microsoft support page from search results; not the page's exact wording.)"
+      },
+      {
+       "url": "https://www.cu.edu/printpdf/blog/tech-tips/creating-zoom-meeting-summaries-ai-companion",
+       "published_date": "unknown",
+       "quote": "The meeting summary will be e-mailed to you (the host) first, which can then be sent to other participants. (Search results cited a university guide for this line; matching it to this page is not confirmed.)"
+      },
+      {
+       "url": "https://www.imss.caltech.edu/services/voice-mobile-conference-calls/zoom/zoom-ai-companion",
+       "published_date": "unknown",
+       "quote": "Settings allow you to have meeting summaries sent only to you, as the host, all internal participants, or all meeting participants. (Search results cited a university guide for this line; matching it to this page is not confirmed.)"
+      }
+     ]
+    },
+    "text_hash": "c40e141573aeb86916c0545bf3eae3432f2c5d1f",
+    "at": "2026-11-02T16:23:37.890730+00:00"
+   }
+  }
+ ],
+ "updated_at": "2026-11-02T16:27:03.349218+00:00",
+ "sources": [],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] The decision belongs to whoever [sends the meeting summary]\nNot whoever talked the most on the call.\n \n\n[slide 1] The decision belongs to whoever sends the meeting summary.\nSwipe to read →\n\n[slide 2] It's 4 pm. Nine tiles on the screen, one person eating on mute.\nThe senior guy talks for twenty minutes. You make a sharp point and hear \"great point, let's take that offline.\"\nThen the tiles blink out one by one. Only your face is left.\n\n[slide 3] Twenty minutes later, an email lands. \"Hi all, as agreed, we'll go ahead with option B. Timelines below.\"\nYou can still hear the call in your head, the senior guy's voice and your own sharp point included. But nobody can forward a call.\nThe email is the only version anyone can open.\n\n[slide 4] And you don't reply. Neither does anyone else.\nReplying means typing \"actually, I don't think we agreed\" to a long cc list, on a busy day. Silence is cheaper, so it counts as a yes.\nWriting the recap felt like admin, so everyone else skipped it. Whoever bothered got to pick the words, and seniors rarely overrule them.\n\n[slide 5] By Monday, \"as agreed\" is in the tracker with a due date next to it. Two people have replied with a thumbs-up.\nOne of them argued against it on the call. Now they're on record as agreeing.\n\n[end card] Read it again before your next long call ends with \"let's align on next steps.\"\nThe friend who does all the talking in meetings and still loses every decision.\n\n[caption] What's the last thing you \"agreed\" to only because the email never got a reply?\n\n[alt text] Carousel post. Cover headline: The decision belongs to whoever sends the meeting summary. The slides follow a video call where the senior person talks the most and the reader's point gets taken 'offline'. The tiles blink out with no clear answer. Twenty minutes later an email says 'as agreed, we'll go ahead with option B', and it becomes the only version anyone can open. The replies never come, because pushing back to a long cc list feels costly, and everyone else skipped the recap because it felt like admin, so the writer picked the words. By Monday it is in the tracker, with a thumbs-up from someone who argued against it on the call and is now on record as agreeing.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "In meetings, the person who sends the written summary effectively gets to decide the outcome, regardless of who talked most. The reasons: the written recap is the only shareable record of the call, replying to dispute it costs more than staying silent, silence is read as agreement, others skip writing recaps, and seniors rarely overrule the recap's wording.",
+     "sentence": "The decision belongs to whoever sends the meeting summary. Not whoever talked the most on the call.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "A recap email becomes the only version of the meeting that anyone can open or forward, because a call itself cannot be forwarded.",
+     "sentence": "But nobody can forward a call. The email is the only version anyone can open.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c3",
+     "text": "People who disagree with a recap usually do not reply, because disputing it to a long cc list is costlier than staying silent, and the silence is treated as agreement.",
+     "sentence": "Replying means typing \"actually, I don't think we agreed\" to a long cc list, on a busy day. Silence is cheaper, so it counts as a yes.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c4",
+     "text": "Most attendees skip writing the meeting recap because it feels like admin, so whoever does write it gets to choose the wording.",
+     "sentence": "Writing the recap felt like admin, so everyone else skipped it. Whoever bothered got to pick the words",
+     "type": "mechanism",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c5",
+     "text": "Senior people rarely overrule the wording of a recap once it has been sent.",
+     "sentence": "seniors rarely overrule them.",
+     "type": "mechanism",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c6",
+     "text": "A thumbs-up reply to a recap or tracker entry puts the person on record as agreeing, even if they argued against the point on the call.",
+     "sentence": "One of them argued against it on the call. Now they're on record as agreeing.",
+     "type": "mechanism",
+     "core": false,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "_skeptic": {
+   "6452242e2cc04330fec0b9c488e6f7cf828daccd": {
+    "holds": true,
+    "broken_premise": "None fails outright. The weakest point is the factual one in premise 2, \"nobody can forward a call\". It's true for the call in the story, which nobody recorded, because Zoom and Teams don't record or transcribe unless someone turns that on. It's not true across the board. When a call is recorded or transcribed, Teams lets the organizer share a recap link with the recording, transcript and AI summary, and even attendees who aren't organizers can share that link. Zoom AI Companion can also email a summary to the host and, depending on settings, to participants. In those cases the email isn't \"the only version anyone can open.\" The other premises (people stay silent, silence reads as yes, recaps feel like admin, seniors rarely overrule, a thumbs-up looks like agreement) are generalizations about office behavior and opinion. They aren't claims about how a product, fee or contract works, so they're not premises to falsify.",
+    "actual_mechanism": "Zoom and Teams only record, transcribe or summarize a call if the host or organizer turns it on. If nobody does, the only lasting record is whatever someone writes up afterward, which is the case the post describes. If recording or AI summaries are on, the organizer controls who gets the recording, transcript and summary. Teams can share these through a recap link. Zoom emails the summary to the host first and to participants only if settings allow, and the host can edit it before sending. So the first written account still shapes the record, but when a recording exists it can be checked against the call, and the person controlling the record is often the meeting host rather than whoever volunteered to write notes.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://support.microsoft.com/en-us/topic/65869725-a7d7-407c-91d4-8b7b8c8d0d0b",
+      "published_date": "unknown",
+      "quote": "Meeting organizers can grant access to the meeting recording, transcript, AI summary, and notes when copying or sharing a recap link... Meeting attendees who are not organizers can copy or share recap links."
+     },
+     {
+      "url": "https://support.microsoft.com/en-us/topic/f35329c2-57b1-487f-b5e3-70a7efb0945b",
+      "published_date": "unknown",
+      "quote": "If transcription was not started during the meeting, Teams cannot generate a transcript afterward from the recording. (Summary of the Microsoft support page from search results; not the page's exact wording.)"
+     },
+     {
+      "url": "https://www.cu.edu/printpdf/blog/tech-tips/creating-zoom-meeting-summaries-ai-companion",
+      "published_date": "unknown",
+      "quote": "The meeting summary will be e-mailed to you (the host) first, which can then be sent to other participants. (Search results cited a university guide for this line; matching it to this page is not confirmed.)"
+     },
+     {
+      "url": "https://www.imss.caltech.edu/services/voice-mobile-conference-calls/zoom/zoom-ai-companion",
+      "published_date": "unknown",
+      "quote": "Settings allow you to have meeting summaries sent only to you, as the host, all internal participants, or all meeting participants. (Search results cited a university guide for this line; matching it to this page is not confirmed.)"
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "c40e141573aeb86916c0545bf3eae3432f2c5d1f": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "In meetings, the person who sends the written summary effectively gets to decide the outcome, regardless of who talked most. The reasons: the written recap is the only shareable record of the call, replying to dispute it costs more than staying silent, silence is read as agreement, others skip writing recaps, and seniors rarely overrule the recap's wording.",
+      "sentence": "The decision belongs to whoever sends the meeting summary. Not whoever talked the most on the call.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "A recap email becomes the only version of the meeting that anyone can open or forward, because a call itself cannot be forwarded.",
+      "sentence": "But nobody can forward a call. The email is the only version anyone can open.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "People who disagree with a recap usually do not reply, because disputing it to a long cc list is costlier than staying silent, and the silence is treated as agreement.",
+      "sentence": "Replying means typing \"actually, I don't think we agreed\" to a long cc list, on a busy day. Silence is cheaper, so it counts as a yes.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Most attendees skip writing the meeting recap because it feels like admin, so whoever does write it gets to choose the wording.",
+      "sentence": "Writing the recap felt like admin, so everyone else skipped it. Whoever bothered got to pick the words",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Senior people rarely overrule the wording of a recap once it has been sent.",
+      "sentence": "seniors rarely overrule them.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "A thumbs-up reply to a recap or tracker entry puts the person on record as agreeing, even if they argued against the point on the call.",
+      "sentence": "One of them argued against it on the call. Now they're on record as agreeing.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {},
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None fails outright. The weakest point is the factual one in premise 2, \"nobody can forward a call\". It's true for the call in the story, which nobody recorded, because Zoom and Teams don't record or transcribe unless someone turns that on. It's not true across the board. When a call is recorded or transcribed, Teams lets the organizer share a recap link with the recording, transcript and AI summary, and even attendees who aren't organizers can share that link. Zoom AI Companion can also email a summary to the host and, depending on settings, to participants. In those cases the email isn't \"the only version anyone can open.\" The other premises (people stay silent, silence reads as yes, recaps feel like admin, seniors rarely overrule, a thumbs-up looks like agreement) are generalizations about office behavior and opinion. They aren't claims about how a product, fee or contract works, so they're not premises to falsify.",
+     "actual_mechanism": "Zoom and Teams only record, transcribe or summarize a call if the host or organizer turns it on. If nobody does, the only lasting record is whatever someone writes up afterward, which is the case the post describes. If recording or AI summaries are on, the organizer controls who gets the recording, transcript and summary. Teams can share these through a recap link. Zoom emails the summary to the host first and to participants only if settings allow, and the host can edit it before sending. So the first written account still shapes the record, but when a recording exists it can be checked against the call, and the person controlling the record is often the meeting host rather than whoever volunteered to write notes.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://support.microsoft.com/en-us/topic/65869725-a7d7-407c-91d4-8b7b8c8d0d0b",
+       "published_date": "unknown",
+       "quote": "Meeting organizers can grant access to the meeting recording, transcript, AI summary, and notes when copying or sharing a recap link... Meeting attendees who are not organizers can copy or share recap links."
+      },
+      {
+       "url": "https://support.microsoft.com/en-us/topic/f35329c2-57b1-487f-b5e3-70a7efb0945b",
+       "published_date": "unknown",
+       "quote": "If transcription was not started during the meeting, Teams cannot generate a transcript afterward from the recording. (Summary of the Microsoft support page from search results; not the page's exact wording.)"
+      },
+      {
+       "url": "https://www.cu.edu/printpdf/blog/tech-tips/creating-zoom-meeting-summaries-ai-companion",
+       "published_date": "unknown",
+       "quote": "The meeting summary will be e-mailed to you (the host) first, which can then be sent to other participants. (Search results cited a university guide for this line; matching it to this page is not confirmed.)"
+      },
+      {
+       "url": "https://www.imss.caltech.edu/services/voice-mobile-conference-calls/zoom/zoom-ai-companion",
+       "published_date": "unknown",
+       "quote": "Settings allow you to have meeting summaries sent only to you, as the host, all internal participants, or all meeting participants. (Search results cited a university guide for this line; matching it to this page is not confirmed.)"
+      }
+     ]
+    },
+    "text_hash": "c40e141573aeb86916c0545bf3eae3432f2c5d1f",
+    "at": "2026-11-02T16:23:37.890730+00:00"
+   }
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "The decision belongs to whoever [sends the meeting summary]",
+   "sub": "Not whoever talked the most on the call."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "The decision belongs to whoever sends the meeting summary.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "If the meeting doesn't decide, what was that hour for?"
+   },
+   {
+    "paragraphs": [
+     "It's 4 pm. Nine tiles on the screen, one person eating on mute.",
+     "The senior guy talks for twenty minutes. You make a sharp point and hear \"great point, let's take that offline.\"",
+     "Then the tiles blink out one by one. Only your face is left."
+    ],
+    "why_swipe": "So what got decided?"
+   },
+   {
+    "paragraphs": [
+     "Twenty minutes later, an email lands. \"Hi all, as agreed, we'll go ahead with option B. Timelines below.\"",
+     "You can still hear the call in your head, the senior guy's voice and your own sharp point included. But nobody can forward a call.",
+     "**The email is the only version anyone can open.**"
+    ],
+    "why_swipe": "Why doesn't anyone push back?"
+   },
+   {
+    "paragraphs": [
+     "And you don't reply. Neither does anyone else.",
+     "Replying means typing \"actually, I don't think we agreed\" to a long cc list, on a busy day. Silence is cheaper, so it counts as a yes.",
+     "Writing the recap felt like admin, so everyone else skipped it. Whoever bothered got to pick the words, and seniors rarely overrule them."
+    ],
+    "why_swipe": "So what happens by Monday?"
+   },
+   {
+    "paragraphs": [
+     "By Monday, \"as agreed\" is in the tracker with a due date next to it. Two people have replied with a thumbs-up.",
+     "**One of them argued against it on the call. Now they're on record as agreeing.**"
+    ]
+   }
+  ],
+  "end": {
+   "save": "Read it again before your next long call ends with \"let's align on next steps.\"",
+   "send": "The friend who does all the talking in meetings and still loses every decision.",
+   "promise": "How Indian offices really work."
+  },
+  "caption": "What's the last thing you \"agreed\" to only because the email never got a reply?",
+  "hashtags": [
+   "#OfficeLife",
+   "#CorporateIndia",
+   "#MeetingCulture",
+   "#WorkplacePolitics"
+  ],
+  "alt_text": "Carousel post. Cover headline: The decision belongs to whoever sends the meeting summary. The slides follow a video call where the senior person talks the most and the reader's point gets taken 'offline'. The tiles blink out with no clear answer. Twenty minutes later an email says 'as agreed, we'll go ahead with option B', and it becomes the only version anyone can open. The replies never come, because pushing back to a long cc list feels costly, and everyone else skipped the recap because it felt like admin, so the writer picked the words. By Monday it is in the tracker, with a thumbs-up from someone who argued against it on the call and is now on record as agreeing.",
+  "claims": [],
+  "caption_style": "question"
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "In meetings, the person who sends the written summary effectively gets to decide the outcome, regardless of who talked most. The reasons: the written recap is the only shareable record of the call, replying to dispute it costs more than staying silent, silence is read as agreement, others skip writing recaps, and seniors rarely overrule the recap's wording.",
+    "sentence": "The decision belongs to whoever sends the meeting summary. Not whoever talked the most on the call.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "A recap email becomes the only version of the meeting that anyone can open or forward, because a call itself cannot be forwarded.",
+    "sentence": "But nobody can forward a call. The email is the only version anyone can open.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c3",
+    "text": "People who disagree with a recap usually do not reply, because disputing it to a long cc list is costlier than staying silent, and the silence is treated as agreement.",
+    "sentence": "Replying means typing \"actually, I don't think we agreed\" to a long cc list, on a busy day. Silence is cheaper, so it counts as a yes.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c4",
+    "text": "Most attendees skip writing the meeting recap because it feels like admin, so whoever does write it gets to choose the wording.",
+    "sentence": "Writing the recap felt like admin, so everyone else skipped it. Whoever bothered got to pick the words",
+    "type": "mechanism",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c5",
+    "text": "Senior people rarely overrule the wording of a recap once it has been sent.",
+    "sentence": "seniors rarely overrule them.",
+    "type": "mechanism",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c6",
+    "text": "A thumbs-up reply to a recap or tracker entry puts the person on record as agreeing, even if they argued against the point on the call.",
+    "sentence": "One of them argued against it on the call. Now they're on record as agreeing.",
+    "type": "mechanism",
+    "core": false,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {},
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "None fails outright. The weakest point is the factual one in premise 2, \"nobody can forward a call\". It's true for the call in the story, which nobody recorded, because Zoom and Teams don't record or transcribe unless someone turns that on. It's not true across the board. When a call is recorded or transcribed, Teams lets the organizer share a recap link with the recording, transcript and AI summary, and even attendees who aren't organizers can share that link. Zoom AI Companion can also email a summary to the host and, depending on settings, to participants. In those cases the email isn't \"the only version anyone can open.\" The other premises (people stay silent, silence reads as yes, recaps feel like admin, seniors rarely overrule, a thumbs-up looks like agreement) are generalizations about office behavior and opinion. They aren't claims about how a product, fee or contract works, so they're not premises to falsify.",
+   "actual_mechanism": "Zoom and Teams only record, transcribe or summarize a call if the host or organizer turns it on. If nobody does, the only lasting record is whatever someone writes up afterward, which is the case the post describes. If recording or AI summaries are on, the organizer controls who gets the recording, transcript and summary. Teams can share these through a recap link. Zoom emails the summary to the host first and to participants only if settings allow, and the host can edit it before sending. So the first written account still shapes the record, but when a recording exists it can be checked against the call, and the person controlling the record is often the meeting host rather than whoever volunteered to write notes.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://support.microsoft.com/en-us/topic/65869725-a7d7-407c-91d4-8b7b8c8d0d0b",
+     "published_date": "unknown",
+     "quote": "Meeting organizers can grant access to the meeting recording, transcript, AI summary, and notes when copying or sharing a recap link... Meeting attendees who are not organizers can copy or share recap links."
+    },
+    {
+     "url": "https://support.microsoft.com/en-us/topic/f35329c2-57b1-487f-b5e3-70a7efb0945b",
+     "published_date": "unknown",
+     "quote": "If transcription was not started during the meeting, Teams cannot generate a transcript afterward from the recording. (Summary of the Microsoft support page from search results; not the page's exact wording.)"
+    },
+    {
+     "url": "https://www.cu.edu/printpdf/blog/tech-tips/creating-zoom-meeting-summaries-ai-companion",
+     "published_date": "unknown",
+     "quote": "The meeting summary will be e-mailed to you (the host) first, which can then be sent to other participants. (Search results cited a university guide for this line; matching it to this page is not confirmed.)"
+    },
+    {
+     "url": "https://www.imss.caltech.edu/services/voice-mobile-conference-calls/zoom/zoom-ai-companion",
+     "published_date": "unknown",
+     "quote": "Settings allow you to have meeting summaries sent only to you, as the host, all internal participants, or all meeting participants. (Search results cited a university guide for this line; matching it to this page is not confirmed.)"
+    }
+   ]
+  },
+  "text_hash": "c40e141573aeb86916c0545bf3eae3432f2c5d1f",
+  "at": "2026-11-02T16:23:37.890730+00:00"
+ },
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-90/slide_01.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-90/slide_02.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-90/slide_03.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-90/slide_04.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-90/slide_05.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-90/slide_06.jpg"
+ ],
+ "buffer_attempted_at": "2026-11-02T16:27:02.313581+00:00",
+ "buffer_post_id": "6ae8b9d7a8c7e349215d4b65"
 }
