@@ -81,7 +81,9 @@ def ledger(draft: dict, due: str, prior: dict | None = None) -> list[dict]:
     ask = ("List every checkable claim about the world in this Instagram post, including implicit ones, as atomic claims. "
            "Ignore opinions, jokes, rhetorical lines (\"Nobody cancelled the weddings\"), typical scenes framed as typical, "
            "everyday practices any Indian reader has seen for themselves (udhaar written in a kirana diary, a 'Quick chat' "
-           "invite after a resignation, a relative saying 'itni door yaar'), and anything about the post itself or its sources. "
+           "invite after a resignation, a relative saying 'itni door yaar'), general observations about everyday life (free "
+           "places to sit are scarce, people keep returnable things they never return), the writer's reading of why people or "
+           "businesses behave as they do, and anything about the post itself or its sources. "
            "Do check how named companies, apps, rules and markets work, and any figure. Types: figure (a number presented as real data), event (something "
            "that happened or is happening; note how it is framed), superlative (record, first, biggest, lowest, best-selling), "
            "entity_attribute (a named company or person is profitable, owned by, valued at, does X), feature (an app, "
@@ -173,7 +175,10 @@ def skeptic(draft: dict, claims: list[dict], due: str) -> dict:
     ask = ("Assume the central argument of this Instagram post is wrong, and test it. Using primary sources where you can "
            "(tax law and rates, how a price, fee or commission is actually set, how the product or process really works), "
            "explain how this actually works. Does each premise hold, and does the conclusion follow? Small wording issues are "
-           "not your job; only whether the take itself stands.\n"
+           "not your job; only whether the take itself stands. This page is opinion: a reading of someone's motive offered "
+           "as the writer's view, an interpretation of a moment, or a generalization about everyday life is not a premise to "
+           "falsify. Fail a premise only when it states something demonstrably untrue about how a product, price, fee, law, "
+           "contract or market works, or who pays for what.\n"
            f"The post goes live on {due[:10] or 'an unknown date'}.\n\n## Post\n{final_text(draft)}\n\n## Its argument\n"
            + json.dumps([c.get("text") for c in claims], ensure_ascii=False)
            + '\n\nReturn only JSON: {"holds": true or false, "broken_premise": "which premise fails, if any", '

@@ -1,7 +1,7 @@
 {
  "id": "2026-11-92",
- "status": "planned",
- "due": "2026-11-09T20:30:00+05:30",
+ "status": "approved",
+ "due": "2026-11-03T20:30:00+05:30",
  "format": "carousel",
  "topic": {
   "title": "You're renting the table, not buying coffee",
@@ -40,6 +40,476 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-10-30T11:06:32.155647+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 5,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 3,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "Cover sub ('You're not overpaying for a drink. You're renting a table.'), slide 5 ('the café isn't selling you coffee. It's selling...'), and slide 6 ('You weren't angry about the coffee. You were angry that...') all run the same mirrored 'not X — it's/you were Y' construction three times in six slides. That's exactly the banned repeated 'Not X. Y.' engineered rhetoric. Rewrite at least two of these three into plain, differently-shaped sentences so the pattern doesn't recur.",
+     "Slide 5 mostly re-states slide 4's realization (you're paying for the space, not the drink) in punchier wording rather than adding a new beat — it's close to a restate-in-new-words slide. Either fold its best line ('the drink is just the ticket at the door') into slide 4 and cut slide 5, or give slide 5 something slide 4 hasn't said yet (why this specific trade only shows up in cities, or what the café quietly knows about it).",
+     "Once the mirrored-rhetoric lines are flattened, check slide 4→5 still earns its swipe: right now the realization is fully delivered by the end of slide 4, so slide 5 needs a genuinely new piece of the argument to justify existing.",
+     "The twenty-bucks home-coffee comparison and the three-hour scene detail are good and should stay as is — don't over-correct those while fixing the rhetoric."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Cover sub ('You're not overpaying for a drink. You're renting a table.'), slide 5 ('the café isn't selling you coffee. It's selling...'), and slide 6 ('You weren't angry about the coffee. You were angry that...') all run the same mirrored 'not X — it's/you were Y' construction three times in six slides. That's exactly the banned repeated 'Not X. Y.' engineered rhetoric. Rewrite at least two of these three into plain, differently-shaped sentences so the pattern doesn't recur.",
+    "Slide 5 mostly re-states slide 4's realization (you're paying for the space, not the drink) in punchier wording rather than adding a new beat — it's close to a restate-in-new-words slide. Either fold its best line ('the drink is just the ticket at the door') into slide 4 and cut slide 5, or give slide 5 something slide 4 hasn't said yet (why this specific trade only shows up in cities, or what the café quietly knows about it).",
+    "Once the mirrored-rhetoric lines are flattened, check slide 4→5 still earns its swipe: right now the realization is fully delivered by the end of slide 4, so slide 5 needs a genuinely new piece of the argument to justify existing.",
+    "The twenty-bucks home-coffee comparison and the three-hour scene detail are good and should stay as is — don't over-correct those while fixing the rhetoric."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 3: 'That's a lot for something you'd make at home for twenty bucks.' — invented specific figure not in the sources, topic's proof, or real_details (topic's only sourced figure is ₹350, which the post doesn't even use)."
+    ],
+    "scores": {
+     "hook": 5,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "Slide 3: Cut 'twenty bucks' — it's an invented number. Make the verdict land without a figure: e.g. 'So you say it to your friend: café coffee is a scam, priced for people who want to look premium.' can stand alone without the home-brew cost comparison.",
+     "Slide 5: 'The café isn't fighting this. It built the place for you' states the café's intent as settled fact. Topic's mechanism supports this in general terms, but soften the phrasing slightly so it reads as the reader's own observation rather than a claim about the café's internal decision — e.g. frame it through what the reader notices (plug points, Wi-Fi, clean bathroom) rather than asserting what the café 'built... for you'.",
+     "Topic mood is 'mixed' but the post resolves cleanly into acceptance by slide 6. Let the grumble in slide 6 breathe a beat longer before the turn lands — right now the concession ('The grumble at the bill is honest') is too quick to get swallowed by the close.",
+     "Slide 6: tighten 'benches taken, parks gated, every quiet corner is someone's shop' — three closely-related examples in one breath risks feeling like a list; one more vivid one might do more work than three quick ones.",
+     "Caption asks 'what were you really there for?' — slightly coaching/explainer in tone. A caption closer to the account's voice would restate the reader's own behaviour back at them rather than ask them to self-report a reason."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Slide 3: 'That's a lot for something you'd make at home for twenty bucks.' — invented specific figure not in the sources, topic's proof, or real_details (topic's only sourced figure is ₹350, which the post doesn't even use).",
+    "Slide 3: Cut 'twenty bucks' — it's an invented number. Make the verdict land without a figure: e.g. 'So you say it to your friend: café coffee is a scam, priced for people who want to look premium.' can stand alone without the home-brew cost comparison.",
+    "Slide 5: 'The café isn't fighting this. It built the place for you' states the café's intent as settled fact. Topic's mechanism supports this in general terms, but soften the phrasing slightly so it reads as the reader's own observation rather than a claim about the café's internal decision — e.g. frame it through what the reader notices (plug points, Wi-Fi, clean bathroom) rather than asserting what the café 'built... for you'.",
+    "Topic mood is 'mixed' but the post resolves cleanly into acceptance by slide 6. Let the grumble in slide 6 breathe a beat longer before the turn lands — right now the concession ('The grumble at the bill is honest') is too quick to get swallowed by the close.",
+    "Slide 6: tighten 'benches taken, parks gated, every quiet corner is someone's shop' — three closely-related examples in one breath risks feeling like a list; one more vivid one might do more work than three quick ones.",
+    "Caption asks 'what were you really there for?' — slightly coaching/explainer in tone. A caption closer to the account's voice would restate the reader's own behaviour back at them rather than ask them to self-report a reason."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Rule 6 (facts as hero / more than two numbers): the post uses three distinct numeric details — \"Three hours\" (cover sub, slide 2, final slide), \"two hours of quiet\" (slide 4), and \"ten minutes\" (slide 6) — exceeding the two-number limit.",
+     "Rule 7 (dead slide): slide 5 (\"Look closer and you notice it: more plug points than your home, Wi-Fi that actually holds, a bathroom that's clean.\") restates the amenities list already given in slide 4 (\"a clean table, a chair that didn't wobble, Wi-Fi, a bathroom, light to read by\"). No new information, nothing to swipe for."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "Numbers: cut to one or two. Keep \"three hours\" as the anchor detail everywhere it already appears, but drop \"two hours of quiet\" in slide 4 (say \"quiet to read in\") and drop \"ten minutes\" in slide 6 (say \"a drink you barely tasted\") so the post isn't carrying three separate figures.",
+     "Slide 5 is dead weight: it just re-lists what slide 4 already gave (plugs/Wi-Fi/bathroom). Either cut slide 5 entirely and let slide 4 carry the amenities, or rewrite slide 5 to deliver only the new idea — the café using a full room of laptops as free advertising — without repeating the amenity inventory.",
+     "Slide 6 opens with \"The grumble at the bill is honest\" right after slide 5's reveal — make sure this doesn't just restate the slide 3 grumble; it should move the moment forward (stepping outside, failing to find a free seat), which it does, but trim any amenity-echo language left over from fixing slide 5.",
+     "Once slide 5 is cut or rewritten, recount total slides — if the post now runs one slide shorter, check the final slide still lands as a standalone closer and doesn't need slide 5's cut material folded back in.",
+     "Re-read the tightened version end to end to confirm each slide still earns its own swipe now that the amenity list only appears once."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Rule 6 (facts as hero / more than two numbers): the post uses three distinct numeric details — \"Three hours\" (cover sub, slide 2, final slide), \"two hours of quiet\" (slide 4), and \"ten minutes\" (slide 6) — exceeding the two-number limit.",
+    "Rule 7 (dead slide): slide 5 (\"Look closer and you notice it: more plug points than your home, Wi-Fi that actually holds, a bathroom that's clean.\") restates the amenities list already given in slide 4 (\"a clean table, a chair that didn't wobble, Wi-Fi, a bathroom, light to read by\"). No new information, nothing to swipe for.",
+    "Numbers: cut to one or two. Keep \"three hours\" as the anchor detail everywhere it already appears, but drop \"two hours of quiet\" in slide 4 (say \"quiet to read in\") and drop \"ten minutes\" in slide 6 (say \"a drink you barely tasted\") so the post isn't carrying three separate figures.",
+    "Slide 5 is dead weight: it just re-lists what slide 4 already gave (plugs/Wi-Fi/bathroom). Either cut slide 5 entirely and let slide 4 carry the amenities, or rewrite slide 5 to deliver only the new idea — the café using a full room of laptops as free advertising — without repeating the amenity inventory.",
+    "Slide 6 opens with \"The grumble at the bill is honest\" right after slide 5's reveal — make sure this doesn't just restate the slide 3 grumble; it should move the moment forward (stepping outside, failing to find a free seat), which it does, but trim any amenity-echo language left over from fixing slide 5.",
+    "Once slide 5 is cut or rewritten, recount total slides — if the post now runs one slide shorter, check the final slide still lands as a standalone closer and doesn't need slide 5's cut material folded back in.",
+    "Re-read the tightened version end to end to confirm each slide still earns its own swipe now that the amenity list only appears once."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 5,
+     "tight": 4
+    },
+    "notes": [
+     "Slide 6: 'Every quiet corner belongs to someone's shop' just restates slide 4's point ('try to find that anywhere else in your city for free') in different words. Replace it with something new — e.g. what the reader actually does next (orders another coffee, moves to a different café) rather than re-stating the scarcity.",
+     "'Three hours' is used in the cover sub, slide 2, and slide 7 — cut one of these so the echo at the end feels earned rather than recycled; keep the opening mention and the closer, drop it from slide 2.",
+     "Slide 5 names the mechanism ('full room of laptops is the best signboard') well, but it's stated as a settled fact about café intent — ground it a touch more in what the reader can actually observe (nobody hovering, no second reminder to order) rather than asserting the café's strategy outright.",
+     "Slide 3's 'priced for people who want to look premium' leans on the account's stock belief about premium-as-packaging — make sure this reads as the reader's own gripe in the moment, not a lifted thesis line, so it still feels like one person's Sunday irritation."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "The take's premise is wrong: The post's load-bearing premise — that cafés tolerate hours-on-one-order because 'a full room of laptops is the best signboard it has,' i.e. long-stay campers work as advertising that makes the low per-table revenue worthwhile. In the actual trade this is mostly backwards: laptop campers are widely treated as a revenue problem, not a marketing asset.. How it actually works: A café's economics run on table turnover and average ticket size, not on seats-as-advertising: the drink carries a 70–85% gross margin but net margins are only ~3–7%, so a four-top held for three hours on one $4–5 coffee earns roughly $1/hour and many operators actively fight it — cutting Wi-Fi, covering outlets, setting time limits, redesigning for fast turnover (one documented laptop ban tripled ticket size and lifted profit ~35%). When a café does let you linger, the real reasons are that rent/labour/lights are sunk fixed costs so the marginal cost of an already-seated customer is near zero, plus a busy room is mild social proof for walk-ins — not that your laptop is a billboard recruiting more laptops. So the consumer intuition 'you're renting the table, not buying the coffee' is roughly right, but the stated causal story for why the café welcomes it is wrong. Rebuild the post on the correct mechanism.",
+     "Needs a stronger source: 'In Indian cities there are almost no free public spaces to sit for extended periods, since most quiet corners are privately owned by shops.' (a primary source, or two independent major outlets)."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Cafés tolerate customers staying for hours on one order because a room full of long-staying laptop users functions as a signboard that attracts more customers, making the long stay commercially worthwhile for the café despite low per-table revenue.",
+      "sentence": "And the café isn't fighting your long stay. A full room of laptops is the best signboard it has.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Public libraries in many Indian towns have shut down, or such towns never had one.",
+      "sentence": "The library shut years ago, if your town ever had one.",
+      "type": "event",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c3",
+      "text": "In Indian cities there are almost no free public spaces to sit for extended periods, since most quiet corners are privately owned by shops.",
+      "sentence": "Then you step outside and look for a free chair. Every quiet corner belongs to someone's shop.",
+      "type": "event",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2019-06-30",
+      "correct": "Both halves hold, but as a structural/rural-urban gap rather than a single news event: (1) many existing town/city libraries have shut branches or decayed — e.g. Mumbai's 125-year-old Mumbai Marathi Granthalaya has only 29 of its 44 branches open (21 active) due to funding and political problems, and libraries nationwide lost members during COVID-19 and never recovered; (2) most small towns and almost all villages never had one — 2011 census data shows only ~4,580 libraries existed in all of urban India (about one per 80,000 urban residents), and government library laws exist in only 19 states with implementation hampered by chronic underfunding (e.g. Bengaluru's BBMP owed ₹226+ crore in library cess as of 2019). A 2019 national government survey counted 46,746 public libraries total, up from 27,682 earlier, but even this growth is concentrated in a handful of states (Maharashtra, Kerala, Karnataka) leaving large swathes of small towns with no coverage.",
+      "sources": [
+       {
+        "url": "https://www.rrrlf.gov.in/Docs/pdf/Survey_Report.pdf",
+        "publisher": "Raja Rammohun Roy Library Foundation, Ministry of Culture, Govt. of India",
+        "published_date": "2019-07-01",
+        "quote": "Qualitative and Quantitative Survey Of Public Libraries in India ... final survey report submitted in July 2019; India has a total of 46,746 public libraries across States and Union Territories",
+        "tier": 1
+       },
+       {
+        "url": "https://www.outlookindia.com/national/digital-reading-hits-libraries-many-shut-down-as-people-keep-away-news-312992",
+        "publisher": "Outlook India",
+        "published_date": "2023-08-24",
+        "quote": "Of its 44 branches, only 29 are currently open, with just 21 actively operational ... Dwindling memberships, funds crunch and societal apathy are emerging as the primary reasons for many libraries closing down",
+        "tier": 2
+       },
+       {
+        "url": "https://www.nagrika.org/post/publiclibrary",
+        "publisher": "Nagrika",
+        "published_date": "2020-10-13",
+        "quote": "According to the 2011 census, India has only 4,580 libraries in urban areas ... one urban library for over 80,000 people",
+        "tier": 3
+       },
+       {
+        "url": "https://citizenmatters.in/india-public-libraries-national-state-policy-access-data/",
+        "publisher": "Citizen Matters",
+        "published_date": "2021-01-01",
+        "quote": "In almost all states, the local departments of libraries point to lack of funding as the main impediment to offering services ... the Bruhat Bengaluru Mahanagara Palike (BBMP), owes more than Rs 226 crore to the Department of Public Libraries as on 2019",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "2019-01-01",
+      "correct": "Confirmed and still current as of the Nov 2026 go-live date: Indian cities have far less usable public open space than international norms (WHO recommends 9 sq m/person), and much of what exists is being converted into monetizable, privately-controlled space rather than free seating areas. Reported per-capita figures: Mumbai ~1.2–1.58 sq m, Chennai ~0.81 sq m, Patna ~2.43 sq m, national urban average ~2.7 sq m, versus London (31.7 sq m) and New York (26.4 sq m). Multiple 2025–2026 pieces describe cafes/malls effectively charging an 'entry fee' (e.g., a ₹300 coffee) to sit, because benches and parks generate no revenue and are deprioritized in planning.",
+      "sources": [
+       {
+        "url": "https://csr.education/urban-planning-development/open-spaces-indian-cities-challenges-opportunities/",
+        "publisher": "CSR Education",
+        "published_date": "2025-11-29",
+        "quote": "Per capita open space in Indian cities currently stands at about 2.7 square meters, far below the World Health Organization's recommended minimum of 9 square meters.",
+        "tier": 3
+       },
+       {
+        "url": "https://www.bigstorynetwork.com/content/the-pay-to-exist-crisis-how-indias-cities-turned-human-connection-into-a-luxury-good",
+        "publisher": "Big Story Network",
+        "published_date": "2026-03-14",
+        "quote": "Mumbai's city average hovers around 1.2 square metres per person ... The ₹300 cappuccino is not a beverage. It is the entry ticket required to buy the right to sit.",
+        "tier": 3
+       },
+       {
+        "url": "https://countercurrents.org/2026/04/the-disappearing-public-space-in-indian-cities-malls-over-parks-gates-over-access/",
+        "publisher": "Countercurrents",
+        "published_date": "2026-04-30",
+        "quote": "The privatisation of public spaces is not just a byproduct of urbanisation; in many cities, it's part of the plan ... What gets developed, malls, gated communities, and commercial parks with restricted access, shares one common trait: it is space that can be monetised.",
+        "tier": 3
+       },
+       {
+        "url": "https://thewire.in/urban/how-indian-cities-are-squeezing-the-people-out-of-public-spaces",
+        "publisher": "The Wire",
+        "published_date": "2022-01-01",
+        "quote": "areas where people engaged as citizens are gradually being replaced by spaces of consumption, dividing our cities even more and shrinking the realm of public discourse",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "The post's load-bearing premise — that cafés tolerate hours-on-one-order because 'a full room of laptops is the best signboard it has,' i.e. long-stay campers work as advertising that makes the low per-table revenue worthwhile. In the actual trade this is mostly backwards: laptop campers are widely treated as a revenue problem, not a marketing asset.",
+     "actual_mechanism": "A café's economics run on table turnover and average ticket size, not on seats-as-advertising: the drink carries a 70–85% gross margin but net margins are only ~3–7%, so a four-top held for three hours on one $4–5 coffee earns roughly $1/hour and many operators actively fight it — cutting Wi-Fi, covering outlets, setting time limits, redesigning for fast turnover (one documented laptop ban tripled ticket size and lifted profit ~35%). When a café does let you linger, the real reasons are that rent/labour/lights are sunk fixed costs so the marginal cost of an already-seated customer is near zero, plus a busy room is mild social proof for walk-ins — not that your laptop is a billboard recruiting more laptops. So the consumer intuition 'you're renting the table, not buying the coffee' is roughly right, but the stated causal story for why the café welcomes it is wrong.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://blog.sreecharan.in/2026/06/how-banning-laptops-boosted-this-cafes.html",
+       "published_date": "2026-06",
+       "quote": "profits increased by 35%, average table occupancy dropped from 110 minutes to 42 minutes, and average ticket size tripled from $4.50 to $24.50"
+      },
+      {
+       "url": "https://coffeeshopstartups.com/coffee-shop-profit-margins/",
+       "published_date": "2025",
+       "quote": "The profit margin on brewed coffee typically ranges from 70-85% per cup... the average coffee shop net profit margin falls between 2.5% and 7% of revenue... rent, labor, and equipment financing consume most of that advantage"
+      },
+      {
+       "url": "https://www.tryperdiem.com/post/laptop-free-zones-why-more-and-more-coffee-shops-are-banning-laptops",
+       "published_date": "2025",
+       "quote": "An increasing number of coffee shops are experimenting with laptop-free policies... Removing power outlets, reducing Wi-Fi availability or imposing time limits"
+      },
+      {
+       "url": "https://intelligence.coffee/2026/04/laptop-free-coffee-shops-digital-age/",
+       "published_date": "2026-04",
+       "quote": "Coffee shops are designed around turnover—not extended occupancy—and prolonged laptop use can disrupt both revenue and atmosphere"
+      }
+     ]
+    },
+    "text_hash": "ed58b06b5d33d3396ae9ee32358461559d2a6713",
+    "at": "2026-11-02T15:46:48.568551+00:00"
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "The take's premise is wrong: The post's load-bearing premise — that cafés tolerate hours-on-one-order because 'a full room of laptops is the best signboard it has,' i.e. long-stay campers work as advertising that makes the low per-table revenue worthwhile. In the actual trade this is mostly backwards: laptop campers are widely treated as a revenue problem, not a marketing asset.. How it actually works: A café's economics run on table turnover and average ticket size, not on seats-as-advertising: the drink carries a 70–85% gross margin but net margins are only ~3–7%, so a four-top held for three hours on one $4–5 coffee earns roughly $1/hour and many operators actively fight it — cutting Wi-Fi, covering outlets, setting time limits, redesigning for fast turnover (one documented laptop ban tripled ticket size and lifted profit ~35%). When a café does let you linger, the real reasons are that rent/labour/lights are sunk fixed costs so the marginal cost of an already-seated customer is near zero, plus a busy room is mild social proof for walk-ins — not that your laptop is a billboard recruiting more laptops. So the consumer intuition 'you're renting the table, not buying the coffee' is roughly right, but the stated causal story for why the café welcomes it is wrong. Rebuild the post on the correct mechanism.",
+    "Needs a stronger source: 'In Indian cities there are almost no free public spaces to sit for extended periods, since most quiet corners are privately owned by shops.' (a primary source, or two independent major outlets)."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-02T15:48:53.279831+00:00",
+ "sources": [],
+ "draft": {
+  "cover": {
+   "headline": "The coffee isn't cheap. The [chair] is the product.",
+   "sub": "Three hours, one cold coffee, and nobody asks you to leave."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "The coffee isn't cheap. The chair is the product.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "The reader wants to know how a chair became the thing they paid for."
+   },
+   {
+    "paragraphs": [
+     "It's a Sunday. You've been at the same table for three hours. One cold coffee, now warm, sweating a ring onto the wood.",
+     "Your laptop's battery is fading. The plug is right there. No one's asked you to leave."
+    ],
+    "why_swipe": "They recognise the scene and wait for the judgement they're about to make."
+   },
+   {
+    "paragraphs": [
+     "You do the math anyway. That's a lot for a drink.",
+     "So you say it to your friend: café coffee is a scam, priced for people who want to look premium."
+    ],
+    "why_swipe": "That's the easy verdict. The reader wants to see it challenged."
+   },
+   {
+    "paragraphs": [
+     "But look at what you actually used. A clean table, a chair that didn't wobble, Wi-Fi, a bathroom, light to read by, quiet to sit in.",
+     "**Now try to find that anywhere else in your city for free.**",
+     "Your flat is small. The office is loud. The library shut years ago, if your town ever had one."
+    ],
+    "why_swipe": "The turn lands. Now they want to know what the café makes of all this."
+   },
+   {
+    "paragraphs": [
+     "And the café isn't fighting your long stay. A full room of laptops is the best signboard it has.",
+     "The drink is just the ticket at the door. The table is what you're really renting."
+    ],
+    "why_swipe": "The reader feels the deal reframed and waits for the line that names it."
+   },
+   {
+    "paragraphs": [
+     "The grumble at the bill is honest. That much for a drink you barely tasted stings, and it should.",
+     "Then you step outside and look for a free chair. Every quiet corner belongs to someone's shop."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "**Three hours at a table no one moves you from, for the price of one coffee. You paid it because there was nowhere else to go.**"
+    ],
+    "why_swipe": ""
+   }
+  ],
+  "end": {
+   "save": "Read it again next time you grumble at the bill but still don't want to go home.",
+   "send": "Send to the friend who complains about café prices from the same café every weekend.",
+   "promise": "What your money actually buys."
+  },
+  "caption": "How long have you sat in a café on one order, telling yourself the coffee was the reason you came?",
+  "hashtags": [
+   "cafeculture",
+   "cafeprices",
+   "urbanindia",
+   "thirdplace"
+  ],
+  "alt_text": "A seven-slide carousel arguing that café coffee is overpriced as a drink but fair as rent for a quiet table, because Indian cities have almost no free places to sit.",
+  "claims": [],
+  "caption_style": "question"
+ },
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] The coffee isn't cheap. The [chair] is the product.\nThree hours, one cold coffee, and nobody asks you to leave.\n \n\n[slide 1] The coffee isn't cheap. The chair is the product.\nSwipe to read →\n\n[slide 2] It's a Sunday. You've been at the same table for three hours. One cold coffee, now warm, sweating a ring onto the wood.\nYour laptop's battery is fading. The plug is right there. No one's asked you to leave.\n\n[slide 3] You do the math anyway. That's a lot for a drink.\nSo you say it to your friend: café coffee is a scam, priced for people who want to look premium.\n\n[slide 4] But look at what you actually used. A clean table, a chair that didn't wobble, Wi-Fi, a bathroom, light to read by, quiet to sit in.\nNow try to find that anywhere else in your city for free.\nYour flat is small. The office is loud. The library shut years ago, if your town ever had one.\n\n[slide 5] And the café isn't fighting your long stay. A full room of laptops is the best signboard it has.\nThe drink is just the ticket at the door. The table is what you're really renting.\n\n[slide 6] The grumble at the bill is honest. That much for a drink you barely tasted stings, and it should.\nThen you step outside and look for a free chair. Every quiet corner belongs to someone's shop.\n\n[slide 7] Three hours at a table no one moves you from, for the price of one coffee. You paid it because there was nowhere else to go.\n\n[end card] Read it again next time you grumble at the bill but still don't want to go home.\nSend to the friend who complains about café prices from the same café every weekend.\n\n[caption] How long have you sat in a café on one order, telling yourself the coffee was the reason you came?\n\n[alt text] A seven-slide carousel arguing that café coffee is overpriced as a drink but fair as rent for a quiet table, because Indian cities have almost no free places to sit.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Cafés let customers occupy a table for extended periods without additional purchase or being asked to leave, because they provide free-to-use amenities (table, chair, Wi-Fi, bathroom, light, quiet) that are otherwise unavailable for free elsewhere in the city, and a room full of long-staying customers functions as a draw/signal that benefits the café, so the price of one coffee effectively covers the use of the space rather than just the drink",
+     "sentence": "The coffee isn't cheap. The chair is the product. ... The drink is just the ticket at the door. The table is what you're really renting.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "_skeptic": {
+   "c369523033f2d270a74fc00c0bf365f65fd785c4": {
+    "holds": true,
+    "broken_premise": "",
+    "actual_mechanism": "A café coffee is priced by cost-plus: the beans are only ~8-12% of the menu price and all ingredients together 15-35%, while the rest of the price is labor, rent, utilities and overhead — the cost of running the room. So the markup you pay on a drink is literally paying for staffed, powered, furnished space, which is why a single order reasonably buys a long sit; the 'cafés welcome laptop campers as a draw' and 'nowhere else is free' points are the writer's interpretation, not falsifiable facts, but the economic core (you're paying for the space, not the liquid) is how the pricing actually works.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.coffeemachinedepot.com/blogs/news/cafe-pricing-margins-2026",
+      "published_date": "2026",
+      "quote": "Coffee beans typically represent 8-12% of a drink's selling price, while milk adds another 5-8%... Each beverage sold involves ingredient cost... and a contribution toward overhead (rent, utilities, equipment depreciation, insurance)."
+     },
+     {
+      "url": "https://smallbusiness.chron.com/coffee-shop-cost-analysis-76311.html",
+      "published_date": "n.d.",
+      "quote": "Well-managed coffee shops typically allocate 60-70% of gross revenue to operating expenses, including 25-35% for labor costs, 25-35% for cost of goods sold, 6-10% for rent."
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "ed58b06b5d33d3396ae9ee32358461559d2a6713": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Cafés let customers occupy a table for extended periods without additional purchase or being asked to leave, because they provide free-to-use amenities (table, chair, Wi-Fi, bathroom, light, quiet) that are otherwise unavailable for free elsewhere in the city, and a room full of long-staying customers functions as a draw/signal that benefits the café, so the price of one coffee effectively covers the use of the space rather than just the drink",
+      "sentence": "The coffee isn't cheap. The chair is the product. ... The drink is just the ticket at the door. The table is what you're really renting.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {},
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "",
+     "actual_mechanism": "A café coffee is priced by cost-plus: the beans are only ~8-12% of the menu price and all ingredients together 15-35%, while the rest of the price is labor, rent, utilities and overhead — the cost of running the room. So the markup you pay on a drink is literally paying for staffed, powered, furnished space, which is why a single order reasonably buys a long sit; the 'cafés welcome laptop campers as a draw' and 'nowhere else is free' points are the writer's interpretation, not falsifiable facts, but the economic core (you're paying for the space, not the liquid) is how the pricing actually works.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.coffeemachinedepot.com/blogs/news/cafe-pricing-margins-2026",
+       "published_date": "2026",
+       "quote": "Coffee beans typically represent 8-12% of a drink's selling price, while milk adds another 5-8%... Each beverage sold involves ingredient cost... and a contribution toward overhead (rent, utilities, equipment depreciation, insurance)."
+      },
+      {
+       "url": "https://smallbusiness.chron.com/coffee-shop-cost-analysis-76311.html",
+       "published_date": "n.d.",
+       "quote": "Well-managed coffee shops typically allocate 60-70% of gross revenue to operating expenses, including 25-35% for labor costs, 25-35% for cost of goods sold, 6-10% for rent."
+      }
+     ]
+    },
+    "text_hash": "ed58b06b5d33d3396ae9ee32358461559d2a6713",
+    "at": "2026-11-02T15:48:53.279815+00:00"
+   }
+  }
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Cafés let customers occupy a table for extended periods without additional purchase or being asked to leave, because they provide free-to-use amenities (table, chair, Wi-Fi, bathroom, light, quiet) that are otherwise unavailable for free elsewhere in the city, and a room full of long-staying customers functions as a draw/signal that benefits the café, so the price of one coffee effectively covers the use of the space rather than just the drink",
+    "sentence": "The coffee isn't cheap. The chair is the product. ... The drink is just the ticket at the door. The table is what you're really renting.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {},
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "",
+   "actual_mechanism": "A café coffee is priced by cost-plus: the beans are only ~8-12% of the menu price and all ingredients together 15-35%, while the rest of the price is labor, rent, utilities and overhead — the cost of running the room. So the markup you pay on a drink is literally paying for staffed, powered, furnished space, which is why a single order reasonably buys a long sit; the 'cafés welcome laptop campers as a draw' and 'nowhere else is free' points are the writer's interpretation, not falsifiable facts, but the economic core (you're paying for the space, not the liquid) is how the pricing actually works.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://www.coffeemachinedepot.com/blogs/news/cafe-pricing-margins-2026",
+     "published_date": "2026",
+     "quote": "Coffee beans typically represent 8-12% of a drink's selling price, while milk adds another 5-8%... Each beverage sold involves ingredient cost... and a contribution toward overhead (rent, utilities, equipment depreciation, insurance)."
+    },
+    {
+     "url": "https://smallbusiness.chron.com/coffee-shop-cost-analysis-76311.html",
+     "published_date": "n.d.",
+     "quote": "Well-managed coffee shops typically allocate 60-70% of gross revenue to operating expenses, including 25-35% for labor costs, 25-35% for cost of goods sold, 6-10% for rent."
+    }
+   ]
+  },
+  "text_hash": "ed58b06b5d33d3396ae9ee32358461559d2a6713",
+  "at": "2026-11-02T15:48:53.279815+00:00"
+ }
 }
