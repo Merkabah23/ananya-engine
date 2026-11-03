@@ -1,6 +1,6 @@
 {
  "id": "2026-11-100",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-07T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -43,6 +43,581 @@
   "villain": "a wedding-pricing norm that charges more to buyers who won't walk away",
   "story_type": "objection"
  },
- "history": [],
- "updated_at": "2026-11-03T09:03:57.903421+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Hard failure 14 (no story / details too narrow): the reader is a bystander watching 'your cousin' on a call at 'your sibling's wedding'. It isn't the reader's own moment followed forward in time. Slides 2-4 and 6 hang on the cousin, so 'this is me' is weaker.",
+     "Hard failure 12 (mechanism shown doesn't match the claim): slide 4 shows the cousin never saying 'wedding', yet the rate rises because the caterer senses the pause. The payoff line, 'If saying one word adds a lakh', and the cover both say the word is what raises the price. The scene shows something else, so the mechanism is muddled."
+    ],
+    "scores": {
+     "hook": 3,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 3,
+     "tight": 3
+    },
+    "notes": [
+     "Slides 2-4: make the scene match the claim. Either the lie works and the quote drops, then the family says 'wedding' (the vendor hears it, or the cards and venue give it away) and the rate jumps. Or the quote is low until the word slips. Right now the trick fails because of a pause, which proves a different point from 'the word changes the quote'. Pick one beat and keep it clean.",
+     "Slide 2: put the reader in the chair. Make it 'you' making or listening to the call, not a cousin doing it while you watch. Drop the sibling and cousin layering so more readers see themselves. Keep the fan ticking, which is a good detail.",
+     "Slide 1: the hook is only a situation. Put the turn in it, e.g. the one word families hide on vendor calls, because that word is what the caterer is charging for. Don't give away the 'won't walk away' answer.",
+     "Slide 3: cut 'Everyone at home knows the rule... you think that's fair' down to a line or two. It explains what readers already know, and slide 4's 'same paneer, same 150 plates' repeats the same belief-versus-reality point. Merge them so each slide adds something new.",
+     "Slide 5: this is the real because, and it comes late and a little flat. Give it the cornered feeling: the cards are printed, relatives will ask the price, and asking for a discount feels like calling the family cheap. Say that the vendor charges for that fear, not for the work. Make the 'lakh' in the cover and last slide something the scene has already set up, not a new figure."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Hard failure 14 (no story / details too narrow): the reader is a bystander watching 'your cousin' on a call at 'your sibling's wedding'. It isn't the reader's own moment followed forward in time. Slides 2-4 and 6 hang on the cousin, so 'this is me' is weaker.",
+    "Hard failure 12 (mechanism shown doesn't match the claim): slide 4 shows the cousin never saying 'wedding', yet the rate rises because the caterer senses the pause. The payoff line, 'If saying one word adds a lakh', and the cover both say the word is what raises the price. The scene shows something else, so the mechanism is muddled.",
+    "Slides 2-4: make the scene match the claim. Either the lie works and the quote drops, then the family says 'wedding' (the vendor hears it, or the cards and venue give it away) and the rate jumps. Or the quote is low until the word slips. Right now the trick fails because of a pause, which proves a different point from 'the word changes the quote'. Pick one beat and keep it clean.",
+    "Slide 2: put the reader in the chair. Make it 'you' making or listening to the call, not a cousin doing it while you watch. Drop the sibling and cousin layering so more readers see themselves. Keep the fan ticking, which is a good detail.",
+    "Slide 1: the hook is only a situation. Put the turn in it, e.g. the one word families hide on vendor calls, because that word is what the caterer is charging for. Don't give away the 'won't walk away' answer.",
+    "Slide 3: cut 'Everyone at home knows the rule... you think that's fair' down to a line or two. It explains what readers already know, and slide 4's 'same paneer, same 150 plates' repeats the same belief-versus-reality point. Merge them so each slide adds something new.",
+    "Slide 5: this is the real because, and it comes late and a little flat. Give it the cornered feeling: the cards are printed, relatives will ask the price, and asking for a discount feels like calling the family cheap. Say that the vendor charges for that fear, not for the work. Make the 'lakh' in the cover and last slide something the scene has already set up, not a new figure."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Dead slide, slide 7: its closer 'If saying one word adds a lakh, the lakh was never for the work' repeats the cover headline ('the word you hide... is the word they charge for'). It also restates slide 4 ('Nothing on the menu changed. Only the word did.') and slide 6 ('charging for that fear, not the work'). The last slide repeating the cover's point counts as dead.",
+     "Dead slide, slide 5: it says a price follows how hard the buyer will push back, and slide 6 says the same thing again for weddings. The mechanism is split across two slides, and slide 5 gives the reader no reason to swipe ('what happens next?')."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 7: Stop recapping the thesis. Follow the story forward instead. For example, the reader has to tell the photographer 'just a get-together' and hears the same pause on the line, or the family group thumbs-up arrives and nobody asks why the number went up. Close on a human sting or a test the reader can run, not a rewording of the cover.",
+     "slides 5-6: Merge into one slide. Put the because once: you can't push at a wedding (cards printed, relatives will ask what the food cost, a discount feels like calling your own family cheap). Cut the stand-alone 'price follows pushback' slide. Keep the 'I've sat on the selling side' beat only if it adds something the merged slide doesn't have.",
+     "slide 3: The turn arrives well, but let the reader feel the cornered moment more. Add one non-visual detail: the caterer's pause, the fan stopping, the pen going quiet. Make the reader's own slip the trigger (they say 'shaadi' or 'mehendi' without thinking) so the 'cornered' feeling lands on them and not on a relative in the background.",
+     "slide 6/7: Soften 'the lakh was never for the work'. Weddings genuinely do involve more work, and an honest concession ('some of it is real work, but not a lakh of it') makes the point harder to argue with. State the vendor's motive as how pricing works (they quote what the buyer won't question), not as a plan.",
+     "slide 1: The cover headline and slide 1 say the same sentence. Make slide 1 add something the cover doesn't, such as the 'small family function' phrase or a sharper version of the claim, so the cover and first slide don't duplicate."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Dead slide, slide 7: its closer 'If saying one word adds a lakh, the lakh was never for the work' repeats the cover headline ('the word you hide... is the word they charge for'). It also restates slide 4 ('Nothing on the menu changed. Only the word did.') and slide 6 ('charging for that fear, not the work'). The last slide repeating the cover's point counts as dead.",
+    "Dead slide, slide 5: it says a price follows how hard the buyer will push back, and slide 6 says the same thing again for weddings. The mechanism is split across two slides, and slide 5 gives the reader no reason to swipe ('what happens next?').",
+    "slide 7: Stop recapping the thesis. Follow the story forward instead. For example, the reader has to tell the photographer 'just a get-together' and hears the same pause on the line, or the family group thumbs-up arrives and nobody asks why the number went up. Close on a human sting or a test the reader can run, not a rewording of the cover.",
+    "slides 5-6: Merge into one slide. Put the because once: you can't push at a wedding (cards printed, relatives will ask what the food cost, a discount feels like calling your own family cheap). Cut the stand-alone 'price follows pushback' slide. Keep the 'I've sat on the selling side' beat only if it adds something the merged slide doesn't have.",
+    "slide 3: The turn arrives well, but let the reader feel the cornered moment more. Add one non-visual detail: the caterer's pause, the fan stopping, the pen going quiet. Make the reader's own slip the trigger (they say 'shaadi' or 'mehendi' without thinking) so the 'cornered' feeling lands on them and not on a relative in the background.",
+    "slide 6/7: Soften 'the lakh was never for the work'. Weddings genuinely do involve more work, and an honest concession ('some of it is real work, but not a lakh of it') makes the point harder to argue with. State the vendor's motive as how pricing works (they quote what the buyer won't question), not as a plan.",
+    "slide 1: The cover headline and slide 1 say the same sentence. Make slide 1 add something the cover doesn't, such as the 'small family function' phrase or a sharper version of the claim, so the cover and first slide don't duplicate."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Dead slide: slide 5 ('At a wedding you can't push. The cards are printed... calling your own family cheap.') and slide 6 ('You price to what the buyer won't question, and a wedding buyer questions almost nothing.') say the same thing. Slide 5 gives the buyer's side and slide 6 gives the seller's side of one idea, so slide 5 leaves the reader no new reason to swipe."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 5: it restates slide 6 and its why_swipe ('what happens next?') is generic. Fold the 'can't push' reason into slide 6, or give slide 5 one new beat the topic already holds: the vendor can tell from one word that you won't walk away. Don't explain the cornering twice.",
+     "slide 6: keep 'I've sat on the selling side' as the single because. Make it land as the reveal: the vendor isn't pricing the work, he's pricing how unlikely you are to haggle. Then cut the second half of slide 5's explanation. The bold line 'Not a lakh of it' is good.",
+     "slide 2 and 3: 'the ceiling fan ticking on every turn' is an odd phrase and the fan appears again in slide 3. Keep one sound or touch detail and make it plain, for example the vendor's pen tapping or the phone speaker crackling, so the quiet second after 'shaadi' feels real.",
+     "slide 7: the thumbs up with nobody asking why is the sting, but the gripped phone is soft. End on the family group's thumbs up, or on the photographer call opening with the lie, so the last line is something people will repeat. Don't add a moral.",
+     "slide 3: keep the 'you assumed weddings cost more because they're more work' line, since it carries the believed-vs-actual turn. Make sure the 'real work' concession isn't repeated in slide 6 beyond the single bold line."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Dead slide: slide 5 ('At a wedding you can't push. The cards are printed... calling your own family cheap.') and slide 6 ('You price to what the buyer won't question, and a wedding buyer questions almost nothing.') say the same thing. Slide 5 gives the buyer's side and slide 6 gives the seller's side of one idea, so slide 5 leaves the reader no new reason to swipe.",
+    "slide 5: it restates slide 6 and its why_swipe ('what happens next?') is generic. Fold the 'can't push' reason into slide 6, or give slide 5 one new beat the topic already holds: the vendor can tell from one word that you won't walk away. Don't explain the cornering twice.",
+    "slide 6: keep 'I've sat on the selling side' as the single because. Make it land as the reveal: the vendor isn't pricing the work, he's pricing how unlikely you are to haggle. Then cut the second half of slide 5's explanation. The bold line 'Not a lakh of it' is good.",
+    "slide 2 and 3: 'the ceiling fan ticking on every turn' is an odd phrase and the fan appears again in slide 3. Keep one sound or touch detail and make it plain, for example the vendor's pen tapping or the phone speaker crackling, so the quiet second after 'shaadi' feels real.",
+    "slide 7: the thumbs up with nobody asking why is the sting, but the gripped phone is soft. End on the family group's thumbs up, or on the photographer call opening with the lie, so the last line is something people will repeat. Don't add a moral.",
+    "slide 3: keep the 'you assumed weddings cost more because they're more work' line, since it carries the believed-vs-actual turn. Make sure the 'real work' concession isn't repeated in slide 6 beyond the single bold line."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 5,
+     "tight": 4
+    },
+    "notes": [
+     "slide 5: The topic's 'because' is that people don't want to look cheap at a wedding, and the slide only half says it. Add one plain line that you won't haggle because you'd look cheap in front of relatives. That gives the reader a feeling to recognise, not just a list of what the caterer 'knows', and it keeps the blame on the norm instead of on the caterer.",
+     "slide 5: 'the cards are printed, the relatives are watching, and you won't walk away' is a three-part list. Cut it to the one or two items that carry the point so it reads less like built rhetoric.",
+     "slide 6: The thumbs up with nobody asking why is the sting, and it is good. Make it land harder by trimming the setup before the photographer line so the closing call is the last thing the reader sees.",
+     "slide 3: The crackle on the speaker is a good detail, but it appears twice (slide 2 and slide 3). Keep it in one place and give the other slide a different sensory detail, such as the clink of a steel plate or the caterer's pause before he answers.",
+     "slide 4: 'Nothing on the menu changed. Only the word did.' is the strongest line. Make sure slide 5 doesn't restate it. Open slide 5 straight with who gains from the word."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Wrong: 'It is currently wedding season in India.'. What's true: On 2026-11-07 the Hindu wedding season has not started. Chaturmas, when weddings are traditionally avoided, ends on Dev Uthani Ekadashi, which is Friday 20 November 2026 (some observe it on 21 November). The first main wedding muhurats come after that, around 21 to 26 November, and run into December. 2026 has an extra month (Adhik Maas), which pushes the season later than in 2025, when it started around 1 November. Some weddings still happen in early November in regions or communities that don't follow the Chaturmas restriction, so a claim of a general season would be wrong, not just early. I found no CAIT or other trade-body report of a 2026 season starting before 20 November. The post could say instead that the season is about to begin, or starts on 20 November.."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Indian caterers and other wedding vendors quote a materially higher price when told an event is a wedding than when it is described as a small family function, for the same food and headcount.",
+      "sentence": "Say 'wedding' on a caterer call and watch the quote move.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Vendors price a wedding quote on how unlikely the buyer is to haggle, not on the cost of the work or food.",
+      "sentence": "The caterer isn't pricing the paneer. He's pricing how unlikely you are to haggle.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "The word 'wedding' signals to a vendor that invitation cards are printed, relatives are watching and the buyer will not walk away, which lowers the buyer's bargaining power.",
+      "sentence": "One word told him the cards are printed, the relatives are watching, and you won't walk away.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "A wedding does involve some real extra work for a caterer, such as more staff and tighter timings, but this does not account for a markup of about a lakh rupees on a 150-plate order.",
+      "sentence": "Some of a wedding is real work. Not a lakh of it.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "The writer has worked on the selling side of quotes (as a vendor or seller).",
+      "sentence": "I've sat on the selling side of a quote.",
+      "type": "anecdote",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c6",
+      "text": "It is currently wedding season in India.",
+      "sentence": "It's wedding season and you're the one making the vendor calls.",
+      "type": "event",
+      "core": false,
+      "framed_as": "current"
+     }
+    ],
+    "verdicts": {
+     "c6": {
+      "id": "c6",
+      "verdict": "contradicted",
+      "event_date": "2026-11-20",
+      "correct": "On 2026-11-07 the Hindu wedding season has not started. Chaturmas, when weddings are traditionally avoided, ends on Dev Uthani Ekadashi, which is Friday 20 November 2026 (some observe it on 21 November). The first main wedding muhurats come after that, around 21 to 26 November, and run into December. 2026 has an extra month (Adhik Maas), which pushes the season later than in 2025, when it started around 1 November. Some weddings still happen in early November in regions or communities that don't follow the Chaturmas restriction, so a claim of a general season would be wrong, not just early. I found no CAIT or other trade-body report of a 2026 season starting before 20 November. The post could say instead that the season is about to begin, or starts on 20 November.",
+      "sources": [
+       {
+        "url": "https://dekhopanchang.com/en/festivals/devutthana-ekadashi",
+        "publisher": "DekhoPanchang",
+        "published_date": "2026-01-01",
+        "quote": "The wedding season officially begins after this day.",
+        "tier": 3
+       },
+       {
+        "url": "https://daanyam.in/blog/devuthani-ekadashi-2026-date-vrat-chaturmas",
+        "publisher": "Daanyam",
+        "published_date": "2026-01-01",
+        "quote": "Across North and Central India, Devuthani is treated as the unofficial reopen of the wedding calendar.",
+        "tier": 3
+       },
+       {
+        "url": "https://www.smartpuja.com/blog/vivah-muhurat-2026-marriage-dates",
+        "publisher": "SmartPuja",
+        "published_date": "2026-01-01",
+        "quote": "Nov 21 (Revati nakshatra), Nov 24 (Rohini), Nov 25 (Rohini), Nov 26 (Mrigashira)",
+        "tier": 3
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None of the premises is demonstrably false. Two need caveats. Premise 1 sounds universal, but the best evidence comes from US mystery-shopper tests, and only about a quarter of quotes rose when the event was called a wedding. I found no comparable study of Indian caterers. Premise 2 leaves out some legitimate non-haggling reasons for a higher wedding quote: peak muhurat dates that turn away other bookings, a higher service standard (more staff, live counters, cake-cutting or service fees), and the risk of something going wrong at a one-time event. None of that is cost of the food. Tax doesn't explain the gap either. Under Notification 11/2017-CT(Rate), as amended by 20/2019, GST on outdoor catering depends on the venue (specified premises or not), not on what the event is called. A 150-plate order with the same menu, venue and date carries the same tax whether it's a 'family function' or a shaadi.",
+     "actual_mechanism": "Some vendors charge more based on the occasion, a practice called the 'wedding tax'. The word 'wedding' tells them the buyer has a fixed date, is emotionally invested and is unlikely to switch vendors, so they can charge more than for an identical spec. Mystery-shopper tests found it in a minority of cases, not across the board: Consumer Reports saw higher wedding quotes in just over a quarter of cases, and CHOICE in Australia found it at 3 of 6 venues. Part of a real wedding premium can also come from date scarcity and extra service rather than haggling power. When the menu, headcount, date and venue truly match, though, the extra amount is buyer-based pricing, not cost.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.consumerreports.org/media-room/press-releases/2016/04/crs-secret-shoppers-find-that-some-vendors-charge-a-wedding-surcharge-for-products-and-services-new-report-reveals/",
+       "published_date": "2016-04-26",
+       "quote": "vendors quoted higher prices for the wedding than for the anniversary party in more than a quarter of the cases"
+      },
+      {
+       "url": "https://consumerist.com/2016/04/26/1-in-4-photographers-florists-limos-caterers-jack-up-prices-when-you-say-wedding",
+       "published_date": "2016-04-26",
+       "quote": "1-in-4 Photographers, Florists, Limos & Caterers Jack Up Prices When You Say 'Wedding'"
+      },
+      {
+       "url": "https://www.cnbc.com/select/wedding-tax-why-are-weddings-so-expensive/",
+       "published_date": "unknown",
+       "quote": "Reports a separate Australian CHOICE shadow-shopping study in which three of six venues charged more when told a wedding was involved, for identical event specifications."
+      },
+      {
+       "url": "https://busy.in/gst-rates/food-business.md",
+       "published_date": "unknown",
+       "quote": "Lists the GST rate for wedding and event catering by venue: 5% outside specified premises, 18% with ITC at specified premises. The rate depends on the venue, not the type of occasion."
+      }
+     ]
+    },
+    "text_hash": "24ffc2fe28764289c94453eb007e8786d9cfdf8c",
+    "at": "2026-11-03T09:25:58.594749+00:00"
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Wrong: 'It is currently wedding season in India.'. What's true: On 2026-11-07 the Hindu wedding season has not started. Chaturmas, when weddings are traditionally avoided, ends on Dev Uthani Ekadashi, which is Friday 20 November 2026 (some observe it on 21 November). The first main wedding muhurats come after that, around 21 to 26 November, and run into December. 2026 has an extra month (Adhik Maas), which pushes the season later than in 2025, when it started around 1 November. Some weddings still happen in early November in regions or communities that don't follow the Chaturmas restriction, so a claim of a general season would be wrong, not just early. I found no CAIT or other trade-body report of a 2026 season starting before 20 November. The post could say instead that the season is about to begin, or starts on 20 November.."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-03T09:26:13.237314+00:00",
+ "sources": [],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] The word you hide from vendors is [the word they charge for]\nSay 'wedding' on a caterer call and watch the quote move.\n \n\n[slide 1] The word you hide from vendors is the word they charge for.\nSwipe to read →\n\n[slide 2] It's wedding season and you're the one making the vendor calls. Laptop open on a sheet of numbers, phone on speaker, the line crackling a little.\nYou use your most bored voice: \"Just a small family function. Around 150 people.\"\n\n[slide 3] The per-plate rate comes back almost reasonable. You grin. You've always assumed weddings cost more because they're more work: more staff, tighter timings.\nThen they ask about the menu, and you say \"for the shaadi day\" before you can stop. For a full second, the only sound is the crackle on the speaker.\n\n[slide 4] The revised quote lands on WhatsApp that evening, about a lakh higher.\nSame paneer, same 150 plates, same chafing dishes going cold by eleven. Nothing on the menu changed. Only the word did.\n\n[slide 5] I've sat on the selling side of a quote. The caterer isn't pricing the paneer. He's pricing how unlikely you are to haggle.\nOne word told him the cards are printed, the relatives are watching, and you won't walk away.\nSome of a wedding is real work. Not a lakh of it.\n\n[slide 6] You forward the new quote to the family group. A thumbs up arrives. Nobody asks why the number went up.\nNext on the sheet is the photographer. You dial, and the call opens: \"Hi, just a small get-together at home.\"\n\n[end card] Open this again before you dial the first vendor on your list.\nSend to the sibling who is booking the venue next month and still says 'wedding' on the phone.\n\n[caption] What did your family call the wedding on the phone to get a normal quote: kitty party, puja, or 'just a few friends'?\n\n[alt text] A carousel about hiding the word 'wedding' when calling vendors. The reader calls a caterer on a crackling speakerphone and describes a 'small family function' for 150 people. The rate comes back reasonable until the reader slips and says 'shaadi', and the line goes silent for a second. The revised quote arrives about a lakh higher for the same food. The post argues the caterer isn't pricing the work but how unlikely the buyer is to haggle, since the word wedding signals printed cards, watching relatives and a buyer who won't walk away. Some of a wedding is real work, but not a lakh of it. It ends with the family group sending a thumbs up without asking why, and the reader opening the photographer call with 'just a small get-together at home'.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Indian caterers and other wedding vendors quote a materially higher price when told an event is a wedding than when it is described as a small family function, for the same food and headcount.",
+     "sentence": "Say 'wedding' on a caterer call and watch the quote move.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "Vendors price a wedding quote on how unlikely the buyer is to haggle, not on the cost of the work or food.",
+     "sentence": "The caterer isn't pricing the paneer. He's pricing how unlikely you are to haggle.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c3",
+     "text": "The word 'wedding' signals to a vendor that invitation cards are printed, relatives are watching and the buyer will not walk away, which lowers the buyer's bargaining power.",
+     "sentence": "One word told him the cards are printed, the relatives are watching, and you won't walk away.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c4",
+     "text": "A wedding does involve some real extra work for a caterer, such as more staff and tighter timings, but this does not account for a markup of about a lakh rupees on a 150-plate order.",
+     "sentence": "Some of a wedding is real work. Not a lakh of it.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c5",
+     "text": "The writer has worked on the selling side of quotes (as a vendor or seller).",
+     "sentence": "I've sat on the selling side of a quote.",
+     "type": "anecdote",
+     "core": false,
+     "framed_as": "past"
+    },
+    {
+     "id": "c6",
+     "text": "It is currently wedding season in India.",
+     "sentence": "It's wedding season and you're the one making the vendor calls.",
+     "type": "event",
+     "core": false,
+     "framed_as": "current"
+    }
+   ]
+  },
+  "It is currently wedding season in India.": {
+   "id": "c6",
+   "verdict": "contradicted",
+   "event_date": "2026-11-20",
+   "correct": "On 2026-11-07 the Hindu wedding season has not started. Chaturmas, when weddings are traditionally avoided, ends on Dev Uthani Ekadashi, which is Friday 20 November 2026 (some observe it on 21 November). The first main wedding muhurats come after that, around 21 to 26 November, and run into December. 2026 has an extra month (Adhik Maas), which pushes the season later than in 2025, when it started around 1 November. Some weddings still happen in early November in regions or communities that don't follow the Chaturmas restriction, so a claim of a general season would be wrong, not just early. I found no CAIT or other trade-body report of a 2026 season starting before 20 November. The post could say instead that the season is about to begin, or starts on 20 November.",
+   "sources": [
+    {
+     "url": "https://dekhopanchang.com/en/festivals/devutthana-ekadashi",
+     "publisher": "DekhoPanchang",
+     "published_date": "2026-01-01",
+     "quote": "The wedding season officially begins after this day.",
+     "tier": 3
+    },
+    {
+     "url": "https://daanyam.in/blog/devuthani-ekadashi-2026-date-vrat-chaturmas",
+     "publisher": "Daanyam",
+     "published_date": "2026-01-01",
+     "quote": "Across North and Central India, Devuthani is treated as the unofficial reopen of the wedding calendar.",
+     "tier": 3
+    },
+    {
+     "url": "https://www.smartpuja.com/blog/vivah-muhurat-2026-marriage-dates",
+     "publisher": "SmartPuja",
+     "published_date": "2026-01-01",
+     "quote": "Nov 21 (Revati nakshatra), Nov 24 (Rohini), Nov 25 (Rohini), Nov 26 (Mrigashira)",
+     "tier": 3
+    }
+   ]
+  },
+  "_skeptic": {
+   "ad83175923afe81e587de46d12fc1367f6b721f0": {
+    "holds": true,
+    "broken_premise": "None of the premises is demonstrably false. Two need caveats. Premise 1 sounds universal, but the best evidence comes from US mystery-shopper tests, and only about a quarter of quotes rose when the event was called a wedding. I found no comparable study of Indian caterers. Premise 2 leaves out some legitimate non-haggling reasons for a higher wedding quote: peak muhurat dates that turn away other bookings, a higher service standard (more staff, live counters, cake-cutting or service fees), and the risk of something going wrong at a one-time event. None of that is cost of the food. Tax doesn't explain the gap either. Under Notification 11/2017-CT(Rate), as amended by 20/2019, GST on outdoor catering depends on the venue (specified premises or not), not on what the event is called. A 150-plate order with the same menu, venue and date carries the same tax whether it's a 'family function' or a shaadi.",
+    "actual_mechanism": "Some vendors charge more based on the occasion, a practice called the 'wedding tax'. The word 'wedding' tells them the buyer has a fixed date, is emotionally invested and is unlikely to switch vendors, so they can charge more than for an identical spec. Mystery-shopper tests found it in a minority of cases, not across the board: Consumer Reports saw higher wedding quotes in just over a quarter of cases, and CHOICE in Australia found it at 3 of 6 venues. Part of a real wedding premium can also come from date scarcity and extra service rather than haggling power. When the menu, headcount, date and venue truly match, though, the extra amount is buyer-based pricing, not cost.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.consumerreports.org/media-room/press-releases/2016/04/crs-secret-shoppers-find-that-some-vendors-charge-a-wedding-surcharge-for-products-and-services-new-report-reveals/",
+      "published_date": "2016-04-26",
+      "quote": "vendors quoted higher prices for the wedding than for the anniversary party in more than a quarter of the cases"
+     },
+     {
+      "url": "https://consumerist.com/2016/04/26/1-in-4-photographers-florists-limos-caterers-jack-up-prices-when-you-say-wedding",
+      "published_date": "2016-04-26",
+      "quote": "1-in-4 Photographers, Florists, Limos & Caterers Jack Up Prices When You Say 'Wedding'"
+     },
+     {
+      "url": "https://www.cnbc.com/select/wedding-tax-why-are-weddings-so-expensive/",
+      "published_date": "unknown",
+      "quote": "Reports a separate Australian CHOICE shadow-shopping study in which three of six venues charged more when told a wedding was involved, for identical event specifications."
+     },
+     {
+      "url": "https://busy.in/gst-rates/food-business.md",
+      "published_date": "unknown",
+      "quote": "Lists the GST rate for wedding and event catering by venue: 5% outside specified premises, 18% with ITC at specified premises. The rate depends on the venue, not the type of occasion."
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "24ffc2fe28764289c94453eb007e8786d9cfdf8c": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Wrong: 'It is currently wedding season in India.'. What's true: On 2026-11-07 the Hindu wedding season has not started. Chaturmas, when weddings are traditionally avoided, ends on Dev Uthani Ekadashi, which is Friday 20 November 2026 (some observe it on 21 November). The first main wedding muhurats come after that, around 21 to 26 November, and run into December. 2026 has an extra month (Adhik Maas), which pushes the season later than in 2025, when it started around 1 November. Some weddings still happen in early November in regions or communities that don't follow the Chaturmas restriction, so a claim of a general season would be wrong, not just early. I found no CAIT or other trade-body report of a 2026 season starting before 20 November. The post could say instead that the season is about to begin, or starts on 20 November.."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Indian caterers and other wedding vendors quote a materially higher price when told an event is a wedding than when it is described as a small family function, for the same food and headcount.",
+      "sentence": "Say 'wedding' on a caterer call and watch the quote move.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Vendors price a wedding quote on how unlikely the buyer is to haggle, not on the cost of the work or food.",
+      "sentence": "The caterer isn't pricing the paneer. He's pricing how unlikely you are to haggle.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "The word 'wedding' signals to a vendor that invitation cards are printed, relatives are watching and the buyer will not walk away, which lowers the buyer's bargaining power.",
+      "sentence": "One word told him the cards are printed, the relatives are watching, and you won't walk away.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "A wedding does involve some real extra work for a caterer, such as more staff and tighter timings, but this does not account for a markup of about a lakh rupees on a 150-plate order.",
+      "sentence": "Some of a wedding is real work. Not a lakh of it.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "The writer has worked on the selling side of quotes (as a vendor or seller).",
+      "sentence": "I've sat on the selling side of a quote.",
+      "type": "anecdote",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c6",
+      "text": "It is currently wedding season in India.",
+      "sentence": "It's wedding season and you're the one making the vendor calls.",
+      "type": "event",
+      "core": false,
+      "framed_as": "current"
+     }
+    ],
+    "verdicts": {
+     "c6": {
+      "id": "c6",
+      "verdict": "contradicted",
+      "event_date": "2026-11-20",
+      "correct": "On 2026-11-07 the Hindu wedding season has not started. Chaturmas, when weddings are traditionally avoided, ends on Dev Uthani Ekadashi, which is Friday 20 November 2026 (some observe it on 21 November). The first main wedding muhurats come after that, around 21 to 26 November, and run into December. 2026 has an extra month (Adhik Maas), which pushes the season later than in 2025, when it started around 1 November. Some weddings still happen in early November in regions or communities that don't follow the Chaturmas restriction, so a claim of a general season would be wrong, not just early. I found no CAIT or other trade-body report of a 2026 season starting before 20 November. The post could say instead that the season is about to begin, or starts on 20 November.",
+      "sources": [
+       {
+        "url": "https://dekhopanchang.com/en/festivals/devutthana-ekadashi",
+        "publisher": "DekhoPanchang",
+        "published_date": "2026-01-01",
+        "quote": "The wedding season officially begins after this day.",
+        "tier": 3
+       },
+       {
+        "url": "https://daanyam.in/blog/devuthani-ekadashi-2026-date-vrat-chaturmas",
+        "publisher": "Daanyam",
+        "published_date": "2026-01-01",
+        "quote": "Across North and Central India, Devuthani is treated as the unofficial reopen of the wedding calendar.",
+        "tier": 3
+       },
+       {
+        "url": "https://www.smartpuja.com/blog/vivah-muhurat-2026-marriage-dates",
+        "publisher": "SmartPuja",
+        "published_date": "2026-01-01",
+        "quote": "Nov 21 (Revati nakshatra), Nov 24 (Rohini), Nov 25 (Rohini), Nov 26 (Mrigashira)",
+        "tier": 3
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None of the premises is demonstrably false. Two need caveats. Premise 1 sounds universal, but the best evidence comes from US mystery-shopper tests, and only about a quarter of quotes rose when the event was called a wedding. I found no comparable study of Indian caterers. Premise 2 leaves out some legitimate non-haggling reasons for a higher wedding quote: peak muhurat dates that turn away other bookings, a higher service standard (more staff, live counters, cake-cutting or service fees), and the risk of something going wrong at a one-time event. None of that is cost of the food. Tax doesn't explain the gap either. Under Notification 11/2017-CT(Rate), as amended by 20/2019, GST on outdoor catering depends on the venue (specified premises or not), not on what the event is called. A 150-plate order with the same menu, venue and date carries the same tax whether it's a 'family function' or a shaadi.",
+     "actual_mechanism": "Some vendors charge more based on the occasion, a practice called the 'wedding tax'. The word 'wedding' tells them the buyer has a fixed date, is emotionally invested and is unlikely to switch vendors, so they can charge more than for an identical spec. Mystery-shopper tests found it in a minority of cases, not across the board: Consumer Reports saw higher wedding quotes in just over a quarter of cases, and CHOICE in Australia found it at 3 of 6 venues. Part of a real wedding premium can also come from date scarcity and extra service rather than haggling power. When the menu, headcount, date and venue truly match, though, the extra amount is buyer-based pricing, not cost.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.consumerreports.org/media-room/press-releases/2016/04/crs-secret-shoppers-find-that-some-vendors-charge-a-wedding-surcharge-for-products-and-services-new-report-reveals/",
+       "published_date": "2016-04-26",
+       "quote": "vendors quoted higher prices for the wedding than for the anniversary party in more than a quarter of the cases"
+      },
+      {
+       "url": "https://consumerist.com/2016/04/26/1-in-4-photographers-florists-limos-caterers-jack-up-prices-when-you-say-wedding",
+       "published_date": "2016-04-26",
+       "quote": "1-in-4 Photographers, Florists, Limos & Caterers Jack Up Prices When You Say 'Wedding'"
+      },
+      {
+       "url": "https://www.cnbc.com/select/wedding-tax-why-are-weddings-so-expensive/",
+       "published_date": "unknown",
+       "quote": "Reports a separate Australian CHOICE shadow-shopping study in which three of six venues charged more when told a wedding was involved, for identical event specifications."
+      },
+      {
+       "url": "https://busy.in/gst-rates/food-business.md",
+       "published_date": "unknown",
+       "quote": "Lists the GST rate for wedding and event catering by venue: 5% outside specified premises, 18% with ITC at specified premises. The rate depends on the venue, not the type of occasion."
+      }
+     ]
+    },
+    "text_hash": "24ffc2fe28764289c94453eb007e8786d9cfdf8c",
+    "at": "2026-11-03T09:25:58.594749+00:00"
+   }
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "The word you hide from vendors is [the word they charge for]",
+   "sub": "Say 'wedding' on a caterer call and watch the quote move."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "The word you hide from vendors is the word they charge for.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "How much can one word really move a quote?"
+   },
+   {
+    "paragraphs": [
+     "It's wedding season and you're the one making the vendor calls. Laptop open on a sheet of numbers, phone on speaker, the line crackling a little.",
+     "You use your most bored voice: \"Just a small family function. Around 150 people.\""
+    ],
+    "why_swipe": "Does the caterer buy it?"
+   },
+   {
+    "paragraphs": [
+     "The per-plate rate comes back almost reasonable. You grin. You've always assumed weddings cost more because they're more work: more staff, tighter timings.",
+     "Then they ask about the menu, and you say \"for the shaadi day\" before you can stop. For a full second, the only sound is the crackle on the speaker."
+    ],
+    "why_swipe": "What happens to the quote now?"
+   },
+   {
+    "paragraphs": [
+     "The revised quote lands on WhatsApp that evening, about a lakh higher.",
+     "Same paneer, same 150 plates, same chafing dishes going cold by eleven. **Nothing on the menu changed. Only the word did.**"
+    ],
+    "why_swipe": "So what is that lakh actually paying for?"
+   },
+   {
+    "paragraphs": [
+     "I've sat on the selling side of a quote. The caterer isn't pricing the paneer. He's pricing how unlikely you are to haggle.",
+     "One word told him the cards are printed, the relatives are watching, and you won't walk away.",
+     "**Some of a wedding is real work. Not a lakh of it.**"
+    ],
+    "why_swipe": "So what do you do with the rest of the list?"
+   },
+   {
+    "paragraphs": [
+     "You forward the new quote to the family group. A thumbs up arrives. Nobody asks why the number went up.",
+     "Next on the sheet is the photographer. You dial, and the call opens: \"Hi, just a small get-together at home.\""
+    ]
+   }
+  ],
+  "end": {
+   "save": "Open this again before you dial the first vendor on your list.",
+   "send": "Send to the sibling who is booking the venue next month and still says 'wedding' on the phone.",
+   "promise": "How money really moves around you."
+  },
+  "caption": "What did your family call the wedding on the phone to get a normal quote: kitty party, puja, or 'just a few friends'?",
+  "hashtags": [
+   "#IndianWedding",
+   "#WeddingPlanningIndia",
+   "#WeddingBudget",
+   "#WeddingSeason"
+  ],
+  "alt_text": "A carousel about hiding the word 'wedding' when calling vendors. The reader calls a caterer on a crackling speakerphone and describes a 'small family function' for 150 people. The rate comes back reasonable until the reader slips and says 'shaadi', and the line goes silent for a second. The revised quote arrives about a lakh higher for the same food. The post argues the caterer isn't pricing the work but how unlikely the buyer is to haggle, since the word wedding signals printed cards, watching relatives and a buyer who won't walk away. Some of a wedding is real work, but not a lakh of it. It ends with the family group sending a thumbs up without asking why, and the reader opening the photographer call with 'just a small get-together at home'.",
+  "claims": [],
+  "caption_style": "question"
+ }
 }

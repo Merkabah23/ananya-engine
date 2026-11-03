@@ -1,6 +1,6 @@
 {
  "id": "2026-11-90",
- "status": "planned",
+ "status": "scheduled",
  "due": "2026-11-08T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -206,60 +206,157 @@
   },
   {
    "reset": "2026-11-03: rewrite under the story rules; owner cleared Buffer"
+  },
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 6: The ending is the weakest part. 'Most days you'll get one thumbs-up, from someone who wasn't even on the call' is an outcome stated as fact, and the 'not even on the call' detail is odd and unclear. The line is also not one people will repeat. Keep the test (send first, start with 'As agreed', see who questions it) but end on a line that stings or a result readers can picture, such as 'nobody replies, and that's the decision'. Make sure the last line is not a second instruction.",
+     "slide 5: The hybrid-work paragraph is filler. It explains something readers already know and slows the build. 'Fair to them... Someone had to.' is a hedge that softens the villain. Cut it or fold it into one short line. Spend the slide on the feeling the topic asks for, powerless: the hour you spent arguing was unpaid work, and the two-line email was the only thing that counted. Keep 'you skipped the recap yourself' as the self-recognition beat.",
+     "slide 3: 'That's how it always goes.' is a throwaway line that adds nothing. Replace it with something that deepens the rank assumption, or cut it so the slide ends on the email that backs the option you argued against, which is where the sting is.",
+     "slide 4: The bold line 'silence counts as yes, and the person writing picks the words' is the because, and it is good. But the slide opens with 'But the sender wasn't the senior one', which is flat. Say it more sharply, for example that the sender is often the most junior person on the call, so the reader sees how little rank matters here. Keep the 'long paragraph and a fight in front of your manager' detail, since it explains why nobody pushes back.",
+     "slides 2-6: The story has sight and sound details (pressure cooker, chai skin). Add one more beat of feeling, either in the drafted-reply moment or after the email lands. For example, you start typing 'that's not what we agreed', read it back, and delete it. That is where powerlessness becomes felt, not just stated."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "slide 6: The ending is the weakest part. 'Most days you'll get one thumbs-up, from someone who wasn't even on the call' is an outcome stated as fact, and the 'not even on the call' detail is odd and unclear. The line is also not one people will repeat. Keep the test (send first, start with 'As agreed', see who questions it) but end on a line that stings or a result readers can picture, such as 'nobody replies, and that's the decision'. Make sure the last line is not a second instruction.",
+    "slide 5: The hybrid-work paragraph is filler. It explains something readers already know and slows the build. 'Fair to them... Someone had to.' is a hedge that softens the villain. Cut it or fold it into one short line. Spend the slide on the feeling the topic asks for, powerless: the hour you spent arguing was unpaid work, and the two-line email was the only thing that counted. Keep 'you skipped the recap yourself' as the self-recognition beat.",
+    "slide 3: 'That's how it always goes.' is a throwaway line that adds nothing. Replace it with something that deepens the rank assumption, or cut it so the slide ends on the email that backs the option you argued against, which is where the sting is.",
+    "slide 4: The bold line 'silence counts as yes, and the person writing picks the words' is the because, and it is good. But the slide opens with 'But the sender wasn't the senior one', which is flat. Say it more sharply, for example that the sender is often the most junior person on the call, so the reader sees how little rank matters here. Keep the 'long paragraph and a fight in front of your manager' detail, since it explains why nobody pushes back.",
+    "slides 2-6: The story has sight and sound details (pressure cooker, chai skin). Add one more beat of feeling, either in the drafted-reply moment or after the email lands. For example, you start typing 'that's not what we agreed', read it back, and delete it. That is where powerlessness becomes felt, not just stated."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 5 is a dead slide. 'Their two lines sit in the project folder' and 'your hour of arguing left no trace' restate slide 4's 'the email is the only version still standing'. The first paragraph ('you've skipped writing that recap yourself') is the topic's behaviour beat, but it is only a bridge to the advice and adds no new reason to swipe.",
+     "Slide 6 fails the payoff test. 'Next call, send the summary yourself, ten minutes after it ends. Start it with \"As agreed.\"' is a how-to instruction, which is coaching. 'By evening, your two lines are the decision' then restates the cover and slide 4 as a tidy moral."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 6: Drop the instruction. Make it a result the reader can picture or a test they can run. For example, next time an 'As agreed' email arrives, count how many people reply to it. Or end on the sting: the email you didn't argue with is the one you'll later defend as your own team's decision. Keep it in observation voice, not 'do this'.",
+     "slide 5: Merge it into slide 4, or give it one new beat. The topic's behaviour is that recaps feel like admin, so nobody wants them, while one person quietly frames every decision. Use that, and show the new turn: the recap is dismissed as clerical work, and that dismissal is exactly why the writer wins. Cut the 'project folder' and 'no trace' lines, which repeat slide 4.",
+     "slide 4: 'The sender is often the most junior person on the call' is an unsourced claim about the world and works against your own turn. Soften it to a typical scenario ('it can be whoever typed first') or cut it. Also cut 'So silence counts as yes, and the person writing picks the words' from this slide if slide 6 will carry the sting, so the idea is said once.",
+     "slide 3: This is the strongest slide. To add one more sensory detail only someone who lived it would know, put a sound or the screen in the 'You read it back' moment, such as the laptop fan or the notification ping. Keep it short.",
+     "slide 6: 'the inbox goes quiet all afternoon' presents a guaranteed result as fact. If you keep a prediction, frame it as what typically happens, such as 'nobody replies', not as a certainty."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Slide 5 is a dead slide. 'Their two lines sit in the project folder' and 'your hour of arguing left no trace' restate slide 4's 'the email is the only version still standing'. The first paragraph ('you've skipped writing that recap yourself') is the topic's behaviour beat, but it is only a bridge to the advice and adds no new reason to swipe.",
+    "Slide 6 fails the payoff test. 'Next call, send the summary yourself, ten minutes after it ends. Start it with \"As agreed.\"' is a how-to instruction, which is coaching. 'By evening, your two lines are the decision' then restates the cover and slide 4 as a tidy moral.",
+    "slide 6: Drop the instruction. Make it a result the reader can picture or a test they can run. For example, next time an 'As agreed' email arrives, count how many people reply to it. Or end on the sting: the email you didn't argue with is the one you'll later defend as your own team's decision. Keep it in observation voice, not 'do this'.",
+    "slide 5: Merge it into slide 4, or give it one new beat. The topic's behaviour is that recaps feel like admin, so nobody wants them, while one person quietly frames every decision. Use that, and show the new turn: the recap is dismissed as clerical work, and that dismissal is exactly why the writer wins. Cut the 'project folder' and 'no trace' lines, which repeat slide 4.",
+    "slide 4: 'The sender is often the most junior person on the call' is an unsourced claim about the world and works against your own turn. Soften it to a typical scenario ('it can be whoever typed first') or cut it. Also cut 'So silence counts as yes, and the person writing picks the words' from this slide if slide 6 will carry the sting, so the idea is said once.",
+    "slide 3: This is the strongest slide. To add one more sensory detail only someone who lived it would know, put a sound or the screen in the 'You read it back' moment, such as the laptop fan or the notification ping. Keep it short.",
+    "slide 6: 'the inbox goes quiet all afternoon' presents a guaranteed result as fact. If you keep a prediction, frame it as what typically happens, such as 'nobody replies', not as a certainty."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "slide 4: \"It wasn't rank. It can be whoever typed first.\" rebuts a belief the post never set up, so it reads as a non-sequitur. Name the assumption first, for example that we think the loudest or most senior person wins, then turn it. This is the 'believed vs actually' beat from the topic, and it is thin right now.",
+     "slide 4 and slide 5: both say that whoever writes it wins (\"whoever typed first\", then \"whoever does the admin picks which one\"). Say it once. Let slide 4 carry the because (silence counts as agreement, replying means a fight in front of your manager) and let slide 5 carry only the admin-dodging.",
+     "slide 5: the last line, \"Whoever does the admin picks which one\", restates the cover. Cut it, or replace it with something new, such as the fact that the email only had to look reasonable because everyone was busy.",
+     "slide 3: the deleted reply works, but add the reason you delete it (it would look petty, and everyone has already moved on to the next meeting) in half a line so slide 4 doesn't have to explain it. The chai skin and laptop hum details are good. Keep them.",
+     "slide 6: the sting is strong. Consider whether one short line can carry the topic's test, such as the next call, before anyone closes the laptop, you type the first line of the summary. Keep it as a test, not a lecture, or leave it to the save line."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "verification": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Meeting decisions go to whoever sends the recap email. Calls often end without a clear answer, and nobody remembers the exact words afterwards. The recap becomes the only surviving record, and correcting it is socially costly. Writing it is treated as admin that people avoid, so the person who writes it turns an open 'let's take this offline' into a yes or no.",
+      "sentence": "The decision belongs to whoever sends the summary.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {},
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. Every premise is a generalization about how people behave at work: calls end without a decision, people forget exact wording, correcting a recap feels socially costly, and recap-writing gets avoided as admin. None of these is a claim about how a product, price, fee, law, contract or market works, so none can be shown false. The post is about informal work calls and the follow-up emails. It doesn't claim to describe formal minutes. Its 'decision belongs to' line is meant as a description of practical influence, not of formal authority.",
+     "actual_mechanism": "In formal governance settings like boards, commissions and public bodies, the person who writes the minutes doesn't decide anything. Draft minutes only become the official record once the body approves them, and they can be corrected before or after that approval. Informal corporate calls usually have no approval step, though. A recap email goes unchallenged unless someone objects, so whoever writes it does get to frame an open 'let's take this offline' as a decision. Anyone who disagrees then has to push back openly. That's the dynamic the post describes.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.law.cornell.edu/regulations/mississippi/9-Miss-Code-R-SS-7-2-2-5",
+       "published_date": "2024-10-04 (last amended)",
+       "quote": "Proposed meeting minutes shall become the official minutes upon approval by the commission."
+      }
+     ]
+    },
+    "text_hash": "a8cf9afb7236d64e67a32430f62035df1e6b9727",
+    "at": "2026-11-03T09:24:52.610202+00:00"
+   }
   }
  ],
- "updated_at": "2026-11-03T09:03:57.903763+00:00",
+ "updated_at": "2026-11-03T09:26:27.481856+00:00",
  "sources": [],
  "verification_cache": {
   "_ledger": {
-   "text": "[cover] The decision belongs to whoever [sends the meeting summary]\nNot whoever talked the most on the call.\n \n\n[slide 1] The decision belongs to whoever sends the meeting summary.\nSwipe to read →\n\n[slide 2] It's 4 pm. Nine tiles on the screen, one person eating on mute.\nThe senior guy talks for twenty minutes. You make a sharp point and hear \"great point, let's take that offline.\"\nThen the tiles blink out one by one. Only your face is left.\n\n[slide 3] Twenty minutes later, an email lands. \"Hi all, as agreed, we'll go ahead with option B. Timelines below.\"\nYou can still hear the call in your head, the senior guy's voice and your own sharp point included. But nobody can forward a call.\nThe email is the only version anyone can open.\n\n[slide 4] And you don't reply. Neither does anyone else.\nReplying means typing \"actually, I don't think we agreed\" to a long cc list, on a busy day. Silence is cheaper, so it counts as a yes.\nWriting the recap felt like admin, so everyone else skipped it. Whoever bothered got to pick the words, and seniors rarely overrule them.\n\n[slide 5] By Monday, \"as agreed\" is in the tracker with a due date next to it. Two people have replied with a thumbs-up.\nOne of them argued against it on the call. Now they're on record as agreeing.\n\n[end card] Read it again before your next long call ends with \"let's align on next steps.\"\nThe friend who does all the talking in meetings and still loses every decision.\n\n[caption] What's the last thing you \"agreed\" to only because the email never got a reply?\n\n[alt text] Carousel post. Cover headline: The decision belongs to whoever sends the meeting summary. The slides follow a video call where the senior person talks the most and the reader's point gets taken 'offline'. The tiles blink out with no clear answer. Twenty minutes later an email says 'as agreed, we'll go ahead with option B', and it becomes the only version anyone can open. The replies never come, because pushing back to a long cc list feels costly, and everyone else skipped the recap because it felt like admin, so the writer picked the words. By Monday it is in the tracker, with a thumbs-up from someone who argued against it on the call and is now on record as agreeing.",
+   "text": "[cover] The decision belongs to [whoever sends the summary]\nYou argued well for an hour. Their email took two lines.\n \n\n[slide 1] The decision belongs to whoever sends the summary.\nSwipe to read →\n\n[slide 2] It's an hour-long call. Half the cameras are off, someone's pressure cooker whistles twice, and the same slide stays up for forty minutes.\nYou make your point clearly. Someone says \"valid point, let's take this offline.\" The call ends with no answer at all.\n\n[slide 3] You close the laptop. Your chai has gone cold, with that thin skin on top.\nTwenty minutes later, an email lands. Subject: Next steps. First line: \"As agreed, we'll go ahead with…\" It's the option you argued against.\nYou start typing \"that's not what we agreed.\" You read it back over the hum of the laptop fan. You delete it.\n\n[slide 4] It wasn't rank. It can be whoever typed first.\nBy Friday, nobody remembers the exact words. The email is the only version still standing. Replying means a long paragraph and a fight in front of your manager.\n\n[slide 5] And writing the recap was never a job anyone fought for. On the call it gets handed off like taking notes. You've dodged it yourself, because it felt like admin.\nBut the recap is where \"let's take this offline\" turns into a yes or a no.\nWhoever does the admin picks which one.\n\n[slide 6] Three months later the project hits a wall. Someone senior asks why your team chose this route.\nYou hear yourself say, \"Well, we all agreed on that call.\"\nAnd you mean it. You've read that email more times than you remember the call.\n\n[end card] Read it again right before you close the laptop on your next long call.\nSend to the friend who does all the talking in meetings and still loses every decision.\n\n[caption] What's the most 'As agreed' email you've ever received about something nobody actually agreed to?\n\n[alt text] A six-slide carousel. The cover says the decision belongs to whoever sends the meeting summary. The slides follow the reader through an hour-long call that ends without an answer. Twenty minutes later an 'As agreed' email arrives backing the option they argued against. The reader types a reply, reads it back over the laptop fan's hum and deletes it. The sender can be whoever typed first, and since no one remembers the exact words, the email becomes the only version left. Writing the recap feels like admin, so everyone avoids it, yet the recap is where an open question becomes a yes or a no. Months later, when the project struggles, the reader defends the decision as something everyone agreed on, because they have read the email more often than they remember the call.",
    "claims": [
     {
      "id": "c1",
-     "text": "In meetings, the person who sends the written summary effectively gets to decide the outcome, regardless of who talked most. The reasons: the written recap is the only shareable record of the call, replying to dispute it costs more than staying silent, silence is read as agreement, others skip writing recaps, and seniors rarely overrule the recap's wording.",
-     "sentence": "The decision belongs to whoever sends the meeting summary. Not whoever talked the most on the call.",
+     "text": "Meeting decisions go to whoever sends the recap email. Calls often end without a clear answer, and nobody remembers the exact words afterwards. The recap becomes the only surviving record, and correcting it is socially costly. Writing it is treated as admin that people avoid, so the person who writes it turns an open 'let's take this offline' into a yes or no.",
+     "sentence": "The decision belongs to whoever sends the summary.",
      "type": "mechanism",
      "core": true,
-     "framed_as": "timeless"
-    },
-    {
-     "id": "c2",
-     "text": "A recap email becomes the only version of the meeting that anyone can open or forward, because a call itself cannot be forwarded.",
-     "sentence": "But nobody can forward a call. The email is the only version anyone can open.",
-     "type": "mechanism",
-     "core": true,
-     "framed_as": "timeless"
-    },
-    {
-     "id": "c3",
-     "text": "People who disagree with a recap usually do not reply, because disputing it to a long cc list is costlier than staying silent, and the silence is treated as agreement.",
-     "sentence": "Replying means typing \"actually, I don't think we agreed\" to a long cc list, on a busy day. Silence is cheaper, so it counts as a yes.",
-     "type": "mechanism",
-     "core": true,
-     "framed_as": "timeless"
-    },
-    {
-     "id": "c4",
-     "text": "Most attendees skip writing the meeting recap because it feels like admin, so whoever does write it gets to choose the wording.",
-     "sentence": "Writing the recap felt like admin, so everyone else skipped it. Whoever bothered got to pick the words",
-     "type": "mechanism",
-     "core": false,
-     "framed_as": "timeless"
-    },
-    {
-     "id": "c5",
-     "text": "Senior people rarely overrule the wording of a recap once it has been sent.",
-     "sentence": "seniors rarely overrule them.",
-     "type": "mechanism",
-     "core": false,
-     "framed_as": "timeless"
-    },
-    {
-     "id": "c6",
-     "text": "A thumbs-up reply to a recap or tracker entry puts the person on record as agreeing, even if they argued against the point on the call.",
-     "sentence": "One of them argued against it on the call. Now they're on record as agreeing.",
-     "type": "mechanism",
-     "core": false,
      "framed_as": "timeless"
     }
    ]
@@ -290,6 +387,19 @@
       "url": "https://www.imss.caltech.edu/services/voice-mobile-conference-calls/zoom/zoom-ai-companion",
       "published_date": "unknown",
       "quote": "Settings allow you to have meeting summaries sent only to you, as the host, all internal participants, or all meeting participants. (Search results cited a university guide for this line; matching it to this page is not confirmed.)"
+     }
+    ]
+   },
+   "118f8882d069d0d5490c6a1cc6d85b4486be9007": {
+    "holds": true,
+    "broken_premise": "None. Every premise is a generalization about how people behave at work: calls end without a decision, people forget exact wording, correcting a recap feels socially costly, and recap-writing gets avoided as admin. None of these is a claim about how a product, price, fee, law, contract or market works, so none can be shown false. The post is about informal work calls and the follow-up emails. It doesn't claim to describe formal minutes. Its 'decision belongs to' line is meant as a description of practical influence, not of formal authority.",
+    "actual_mechanism": "In formal governance settings like boards, commissions and public bodies, the person who writes the minutes doesn't decide anything. Draft minutes only become the official record once the body approves them, and they can be corrected before or after that approval. Informal corporate calls usually have no approval step, though. A recap email goes unchallenged unless someone objects, so whoever writes it does get to frame an open 'let's take this offline' as a decision. Anyone who disagrees then has to push back openly. That's the dynamic the post describes.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.law.cornell.edu/regulations/mississippi/9-Miss-Code-R-SS-7-2-2-5",
+      "published_date": "2024-10-04 (last amended)",
+      "quote": "Proposed meeting minutes shall become the official minutes upon approval by the commission."
      }
     ]
    }
@@ -380,7 +490,147 @@
     },
     "text_hash": "c40e141573aeb86916c0545bf3eae3432f2c5d1f",
     "at": "2026-11-02T16:23:37.890730+00:00"
+   },
+   "a8cf9afb7236d64e67a32430f62035df1e6b9727": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Meeting decisions go to whoever sends the recap email. Calls often end without a clear answer, and nobody remembers the exact words afterwards. The recap becomes the only surviving record, and correcting it is socially costly. Writing it is treated as admin that people avoid, so the person who writes it turns an open 'let's take this offline' into a yes or no.",
+      "sentence": "The decision belongs to whoever sends the summary.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {},
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. Every premise is a generalization about how people behave at work: calls end without a decision, people forget exact wording, correcting a recap feels socially costly, and recap-writing gets avoided as admin. None of these is a claim about how a product, price, fee, law, contract or market works, so none can be shown false. The post is about informal work calls and the follow-up emails. It doesn't claim to describe formal minutes. Its 'decision belongs to' line is meant as a description of practical influence, not of formal authority.",
+     "actual_mechanism": "In formal governance settings like boards, commissions and public bodies, the person who writes the minutes doesn't decide anything. Draft minutes only become the official record once the body approves them, and they can be corrected before or after that approval. Informal corporate calls usually have no approval step, though. A recap email goes unchallenged unless someone objects, so whoever writes it does get to frame an open 'let's take this offline' as a decision. Anyone who disagrees then has to push back openly. That's the dynamic the post describes.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.law.cornell.edu/regulations/mississippi/9-Miss-Code-R-SS-7-2-2-5",
+       "published_date": "2024-10-04 (last amended)",
+       "quote": "Proposed meeting minutes shall become the official minutes upon approval by the commission."
+      }
+     ]
+    },
+    "text_hash": "a8cf9afb7236d64e67a32430f62035df1e6b9727",
+    "at": "2026-11-03T09:24:52.610202+00:00"
    }
   }
- }
+ },
+ "draft": {
+  "cover": {
+   "headline": "The decision belongs to [whoever sends the summary]",
+   "sub": "You argued well for an hour. Their email took two lines."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "The decision belongs to whoever sends the summary.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "How does a summary beat the actual meeting?"
+   },
+   {
+    "paragraphs": [
+     "It's an hour-long call. Half the cameras are off, someone's pressure cooker whistles twice, and the same slide stays up for forty minutes.",
+     "You make your point clearly. Someone says \"valid point, let's take this offline.\" The call ends with no answer at all."
+    ],
+    "why_swipe": "So what happens after a call that decides nothing?"
+   },
+   {
+    "paragraphs": [
+     "You close the laptop. Your chai has gone cold, with that thin skin on top.",
+     "Twenty minutes later, an email lands. Subject: Next steps. First line: \"As agreed, we'll go ahead with…\" It's the option you argued against.",
+     "You start typing \"that's not what we agreed.\" You read it back over the hum of the laptop fan. You delete it."
+    ],
+    "why_swipe": "Why did you delete it, and who even sent that email?"
+   },
+   {
+    "paragraphs": [
+     "It wasn't rank. It can be whoever typed first.",
+     "By Friday, nobody remembers the exact words. The email is the only version still standing. Replying means a long paragraph and a fight in front of your manager."
+    ],
+    "why_swipe": "So why did they get to write it and not you?"
+   },
+   {
+    "paragraphs": [
+     "And writing the recap was never a job anyone fought for. On the call it gets handed off like taking notes. You've dodged it yourself, because it felt like admin.",
+     "**But the recap is where \"let's take this offline\" turns into a yes or a no.**",
+     "Whoever does the admin picks which one."
+    ],
+    "why_swipe": "So what happens to that yes or no later?"
+   },
+   {
+    "paragraphs": [
+     "Three months later the project hits a wall. Someone senior asks why your team chose this route.",
+     "You hear yourself say, \"Well, we all agreed on that call.\"",
+     "**And you mean it. You've read that email more times than you remember the call.**"
+    ]
+   }
+  ],
+  "end": {
+   "save": "Read it again right before you close the laptop on your next long call.",
+   "send": "Send to the friend who does all the talking in meetings and still loses every decision.",
+   "promise": "How Indian offices really work."
+  },
+  "caption": "What's the most 'As agreed' email you've ever received about something nobody actually agreed to?",
+  "hashtags": [
+   "#CorporateLife",
+   "#OfficePolitics",
+   "#MeetingCulture",
+   "#WorkplaceIndia"
+  ],
+  "alt_text": "A six-slide carousel. The cover says the decision belongs to whoever sends the meeting summary. The slides follow the reader through an hour-long call that ends without an answer. Twenty minutes later an 'As agreed' email arrives backing the option they argued against. The reader types a reply, reads it back over the laptop fan's hum and deletes it. The sender can be whoever typed first, and since no one remembers the exact words, the email becomes the only version left. Writing the recap feels like admin, so everyone avoids it, yet the recap is where an open question becomes a yes or a no. Months later, when the project struggles, the reader defends the decision as something everyone agreed on, because they have read the email more often than they remember the call.",
+  "claims": [],
+  "caption_style": "question"
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Meeting decisions go to whoever sends the recap email. Calls often end without a clear answer, and nobody remembers the exact words afterwards. The recap becomes the only surviving record, and correcting it is socially costly. Writing it is treated as admin that people avoid, so the person who writes it turns an open 'let's take this offline' into a yes or no.",
+    "sentence": "The decision belongs to whoever sends the summary.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {},
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "None. Every premise is a generalization about how people behave at work: calls end without a decision, people forget exact wording, correcting a recap feels socially costly, and recap-writing gets avoided as admin. None of these is a claim about how a product, price, fee, law, contract or market works, so none can be shown false. The post is about informal work calls and the follow-up emails. It doesn't claim to describe formal minutes. Its 'decision belongs to' line is meant as a description of practical influence, not of formal authority.",
+   "actual_mechanism": "In formal governance settings like boards, commissions and public bodies, the person who writes the minutes doesn't decide anything. Draft minutes only become the official record once the body approves them, and they can be corrected before or after that approval. Informal corporate calls usually have no approval step, though. A recap email goes unchallenged unless someone objects, so whoever writes it does get to frame an open 'let's take this offline' as a decision. Anyone who disagrees then has to push back openly. That's the dynamic the post describes.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://www.law.cornell.edu/regulations/mississippi/9-Miss-Code-R-SS-7-2-2-5",
+     "published_date": "2024-10-04 (last amended)",
+     "quote": "Proposed meeting minutes shall become the official minutes upon approval by the commission."
+    }
+   ]
+  },
+  "text_hash": "a8cf9afb7236d64e67a32430f62035df1e6b9727",
+  "at": "2026-11-03T09:24:52.610202+00:00"
+ },
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-90/slide_01.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-90/slide_02.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-90/slide_03.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-90/slide_04.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-90/slide_05.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-90/slide_06.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-90/slide_07.jpg"
+ ],
+ "buffer_attempted_at": "2026-11-03T09:26:26.802042+00:00",
+ "buffer_post_id": "6ae9a8c35d9f5a9a75859649"
 }
