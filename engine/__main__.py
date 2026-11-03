@@ -67,7 +67,7 @@ def produce(month: str | None = None, limit: int | None = None) -> None:
     subscription usage windows; the daily run calls this with PRODUCE_PER_RUN."""
     now = datetime.now(timezone.utc)
     soon = (now + timedelta(hours=3)).isoformat()   # time to write, check and render
-    quick = (now + timedelta(hours=1, minutes=15)).isoformat()  # an approved draft only renders
+    quick = (now + timedelta(minutes=25)).isoformat()  # an approved draft only renders and goes to Buffer
     queue = [p for p in state.posts("planned") + state.posts("approved") if p["format"] != "spare" and p.get("due")
              and datetime.fromisoformat(p["due"]).astimezone(timezone.utc).isoformat() > (quick if p["status"] == "approved" else soon)
              and (month is None or p["id"].startswith(month))]
@@ -146,7 +146,7 @@ def push(days: int = config.PUSH_DAYS) -> None:
         if config.PAUSED and not post.get("owner_ok"):
             continue  # review mode: only posts the owner approved in chat go to Buffer
         due = datetime.fromisoformat(post["due"]) if post.get("due") else None
-        if not due or not (now + timedelta(hours=1) <= due <= horizon):
+        if not due or not (now + timedelta(minutes=15) <= due <= horizon):
             continue
         if post.get("buffer_attempted_at") and not post.get("buffer_post_id"):
             # A previous attempt may have reached Buffer without us hearing back. Never retry blind.
