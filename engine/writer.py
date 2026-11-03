@@ -429,7 +429,10 @@ def write_post(post: dict, notes: str = "") -> dict:
         notes = ("## Your previous draft\n" + json.dumps(draft, ensure_ascii=False, indent=1) +
                  "\n\n## Notes from the editor and fact checker\nEdit the draft above; don't write a new one. Change only "
                  "the lines these notes name, and keep every other line word for word, so nothing that already passed "
-                 "breaks. If a fact or mechanism is wrong, rebuild that point on the corrected one rather than deleting it.\n" + "\n".join(f"- {p}" for p in problems))
+                 "breaks. If a fact or mechanism is wrong, rebuild that point on the corrected one rather than deleting it. "
+                 "If a note calls a slide dead, or says it restates the cover or another slide, delete that slide (move any "
+                 "genuinely new detail into the slide before it); never reword it, because a reworded repeat is still a repeat.\n"
+                 + "\n".join(f"- {p}" for p in problems))
         state.log("writer", f"{post['id']} attempt {attempt + 1} failed: {problems[:2]}")
     post.update(status="rejected", draft=draft)  # keep the last draft so a person can read what was rejected
     return post

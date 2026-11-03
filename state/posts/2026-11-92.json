@@ -1,6 +1,6 @@
 {
  "id": "2026-11-92",
- "status": "rejected",
+ "status": "approved",
  "due": "2026-11-03T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -497,18 +497,87 @@
     "slide 3: The price is the sting but is never shown. Use the ₹350 from the topic so the reader feels the wince concretely. The turn then lands harder when the same figure looks fair later.",
     "slide 4: Explain, in one plain line, why nobody asks you to leave, or what the staff gain from a full table. Right now the silence is just observed. Also add one more non-visual detail here, such as the cold of the AC on your arms or the clatter of the next table clearing, so the three hours feel lived."
    ]
+  },
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "Slide 5: the mechanism line ('The city ran out of places to sit. Someone built one, put air-con and Wi-Fi inside, and a price on the door.') drops out of the lived scene into flat explainer voice right when it needs to land hardest. Anchor it back in the same table: e.g. tie the air-con/Wi-Fi line to something the reader is touching or hearing right then, so the 'because' arrives inside the moment, not above it.",
+     "Slide 4: the list of free places (flat, office, park, library) is useful but slightly recap-y since most readers already know none of those work for three hours. Cut it to two options max, or replace one with a sharper sensory beat (the office Wi-Fi password you've forgotten, the park bench still wet from morning sprinklers) so it's not just an inventory.",
+     "Slide 3: 'You feel like you're getting away with something' is a good feeling-beat, but consider adding one more sense here beyond sight, e.g. the exact sound of the waiter's tray or the clink of the water glass refill, to keep the scene physical rather than summarized.",
+     "Final line ('the table is worth paying for again, and you both know it') is solid but close to telling the reader the insight rather than letting the second coffee itself do it. Consider cutting straight to the action and a smaller, more specific tell (what he actually does with his hand on the glass) and let 'you both know it' be implied, not stated."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "verification": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Because homes are small, offices are closed on weekends, parks lack plug points, and public libraries are scarce, cities effectively have no free place to sit for hours; cafés fill that gap by offering air-conditioned, wifi-equipped tables, and charge for it through the price of a drink — so the money paid for a coffee is actually payment for renting the table, not for the drink itself.",
+      "sentence": "The city ran out of places to sit. Someone built one, put air-con and Wi-Fi inside, and a price on the door. / A coffee is the cheapest rent in your city.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {},
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "none — the one falsifiable premise (the drink's price is set to cover the space, not its ingredients) is accurate; the rest are generalizations about daily life, which are opinion and out of scope",
+     "actual_mechanism": "A café drink is priced at roughly 4–5x its ingredient cost: beans, milk and cup run only ~15–25% of the menu price, while the remaining ~75–85% covers labor, rent and overhead — i.e., the room, the air-con, the wifi and the seat. Menu prices are not cost-plus on the liquid; they are set to cover occupancy and fixed costs, so buying the drink is functionally how the café monetizes the time you occupy a table. Many cafés make the seat-not-drink logic explicit with minimum-spend or time limits during peak hours.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://coffeestudies.com/coffee-business/coffee-shop-profit-margin",
+       "published_date": "2026",
+       "quote": "the beans, milk, and cup that make a $6.50 latte cost less than $1.20"
+      },
+      {
+       "url": "https://www.upmenu.com/blog/coffee-shop-menu-pricing/",
+       "published_date": "2025",
+       "quote": "a cup of espresso-based coffee has a COGS of roughly 15–20% of the selling price... Coffee shops typically apply a markup of 4-5 times the cost of materials."
+      },
+      {
+       "url": "https://vantainsights.com/insights/coffee-shop-profit-margins",
+       "published_date": "2026",
+       "quote": "Labour is the largest cost — typically 35–40% of revenue... Rent target: 8–12% of revenue... overhead (10–15%)"
+      }
+     ]
+    },
+    "text_hash": "e291f69b46612ef99a392ee9f1a03f642f17c37f",
+    "at": "2026-11-03T09:14:56.668233+00:00"
+   }
   }
  ],
- "updated_at": "2026-11-03T09:09:04.820647+00:00",
+ "updated_at": "2026-11-03T09:21:47.677083+00:00",
  "sources": [],
  "verification_cache": {
   "_ledger": {
-   "text": "[cover] The coffee isn't cheap. The [chair] is the product.\nThree hours, one cold coffee, and nobody asks you to leave.\n \n\n[slide 1] The coffee isn't cheap. The chair is the product.\nSwipe to read →\n\n[slide 2] It's a Sunday. You've been at the same table for three hours. One cold coffee, now warm, sweating a ring onto the wood.\nYour laptop's battery is fading. The plug is right there. No one's asked you to leave.\n\n[slide 3] You do the math anyway. That's a lot for a drink.\nSo you say it to your friend: café coffee is a scam, priced for people who want to look premium.\n\n[slide 4] But look at what you actually used. A clean table, a chair that didn't wobble, Wi-Fi, a bathroom, light to read by, quiet to sit in.\nNow try to find that anywhere else in your city for free.\nYour flat is small. The office is loud. The library shut years ago, if your town ever had one.\n\n[slide 5] And the café isn't fighting your long stay. A full room of laptops is the best signboard it has.\nThe drink is just the ticket at the door. The table is what you're really renting.\n\n[slide 6] The grumble at the bill is honest. That much for a drink you barely tasted stings, and it should.\nThen you step outside and look for a free chair. Every quiet corner belongs to someone's shop.\n\n[slide 7] Three hours at a table no one moves you from, for the price of one coffee. You paid it because there was nowhere else to go.\n\n[end card] Read it again next time you grumble at the bill but still don't want to go home.\nSend to the friend who complains about café prices from the same café every weekend.\n\n[caption] How long have you sat in a café on one order, telling yourself the coffee was the reason you came?\n\n[alt text] A seven-slide carousel arguing that café coffee is overpriced as a drink but fair as rent for a quiet table, because Indian cities have almost no free places to sit.",
+   "text": "[cover] A coffee is the cheapest [rent] in your city\nYou're not buying the drink. Look around the table.\n \n\n[slide 1] A coffee is the cheapest rent in your city.\nSwipe to read →\n\n[slide 2] It's a Saturday. You've had the corner table for three hours. One cold coffee, finished an hour ago, the ice gone to water, a wet ring spreading on the wood.\n\n[slide 3] You keep bracing for the waiter to clear your glass and give you that look.\nInstead he tops up your water and walks off. You feel like you're getting away with something.\n\n[slide 4] So run the list of places you could have sat for free today.\nYour flat, bed two steps from the laptop. The office, dark and dead on a weekend. A park with no plug point. A library, if one still stands near you.\nNone of them hold you for three hours.\n\n[slide 5] That's the honest deal, and it's a fair one. A small flat, a packed office, no bench that's free and shaded.\nThe city ran out of places to sit. Someone built one, put air-con and Wi-Fi inside, and a price on the door.\n\n[slide 6] At hour four you order a second one. Not because you're thirsty. Because the table is worth paying for again, and you both know it.\n\n[end card] Open this again the next time you nurse one coffee for three hours.\nSend to the friend who complains about café prices from the same café every weekend.\n\n[caption] What's the longest you've held a café table on one order, and what were you really there to do?\n\n[alt text] A six-slide carousel. The cover says a coffee is the cheapest rent in your city. The story puts you at a café corner table for three hours on one melted cold coffee, bracing for a waiter who never asks you to leave. It runs through the free places you could have sat and why none of them work, then lands on you ordering a second coffee just to keep the table.",
    "claims": [
     {
      "id": "c1",
-     "text": "Cafés let customers occupy a table for extended periods without additional purchase or being asked to leave, because they provide free-to-use amenities (table, chair, Wi-Fi, bathroom, light, quiet) that are otherwise unavailable for free elsewhere in the city, and a room full of long-staying customers functions as a draw/signal that benefits the café, so the price of one coffee effectively covers the use of the space rather than just the drink",
-     "sentence": "The coffee isn't cheap. The chair is the product. ... The drink is just the ticket at the door. The table is what you're really renting.",
+     "text": "Because homes are small, offices are closed on weekends, parks lack plug points, and public libraries are scarce, cities effectively have no free place to sit for hours; cafés fill that gap by offering air-conditioned, wifi-equipped tables, and charge for it through the price of a drink — so the money paid for a coffee is actually payment for renting the table, not for the drink itself.",
+     "sentence": "The city ran out of places to sit. Someone built one, put air-con and Wi-Fi inside, and a price on the door. / A coffee is the cheapest rent in your city.",
      "type": "mechanism",
      "core": true,
      "framed_as": "timeless"
@@ -531,6 +600,29 @@
       "url": "https://smallbusiness.chron.com/coffee-shop-cost-analysis-76311.html",
       "published_date": "n.d.",
       "quote": "Well-managed coffee shops typically allocate 60-70% of gross revenue to operating expenses, including 25-35% for labor costs, 25-35% for cost of goods sold, 6-10% for rent."
+     }
+    ]
+   },
+   "c198d2b8fa8331062553e2f1ff2a94f161b4dc07": {
+    "holds": true,
+    "broken_premise": "none — the one falsifiable premise (the drink's price is set to cover the space, not its ingredients) is accurate; the rest are generalizations about daily life, which are opinion and out of scope",
+    "actual_mechanism": "A café drink is priced at roughly 4–5x its ingredient cost: beans, milk and cup run only ~15–25% of the menu price, while the remaining ~75–85% covers labor, rent and overhead — i.e., the room, the air-con, the wifi and the seat. Menu prices are not cost-plus on the liquid; they are set to cover occupancy and fixed costs, so buying the drink is functionally how the café monetizes the time you occupy a table. Many cafés make the seat-not-drink logic explicit with minimum-spend or time limits during peak hours.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://coffeestudies.com/coffee-business/coffee-shop-profit-margin",
+      "published_date": "2026",
+      "quote": "the beans, milk, and cup that make a $6.50 latte cost less than $1.20"
+     },
+     {
+      "url": "https://www.upmenu.com/blog/coffee-shop-menu-pricing/",
+      "published_date": "2025",
+      "quote": "a cup of espresso-based coffee has a COGS of roughly 15–20% of the selling price... Coffee shops typically apply a markup of 4-5 times the cost of materials."
+     },
+     {
+      "url": "https://vantainsights.com/insights/coffee-shop-profit-margins",
+      "published_date": "2026",
+      "quote": "Labour is the largest cost — typically 35–40% of revenue... Rent target: 8–12% of revenue... overhead (10–15%)"
      }
     ]
    }
@@ -571,81 +663,152 @@
     },
     "text_hash": "ed58b06b5d33d3396ae9ee32358461559d2a6713",
     "at": "2026-11-02T15:48:53.279815+00:00"
+   },
+   "e291f69b46612ef99a392ee9f1a03f642f17c37f": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Because homes are small, offices are closed on weekends, parks lack plug points, and public libraries are scarce, cities effectively have no free place to sit for hours; cafés fill that gap by offering air-conditioned, wifi-equipped tables, and charge for it through the price of a drink — so the money paid for a coffee is actually payment for renting the table, not for the drink itself.",
+      "sentence": "The city ran out of places to sit. Someone built one, put air-con and Wi-Fi inside, and a price on the door. / A coffee is the cheapest rent in your city.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {},
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "none — the one falsifiable premise (the drink's price is set to cover the space, not its ingredients) is accurate; the rest are generalizations about daily life, which are opinion and out of scope",
+     "actual_mechanism": "A café drink is priced at roughly 4–5x its ingredient cost: beans, milk and cup run only ~15–25% of the menu price, while the remaining ~75–85% covers labor, rent and overhead — i.e., the room, the air-con, the wifi and the seat. Menu prices are not cost-plus on the liquid; they are set to cover occupancy and fixed costs, so buying the drink is functionally how the café monetizes the time you occupy a table. Many cafés make the seat-not-drink logic explicit with minimum-spend or time limits during peak hours.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://coffeestudies.com/coffee-business/coffee-shop-profit-margin",
+       "published_date": "2026",
+       "quote": "the beans, milk, and cup that make a $6.50 latte cost less than $1.20"
+      },
+      {
+       "url": "https://www.upmenu.com/blog/coffee-shop-menu-pricing/",
+       "published_date": "2025",
+       "quote": "a cup of espresso-based coffee has a COGS of roughly 15–20% of the selling price... Coffee shops typically apply a markup of 4-5 times the cost of materials."
+      },
+      {
+       "url": "https://vantainsights.com/insights/coffee-shop-profit-margins",
+       "published_date": "2026",
+       "quote": "Labour is the largest cost — typically 35–40% of revenue... Rent target: 8–12% of revenue... overhead (10–15%)"
+      }
+     ]
+    },
+    "text_hash": "e291f69b46612ef99a392ee9f1a03f642f17c37f",
+    "at": "2026-11-03T09:14:56.668233+00:00"
    }
   }
  },
  "draft": {
   "cover": {
-   "headline": "Your cold coffee is really [rent for a quiet chair]",
-   "sub": "Overpriced as a drink, fair as three hours at a table."
+   "headline": "A coffee is the cheapest [rent] in your city",
+   "sub": "You're not buying the drink. Look around the table."
   },
   "slides": [
    {
     "paragraphs": [
-     "Your cold coffee is really rent for a quiet chair.",
+     "A coffee is the cheapest rent in your city.",
      "Swipe to read →"
     ],
-    "why_swipe": "How is an overpriced drink a fair deal?"
+    "why_swipe": "What do you mean, rent?"
    },
    {
     "paragraphs": [
-     "It's Saturday. Your flatmate is on a call in the only room with a door, and a neighbour's pressure cooker whistles through the wall.",
-     "You wind up the laptop charger, heavy in your hand, and walk to the café down the road. You aim straight for the corner table near the plug point."
+     "It's a Saturday. You've had the corner table for three hours. One cold coffee, finished an hour ago, the ice gone to water, a wet ring spreading on the wood."
     ],
-    "why_swipe": "What happens once they sit down and see the bill?"
+    "why_swipe": "Isn't a waiter about to ask you to leave?"
    },
    {
     "paragraphs": [
-     "One cold coffee, and the price stings. You do the sum in your head while the barista shouts a name that sounds a bit like yours.",
-     "Ice, milk and a logo. You've said it to friends more than once: café coffee is a scam for people who want to look premium."
+     "You keep bracing for the waiter to clear your glass and give you that look.",
+     "Instead he tops up your water and walks off. You feel like you're getting away with something."
     ],
-    "why_swipe": "So why does it not feel like a scam three hours later?"
+    "why_swipe": "Why does nobody mind you camping here?"
    },
    {
     "paragraphs": [
-     "Three hours later the glass is empty, sweating a ring onto the wood. The AC hums. The staff walk past your table twice and say nothing.",
-     "You haven't ordered a second thing. Each time someone clears the next table, you wait for a polite \"anything else?\" It never comes."
+     "So run the list of places you could have sat for free today.",
+     "Your flat, bed two steps from the laptop. The office, dark and dead on a weekend. A park with no plug point. A library, if one still stands near you.",
+     "None of them hold you for three hours."
     ],
-    "why_swipe": "Why does nobody ask you to leave?"
+    "why_swipe": "So what is the money actually for?"
    },
    {
     "paragraphs": [
-     "Somewhere in the second hour, it clicks. That price doesn't feel like it went on the drink. It feels like it went on the seat.",
-     "**As a drink, that price is too much. As three hours in a quiet, cool seat next to a plug, it's cheap.**"
+     "That's the honest deal, and it's a fair one. A small flat, a packed office, no bench that's free and shaded.",
+     "The city ran out of places to sit. Someone built one, put air-con and Wi-Fi inside, and a price on the door."
     ],
-    "why_swipe": "So why is a seat worth that much?"
+    "why_swipe": "So how do you feel handing over the 350?"
    },
    {
     "paragraphs": [
-     "Small homes, packed offices and too few libraries make a table with Wi-Fi rare in most cities. So the café folds that table into the price of the cup."
-    ],
-    "why_swipe": "what happens next?"
-   },
-   {
-    "paragraphs": [
-     "And for three hours you had a corner nobody knocked on, the charger's warm brick under your palm.",
-     "**When someone finally does ask \"anything else?\", you'll order a second coffee without blinking. That one is the rent.**"
+     "At hour four you order a second one. Not because you're thirsty. Because the table is worth paying for again, and you both know it."
     ]
    }
   ],
   "end": {
-   "save": "Read it again the next time you wince at a café bill and then sit there for three hours.",
+   "save": "Open this again the next time you nurse one coffee for three hours.",
    "send": "Send to the friend who complains about café prices from the same café every weekend.",
-   "promise": "What you're really paying for."
+   "promise": "What we actually pay for in cities."
   },
-  "caption": "Which café table has become your second office, and how long do you stretch one drink there?",
+  "caption": "What's the longest you've held a café table on one order, and what were you really there to do?",
   "hashtags": [
-   "#CafeCulture",
-   "#WorkFromCafe",
-   "#IndianCities",
-   "#MoneyAndStatus"
+   "cafeculture",
+   "urbanindia",
+   "workfromcafe",
+   "citylife"
   ],
-  "alt_text": "A six-slide text carousel. The cover says a cold coffee is really rent for a quiet chair. The slides follow the reader leaving a noisy flat on a Saturday to work at a café. They wince at the price of a cold coffee and call café coffee a scam, then spend three hours at one table without ordering again, waiting for an 'anything else?' that never comes. In the second hour it clicks that the money feels like it went on the seat: too much for a drink, cheap for three quiet, cool hours next to a plug. Small homes, packed offices and few libraries make a table with Wi-Fi rare, so the café prices it into the cup. It ends: when someone finally asks 'anything else?', you'll order a second coffee without blinking, and that one is the rent.",
-  "claims": [
+  "alt_text": "A six-slide carousel. The cover says a coffee is the cheapest rent in your city. The story puts you at a café corner table for three hours on one melted cold coffee, bracing for a waiter who never asks you to leave. It runs through the free places you could have sat and why none of them work, then lands on you ordering a second coffee just to keep the table.",
+  "claims": [],
+  "caption_style": "question"
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
    {
-    "text": "A café cold coffee is priced high for a drink (used as a typical café price)",
-    "source_url": "topic"
+    "id": "c1",
+    "text": "Because homes are small, offices are closed on weekends, parks lack plug points, and public libraries are scarce, cities effectively have no free place to sit for hours; cafés fill that gap by offering air-conditioned, wifi-equipped tables, and charge for it through the price of a drink — so the money paid for a coffee is actually payment for renting the table, not for the drink itself.",
+    "sentence": "The city ran out of places to sit. Someone built one, put air-con and Wi-Fi inside, and a price on the door. / A coffee is the cheapest rent in your city.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
    }
-  ]
+  ],
+  "verdicts": {},
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "none — the one falsifiable premise (the drink's price is set to cover the space, not its ingredients) is accurate; the rest are generalizations about daily life, which are opinion and out of scope",
+   "actual_mechanism": "A café drink is priced at roughly 4–5x its ingredient cost: beans, milk and cup run only ~15–25% of the menu price, while the remaining ~75–85% covers labor, rent and overhead — i.e., the room, the air-con, the wifi and the seat. Menu prices are not cost-plus on the liquid; they are set to cover occupancy and fixed costs, so buying the drink is functionally how the café monetizes the time you occupy a table. Many cafés make the seat-not-drink logic explicit with minimum-spend or time limits during peak hours.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://coffeestudies.com/coffee-business/coffee-shop-profit-margin",
+     "published_date": "2026",
+     "quote": "the beans, milk, and cup that make a $6.50 latte cost less than $1.20"
+    },
+    {
+     "url": "https://www.upmenu.com/blog/coffee-shop-menu-pricing/",
+     "published_date": "2025",
+     "quote": "a cup of espresso-based coffee has a COGS of roughly 15–20% of the selling price... Coffee shops typically apply a markup of 4-5 times the cost of materials."
+    },
+    {
+     "url": "https://vantainsights.com/insights/coffee-shop-profit-margins",
+     "published_date": "2026",
+     "quote": "Labour is the largest cost — typically 35–40% of revenue... Rent target: 8–12% of revenue... overhead (10–15%)"
+    }
+   ]
+  },
+  "text_hash": "e291f69b46612ef99a392ee9f1a03f642f17c37f",
+  "at": "2026-11-03T09:14:56.668233+00:00"
  }
 }
