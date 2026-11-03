@@ -1,7 +1,7 @@
 {
  "id": "2026-11-110",
- "status": "planned",
- "due": "2026-11-09T20:30:00+05:30",
+ "status": "approved",
+ "due": "2026-11-03T20:30:00+05:30",
  "format": "carousel",
  "topic": {
   "title": "the bill",
@@ -32,7 +32,247 @@
   "news_peg": null,
   "proof": []
  },
- "history": [],
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Caption uses \"I\" when the topic marks lived:false: \"I handed the waiter my card before my father could reach, and spent the drive home feeling older than I wanted to.\" This also invents a specific one-off personal event involving another person (the father) that isn't in the topic's proof — rewrite in the account's observational \"you\"/\"we\" voice with no invented personal incident.",
+     "Slide 6 restates the cover's claim in new words instead of adding to it: cover says \"you [took his job]\" / \"stops grabbing the bill\"; slide 6 says \"He didn't lose the fight for the bill. He retired, and promoted you.\" Same idea, same images, just reworded — this is a dead last slide per the rules."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 3,
+     "voice": 3,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "Caption: drop the \"I\" anecdote entirely (invented, contradicts lived:false). Replace with an observational line in \"you\"/\"we\" that doesn't claim a specific personal event — e.g. something that names the feeling without a staged scene of 'I did X last night.'",
+     "Slide 6: the payoff just re-skins the cover line (retired/promoted ≈ stops grabbing the bill/took his job). Give the reader something the cover didn't already say — what papa does now that the job's gone (stops arguing about money altogether, defers on other things too), or what it costs the reader (you can't hand it back), so the last line earns its place instead of echoing slide 1.",
+     "Topic mood is \"mixed\" but the post plays only one note (quiet transfer of duty). Add a touch of the son's own reluctance or pride somewhere in slides 4-5 — he didn't ask for this, or he feels both proud and uneasy — so the mixed feeling the topic calls for actually lands.",
+     "Slide 3's papa ('Keep it, keep it. Beta, sit') is dialogue-only; give one physical beat of the old routine (how fast his hand moved, where his wallet lived) so the absence in slide 4 reads as a loss of a specific, felt gesture, not just a reported habit.",
+     "Sub-headline 'Nobody says it out loud. The folder just sits there' and slide 2's folder detail are doing similar work — check if the cover sub needs to exist once slide 2 delivers the same image, or make the sub say something slide 2 doesn't (e.g. the son's dread, not the folder itself)."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Caption uses \"I\" when the topic marks lived:false: \"I handed the waiter my card before my father could reach, and spent the drive home feeling older than I wanted to.\" This also invents a specific one-off personal event involving another person (the father) that isn't in the topic's proof — rewrite in the account's observational \"you\"/\"we\" voice with no invented personal incident.",
+    "Slide 6 restates the cover's claim in new words instead of adding to it: cover says \"you [took his job]\" / \"stops grabbing the bill\"; slide 6 says \"He didn't lose the fight for the bill. He retired, and promoted you.\" Same idea, same images, just reworded — this is a dead last slide per the rules.",
+    "Caption: drop the \"I\" anecdote entirely (invented, contradicts lived:false). Replace with an observational line in \"you\"/\"we\" that doesn't claim a specific personal event — e.g. something that names the feeling without a staged scene of 'I did X last night.'",
+    "Slide 6: the payoff just re-skins the cover line (retired/promoted ≈ stops grabbing the bill/took his job). Give the reader something the cover didn't already say — what papa does now that the job's gone (stops arguing about money altogether, defers on other things too), or what it costs the reader (you can't hand it back), so the last line earns its place instead of echoing slide 1.",
+    "Topic mood is \"mixed\" but the post plays only one note (quiet transfer of duty). Add a touch of the son's own reluctance or pride somewhere in slides 4-5 — he didn't ask for this, or he feels both proud and uneasy — so the mixed feeling the topic calls for actually lands.",
+    "Slide 3's papa ('Keep it, keep it. Beta, sit') is dialogue-only; give one physical beat of the old routine (how fast his hand moved, where his wallet lived) so the absence in slide 4 reads as a loss of a specific, felt gesture, not just a reported habit.",
+    "Sub-headline 'Nobody says it out loud. The folder just sits there' and slide 2's folder detail are doing similar work — check if the cover sub needs to exist once slide 2 delivers the same image, or make the sub say something slide 2 doesn't (e.g. the son's dread, not the folder itself)."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 5,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "Slide 5: 'He isn't tired. He's handing over the one thing he always reached for first... Reaching for that bill was how he said I'm still the one who provides. Letting you take it says the job is yours now.' This is two mirrored A/B constructions back to back, close to the banned 'Not X. Y.' and mirrored-pair patterns. Break the symmetry: let one sentence carry the because plainly, cut the second mirrored half.",
+     "Slide 4 carries three separate beats (the hand not moving, the card slide with pride/wish, the self-deception line). Consider cutting 'You tell yourself he's just tired now' down to land harder as its own short beat, or fold it into slide 5's opening so slide 4 stays just the moment.",
+     "Slide 2 is pure sight (table, chairs, plates, folder). Add one non-visual texture here — the scrape of a borrowed chair, the clatter as plates get stacked — so the scene has more than one sense before the bill moment lands.",
+     "Slide 6's list ('the EMI, the plumber, the trip home') is good but reads slightly like an inventory; ground it with one beat of how this actually surfaces for the reader (e.g., the one call home now that goes straight to asking you, not papa) so it stays a lived shift, not a summary."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "verification": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "A father paying the bill is how he signals he is still the family provider; ceding the bill to his child signals that the provider role has transferred, and afterward financial decision-making (EMIs, repairs, travel) shifts from the father to the child.",
+      "sentence": "Reaching for that bill was how he said I'm still the one who provides. Letting you take it says the job is yours now. ... He stops haggling over the EMI, the plumber, the trip home. The big calls drift to your side of the table, one by one, nobody announcing it.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {},
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "none — the post makes no falsifiable claim about a product, price, fee, law, contract or market; every link in the chain (paying the bill = signaling provider status, ceding it = handing over the role, decisions drifting afterward) is a reading of motive and a generalization about family life, which is opinion by definition",
+     "actual_mechanism": "Picking up a restaurant bill has no fixed financial meaning — it is a social gesture whose significance is assigned by the family, not set by any law, contract or pricing mechanism. The post interprets that gesture as a quiet transfer of the provider role and predicts broader decision-making shifts; this is a plausible lived-experience interpretation, not a testable factual assertion, so there is no premise to disprove. Real financial authority (account ownership, who signs loans, whose name is on assets) is governed separately and does not automatically move just because one dinner bill changed hands.",
+     "take_survives": true,
+     "sources": []
+    },
+    "text_hash": "d3c18a01c770de708f8fcbe3f166c8a1c8df7e3e",
+    "at": "2026-11-03T12:10:53.989043+00:00"
+   }
+  },
+  {
+   "owner": "approved in chat 2026-11-03"
+  }
+ ],
  "sources": [],
- "updated_at": "2026-11-03T12:05:43.920094+00:00"
+ "updated_at": "2026-11-03T12:35:50.772247+00:00",
+ "draft": {
+  "cover": {
+   "headline": "The day papa lets you pay, you [take his job]",
+   "sub": "You reach for your card and feel older than you planned to."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "The day papa lets you pay, you take his job.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "You want to know which dinner this is."
+   },
+   {
+    "paragraphs": [
+     "It's Diwali dinner at the dhaba near Mausi's house. 11 of you on one long table, two chairs borrowed from the next one.",
+     "Plates cleared. A cousin yawning. The waiter sets down the folder. ₹6,240."
+    ],
+    "why_swipe": "You know exactly what happens next at this table."
+   },
+   {
+    "paragraphs": [
+     "You know this part. For as long as you can remember, papa's hand shot out first, faster than yours.",
+     "Wallet always in the left shirt pocket, out before the waiter straightened up. He'd wave you off, half-annoyed. Keep it, keep it. Beta, sit. 30 years of that."
+    ],
+    "why_swipe": "So what changed this time?"
+   },
+   {
+    "paragraphs": [
+     "But this time his hand doesn't move.",
+     "The folder stays near your side. You slide your card in before anyone notices, the leather still warm. A small flush of pride, and a small wish that he'd fought you for it one more time.",
+     "You tell yourself he's just tired now."
+    ],
+    "why_swipe": "You're sure that's all it is. It isn't."
+   },
+   {
+    "paragraphs": [
+     "He isn't tired. He's handing over the one thing he always reached for first.",
+     "Reaching for that bill was how he said *I'm still the one who provides*. Letting you take it says the job is yours now."
+    ],
+    "why_swipe": "So what does the job look like now?"
+   },
+   {
+    "paragraphs": [
+     "Watch what happens after. He stops haggling over the EMI, the plumber, the trip home. The big calls drift to your side of the table, one by one, nobody announcing it.",
+     "**You went looking for his hand on the bill. It isn't coming back.**"
+    ],
+    "why_swipe": null
+   }
+  ],
+  "end": {
+   "save": "Read it again after the next Diwali dinner, when the folder lands on the table.",
+   "send": "Send to the friend who paid for their parents last month and couldn't explain why it felt strange.",
+   "promise": "How power moves in an Indian family."
+  },
+  "caption": "Papa always grabbed the bill first. Then one dinner, his hand didn't move.\n\nWith Indian parents, paying the bill was never about money. It's how a father says he's still the one who provides.\n\nThe day he lets you pay, the job moves to you, and nobody in an Indian family says it out loud.\n\nSend this to your sibling. They've noticed it too.",
+  "hashtags": [
+   "#IndianFamily",
+   "#IndianParents",
+   "#FatherAndSon"
+  ],
+  "alt_text": "A six-slide carousel about a family festival dinner. The waiter puts down the bill folder and, for the first time, the father's hand doesn't move to grab it. The son pays. The post explains that giving up the bill is how the father hands over his role as provider without saying so, and that the handover keeps going after.",
+  "claims": [],
+  "caption_style": "pov"
+ },
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] The day papa lets you pay, you [take his job]\nYou reach for your card and feel older than you planned to.\n \n\n[slide 1] The day papa lets you pay, you take his job.\nSwipe to read →\n\n[slide 2] It's Diwali dinner at the dhaba near Mausi's house. 11 of you on one long table, two chairs borrowed from the next one.\nPlates cleared. A cousin yawning. The waiter sets down the folder. ₹6,240.\n\n[slide 3] You know this part. For as long as you can remember, papa's hand shot out first, faster than yours.\nWallet always in the left shirt pocket, out before the waiter straightened up. He'd wave you off, half-annoyed. Keep it, keep it. Beta, sit. 30 years of that.\n\n[slide 4] But this time his hand doesn't move.\nThe folder stays near your side. You slide your card in before anyone notices, the leather still warm. A small flush of pride, and a small wish that he'd fought you for it one more time.\nYou tell yourself he's just tired now.\n\n[slide 5] He isn't tired. He's handing over the one thing he always reached for first.\nReaching for that bill was how he said I'm still the one who provides. Letting you take it says the job is yours now.\n\n[slide 6] Watch what happens after. He stops haggling over the EMI, the plumber, the trip home. The big calls drift to your side of the table, one by one, nobody announcing it.\nYou went looking for his hand on the bill. It isn't coming back.\n\n[end card] Read it again after the next Diwali dinner, when the folder lands on the table.\nSend to the friend who paid for their parents last month and couldn't explain why it felt strange.\n\n[caption] Papa always grabbed the bill first. Then one dinner, his hand didn't move.\n\nWith Indian parents, paying the bill was never about money. It's how a father says he's still the one who provides.\n\nThe day he lets you pay, the job moves to you, and nobody in an Indian family says it out loud.\n\nSend this to your sibling. They've noticed it too.\n\n[alt text] A six-slide carousel about a family festival dinner. The waiter puts down the bill folder and, for the first time, the father's hand doesn't move to grab it. The son pays. The post explains that giving up the bill is how the father hands over his role as provider without saying so, and that the handover keeps going after.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "In Indian families, a father paying the restaurant bill is how he symbolically asserts he is still the family's provider; when he stops doing this and lets his son pay instead, it marks a real transfer of the provider role to the son, after which other financial decisions (EMI, repairs, trip costs) also shift to the son, this handover going undiscussed yet fixed.",
+     "sentence": "Reaching for that bill was how he said I'm still the one who provides. Letting you take it says the job is yours now. ... He stops haggling over the EMI, the plumber, the trip home. The big calls drift to your side of the table, one by one, nobody announcing it. ... It isn't coming back.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "_skeptic": {
+   "29abee6e5823b1346e0cc31359f203adcf062385": {
+    "holds": true,
+    "broken_premise": "none — the argument contains no falsifiable factual premise about a product, price, fee, tax, contract or market; every load-bearing claim is interpretation of motive or generalization about family life, which the brief exempts",
+    "actual_mechanism": "The post makes no claim about how a restaurant bill, fee, tax or commission is set — the ₹6,240 figure is just a number, and nothing about GST, service charge or payment mechanics is asserted. Its real claims (that grabbing the bill 'means' being the provider, that letting the son pay 'transfers' that role, and that other money decisions then 'drift' to him) are a reading of motive and a generalization about everyday Indian family dynamics. None of these states something demonstrably untrue about how a price, fee, law, contract or market works, so there is no factual premise to break.",
+    "take_survives": true,
+    "sources": []
+   }
+  },
+  "_by_text": {
+   "25c8f448c4a8f7a94b88a35153ef325edf79781d": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "In Indian families, a father paying the restaurant bill is how he symbolically asserts he is still the family's provider; when he stops doing this and lets his son pay instead, it marks a real transfer of the provider role to the son, after which other financial decisions (EMI, repairs, trip costs) also shift to the son, this handover going undiscussed yet fixed.",
+      "sentence": "Reaching for that bill was how he said I'm still the one who provides. Letting you take it says the job is yours now. ... He stops haggling over the EMI, the plumber, the trip home. The big calls drift to your side of the table, one by one, nobody announcing it. ... It isn't coming back.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {},
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "none — the argument contains no falsifiable factual premise about a product, price, fee, tax, contract or market; every load-bearing claim is interpretation of motive or generalization about family life, which the brief exempts",
+     "actual_mechanism": "The post makes no claim about how a restaurant bill, fee, tax or commission is set — the ₹6,240 figure is just a number, and nothing about GST, service charge or payment mechanics is asserted. Its real claims (that grabbing the bill 'means' being the provider, that letting the son pay 'transfers' that role, and that other money decisions then 'drift' to him) are a reading of motive and a generalization about everyday Indian family dynamics. None of these states something demonstrably untrue about how a price, fee, law, contract or market works, so there is no factual premise to break.",
+     "take_survives": true,
+     "sources": []
+    },
+    "text_hash": "25c8f448c4a8f7a94b88a35153ef325edf79781d",
+    "at": "2026-11-03T12:35:50.772200+00:00"
+   }
+  }
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "In Indian families, a father paying the restaurant bill is how he symbolically asserts he is still the family's provider; when he stops doing this and lets his son pay instead, it marks a real transfer of the provider role to the son, after which other financial decisions (EMI, repairs, trip costs) also shift to the son, this handover going undiscussed yet fixed.",
+    "sentence": "Reaching for that bill was how he said I'm still the one who provides. Letting you take it says the job is yours now. ... He stops haggling over the EMI, the plumber, the trip home. The big calls drift to your side of the table, one by one, nobody announcing it. ... It isn't coming back.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {},
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "none — the argument contains no falsifiable factual premise about a product, price, fee, tax, contract or market; every load-bearing claim is interpretation of motive or generalization about family life, which the brief exempts",
+   "actual_mechanism": "The post makes no claim about how a restaurant bill, fee, tax or commission is set — the ₹6,240 figure is just a number, and nothing about GST, service charge or payment mechanics is asserted. Its real claims (that grabbing the bill 'means' being the provider, that letting the son pay 'transfers' that role, and that other money decisions then 'drift' to him) are a reading of motive and a generalization about everyday Indian family dynamics. None of these states something demonstrably untrue about how a price, fee, law, contract or market works, so there is no factual premise to break.",
+   "take_survives": true,
+   "sources": []
+  },
+  "text_hash": "25c8f448c4a8f7a94b88a35153ef325edf79781d",
+  "at": "2026-11-03T12:35:50.772200+00:00"
+ },
+ "owner_ok": true
 }
