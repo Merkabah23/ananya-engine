@@ -24,7 +24,7 @@ COUNT = (88, 93, 90)
 TEAL = (15, 118, 110)
 TEAL_TINT = (226, 241, 238)
 WHITE = (255, 255, 255)
-ON_TEAL = (220, 236, 233)
+ON_TEAL = (240, 248, 246)   # 5.2:1 on teal: small text on the end card stays above WCAG AA
 FONTS = config.ASSETS / "fonts"
 BODY_SIZES = [56, 52]   # never shrink a dense slide into small print: split it instead (split_for_fit)
 SWIPE = "swipe to read"
@@ -88,7 +88,7 @@ def _header(img: Image.Image, d: ImageDraw.ImageDraw, large: bool = False, on_te
     x = MARGIN + size + 22
     d.text((x, y + (12 if large else 6)), config.DISPLAY_NAME, font=_font("Bold", 40 if large else 34),
            fill=WHITE if on_teal else INK)
-    d.text((x, y + (58 if large else 44)), "@" + config.IG_HANDLE, font=_font("Regular", 30 if large else 26),
+    d.text((x, y + (58 if large else 44)), "@" + config.IG_HANDLE, font=_font("Regular", 30 if large else 30),
            fill=ON_TEAL if on_teal else SUB)
     tw, th = (150, 58) if large else (116, 44)
     _tag(d, W - MARGIN - tw, y + (20 if large else 8), tw, th, on_teal)
@@ -109,15 +109,28 @@ def _tokens(text: str) -> list[tuple[str, str]]:
     for line_no, line in enumerate(text.split("\n")):
         if line_no:
             out.append(("\n", "regular"))
+        lead_on = False
         for b, chunk in enumerate(line.split("**")):
             for k, part in enumerate(chunk.split("*")):
                 style = "bold" if b % 2 else ("italic" if k % 2 else "regular")
-                out += [(w, style) for w in part.split()]
+                for w in part.split():
+                    if w.startswith("\x01"):
+                        lead_on = True; w = w[1:]
+                    closes = w.endswith("\x01")
+                    w = w.rstrip("\x01")
+                    if lead_on and style == "regular":
+                        out.append((w, "lead")); lead_on = not closes
+                        continue
+                    if out and out[-1][0] != "\n" and re.match(r"^[.,;:!?)\]'’]+$", w):
+                        out.append((w, style + "+glue"))  # drawn with no space, never wrapped onto its own line
+                    else:
+                        out.append((w, style))
     return out
 
 
 def _face(style: str, size: int) -> ImageFont.FreeTypeFont:
-    return _font({"bold": "SemiBold", "italic": "Italic"}.get(style, "Regular"), size)
+    style = style.replace("+glue", "")
+    return _font({"bold": "SemiBold", "italic": "Italic", "lead": "SemiBold"}.get(style, "Regular"), size)
 
 
 def _wrap(text: str, size: int, width: int) -> list[list[tuple[str, str]]]:
@@ -129,9 +142,10 @@ def _wrap(text: str, size: int, width: int) -> list[list[tuple[str, str]]]:
             lines.append([]); x = 0.0
             continue
         w = _face(style, size).getlength(word)
-        if lines[-1] and x + space + w > width:
+        glue = style.endswith("+glue")
+        if lines[-1] and not glue and x + space + w > width:
             lines.append([]); x = 0.0
-        x += (space if lines[-1] else 0) + w
+        x += (space if lines[-1] and not glue else 0) + w
         lines[-1].append((word, style))
     return lines
 
@@ -153,10 +167,10 @@ def _draw_lines(d: ImageDraw.ImageDraw, lines, x: int, y: int, size: int, color,
     for runs in lines:
         cx = float(x)
         for k, (word, style) in enumerate(runs):
-            if k:
+            if k and not style.endswith("+glue"):
                 cx += space
             f = _face(style, size)
-            d.text((cx, y), word, font=f, fill=bold_color if style == "bold" else color)
+            d.text((cx, y), word, font=f, fill=bold_color if style.startswith("bold") else color)
             cx += f.getlength(word)
         y += lh
     return y
@@ -191,6 +205,10 @@ def render_cover(cover: dict, n: int) -> Image.Image:
                 lines.append(cur); cur = []
             cur.append(w)
         lines.append(cur)
+        if len(lines) >= 2 and len(lines[-1]) == 1 and len(lines[-2]) >= 2:  # a lone last word: carry one more down
+            moved = lines[-2][-1:] + lines[-1]
+            if f.getlength(" ".join(moved).replace("[", "").replace("]", "")) <= safe:
+                lines[-2], lines[-1] = lines[-2][:-1], moved
         if len(lines) <= 4 and all(f.getlength(" ".join(l).replace("[", "").replace("]", "")) <= safe for l in lines):
             break
     sub_lines = _plain_lines(cover.get("sub", ""), _font("Medium", 46), safe)
@@ -237,7 +255,13 @@ def render_slide(paragraphs: list[str], i: int = 1, n: int = 1, big: dict | None
     img = Image.new("RGB", (W, H), PAPER)
     d = ImageDraw.Draw(img)
     _header(img, d)
-    y = BODY_TOP
+    if not big and len(paragraphs) == 1 and paragraphs[0].strip().startswith("**") and paragraphs[0].strip().endswith("**"):
+        _statement(d, paragraphs[0].strip().strip("*"))
+        _count(d, i, n)
+        return img
+    paragraphs = _lead(paragraphs)
+    block = _body_height(paragraphs, size)
+    y = BODY_TOP if big else max(BODY_TOP, BODY_TOP + (room - block) // 2 - 40)  # optical centre, a little high
     for p in paragraphs:
         y = _draw_lines(d, _wrap(p, size, W - 2 * MARGIN), MARGIN, y, size, INK, TEAL) + int(size * 1.44 * 0.6)
     if big and big.get("figure"):
@@ -250,6 +274,31 @@ def render_slide(paragraphs: list[str], i: int = 1, n: int = 1, big: dict | None
     return img
 
 
+def _lead(paragraphs: list[str]) -> list[str]:
+    """The slide's first sentence, when short and plain, is set in semibold: the line the eye lands on first."""
+    if not paragraphs or "*" in paragraphs[0]:
+        return paragraphs
+    first, *rest = re.split(r"(?<=[.!?])\s+", paragraphs[0].strip(), maxsplit=1)
+    if len(first.split()) > 12 or len(paragraphs[0].split()) < 4:
+        return paragraphs
+    words = first.split()
+    lead = "\x01" + " ".join(words) + "\x01" if len(words) > 1 else "\x01" + words[0] + "\x01"
+    return [" ".join([lead] + rest)] + paragraphs[1:]
+
+
+def _statement(d: ImageDraw.ImageDraw, text: str) -> None:
+    """One line, large, teal, in the middle of the slide: the payoff on its own, made to be screenshotted and sent."""
+    for size in range(84, 54, -4):
+        lines = _plain_lines(text, _font("Bold", size), W - 2 * SAFE)
+        lh = int(size * 1.22)
+        if len(lines) * lh <= 640:
+            break
+    y = (H - len(lines) * lh) // 2 - 20
+    for line in lines:
+        d.text((SAFE, y), line, font=_font("Bold", size), fill=TEAL)
+        y += lh
+
+
 def render_end(end: dict, n: int) -> Image.Image:
     """The end card: the page's promise, one ask (save, with a reason), who to send it to, and the posting days."""
     img = Image.new("RGB", (W, H), TEAL)
@@ -260,20 +309,22 @@ def render_end(end: dict, n: int) -> Image.Image:
         d.text((MARGIN, y), line, font=_font("Bold", 84), fill=WHITE)
         y += 98
     y += 70
-    save = (end.get("save") or "").replace(" Nov", " Nov")
-    if save:
-        lines = _plain_lines(save, _font("Medium", 40), W - 2 * MARGIN - 88)  # the box grows; a save line is never cut
-        box = 142 + 54 * len(lines)
+    send = re.sub(r"^(Send (this )?to )", "", (end.get("send") or "").strip(), flags=re.I)
+    if send:
+        lines = _plain_lines(send[:1].upper() + send[1:], _font("SemiBold", 48), W - 2 * MARGIN - 88)  # the box grows
+        box = 150 + 64 * len(lines)
         d.rounded_rectangle((MARGIN, y, W - MARGIN, y + box), radius=28, fill=WHITE)
-        d.text((MARGIN + 44, y + 42), "Save this", font=_font("Bold", 56), fill=TEAL)
-        yy = y + 120
+        d.text((MARGIN + 44, y + 42), "Send this to", font=_font("Bold", 56), fill=TEAL)
+        yy = y + 124
         for line in lines:
-            d.text((MARGIN + 44, yy), line.replace("\u00a0", " "), font=_font("Medium", 40), fill=INK)
-            yy += 54
-        y += box + 70
-    for runs in _wrap(end.get("send", ""), 38, W - 2 * MARGIN)[:3]:
-        d.text((MARGIN, y), " ".join(w for w, _ in runs), font=_font("Regular", 38), fill=(230, 244, 241))
-        y += 52
+            d.text((MARGIN + 44, yy), line, font=_font("SemiBold", 48), fill=INK)
+            yy += 64
+        y += box + 60
+    save = (end.get("save") or "").strip()
+    if save:
+        for line in _plain_lines("Save it: " + save[:1].lower() + save[1:], _font("Medium", 38), W - 2 * MARGIN)[:3]:
+            d.text((MARGIN, y), line, font=_font("Medium", 38), fill=WHITE)
+            y += 52
     if config.END_FOLLOW_LINE:
         d.text((MARGIN, H - 64), config.END_FOLLOW_LINE, font=_font("Medium", 32), fill=ON_TEAL, anchor="ls")
     _count(d, n, n, on_teal=True)
@@ -328,6 +379,37 @@ def cover_for(draft: dict) -> dict:
     return cover
 
 
+DENSE_WORDS = 40   # above this a reading slide is split at a paragraph break, when it has one
+
+
+def _words(paragraphs: list[str]) -> int:
+    return len(" ".join(_clean(paragraphs)).replace("*", "").split())
+
+
+def shape(slides: list[dict], room: int) -> list[dict]:
+    """Give the bold payoff line its own slide, and split dense slides at a paragraph break, while slides remain."""
+    out: list[dict] = []
+    for k, s in enumerate(slides):
+        paras = _clean(s["paragraphs"])
+        left = room - len(out) - (len(slides) - k)  # slides still free under the cap
+        last = paras[-1].strip() if paras else ""
+        if left > 0 and len(paras) >= 2 and not s.get("big") and last.startswith("**") and last.endswith("**") \
+                and len(last.split()) >= 5 and _words(paras[:-1]) >= 10:
+            out += [{**s, "paragraphs": paras[:-1]}, {"paragraphs": [last]}]
+            continue
+        if left > 0 and len(paras) >= 2 and not s.get("big") and _words(paras) > DENSE_WORDS:
+            best = min(range(1, len(paras)), key=lambda c: abs(_words(paras[:c]) - _words(paras[c:])))
+            if min(_words(paras[:best]), _words(paras[best:])) >= 10:
+                out += [{"paragraphs": paras[:best]}, {**s, "paragraphs": paras[best:]}]
+                continue
+        out.append(s)
+    return out
+
+
+def _alt(paragraphs: list[str]) -> str:
+    return " ".join(_clean(paragraphs)).replace("**", "").replace("*", "").replace("\u00a0", " ")[:1000]
+
+
 def render_post(post: dict) -> list[Path]:
     draft = post["draft"]
     outdir = config.OUT / post["id"]
@@ -335,8 +417,13 @@ def render_post(post: dict) -> list[Path]:
     if post.get("format") == "single" or len(draft["slides"]) == 1:
         images = [render_slide(draft["slides"][0]["paragraphs"])]
     else:
-        body = split_for_fit([s for s in draft["slides"][1:]])
         end = bool(config.END_CARD)
+        body = split_for_fit(shape([s for s in draft["slides"][1:]], config.BUFFER_MAX_IMAGES - 1 - end))
+        cover = cover_for(draft)
+        post["alt_texts"] = ([re.sub(r"[\[\]]", "", cover.get("headline", "")) + ". " + cover.get("sub", "")]
+                             + [_alt(s["paragraphs"]) for s in body]
+                             + (["Send this to " + re.sub(r"^(Send (this )?to )", "", (draft.get("end") or {}).get("send", ""), flags=re.I)
+                                 + " " + (draft.get("end") or {}).get("save", "")] if end else []))
         n = 1 + len(body) + end
         if n > config.BUFFER_MAX_IMAGES:
             raise Overflow(f"{n} slides after splitting; Buffer allows {config.BUFFER_MAX_IMAGES}")

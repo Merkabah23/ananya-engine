@@ -83,6 +83,7 @@ def caption_with_tags(draft: dict) -> str:
 def build_input(post: dict, image_urls: list[str]) -> dict:
     due = datetime.fromisoformat(post["due"]).astimezone(timezone.utc)
     alt = post["draft"].get("alt_text") or f"A text post by {config.DISPLAY_NAME}"
+    alts = post.get("alt_texts") or []
     return {
         "channelId": channel_id(),
         "text": caption_with_tags(post["draft"]),
@@ -90,7 +91,8 @@ def build_input(post: dict, image_urls: list[str]) -> dict:
         "mode": "customScheduled",
         "dueAt": due.strftime("%Y-%m-%dT%H:%M:%S.000Z"),
         "needsApproval": config.BUFFER_NEEDS_APPROVAL,
-        "assets": [{"image": {"url": u, "metadata": {"altText": alt[:1000]}}} for u in image_urls[:config.BUFFER_MAX_IMAGES]],
+        "assets": [{"image": {"url": u, "metadata": {"altText": (alts[k] if k < len(alts) and alts[k] else alt)[:1000]}}}
+                   for k, u in enumerate(image_urls[:config.BUFFER_MAX_IMAGES])],  # each slide carries its own words
         "metadata": {"instagram": {"type": "post", "shouldShareToFeed": True,
                                    "isAiGenerated": config.IS_AI_GENERATED_FLAG}},
     }
