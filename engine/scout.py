@@ -12,7 +12,7 @@ from . import config, corpus, llm, state
 from .reddit import Blocked, Reddit
 
 BATCH = 20             # threads per scout call
-COMMENT_THREADS = 40   # comments are fetched for this many of the most promising threads
+COMMENT_THREADS = 12   # comments are fetched for this many of the most promising threads (each costs a 30s gap)
 MIN_THREADS = 30       # below this, also use the web-search fallback
 
 

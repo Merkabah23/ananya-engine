@@ -1,20 +1,46 @@
 {
  "_note": "Discussion subreddits, used only as evidence and texture for topics found in the culture scan. Advice subreddits (personal finance, arranged marriage, workplace) were dropped: they surface individual dilemmas, not cultural patterns.",
  "subreddits": [
-  {"name": "india", "territory_hint": "any"},
-  {"name": "AskIndia", "territory_hint": "any"},
-  {"name": "indiasocial", "territory_hint": "any"},
-  {"name": "TwoXIndia", "territory_hint": "life_relationships"},
-  {"name": "bangalore", "territory_hint": "life_relationships"},
-  {"name": "mumbai", "territory_hint": "life_relationships"},
-  {"name": "delhi", "territory_hint": "life_relationships"},
-  {"name": "pune", "territory_hint": "life_relationships"},
-  {"name": "hyderabad", "territory_hint": "life_relationships"},
-  {"name": "Chennai", "territory_hint": "life_relationships"},
-  {"name": "kolkata", "territory_hint": "life_relationships"},
-  {"name": "bollywood", "territory_hint": "pop_culture"},
-  {"name": "IndiaTech", "territory_hint": "creators_internet"},
-  {"name": "StartUpIndia", "territory_hint": "business_brands"}
+  {
+   "name": "india",
+   "territory_hint": "any"
+  },
+  {
+   "name": "AskIndia",
+   "territory_hint": "any"
+  },
+  {
+   "name": "indiasocial",
+   "territory_hint": "any"
+  },
+  {
+   "name": "TwoXIndia",
+   "territory_hint": "life_relationships"
+  },
+  {
+   "name": "bangalore",
+   "territory_hint": "life_relationships"
+  },
+  {
+   "name": "mumbai",
+   "territory_hint": "life_relationships"
+  },
+  {
+   "name": "delhi",
+   "territory_hint": "life_relationships"
+  },
+  {
+   "name": "bollywood",
+   "territory_hint": "pop_culture"
+  },
+  {
+   "name": "IndiaTech",
+   "territory_hint": "creators_internet"
+  },
+  {
+   "name": "StartUpIndia",
+   "territory_hint": "business_brands"
+  }
  ],
  "per_subreddit": 25,
  "comments_per_thread": 12
