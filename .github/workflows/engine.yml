@@ -84,5 +84,10 @@ jobs:
           git config user.email "engine@users.noreply.github.com"
           git add state/
           git diff --cached --quiet || git commit -m "state: ${{ steps.cmd.outputs.c }} $(date -u +%F)"
-          git pull --rebase origin main   # a push that landed mid-run must not make this run's state get lost
-          git push
+          # A push that landed mid-run must not make this run's state get lost: on a clash in state/, this run's copy wins.
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push && exit 0
+            git rebase --abort 2>/dev/null || true
+            sleep 10
+          done
+          exit 1
