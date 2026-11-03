@@ -1,7 +1,7 @@
 {
  "id": "2026-11-103",
- "status": "planned",
- "due": "2026-11-29T20:30:00+05:30",
+ "status": "written",
+ "due": "2026-11-09T20:30:00+05:30",
  "format": "carousel",
  "topic": {
   "title": "We read the EMI, not the loan",
@@ -43,6 +43,731 @@
   "villain": "a loan-tenure structure that hides the total interest behind a low EMI",
   "story_type": "teaching"
  },
- "history": [],
- "updated_at": "2026-11-03T09:03:57.910502+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "problems": [
+    "The cover needs a headline of 6-12 words (cover.headline), with the key phrase in [brackets]."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 5,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "Slide 1 promises 'haggle over small change, then sign away lakhs' but the carousel never shows the small-change haggling side of that contrast - it jumps straight to the loan desk. Add a beat (even one line) showing the reader nitpicking something small elsewhere so the headline's irony actually pays off by slide 6.",
+     "Slide 5: 'Nobody at the table adds up what the comfort costs across all those years. The monthly figure is the only one they show you.' This restates slide 4's 'the total you'll actually pay back is on no screen at all' in new words. Keep the concession ('And it does help...') but cut the repeated reveal line.",
+     "iq is borderline - 'longer tenure means more total interest' is common financial knowledge, so the insight lands softer than it could. Sharpen slide 4's 'those extra years are where they earn' to tie back to the opening irony (fighting over small money while missing the big number) for a sharper turn.",
+     "Slide 6's payoff ('ask for one number... Read it out loud at the table') leans close to an instruction/checkout-rule. It's allowed as a test, but consider phrasing it as something the reader does in the moment rather than a directive, so it stings rather than lectures."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Old news framed as new: 'At the loan desk, the monthly EMI figure is displayed but the total amount that will be repaid over the full loan tenure is not shown.' (first reported 2024-10-01). Frame it as past, or drop it. What's true: Since 1 October 2024, RBI's Key Facts Statement (KFS) mandate requires all regulated lenders to disclose the 'Total Interest Amount' and the 'Total amount to be paid by the borrower' (sanctioned amount + total interest) over the full tenor, plus an amortisation schedule, before the loan agreement is signed — for all new retail (including home) and MSME term loans. The claim that total repayment is not shown was true before this rule but is no longer generally true.."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Extending a home loan's repayment tenure lowers the monthly EMI, but a longer tenure means more total interest is paid over the life of the loan, so stretching tenure to shrink the EMI increases the total amount repaid and the extra years are where the bank earns more interest.",
+      "sentence": "More years means more interest, and those extra years are where they earn.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "A home loan's tenure can be stretched to twenty-five years as a way to lower the EMI.",
+      "sentence": "'Stretch it to twenty-five years.'",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "At the loan desk, the monthly EMI figure is displayed but the total amount that will be repaid over the full loan tenure is not shown.",
+      "sentence": "The smaller EMI sits right there on the screen. The total you'll actually pay back is on no screen at all.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": null,
+      "sources": [
+       {
+        "url": "https://homeloans.hdfc.bank.in/housing-loans/home-loans/45-lakh-home-loan-emi",
+        "publisher": "HDFC Bank (homeloans.hdfc.bank.in)",
+        "published_date": null,
+        "quote": "25 years is the maximum Home Loan tenure you can choose at HDFC Bank... For a ₹45 Lakh loan at 8% interest: 20 years: ₹36,943 EMI; 25 years: ₹33,990 EMI",
+        "tier": 1
+       },
+       {
+        "url": "https://www.businesstoday.in/personal-finance/story/rbi-repo-rate-hike-higher-emi-or-longer-tenure-which-is-cheaper-for-home-loan-borrowers-560059-2026-10-07",
+        "publisher": "Business Today",
+        "published_date": "2026-10-07",
+        "quote": "Borrowers have a choice: absorb interest rate increases through a higher EMI or keep the EMI unchanged and extend the loan tenure... For a ₹40 lakh home loan at 7.5% for 25 years, the EMI is about ₹29,559",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "outdated",
+      "event_date": "2024-10-01",
+      "correct": "Since 1 October 2024, RBI's Key Facts Statement (KFS) mandate requires all regulated lenders to disclose the 'Total Interest Amount' and the 'Total amount to be paid by the borrower' (sanctioned amount + total interest) over the full tenor, plus an amortisation schedule, before the loan agreement is signed — for all new retail (including home) and MSME term loans. The claim that total repayment is not shown was true before this rule but is no longer generally true.",
+      "sources": [
+       {
+        "url": "https://taxguru.in/rbi/rbi-guidelines-key-facts-statement-loans-advances.html",
+        "publisher": "TaxGuru (summarising RBI notification RBI/2024-25/18 dated 15 April 2024)",
+        "published_date": "2024-04-15",
+        "quote": "Total Interest Amount: total Interest Amount to be charged during the entire tenor of the loan... Total amount to be paid by borrower: Illustrated as sum of loan amount plus total interest... applicable to 'all retail and MSME term loan products'... Implementation deadline: October 1, 2024, for all new sanctioned loans.",
+        "tier": 3
+       },
+       {
+        "url": "https://www.enkash.com/resources/blog/rbi-introduces-key-fact-statements-for-clearer-loan-terms-for-borrowers",
+        "publisher": "EnKash",
+        "published_date": null,
+        "quote": "mandatory for all new retail and MSME term loans sanctioned on or after October 1, 2024... The Key Fact Statement includes the Total Interest Amount to be charged during the entire tenor of the loan",
+        "tier": 3
+       },
+       {
+        "url": "https://www.business-standard.com/finance/news/banks-can-t-charge-additional-beyond-key-facts-statement-says-rbi-124041500993_1.html",
+        "publisher": "Business Standard",
+        "published_date": "2024-04-15",
+        "quote": "Banks can't charge additional [amounts] beyond Key Facts Statement, says RBI",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "",
+     "actual_mechanism": "A home-loan EMI is a fixed amortizing payment covering interest on the outstanding balance plus principal. At a given rate, lengthening the tenure shrinks the share of each EMI that pays down principal, so the balance falls more slowly and interest accrues on a larger balance for more months. The monthly figure drops, but the sum of all EMIs (principal + total interest) rises — e.g. ₹40L at 8.5% over 20 years repays ~₹83L, ~₹43L of it interest, and stretching to 25 years lowers the EMI while pushing total interest higher.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://emicalculator.net/how-do-loan-tenure-and-interest-rate-affect-the-pace-of-home-loan-repayment/",
+       "published_date": "",
+       "quote": "When the tenure is longer, an even bigger portion of the EMI goes towards interest payment and less towards principal payment."
+      },
+      {
+       "url": "https://www.tribuneindia.com/news/business/home-loan-tenure-selection-impact-on-emi-and-total-interest-payment/",
+       "published_date": "",
+       "quote": "A longer tenure reduces monthly EMI, [but] it increases the overall interest payment."
+      }
+     ]
+    },
+    "text_hash": "c809b440ef5c18ee20e3ae9921503abc116ef3a2",
+    "at": "2026-11-03T10:38:58.053892+00:00"
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Old news framed as new: 'At the loan desk, the monthly EMI figure is displayed but the total amount that will be repaid over the full loan tenure is not shown.' (first reported 2024-10-01). Frame it as past, or drop it. What's true: Since 1 October 2024, RBI's Key Facts Statement (KFS) mandate requires all regulated lenders to disclose the 'Total Interest Amount' and the 'Total amount to be paid by the borrower' (sanctioned amount + total interest) over the full tenor, plus an amortisation schedule, before the loan agreement is signed — for all new retail (including home) and MSME term loans. The claim that total repayment is not shown was true before this rule but is no longer generally true.."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Hard failure 4 (invented/unsourced product detail): sources = [] and topic proof/real_details are null, yet the post names a specific real document twice — slide 4: 'the total you'll actually pay back is sitting in the Key Facts sheet, in a row that goes unread at the table' and slide 6: 'find one row on that Key Facts sheet: the full amount you'll have paid by the last EMI.' This is a named, specific financial document, not generic texture, and it isn't backed by any source given to the writer.",
+     "Hard failure 5 (dead slide): slide 5 restates slide 4's point in new words instead of advancing it. Slide 4: 'The smaller EMI is the number everyone says out loud. The total you'll actually pay back is sitting in the Key Facts sheet... unread.' Slide 5: 'The low EMI gets said out loud; the big total just sits on the paper.' Same contrast, same idea, no new beat."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 3,
+     "eq": 4,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "Slide 4 & 6: drop or replace 'Key Facts sheet' — it's a specific named document with no source backing it. Either genericize to something like 'the paper in front of you' / 'the line they never read out loud', or confirm this is allowed before it stays.",
+     "Slide 5: it only repeats slide 4's 'said out loud vs. sits on paper' contrast. Rewrite it to do real work — e.g. show the couple justifying it to each other ('we'll prepay later', 'property value will cover it') so the concession ('it does help') earns its place instead of just restating the hook.",
+     "Fresh_angle is thin: 'longer tenure = more interest' is something most readers already half-know. Sharpen the turn — spell out *why* the room goes along with it (the bank frames it as help, the couple reads relief as good news) so the reveal is the social dynamic, not just the math.",
+     "Slide 6 reads as an instruction ('find one row... read it out loud') rather than a test tied to the scene. Anchor the payoff back to the physical scene from slide 2 (the pen, the chest) so it closes the loop instead of giving generic advice.",
+     "Voice note: the mirrored 'X is said out loud, Y sits unread/on paper' construction appears twice (slides 4 and 5) — even once this is close to the engineered-pairs pattern the account avoids. Keep it in one slide only, phrased plainly."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Hard failure 4 (invented/unsourced product detail): sources = [] and topic proof/real_details are null, yet the post names a specific real document twice — slide 4: 'the total you'll actually pay back is sitting in the Key Facts sheet, in a row that goes unread at the table' and slide 6: 'find one row on that Key Facts sheet: the full amount you'll have paid by the last EMI.' This is a named, specific financial document, not generic texture, and it isn't backed by any source given to the writer.",
+    "Hard failure 5 (dead slide): slide 5 restates slide 4's point in new words instead of advancing it. Slide 4: 'The smaller EMI is the number everyone says out loud. The total you'll actually pay back is sitting in the Key Facts sheet... unread.' Slide 5: 'The low EMI gets said out loud; the big total just sits on the paper.' Same contrast, same idea, no new beat.",
+    "Slide 4 & 6: drop or replace 'Key Facts sheet' — it's a specific named document with no source backing it. Either genericize to something like 'the paper in front of you' / 'the line they never read out loud', or confirm this is allowed before it stays.",
+    "Slide 5: it only repeats slide 4's 'said out loud vs. sits on paper' contrast. Rewrite it to do real work — e.g. show the couple justifying it to each other ('we'll prepay later', 'property value will cover it') so the concession ('it does help') earns its place instead of just restating the hook.",
+    "Fresh_angle is thin: 'longer tenure = more interest' is something most readers already half-know. Sharpen the turn — spell out *why* the room goes along with it (the bank frames it as help, the couple reads relief as good news) so the reveal is the social dynamic, not just the math.",
+    "Slide 6 reads as an instruction ('find one row... read it out loud') rather than a test tied to the scene. Anchor the payoff back to the physical scene from slide 2 (the pen, the chest) so it closes the loop instead of giving generic advice.",
+    "Voice note: the mirrored 'X is said out loud, Y sits unread/on paper' construction appears twice (slides 4 and 5) — even once this is close to the engineered-pairs pattern the account avoids. Keep it in one slide only, phrased plainly."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 5,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "slide 6: the closer ('The weight you felt first was the honest number. The relief was sold to you.') echoes the same contrast shape as slide 4's build ('Those extra years aren't a kindness. They're where the bank earns.'). Give the final line a different angle on the idea — what the trapped total actually costs them later (resale, how little principal moves in the early years) — so it lands as a new thought, not a repeat of slide 4's turn.",
+     "fresh_angle/iq: 'lower EMI hides a bigger total' is accurate but familiar financial-literacy ground. Push the because one notch further — say something about why the bank frames the stretch as a favour in the moment (it works because relief is felt now and the total is never shown on one screen) so the reader walks away with a sharper, more specific catch than just 'ask the total.'",
+     "caption: the question ('did you ask for the total you'd pay... or only the monthly figure') is a bit flat and close to restating slide 6 outright. Sharpen it to pull a more specific memory, e.g. asking what number they actually felt in the room."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "verification": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "A home loan's tenure can be stretched to twenty-five years as a way to lower the EMI.",
+      "sentence": "'Stretch it to twenty-five years.'",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Stretching a home loan's tenure lowers the monthly EMI but increases the total amount repaid, because the extra years add more cumulative interest, and that added interest is what the bank earns.",
+      "sentence": "The monthly figure gets smaller. The total you pay back gets bigger, because every extra year adds more interest. Those extra years aren't a kindness. They're where the bank earns.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": null,
+      "sources": [
+       {
+        "url": "https://homeloans.hdfc.bank.in/housing-loans/home-loans/45-lakh-home-loan-emi",
+        "publisher": "HDFC Bank (homeloans.hdfc.bank.in)",
+        "published_date": null,
+        "quote": "25 years is the maximum Home Loan tenure you can choose at HDFC Bank... For a ₹45 Lakh loan at 8% interest: 20 years: ₹36,943 EMI; 25 years: ₹33,990 EMI",
+        "tier": 1
+       },
+       {
+        "url": "https://www.businesstoday.in/personal-finance/story/rbi-repo-rate-hike-higher-emi-or-longer-tenure-which-is-cheaper-for-home-loan-borrowers-560059-2026-10-07",
+        "publisher": "Business Today",
+        "published_date": "2026-10-07",
+        "quote": "Borrowers have a choice: absorb interest rate increases through a higher EMI or keep the EMI unchanged and extend the loan tenure... For a ₹40 lakh home loan at 7.5% for 25 years, the EMI is about ₹29,559",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "none",
+     "actual_mechanism": "A home loan amortizes: each EMI covers the month's interest on the outstanding balance plus some principal. Lengthening the tenure shrinks the principal portion per installment, so the balance falls more slowly and accrues interest over more months — the EMI drops but total interest rises. That interest is precisely the lender's income on the loan, so the extra years do add to what the bank earns. Concrete check at ~8.5% on ₹50 lakh: ~20-year total interest ≈ ₹54 lakh vs ~25-year ≈ ₹71 lakh, a ~₹17 lakh increase for a monthly saving of only ~₹2,500.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://emicalculator.net/how-do-loan-tenure-and-interest-rate-affect-the-pace-of-home-loan-repayment/",
+       "published_date": "",
+       "quote": "If the tenure is longer, an even bigger portion of the EMI goes towards interest payment and less towards principal payment. Hence, the principal goes down slowly."
+      },
+      {
+       "url": "https://www.business-standard.com/amp/article/free-newsletter/a-snapshot-of-home-loan-rates-offered-by-various-banks-and-other-charges-118112201132_1.html",
+       "published_date": "2018-11-22",
+       "quote": "Longer home loan tenure reduces EMI but increases interest cost."
+      },
+      {
+       "url": "https://paisa24.in/loans/emi-for-50-lakh-home-loan/",
+       "published_date": "2026-01-01",
+       "quote": "For a ₹50 Lakh loan at 8.50%: 20 Years costs ₹54.14 Lakh in total interest, while 25 Years costs ₹70.78 Lakh."
+      }
+     ]
+    },
+    "text_hash": "50bc7a21fc1dc21b1f3a086358435adb73deb4f3",
+    "at": "2026-11-03T10:44:17.210022+00:00"
+   }
+  }
+ ],
+ "updated_at": "2026-11-03T10:44:17.211996+00:00",
+ "sources": [],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] You'll haggle over small change, then sign away [lakhs for a lower EMI]\nThe bank stretches the tenure like it's doing you a favour.\n \n\n[slide 1] You'll haggle over small change, then sign away lakhs for a lower EMI.\nSwipe to read →\n\n[slide 2] You're at the loan desk, both your names on the same form. A pen that isn't yours, cold in your hand.\nThe EMI they first quote lands like a weight on your chest.\n\n[slide 3] You go quiet. They see it. 'We can bring this down,' they say. 'Stretch it to twenty-five years.'\nThe number drops. Your shoulders drop with it. Everyone at the table breathes out.\n\n[slide 4] They offered it like a favour, and relief feels like good news. So nobody runs the other sum.\nThe monthly figure gets smaller. The total you pay back gets bigger, because every extra year adds more interest.\nThose extra years aren't a kindness. They're where the bank earns.\n\n[slide 5] And a lower EMI does help. It fits the salary, leaves room for groceries and the metro card. That part is real.\nSo you tell each other the rest will sort itself out. 'We'll prepay once the raises come.' 'The flat's value will cover it anyway.'\nMost of that never happens.\n\n[slide 6] Before you nod, ask for one number out loud: the full amount you'll have paid by the last EMI.\nThat's the figure that should land on your chest, not the monthly one.\nThe weight you felt first was the honest number. The relief was sold to you.\n\n[end card] Open this again the evening before you meet the loan officer.\nSend to the couple who just shortlisted their first flat and keep repeating the EMI like it's the whole price.\n\n[caption] If you've sat at that loan desk, did you ask for the total you'd pay over the whole loan, or only the monthly figure?\n\n[alt text] A six-slide carousel about first-time home buyers at a bank loan desk. The bank offers to lower the monthly EMI by stretching the loan to twenty-five years, which quietly adds far more total interest. Buyers feel the monthly EMI but never see the total they will repay, and justify the long tenure by telling each other they will prepay later. The post tells readers to ask for the full amount they will pay over the whole loan before signing.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "A home loan's tenure can be stretched to twenty-five years as a way to lower the EMI.",
+     "sentence": "'Stretch it to twenty-five years.'",
+     "type": "figure",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "Stretching a home loan's tenure lowers the monthly EMI but increases the total amount repaid, because the extra years add more cumulative interest, and that added interest is what the bank earns.",
+     "sentence": "The monthly figure gets smaller. The total you pay back gets bigger, because every extra year adds more interest. Those extra years aren't a kindness. They're where the bank earns.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "A home loan's tenure can be stretched to twenty-five years as a way to lower the EMI.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://homeloans.hdfc.bank.in/housing-loans/home-loans/45-lakh-home-loan-emi",
+     "publisher": "HDFC Bank (homeloans.hdfc.bank.in)",
+     "published_date": null,
+     "quote": "25 years is the maximum Home Loan tenure you can choose at HDFC Bank... For a ₹45 Lakh loan at 8% interest: 20 years: ₹36,943 EMI; 25 years: ₹33,990 EMI",
+     "tier": 1
+    },
+    {
+     "url": "https://www.businesstoday.in/personal-finance/story/rbi-repo-rate-hike-higher-emi-or-longer-tenure-which-is-cheaper-for-home-loan-borrowers-560059-2026-10-07",
+     "publisher": "Business Today",
+     "published_date": "2026-10-07",
+     "quote": "Borrowers have a choice: absorb interest rate increases through a higher EMI or keep the EMI unchanged and extend the loan tenure... For a ₹40 lakh home loan at 7.5% for 25 years, the EMI is about ₹29,559",
+     "tier": 2
+    }
+   ]
+  },
+  "At the loan desk, the monthly EMI figure is displayed but the total amount that will be repaid over the full loan tenure is not shown.": {
+   "id": "c3",
+   "verdict": "outdated",
+   "event_date": "2024-10-01",
+   "correct": "Since 1 October 2024, RBI's Key Facts Statement (KFS) mandate requires all regulated lenders to disclose the 'Total Interest Amount' and the 'Total amount to be paid by the borrower' (sanctioned amount + total interest) over the full tenor, plus an amortisation schedule, before the loan agreement is signed — for all new retail (including home) and MSME term loans. The claim that total repayment is not shown was true before this rule but is no longer generally true.",
+   "sources": [
+    {
+     "url": "https://taxguru.in/rbi/rbi-guidelines-key-facts-statement-loans-advances.html",
+     "publisher": "TaxGuru (summarising RBI notification RBI/2024-25/18 dated 15 April 2024)",
+     "published_date": "2024-04-15",
+     "quote": "Total Interest Amount: total Interest Amount to be charged during the entire tenor of the loan... Total amount to be paid by borrower: Illustrated as sum of loan amount plus total interest... applicable to 'all retail and MSME term loan products'... Implementation deadline: October 1, 2024, for all new sanctioned loans.",
+     "tier": 3
+    },
+    {
+     "url": "https://www.enkash.com/resources/blog/rbi-introduces-key-fact-statements-for-clearer-loan-terms-for-borrowers",
+     "publisher": "EnKash",
+     "published_date": null,
+     "quote": "mandatory for all new retail and MSME term loans sanctioned on or after October 1, 2024... The Key Fact Statement includes the Total Interest Amount to be charged during the entire tenor of the loan",
+     "tier": 3
+    },
+    {
+     "url": "https://www.business-standard.com/finance/news/banks-can-t-charge-additional-beyond-key-facts-statement-says-rbi-124041500993_1.html",
+     "publisher": "Business Standard",
+     "published_date": "2024-04-15",
+     "quote": "Banks can't charge additional [amounts] beyond Key Facts Statement, says RBI",
+     "tier": 2
+    }
+   ]
+  },
+  "_skeptic": {
+   "b167ee6f95bcbde1962fe204d8aa877385725af4": {
+    "holds": true,
+    "broken_premise": "",
+    "actual_mechanism": "A home-loan EMI is a fixed amortizing payment covering interest on the outstanding balance plus principal. At a given rate, lengthening the tenure shrinks the share of each EMI that pays down principal, so the balance falls more slowly and interest accrues on a larger balance for more months. The monthly figure drops, but the sum of all EMIs (principal + total interest) rises — e.g. ₹40L at 8.5% over 20 years repays ~₹83L, ~₹43L of it interest, and stretching to 25 years lowers the EMI while pushing total interest higher.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://emicalculator.net/how-do-loan-tenure-and-interest-rate-affect-the-pace-of-home-loan-repayment/",
+      "published_date": "",
+      "quote": "When the tenure is longer, an even bigger portion of the EMI goes towards interest payment and less towards principal payment."
+     },
+     {
+      "url": "https://www.tribuneindia.com/news/business/home-loan-tenure-selection-impact-on-emi-and-total-interest-payment/",
+      "published_date": "",
+      "quote": "A longer tenure reduces monthly EMI, [but] it increases the overall interest payment."
+     }
+    ]
+   },
+   "b1a4408760444f88e8543c39b8cb0f0079892b8e": {
+    "holds": true,
+    "broken_premise": "none",
+    "actual_mechanism": "A home loan amortizes: each EMI covers the month's interest on the outstanding balance plus some principal. Lengthening the tenure shrinks the principal portion per installment, so the balance falls more slowly and accrues interest over more months — the EMI drops but total interest rises. That interest is precisely the lender's income on the loan, so the extra years do add to what the bank earns. Concrete check at ~8.5% on ₹50 lakh: ~20-year total interest ≈ ₹54 lakh vs ~25-year ≈ ₹71 lakh, a ~₹17 lakh increase for a monthly saving of only ~₹2,500.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://emicalculator.net/how-do-loan-tenure-and-interest-rate-affect-the-pace-of-home-loan-repayment/",
+      "published_date": "",
+      "quote": "If the tenure is longer, an even bigger portion of the EMI goes towards interest payment and less towards principal payment. Hence, the principal goes down slowly."
+     },
+     {
+      "url": "https://www.business-standard.com/amp/article/free-newsletter/a-snapshot-of-home-loan-rates-offered-by-various-banks-and-other-charges-118112201132_1.html",
+      "published_date": "2018-11-22",
+      "quote": "Longer home loan tenure reduces EMI but increases interest cost."
+     },
+     {
+      "url": "https://paisa24.in/loans/emi-for-50-lakh-home-loan/",
+      "published_date": "2026-01-01",
+      "quote": "For a ₹50 Lakh loan at 8.50%: 20 Years costs ₹54.14 Lakh in total interest, while 25 Years costs ₹70.78 Lakh."
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "c809b440ef5c18ee20e3ae9921503abc116ef3a2": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Old news framed as new: 'At the loan desk, the monthly EMI figure is displayed but the total amount that will be repaid over the full loan tenure is not shown.' (first reported 2024-10-01). Frame it as past, or drop it. What's true: Since 1 October 2024, RBI's Key Facts Statement (KFS) mandate requires all regulated lenders to disclose the 'Total Interest Amount' and the 'Total amount to be paid by the borrower' (sanctioned amount + total interest) over the full tenor, plus an amortisation schedule, before the loan agreement is signed — for all new retail (including home) and MSME term loans. The claim that total repayment is not shown was true before this rule but is no longer generally true.."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Extending a home loan's repayment tenure lowers the monthly EMI, but a longer tenure means more total interest is paid over the life of the loan, so stretching tenure to shrink the EMI increases the total amount repaid and the extra years are where the bank earns more interest.",
+      "sentence": "More years means more interest, and those extra years are where they earn.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "A home loan's tenure can be stretched to twenty-five years as a way to lower the EMI.",
+      "sentence": "'Stretch it to twenty-five years.'",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "At the loan desk, the monthly EMI figure is displayed but the total amount that will be repaid over the full loan tenure is not shown.",
+      "sentence": "The smaller EMI sits right there on the screen. The total you'll actually pay back is on no screen at all.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": null,
+      "sources": [
+       {
+        "url": "https://homeloans.hdfc.bank.in/housing-loans/home-loans/45-lakh-home-loan-emi",
+        "publisher": "HDFC Bank (homeloans.hdfc.bank.in)",
+        "published_date": null,
+        "quote": "25 years is the maximum Home Loan tenure you can choose at HDFC Bank... For a ₹45 Lakh loan at 8% interest: 20 years: ₹36,943 EMI; 25 years: ₹33,990 EMI",
+        "tier": 1
+       },
+       {
+        "url": "https://www.businesstoday.in/personal-finance/story/rbi-repo-rate-hike-higher-emi-or-longer-tenure-which-is-cheaper-for-home-loan-borrowers-560059-2026-10-07",
+        "publisher": "Business Today",
+        "published_date": "2026-10-07",
+        "quote": "Borrowers have a choice: absorb interest rate increases through a higher EMI or keep the EMI unchanged and extend the loan tenure... For a ₹40 lakh home loan at 7.5% for 25 years, the EMI is about ₹29,559",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "outdated",
+      "event_date": "2024-10-01",
+      "correct": "Since 1 October 2024, RBI's Key Facts Statement (KFS) mandate requires all regulated lenders to disclose the 'Total Interest Amount' and the 'Total amount to be paid by the borrower' (sanctioned amount + total interest) over the full tenor, plus an amortisation schedule, before the loan agreement is signed — for all new retail (including home) and MSME term loans. The claim that total repayment is not shown was true before this rule but is no longer generally true.",
+      "sources": [
+       {
+        "url": "https://taxguru.in/rbi/rbi-guidelines-key-facts-statement-loans-advances.html",
+        "publisher": "TaxGuru (summarising RBI notification RBI/2024-25/18 dated 15 April 2024)",
+        "published_date": "2024-04-15",
+        "quote": "Total Interest Amount: total Interest Amount to be charged during the entire tenor of the loan... Total amount to be paid by borrower: Illustrated as sum of loan amount plus total interest... applicable to 'all retail and MSME term loan products'... Implementation deadline: October 1, 2024, for all new sanctioned loans.",
+        "tier": 3
+       },
+       {
+        "url": "https://www.enkash.com/resources/blog/rbi-introduces-key-fact-statements-for-clearer-loan-terms-for-borrowers",
+        "publisher": "EnKash",
+        "published_date": null,
+        "quote": "mandatory for all new retail and MSME term loans sanctioned on or after October 1, 2024... The Key Fact Statement includes the Total Interest Amount to be charged during the entire tenor of the loan",
+        "tier": 3
+       },
+       {
+        "url": "https://www.business-standard.com/finance/news/banks-can-t-charge-additional-beyond-key-facts-statement-says-rbi-124041500993_1.html",
+        "publisher": "Business Standard",
+        "published_date": "2024-04-15",
+        "quote": "Banks can't charge additional [amounts] beyond Key Facts Statement, says RBI",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "",
+     "actual_mechanism": "A home-loan EMI is a fixed amortizing payment covering interest on the outstanding balance plus principal. At a given rate, lengthening the tenure shrinks the share of each EMI that pays down principal, so the balance falls more slowly and interest accrues on a larger balance for more months. The monthly figure drops, but the sum of all EMIs (principal + total interest) rises — e.g. ₹40L at 8.5% over 20 years repays ~₹83L, ~₹43L of it interest, and stretching to 25 years lowers the EMI while pushing total interest higher.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://emicalculator.net/how-do-loan-tenure-and-interest-rate-affect-the-pace-of-home-loan-repayment/",
+       "published_date": "",
+       "quote": "When the tenure is longer, an even bigger portion of the EMI goes towards interest payment and less towards principal payment."
+      },
+      {
+       "url": "https://www.tribuneindia.com/news/business/home-loan-tenure-selection-impact-on-emi-and-total-interest-payment/",
+       "published_date": "",
+       "quote": "A longer tenure reduces monthly EMI, [but] it increases the overall interest payment."
+      }
+     ]
+    },
+    "text_hash": "c809b440ef5c18ee20e3ae9921503abc116ef3a2",
+    "at": "2026-11-03T10:38:58.053892+00:00"
+   },
+   "50bc7a21fc1dc21b1f3a086358435adb73deb4f3": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "A home loan's tenure can be stretched to twenty-five years as a way to lower the EMI.",
+      "sentence": "'Stretch it to twenty-five years.'",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Stretching a home loan's tenure lowers the monthly EMI but increases the total amount repaid, because the extra years add more cumulative interest, and that added interest is what the bank earns.",
+      "sentence": "The monthly figure gets smaller. The total you pay back gets bigger, because every extra year adds more interest. Those extra years aren't a kindness. They're where the bank earns.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": null,
+      "sources": [
+       {
+        "url": "https://homeloans.hdfc.bank.in/housing-loans/home-loans/45-lakh-home-loan-emi",
+        "publisher": "HDFC Bank (homeloans.hdfc.bank.in)",
+        "published_date": null,
+        "quote": "25 years is the maximum Home Loan tenure you can choose at HDFC Bank... For a ₹45 Lakh loan at 8% interest: 20 years: ₹36,943 EMI; 25 years: ₹33,990 EMI",
+        "tier": 1
+       },
+       {
+        "url": "https://www.businesstoday.in/personal-finance/story/rbi-repo-rate-hike-higher-emi-or-longer-tenure-which-is-cheaper-for-home-loan-borrowers-560059-2026-10-07",
+        "publisher": "Business Today",
+        "published_date": "2026-10-07",
+        "quote": "Borrowers have a choice: absorb interest rate increases through a higher EMI or keep the EMI unchanged and extend the loan tenure... For a ₹40 lakh home loan at 7.5% for 25 years, the EMI is about ₹29,559",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "none",
+     "actual_mechanism": "A home loan amortizes: each EMI covers the month's interest on the outstanding balance plus some principal. Lengthening the tenure shrinks the principal portion per installment, so the balance falls more slowly and accrues interest over more months — the EMI drops but total interest rises. That interest is precisely the lender's income on the loan, so the extra years do add to what the bank earns. Concrete check at ~8.5% on ₹50 lakh: ~20-year total interest ≈ ₹54 lakh vs ~25-year ≈ ₹71 lakh, a ~₹17 lakh increase for a monthly saving of only ~₹2,500.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://emicalculator.net/how-do-loan-tenure-and-interest-rate-affect-the-pace-of-home-loan-repayment/",
+       "published_date": "",
+       "quote": "If the tenure is longer, an even bigger portion of the EMI goes towards interest payment and less towards principal payment. Hence, the principal goes down slowly."
+      },
+      {
+       "url": "https://www.business-standard.com/amp/article/free-newsletter/a-snapshot-of-home-loan-rates-offered-by-various-banks-and-other-charges-118112201132_1.html",
+       "published_date": "2018-11-22",
+       "quote": "Longer home loan tenure reduces EMI but increases interest cost."
+      },
+      {
+       "url": "https://paisa24.in/loans/emi-for-50-lakh-home-loan/",
+       "published_date": "2026-01-01",
+       "quote": "For a ₹50 Lakh loan at 8.50%: 20 Years costs ₹54.14 Lakh in total interest, while 25 Years costs ₹70.78 Lakh."
+      }
+     ]
+    },
+    "text_hash": "50bc7a21fc1dc21b1f3a086358435adb73deb4f3",
+    "at": "2026-11-03T10:44:17.210022+00:00"
+   }
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "You'll haggle over small change, then sign away [lakhs for a lower EMI]",
+   "sub": "The bank stretches the tenure like it's doing you a favour."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "You'll haggle over small change, then sign away lakhs for a lower EMI.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "Where does this low EMI trap actually happen?"
+   },
+   {
+    "paragraphs": [
+     "You're at the loan desk, both your names on the same form. A pen that isn't yours, cold in your hand.",
+     "The EMI they first quote lands like a weight on your chest."
+    ],
+    "why_swipe": "So what do they do about that weight?"
+   },
+   {
+    "paragraphs": [
+     "You go quiet. They see it. 'We can bring this down,' they say. 'Stretch it to twenty-five years.'",
+     "The number drops. Your shoulders drop with it. Everyone at the table breathes out."
+    ],
+    "why_swipe": "That felt like a win. What's the catch?"
+   },
+   {
+    "paragraphs": [
+     "They offered it like a favour, and relief feels like good news. So nobody runs the other sum.",
+     "The monthly figure gets smaller. The total you pay back gets bigger, because every extra year adds more interest.",
+     "**Those extra years aren't a kindness. They're where the bank earns.**"
+    ],
+    "why_swipe": "But a lower EMI still helps, right?"
+   },
+   {
+    "paragraphs": [
+     "And a lower EMI does help. It fits the salary, leaves room for groceries and the metro card. That part is real.",
+     "So you tell each other the rest will sort itself out. 'We'll prepay once the raises come.' 'The flat's value will cover it anyway.'",
+     "Most of that never happens."
+    ],
+    "why_swipe": "So what do you check before signing?"
+   },
+   {
+    "paragraphs": [
+     "Before you nod, ask for one number out loud: the full amount you'll have paid by the last EMI.",
+     "That's the figure that should land on your chest, not the monthly one.",
+     "**The weight you felt first was the honest number. The relief was sold to you.**"
+    ],
+    "why_swipe": null
+   }
+  ],
+  "end": {
+   "save": "Open this again the evening before you meet the loan officer.",
+   "send": "Send to the couple who just shortlisted their first flat and keep repeating the EMI like it's the whole price.",
+   "promise": "How money really moves in India."
+  },
+  "caption": "If you've sat at that loan desk, did you ask for the total you'd pay over the whole loan, or only the monthly figure?",
+  "hashtags": [
+   "#homeloan",
+   "#emi",
+   "#firstflat",
+   "#homeloanindia"
+  ],
+  "alt_text": "A six-slide carousel about first-time home buyers at a bank loan desk. The bank offers to lower the monthly EMI by stretching the loan to twenty-five years, which quietly adds far more total interest. Buyers feel the monthly EMI but never see the total they will repay, and justify the long tenure by telling each other they will prepay later. The post tells readers to ask for the full amount they will pay over the whole loan before signing.",
+  "claims": [],
+  "caption_style": "question"
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "A home loan's tenure can be stretched to twenty-five years as a way to lower the EMI.",
+    "sentence": "'Stretch it to twenty-five years.'",
+    "type": "figure",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "Stretching a home loan's tenure lowers the monthly EMI but increases the total amount repaid, because the extra years add more cumulative interest, and that added interest is what the bank earns.",
+    "sentence": "The monthly figure gets smaller. The total you pay back gets bigger, because every extra year adds more interest. Those extra years aren't a kindness. They're where the bank earns.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c1": {
+    "id": "c2",
+    "verdict": "supported",
+    "event_date": null,
+    "correct": null,
+    "sources": [
+     {
+      "url": "https://homeloans.hdfc.bank.in/housing-loans/home-loans/45-lakh-home-loan-emi",
+      "publisher": "HDFC Bank (homeloans.hdfc.bank.in)",
+      "published_date": null,
+      "quote": "25 years is the maximum Home Loan tenure you can choose at HDFC Bank... For a ₹45 Lakh loan at 8% interest: 20 years: ₹36,943 EMI; 25 years: ₹33,990 EMI",
+      "tier": 1
+     },
+     {
+      "url": "https://www.businesstoday.in/personal-finance/story/rbi-repo-rate-hike-higher-emi-or-longer-tenure-which-is-cheaper-for-home-loan-borrowers-560059-2026-10-07",
+      "publisher": "Business Today",
+      "published_date": "2026-10-07",
+      "quote": "Borrowers have a choice: absorb interest rate increases through a higher EMI or keep the EMI unchanged and extend the loan tenure... For a ₹40 lakh home loan at 7.5% for 25 years, the EMI is about ₹29,559",
+      "tier": 2
+     }
+    ]
+   }
+  },
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "none",
+   "actual_mechanism": "A home loan amortizes: each EMI covers the month's interest on the outstanding balance plus some principal. Lengthening the tenure shrinks the principal portion per installment, so the balance falls more slowly and accrues interest over more months — the EMI drops but total interest rises. That interest is precisely the lender's income on the loan, so the extra years do add to what the bank earns. Concrete check at ~8.5% on ₹50 lakh: ~20-year total interest ≈ ₹54 lakh vs ~25-year ≈ ₹71 lakh, a ~₹17 lakh increase for a monthly saving of only ~₹2,500.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://emicalculator.net/how-do-loan-tenure-and-interest-rate-affect-the-pace-of-home-loan-repayment/",
+     "published_date": "",
+     "quote": "If the tenure is longer, an even bigger portion of the EMI goes towards interest payment and less towards principal payment. Hence, the principal goes down slowly."
+    },
+    {
+     "url": "https://www.business-standard.com/amp/article/free-newsletter/a-snapshot-of-home-loan-rates-offered-by-various-banks-and-other-charges-118112201132_1.html",
+     "published_date": "2018-11-22",
+     "quote": "Longer home loan tenure reduces EMI but increases interest cost."
+    },
+    {
+     "url": "https://paisa24.in/loans/emi-for-50-lakh-home-loan/",
+     "published_date": "2026-01-01",
+     "quote": "For a ₹50 Lakh loan at 8.50%: 20 Years costs ₹54.14 Lakh in total interest, while 25 Years costs ₹70.78 Lakh."
+    }
+   ]
+  },
+  "text_hash": "50bc7a21fc1dc21b1f3a086358435adb73deb4f3",
+  "at": "2026-11-03T10:44:17.210022+00:00"
+ }
 }

@@ -21,7 +21,7 @@ In the cover headline, [square brackets] mark the one phrase shown in teal; they
 
 ## Hard failures (any one fails the post; quote the line)
 1. A persona hard rule is broken (invented credentials, meeting, client or result; an invented one-off event with other people; a real private person; mocking a protected group; copying another creator's sentences).
-2. An invented specific: a statistic, a figure presented as real data, a quote, a named person or company, or a specific event not in the sources, the topic's proof or real_details. Numbers listed in claims with a derived_from sum are allowed if the sum is right.
+2. An invented specific (scene detail the reader lives, like three hours, 6pm or the second coffee, is texture, not data): a statistic, a figure presented as real data, a quote, a named person or company, or a specific event not in the sources, the topic's proof or real_details. Numbers listed in claims with a derived_from sum are allowed if the sum is right.
 3. Not relatable, or nothing new: an ordinary working Indian wouldn't think "this is me / this is exactly what happens", or they would but finish it without seeing it any differently.
 4. No turn: the post never says what's actually going on behind the obvious explanation.
 5. No because: it never explains why it works that way (who gains, or the hidden motive).
@@ -33,7 +33,7 @@ In the cover headline, [square brackets] mark the one phrase shown in teal; they
 11. "I" in a post the topic marks as pure observation (lived is false), or an invented meeting, client or result.
 12. A mechanism that isn't true or can't be shown: a hidden budget, a secret motive or a deliberate plan stated as fact, or a basic error about who pays for what or how something works.
 13. A cover that doesn't make clear in two seconds what the post is about.
-14. No story: it describes a pattern or a situation ("You bump into an old colleague") instead of walking the reader through one moment of their own life over time, or it tells a named stranger's story, or its details are too narrow for most readers to see themselves in (a named city, a cousin's wedding, an ex's name).
+14. No story: it describes a pattern or a situation ("You bump into an old colleague") instead of walking the reader through one moment of their own life over time, or it tells a named stranger's story, or its details are too narrow for most readers to see themselves in (a named city, a cousin's wedding, an ex's name), or by the end of slide 2 a stranger still can't tell who is there, where, and what is going on. A reader who watched the moment up close, told in "you" ("you've watched your mama call the caterer"), is a story, not a bystander, when the role itself is one most readers haven't had.
 15. No feeling: the reader follows a situation but never feels anything under it (cheated, behind, guilty, relieved, seen), or the villain is a person or group the reader is meant to blame instead of a system.
 16. A generic end card: the save line names no moment to come back, or the send line names no specific person ("someone who needs this", "a friend", "your friends").
 

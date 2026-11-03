@@ -351,9 +351,536 @@
     "Slide 5 ('The one-star review didn't stop you. It just handed you something to argue about in the car on the way home.') sits very close to slide 6's point and slightly undercuts the pull — sharpen it with a distinct beat (e.g. the actual post-film argument moment itself, someone defending Sunil Grover) so it earns its own slide instead of pre-stating slide 6's mechanism.",
     "Slide 3's friend text ('Story is bakwaas but Sunil Grover is funny. Timepass hai, go.') reads as a real quoted message — make sure in the rewrite it stays clearly a typical/generic text a reader would recognize, not styled as one specific person's exact words, to keep it inside the 'typical scenario' allowance rather than an invented one-off quote."
    ]
+  },
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Facts as the hero / data-explainer feel: the post carries more than two numbers — 'one-star review' + '9 pm show' (cover/slide 1), then 'seen the trailer four times' + 'book four seats, aisle' (slide 2). That's four numeric beats stacked in the first two slides, which tips the opening into inventory-of-detail territory instead of one clean image."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "Slide 2: cut the number stack. Keep either 'seen the trailer four times' or 'book four seats, aisle' — not both — so the post stays under two numbers total alongside the one-star/9 pm beat in slide 1.",
+     "Slide 4: 'the folklore poster' is lifted almost directly from the real_details on Vvaan's setting without naming the film — it reads oddly specific next to the generic 'trailer, song, release date' list and narrows the scene for anyone who hasn't seen that film. Swap it for a generic promo element (the song, the dance reel, the comedian's reaction clip) so the list stays universal.",
+     "Slide 3: 'under the table, through dinner' is the only non-sight detail in the post and it's doing a lot of work alone — add one more sensory beat here (phone buzzing against the table, the clatter of cutlery while you're reading one-handed) so the dinner scene feels lived rather than stated.",
+     "Topic marks feeling as 'conflicted' — right now the post reads more amused than conflicted. Slide 3's 'ammo for the argument after' is close, but consider a line that shows the reader half-annoyed at themselves for keeping the review open at all, to surface the conflict rather than just the habit.",
+     "Slide 5: strong test, but tighten 'Take your time' — it's a small beat that doesn't earn its slide real estate and slightly softens the snap before the punch line."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Facts as the hero / data-explainer feel: the post carries more than two numbers — 'one-star review' + '9 pm show' (cover/slide 1), then 'seen the trailer four times' + 'book four seats, aisle' (slide 2). That's four numeric beats stacked in the first two slides, which tips the opening into inventory-of-detail territory instead of one clean image.",
+    "Slide 2: cut the number stack. Keep either 'seen the trailer four times' or 'book four seats, aisle' — not both — so the post stays under two numbers total alongside the one-star/9 pm beat in slide 1.",
+    "Slide 4: 'the folklore poster' is lifted almost directly from the real_details on Vvaan's setting without naming the film — it reads oddly specific next to the generic 'trailer, song, release date' list and narrows the scene for anyone who hasn't seen that film. Swap it for a generic promo element (the song, the dance reel, the comedian's reaction clip) so the list stays universal.",
+    "Slide 3: 'under the table, through dinner' is the only non-sight detail in the post and it's doing a lot of work alone — add one more sensory beat here (phone buzzing against the table, the clatter of cutlery while you're reading one-handed) so the dinner scene feels lived rather than stated.",
+    "Topic marks feeling as 'conflicted' — right now the post reads more amused than conflicted. Slide 3's 'ammo for the argument after' is close, but consider a line that shows the reader half-annoyed at themselves for keeping the review open at all, to surface the conflict rather than just the habit.",
+    "Slide 5: strong test, but tighten 'Take your time' — it's a small beat that doesn't earn its slide real estate and slightly softens the snap before the punch line."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 5,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "Slide 4: \"It was never advice before the show. It was ammo for the argument after\" is the banned 'Not X. Y.' negation-then-reveal scaffold from the Never list. Rewrite plainer, e.g. 'The review stopped being advice. It became ammo for the fight after' — same idea, no mirrored negation.",
+     "Slide 5: the back-to-back short declaratives (\"The trailer, the song, the comedian's reaction clip, the perfect release date. That's where the money went. A critic can't be bought. A friend's text costs them nothing...\") read listy and same-length. Vary rhythm — let one of these run longer and concrete before the short punch, so it doesn't feel like a template list of reasons.",
+     "Slide 2: \"You book four seats, aisle\" is a nice specific but drop in without weight right after the group chat line — give it one more beat of why aisle/why four, or cut to just 'You book the tickets' if the specificity isn't earning its place.",
+     "Slide 6 payoff is strong, but make sure 'the second name came first' lands as a felt gut-check, not just a logical point — consider adding one beat of what that admission costs the reader (a flicker of guilt, a shrug) so the eq lands harder."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Says more than the sources: 'Film studios spend their marketing budgets on trailers, songs, promotional reaction clips (e.g. from comedians), and the timing of the release date.'. What's true: Paid advertising, not trailers/songs/reaction clips, absorbs most of a studio's marketing budget. Across the two most-cited industry studies, television advertising alone took 49-82% of spend and digital/online another 14-15%, while trailer and other promotional-content production (the category trailers, songs and reaction clips fall under) was only about 10-15% of the budget. More recent (2023) estimates still put TV+digital ads at roughly 60-80% combined versus a small content-production share. So studios do make and use trailers, songs, reaction clips and release-date timing, but these are a minor line item next to paid TV/digital/outdoor advertising, which the claim omits entirely..",
+     "Wrong: 'A film critic cannot be paid or bribed by a studio to give a favorable review.'. What's true: Film critics and reviews CAN be and have been paid/bribed by or on behalf of studios. Sony Pictures was caught fabricating a fictitious critic ('David Manning') who praised its films in ads — the studio admitted it and later paid about $1.5 million to settle a resulting class-action suit. Separately, a PR firm (Bunker 15) was reported in 2023 to be paying real critics roughly $50 per review to flip films like 'Ophelia' from 'rotten' to 'fresh' on Rotten Tomatoes, and its founder acknowledged that 'a small handful have set up a specific system where filmmakers can sponsor or pay to have them review a film.' This is against journalistic ethics and carries legal/reputational risk, but it is not impossible and has happened more than once.."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Film studios spend their marketing budgets on trailers, songs, promotional reaction clips (e.g. from comedians), and the timing of the release date.",
+      "sentence": "The trailer, the song, the comedian's reaction clip, the perfect release date. That's where the money went.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "A film critic cannot be paid or bribed by a studio to give a favorable review.",
+      "sentence": "A critic can't be bought.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "The post's central argument: because critics cannot be bought (so studios spend their money on trailers, songs and release-date marketing instead) while a friend's recommendation costs nothing, a friend's word-of-mouth opinion influences a person's decision to book a movie ticket more than a critic's review does.",
+      "sentence": "A critic can't be bought. A friend's text costs them nothing, so that's the room they furnish. You still read every review. You just don't let one stranger's taste pick your seat.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "misframed",
+      "event_date": "N/A — ongoing industry practice, not a dated event",
+      "correct": "Paid advertising, not trailers/songs/reaction clips, absorbs most of a studio's marketing budget. Across the two most-cited industry studies, television advertising alone took 49-82% of spend and digital/online another 14-15%, while trailer and other promotional-content production (the category trailers, songs and reaction clips fall under) was only about 10-15% of the budget. More recent (2023) estimates still put TV+digital ads at roughly 60-80% combined versus a small content-production share. So studios do make and use trailers, songs, reaction clips and release-date timing, but these are a minor line item next to paid TV/digital/outdoor advertising, which the claim omits entirely.",
+      "sources": [
+       {
+        "url": "https://www.marketingdive.com/news/digital-represents-14-of-movie-ad-budgets-but-drives-46-of-revenue-study/544253/",
+        "publisher": "Marketing Dive",
+        "published_date": "2018-12-13",
+        "quote": "TV accounted for 82% of marketing budgets... the study analyzed more than 70 U.S. movies... representing $1.8 billion in total marketing spend",
+        "tier": 2
+       },
+       {
+        "url": "https://stephenfollows.com/p/how-are-movie-advertising-budgets-spent",
+        "publisher": "Stephen Follows (film industry data analyst, using Nielsen Media Research data)",
+        "published_date": "2019-03-18",
+        "quote": "Television: 49% ... Outdoor (posters, transit ads): 28% ... Online (digital, social media): 15% ... television advertisements remain dominant despite declining from 58% in 2009",
+        "tier": 3
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "contradicted",
+      "event_date": "2001-06-01",
+      "correct": "Film critics and reviews CAN be and have been paid/bribed by or on behalf of studios. Sony Pictures was caught fabricating a fictitious critic ('David Manning') who praised its films in ads — the studio admitted it and later paid about $1.5 million to settle a resulting class-action suit. Separately, a PR firm (Bunker 15) was reported in 2023 to be paying real critics roughly $50 per review to flip films like 'Ophelia' from 'rotten' to 'fresh' on Rotten Tomatoes, and its founder acknowledged that 'a small handful have set up a specific system where filmmakers can sponsor or pay to have them review a film.' This is against journalistic ethics and carries legal/reputational risk, but it is not impossible and has happened more than once.",
+      "sources": [
+       {
+        "url": "https://www.cbsnews.com/news/sony-pays-for-fake-reviews/",
+        "publisher": "CBS News",
+        "published_date": "2002-03-12",
+        "quote": "Someone at Sony concocted glowing blurbs from the fictitious reviewer, a studio spokeswoman later admitted.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.seattletimes.com/entertainment/sony-pictures-to-pay-15-million-to-settle-suit-over-movie-ads/",
+        "publisher": "Seattle Times",
+        "published_date": "2005-08-04",
+        "quote": "Sony Pictures to pay $1.5 million to settle suit over movie ads [citing fictitious critic David Manning]",
+        "tier": 2
+       },
+       {
+        "url": "https://www.thedailybeast.com/rotten-tomatoes-quietly-buried-film-at-center-of-expose/",
+        "publisher": "The Daily Beast (reporting Vulture's investigation)",
+        "published_date": "2023-09-07",
+        "quote": "Allegedly, the PR company has been paying critics $50 or more for each review... after Bunker 15 reportedly started paying critics to review Ophelia, the film's Tomatometer ranking climbed to a 'fresh' 62 percent.",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "",
+     "actual_mechanism": "Studios do pour the bulk of their budget into controllable demand-generation — P&A (prints and advertising) for wide releases averages ~$35M and major-studio marketing runs $50-100M per film, with trailers, songs and release-date timing being where that money goes, precisely because reviews are exogenous and marketing is not. Research consistently finds moviegoers rate a friend's word-of-mouth as more credible and useful than a critic's review, and that word-of-mouth volume drives opening and cumulative box office while critic reviews correlate mainly with later/cumulative receipts and exert weaker influence on wide releases. So the premises about where the money goes and about peer influence beating critic influence on the booking decision hold, and the conclusion follows.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://dr.lib.iastate.edu/server/api/core/bitstreams/e5ac26ad-02e9-4de1-85f9-85bc665f7a71/content",
+       "published_date": "",
+       "quote": "Faber and O'Guinn (1984) indicated that college moviegoers perceived word of mouth from friends to be more credible than movie reviews gleaned from the media."
+      },
+      {
+       "url": "https://www.researchgate.net/publication/228150567_Word-of-Mouth_for_Movies_Its_Dynamics_and_Impact_on_Box_Office_Revenue",
+       "published_date": "",
+       "quote": "The volume of word-of-mouth had a significant impact on box office revenue whereas the audience scores did not; initial word of mouth within a film's first few weeks can significantly influence box office performance."
+      },
+      {
+       "url": "https://www.toolsforfilm.com/blog/pa-spending-indie-films",
+       "published_date": "",
+       "quote": "P&A stands for prints and advertising... It covers trailers, key art, television and digital media buys, outdoor advertising and localized campaigns; the average P&A budget for wide releases is $35 million."
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Film_promotion",
+       "published_date": "",
+       "quote": "Hollywood movie distributors spend about $4 billion a year to buy paid advertising... Trailers account for 10% of marketing budgets; marketing budgets tend to equal about half the production budget."
+      }
+     ]
+    },
+    "text_hash": "b63ad5ad22d45902955fea5a1f467d16b2da9b90",
+    "at": "2026-11-03T09:55:48.257466+00:00"
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Says more than the sources: 'Film studios spend their marketing budgets on trailers, songs, promotional reaction clips (e.g. from comedians), and the timing of the release date.'. What's true: Paid advertising, not trailers/songs/reaction clips, absorbs most of a studio's marketing budget. Across the two most-cited industry studies, television advertising alone took 49-82% of spend and digital/online another 14-15%, while trailer and other promotional-content production (the category trailers, songs and reaction clips fall under) was only about 10-15% of the budget. More recent (2023) estimates still put TV+digital ads at roughly 60-80% combined versus a small content-production share. So studios do make and use trailers, songs, reaction clips and release-date timing, but these are a minor line item next to paid TV/digital/outdoor advertising, which the claim omits entirely..",
+    "Wrong: 'A film critic cannot be paid or bribed by a studio to give a favorable review.'. What's true: Film critics and reviews CAN be and have been paid/bribed by or on behalf of studios. Sony Pictures was caught fabricating a fictitious critic ('David Manning') who praised its films in ads — the studio admitted it and later paid about $1.5 million to settle a resulting class-action suit. Separately, a PR firm (Bunker 15) was reported in 2023 to be paying real critics roughly $50 per review to flip films like 'Ophelia' from 'rotten' to 'fresh' on Rotten Tomatoes, and its founder acknowledged that 'a small handful have set up a specific system where filmmakers can sponsor or pay to have them review a film.' This is against journalistic ethics and carries legal/reputational risk, but it is not impossible and has happened more than once.."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 5,
+     "tight": 4
+    },
+    "notes": [
+     "Slide 5: 'the trailer, the song, the comedian's reaction clip, the perfect release date' reads as a stacked list of marketing buzzwords rather than one concrete image. Cut it to two items (trailer, release date, or song) so it doesn't tip into explainer rhythm.",
+     "Slide 4: 'the line you'd pull out mid-fight' is doing the same job as 'ammo for the argument after' right before it — trim one so the turn lands once instead of being restated.",
+     "Slide 2: 'four seats, aisle' is a nice concrete touch — consider carrying one more physical detail like this into slide 5 so the because-slide doesn't go abstract right when the post needs to land its point."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "The take's premise is wrong: The claim that a peer recommendation 'cannot be manufactured or written by a studio's marketing.' Studios routinely manufacture word-of-mouth: influencer screenings, seeding agencies, and paid first-reaction clips are an industry built precisely to produce peer-style social proof that cascades through fan communities before critics weigh in. The decisive 'buzz' a viewer treats as organic is often a bought channel.. How it actually works: Research does support the writer's main thrust: audiences weight the opinions of people they know far more heavily than professional critics when deciding to buy a ticket, so a friend's 'go' is genuinely more decisive than a one-star review. But studios don't leave that channel alone — they engineer it, seeding influencers and creators whose reactions imitate a friend's endorsement and are designed to reach the 'early majority' so a film tips mainstream. What they can't do is author your specific, trusted friend's sincere text; they can only flood the surrounding feed with manufactured lookalikes of it. Rebuild the post on the correct mechanism."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "A friend's personal recommendation to watch a film is what actually drives someone to book a ticket, and that kind of endorsement cannot be manufactured or written by a studio's marketing.",
+      "sentence": "Because the one thing that books your seat, a friend's 'go', is the one line a studio can't write for you.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {},
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "The claim that a peer recommendation 'cannot be manufactured or written by a studio's marketing.' Studios routinely manufacture word-of-mouth: influencer screenings, seeding agencies, and paid first-reaction clips are an industry built precisely to produce peer-style social proof that cascades through fan communities before critics weigh in. The decisive 'buzz' a viewer treats as organic is often a bought channel.",
+     "actual_mechanism": "Research does support the writer's main thrust: audiences weight the opinions of people they know far more heavily than professional critics when deciding to buy a ticket, so a friend's 'go' is genuinely more decisive than a one-star review. But studios don't leave that channel alone — they engineer it, seeding influencers and creators whose reactions imitate a friend's endorsement and are designed to reach the 'early majority' so a film tips mainstream. What they can't do is author your specific, trusted friend's sincere text; they can only flood the surrounding feed with manufactured lookalikes of it.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://insight.kellogg.northwestern.edu/article/why-we-share-opinions-and-word-of-mouth-marketing",
+       "published_date": "unknown",
+       "quote": "respondents preferred reviews and respected the opinions more from people they knew"
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Seeding_agency",
+       "published_date": "unknown",
+       "quote": "Studios are 'seeding influence at the top … and letting it cascade outward,' with the goal to hit the 'early majority' before release"
+      },
+      {
+       "url": "https://wersm.com/influencer-screenings-are-becoming-part-of-movie-marketing/",
+       "published_date": "unknown",
+       "quote": "Influencer screenings are reshaping movie marketing by turning early access into creator-led social proof before traditional review cycles begin"
+      }
+     ]
+    },
+    "text_hash": "372560538939e895ed587371010465edeb9478a4",
+    "at": "2026-11-03T09:58:42.964280+00:00"
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "The take's premise is wrong: The claim that a peer recommendation 'cannot be manufactured or written by a studio's marketing.' Studios routinely manufacture word-of-mouth: influencer screenings, seeding agencies, and paid first-reaction clips are an industry built precisely to produce peer-style social proof that cascades through fan communities before critics weigh in. The decisive 'buzz' a viewer treats as organic is often a bought channel.. How it actually works: Research does support the writer's main thrust: audiences weight the opinions of people they know far more heavily than professional critics when deciding to buy a ticket, so a friend's 'go' is genuinely more decisive than a one-star review. But studios don't leave that channel alone — they engineer it, seeding influencers and creators whose reactions imitate a friend's endorsement and are designed to reach the 'early majority' so a film tips mainstream. What they can't do is author your specific, trusted friend's sincere text; they can only flood the surrounding feed with manufactured lookalikes of it. Rebuild the post on the correct mechanism."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "Slide 6: 'You still read every review. You just don't let one stranger's taste pick your seat.' restates what slide 4 already established (review as ammo, not advice). Cut it and let the studio-mechanism line land, then jump straight to the payoff test — tighter close.",
+     "Slide 3's why_swipe ('what happens next?') and slide 5's ('what happens next?') are identical filler questions. Sharpen at least one — e.g. something that questions why you're still reading a review you've already dismissed — so each slide earns its swipe on its own terms, not a generic placeholder.",
+     "Slide 2: 'four seats, aisle' is a nice concrete detail but it's the only one in the booking beat. Consider one more sensory beat here (the thumb hovering over 'pay', the seat map lighting up) to match the texture you already nailed in slide 3 (phone buzzing against the wood, clatter of plates)."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not verify: 'Film marketing assets such as trailers, songs, and paid reaction clips are produced with the specific intent of being shared into or landing inside viewers' private group chats.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Studios are unable to fabricate or produce a genuine, personal text message from a viewer's own friend recommending the film.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Studios cannot write or fabricate an actual friend's sincere personal text endorsing the film.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Film studios/production houses pay content creators to produce 'first-reaction' promotional video clips for films.",
+      "sentence": "The trailer, the song, the paid first-reaction clip from a creator who talks exactly like a friend.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "These paid first-reaction creators adopt a tone and manner designed to sound like a genuine friend's recommendation rather than an ad.",
+      "sentence": "The trailer, the song, the paid first-reaction clip from a creator who talks exactly like a friend.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Film marketing assets such as trailers, songs, and paid reaction clips are produced with the specific intent of being shared into or landing inside viewers' private group chats.",
+      "sentence": "All of it is built to land in your group chat.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Studios have the capacity to produce and distribute large volumes of content showing strangers reacting with enthusiasm, saturating viewers' social media feeds.",
+      "sentence": "Studios can flood your feed with strangers acting thrilled.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Studios are unable to fabricate or produce a genuine, personal text message from a viewer's own friend recommending the film.",
+      "sentence": "What they can't write is the one text that actually moves you: your friend's own 'go, it's timepass'.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Studios deliberately create 'lookalike' reaction clips engineered to imitate the appearance of organic, friend-like reactions.",
+      "sentence": "Studios seed lookalike reaction clips to imitate it, but they can't write your actual friend's sincere text.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "Studios cannot write or fabricate an actual friend's sincere personal text endorsing the film.",
+      "sentence": "Studios seed lookalike reaction clips to imitate it, but they can't write your actual friend's sincere text.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c8",
+      "text": "Studios can manufacture scaled, paid, lookalike signals of enthusiasm (trailers, songs, paid first-reaction clips, seeded lookalike reaction clips) engineered to mimic genuine friend recommendations and spread through group chats, but they cannot manufacture an actual friend's sincere personal recommendation — and it is this unfabricatable, genuine friend signal, not the critic's review or the studio's manufactured buzz, that actually moves a viewer's decision to watch.",
+      "sentence": "The trailer, the song, the paid first-reaction clip from a creator who talks exactly like a friend. All of it is built to land in your group chat. Studios can flood your feed with strangers acting thrilled. What they can't write is the one text that actually moves you: your friend's own 'go, it's timepass'. Studios seed lookalike reaction clips to imitate it, but they can't write your actual friend's sincere text.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2025-03-07",
+      "correct": "Indian production houses and PR firms routinely pay content creators/influencers for premiere-day and pre-release reaction/review content; this is a documented, continuing industry practice (not just 'reviews' in the written sense but creator reaction/post content tied to releases).",
+      "sources": [
+       {
+        "url": "https://www.aljazeera.com/economy/2025/3/7/how-the-business-of-buying-movie-reviews-is-destroying",
+        "publisher": "Al Jazeera",
+        "published_date": "2025-03-07",
+        "quote": "To manufacture hype, [the studio] turned to paid promotions, with influencers flooding social media with pre-drafted praise... a senior executive with Yash Raj Films revealed that 70-80 percent of these reviews are paid reviews.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2025/11/19/india039s-bollywood-battles-paid-reviews-and-fake-sale-claims",
+        "publisher": "AFP (via The Star)",
+        "published_date": "2025-11-19",
+        "quote": "If you don't engage these influencers and critics, they will write bad reviews, even if the film is good.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.socialsamosa.com/report/creator-led-promotions-rs-250-crore-indian-film-marketing-2025-10960867",
+        "publisher": "Social Samosa",
+        "published_date": "2025-12-31",
+        "quote": "Creator-led promotions... crossed Rs 250 crore in Indian film marketing in 2025... meme pages, fan edits, reaction videos, and interview creators.",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2025-03-07",
+      "correct": "Paid creator content for films is deliberately scripted/seeded to look organic and friend-like rather than disclosed advertising, per industry sources.",
+      "sources": [
+       {
+        "url": "https://www.socialsamosa.com/report/creator-led-promotions-rs-250-crore-indian-film-marketing-2025-10960867",
+        "publisher": "Social Samosa (quoting Qoruz CEO)",
+        "published_date": "2025-12-31",
+        "quote": "a lot of movie buzz looks organic from the outside, even when there's real spend behind it... money flows through seeding networks and local promotions rather than official brand invoices.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.aljazeera.com/economy/2025/3/7/how-the-business-of-buying-movie-reviews-is-destroying",
+        "publisher": "Al Jazeera",
+        "published_date": "2025-03-07",
+        "quote": "influencers flooding social media with pre-drafted praise",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "unverifiable",
+      "event_date": null,
+      "correct": "No primary source, studio statement, or major outlet investigation was found that confirms trailers/songs/paid reaction clips are built with the specific, stated intent of being forwarded into private group chats (as opposed to being optimized for public feeds/shares generally). This is a plausible inference but not a documented, sourceable fact.",
+      "sources": []
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "2025-12-31",
+      "correct": "Studios/creator-marketing agencies generate very high volumes of creator reaction/promo content per film, documented at industry scale.",
+      "sources": [
+       {
+        "url": "https://www.socialsamosa.com/report/creator-led-promotions-rs-250-crore-indian-film-marketing-2025-10960867",
+        "publisher": "Social Samosa",
+        "published_date": "2025-12-31",
+        "quote": "610,000+ posts generated by creators and meme makers... 2 billion+ engagements... roughly 400 creator-led posts per film on average.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.buzzincontent.com/insight/creator-led-movie-promotions-in-india-cross-rs-250-crore-in-2025-10964836",
+        "publisher": "BuzzInContent",
+        "published_date": "2026-01-02",
+        "quote": "Rs 250 crore spent on creator-led entertainment promotions in 2025; 610,000+ movie-related posts... 2.0 billion engagements.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.aljazeera.com/economy/2025/3/7/how-the-business-of-buying-movie-reviews-is-destroying",
+        "publisher": "Al Jazeera",
+        "published_date": "2025-03-07",
+        "quote": "influencers flooding social media with pre-drafted praise",
+        "tier": 2
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "unverifiable",
+      "event_date": null,
+      "correct": "This is a definitional/logical claim (a fabricated message cannot be a 'genuine' message from the viewer's actual friend) rather than an empirical one that a source could confirm or refute. No report addresses studios attempting to impersonate a specific viewer's real-life friend.",
+      "sources": []
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "supported",
+      "event_date": "2025-03-07",
+      "correct": "Industry sources confirm paid creator content is designed/seeded to resemble organic, friend-like enthusiasm rather than advertising.",
+      "sources": [
+       {
+        "url": "https://www.socialsamosa.com/report/creator-led-promotions-rs-250-crore-indian-film-marketing-2025-10960867",
+        "publisher": "Social Samosa (quoting Qoruz CEO)",
+        "published_date": "2025-12-31",
+        "quote": "a lot of movie buzz looks organic from the outside, even when there's real spend behind it",
+        "tier": 2
+       },
+       {
+        "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2025/11/19/india039s-bollywood-battles-paid-reviews-and-fake-sale-claims",
+        "publisher": "AFP (via The Star)",
+        "published_date": "2025-11-19",
+        "quote": "Everything is bought and manipulated.",
+        "tier": 2
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "unverifiable",
+      "event_date": null,
+      "correct": "Same logical/definitional claim as c5, restated; not independently checkable against a source.",
+      "sources": []
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "none",
+     "actual_mechanism": "Studios genuinely do manufacture scaled enthusiasm: they run influencer screenings before critics, pay creators $3,000–$10,000 per deal to post first-reaction clips, and 'seed' buzz designed to look spontaneous. Yet marketing research consistently finds that a personal recommendation from a close friend is the single strongest driver of moviegoing — stronger than expert critics or star ratings — so the decision really does hinge on the genuine friend signal, which by definition a studio can only imitate, not author.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://marketing-bulletin.massey.ac.nz/V25/MB_V25_A1_Hon_FINAL.pdf",
+       "published_date": "2015",
+       "quote": "Users' opinions matter more than critics' judgments in influencing movie attendance... personal recommendation by close friends, rather than parents, holds the highest significance regardless of the genre."
+      },
+      {
+       "url": "https://wersm.com/influencer-screenings-are-becoming-part-of-movie-marketing/",
+       "published_date": "2023",
+       "quote": "Studios had started screening films for influencers before critics, so that the first reactions online would come from a 'less discerning' crowd... turning early access into creator-led social proof before traditional review cycles begin."
+      },
+      {
+       "url": "https://www.researchgate.net/publication/271928113_Why_Do_Moviegoers_Go_to_the_Theater_The_Role_of_Prerelease_Media_Publicity_and_Online_Word_of_Mouth_in_Driving_Moviegoing_Behavior",
+       "published_date": "2013",
+       "quote": "word-of-mouth is confirmed as one of the strongest and most effective marketing strategies, and is at times even stronger than using stars when it comes to generating revenues associated with the number of people who watch the film."
+      }
+     ]
+    },
+    "text_hash": "4d295467a2e0057d319ce2f6fccef139113d77d2",
+    "at": "2026-11-03T10:04:59.222891+00:00"
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Could not verify: 'Film marketing assets such as trailers, songs, and paid reaction clips are produced with the specific intent of being shared into or landing inside viewers' private group chats.'. Cut it, or state it only if a source says it.",
+    "Could not verify: 'Studios are unable to fabricate or produce a genuine, personal text message from a viewer's own friend recommending the film.'. Cut it, or state it only if a source says it.",
+    "Could not verify: 'Studios cannot write or fabricate an actual friend's sincere personal text endorsing the film.'. Cut it, or state it only if a source says it."
+   ]
   }
  ],
- "updated_at": "2026-11-03T09:42:53.723374+00:00",
+ "updated_at": "2026-11-03T10:04:59.223874+00:00",
  "sources": [
   {
    "url": "https://www.hollywoodreporterindia.com/features/insight/the-vvaan-box-office-collection-sidharth-malhotra-starrer-nets-an-opening-weekend-of-over-33-crore",
@@ -370,36 +897,68 @@
  ],
  "verification_cache": {
   "_ledger": {
-   "text": "[cover] Bad reviews don't kill films. [One friend's text] does.\nThe review is open, your thumb is hovering. You read every word anyway.\n \n\n[slide 1] Bad reviews don't kill films. One friend's text does.\nSwipe to read →\n\n[slide 2] It's evening. The review sits open on your phone. Two stars, maybe one. A second half that drags, a climax borrowed from Baahubali.\nYou read all of it anyway.\n\n[slide 3] You close the tab, half-decided to skip it. Your thumb is still hovering when the friend who caught the matinee texts. 'Story is bakwaas but Sunil Grover is funny. Timepass hai, go.'\nYou open BookMyShow before you've finished reading it.\n\n[slide 4] 9 pm. Seat H14, popcorn warm in your lap, the smell of someone's samosa three rows down.\nAt six you half-believed the critic. By nine you'd handed your evening to a trailer and one text instead.\n\n[slide 5] The one-star review didn't stop you. It just handed you something to argue about in the car on the way home.\n\n[slide 6] A critic is one stranger's taste you've never met. Your friend is a person you already trust. Studios clocked this long ago.\nSo the money goes into the trailer, the songs and the release date. Vvaan got near-unanimous bad reviews and still climbed every day to ₹33.25 crore over the weekend.\n\n[slide 7] Try it on yourself. Name the last film you skipped because a critic trashed it. Take your time.\nNow name the last one you skipped because a friend texted 'don't bother.' That one came faster, didn't it.\n\n[end card] Open this the next time a one-star review is up and your thumb is already on the booking button.\nSend to the friend who reads every review out loud and still books the first-day-first-show.\n\n[caption] What's the last film you booked despite a brutal review, and whose text made you do it?\n\n[alt text] A seven-slide carousel arguing that bad reviews no longer decide ticket sales. It follows a reader reading a one-star review in the evening, getting a friend's text, and booking the show anyway. It cites Vvaan's rising collections to a ₹33.25 crore opening weekend despite negative reviews, and ends with a test comparing films skipped for a review versus for a friend's warning.",
+   "text": "[cover] You read the one-star review, then [book the 9 pm show]\nThe critic and your group chat want two different things from you.\n \n\n[slide 1] You read the one-star review, then book the 9 pm show.\nSwipe to read →\n\n[slide 2] Then the group chat lights up before the one-star review even finishes loading. 'Timepass hai, 9 baje aa ja.'\nYou've already made up your mind. You book four seats, aisle.\n\n[slide 3] The review didn't lose. You kept the tab open under the table through dinner, the phone buzzing against the wood. You read one-handed over the clatter of plates. Half annoyed you even bothered.\n\n[slide 4] You read it again after the film, to fight the friend who loved it.\nIt was never advice before the show. It was ammo for the argument after, the line you'd pull out mid-fight.\n\n[slide 5] The trailer, the song, the paid first-reaction clip from a creator who talks exactly like a friend. All of it is built to land in your group chat.\n\n[slide 6] Studios can flood your feed with strangers acting thrilled. What they can't write is the one text that actually moves you: your friend's own 'go, it's timepass'.\nYou still read every review. You just don't let one stranger's taste pick your seat.\n\n[slide 7] Name the last film a critic killed for you.\nNow name the last one a friend's 'don't bother, yaar' killed.\nThe second name came first.\n\n[end card] Open this the next time a review tells you to skip the Saturday show.\nSend to the friend who reads every review out loud and then books first-day, first-show.\n\n[caption] Which film did a critic warn you off, that your group chat talked you right back into?\n\n[alt text] A six-slide carousel about reading a bad film review and booking the ticket anyway. It walks through reading a one-star verdict at 6 pm, a friend's text in the group chat, booking the show, using the review to argue after the film, and the point that a friend's recommendation beats a critic's star rating. Studios seed lookalike reaction clips to imitate it, but they can't write your actual friend's sincere text.",
    "claims": [
     {
      "id": "c1",
-     "text": "Vvaan received near-unanimous negative reviews from critics.",
-     "sentence": "Vvaan got near-unanimous bad reviews",
-     "type": "event",
+     "text": "Film studios/production houses pay content creators to produce 'first-reaction' promotional video clips for films.",
+     "sentence": "The trailer, the song, the paid first-reaction clip from a creator who talks exactly like a friend.",
+     "type": "feature",
      "core": true,
-     "framed_as": "past"
+     "framed_as": "timeless"
     },
     {
      "id": "c2",
-     "text": "Vvaan's box office collections rose on each successive day after release.",
-     "sentence": "still climbed every day",
-     "type": "event",
+     "text": "These paid first-reaction creators adopt a tone and manner designed to sound like a genuine friend's recommendation rather than an ad.",
+     "sentence": "The trailer, the song, the paid first-reaction clip from a creator who talks exactly like a friend.",
+     "type": "feature",
      "core": true,
-     "framed_as": "past"
+     "framed_as": "timeless"
     },
     {
      "id": "c3",
-     "text": "Vvaan's opening weekend box office collection totaled ₹33.25 crore.",
-     "sentence": "to ₹33.25 crore over the weekend",
-     "type": "figure",
+     "text": "Film marketing assets such as trailers, songs, and paid reaction clips are produced with the specific intent of being shared into or landing inside viewers' private group chats.",
+     "sentence": "All of it is built to land in your group chat.",
+     "type": "feature",
      "core": true,
-     "framed_as": "past"
+     "framed_as": "timeless"
     },
     {
      "id": "c4",
-     "text": "A friend's personal recommendation outweighs a critic's review in determining whether someone watches a film, so negative critical reviews do not stop a film's box office success.",
-     "sentence": "Bad reviews don't kill films. One friend's text does. ... A critic is one stranger's taste you've never met. Your friend is a person you already trust.",
+     "text": "Studios have the capacity to produce and distribute large volumes of content showing strangers reacting with enthusiasm, saturating viewers' social media feeds.",
+     "sentence": "Studios can flood your feed with strangers acting thrilled.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c5",
+     "text": "Studios are unable to fabricate or produce a genuine, personal text message from a viewer's own friend recommending the film.",
+     "sentence": "What they can't write is the one text that actually moves you: your friend's own 'go, it's timepass'.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c6",
+     "text": "Studios deliberately create 'lookalike' reaction clips engineered to imitate the appearance of organic, friend-like reactions.",
+     "sentence": "Studios seed lookalike reaction clips to imitate it, but they can't write your actual friend's sincere text.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c7",
+     "text": "Studios cannot write or fabricate an actual friend's sincere personal text endorsing the film.",
+     "sentence": "Studios seed lookalike reaction clips to imitate it, but they can't write your actual friend's sincere text.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c8",
+     "text": "Studios can manufacture scaled, paid, lookalike signals of enthusiasm (trailers, songs, paid first-reaction clips, seeded lookalike reaction clips) engineered to mimic genuine friend recommendations and spread through group chats, but they cannot manufacture an actual friend's sincere personal recommendation — and it is this unfabricatable, genuine friend signal, not the critic's review or the studio's manufactured buzz, that actually moves a viewer's decision to watch.",
+     "sentence": "The trailer, the song, the paid first-reaction clip from a creator who talks exactly like a friend. All of it is built to land in your group chat. Studios can flood your feed with strangers acting thrilled. What they can't write is the one text that actually moves you: your friend's own 'go, it's timepass'. Studios seed lookalike reaction clips to imitate it, but they can't write your actual friend's sincere text.",
      "type": "mechanism",
      "core": true,
      "framed_as": "timeless"
@@ -495,6 +1054,80 @@
       "url": "https://en.wikipedia.org/wiki/The_Vvaan:_Force_of_the_Forrest",
       "published_date": "2026-10",
       "quote": "received mixed-to-negative reviews from critics. On Rotten Tomatoes, 21% of 19 critics' reviews are positive, with an average rating of 4.6/10."
+     }
+    ]
+   },
+   "9ab00fff5317688fe499894cf2a6ae511206f486": {
+    "holds": true,
+    "broken_premise": "",
+    "actual_mechanism": "Studios do pour the bulk of their budget into controllable demand-generation — P&A (prints and advertising) for wide releases averages ~$35M and major-studio marketing runs $50-100M per film, with trailers, songs and release-date timing being where that money goes, precisely because reviews are exogenous and marketing is not. Research consistently finds moviegoers rate a friend's word-of-mouth as more credible and useful than a critic's review, and that word-of-mouth volume drives opening and cumulative box office while critic reviews correlate mainly with later/cumulative receipts and exert weaker influence on wide releases. So the premises about where the money goes and about peer influence beating critic influence on the booking decision hold, and the conclusion follows.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://dr.lib.iastate.edu/server/api/core/bitstreams/e5ac26ad-02e9-4de1-85f9-85bc665f7a71/content",
+      "published_date": "",
+      "quote": "Faber and O'Guinn (1984) indicated that college moviegoers perceived word of mouth from friends to be more credible than movie reviews gleaned from the media."
+     },
+     {
+      "url": "https://www.researchgate.net/publication/228150567_Word-of-Mouth_for_Movies_Its_Dynamics_and_Impact_on_Box_Office_Revenue",
+      "published_date": "",
+      "quote": "The volume of word-of-mouth had a significant impact on box office revenue whereas the audience scores did not; initial word of mouth within a film's first few weeks can significantly influence box office performance."
+     },
+     {
+      "url": "https://www.toolsforfilm.com/blog/pa-spending-indie-films",
+      "published_date": "",
+      "quote": "P&A stands for prints and advertising... It covers trailers, key art, television and digital media buys, outdoor advertising and localized campaigns; the average P&A budget for wide releases is $35 million."
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Film_promotion",
+      "published_date": "",
+      "quote": "Hollywood movie distributors spend about $4 billion a year to buy paid advertising... Trailers account for 10% of marketing budgets; marketing budgets tend to equal about half the production budget."
+     }
+    ]
+   },
+   "d659a90803e018bd99cdf6b57d23a64b382af153": {
+    "holds": false,
+    "broken_premise": "The claim that a peer recommendation 'cannot be manufactured or written by a studio's marketing.' Studios routinely manufacture word-of-mouth: influencer screenings, seeding agencies, and paid first-reaction clips are an industry built precisely to produce peer-style social proof that cascades through fan communities before critics weigh in. The decisive 'buzz' a viewer treats as organic is often a bought channel.",
+    "actual_mechanism": "Research does support the writer's main thrust: audiences weight the opinions of people they know far more heavily than professional critics when deciding to buy a ticket, so a friend's 'go' is genuinely more decisive than a one-star review. But studios don't leave that channel alone — they engineer it, seeding influencers and creators whose reactions imitate a friend's endorsement and are designed to reach the 'early majority' so a film tips mainstream. What they can't do is author your specific, trusted friend's sincere text; they can only flood the surrounding feed with manufactured lookalikes of it.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://insight.kellogg.northwestern.edu/article/why-we-share-opinions-and-word-of-mouth-marketing",
+      "published_date": "unknown",
+      "quote": "respondents preferred reviews and respected the opinions more from people they knew"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Seeding_agency",
+      "published_date": "unknown",
+      "quote": "Studios are 'seeding influence at the top … and letting it cascade outward,' with the goal to hit the 'early majority' before release"
+     },
+     {
+      "url": "https://wersm.com/influencer-screenings-are-becoming-part-of-movie-marketing/",
+      "published_date": "unknown",
+      "quote": "Influencer screenings are reshaping movie marketing by turning early access into creator-led social proof before traditional review cycles begin"
+     }
+    ]
+   },
+   "4d3d82c7054c346449fb514b30dc90adc12e6664": {
+    "holds": true,
+    "broken_premise": "none",
+    "actual_mechanism": "Studios genuinely do manufacture scaled enthusiasm: they run influencer screenings before critics, pay creators $3,000–$10,000 per deal to post first-reaction clips, and 'seed' buzz designed to look spontaneous. Yet marketing research consistently finds that a personal recommendation from a close friend is the single strongest driver of moviegoing — stronger than expert critics or star ratings — so the decision really does hinge on the genuine friend signal, which by definition a studio can only imitate, not author.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://marketing-bulletin.massey.ac.nz/V25/MB_V25_A1_Hon_FINAL.pdf",
+      "published_date": "2015",
+      "quote": "Users' opinions matter more than critics' judgments in influencing movie attendance... personal recommendation by close friends, rather than parents, holds the highest significance regardless of the genre."
+     },
+     {
+      "url": "https://wersm.com/influencer-screenings-are-becoming-part-of-movie-marketing/",
+      "published_date": "2023",
+      "quote": "Studios had started screening films for influencers before critics, so that the first reactions online would come from a 'less discerning' crowd... turning early access into creator-led social proof before traditional review cycles begin."
+     },
+     {
+      "url": "https://www.researchgate.net/publication/271928113_Why_Do_Moviegoers_Go_to_the_Theater_The_Role_of_Prerelease_Media_Publicity_and_Online_Word_of_Mouth_in_Driving_Moviegoing_Behavior",
+      "published_date": "2013",
+      "quote": "word-of-mouth is confirmed as one of the strongest and most effective marketing strategies, and is at times even stronger than using stars when it comes to generating revenues associated with the number of people who watch the film."
      }
     ]
    }
@@ -636,82 +1269,636 @@
     },
     "text_hash": "a86c74101356ac0d2a94abd85d63aeb86437967d",
     "at": "2026-11-03T09:41:14.105394+00:00"
+   },
+   "b63ad5ad22d45902955fea5a1f467d16b2da9b90": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Says more than the sources: 'Film studios spend their marketing budgets on trailers, songs, promotional reaction clips (e.g. from comedians), and the timing of the release date.'. What's true: Paid advertising, not trailers/songs/reaction clips, absorbs most of a studio's marketing budget. Across the two most-cited industry studies, television advertising alone took 49-82% of spend and digital/online another 14-15%, while trailer and other promotional-content production (the category trailers, songs and reaction clips fall under) was only about 10-15% of the budget. More recent (2023) estimates still put TV+digital ads at roughly 60-80% combined versus a small content-production share. So studios do make and use trailers, songs, reaction clips and release-date timing, but these are a minor line item next to paid TV/digital/outdoor advertising, which the claim omits entirely..",
+     "Wrong: 'A film critic cannot be paid or bribed by a studio to give a favorable review.'. What's true: Film critics and reviews CAN be and have been paid/bribed by or on behalf of studios. Sony Pictures was caught fabricating a fictitious critic ('David Manning') who praised its films in ads — the studio admitted it and later paid about $1.5 million to settle a resulting class-action suit. Separately, a PR firm (Bunker 15) was reported in 2023 to be paying real critics roughly $50 per review to flip films like 'Ophelia' from 'rotten' to 'fresh' on Rotten Tomatoes, and its founder acknowledged that 'a small handful have set up a specific system where filmmakers can sponsor or pay to have them review a film.' This is against journalistic ethics and carries legal/reputational risk, but it is not impossible and has happened more than once.."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Film studios spend their marketing budgets on trailers, songs, promotional reaction clips (e.g. from comedians), and the timing of the release date.",
+      "sentence": "The trailer, the song, the comedian's reaction clip, the perfect release date. That's where the money went.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "A film critic cannot be paid or bribed by a studio to give a favorable review.",
+      "sentence": "A critic can't be bought.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "The post's central argument: because critics cannot be bought (so studios spend their money on trailers, songs and release-date marketing instead) while a friend's recommendation costs nothing, a friend's word-of-mouth opinion influences a person's decision to book a movie ticket more than a critic's review does.",
+      "sentence": "A critic can't be bought. A friend's text costs them nothing, so that's the room they furnish. You still read every review. You just don't let one stranger's taste pick your seat.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "misframed",
+      "event_date": "N/A — ongoing industry practice, not a dated event",
+      "correct": "Paid advertising, not trailers/songs/reaction clips, absorbs most of a studio's marketing budget. Across the two most-cited industry studies, television advertising alone took 49-82% of spend and digital/online another 14-15%, while trailer and other promotional-content production (the category trailers, songs and reaction clips fall under) was only about 10-15% of the budget. More recent (2023) estimates still put TV+digital ads at roughly 60-80% combined versus a small content-production share. So studios do make and use trailers, songs, reaction clips and release-date timing, but these are a minor line item next to paid TV/digital/outdoor advertising, which the claim omits entirely.",
+      "sources": [
+       {
+        "url": "https://www.marketingdive.com/news/digital-represents-14-of-movie-ad-budgets-but-drives-46-of-revenue-study/544253/",
+        "publisher": "Marketing Dive",
+        "published_date": "2018-12-13",
+        "quote": "TV accounted for 82% of marketing budgets... the study analyzed more than 70 U.S. movies... representing $1.8 billion in total marketing spend",
+        "tier": 2
+       },
+       {
+        "url": "https://stephenfollows.com/p/how-are-movie-advertising-budgets-spent",
+        "publisher": "Stephen Follows (film industry data analyst, using Nielsen Media Research data)",
+        "published_date": "2019-03-18",
+        "quote": "Television: 49% ... Outdoor (posters, transit ads): 28% ... Online (digital, social media): 15% ... television advertisements remain dominant despite declining from 58% in 2009",
+        "tier": 3
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "contradicted",
+      "event_date": "2001-06-01",
+      "correct": "Film critics and reviews CAN be and have been paid/bribed by or on behalf of studios. Sony Pictures was caught fabricating a fictitious critic ('David Manning') who praised its films in ads — the studio admitted it and later paid about $1.5 million to settle a resulting class-action suit. Separately, a PR firm (Bunker 15) was reported in 2023 to be paying real critics roughly $50 per review to flip films like 'Ophelia' from 'rotten' to 'fresh' on Rotten Tomatoes, and its founder acknowledged that 'a small handful have set up a specific system where filmmakers can sponsor or pay to have them review a film.' This is against journalistic ethics and carries legal/reputational risk, but it is not impossible and has happened more than once.",
+      "sources": [
+       {
+        "url": "https://www.cbsnews.com/news/sony-pays-for-fake-reviews/",
+        "publisher": "CBS News",
+        "published_date": "2002-03-12",
+        "quote": "Someone at Sony concocted glowing blurbs from the fictitious reviewer, a studio spokeswoman later admitted.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.seattletimes.com/entertainment/sony-pictures-to-pay-15-million-to-settle-suit-over-movie-ads/",
+        "publisher": "Seattle Times",
+        "published_date": "2005-08-04",
+        "quote": "Sony Pictures to pay $1.5 million to settle suit over movie ads [citing fictitious critic David Manning]",
+        "tier": 2
+       },
+       {
+        "url": "https://www.thedailybeast.com/rotten-tomatoes-quietly-buried-film-at-center-of-expose/",
+        "publisher": "The Daily Beast (reporting Vulture's investigation)",
+        "published_date": "2023-09-07",
+        "quote": "Allegedly, the PR company has been paying critics $50 or more for each review... after Bunker 15 reportedly started paying critics to review Ophelia, the film's Tomatometer ranking climbed to a 'fresh' 62 percent.",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "",
+     "actual_mechanism": "Studios do pour the bulk of their budget into controllable demand-generation — P&A (prints and advertising) for wide releases averages ~$35M and major-studio marketing runs $50-100M per film, with trailers, songs and release-date timing being where that money goes, precisely because reviews are exogenous and marketing is not. Research consistently finds moviegoers rate a friend's word-of-mouth as more credible and useful than a critic's review, and that word-of-mouth volume drives opening and cumulative box office while critic reviews correlate mainly with later/cumulative receipts and exert weaker influence on wide releases. So the premises about where the money goes and about peer influence beating critic influence on the booking decision hold, and the conclusion follows.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://dr.lib.iastate.edu/server/api/core/bitstreams/e5ac26ad-02e9-4de1-85f9-85bc665f7a71/content",
+       "published_date": "",
+       "quote": "Faber and O'Guinn (1984) indicated that college moviegoers perceived word of mouth from friends to be more credible than movie reviews gleaned from the media."
+      },
+      {
+       "url": "https://www.researchgate.net/publication/228150567_Word-of-Mouth_for_Movies_Its_Dynamics_and_Impact_on_Box_Office_Revenue",
+       "published_date": "",
+       "quote": "The volume of word-of-mouth had a significant impact on box office revenue whereas the audience scores did not; initial word of mouth within a film's first few weeks can significantly influence box office performance."
+      },
+      {
+       "url": "https://www.toolsforfilm.com/blog/pa-spending-indie-films",
+       "published_date": "",
+       "quote": "P&A stands for prints and advertising... It covers trailers, key art, television and digital media buys, outdoor advertising and localized campaigns; the average P&A budget for wide releases is $35 million."
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Film_promotion",
+       "published_date": "",
+       "quote": "Hollywood movie distributors spend about $4 billion a year to buy paid advertising... Trailers account for 10% of marketing budgets; marketing budgets tend to equal about half the production budget."
+      }
+     ]
+    },
+    "text_hash": "b63ad5ad22d45902955fea5a1f467d16b2da9b90",
+    "at": "2026-11-03T09:55:48.257466+00:00"
+   },
+   "372560538939e895ed587371010465edeb9478a4": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "The take's premise is wrong: The claim that a peer recommendation 'cannot be manufactured or written by a studio's marketing.' Studios routinely manufacture word-of-mouth: influencer screenings, seeding agencies, and paid first-reaction clips are an industry built precisely to produce peer-style social proof that cascades through fan communities before critics weigh in. The decisive 'buzz' a viewer treats as organic is often a bought channel.. How it actually works: Research does support the writer's main thrust: audiences weight the opinions of people they know far more heavily than professional critics when deciding to buy a ticket, so a friend's 'go' is genuinely more decisive than a one-star review. But studios don't leave that channel alone — they engineer it, seeding influencers and creators whose reactions imitate a friend's endorsement and are designed to reach the 'early majority' so a film tips mainstream. What they can't do is author your specific, trusted friend's sincere text; they can only flood the surrounding feed with manufactured lookalikes of it. Rebuild the post on the correct mechanism."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "A friend's personal recommendation to watch a film is what actually drives someone to book a ticket, and that kind of endorsement cannot be manufactured or written by a studio's marketing.",
+      "sentence": "Because the one thing that books your seat, a friend's 'go', is the one line a studio can't write for you.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {},
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "The claim that a peer recommendation 'cannot be manufactured or written by a studio's marketing.' Studios routinely manufacture word-of-mouth: influencer screenings, seeding agencies, and paid first-reaction clips are an industry built precisely to produce peer-style social proof that cascades through fan communities before critics weigh in. The decisive 'buzz' a viewer treats as organic is often a bought channel.",
+     "actual_mechanism": "Research does support the writer's main thrust: audiences weight the opinions of people they know far more heavily than professional critics when deciding to buy a ticket, so a friend's 'go' is genuinely more decisive than a one-star review. But studios don't leave that channel alone — they engineer it, seeding influencers and creators whose reactions imitate a friend's endorsement and are designed to reach the 'early majority' so a film tips mainstream. What they can't do is author your specific, trusted friend's sincere text; they can only flood the surrounding feed with manufactured lookalikes of it.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://insight.kellogg.northwestern.edu/article/why-we-share-opinions-and-word-of-mouth-marketing",
+       "published_date": "unknown",
+       "quote": "respondents preferred reviews and respected the opinions more from people they knew"
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Seeding_agency",
+       "published_date": "unknown",
+       "quote": "Studios are 'seeding influence at the top … and letting it cascade outward,' with the goal to hit the 'early majority' before release"
+      },
+      {
+       "url": "https://wersm.com/influencer-screenings-are-becoming-part-of-movie-marketing/",
+       "published_date": "unknown",
+       "quote": "Influencer screenings are reshaping movie marketing by turning early access into creator-led social proof before traditional review cycles begin"
+      }
+     ]
+    },
+    "text_hash": "372560538939e895ed587371010465edeb9478a4",
+    "at": "2026-11-03T09:58:42.964280+00:00"
+   },
+   "4d295467a2e0057d319ce2f6fccef139113d77d2": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not verify: 'Film marketing assets such as trailers, songs, and paid reaction clips are produced with the specific intent of being shared into or landing inside viewers' private group chats.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Studios are unable to fabricate or produce a genuine, personal text message from a viewer's own friend recommending the film.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Studios cannot write or fabricate an actual friend's sincere personal text endorsing the film.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Film studios/production houses pay content creators to produce 'first-reaction' promotional video clips for films.",
+      "sentence": "The trailer, the song, the paid first-reaction clip from a creator who talks exactly like a friend.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "These paid first-reaction creators adopt a tone and manner designed to sound like a genuine friend's recommendation rather than an ad.",
+      "sentence": "The trailer, the song, the paid first-reaction clip from a creator who talks exactly like a friend.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Film marketing assets such as trailers, songs, and paid reaction clips are produced with the specific intent of being shared into or landing inside viewers' private group chats.",
+      "sentence": "All of it is built to land in your group chat.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Studios have the capacity to produce and distribute large volumes of content showing strangers reacting with enthusiasm, saturating viewers' social media feeds.",
+      "sentence": "Studios can flood your feed with strangers acting thrilled.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Studios are unable to fabricate or produce a genuine, personal text message from a viewer's own friend recommending the film.",
+      "sentence": "What they can't write is the one text that actually moves you: your friend's own 'go, it's timepass'.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Studios deliberately create 'lookalike' reaction clips engineered to imitate the appearance of organic, friend-like reactions.",
+      "sentence": "Studios seed lookalike reaction clips to imitate it, but they can't write your actual friend's sincere text.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "Studios cannot write or fabricate an actual friend's sincere personal text endorsing the film.",
+      "sentence": "Studios seed lookalike reaction clips to imitate it, but they can't write your actual friend's sincere text.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c8",
+      "text": "Studios can manufacture scaled, paid, lookalike signals of enthusiasm (trailers, songs, paid first-reaction clips, seeded lookalike reaction clips) engineered to mimic genuine friend recommendations and spread through group chats, but they cannot manufacture an actual friend's sincere personal recommendation — and it is this unfabricatable, genuine friend signal, not the critic's review or the studio's manufactured buzz, that actually moves a viewer's decision to watch.",
+      "sentence": "The trailer, the song, the paid first-reaction clip from a creator who talks exactly like a friend. All of it is built to land in your group chat. Studios can flood your feed with strangers acting thrilled. What they can't write is the one text that actually moves you: your friend's own 'go, it's timepass'. Studios seed lookalike reaction clips to imitate it, but they can't write your actual friend's sincere text.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2025-03-07",
+      "correct": "Indian production houses and PR firms routinely pay content creators/influencers for premiere-day and pre-release reaction/review content; this is a documented, continuing industry practice (not just 'reviews' in the written sense but creator reaction/post content tied to releases).",
+      "sources": [
+       {
+        "url": "https://www.aljazeera.com/economy/2025/3/7/how-the-business-of-buying-movie-reviews-is-destroying",
+        "publisher": "Al Jazeera",
+        "published_date": "2025-03-07",
+        "quote": "To manufacture hype, [the studio] turned to paid promotions, with influencers flooding social media with pre-drafted praise... a senior executive with Yash Raj Films revealed that 70-80 percent of these reviews are paid reviews.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2025/11/19/india039s-bollywood-battles-paid-reviews-and-fake-sale-claims",
+        "publisher": "AFP (via The Star)",
+        "published_date": "2025-11-19",
+        "quote": "If you don't engage these influencers and critics, they will write bad reviews, even if the film is good.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.socialsamosa.com/report/creator-led-promotions-rs-250-crore-indian-film-marketing-2025-10960867",
+        "publisher": "Social Samosa",
+        "published_date": "2025-12-31",
+        "quote": "Creator-led promotions... crossed Rs 250 crore in Indian film marketing in 2025... meme pages, fan edits, reaction videos, and interview creators.",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2025-03-07",
+      "correct": "Paid creator content for films is deliberately scripted/seeded to look organic and friend-like rather than disclosed advertising, per industry sources.",
+      "sources": [
+       {
+        "url": "https://www.socialsamosa.com/report/creator-led-promotions-rs-250-crore-indian-film-marketing-2025-10960867",
+        "publisher": "Social Samosa (quoting Qoruz CEO)",
+        "published_date": "2025-12-31",
+        "quote": "a lot of movie buzz looks organic from the outside, even when there's real spend behind it... money flows through seeding networks and local promotions rather than official brand invoices.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.aljazeera.com/economy/2025/3/7/how-the-business-of-buying-movie-reviews-is-destroying",
+        "publisher": "Al Jazeera",
+        "published_date": "2025-03-07",
+        "quote": "influencers flooding social media with pre-drafted praise",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "unverifiable",
+      "event_date": null,
+      "correct": "No primary source, studio statement, or major outlet investigation was found that confirms trailers/songs/paid reaction clips are built with the specific, stated intent of being forwarded into private group chats (as opposed to being optimized for public feeds/shares generally). This is a plausible inference but not a documented, sourceable fact.",
+      "sources": []
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "2025-12-31",
+      "correct": "Studios/creator-marketing agencies generate very high volumes of creator reaction/promo content per film, documented at industry scale.",
+      "sources": [
+       {
+        "url": "https://www.socialsamosa.com/report/creator-led-promotions-rs-250-crore-indian-film-marketing-2025-10960867",
+        "publisher": "Social Samosa",
+        "published_date": "2025-12-31",
+        "quote": "610,000+ posts generated by creators and meme makers... 2 billion+ engagements... roughly 400 creator-led posts per film on average.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.buzzincontent.com/insight/creator-led-movie-promotions-in-india-cross-rs-250-crore-in-2025-10964836",
+        "publisher": "BuzzInContent",
+        "published_date": "2026-01-02",
+        "quote": "Rs 250 crore spent on creator-led entertainment promotions in 2025; 610,000+ movie-related posts... 2.0 billion engagements.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.aljazeera.com/economy/2025/3/7/how-the-business-of-buying-movie-reviews-is-destroying",
+        "publisher": "Al Jazeera",
+        "published_date": "2025-03-07",
+        "quote": "influencers flooding social media with pre-drafted praise",
+        "tier": 2
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "unverifiable",
+      "event_date": null,
+      "correct": "This is a definitional/logical claim (a fabricated message cannot be a 'genuine' message from the viewer's actual friend) rather than an empirical one that a source could confirm or refute. No report addresses studios attempting to impersonate a specific viewer's real-life friend.",
+      "sources": []
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "supported",
+      "event_date": "2025-03-07",
+      "correct": "Industry sources confirm paid creator content is designed/seeded to resemble organic, friend-like enthusiasm rather than advertising.",
+      "sources": [
+       {
+        "url": "https://www.socialsamosa.com/report/creator-led-promotions-rs-250-crore-indian-film-marketing-2025-10960867",
+        "publisher": "Social Samosa (quoting Qoruz CEO)",
+        "published_date": "2025-12-31",
+        "quote": "a lot of movie buzz looks organic from the outside, even when there's real spend behind it",
+        "tier": 2
+       },
+       {
+        "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2025/11/19/india039s-bollywood-battles-paid-reviews-and-fake-sale-claims",
+        "publisher": "AFP (via The Star)",
+        "published_date": "2025-11-19",
+        "quote": "Everything is bought and manipulated.",
+        "tier": 2
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "unverifiable",
+      "event_date": null,
+      "correct": "Same logical/definitional claim as c5, restated; not independently checkable against a source.",
+      "sources": []
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "none",
+     "actual_mechanism": "Studios genuinely do manufacture scaled enthusiasm: they run influencer screenings before critics, pay creators $3,000–$10,000 per deal to post first-reaction clips, and 'seed' buzz designed to look spontaneous. Yet marketing research consistently finds that a personal recommendation from a close friend is the single strongest driver of moviegoing — stronger than expert critics or star ratings — so the decision really does hinge on the genuine friend signal, which by definition a studio can only imitate, not author.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://marketing-bulletin.massey.ac.nz/V25/MB_V25_A1_Hon_FINAL.pdf",
+       "published_date": "2015",
+       "quote": "Users' opinions matter more than critics' judgments in influencing movie attendance... personal recommendation by close friends, rather than parents, holds the highest significance regardless of the genre."
+      },
+      {
+       "url": "https://wersm.com/influencer-screenings-are-becoming-part-of-movie-marketing/",
+       "published_date": "2023",
+       "quote": "Studios had started screening films for influencers before critics, so that the first reactions online would come from a 'less discerning' crowd... turning early access into creator-led social proof before traditional review cycles begin."
+      },
+      {
+       "url": "https://www.researchgate.net/publication/271928113_Why_Do_Moviegoers_Go_to_the_Theater_The_Role_of_Prerelease_Media_Publicity_and_Online_Word_of_Mouth_in_Driving_Moviegoing_Behavior",
+       "published_date": "2013",
+       "quote": "word-of-mouth is confirmed as one of the strongest and most effective marketing strategies, and is at times even stronger than using stars when it comes to generating revenues associated with the number of people who watch the film."
+      }
+     ]
+    },
+    "text_hash": "4d295467a2e0057d319ce2f6fccef139113d77d2",
+    "at": "2026-11-03T10:04:59.222891+00:00"
    }
+  },
+  "Film studios spend their marketing budgets on trailers, songs, promotional reaction clips (e.g. from comedians), and the timing of the release date.": {
+   "id": "c1",
+   "verdict": "misframed",
+   "event_date": "N/A — ongoing industry practice, not a dated event",
+   "correct": "Paid advertising, not trailers/songs/reaction clips, absorbs most of a studio's marketing budget. Across the two most-cited industry studies, television advertising alone took 49-82% of spend and digital/online another 14-15%, while trailer and other promotional-content production (the category trailers, songs and reaction clips fall under) was only about 10-15% of the budget. More recent (2023) estimates still put TV+digital ads at roughly 60-80% combined versus a small content-production share. So studios do make and use trailers, songs, reaction clips and release-date timing, but these are a minor line item next to paid TV/digital/outdoor advertising, which the claim omits entirely.",
+   "sources": [
+    {
+     "url": "https://www.marketingdive.com/news/digital-represents-14-of-movie-ad-budgets-but-drives-46-of-revenue-study/544253/",
+     "publisher": "Marketing Dive",
+     "published_date": "2018-12-13",
+     "quote": "TV accounted for 82% of marketing budgets... the study analyzed more than 70 U.S. movies... representing $1.8 billion in total marketing spend",
+     "tier": 2
+    },
+    {
+     "url": "https://stephenfollows.com/p/how-are-movie-advertising-budgets-spent",
+     "publisher": "Stephen Follows (film industry data analyst, using Nielsen Media Research data)",
+     "published_date": "2019-03-18",
+     "quote": "Television: 49% ... Outdoor (posters, transit ads): 28% ... Online (digital, social media): 15% ... television advertisements remain dominant despite declining from 58% in 2009",
+     "tier": 3
+    }
+   ]
+  },
+  "A film critic cannot be paid or bribed by a studio to give a favorable review.": {
+   "id": "c2",
+   "verdict": "contradicted",
+   "event_date": "2001-06-01",
+   "correct": "Film critics and reviews CAN be and have been paid/bribed by or on behalf of studios. Sony Pictures was caught fabricating a fictitious critic ('David Manning') who praised its films in ads — the studio admitted it and later paid about $1.5 million to settle a resulting class-action suit. Separately, a PR firm (Bunker 15) was reported in 2023 to be paying real critics roughly $50 per review to flip films like 'Ophelia' from 'rotten' to 'fresh' on Rotten Tomatoes, and its founder acknowledged that 'a small handful have set up a specific system where filmmakers can sponsor or pay to have them review a film.' This is against journalistic ethics and carries legal/reputational risk, but it is not impossible and has happened more than once.",
+   "sources": [
+    {
+     "url": "https://www.cbsnews.com/news/sony-pays-for-fake-reviews/",
+     "publisher": "CBS News",
+     "published_date": "2002-03-12",
+     "quote": "Someone at Sony concocted glowing blurbs from the fictitious reviewer, a studio spokeswoman later admitted.",
+     "tier": 2
+    },
+    {
+     "url": "https://www.seattletimes.com/entertainment/sony-pictures-to-pay-15-million-to-settle-suit-over-movie-ads/",
+     "publisher": "Seattle Times",
+     "published_date": "2005-08-04",
+     "quote": "Sony Pictures to pay $1.5 million to settle suit over movie ads [citing fictitious critic David Manning]",
+     "tier": 2
+    },
+    {
+     "url": "https://www.thedailybeast.com/rotten-tomatoes-quietly-buried-film-at-center-of-expose/",
+     "publisher": "The Daily Beast (reporting Vulture's investigation)",
+     "published_date": "2023-09-07",
+     "quote": "Allegedly, the PR company has been paying critics $50 or more for each review... after Bunker 15 reportedly started paying critics to review Ophelia, the film's Tomatometer ranking climbed to a 'fresh' 62 percent.",
+     "tier": 2
+    }
+   ]
+  },
+  "Film studios/production houses pay content creators to produce 'first-reaction' promotional video clips for films.": {
+   "id": "c1",
+   "verdict": "supported",
+   "event_date": "2025-03-07",
+   "correct": "Indian production houses and PR firms routinely pay content creators/influencers for premiere-day and pre-release reaction/review content; this is a documented, continuing industry practice (not just 'reviews' in the written sense but creator reaction/post content tied to releases).",
+   "sources": [
+    {
+     "url": "https://www.aljazeera.com/economy/2025/3/7/how-the-business-of-buying-movie-reviews-is-destroying",
+     "publisher": "Al Jazeera",
+     "published_date": "2025-03-07",
+     "quote": "To manufacture hype, [the studio] turned to paid promotions, with influencers flooding social media with pre-drafted praise... a senior executive with Yash Raj Films revealed that 70-80 percent of these reviews are paid reviews.",
+     "tier": 2
+    },
+    {
+     "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2025/11/19/india039s-bollywood-battles-paid-reviews-and-fake-sale-claims",
+     "publisher": "AFP (via The Star)",
+     "published_date": "2025-11-19",
+     "quote": "If you don't engage these influencers and critics, they will write bad reviews, even if the film is good.",
+     "tier": 2
+    },
+    {
+     "url": "https://www.socialsamosa.com/report/creator-led-promotions-rs-250-crore-indian-film-marketing-2025-10960867",
+     "publisher": "Social Samosa",
+     "published_date": "2025-12-31",
+     "quote": "Creator-led promotions... crossed Rs 250 crore in Indian film marketing in 2025... meme pages, fan edits, reaction videos, and interview creators.",
+     "tier": 2
+    }
+   ]
+  },
+  "These paid first-reaction creators adopt a tone and manner designed to sound like a genuine friend's recommendation rather than an ad.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": "2025-03-07",
+   "correct": "Paid creator content for films is deliberately scripted/seeded to look organic and friend-like rather than disclosed advertising, per industry sources.",
+   "sources": [
+    {
+     "url": "https://www.socialsamosa.com/report/creator-led-promotions-rs-250-crore-indian-film-marketing-2025-10960867",
+     "publisher": "Social Samosa (quoting Qoruz CEO)",
+     "published_date": "2025-12-31",
+     "quote": "a lot of movie buzz looks organic from the outside, even when there's real spend behind it... money flows through seeding networks and local promotions rather than official brand invoices.",
+     "tier": 2
+    },
+    {
+     "url": "https://www.aljazeera.com/economy/2025/3/7/how-the-business-of-buying-movie-reviews-is-destroying",
+     "publisher": "Al Jazeera",
+     "published_date": "2025-03-07",
+     "quote": "influencers flooding social media with pre-drafted praise",
+     "tier": 2
+    }
+   ]
+  },
+  "Film marketing assets such as trailers, songs, and paid reaction clips are produced with the specific intent of being shared into or landing inside viewers' private group chats.": {
+   "id": "c3",
+   "verdict": "unverifiable",
+   "event_date": null,
+   "correct": "No primary source, studio statement, or major outlet investigation was found that confirms trailers/songs/paid reaction clips are built with the specific, stated intent of being forwarded into private group chats (as opposed to being optimized for public feeds/shares generally). This is a plausible inference but not a documented, sourceable fact.",
+   "sources": []
+  },
+  "Studios have the capacity to produce and distribute large volumes of content showing strangers reacting with enthusiasm, saturating viewers' social media feeds.": {
+   "id": "c4",
+   "verdict": "supported",
+   "event_date": "2025-12-31",
+   "correct": "Studios/creator-marketing agencies generate very high volumes of creator reaction/promo content per film, documented at industry scale.",
+   "sources": [
+    {
+     "url": "https://www.socialsamosa.com/report/creator-led-promotions-rs-250-crore-indian-film-marketing-2025-10960867",
+     "publisher": "Social Samosa",
+     "published_date": "2025-12-31",
+     "quote": "610,000+ posts generated by creators and meme makers... 2 billion+ engagements... roughly 400 creator-led posts per film on average.",
+     "tier": 2
+    },
+    {
+     "url": "https://www.buzzincontent.com/insight/creator-led-movie-promotions-in-india-cross-rs-250-crore-in-2025-10964836",
+     "publisher": "BuzzInContent",
+     "published_date": "2026-01-02",
+     "quote": "Rs 250 crore spent on creator-led entertainment promotions in 2025; 610,000+ movie-related posts... 2.0 billion engagements.",
+     "tier": 2
+    },
+    {
+     "url": "https://www.aljazeera.com/economy/2025/3/7/how-the-business-of-buying-movie-reviews-is-destroying",
+     "publisher": "Al Jazeera",
+     "published_date": "2025-03-07",
+     "quote": "influencers flooding social media with pre-drafted praise",
+     "tier": 2
+    }
+   ]
+  },
+  "Studios are unable to fabricate or produce a genuine, personal text message from a viewer's own friend recommending the film.": {
+   "id": "c5",
+   "verdict": "unverifiable",
+   "event_date": null,
+   "correct": "This is a definitional/logical claim (a fabricated message cannot be a 'genuine' message from the viewer's actual friend) rather than an empirical one that a source could confirm or refute. No report addresses studios attempting to impersonate a specific viewer's real-life friend.",
+   "sources": []
+  },
+  "Studios deliberately create 'lookalike' reaction clips engineered to imitate the appearance of organic, friend-like reactions.": {
+   "id": "c6",
+   "verdict": "supported",
+   "event_date": "2025-03-07",
+   "correct": "Industry sources confirm paid creator content is designed/seeded to resemble organic, friend-like enthusiasm rather than advertising.",
+   "sources": [
+    {
+     "url": "https://www.socialsamosa.com/report/creator-led-promotions-rs-250-crore-indian-film-marketing-2025-10960867",
+     "publisher": "Social Samosa (quoting Qoruz CEO)",
+     "published_date": "2025-12-31",
+     "quote": "a lot of movie buzz looks organic from the outside, even when there's real spend behind it",
+     "tier": 2
+    },
+    {
+     "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2025/11/19/india039s-bollywood-battles-paid-reviews-and-fake-sale-claims",
+     "publisher": "AFP (via The Star)",
+     "published_date": "2025-11-19",
+     "quote": "Everything is bought and manipulated.",
+     "tier": 2
+    }
+   ]
+  },
+  "Studios cannot write or fabricate an actual friend's sincere personal text endorsing the film.": {
+   "id": "c7",
+   "verdict": "unverifiable",
+   "event_date": null,
+   "correct": "Same logical/definitional claim as c5, restated; not independently checkable against a source.",
+   "sources": []
   }
  },
  "draft": {
   "cover": {
-   "headline": "Bad reviews don't kill films. [One friend's text] does.",
-   "sub": "The review is open, your thumb is hovering. You read every word anyway."
+   "headline": "You read the one-star review, then [book the 9 pm show]",
+   "sub": "The critic and your group chat want two different things from you."
   },
   "slides": [
    {
     "paragraphs": [
-     "Bad reviews don't kill films. One friend's text does.",
+     "You read the one-star review, then book the 9 pm show.",
      "Swipe to read →"
     ],
-    "why_swipe": "The reader wants to know how a bad review loses to a text."
+    "why_swipe": "You've just been told to skip it. So what do you do next?"
    },
    {
     "paragraphs": [
-     "It's evening. The review sits open on your phone. Two stars, maybe one. A second half that drags, a climax borrowed from Baahubali.",
-     "You read all of it anyway."
+     "Then the group chat lights up before the one-star review even finishes loading. 'Timepass hai, 9 baje aa ja.'",
+     "You've already made up your mind. You book four seats, aisle."
     ],
-    "why_swipe": "If the review is that bad, what makes them still consider going?"
+    "why_swipe": "So the review lost. Or did it even get a vote?"
    },
    {
     "paragraphs": [
-     "You close the tab, half-decided to skip it. Your thumb is still hovering when the friend who caught the matinee texts. 'Story is bakwaas but Sunil Grover is funny. Timepass hai, go.'",
-     "You open BookMyShow before you've finished reading it."
-    ],
-    "why_swipe": "So the critic lost. What was the review even for, then?"
-   },
-   {
-    "paragraphs": [
-     "9 pm. Seat H14, popcorn warm in your lap, the smell of someone's samosa three rows down.",
-     "At six you half-believed the critic. By nine you'd handed your evening to a trailer and one text instead."
+     "The review didn't lose. You kept the tab open under the table through dinner, the phone buzzing against the wood. You read one-handed over the clatter of plates. Half annoyed you even bothered."
     ],
     "why_swipe": "what happens next?"
    },
    {
     "paragraphs": [
-     "The one-star review didn't stop you. It just handed you something to argue about in the car on the way home."
+     "You read it again after the film, to fight the friend who loved it.",
+     "It was never advice before the show. It was ammo for the argument after, the line you'd pull out mid-fight."
     ],
-    "why_swipe": "If reviews don't decide tickets anymore, who figured that out and cashed in?"
+    "why_swipe": "If nobody listens to critics before booking, where did all the noise come from?"
    },
    {
     "paragraphs": [
-     "A critic is one stranger's taste you've never met. Your friend is a person you already trust. Studios clocked this long ago.",
-     "So the money goes into the trailer, the songs and the release date. Only about one in five critics liked Vvaan, and it still pulled ₹33.25 crore over its opening weekend."
+     "The trailer, the song, the paid first-reaction clip from a creator who talks exactly like a friend. All of it is built to land in your group chat."
     ],
-    "why_swipe": "Does this actually hold for the reader's own life, or just this one film?"
+    "why_swipe": "what happens next?"
    },
    {
     "paragraphs": [
-     "Try it on yourself. Name the last film you skipped because a critic trashed it. Take your time.",
-     "Now name the last one you skipped because a friend texted 'don't bother.' That one came faster, didn't it."
+     "Studios can flood your feed with strangers acting thrilled. What they can't write is the one text that actually moves you: your friend's own 'go, it's timepass'.",
+     "You still read every review. You just don't let one stranger's taste pick your seat."
+    ],
+    "why_swipe": "So where does that leave the review in your life?"
+   },
+   {
+    "paragraphs": [
+     "Name the last film a critic killed for you.",
+     "Now name the last one a friend's 'don't bother, yaar' killed.",
+     "**The second name came first.**"
     ]
    }
   ],
   "end": {
-   "save": "Open this the next time a one-star review is up and your thumb is already on the booking button.",
-   "send": "Send to the friend who reads every review out loud and still books the first-day-first-show.",
+   "save": "Open this the next time a review tells you to skip the Saturday show.",
+   "send": "Send to the friend who reads every review out loud and then books first-day, first-show.",
    "promise": "How things really get sold to us."
   },
-  "caption": "What's the last film you booked despite a brutal review, and whose text made you do it?",
+  "caption": "Which film did a critic warn you off, that your group chat talked you right back into?",
   "hashtags": [
-   "#VvaanBoxOffice",
+   "#BoxOffice",
    "#FilmReviews",
    "#WordOfMouth",
    "#BollywoodBoxOffice"
   ],
-  "alt_text": "A seven-slide carousel arguing that bad reviews no longer decide ticket sales. It follows a reader reading a one-star review in the evening, getting a friend's text, and booking the show anyway. It notes that only about one in five critics liked Vvaan, which still took ₹33.25 crore over its opening weekend, and ends with a test comparing films skipped for a review versus for a friend's warning.",
-  "claims": [
-   {
-    "text": "Vvaan earned ₹33.25 crore net over its three-day opening weekend despite mixed-to-negative reviews, with only about one in five critic reviews positive.",
-    "source_url": "https://gulfnews.com/entertainment/vvaan-box-office-collection-sidharth-malhotra-scores-his-biggest-opening-weekend-since-2015-1.500690252"
-   }
-  ],
+  "alt_text": "A six-slide carousel about reading a bad film review and booking the ticket anyway. It walks through reading a one-star verdict at 6 pm, a friend's text in the group chat, booking the show, using the review to argue after the film, and the point that a friend's recommendation beats a critic's star rating. Studios seed lookalike reaction clips to imitate it, but they can't write your actual friend's sincere text.",
+  "claims": [],
   "caption_style": "question"
  }
 }

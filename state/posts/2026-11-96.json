@@ -1,7 +1,7 @@
 {
  "id": "2026-11-96",
- "status": "planned",
- "due": "2026-11-24T20:30:00+05:30",
+ "status": "written",
+ "due": "2026-11-05T20:30:00+05:30",
  "format": "carousel",
  "topic": {
   "title": "We review a film by its second half",
@@ -54,6 +54,301 @@
   "villain": "an attention-fatigue effect where tired eyes judge the ending the hardest",
   "story_type": "teaching"
  },
- "history": [],
- "updated_at": "2026-11-03T09:03:57.909316+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 6: \"Try it next time. Write the review in your head at the interval. Write it again in the parking lot.\" is an imperative lecture (\"do this\" / \"Checkout rule:\" pattern the rules explicitly ban), not a test the reader discovers for themselves — this fails the payoff requirement."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 3,
+     "voice": 3,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "Slide 6: rewrite \"Try it next time\" as an observation or a sting the reader recognizes in themselves (e.g. show the two verdicts and let the gap speak), not a command — the persona's \"you\" never coaches.",
+     "Cover headline: \"forgiven a slow start, never a slow ending\" is a mirrored-pair construction (engineered rhetoric, on the never-list). State the claim plainly without the parallel \"X, never Y\" scaffolding.",
+     "Slides 4 and 5 overlap: slide 4 already shows the unfair argument (ending gets blamed, laughter forgotten); slide 5 re-establishes \"the first half was genuinely great, you know it was\" before giving the mechanism. Cut the restatement and let slide 5 open straight with the mechanism (why tired attention judges the ending hardest) so it adds something slide 4 didn't.",
+     "Slide 3: \"tired, bored, half-watching\" is an adjective pile — the account's voice wants one sharp concrete detail over a stacked list; keep the phone-check beat and drop the adjectives."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Slide 6: \"Try it next time. Write the review in your head at the interval. Write it again in the parking lot.\" is an imperative lecture (\"do this\" / \"Checkout rule:\" pattern the rules explicitly ban), not a test the reader discovers for themselves — this fails the payoff requirement.",
+    "Slide 6: rewrite \"Try it next time\" as an observation or a sting the reader recognizes in themselves (e.g. show the two verdicts and let the gap speak), not a command — the persona's \"you\" never coaches.",
+    "Cover headline: \"forgiven a slow start, never a slow ending\" is a mirrored-pair construction (engineered rhetoric, on the never-list). State the claim plainly without the parallel \"X, never Y\" scaffolding.",
+    "Slides 4 and 5 overlap: slide 4 already shows the unfair argument (ending gets blamed, laughter forgotten); slide 5 re-establishes \"the first half was genuinely great, you know it was\" before giving the mechanism. Cut the restatement and let slide 5 open straight with the mechanism (why tired attention judges the ending hardest) so it adds something slide 4 didn't.",
+    "Slide 3: \"tired, bored, half-watching\" is an adjective pile — the account's voice wants one sharp concrete detail over a stacked list; keep the phone-check beat and drop the adjectives."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 5,
+     "tight": 4
+    },
+    "notes": [
+     "Slide 5: 'Attention drops after the interval. The climax has to do the most work with the least goodwill left.' reads like a flat explainer sentence rather than a person talking. Rephrase as an observation in the writer's own cadence (concrete detail + punch) so it doesn't sound like a textbook mechanism dropped into the middle of a story.",
+     "Slide 6 restates slide 4's beat (nobody mentions the good hour, only the ending gets discussed) before adding the new two-verdict framing. Cut the first sentence and open straight on 'At the interval your verdict is...' so the slide adds only new information instead of re-walking ground already covered.",
+     "eq sits at the floor (3) for a 'funny/unfair' post — the sting is intellectual (a system is unfair) but nothing in the scene stings the reader personally. Consider one beat where the reader's own enthusiasm from the first hour gets flattened in real time (a flicker of defensiveness when the group pivots to the ending) to make the unfairness land as a feeling, not just an argument.",
+     "The phrase 'paisa vasool, pakka' is reused verbatim in slide 6 as a callback — intentional, but check it doesn't read as the exact same line rather than an echo; a small variation (e.g., reader mentally replaying their own first-hour verdict) would make the contrast sharper without losing the callback."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "verification": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Audience attention and goodwill decline after the interval, so a comedy's climax has to work with a more tired, less forgiving audience, which causes the film's eventual verdict/review to be shaped mainly by its last twenty minutes rather than by the full experience.",
+      "sentence": "Attention drops after the interval. The climax has to do the most work with the least goodwill left. So the review writes itself around the part where your eyes were tired. The film gets judged on its weakest room, not its best one.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {},
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "",
+     "actual_mechanism": "The post's claim that an audience's end-state dominates the final verdict matches established behavioral science, not contradicts it. Under Kahneman and Fredrickson's peak-end rule and the serial-position recency effect, people retrospectively judge an experience by its most intense moment and its ending rather than by its total or average, so a weak closing stretch is weighted far more heavily in the remembered verdict than the duration of earlier enjoyment. The attention-drop and goodwill framing is an everyday generalization, but the one checkable mechanism (endings disproportionately shape the review) is demonstrably true.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Peak%E2%80%93end_rule",
+       "published_date": "1993",
+       "quote": "People judge an experience largely based on how they felt at its peak (i.e., its most intense point) and at its end, rather than based on the total sum or average of every moment of the experience."
+      },
+      {
+       "url": "https://thedecisionlab.com/biases/recency-effect",
+       "published_date": "n.d.",
+       "quote": "The recency effect is the tendency to disproportionately remember and be influenced by the most recent information we have encountered... more recent information receives greater weight in forming a judgment than does earlier-presented information."
+      }
+     ]
+    },
+    "text_hash": "884a62b1a94bf825b14af41fbc132945cc8d8ba5",
+    "at": "2026-11-03T10:38:27.370242+00:00"
+   }
+  }
+ ],
+ "updated_at": "2026-11-03T10:44:17.210800+00:00",
+ "sources": [
+  {
+   "url": "https://theprint.in/feature/udta-teer-funny-internet-second-half/3080663/",
+   "fact": "Social media users broadly agreed Udta Teer's first half was hilarious but were split on the second half, with specific complaints about the romance track and an illogical climax.",
+   "excerpt": "The first half was so funny that audiences would be clutching their stomachs with laughter. One viewer stated the first half was \"far more enjoyable than several recent Bollywood comedies\". A viewer noted: \"The film went downhill for me after the interval, but not bad\". A Reddit user expressed dissatisfaction with the romantic storyline, stating: \"The romance plot for one, doesn't land\". One commenter acknowledged the ending's logic issues, writing: \"average screenplay hinders an otherwise fresh concept...climax illogical but still fun\". Another viewer found: \"A couple of comedy scenes work, but overall, it's been a snoozefest\".",
+   "date": "2026-10-24"
+  },
+  {
+   "url": "https://www.etvbharat.com/en/entertainment/udta-teer-x-review-netizens-hail-concept-of-ayushmann-khurrana-sara-ali-khan-film-criticise-weak-writing-enn26102302356",
+   "fact": "X (Twitter) reactions to Udta Teer praised the concept and comedy but flagged the second half and writing as weaker, while still noting the climax as a highlight.",
+   "excerpt": "\"The comedy is supported by twists, planning & plotting and patriotism.\" \"Comedy that doesn't depend on outdated social media memes!\" \"dated humour & second-rate writing\" \"Complete Paisa Vasool Ride Packed with RAW ENERGY, POWER-PACKED Moments\" \"What a FAMILY ENTERTAINER it is\" \"intriguing premise undone by dated humour & second-rate writing\" \"Netizens are seemingly enjoying the performances but questioning the writing\" \"the initial chunk of the second half could've been sharper\" \"Initial chunk of second half has a lot of twists but the final twist...are things to look out for!\" \"a well written climax are the things to look out for!\"",
+   "date": "2026-10-23"
+  },
+  {
+   "url": "https://www.india.com/entertainment/bollywood/udta-teer-twitter-review-ayushmann-khurrana-sara-ali-khans-spy-comedy-gets-positive-reactions-netizens-praise-climax-8538391/",
+   "fact": "Some viewers on X praised Udta Teer's climax as a highlight that rewards attentive viewers, and found the romance track between Ayushmann Khurrana and Sara Ali Khan likeable, contradicting the narrative that the ending is uniformly panned.",
+   "excerpt": "\"The final 20 minutes elevate the film with revelations and twists that reward attentive viewers.\" \"The climax DELIVERS!\" and the film features \"a knockout climax.\" \"The second half becomes increasingly intriguing, building towards a terrific final act.\" \"Sara Ali Khan looks charming and contributes to the romantic track.\" \"Sara Ali Khan complements him well as Yamini. She adds to the film's light-hearted mood and delivers a likeable performance.\"",
+   "date": "2026-10-23"
+  }
+ ],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] A comedy is judged on its last twenty [minutes]\nThe hour you spent laughing never makes it into the review.\n \n\n[slide 1] A comedy is judged on its last twenty minutes.\nSwipe to read →\n\n[slide 2] It's Friday night, first show. Four of you, a tub of popcorn already going cold, phones on silent.\nThe first hour, you're clutching your stomach. Every line lands. You lean over to your friend: paisa vasool, pakka.\n\n[slide 3] Then the interval samosa, and something shifts.\nThe jokes thin out. The romance track starts wandering. Twenty minutes from the end, your thumb is already lighting up the screen to check the time.\n\n[slide 4] In the parking lot, someone asks how it was. Nobody brings up the hour you spent laughing.\nYou all argue about the ending that didn't land.\n\n[slide 5] Attention drops after the interval. The climax has to do the most work with the least goodwill left.\nSo the review writes itself around the part where your eyes were tired. The film gets judged on its weakest room, not its best one.\n\n[slide 6] At the interval your verdict is paisa vasool, pakka. In the parking lot it's 'solid, but that ending though.'\nSame film. Only the second verdict ever reaches the group chat.\n\n[end card] Open this again in the parking lot, before you type your verdict in the group chat.\nSend to the friend who always says 'first half was great, but...' and never finishes the sentence kindly.\n\n[caption] The first hour buys all the goodwill, and the last twenty minutes spend every rupee of it.\n\n[alt text] A six-slide carousel about why audiences forgive a comedy's slow start but never a weak ending. A reader laughs through the first hour of a Friday-night show, checks their phone in the last twenty minutes, then argues only about the ending in the parking lot. Ends by showing the two verdicts, at the interval and in the parking lot, and which one actually gets posted.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Audience attention and goodwill decline after the interval, so a comedy's climax has to work with a more tired, less forgiving audience, which causes the film's eventual verdict/review to be shaped mainly by its last twenty minutes rather than by the full experience.",
+     "sentence": "Attention drops after the interval. The climax has to do the most work with the least goodwill left. So the review writes itself around the part where your eyes were tired. The film gets judged on its weakest room, not its best one.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "_skeptic": {
+   "bdb1a42365ddbbaa5a4b81d884d73d6d78420393": {
+    "holds": true,
+    "broken_premise": "",
+    "actual_mechanism": "The post's claim that an audience's end-state dominates the final verdict matches established behavioral science, not contradicts it. Under Kahneman and Fredrickson's peak-end rule and the serial-position recency effect, people retrospectively judge an experience by its most intense moment and its ending rather than by its total or average, so a weak closing stretch is weighted far more heavily in the remembered verdict than the duration of earlier enjoyment. The attention-drop and goodwill framing is an everyday generalization, but the one checkable mechanism (endings disproportionately shape the review) is demonstrably true.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Peak%E2%80%93end_rule",
+      "published_date": "1993",
+      "quote": "People judge an experience largely based on how they felt at its peak (i.e., its most intense point) and at its end, rather than based on the total sum or average of every moment of the experience."
+     },
+     {
+      "url": "https://thedecisionlab.com/biases/recency-effect",
+      "published_date": "n.d.",
+      "quote": "The recency effect is the tendency to disproportionately remember and be influenced by the most recent information we have encountered... more recent information receives greater weight in forming a judgment than does earlier-presented information."
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "884a62b1a94bf825b14af41fbc132945cc8d8ba5": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Audience attention and goodwill decline after the interval, so a comedy's climax has to work with a more tired, less forgiving audience, which causes the film's eventual verdict/review to be shaped mainly by its last twenty minutes rather than by the full experience.",
+      "sentence": "Attention drops after the interval. The climax has to do the most work with the least goodwill left. So the review writes itself around the part where your eyes were tired. The film gets judged on its weakest room, not its best one.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {},
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "",
+     "actual_mechanism": "The post's claim that an audience's end-state dominates the final verdict matches established behavioral science, not contradicts it. Under Kahneman and Fredrickson's peak-end rule and the serial-position recency effect, people retrospectively judge an experience by its most intense moment and its ending rather than by its total or average, so a weak closing stretch is weighted far more heavily in the remembered verdict than the duration of earlier enjoyment. The attention-drop and goodwill framing is an everyday generalization, but the one checkable mechanism (endings disproportionately shape the review) is demonstrably true.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Peak%E2%80%93end_rule",
+       "published_date": "1993",
+       "quote": "People judge an experience largely based on how they felt at its peak (i.e., its most intense point) and at its end, rather than based on the total sum or average of every moment of the experience."
+      },
+      {
+       "url": "https://thedecisionlab.com/biases/recency-effect",
+       "published_date": "n.d.",
+       "quote": "The recency effect is the tendency to disproportionately remember and be influenced by the most recent information we have encountered... more recent information receives greater weight in forming a judgment than does earlier-presented information."
+      }
+     ]
+    },
+    "text_hash": "884a62b1a94bf825b14af41fbc132945cc8d8ba5",
+    "at": "2026-11-03T10:38:27.370242+00:00"
+   }
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "A comedy is judged on its last twenty [minutes]",
+   "sub": "The hour you spent laughing never makes it into the review."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "A comedy is judged on its last twenty minutes.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "The reader wants to know why the ending decides everything."
+   },
+   {
+    "paragraphs": [
+     "It's Friday night, first show. Four of you, a tub of popcorn already going cold, phones on silent.",
+     "The first hour, you're clutching your stomach. Every line lands. You lean over to your friend: paisa vasool, pakka."
+    ],
+    "why_swipe": "It was going so well — the reader wants to see where it turns."
+   },
+   {
+    "paragraphs": [
+     "Then the interval samosa, and something shifts.",
+     "The jokes thin out. The romance track starts wandering. Twenty minutes from the end, your thumb is already lighting up the screen to check the time."
+    ],
+    "why_swipe": "The reader recognises the phone-check and wants to know what it costs the film."
+   },
+   {
+    "paragraphs": [
+     "In the parking lot, someone asks how it was. Nobody brings up the hour you spent laughing.",
+     "**You all argue about the ending that didn't land.**"
+    ],
+    "why_swipe": "The reader feels the unfairness and wants it explained."
+   },
+   {
+    "paragraphs": [
+     "Attention drops after the interval. The climax has to do the most work with the least goodwill left.",
+     "So the review writes itself around the part where your eyes were tired. The film gets judged on its weakest room, not its best one."
+    ],
+    "why_swipe": "The reader wants to catch themselves doing it."
+   },
+   {
+    "paragraphs": [
+     "At the interval your verdict is paisa vasool, pakka. In the parking lot it's 'solid, but that ending though.'",
+     "**Same film. Only the second verdict ever reaches the group chat.**"
+    ]
+   }
+  ],
+  "end": {
+   "save": "Open this again in the parking lot, before you type your verdict in the group chat.",
+   "send": "Send to the friend who always says 'first half was great, but...' and never finishes the sentence kindly.",
+   "promise": "Why we rate films the way we do."
+  },
+  "caption": "The first hour buys all the goodwill, and the last twenty minutes spend every rupee of it.",
+  "hashtags": [
+   "BollywoodComedy",
+   "FilmReviews",
+   "SecondHalfProblem",
+   "FirstWeekendCrowd"
+  ],
+  "alt_text": "A six-slide carousel about why audiences forgive a comedy's slow start but never a weak ending. A reader laughs through the first hour of a Friday-night show, checks their phone in the last twenty minutes, then argues only about the ending in the parking lot. Ends by showing the two verdicts, at the interval and in the parking lot, and which one actually gets posted.",
+  "claims": [],
+  "caption_style": "pov"
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Audience attention and goodwill decline after the interval, so a comedy's climax has to work with a more tired, less forgiving audience, which causes the film's eventual verdict/review to be shaped mainly by its last twenty minutes rather than by the full experience.",
+    "sentence": "Attention drops after the interval. The climax has to do the most work with the least goodwill left. So the review writes itself around the part where your eyes were tired. The film gets judged on its weakest room, not its best one.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {},
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "",
+   "actual_mechanism": "The post's claim that an audience's end-state dominates the final verdict matches established behavioral science, not contradicts it. Under Kahneman and Fredrickson's peak-end rule and the serial-position recency effect, people retrospectively judge an experience by its most intense moment and its ending rather than by its total or average, so a weak closing stretch is weighted far more heavily in the remembered verdict than the duration of earlier enjoyment. The attention-drop and goodwill framing is an everyday generalization, but the one checkable mechanism (endings disproportionately shape the review) is demonstrably true.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Peak%E2%80%93end_rule",
+     "published_date": "1993",
+     "quote": "People judge an experience largely based on how they felt at its peak (i.e., its most intense point) and at its end, rather than based on the total sum or average of every moment of the experience."
+    },
+    {
+     "url": "https://thedecisionlab.com/biases/recency-effect",
+     "published_date": "n.d.",
+     "quote": "The recency effect is the tendency to disproportionately remember and be influenced by the most recent information we have encountered... more recent information receives greater weight in forming a judgment than does earlier-presented information."
+    }
+   ]
+  },
+  "text_hash": "884a62b1a94bf825b14af41fbc132945cc8d8ba5",
+  "at": "2026-11-03T10:38:27.370242+00:00"
+ }
 }

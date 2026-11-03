@@ -10,6 +10,8 @@ This is an opinion about something around us, told as the reader's own story. Th
 - Open by putting them back in it ("Remember the guy you sat next to at your first job?", "It's your second year. The founder's speech gets a standing ovation."). Never a stock opener ("Picture this").
 - Details everyone shares, so every reader can drop their own life in: work habits, routines, things people say and type ("so good to see you!!", three hearts, "Bhai, this time pakka"). Not intimate or narrow ones (an ex's name, a named city, a cousin's wedding): "a few years later", "a social gathering" fits more lives than "six years later", "a wedding in Indore". At least one detail only someone who has lived it would notice.
 - The other person in the story is "they/them" unless the role makes it obvious.
+- Put the reader in a role most 24-32 year olds have actually had. If the moment belongs to a role many haven't (hosting a wedding, hiring someone, buying a flat), make the reader the one who watched it up close ("You've watched your mama call the caterer..."), still in "you", still in the room.
+- By the end of slide 2 a stranger knows who is there, where, and what is going on. Never open on a reaction to something the reader hasn't been shown yet.
 - Talk to the reader ("you"), not about people ("we", "people"). The closing line too: "how you say goodbye", not "how we say goodbye".
 - Under the situation sits a feeling (the topic's "feeling": cheated, behind, guilty, relieved). The reader should feel it in the story before the last slide names why. If the topic has none, find the one the moment really carries.
 - The villain is a system, never a person: a pricing model, a hiring bar, a city with nowhere free to sit (the topic's "villain"). The reader and the people around them are never the bad guy.
@@ -31,6 +33,8 @@ Chain the slides: about one in four opens with And / But / So / Which explains /
 Say the idea once. Every slide adds something the reader didn't have yet: a scene, the turn, the because, a consequence, the feeling. Never restate the point in new words, and never let the last slide repeat the cover; end on the strongest concrete line in the post (a scene, a line someone says, a joke, an image). Don't explain what every reader already knows (that hiring is expensive, that weddings cost money); a clause is enough.
 
 Every post carries EQ, IQ, or both: EQ is a moment the reader feels (recognition, a laugh, a sting, mixed feelings); IQ is a way of seeing it they hadn't put together. A post with neither isn't worth posting.
+
+When the sources are empty, the post states no facts. Numbers are only scene detail the reader lives (three hours, 6pm, the second coffee), never a price, count, rate or day that reads as data ("twenty bucks", "by day nine"). How a product, bank, law or market works is told as what the reader sees happen, or as your reading of why ("the way I see it, a full room is its own signboard"), never as a stated fact about how the business runs.
 
 The mechanism must be true. Don't claim a hidden budget, a secret motive or a deliberate plan you can't show (say what changes, e.g. what the raise is compared against, rather than "they had the money all along"). Get the basics right about who pays for what and how something actually works; if you're not sure, say less.
 
