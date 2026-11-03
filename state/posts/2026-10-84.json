@@ -1,7 +1,7 @@
 {
  "id": "2026-10-84",
- "status": "scheduled",
- "due": "2026-11-06T20:30:00+05:30",
+ "status": "planned",
+ "due": "2026-11-05T20:30:00+05:30",
  "format": "carousel",
  "topic": {
   "title": "The kirana runs a credit bureau",
@@ -38,7 +38,10 @@
     "because": 4
    },
    "format_fit": "carousel"
-  }
+  },
+  "feeling": "seen",
+  "villain": "a credit-scoring system built on paperwork instead of years of showing up",
+  "story_type": "values"
  },
  "history": [
   {
@@ -94,73 +97,13 @@
    "problems": [
     "Slide 1 has 27 words; the limit is 25. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide."
    ]
+  },
+  {
+   "reset": "2026-11-03: rewrite under the story rules; owner cleared Buffer"
   }
  ],
  "sources": [],
- "draft": {
-  "cover": {
-   "headline": "The corner shop backs you harder than any [bank] will",
-   "sub": "Baad mein de dena isn't charity. It's a credit call."
-  },
-  "slides": [
-   {
-    "paragraphs": [
-     "The corner shop backs you harder than any bank will.",
-     "Swipe to read →"
-    ],
-    "why_swipe": "what's really going on?"
-   },
-   {
-    "paragraphs": [
-     "You're at the counter with bread, eggs and a Maggi packet, a hundred rupees short. You reach for your phone and he waves it away. \"Baad mein de dena.\"",
-     "He finds your page in a diary held shut with a rubber band, adds a line in pencil. And you walk out with your bag anyway."
-    ],
-    "why_swipe": "why does he do that?"
-   },
-   {
-    "paragraphs": [
-     "You tell yourself it's a sweet old habit, a kindness from another time.",
-     "Next month you drop the money on the counter. He scratches the line out and nods. Done."
-    ],
-    "why_swipe": "was it really just a kindness?"
-   },
-   {
-    "paragraphs": [
-     "But that line was a loan, approved in two seconds with your bag already packed.",
-     "He'd read you off years of showing up: the milk you take, the week your salary lands. He'd read how you clear the old line before you ask for a new one."
-    ],
-    "why_swipe": "doesn't a bank know all that too?"
-   },
-   {
-    "paragraphs": [
-     "A bank goes by your score, and the score is your record: paid on time, or late.",
-     "Late because a parent was in hospital and the salary got stuck? The record shows the late payment. It doesn't show the hospital."
-    ],
-    "why_swipe": "so what goes when the shop goes?"
-   },
-   {
-    "paragraphs": [
-     "**The bank knows whether you paid. He knows why you didn't.**",
-     "The day that shutter stays down for good, that's what goes with it."
-    ]
-   }
-  ],
-  "end": {
-   "save": "Read it again the next time you cancel a shop trip for a delivery app.",
-   "send": "Send it to the friend who hasn't stepped into a kirana in a year.",
-   "promise": "How money and trust really move in India."
-  },
-  "caption": "Who was the shopkeeper who let you pay later?",
-  "hashtags": [
-   "#kirana",
-   "#udhaar",
-   "#quickcommerce",
-   "#creditscore"
-  ],
-  "alt_text": "A five-slide carousel about neighbourhood shop credit. A shopkeeper says baad mein de dena and notes it in a diary. The post argues this informal udhaar is a real credit system built on years of knowing your character, something a bank or a ten-minute delivery app cannot read, and warns what is lost when the local shop is replaced by quick-commerce.",
-  "claims": []
- },
- "updated_at": "2026-10-31T10:24:45.466367+00:00",
+ "updated_at": "2026-11-03T09:03:57.902342+00:00",
  "verification_cache": {
   "Informal shop credit (udhaar) is typically handed over without any formal paperwork": {
    "id": "c1",
@@ -696,125 +639,5 @@
     }
    ]
   }
- },
- "verification": {
-  "passed": true,
-  "take_dead": false,
-  "notes": [],
-  "ledger": [
-   {
-    "id": "c1",
-    "text": "Banks decide creditworthiness based on a credit score that reflects an applicant's payment history, i.e., whether past payments were made on time or late.",
-    "sentence": "A bank goes by your score, and the score is your record: paid on time, or late.",
-    "type": "feature",
-    "core": true,
-    "framed_as": "timeless"
-   },
-   {
-    "id": "c2",
-    "text": "A credit record/report shows that a payment was late but does not capture or record the reason why it was late.",
-    "sentence": "The record shows the late payment. It doesn't show the hospital.",
-    "type": "feature",
-    "core": true,
-    "framed_as": "timeless"
-   },
-   {
-    "id": "c3",
-    "text": "Mechanism: Premise 1 — bank credit scoring judges a customer only on the fact of on-time vs. late payment, with no record of the reason behind a late payment. Premise 2 — a shopkeeper judges a customer on years of direct personal observation (regular purchases, pay-day timing, history of clearing past dues) and knows the context behind any lapse. Conclusion — therefore the shopkeeper's informal udhaar system is a more complete/attentive form of credit assessment than a bank's score-based system.",
-    "sentence": "The bank knows whether you paid. He knows why you didn't.",
-    "type": "mechanism",
-    "core": true,
-    "framed_as": "timeless"
-   }
-  ],
-  "verdicts": {
-   "c1": {
-    "id": "c1",
-    "verdict": "supported",
-    "event_date": null,
-    "correct": null,
-    "sources": [
-     {
-      "url": "https://www.myfico.com/credit-education/credit-scores/payment-history",
-      "publisher": "myFICO (Fair Isaac Corporation)",
-      "published_date": null,
-      "quote": "payment history makes up 35% of your score and is a major factor in its calculation... a lender's number one priority is your past record of paying back (or not) your loans",
-      "tier": 1
-     },
-     {
-      "url": "https://www.cibil.com/blog/all-you-need-to-know-about-cibil-score",
-      "publisher": "TransUnion CIBIL",
-      "published_date": null,
-      "quote": "Your payment history is one of the factors that lenders consider when determining your creditworthiness. It shows how consistently you have made your payments on time and in full. Late payments, missed payments and delinquencies can negatively impact your CIBIL Score.",
-      "tier": 1
-     }
-    ]
-   },
-   "c2": {
-    "id": "c2",
-    "verdict": "supported",
-    "event_date": null,
-    "correct": null,
-    "sources": [
-     {
-      "url": "https://www.indusind.bank.in/iblogs/credit-card/what-is-dpd-days-past-due-in-the-cibil-report/",
-      "publisher": "IndusInd Bank",
-      "published_date": null,
-      "quote": "DPD, or Days Past Due, shows how many days a payment on a loan or credit card was late during a reported month... DPD is different from the amount overdue. The amount overdue tells you how much remains unpaid, while DPD tells you how late the payment was.",
-      "tier": 1
-     },
-     {
-      "url": "https://www.bankbazaar.com/cibil/dpd-day-past-due.html",
-      "publisher": "BankBazaar",
-      "published_date": null,
-      "quote": "DPD indicates the days a payment has been delayed for... DPD essentially shows how many days the borrower has skipped or been late with payments.",
-      "tier": 3
-     },
-     {
-      "url": "https://www.equifax.com/personal/education/credit/report/articles/-/learn/remove-late-payments-credit-report/",
-      "publisher": "Equifax",
-      "published_date": null,
-      "quote": "Your credit reports will note how many days the payment is past due in 30-day increments.",
-      "tier": 1
-     }
-    ]
-   }
-  },
-  "mechanism": {
-   "holds": true,
-   "broken_premise": "No premise fully fails. The weakest link is a conflation in Premise 1: the post equates 'the bank' with 'the credit score.' The score genuinely is reason-blind (it records days-past-due, not the hospital), so the premise holds as written ('a bank goes by your score'). But a bank's actual lending/recovery decision is not score-only — RBI fair-practice and restructuring rules require banks to consider documented hardship (medical emergency, income disruption) through moratoria or restructuring, so the broader 'the bank can't know why' idea is overstated.",
-   "actual_mechanism": "A CIBIL/credit-bureau score is a hard-information model weighted mainly on payment history (~35%) plus utilisation, history length, mix and enquiries; it logs the fact and timing of repayment, not the circumstances. Kirana udhaar is textbook relationship (soft-information) lending: the shopkeeper approves tiny, non-portable credit off years of direct observation of character and context. Both are real credit assessment, but the shopkeeper's edge is narrow — it is more attentive to context for that one person, not more 'complete,' since it lacks scale, portability, verification and recourse, and banks do have hardship mechanisms the score alone doesn't show.",
-   "take_survives": true,
-   "sources": [
-    {
-     "url": "https://www.axis.bank.in/blogs/credit-score/how-is-cibil-score-calculated",
-     "published_date": "n/a",
-     "quote": "Payment history is the most significant factor, usually accounting for about 35% of your CIBIL score, and looks at how consistently you've paid your credit card bills and loan instalments."
-    },
-    {
-     "url": "https://www.bankbazaar.com/cibil/cibil-score-calculation.html",
-     "published_date": "n/a",
-     "quote": "CIBIL scores are calculated based on: payment history (35%), credit utilisation (30%), length of credit history (10%), credit mix (10%), and new credit applications (10%)."
-    },
-    {
-     "url": "https://freed.care/blog/loan-restructuring-rbi-rules",
-     "published_date": "n/a",
-     "quote": "Under the FPC, banks are required to consider requests for EMI restructuring or a temporary payment pause (moratorium) when you document genuine financial hardship."
-    }
-   ]
-  },
-  "text_hash": "799d31eb09451ff95fe37af175cf4969733603bb",
-  "at": "2026-10-23T12:03:10.125285+00:00"
- },
- "image_urls": [
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-84/slide_01.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-84/slide_02.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-84/slide_03.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-84/slide_04.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-84/slide_05.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-84/slide_06.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-84/slide_07.jpg"
- ],
- "buffer_attempted_at": "2026-10-31T10:24:44.713110+00:00",
- "buffer_post_id": "6ae5c1ed406ab8a018b0e5bc"
+ }
 }

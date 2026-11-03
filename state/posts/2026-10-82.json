@@ -1,6 +1,6 @@
 {
  "id": "2026-10-82",
- "status": "scheduled",
+ "status": "planned",
  "due": "2026-11-04T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -38,7 +38,10 @@
     "because": 4
    },
    "format_fit": "carousel"
-  }
+  },
+  "feeling": "guilty",
+  "villain": "a 'company as family' culture that swaps a contract for guilt",
+  "story_type": "objection"
  },
  "history": [
   {
@@ -270,6 +273,9 @@
     "text_hash": "7a8bcb332001e896c44621864a3316cd51509ee6",
     "at": "2026-10-23T11:38:14.214806+00:00"
    }
+  },
+  {
+   "reset": "2026-11-03: rewrite under the story rules; owner cleared Buffer"
   }
  ],
  "sources": [],
@@ -304,122 +310,5 @@
    ]
   }
  },
- "draft": {
-  "cover": {
-   "headline": "\"We're a family here\" is how [guilt] replaces overtime",
-   "sub": "The boundaries you'd keep at any other job stop applying."
-  },
-  "slides": [
-   {
-    "paragraphs": [
-     "\"We're a family here\" is how guilt does the job your overtime pay should.",
-     "Swipe to read →"
-    ],
-    "why_swipe": "Reader wants to see where guilt stands in for pay."
-   },
-   {
-    "paragraphs": [
-     "It's the all-hands. The founder's on stage. Not a company, he says, a family. The room claps.",
-     "And some part of you wants it to be true."
-    ],
-    "why_swipe": "Is that line kind, or is it the setup? Reader swipes to find out."
-   },
-   {
-    "paragraphs": [
-     "A few weeks later a call lands on Sunday afternoon, right in the middle of lunch. You pick up.",
-     "Saying no now feels rude, not like logging off for the day. You tell yourself that's just what caring looks like."
-    ],
-    "why_swipe": "If the word cuts both ways, where's the other side? Reader wants the turn."
-   },
-   {
-    "paragraphs": [
-     "So watch which way the word travels.",
-     "Your skipped leave, the weekend you handed over: that was being family. The frozen increment, your role cut when layoffs start: that's suddenly just business.",
-     "**The word only binds the side that's cheaper to guilt.**"
-    ],
-    "why_swipe": "Reader wants to know why the framing works at all."
-   },
-   {
-    "paragraphs": [
-     "You negotiate hours and pay with an employer. You don't negotiate with family.",
-     "Ask for your due and it feels like betrayal, which is exactly the point. A contract makes you even. Family makes you grateful."
-    ],
-    "why_swipe": "Reader is set up for the line that names the whole thing."
-   },
-   {
-    "paragraphs": [
-     "**A real family doesn't make you reapply for your place every quarter.**",
-     "This one does, every appraisal. Miss your targets, and watch how fast the word *family* leaves the room."
-    ]
-   }
-  ],
-  "end": {
-   "save": "Pull this up before the next offsite speech that turns a weekend call into a duty.",
-   "send": "Send to the friend whose boss says this at every offsite.",
-   "promise": "How Indian offices really work."
-  },
-  "caption": "Which part of your week stopped being yours the moment someone called the office a family?",
-  "hashtags": [
-   "startupculture",
-   "workplaceboundaries",
-   "hustleculture",
-   "layoffseason"
-  ],
-  "alt_text": "A six-slide carousel about the phrase 'we're a family here'. It follows a reader from a founder's all-hands speech, to a Sunday work call that feels rude to decline, to appraisal and layoff season where the family language quietly disappears. It ends on the line that a real family doesn't make you reapply for your place every quarter.",
-  "claims": [],
-  "caption_style": "question"
- },
- "updated_at": "2026-10-29T10:55:29.093424+00:00",
- "verification": {
-  "passed": true,
-  "take_dead": false,
-  "notes": [],
-  "ledger": [
-   {
-    "id": "c1",
-    "text": "Employers use 'we're a family here' language to extract unpaid overtime and labor-boundary violations from employees, but drop that same framing during appraisals, pay freezes, and layoffs when it would cost the employer money or job security — i.e., the 'family' framing is applied only when it benefits the employer, making it a substitute for overtime pay and job protection rather than a mutual bond.",
-    "sentence": "The word only binds the side that's cheaper to guilt. / A contract makes you even. Family makes you grateful. / A real family doesn't make you reapply for your place every quarter. This one does, every appraisal.",
-    "type": "mechanism",
-    "core": true,
-    "framed_as": "timeless"
-   }
-  ],
-  "verdicts": {},
-  "mechanism": {
-   "holds": true,
-   "broken_premise": "Only a minor, literal one: the post frames 'family' talk as a substitute for *overtime pay*, but most salaried/exempt staff have no legal overtime entitlement in the first place, so nothing is literally swapped for a pay line. The real swap is social-norm effort for market-norm compensation. This does not break the take.",
-   "actual_mechanism": "Calling a workplace a 'family' deliberately shifts it from market norms (where effort is priced and refusals are routine) to social norms (where helping is unpriced and saying no feels like a betrayal) — Ariely's work shows people give more unpaid effort under social norms and that money-talk then feels rude, which is exactly how the Sunday call gets answered for free. The asymmetry is real and documented: the same employers revert to explicit market logic — performance cuts, frozen raises, severance — during appraisals and layoffs, which is why Netflix openly rejects the family metaphor ('a team, not a family… you may not be on the team forever') precisely at the moments family loyalty would cost them. So the framing is invoked when it extracts discretionary labor and dropped when mutual obligation would be expensive.",
-   "take_survives": true,
-   "sources": [
-    {
-     "url": "https://iufap.org/2022/11/06/when-companies-claim-were-a-family-workers-are-exposed-to-more-abuse-and-rights-violations/",
-     "published_date": "2022-11-06",
-     "quote": "When companies claim 'we're a family' workers are exposed to more abuse and rights violations"
-    },
-    {
-     "url": "https://rady.ucsd.edu/_files/faculty-research/uri-gneezy/Social%20norms%20and%20the%20price%20of%20zero.pdf",
-     "published_date": "2008-01-01",
-     "quote": "when a social norm collides with a market norm, the social norm goes away for a long time"
-    },
-    {
-     "url": "https://marcrandolph.substack.com/p/you-are-a-team-not-a-family",
-     "published_date": "2009-08-01",
-     "quote": "We're a team, not a family. We're like a pro sports team… hire, develop and cut smartly. A family is about unconditional love… a dream team is… knowing that you may not be on the team forever."
-    }
-   ]
-  },
-  "text_hash": "6a16d64857c1839f2f22a925395fb629d8230344",
-  "at": "2026-10-23T11:42:51.741760+00:00"
- },
- "image_urls": [
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-82/slide_01.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-82/slide_02.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-82/slide_03.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-82/slide_04.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-82/slide_05.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-82/slide_06.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-82/slide_07.jpg"
- ],
- "buffer_attempted_at": "2026-10-29T10:55:28.089714+00:00",
- "buffer_post_id": "6ae326200c2cf6705772d505"
+ "updated_at": "2026-11-03T09:03:57.901580+00:00"
 }
