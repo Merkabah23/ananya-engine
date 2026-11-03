@@ -34,6 +34,8 @@ def fake_call_json(model, user, stage="", **kw):
                 "scores": {k: 5 for k in ("hook", "relatable", "fresh_angle", "pull", "payoff", "voice", "eq", "iq", "story", "tight")}}
     if stage == "ledger":
         return {"claims": []}
+    if stage == "repeat-check":
+        return {"repeat": False, "of": "", "shared": ""}
     if stage == "blindtest":
         return {"ai_post": 99, "confidence": 0.3, "tells": []}  # judge fails to spot it
     raise AssertionError(stage)

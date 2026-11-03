@@ -299,5 +299,5 @@ def test_live_posts_are_logged_once_and_checked(tmp_path, monkeypatch):
                      "draft": {"cover": {"headline": "Mummy's [gold]"}}})
     assert len(published.record_live()) == 1 and published.record_live() == []
     assert published.log()[0]["headline"] == "Mummy's gold"
-    monkeypatch.setattr(published.llm, "call_json", lambda *a, **k: {"repeat": True, "of": "Mummy's gold"})
+    monkeypatch.setattr(published.llm, "call_json", lambda *a, **k: {"repeat": True, "of": "Mummy's gold", "shared": "mummy's gold"})
     assert published.repeat_of({"claim": "Gold is the only money in her name"}) == "Mummy's gold"
