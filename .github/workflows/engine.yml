@@ -52,6 +52,8 @@ jobs:
       - run: npm install -g @anthropic-ai/claude-code
       - run: pip install -r requirements.txt
       - run: python -m pytest -q
+        env:
+          ENGINE_PAUSED: 'false'   # tests exercise the unpaused engine; the pause is for the live run
       - name: Pick command
         id: cmd
         env:
