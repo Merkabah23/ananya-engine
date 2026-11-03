@@ -1,6 +1,6 @@
 {
  "id": "2026-11-102",
- "status": "planned",
+ "status": "uploaded",
  "due": "2026-11-11T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -43,6 +43,923 @@
   "villain": "a feed where sympathy comes easy and someone else's win makes you measure yourself",
   "story_type": "teaching"
  },
- "history": [],
- "updated_at": "2026-11-03T09:03:57.905157+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "slide 4: The bold closer ('Sympathy costs your ego nothing. A peer's win makes you check your own number.') restates the two paragraphs above it and reads as a mirrored pair. Cut one of the first two paragraphs, or make the bold line carry something new, such as who gains from the comment (you get to feel generous), instead of repeating the contrast.",
+     "slide 5: 'Here's the part worth keeping.' is a stock connector and sounds like an explainer. Start straight on the good side, for example the comments turning into referrals. Keep 'referrals often turn into interviews' as is, since it matches the topic.",
+     "slide 3: The feeling of being behind is carried only by 'Your profile still says Manager' and the hovering thumb. Add one small physical or sensory beat at the moment of the scroll, such as the thumb hovering, the screen dimming, or the chai gone cold, so the sting lands before the explanation arrives.",
+     "slide 6: 'It's usually shorter than you'd think, and full of people you once sat next to' asserts something nobody can check, and it echoes the old-colleague image from the page's standard examples. Either cut it or end on the test itself so the last line stings cleanly.",
+     "slide 2: The warm comment, recruiter tags and referral DM make the layoff reaction feel almost saintly. Add a small honest touch, such as how quick and easy it was to type, so slide 4's 'costs nothing' is already planted and the turn feels earned."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not verify: 'Layoff posts on LinkedIn typically draw hundreds of comments.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "LinkedIn offers a green 'Open to Work' frame that users can put on their profile photo.",
+      "sentence": "Someone from your old team has put the green 'Open to Work' frame on their photo.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "On LinkedIn, posts about being laid off attract more supportive engagement (comments, referrals) than promotion announcements.",
+      "sentence": "LinkedIn is kinder to a layoff than a promotion.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Premise: helping someone who is down costs the helper little (a comment) and lets them feel generous, while a peer's promotion forces comparison with one's own title and status.",
+      "sentence": "Helping someone who is down lets you feel generous for the price of a comment. The promotion post asked you to put their title next to yours and smile anyway.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Hundreds of comments under a layoff post turn into referrals, and referrals often turn into interviews.",
+      "sentence": "Those hundreds of comments under a layoff post turn into referrals, and referrals often turn into interviews.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Layoff posts on LinkedIn typically draw hundreds of comments.",
+      "sentence": "Those hundreds of comments under a layoff post",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Promotion posts on LinkedIn typically get only a few likes and a delayed 'congrats' from peers.",
+      "sentence": "The promotion gets a few likes and a \"congrats bro\" much later, once it stopped stinging.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "The person who posts about a layoff starts receiving calls (from recruiters or referrers) as a result of the post.",
+      "sentence": "The person who posted it, embarrassed, at 11 pm, starts getting calls.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2020-06-01",
+      "correct": "LinkedIn's #OpenToWork photo frame is added when a member shares the Open to Work signal with all LinkedIn members. It is not added when the signal is shared with recruiters only. LinkedIn's help page does not name the colour. Fortune describes it as green. I could not confirm the exact launch date from a primary source. The June 2020 date is from memory and is approximate.",
+      "sources": [
+       {
+        "url": "https://www.linkedin.com/help/linkedin/answer/a507508",
+        "publisher": "LinkedIn Help",
+        "published_date": "",
+        "quote": "It also adds the #OpenToWork photo frame.",
+        "tier": 1
+       },
+       {
+        "url": "https://fortune.com/2024/09/05/linkedin-opentowork-badge-recruiters-job-search/",
+        "publisher": "Fortune",
+        "published_date": "2024-09-05",
+        "quote": "a green badge saying #OpenToWork",
+        "tier": 2
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "unverifiable",
+      "event_date": "",
+      "correct": "I found no dataset or study of typical comment counts on LinkedIn layoff posts. Only individual viral posts are reported. Fortune's example of a layoff post with 700 comments is an outlier. The same article cites a typical layoff post with 62 comments, mostly from the poster's own network. That example runs against 'hundreds'. The claim should be dropped or reworded, for example to say that some layoff posts go viral.",
+      "sources": [
+       {
+        "url": "https://fortune.com/2023/02/05/how-to-make-layoff-linkedin-posts-viral/amp",
+        "publisher": "Fortune",
+        "published_date": "2023-02-05",
+        "quote": "The post accumulated nearly 15,000 likes and 700 comments. ... The post has since amassed 831 likes and 62 comments, mostly from people she knows.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.axios.com/2022/08/11/crying-ceo-selfie-goes-viral-on-linkedin-sparks-debate-on-messaging",
+        "publisher": "Axios",
+        "published_date": "2022-08-11",
+        "quote": "Crying CEO selfie goes viral on LinkedIn, sparks debate on messaging",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. No premise states anything demonstrably false about how LinkedIn or hiring works. The comparison of 'sympathy costs nothing' with 'a peer's win makes you check your own number' is the writer's reading of motive. Saying promotion posts 'get a few likes and a congrats bro much later' is a narrated scene, not a measured claim about the platform, so I'm not failing it. Two cautions. First, LinkedIn's own data on the Open to Work frame measures recruiter InMails, not comments turning into referrals. Second, the referral advantage is real but works through getting candidates noticed, not through the size of the comment thread.",
+     "actual_mechanism": "The Open to Work frame publicly tells recruiters and your network that you're job hunting. In 2020 LinkedIn said members with the public frame were on average 40% more likely to get recruiter InMails, and that turning the feature on doubled the chance of a recruiter message. LinkedIn reports this as a correlation from its own data, not a controlled test, so the 'starts getting calls' line has support. Referrals do push candidates through hiring faster. Ashby's hiring-funnel data shows referred applicants reaching interviews at about 40%, with 16% of those interviewed getting offers. Most of the boost comes from being noticed before the interview, not from doing better in it. So 'referrals often turn into interviews' is roughly right, but a long comment thread is only a referral if someone actually submits one.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://blog.linkedin.com/2020/october/29/the-benefits-of-sharing-with-your-community-you-re-open-to-work",
+       "published_date": "2020-10-29",
+       "quote": "Our data shows that turning on Open to Work on your LinkedIn profile increases your likelihood of getting a recruiter message by 2X. (As relayed by search summary; the page now redirects. The same post reported members with the public #OpenToWork frame were on average 40% more likely to get recruiter InMails.)"
+      },
+      {
+       "url": "https://www.ashbyhq.com/talent-trends-report/reports/referrals",
+       "published_date": "unknown",
+       "quote": "Referred candidates convert from application to interview at 40%, and 16% of those interviewed get an offer. (Summary of the report's figures)"
+      },
+      {
+       "url": "https://www.metaview.ai/resources/blog/do-referred-candidates-interview-better",
+       "published_date": "unknown",
+       "quote": "most of their advantage comes before the interview, when they get noticed, and after they're hired, when they tend to stay longer"
+      }
+     ]
+    },
+    "text_hash": "b781dbbc217a0446351e666940f530983b6994e9",
+    "at": "2026-11-03T09:45:39.228933+00:00"
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Could not verify: 'Layoff posts on LinkedIn typically draw hundreds of comments.'. Cut it, or state it only if a source says it."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "slide 5: Cut the opener \"Here's the part worth keeping.\" It is a stock connector and sounds like a template. Start straight on the referrals, for example \"And the support isn't fake.\" That also answers the why_swipe question more directly.",
+     "slide 6: \"It's usually shorter than you'd think, and full of people you once sat next to\" is a flat claim about the reader that the post cannot back, and it leans on the 'once sat next to' image from the page's earlier posts. Either cut it, or replace it with a sharper human sting tied to the batchmate's \"Senior Manager\" title.",
+     "slide 3: Add one touch or sound detail where the thumb hovers, such as the screen glow in a dark room or the notification buzz. That would make the moment feel lived and not just seen. Keep it to a few words.",
+     "slide 3: The line \"The easy reading is that the internet only rewards sad stories\" does not quite match the topic's belief that people online love success stories. Reword it to the actual common belief, or make clear it is the reader's own excuse, so slide 4's turn lands harder.",
+     "slide 5: \"The promotion gets a few likes and a 'congrats bro' much later, once it stopped stinging\" is the best line in the post. Make the layoff side equally concrete, for example one specific kind of comment or tag, so the contrast is felt and not told."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "verification": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "LinkedIn offers a green 'Open to Work' frame that users can put on their profile photo.",
+      "sentence": "Someone from your old team has put the green 'Open to Work' frame on their photo.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Comments and tags under a LinkedIn layoff post turn into job referrals for the person who posted it.",
+      "sentence": "The comments and tags under a layoff post turn into referrals",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Job referrals often lead to interviews.",
+      "sentence": "referrals often turn into interviews",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "LinkedIn users respond more warmly to layoff posts than to promotion posts. The reason is that supporting someone who is down costs the commenter's ego nothing, while a peer's promotion invites comparison with their own title and so stings. Layoff posts therefore draw more comments and help, and promotion posts draw fewer likes and late, grudging congratulations.",
+      "sentence": "Sympathy costs your ego nothing. A peer's win makes you check your own number.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2020-06-01",
+      "correct": "LinkedIn's #OpenToWork photo frame is added when a member shares the Open to Work signal with all LinkedIn members. It is not added when the signal is shared with recruiters only. LinkedIn's help page does not name the colour. Fortune describes it as green. I could not confirm the exact launch date from a primary source. The June 2020 date is from memory and is approximate.",
+      "sources": [
+       {
+        "url": "https://www.linkedin.com/help/linkedin/answer/a507508",
+        "publisher": "LinkedIn Help",
+        "published_date": "",
+        "quote": "It also adds the #OpenToWork photo frame.",
+        "tier": 1
+       },
+       {
+        "url": "https://fortune.com/2024/09/05/linkedin-opentowork-badge-recruiters-job-search/",
+        "publisher": "Fortune",
+        "published_date": "2024-09-05",
+        "quote": "a green badge saying #OpenToWork",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": "Referred candidates reach interviews at far higher rates than other applicants. Ashby data shows 40% of referred candidates go from application to interview, against 3% for inbound applicants. The advantage is smaller at the offer stage, but the claim is only about interviews, and 'often' is fair. The claim is framed as a 'feature' but is really a general statement about hiring. No app or platform feature is involved.",
+      "sources": [
+       {
+        "url": "https://www.ashbyhq.com/talent-trends-report/reports/referrals",
+        "publisher": "Ashby Talent Trends Report",
+        "published_date": "2025-05-16",
+        "quote": "40% of referred candidates go from application to interview.",
+        "tier": 1
+       },
+       {
+        "url": "https://www.hrdive.com/news/hiring-ratio-for-small-and-midsize-companies-is-1-in-86/436802/",
+        "publisher": "HR Dive (reporting Lever data)",
+        "published_date": "2017-02-24",
+        "quote": "Referrals get invited 57% of the time ... Among applicants, only 13% are invited to these first screenings.",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. The two factual premises check out: LinkedIn's public Open to Work option puts a green #OpenToWork frame on the profile photo, and referrals do lead to interviews. The claim that people respond more warmly to layoff posts and grudgingly to promotion posts is an opinion about people's motives and a generalization about everyday behaviour. It isn't a false claim about how the product works, so I didn't test it. One thing to know: LinkedIn itself prompts your network to congratulate you when you post a new position, which often brings promotion posts plenty of likes. That pushes against the 'few likes' picture but doesn't disprove it.",
+     "actual_mechanism": "When you set Open to Work to 'All LinkedIn members', a green #OpenToWork frame appears on your photo. The 'Recruiters only' setting shows no frame and only signals recruiters who use LinkedIn Recruiter. On a public layoff post, comments and tags put the poster in front of people who can refer them, and referred applicants get screened far more often than average: Lever's study of about 600 small and mid-size companies found 57% of referrals were invited to a first screen, against 13% of all applicants. Ashby reports that 40% of referred candidates go from application to interview. So the claim that 'referrals often turn into interviews' is right, and the edge is biggest at that early stage. The advantage after the interview is smaller and varies between studies.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://blog.linkedin.com/2020/august/13/new-tools-to-stand-out-with-your-linkedin-profile",
+       "published_date": "2020-08-13",
+       "quote": "LinkedIn's announcement of profile tools, including the #OpenToWork photo frame you can show to all members, with a separate recruiters-only setting (paraphrased from the official blog; the search tool didn't show its exact wording)"
+      },
+      {
+       "url": "https://www.hrdive.com/news/hiring-ratio-for-small-and-midsize-companies-is-1-in-86/436802/",
+       "published_date": "2016",
+       "quote": "Among applicants, only 13% are invited to these first screenings. Referrals get invited 57% of the time."
+      },
+      {
+       "url": "https://www.ashbyhq.com/talent-trends-report/reports/referrals",
+       "published_date": "unknown",
+       "quote": "40% of referred candidates go from application to interview, and out of referred candidates interviewed, 16% go to an offer stage (as summarised in search results)"
+      },
+      {
+       "url": "https://qz.com/299923/why-job-referrals-matter",
+       "published_date": "2014",
+       "quote": "referred candidates that make it to the interview stage have a 40 percent better chance of being hired than other candidates"
+      }
+     ]
+    },
+    "text_hash": "297c21a90bce9991ec933e4ecde9e48879216265",
+    "at": "2026-11-03T09:46:59.414086+00:00"
+   }
+  }
+ ],
+ "updated_at": "2026-11-03T09:51:14.991536+00:00",
+ "sources": [],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] LinkedIn is kinder to a [layoff] than a promotion\nBoth posts say more about you than about them.\n \n\n[slide 1] LinkedIn is kinder to a layoff than a promotion.\nSwipe to read →\n\n[slide 2] A weekday morning. Phone in one hand, chai going cold with a skin on top. Someone from your old team has put the green 'Open to Work' frame on their photo.\nYou don't think twice. A long warm comment, two recruiters tagged, then a DM: \"Send me your CV, I'll refer you.\"\n\n[slide 3] Two days later a college batchmate posts \"Thrilled to share I'm starting a new position.\" Senior Manager. Your profile still says Manager.\nYour thumb hovers over the like button for a second. Then it scrolls. The easy reading is that the internet only rewards sad stories.\n\n[slide 4] But the layoff post asked nothing of you. Helping someone who is down lets you feel generous for the price of a comment.\nThe promotion post asked you to put their title next to yours and smile anyway.\nSympathy costs your ego nothing. A peer's win makes you check your own number.\n\n[slide 5] Here's the part worth keeping. The comments and tags under a layoff post turn into referrals, and referrals often turn into interviews.\nThe person who posted it, embarrassed, at 11 pm, starts getting calls. The promotion gets a few likes and a \"congrats bro\" much later, once it stopped stinging.\n\n[slide 6] Go back through this week's feed and find the good news you scrolled past without a like.\nThat's your real list of who you compare yourself to. It's usually shorter than you'd think, and full of people you once sat next to.\n\n[end card] Open this again the next time your thumb skips someone's promotion post.\nSend to the friend who just put up the 'Open to Work' frame and felt embarrassed doing it.\n\n[caption] Whose promotion post did you scroll past this week, and what did your own title say at the time?\n\n[alt text] A six-slide carousel. The cover reads: LinkedIn is kinder to a layoff than a promotion, with 'layoff' highlighted in teal. The slides follow the reader as they warmly comment on a former colleague's Open to Work post, then scroll past a batchmate's promotion post. The post argues that sympathy costs the ego nothing while a peer's win makes you measure yourself, notes that layoff-post referrals often lead to interviews, and ends by saying the good news you skipped this week shows who you compare yourself to.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "LinkedIn offers a green 'Open to Work' frame that users can put on their profile photo.",
+     "sentence": "Someone from your old team has put the green 'Open to Work' frame on their photo.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "Comments and tags under a LinkedIn layoff post turn into job referrals for the person who posted it.",
+     "sentence": "The comments and tags under a layoff post turn into referrals",
+     "type": "mechanism",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c3",
+     "text": "Job referrals often lead to interviews.",
+     "sentence": "referrals often turn into interviews",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c4",
+     "text": "LinkedIn users respond more warmly to layoff posts than to promotion posts. The reason is that supporting someone who is down costs the commenter's ego nothing, while a peer's promotion invites comparison with their own title and so stings. Layoff posts therefore draw more comments and help, and promotion posts draw fewer likes and late, grudging congratulations.",
+     "sentence": "Sympathy costs your ego nothing. A peer's win makes you check your own number.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "LinkedIn offers a green 'Open to Work' frame that users can put on their profile photo.": {
+   "id": "c1",
+   "verdict": "supported",
+   "event_date": "2020-06-01",
+   "correct": "LinkedIn's #OpenToWork photo frame is added when a member shares the Open to Work signal with all LinkedIn members. It is not added when the signal is shared with recruiters only. LinkedIn's help page does not name the colour. Fortune describes it as green. I could not confirm the exact launch date from a primary source. The June 2020 date is from memory and is approximate.",
+   "sources": [
+    {
+     "url": "https://www.linkedin.com/help/linkedin/answer/a507508",
+     "publisher": "LinkedIn Help",
+     "published_date": "",
+     "quote": "It also adds the #OpenToWork photo frame.",
+     "tier": 1
+    },
+    {
+     "url": "https://fortune.com/2024/09/05/linkedin-opentowork-badge-recruiters-job-search/",
+     "publisher": "Fortune",
+     "published_date": "2024-09-05",
+     "quote": "a green badge saying #OpenToWork",
+     "tier": 2
+    }
+   ]
+  },
+  "Layoff posts on LinkedIn typically draw hundreds of comments.": {
+   "id": "c5",
+   "verdict": "unverifiable",
+   "event_date": "",
+   "correct": "I found no dataset or study of typical comment counts on LinkedIn layoff posts. Only individual viral posts are reported. Fortune's example of a layoff post with 700 comments is an outlier. The same article cites a typical layoff post with 62 comments, mostly from the poster's own network. That example runs against 'hundreds'. The claim should be dropped or reworded, for example to say that some layoff posts go viral.",
+   "sources": [
+    {
+     "url": "https://fortune.com/2023/02/05/how-to-make-layoff-linkedin-posts-viral/amp",
+     "publisher": "Fortune",
+     "published_date": "2023-02-05",
+     "quote": "The post accumulated nearly 15,000 likes and 700 comments. ... The post has since amassed 831 likes and 62 comments, mostly from people she knows.",
+     "tier": 2
+    },
+    {
+     "url": "https://www.axios.com/2022/08/11/crying-ceo-selfie-goes-viral-on-linkedin-sparks-debate-on-messaging",
+     "publisher": "Axios",
+     "published_date": "2022-08-11",
+     "quote": "Crying CEO selfie goes viral on LinkedIn, sparks debate on messaging",
+     "tier": 2
+    }
+   ]
+  },
+  "_skeptic": {
+   "504889822bbea4b668ea4911bbe40d0ee77225a5": {
+    "holds": true,
+    "broken_premise": "None. No premise states anything demonstrably false about how LinkedIn or hiring works. The comparison of 'sympathy costs nothing' with 'a peer's win makes you check your own number' is the writer's reading of motive. Saying promotion posts 'get a few likes and a congrats bro much later' is a narrated scene, not a measured claim about the platform, so I'm not failing it. Two cautions. First, LinkedIn's own data on the Open to Work frame measures recruiter InMails, not comments turning into referrals. Second, the referral advantage is real but works through getting candidates noticed, not through the size of the comment thread.",
+    "actual_mechanism": "The Open to Work frame publicly tells recruiters and your network that you're job hunting. In 2020 LinkedIn said members with the public frame were on average 40% more likely to get recruiter InMails, and that turning the feature on doubled the chance of a recruiter message. LinkedIn reports this as a correlation from its own data, not a controlled test, so the 'starts getting calls' line has support. Referrals do push candidates through hiring faster. Ashby's hiring-funnel data shows referred applicants reaching interviews at about 40%, with 16% of those interviewed getting offers. Most of the boost comes from being noticed before the interview, not from doing better in it. So 'referrals often turn into interviews' is roughly right, but a long comment thread is only a referral if someone actually submits one.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://blog.linkedin.com/2020/october/29/the-benefits-of-sharing-with-your-community-you-re-open-to-work",
+      "published_date": "2020-10-29",
+      "quote": "Our data shows that turning on Open to Work on your LinkedIn profile increases your likelihood of getting a recruiter message by 2X. (As relayed by search summary; the page now redirects. The same post reported members with the public #OpenToWork frame were on average 40% more likely to get recruiter InMails.)"
+     },
+     {
+      "url": "https://www.ashbyhq.com/talent-trends-report/reports/referrals",
+      "published_date": "unknown",
+      "quote": "Referred candidates convert from application to interview at 40%, and 16% of those interviewed get an offer. (Summary of the report's figures)"
+     },
+     {
+      "url": "https://www.metaview.ai/resources/blog/do-referred-candidates-interview-better",
+      "published_date": "unknown",
+      "quote": "most of their advantage comes before the interview, when they get noticed, and after they're hired, when they tend to stay longer"
+     }
+    ]
+   },
+   "8f2dfb4a9982779409dd1209af0cacb41e43b436": {
+    "holds": true,
+    "broken_premise": "None. The two factual premises check out: LinkedIn's public Open to Work option puts a green #OpenToWork frame on the profile photo, and referrals do lead to interviews. The claim that people respond more warmly to layoff posts and grudgingly to promotion posts is an opinion about people's motives and a generalization about everyday behaviour. It isn't a false claim about how the product works, so I didn't test it. One thing to know: LinkedIn itself prompts your network to congratulate you when you post a new position, which often brings promotion posts plenty of likes. That pushes against the 'few likes' picture but doesn't disprove it.",
+    "actual_mechanism": "When you set Open to Work to 'All LinkedIn members', a green #OpenToWork frame appears on your photo. The 'Recruiters only' setting shows no frame and only signals recruiters who use LinkedIn Recruiter. On a public layoff post, comments and tags put the poster in front of people who can refer them, and referred applicants get screened far more often than average: Lever's study of about 600 small and mid-size companies found 57% of referrals were invited to a first screen, against 13% of all applicants. Ashby reports that 40% of referred candidates go from application to interview. So the claim that 'referrals often turn into interviews' is right, and the edge is biggest at that early stage. The advantage after the interview is smaller and varies between studies.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://blog.linkedin.com/2020/august/13/new-tools-to-stand-out-with-your-linkedin-profile",
+      "published_date": "2020-08-13",
+      "quote": "LinkedIn's announcement of profile tools, including the #OpenToWork photo frame you can show to all members, with a separate recruiters-only setting (paraphrased from the official blog; the search tool didn't show its exact wording)"
+     },
+     {
+      "url": "https://www.hrdive.com/news/hiring-ratio-for-small-and-midsize-companies-is-1-in-86/436802/",
+      "published_date": "2016",
+      "quote": "Among applicants, only 13% are invited to these first screenings. Referrals get invited 57% of the time."
+     },
+     {
+      "url": "https://www.ashbyhq.com/talent-trends-report/reports/referrals",
+      "published_date": "unknown",
+      "quote": "40% of referred candidates go from application to interview, and out of referred candidates interviewed, 16% go to an offer stage (as summarised in search results)"
+     },
+     {
+      "url": "https://qz.com/299923/why-job-referrals-matter",
+      "published_date": "2014",
+      "quote": "referred candidates that make it to the interview stage have a 40 percent better chance of being hired than other candidates"
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "b781dbbc217a0446351e666940f530983b6994e9": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not verify: 'Layoff posts on LinkedIn typically draw hundreds of comments.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "LinkedIn offers a green 'Open to Work' frame that users can put on their profile photo.",
+      "sentence": "Someone from your old team has put the green 'Open to Work' frame on their photo.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "On LinkedIn, posts about being laid off attract more supportive engagement (comments, referrals) than promotion announcements.",
+      "sentence": "LinkedIn is kinder to a layoff than a promotion.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Premise: helping someone who is down costs the helper little (a comment) and lets them feel generous, while a peer's promotion forces comparison with one's own title and status.",
+      "sentence": "Helping someone who is down lets you feel generous for the price of a comment. The promotion post asked you to put their title next to yours and smile anyway.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Hundreds of comments under a layoff post turn into referrals, and referrals often turn into interviews.",
+      "sentence": "Those hundreds of comments under a layoff post turn into referrals, and referrals often turn into interviews.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Layoff posts on LinkedIn typically draw hundreds of comments.",
+      "sentence": "Those hundreds of comments under a layoff post",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Promotion posts on LinkedIn typically get only a few likes and a delayed 'congrats' from peers.",
+      "sentence": "The promotion gets a few likes and a \"congrats bro\" much later, once it stopped stinging.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "The person who posts about a layoff starts receiving calls (from recruiters or referrers) as a result of the post.",
+      "sentence": "The person who posted it, embarrassed, at 11 pm, starts getting calls.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2020-06-01",
+      "correct": "LinkedIn's #OpenToWork photo frame is added when a member shares the Open to Work signal with all LinkedIn members. It is not added when the signal is shared with recruiters only. LinkedIn's help page does not name the colour. Fortune describes it as green. I could not confirm the exact launch date from a primary source. The June 2020 date is from memory and is approximate.",
+      "sources": [
+       {
+        "url": "https://www.linkedin.com/help/linkedin/answer/a507508",
+        "publisher": "LinkedIn Help",
+        "published_date": "",
+        "quote": "It also adds the #OpenToWork photo frame.",
+        "tier": 1
+       },
+       {
+        "url": "https://fortune.com/2024/09/05/linkedin-opentowork-badge-recruiters-job-search/",
+        "publisher": "Fortune",
+        "published_date": "2024-09-05",
+        "quote": "a green badge saying #OpenToWork",
+        "tier": 2
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "unverifiable",
+      "event_date": "",
+      "correct": "I found no dataset or study of typical comment counts on LinkedIn layoff posts. Only individual viral posts are reported. Fortune's example of a layoff post with 700 comments is an outlier. The same article cites a typical layoff post with 62 comments, mostly from the poster's own network. That example runs against 'hundreds'. The claim should be dropped or reworded, for example to say that some layoff posts go viral.",
+      "sources": [
+       {
+        "url": "https://fortune.com/2023/02/05/how-to-make-layoff-linkedin-posts-viral/amp",
+        "publisher": "Fortune",
+        "published_date": "2023-02-05",
+        "quote": "The post accumulated nearly 15,000 likes and 700 comments. ... The post has since amassed 831 likes and 62 comments, mostly from people she knows.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.axios.com/2022/08/11/crying-ceo-selfie-goes-viral-on-linkedin-sparks-debate-on-messaging",
+        "publisher": "Axios",
+        "published_date": "2022-08-11",
+        "quote": "Crying CEO selfie goes viral on LinkedIn, sparks debate on messaging",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. No premise states anything demonstrably false about how LinkedIn or hiring works. The comparison of 'sympathy costs nothing' with 'a peer's win makes you check your own number' is the writer's reading of motive. Saying promotion posts 'get a few likes and a congrats bro much later' is a narrated scene, not a measured claim about the platform, so I'm not failing it. Two cautions. First, LinkedIn's own data on the Open to Work frame measures recruiter InMails, not comments turning into referrals. Second, the referral advantage is real but works through getting candidates noticed, not through the size of the comment thread.",
+     "actual_mechanism": "The Open to Work frame publicly tells recruiters and your network that you're job hunting. In 2020 LinkedIn said members with the public frame were on average 40% more likely to get recruiter InMails, and that turning the feature on doubled the chance of a recruiter message. LinkedIn reports this as a correlation from its own data, not a controlled test, so the 'starts getting calls' line has support. Referrals do push candidates through hiring faster. Ashby's hiring-funnel data shows referred applicants reaching interviews at about 40%, with 16% of those interviewed getting offers. Most of the boost comes from being noticed before the interview, not from doing better in it. So 'referrals often turn into interviews' is roughly right, but a long comment thread is only a referral if someone actually submits one.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://blog.linkedin.com/2020/october/29/the-benefits-of-sharing-with-your-community-you-re-open-to-work",
+       "published_date": "2020-10-29",
+       "quote": "Our data shows that turning on Open to Work on your LinkedIn profile increases your likelihood of getting a recruiter message by 2X. (As relayed by search summary; the page now redirects. The same post reported members with the public #OpenToWork frame were on average 40% more likely to get recruiter InMails.)"
+      },
+      {
+       "url": "https://www.ashbyhq.com/talent-trends-report/reports/referrals",
+       "published_date": "unknown",
+       "quote": "Referred candidates convert from application to interview at 40%, and 16% of those interviewed get an offer. (Summary of the report's figures)"
+      },
+      {
+       "url": "https://www.metaview.ai/resources/blog/do-referred-candidates-interview-better",
+       "published_date": "unknown",
+       "quote": "most of their advantage comes before the interview, when they get noticed, and after they're hired, when they tend to stay longer"
+      }
+     ]
+    },
+    "text_hash": "b781dbbc217a0446351e666940f530983b6994e9",
+    "at": "2026-11-03T09:45:39.228933+00:00"
+   },
+   "297c21a90bce9991ec933e4ecde9e48879216265": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "LinkedIn offers a green 'Open to Work' frame that users can put on their profile photo.",
+      "sentence": "Someone from your old team has put the green 'Open to Work' frame on their photo.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Comments and tags under a LinkedIn layoff post turn into job referrals for the person who posted it.",
+      "sentence": "The comments and tags under a layoff post turn into referrals",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Job referrals often lead to interviews.",
+      "sentence": "referrals often turn into interviews",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "LinkedIn users respond more warmly to layoff posts than to promotion posts. The reason is that supporting someone who is down costs the commenter's ego nothing, while a peer's promotion invites comparison with their own title and so stings. Layoff posts therefore draw more comments and help, and promotion posts draw fewer likes and late, grudging congratulations.",
+      "sentence": "Sympathy costs your ego nothing. A peer's win makes you check your own number.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2020-06-01",
+      "correct": "LinkedIn's #OpenToWork photo frame is added when a member shares the Open to Work signal with all LinkedIn members. It is not added when the signal is shared with recruiters only. LinkedIn's help page does not name the colour. Fortune describes it as green. I could not confirm the exact launch date from a primary source. The June 2020 date is from memory and is approximate.",
+      "sources": [
+       {
+        "url": "https://www.linkedin.com/help/linkedin/answer/a507508",
+        "publisher": "LinkedIn Help",
+        "published_date": "",
+        "quote": "It also adds the #OpenToWork photo frame.",
+        "tier": 1
+       },
+       {
+        "url": "https://fortune.com/2024/09/05/linkedin-opentowork-badge-recruiters-job-search/",
+        "publisher": "Fortune",
+        "published_date": "2024-09-05",
+        "quote": "a green badge saying #OpenToWork",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": "Referred candidates reach interviews at far higher rates than other applicants. Ashby data shows 40% of referred candidates go from application to interview, against 3% for inbound applicants. The advantage is smaller at the offer stage, but the claim is only about interviews, and 'often' is fair. The claim is framed as a 'feature' but is really a general statement about hiring. No app or platform feature is involved.",
+      "sources": [
+       {
+        "url": "https://www.ashbyhq.com/talent-trends-report/reports/referrals",
+        "publisher": "Ashby Talent Trends Report",
+        "published_date": "2025-05-16",
+        "quote": "40% of referred candidates go from application to interview.",
+        "tier": 1
+       },
+       {
+        "url": "https://www.hrdive.com/news/hiring-ratio-for-small-and-midsize-companies-is-1-in-86/436802/",
+        "publisher": "HR Dive (reporting Lever data)",
+        "published_date": "2017-02-24",
+        "quote": "Referrals get invited 57% of the time ... Among applicants, only 13% are invited to these first screenings.",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. The two factual premises check out: LinkedIn's public Open to Work option puts a green #OpenToWork frame on the profile photo, and referrals do lead to interviews. The claim that people respond more warmly to layoff posts and grudgingly to promotion posts is an opinion about people's motives and a generalization about everyday behaviour. It isn't a false claim about how the product works, so I didn't test it. One thing to know: LinkedIn itself prompts your network to congratulate you when you post a new position, which often brings promotion posts plenty of likes. That pushes against the 'few likes' picture but doesn't disprove it.",
+     "actual_mechanism": "When you set Open to Work to 'All LinkedIn members', a green #OpenToWork frame appears on your photo. The 'Recruiters only' setting shows no frame and only signals recruiters who use LinkedIn Recruiter. On a public layoff post, comments and tags put the poster in front of people who can refer them, and referred applicants get screened far more often than average: Lever's study of about 600 small and mid-size companies found 57% of referrals were invited to a first screen, against 13% of all applicants. Ashby reports that 40% of referred candidates go from application to interview. So the claim that 'referrals often turn into interviews' is right, and the edge is biggest at that early stage. The advantage after the interview is smaller and varies between studies.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://blog.linkedin.com/2020/august/13/new-tools-to-stand-out-with-your-linkedin-profile",
+       "published_date": "2020-08-13",
+       "quote": "LinkedIn's announcement of profile tools, including the #OpenToWork photo frame you can show to all members, with a separate recruiters-only setting (paraphrased from the official blog; the search tool didn't show its exact wording)"
+      },
+      {
+       "url": "https://www.hrdive.com/news/hiring-ratio-for-small-and-midsize-companies-is-1-in-86/436802/",
+       "published_date": "2016",
+       "quote": "Among applicants, only 13% are invited to these first screenings. Referrals get invited 57% of the time."
+      },
+      {
+       "url": "https://www.ashbyhq.com/talent-trends-report/reports/referrals",
+       "published_date": "unknown",
+       "quote": "40% of referred candidates go from application to interview, and out of referred candidates interviewed, 16% go to an offer stage (as summarised in search results)"
+      },
+      {
+       "url": "https://qz.com/299923/why-job-referrals-matter",
+       "published_date": "2014",
+       "quote": "referred candidates that make it to the interview stage have a 40 percent better chance of being hired than other candidates"
+      }
+     ]
+    },
+    "text_hash": "297c21a90bce9991ec933e4ecde9e48879216265",
+    "at": "2026-11-03T09:46:59.414086+00:00"
+   }
+  },
+  "Job referrals often lead to interviews.": {
+   "id": "c3",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": "Referred candidates reach interviews at far higher rates than other applicants. Ashby data shows 40% of referred candidates go from application to interview, against 3% for inbound applicants. The advantage is smaller at the offer stage, but the claim is only about interviews, and 'often' is fair. The claim is framed as a 'feature' but is really a general statement about hiring. No app or platform feature is involved.",
+   "sources": [
+    {
+     "url": "https://www.ashbyhq.com/talent-trends-report/reports/referrals",
+     "publisher": "Ashby Talent Trends Report",
+     "published_date": "2025-05-16",
+     "quote": "40% of referred candidates go from application to interview.",
+     "tier": 1
+    },
+    {
+     "url": "https://www.hrdive.com/news/hiring-ratio-for-small-and-midsize-companies-is-1-in-86/436802/",
+     "publisher": "HR Dive (reporting Lever data)",
+     "published_date": "2017-02-24",
+     "quote": "Referrals get invited 57% of the time ... Among applicants, only 13% are invited to these first screenings.",
+     "tier": 2
+    }
+   ]
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "LinkedIn is kinder to a [layoff] than a promotion",
+   "sub": "Both posts say more about you than about them."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "LinkedIn is kinder to a layoff than a promotion.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "Why would a promotion get less love than a layoff?"
+   },
+   {
+    "paragraphs": [
+     "A weekday morning. Phone in one hand, chai going cold with a skin on top. Someone from your old team has put the green 'Open to Work' frame on their photo.",
+     "You don't think twice. A long warm comment, two recruiters tagged, then a DM: \"Send me your CV, I'll refer you.\""
+    ],
+    "why_swipe": "That felt good. So what happens when the news is good instead?"
+   },
+   {
+    "paragraphs": [
+     "Two days later a college batchmate posts \"Thrilled to share I'm starting a new position.\" Senior Manager. Your profile still says Manager.",
+     "Your thumb hovers over the like button for a second. Then it scrolls. The easy reading is that the internet only rewards sad stories."
+    ],
+    "why_swipe": "If it isn't about sad stories, what made the thumb move?"
+   },
+   {
+    "paragraphs": [
+     "But the layoff post asked nothing of you. Helping someone who is down lets you feel generous for the price of a comment.",
+     "The promotion post asked you to put their title next to yours and smile anyway.",
+     "**Sympathy costs your ego nothing. A peer's win makes you check your own number.**"
+    ],
+    "why_swipe": "So is all that support under layoff posts fake?"
+   },
+   {
+    "paragraphs": [
+     "Here's the part worth keeping. The comments and tags under a layoff post turn into referrals, and referrals often turn into interviews.",
+     "The person who posted it, embarrassed, at 11 pm, starts getting calls. The promotion gets a few likes and a \"congrats bro\" much later, once it stopped stinging."
+    ],
+    "why_swipe": "So what does your own scrolling say about you?"
+   },
+   {
+    "paragraphs": [
+     "Go back through this week's feed and find the good news you scrolled past without a like.",
+     "**That's your real list of who you compare yourself to.** It's usually shorter than you'd think, and full of people you once sat next to."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Open this again the next time your thumb skips someone's promotion post.",
+   "send": "Send to the friend who just put up the 'Open to Work' frame and felt embarrassed doing it.",
+   "promise": "How work and the feed really behave."
+  },
+  "caption": "Whose promotion post did you scroll past this week, and what did your own title say at the time?",
+  "hashtags": [
+   "#LinkedInLife",
+   "#OpenToWork",
+   "#CorporateIndia",
+   "#OfficeLife"
+  ],
+  "alt_text": "A six-slide carousel. The cover reads: LinkedIn is kinder to a layoff than a promotion, with 'layoff' highlighted in teal. The slides follow the reader as they warmly comment on a former colleague's Open to Work post, then scroll past a batchmate's promotion post. The post argues that sympathy costs the ego nothing while a peer's win makes you measure yourself, notes that layoff-post referrals often lead to interviews, and ends by saying the good news you skipped this week shows who you compare yourself to.",
+  "claims": [],
+  "caption_style": "question"
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "LinkedIn offers a green 'Open to Work' frame that users can put on their profile photo.",
+    "sentence": "Someone from your old team has put the green 'Open to Work' frame on their photo.",
+    "type": "feature",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "Comments and tags under a LinkedIn layoff post turn into job referrals for the person who posted it.",
+    "sentence": "The comments and tags under a layoff post turn into referrals",
+    "type": "mechanism",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c3",
+    "text": "Job referrals often lead to interviews.",
+    "sentence": "referrals often turn into interviews",
+    "type": "feature",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c4",
+    "text": "LinkedIn users respond more warmly to layoff posts than to promotion posts. The reason is that supporting someone who is down costs the commenter's ego nothing, while a peer's promotion invites comparison with their own title and so stings. Layoff posts therefore draw more comments and help, and promotion posts draw fewer likes and late, grudging congratulations.",
+    "sentence": "Sympathy costs your ego nothing. A peer's win makes you check your own number.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c1": {
+    "id": "c1",
+    "verdict": "supported",
+    "event_date": "2020-06-01",
+    "correct": "LinkedIn's #OpenToWork photo frame is added when a member shares the Open to Work signal with all LinkedIn members. It is not added when the signal is shared with recruiters only. LinkedIn's help page does not name the colour. Fortune describes it as green. I could not confirm the exact launch date from a primary source. The June 2020 date is from memory and is approximate.",
+    "sources": [
+     {
+      "url": "https://www.linkedin.com/help/linkedin/answer/a507508",
+      "publisher": "LinkedIn Help",
+      "published_date": "",
+      "quote": "It also adds the #OpenToWork photo frame.",
+      "tier": 1
+     },
+     {
+      "url": "https://fortune.com/2024/09/05/linkedin-opentowork-badge-recruiters-job-search/",
+      "publisher": "Fortune",
+      "published_date": "2024-09-05",
+      "quote": "a green badge saying #OpenToWork",
+      "tier": 2
+     }
+    ]
+   },
+   "c3": {
+    "id": "c3",
+    "verdict": "supported",
+    "event_date": null,
+    "correct": "Referred candidates reach interviews at far higher rates than other applicants. Ashby data shows 40% of referred candidates go from application to interview, against 3% for inbound applicants. The advantage is smaller at the offer stage, but the claim is only about interviews, and 'often' is fair. The claim is framed as a 'feature' but is really a general statement about hiring. No app or platform feature is involved.",
+    "sources": [
+     {
+      "url": "https://www.ashbyhq.com/talent-trends-report/reports/referrals",
+      "publisher": "Ashby Talent Trends Report",
+      "published_date": "2025-05-16",
+      "quote": "40% of referred candidates go from application to interview.",
+      "tier": 1
+     },
+     {
+      "url": "https://www.hrdive.com/news/hiring-ratio-for-small-and-midsize-companies-is-1-in-86/436802/",
+      "publisher": "HR Dive (reporting Lever data)",
+      "published_date": "2017-02-24",
+      "quote": "Referrals get invited 57% of the time ... Among applicants, only 13% are invited to these first screenings.",
+      "tier": 2
+     }
+    ]
+   }
+  },
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "None. The two factual premises check out: LinkedIn's public Open to Work option puts a green #OpenToWork frame on the profile photo, and referrals do lead to interviews. The claim that people respond more warmly to layoff posts and grudgingly to promotion posts is an opinion about people's motives and a generalization about everyday behaviour. It isn't a false claim about how the product works, so I didn't test it. One thing to know: LinkedIn itself prompts your network to congratulate you when you post a new position, which often brings promotion posts plenty of likes. That pushes against the 'few likes' picture but doesn't disprove it.",
+   "actual_mechanism": "When you set Open to Work to 'All LinkedIn members', a green #OpenToWork frame appears on your photo. The 'Recruiters only' setting shows no frame and only signals recruiters who use LinkedIn Recruiter. On a public layoff post, comments and tags put the poster in front of people who can refer them, and referred applicants get screened far more often than average: Lever's study of about 600 small and mid-size companies found 57% of referrals were invited to a first screen, against 13% of all applicants. Ashby reports that 40% of referred candidates go from application to interview. So the claim that 'referrals often turn into interviews' is right, and the edge is biggest at that early stage. The advantage after the interview is smaller and varies between studies.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://blog.linkedin.com/2020/august/13/new-tools-to-stand-out-with-your-linkedin-profile",
+     "published_date": "2020-08-13",
+     "quote": "LinkedIn's announcement of profile tools, including the #OpenToWork photo frame you can show to all members, with a separate recruiters-only setting (paraphrased from the official blog; the search tool didn't show its exact wording)"
+    },
+    {
+     "url": "https://www.hrdive.com/news/hiring-ratio-for-small-and-midsize-companies-is-1-in-86/436802/",
+     "published_date": "2016",
+     "quote": "Among applicants, only 13% are invited to these first screenings. Referrals get invited 57% of the time."
+    },
+    {
+     "url": "https://www.ashbyhq.com/talent-trends-report/reports/referrals",
+     "published_date": "unknown",
+     "quote": "40% of referred candidates go from application to interview, and out of referred candidates interviewed, 16% go to an offer stage (as summarised in search results)"
+    },
+    {
+     "url": "https://qz.com/299923/why-job-referrals-matter",
+     "published_date": "2014",
+     "quote": "referred candidates that make it to the interview stage have a 40 percent better chance of being hired than other candidates"
+    }
+   ]
+  },
+  "text_hash": "297c21a90bce9991ec933e4ecde9e48879216265",
+  "at": "2026-11-03T09:46:59.414086+00:00"
+ },
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-102/slide_01.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-102/slide_02.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-102/slide_03.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-102/slide_04.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-102/slide_05.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-102/slide_06.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-102/slide_07.jpg"
+ ]
 }

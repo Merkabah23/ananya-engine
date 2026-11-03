@@ -1,6 +1,6 @@
 {
  "id": "2026-11-80",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-12T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -61,6 +61,1041 @@
   "villain": "a rate-lock scheme that sells urgency instead of real protection",
   "story_type": "objection"
  },
- "history": [],
- "updated_at": "2026-11-03T09:03:57.905488+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Hard failure 2, wording stronger than the source. Slide 4: \"On 30 October it dropped sharply in a day.\" The source says gold \"extended their decline\" and was down 0.93% on MCX. That is a modest dip, not a sharp drop. The post also implies the price fell below the reader's lock-day price (about 23-24 Oct). No source gives the price on that day, so \"you locked, then it fell\" is unsupported as a fact.",
+     "Hard failure 7, partly dead slide. Slide 5, \"The urgency is what's on sale\", repeats the cover and slide 1 (\"sells you the fear, not the gold\") in new words. The concession and the \"same urgency whether rising or falling\" claim carry little else."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 4: Fix the price claim. Say plainly that gold was slipping by 30 October, ahead of Dhanteras, and drop \"sharply\" and \"dropped in a day\". Don't say it was below the price you locked, because the sources don't give that. Make the point that the date held while the price moved either way, so the lock only helps if the direction goes your way. That also keeps the line \"The festival date never moved. Only the day your money left did.\"",
+     "slide 4: Add the missing feeling. The post never shows the reader's moment of unease when they see the price slip after paying. One short human beat would do it, such as scrolling the rate on the phone and wondering whether the advance was a mistake, or realising the money is already with the shop. This is where eq (3) gets lifted. Keep it a typical reaction, not a one-off event.",
+     "slide 5: Cut or rewrite so it stops restating the hook. Keep only the new beat, which is the real concession that some schemes bill the lower of the two rates (source: the KISNA example), and that you can't tell which kind you have until the price moves. Drop \"The urgency is what's on sale\", or move the same-urgency-either-way point into the pitch in slide 2 or 3 so it lands once.",
+     "slide 2: \"Offer valid till Sunday\" is an invented detail. Keep it as a typical scenario, or lean on the sourced fact that jewellers push advance booking so you can fix today's price. A small touch of sound or touch (the buzz on the desk, the thumb hovering over the reply) would help the work-call moment feel lived.",
+     "slide 6: The test is good. The bold closer \"remember who the lock was built for\" leans toward moralising. Consider ending on the pause itself or on what the shop's answer reveals, something short that people repeat, so it doesn't read like a tidy lesson."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Hard failure 2, wording stronger than the source. Slide 4: \"On 30 October it dropped sharply in a day.\" The source says gold \"extended their decline\" and was down 0.93% on MCX. That is a modest dip, not a sharp drop. The post also implies the price fell below the reader's lock-day price (about 23-24 Oct). No source gives the price on that day, so \"you locked, then it fell\" is unsupported as a fact.",
+    "Hard failure 7, partly dead slide. Slide 5, \"The urgency is what's on sale\", repeats the cover and slide 1 (\"sells you the fear, not the gold\") in new words. The concession and the \"same urgency whether rising or falling\" claim carry little else.",
+    "slide 4: Fix the price claim. Say plainly that gold was slipping by 30 October, ahead of Dhanteras, and drop \"sharply\" and \"dropped in a day\". Don't say it was below the price you locked, because the sources don't give that. Make the point that the date held while the price moved either way, so the lock only helps if the direction goes your way. That also keeps the line \"The festival date never moved. Only the day your money left did.\"",
+    "slide 4: Add the missing feeling. The post never shows the reader's moment of unease when they see the price slip after paying. One short human beat would do it, such as scrolling the rate on the phone and wondering whether the advance was a mistake, or realising the money is already with the shop. This is where eq (3) gets lifted. Keep it a typical reaction, not a one-off event.",
+    "slide 5: Cut or rewrite so it stops restating the hook. Keep only the new beat, which is the real concession that some schemes bill the lower of the two rates (source: the KISNA example), and that you can't tell which kind you have until the price moves. Drop \"The urgency is what's on sale\", or move the same-urgency-either-way point into the pitch in slide 2 or 3 so it lands once.",
+    "slide 2: \"Offer valid till Sunday\" is an invented detail. Keep it as a typical scenario, or lean on the sourced fact that jewellers push advance booking so you can fix today's price. A small touch of sound or touch (the buzz on the desk, the thumb hovering over the reply) would help the work-call moment feel lived.",
+    "slide 6: The test is good. The bold closer \"remember who the lock was built for\" leans toward moralising. Consider ending on the pause itself or on what the shop's answer reveals, something short that people repeat, so it doesn't read like a tidy lesson."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "slide 4: The third paragraph ('The shop already has your cash, a buyer who can't wander next door, and a festival footfall booked') explains the because right after the sting of 'the festival date never moved'. Make it land harder or trim it. Let the 'wander next door' idea carry it alone, so the line after the bold one doesn't dilute it.",
+     "slide 4: The feeling is only implied by checking the rate in the lift. Add one small, specific beat of the reader's reaction (doing the sum of what the early advance 'cost' them, or not wanting to tell the family). This is where the cheated or anxious feeling should be felt, and eq is the weakest score.",
+     "slide 2: The fear the cover promises doesn't appear until slide 3. Put the shop's urgency line in the message itself, using wording the topic already contains, such as 'book now, the price will only go up', so the reader feels the fear first and the sensible-sounding thought second.",
+     "slide 5: 'Both kinds arrive as the same WhatsApp. You only find out which one when the price moves' is stated flatly. Keep it, but tie it to the reader ('you can't tell from the message') so it sets up the slide 6 question without sounding like a general claim.",
+     "slide 6: The test is good, and 'Listen for the pause' is the repeatable line. Don't add anything after it. Check that the bold line isn't split across a sentence that sounds like advice."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not verify: 'Before Dhanteras, Indian jewellers message customers on WhatsApp offering to lock the day's gold rate.'. Cut it, or state it only if a source says it.",
+     "Needs a stronger source: 'Other rate-lock schemes bill the customer at the locked rate even if the gold price falls before the purchase.' (a primary source, or two independent major outlets).",
+     "Could not verify: 'Both kinds of rate-lock scheme are offered through the same kind of WhatsApp message, so the customer cannot tell which one it is until the price moves.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Before Dhanteras, Indian jewellers message customers on WhatsApp offering to lock the day's gold rate.",
+      "sentence": "\"Lock today's rate.\"",
+      "type": "event",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "A jeweller's rate-lock scheme requires the customer to pay an advance to lock the gold rate.",
+      "sentence": "You pay an advance for a chain you'd have bought on the same day anyway.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Some jewellers' rate-lock schemes bill the customer at the lower of the locked rate and the rate on the purchase day, so a price fall costs the customer nothing.",
+      "sentence": "Some schemes even bill you at the lower of the two rates, so a fall costs you nothing.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Other rate-lock schemes bill the customer at the locked rate even if the gold price falls before the purchase.",
+      "sentence": "You only find out which one you signed up for when the price moves.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "If the gold price rises after the lock, a rate lock saves the buyer money.",
+      "sentence": "Fair enough, if gold climbs, the lock really saves you money.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Both kinds of rate-lock scheme are offered through the same kind of WhatsApp message, so the customer cannot tell which one it is until the price moves.",
+      "sentence": "But both kinds arrive as the same WhatsApp.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "Gold prices fell in the weeks before Dhanteras, by the end of October.",
+      "sentence": "Then, by the end of October, gold is slipping.",
+      "type": "event",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c8",
+      "text": "A rate-lock advance moves the buyer's payment earlier, leaving the shop holding the cash, with a buyer tied to that shop and festival sales secured. The lock's value depends on a price movement no one controls, so it sells reassurance rather than gold.",
+      "sentence": "The shop already has your cash, a buyer who can't wander next door, and a festival footfall booked.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "unverifiable",
+      "event_date": null,
+      "correct": "I found advance-booking and rate-lock offers around Dhanteras and Akshaya Tritiya, but no report of Indian jewellers messaging customers on WhatsApp to lock the day's rate. The only WhatsApp material is software-vendor marketing pages. Jewellers do run these offers, so the framing could be softened to 'jewellers run advance-booking offers before Dhanteras'.",
+      "sources": [
+       {
+        "url": "https://www.businesstoday.in/personal-finance/investment/story/akshaya-tritiya-2026-jewellers-roll-out-gold-price-protection-offers-to-attract-buyers-524049-2026-04-04",
+        "publisher": "Business Today",
+        "published_date": "2026-04-04",
+        "quote": "jewellers across the industry offer advance booking schemes, making-charge discounts, and price-lock guarantees (no WhatsApp mention found)",
+        "tier": 2
+       },
+       {
+        "url": "https://m.aisensy.com/blog/whatsapp-marketing-for-jewellers/",
+        "publisher": "AiSensy (WhatsApp software vendor)",
+        "published_date": null,
+        "quote": "Vendor page on WhatsApp marketing for jewellers handling Dhanteras enquiries. It is a product pitch, not a report of actual practice.",
+        "tier": 3
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2020-04-26",
+      "correct": "Rate-lock schemes require an advance. The amount varies: 5-10% at Malabar, 10-25% per Augmont, 25% at KISNA, Reliance Jewels and Indriya, and 50% at one Nagpur jeweller. The earliest scheme found is from 2020 (Malabar and others), so 2020 is not the first-ever date.",
+      "sources": [
+       {
+        "url": "https://upstox.com/news/personal-finance/investing/should-you-pre-book-gold-silver-jewellery-for-akshaya-tritiya-2026-experts-explain/article-192070",
+        "publisher": "Upstox",
+        "published_date": "2026-04-13",
+        "quote": "you need to pay 25% advance to lock in your gold rate.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.businesstoday.in/personal-finance/investment/story/akshaya-tritiya-2026-jewellers-roll-out-gold-price-protection-offers-to-attract-buyers-524049-2026-04-04",
+        "publisher": "Business Today",
+        "published_date": "2026-04-04",
+        "quote": "Customers lock in a gold price by paying a 25% advance.",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "2020-06-23",
+      "correct": "Several jewellers bill at the lower of the booking-day and purchase-day rate: KISNA, Malabar, Kalyan, Regal and Reliance Jewels. Coins and bullion are excluded. Making charges and taxes may still be charged on the day of purchase, so a price fall costs nothing on the metal rate only. 'Costs the customer nothing' is slightly too strong for the full bill. Malabar's lower-rate scheme was reported by 2020-06-23.",
+      "sources": [
+       {
+        "url": "https://www.businesstoday.in/personal-finance/investment/story/akshaya-tritiya-2026-jewellers-roll-out-gold-price-protection-offers-to-attract-buyers-524049-2026-04-04",
+        "publisher": "Business Today",
+        "published_date": "2026-04-04",
+        "quote": "the lower of the booking-day or purchase-day gold rate",
+        "tier": 2
+       },
+       {
+        "url": "https://upstox.com/news/personal-finance/investing/should-you-pre-book-gold-silver-jewellery-for-akshaya-tritiya-2026-experts-explain/article-192070",
+        "publisher": "Upstox",
+        "published_date": "2026-04-13",
+        "quote": "if it falls you need to pay the lower rate.",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "2026-04-13",
+      "correct": "Support is thin. Upstox quotes one expert who says that under some schemes the customer still pays the booking price if the price falls. That expert describes the practice in general and names no jeweller. The writer should hedge it as 'some schemes' and not name a jeweller.",
+      "sources": [
+       {
+        "url": "https://upstox.com/news/personal-finance/investing/should-you-pre-book-gold-silver-jewellery-for-akshaya-tritiya-2026-experts-explain/article-192070",
+        "publisher": "Upstox",
+        "published_date": "2026-04-13",
+        "quote": "if prices fall, the consumer still pays the booking price at that time.",
+        "tier": 2
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": "If gold rises after the lock, the buyer pays the lower locked rate. This holds for jewellery only: coins and bars are excluded from the lock. Making charges and taxes are not locked.",
+      "sources": [
+       {
+        "url": "https://www.businesstoday.in/personal-finance/investment/story/akshaya-tritiya-2026-jewellers-roll-out-gold-price-protection-offers-to-attract-buyers-524049-2026-04-04",
+        "publisher": "Business Today",
+        "published_date": "2026-04-04",
+        "quote": "Investment products like coins and bullion are excluded. (KISNA plan: lock a price with a 25% advance)",
+        "tier": 2
+       },
+       {
+        "url": "https://upstox.com/news/personal-finance/investing/should-you-pre-book-gold-silver-jewellery-for-akshaya-tritiya-2026-experts-explain/article-192070",
+        "publisher": "Upstox",
+        "published_date": "2026-04-13",
+        "quote": "Indriya (Aditya Birla): pay 25% 'to lock the lower rate between booking date and billing date.'",
+        "tier": 2
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "unverifiable",
+      "event_date": null,
+      "correct": "I found nothing showing that both scheme types are sold through the same WhatsApp message. Sources agree that terms differ by jeweller and that the customer must check the written terms. 'Cannot tell until the price moves' is a stretch, because terms are normally stated in the booking terms and conditions. Do not publish it as fact.",
+      "sources": [
+       {
+        "url": "https://upstox.com/news/personal-finance/investing/should-you-pre-book-gold-silver-jewellery-for-akshaya-tritiya-2026-experts-explain/article-192070",
+        "publisher": "Upstox",
+        "published_date": "2026-04-13",
+        "quote": "These two accounts conflict, so check the jeweller's written terms. (the fetch tool's summary of the article, not a verbatim quote)",
+        "tier": 2
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "supported",
+      "event_date": "2026-10-23",
+      "correct": "MCX gold futures fell about 7% over October 2026, ending near ₹1,38,419 per 10 g. The slide was visible in the last week (spot down over 3.5% in the week to 30 Oct). MCX gold hit a month low of ₹1,40,664 on 23 Oct per one report, but the Dec contract closed ₹1,42,024 on 23 Oct per HDFC Sky. One source quotes a weekly high of ₹1,44,100 on 28 Oct, so the fall was not in a straight line. Dhanteras is Friday 6 Nov 2026.",
+      "sources": [
+       {
+        "url": "https://www.miscw.com/mcx-gold-rebounds-rs-600-a-10-grams-as-bullion-shakes-off-october-s-7-slump-156158.html",
+        "publisher": "MiscW (citing Livemint)",
+        "published_date": "2026-11-03",
+        "quote": "a brutal October in which MCX gold fell about 7% and silver collapsed about 20%.",
+        "tier": 3
+       },
+       {
+        "url": "https://hdfcsky.com/news/gold-slumps-below-4000-mcx-gold-drops-rs1333-ahead-of-dhanteras",
+        "publisher": "HDFC Sky",
+        "published_date": "2026-10-31",
+        "quote": "spot gold had a weekly decline of over 3.5% (the fetch tool's summary, not a verbatim quote)",
+        "tier": 2
+       },
+       {
+        "url": "https://upstox.com/news/personal-finance/commodities/gold-silver-rates-today-october-30-dhanteras-shopping-gets-cheaper-gold-falls-1-333-silver-drops-5-208-ahead-of-diwali/article-202718/",
+        "publisher": "Upstox",
+        "published_date": "2026-10-30",
+        "quote": "Gold and silver prices extended their decline on October 30, offering some relief just days before Dhanteras.",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None of the premises is demonstrably false. One line overstates things: slide 5 says 'You only find out which one you signed up for when the price moves.' The rate rule is actually written into the scheme terms at booking. Kisna, Regal and Malabar all publish 'whichever is lower' up front, so a buyer can learn which kind they have before paying, which is what slide 6 tells them to do. That line describes what buyers tend to experience, not how the contract works, so it doesn't break the argument.",
+     "actual_mechanism": "In a jeweller's rate-protection scheme, you pay an advance to that one shop, usually 5% to 50% of the purchase value, with a validity of roughly 60 to 180 days. The big chains usually bill the gold at the lower of the booking-day rate and the purchase-day rate. Making charges and GST are worked out on billing day, and the schemes usually cover jewellery only, not coins or bars. So the buyer always gives up cash early and is tied to that shop. Only a fixed-rate lock loses money when gold falls. A lower-of-two lock is real price protection that you pay for with the advance and the tie-in, which is the distinction the post already concedes on slide 5.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.businesstoday.in/personal-finance/investment/story/akshaya-tritiya-2026-jewellers-roll-out-gold-price-protection-offers-to-attract-buyers-524049-2026-04-04",
+       "published_date": "2026-04-04",
+       "quote": "customers will be billed at the lower of the booking-day or purchase-day gold rate."
+      },
+      {
+       "url": "https://www.regaljewellers.net/?p=14361",
+       "published_date": "unknown",
+       "quote": "the lowest price at the time of ultimate purchase: either the booking-day price or the purchase-day price"
+      },
+      {
+       "url": "https://malabar191.malabargoldanddiamonds.com/dhanteras-advance-booking",
+       "published_date": "unknown",
+       "quote": "Rate on the advance date or the purchase date, whichever is less, applies; if the purchase is not made within the stipulated period, the lower rate applies only to the gold weight equivalent to the amount advanced. (Paraphrased from a search summary; the page itself could not be fetched.)"
+      },
+      {
+       "url": "https://shubhpanchang.com/festivals/dhanteras",
+       "published_date": "unknown",
+       "quote": "Dhanteras 2026 falls on Friday, November 6, 2026"
+      }
+     ]
+    },
+    "text_hash": "25d44e86eb10bd55e36ebc749a13c080989e65fc",
+    "at": "2026-11-03T09:48:38.585986+00:00"
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Could not verify: 'Before Dhanteras, Indian jewellers message customers on WhatsApp offering to lock the day's gold rate.'. Cut it, or state it only if a source says it.",
+    "Needs a stronger source: 'Other rate-lock schemes bill the customer at the locked rate even if the gold price falls before the purchase.' (a primary source, or two independent major outlets).",
+    "Could not verify: 'Both kinds of rate-lock scheme are offered through the same kind of WhatsApp message, so the customer cannot tell which one it is until the price moves.'. Cut it, or state it only if a source says it."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [
+     "7. Dead slide: slide 3 repeats what slide 2 already said. Slide 2: \"You were going to buy a thin chain this Dhanteras anyway.\" Slide 3: \"a chain you'd have bought on the same day anyway.\" Slide 3's opener, \"Your first thought is the sensible one. Prices only go up, so locking now is just being smart,\" also only explains the obvious belief. Slide 3 adds little beyond the counter detail."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 3: Cut the repeated \"bought anyway\" from either slide 2 or slide 3, and drop the explanatory \"sensible thought\" opener. Use the slide for the one moment only the reader would know: what it feels like to hand over money early to feel safe. Keep the cold glass and the AC. Add the relief of 'done, it's locked', so the later sting lands.",
+     "slide 4: The loss is never shown. We don't learn whether this buyer pays the old higher rate or the lower one, so \"Is the lock useless then?\" has nothing behind it. Make the story's scheme one that bills the locked rate, and let the reader feel the small sting of watching gold slip while their advance sits with the shop. Keep this to the story's own scheme, not a claim about all schemes. Gold slipping around 30 October is sourced.",
+     "slide 5: This concession undercuts the turn, because \"some schemes bill the lower rate\" and \"the lock really saves you money\" together say the protection is sometimes real. State it plainly as the point: the protection is real only if the price rises, and the shop collects the urgency either way. The 25% advance and the coin exclusion are from a different festival and a different jeweller, and the exclusion is irrelevant to a chain buyer. Keep one number at most and tie it to why it matters, or cut it.",
+     "slide 4: The 'because' (cash early, a buyer who can't go next door, festival footfall) sits in one thin paragraph after the bold line. Give it room as its own beat: Dhanteras can't be moved, so the shop only has to turn your worry into a deposit. Say it once, simply.",
+     "slide 6: The test is good, but \"A fair lock answers in one word. Listen for the pause.\" tells the reader what to hear. End on the sting instead: the answer shows who the scheme was built for. Also make the feeling of anxiety present earlier, since the topic's mood is anxious and the post barely shows the fear it says is being sold."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "cut_slide": 3,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 3,
+     "tight": 4
+    },
+    "notes": [
+     "slide 2: The moment the topic hands you is missing. The post says 'the fear' but never shows it. Put the shop's WhatsApp message on screen, with the 'book now, the price will only go up' line. Show the reader's stomach drop, and add one detail beyond sight, like the phone buzzing in the middle of dinner. Right now it reads as a description of an offer, not a moment the reader lives. The ₹1.42 to 1.44 lakh range from the topic is allowed if you want one number.",
+     "slide 3: This is where the feeling should land, but it reads like a mechanism explainer. Give the reader the feeling: watching the rate slip on the phone while their money is already parked at the shop. The bold line is a mirrored 'date never moved / day money left' construction, so find a plainer, more human line. Don't say the buyer 'can't wander next door' as a flat fact, because some schemes may allow cancellation. Say instead that money already paid makes you less likely to compare.",
+     "slide 3: 'a festival footfall booked' states the shop's plan as fact. Reframe it as what the shop gets from the advance, which is cash early and a buyer who is already committed. That is true without implying a deliberate scheme.",
+     "slide 4: The concession weakens the turn, because it says the lock does protect. Close that gap by saying the urgency is sold either way, and only the fine print decides who is protected. Also make the KISNA example clear and relevant. It was an Akshaya Tritiya plan, a different festival, and jewellery only. 'Coins left out' hits hardest for the reader who buys a small coin every Dhanteras, so tie it to that person.",
+     "slide 5: The one-question test is good. Make the closing line sting a little more by saying what the pause means for the reader, without turning it into advice. Keep it short and avoid 'listen for' coaching tone."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "7. Dead slide: slide 3 repeats what slide 2 already said. Slide 2: \"You were going to buy a thin chain this Dhanteras anyway.\" Slide 3: \"a chain you'd have bought on the same day anyway.\" Slide 3's opener, \"Your first thought is the sensible one. Prices only go up, so locking now is just being smart,\" also only explains the obvious belief. Slide 3 adds little beyond the counter detail.",
+    "slide 3: Cut the repeated \"bought anyway\" from either slide 2 or slide 3, and drop the explanatory \"sensible thought\" opener. Use the slide for the one moment only the reader would know: what it feels like to hand over money early to feel safe. Keep the cold glass and the AC. Add the relief of 'done, it's locked', so the later sting lands.",
+    "slide 4: The loss is never shown. We don't learn whether this buyer pays the old higher rate or the lower one, so \"Is the lock useless then?\" has nothing behind it. Make the story's scheme one that bills the locked rate, and let the reader feel the small sting of watching gold slip while their advance sits with the shop. Keep this to the story's own scheme, not a claim about all schemes. Gold slipping around 30 October is sourced.",
+    "slide 5: This concession undercuts the turn, because \"some schemes bill the lower rate\" and \"the lock really saves you money\" together say the protection is sometimes real. State it plainly as the point: the protection is real only if the price rises, and the shop collects the urgency either way. The 25% advance and the coin exclusion are from a different festival and a different jeweller, and the exclusion is irrelevant to a chain buyer. Keep one number at most and tie it to why it matters, or cut it.",
+    "slide 4: The 'because' (cash early, a buyer who can't go next door, festival footfall) sits in one thin paragraph after the bold line. Give it room as its own beat: Dhanteras can't be moved, so the shop only has to turn your worry into a deposit. Say it once, simply.",
+    "slide 6: The test is good, but \"A fair lock answers in one word. Listen for the pause.\" tells the reader what to hear. End on the sting instead: the answer shows who the scheme was built for. Also make the feeling of anxiety present earlier, since the topic's mood is anxious and the post barely shows the fear it says is being sold."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Hard failure 12 (slide 4): \"Your slip says the locked rate. The rate on your phone is lower, and you'll be paying the higher one.\" This states as fact that the lock doesn't honour a fall. The sources show some schemes bill the lower of the booking-day or purchase-day rate (the KISNA example), and slide 7 itself treats that as the open question. The story answers the test before the test is asked."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 4: Stop asserting that you pay the higher rate. End the moment on the phone showing a lower rate while you realise you never asked what the slip does if the price falls. The topic's turn is that protection is real only if the price rises. A lock that might not honour a fall is the sting, and it sets up the test on the last slide. Keep the bold line about the date not moving, but it must not claim a result the sources don't support.",
+     "slides 6 and 7: These make the same point three times (\"protection only if gold rises\", \"urgency sold either way\", \"if it falls, do you pay lower\"). Merge them. Keep the fair concession (if gold climbs, the lock really saves you) in one short beat and let the last slide carry only the test. Cut the bold line on slide 6 so slide 7 lands once.",
+     "slide 7: The ending, \"the lock was built for the shop's festival week, not your fear\", sounds like a verdict. Give the reader the test and what the answer reveals in plain words, or add a closer that stings: the lock bought you a feeling, and you paid early for it. Don't tell the reader the moral.",
+     "slide 5: The first sentence repeats slide 4's bold line (a date nobody can move). Open straight on what the shop gets: cash weeks early, booked footfall, and a buyer who can't wander next door. Show that you were buying the chain anyway, so the shop didn't create demand, it only moved your money earlier.",
+     "slide 3: The cold glass and the AC are a good sensory detail. Add one more feeling beat here, the relief of 'done, locked', so the drop on slide 4 stings more. That also adds to the eq score."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Hard failure 12 (slide 4): \"Your slip says the locked rate. The rate on your phone is lower, and you'll be paying the higher one.\" This states as fact that the lock doesn't honour a fall. The sources show some schemes bill the lower of the booking-day or purchase-day rate (the KISNA example), and slide 7 itself treats that as the open question. The story answers the test before the test is asked.",
+    "slide 4: Stop asserting that you pay the higher rate. End the moment on the phone showing a lower rate while you realise you never asked what the slip does if the price falls. The topic's turn is that protection is real only if the price rises. A lock that might not honour a fall is the sting, and it sets up the test on the last slide. Keep the bold line about the date not moving, but it must not claim a result the sources don't support.",
+    "slides 6 and 7: These make the same point three times (\"protection only if gold rises\", \"urgency sold either way\", \"if it falls, do you pay lower\"). Merge them. Keep the fair concession (if gold climbs, the lock really saves you) in one short beat and let the last slide carry only the test. Cut the bold line on slide 6 so slide 7 lands once.",
+    "slide 7: The ending, \"the lock was built for the shop's festival week, not your fear\", sounds like a verdict. Give the reader the test and what the answer reveals in plain words, or add a closer that stings: the lock bought you a feeling, and you paid early for it. Don't tell the reader the moral.",
+    "slide 5: The first sentence repeats slide 4's bold line (a date nobody can move). Open straight on what the shop gets: cash weeks early, booked footfall, and a buyer who can't wander next door. Show that you were buying the chain anyway, so the shop didn't create demand, it only moved your money earlier.",
+    "slide 3: The cold glass and the AC are a good sensory detail. Add one more feeling beat here, the relief of 'done, locked', so the drop on slide 4 stings more. That also adds to the eq score."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-03T09:51:14.993497+00:00",
+ "sources": [
+  {
+   "url": "https://www.businesstoday.in/personal-finance/investment/story/akshaya-tritiya-2026-jewellers-roll-out-gold-price-protection-offers-to-attract-buyers-524049-2026-04-04",
+   "fact": "Jewellers' rate-lock plans (the KISNA example for Akshaya Tritiya 2026) take a 25% advance and bill the lower of the booking-day or purchase-day rate. They exclude coins and bullion. This shows the customer pays upfront for a price guarantee and gets protection only on jewellery.",
+   "excerpt": "lock in gold prices by paying a 25% advance | customers will be billed at the lower of the booking-day or purchase-day gold rate | valid until April 19 | excludes investment products like coins and bullion",
+   "date": "2026-04-04"
+  },
+  {
+   "url": "https://upstox.com/news/personal-finance/commodities/gold-silver-rates-today-october-30-dhanteras-shopping-gets-cheaper-gold-falls-1-333-silver-drops-5-208-ahead-of-diwali/article-202718/",
+   "fact": "Contradicting the 'price will only go up' pitch, gold fell on 30 October 2026, a week before Dhanteras on 6 November. 24K gold was about ₹1.43 lakh per 10 g and MCX futures were at ₹1,41,263.",
+   "excerpt": "Gold and silver prices extended their decline on October 30, offering some relief just days before Dhanteras. | trading at ₹1,41,263 per 10 grams, down ₹1,333 or 0.93%",
+   "date": "2026-10-30"
+  }
+ ],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] A Dhanteras rate lock sells you [the fear], not the gold\nYou pay early to feel safe about a price nobody controls.\n \n\n[slide 1] A Dhanteras rate lock sells you the fear, not the gold.\nSwipe to read →\n\n[slide 2] Two weeks before Dhanteras, your phone buzzes against the desk in the middle of a work call. It's the jeweller your family has used for years.\n\"Lock today's rate.\" Gold is already at a number that makes you wince. You were going to buy a thin chain this Dhanteras anyway.\n\n[slide 3] Your first thought is the sensible one. Prices only go up, so locking now is just being smart.\nBy Saturday you're at the counter, the glass cold under your wrist, the AC humming. You pay an advance for a chain you'd have bought on the same day anyway.\n\n[slide 4] Then, by the end of October, gold is slipping. You check the rate in the lift, and the advance is already sitting with the shop.\nThe festival date never moved. Only the day your money left did.\nThe shop already has your cash, a buyer who can't wander next door, and a festival footfall booked.\n\n[slide 5] Fair enough, if gold climbs, the lock really saves you money. Some schemes even bill you at the lower of the two rates, so a fall costs you nothing.\nBut both kinds arrive as the same WhatsApp. You only find out which one you signed up for when the price moves.\n\n[slide 6] One question sorts these schemes. If the rate falls by Dhanteras, do you pay the lower one?\nA fair lock answers in one word. Listen for the pause.\n\n[end card] Read it again the next time a jeweller's message says 'lock today's rate'.\nSend to the family member who buys a little gold every Dhanteras and gets every message the shop sends.\n\n[caption] The scariest word in a jeweller's WhatsApp is 'today'.\n\n[alt text] Carousel about jewellers' rate-lock schemes before Dhanteras. A reader gets a 'lock today's rate' message and pays an advance for a chain they'd have bought anyway. By the end of October gold is slipping, and the money is already with the shop. The post argues the scheme moves payment earlier and ties you to one shop. Some schemes do bill the lower rate, but you can't tell which kind you have until the price moves. It ends with one question to ask: if the price falls, do you pay the lower rate?",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Before Dhanteras, Indian jewellers message customers on WhatsApp offering to lock the day's gold rate.",
+     "sentence": "\"Lock today's rate.\"",
+     "type": "event",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "A jeweller's rate-lock scheme requires the customer to pay an advance to lock the gold rate.",
+     "sentence": "You pay an advance for a chain you'd have bought on the same day anyway.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c3",
+     "text": "Some jewellers' rate-lock schemes bill the customer at the lower of the locked rate and the rate on the purchase day, so a price fall costs the customer nothing.",
+     "sentence": "Some schemes even bill you at the lower of the two rates, so a fall costs you nothing.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c4",
+     "text": "Other rate-lock schemes bill the customer at the locked rate even if the gold price falls before the purchase.",
+     "sentence": "You only find out which one you signed up for when the price moves.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c5",
+     "text": "If the gold price rises after the lock, a rate lock saves the buyer money.",
+     "sentence": "Fair enough, if gold climbs, the lock really saves you money.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c6",
+     "text": "Both kinds of rate-lock scheme are offered through the same kind of WhatsApp message, so the customer cannot tell which one it is until the price moves.",
+     "sentence": "But both kinds arrive as the same WhatsApp.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c7",
+     "text": "Gold prices fell in the weeks before Dhanteras, by the end of October.",
+     "sentence": "Then, by the end of October, gold is slipping.",
+     "type": "event",
+     "core": false,
+     "framed_as": "past"
+    },
+    {
+     "id": "c8",
+     "text": "A rate-lock advance moves the buyer's payment earlier, leaving the shop holding the cash, with a buyer tied to that shop and festival sales secured. The lock's value depends on a price movement no one controls, so it sells reassurance rather than gold.",
+     "sentence": "The shop already has your cash, a buyer who can't wander next door, and a festival footfall booked.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "Before Dhanteras, Indian jewellers message customers on WhatsApp offering to lock the day's gold rate.": {
+   "id": "c1",
+   "verdict": "unverifiable",
+   "event_date": null,
+   "correct": "I found advance-booking and rate-lock offers around Dhanteras and Akshaya Tritiya, but no report of Indian jewellers messaging customers on WhatsApp to lock the day's rate. The only WhatsApp material is software-vendor marketing pages. Jewellers do run these offers, so the framing could be softened to 'jewellers run advance-booking offers before Dhanteras'.",
+   "sources": [
+    {
+     "url": "https://www.businesstoday.in/personal-finance/investment/story/akshaya-tritiya-2026-jewellers-roll-out-gold-price-protection-offers-to-attract-buyers-524049-2026-04-04",
+     "publisher": "Business Today",
+     "published_date": "2026-04-04",
+     "quote": "jewellers across the industry offer advance booking schemes, making-charge discounts, and price-lock guarantees (no WhatsApp mention found)",
+     "tier": 2
+    },
+    {
+     "url": "https://m.aisensy.com/blog/whatsapp-marketing-for-jewellers/",
+     "publisher": "AiSensy (WhatsApp software vendor)",
+     "published_date": null,
+     "quote": "Vendor page on WhatsApp marketing for jewellers handling Dhanteras enquiries. It is a product pitch, not a report of actual practice.",
+     "tier": 3
+    }
+   ]
+  },
+  "A jeweller's rate-lock scheme requires the customer to pay an advance to lock the gold rate.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": "2020-04-26",
+   "correct": "Rate-lock schemes require an advance. The amount varies: 5-10% at Malabar, 10-25% per Augmont, 25% at KISNA, Reliance Jewels and Indriya, and 50% at one Nagpur jeweller. The earliest scheme found is from 2020 (Malabar and others), so 2020 is not the first-ever date.",
+   "sources": [
+    {
+     "url": "https://upstox.com/news/personal-finance/investing/should-you-pre-book-gold-silver-jewellery-for-akshaya-tritiya-2026-experts-explain/article-192070",
+     "publisher": "Upstox",
+     "published_date": "2026-04-13",
+     "quote": "you need to pay 25% advance to lock in your gold rate.",
+     "tier": 2
+    },
+    {
+     "url": "https://www.businesstoday.in/personal-finance/investment/story/akshaya-tritiya-2026-jewellers-roll-out-gold-price-protection-offers-to-attract-buyers-524049-2026-04-04",
+     "publisher": "Business Today",
+     "published_date": "2026-04-04",
+     "quote": "Customers lock in a gold price by paying a 25% advance.",
+     "tier": 2
+    }
+   ]
+  },
+  "Some jewellers' rate-lock schemes bill the customer at the lower of the locked rate and the rate on the purchase day, so a price fall costs the customer nothing.": {
+   "id": "c3",
+   "verdict": "supported",
+   "event_date": "2020-06-23",
+   "correct": "Several jewellers bill at the lower of the booking-day and purchase-day rate: KISNA, Malabar, Kalyan, Regal and Reliance Jewels. Coins and bullion are excluded. Making charges and taxes may still be charged on the day of purchase, so a price fall costs nothing on the metal rate only. 'Costs the customer nothing' is slightly too strong for the full bill. Malabar's lower-rate scheme was reported by 2020-06-23.",
+   "sources": [
+    {
+     "url": "https://www.businesstoday.in/personal-finance/investment/story/akshaya-tritiya-2026-jewellers-roll-out-gold-price-protection-offers-to-attract-buyers-524049-2026-04-04",
+     "publisher": "Business Today",
+     "published_date": "2026-04-04",
+     "quote": "the lower of the booking-day or purchase-day gold rate",
+     "tier": 2
+    },
+    {
+     "url": "https://upstox.com/news/personal-finance/investing/should-you-pre-book-gold-silver-jewellery-for-akshaya-tritiya-2026-experts-explain/article-192070",
+     "publisher": "Upstox",
+     "published_date": "2026-04-13",
+     "quote": "if it falls you need to pay the lower rate.",
+     "tier": 2
+    }
+   ]
+  },
+  "Other rate-lock schemes bill the customer at the locked rate even if the gold price falls before the purchase.": {
+   "id": "c4",
+   "verdict": "supported",
+   "event_date": "2026-04-13",
+   "correct": "Support is thin. Upstox quotes one expert who says that under some schemes the customer still pays the booking price if the price falls. That expert describes the practice in general and names no jeweller. The writer should hedge it as 'some schemes' and not name a jeweller.",
+   "sources": [
+    {
+     "url": "https://upstox.com/news/personal-finance/investing/should-you-pre-book-gold-silver-jewellery-for-akshaya-tritiya-2026-experts-explain/article-192070",
+     "publisher": "Upstox",
+     "published_date": "2026-04-13",
+     "quote": "if prices fall, the consumer still pays the booking price at that time.",
+     "tier": 2
+    }
+   ]
+  },
+  "If the gold price rises after the lock, a rate lock saves the buyer money.": {
+   "id": "c5",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": "If gold rises after the lock, the buyer pays the lower locked rate. This holds for jewellery only: coins and bars are excluded from the lock. Making charges and taxes are not locked.",
+   "sources": [
+    {
+     "url": "https://www.businesstoday.in/personal-finance/investment/story/akshaya-tritiya-2026-jewellers-roll-out-gold-price-protection-offers-to-attract-buyers-524049-2026-04-04",
+     "publisher": "Business Today",
+     "published_date": "2026-04-04",
+     "quote": "Investment products like coins and bullion are excluded. (KISNA plan: lock a price with a 25% advance)",
+     "tier": 2
+    },
+    {
+     "url": "https://upstox.com/news/personal-finance/investing/should-you-pre-book-gold-silver-jewellery-for-akshaya-tritiya-2026-experts-explain/article-192070",
+     "publisher": "Upstox",
+     "published_date": "2026-04-13",
+     "quote": "Indriya (Aditya Birla): pay 25% 'to lock the lower rate between booking date and billing date.'",
+     "tier": 2
+    }
+   ]
+  },
+  "Both kinds of rate-lock scheme are offered through the same kind of WhatsApp message, so the customer cannot tell which one it is until the price moves.": {
+   "id": "c6",
+   "verdict": "unverifiable",
+   "event_date": null,
+   "correct": "I found nothing showing that both scheme types are sold through the same WhatsApp message. Sources agree that terms differ by jeweller and that the customer must check the written terms. 'Cannot tell until the price moves' is a stretch, because terms are normally stated in the booking terms and conditions. Do not publish it as fact.",
+   "sources": [
+    {
+     "url": "https://upstox.com/news/personal-finance/investing/should-you-pre-book-gold-silver-jewellery-for-akshaya-tritiya-2026-experts-explain/article-192070",
+     "publisher": "Upstox",
+     "published_date": "2026-04-13",
+     "quote": "These two accounts conflict, so check the jeweller's written terms. (the fetch tool's summary of the article, not a verbatim quote)",
+     "tier": 2
+    }
+   ]
+  },
+  "Gold prices fell in the weeks before Dhanteras, by the end of October.": {
+   "id": "c7",
+   "verdict": "supported",
+   "event_date": "2026-10-23",
+   "correct": "MCX gold futures fell about 7% over October 2026, ending near ₹1,38,419 per 10 g. The slide was visible in the last week (spot down over 3.5% in the week to 30 Oct). MCX gold hit a month low of ₹1,40,664 on 23 Oct per one report, but the Dec contract closed ₹1,42,024 on 23 Oct per HDFC Sky. One source quotes a weekly high of ₹1,44,100 on 28 Oct, so the fall was not in a straight line. Dhanteras is Friday 6 Nov 2026.",
+   "sources": [
+    {
+     "url": "https://www.miscw.com/mcx-gold-rebounds-rs-600-a-10-grams-as-bullion-shakes-off-october-s-7-slump-156158.html",
+     "publisher": "MiscW (citing Livemint)",
+     "published_date": "2026-11-03",
+     "quote": "a brutal October in which MCX gold fell about 7% and silver collapsed about 20%.",
+     "tier": 3
+    },
+    {
+     "url": "https://hdfcsky.com/news/gold-slumps-below-4000-mcx-gold-drops-rs1333-ahead-of-dhanteras",
+     "publisher": "HDFC Sky",
+     "published_date": "2026-10-31",
+     "quote": "spot gold had a weekly decline of over 3.5% (the fetch tool's summary, not a verbatim quote)",
+     "tier": 2
+    },
+    {
+     "url": "https://upstox.com/news/personal-finance/commodities/gold-silver-rates-today-october-30-dhanteras-shopping-gets-cheaper-gold-falls-1-333-silver-drops-5-208-ahead-of-diwali/article-202718/",
+     "publisher": "Upstox",
+     "published_date": "2026-10-30",
+     "quote": "Gold and silver prices extended their decline on October 30, offering some relief just days before Dhanteras.",
+     "tier": 2
+    }
+   ]
+  },
+  "_skeptic": {
+   "bf1771a8559908550accbe0d33796b5292cc576e": {
+    "holds": true,
+    "broken_premise": "None of the premises is demonstrably false. One line overstates things: slide 5 says 'You only find out which one you signed up for when the price moves.' The rate rule is actually written into the scheme terms at booking. Kisna, Regal and Malabar all publish 'whichever is lower' up front, so a buyer can learn which kind they have before paying, which is what slide 6 tells them to do. That line describes what buyers tend to experience, not how the contract works, so it doesn't break the argument.",
+    "actual_mechanism": "In a jeweller's rate-protection scheme, you pay an advance to that one shop, usually 5% to 50% of the purchase value, with a validity of roughly 60 to 180 days. The big chains usually bill the gold at the lower of the booking-day rate and the purchase-day rate. Making charges and GST are worked out on billing day, and the schemes usually cover jewellery only, not coins or bars. So the buyer always gives up cash early and is tied to that shop. Only a fixed-rate lock loses money when gold falls. A lower-of-two lock is real price protection that you pay for with the advance and the tie-in, which is the distinction the post already concedes on slide 5.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.businesstoday.in/personal-finance/investment/story/akshaya-tritiya-2026-jewellers-roll-out-gold-price-protection-offers-to-attract-buyers-524049-2026-04-04",
+      "published_date": "2026-04-04",
+      "quote": "customers will be billed at the lower of the booking-day or purchase-day gold rate."
+     },
+     {
+      "url": "https://www.regaljewellers.net/?p=14361",
+      "published_date": "unknown",
+      "quote": "the lowest price at the time of ultimate purchase: either the booking-day price or the purchase-day price"
+     },
+     {
+      "url": "https://malabar191.malabargoldanddiamonds.com/dhanteras-advance-booking",
+      "published_date": "unknown",
+      "quote": "Rate on the advance date or the purchase date, whichever is less, applies; if the purchase is not made within the stipulated period, the lower rate applies only to the gold weight equivalent to the amount advanced. (Paraphrased from a search summary; the page itself could not be fetched.)"
+     },
+     {
+      "url": "https://shubhpanchang.com/festivals/dhanteras",
+      "published_date": "unknown",
+      "quote": "Dhanteras 2026 falls on Friday, November 6, 2026"
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "25d44e86eb10bd55e36ebc749a13c080989e65fc": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not verify: 'Before Dhanteras, Indian jewellers message customers on WhatsApp offering to lock the day's gold rate.'. Cut it, or state it only if a source says it.",
+     "Needs a stronger source: 'Other rate-lock schemes bill the customer at the locked rate even if the gold price falls before the purchase.' (a primary source, or two independent major outlets).",
+     "Could not verify: 'Both kinds of rate-lock scheme are offered through the same kind of WhatsApp message, so the customer cannot tell which one it is until the price moves.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Before Dhanteras, Indian jewellers message customers on WhatsApp offering to lock the day's gold rate.",
+      "sentence": "\"Lock today's rate.\"",
+      "type": "event",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "A jeweller's rate-lock scheme requires the customer to pay an advance to lock the gold rate.",
+      "sentence": "You pay an advance for a chain you'd have bought on the same day anyway.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Some jewellers' rate-lock schemes bill the customer at the lower of the locked rate and the rate on the purchase day, so a price fall costs the customer nothing.",
+      "sentence": "Some schemes even bill you at the lower of the two rates, so a fall costs you nothing.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Other rate-lock schemes bill the customer at the locked rate even if the gold price falls before the purchase.",
+      "sentence": "You only find out which one you signed up for when the price moves.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "If the gold price rises after the lock, a rate lock saves the buyer money.",
+      "sentence": "Fair enough, if gold climbs, the lock really saves you money.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Both kinds of rate-lock scheme are offered through the same kind of WhatsApp message, so the customer cannot tell which one it is until the price moves.",
+      "sentence": "But both kinds arrive as the same WhatsApp.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "Gold prices fell in the weeks before Dhanteras, by the end of October.",
+      "sentence": "Then, by the end of October, gold is slipping.",
+      "type": "event",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c8",
+      "text": "A rate-lock advance moves the buyer's payment earlier, leaving the shop holding the cash, with a buyer tied to that shop and festival sales secured. The lock's value depends on a price movement no one controls, so it sells reassurance rather than gold.",
+      "sentence": "The shop already has your cash, a buyer who can't wander next door, and a festival footfall booked.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "unverifiable",
+      "event_date": null,
+      "correct": "I found advance-booking and rate-lock offers around Dhanteras and Akshaya Tritiya, but no report of Indian jewellers messaging customers on WhatsApp to lock the day's rate. The only WhatsApp material is software-vendor marketing pages. Jewellers do run these offers, so the framing could be softened to 'jewellers run advance-booking offers before Dhanteras'.",
+      "sources": [
+       {
+        "url": "https://www.businesstoday.in/personal-finance/investment/story/akshaya-tritiya-2026-jewellers-roll-out-gold-price-protection-offers-to-attract-buyers-524049-2026-04-04",
+        "publisher": "Business Today",
+        "published_date": "2026-04-04",
+        "quote": "jewellers across the industry offer advance booking schemes, making-charge discounts, and price-lock guarantees (no WhatsApp mention found)",
+        "tier": 2
+       },
+       {
+        "url": "https://m.aisensy.com/blog/whatsapp-marketing-for-jewellers/",
+        "publisher": "AiSensy (WhatsApp software vendor)",
+        "published_date": null,
+        "quote": "Vendor page on WhatsApp marketing for jewellers handling Dhanteras enquiries. It is a product pitch, not a report of actual practice.",
+        "tier": 3
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2020-04-26",
+      "correct": "Rate-lock schemes require an advance. The amount varies: 5-10% at Malabar, 10-25% per Augmont, 25% at KISNA, Reliance Jewels and Indriya, and 50% at one Nagpur jeweller. The earliest scheme found is from 2020 (Malabar and others), so 2020 is not the first-ever date.",
+      "sources": [
+       {
+        "url": "https://upstox.com/news/personal-finance/investing/should-you-pre-book-gold-silver-jewellery-for-akshaya-tritiya-2026-experts-explain/article-192070",
+        "publisher": "Upstox",
+        "published_date": "2026-04-13",
+        "quote": "you need to pay 25% advance to lock in your gold rate.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.businesstoday.in/personal-finance/investment/story/akshaya-tritiya-2026-jewellers-roll-out-gold-price-protection-offers-to-attract-buyers-524049-2026-04-04",
+        "publisher": "Business Today",
+        "published_date": "2026-04-04",
+        "quote": "Customers lock in a gold price by paying a 25% advance.",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "2020-06-23",
+      "correct": "Several jewellers bill at the lower of the booking-day and purchase-day rate: KISNA, Malabar, Kalyan, Regal and Reliance Jewels. Coins and bullion are excluded. Making charges and taxes may still be charged on the day of purchase, so a price fall costs nothing on the metal rate only. 'Costs the customer nothing' is slightly too strong for the full bill. Malabar's lower-rate scheme was reported by 2020-06-23.",
+      "sources": [
+       {
+        "url": "https://www.businesstoday.in/personal-finance/investment/story/akshaya-tritiya-2026-jewellers-roll-out-gold-price-protection-offers-to-attract-buyers-524049-2026-04-04",
+        "publisher": "Business Today",
+        "published_date": "2026-04-04",
+        "quote": "the lower of the booking-day or purchase-day gold rate",
+        "tier": 2
+       },
+       {
+        "url": "https://upstox.com/news/personal-finance/investing/should-you-pre-book-gold-silver-jewellery-for-akshaya-tritiya-2026-experts-explain/article-192070",
+        "publisher": "Upstox",
+        "published_date": "2026-04-13",
+        "quote": "if it falls you need to pay the lower rate.",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "2026-04-13",
+      "correct": "Support is thin. Upstox quotes one expert who says that under some schemes the customer still pays the booking price if the price falls. That expert describes the practice in general and names no jeweller. The writer should hedge it as 'some schemes' and not name a jeweller.",
+      "sources": [
+       {
+        "url": "https://upstox.com/news/personal-finance/investing/should-you-pre-book-gold-silver-jewellery-for-akshaya-tritiya-2026-experts-explain/article-192070",
+        "publisher": "Upstox",
+        "published_date": "2026-04-13",
+        "quote": "if prices fall, the consumer still pays the booking price at that time.",
+        "tier": 2
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": "If gold rises after the lock, the buyer pays the lower locked rate. This holds for jewellery only: coins and bars are excluded from the lock. Making charges and taxes are not locked.",
+      "sources": [
+       {
+        "url": "https://www.businesstoday.in/personal-finance/investment/story/akshaya-tritiya-2026-jewellers-roll-out-gold-price-protection-offers-to-attract-buyers-524049-2026-04-04",
+        "publisher": "Business Today",
+        "published_date": "2026-04-04",
+        "quote": "Investment products like coins and bullion are excluded. (KISNA plan: lock a price with a 25% advance)",
+        "tier": 2
+       },
+       {
+        "url": "https://upstox.com/news/personal-finance/investing/should-you-pre-book-gold-silver-jewellery-for-akshaya-tritiya-2026-experts-explain/article-192070",
+        "publisher": "Upstox",
+        "published_date": "2026-04-13",
+        "quote": "Indriya (Aditya Birla): pay 25% 'to lock the lower rate between booking date and billing date.'",
+        "tier": 2
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "unverifiable",
+      "event_date": null,
+      "correct": "I found nothing showing that both scheme types are sold through the same WhatsApp message. Sources agree that terms differ by jeweller and that the customer must check the written terms. 'Cannot tell until the price moves' is a stretch, because terms are normally stated in the booking terms and conditions. Do not publish it as fact.",
+      "sources": [
+       {
+        "url": "https://upstox.com/news/personal-finance/investing/should-you-pre-book-gold-silver-jewellery-for-akshaya-tritiya-2026-experts-explain/article-192070",
+        "publisher": "Upstox",
+        "published_date": "2026-04-13",
+        "quote": "These two accounts conflict, so check the jeweller's written terms. (the fetch tool's summary of the article, not a verbatim quote)",
+        "tier": 2
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "supported",
+      "event_date": "2026-10-23",
+      "correct": "MCX gold futures fell about 7% over October 2026, ending near ₹1,38,419 per 10 g. The slide was visible in the last week (spot down over 3.5% in the week to 30 Oct). MCX gold hit a month low of ₹1,40,664 on 23 Oct per one report, but the Dec contract closed ₹1,42,024 on 23 Oct per HDFC Sky. One source quotes a weekly high of ₹1,44,100 on 28 Oct, so the fall was not in a straight line. Dhanteras is Friday 6 Nov 2026.",
+      "sources": [
+       {
+        "url": "https://www.miscw.com/mcx-gold-rebounds-rs-600-a-10-grams-as-bullion-shakes-off-october-s-7-slump-156158.html",
+        "publisher": "MiscW (citing Livemint)",
+        "published_date": "2026-11-03",
+        "quote": "a brutal October in which MCX gold fell about 7% and silver collapsed about 20%.",
+        "tier": 3
+       },
+       {
+        "url": "https://hdfcsky.com/news/gold-slumps-below-4000-mcx-gold-drops-rs1333-ahead-of-dhanteras",
+        "publisher": "HDFC Sky",
+        "published_date": "2026-10-31",
+        "quote": "spot gold had a weekly decline of over 3.5% (the fetch tool's summary, not a verbatim quote)",
+        "tier": 2
+       },
+       {
+        "url": "https://upstox.com/news/personal-finance/commodities/gold-silver-rates-today-october-30-dhanteras-shopping-gets-cheaper-gold-falls-1-333-silver-drops-5-208-ahead-of-diwali/article-202718/",
+        "publisher": "Upstox",
+        "published_date": "2026-10-30",
+        "quote": "Gold and silver prices extended their decline on October 30, offering some relief just days before Dhanteras.",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None of the premises is demonstrably false. One line overstates things: slide 5 says 'You only find out which one you signed up for when the price moves.' The rate rule is actually written into the scheme terms at booking. Kisna, Regal and Malabar all publish 'whichever is lower' up front, so a buyer can learn which kind they have before paying, which is what slide 6 tells them to do. That line describes what buyers tend to experience, not how the contract works, so it doesn't break the argument.",
+     "actual_mechanism": "In a jeweller's rate-protection scheme, you pay an advance to that one shop, usually 5% to 50% of the purchase value, with a validity of roughly 60 to 180 days. The big chains usually bill the gold at the lower of the booking-day rate and the purchase-day rate. Making charges and GST are worked out on billing day, and the schemes usually cover jewellery only, not coins or bars. So the buyer always gives up cash early and is tied to that shop. Only a fixed-rate lock loses money when gold falls. A lower-of-two lock is real price protection that you pay for with the advance and the tie-in, which is the distinction the post already concedes on slide 5.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.businesstoday.in/personal-finance/investment/story/akshaya-tritiya-2026-jewellers-roll-out-gold-price-protection-offers-to-attract-buyers-524049-2026-04-04",
+       "published_date": "2026-04-04",
+       "quote": "customers will be billed at the lower of the booking-day or purchase-day gold rate."
+      },
+      {
+       "url": "https://www.regaljewellers.net/?p=14361",
+       "published_date": "unknown",
+       "quote": "the lowest price at the time of ultimate purchase: either the booking-day price or the purchase-day price"
+      },
+      {
+       "url": "https://malabar191.malabargoldanddiamonds.com/dhanteras-advance-booking",
+       "published_date": "unknown",
+       "quote": "Rate on the advance date or the purchase date, whichever is less, applies; if the purchase is not made within the stipulated period, the lower rate applies only to the gold weight equivalent to the amount advanced. (Paraphrased from a search summary; the page itself could not be fetched.)"
+      },
+      {
+       "url": "https://shubhpanchang.com/festivals/dhanteras",
+       "published_date": "unknown",
+       "quote": "Dhanteras 2026 falls on Friday, November 6, 2026"
+      }
+     ]
+    },
+    "text_hash": "25d44e86eb10bd55e36ebc749a13c080989e65fc",
+    "at": "2026-11-03T09:48:38.585986+00:00"
+   }
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "A Dhanteras rate lock sells you [the fear], not the gold",
+   "sub": "You pay early to feel safe about a price nobody controls."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "A Dhanteras rate lock sells you the fear, not the gold.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "If it isn't protection, what am I paying for?"
+   },
+   {
+    "paragraphs": [
+     "Two weeks before Dhanteras, your family jeweller's message arrives: \"Lock today's rate.\"",
+     "Gold is already at a number that makes you wince, and everyone says it only goes up. You were going to buy a thin chain this Dhanteras anyway."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "By Saturday you're at the counter, the glass cold under your wrist, the AC humming. You pay the advance and breathe out. Done. Locked."
+    ],
+    "why_swipe": "So did locking actually save anything?"
+   },
+   {
+    "paragraphs": [
+     "Then, by the end of October, gold is slipping. You check the rate in the lift, and the advance is already sitting with the shop.",
+     "Your slip says the locked rate. The rate on your phone is lower, and you'll be paying the higher one.",
+     "**The festival date never moved. Only the day your money left did.**"
+    ],
+    "why_swipe": "So who actually came out ahead?"
+   },
+   {
+    "paragraphs": [
+     "And Dhanteras is a date nobody can move. So the shop doesn't have to find buyers. It only has to turn your worry into a deposit.",
+     "It gets cash weeks early, festival footfall already booked, and a buyer who can't wander next door."
+    ],
+    "why_swipe": "But doesn't the lock ever help?"
+   },
+   {
+    "paragraphs": [
+     "Fair enough, if gold climbs by Dhanteras, the lock saves you real money. That part isn't a trick.",
+     "**The protection only shows up if gold rises. The shop collects your urgency whichever way it moves.**"
+    ],
+    "why_swipe": "So how do you tell which kind of lock you're holding?"
+   },
+   {
+    "paragraphs": [
+     "One question sorts these schemes. If the rate falls by Dhanteras, do you pay the lower one?",
+     "**If the answer is no, the lock was built for the shop's festival week, not your fear.**"
+    ]
+   }
+  ],
+  "end": {
+   "save": "Read it again the next time a jeweller offers to lock today's rate.",
+   "send": "Send to the family member who buys a little gold every Dhanteras and gets every message the shop sends.",
+   "promise": "How things really get sold to you."
+  },
+  "caption": "The scariest word in a jeweller's rate-lock offer is 'today'.",
+  "hashtags": [
+   "#Dhanteras",
+   "#GoldPrice",
+   "#GoldRateLock",
+   "#PersonalFinanceIndia"
+  ],
+  "alt_text": "Carousel about jewellers' rate-lock schemes before Dhanteras. Two weeks before the festival, the reader's family jeweller messages them to lock today's rate. Worried that gold will only go up, they pay an advance at the counter for a thin chain they were buying anyway, and feel relieved. By the end of October gold is slipping, but their slip holds them to the higher locked rate. The post argues that because Dhanteras can't move, the shop only has to turn worry into a deposit: it gets cash early, booked festival footfall and a buyer tied to one shop. The lock saves money only if gold rises, while the urgency is sold either way. It ends with one question to ask: if the rate falls by Dhanteras, do you pay the lower one? If not, the lock was built for the shop.",
+  "claims": [
+   {
+    "text": "Gold prices were declining at the end of October 2026 (30 October), about a week before Dhanteras.",
+    "source_url": "https://upstox.com/news/personal-finance/commodities/gold-silver-rates-today-october-30-dhanteras-shopping-gets-cheaper-gold-falls-1-333-silver-drops-5-208-ahead-of-diwali/article-202718/"
+   },
+   {
+    "text": "Jewellers offer advance-booking schemes so buyers can fix today's price ahead of Dhanteras on 6 November 2026.",
+    "source_url": "topic"
+   }
+  ]
+ }
 }
