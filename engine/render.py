@@ -187,6 +187,55 @@ def _clean(paragraphs: list[str]) -> list[str]:
     return [p for p in paragraphs if p.strip() and not p.strip().lower().startswith(SWIPE)]
 
 
+ART = config.ASSETS / "art"
+
+
+def render_art_cover(cover: dict, n: int, art: Image.Image) -> Image.Image:
+    """Layout A: one object above the headline, so the grid shows what each post is about before a word is read."""
+    img = Image.new("RGB", (W, H), PAPER)
+    d = ImageDraw.Draw(img)
+    _header(img, d, large=True)
+    box_w, box_h = W - 2 * SAFE, 470
+    k = min(box_w / art.width, box_h / art.height, 1.0)
+    art = art.resize((int(art.width * k), int(art.height * k)), Image.LANCZOS)
+    img.paste(art, ((W - art.width) // 2, 230 + (box_h - art.height) // 2), art)
+    headline = re.sub(r"\[([^\]]+)\]", lambda m: "[" + m.group(1).replace(" ", "\xa0") + "]", cover["headline"])
+    words, safe = headline.split(), W - 2 * SAFE
+    for size in range(88, 60, -2):
+        f = _font("Bold", size)
+        lines, cur = [], []
+        for w in words:
+            test = " ".join(cur + [w]).replace("[", "").replace("]", "").replace("\xa0", " ")
+            if cur and f.getlength(test) > safe:
+                lines.append(cur); cur = []
+            cur.append(w)
+        lines.append(cur)
+        if len(lines) >= 2 and len(lines[-1]) == 1 and len(lines[-2]) >= 2:
+            moved = lines[-2][-1:] + lines[-1]
+            if f.getlength(" ".join(moved).replace("[", "").replace("]", "").replace("\xa0", " ")) <= safe:
+                lines[-2], lines[-1] = lines[-2][:-1], moved
+        if len(lines) <= 3:
+            break
+    y, teal = 760, False
+    for line in lines:
+        x = float(SAFE)
+        for w in line:
+            for piece in re.split(r"([\[\]])", w.replace("\xa0", " ")):
+                if piece in "[]":
+                    teal = piece == "[" if piece else teal
+                    continue
+                d.text((x, y), piece, font=f, fill=TEAL if teal else INK)
+                x += f.getlength(piece)
+            x += f.getlength(" ")
+        y += int(size * 1.12)
+    y += 26
+    for line in _plain_lines(cover.get("sub", ""), _font("Medium", 40), safe)[:2]:  # wraps; never runs off the edge
+        d.text((SAFE, y), line, font=_font("Medium", 40), fill=SUB)
+        y += 54
+    _count(d, 1, n)
+    return img
+
+
 def render_cover(cover: dict, n: int) -> Image.Image:
     """The take as a very large headline ([keyword] in teal, kept on one line) and a sub-line, centred on the slide.
     Only a post whose point is a number carries it in a box in the lower third."""
@@ -427,7 +476,10 @@ def render_post(post: dict) -> list[Path]:
         n = 1 + len(body) + end
         if n > config.BUFFER_MAX_IMAGES:
             raise Overflow(f"{n} slides after splitting; Buffer allows {config.BUFFER_MAX_IMAGES}")
-        images = [render_cover(cover_for(draft), n)]
+        art_name = cover.get("art") or (post.get("topic") or {}).get("art")
+        art_path = ART / f"{art_name}.png" if art_name else None
+        images = [render_art_cover(cover, n, Image.open(art_path).convert("RGBA")) if art_path and art_path.exists()
+                  else render_cover(cover, n)]
         images += [render_slide(s["paragraphs"], i, n, s.get("big"), s.get("source")) for i, s in enumerate(body, 2)]
         if end:
             images.append(render_end(draft.get("end") or {}, n))
