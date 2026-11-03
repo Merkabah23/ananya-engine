@@ -274,3 +274,17 @@ def test_one_dead_middle_slide_is_cut_not_rewritten():
     assert writer.dead_slide(review, 7) == 5
     assert writer.dead_slide(review, 5) is None  # the last slide carries the payoff: never cut blind
     assert writer.dead_slide({"violations": ["Dead slide, slide 3", "No because"]}, 7) is None
+
+
+def test_review_mode_renders_only_owner_approved(tmp_path, monkeypatch):
+    from engine import __main__ as cli, config, state
+    monkeypatch.setattr(config, "STATE", tmp_path / "state")
+    monkeypatch.setattr(config, "PAUSED", True)
+    due = "2099-11-20T20:30:00+05:30"
+    state.save_post({"id": "2099-11-01", "status": "planned", "due": due, "format": "carousel", "topic": {}, "history": []})
+    state.save_post({"id": "2099-11-02", "status": "approved", "due": due, "format": "carousel", "topic": {}, "history": [], "owner_ok": True})
+    seen = []
+    monkeypatch.setattr(cli, "check_approved", lambda p: (seen.append(p["id"]), dict(p, status="failed", error="stop"))[1])
+    monkeypatch.setattr(cli.writer, "write_post", lambda p: seen.append("WROTE " + p["id"]))
+    cli.produce()
+    assert seen == ["2099-11-02"]

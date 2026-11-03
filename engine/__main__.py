@@ -65,13 +65,15 @@ def check_approved(post: dict) -> dict:
 def produce(month: str | None = None, limit: int | None = None) -> None:
     """Write, render and upload planned posts, soonest first. `limit` keeps each run inside
     subscription usage windows; the daily run calls this with PRODUCE_PER_RUN."""
-    if config.PAUSED:
-        state.log("produce", "ENGINE_PAUSED is set; nothing written.")
-        return
-    soon = (datetime.now(timezone.utc) + timedelta(hours=3)).isoformat()
+    now = datetime.now(timezone.utc)
+    soon = (now + timedelta(hours=3)).isoformat()   # time to write, check and render
+    quick = (now + timedelta(hours=1, minutes=15)).isoformat()  # an approved draft only renders
     queue = [p for p in state.posts("planned") + state.posts("approved") if p["format"] != "spare" and p.get("due")
-             and datetime.fromisoformat(p["due"]).astimezone(timezone.utc).isoformat() > soon  # skip missed slots
+             and datetime.fromisoformat(p["due"]).astimezone(timezone.utc).isoformat() > (quick if p["status"] == "approved" else soon)
              and (month is None or p["id"].startswith(month))]
+    if config.PAUSED:  # review mode: write nothing new; drafts the owner approved in chat still render
+        queue = [p for p in queue if p["status"] == "approved"]
+        state.log("produce", f"ENGINE_PAUSED is set; only owner-approved drafts render ({len(queue)}).")
     queue.sort(key=lambda p: p["due"])
     # Owner-approved drafts cost no model calls, so they render without using up the per-run writing limit.
     ready, queue = [p for p in queue if p["status"] == "approved"], [p for p in queue if p["status"] != "approved"]
@@ -138,12 +140,11 @@ def sample(n: int, topics_file: str | None) -> None:
 
 
 def push(days: int = config.PUSH_DAYS) -> None:
-    if config.PAUSED:
-        state.log("push", "ENGINE_PAUSED is set; nothing scheduled.")
-        return
     now = datetime.now(timezone.utc)
     horizon = now + timedelta(days=days)
     for post in state.posts("uploaded"):
+        if config.PAUSED and not post.get("owner_ok"):
+            continue  # review mode: only posts the owner approved in chat go to Buffer
         due = datetime.fromisoformat(post["due"]) if post.get("due") else None
         if not due or not (now + timedelta(hours=1) <= due <= horizon):
             continue
