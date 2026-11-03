@@ -248,3 +248,22 @@ def test_small_wording_problems_are_polished_not_rewritten(monkeypatch):
     d = {"slides": [{"paragraphs": ["hook"]}, {"paragraphs": ["It quietly costs you more than you think every week."]}], "claims": []}
     writer.mechanical(d, "single", [])
     assert "polish" in asked and "repair" not in asked
+
+
+def test_story_types_never_repeat_back_to_back():
+    kinds = ["teaching"] * 6 + ["objection"] * 3
+    terrs = ["money_status", "business_brands", "creators_internet", "pop_culture", "life_relationships"]
+    ranked = [{"id": f"s{i}", "territory": terrs[i % 5], "title": "trip photos", "story_type": k,
+               "score": {"format_fit": "carousel"}} for i, k in enumerate(kinds)]
+    slots = topic_filter.slots_for_month("2099-11")[:5]
+    plan = [p for p in topic_filter._assign(ranked, slots) if p["due"]]
+    types = [p["topic"]["story_type"] for p in plan]
+    assert all(a != b for a, b in zip(types, types[1:4]))
+
+
+def test_generic_send_line_is_a_wording_fix():
+    d = {"slides": [{"paragraphs": ["x"]}], "end": {"send": "Send this to someone who needs it."}, "claims": []}
+    found = [p for p in writer.hard_checks(d, "single", []) if "send line" in p]
+    assert found and writer.is_wording(found[0])
+    d["end"]["send"] = "Send to the friend who complains about café prices from the same café."
+    assert not [p for p in writer.hard_checks(d, "single", []) if "send line" in p]

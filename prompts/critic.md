@@ -34,6 +34,8 @@ In the cover headline, [square brackets] mark the one phrase shown in teal; they
 12. A mechanism that isn't true or can't be shown: a hidden budget, a secret motive or a deliberate plan stated as fact, or a basic error about who pays for what or how something works.
 13. A cover that doesn't make clear in two seconds what the post is about.
 14. No story: it describes a pattern or a situation ("You bump into an old colleague") instead of walking the reader through one moment of their own life over time, or it tells a named stranger's story, or its details are too narrow for most readers to see themselves in (a named city, a cousin's wedding, an ex's name).
+15. No feeling: the reader follows a situation but never feels anything under it (cheated, behind, guilty, relieved, seen), or the villain is a person or group the reader is meant to blame instead of a system.
+16. A generic end card: the save line names no moment to come back, or the send line names no specific person ("someone who needs this", "a friend", "your friends").
 
 ## Scores (1-5)
 - hook: would a stranger stop, and does slide 1 contain the turn without giving the answer away?
@@ -49,4 +51,4 @@ In the cover headline, [square brackets] mark the one phrase shown in teal; they
 
 Return only JSON:
 {"pass": bool, "violations": ["..."], "scores": {"hook": n, "relatable": n, "fresh_angle": n, "pull": n, "payoff": n, "voice": n, "eq": n, "iq": n, "story": n, "tight": n}, "notes": ["slide N: what to change and why, specific enough for the writer to act on; you may ask for a missing beat the topic already contains"]}
-"violations" lists only the hard failures above. Pass only if there are no violations, every score except eq and iq is 4 or more, and of eq and iq one is 4 or more and the other at least 3. Give at most 5 notes, most important first. Never ask for a fact the sources and topic don't contain.
+"violations" lists only the hard failures above. Pass only if there are no violations, every score except eq and iq is 4 or more, and of eq and iq one is 4 or more and the other at least 3. Give at most 5 notes, most important first; if no detail in the post goes beyond sight (a sound, touch, temperature), one note may ask for one on the slide where it fits. Never ask for a fact the sources and topic don't contain.

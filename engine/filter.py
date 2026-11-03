@@ -49,7 +49,7 @@ def select(candidates: list[dict], n: int) -> list[dict]:
     t = taste()
     lines = lambda items: "\n".join(f'- "{x["take"]}" ({x["why"]})' for x in items) or "(none yet)"
     keys = ("id", "claim", "moment", "turn", "because", "payoff", "lived", "proof", "territory", "mood", "format_hint",
-            "format_name", "send_to", "news_peg")
+            "format_name", "send_to", "news_peg", "feeling", "villain", "story_type")
     cands = "\n".join(json.dumps({k: c.get(k) for k in keys}, ensure_ascii=False) for c in candidates)
     mix = ", ".join(f"{k} {round(v * 100)}%" for k, v in config.TERRITORY_MIX.items())
     ask = llm.fill(llm.prompt("select"), persona=llm.prompt("persona"),
@@ -126,7 +126,9 @@ def _assign(ranked: list[dict], slots: list[dict]) -> list[dict]:
             if not strict:
                 return fits
             office_ok = not (_is_office(t) and any(_is_office(x["topic"]) for x in plan[-2:]))  # one office take in 3 days
-            return fits and office_ok and terr != last and used.get(terr, 0) < quota.get(terr, 0)
+            kind = t.get("story_type")
+            kind_ok = not kind or not plan or plan[-1]["topic"].get("story_type") != kind  # never the same story type twice running
+            return fits and office_ok and kind_ok and terr != last and used.get(terr, 0) < quota.get(terr, 0)
         pick = next((t for t in pool if ok(t, True)), None) or next((t for t in pool if ok(t, False)), None)
         if not pick:
             continue  # e.g. no single-format topic left for a Saturday; later carousel slots can still fill

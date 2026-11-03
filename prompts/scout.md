@@ -46,6 +46,9 @@ Return only JSON: {"topics": [ ... ]} where each topic is
   "format_name": one of ["price_tells","behind_the_brand","family_ledger","feed_anthropology","saturday_single"],
   "moment": "the scene the reader lives, in one line",
   "turn": {"believed": "what most readers believe", "actually": "what's actually going on"},
+  "feeling": "what the reader feels underneath, in their own words (cheated, behind, guilty, relieved, invisible); not the situation, the feeling",
+  "villain": "the system or mechanism that causes it (a pricing model, a hiring bar, a city with nowhere free to sit); never a person or a group of people",
+  "story_type": one of ["teaching","objection","values","vision"],
   "because": "who earns what and how, or the hidden motive, in one or two plain sentences",
   "proof": [{"fact": "optional; only a fact that backs the opinion, exactly as the item says it", "source_url": "...", "date": "YYYY-MM-DD from the item"}],
   "lived": true or false,
@@ -59,4 +62,5 @@ Return only JSON: {"topics": [ ... ]} where each topic is
   "counterintuitive": true or false,
   "needs_facts": true or false (true if the post would be stronger with a sourced number)
 }
+Prefer a problem the reader didn't know they had over one they already complain about: "you order in because you're tired, not hungry" beats "delivery fees are too high". Story types: "teaching" (how something really works), "objection" (what you're thinking, and why it's not quite that), "values" (a small act that shows what someone really cares about), "vision" (where this is heading). Mix them; most are teaching or objection.
 Aim for 6-12 topics per batch. Quality over count.

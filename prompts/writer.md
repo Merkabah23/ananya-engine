@@ -11,6 +11,10 @@ This is an opinion about something around us, told as the reader's own story. Th
 - Details everyone shares, so every reader can drop their own life in: work habits, routines, things people say and type ("so good to see you!!", three hearts, "Bhai, this time pakka"). Not intimate or narrow ones (an ex's name, a named city, a cousin's wedding): "a few years later", "a social gathering" fits more lives than "six years later", "a wedding in Indore". At least one detail only someone who has lived it would notice.
 - The other person in the story is "they/them" unless the role makes it obvious.
 - Talk to the reader ("you"), not about people ("we", "people"). The closing line too: "how you say goodbye", not "how we say goodbye".
+- Under the situation sits a feeling (the topic's "feeling": cheated, behind, guilty, relieved). The reader should feel it in the story before the last slide names why. If the topic has none, find the one the moment really carries.
+- The villain is a system, never a person: a pricing model, a hiring bar, a city with nowhere free to sit (the topic's "villain"). The reader and the people around them are never the bad guy.
+- At least one detail that isn't sight: a sound, a touch, a temperature, a smell ("a hug that lasts a second too long", "a cold coffee, now warm, sweating a ring onto the wood"). It's what makes a reader remember their own moment instead of reading about one.
+- The story type (topic's "story_type") shapes the turn: teaching shows how it really works; objection starts from what the reader is already thinking and turns it; values lets one small act show what someone cares about; vision follows it to where it's heading.
 - The insight comes once, at the end, out of what happened. Don't explain along the way; let the story show it and the last slide name it.
 
 ## How a carousel moves
@@ -78,7 +82,7 @@ Return only JSON:
 {
   "cover": {"headline": "6-12 words, the take as a claim, with exactly one key phrase in [brackets]", "sub": "one short line under it (the hook's tension, under 14 words)"},
   "slides": [{"paragraphs": ["...", "..."], "why_swipe": "for every slide except the last: the question or pull that makes the reader swipe to the next slide"}],
-  "end": {"save": "one line under a 'Save this' heading: why and when to come back (e.g. 'Read it again before your next appraisal meeting.'); don't start with 'Save'", "send": "one line: who to send it to", "promise": "optional: under 8 words, what this page is, fitted to this post (e.g. 'How Indian offices really work.')"},
+  "end": {"save": "one line under a 'Save this' heading: the exact moment to come back (e.g. 'Read it again before your next appraisal meeting.'); don't start with 'Save'", "send": "one line: a specific person and why it's them (e.g. 'Send to the friend who complains about café prices from the same café every weekend.'), never 'someone who needs this'", "promise": "optional: under 8 words, what this page is, fitted to this post (e.g. 'How Indian offices really work.')"},
   "caption": "one line: either a specific question that invites the reader's own version, or a one-line point of view in your voice. No hashtags here",
   "hashtags": ["3-4 specific, descriptive hashtags a reader would search for this topic. No #AboveMRP (added automatically), no generic tags like #viral"],
   "alt_text": "plain description of the post for screen readers",

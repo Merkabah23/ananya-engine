@@ -97,7 +97,7 @@ MECHANICAL = ("sentence has", "paragraphs; use at most", "more than 4 sentences"
 
 # Small wording problems: a targeted edit to the named line fixes them without a rewrite.
 WORDING = ("Remove the phrase", "'Nobody' appears more than once", "words; the limit is", "Every sentence is about the same length",
-           "isn't in the sources; source it or remove it", "The post carries")
+           "isn't in the sources; source it or remove it", "The post carries", "The send line names no specific person")
 
 
 def is_mechanical(problem: str) -> bool:
@@ -225,6 +225,9 @@ def find_sources(topic: dict) -> list[dict]:
         return []
 
 
+GENERIC_SEND = re.compile(r"\b(someone who needs|someone you know|(?:a friend|your friends|everyone)\b(?!\s+(?:who|whose)\b))", re.I)
+
+
 def hard_checks(draft: dict, fmt: str, sources: list[dict]) -> list[str]:
     problems = []
     slides = draft.get("slides", [])
@@ -245,6 +248,10 @@ def hard_checks(draft: dict, fmt: str, sources: list[dict]) -> list[str]:
         if dead:
             problems.append(f"Slides {dead} have no why_swipe: say what pulls the reader to the next slide, or rewrite "
                             "the slide until something does.")
+    send = str((draft.get("end") or {}).get("send", ""))
+    if GENERIC_SEND.search(send):
+        problems.append("The send line names no specific person: say who it's for and why it's them "
+                        "(e.g. 'Send to the friend who complains about café prices from the same café every weekend.').")
     if fmt == "single" and len(slides) != 1:
         problems.append("A single post must have exactly one slide.")
     total = 0
@@ -330,7 +337,8 @@ def voice_examples(seed: int, k: int = 3) -> str:
 
 
 TOPIC_FIELDS = ("claim", "moment", "turn", "because", "payoff", "lived", "proof", "mood", "format_name", "send_to", "news_peg",
-                "why_now", "behaviour", "mechanism", "group", "territory", "real_details")
+                "why_now", "behaviour", "mechanism", "group", "territory", "real_details",
+                "feeling", "villain", "story_type")
 
 
 def evidence_for(post: dict) -> list[dict]:
