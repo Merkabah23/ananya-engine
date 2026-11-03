@@ -408,6 +408,16 @@ def write_post(post: dict, notes: str = "") -> dict:
         if not problems:
             review = critique(post, draft, seed + attempt)
             post["history"].append({"attempt": attempt, "review": review})
+            cut = None if passes(review) else dead_slide(review, len(draft.get("slides", [])))
+            if cut:  # one repeated middle slide: cut it and ask again, instead of spending a rewrite on it
+                trimmed = json.loads(json.dumps(draft))
+                del trimmed["slides"][cut - 1]
+                trimmed, left = mechanical(trimmed, fmt, evidence)
+                if not left and len(trimmed["slides"]) >= MIN_SLIDES:
+                    again = critique(post, trimmed, seed + attempt)
+                    post["history"].append({"attempt": attempt, "cut_slide": cut, "review": again})
+                    if passes(again):
+                        draft, review = trimmed, again
             if passes(review):
                 draft["caption_style"] = caption_style(post)
                 verification = factgate.verify(post, draft)
@@ -442,6 +452,16 @@ def write_post(post: dict, notes: str = "") -> dict:
 
 
 
+
+
+def dead_slide(review: dict, n: int) -> int | None:
+    """The middle slide to cut, when the editor's only hard failure is that one slide repeats another."""
+    v = review.get("violations") or []
+    if len(v) != 1 or "dead slide" not in v[0].lower():
+        return None
+    m = re.search(r"\bslide (\d+)", v[0], re.I)
+    k = int(m.group(1)) if m else 0
+    return k if 2 <= k < n else None
 
 
 def _score(scores: dict, key: str) -> int:

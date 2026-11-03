@@ -1,7 +1,7 @@
 {
  "id": "2026-11-78",
- "status": "planned",
- "due": "2026-11-09T20:30:00+05:30",
+ "status": "rejected",
+ "due": "2026-11-05T20:30:00+05:30",
  "format": "carousel",
  "topic": {
   "title": "The reviews were dead. The theatre was full.",
@@ -61,6 +61,657 @@
   "villain": "a promotion machine that outshouts critics with trailers, songs and release dates",
   "story_type": "vision"
  },
- "history": [],
- "updated_at": "2026-11-03T09:03:57.904321+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 2: 'Messy screenplay, slow first half, climax lifted straight from Baahubali.' — this is presented as a direct, quoted review line, but it is not an actual quote from any source. The Bollywood Hungama source says the screenplay 'gets messy, especially in the second half,' not the first half, and never states this combined sentence. This is an invented quote that also reverses a fact from the source (first half vs. second half), violating the rule that any quote must match the sources with the same meaning."
+    ],
+    "scores": {
+     "hook": 5,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "Slide 2: Drop the fabricated quote in quotation marks. Either paraphrase the review without quote marks ('messy screenplay, a villain track that goes nowhere, a climax that feels borrowed') or pull only wording that's actually in the Bollywood Hungama source, and fix 'slow first half' to the second half, since that's where the source says it drags.",
+     "Slide 5: 'A critic is one stranger's taste you can't fight and can't buy' is a mirrored can't-A-can't-B construction, which the voice rules ban as engineered rhetoric. Rewrite it as one plain, unpaired line.",
+     "The topic calls for 'conflicted' as the feeling, but nothing in the post lands that — the reader just acts (reads review, books anyway) without any beat of self-awareness or mild guilt about ignoring their own judgment again. Add one line, likely around slide 3 or 4, where the reader notices they're doing this on autopilot, to actually land the conflicted feeling instead of just describing the behaviour.",
+     "Slide 3: the review-reading and the text should sit a beat apart in time, not stack as two flat events — right now slide 2 and slide 3 read as 'reviewer says X, then friend says Y' back to back, more pattern than lived moment. Give the reader something they do in between (closing the review tab, starting to type a reply, whatever) so slide 3 feels like a continuation of one evening, not a second data point."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Slide 2: 'Messy screenplay, slow first half, climax lifted straight from Baahubali.' — this is presented as a direct, quoted review line, but it is not an actual quote from any source. The Bollywood Hungama source says the screenplay 'gets messy, especially in the second half,' not the first half, and never states this combined sentence. This is an invented quote that also reverses a fact from the source (first half vs. second half), violating the rule that any quote must match the sources with the same meaning.",
+    "Slide 2: Drop the fabricated quote in quotation marks. Either paraphrase the review without quote marks ('messy screenplay, a villain track that goes nowhere, a climax that feels borrowed') or pull only wording that's actually in the Bollywood Hungama source, and fix 'slow first half' to the second half, since that's where the source says it drags.",
+    "Slide 5: 'A critic is one stranger's taste you can't fight and can't buy' is a mirrored can't-A-can't-B construction, which the voice rules ban as engineered rhetoric. Rewrite it as one plain, unpaired line.",
+    "The topic calls for 'conflicted' as the feeling, but nothing in the post lands that — the reader just acts (reads review, books anyway) without any beat of self-awareness or mild guilt about ignoring their own judgment again. Add one line, likely around slide 3 or 4, where the reader notices they're doing this on autopilot, to actually land the conflicted feeling instead of just describing the behaviour.",
+    "Slide 3: the review-reading and the text should sit a beat apart in time, not stack as two flat events — right now slide 2 and slide 3 read as 'reviewer says X, then friend says Y' back to back, more pattern than lived moment. Give the reader something they do in between (closing the review tab, starting to type a reply, whatever) so slide 3 feels like a continuation of one evening, not a second data point."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Hard failure 6 (facts as the hero / more than two numbers): slide 6 (\"A critic is one stranger's taste...\") stacks three financial figures in one post — \"₹8 crore Friday, ₹11.25 crore Saturday and ₹14 crore Sunday\" — exceeding the two-number limit and tipping the post toward a box-office recap.",
+     "Hard failure 7 (dead slide): slide 4 (\"9 pm. Seat H14, popcorn warm in your lap...\") restates the turn already delivered in slide 3 — \"Somewhere between the tab and the booking, you did the thing you always do. You read your own judgment, then set it aside for one text\" just re-says 'you opened BookMyShow before finishing the text' in new words, giving the reader no new information to swipe for."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 3,
+     "story": 4,
+     "tight": 2
+    },
+    "notes": [
+     "Slide 6: cut this to one number. Keep the weekend total (₹33.25 crore) or the rising-trend shape ('Friday to Sunday, collections kept climbing') but drop the day-by-day crore breakdown — three figures reads like a box-office recap, not an opinion backed by one fact.",
+     "Slide 4: either cut the line 'you read your own judgment, then set it aside for one text' (slide 3 already shows that action happening) or replace it with something slide 3 hasn't covered yet — e.g. what the friend's text cost you emotionally, or a flicker of doubt at the ticket counter — so the slide earns its swipe instead of re-explaining the hook.",
+     "Cover: the headline plus sub-headline ('You read the one-star review and booked the 9 pm show anyway') already hands over the full turn before slide 1 ends. Pull the sub back — hint at the tension (review open, thumb hovering) without naming the 9 pm booking, so slides 2-3 still have somewhere to go.",
+     "Slide 5 ('The one-star review didn't stop you. It just handed you something to argue about in the car on the way home') is the freshest beat in the post — the review becomes post-watch gossip instead of pre-watch advice. Consider moving this insight earlier or giving it more room, since right now it's squeezed between two slides that already did the heavy lifting.",
+     "Slide 2: the review detail list ('messy screenplay, a villain track that goes nowhere, a second half that drags, a climax borrowed from Baahubali') is four complaints in one breath and reads like a critic's checklist. Cut to the two sharpest ones — it'll sound more like a person skimming a review than a review summary."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Hard failure 6 (facts as the hero / more than two numbers): slide 6 (\"A critic is one stranger's taste...\") stacks three financial figures in one post — \"₹8 crore Friday, ₹11.25 crore Saturday and ₹14 crore Sunday\" — exceeding the two-number limit and tipping the post toward a box-office recap.",
+    "Hard failure 7 (dead slide): slide 4 (\"9 pm. Seat H14, popcorn warm in your lap...\") restates the turn already delivered in slide 3 — \"Somewhere between the tab and the booking, you did the thing you always do. You read your own judgment, then set it aside for one text\" just re-says 'you opened BookMyShow before finishing the text' in new words, giving the reader no new information to swipe for.",
+    "Slide 6: cut this to one number. Keep the weekend total (₹33.25 crore) or the rising-trend shape ('Friday to Sunday, collections kept climbing') but drop the day-by-day crore breakdown — three figures reads like a box-office recap, not an opinion backed by one fact.",
+    "Slide 4: either cut the line 'you read your own judgment, then set it aside for one text' (slide 3 already shows that action happening) or replace it with something slide 3 hasn't covered yet — e.g. what the friend's text cost you emotionally, or a flicker of doubt at the ticket counter — so the slide earns its swipe instead of re-explaining the hook.",
+    "Cover: the headline plus sub-headline ('You read the one-star review and booked the 9 pm show anyway') already hands over the full turn before slide 1 ends. Pull the sub back — hint at the tension (review open, thumb hovering) without naming the 9 pm booking, so slides 2-3 still have somewhere to go.",
+    "Slide 5 ('The one-star review didn't stop you. It just handed you something to argue about in the car on the way home') is the freshest beat in the post — the review becomes post-watch gossip instead of pre-watch advice. Consider moving this insight earlier or giving it more room, since right now it's squeezed between two slides that already did the heavy lifting.",
+    "Slide 2: the review detail list ('messy screenplay, a villain track that goes nowhere, a second half that drags, a climax borrowed from Baahubali') is four complaints in one breath and reads like a critic's checklist. Cut to the two sharpest ones — it'll sound more like a person skimming a review than a review summary."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 5,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "Slide 2: \"Two stars, maybe one\" adds an ungrounded second number. The sourced review was 2/5 — just say \"Two stars\" or similar; the \"maybe one\" guess isn't backed by anything and reads like an invented stat next to a real one.",
+     "Slide 4: \"you'd handed your evening to a trailer and one text instead\" introduces the trailer as part of what decided this specific trip, but the reader was never shown watching a trailer anywhere in the story — only a review and a friend's text. Either add a trailer beat earlier (scrolling past it before the review) or cut \"trailer\" here so the payoff only claims what was actually walked through.",
+     "Topic mood is \"funny\" but the execution reads analytical/observational rather than funny — the only real wit is \"Studios clocked this long ago.\" Sharpen one line (the friend's text or the mechanism slide) with an actual joke, not just an insight, to hit the requested mood and lift eq.",
+     "End card \"promise\": \"How things really get sold to us\" is a generic page-tagline phrase, not specific to this post's turn. Make it name the actual swap (reviews vs. a friend's text) so it reads like this post's promise, not any post's.",
+     "Slide 3: the friend's text lands as pure text with no texture around it — what are you doing when it buzzes, what does the room sound/feel like. One sensory beat here (beyond the warm popcorn later) would make this specific moment, not just the later one, feel lived-in."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Wrong: 'Vvaan received near-unanimous negative reviews from critics.'. What's true: Critics were mixed-to-negative, not near-unanimous negative. Rotten Tomatoes shows 21% positive out of 19 critic reviews (avg 4.6/10) — roughly 1 in 5 reviews positive, not a near-unanimous pan. Several reviewers gave positive or favorable notices (News18: 3/5, DNA India: 3.5/5), alongside clearly negative ones (Indian Express: 0.5/5, Bollywood Hungama: 2/5). A critic tally (Sacnilk) found 0 outright positive, 4 mixed, 1 negative among a 5-review sample — i.e. split/mixed, not unanimous..",
+     "Wrong: 'Vvaan's box office collections rose on each successive day after release.'. What's true: Collections rose only across the three-day opening weekend (Fri ₹8cr → Sat ₹11.25cr → Sun ₹14cr, per Hollywood Reporter India), but then fell sharply on Monday (Day 4) — the film's 'first Monday drop,' down 63.4% to ₹5.25 crore from Sunday's ₹14.35 crore per Sacnilk-sourced data. So collections did not rise on each successive day after release; they dropped once the weekend ended, which is the normal pattern.."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Vvaan received near-unanimous negative reviews from critics.",
+      "sentence": "Vvaan got near-unanimous bad reviews",
+      "type": "event",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c2",
+      "text": "Vvaan's box office collections rose on each successive day after release.",
+      "sentence": "still climbed every day",
+      "type": "event",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c3",
+      "text": "Vvaan's opening weekend box office collection totaled ₹33.25 crore.",
+      "sentence": "to ₹33.25 crore over the weekend",
+      "type": "figure",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c4",
+      "text": "A friend's personal recommendation outweighs a critic's review in determining whether someone watches a film, so negative critical reviews do not stop a film's box office success.",
+      "sentence": "Bad reviews don't kill films. One friend's text does. ... A critic is one stranger's taste you've never met. Your friend is a person you already trust.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "contradicted",
+      "event_date": "2026-09-25",
+      "correct": "Critics were mixed-to-negative, not near-unanimous negative. Rotten Tomatoes shows 21% positive out of 19 critic reviews (avg 4.6/10) — roughly 1 in 5 reviews positive, not a near-unanimous pan. Several reviewers gave positive or favorable notices (News18: 3/5, DNA India: 3.5/5), alongside clearly negative ones (Indian Express: 0.5/5, Bollywood Hungama: 2/5). A critic tally (Sacnilk) found 0 outright positive, 4 mixed, 1 negative among a 5-review sample — i.e. split/mixed, not unanimous.",
+      "sources": [
+       {
+        "url": "https://www.rottentomatoes.com/m/the_vvaan_force_of_the_forrest",
+        "publisher": "Rotten Tomatoes",
+        "published_date": null,
+        "quote": "21% ... 19 reviews",
+        "tier": 1
+       },
+       {
+        "url": "https://www.dnaindia.com/bollywood/report-the-vvaan-movie-review-sidharth-malhotra-tamannaah-film-is-wild-rollercoaster-ride-convincingly-blending-folklore-with-drama-3221168",
+        "publisher": "DNA India",
+        "published_date": "2026-09-25",
+        "quote": "The Vvaan isn't just a half-baked fantasy adventure but an entertaining ride, fueled by impressive writing. (3.5/5 stars)",
+        "tier": 2
+       },
+       {
+        "url": "https://www.sacnilk.com/reviews/Vvan_2026_Review-of-Reviews",
+        "publisher": "Sacnilk",
+        "published_date": "2026-09-25",
+        "quote": "Positive: 0, Mixed: 4, Negative: 1 ... Reviews were split but predominantly mixed.",
+        "tier": 3
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "contradicted",
+      "event_date": "2026-09-28",
+      "correct": "Collections rose only across the three-day opening weekend (Fri ₹8cr → Sat ₹11.25cr → Sun ₹14cr, per Hollywood Reporter India), but then fell sharply on Monday (Day 4) — the film's 'first Monday drop,' down 63.4% to ₹5.25 crore from Sunday's ₹14.35 crore per Sacnilk-sourced data. So collections did not rise on each successive day after release; they dropped once the weekend ended, which is the normal pattern.",
+      "sources": [
+       {
+        "url": "https://www.freepressjournal.in/entertainment/the-vvaan-box-office-collection-day-4-sidharth-malhotra-and-tamannaah-bhatias-film-sees-first-monday-drop-collects-525-crore",
+        "publisher": "Free Press Journal",
+        "published_date": "2026-09-29",
+        "quote": "sees first Monday drop, collects ₹5.25 Crore ... registered a 63.4% drop compared to its Sunday collection of Rs 14.35 crore.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.koimoi.com/box-office/the-vvaan-box-office-collection-day-4-becomes-sidharth-malhotras-2nd-highest-grossing-film-in-the-post-covid-era/",
+        "publisher": "Koimoi",
+        "published_date": "2026-09-29",
+        "quote": "crosses Rs 50 crore globally after Monday test",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "2026-09-28",
+      "correct": "₹33.25 crore net (India) is the most-repeated figure across major outlets, but trade trackers vary noticeably for this film: Bollywood Hungama's own day-wise table sums to ₹29.65cr (while its page header separately says ₹31.75cr), TechnoSports cites ₹31.75cr, and Koimoi's day-wise table sums to ₹34.63cr. Treat ₹33.25 crore as the widely-cited trade estimate rather than an exact, undisputed figure — safest phrasing is 'about ₹33 crore' or attribute it to specific trackers.",
+      "sources": [
+       {
+        "url": "https://www.hollywoodreporterindia.com/features/insight/the-vvaan-box-office-collection-sidharth-malhotra-starrer-nets-an-opening-weekend-of-over-33-crore",
+        "publisher": "The Hollywood Reporter India",
+        "published_date": "2026-09-28",
+        "quote": "Nets ₹33.25 Crore Opening Weekend ... Friday ₹8 crore, Saturday ₹11.25 crore, Sunday ₹14 crore",
+        "tier": 2
+       },
+       {
+        "url": "https://gulfnews.com/entertainment/vvaan-box-office-collection-sidharth-malhotra-scores-his-biggest-opening-weekend-since-2015-1.500690252",
+        "publisher": "Gulf News",
+        "published_date": "2026-09-28",
+        "quote": "the film collected Rs 33.25 crore net in India after three days",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. The only hard factual anchor — Vvaan drew negative reviews yet rose each day of its opening weekend to ₹33.25 crore net — checks out, and the rest of the take is opinion/generalization about how people decide, which is not falsifiable.",
+     "actual_mechanism": "The Vvaan: Force of the Forrest (released 25 Sep 2026) got mixed-to-negative reviews (Rotten Tomatoes 21% positive of 19 critics) yet climbed daily — ₹8 cr Friday, ₹11.25 cr Saturday, ₹14.35 cr Sunday — for a ₹33.25 cr opening-weekend net, so the box-office figure and the day-by-day climb are accurate. Opening-weekend grosses are driven mainly by studio spend on stars, trailers, songs and release timing plus peer/word-of-mouth signals, while critic reviews have weak influence on Indian commercial openings; the post's claim that personal recommendation outweighs critics is a generalization about audience behavior, not a falsifiable statement about a price, fee or market. 'Near-unanimous bad' slightly overstates a 79%-negative split, but that is a degree-of-wording matter, not a false mechanism.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.hollywoodreporterindia.com/features/insight/the-vvaan-box-office-collection-sidharth-malhotra-starrer-nets-an-opening-weekend-of-over-33-crore",
+       "published_date": "2026-09",
+       "quote": "The film closed its opening weekend with Rs 33.25 crore net in India... opened with Rs 8 crore on Friday, followed by Rs 11.25 crore on Saturday and Rs 14.35 crore on Sunday."
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/The_Vvaan:_Force_of_the_Forrest",
+       "published_date": "2026-10",
+       "quote": "received mixed-to-negative reviews from critics. On Rotten Tomatoes, 21% of 19 critics' reviews are positive, with an average rating of 4.6/10."
+      }
+     ]
+    },
+    "text_hash": "a86c74101356ac0d2a94abd85d63aeb86437967d",
+    "at": "2026-11-03T09:41:14.105394+00:00"
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Wrong: 'Vvaan received near-unanimous negative reviews from critics.'. What's true: Critics were mixed-to-negative, not near-unanimous negative. Rotten Tomatoes shows 21% positive out of 19 critic reviews (avg 4.6/10) — roughly 1 in 5 reviews positive, not a near-unanimous pan. Several reviewers gave positive or favorable notices (News18: 3/5, DNA India: 3.5/5), alongside clearly negative ones (Indian Express: 0.5/5, Bollywood Hungama: 2/5). A critic tally (Sacnilk) found 0 outright positive, 4 mixed, 1 negative among a 5-review sample — i.e. split/mixed, not unanimous..",
+    "Wrong: 'Vvaan's box office collections rose on each successive day after release.'. What's true: Collections rose only across the three-day opening weekend (Fri ₹8cr → Sat ₹11.25cr → Sun ₹14cr, per Hollywood Reporter India), but then fell sharply on Monday (Day 4) — the film's 'first Monday drop,' down 63.4% to ₹5.25 crore from Sunday's ₹14.35 crore per Sacnilk-sourced data. So collections did not rise on each successive day after release; they dropped once the weekend ended, which is the normal pattern.."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 6: 'Only about one in five critics liked Vvaan, and it still pulled ₹33.25 crore over its opening weekend.' — the 'one in five critics' figure is not in any source; the sources only say reviewers were 'almost unanimous' in dismissing the film and that one outlet gave it 2/5 stars. This is an invented specific (hard failure #2) and also states a fact without a matching source (#6).",
+     "The post carries three numbers — 'Two stars, maybe one' (slide 2), 'one in five critics' (slide 6), and '₹33.25 crore' (slide 6) — exceeding the two-number cap (hard failure #6)."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 5,
+     "tight": 4
+    },
+    "notes": [
+     "Slide 6: cut 'one in five critics liked Vvaan' — it's not in any source. Keep the ₹33.25 crore figure (sourced) and drop the fraction, or replace it with something sourced and non-numeric, like 'reviewers were almost unanimous in panning it.'",
+     "Count is at three numbers across the post (slide 2's star rating, slide 6's fraction, slide 6's crore figure). After cutting the invented fraction, decide whether 'Two stars, maybe one' (slide 2) stays as the one supporting number alongside the crore figure, or turn slide 2's rating into plain description ('the review calls the second half a drag, the climax a copy of Baahubali') so only one number remains in the whole post.",
+     "Slide 5 ('The one-star review didn't stop you. It just handed you something to argue about in the car on the way home.') sits very close to slide 6's point and slightly undercuts the pull — sharpen it with a distinct beat (e.g. the actual post-film argument moment itself, someone defending Sunil Grover) so it earns its own slide instead of pre-stating slide 6's mechanism.",
+     "Slide 3's friend text ('Story is bakwaas but Sunil Grover is funny. Timepass hai, go.') reads as a real quoted message — make sure in the rewrite it stays clearly a typical/generic text a reader would recognize, not styled as one specific person's exact words, to keep it inside the 'typical scenario' allowance rather than an invented one-off quote."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Slide 6: 'Only about one in five critics liked Vvaan, and it still pulled ₹33.25 crore over its opening weekend.' — the 'one in five critics' figure is not in any source; the sources only say reviewers were 'almost unanimous' in dismissing the film and that one outlet gave it 2/5 stars. This is an invented specific (hard failure #2) and also states a fact without a matching source (#6).",
+    "The post carries three numbers — 'Two stars, maybe one' (slide 2), 'one in five critics' (slide 6), and '₹33.25 crore' (slide 6) — exceeding the two-number cap (hard failure #6).",
+    "Slide 6: cut 'one in five critics liked Vvaan' — it's not in any source. Keep the ₹33.25 crore figure (sourced) and drop the fraction, or replace it with something sourced and non-numeric, like 'reviewers were almost unanimous in panning it.'",
+    "Count is at three numbers across the post (slide 2's star rating, slide 6's fraction, slide 6's crore figure). After cutting the invented fraction, decide whether 'Two stars, maybe one' (slide 2) stays as the one supporting number alongside the crore figure, or turn slide 2's rating into plain description ('the review calls the second half a drag, the climax a copy of Baahubali') so only one number remains in the whole post.",
+    "Slide 5 ('The one-star review didn't stop you. It just handed you something to argue about in the car on the way home.') sits very close to slide 6's point and slightly undercuts the pull — sharpen it with a distinct beat (e.g. the actual post-film argument moment itself, someone defending Sunil Grover) so it earns its own slide instead of pre-stating slide 6's mechanism.",
+    "Slide 3's friend text ('Story is bakwaas but Sunil Grover is funny. Timepass hai, go.') reads as a real quoted message — make sure in the rewrite it stays clearly a typical/generic text a reader would recognize, not styled as one specific person's exact words, to keep it inside the 'typical scenario' allowance rather than an invented one-off quote."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-03T09:42:53.723374+00:00",
+ "sources": [
+  {
+   "url": "https://www.hollywoodreporterindia.com/features/insight/the-vvaan-box-office-collection-sidharth-malhotra-starrer-nets-an-opening-weekend-of-over-33-crore",
+   "fact": "Vvaan earned a net opening weekend of ₹33.25 crore in India despite mixed-to-negative reviews.",
+   "excerpt": "₹33.25 crore net in India (with a domestic gross of ₹39.65 crore), with an additional ₹3.50 crore from overseas markets over the three-day weekend, bringing the film's cumulative worldwide gross collection to ₹43.15 crore. With Vvaan, Malhotra broke his 11-year-old record for the highest opening weekend at the domestic box office, with earnings of ₹33.25 crore surpassing his debut film Student of the Year (2012), which earned ₹30 crore.",
+   "date": "2026-09-28"
+  },
+  {
+   "url": "https://www.bollywoodhungama.com/movie/the-vvaan/critic-review/the-vvaan-movie-review/the-vvaan-rests-on-an-interesting-premise/",
+   "fact": "A major trade critic outlet gave Vvaan 2 out of 5 stars, calling out a messy screenplay and weak villain track despite praising the premise.",
+   "excerpt": "THE VVAAN rests on an interesting premise but suffers due to a messy screenplay. A messy screenplay, weak villain track, several illogical developments and a haphazard climax severely dent the film's impact. The screenplay gets messy, especially in the second half. A few developments also defy logic and common sense. The climax evokes a strong sense of déjà vu, particularly of BAAHUBALI. On the other hand, the director succeeds in building an eerie atmosphere, and the humour works well in certain scenes.",
+   "date": "2026-09-25"
+  }
+ ],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] Bad reviews don't kill films. [One friend's text] does.\nThe review is open, your thumb is hovering. You read every word anyway.\n \n\n[slide 1] Bad reviews don't kill films. One friend's text does.\nSwipe to read →\n\n[slide 2] It's evening. The review sits open on your phone. Two stars, maybe one. A second half that drags, a climax borrowed from Baahubali.\nYou read all of it anyway.\n\n[slide 3] You close the tab, half-decided to skip it. Your thumb is still hovering when the friend who caught the matinee texts. 'Story is bakwaas but Sunil Grover is funny. Timepass hai, go.'\nYou open BookMyShow before you've finished reading it.\n\n[slide 4] 9 pm. Seat H14, popcorn warm in your lap, the smell of someone's samosa three rows down.\nAt six you half-believed the critic. By nine you'd handed your evening to a trailer and one text instead.\n\n[slide 5] The one-star review didn't stop you. It just handed you something to argue about in the car on the way home.\n\n[slide 6] A critic is one stranger's taste you've never met. Your friend is a person you already trust. Studios clocked this long ago.\nSo the money goes into the trailer, the songs and the release date. Vvaan got near-unanimous bad reviews and still climbed every day to ₹33.25 crore over the weekend.\n\n[slide 7] Try it on yourself. Name the last film you skipped because a critic trashed it. Take your time.\nNow name the last one you skipped because a friend texted 'don't bother.' That one came faster, didn't it.\n\n[end card] Open this the next time a one-star review is up and your thumb is already on the booking button.\nSend to the friend who reads every review out loud and still books the first-day-first-show.\n\n[caption] What's the last film you booked despite a brutal review, and whose text made you do it?\n\n[alt text] A seven-slide carousel arguing that bad reviews no longer decide ticket sales. It follows a reader reading a one-star review in the evening, getting a friend's text, and booking the show anyway. It cites Vvaan's rising collections to a ₹33.25 crore opening weekend despite negative reviews, and ends with a test comparing films skipped for a review versus for a friend's warning.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Vvaan received near-unanimous negative reviews from critics.",
+     "sentence": "Vvaan got near-unanimous bad reviews",
+     "type": "event",
+     "core": true,
+     "framed_as": "past"
+    },
+    {
+     "id": "c2",
+     "text": "Vvaan's box office collections rose on each successive day after release.",
+     "sentence": "still climbed every day",
+     "type": "event",
+     "core": true,
+     "framed_as": "past"
+    },
+    {
+     "id": "c3",
+     "text": "Vvaan's opening weekend box office collection totaled ₹33.25 crore.",
+     "sentence": "to ₹33.25 crore over the weekend",
+     "type": "figure",
+     "core": true,
+     "framed_as": "past"
+    },
+    {
+     "id": "c4",
+     "text": "A friend's personal recommendation outweighs a critic's review in determining whether someone watches a film, so negative critical reviews do not stop a film's box office success.",
+     "sentence": "Bad reviews don't kill films. One friend's text does. ... A critic is one stranger's taste you've never met. Your friend is a person you already trust.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "Vvaan received near-unanimous negative reviews from critics.": {
+   "id": "c1",
+   "verdict": "contradicted",
+   "event_date": "2026-09-25",
+   "correct": "Critics were mixed-to-negative, not near-unanimous negative. Rotten Tomatoes shows 21% positive out of 19 critic reviews (avg 4.6/10) — roughly 1 in 5 reviews positive, not a near-unanimous pan. Several reviewers gave positive or favorable notices (News18: 3/5, DNA India: 3.5/5), alongside clearly negative ones (Indian Express: 0.5/5, Bollywood Hungama: 2/5). A critic tally (Sacnilk) found 0 outright positive, 4 mixed, 1 negative among a 5-review sample — i.e. split/mixed, not unanimous.",
+   "sources": [
+    {
+     "url": "https://www.rottentomatoes.com/m/the_vvaan_force_of_the_forrest",
+     "publisher": "Rotten Tomatoes",
+     "published_date": null,
+     "quote": "21% ... 19 reviews",
+     "tier": 1
+    },
+    {
+     "url": "https://www.dnaindia.com/bollywood/report-the-vvaan-movie-review-sidharth-malhotra-tamannaah-film-is-wild-rollercoaster-ride-convincingly-blending-folklore-with-drama-3221168",
+     "publisher": "DNA India",
+     "published_date": "2026-09-25",
+     "quote": "The Vvaan isn't just a half-baked fantasy adventure but an entertaining ride, fueled by impressive writing. (3.5/5 stars)",
+     "tier": 2
+    },
+    {
+     "url": "https://www.sacnilk.com/reviews/Vvan_2026_Review-of-Reviews",
+     "publisher": "Sacnilk",
+     "published_date": "2026-09-25",
+     "quote": "Positive: 0, Mixed: 4, Negative: 1 ... Reviews were split but predominantly mixed.",
+     "tier": 3
+    }
+   ]
+  },
+  "Vvaan's box office collections rose on each successive day after release.": {
+   "id": "c2",
+   "verdict": "contradicted",
+   "event_date": "2026-09-28",
+   "correct": "Collections rose only across the three-day opening weekend (Fri ₹8cr → Sat ₹11.25cr → Sun ₹14cr, per Hollywood Reporter India), but then fell sharply on Monday (Day 4) — the film's 'first Monday drop,' down 63.4% to ₹5.25 crore from Sunday's ₹14.35 crore per Sacnilk-sourced data. So collections did not rise on each successive day after release; they dropped once the weekend ended, which is the normal pattern.",
+   "sources": [
+    {
+     "url": "https://www.freepressjournal.in/entertainment/the-vvaan-box-office-collection-day-4-sidharth-malhotra-and-tamannaah-bhatias-film-sees-first-monday-drop-collects-525-crore",
+     "publisher": "Free Press Journal",
+     "published_date": "2026-09-29",
+     "quote": "sees first Monday drop, collects ₹5.25 Crore ... registered a 63.4% drop compared to its Sunday collection of Rs 14.35 crore.",
+     "tier": 2
+    },
+    {
+     "url": "https://www.koimoi.com/box-office/the-vvaan-box-office-collection-day-4-becomes-sidharth-malhotras-2nd-highest-grossing-film-in-the-post-covid-era/",
+     "publisher": "Koimoi",
+     "published_date": "2026-09-29",
+     "quote": "crosses Rs 50 crore globally after Monday test",
+     "tier": 2
+    }
+   ]
+  },
+  "Vvaan's opening weekend box office collection totaled ₹33.25 crore.": {
+   "id": "c3",
+   "verdict": "supported",
+   "event_date": "2026-09-28",
+   "correct": "₹33.25 crore net (India) is the most-repeated figure across major outlets, but trade trackers vary noticeably for this film: Bollywood Hungama's own day-wise table sums to ₹29.65cr (while its page header separately says ₹31.75cr), TechnoSports cites ₹31.75cr, and Koimoi's day-wise table sums to ₹34.63cr. Treat ₹33.25 crore as the widely-cited trade estimate rather than an exact, undisputed figure — safest phrasing is 'about ₹33 crore' or attribute it to specific trackers.",
+   "sources": [
+    {
+     "url": "https://www.hollywoodreporterindia.com/features/insight/the-vvaan-box-office-collection-sidharth-malhotra-starrer-nets-an-opening-weekend-of-over-33-crore",
+     "publisher": "The Hollywood Reporter India",
+     "published_date": "2026-09-28",
+     "quote": "Nets ₹33.25 Crore Opening Weekend ... Friday ₹8 crore, Saturday ₹11.25 crore, Sunday ₹14 crore",
+     "tier": 2
+    },
+    {
+     "url": "https://gulfnews.com/entertainment/vvaan-box-office-collection-sidharth-malhotra-scores-his-biggest-opening-weekend-since-2015-1.500690252",
+     "publisher": "Gulf News",
+     "published_date": "2026-09-28",
+     "quote": "the film collected Rs 33.25 crore net in India after three days",
+     "tier": 2
+    }
+   ]
+  },
+  "_skeptic": {
+   "5468b65d671b8c7dd6c4c0e16f0e2ea1391ea7dd": {
+    "holds": true,
+    "broken_premise": "None. The only hard factual anchor — Vvaan drew negative reviews yet rose each day of its opening weekend to ₹33.25 crore net — checks out, and the rest of the take is opinion/generalization about how people decide, which is not falsifiable.",
+    "actual_mechanism": "The Vvaan: Force of the Forrest (released 25 Sep 2026) got mixed-to-negative reviews (Rotten Tomatoes 21% positive of 19 critics) yet climbed daily — ₹8 cr Friday, ₹11.25 cr Saturday, ₹14.35 cr Sunday — for a ₹33.25 cr opening-weekend net, so the box-office figure and the day-by-day climb are accurate. Opening-weekend grosses are driven mainly by studio spend on stars, trailers, songs and release timing plus peer/word-of-mouth signals, while critic reviews have weak influence on Indian commercial openings; the post's claim that personal recommendation outweighs critics is a generalization about audience behavior, not a falsifiable statement about a price, fee or market. 'Near-unanimous bad' slightly overstates a 79%-negative split, but that is a degree-of-wording matter, not a false mechanism.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.hollywoodreporterindia.com/features/insight/the-vvaan-box-office-collection-sidharth-malhotra-starrer-nets-an-opening-weekend-of-over-33-crore",
+      "published_date": "2026-09",
+      "quote": "The film closed its opening weekend with Rs 33.25 crore net in India... opened with Rs 8 crore on Friday, followed by Rs 11.25 crore on Saturday and Rs 14.35 crore on Sunday."
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/The_Vvaan:_Force_of_the_Forrest",
+      "published_date": "2026-10",
+      "quote": "received mixed-to-negative reviews from critics. On Rotten Tomatoes, 21% of 19 critics' reviews are positive, with an average rating of 4.6/10."
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "a86c74101356ac0d2a94abd85d63aeb86437967d": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Wrong: 'Vvaan received near-unanimous negative reviews from critics.'. What's true: Critics were mixed-to-negative, not near-unanimous negative. Rotten Tomatoes shows 21% positive out of 19 critic reviews (avg 4.6/10) — roughly 1 in 5 reviews positive, not a near-unanimous pan. Several reviewers gave positive or favorable notices (News18: 3/5, DNA India: 3.5/5), alongside clearly negative ones (Indian Express: 0.5/5, Bollywood Hungama: 2/5). A critic tally (Sacnilk) found 0 outright positive, 4 mixed, 1 negative among a 5-review sample — i.e. split/mixed, not unanimous..",
+     "Wrong: 'Vvaan's box office collections rose on each successive day after release.'. What's true: Collections rose only across the three-day opening weekend (Fri ₹8cr → Sat ₹11.25cr → Sun ₹14cr, per Hollywood Reporter India), but then fell sharply on Monday (Day 4) — the film's 'first Monday drop,' down 63.4% to ₹5.25 crore from Sunday's ₹14.35 crore per Sacnilk-sourced data. So collections did not rise on each successive day after release; they dropped once the weekend ended, which is the normal pattern.."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Vvaan received near-unanimous negative reviews from critics.",
+      "sentence": "Vvaan got near-unanimous bad reviews",
+      "type": "event",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c2",
+      "text": "Vvaan's box office collections rose on each successive day after release.",
+      "sentence": "still climbed every day",
+      "type": "event",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c3",
+      "text": "Vvaan's opening weekend box office collection totaled ₹33.25 crore.",
+      "sentence": "to ₹33.25 crore over the weekend",
+      "type": "figure",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c4",
+      "text": "A friend's personal recommendation outweighs a critic's review in determining whether someone watches a film, so negative critical reviews do not stop a film's box office success.",
+      "sentence": "Bad reviews don't kill films. One friend's text does. ... A critic is one stranger's taste you've never met. Your friend is a person you already trust.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "contradicted",
+      "event_date": "2026-09-25",
+      "correct": "Critics were mixed-to-negative, not near-unanimous negative. Rotten Tomatoes shows 21% positive out of 19 critic reviews (avg 4.6/10) — roughly 1 in 5 reviews positive, not a near-unanimous pan. Several reviewers gave positive or favorable notices (News18: 3/5, DNA India: 3.5/5), alongside clearly negative ones (Indian Express: 0.5/5, Bollywood Hungama: 2/5). A critic tally (Sacnilk) found 0 outright positive, 4 mixed, 1 negative among a 5-review sample — i.e. split/mixed, not unanimous.",
+      "sources": [
+       {
+        "url": "https://www.rottentomatoes.com/m/the_vvaan_force_of_the_forrest",
+        "publisher": "Rotten Tomatoes",
+        "published_date": null,
+        "quote": "21% ... 19 reviews",
+        "tier": 1
+       },
+       {
+        "url": "https://www.dnaindia.com/bollywood/report-the-vvaan-movie-review-sidharth-malhotra-tamannaah-film-is-wild-rollercoaster-ride-convincingly-blending-folklore-with-drama-3221168",
+        "publisher": "DNA India",
+        "published_date": "2026-09-25",
+        "quote": "The Vvaan isn't just a half-baked fantasy adventure but an entertaining ride, fueled by impressive writing. (3.5/5 stars)",
+        "tier": 2
+       },
+       {
+        "url": "https://www.sacnilk.com/reviews/Vvan_2026_Review-of-Reviews",
+        "publisher": "Sacnilk",
+        "published_date": "2026-09-25",
+        "quote": "Positive: 0, Mixed: 4, Negative: 1 ... Reviews were split but predominantly mixed.",
+        "tier": 3
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "contradicted",
+      "event_date": "2026-09-28",
+      "correct": "Collections rose only across the three-day opening weekend (Fri ₹8cr → Sat ₹11.25cr → Sun ₹14cr, per Hollywood Reporter India), but then fell sharply on Monday (Day 4) — the film's 'first Monday drop,' down 63.4% to ₹5.25 crore from Sunday's ₹14.35 crore per Sacnilk-sourced data. So collections did not rise on each successive day after release; they dropped once the weekend ended, which is the normal pattern.",
+      "sources": [
+       {
+        "url": "https://www.freepressjournal.in/entertainment/the-vvaan-box-office-collection-day-4-sidharth-malhotra-and-tamannaah-bhatias-film-sees-first-monday-drop-collects-525-crore",
+        "publisher": "Free Press Journal",
+        "published_date": "2026-09-29",
+        "quote": "sees first Monday drop, collects ₹5.25 Crore ... registered a 63.4% drop compared to its Sunday collection of Rs 14.35 crore.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.koimoi.com/box-office/the-vvaan-box-office-collection-day-4-becomes-sidharth-malhotras-2nd-highest-grossing-film-in-the-post-covid-era/",
+        "publisher": "Koimoi",
+        "published_date": "2026-09-29",
+        "quote": "crosses Rs 50 crore globally after Monday test",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "2026-09-28",
+      "correct": "₹33.25 crore net (India) is the most-repeated figure across major outlets, but trade trackers vary noticeably for this film: Bollywood Hungama's own day-wise table sums to ₹29.65cr (while its page header separately says ₹31.75cr), TechnoSports cites ₹31.75cr, and Koimoi's day-wise table sums to ₹34.63cr. Treat ₹33.25 crore as the widely-cited trade estimate rather than an exact, undisputed figure — safest phrasing is 'about ₹33 crore' or attribute it to specific trackers.",
+      "sources": [
+       {
+        "url": "https://www.hollywoodreporterindia.com/features/insight/the-vvaan-box-office-collection-sidharth-malhotra-starrer-nets-an-opening-weekend-of-over-33-crore",
+        "publisher": "The Hollywood Reporter India",
+        "published_date": "2026-09-28",
+        "quote": "Nets ₹33.25 Crore Opening Weekend ... Friday ₹8 crore, Saturday ₹11.25 crore, Sunday ₹14 crore",
+        "tier": 2
+       },
+       {
+        "url": "https://gulfnews.com/entertainment/vvaan-box-office-collection-sidharth-malhotra-scores-his-biggest-opening-weekend-since-2015-1.500690252",
+        "publisher": "Gulf News",
+        "published_date": "2026-09-28",
+        "quote": "the film collected Rs 33.25 crore net in India after three days",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. The only hard factual anchor — Vvaan drew negative reviews yet rose each day of its opening weekend to ₹33.25 crore net — checks out, and the rest of the take is opinion/generalization about how people decide, which is not falsifiable.",
+     "actual_mechanism": "The Vvaan: Force of the Forrest (released 25 Sep 2026) got mixed-to-negative reviews (Rotten Tomatoes 21% positive of 19 critics) yet climbed daily — ₹8 cr Friday, ₹11.25 cr Saturday, ₹14.35 cr Sunday — for a ₹33.25 cr opening-weekend net, so the box-office figure and the day-by-day climb are accurate. Opening-weekend grosses are driven mainly by studio spend on stars, trailers, songs and release timing plus peer/word-of-mouth signals, while critic reviews have weak influence on Indian commercial openings; the post's claim that personal recommendation outweighs critics is a generalization about audience behavior, not a falsifiable statement about a price, fee or market. 'Near-unanimous bad' slightly overstates a 79%-negative split, but that is a degree-of-wording matter, not a false mechanism.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.hollywoodreporterindia.com/features/insight/the-vvaan-box-office-collection-sidharth-malhotra-starrer-nets-an-opening-weekend-of-over-33-crore",
+       "published_date": "2026-09",
+       "quote": "The film closed its opening weekend with Rs 33.25 crore net in India... opened with Rs 8 crore on Friday, followed by Rs 11.25 crore on Saturday and Rs 14.35 crore on Sunday."
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/The_Vvaan:_Force_of_the_Forrest",
+       "published_date": "2026-10",
+       "quote": "received mixed-to-negative reviews from critics. On Rotten Tomatoes, 21% of 19 critics' reviews are positive, with an average rating of 4.6/10."
+      }
+     ]
+    },
+    "text_hash": "a86c74101356ac0d2a94abd85d63aeb86437967d",
+    "at": "2026-11-03T09:41:14.105394+00:00"
+   }
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "Bad reviews don't kill films. [One friend's text] does.",
+   "sub": "The review is open, your thumb is hovering. You read every word anyway."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Bad reviews don't kill films. One friend's text does.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "The reader wants to know how a bad review loses to a text."
+   },
+   {
+    "paragraphs": [
+     "It's evening. The review sits open on your phone. Two stars, maybe one. A second half that drags, a climax borrowed from Baahubali.",
+     "You read all of it anyway."
+    ],
+    "why_swipe": "If the review is that bad, what makes them still consider going?"
+   },
+   {
+    "paragraphs": [
+     "You close the tab, half-decided to skip it. Your thumb is still hovering when the friend who caught the matinee texts. 'Story is bakwaas but Sunil Grover is funny. Timepass hai, go.'",
+     "You open BookMyShow before you've finished reading it."
+    ],
+    "why_swipe": "So the critic lost. What was the review even for, then?"
+   },
+   {
+    "paragraphs": [
+     "9 pm. Seat H14, popcorn warm in your lap, the smell of someone's samosa three rows down.",
+     "At six you half-believed the critic. By nine you'd handed your evening to a trailer and one text instead."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "The one-star review didn't stop you. It just handed you something to argue about in the car on the way home."
+    ],
+    "why_swipe": "If reviews don't decide tickets anymore, who figured that out and cashed in?"
+   },
+   {
+    "paragraphs": [
+     "A critic is one stranger's taste you've never met. Your friend is a person you already trust. Studios clocked this long ago.",
+     "So the money goes into the trailer, the songs and the release date. Only about one in five critics liked Vvaan, and it still pulled ₹33.25 crore over its opening weekend."
+    ],
+    "why_swipe": "Does this actually hold for the reader's own life, or just this one film?"
+   },
+   {
+    "paragraphs": [
+     "Try it on yourself. Name the last film you skipped because a critic trashed it. Take your time.",
+     "Now name the last one you skipped because a friend texted 'don't bother.' That one came faster, didn't it."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Open this the next time a one-star review is up and your thumb is already on the booking button.",
+   "send": "Send to the friend who reads every review out loud and still books the first-day-first-show.",
+   "promise": "How things really get sold to us."
+  },
+  "caption": "What's the last film you booked despite a brutal review, and whose text made you do it?",
+  "hashtags": [
+   "#VvaanBoxOffice",
+   "#FilmReviews",
+   "#WordOfMouth",
+   "#BollywoodBoxOffice"
+  ],
+  "alt_text": "A seven-slide carousel arguing that bad reviews no longer decide ticket sales. It follows a reader reading a one-star review in the evening, getting a friend's text, and booking the show anyway. It notes that only about one in five critics liked Vvaan, which still took ₹33.25 crore over its opening weekend, and ends with a test comparing films skipped for a review versus for a friend's warning.",
+  "claims": [
+   {
+    "text": "Vvaan earned ₹33.25 crore net over its three-day opening weekend despite mixed-to-negative reviews, with only about one in five critic reviews positive.",
+    "source_url": "https://gulfnews.com/entertainment/vvaan-box-office-collection-sidharth-malhotra-scores-his-biggest-opening-weekend-since-2015-1.500690252"
+   }
+  ],
+  "caption_style": "question"
+ }
 }

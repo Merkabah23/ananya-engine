@@ -1,6 +1,6 @@
 {
  "id": "2026-11-99",
- "status": "rejected",
+ "status": "approved",
  "due": "2026-11-06T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -203,78 +203,267 @@
     "slide 6: It mostly repeats slide 5's idea with a 'you did it too' twist. Keep the self-implication, which is the best turn, but cut 'You knew. You'd known for months.' and the explanation of why you never said it. The reader already gets that from slide 5. Tighten to the one sharp line.",
     "slide 2: Good setting, but the sensory detail sits only in sight and sound (AC hum). Slide 3's pen stand rattle is a good one. Consider moving the reveal of who sent the first reply here so slide 3 can hit faster, and cut 'It feels like honesty at last. You're leaving, nothing is at stake, so why would anyone fake it now?' down to one short line."
    ]
+  },
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 5,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 5,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "Slide 2: cut 'at 6pm' — it's a stray number that adds nothing to the mechanism and the post already has two time markers ('six months ago', 'two years') doing real work. Three numeric markers starts to feel counted rather than lived.",
+     "Slide 5: the because is stated but the 'who gains' stays abstract ('nobody has to pay for it anymore'). One concrete beat — what the manager would have had to do instead (push for the rating, fight for the number) — would make the mechanism land harder without adding a new slide.",
+     "Slide 3: 'left your messages on seen for two years' is good irony, but check it doesn't read as this being about one specific named colleague — keep it as the generic 'that one person everyone has' so it stays a typical scenario, not a one-off story about a specific coworker.",
+     "Slide 6: the payoff is solid but close to a flat statement of the turn rather than a test or line with teeth. Consider ending on something the reader can check against their own old farewell thread, so it's an action/test, not just a restatement of slide 5's logic."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "verification": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Praise from a manager or colleague carries an implicit cost while someone is still employed, because it could translate into a better performance rating, a promotion, or a raise that has to be approved; once that person is leaving, the same praise requires no such approval or payout, so it costs nothing to give.",
+      "sentence": "While you stayed, calling you the backbone had a price. It could turn into a better rating, a promotion, a raise someone had to sign. On your way out, the same sentence costs nothing. Nobody has to pay for it anymore.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {},
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "",
+     "actual_mechanism": "Performance ratings feed a merit matrix drawn against a fixed merit-increase budget pool (commonly ~3-4% of payroll), so rating one person higher genuinely consumes a limited shared pool and must clear calibration sign-off and budget approval before any raise or promotion is granted. A farewell reply-all compliment touches none of these instruments: once someone has resigned they can no longer be rated, placed in the merit matrix, or promoted, so the praise has no budget line it could trigger. The factual premises — that in-cycle acknowledgment can translate into an approval-gated, budget-constrained payout while exit praise cannot — both hold.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://rewardsdna.com/wiki/work_decisions/deciding-merit-increases-balancing-fairness-and-budget/",
+       "published_date": "",
+       "quote": "The pool stays fixed once the company sets it. If managers recommend increases equal to 5% of payroll against a 3% budget, compensation has to bring the recommendations back to 3%."
+      },
+      {
+       "url": "https://www.allvoices.co/glossary/merit-pay",
+       "published_date": "",
+       "quote": "Without calibration, a lenient manager might give all ten of their direct reports 'exceeds expectations' ratings, consuming a disproportionate share of the merit pool... Budget distribution cannot go out until the calibration session for each function is signed off by the relevant HRBP."
+      },
+      {
+       "url": "https://www.shrm.org/topics-tools/news/benefits-compensation/pay-performance-make-catchphrase",
+       "published_date": "",
+       "quote": "Merit-based pay uses a structured process to determine how much of a raise each employee receives based on their performance rating... calibrated to their performance rating and budget."
+      }
+     ]
+    },
+    "text_hash": "131c828e9074bfcd54987bc4dda9acd0b6128567",
+    "at": "2026-11-03T09:32:37.244054+00:00"
+   }
   }
  ],
- "updated_at": "2026-11-03T09:26:13.221894+00:00",
+ "updated_at": "2026-11-03T09:43:27.203921+00:00",
  "sources": [],
  "draft": {
   "cover": {
-   "headline": "Your farewell email gets the [best review of your career]",
-   "sub": "It arrives on the one day it can't count."
+   "headline": "The nicest thing they'll ever call you lands in your [farewell replies]",
+   "sub": "From the person who left you on seen for two years."
   },
   "slides": [
    {
     "paragraphs": [
-     "Your farewell email gets the best review of your career.",
+     "The nicest thing they'll ever call you lands in your farewell replies.",
      "Swipe to read →"
     ],
-    "why_swipe": "Why would the best review come after you've already left?"
+    "why_swipe": "The reader wants to see their own last-day inbox."
    },
    {
     "paragraphs": [
-     "It's your last day. The access card goes back at six, the laptop bag already feels lighter, and the farewell mail sits in Drafts.",
-     "The AC hums over a half-empty floor. You hit send at 4:47. The replies start before your chai goes cold."
+     "It's your second-last day. You line up the farewell email, the one about the chai breaks and the memories, and hit send at 6pm.",
+     "The laptop is warm on your knees. You close the lid, half expecting silence."
     ],
-    "why_swipe": "What do the replies say?"
+    "why_swipe": "What came back after they hit send?"
    },
    {
     "paragraphs": [
-     "\"Will miss you so much. You were the backbone of this team.\" It's from someone who was always too busy to answer your Teams messages.",
-     "Your phone buzzes against the desk so often it rattles the pen stand.",
-     "It feels like honesty at last. You're leaving, nothing is at stake, so why would anyone fake it now?"
+     "Then the replies start. Reply-all, one after another, the little pings stacking up.",
+     "\"Will miss you so much, you were the backbone of this team.\"",
+     "It's from the person who left your messages on seen for two years."
     ],
-    "why_swipe": "If they thought it all along, where was it before today?"
+    "why_swipe": "Is that praise finally honest, or is something off?"
    },
    {
     "paragraphs": [
-     "Your last appraisal said \"meets expectations\". The comment box had one line: \"Good team player.\" Backbone never made it into that form."
+     "So scroll up in the same inbox. Six months ago, that same person filled out your appraisal.",
+     "\"Meets expectations.\" Average. Nothing that moved your number.",
+     "**The backbone of the team got a middle rating.**"
     ],
-    "why_swipe": "what happens next?"
+    "why_swipe": "Why was the praise cheap then and flowing now?"
    },
    {
     "paragraphs": [
-     "There, it would have cost someone. In most offices a top rating means your manager arguing for you, and a slot someone else doesn't get.",
-     "**While you stay, a compliment can turn into money. On your last day, it can't.**"
+     "Here's the part. While you stayed, calling you the backbone had a price. It could turn into a better rating, a promotion, a raise someone had to sign.",
+     "On your way out, the same sentence costs nothing. Nobody has to pay for it anymore."
     ],
-    "why_swipe": "And whose farewell did you reply to like this?"
+    "why_swipe": "So what does that make the whole warm thread?"
    },
    {
     "paragraphs": [
-     "And you've done it too. \"Huge loss for the team\", typed in ten seconds for someone you watched carry a project all year.",
-     "You knew. You'd known for months. You just never said it anywhere it could cost a rating."
-    ],
-    "why_swipe": "So who's still replying after you've gone?"
-   },
-   {
-    "paragraphs": [
-     "At nine, someone replies-all \"All the best!!\" to a login that no longer opens.",
-     "**The one person who had a form for all this replies with a thumbs up.**"
+     "They didn't suddenly see your worth on the last day. They saw it the whole time.",
+     "**It just finally became free to say so.**"
     ]
    }
   ],
   "end": {
-   "save": "Read it again the evening your farewell thread starts filling up.",
-   "send": "Send to the friend serving notice period right now, before they read too much into the reply-alls.",
+   "save": "Open this again the morning you send your own farewell email.",
+   "send": "Send to the friend serving notice right now, drafting that goodbye mail.",
    "promise": "How Indian offices really work."
   },
-  "caption": "What's the most generous line someone wrote in your farewell thread, and did they ever say it to your face before that?",
+  "caption": "What's the warmest farewell reply you got from someone who never once replied while you actually worked there?",
   "hashtags": [
-   "#FarewellEmail",
-   "#CorporateLife",
-   "#NoticePeriod",
-   "#AppraisalSeason"
+   "noticeperiod",
+   "farewellemail",
+   "appraisalseason",
+   "corporatelife"
   ],
-  "alt_text": "A six-slide carousel arguing that your farewell email gets the best review of your career, on the one day it can't count for anything. On your last day, over the hum of a half-empty floor, you send the farewell mail and replies pour in. A colleague who was always too busy to answer your messages calls you the backbone of the team, and it feels like honesty at last. But your last appraisal said 'meets expectations' with a one-line comment, because in most offices a top rating means your manager arguing for you and a slot someone else doesn't get. While you stay, praise can turn into money; on your last day it can't. You have done the same, typing 'Huge loss for the team' for someone you watched carry a project all year, knowing their worth but never saying it where it could cost a rating. It ends with someone replying 'All the best!!' to a login that no longer opens, while the one person who had a form for all this replies with a thumbs up.",
-  "claims": []
+  "alt_text": "A six-slide carousel about farewell emails at work. On your last day, colleagues reply-all calling you the backbone of the team, including one who ignored your messages for years and rated you average at appraisal. The point: praise is free only once you can no longer be rated or raised.",
+  "claims": [],
+  "caption_style": "question"
+ },
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] The nicest thing they'll ever call you lands in your [farewell replies]\nFrom the person who left you on seen for two years.\n \n\n[slide 1] The nicest thing they'll ever call you lands in your farewell replies.\nSwipe to read →\n\n[slide 2] It's your second-last day. You line up the farewell email, the one about the chai breaks and the memories, and hit send at 6pm.\nThe laptop is warm on your knees. You close the lid, half expecting silence.\n\n[slide 3] Then the replies start. Reply-all, one after another, the little pings stacking up.\n\"Will miss you so much, you were the backbone of this team.\"\nIt's from the person who left your messages on seen for two years.\n\n[slide 4] So scroll up in the same inbox. Six months ago, that same person filled out your appraisal.\n\"Meets expectations.\" Average. Nothing that moved your number.\nThe backbone of the team got a middle rating.\n\n[slide 5] Here's the part. While you stayed, calling you the backbone had a price. It could turn into a better rating, a promotion, a raise someone had to sign.\nOn your way out, the same sentence costs nothing. Nobody has to pay for it anymore.\n\n[slide 6] They didn't suddenly see your worth on the last day. They saw it the whole time.\nIt just finally became free to say so.\n\n[end card] Open this again the morning you send your own farewell email.\nSend to the friend serving notice right now, drafting that goodbye mail.\n\n[caption] What's the warmest farewell reply you got from someone who never once replied while you actually worked there?\n\n[alt text] A six-slide carousel about farewell emails at work. On your last day, colleagues reply-all calling you the backbone of the team, including one who ignored your messages for years and rated you average at appraisal. The point: praise is free only once you can no longer be rated or raised.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Praise from a manager or colleague carries an implicit cost while someone is still employed, because it could translate into a better performance rating, a promotion, or a raise that has to be approved; once that person is leaving, the same praise requires no such approval or payout, so it costs nothing to give.",
+     "sentence": "While you stayed, calling you the backbone had a price. It could turn into a better rating, a promotion, a raise someone had to sign. On your way out, the same sentence costs nothing. Nobody has to pay for it anymore.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "_skeptic": {
+   "114c386ba186e3f37e79c9283bf51e0c4fa96a0d": {
+    "holds": true,
+    "broken_premise": "",
+    "actual_mechanism": "Performance ratings feed a merit matrix drawn against a fixed merit-increase budget pool (commonly ~3-4% of payroll), so rating one person higher genuinely consumes a limited shared pool and must clear calibration sign-off and budget approval before any raise or promotion is granted. A farewell reply-all compliment touches none of these instruments: once someone has resigned they can no longer be rated, placed in the merit matrix, or promoted, so the praise has no budget line it could trigger. The factual premises — that in-cycle acknowledgment can translate into an approval-gated, budget-constrained payout while exit praise cannot — both hold.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://rewardsdna.com/wiki/work_decisions/deciding-merit-increases-balancing-fairness-and-budget/",
+      "published_date": "",
+      "quote": "The pool stays fixed once the company sets it. If managers recommend increases equal to 5% of payroll against a 3% budget, compensation has to bring the recommendations back to 3%."
+     },
+     {
+      "url": "https://www.allvoices.co/glossary/merit-pay",
+      "published_date": "",
+      "quote": "Without calibration, a lenient manager might give all ten of their direct reports 'exceeds expectations' ratings, consuming a disproportionate share of the merit pool... Budget distribution cannot go out until the calibration session for each function is signed off by the relevant HRBP."
+     },
+     {
+      "url": "https://www.shrm.org/topics-tools/news/benefits-compensation/pay-performance-make-catchphrase",
+      "published_date": "",
+      "quote": "Merit-based pay uses a structured process to determine how much of a raise each employee receives based on their performance rating... calibrated to their performance rating and budget."
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "131c828e9074bfcd54987bc4dda9acd0b6128567": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Praise from a manager or colleague carries an implicit cost while someone is still employed, because it could translate into a better performance rating, a promotion, or a raise that has to be approved; once that person is leaving, the same praise requires no such approval or payout, so it costs nothing to give.",
+      "sentence": "While you stayed, calling you the backbone had a price. It could turn into a better rating, a promotion, a raise someone had to sign. On your way out, the same sentence costs nothing. Nobody has to pay for it anymore.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {},
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "",
+     "actual_mechanism": "Performance ratings feed a merit matrix drawn against a fixed merit-increase budget pool (commonly ~3-4% of payroll), so rating one person higher genuinely consumes a limited shared pool and must clear calibration sign-off and budget approval before any raise or promotion is granted. A farewell reply-all compliment touches none of these instruments: once someone has resigned they can no longer be rated, placed in the merit matrix, or promoted, so the praise has no budget line it could trigger. The factual premises — that in-cycle acknowledgment can translate into an approval-gated, budget-constrained payout while exit praise cannot — both hold.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://rewardsdna.com/wiki/work_decisions/deciding-merit-increases-balancing-fairness-and-budget/",
+       "published_date": "",
+       "quote": "The pool stays fixed once the company sets it. If managers recommend increases equal to 5% of payroll against a 3% budget, compensation has to bring the recommendations back to 3%."
+      },
+      {
+       "url": "https://www.allvoices.co/glossary/merit-pay",
+       "published_date": "",
+       "quote": "Without calibration, a lenient manager might give all ten of their direct reports 'exceeds expectations' ratings, consuming a disproportionate share of the merit pool... Budget distribution cannot go out until the calibration session for each function is signed off by the relevant HRBP."
+      },
+      {
+       "url": "https://www.shrm.org/topics-tools/news/benefits-compensation/pay-performance-make-catchphrase",
+       "published_date": "",
+       "quote": "Merit-based pay uses a structured process to determine how much of a raise each employee receives based on their performance rating... calibrated to their performance rating and budget."
+      }
+     ]
+    },
+    "text_hash": "131c828e9074bfcd54987bc4dda9acd0b6128567",
+    "at": "2026-11-03T09:32:37.244054+00:00"
+   }
+  }
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Praise from a manager or colleague carries an implicit cost while someone is still employed, because it could translate into a better performance rating, a promotion, or a raise that has to be approved; once that person is leaving, the same praise requires no such approval or payout, so it costs nothing to give.",
+    "sentence": "While you stayed, calling you the backbone had a price. It could turn into a better rating, a promotion, a raise someone had to sign. On your way out, the same sentence costs nothing. Nobody has to pay for it anymore.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {},
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "",
+   "actual_mechanism": "Performance ratings feed a merit matrix drawn against a fixed merit-increase budget pool (commonly ~3-4% of payroll), so rating one person higher genuinely consumes a limited shared pool and must clear calibration sign-off and budget approval before any raise or promotion is granted. A farewell reply-all compliment touches none of these instruments: once someone has resigned they can no longer be rated, placed in the merit matrix, or promoted, so the praise has no budget line it could trigger. The factual premises — that in-cycle acknowledgment can translate into an approval-gated, budget-constrained payout while exit praise cannot — both hold.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://rewardsdna.com/wiki/work_decisions/deciding-merit-increases-balancing-fairness-and-budget/",
+     "published_date": "",
+     "quote": "The pool stays fixed once the company sets it. If managers recommend increases equal to 5% of payroll against a 3% budget, compensation has to bring the recommendations back to 3%."
+    },
+    {
+     "url": "https://www.allvoices.co/glossary/merit-pay",
+     "published_date": "",
+     "quote": "Without calibration, a lenient manager might give all ten of their direct reports 'exceeds expectations' ratings, consuming a disproportionate share of the merit pool... Budget distribution cannot go out until the calibration session for each function is signed off by the relevant HRBP."
+    },
+    {
+     "url": "https://www.shrm.org/topics-tools/news/benefits-compensation/pay-performance-make-catchphrase",
+     "published_date": "",
+     "quote": "Merit-based pay uses a structured process to determine how much of a raise each employee receives based on their performance rating... calibrated to their performance rating and budget."
+    }
+   ]
+  },
+  "text_hash": "131c828e9074bfcd54987bc4dda9acd0b6128567",
+  "at": "2026-11-03T09:32:37.244054+00:00"
  }
 }

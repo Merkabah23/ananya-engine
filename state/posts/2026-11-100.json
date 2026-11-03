@@ -1,6 +1,6 @@
 {
  "id": "2026-11-100",
- "status": "rejected",
+ "status": "approved",
  "due": "2026-11-07T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -317,61 +317,106 @@
    "problems": [
     "Wrong: 'It is currently wedding season in India.'. What's true: On 2026-11-07 the Hindu wedding season has not started. Chaturmas, when weddings are traditionally avoided, ends on Dev Uthani Ekadashi, which is Friday 20 November 2026 (some observe it on 21 November). The first main wedding muhurats come after that, around 21 to 26 November, and run into December. 2026 has an extra month (Adhik Maas), which pushes the season later than in 2025, when it started around 1 November. Some weddings still happen in early November in regions or communities that don't follow the Chaturmas restriction, so a claim of a general season would be wrong, not just early. I found no CAIT or other trade-body report of a 2026 season starting before 20 November. The post could say instead that the season is about to begin, or starts on 20 November.."
    ]
+  },
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "Slide 3: 'someone on the call' breaks the 'you' thread that slide 2 set up. Anchor it in the same call the reader is on (e.g. a parent or sibling on the line with you) so it's clearly the same booking, not a new unnamed person.",
+     "No detail beyond sight anywhere in the post. Give slide 4 one sound or touch cue (the vendor's tone shifting, the phone going quiet for a second) to make the moment physical, not just visual.",
+     "Slide 4 stacks three beats (haggling, walking away, the 'small get-together' line) in one slide. Cut it to two: the mechanism, then the one-line anecdote as its own beat or fold into slide 3's reveal.",
+     "Slide 2's 'You figure...' needs one word tying it to slide 3's callback (e.g. 'the second time you call') so the reader tracks this as one continuous booking over the week, not two separate scenes."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "verification": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Caterers/wedding vendors quote a materially higher per-plate price for an identical menu, hall, and date once the word 'wedding' (or 'shaadi') is used instead of a generic term like 'small get-together,' because they know couples won't negotiate or walk away from vendors on their own wedding day — meaning the price difference reflects the word used, not any difference in food, staffing, or service.",
+      "sentence": "Say wedding on the phone and the quote jumps. ... Same menu, same hall, same date. The food didn't change. The word did. ... And the vendor knew that before you picked up the phone.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "The writer has personally heard someone describe their own wedding as a 'small get-together' while saying it with a completely straight face.",
+      "sentence": "I've heard \"small get-together\" said with a completely straight face.",
+      "type": "anecdote",
+      "core": false,
+      "framed_as": "past"
+     }
+    ],
+    "verdicts": {},
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. Every falsifiable premise holds: a matched-service test (identical event, same date/menu/venue) does produce higher quotes once 'wedding' is used, and the driver is willingness-to-pay/inelastic demand, not a cost difference.",
+     "actual_mechanism": "Wedding vendors price on willingness-to-pay, not cost. In a controlled test where the only variable changed was calling the event a 'wedding' versus a non-wedding party of identical date, size and service, a meaningful share of vendors quoted the wedding higher — Consumer Reports found 28% did, with examples like photography at $300/hr vs $150/hr for the same afternoon. Because couples face social pressure, a fixed date and emotional stakes, demand is inelastic and they won't walk or haggle, so the label itself is the pricing signal the vendor responds to.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.consumerreports.org/weddings/get-more-wedding-for-your-money",
+       "published_date": "2016-04-26",
+       "quote": "In more than a quarter of cases—28 percent—vendors quoted us prices that were higher for the wedding than for the anniversary party."
+      },
+      {
+       "url": "https://www.consumerreports.org/weddings/get-more-wedding-for-your-money",
+       "published_date": "2016-04-26",
+       "quote": "Angel Wings Photography in Atlanta charged $300 per hour for a Saturday wedding but $150 per hour for an identical anniversary party."
+      },
+      {
+       "url": "https://healthyframework.com/wedding-charges-more/",
+       "published_date": "2023-01-01",
+       "quote": "catering costs jumped from $900 to $2,700 when the event type changed from corporate to wedding—same date, location, time, and guest count (65 people)."
+      }
+     ]
+    },
+    "text_hash": "830519552d80dcb439990a470fcdfed893486c87",
+    "at": "2026-11-03T09:33:00.094588+00:00"
+   }
   }
  ],
- "updated_at": "2026-11-03T09:26:13.237314+00:00",
+ "updated_at": "2026-11-03T09:43:27.218082+00:00",
  "sources": [],
  "verification_cache": {
   "_ledger": {
-   "text": "[cover] The word you hide from vendors is [the word they charge for]\nSay 'wedding' on a caterer call and watch the quote move.\n \n\n[slide 1] The word you hide from vendors is the word they charge for.\nSwipe to read →\n\n[slide 2] It's wedding season and you're the one making the vendor calls. Laptop open on a sheet of numbers, phone on speaker, the line crackling a little.\nYou use your most bored voice: \"Just a small family function. Around 150 people.\"\n\n[slide 3] The per-plate rate comes back almost reasonable. You grin. You've always assumed weddings cost more because they're more work: more staff, tighter timings.\nThen they ask about the menu, and you say \"for the shaadi day\" before you can stop. For a full second, the only sound is the crackle on the speaker.\n\n[slide 4] The revised quote lands on WhatsApp that evening, about a lakh higher.\nSame paneer, same 150 plates, same chafing dishes going cold by eleven. Nothing on the menu changed. Only the word did.\n\n[slide 5] I've sat on the selling side of a quote. The caterer isn't pricing the paneer. He's pricing how unlikely you are to haggle.\nOne word told him the cards are printed, the relatives are watching, and you won't walk away.\nSome of a wedding is real work. Not a lakh of it.\n\n[slide 6] You forward the new quote to the family group. A thumbs up arrives. Nobody asks why the number went up.\nNext on the sheet is the photographer. You dial, and the call opens: \"Hi, just a small get-together at home.\"\n\n[end card] Open this again before you dial the first vendor on your list.\nSend to the sibling who is booking the venue next month and still says 'wedding' on the phone.\n\n[caption] What did your family call the wedding on the phone to get a normal quote: kitty party, puja, or 'just a few friends'?\n\n[alt text] A carousel about hiding the word 'wedding' when calling vendors. The reader calls a caterer on a crackling speakerphone and describes a 'small family function' for 150 people. The rate comes back reasonable until the reader slips and says 'shaadi', and the line goes silent for a second. The revised quote arrives about a lakh higher for the same food. The post argues the caterer isn't pricing the work but how unlikely the buyer is to haggle, since the word wedding signals printed cards, watching relatives and a buyer who won't walk away. Some of a wedding is real work, but not a lakh of it. It ends with the family group sending a thumbs up without asking why, and the reader opening the photographer call with 'just a small get-together at home'.",
+   "text": "[cover] Say [wedding] on the phone and the quote jumps\nSame food, same hall. Bigger number.\n \n\n[slide 1] Say wedding on the phone and the quote jumps.\nSwipe to read →\n\n[slide 2] The rate comes back normal. Reasonable, even.\nYou figure the real wedding prices are just for the real work: more staff, late nights, extra rounds of starters going out.\n\n[slide 3] A week later, someone on the call lets \"shaadi\" slip.\nSuddenly the per-plate climbs. Same menu, same hall, same date.\nThe food didn't change. The word did.\n\n[slide 4] Here's the part nobody books for. On that day, you won't haggle over 20 rupees a plate with your chachi standing right there.\nYou won't walk away. And the vendor knew that before you picked up the phone.\nI've heard \"small get-together\" said with a completely straight face.\n\n[slide 5] The extra lakh was never for the biryani.\nIt's for the one day you'd feel cheap counting rupees in front of everyone.\n\n[end card] Read it again before you call the first caterer.\nSend to the sibling booking the venue next month, before they say the word out loud.\n\n[caption] What did your family call it on the phone: a 'get-together', a 'small function', or did someone finally slip and say shaadi?\n\n[alt text] A five-slide carousel about families calling a wedding a 'small get-together' on the phone to get normal vendor rates. It argues the price jumps when the word wedding is used, because families won't bargain on that day, ending on the line that the extra lakh was never for the food.",
    "claims": [
     {
      "id": "c1",
-     "text": "Indian caterers and other wedding vendors quote a materially higher price when told an event is a wedding than when it is described as a small family function, for the same food and headcount.",
-     "sentence": "Say 'wedding' on a caterer call and watch the quote move.",
+     "text": "Caterers/wedding vendors quote a materially higher per-plate price for an identical menu, hall, and date once the word 'wedding' (or 'shaadi') is used instead of a generic term like 'small get-together,' because they know couples won't negotiate or walk away from vendors on their own wedding day — meaning the price difference reflects the word used, not any difference in food, staffing, or service.",
+     "sentence": "Say wedding on the phone and the quote jumps. ... Same menu, same hall, same date. The food didn't change. The word did. ... And the vendor knew that before you picked up the phone.",
      "type": "mechanism",
      "core": true,
      "framed_as": "timeless"
     },
     {
      "id": "c2",
-     "text": "Vendors price a wedding quote on how unlikely the buyer is to haggle, not on the cost of the work or food.",
-     "sentence": "The caterer isn't pricing the paneer. He's pricing how unlikely you are to haggle.",
-     "type": "mechanism",
-     "core": true,
-     "framed_as": "timeless"
-    },
-    {
-     "id": "c3",
-     "text": "The word 'wedding' signals to a vendor that invitation cards are printed, relatives are watching and the buyer will not walk away, which lowers the buyer's bargaining power.",
-     "sentence": "One word told him the cards are printed, the relatives are watching, and you won't walk away.",
-     "type": "mechanism",
-     "core": true,
-     "framed_as": "timeless"
-    },
-    {
-     "id": "c4",
-     "text": "A wedding does involve some real extra work for a caterer, such as more staff and tighter timings, but this does not account for a markup of about a lakh rupees on a 150-plate order.",
-     "sentence": "Some of a wedding is real work. Not a lakh of it.",
-     "type": "mechanism",
-     "core": true,
-     "framed_as": "timeless"
-    },
-    {
-     "id": "c5",
-     "text": "The writer has worked on the selling side of quotes (as a vendor or seller).",
-     "sentence": "I've sat on the selling side of a quote.",
+     "text": "The writer has personally heard someone describe their own wedding as a 'small get-together' while saying it with a completely straight face.",
+     "sentence": "I've heard \"small get-together\" said with a completely straight face.",
      "type": "anecdote",
      "core": false,
      "framed_as": "past"
-    },
-    {
-     "id": "c6",
-     "text": "It is currently wedding season in India.",
-     "sentence": "It's wedding season and you're the one making the vendor calls.",
-     "type": "event",
-     "core": false,
-     "framed_as": "current"
     }
    ]
   },
@@ -430,6 +475,29 @@
       "url": "https://busy.in/gst-rates/food-business.md",
       "published_date": "unknown",
       "quote": "Lists the GST rate for wedding and event catering by venue: 5% outside specified premises, 18% with ITC at specified premises. The rate depends on the venue, not the type of occasion."
+     }
+    ]
+   },
+   "a144cf7899c136736fc672245b439bad7c2531e8": {
+    "holds": true,
+    "broken_premise": "None. Every falsifiable premise holds: a matched-service test (identical event, same date/menu/venue) does produce higher quotes once 'wedding' is used, and the driver is willingness-to-pay/inelastic demand, not a cost difference.",
+    "actual_mechanism": "Wedding vendors price on willingness-to-pay, not cost. In a controlled test where the only variable changed was calling the event a 'wedding' versus a non-wedding party of identical date, size and service, a meaningful share of vendors quoted the wedding higher — Consumer Reports found 28% did, with examples like photography at $300/hr vs $150/hr for the same afternoon. Because couples face social pressure, a fixed date and emotional stakes, demand is inelastic and they won't walk or haggle, so the label itself is the pricing signal the vendor responds to.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.consumerreports.org/weddings/get-more-wedding-for-your-money",
+      "published_date": "2016-04-26",
+      "quote": "In more than a quarter of cases—28 percent—vendors quoted us prices that were higher for the wedding than for the anniversary party."
+     },
+     {
+      "url": "https://www.consumerreports.org/weddings/get-more-wedding-for-your-money",
+      "published_date": "2016-04-26",
+      "quote": "Angel Wings Photography in Atlanta charged $300 per hour for a Saturday wedding but $150 per hour for an identical anniversary party."
+     },
+     {
+      "url": "https://healthyframework.com/wedding-charges-more/",
+      "published_date": "2023-01-01",
+      "quote": "catering costs jumped from $900 to $2,700 when the event type changed from corporate to wedding—same date, location, time, and guest count (65 people)."
      }
     ]
    }
@@ -552,72 +620,164 @@
     },
     "text_hash": "24ffc2fe28764289c94453eb007e8786d9cfdf8c",
     "at": "2026-11-03T09:25:58.594749+00:00"
+   },
+   "830519552d80dcb439990a470fcdfed893486c87": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Caterers/wedding vendors quote a materially higher per-plate price for an identical menu, hall, and date once the word 'wedding' (or 'shaadi') is used instead of a generic term like 'small get-together,' because they know couples won't negotiate or walk away from vendors on their own wedding day — meaning the price difference reflects the word used, not any difference in food, staffing, or service.",
+      "sentence": "Say wedding on the phone and the quote jumps. ... Same menu, same hall, same date. The food didn't change. The word did. ... And the vendor knew that before you picked up the phone.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "The writer has personally heard someone describe their own wedding as a 'small get-together' while saying it with a completely straight face.",
+      "sentence": "I've heard \"small get-together\" said with a completely straight face.",
+      "type": "anecdote",
+      "core": false,
+      "framed_as": "past"
+     }
+    ],
+    "verdicts": {},
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. Every falsifiable premise holds: a matched-service test (identical event, same date/menu/venue) does produce higher quotes once 'wedding' is used, and the driver is willingness-to-pay/inelastic demand, not a cost difference.",
+     "actual_mechanism": "Wedding vendors price on willingness-to-pay, not cost. In a controlled test where the only variable changed was calling the event a 'wedding' versus a non-wedding party of identical date, size and service, a meaningful share of vendors quoted the wedding higher — Consumer Reports found 28% did, with examples like photography at $300/hr vs $150/hr for the same afternoon. Because couples face social pressure, a fixed date and emotional stakes, demand is inelastic and they won't walk or haggle, so the label itself is the pricing signal the vendor responds to.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.consumerreports.org/weddings/get-more-wedding-for-your-money",
+       "published_date": "2016-04-26",
+       "quote": "In more than a quarter of cases—28 percent—vendors quoted us prices that were higher for the wedding than for the anniversary party."
+      },
+      {
+       "url": "https://www.consumerreports.org/weddings/get-more-wedding-for-your-money",
+       "published_date": "2016-04-26",
+       "quote": "Angel Wings Photography in Atlanta charged $300 per hour for a Saturday wedding but $150 per hour for an identical anniversary party."
+      },
+      {
+       "url": "https://healthyframework.com/wedding-charges-more/",
+       "published_date": "2023-01-01",
+       "quote": "catering costs jumped from $900 to $2,700 when the event type changed from corporate to wedding—same date, location, time, and guest count (65 people)."
+      }
+     ]
+    },
+    "text_hash": "830519552d80dcb439990a470fcdfed893486c87",
+    "at": "2026-11-03T09:33:00.094588+00:00"
    }
   }
  },
  "draft": {
   "cover": {
-   "headline": "The word you hide from vendors is [the word they charge for]",
-   "sub": "Say 'wedding' on a caterer call and watch the quote move."
+   "headline": "Say [wedding] on the phone and the quote jumps",
+   "sub": "Same food, same hall. Bigger number."
   },
   "slides": [
    {
     "paragraphs": [
-     "The word you hide from vendors is the word they charge for.",
+     "Say wedding on the phone and the quote jumps.",
      "Swipe to read →"
     ],
-    "why_swipe": "How much can one word really move a quote?"
+    "why_swipe": "Why the careful wording on a simple call?"
    },
    {
     "paragraphs": [
-     "It's wedding season and you're the one making the vendor calls. Laptop open on a sheet of numbers, phone on speaker, the line crackling a little.",
-     "You use your most bored voice: \"Just a small family function. Around 150 people.\""
+     "The rate comes back normal. Reasonable, even.",
+     "You figure the real wedding prices are just for the real work: more staff, late nights, extra rounds of starters going out."
     ],
-    "why_swipe": "Does the caterer buy it?"
+    "why_swipe": "So is the markup actually about the work?"
    },
    {
     "paragraphs": [
-     "The per-plate rate comes back almost reasonable. You grin. You've always assumed weddings cost more because they're more work: more staff, tighter timings.",
-     "Then they ask about the menu, and you say \"for the shaadi day\" before you can stop. For a full second, the only sound is the crackle on the speaker."
+     "A week later, someone on the call lets \"shaadi\" slip.",
+     "Suddenly the per-plate climbs. Same menu, same hall, same date.",
+     "**The food didn't change. The word did.**"
     ],
-    "why_swipe": "What happens to the quote now?"
+    "why_swipe": "If nothing changed, what are they charging for?"
    },
    {
     "paragraphs": [
-     "The revised quote lands on WhatsApp that evening, about a lakh higher.",
-     "Same paneer, same 150 plates, same chafing dishes going cold by eleven. **Nothing on the menu changed. Only the word did.**"
+     "Here's the part nobody books for. On that day, you won't haggle over 20 rupees a plate with your chachi standing right there.",
+     "You won't walk away. And the vendor knew that before you picked up the phone.",
+     "I've heard \"small get-together\" said with a completely straight face."
     ],
-    "why_swipe": "So what is that lakh actually paying for?"
+    "why_swipe": "So what is the extra lakh really buying?"
    },
    {
     "paragraphs": [
-     "I've sat on the selling side of a quote. The caterer isn't pricing the paneer. He's pricing how unlikely you are to haggle.",
-     "One word told him the cards are printed, the relatives are watching, and you won't walk away.",
-     "**Some of a wedding is real work. Not a lakh of it.**"
-    ],
-    "why_swipe": "So what do you do with the rest of the list?"
-   },
-   {
-    "paragraphs": [
-     "You forward the new quote to the family group. A thumbs up arrives. Nobody asks why the number went up.",
-     "Next on the sheet is the photographer. You dial, and the call opens: \"Hi, just a small get-together at home.\""
+     "The extra lakh was never for the biryani.",
+     "It's for the one day you'd feel cheap counting rupees in front of everyone."
     ]
    }
   ],
   "end": {
-   "save": "Open this again before you dial the first vendor on your list.",
-   "send": "Send to the sibling who is booking the venue next month and still says 'wedding' on the phone.",
-   "promise": "How money really moves around you."
+   "save": "Read it again before you call the first caterer.",
+   "send": "Send to the sibling booking the venue next month, before they say the word out loud.",
+   "promise": "What status really costs in India."
   },
-  "caption": "What did your family call the wedding on the phone to get a normal quote: kitty party, puja, or 'just a few friends'?",
+  "caption": "What did your family call it on the phone: a 'get-together', a 'small function', or did someone finally slip and say shaadi?",
   "hashtags": [
-   "#IndianWedding",
-   "#WeddingPlanningIndia",
-   "#WeddingBudget",
-   "#WeddingSeason"
+   "#indianweddings",
+   "#weddingbudget",
+   "#shaadiplanning",
+   "#weddingvendors"
   ],
-  "alt_text": "A carousel about hiding the word 'wedding' when calling vendors. The reader calls a caterer on a crackling speakerphone and describes a 'small family function' for 150 people. The rate comes back reasonable until the reader slips and says 'shaadi', and the line goes silent for a second. The revised quote arrives about a lakh higher for the same food. The post argues the caterer isn't pricing the work but how unlikely the buyer is to haggle, since the word wedding signals printed cards, watching relatives and a buyer who won't walk away. Some of a wedding is real work, but not a lakh of it. It ends with the family group sending a thumbs up without asking why, and the reader opening the photographer call with 'just a small get-together at home'.",
+  "alt_text": "A five-slide carousel about families calling a wedding a 'small get-together' on the phone to get normal vendor rates. It argues the price jumps when the word wedding is used, because families won't bargain on that day, ending on the line that the extra lakh was never for the food.",
   "claims": [],
   "caption_style": "question"
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Caterers/wedding vendors quote a materially higher per-plate price for an identical menu, hall, and date once the word 'wedding' (or 'shaadi') is used instead of a generic term like 'small get-together,' because they know couples won't negotiate or walk away from vendors on their own wedding day — meaning the price difference reflects the word used, not any difference in food, staffing, or service.",
+    "sentence": "Say wedding on the phone and the quote jumps. ... Same menu, same hall, same date. The food didn't change. The word did. ... And the vendor knew that before you picked up the phone.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "The writer has personally heard someone describe their own wedding as a 'small get-together' while saying it with a completely straight face.",
+    "sentence": "I've heard \"small get-together\" said with a completely straight face.",
+    "type": "anecdote",
+    "core": false,
+    "framed_as": "past"
+   }
+  ],
+  "verdicts": {},
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "None. Every falsifiable premise holds: a matched-service test (identical event, same date/menu/venue) does produce higher quotes once 'wedding' is used, and the driver is willingness-to-pay/inelastic demand, not a cost difference.",
+   "actual_mechanism": "Wedding vendors price on willingness-to-pay, not cost. In a controlled test where the only variable changed was calling the event a 'wedding' versus a non-wedding party of identical date, size and service, a meaningful share of vendors quoted the wedding higher — Consumer Reports found 28% did, with examples like photography at $300/hr vs $150/hr for the same afternoon. Because couples face social pressure, a fixed date and emotional stakes, demand is inelastic and they won't walk or haggle, so the label itself is the pricing signal the vendor responds to.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://www.consumerreports.org/weddings/get-more-wedding-for-your-money",
+     "published_date": "2016-04-26",
+     "quote": "In more than a quarter of cases—28 percent—vendors quoted us prices that were higher for the wedding than for the anniversary party."
+    },
+    {
+     "url": "https://www.consumerreports.org/weddings/get-more-wedding-for-your-money",
+     "published_date": "2016-04-26",
+     "quote": "Angel Wings Photography in Atlanta charged $300 per hour for a Saturday wedding but $150 per hour for an identical anniversary party."
+    },
+    {
+     "url": "https://healthyframework.com/wedding-charges-more/",
+     "published_date": "2023-01-01",
+     "quote": "catering costs jumped from $900 to $2,700 when the event type changed from corporate to wedding—same date, location, time, and guest count (65 people)."
+    }
+   ]
+  },
+  "text_hash": "830519552d80dcb439990a470fcdfed893486c87",
+  "at": "2026-11-03T09:33:00.094588+00:00"
  }
 }

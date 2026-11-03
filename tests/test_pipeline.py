@@ -267,3 +267,10 @@ def test_generic_send_line_is_a_wording_fix():
     assert found and writer.is_wording(found[0])
     d["end"]["send"] = "Send to the friend who complains about café prices from the same café."
     assert not [p for p in writer.hard_checks(d, "single", []) if "send line" in p]
+
+
+def test_one_dead_middle_slide_is_cut_not_rewritten():
+    review = {"violations": ["Dead slide, slide 5: it restates slide 4's bold line."], "scores": {}}
+    assert writer.dead_slide(review, 7) == 5
+    assert writer.dead_slide(review, 5) is None  # the last slide carries the payoff: never cut blind
+    assert writer.dead_slide({"violations": ["Dead slide, slide 3", "No because"]}, 7) is None
