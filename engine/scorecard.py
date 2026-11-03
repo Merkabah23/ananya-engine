@@ -51,7 +51,7 @@ def sync() -> list[dict]:
     """Add a row for every post sent to Buffer, keeping any numbers already typed in."""
     rows = {r["post"]: r for r in read()}
     for p in state.posts():
-        if p["status"] != "scheduled" or not p.get("draft") or p["id"] in rows:
+        if p["status"] not in ("scheduled", "published") or not p.get("draft") or p["id"] in rows:
             continue
         rows[p["id"]] = {"post": p["id"], "due": p["due"][:10], "format": p["topic"].get("format_name", ""),
                          "hook_type": p["draft"].get("hook_type", ""), "caption_style": p["draft"].get("caption_style", ""),

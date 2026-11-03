@@ -17,7 +17,7 @@ from typing import Any
 
 from . import config
 
-STATUSES = ["planned", "approved", "written", "rejected", "rendered", "uploaded", "scheduled", "failed", "cancelled"]
+STATUSES = ["planned", "approved", "written", "rejected", "rendered", "uploaded", "scheduled", "published", "failed", "cancelled"]
 
 
 def path(*parts: str) -> Path:

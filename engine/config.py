@@ -20,7 +20,7 @@ MODEL_FAST = os.getenv("MODEL_FAST", "haiku")
 
 # Subscription limits are per usage window, so work is spread out: the monthly run only
 # scouts and plans; each daily run writes a few posts.
-MAX_CALLS_PER_MONTH = int(os.getenv("MAX_CALLS_PER_MONTH", "400"))
+MAX_CALLS_PER_MONTH = int(os.getenv("MAX_CALLS_PER_MONTH", "2000"))
 PRODUCE_PER_RUN = int(os.getenv("PRODUCE_PER_RUN", "3"))
 PARALLEL = int(os.getenv("PARALLEL", "3"))  # model calls in flight at once
 

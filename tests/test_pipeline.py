@@ -288,3 +288,16 @@ def test_review_mode_renders_only_owner_approved(tmp_path, monkeypatch):
     monkeypatch.setattr(cli.writer, "write_post", lambda p: seen.append("WROTE " + p["id"]))
     cli.produce()
     assert seen == ["2099-11-02"]
+
+
+def test_live_posts_are_logged_once_and_checked(tmp_path, monkeypatch):
+    from engine import config, published, state
+    monkeypatch.setattr(config, "STATE", tmp_path / "state")
+    monkeypatch.setattr(published, "LOG", tmp_path / "published.json")
+    state.save_post({"id": "2099-01-01", "status": "scheduled", "due": "2000-01-01T20:30:00+05:30", "format": "carousel",
+                     "topic": {"claim": "Mummy's gold is hers", "title": "gold"}, "history": [],
+                     "draft": {"cover": {"headline": "Mummy's [gold]"}}})
+    assert len(published.record_live()) == 1 and published.record_live() == []
+    assert published.log()[0]["headline"] == "Mummy's gold"
+    monkeypatch.setattr(published.llm, "call_json", lambda *a, **k: {"repeat": True, "of": "Mummy's gold"})
+    assert published.repeat_of({"claim": "Gold is the only money in her name"}) == "Mummy's gold"

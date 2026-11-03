@@ -15,7 +15,9 @@ BATCH = 15
 
 
 def _our_hooks() -> str:
-    return "\n".join(f"- {p['topic']['claim']}" for p in state.posts() if p.get("topic")) or "(none yet)"
+    from . import published
+    planned = "\n".join(f"- {p['topic']['claim']}" for p in state.posts() if p.get("topic") and p["status"] != "cancelled")
+    return ("Already live:\n" + published.lines() + "\n\nPlanned or written:\n" + (planned or "(none yet)"))
 
 
 def _score(topics: list[dict], calibration: bool = False) -> dict[str, dict]:

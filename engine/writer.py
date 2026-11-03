@@ -384,8 +384,13 @@ def passes(review: dict) -> bool:
 def write_post(post: dict, notes: str = "") -> dict:
     """Write, check, edit and verify. The writer is the only thing that changes what the post says: the editor and
     the fact gate send notes back to it. `notes` seeds the first attempt (an owner's rewrite request)."""
-    from . import factgate
+    from . import factgate, published
     topic = post["topic"]
+    seen = published.repeat_of(topic)
+    if seen:  # never write a post the page has already made
+        post.update(status="rejected", error=f"Repeats a live post: {seen}")
+        state.log("writer", f"{post['id']} rejected: repeats '{seen}'")
+        return post
     fmt = post["format"] = post["format"] if post["format"] != "spare" else "carousel"
     persona = llm.prompt("persona")
     if post.get("sources") is None:

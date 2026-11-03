@@ -12,7 +12,7 @@ import argparse
 import json
 from datetime import datetime, timedelta, timezone
 
-from . import buffer, config, factgate, filter as topic_filter, llm, render, scout, state, storage, writer
+from . import published, buffer, config, factgate, filter as topic_filter, llm, render, scout, state, storage, writer
 
 
 def _month(offset: int = 0) -> str:
@@ -269,6 +269,7 @@ def main() -> None:
         topic_filter.run(_month(0), _month(1))
     elif a.command == "daily":      # every day: keep two weeks planned, write a few posts, schedule what's due soon
         try:
+            published.record_live()  # what went live since the last run joins the log the writer checks against
             produce(limit=config.PRODUCE_PER_RUN)
         finally:  # a usage cap mid-writing must not stop ready posts reaching Buffer
             push(a.days)
