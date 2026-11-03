@@ -1,6 +1,6 @@
 {
  "id": "2026-10-82",
- "status": "planned",
+ "status": "scheduled",
  "due": "2026-11-04T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -276,6 +276,112 @@
   },
   {
    "reset": "2026-11-03: rewrite under the story rules; owner cleared Buffer"
+  },
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 3,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 5: The last paragraph (weekend call, skipped leave, raise you didn't push for) repeats slide 4's examples, and 'Here's the part the all-hands never says' is stock scaffolding. Cut both. Use the space for who gains: the company gets the Sunday hours and the quiet raise conversation for free, and no one ever has to demand them. That is the because, and it's currently thin.",
+     "slide 6: The payoff line doesn't match the scene. A layoff is not 'reapplying for your place every quarter', so the closer feels borrowed from another post. Either bring in a quarterly-review beat (you prove your worth again each cycle while being told you're family) before the layoff, or rework the scene so the line fits. The red-heart farewell is a good sting; keep it.",
+     "slide 5 / fresh angle: 'Company as family is a red flag' is a well-worn take. The sharper insight is already in the post: nobody demanded any of it, you offered it. Make that the bold line and lead with it, so the reader sees their own guilt as the unpaid labour rather than just the boss's phrase.",
+     "slide 4: The April raise is tacked on as a third paragraph after a Sunday scene, so the time jump feels rushed. Give it one concrete detail (the draft message you retype, the cursor sitting on 'I was hoping to discuss'), or make the jump explicit, so 'ungrateful' lands as a lived feeling.",
+     "slide 2: The all-hands scene is well observed, but 'You clap too, and you mean it' only sets up slide 3, which says the same thing again. Merge the 'it isn't all talk' concession into this slide in one line, or cut slide 3 down so the post keeps moving toward the catch."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "slide 5: The last paragraph (weekend call, skipped leave, raise you didn't push for) repeats slide 4's examples, and 'Here's the part the all-hands never says' is stock scaffolding. Cut both. Use the space for who gains: the company gets the Sunday hours and the quiet raise conversation for free, and no one ever has to demand them. That is the because, and it's currently thin.",
+    "slide 6: The payoff line doesn't match the scene. A layoff is not 'reapplying for your place every quarter', so the closer feels borrowed from another post. Either bring in a quarterly-review beat (you prove your worth again each cycle while being told you're family) before the layoff, or rework the scene so the line fits. The red-heart farewell is a good sting; keep it.",
+    "slide 5 / fresh angle: 'Company as family is a red flag' is a well-worn take. The sharper insight is already in the post: nobody demanded any of it, you offered it. Make that the bold line and lead with it, so the reader sees their own guilt as the unpaid labour rather than just the boss's phrase.",
+    "slide 4: The April raise is tacked on as a third paragraph after a Sunday scene, so the time jump feels rushed. Give it one concrete detail (the draft message you retype, the cursor sitting on 'I was hoping to discuss'), or make the jump explicit, so 'ungrateful' lands as a lived feeling.",
+    "slide 2: The all-hands scene is well observed, but 'You clap too, and you mean it' only sets up slide 3, which says the same thing again. Merge the 'it isn't all talk' concession into this slide in one line, or cut slide 3 down so the post keeps moving toward the catch."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "slide 6: The payoff line says a family doesn't make you 'reapply every quarter', but the slide only shows a self-review form and then a layoff. Tie them so the line is earned. For example, show the quarterly form as the thing you keep proving yourself on, then the layoff as the verdict nobody discusses with you. Right now the two beats sit side by side without connecting.",
+     "slide 5: This is the closest slide to restating the cover. 'You negotiate with an employer, you don't negotiate with family' is the core of the because, so keep it. Cut the setup around it, since slide 4 already showed that asking felt ungrateful. Let 'nobody demanded it, you offered it' carry the slide in two or three lines.",
+     "slide 6: The closing image is strong, but the bold line before it is a little tidy and moral-sounding. Consider letting the red-heart farewell do most of the stinging and trimming the bold line to something shorter and drier.",
+     "slide 4: The deleted-and-replaced message is the best beat in the post. Add one small physical detail, such as the laptop fan or the phone brightness at night, so the moment of backing down feels more lived.",
+     "slide 3: 'Half your chai is still warm' works well. The turn here is that declining feels like ignoring a call from home, so keep that line and avoid adding more explanation."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "verification": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Mechanism: (1) Companies that call themselves a 'family' make employees feel that declining weekend work or asking for higher pay is rude or ungrateful. (2) Employees then offer unpaid extra work and stay silent on pay without being asked. (3) So the company gets that extra work and silence for free, with no manager having to demand it, and employees don't negotiate as they would with an employer.",
+      "sentence": "None of it was demanded. You offered it, because family. You negotiate with an employer. You don't negotiate with family. So the company gets your Sundays and your silence in April for free.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {},
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. Premises (1) and (2), that 'family' language makes saying no or asking for a raise feel rude, and that people then volunteer, describe how people behave and are framed as the writer's view. They make no false claim about a law, contract or price. Premise (3), that the company gets the extra work 'for free', matches how Indian salaried white-collar employment usually works. One caveat: in some states, non-managerial staff covered by a Shops and Establishments Act are legally owed overtime at double the normal rate. So 'free' is how it plays out in practice, not a legal certainty for every reader. That is too small a gap to fail the premise.",
+     "actual_mechanism": "Most Indian white-collar employees are paid a fixed monthly salary with no separate overtime pay. State Shops and Establishments Acts often don't cover managerial and supervisory staff, and Karnataka's Act exempts IT establishments altogether. Where overtime is owed, a law firm reports it has seen no inspector action on overtime pay, and penalties are 'almost negligible' in several states. So a 50-minute Sunday call usually costs the company nothing, and pay rises come through appraisal discussions, which means an employee who never asks for more gets no more. Research backs the idea that framing can make unpaid extra work seem acceptable: an eight-study experiment found people judged it more legitimate to make 'passionate' employees work unpaid or on weekends. That study is about passion framing, not 'family' framing, so it supports the mechanism only by analogy. The layoff slide fits too: most salaried employment in India can be ended under the contract with notice or pay in lieu of notice.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.legal500.com/intelligence/india/employment-and-hr/law-on-overtime-wages-under-the-s%26e-acts-%E2%80%93-a-toothless-provision",
+       "published_date": "2024-04-01",
+       "quote": "Practically, we have not come across any reports of actions by inspectors in relation to payment of overtime wages."
+      },
+      {
+       "url": "https://www.legal500.com/intelligence/india/employment-and-hr/law-on-overtime-wages-under-the-s%26e-acts-%E2%80%93-a-toothless-provision",
+       "published_date": "2024-04-01",
+       "quote": "In Karnataka and Maharashtra, the S&E Acts do not apply to persons in managerial or supervisory positions."
+      },
+      {
+       "url": "https://fuqua.duke.edu/duke-fuqua-insights/kay-passion-exploitation",
+       "published_date": "2019-04-24",
+       "quote": "more legitimate to make passionate employees leave family to work on a weekend, work unpaid"
+      }
+     ]
+    },
+    "text_hash": "2814b95975fc89d9fff53a1485cd77ba8c55039b",
+    "at": "2026-11-03T09:07:33.193781+00:00"
+   }
   }
  ],
  "sources": [],
@@ -308,7 +414,207 @@
      "tier": 3
     }
    ]
+  },
+  "_ledger": {
+   "text": "[cover] When your company says 'family', [your boundaries] stop counting\nWarm words, doing the job a contract should do.\n \n\n[slide 1] When your company says 'family', your boundaries stop counting.\nSwipe to read →\n\n[slide 2] It's the all-hands after the funding round. Samosas going soft in a paper box, the AC humming too loud over the mic.\nThe founder says it: \"This isn't just a company, guys. This is a family.\" Everyone claps. You clap too, and you mean it, because someone covered your standup the week you had fever.\n\n[slide 3] Sunday, 11 am. Your phone buzzes on the bedsheet. \"Quick one, just five minutes.\" Half your chai is still warm.\nYour thumb hovers over decline. It feels rude, like ignoring a call from home. You pick up. It runs fifty minutes.\n\n[slide 4] Months later, it's appraisal time. You open a chat with your manager and type \"I was hoping to discuss my compensation.\"\nThe cursor blinks after it for a long time. You delete it and send \"Thanks for all the support this year 🙏\" instead.\nAsking felt ungrateful.\n\n[slide 5] None of it was demanded. You offered it, because family.\nYou negotiate with an employer. You don't negotiate with family.\nSo the company gets your Sundays and your silence in April for free. No manager ever has to ask for either.\n\n[slide 6] Every quarter you still fill the self-review form and prove your worth again. Then layoff season: a fifteen-minute invite called \"Quick sync\", and your laptop is locked before lunch.\nA real family doesn't make you reapply for your place every quarter.\nThe farewell message in the team group still ends with a red heart.\n\n[end card] Read it again the next time a Sunday call feels too rude to decline.\nSend to the friend whose boss says 'we're a family' at every offsite.\n\n[caption] What's the most 'we're a family' thing your office has ever asked you to do on a weekend?\n\n[alt text] A text carousel. Cover reads: When your company says 'family', your boundaries stop counting. Slides follow a reader from a founder's all-hands where the company is called a family, to a Sunday work call that feels rude to decline, to an appraisal message about pay that gets deleted because asking feels ungrateful. It argues that nobody demanded any of this; the reader offered it out of guilt, and the company got it for free. It ends with quarterly self-reviews and a layoff, and the line: a real family doesn't make you reapply for your place every quarter.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Mechanism: (1) Companies that call themselves a 'family' make employees feel that declining weekend work or asking for higher pay is rude or ungrateful. (2) Employees then offer unpaid extra work and stay silent on pay without being asked. (3) So the company gets that extra work and silence for free, with no manager having to demand it, and employees don't negotiate as they would with an employer.",
+     "sentence": "None of it was demanded. You offered it, because family. You negotiate with an employer. You don't negotiate with family. So the company gets your Sundays and your silence in April for free.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "_skeptic": {
+   "d67f92a6383f2d33d106b1f188f3d87abc470602": {
+    "holds": true,
+    "broken_premise": "None. Premises (1) and (2), that 'family' language makes saying no or asking for a raise feel rude, and that people then volunteer, describe how people behave and are framed as the writer's view. They make no false claim about a law, contract or price. Premise (3), that the company gets the extra work 'for free', matches how Indian salaried white-collar employment usually works. One caveat: in some states, non-managerial staff covered by a Shops and Establishments Act are legally owed overtime at double the normal rate. So 'free' is how it plays out in practice, not a legal certainty for every reader. That is too small a gap to fail the premise.",
+    "actual_mechanism": "Most Indian white-collar employees are paid a fixed monthly salary with no separate overtime pay. State Shops and Establishments Acts often don't cover managerial and supervisory staff, and Karnataka's Act exempts IT establishments altogether. Where overtime is owed, a law firm reports it has seen no inspector action on overtime pay, and penalties are 'almost negligible' in several states. So a 50-minute Sunday call usually costs the company nothing, and pay rises come through appraisal discussions, which means an employee who never asks for more gets no more. Research backs the idea that framing can make unpaid extra work seem acceptable: an eight-study experiment found people judged it more legitimate to make 'passionate' employees work unpaid or on weekends. That study is about passion framing, not 'family' framing, so it supports the mechanism only by analogy. The layoff slide fits too: most salaried employment in India can be ended under the contract with notice or pay in lieu of notice.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.legal500.com/intelligence/india/employment-and-hr/law-on-overtime-wages-under-the-s%26e-acts-%E2%80%93-a-toothless-provision",
+      "published_date": "2024-04-01",
+      "quote": "Practically, we have not come across any reports of actions by inspectors in relation to payment of overtime wages."
+     },
+     {
+      "url": "https://www.legal500.com/intelligence/india/employment-and-hr/law-on-overtime-wages-under-the-s%26e-acts-%E2%80%93-a-toothless-provision",
+      "published_date": "2024-04-01",
+      "quote": "In Karnataka and Maharashtra, the S&E Acts do not apply to persons in managerial or supervisory positions."
+     },
+     {
+      "url": "https://fuqua.duke.edu/duke-fuqua-insights/kay-passion-exploitation",
+      "published_date": "2019-04-24",
+      "quote": "more legitimate to make passionate employees leave family to work on a weekend, work unpaid"
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "2814b95975fc89d9fff53a1485cd77ba8c55039b": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Mechanism: (1) Companies that call themselves a 'family' make employees feel that declining weekend work or asking for higher pay is rude or ungrateful. (2) Employees then offer unpaid extra work and stay silent on pay without being asked. (3) So the company gets that extra work and silence for free, with no manager having to demand it, and employees don't negotiate as they would with an employer.",
+      "sentence": "None of it was demanded. You offered it, because family. You negotiate with an employer. You don't negotiate with family. So the company gets your Sundays and your silence in April for free.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {},
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. Premises (1) and (2), that 'family' language makes saying no or asking for a raise feel rude, and that people then volunteer, describe how people behave and are framed as the writer's view. They make no false claim about a law, contract or price. Premise (3), that the company gets the extra work 'for free', matches how Indian salaried white-collar employment usually works. One caveat: in some states, non-managerial staff covered by a Shops and Establishments Act are legally owed overtime at double the normal rate. So 'free' is how it plays out in practice, not a legal certainty for every reader. That is too small a gap to fail the premise.",
+     "actual_mechanism": "Most Indian white-collar employees are paid a fixed monthly salary with no separate overtime pay. State Shops and Establishments Acts often don't cover managerial and supervisory staff, and Karnataka's Act exempts IT establishments altogether. Where overtime is owed, a law firm reports it has seen no inspector action on overtime pay, and penalties are 'almost negligible' in several states. So a 50-minute Sunday call usually costs the company nothing, and pay rises come through appraisal discussions, which means an employee who never asks for more gets no more. Research backs the idea that framing can make unpaid extra work seem acceptable: an eight-study experiment found people judged it more legitimate to make 'passionate' employees work unpaid or on weekends. That study is about passion framing, not 'family' framing, so it supports the mechanism only by analogy. The layoff slide fits too: most salaried employment in India can be ended under the contract with notice or pay in lieu of notice.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.legal500.com/intelligence/india/employment-and-hr/law-on-overtime-wages-under-the-s%26e-acts-%E2%80%93-a-toothless-provision",
+       "published_date": "2024-04-01",
+       "quote": "Practically, we have not come across any reports of actions by inspectors in relation to payment of overtime wages."
+      },
+      {
+       "url": "https://www.legal500.com/intelligence/india/employment-and-hr/law-on-overtime-wages-under-the-s%26e-acts-%E2%80%93-a-toothless-provision",
+       "published_date": "2024-04-01",
+       "quote": "In Karnataka and Maharashtra, the S&E Acts do not apply to persons in managerial or supervisory positions."
+      },
+      {
+       "url": "https://fuqua.duke.edu/duke-fuqua-insights/kay-passion-exploitation",
+       "published_date": "2019-04-24",
+       "quote": "more legitimate to make passionate employees leave family to work on a weekend, work unpaid"
+      }
+     ]
+    },
+    "text_hash": "2814b95975fc89d9fff53a1485cd77ba8c55039b",
+    "at": "2026-11-03T09:07:33.193781+00:00"
+   }
   }
  },
- "updated_at": "2026-11-03T09:03:57.901580+00:00"
+ "updated_at": "2026-11-03T09:09:19.784670+00:00",
+ "draft": {
+  "cover": {
+   "headline": "When your company says 'family', [your boundaries] stop counting",
+   "sub": "Warm words, doing the job a contract should do."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "When your company says 'family', your boundaries stop counting.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "Which boundaries, and how does a nice word take them away?"
+   },
+   {
+    "paragraphs": [
+     "It's the all-hands after the funding round. Samosas going soft in a paper box, the AC humming too loud over the mic.",
+     "The founder says it: \"This isn't just a company, guys. This is a family.\" Everyone claps. You clap too, and you mean it, because someone covered your standup the week you had fever."
+    ],
+    "why_swipe": "If the care is real, what's the catch?"
+   },
+   {
+    "paragraphs": [
+     "Sunday, 11 am. Your phone buzzes on the bedsheet. \"Quick one, just five minutes.\" Half your chai is still warm.",
+     "Your thumb hovers over decline. It feels rude, like ignoring a call from home. You pick up. It runs fifty minutes."
+    ],
+    "why_swipe": "So what happens when you want something back?"
+   },
+   {
+    "paragraphs": [
+     "Months later, it's appraisal time. You open a chat with your manager and type \"I was hoping to discuss my compensation.\"",
+     "The cursor blinks after it for a long time. You delete it and send \"Thanks for all the support this year 🙏\" instead.",
+     "Asking felt ungrateful."
+    ],
+    "why_swipe": "Why does asking for your due feel like betrayal?"
+   },
+   {
+    "paragraphs": [
+     "**None of it was demanded. You offered it, because family.**",
+     "You negotiate with an employer. You don't negotiate with family.",
+     "So the company gets your Sundays and your silence in April for free. No manager ever has to ask for either."
+    ],
+    "why_swipe": "So what happens when the company needs to cut costs?"
+   },
+   {
+    "paragraphs": [
+     "Every quarter you still fill the self-review form and prove your worth again. Then layoff season: a fifteen-minute invite called \"Quick sync\", and your laptop is locked before lunch.",
+     "**A real family doesn't make you reapply for your place every quarter.**",
+     "The farewell message in the team group still ends with a red heart."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Read it again the next time a Sunday call feels too rude to decline.",
+   "send": "Send to the friend whose boss says 'we're a family' at every offsite.",
+   "promise": "How Indian offices really work."
+  },
+  "caption": "What's the most 'we're a family' thing your office has ever asked you to do on a weekend?",
+  "hashtags": [
+   "#StartupCulture",
+   "#ToxicWorkplace",
+   "#WorkLifeBalance",
+   "#IndianOffices"
+  ],
+  "alt_text": "A text carousel. Cover reads: When your company says 'family', your boundaries stop counting. Slides follow a reader from a founder's all-hands where the company is called a family, to a Sunday work call that feels rude to decline, to an appraisal message about pay that gets deleted because asking feels ungrateful. It argues that nobody demanded any of this; the reader offered it out of guilt, and the company got it for free. It ends with quarterly self-reviews and a layoff, and the line: a real family doesn't make you reapply for your place every quarter.",
+  "claims": [],
+  "caption_style": "question"
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Mechanism: (1) Companies that call themselves a 'family' make employees feel that declining weekend work or asking for higher pay is rude or ungrateful. (2) Employees then offer unpaid extra work and stay silent on pay without being asked. (3) So the company gets that extra work and silence for free, with no manager having to demand it, and employees don't negotiate as they would with an employer.",
+    "sentence": "None of it was demanded. You offered it, because family. You negotiate with an employer. You don't negotiate with family. So the company gets your Sundays and your silence in April for free.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {},
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "None. Premises (1) and (2), that 'family' language makes saying no or asking for a raise feel rude, and that people then volunteer, describe how people behave and are framed as the writer's view. They make no false claim about a law, contract or price. Premise (3), that the company gets the extra work 'for free', matches how Indian salaried white-collar employment usually works. One caveat: in some states, non-managerial staff covered by a Shops and Establishments Act are legally owed overtime at double the normal rate. So 'free' is how it plays out in practice, not a legal certainty for every reader. That is too small a gap to fail the premise.",
+   "actual_mechanism": "Most Indian white-collar employees are paid a fixed monthly salary with no separate overtime pay. State Shops and Establishments Acts often don't cover managerial and supervisory staff, and Karnataka's Act exempts IT establishments altogether. Where overtime is owed, a law firm reports it has seen no inspector action on overtime pay, and penalties are 'almost negligible' in several states. So a 50-minute Sunday call usually costs the company nothing, and pay rises come through appraisal discussions, which means an employee who never asks for more gets no more. Research backs the idea that framing can make unpaid extra work seem acceptable: an eight-study experiment found people judged it more legitimate to make 'passionate' employees work unpaid or on weekends. That study is about passion framing, not 'family' framing, so it supports the mechanism only by analogy. The layoff slide fits too: most salaried employment in India can be ended under the contract with notice or pay in lieu of notice.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://www.legal500.com/intelligence/india/employment-and-hr/law-on-overtime-wages-under-the-s%26e-acts-%E2%80%93-a-toothless-provision",
+     "published_date": "2024-04-01",
+     "quote": "Practically, we have not come across any reports of actions by inspectors in relation to payment of overtime wages."
+    },
+    {
+     "url": "https://www.legal500.com/intelligence/india/employment-and-hr/law-on-overtime-wages-under-the-s%26e-acts-%E2%80%93-a-toothless-provision",
+     "published_date": "2024-04-01",
+     "quote": "In Karnataka and Maharashtra, the S&E Acts do not apply to persons in managerial or supervisory positions."
+    },
+    {
+     "url": "https://fuqua.duke.edu/duke-fuqua-insights/kay-passion-exploitation",
+     "published_date": "2019-04-24",
+     "quote": "more legitimate to make passionate employees leave family to work on a weekend, work unpaid"
+    }
+   ]
+  },
+  "text_hash": "2814b95975fc89d9fff53a1485cd77ba8c55039b",
+  "at": "2026-11-03T09:07:33.193781+00:00"
+ },
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-82/slide_01.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-82/slide_02.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-82/slide_03.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-82/slide_04.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-82/slide_05.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-82/slide_06.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-10-82/slide_07.jpg"
+ ],
+ "buffer_attempted_at": "2026-11-03T09:09:18.864171+00:00",
+ "buffer_post_id": "6ae9a4bf04ca6f1fcc470376"
 }

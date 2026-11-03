@@ -1,6 +1,6 @@
 {
  "id": "2026-11-92",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-03T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -333,9 +333,173 @@
   },
   {
    "reset": "2026-11-03: rewrite under the story rules; owner cleared Buffer"
+  },
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 7 is a dead slide. 'The coffee is the ticket. The chair is the product.' restates the cover ('rent for a quiet chair') and the bold line on slide 5 ('the café sells you the seat'). The last slide repeats the cover's point.",
+     "Slide 6 is a dead slide. 'A more honest deal than it looks' and 'you can stop feeling stupid for paying' restate the turn already made on slide 5. The ice and Wi-Fi lines add only a small new point."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 7: The bold line repeats the cover and slide 5, so it can't be the closer. Cut it, or end on the plug-point beat alone. Better, give a line that stings or a test the reader can run, such as the café that charges for the seat not the cup. Don't re-explain the idea.",
+     "slide 6: This is slide 5 said again in gentler words. Merge it into slide 5 or make it carry one new beat the topic already holds, such as the café pricing the space into the cup, or the relief of finally not feeling guilty. Drop 'the ice melts in twenty minutes' unless it clearly earns its place. It is a mild invented specific.",
+     "slide 4: This is the actual moment (three hours, nobody asks you to leave), but it is thin and its why_swipe is weak. Add the quiet unease or relief of waiting to be asked to leave, and a detail like ordering nothing more. That sets up the sting of the bill and the turn.",
+     "slide 5: Slides 1 and 5 both carry the turn up front, so little is left to reveal. Slide 1 can keep the claim, but slide 5 should add the 'because' (small homes, no libraries, scarce tables with Wi-Fi), which is currently only implied. Say who gains: the café prices the scarcity into the cup.",
+     "slide 3: The scam belief is well set up. Make the price concrete with the topic's ₹350 so the reader feels the wince, and use it once only. The payoff then pays off that number rather than repeating the idea."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Slide 7 is a dead slide. 'The coffee is the ticket. The chair is the product.' restates the cover ('rent for a quiet chair') and the bold line on slide 5 ('the café sells you the seat'). The last slide repeats the cover's point.",
+    "Slide 6 is a dead slide. 'A more honest deal than it looks' and 'you can stop feeling stupid for paying' restate the turn already made on slide 5. The ice and Wi-Fi lines add only a small new point.",
+    "slide 7: The bold line repeats the cover and slide 5, so it can't be the closer. Cut it, or end on the plug-point beat alone. Better, give a line that stings or a test the reader can run, such as the café that charges for the seat not the cup. Don't re-explain the idea.",
+    "slide 6: This is slide 5 said again in gentler words. Merge it into slide 5 or make it carry one new beat the topic already holds, such as the café pricing the space into the cup, or the relief of finally not feeling guilty. Drop 'the ice melts in twenty minutes' unless it clearly earns its place. It is a mild invented specific.",
+    "slide 4: This is the actual moment (three hours, nobody asks you to leave), but it is thin and its why_swipe is weak. Add the quiet unease or relief of waiting to be asked to leave, and a detail like ordering nothing more. That sets up the sting of the bill and the turn.",
+    "slide 5: Slides 1 and 5 both carry the turn up front, so little is left to reveal. Slide 1 can keep the claim, but slide 5 should add the 'because' (small homes, no libraries, scarce tables with Wi-Fi), which is currently only implied. Say who gains: the café prices the scarcity into the cup.",
+    "slide 3: The scam belief is well set up. Make the price concrete with the topic's ₹350 so the reader feels the wince, and use it once only. The payoff then pays off that number rather than repeating the idea."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 6 is a dead slide: \"But you were never really paying for the ice\" restates the cover and slide 5's point in new words, and the \"Yes, the price still stings...\" opener is a concession we already felt on slide 3. The ending is a soft observation, not the topic's payoff line.",
+     "Weak payoff (hard failure 8): the strong closer the topic already contains (the coffee is ₹350, the chair is the product) is missing. The ending leaves a mild test (eyes find the plug point), not a line people will repeat."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 3,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 6: Cut the restatement (\"you were never really paying for the ice\") and the second dig at \"artisanal\". End on the topic's payoff in plain words: the coffee is ₹350, the chair is the product. Keep the plug-point test only if it sharpens that line. Right now the last slide repeats the cover.",
+     "slide 4: The hook asks \"why does nobody ask you to leave?\" but no slide answers it. The staff's silence is the best evidence that the table is what you bought. Use it in slide 5: nobody asks because you already paid for the seat when you paid for the cup. That makes slides 4 and 5 pull the reader forward.",
+     "slide 5: The turn is stated as an abstract line (\"prices that scarcity into the cup\"). Make it a concrete, everyday comparison: ₹350 for the drink, but the same ₹350 for a seat that is quiet, cool and has a plug. Show why the drink alone doesn't justify the price but the seat does. Skip \"the café plans this\" language and let it read as how the arrangement works, not a secret motive.",
+     "slide 3 and slide 6: The mood is mixed and the topic's feeling is relieved, but the reader ends on a wince. Add the relief beat: the moment you realise the bill wasn't a scam, or that you've been paying fairly for a place the city never gave you. Let the villain be the city with nowhere to sit, so the reader stops blaming the café or themselves.",
+     "slide 2 or 4: Add one non-visual detail for a lived feel (the cold of the AC on your arms, the sticky table, the grind of the milk steamer). Slide 4 has the AC hum and the sweating glass. Give slide 2 or 3 one more, such as the weight of the charger or the sound of the cooker through the wall."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Slide 6 is a dead slide: \"But you were never really paying for the ice\" restates the cover and slide 5's point in new words, and the \"Yes, the price still stings...\" opener is a concession we already felt on slide 3. The ending is a soft observation, not the topic's payoff line.",
+    "Weak payoff (hard failure 8): the strong closer the topic already contains (the coffee is ₹350, the chair is the product) is missing. The ending leaves a mild test (eyes find the plug point), not a line people will repeat.",
+    "slide 6: Cut the restatement (\"you were never really paying for the ice\") and the second dig at \"artisanal\". End on the topic's payoff in plain words: the coffee is ₹350, the chair is the product. Keep the plug-point test only if it sharpens that line. Right now the last slide repeats the cover.",
+    "slide 4: The hook asks \"why does nobody ask you to leave?\" but no slide answers it. The staff's silence is the best evidence that the table is what you bought. Use it in slide 5: nobody asks because you already paid for the seat when you paid for the cup. That makes slides 4 and 5 pull the reader forward.",
+    "slide 5: The turn is stated as an abstract line (\"prices that scarcity into the cup\"). Make it a concrete, everyday comparison: ₹350 for the drink, but the same ₹350 for a seat that is quiet, cool and has a plug. Show why the drink alone doesn't justify the price but the seat does. Skip \"the café plans this\" language and let it read as how the arrangement works, not a secret motive.",
+    "slide 3 and slide 6: The mood is mixed and the topic's feeling is relieved, but the reader ends on a wince. Add the relief beat: the moment you realise the bill wasn't a scam, or that you've been paying fairly for a place the city never gave you. Let the villain be the city with nowhere to sit, so the reader stops blaming the café or themselves.",
+    "slide 2 or 4: Add one non-visual detail for a lived feel (the cold of the AC on your arms, the sticky table, the grind of the milk steamer). Slide 4 has the AC hum and the sweating glass. Give slide 2 or 3 one more, such as the weight of the charger or the sound of the cooker through the wall."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Dead slide: slide 6 ('The coffee is overpriced. The chair is the product.') restates the cover and the bold line on slide 5. Its 'Home is the reason you left' also repeats the flat from slide 2, so the last slide repeats the cover's point.",
+     "Weak payoff: the ending is the cover's idea in a tidier form. It leaves no new sting, test or what-happens-next beyond the claim the reader already got on slide 5."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 6: Don't end on the cover line again. Slide 5 already lands the turn. Use slide 6 for one new beat from the topic's 'because': the café prices the space into the cup because small homes, crowded offices and few libraries make a table with Wi-Fi scarce. Then close on something that stings or can be tested. For example, the same chair would cost nothing if the city had one free bench with a plug. Or: the day the café asks you to order again, you will, and that will be the real bill. Pick one, and drop the repeated 'chair is the product' line.",
+     "slide 5: It carries both the turn and the bold punchline, so slide 6 has little left to do. Keep the sharp contrast (too much as a drink, cheap as a seat) here. Move the 'nowhere free to sit' explanation to slide 6 so each slide adds a new thought.",
+     "slide 4: The 'nobody asks you to leave' beat is good, but slide 5's first line then explains it. Let slide 4 end on the unanswered 'anything else?' and keep the reveal tight. Also soften the claim that the seat was paid for with the cup. Say it as how the deal feels, not as a rule the café has set.",
+     "slide 3: The price is never named, so 'steep' has no weight. The topic gives ₹350, which is a fair figure to use. Naming it makes the wince real and sets up the 'fair deal' reversal. The 'Ice, milk and a logo' line is the believed belief and works well.",
+     "slide 6 / feeling: The mood is mixed and relieved, but nothing lands emotionally. Add one human beat, such as the small relief of the corner table you'd never get at home. That makes the reader feel seen, not just informed. If one more sensory detail fits, a sound or touch like the cold glass or the plug's warm brick would do."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Dead slide: slide 6 ('The coffee is overpriced. The chair is the product.') restates the cover and the bold line on slide 5. Its 'Home is the reason you left' also repeats the flat from slide 2, so the last slide repeats the cover's point.",
+    "Weak payoff: the ending is the cover's idea in a tidier form. It leaves no new sting, test or what-happens-next beyond the claim the reader already got on slide 5.",
+    "slide 6: Don't end on the cover line again. Slide 5 already lands the turn. Use slide 6 for one new beat from the topic's 'because': the café prices the space into the cup because small homes, crowded offices and few libraries make a table with Wi-Fi scarce. Then close on something that stings or can be tested. For example, the same chair would cost nothing if the city had one free bench with a plug. Or: the day the café asks you to order again, you will, and that will be the real bill. Pick one, and drop the repeated 'chair is the product' line.",
+    "slide 5: It carries both the turn and the bold punchline, so slide 6 has little left to do. Keep the sharp contrast (too much as a drink, cheap as a seat) here. Move the 'nowhere free to sit' explanation to slide 6 so each slide adds a new thought.",
+    "slide 4: The 'nobody asks you to leave' beat is good, but slide 5's first line then explains it. Let slide 4 end on the unanswered 'anything else?' and keep the reveal tight. Also soften the claim that the seat was paid for with the cup. Say it as how the deal feels, not as a rule the café has set.",
+    "slide 3: The price is never named, so 'steep' has no weight. The topic gives ₹350, which is a fair figure to use. Naming it makes the wince real and sets up the 'fair deal' reversal. The 'Ice, milk and a logo' line is the believed belief and works well.",
+    "slide 6 / feeling: The mood is mixed and relieved, but nothing lands emotionally. Add one human beat, such as the small relief of the corner table you'd never get at home. That makes the reader feel seen, not just informed. If one more sensory detail fits, a sound or touch like the cold glass or the plug's warm brick would do."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Dead slide, slide 5: the bold line ('As a drink, that price is too much. As three hours in a quiet, cool seat next to a plug, it's cheap.') restates the cover headline and sub in new words. 'It feels like it went on the seat' already says it, so the bold line adds nothing.",
+     "Dead slide, slide 7 (last): 'That one is the rent' repeats the cover's 'rent for a quiet chair'. The second-coffee beat is a real twist, but the closing line only repeats the hook instead of cashing it in."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 3,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 5: Cut the restated thesis. Keep only the sensory 'it clicks in the second hour' beat, or move the realisation into the because. The reader already got the idea from the cover and slide 4, so this slide should push one step further. For example, it could name who gains: the café gets a full, quiet-looking room and you get a seat, and both sides quietly know it.",
+     "slide 6: The because carries the whole turn and is one flat sentence, with the weak swipe 'what happens next?'. Give it one concrete, everyday contrast the reader has lived. Your own room can't be quiet, the office is loud, and the library is far or shuts early or doesn't exist near you. Make the villain the city with no public place to sit, and let the reader feel relieved that the café charges for it. Skip any new number or claim.",
+     "slide 7: End on a new line instead of repeating 'rent'. Land the payoff the topic already has, that the coffee is the ticket and the chair is the product, or a sharper version of the second-coffee beat. Don't explain the joke after the second-coffee line. Cut the charger-brick image unless it ties to the ending.",
+     "slide 3: The price is the sting but is never shown. Use the ₹350 from the topic so the reader feels the wince concretely. The turn then lands harder when the same figure looks fair later.",
+     "slide 4: Explain, in one plain line, why nobody asks you to leave, or what the staff gain from a full table. Right now the silence is just observed. Also add one more non-visual detail here, such as the cold of the AC on your arms or the clatter of the next table clearing, so the three hours feel lived."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Dead slide, slide 5: the bold line ('As a drink, that price is too much. As three hours in a quiet, cool seat next to a plug, it's cheap.') restates the cover headline and sub in new words. 'It feels like it went on the seat' already says it, so the bold line adds nothing.",
+    "Dead slide, slide 7 (last): 'That one is the rent' repeats the cover's 'rent for a quiet chair'. The second-coffee beat is a real twist, but the closing line only repeats the hook instead of cashing it in.",
+    "slide 5: Cut the restated thesis. Keep only the sensory 'it clicks in the second hour' beat, or move the realisation into the because. The reader already got the idea from the cover and slide 4, so this slide should push one step further. For example, it could name who gains: the café gets a full, quiet-looking room and you get a seat, and both sides quietly know it.",
+    "slide 6: The because carries the whole turn and is one flat sentence, with the weak swipe 'what happens next?'. Give it one concrete, everyday contrast the reader has lived. Your own room can't be quiet, the office is loud, and the library is far or shuts early or doesn't exist near you. Make the villain the city with no public place to sit, and let the reader feel relieved that the café charges for it. Skip any new number or claim.",
+    "slide 7: End on a new line instead of repeating 'rent'. Land the payoff the topic already has, that the coffee is the ticket and the chair is the product, or a sharper version of the second-coffee beat. Don't explain the joke after the second-coffee line. Cut the charger-brick image unless it ties to the ending.",
+    "slide 3: The price is the sting but is never shown. Use the ₹350 from the topic so the reader feels the wince concretely. The turn then lands harder when the same figure looks fair later.",
+    "slide 4: Explain, in one plain line, why nobody asks you to leave, or what the staff gain from a full table. Right now the silence is just observed. Also add one more non-visual detail here, such as the cold of the AC on your arms or the clatter of the next table clearing, so the three hours feel lived."
+   ]
   }
  ],
- "updated_at": "2026-11-03T09:03:57.900681+00:00",
+ "updated_at": "2026-11-03T09:09:04.820647+00:00",
  "sources": [],
  "verification_cache": {
   "_ledger": {
@@ -409,5 +573,79 @@
     "at": "2026-11-02T15:48:53.279815+00:00"
    }
   }
+ },
+ "draft": {
+  "cover": {
+   "headline": "Your cold coffee is really [rent for a quiet chair]",
+   "sub": "Overpriced as a drink, fair as three hours at a table."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Your cold coffee is really rent for a quiet chair.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "How is an overpriced drink a fair deal?"
+   },
+   {
+    "paragraphs": [
+     "It's Saturday. Your flatmate is on a call in the only room with a door, and a neighbour's pressure cooker whistles through the wall.",
+     "You wind up the laptop charger, heavy in your hand, and walk to the café down the road. You aim straight for the corner table near the plug point."
+    ],
+    "why_swipe": "What happens once they sit down and see the bill?"
+   },
+   {
+    "paragraphs": [
+     "One cold coffee, and the price stings. You do the sum in your head while the barista shouts a name that sounds a bit like yours.",
+     "Ice, milk and a logo. You've said it to friends more than once: café coffee is a scam for people who want to look premium."
+    ],
+    "why_swipe": "So why does it not feel like a scam three hours later?"
+   },
+   {
+    "paragraphs": [
+     "Three hours later the glass is empty, sweating a ring onto the wood. The AC hums. The staff walk past your table twice and say nothing.",
+     "You haven't ordered a second thing. Each time someone clears the next table, you wait for a polite \"anything else?\" It never comes."
+    ],
+    "why_swipe": "Why does nobody ask you to leave?"
+   },
+   {
+    "paragraphs": [
+     "Somewhere in the second hour, it clicks. That price doesn't feel like it went on the drink. It feels like it went on the seat.",
+     "**As a drink, that price is too much. As three hours in a quiet, cool seat next to a plug, it's cheap.**"
+    ],
+    "why_swipe": "So why is a seat worth that much?"
+   },
+   {
+    "paragraphs": [
+     "Small homes, packed offices and too few libraries make a table with Wi-Fi rare in most cities. So the café folds that table into the price of the cup."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "And for three hours you had a corner nobody knocked on, the charger's warm brick under your palm.",
+     "**When someone finally does ask \"anything else?\", you'll order a second coffee without blinking. That one is the rent.**"
+    ]
+   }
+  ],
+  "end": {
+   "save": "Read it again the next time you wince at a café bill and then sit there for three hours.",
+   "send": "Send to the friend who complains about café prices from the same café every weekend.",
+   "promise": "What you're really paying for."
+  },
+  "caption": "Which café table has become your second office, and how long do you stretch one drink there?",
+  "hashtags": [
+   "#CafeCulture",
+   "#WorkFromCafe",
+   "#IndianCities",
+   "#MoneyAndStatus"
+  ],
+  "alt_text": "A six-slide text carousel. The cover says a cold coffee is really rent for a quiet chair. The slides follow the reader leaving a noisy flat on a Saturday to work at a café. They wince at the price of a cold coffee and call café coffee a scam, then spend three hours at one table without ordering again, waiting for an 'anything else?' that never comes. In the second hour it clicks that the money feels like it went on the seat: too much for a drink, cheap for three quiet, cool hours next to a plug. Small homes, packed offices and few libraries make a table with Wi-Fi rare, so the café prices it into the cup. It ends: when someone finally asks 'anything else?', you'll order a second coffee without blinking, and that one is the rent.",
+  "claims": [
+   {
+    "text": "A café cold coffee is priced high for a drink (used as a typical café price)",
+    "source_url": "topic"
+   }
+  ]
  }
 }
