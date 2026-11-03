@@ -1,6 +1,6 @@
 {
  "id": "2026-11-79",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-13T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -43,6 +43,258 @@
   "villain": "a notice-period policy designed to make you too expensive for anyone else to hire",
   "story_type": "teaching"
  },
- "history": [],
- "updated_at": "2026-11-03T09:03:57.905778+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "12. A deliberate plan is stated as fact. The cover, slide 1 and slide 4 say the notice period 'exists to keep you' and 'is a price tag on you', as if companies set 90 days on purpose to kill your next offer. That motive can't be shown. The post also says 'With hiring slow, the grip only gets tighter' (slide 6) with no source, which is a claim about the world."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 3,
+     "tight": 3
+    },
+    "notes": [
+     "Cover, slide 1, slide 4: change the claim from stated intent to what the clause does. Say 'works as a lock on you' or 'ends up being a price tag', and keep the because as who gains (the old employer keeps you for free, the new one won't wait). The topic's 'designed to' can't be shown. Also drop or soften the unsourced 'With hiring slow, the grip only gets tighter' on slide 6.",
+     "Slides 5 and 6: these split one idea in two. Slide 5 is a single thin line, and slide 6 then adds the other half plus the buyout aside. Merge them into one 'because' slide: the new employer won't wait three months, the old one pays nothing to keep you. That gives you room for a slide that follows the reader forward in time.",
+     "Slides 3 to 6: the story stops after slide 2 and turns into explanation. Keep following the reader. After 'let me check', show the mail that arrives or the silence that follows, and the 'we've gone with someone who can join sooner' feeling. That's where the trapped, cheated feeling should land, and the recruiter's pause should come back at the end.",
+     "Slide 3: 'The reading everyone accepts is simple' is a stock explainer connector. Say the belief the way someone would actually say it, for example the line a manager gives: 'we need time to hand over properly'. Drop the 'You know how this ends' filler too.",
+     "Slide 6: 'I've seen good people turn down the job they wanted' is vague and sits like a claim resting on strangers. Either make it a typical, framed-as-typical moment ('most people just say no to the job and stay') or add a concrete sensory detail from the reader's own side, such as the offer mail you read three times before replying."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "12. A deliberate plan is stated as fact. The cover, slide 1 and slide 4 say the notice period 'exists to keep you' and 'is a price tag on you', as if companies set 90 days on purpose to kill your next offer. That motive can't be shown. The post also says 'With hiring slow, the grip only gets tighter' (slide 6) with no source, which is a claim about the world.",
+    "Cover, slide 1, slide 4: change the claim from stated intent to what the clause does. Say 'works as a lock on you' or 'ends up being a price tag', and keep the because as who gains (the old employer keeps you for free, the new one won't wait). The topic's 'designed to' can't be shown. Also drop or soften the unsourced 'With hiring slow, the grip only gets tighter' on slide 6.",
+    "Slides 5 and 6: these split one idea in two. Slide 5 is a single thin line, and slide 6 then adds the other half plus the buyout aside. Merge them into one 'because' slide: the new employer won't wait three months, the old one pays nothing to keep you. That gives you room for a slide that follows the reader forward in time.",
+    "Slides 3 to 6: the story stops after slide 2 and turns into explanation. Keep following the reader. After 'let me check', show the mail that arrives or the silence that follows, and the 'we've gone with someone who can join sooner' feeling. That's where the trapped, cheated feeling should land, and the recruiter's pause should come back at the end.",
+    "Slide 3: 'The reading everyone accepts is simple' is a stock explainer connector. Say the belief the way someone would actually say it, for example the line a manager gives: 'we need time to hand over properly'. Drop the 'You know how this ends' filler too.",
+    "Slide 6: 'I've seen good people turn down the job they wanted' is vague and sits like a claim resting on strangers. Either make it a typical, framed-as-typical moment ('most people just say no to the job and stay') or add a concrete sensory detail from the reader's own side, such as the offer mail you read three times before replying."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 3,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 3,
+     "voice": 3,
+     "eq": 3,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "slide 1 and cover: \"ends up as a lock on you\" is vague and doesn't carry the turn. Say the believed-versus-actual in one claim, e.g. that the ninety days isn't about handover, it's what makes you too costly for anyone else to hire. Keep the cover headline in the same plain words. \"Ends up\" also appears three times in the post (cover, slide 1, slide 4), so vary it.",
+     "slide 7: the closing test rests on reading meaning into HR's pause, which can't be shown, and it echoes the recruiter pause as a neat callback. Keep the question about how many people actually served all ninety days, but end on a plain line the reader would repeat or a sting about what that number tells you. Don't claim to know what the pause means.",
+     "slide 4: \"when a team gets cut, people are told to log off by Friday\" is stated as a world fact with no source. Soften it to a typical-scenario framing, or lean on the everyday texture instead: the handover doc nobody opens and the two KT calls. That texture is already the strongest part.",
+     "slide 6: \"I've done that myself, half apologising for a number I never chose\" is the one human beat, but it's flat. Add one sensory or behavioural detail only someone who lived it would notice, such as the way you rush the number out, or the pause you now fill before they can. That also gives the reader the feeling of being trapped, which is thin right now.",
+     "end card save line: \"Read it again before you sign your next offer letter and see the notice clause\" is clumsy. Rewrite it as a clear moment to return to, e.g. \"Save this for the day an offer letter lands in your inbox and you reach the notice clause.\""
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "slide 1 and cover: \"ends up as a lock on you\" is vague and doesn't carry the turn. Say the believed-versus-actual in one claim, e.g. that the ninety days isn't about handover, it's what makes you too costly for anyone else to hire. Keep the cover headline in the same plain words. \"Ends up\" also appears three times in the post (cover, slide 1, slide 4), so vary it.",
+    "slide 7: the closing test rests on reading meaning into HR's pause, which can't be shown, and it echoes the recruiter pause as a neat callback. Keep the question about how many people actually served all ninety days, but end on a plain line the reader would repeat or a sting about what that number tells you. Don't claim to know what the pause means.",
+    "slide 4: \"when a team gets cut, people are told to log off by Friday\" is stated as a world fact with no source. Soften it to a typical-scenario framing, or lean on the everyday texture instead: the handover doc nobody opens and the two KT calls. That texture is already the strongest part.",
+    "slide 6: \"I've done that myself, half apologising for a number I never chose\" is the one human beat, but it's flat. Add one sensory or behavioural detail only someone who lived it would notice, such as the way you rush the number out, or the pause you now fill before they can. That also gives the reader the feeling of being trapped, which is thin right now.",
+    "end card save line: \"Read it again before you sign your next offer letter and see the notice clause\" is clumsy. Rewrite it as a clear moment to return to, e.g. \"Save this for the day an offer letter lands in your inbox and you reach the notice clause.\""
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Hard failure 12, slide 7: 'the ninety days was never for the work. It was for the offers you didn't take' states a motive as fact. The test also doesn't prove it. If few people serve all ninety days, that points to early release and buyouts, which slide 4 says happen when it suits the company. That undercuts 'keeps you in place' instead of backing it, and the reader can't tell what a good or bad answer from HR means.",
+     "Hard failure 8 (weak payoff), slide 7: the closer is a conclusion the test doesn't earn, so it lands as a claim, not a line people repeat."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 7: Fix the logic of the test. Pick one reading and say it plainly. For example, whatever HR answers, the clause is a lever the company controls. If most serve all ninety days, it's a lock. If few do, the notice period was negotiable all along and nobody told you. End on a short sting line the reader can repeat, not a motive claim stated as fact. Soften 'was never for the work' to something the mechanism actually shows.",
+     "slide 5: This mostly restates slide 3, where the 'candidate who can join sooner' mail already showed the new employer won't wait. Keep only the new beat, that your company keeps you without paying a rupee more, and fold it into slide 4 or cut the repeat. The early-release line is also the key to the ending, so tie it to slide 7.",
+     "slide 4: 'Two weeks, maybe three' is a specific figure with no source. Make it a plain habit, for example 'a few weeks of real handover work', so it doesn't read as data. 'Works less like a handover and more like a price tag' is a good line, but make sure slide 7 doesn't contradict it.",
+     "slide 6: Keep the nervous laugh, it's the best detail in the post. Trim 'Like apologising for a rule I never chose' since it leans wistful, and use the space for a second small, sensory detail from the moment you say 'ninety days' before they ask. This slide has to earn its place by leading into the test, not just confessing.",
+     "slide 2: Strong slide with the stopped typing. Keep it. Consider swapping 'The hiring manager really liked you' for a concrete small detail, such as the recruiter already talking about joining dates, so the drop in warmth is felt more sharply."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Hard failure 12, slide 7: 'the ninety days was never for the work. It was for the offers you didn't take' states a motive as fact. The test also doesn't prove it. If few people serve all ninety days, that points to early release and buyouts, which slide 4 says happen when it suits the company. That undercuts 'keeps you in place' instead of backing it, and the reader can't tell what a good or bad answer from HR means.",
+    "Hard failure 8 (weak payoff), slide 7: the closer is a conclusion the test doesn't earn, so it lands as a claim, not a line people repeat.",
+    "slide 7: Fix the logic of the test. Pick one reading and say it plainly. For example, whatever HR answers, the clause is a lever the company controls. If most serve all ninety days, it's a lock. If few do, the notice period was negotiable all along and nobody told you. End on a short sting line the reader can repeat, not a motive claim stated as fact. Soften 'was never for the work' to something the mechanism actually shows.",
+    "slide 5: This mostly restates slide 3, where the 'candidate who can join sooner' mail already showed the new employer won't wait. Keep only the new beat, that your company keeps you without paying a rupee more, and fold it into slide 4 or cut the repeat. The early-release line is also the key to the ending, so tie it to slide 7.",
+    "slide 4: 'Two weeks, maybe three' is a specific figure with no source. Make it a plain habit, for example 'a few weeks of real handover work', so it doesn't read as data. 'Works less like a handover and more like a price tag' is a good line, but make sure slide 7 doesn't contradict it.",
+    "slide 6: Keep the nervous laugh, it's the best detail in the post. Trim 'Like apologising for a rule I never chose' since it leans wistful, and use the space for a second small, sensory detail from the moment you say 'ninety days' before they ask. This slide has to earn its place by leading into the test, not just confessing.",
+    "slide 2: Strong slide with the stopped typing. Keep it. Consider swapping 'The hiring manager really liked you' for a concrete small detail, such as the recruiter already talking about joining dates, so the drop in warmth is felt more sharply."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 5 is a dead slide: 'So you stay. Months later another recruiter calls, and you say \"ninety days\" before they even ask... waiting for their voice to go flat again.' It replays the slide 2 moment (ninety days, then the flat voice) and adds no new beat. The slide 4 turn lands and the reader has no new reason to swipe here."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 5: Cut the replay of the recruiter call. Give it one new beat that moves the story forward, such as you start skipping roles that say 'immediate joiner' or stop applying at all, so the notice period shrinks your options before any recruiter speaks. Keep one short first-person line only if it adds this new consequence. 'The number rushed out with a nervous laugh' is a good detail, but it only repeats the pause from slide 2.",
+     "slide 6: The last line, 'Either way, it's the company's clock. Your next offer just has to fit inside it', repeats the slide 4 price-tag idea and weakens the test, because both answers now lead to the same conclusion. End on what each answer reveals, or on a sharp line the reader can repeat. For example: if few served it, the ninety days was always negotiable and only closed when you had somewhere to go.",
+     "slide 1: It repeats the cover headline word for word, so the swipe adds nothing. Open with a different angle that still carries the turn, or make slide 1 the moment itself, the recruiter going quiet, so the cover carries the claim and the slide starts the story.",
+     "slide 2: A recruiter offering a Monday start before asking about notice is slightly off for most readers. Make it a warm, chatty third round where they say 'we'd love to move fast', then ask the notice question. The ninety-day answer will then feel more like a cliff.",
+     "slide 4: Make the contrast sharper. 'A few weeks of real work' against 'the rest is meetings that moved on without you' is the strongest beat, so put the three listed items (doc, KT calls, drive link) in one short line and give the freed space to the 'you're still on payroll, nothing changes' sting before the bold line."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "cut_slide": 5,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 5: The ending is the weak point. \"Either way, it's the company's clock. Your next offer just has to fit inside it\" restates slide 4's price-tag line and slides into a tidy moral. Cut it. End on the test result or a sting. Right now two bold punchlines compete, and slide 4's is the stronger one.",
+     "slide 5: The HR test over-reaches. \"If few did, early release was there all along\" is an inference the post can't show. Use what the topic already says: buyouts and early release get offered only when it suits the company. If few served all ninety days, the notice was a negotiating position, and you only learn that after you've lost the offer. That is a sharper last beat than \"it's the company's clock\".",
+     "slide 4: The \"because\" is only implied. Say it in one plain line: the new employer has a seat to fill now and won't hold it for three months, while the old one keeps you at no extra cost. That shows who gains. It also makes the bold line land harder than the current \"price tag\" phrasing, which repeats the cover.",
+     "slide 3: Good detail with the mail read three times in the pantry. The manager's \"hand over properly\" line is fine, but add one concrete sensory beat to the pantry or the pause on the call (a sound, the phone buzzing, the chai going cold). That makes it a moment only someone who lived it would notice.",
+     "alt_text: It doesn't match the post. It says six slides but there are five, and it says \"the writer admits to rushing out the number with a nervous laugh on later calls\", which appears nowhere in the post and adds an unsupported \"I\" confession. Rewrite it to describe only what is on the slides."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Slide 5 is a dead slide: 'So you stay. Months later another recruiter calls, and you say \"ninety days\" before they even ask... waiting for their voice to go flat again.' It replays the slide 2 moment (ninety days, then the flat voice) and adds no new beat. The slide 4 turn lands and the reader has no new reason to swipe here.",
+    "slide 5: Cut the replay of the recruiter call. Give it one new beat that moves the story forward, such as you start skipping roles that say 'immediate joiner' or stop applying at all, so the notice period shrinks your options before any recruiter speaks. Keep one short first-person line only if it adds this new consequence. 'The number rushed out with a nervous laugh' is a good detail, but it only repeats the pause from slide 2.",
+    "slide 6: The last line, 'Either way, it's the company's clock. Your next offer just has to fit inside it', repeats the slide 4 price-tag idea and weakens the test, because both answers now lead to the same conclusion. End on what each answer reveals, or on a sharp line the reader can repeat. For example: if few served it, the ninety days was always negotiable and only closed when you had somewhere to go.",
+    "slide 1: It repeats the cover headline word for word, so the swipe adds nothing. Open with a different angle that still carries the turn, or make slide 1 the moment itself, the recruiter going quiet, so the cover carries the claim and the slide starts the story.",
+    "slide 2: A recruiter offering a Monday start before asking about notice is slightly off for most readers. Make it a warm, chatty third round where they say 'we'd love to move fast', then ask the notice question. The ninety-day answer will then feel more like a cliff.",
+    "slide 4: Make the contrast sharper. 'A few weeks of real work' against 'the rest is meetings that moved on without you' is the strongest beat, so put the three listed items (doc, KT calls, drive link) in one short line and give the freed space to the 'you're still on payroll, nothing changes' sting before the bold line."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-03T11:57:33.099711+00:00",
+ "sources": [],
+ "draft": {
+  "cover": {
+   "headline": "Ninety days isn't for handover. It makes you [expensive to hire]",
+   "sub": "Your next offer dies on one question in the call."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Ninety days isn't for handover. It makes you expensive to hire.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "If it's not really about handover, what is it doing to me?"
+   },
+   {
+    "paragraphs": [
+     "Third round done. The recruiter is warm, almost chatty. They've already asked if a Monday start would work.",
+     "Then: \"And your notice period?\" You say ninety days. There's a pause, and you hear the typing on their end stop.",
+     "\"Okay. Let me check with the team.\""
+    ],
+    "why_swipe": "What happens after 'let me check'?"
+   },
+   {
+    "paragraphs": [
+     "Two days of nothing. Then a short mail about moving ahead with \"a candidate who can join sooner.\"",
+     "You read it three times standing in the office pantry.",
+     "So you ask your manager about early release. You get the line every manager has ready: \"We need time to hand over properly.\""
+    ],
+    "why_swipe": "Does it really take three months?"
+   },
+   {
+    "paragraphs": [
+     "But look at what gets handed over. A doc nobody opens, two KT calls, a shared drive link. A few weeks of real work.",
+     "After that you sit through meetings that moved on without you. Your company keeps you, and doesn't pay a rupee more.",
+     "**Ninety days works less like a handover and more like a price tag on you.**"
+    ],
+    "why_swipe": "So what happens the next time a recruiter calls?"
+   },
+   {
+    "paragraphs": [
+     "So you stay. Months later another recruiter calls, and you say \"ninety days\" before they even ask.",
+     "I've done it myself. The number rushed out before they finished asking, with a small nervous laugh.",
+     "The phone gets warm against your ear while you wait for their voice to go flat again."
+    ],
+    "why_swipe": "Is the ninety days actually fixed?"
+   },
+   {
+    "paragraphs": [
+     "Try asking HR how many people have actually served all ninety days.",
+     "If most did, it's a lock. If few did, early release was there all along. It just never came up when your offer was on the table.",
+     "**Either way, it's the company's clock. Your next offer just has to fit inside it.**"
+    ]
+   }
+  ],
+  "end": {
+   "save": "Come back the day an offer letter lands in your inbox and you reach the notice clause.",
+   "send": "Send to the friend who lost an offer because they couldn't join in 30 days.",
+   "promise": "How Indian offices really work."
+  },
+  "caption": "What's the longest notice period you've been stuck serving, and did the new job wait for you?",
+  "hashtags": [
+   "#NoticePeriod",
+   "#JobSwitch",
+   "#IndianCorporate",
+   "#CareerAdviceIndia"
+  ],
+  "alt_text": "A six-slide carousel arguing that 90-day notice periods in Indian companies work less like handover time and more like a price tag that makes employees expensive to hire. It follows a reader whose recruiter, already talking about a Monday start, goes quiet after they say their notice is ninety days, followed by a rejection mail about a candidate who can join sooner. It points out that real handover is a doc, a couple of KT calls and a few weeks of work, while the company keeps you without paying more. The writer admits to rushing out the number with a nervous laugh on later calls. It ends by suggesting the reader ask HR how many people have served the full ninety days: if most did, it's a lock; if few did, early release existed all along but never came up when the reader's offer was on the table. Either way, it's the company's clock.",
+  "claims": []
+ }
 }

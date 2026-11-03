@@ -1,6 +1,6 @@
 {
  "id": "2026-11-95",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-15T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -55,6 +55,264 @@
   "villain": "a pay-secrecy norm that keeps salary ranges hidden from the people earning them",
   "story_type": "values"
  },
- "history": [],
- "updated_at": "2026-11-03T09:03:57.906602+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "problems": [
+    "These word runs copy the reference creator; rewrite them: ['for the first time ever the']"
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 5 is a dead slide. 'I've had this lunch myself, and it never stops being a little uncomfortable' repeats slide 3's awkwardness. 'They handed you the one thing that only had value while it stayed secret' is muddled, because it never says value to whom.",
+     "No real because. The only explanation of who gains is the last line ('It thought it was expensive'), and it never says how silence costs the company anything or saves it money. The topic's because is that when nobody knows the range, nobody can ask for it, and that is missing."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 3,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 4: The turn is weak and the feeling is missing. The topic's moment is realising you're paid less for the same work, but here the reader only reads the offer letter twice and 'walks in with a number'. Add the sting: same job, same week, and the gap was never about work. Then say plainly why this happened (no one knew the range, so no one could ask for it). Cut 'You read the same job title twice', which is vague.",
+     "slide 5: Rewrite or replace it. Keep the mixed feeling of 'some years you're the one paid more', since that's the human bit. Drop the 'only had value while secret' line. Use this slide for the mechanism: who gains when two people in the same role don't know each other's number, and who pays for that silence.",
+     "slide 6: The ending is a mirrored 'never X, it thought Y' construction, and 'expensive' is left unexplained. Once slide 5 carries the mechanism, end on a line the reader can repeat or a test, such as asking who benefits from you not knowing. The 'manager was taught this' line is fine but soft.",
+     "slide 3: Cut 'And this is the moment everyone points to. See, salary talk only makes lunch awkward.' It explains the obvious and sounds like a debate. Add one physical detail instead, such as the chai or the dal going cold, so the sting lands.",
+     "caption: 'The most useful thing anyone told me in my first job was their CTC' reads as a specific past event. Make it a general habit or observation so it can't be read as an invented one-off."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Slide 5 is a dead slide. 'I've had this lunch myself, and it never stops being a little uncomfortable' repeats slide 3's awkwardness. 'They handed you the one thing that only had value while it stayed secret' is muddled, because it never says value to whom.",
+    "No real because. The only explanation of who gains is the last line ('It thought it was expensive'), and it never says how silence costs the company anything or saves it money. The topic's because is that when nobody knows the range, nobody can ask for it, and that is missing.",
+    "slide 4: The turn is weak and the feeling is missing. The topic's moment is realising you're paid less for the same work, but here the reader only reads the offer letter twice and 'walks in with a number'. Add the sting: same job, same week, and the gap was never about work. Then say plainly why this happened (no one knew the range, so no one could ask for it). Cut 'You read the same job title twice', which is vague.",
+    "slide 5: Rewrite or replace it. Keep the mixed feeling of 'some years you're the one paid more', since that's the human bit. Drop the 'only had value while secret' line. Use this slide for the mechanism: who gains when two people in the same role don't know each other's number, and who pays for that silence.",
+    "slide 6: The ending is a mirrored 'never X, it thought Y' construction, and 'expensive' is left unexplained. Once slide 5 carries the mechanism, end on a line the reader can repeat or a test, such as asking who benefits from you not knowing. The 'manager was taught this' line is fine but soft.",
+    "slide 3: Cut 'And this is the moment everyone points to. See, salary talk only makes lunch awkward.' It explains the obvious and sounds like a debate. Add one physical detail instead, such as the chai or the dal going cold, so the sting lands.",
+    "caption: 'The most useful thing anyone told me in my first job was their CTC' reads as a specific past event. Make it a general habit or observation so it can't be read as an invented one-off."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Dead slide: slide 5. 'The company keeps the gap on every quiet employee. You pay it every month without knowing' restates slide 4's 'HR always had everyone's number'. 'Each raise gets measured against your own last number' is muddy and adds no new beat. 'Some years you'll be the one paid more' opens a second thread that is dropped immediately."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 5: Cut or rebuild it. The one new idea the topic holds is the next step: with no range, each person negotiates against their own last number, so a quiet raise looks generous. Show that moment, such as the 8% hike you were grateful for, and drop the 'paid more' tangent and the repeated 'company keeps the gap' line.",
+     "slide 4: 'The gap was never about your work' is stated as a certain fact. It could just as easily come from who negotiated or what the last company paid. Say the gap went unexplained because nobody could see the range, and keep the blame on the secrecy system, not on a hidden company motive. Also stop repeating 'same title, same joining week' from slide 2.",
+     "slide 6: The payoff is weak. 'Ask who saves money while you stay polite' reads like advice, and the opening 'walk in with a real number' reads like coaching. End on a sting or a repeatable line instead. For example, a salary range was never secret from HR, only from you, or the manager's 'bad manners' as the one rule that only protects the person who already knows everyone's number. Cut 'that's how it was taught to them', which softens the villain without adding anything.",
+     "slide 2: Keep the cafeteria, but sharpen the moment of asking. Add what it costs to ask, such as lowering your voice or glancing at the next table. Use the dal once only. It repeats in slide 3's spoon image.",
+     "slide 3: Good sensory detail (warm ears, the spoon, the noise). Add one beat that is new in the post: the reflex to say 'achha, nice' and change the subject. That is the silence working on you in real time, and it sets up the 'because' more strongly than slide 5 does."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "cut_slide": 5,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 5 is a dead slide. Its closing line, \"ask who saves money while you stay polite\", repeats the cover sub (\"The silence was always worth money to one side of the table\") and slide 4's HR line. The opening line, \"you walk in with a real number\", names no moment and shows no outcome.",
+     "No payoff on slide 5. The last line is a mild \"do this\" instruction, a coached question rather than a line people would repeat. The story also stops before anything happens with the number."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 2,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 3,
+     "tight": 3
+    },
+    "notes": [
+     "slide 5: Replace the generic ending by following the reader forward in the story. Show the appraisal room: the manager says \"we're giving you 8%\", and the reader now knows what the batchmate earns and can compare it with that figure. Add one concrete detail, such as a reply that doesn't come, a pause, or a changed tone. End on a sting or a line people will repeat, not a question aimed at the reader.",
+     "slide 4: The 'because' is too thin. The idea that each raise gets measured only against your own last number, so the company keeps the difference, appears only in the alt text. Put it into the slides in plain words. That is how silence turns into money, and it is the real turn.",
+     "slide 4: Reopening the offer letter that night repeats the gap already shown in slide 3. Cut it. \"The gap was never about your work\" is stated as fact, but the reader can't know that. Say instead that nobody ever told you whether the gap was about work, so you can't tell.",
+     "slide 5: \"Your manager calls it bad manners because that's how it was taught to them\" is flat and points the blame at a person. Either cut it or point it at the system: the 'rude' norm survives because it costs the company nothing and costs you a raise.",
+     "slide 3: This is the strongest slide, with the warm ears, the spoon and the loud cafeteria. Keep the sensory detail. Trim any line that only restates the awkwardness, so slide 3 hands off to the turn faster."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Dead slide: slide 5. 'The company keeps the gap on every quiet employee. You pay it every month without knowing' restates slide 4's 'HR always had everyone's number'. 'Each raise gets measured against your own last number' is muddy and adds no new beat. 'Some years you'll be the one paid more' opens a second thread that is dropped immediately.",
+    "slide 5: Cut or rebuild it. The one new idea the topic holds is the next step: with no range, each person negotiates against their own last number, so a quiet raise looks generous. Show that moment, such as the 8% hike you were grateful for, and drop the 'paid more' tangent and the repeated 'company keeps the gap' line.",
+    "slide 4: 'The gap was never about your work' is stated as a certain fact. It could just as easily come from who negotiated or what the last company paid. Say the gap went unexplained because nobody could see the range, and keep the blame on the secrecy system, not on a hidden company motive. Also stop repeating 'same title, same joining week' from slide 2.",
+    "slide 6: The payoff is weak. 'Ask who saves money while you stay polite' reads like advice, and the opening 'walk in with a real number' reads like coaching. End on a sting or a repeatable line instead. For example, a salary range was never secret from HR, only from you, or the manager's 'bad manners' as the one rule that only protects the person who already knows everyone's number. Cut 'that's how it was taught to them', which softens the villain without adding anything.",
+    "slide 2: Keep the cafeteria, but sharpen the moment of asking. Add what it costs to ask, such as lowering your voice or glancing at the next table. Use the dal once only. It repeats in slide 3's spoon image.",
+    "slide 3: Good sensory detail (warm ears, the spoon, the noise). Add one beat that is new in the post: the reflex to say 'achha, nice' and change the subject. That is the silence working on you in real time, and it sets up the 'because' more strongly than slide 5 does."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 4 is a dead slide: 'Your spoon sits in the dal, and the cafeteria noise suddenly sounds very loud.' It only repeats the embarrassment already given in slide 3 (ears warm, 'achha, nice', canteen paneer). It adds no new beat, and nothing in it makes the reader need slide 5."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 3,
+     "tight": 3
+    },
+    "notes": [
+     "Slides 5-6: The logic contradicts the cover. The lunch comparison is the habit being praised, yet slide 5 says 'neither of you ever saw the range' and slide 6 says 'with no range to check'. After lunch you do have a peer's number. As written, comparing only made you feel small and the hike still looked generous, so the post never shows why the habit is 'the best'. Fix the cause and effect: let the lunch number be the thing that makes the appraisal mail look different. For example, the hike arrives, and this time you measure it against your batchmate's number, not your own old salary. Then say plainly that this is the one thing HR always had and you finally got a piece of.",
+     "Slide 4: Cut it, or merge its one sensory detail (the dal, the loud canteen) into slide 3 in a single line. Replace it with the missing beat the topic already contains: she realises she is paid less for the same work. Let the reader feel 'undervalued' and not just awkward, with a thought like 'we do the same work'.",
+     "Slide 6: Give the reader a payoff beyond 'thank you' with a smiley. The topic's 'because' is that nobody can ask for a range they cannot see. Show the small shift once you know a number: you now know what to ask for, or you at least know the hike was a choice someone made. Keep it as a typical scenario, not a one-off event.",
+     "Slide 7: The closer is good, but the topic's payoff is a test the reader can run. Consider ending on 'ask who benefits from you not knowing', in his voice, as a stinging line and not a lecture. Keep the spreadsheet image as the sting. The bold line about the 'office rule' mostly repeats slide 5's 'HR always had everyone's number', so say it once.",
+     "Slide 5: The night-time re-read of the offer letter is a strong detail someone who lived it would notice. Keep it. Trim the 'Maybe they pushed harder, or their last job paid more' sentence if the new slide 6 makes it redundant, so the slide says one thing."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "cut_slide": 4,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 6 is a dead slide: its bolded line ('the one office rule that only protects whoever already knows everyone's number') restates slide 4's bolded line ('HR always had everyone's number. You only had your own.') in new words. It also returns to the cover's point, so the last slide adds no new beat."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "slide 6: Don't say again that secrecy helps whoever holds the numbers, because slide 4 already did. Give the next step instead: what the reader does or sees now that they know the number. For example, the next appraisal meeting, where they know what to ask for, or the line that sticks ('the silence was always worth money to one side of the table'). The spreadsheet image can stay, but it needs a new beat to land on.",
+     "slide 4: This slide undercuts the argument. The reader leaves the lunch without knowing why the gap exists ('maybe they pushed harder'), which reads as an excuse for the company. The topic's turn is that the same work was paid differently, and that secrecy let the company do it. Make it clear the two of them do the same work and the gap is unexplained. The feeling should be 'cheated', not 'unsure'. Cut the duplicate bold line or make it the only statement of the idea.",
+     "slide 3 to 5: The cover says salary talk is the best habit, but the post never shows the good side of sharing. The lunch does share numbers, and the reader just feels stupid. Add the beat the topic already has: once the number is out, the reader knows what the range is and has something to walk into the appraisal with. Right now the post shows the pain of not knowing and never the relief of knowing.",
+     "slide 5: The point about a modest hike looking generous against your old salary is new and worth keeping. But the connection to peer comparison is loose, and the 'I've watched friends...' line adds little. Tie it back to the lunch: the hike looks fine until you remember your batchmate's number. Cut the 'I've watched' line unless it carries a sharper detail.",
+     "slide 2 to 3: Add one sensory detail that only someone who was there would notice, for example the steel tray, the lowered voice over the sambar, or the warm laptop bag. The scene is currently all sight and dialogue."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Slide 4 is a dead slide: 'Your spoon sits in the dal, and the cafeteria noise suddenly sounds very loud.' It only repeats the embarrassment already given in slide 3 (ears warm, 'achha, nice', canteen paneer). It adds no new beat, and nothing in it makes the reader need slide 5.",
+    "Slides 5-6: The logic contradicts the cover. The lunch comparison is the habit being praised, yet slide 5 says 'neither of you ever saw the range' and slide 6 says 'with no range to check'. After lunch you do have a peer's number. As written, comparing only made you feel small and the hike still looked generous, so the post never shows why the habit is 'the best'. Fix the cause and effect: let the lunch number be the thing that makes the appraisal mail look different. For example, the hike arrives, and this time you measure it against your batchmate's number, not your own old salary. Then say plainly that this is the one thing HR always had and you finally got a piece of.",
+    "Slide 4: Cut it, or merge its one sensory detail (the dal, the loud canteen) into slide 3 in a single line. Replace it with the missing beat the topic already contains: she realises she is paid less for the same work. Let the reader feel 'undervalued' and not just awkward, with a thought like 'we do the same work'.",
+    "Slide 6: Give the reader a payoff beyond 'thank you' with a smiley. The topic's 'because' is that nobody can ask for a range they cannot see. Show the small shift once you know a number: you now know what to ask for, or you at least know the hike was a choice someone made. Keep it as a typical scenario, not a one-off event.",
+    "Slide 7: The closer is good, but the topic's payoff is a test the reader can run. Consider ending on 'ask who benefits from you not knowing', in his voice, as a stinging line and not a lecture. Keep the spreadsheet image as the sting. The bold line about the 'office rule' mostly repeats slide 5's 'HR always had everyone's number', so say it once.",
+    "Slide 5: The night-time re-read of the offer letter is a strong detail someone who lived it would notice. Keep it. Trim the 'Maybe they pushed harder, or their last job paid more' sentence if the new slide 6 makes it redundant, so the slide says one thing."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-03T11:57:33.123730+00:00",
+ "sources": [],
+ "draft": {
+  "cover": {
+   "headline": "Comparing salaries with colleagues feels rude. [It's the best habit] in offices.",
+   "sub": "The silence was always worth money to one side of the table."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Comparing salaries with colleagues feels rude. It's the best habit in offices.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "Why would something that feels rude be good for you?"
+   },
+   {
+    "paragraphs": [
+     "It's your first year. Same team, same role, you even joined the same week.",
+     "Lunch at the cafeteria, both of you moaning about appraisal forms. Then your batchmate leans in, drops their voice, glances at the next table: \"What's your CTC, by the way?\""
+    ],
+    "why_swipe": "What happens when the numbers come out?"
+   },
+   {
+    "paragraphs": [
+     "You say yours. They say theirs. Theirs is higher by roughly your rent.",
+     "Your ears go warm. For a second you feel stupid for even answering, like you broke a rule nobody ever wrote down. You hear yourself say \"achha, nice\" and start talking about the canteen paneer."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "Your spoon sits in the dal, and the cafeteria noise suddenly sounds very loud."
+    ],
+    "why_swipe": "So what does that gap actually mean?"
+   },
+   {
+    "paragraphs": [
+     "But that night you open your offer letter again. The number looks smaller than it did this morning.",
+     "Maybe they pushed harder, or their last job paid more. You can't tell, because neither of you ever saw the range. You can't ask for a number you've never seen.",
+     "**HR always had everyone's number. You only had your own.**"
+    ],
+    "why_swipe": "So what does that do to your next raise?"
+   },
+   {
+    "paragraphs": [
+     "So the appraisal mail arrives with a modest hike. You reply \"thank you so much\" with a smiley.",
+     "With no range to check, you measure the hike against your own old salary. Against that, it looks generous.",
+     "I've watched friends say thank you for hikes like this, and mean it."
+    ],
+    "why_swipe": "So why does salary talk still get called rude?"
+   },
+   {
+    "paragraphs": [
+     "Your manager still calls salary talk bad manners.",
+     "**It's the one office rule that only protects whoever already knows everyone's number.**",
+     "Somewhere upstairs sits a spreadsheet with both your names in it, one row apart."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Read it again the week before your appraisal meeting.",
+   "send": "Send to the colleague who still thinks asking a peer's salary is bad manners.",
+   "promise": "How Indian offices really work."
+  },
+  "caption": "One CTC shared over cafeteria lunch teaches you more than every appraisal form put together.",
+  "hashtags": [
+   "#SalaryTransparency",
+   "#AppraisalSeason",
+   "#IndianCorporateLife",
+   "#FirstJobIndia"
+  ],
+  "alt_text": "A six-slide carousel. The cover says comparing salaries with colleagues feels rude but is the best habit in offices. The slides follow a reader at a cafeteria lunch in their first year. A batchmate in the same role, who joined the same week, lowers their voice and asks the reader's CTC. Theirs is higher by about the reader's rent. The reader's ears go warm, they say 'achha, nice' and change the subject. That night they reread their offer letter and realise they can't tell why the gap exists, because neither of them ever saw the salary range. Later a modest hike looks generous, because it is only measured against their own old salary. The post ends saying calling salary talk bad manners only protects whoever already knows everyone's number, with an image of a spreadsheet holding both names one row apart.",
+  "claims": []
+ }
 }
