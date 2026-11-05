@@ -1,6 +1,6 @@
 {
  "id": "2026-11-123",
- "status": "scheduled",
+ "status": "approved",
  "due": "2026-11-06T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -112,6 +112,12 @@
   },
   {
    "owner": "approved in chat 2026-11-05"
+  },
+  {
+   "owner_edit": "2026-11-05 15:40: owner notes applied; old Buffer version to be deleted by owner"
+  },
+  {
+   "owner": "approved 2026-11-05 15:59 (render and push)"
   }
  ],
  "sources": [
@@ -128,12 +134,12 @@
    "excerpt": "up to ₹50,000 per year for health insurance premiums paid for senior citizen parents (aged 60+)"
   }
  ],
- "updated_at": "2026-11-05T09:04:14.853736+00:00",
+ "updated_at": "2026-11-05T10:29:55.350728+00:00",
  "draft": {
   "cover": {
    "headline": "70% of elderly Indians depend on someone for money. [It's you.]",
    "sub": "And they don't know half of what you decide.",
-   "art": "sibling-chat"
+   "art": "sibling-chat-v2"
   },
   "slides": [
    {
@@ -173,7 +179,8 @@
    {
     "paragraphs": [
      "Parents get the short version: \"Sab set hai.\"",
-     "They don't ask which hospital. The people who decided everything for thirty years take it."
+     "They don't ask which hospital.",
+     "Thirty years of making every decision in the house. Now they just say \"theek hai.\""
     ],
     "why_swipe": "is it wrong?"
    },
@@ -214,19 +221,19 @@
  },
  "verification_cache": {
   "_ledger": {
-   "text": "[cover] 70% of elderly Indians depend on someone for money. [It's you.]\nAnd they don't know half of what you decide.\n \n\n[slide 1] 70% of elderly Indians depend on someone for money. It's you.\nSwipe to read →\n\n[slide 2] Your parents' medical report doesn't go to them first. It goes to the sibling group.\nThe hospital, the doctor, who pays the advance: decided there, without them.\n\n[slide 3] Every one of these chats has typed one line: \"Don't tell them the full amount.\"\n\n[slide 4] Nobody took over. The roles flipped, and nobody announced it.\nCall it the parallel family. Same people. One room your parents can't enter.\n\n[slide 5] The market saw it first.\n\"Health insurance for parents\" is sold to you, not them. Section 80D gives you up to ₹50,000 a year to pay their premium.\n\n[slide 6] Parents get the short version: \"Sab set hai.\"\nThey don't ask which hospital. The people who decided everything for thirty years take it.\n\n[slide 7] You're not going behind their backs. You're carrying it so they can sleep.\n\n[slide 8] The family isn't run from the dining table anymore. It's run from the chat your parents were never added to.\n\n[end card] Read it before the next \"don't tell them\" message.\nSend to your sibling in that chat.\n\n[caption] Every sibling group has typed it at least once: \"Don't tell them the full amount.\"\n\nThe roles flipped. Nobody announced it.\n\nSend this to your sibling in that chat.\n\n[alt text] A carousel: 70% of elderly Indians depend on someone for money. It's you.",
+   "text": "[cover] 70% of elderly Indians depend on someone for money. [It's you.]\nAnd they don't know half of what you decide.\n \n\n[slide 1] 70% of elderly Indians depend on someone for money. It's you.\nSwipe to read →\n\n[slide 2] Your parents' medical report doesn't go to them first. It goes to the sibling group.\nThe hospital, the doctor, who pays the advance: decided there, without them.\n\n[slide 3] Every one of these chats has typed one line: \"Don't tell them the full amount.\"\n\n[slide 4] Nobody took over. The roles flipped, and nobody announced it.\nCall it the parallel family. Same people. One room your parents can't enter.\n\n[slide 5] The market saw it first.\n\"Health insurance for parents\" is sold to you, not them. Section 80D gives you up to ₹50,000 a year to pay their premium.\n\n[slide 6] Parents get the short version: \"Sab set hai.\"\nThey don't ask which hospital.\nThirty years of making every decision in the house. Now they just say \"theek hai.\"\n\n[slide 7] You're not going behind their backs. You're carrying it so they can sleep.\n\n[slide 8] The family isn't run from the dining table anymore. It's run from the chat your parents were never added to.\n\n[end card] Read it before the next \"don't tell them\" message.\nSend to your sibling in that chat.\n\n[caption] Every sibling group has typed it at least once: \"Don't tell them the full amount.\"\n\nThe roles flipped. Nobody announced it.\n\nSend this to your sibling in that chat.\n\n[alt text] A carousel: 70% of elderly Indians depend on someone for money. It's you.",
    "claims": [
     {
      "id": "c1",
-     "text": "70% of elderly Indians depend on someone else for money",
-     "sentence": "70% of elderly Indians depend on someone for money.",
+     "text": "70% of elderly Indians depend on someone else for money.",
+     "sentence": "70% of elderly Indians depend on someone for money. It's you.",
      "type": "figure",
      "core": true,
      "framed_as": "timeless"
     },
     {
      "id": "c2",
-     "text": "Health insurance policies for parents are marketed to the adult children who pay, not to the elderly parents themselves",
+     "text": "Health insurance products for parents are marketed to the adult children who pay, not to the parents who are covered.",
      "sentence": "\"Health insurance for parents\" is sold to you, not them.",
      "type": "feature",
      "core": false,
@@ -234,85 +241,107 @@
     },
     {
      "id": "c3",
-     "text": "Section 80D of the Income Tax Act allows a deduction of up to ₹50,000 a year for paying a parent's health insurance premium",
+     "text": "Under Section 80D, a taxpayer can claim a deduction of up to ₹50,000 a year for health insurance premiums paid for parents.",
      "sentence": "Section 80D gives you up to ₹50,000 a year to pay their premium.",
      "type": "feature",
      "core": false,
      "framed_as": "timeless"
-    }
-   ]
-  },
-  "70% of elderly Indians depend on someone else for money": {
-   "id": "c1",
-   "verdict": "supported",
-   "event_date": "2025-08-01",
-   "sources": [
-    {
-     "url": "https://www.outlookmoney.com/amp/story/news/around-70-of-elderly-in-india-are-financially-dependent-many-work-after-retirement-to-survive-report",
-     "publisher": "Outlook Money",
-     "published_date": "2025-08-02",
-     "quote": "Around 70% of elderly in India are financially dependent, either on family or by continuing to work well past retirement",
-     "tier": 2
     },
     {
-     "url": "https://kashmirreader.com/2025/08/02/70-per-cent-of-indias-elderly-financially-dependent-report/",
-     "publisher": "Kashmir Reader (citing Sankala Foundation/NITI Aayog report)",
-     "published_date": "2025-08-02",
-     "quote": "70 per cent of India's elderly financially dependent: Report",
-     "tier": 3
+     "id": "c4",
+     "text": "Because elderly parents are financially dependent on their adult children, the children end up making the real medical and financial decisions (which hospital, which doctor, how much to pay) and routing them through a sibling-only channel, often withholding full amounts from the parents — shifting household decision-making from parents to children without this being acknowledged as a change.",
+     "sentence": "Nobody took over. The roles flipped, and nobody announced it. / The family isn't run from the dining table anymore. It's run from the chat your parents were never added to.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
     }
    ]
   },
-  "Health insurance policies for parents are marketed to the adult children who pay, not to the elderly parents themselves": {
+  "70% of elderly Indians depend on someone else for money.": {
+   "id": "c1",
+   "verdict": "supported",
+   "event_date": "2025-08-02",
+   "sources": [
+    {
+     "url": "https://www.outlookmoney.com/retirement/news/around-70-of-elderly-in-india-are-financially-dependent-many-work-after-retirement-to-survive-report",
+     "publisher": "Outlook Money",
+     "published_date": "2025-08-02",
+     "quote": "Around 70 per cent of the elderly in India are financially dependent, either on family or by continuing to work well past retirement.",
+     "tier": 2
+    }
+   ]
+  },
+  "Health insurance products for parents are marketed to the adult children who pay, not to the parents who are covered.": {
    "id": "c2",
    "verdict": "supported",
    "sources": [
     {
-     "url": "https://joinditto.in/health-insurance/health-insurance-for-parents-in-india/",
-     "publisher": "Ditto Insurance",
-     "published_date": "2026-11-01",
-     "quote": "When you add older parents to a family floater, the premium for the entire policy rises sharply... Your parents' premium stays completely separate from your own plan",
+     "url": "https://www.policybazaar.com/insurance-companies/hdfc-ergo-health-insurance/senior-citizens/",
+     "publisher": "Policybazaar (aggregator citing HDFC Ergo plans)",
+     "published_date": "2026-01-01",
+     "quote": "If you pay the medical insurance premium for your parents, you can claim an additional tax deduction of up to ₹25,000 every financial year, or ₹50,000 if one or both parents are senior citizens.",
      "tier": 3
     }
    ]
   },
-  "Section 80D of the Income Tax Act allows a deduction of up to ₹50,000 a year for paying a parent's health insurance premium": {
+  "Under Section 80D, a taxpayer can claim a deduction of up to ₹50,000 a year for health insurance premiums paid for parents.": {
    "id": "c3",
    "verdict": "supported",
+   "correct": "The ₹50,000 cap applies specifically when the parents are senior citizens (60 years or older); if the parents are under 60, the cap is ₹25,000.",
    "sources": [
+    {
+     "url": "https://www.policybazaar.com/health-insurance/section80d-deductions/",
+     "publisher": "Policybazaar",
+     "published_date": "2026-01-01",
+     "quote": "the maximum allowable deduction for health insurance premiums paid for parents is ₹25,000 in case they are less than 60 years of age and ₹50,000 in case they are senior citizens greater than 60 years of age",
+     "tier": 3
+    },
     {
      "url": "https://www.advisorkhoj.com/articles/Health-Insurance/Best-Health-Insurance-Plans-for-Parents-who-are-Senior-Citizens",
      "publisher": "AdvisorKhoj",
      "published_date": "2025-01-01",
-     "quote": "Under Section 80D you can claim up to ₹50,000 per year for health insurance premiums paid for senior citizen parents",
-     "tier": 3
-    },
-    {
-     "url": "https://www.finnovate.in/learn/blog/section-80d-for-parents-and-senior-citizens",
-     "publisher": "Finnovate",
-     "published_date": "2025-04-01",
-     "quote": "The maximum allowable deduction for health insurance premiums paid for parents is ₹25,000 in case they are less than 60 years of age and ₹50,000 in case they are senior citizens greater than 60 years of age",
+     "quote": "Under Section 80D you can claim up to ₹50,000 per year for health insurance premiums paid for senior citizen parents.",
      "tier": 3
     }
    ]
   },
+  "_skeptic": {
+   "dfb7b091687bd33f6ae7cf1588756e1adefe5017": {
+    "holds": true,
+    "broken_premise": "none",
+    "actual_mechanism": "The two falsifiable premises check out: a 2025 NITI Aayog/Sankala Foundation report finds ~70% of elderly Indians are financially dependent, and Section 80D of the Income Tax Act does let the paying adult child deduct up to ₹50,000/year for a senior-citizen parent's health insurance premium (₹25,000 if the parent is under 60). The 80D deduction is a reduction in the child's taxable income rather than a cash grant, and the ₹50,000 ceiling specifically requires the parent to be a senior citizen, but the structural point stands: the policy is contracted, paid for, and tax-claimed in the child's name, so the market and the tax code both treat the child as the decision-maker. The remaining claims (decisions routed through a sibling chat, 'don't tell them the full amount,' roles flipping unannounced) are interpretations of family behavior, not falsifiable statements about how a law or product works.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.outlookmoney.com/retirement/news/around-70-of-elderly-in-india-are-financially-dependent-many-work-after-retirement-to-survive-report",
+      "published_date": "2025-08-02",
+      "quote": "Around 70% of elderly in India are financially dependent, many work after retirement to survive, according to the report 'Ageing in India' released by the Sankala Foundation in partnership with NITI Aayog."
+     },
+     {
+      "url": "https://cleartax.in/s/medical-insurance",
+      "published_date": "2025-01-01",
+      "quote": "If your parents are senior citizens (aged 60 years and above), the deduction will be Rs.50,000. An additional deduction for insurance of parents is available to the extent of Rs.25,000 if less than 60 years and Rs.50,000 if parents are more than 60 years old."
+     }
+    ]
+   }
+  },
   "_by_text": {
-   "c60383145dcae8aaacb0bd441f53b72bb58f805f": {
+   "421f3f48fbdfab064d1ea028c532759535bd12cc": {
     "passed": true,
     "take_dead": false,
     "notes": [],
     "ledger": [
      {
       "id": "c1",
-      "text": "70% of elderly Indians depend on someone else for money",
-      "sentence": "70% of elderly Indians depend on someone for money.",
+      "text": "70% of elderly Indians depend on someone else for money.",
+      "sentence": "70% of elderly Indians depend on someone for money. It's you.",
       "type": "figure",
       "core": true,
       "framed_as": "timeless"
      },
      {
       "id": "c2",
-      "text": "Health insurance policies for parents are marketed to the adult children who pay, not to the elderly parents themselves",
+      "text": "Health insurance products for parents are marketed to the adult children who pay, not to the parents who are covered.",
       "sentence": "\"Health insurance for parents\" is sold to you, not them.",
       "type": "feature",
       "core": false,
@@ -320,10 +349,18 @@
      },
      {
       "id": "c3",
-      "text": "Section 80D of the Income Tax Act allows a deduction of up to ₹50,000 a year for paying a parent's health insurance premium",
+      "text": "Under Section 80D, a taxpayer can claim a deduction of up to ₹50,000 a year for health insurance premiums paid for parents.",
       "sentence": "Section 80D gives you up to ₹50,000 a year to pay their premium.",
       "type": "feature",
       "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Because elderly parents are financially dependent on their adult children, the children end up making the real medical and financial decisions (which hospital, which doctor, how much to pay) and routing them through a sibling-only channel, often withholding full amounts from the parents — shifting household decision-making from parents to children without this being acknowledged as a change.",
+      "sentence": "Nobody took over. The roles flipped, and nobody announced it. / The family isn't run from the dining table anymore. It's run from the chat your parents were never added to.",
+      "type": "mechanism",
+      "core": true,
       "framed_as": "timeless"
      }
     ],
@@ -331,21 +368,14 @@
      "c1": {
       "id": "c1",
       "verdict": "supported",
-      "event_date": "2025-08-01",
+      "event_date": "2025-08-02",
       "sources": [
        {
-        "url": "https://www.outlookmoney.com/amp/story/news/around-70-of-elderly-in-india-are-financially-dependent-many-work-after-retirement-to-survive-report",
+        "url": "https://www.outlookmoney.com/retirement/news/around-70-of-elderly-in-india-are-financially-dependent-many-work-after-retirement-to-survive-report",
         "publisher": "Outlook Money",
         "published_date": "2025-08-02",
-        "quote": "Around 70% of elderly in India are financially dependent, either on family or by continuing to work well past retirement",
+        "quote": "Around 70 per cent of the elderly in India are financially dependent, either on family or by continuing to work well past retirement.",
         "tier": 2
-       },
-       {
-        "url": "https://kashmirreader.com/2025/08/02/70-per-cent-of-indias-elderly-financially-dependent-report/",
-        "publisher": "Kashmir Reader (citing Sankala Foundation/NITI Aayog report)",
-        "published_date": "2025-08-02",
-        "quote": "70 per cent of India's elderly financially dependent: Report",
-        "tier": 3
        }
       ]
      },
@@ -354,10 +384,10 @@
       "verdict": "supported",
       "sources": [
        {
-        "url": "https://joinditto.in/health-insurance/health-insurance-for-parents-in-india/",
-        "publisher": "Ditto Insurance",
-        "published_date": "2026-11-01",
-        "quote": "When you add older parents to a family floater, the premium for the entire policy rises sharply... Your parents' premium stays completely separate from your own plan",
+        "url": "https://www.policybazaar.com/insurance-companies/hdfc-ergo-health-insurance/senior-citizens/",
+        "publisher": "Policybazaar (aggregator citing HDFC Ergo plans)",
+        "published_date": "2026-01-01",
+        "quote": "If you pay the medical insurance premium for your parents, you can claim an additional tax deduction of up to ₹25,000 every financial year, or ₹50,000 if one or both parents are senior citizens.",
         "tier": 3
        }
       ]
@@ -365,27 +395,45 @@
      "c3": {
       "id": "c3",
       "verdict": "supported",
+      "correct": "The ₹50,000 cap applies specifically when the parents are senior citizens (60 years or older); if the parents are under 60, the cap is ₹25,000.",
       "sources": [
+       {
+        "url": "https://www.policybazaar.com/health-insurance/section80d-deductions/",
+        "publisher": "Policybazaar",
+        "published_date": "2026-01-01",
+        "quote": "the maximum allowable deduction for health insurance premiums paid for parents is ₹25,000 in case they are less than 60 years of age and ₹50,000 in case they are senior citizens greater than 60 years of age",
+        "tier": 3
+       },
        {
         "url": "https://www.advisorkhoj.com/articles/Health-Insurance/Best-Health-Insurance-Plans-for-Parents-who-are-Senior-Citizens",
         "publisher": "AdvisorKhoj",
         "published_date": "2025-01-01",
-        "quote": "Under Section 80D you can claim up to ₹50,000 per year for health insurance premiums paid for senior citizen parents",
-        "tier": 3
-       },
-       {
-        "url": "https://www.finnovate.in/learn/blog/section-80d-for-parents-and-senior-citizens",
-        "publisher": "Finnovate",
-        "published_date": "2025-04-01",
-        "quote": "The maximum allowable deduction for health insurance premiums paid for parents is ₹25,000 in case they are less than 60 years of age and ₹50,000 in case they are senior citizens greater than 60 years of age",
+        "quote": "Under Section 80D you can claim up to ₹50,000 per year for health insurance premiums paid for senior citizen parents.",
         "tier": 3
        }
       ]
      }
     },
-    "mechanism": null,
-    "text_hash": "c60383145dcae8aaacb0bd441f53b72bb58f805f",
-    "at": "2026-11-05T08:51:09.630303+00:00"
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "none",
+     "actual_mechanism": "The two falsifiable premises check out: a 2025 NITI Aayog/Sankala Foundation report finds ~70% of elderly Indians are financially dependent, and Section 80D of the Income Tax Act does let the paying adult child deduct up to ₹50,000/year for a senior-citizen parent's health insurance premium (₹25,000 if the parent is under 60). The 80D deduction is a reduction in the child's taxable income rather than a cash grant, and the ₹50,000 ceiling specifically requires the parent to be a senior citizen, but the structural point stands: the policy is contracted, paid for, and tax-claimed in the child's name, so the market and the tax code both treat the child as the decision-maker. The remaining claims (decisions routed through a sibling chat, 'don't tell them the full amount,' roles flipping unannounced) are interpretations of family behavior, not falsifiable statements about how a law or product works.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.outlookmoney.com/retirement/news/around-70-of-elderly-in-india-are-financially-dependent-many-work-after-retirement-to-survive-report",
+       "published_date": "2025-08-02",
+       "quote": "Around 70% of elderly in India are financially dependent, many work after retirement to survive, according to the report 'Ageing in India' released by the Sankala Foundation in partnership with NITI Aayog."
+      },
+      {
+       "url": "https://cleartax.in/s/medical-insurance",
+       "published_date": "2025-01-01",
+       "quote": "If your parents are senior citizens (aged 60 years and above), the deduction will be Rs.50,000. An additional deduction for insurance of parents is available to the extent of Rs.25,000 if less than 60 years and Rs.50,000 if parents are more than 60 years old."
+      }
+     ]
+    },
+    "text_hash": "421f3f48fbdfab064d1ea028c532759535bd12cc",
+    "at": "2026-11-05T10:13:30.921866+00:00"
    }
   }
  },
@@ -396,15 +444,15 @@
   "ledger": [
    {
     "id": "c1",
-    "text": "70% of elderly Indians depend on someone else for money",
-    "sentence": "70% of elderly Indians depend on someone for money.",
+    "text": "70% of elderly Indians depend on someone else for money.",
+    "sentence": "70% of elderly Indians depend on someone for money. It's you.",
     "type": "figure",
     "core": true,
     "framed_as": "timeless"
    },
    {
     "id": "c2",
-    "text": "Health insurance policies for parents are marketed to the adult children who pay, not to the elderly parents themselves",
+    "text": "Health insurance products for parents are marketed to the adult children who pay, not to the parents who are covered.",
     "sentence": "\"Health insurance for parents\" is sold to you, not them.",
     "type": "feature",
     "core": false,
@@ -412,10 +460,18 @@
    },
    {
     "id": "c3",
-    "text": "Section 80D of the Income Tax Act allows a deduction of up to ₹50,000 a year for paying a parent's health insurance premium",
+    "text": "Under Section 80D, a taxpayer can claim a deduction of up to ₹50,000 a year for health insurance premiums paid for parents.",
     "sentence": "Section 80D gives you up to ₹50,000 a year to pay their premium.",
     "type": "feature",
     "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c4",
+    "text": "Because elderly parents are financially dependent on their adult children, the children end up making the real medical and financial decisions (which hospital, which doctor, how much to pay) and routing them through a sibling-only channel, often withholding full amounts from the parents — shifting household decision-making from parents to children without this being acknowledged as a change.",
+    "sentence": "Nobody took over. The roles flipped, and nobody announced it. / The family isn't run from the dining table anymore. It's run from the chat your parents were never added to.",
+    "type": "mechanism",
+    "core": true,
     "framed_as": "timeless"
    }
   ],
@@ -423,21 +479,14 @@
    "c1": {
     "id": "c1",
     "verdict": "supported",
-    "event_date": "2025-08-01",
+    "event_date": "2025-08-02",
     "sources": [
      {
-      "url": "https://www.outlookmoney.com/amp/story/news/around-70-of-elderly-in-india-are-financially-dependent-many-work-after-retirement-to-survive-report",
+      "url": "https://www.outlookmoney.com/retirement/news/around-70-of-elderly-in-india-are-financially-dependent-many-work-after-retirement-to-survive-report",
       "publisher": "Outlook Money",
       "published_date": "2025-08-02",
-      "quote": "Around 70% of elderly in India are financially dependent, either on family or by continuing to work well past retirement",
+      "quote": "Around 70 per cent of the elderly in India are financially dependent, either on family or by continuing to work well past retirement.",
       "tier": 2
-     },
-     {
-      "url": "https://kashmirreader.com/2025/08/02/70-per-cent-of-indias-elderly-financially-dependent-report/",
-      "publisher": "Kashmir Reader (citing Sankala Foundation/NITI Aayog report)",
-      "published_date": "2025-08-02",
-      "quote": "70 per cent of India's elderly financially dependent: Report",
-      "tier": 3
      }
     ]
    },
@@ -446,10 +495,10 @@
     "verdict": "supported",
     "sources": [
      {
-      "url": "https://joinditto.in/health-insurance/health-insurance-for-parents-in-india/",
-      "publisher": "Ditto Insurance",
-      "published_date": "2026-11-01",
-      "quote": "When you add older parents to a family floater, the premium for the entire policy rises sharply... Your parents' premium stays completely separate from your own plan",
+      "url": "https://www.policybazaar.com/insurance-companies/hdfc-ergo-health-insurance/senior-citizens/",
+      "publisher": "Policybazaar (aggregator citing HDFC Ergo plans)",
+      "published_date": "2026-01-01",
+      "quote": "If you pay the medical insurance premium for your parents, you can claim an additional tax deduction of up to ₹25,000 every financial year, or ₹50,000 if one or both parents are senior citizens.",
       "tier": 3
      }
     ]
@@ -457,51 +506,45 @@
    "c3": {
     "id": "c3",
     "verdict": "supported",
+    "correct": "The ₹50,000 cap applies specifically when the parents are senior citizens (60 years or older); if the parents are under 60, the cap is ₹25,000.",
     "sources": [
+     {
+      "url": "https://www.policybazaar.com/health-insurance/section80d-deductions/",
+      "publisher": "Policybazaar",
+      "published_date": "2026-01-01",
+      "quote": "the maximum allowable deduction for health insurance premiums paid for parents is ₹25,000 in case they are less than 60 years of age and ₹50,000 in case they are senior citizens greater than 60 years of age",
+      "tier": 3
+     },
      {
       "url": "https://www.advisorkhoj.com/articles/Health-Insurance/Best-Health-Insurance-Plans-for-Parents-who-are-Senior-Citizens",
       "publisher": "AdvisorKhoj",
       "published_date": "2025-01-01",
-      "quote": "Under Section 80D you can claim up to ₹50,000 per year for health insurance premiums paid for senior citizen parents",
-      "tier": 3
-     },
-     {
-      "url": "https://www.finnovate.in/learn/blog/section-80d-for-parents-and-senior-citizens",
-      "publisher": "Finnovate",
-      "published_date": "2025-04-01",
-      "quote": "The maximum allowable deduction for health insurance premiums paid for parents is ₹25,000 in case they are less than 60 years of age and ₹50,000 in case they are senior citizens greater than 60 years of age",
+      "quote": "Under Section 80D you can claim up to ₹50,000 per year for health insurance premiums paid for senior citizen parents.",
       "tier": 3
      }
     ]
    }
   },
-  "mechanism": null,
-  "text_hash": "c60383145dcae8aaacb0bd441f53b72bb58f805f",
-  "at": "2026-11-05T08:51:09.630303+00:00"
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "none",
+   "actual_mechanism": "The two falsifiable premises check out: a 2025 NITI Aayog/Sankala Foundation report finds ~70% of elderly Indians are financially dependent, and Section 80D of the Income Tax Act does let the paying adult child deduct up to ₹50,000/year for a senior-citizen parent's health insurance premium (₹25,000 if the parent is under 60). The 80D deduction is a reduction in the child's taxable income rather than a cash grant, and the ₹50,000 ceiling specifically requires the parent to be a senior citizen, but the structural point stands: the policy is contracted, paid for, and tax-claimed in the child's name, so the market and the tax code both treat the child as the decision-maker. The remaining claims (decisions routed through a sibling chat, 'don't tell them the full amount,' roles flipping unannounced) are interpretations of family behavior, not falsifiable statements about how a law or product works.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://www.outlookmoney.com/retirement/news/around-70-of-elderly-in-india-are-financially-dependent-many-work-after-retirement-to-survive-report",
+     "published_date": "2025-08-02",
+     "quote": "Around 70% of elderly in India are financially dependent, many work after retirement to survive, according to the report 'Ageing in India' released by the Sankala Foundation in partnership with NITI Aayog."
+    },
+    {
+     "url": "https://cleartax.in/s/medical-insurance",
+     "published_date": "2025-01-01",
+     "quote": "If your parents are senior citizens (aged 60 years and above), the deduction will be Rs.50,000. An additional deduction for insurance of parents is available to the extent of Rs.25,000 if less than 60 years and Rs.50,000 if parents are more than 60 years old."
+    }
+   ]
+  },
+  "text_hash": "421f3f48fbdfab064d1ea028c532759535bd12cc",
+  "at": "2026-11-05T10:13:30.921866+00:00"
  },
- "owner_ok": true,
- "alt_texts": [
-  "70% of elderly Indians depend on someone for money. It's you.. And they don't know half of what you decide.",
-  "Your parents' medical report doesn't go to them first. It goes to the sibling group. The hospital, the doctor, who pays the advance: decided there, without them.",
-  "Every one of these chats has typed one line: \"Don't tell them the full amount.\"",
-  "Nobody took over. The roles flipped, and nobody announced it. Call it the parallel family. Same people. One room your parents can't enter.",
-  "The market saw it first. \"Health insurance for parents\" is sold to you, not them. Section 80D gives you up to ₹50,000 a year to pay their premium.",
-  "Parents get the short version: \"Sab set hai.\" They don't ask which hospital. The people who decided everything for thirty years take it.",
-  "You're not going behind their backs. You're carrying it so they can sleep.",
-  "The family isn't run from the dining table anymore. It's run from the chat your parents were never added to.",
-  "Send this to your sibling in that chat. Read it before the next \"don't tell them\" message."
- ],
- "image_urls": [
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-123/slide_01.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-123/slide_02.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-123/slide_03.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-123/slide_04.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-123/slide_05.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-123/slide_06.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-123/slide_07.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-123/slide_08.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-123/slide_09.jpg"
- ],
- "buffer_attempted_at": "2026-11-05T09:04:13.781887+00:00",
- "buffer_post_id": "6aec468e4a486827e7355e1d"
+ "owner_ok": true
 }

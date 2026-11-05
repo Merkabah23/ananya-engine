@@ -1,6 +1,6 @@
 {
  "id": "2026-11-121",
- "status": "planned",
+ "status": "written",
  "due": "2026-11-09T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -32,7 +32,329 @@
   "news_peg": null,
   "proof": []
  },
- "history": [],
+ "history": [
+  {
+   "attempt": 0,
+   "problems": [
+    "Remove the phrase '—'.",
+    "Every sentence is about the same length, which reads as a template. Put one longer, concrete sentence next to a short punch on most slides."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 8: \"And I don't think your sibling is spoiled.\" — the topic marks this post as pure observation (lived: false), so \"I\" is not allowed; the post must stay in \"you/we\" throughout."
+    ],
+    "scores": {
+     "hook": 3,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 3,
+     "eq": 4,
+     "iq": 4,
+     "story": 3,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "Slide 8: \"And I don't think your sibling is spoiled.\" breaks the pure-observation rule (lived: false). Rewrite without \"I\" — e.g. \"Your sibling isn't spoiled. They just never saw the fight.\"",
+     "Sub-line \"They just walked through a door you broke open.\" gives away the closing image before slide 1 even loads — the final line (\"the door you unlocked\") has nothing left to land. Cut the sub or replace it with something that doesn't name the door/metaphor.",
+     "Slide 7 (\"Here's the part no one caught... your parents didn't grow gentle on their own. They grew tired...\") restates slide 5's mechanism (you pushed, the rule wore down) in new words rather than adding a new beat — it's a dead slide. Cut it, or keep only the genuinely new part (the calm gets misread as love, a truce you negotiated) and fold it into slide 6.",
+     "Slide 6: \"You push, they shout, you lose.\" is a three-beat mirrored-pronoun formula that reads like engineered rhetoric rather than a person talking. Rewrite as a plain sentence describing what actually happened, not a scaffolded tricolon.",
+     "Nothing in the post goes beyond sight — add one sensory beat (the sound of being shouted at through a door, the cold of standing in the hallway arguing your case) to slide 2 or 3 so the scene is lived, not just pictured."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Slide 8: \"And I don't think your sibling is spoiled.\" — the topic marks this post as pure observation (lived: false), so \"I\" is not allowed; the post must stay in \"you/we\" throughout.",
+    "Slide 8: \"And I don't think your sibling is spoiled.\" breaks the pure-observation rule (lived: false). Rewrite without \"I\" — e.g. \"Your sibling isn't spoiled. They just never saw the fight.\"",
+    "Sub-line \"They just walked through a door you broke open.\" gives away the closing image before slide 1 even loads — the final line (\"the door you unlocked\") has nothing left to land. Cut the sub or replace it with something that doesn't name the door/metaphor.",
+    "Slide 7 (\"Here's the part no one caught... your parents didn't grow gentle on their own. They grew tired...\") restates slide 5's mechanism (you pushed, the rule wore down) in new words rather than adding a new beat — it's a dead slide. Cut it, or keep only the genuinely new part (the calm gets misread as love, a truce you negotiated) and fold it into slide 6.",
+    "Slide 6: \"You push, they shout, you lose.\" is a three-beat mirrored-pronoun formula that reads like engineered rhetoric rather than a person talking. Rewrite as a plain sentence describing what actually happened, not a scaffolded tricolon.",
+    "Nothing in the post goes beyond sight — add one sensory beat (the sound of being shouted at through a door, the cold of standing in the hallway arguing your case) to slide 2 or 3 so the scene is lived, not just pictured."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 5,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 5,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "Slide 6 ('You paid it in full... it was a truce you negotiated') restates slide 5's point (rule loosened because you fought) rather than adding a new beat. Either cut it to one line or give it a genuinely new angle — e.g. a specific resentment the label caused — so it isn't just slide 5 in different words.",
+     "The 'You [did X]. They [get Y]' contrast structure repeats almost verbatim in slides 2, 3, 4, 6 and 8. It's starting to read like a formula rather than a person thinking. Break the pattern in at least one slide — let a sentence run without the mirrored You/They setup.",
+     "Cover sub 'They got the easy version. You paid for it first.' already gives the reader the full thesis before slide 1. Since slide 1 repeats the headline anyway (fine, matches the benchmark), the sub is a third repetition of the same idea. Cut it or replace with something that adds a new angle (the feeling, not the claim), so slide 8's close still lands as the payoff rather than a fourth repeat.",
+     "The 'eldest tax' reframe is solid but close to the familiar 'eldest sibling had it hardest' trope. Push fresh_angle further with one sharper insider mechanic — e.g., name the specific moment a rule actually wears down (a parent caving mid-argument, not just generally) rather than leaving the mechanism general.",
+     "Good sound detail in slide 3 ('the shouting came back through a closed door') — keep it. Consider one more physical/sensory beat in slide 4's college example (packing, a bag zipped without a word exchanged) to ground that slide the same way."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "verification": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "In Indian families, parenting rules (phone timing, curfews, college choice, etc.) are first imposed on and contested by the eldest child, and the eldest's repeated pushback gradually loosens those rules over time, so that by the time a younger sibling reaches the same life stage the rules have already relaxed, letting the younger sibling get more freedom without having to fight for it.",
+      "sentence": "In Indian homes, the first child is the test run. Every rule gets tried on you first. You pushed against each one and mostly lost, but every fight left the rule a little looser. By the time your sibling asks, the fight is already over. Call it the eldest tax.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {},
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "none — no falsifiable claim about a law, price, fee, contract or market is present; the post's causal story (the eldest's fighting wears the rules down) is an interpretation of family dynamics, which the brief excludes from falsification, and its one testable empirical claim (parents are stricter on the eldest, more lenient on later-borns) is supported rather than refuted",
+     "actual_mechanism": "Birth-order research confirms the observable pattern the post rests on: parents do enforce rules more tightly on firstborns and loosen them for later-borns (less homework monitoring, fewer rules on screens/curfews, lighter punishment). But the dominant documented driver is not that the eldest argued the rules loose — it's a reputation/deterrence effect (parents stay tough on the first child to signal 'toughness' to the younger ones) plus parental experience and lower anxiety the second time around. So the younger sibling's easy version is real, but it's produced mainly by the parents' strategy and learning curve, with the eldest's resistance as at most a contributing, not the sole, cause.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://today.duke.edu/2008/04/children_punish.html",
+       "published_date": "2008-04",
+       "quote": "Parents have an incentive to punish their first-born child if that child engages in risky behaviors in order to deter such behavior by younger siblings... parents may use more strict parenting practices toward the firstborn, so as to gain a reputation for 'toughness.'"
+      },
+      {
+       "url": "https://slate.com/human-interest/2013/10/birth-order-and-school-performance-first-borns-do-better-in-school-because-parents-discipline-them-more.html",
+       "published_date": "2013-10",
+       "quote": "School performance of children declines with birth order as does the stringency of their parents' disciplinary restrictions. When asked how they would respond if a child brought home bad grades, parents state that they would be less likely to punish their later-born children."
+      },
+      {
+       "url": "https://phys.org/news/2008-04-parents-stricter-older-children.html",
+       "published_date": "2008-04",
+       "quote": "Parents are more likely to monitor the homework of their earlier-born children compared to later-born offspring, and are less likely to have rules around TV watching and video games for later-born children."
+      }
+     ]
+    },
+    "text_hash": "9bf119aeb3c4c6e292017b8f01fdf586fca8fe2c",
+    "at": "2026-11-05T10:05:38.118484+00:00"
+   }
+  }
+ ],
  "sources": [],
- "updated_at": "2026-11-05T06:16:00.615725+00:00"
+ "updated_at": "2026-11-05T10:11:59.615177+00:00",
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] Your sibling's freedom was paid for with [your arguments]\nThey got the easy version. You paid for it first.\n \n\n[slide 1] Your sibling's freedom was paid for with your arguments.\nSwipe to read →\n\n[slide 2] Your little sibling leaves past midnight with a shrug. No call home. No fight at the door.\nYou remember what that same shrug cost you at their age.\n\n[slide 3] You got your first phone in class 11; they had one by class 8.\nYou begged to stay out till 10, making your case in the hallway while the shouting came back through a closed door.\nThey text 'staying over' and no one replies, because nobody's worried.\n\n[slide 4] You went to college in the same city. They picked one three states away. The marks that got you a lecture get them a 'koi baat nahi'.\n\n[slide 5] In Indian homes, the first child is the test run.\nEvery rule gets tried on you first. You pushed against each one and mostly lost, but every fight left the rule a little looser.\nBy the time your sibling asks, the fight is already over. Call it the eldest tax.\n\n[slide 6] And you paid it in full.\nYou were the ziddi one, the one who answered back, the one who had to be difficult about every small thing.\nThat label stuck to you. The freedom went to them. They read the calm at home as love; it was a truce you negotiated.\n\n[slide 7] Your sibling isn't spoiled. They just never saw the fight.\nThey walked in after the door was already open. There's no receipt for a battle you didn't watch.\n\n[slide 8] You spent your teens arguing. They spend theirs walking out the door you unlocked.\n\n[end card] Open this again the next time your younger one shrugs and walks out like it was always allowed.\nSend to your own younger sibling, who got the easy version and should know what it cost.\n\n[caption] What's the one permission you had to fight for that your younger sibling now gets without a word?\n\n[alt text] An eight-slide carousel about eldest siblings in Indian families. It argues that the freedom a younger sibling enjoys, like going out past midnight without a fight, was paid for by the eldest child who fought and lost every early battle over phones, curfews and college. It names this the eldest tax, notes the quiet calm at home is a truce the eldest negotiated, and closes that the younger one simply walks out the door the eldest unlocked.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "In Indian families, parenting rules (phone timing, curfews, college choice, etc.) are first imposed on and contested by the eldest child, and the eldest's repeated pushback gradually loosens those rules over time, so that by the time a younger sibling reaches the same life stage the rules have already relaxed, letting the younger sibling get more freedom without having to fight for it.",
+     "sentence": "In Indian homes, the first child is the test run. Every rule gets tried on you first. You pushed against each one and mostly lost, but every fight left the rule a little looser. By the time your sibling asks, the fight is already over. Call it the eldest tax.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "_skeptic": {
+   "794458117e26651aff67b39ed20b40b517d3392a": {
+    "holds": true,
+    "broken_premise": "none — no falsifiable claim about a law, price, fee, contract or market is present; the post's causal story (the eldest's fighting wears the rules down) is an interpretation of family dynamics, which the brief excludes from falsification, and its one testable empirical claim (parents are stricter on the eldest, more lenient on later-borns) is supported rather than refuted",
+    "actual_mechanism": "Birth-order research confirms the observable pattern the post rests on: parents do enforce rules more tightly on firstborns and loosen them for later-borns (less homework monitoring, fewer rules on screens/curfews, lighter punishment). But the dominant documented driver is not that the eldest argued the rules loose — it's a reputation/deterrence effect (parents stay tough on the first child to signal 'toughness' to the younger ones) plus parental experience and lower anxiety the second time around. So the younger sibling's easy version is real, but it's produced mainly by the parents' strategy and learning curve, with the eldest's resistance as at most a contributing, not the sole, cause.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://today.duke.edu/2008/04/children_punish.html",
+      "published_date": "2008-04",
+      "quote": "Parents have an incentive to punish their first-born child if that child engages in risky behaviors in order to deter such behavior by younger siblings... parents may use more strict parenting practices toward the firstborn, so as to gain a reputation for 'toughness.'"
+     },
+     {
+      "url": "https://slate.com/human-interest/2013/10/birth-order-and-school-performance-first-borns-do-better-in-school-because-parents-discipline-them-more.html",
+      "published_date": "2013-10",
+      "quote": "School performance of children declines with birth order as does the stringency of their parents' disciplinary restrictions. When asked how they would respond if a child brought home bad grades, parents state that they would be less likely to punish their later-born children."
+     },
+     {
+      "url": "https://phys.org/news/2008-04-parents-stricter-older-children.html",
+      "published_date": "2008-04",
+      "quote": "Parents are more likely to monitor the homework of their earlier-born children compared to later-born offspring, and are less likely to have rules around TV watching and video games for later-born children."
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "9bf119aeb3c4c6e292017b8f01fdf586fca8fe2c": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "In Indian families, parenting rules (phone timing, curfews, college choice, etc.) are first imposed on and contested by the eldest child, and the eldest's repeated pushback gradually loosens those rules over time, so that by the time a younger sibling reaches the same life stage the rules have already relaxed, letting the younger sibling get more freedom without having to fight for it.",
+      "sentence": "In Indian homes, the first child is the test run. Every rule gets tried on you first. You pushed against each one and mostly lost, but every fight left the rule a little looser. By the time your sibling asks, the fight is already over. Call it the eldest tax.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {},
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "none — no falsifiable claim about a law, price, fee, contract or market is present; the post's causal story (the eldest's fighting wears the rules down) is an interpretation of family dynamics, which the brief excludes from falsification, and its one testable empirical claim (parents are stricter on the eldest, more lenient on later-borns) is supported rather than refuted",
+     "actual_mechanism": "Birth-order research confirms the observable pattern the post rests on: parents do enforce rules more tightly on firstborns and loosen them for later-borns (less homework monitoring, fewer rules on screens/curfews, lighter punishment). But the dominant documented driver is not that the eldest argued the rules loose — it's a reputation/deterrence effect (parents stay tough on the first child to signal 'toughness' to the younger ones) plus parental experience and lower anxiety the second time around. So the younger sibling's easy version is real, but it's produced mainly by the parents' strategy and learning curve, with the eldest's resistance as at most a contributing, not the sole, cause.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://today.duke.edu/2008/04/children_punish.html",
+       "published_date": "2008-04",
+       "quote": "Parents have an incentive to punish their first-born child if that child engages in risky behaviors in order to deter such behavior by younger siblings... parents may use more strict parenting practices toward the firstborn, so as to gain a reputation for 'toughness.'"
+      },
+      {
+       "url": "https://slate.com/human-interest/2013/10/birth-order-and-school-performance-first-borns-do-better-in-school-because-parents-discipline-them-more.html",
+       "published_date": "2013-10",
+       "quote": "School performance of children declines with birth order as does the stringency of their parents' disciplinary restrictions. When asked how they would respond if a child brought home bad grades, parents state that they would be less likely to punish their later-born children."
+      },
+      {
+       "url": "https://phys.org/news/2008-04-parents-stricter-older-children.html",
+       "published_date": "2008-04",
+       "quote": "Parents are more likely to monitor the homework of their earlier-born children compared to later-born offspring, and are less likely to have rules around TV watching and video games for later-born children."
+      }
+     ]
+    },
+    "text_hash": "9bf119aeb3c4c6e292017b8f01fdf586fca8fe2c",
+    "at": "2026-11-05T10:05:38.118484+00:00"
+   }
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "Your sibling's freedom was paid for with [your arguments]",
+   "sub": "They got the easy version. You paid for it first."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Your sibling's freedom was paid for with your arguments.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "What did it cost?"
+   },
+   {
+    "paragraphs": [
+     "Your little sibling leaves past midnight with a shrug. No call home. No fight at the door.",
+     "You remember what that same shrug cost you at their age."
+    ],
+    "why_swipe": "What did it cost you, exactly?"
+   },
+   {
+    "paragraphs": [
+     "You got your first phone in class 11; they had one by class 8.",
+     "You begged to stay out till 10, making your case in the hallway while the shouting came back through a closed door.",
+     "They text 'staying over' and no one replies, because nobody's worried."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "You went to college in the same city. They picked one three states away. The marks that got you a lecture get them a 'koi baat nahi'."
+    ],
+    "why_swipe": "Why did the rules melt by the time it was their turn?"
+   },
+   {
+    "paragraphs": [
+     "In Indian homes, the first child is the test run.",
+     "Every rule gets tried on you first. You pushed against each one and mostly lost, but every fight left the rule a little looser.",
+     "By the time your sibling asks, the fight is already over. Call it the **eldest tax**."
+    ],
+    "why_swipe": "If the rule bent, who actually paid for it?"
+   },
+   {
+    "paragraphs": [
+     "And you paid it in full.",
+     "You were the ziddi one, the one who answered back, the one who had to be difficult about every small thing.",
+     "That label stuck to you. The freedom went to them. They read the calm at home as love; it was a truce you negotiated."
+    ],
+    "why_swipe": "Does that make the younger one spoiled?"
+   },
+   {
+    "paragraphs": [
+     "Your sibling isn't spoiled. They just never saw the fight.",
+     "They walked in after the door was already open. There's no receipt for a battle you didn't watch."
+    ],
+    "why_swipe": "So what's the real line on all of this?"
+   },
+   {
+    "paragraphs": [
+     "**You spent your teens arguing. They spend theirs walking out the door you unlocked.**"
+    ]
+   }
+  ],
+  "end": {
+   "save": "Open this again the next time your younger one shrugs and walks out like it was always allowed.",
+   "send": "Send to your own younger sibling, who got the easy version and should know what it cost.",
+   "promise": "How Indian families really work."
+  },
+  "caption": "What's the one permission you had to fight for that your younger sibling now gets without a word?",
+  "hashtags": [
+   "#eldestchild",
+   "#indiansiblings",
+   "#eldestsiblingproblems",
+   "#indianfamilies"
+  ],
+  "alt_text": "An eight-slide carousel about eldest siblings in Indian families. It argues that the freedom a younger sibling enjoys, like going out past midnight without a fight, was paid for by the eldest child who fought and lost every early battle over phones, curfews and college. It names this the eldest tax, notes the quiet calm at home is a truce the eldest negotiated, and closes that the younger one simply walks out the door the eldest unlocked.",
+  "claims": [],
+  "caption_style": "question"
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "In Indian families, parenting rules (phone timing, curfews, college choice, etc.) are first imposed on and contested by the eldest child, and the eldest's repeated pushback gradually loosens those rules over time, so that by the time a younger sibling reaches the same life stage the rules have already relaxed, letting the younger sibling get more freedom without having to fight for it.",
+    "sentence": "In Indian homes, the first child is the test run. Every rule gets tried on you first. You pushed against each one and mostly lost, but every fight left the rule a little looser. By the time your sibling asks, the fight is already over. Call it the eldest tax.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {},
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "none — no falsifiable claim about a law, price, fee, contract or market is present; the post's causal story (the eldest's fighting wears the rules down) is an interpretation of family dynamics, which the brief excludes from falsification, and its one testable empirical claim (parents are stricter on the eldest, more lenient on later-borns) is supported rather than refuted",
+   "actual_mechanism": "Birth-order research confirms the observable pattern the post rests on: parents do enforce rules more tightly on firstborns and loosen them for later-borns (less homework monitoring, fewer rules on screens/curfews, lighter punishment). But the dominant documented driver is not that the eldest argued the rules loose — it's a reputation/deterrence effect (parents stay tough on the first child to signal 'toughness' to the younger ones) plus parental experience and lower anxiety the second time around. So the younger sibling's easy version is real, but it's produced mainly by the parents' strategy and learning curve, with the eldest's resistance as at most a contributing, not the sole, cause.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://today.duke.edu/2008/04/children_punish.html",
+     "published_date": "2008-04",
+     "quote": "Parents have an incentive to punish their first-born child if that child engages in risky behaviors in order to deter such behavior by younger siblings... parents may use more strict parenting practices toward the firstborn, so as to gain a reputation for 'toughness.'"
+    },
+    {
+     "url": "https://slate.com/human-interest/2013/10/birth-order-and-school-performance-first-borns-do-better-in-school-because-parents-discipline-them-more.html",
+     "published_date": "2013-10",
+     "quote": "School performance of children declines with birth order as does the stringency of their parents' disciplinary restrictions. When asked how they would respond if a child brought home bad grades, parents state that they would be less likely to punish their later-born children."
+    },
+    {
+     "url": "https://phys.org/news/2008-04-parents-stricter-older-children.html",
+     "published_date": "2008-04",
+     "quote": "Parents are more likely to monitor the homework of their earlier-born children compared to later-born offspring, and are less likely to have rules around TV watching and video games for later-born children."
+    }
+   ]
+  },
+  "text_hash": "9bf119aeb3c4c6e292017b8f01fdf586fca8fe2c",
+  "at": "2026-11-05T10:05:38.118484+00:00"
+ }
 }

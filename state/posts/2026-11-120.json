@@ -1,6 +1,6 @@
 {
  "id": "2026-11-120",
- "status": "planned",
+ "status": "written",
  "due": "2026-11-08T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -32,7 +32,789 @@
   "news_peg": null,
   "proof": []
  },
- "history": [],
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 6: \"Here's the part that took me longer to see.\" and Slide 7: \"And I don't think it's vanity.\" — this post's topic has lived:false, so it must stay pure observation (\"we\"/\"you\"); the \"I\" voice breaks hard rule 11.",
+     "Slide 8: \"The baby would've slept anywhere. The stroller was never for the baby. It was for the park.\" is a near-verbatim restatement of the cover (\"The expensive stroller isn't for the baby. It's for the society park.\") — a dead final slide that just repeats the cover's point instead of cashing in something new, which also means no real payoff."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 2,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "Slide 6 and 7: strip the \"I\" (\"took me longer to see\", \"I don't think it's vanity\") — this topic is marked lived:false, so keep it in \"we/you\" observation voice throughout, no first person.",
+     "Slide 8: don't just echo the cover line. Replace with an actual closer — a test the reader can run (e.g. checking what they'd buy if no one else would ever see it), or a line that pushes one step past 'it was for the park' rather than restating it.",
+     "Cover sub-line \"The baby sleeps through all of it. The other parents don't.\" gives away the close before slide 1 is even swiped — the whole post's reveal (baby asleep, park watching) is already spent. Cut it or replace with something that intrigues without naming the mechanism.",
+     "Slides 2, 5, and 8 all independently land \"the baby would be fine without it\" (shortlist/dupatta/slept anywhere) — pick one place to land this beat hard and let the others do different work, or it reads as the same point said three times.",
+     "Every detail so far is visual (brand name turned just so, the lift, the park loop). Give slide 3 one non-sight detail — the sound of the stroller wheels on the society's tiles, or the hush when the lift doors open — so the scene isn't only seen but felt."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Slide 6: \"Here's the part that took me longer to see.\" and Slide 7: \"And I don't think it's vanity.\" — this post's topic has lived:false, so it must stay pure observation (\"we\"/\"you\"); the \"I\" voice breaks hard rule 11.",
+    "Slide 8: \"The baby would've slept anywhere. The stroller was never for the baby. It was for the park.\" is a near-verbatim restatement of the cover (\"The expensive stroller isn't for the baby. It's for the society park.\") — a dead final slide that just repeats the cover's point instead of cashing in something new, which also means no real payoff.",
+    "Slide 6 and 7: strip the \"I\" (\"took me longer to see\", \"I don't think it's vanity\") — this topic is marked lived:false, so keep it in \"we/you\" observation voice throughout, no first person.",
+    "Slide 8: don't just echo the cover line. Replace with an actual closer — a test the reader can run (e.g. checking what they'd buy if no one else would ever see it), or a line that pushes one step past 'it was for the park' rather than restating it.",
+    "Cover sub-line \"The baby sleeps through all of it. The other parents don't.\" gives away the close before slide 1 is even swiped — the whole post's reveal (baby asleep, park watching) is already spent. Cut it or replace with something that intrigues without naming the mechanism.",
+    "Slides 2, 5, and 8 all independently land \"the baby would be fine without it\" (shortlist/dupatta/slept anywhere) — pick one place to land this beat hard and let the others do different work, or it reads as the same point said three times.",
+    "Every detail so far is visual (brand name turned just so, the lift, the park loop). Give slide 3 one non-sight detail — the sound of the stroller wheels on the society's tiles, or the hush when the lift doors open — so the scene isn't only seen but felt."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "#9 (reads like a template, not a person): slide 6 \"Here's the part most parents miss.\" is a near word-for-word reuse of the benchmark post's \"Here's the part the city misses.\" — same scaffold, not this writer's own sentence.",
+     "#9 (reads like a template, not a person): slide 4 \"Call it the park premium.\" copies the exact \"Call it the [X]\" construction from the benchmark's \"Call it the arrival economy.\" Three slides in this post lean on benchmark scaffolding rather than finding the post's own shape, which is what makes it read assembled rather than written."
+    ],
+    "scores": {
+     "hook": 5,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 3,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "Slide 6: \"Here's the part most parents miss.\" — rewrite this transition in the post's own words; it's a direct lift of the benchmark post's \"Here's the part the city misses\" line and is the clearest sign this post was built off a template instead of written fresh.",
+     "Slide 4: \"Call it the park premium.\" — this is the exact \"Call it the [name]\" move from \"Call it the arrival economy\" in the benchmark. Keep the named mechanism (it's a good one) but land it with a different sentence shape so it doesn't read like a fill-in-the-blank.",
+     "Slide 3: \"Watch the evening loop in any gated society.\" echoes \"Watch how a first car actually gets bought\" almost beat for beat. Open the scene a different way — the account needs its own openers, not a recurring formula borrowed from one flagship post.",
+     "Once the three scaffold lines above are rewritten, check the post still reads as this topic's own voice and not a stroller-shaped copy of the car post — the mechanism (park premium / status signalling) is strong enough to carry a sentence structure that isn't recycled."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "#9 (reads like a template, not a person): slide 6 \"Here's the part most parents miss.\" is a near word-for-word reuse of the benchmark post's \"Here's the part the city misses.\" — same scaffold, not this writer's own sentence.",
+    "#9 (reads like a template, not a person): slide 4 \"Call it the park premium.\" copies the exact \"Call it the [X]\" construction from the benchmark's \"Call it the arrival economy.\" Three slides in this post lean on benchmark scaffolding rather than finding the post's own shape, which is what makes it read assembled rather than written.",
+    "Slide 6: \"Here's the part most parents miss.\" — rewrite this transition in the post's own words; it's a direct lift of the benchmark post's \"Here's the part the city misses\" line and is the clearest sign this post was built off a template instead of written fresh.",
+    "Slide 4: \"Call it the park premium.\" — this is the exact \"Call it the [name]\" move from \"Call it the arrival economy\" in the benchmark. Keep the named mechanism (it's a good one) but land it with a different sentence shape so it doesn't read like a fill-in-the-blank.",
+    "Slide 3: \"Watch the evening loop in any gated society.\" echoes \"Watch how a first car actually gets bought\" almost beat for beat. Open the scene a different way — the account needs its own openers, not a recurring formula borrowed from one flagship post.",
+    "Once the three scaffold lines above are rewritten, check the post still reads as this topic's own voice and not a stroller-shaped copy of the car post — the mechanism (park premium / status signalling) is strong enough to carry a sentence structure that isn't recycled."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 5,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "Cover sub \"The one that costs more than your phone.\" repeats word-for-word in slide 3: \"The stroller that costs more than your phone.\" Keep the comparison in slide 3 only (where it's earned by the park scene) and cut it from the sub, or swap the sub for a different, non-repeating line.",
+     "Cover sub \"For a passenger who can't even talk.\" gives away the irony the post spends slides 2-4 building to (the baby's total indifference). Replace it with a plainer stakes line that doesn't preview the payoff, e.g. something about the evening walk itself.",
+     "Slide 7 (\"The park isn't really judging you... It's just as scared as you are\") and slide 8 (\"And it isn't vanity... the single decision you got visibly right\") make the same move twice: both exist to say the driver is anxiety, not judgment. Fold them into one slide so the post doesn't stall right before the test.",
+     "Slide 3's overheard line (\"we went for the imported one, folds with one hand\") is the sharpest insider detail in the post. Slide 6's list of unused gear (nursing pillow, white noise machine, diaper bag) is just a list — give it one similarly specific overheard or seen moment instead of naming objects, to keep the insider texture consistent through the middle of the post."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not verify: 'Most baby gear bought is outgrown before the credit card bill for it is paid off.'. Cut it, or state it only if a source says it.",
+     "Wrong: 'There is an established term, 'the park premium,' for the markup parents pay on strollers to signal status to other parents.'. What's true: Stroller status-signaling is a real, widely covered phenomenon (ABC News called pricey strollers the new mom 'status symbol'; TikTok's 'Stroller Gate' debate; parents reporting judgment over brand/price at playgrounds), but there is no established term 'the park premium' for it in any dictionary, industry, academic or media source. The phenomenon exists; the named term does not.."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "The central argument: because babies only need a flat surface and someone warm nearby, while parents heavily research stroller brand, price and features unrelated to those needs, and other parents in the society park visibly evaluate and judge whose stroller is costliest, the expensive stroller functions as a status signal to other parents rather than a purchase made for the baby's actual needs.",
+      "sentence": "The expensive stroller isn't for the baby. It's for the society park. ... everyone in that park is measuring. Checking who got what. It says you're doing fine. You've arrived.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Half of the baby gear parents buy gets used only twice.",
+      "sentence": "And half the gear gets used twice.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Most baby gear bought is outgrown before the credit card bill for it is paid off.",
+      "sentence": "Most of it outgrown before the card bill clears.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "There is an established term, 'the park premium,' for the markup parents pay on strollers to signal status to other parents.",
+      "sentence": "There's a name for that markup: the park premium.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": "Surveys put it lower than a flat 'half used twice' but in the same picture: a UK iCandy survey of 1,000+ parents found 38% of parents had bought products they used only once, and 25-30% of specific items (cuddly toys, towels, shoes) went completely unused; a Babylist report found 52% of registry items end up deleted before purchase. The general picture — a very large share of baby gear sees minimal use — is right and roughly the right size.",
+      "sources": [
+       {
+        "url": "https://www.madeformums.com/news/most-unused-baby-products/",
+        "publisher": "MadeForMums (iCandy survey)",
+        "published_date": "2025-04-24",
+        "quote": "more than a third of parents (38%) had purchased products they had only used once... an average of £379 per parent spent on items used once or not at all",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "unverifiable",
+      "event_date": null,
+      "correct": "No survey, retailer or industry body pairs 'time to outgrow gear' against 'time to pay off a credit card bill' — this is a rhetorical comparison, not a tracked statistic. What is documented: baby gear is outgrown fast (big-ticket items like strollers, cribs, infant car seats are often outgrown within months) and roughly 31% of baby/kid items end up unused or no-longer-used, but no source measures this against credit-card payoff timelines, so the specific comparison can't be confirmed or debunked against real data.",
+      "sources": [
+       {
+        "url": "https://triplepundit.com/2025/baby-gear-group-rental-service/",
+        "publisher": "TriplePundit",
+        "published_date": "2025-01-01",
+        "quote": "parents in the United States discard about 100 million kids' and baby items each year worth around $4.5 billion... about 31 percent of those items no longer used or never used",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "contradicted",
+      "event_date": null,
+      "correct": "Stroller status-signaling is a real, widely covered phenomenon (ABC News called pricey strollers the new mom 'status symbol'; TikTok's 'Stroller Gate' debate; parents reporting judgment over brand/price at playgrounds), but there is no established term 'the park premium' for it in any dictionary, industry, academic or media source. The phenomenon exists; the named term does not.",
+      "sources": [
+       {
+        "url": "https://abcnews.go.com/Business/luxury-baby-strollers-mom-status-symbol/story?id=15191983",
+        "publisher": "ABC News",
+        "published_date": "2011-12-15",
+        "quote": "Luxury Baby Strollers: The New Mom 'Status Symbol'?",
+        "tier": 2
+       },
+       {
+        "url": "https://www.thebump.com/news/stroller-gate",
+        "publisher": "The Bump",
+        "published_date": "2024-01-01",
+        "quote": "a viral TikTok debate called 'Stroller Gate' explores whether strollers have become the new parenting status symbol",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. The one factual-sounding premise — that the baby's real needs are minimal ('a flat surface and someone warm nearby') — actually matches pediatric guidance (newborns need a lie-flat position to keep the airway and spine aligned), so it survives. Everything else in the argument is motive-reading and generalization about park life, which is opinion, not a falsifiable premise.",
+     "actual_mechanism": "Every stroller sold must clear the same mandatory safety standard regardless of price (ASTM F833 / 16 CFR 1227 in the US, EN 1888 in the EU, BIS IS norms in India), so the baby's genuine needs — a lie-flat recline for airway/spine, a working harness, brakes, no entrapment — are met at the cheapest compliant price point. A ₹20,000 pram is not safer or more suitable for the baby than a compliant budget lie-flat pram; the premium buys brand, materials, suspension feel, one-hand fold, boot-fit and resale value, which serve the parent, not the infant. So the claim that the extra spend answers something other than the baby's actual needs is factually sound.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.federalregister.gov/documents/2021/11/18/2021-25140/safety-standard-for-carriages-and-strollers",
+       "published_date": "2021-11-18",
+       "quote": "Safety Standard for Carriages and Strollers ... incorporates by reference ASTM F833 ... Every stroller sold must comply with the federal safety regulation at 16 CFR Part 1227 — a mandatory floor that applies regardless of price."
+      },
+      {
+       "url": "https://hellomockingbird.com/blogs/news/how-to-choose-a-newborn-safe-stroller-and-the-safety-features-that-actually-matter",
+       "published_date": "2024-01-01",
+       "quote": "A newborn needs a near-flat (lie-flat) position because they can't hold up their head, and slumping can compress the airway ... a lie-flat position keeps the spine and airway open."
+      }
+     ]
+    },
+    "text_hash": "72b92e17583be5710c6c05c3511bb5e5443c1f17",
+    "at": "2026-11-05T10:04:40.386971+00:00"
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Could not verify: 'Most baby gear bought is outgrown before the credit card bill for it is paid off.'. Cut it, or state it only if a source says it.",
+    "Wrong: 'There is an established term, 'the park premium,' for the markup parents pay on strollers to signal status to other parents.'. What's true: Stroller status-signaling is a real, widely covered phenomenon (ABC News called pricey strollers the new mom 'status symbol'; TikTok's 'Stroller Gate' debate; parents reporting judgment over brand/price at playgrounds), but there is no established term 'the park premium' for it in any dictionary, industry, academic or media source. The phenomenon exists; the named term does not.."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 5,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "Cover sub ('The one that costs more than your phone.') and slide 3 ('The stroller that costs more than your phone.') repeat the same line almost word for word. Keep it in one place only — cut it from the cover sub, or give slide 3 a different signal (a stroller brand's logo turned outward, the colour nobody else in the lift has) so nothing is said twice.",
+     "Slide 3's 'Down in the society park at seven' is a decorative invented specific — a stated hour that reads like a reported detail rather than texture. Cut it to 'Down in the society park, the strollers talk first' and let the scene carry the time of day on its own.",
+     "Slide 6 lists four items (nursing pillow, white noise machine, designer diaper bag, pram) — trim to the two sharpest and most universal (e.g. nursing pillow, white noise machine) so the slide reads as one sharp observation, not a checklist."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "verification": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Half of the baby gear parents buy gets used only twice.",
+      "sentence": "And half the gear gets used twice.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Parents buy expensive strollers not to meet the baby's actual needs but to signal status and competent parenting to other parents in the society park, because the baby has minimal needs (a flat surface, warmth) while the park is a space where parents visibly evaluate each other and seek proof against their own parenting insecurity",
+      "sentence": "Call it the park premium. The baby is just the passenger in it.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": "Surveys put it lower than a flat 'half used twice' but in the same picture: a UK iCandy survey of 1,000+ parents found 38% of parents had bought products they used only once, and 25-30% of specific items (cuddly toys, towels, shoes) went completely unused; a Babylist report found 52% of registry items end up deleted before purchase. The general picture — a very large share of baby gear sees minimal use — is right and roughly the right size.",
+      "sources": [
+       {
+        "url": "https://www.madeformums.com/news/most-unused-baby-products/",
+        "publisher": "MadeForMums (iCandy survey)",
+        "published_date": "2025-04-24",
+        "quote": "more than a third of parents (38%) had purchased products they had only used once... an average of £379 per parent spent on items used once or not at all",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "",
+     "actual_mechanism": "The post's factual anchors hold: premium prams genuinely run ₹17,000–25,000+ in India (Joie Pact Pro ~₹20,250, Chicco Best Friend Pro ~₹24,999), and pediatric guidance confirms a newborn's real requirement is a near-flat, reclined surface plus warmth and supervision — the features that drive stroller price (suspension, brand, one-hand fold, boot fit, resale value) serve the parent and the car, not any infant medical need, and babywearing in a wrap/carrier is an accepted alternative for the baby. The core claim — that the spend is for standing/reassurance among other parents rather than for the baby — is a reading of motive, which is opinion, not a falsifiable premise about how a product, price or market works. No factual premise about needs, pricing, or how strollers function is untrue.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.amazon.in/Strollers-Buggies-Prams-%E2%82%B920-000-%E2%82%B930/s?rh=n%3A1953480031%2Cp_36%3A2000000-3000000",
+       "published_date": "2026",
+       "quote": "In the ₹20,000-₹30,000 range... strollers like the Joie Pact Pro priced at ₹20,250 and Chicco Best Friend Pro at ₹24,999."
+      },
+      {
+       "url": "https://kidshealth.org/en/parents/products-strollers.html",
+       "published_date": "2026",
+       "quote": "Newborns need a near-flat (lie-flat) position because they can't hold up their head... newborns should ride fully reclined or in a bassinet — not sitting upright — until they have full head and neck control."
+      },
+      {
+       "url": "https://www.parnthub.com/2026/03/baby-carrier-safety-guide.html",
+       "published_date": "2026-03",
+       "quote": "A young newborn should be upright and inward facing, high and snug against the caregiver, with the face visible... back and neck supported."
+      }
+     ]
+    },
+    "text_hash": "9134d90a5d479bfdd2be2445c272bff337f69d06",
+    "at": "2026-11-05T10:08:13.836532+00:00"
+   }
+  }
+ ],
  "sources": [],
- "updated_at": "2026-11-05T06:16:00.615403+00:00"
+ "updated_at": "2026-11-05T10:11:59.612444+00:00",
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] The expensive stroller isn't for the baby. It's for the [society park].\nThe one that costs more than your phone. For a passenger who can't even talk.\n \n\n[slide 1] The expensive stroller isn't for the baby. It's for the society park.\nSwipe to read →\n\n[slide 2] You spent weeks on this one. Reviews, suspension, resale value, which fold fits the car boot.\nThe baby needs a flat surface and someone warm nearby. That's the whole list.\n\n[slide 3] Down in the society park at seven, the strollers talk first.\nThe stroller that costs more than your phone. The brand name turned just so. The parent who mentions, lightly, \"we went for the imported one, folds with one hand.\"\n\n[slide 4] You can hear the wheels on the society tiles before you see who's pushing. The baby inside has been asleep since the lift.\n\n[slide 5] The stroller is the first big thing you push into a crowd of other new parents. And everyone in that park is measuring. Checking who got what.\nIt says you're doing fine. You've arrived. You're the kind of parent who can.\nCall it the park premium. The baby is just the passenger in it.\n\n[slide 6] And half the gear gets used twice.\nThe nursing pillow, the white noise machine, the designer diaper bag, the pram that barely fits the lift.\nThe baby would've been just as happy in a dupatta tied across your chest.\n\n[slide 7] Stand in that park a few evenings and it flips.\nThe park isn't really judging you. It's just as scared as you are.\nEveryone's buying proof because nobody feels like they know what they're doing. The stroller is the receipt that says I've got this.\n\n[slide 8] And it isn't vanity.\nYou're running on no sleep, guessing at everything, and for once you can point at one thing and feel sure. The good stroller is the single decision you got visibly right.\n\n[slide 9] Try the test. Picture the same shortlist with no evening loop. No other parent ever seeing it.\nYou'd have grabbed the one that fits the boot and gone home.\n\n[end card] Open this again before you check out the ₹20,000 pram in your cart.\nSend to the new-parent friend who spent three weeks agonising over which stroller to buy.\n\n[caption] What's the one baby thing you bought for the park and told yourself was for the baby?\n\n[alt text] An eight-slide carousel arguing that new parents in gated societies buy expensive strollers to signal standing to other parents in the park, not for the baby, who sleeps through all of it. It ends on a test: picture the same stroller choice if no other parent would ever see it, and you'd have grabbed the one that fits the boot and gone home.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Half of the baby gear parents buy gets used only twice.",
+     "sentence": "And half the gear gets used twice.",
+     "type": "figure",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "Parents buy expensive strollers not to meet the baby's actual needs but to signal status and competent parenting to other parents in the society park, because the baby has minimal needs (a flat surface, warmth) while the park is a space where parents visibly evaluate each other and seek proof against their own parenting insecurity",
+     "sentence": "Call it the park premium. The baby is just the passenger in it.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "Half of the baby gear parents buy gets used only twice.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": "Surveys put it lower than a flat 'half used twice' but in the same picture: a UK iCandy survey of 1,000+ parents found 38% of parents had bought products they used only once, and 25-30% of specific items (cuddly toys, towels, shoes) went completely unused; a Babylist report found 52% of registry items end up deleted before purchase. The general picture — a very large share of baby gear sees minimal use — is right and roughly the right size.",
+   "sources": [
+    {
+     "url": "https://www.madeformums.com/news/most-unused-baby-products/",
+     "publisher": "MadeForMums (iCandy survey)",
+     "published_date": "2025-04-24",
+     "quote": "more than a third of parents (38%) had purchased products they had only used once... an average of £379 per parent spent on items used once or not at all",
+     "tier": 2
+    }
+   ]
+  },
+  "Most baby gear bought is outgrown before the credit card bill for it is paid off.": {
+   "id": "c3",
+   "verdict": "unverifiable",
+   "event_date": null,
+   "correct": "No survey, retailer or industry body pairs 'time to outgrow gear' against 'time to pay off a credit card bill' — this is a rhetorical comparison, not a tracked statistic. What is documented: baby gear is outgrown fast (big-ticket items like strollers, cribs, infant car seats are often outgrown within months) and roughly 31% of baby/kid items end up unused or no-longer-used, but no source measures this against credit-card payoff timelines, so the specific comparison can't be confirmed or debunked against real data.",
+   "sources": [
+    {
+     "url": "https://triplepundit.com/2025/baby-gear-group-rental-service/",
+     "publisher": "TriplePundit",
+     "published_date": "2025-01-01",
+     "quote": "parents in the United States discard about 100 million kids' and baby items each year worth around $4.5 billion... about 31 percent of those items no longer used or never used",
+     "tier": 2
+    }
+   ]
+  },
+  "There is an established term, 'the park premium,' for the markup parents pay on strollers to signal status to other parents.": {
+   "id": "c4",
+   "verdict": "contradicted",
+   "event_date": null,
+   "correct": "Stroller status-signaling is a real, widely covered phenomenon (ABC News called pricey strollers the new mom 'status symbol'; TikTok's 'Stroller Gate' debate; parents reporting judgment over brand/price at playgrounds), but there is no established term 'the park premium' for it in any dictionary, industry, academic or media source. The phenomenon exists; the named term does not.",
+   "sources": [
+    {
+     "url": "https://abcnews.go.com/Business/luxury-baby-strollers-mom-status-symbol/story?id=15191983",
+     "publisher": "ABC News",
+     "published_date": "2011-12-15",
+     "quote": "Luxury Baby Strollers: The New Mom 'Status Symbol'?",
+     "tier": 2
+    },
+    {
+     "url": "https://www.thebump.com/news/stroller-gate",
+     "publisher": "The Bump",
+     "published_date": "2024-01-01",
+     "quote": "a viral TikTok debate called 'Stroller Gate' explores whether strollers have become the new parenting status symbol",
+     "tier": 2
+    }
+   ]
+  },
+  "_skeptic": {
+   "95b9dc2a488f06811d3c4c3b5397be8ec3a6e85c": {
+    "holds": true,
+    "broken_premise": "None. The one factual-sounding premise — that the baby's real needs are minimal ('a flat surface and someone warm nearby') — actually matches pediatric guidance (newborns need a lie-flat position to keep the airway and spine aligned), so it survives. Everything else in the argument is motive-reading and generalization about park life, which is opinion, not a falsifiable premise.",
+    "actual_mechanism": "Every stroller sold must clear the same mandatory safety standard regardless of price (ASTM F833 / 16 CFR 1227 in the US, EN 1888 in the EU, BIS IS norms in India), so the baby's genuine needs — a lie-flat recline for airway/spine, a working harness, brakes, no entrapment — are met at the cheapest compliant price point. A ₹20,000 pram is not safer or more suitable for the baby than a compliant budget lie-flat pram; the premium buys brand, materials, suspension feel, one-hand fold, boot-fit and resale value, which serve the parent, not the infant. So the claim that the extra spend answers something other than the baby's actual needs is factually sound.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.federalregister.gov/documents/2021/11/18/2021-25140/safety-standard-for-carriages-and-strollers",
+      "published_date": "2021-11-18",
+      "quote": "Safety Standard for Carriages and Strollers ... incorporates by reference ASTM F833 ... Every stroller sold must comply with the federal safety regulation at 16 CFR Part 1227 — a mandatory floor that applies regardless of price."
+     },
+     {
+      "url": "https://hellomockingbird.com/blogs/news/how-to-choose-a-newborn-safe-stroller-and-the-safety-features-that-actually-matter",
+      "published_date": "2024-01-01",
+      "quote": "A newborn needs a near-flat (lie-flat) position because they can't hold up their head, and slumping can compress the airway ... a lie-flat position keeps the spine and airway open."
+     }
+    ]
+   },
+   "7d75597b9fb38b293a7f26d00ca8247a6a7a203f": {
+    "holds": true,
+    "broken_premise": "",
+    "actual_mechanism": "The post's factual anchors hold: premium prams genuinely run ₹17,000–25,000+ in India (Joie Pact Pro ~₹20,250, Chicco Best Friend Pro ~₹24,999), and pediatric guidance confirms a newborn's real requirement is a near-flat, reclined surface plus warmth and supervision — the features that drive stroller price (suspension, brand, one-hand fold, boot fit, resale value) serve the parent and the car, not any infant medical need, and babywearing in a wrap/carrier is an accepted alternative for the baby. The core claim — that the spend is for standing/reassurance among other parents rather than for the baby — is a reading of motive, which is opinion, not a falsifiable premise about how a product, price or market works. No factual premise about needs, pricing, or how strollers function is untrue.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.amazon.in/Strollers-Buggies-Prams-%E2%82%B920-000-%E2%82%B930/s?rh=n%3A1953480031%2Cp_36%3A2000000-3000000",
+      "published_date": "2026",
+      "quote": "In the ₹20,000-₹30,000 range... strollers like the Joie Pact Pro priced at ₹20,250 and Chicco Best Friend Pro at ₹24,999."
+     },
+     {
+      "url": "https://kidshealth.org/en/parents/products-strollers.html",
+      "published_date": "2026",
+      "quote": "Newborns need a near-flat (lie-flat) position because they can't hold up their head... newborns should ride fully reclined or in a bassinet — not sitting upright — until they have full head and neck control."
+     },
+     {
+      "url": "https://www.parnthub.com/2026/03/baby-carrier-safety-guide.html",
+      "published_date": "2026-03",
+      "quote": "A young newborn should be upright and inward facing, high and snug against the caregiver, with the face visible... back and neck supported."
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "72b92e17583be5710c6c05c3511bb5e5443c1f17": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not verify: 'Most baby gear bought is outgrown before the credit card bill for it is paid off.'. Cut it, or state it only if a source says it.",
+     "Wrong: 'There is an established term, 'the park premium,' for the markup parents pay on strollers to signal status to other parents.'. What's true: Stroller status-signaling is a real, widely covered phenomenon (ABC News called pricey strollers the new mom 'status symbol'; TikTok's 'Stroller Gate' debate; parents reporting judgment over brand/price at playgrounds), but there is no established term 'the park premium' for it in any dictionary, industry, academic or media source. The phenomenon exists; the named term does not.."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "The central argument: because babies only need a flat surface and someone warm nearby, while parents heavily research stroller brand, price and features unrelated to those needs, and other parents in the society park visibly evaluate and judge whose stroller is costliest, the expensive stroller functions as a status signal to other parents rather than a purchase made for the baby's actual needs.",
+      "sentence": "The expensive stroller isn't for the baby. It's for the society park. ... everyone in that park is measuring. Checking who got what. It says you're doing fine. You've arrived.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Half of the baby gear parents buy gets used only twice.",
+      "sentence": "And half the gear gets used twice.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Most baby gear bought is outgrown before the credit card bill for it is paid off.",
+      "sentence": "Most of it outgrown before the card bill clears.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "There is an established term, 'the park premium,' for the markup parents pay on strollers to signal status to other parents.",
+      "sentence": "There's a name for that markup: the park premium.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": "Surveys put it lower than a flat 'half used twice' but in the same picture: a UK iCandy survey of 1,000+ parents found 38% of parents had bought products they used only once, and 25-30% of specific items (cuddly toys, towels, shoes) went completely unused; a Babylist report found 52% of registry items end up deleted before purchase. The general picture — a very large share of baby gear sees minimal use — is right and roughly the right size.",
+      "sources": [
+       {
+        "url": "https://www.madeformums.com/news/most-unused-baby-products/",
+        "publisher": "MadeForMums (iCandy survey)",
+        "published_date": "2025-04-24",
+        "quote": "more than a third of parents (38%) had purchased products they had only used once... an average of £379 per parent spent on items used once or not at all",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "unverifiable",
+      "event_date": null,
+      "correct": "No survey, retailer or industry body pairs 'time to outgrow gear' against 'time to pay off a credit card bill' — this is a rhetorical comparison, not a tracked statistic. What is documented: baby gear is outgrown fast (big-ticket items like strollers, cribs, infant car seats are often outgrown within months) and roughly 31% of baby/kid items end up unused or no-longer-used, but no source measures this against credit-card payoff timelines, so the specific comparison can't be confirmed or debunked against real data.",
+      "sources": [
+       {
+        "url": "https://triplepundit.com/2025/baby-gear-group-rental-service/",
+        "publisher": "TriplePundit",
+        "published_date": "2025-01-01",
+        "quote": "parents in the United States discard about 100 million kids' and baby items each year worth around $4.5 billion... about 31 percent of those items no longer used or never used",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "contradicted",
+      "event_date": null,
+      "correct": "Stroller status-signaling is a real, widely covered phenomenon (ABC News called pricey strollers the new mom 'status symbol'; TikTok's 'Stroller Gate' debate; parents reporting judgment over brand/price at playgrounds), but there is no established term 'the park premium' for it in any dictionary, industry, academic or media source. The phenomenon exists; the named term does not.",
+      "sources": [
+       {
+        "url": "https://abcnews.go.com/Business/luxury-baby-strollers-mom-status-symbol/story?id=15191983",
+        "publisher": "ABC News",
+        "published_date": "2011-12-15",
+        "quote": "Luxury Baby Strollers: The New Mom 'Status Symbol'?",
+        "tier": 2
+       },
+       {
+        "url": "https://www.thebump.com/news/stroller-gate",
+        "publisher": "The Bump",
+        "published_date": "2024-01-01",
+        "quote": "a viral TikTok debate called 'Stroller Gate' explores whether strollers have become the new parenting status symbol",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. The one factual-sounding premise — that the baby's real needs are minimal ('a flat surface and someone warm nearby') — actually matches pediatric guidance (newborns need a lie-flat position to keep the airway and spine aligned), so it survives. Everything else in the argument is motive-reading and generalization about park life, which is opinion, not a falsifiable premise.",
+     "actual_mechanism": "Every stroller sold must clear the same mandatory safety standard regardless of price (ASTM F833 / 16 CFR 1227 in the US, EN 1888 in the EU, BIS IS norms in India), so the baby's genuine needs — a lie-flat recline for airway/spine, a working harness, brakes, no entrapment — are met at the cheapest compliant price point. A ₹20,000 pram is not safer or more suitable for the baby than a compliant budget lie-flat pram; the premium buys brand, materials, suspension feel, one-hand fold, boot-fit and resale value, which serve the parent, not the infant. So the claim that the extra spend answers something other than the baby's actual needs is factually sound.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.federalregister.gov/documents/2021/11/18/2021-25140/safety-standard-for-carriages-and-strollers",
+       "published_date": "2021-11-18",
+       "quote": "Safety Standard for Carriages and Strollers ... incorporates by reference ASTM F833 ... Every stroller sold must comply with the federal safety regulation at 16 CFR Part 1227 — a mandatory floor that applies regardless of price."
+      },
+      {
+       "url": "https://hellomockingbird.com/blogs/news/how-to-choose-a-newborn-safe-stroller-and-the-safety-features-that-actually-matter",
+       "published_date": "2024-01-01",
+       "quote": "A newborn needs a near-flat (lie-flat) position because they can't hold up their head, and slumping can compress the airway ... a lie-flat position keeps the spine and airway open."
+      }
+     ]
+    },
+    "text_hash": "72b92e17583be5710c6c05c3511bb5e5443c1f17",
+    "at": "2026-11-05T10:04:40.386971+00:00"
+   },
+   "9134d90a5d479bfdd2be2445c272bff337f69d06": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Half of the baby gear parents buy gets used only twice.",
+      "sentence": "And half the gear gets used twice.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Parents buy expensive strollers not to meet the baby's actual needs but to signal status and competent parenting to other parents in the society park, because the baby has minimal needs (a flat surface, warmth) while the park is a space where parents visibly evaluate each other and seek proof against their own parenting insecurity",
+      "sentence": "Call it the park premium. The baby is just the passenger in it.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": "Surveys put it lower than a flat 'half used twice' but in the same picture: a UK iCandy survey of 1,000+ parents found 38% of parents had bought products they used only once, and 25-30% of specific items (cuddly toys, towels, shoes) went completely unused; a Babylist report found 52% of registry items end up deleted before purchase. The general picture — a very large share of baby gear sees minimal use — is right and roughly the right size.",
+      "sources": [
+       {
+        "url": "https://www.madeformums.com/news/most-unused-baby-products/",
+        "publisher": "MadeForMums (iCandy survey)",
+        "published_date": "2025-04-24",
+        "quote": "more than a third of parents (38%) had purchased products they had only used once... an average of £379 per parent spent on items used once or not at all",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "",
+     "actual_mechanism": "The post's factual anchors hold: premium prams genuinely run ₹17,000–25,000+ in India (Joie Pact Pro ~₹20,250, Chicco Best Friend Pro ~₹24,999), and pediatric guidance confirms a newborn's real requirement is a near-flat, reclined surface plus warmth and supervision — the features that drive stroller price (suspension, brand, one-hand fold, boot fit, resale value) serve the parent and the car, not any infant medical need, and babywearing in a wrap/carrier is an accepted alternative for the baby. The core claim — that the spend is for standing/reassurance among other parents rather than for the baby — is a reading of motive, which is opinion, not a falsifiable premise about how a product, price or market works. No factual premise about needs, pricing, or how strollers function is untrue.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.amazon.in/Strollers-Buggies-Prams-%E2%82%B920-000-%E2%82%B930/s?rh=n%3A1953480031%2Cp_36%3A2000000-3000000",
+       "published_date": "2026",
+       "quote": "In the ₹20,000-₹30,000 range... strollers like the Joie Pact Pro priced at ₹20,250 and Chicco Best Friend Pro at ₹24,999."
+      },
+      {
+       "url": "https://kidshealth.org/en/parents/products-strollers.html",
+       "published_date": "2026",
+       "quote": "Newborns need a near-flat (lie-flat) position because they can't hold up their head... newborns should ride fully reclined or in a bassinet — not sitting upright — until they have full head and neck control."
+      },
+      {
+       "url": "https://www.parnthub.com/2026/03/baby-carrier-safety-guide.html",
+       "published_date": "2026-03",
+       "quote": "A young newborn should be upright and inward facing, high and snug against the caregiver, with the face visible... back and neck supported."
+      }
+     ]
+    },
+    "text_hash": "9134d90a5d479bfdd2be2445c272bff337f69d06",
+    "at": "2026-11-05T10:08:13.836532+00:00"
+   }
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "The expensive stroller isn't for the baby. It's for the [society park].",
+   "sub": "The one that costs more than your phone. For a passenger who can't even talk."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "The expensive stroller isn't for the baby. It's for the society park.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "Did I just do this? Show me."
+   },
+   {
+    "paragraphs": [
+     "You spent weeks on this one. Reviews, suspension, resale value, which fold fits the car boot.",
+     "The baby needs a flat surface and someone warm nearby. That's the whole list."
+    ],
+    "why_swipe": "So who was all that research actually for?"
+   },
+   {
+    "paragraphs": [
+     "Down in the society park at seven, the strollers talk first.",
+     "The stroller that costs more than your phone. The brand name turned just so. The parent who mentions, lightly, \"we went for the imported one, folds with one hand.\""
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "You can hear the wheels on the society tiles before you see who's pushing. The baby inside has been asleep since the lift."
+    ],
+    "why_swipe": "If the baby's asleep, who's the show for?"
+   },
+   {
+    "paragraphs": [
+     "The stroller is the first big thing you push into a crowd of other new parents. And everyone in that park is measuring. Checking who got what.",
+     "It says you're doing fine. You've arrived. You're the kind of parent who can.",
+     "**Call it the park premium.** The baby is just the passenger in it."
+    ],
+    "why_swipe": "What does this cost me beyond the stroller?"
+   },
+   {
+    "paragraphs": [
+     "And half the gear gets used twice.",
+     "The nursing pillow, the white noise machine, the designer diaper bag, the pram that barely fits the lift.",
+     "The baby would've been just as happy in a dupatta tied across your chest."
+    ],
+    "why_swipe": "If the park is judging me, why does everyone keep buying more?"
+   },
+   {
+    "paragraphs": [
+     "Stand in that park a few evenings and it flips.",
+     "The park isn't really judging you. It's just as scared as you are.",
+     "Everyone's buying proof because nobody feels like they know what they're doing. The stroller is the receipt that says I've got this."
+    ],
+    "why_swipe": "So is wanting the good one actually wrong?"
+   },
+   {
+    "paragraphs": [
+     "And it isn't vanity.",
+     "You're running on no sleep, guessing at everything, and for once you can point at one thing and feel sure. The good stroller is the single decision you got visibly right."
+    ],
+    "why_swipe": "Then what's the honest version of this?"
+   },
+   {
+    "paragraphs": [
+     "Try the test. Picture the same shortlist with no evening loop. No other parent ever seeing it.",
+     "**You'd have grabbed the one that fits the boot and gone home.**"
+    ],
+    "why_swipe": null
+   }
+  ],
+  "end": {
+   "save": "Open this again before you check out the ₹20,000 pram in your cart.",
+   "send": "Send to the new-parent friend who spent three weeks agonising over which stroller to buy.",
+   "promise": "How status really gets sold to Indians."
+  },
+  "caption": "What's the one baby thing you bought for the park and told yourself was for the baby?",
+  "hashtags": [
+   "#NewParents",
+   "#GatedSociety",
+   "#BabyGear",
+   "#StatusSpending"
+  ],
+  "alt_text": "An eight-slide carousel arguing that new parents in gated societies buy expensive strollers to signal standing to other parents in the park, not for the baby, who sleeps through all of it. It ends on a test: picture the same stroller choice if no other parent would ever see it, and you'd have grabbed the one that fits the boot and gone home.",
+  "claims": [],
+  "caption_style": "question"
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Half of the baby gear parents buy gets used only twice.",
+    "sentence": "And half the gear gets used twice.",
+    "type": "figure",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "Parents buy expensive strollers not to meet the baby's actual needs but to signal status and competent parenting to other parents in the society park, because the baby has minimal needs (a flat surface, warmth) while the park is a space where parents visibly evaluate each other and seek proof against their own parenting insecurity",
+    "sentence": "Call it the park premium. The baby is just the passenger in it.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c1": {
+    "id": "c2",
+    "verdict": "supported",
+    "event_date": null,
+    "correct": "Surveys put it lower than a flat 'half used twice' but in the same picture: a UK iCandy survey of 1,000+ parents found 38% of parents had bought products they used only once, and 25-30% of specific items (cuddly toys, towels, shoes) went completely unused; a Babylist report found 52% of registry items end up deleted before purchase. The general picture — a very large share of baby gear sees minimal use — is right and roughly the right size.",
+    "sources": [
+     {
+      "url": "https://www.madeformums.com/news/most-unused-baby-products/",
+      "publisher": "MadeForMums (iCandy survey)",
+      "published_date": "2025-04-24",
+      "quote": "more than a third of parents (38%) had purchased products they had only used once... an average of £379 per parent spent on items used once or not at all",
+      "tier": 2
+     }
+    ]
+   }
+  },
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "",
+   "actual_mechanism": "The post's factual anchors hold: premium prams genuinely run ₹17,000–25,000+ in India (Joie Pact Pro ~₹20,250, Chicco Best Friend Pro ~₹24,999), and pediatric guidance confirms a newborn's real requirement is a near-flat, reclined surface plus warmth and supervision — the features that drive stroller price (suspension, brand, one-hand fold, boot fit, resale value) serve the parent and the car, not any infant medical need, and babywearing in a wrap/carrier is an accepted alternative for the baby. The core claim — that the spend is for standing/reassurance among other parents rather than for the baby — is a reading of motive, which is opinion, not a falsifiable premise about how a product, price or market works. No factual premise about needs, pricing, or how strollers function is untrue.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://www.amazon.in/Strollers-Buggies-Prams-%E2%82%B920-000-%E2%82%B930/s?rh=n%3A1953480031%2Cp_36%3A2000000-3000000",
+     "published_date": "2026",
+     "quote": "In the ₹20,000-₹30,000 range... strollers like the Joie Pact Pro priced at ₹20,250 and Chicco Best Friend Pro at ₹24,999."
+    },
+    {
+     "url": "https://kidshealth.org/en/parents/products-strollers.html",
+     "published_date": "2026",
+     "quote": "Newborns need a near-flat (lie-flat) position because they can't hold up their head... newborns should ride fully reclined or in a bassinet — not sitting upright — until they have full head and neck control."
+    },
+    {
+     "url": "https://www.parnthub.com/2026/03/baby-carrier-safety-guide.html",
+     "published_date": "2026-03",
+     "quote": "A young newborn should be upright and inward facing, high and snug against the caregiver, with the face visible... back and neck supported."
+    }
+   ]
+  },
+  "text_hash": "9134d90a5d479bfdd2be2445c272bff337f69d06",
+  "at": "2026-11-05T10:08:13.836532+00:00"
+ }
 }
