@@ -1,75 +1,186 @@
 [
  {
-  "due": "2026-11-05T20:30:00+05:30",
+  "due": "2026-11-15T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "The farewell email",
-   "claim": "The nicest things your company will ever say about you are in replies to your farewell email.",
-   "moment": "'Will miss you so much, you were the backbone of this team' from someone who never replied to your messages.",
+   "title": "The clubhouse sells the flat, not you",
+   "claim": "The swimming pool in the brochure was built to sell the flat at a higher rate, not for you to swim in.",
+   "moment": "You pay maintenance every month for a pool, a gym and a mini theatre, and you've used the lift.",
    "turn": {
-    "believed": "Farewell praise is finally honest.",
-    "actually": "Praise is free once you're leaving, because it can no longer cost anyone a rating or a raise."
+    "believed": "Amenities add to your life in the society.",
+    "actually": "Amenities add to the price per square foot, and you pay for them in maintenance forever."
    },
-   "because": "While you stay, praise has to be paid for in money and promotions. On your last day it costs nothing.",
-   "payoff": "If they only called you the backbone on your way out, they knew it all along.",
+   "feeling": "Like I'm paying rent on a lifestyle I never lived.",
+   "villain": "Builders who price flats on amenity lists.",
+   "story_type": "teaching",
+   "because": "A long amenity list lets the builder charge more for the same flat. Once the flats are sold, the running cost is passed to residents.",
+   "payoff": "Before you buy, ask what the maintenance will be in five years, and which amenities you'll use more than once a month.",
    "lived": false,
-   "behaviour": "Colleagues reply-all with warm tributes to someone whose appraisal they rated average.",
-   "mechanism": "Praise has a price only while it can turn into a raise.",
-   "group": "Anyone who has switched jobs at least once",
-   "territory": "business_brands",
-   "mood": "funny",
-   "format_name": "saturday_single",
-   "send_to": "The friend serving notice period right now.",
-   "format_hint": "single",
-   "why_now": "Job-switch season is constant, and everyone has read or written one of these recently.",
+   "behaviour": "Builders advertise pools, clubhouses and jogging tracks; residents pay high maintenance for facilities few use.",
+   "mechanism": "Amenities raise the sale price, then running costs pass to buyers.",
+   "group": "First-time flat buyers in their late 20s and early 30s",
+   "territory": "money_status",
+   "mood": "sharp",
+   "format_name": "price_tells",
+   "send_to": "The couple currently visiting sample flats every weekend.",
+   "format_hint": "carousel",
+   "why_now": "Flat prices keep rising, and amenities are part of how builders justify the jump.",
    "needs_facts": false,
    "news_peg": null,
    "evidence": [],
-   "id": "2026-11-021757-032",
+   "id": "2026-11-050912-036",
    "score": {
-    "rank": 3,
-    "why": "Farewell praise is free because it can no longer cost a rating or a raise. It's dry, human and shareable.",
+    "rank": 4,
+    "why": "You pay maintenance on a pool you've never used. Amenities set the price per square foot.",
+    "scores": {
+     "relatable": 4,
+     "fresh_angle": 5,
+     "shareable": 4,
+     "saveable": 4,
+     "because": 5
+    },
+    "format_fit": "carousel"
+   }
+  }
+ },
+ {
+  "due": "2026-11-17T20:30:00+05:30",
+  "format": "carousel",
+  "topic": {
+   "title": "Stories are posted for one viewer",
+   "claim": "Half the stories we post aren't for our followers; they're for one person, and the viewer list is how we check.",
+   "moment": "You post a sunset story and open it four times in an hour to see if they've seen it.",
+   "turn": {
+    "believed": "We post stories to share our day.",
+    "actually": "We post them to send a message without sending a message."
+   },
+   "feeling": "Caught, because this is exactly what I did last night.",
+   "villain": "A feature that shows you exactly who watched.",
+   "story_type": "objection",
+   "because": "The viewer list turns posting into a way to check on someone. It's safer than texting, because you never have to admit you cared.",
+   "payoff": "Look at your last five stories and ask who each one was really for.",
+   "lived": false,
+   "behaviour": "People post stories and repeatedly check the viewer list for specific names.",
+   "mechanism": "Seeing who viewed gives a safe signal without direct contact.",
+   "group": "Instagram users in their 20s",
+   "territory": "creators_internet",
+   "mood": "funny",
+   "format_name": "feed_anthropology",
+   "send_to": "The friend who posted a very specific song story after a breakup.",
+   "format_hint": "single",
+   "why_now": "Stories are now how most people stay in touch, more than posts or texts.",
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-11-050912-044",
+   "score": {
+    "rank": 5,
+    "why": "Stories posted for one person, and the viewer list is the check. Caught-in-the-act humour with a real turn.",
     "scores": {
      "relatable": 5,
      "fresh_angle": 4,
      "shareable": 5,
      "saveable": 3,
-     "because": 5
+     "because": 4
     },
     "format_fit": "single"
    }
   }
  },
  {
-  "due": "2026-11-08T20:30:00+05:30",
+  "due": "2026-11-18T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "Never say 'wedding'",
-   "claim": "Every family planning a wedding learns to call it a 'small family function' on the phone, because the word wedding changes the quote.",
-   "moment": "Your cousin calls the caterer and says 'just a get-together, around 150 people'.",
-   "turn": {
-    "believed": "Vendors charge more because weddings are more work.",
-    "actually": "Vendors charge more because families won't bargain on the most emotional day of their lives."
-   },
-   "because": "People don't want to look cheap at a wedding, and vendors know it. The word itself signals a buyer who won't walk away.",
-   "payoff": "If saying one word adds a lakh, the lakh was never for the work.",
-   "lived": true,
-   "behaviour": "Families hide the occasion while booking venues, decor and photographers to get normal rates.",
-   "mechanism": "Vendors price on how little the buyer will push back, and wedding buyers push back least.",
-   "group": "Young adults helping plan their own or a sibling's wedding",
+   "title": "The offer letter and the rent receipt",
+   "claim": "Your CTC is a number you brag about, but the real salary is whatever is left after the landlord, and in big cities that is a much smaller number.",
+   "behaviour": "We compare offers by the monthly figure and the designation, then find out in the first week that the flat near the office eats most of it. By the third week we are counting every rupee and calling it 'the price of the city'.",
+   "mechanism": "Companies compete on the number that fits in an offer letter, while the biggest cost sits outside it, in a rent market no HR team controls. The landlord collects the raise the recruiter announced.",
+   "group": "Salaried people aged 24 to 32 moving to Mumbai, Delhi NCR or Bengaluru for a first or second job",
    "territory": "money_status",
-   "mood": "funny",
-   "format_name": "family_ledger",
-   "send_to": "The sibling who is booking the venue next month.",
-   "format_hint": "single",
-   "why_now": "Wedding season is on, and every family is calling vendors right now.",
-   "needs_facts": false,
+   "mood": "sharp",
+   "format_name": "price_tells",
+   "moment": "You accept the offer, open a property app that night, and the happy feeling drops a little with every listing.",
+   "turn": {
+    "believed": "A bigger salary means a better life in a bigger city.",
+    "actually": "Past a point, a raise only changes who you pay it to. The city takes it first, and you get the leftover."
+   },
+   "feeling": "cheated by a number that looked like progress",
+   "villain": "a rent market that prices housing off the salaries companies announce",
+   "story_type": "teaching",
+   "because": "Landlords price rents against what young professionals in the area earn, so every salary hike gets priced into the next rent. Employers still sell the offer as the number, since that is the part they control.",
+   "proof": [
+    {
+     "fact": "Knight Frank data for H1 2026 shows Mumbai Metropolitan Region and NCR above 50% of household income going to home-loan EMIs.",
+     "source_url": "https://www.freepressjournal.in/lifestyle/is-rent-becoming-the-biggest-dealbreaker-for-young-professionals",
+     "date": "2026-10-21"
+    }
+   ],
+   "lived": false,
+   "payoff": "Before you say yes to any offer, subtract the rent of a flat you would actually live in. Whatever is left is the real offer.",
+   "send_to": "The friend who just got an offer in Mumbai or Gurgaon and is only talking about the hike.",
+   "format_hint": "carousel",
+   "real_details": [
+    "An HR head said, 'For Gen Z and millennials, the offer letter now has to be read alongside the rent receipt.'"
+   ],
+   "evidence": [
+    {
+     "url": "https://www.freepressjournal.in/lifestyle/is-rent-becoming-the-biggest-dealbreaker-for-young-professionals",
+     "sub": "news",
+     "rank": 50
+    }
+   ],
+   "news_peg": "Report on young professionals weighing job offers against housing costs, 2026-10-21, with Knight Frank H1 2026 data on EMI share of income",
+   "why_now": "Offer season, Diwali bonuses and new-year job switches are all coming, and the rent question decides every one of them.",
+   "counterintuitive": false,
+   "needs_facts": true,
+   "id": "2026-11-050912-017",
+   "score": {
+    "rank": 7,
+    "why": "The real offer is the CTC minus the rent of a flat you'd actually live in. A reader lives this when they accept a job.",
+    "scores": {
+     "relatable": 5,
+     "fresh_angle": 4,
+     "shareable": 4,
+     "saveable": 4,
+     "because": 4
+    },
+    "format_fit": "carousel"
+   }
+  }
+ },
+ {
+  "due": "2026-11-20T20:30:00+05:30",
+  "format": "carousel",
+  "topic": {
+   "title": "Re-releases are selling the hall, not the film",
+   "claim": "Old films doing well on re-release isn't nostalgia; the theatre has become the outing and the film is just the reason to go.",
+   "moment": "Your friends book tickets for a film you've all watched on your phone, just to shout the dialogues together.",
+   "turn": {
+    "believed": "People go to re-releases because they miss old films.",
+    "actually": "They're paying for the crowd and the shared night, which no OTT app can sell."
+   },
+   "feeling": "Happy, because it means the cinema hall isn't dead after all.",
+   "villain": "OTT apps that made watching alone the default.",
+   "story_type": "objection",
+   "because": "Once every film is on your phone, the only thing worth paying for is watching with a room full of people. A known film is a safe bet for that.",
+   "payoff": "Expect studios to plan re-releases like events, with dates, merch and fan shows, not as afterthoughts.",
+   "lived": false,
+   "behaviour": "Audiences book re-release shows of familiar films, often in groups, and treat them like events.",
+   "mechanism": "When content is everywhere, the shared experience becomes the product.",
+   "group": "Film fans aged 22 to 32 in cities",
+   "territory": "pop_culture",
+   "mood": "warm",
+   "format_name": "feed_anthropology",
+   "send_to": "The friend who's always organising group movie plans.",
+   "format_hint": "carousel",
+   "why_now": "Re-releases keep showing up in theatre listings, and some are doing better than new films.",
+   "needs_facts": "That some re-releases, like Tumbbad in 2024, earned more on re-release than on their first run.",
    "news_peg": null,
    "evidence": [],
-   "id": "2026-11-021757-038",
+   "id": "2026-11-050912-041",
    "score": {
-    "rank": 4,
-    "why": "Calling a wedding a 'get-together' to dodge the quote. It's a family arrangement nobody names, and the closing line stings.",
+    "rank": 6,
+    "why": "Re-releases sell the crowd, not the film. A good-side take with a prediction.",
     "scores": {
      "relatable": 4,
      "fresh_angle": 4,
@@ -77,122 +188,65 @@
      "saveable": 3,
      "because": 4
     },
-    "format_fit": "single"
+    "format_fit": "carousel"
    }
   }
  },
  {
-  "due": "2026-11-09T20:30:00+05:30",
+  "due": "2026-11-21T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "The handwritten note printed in lakhs",
-   "claim": "The 'note from our founder' in the box is the cheapest part of the packaging and the part that sells the next order.",
-   "moment": "You open a D2C parcel and find a cursive card that says 'Made with love, just for you'.",
-   "turn": {
-    "believed": "It's a personal touch from a small brand.",
-    "actually": "It's a printed card that makes a factory product feel like a gift from a person."
-   },
-   "because": "People forgive a higher price when they feel they know who made it. A card costs a few rupees and buys that feeling.",
-   "payoff": "Try this: read the note from your last two D2C orders side by side.",
-   "lived": false,
-   "behaviour": "D2C brands add founder notes and thank-you cards; buyers post unboxings and reorder.",
-   "mechanism": "A small story lets a brand charge for a feeling instead of the product.",
-   "group": "Online shoppers who buy from D2C brands",
+   "title": "Your quick-commerce price is yours alone",
+   "claim": "The discount on your quick-commerce app is not a gift, it is a bill the company pays to keep your habit alive.",
+   "behaviour": "You open the app for one item, find a cheap deal or a special store, and end up ordering twice a week. Two people in the same building may be shown different prices.",
+   "mechanism": "The app loses money on each order to make ordering from it automatic. Once you stop comparing, the discounts can shrink.",
+   "group": "Urban young professionals who order groceries on quick-commerce apps",
    "territory": "business_brands",
-   "mood": "funny",
-   "format_name": "behind_the_brand",
-   "send_to": "The friend who keeps every cute card from every parcel.",
-   "format_hint": "carousel",
-   "why_now": "Almost every D2C brand now ships with the same kind of personal-touch insert.",
-   "needs_facts": false,
-   "news_peg": null,
-   "evidence": [],
-   "id": "2026-11-021757-041",
-   "score": {
-    "rank": 7,
-    "why": "The founder note card is a few rupees of printing that sells the next order. It's a behind-the-brand view of what D2C is selling.",
-    "scores": {
-     "relatable": 4,
-     "fresh_angle": 4,
-     "shareable": 4,
-     "saveable": 3,
-     "because": 4
-    },
-    "format_fit": "carousel"
-   }
-  }
- },
- {
-  "due": "2026-11-10T20:30:00+05:30",
-  "format": "carousel",
-  "topic": {
-   "title": "Kinder to the laid off than the promoted",
-   "claim": "LinkedIn is kinder to someone who lost a job than to someone who got promoted, and both posts tell you something about us.",
-   "moment": "An 'open to work' post gets 400 warm comments; a promotion post gets 30 likes and a few 'congrats bro'.",
-   "turn": {
-    "believed": "People online love success stories.",
-    "actually": "Sympathy is easy to give, while cheering for someone's win quietly makes us measure our own."
-   },
-   "because": "Helping someone who is down makes us feel generous. Clapping for someone ahead of us makes us feel behind. The good part is real though: the referrals that follow a layoff post often work.",
-   "payoff": "Notice whose good news you scrolled past this week. That's the honest list of who you compare yourself to.",
-   "lived": false,
-   "behaviour": "People flood layoff posts with support and referrals but skim past promotions.",
-   "mechanism": "Support costs nothing to our ego, praise for a peer does.",
-   "group": "Professionals active on LinkedIn",
-   "territory": "creators_internet",
-   "mood": "mixed",
-   "format_name": "feed_anthropology",
-   "send_to": "The friend who just posted 'open to work' and felt embarrassed about it.",
-   "format_hint": "carousel",
-   "why_now": "Layoffs and AI-led role cuts keep these posts in everyone's feed.",
-   "needs_facts": false,
-   "news_peg": null,
-   "evidence": [],
-   "id": "2026-11-021757-045",
-   "score": {
-    "rank": 8,
-    "why": "LinkedIn gives more warmth to a layoff than to a promotion. It's mixed feelings with a real turn about how we measure ourselves.",
-    "scores": {
-     "relatable": 4,
-     "fresh_angle": 4,
-     "shareable": 4,
-     "saveable": 3,
-     "because": 4
-    },
-    "format_fit": "carousel"
-   }
-  }
- },
- {
-  "due": "2026-11-25T20:30:00+05:30",
-  "format": "carousel",
-  "topic": {
-   "title": "We read the EMI, not the loan",
-   "claim": "We'll compare two apps for twenty minutes over ₹40, then sign a home loan where a longer tenure quietly adds lakhs.",
-   "moment": "The bank says 'we can bring the EMI down if we stretch it to 25 years' and everyone at the table relaxes.",
-   "turn": {
-    "believed": "A lower EMI means the loan got cheaper.",
-    "actually": "A longer tenure usually means far more interest overall, and the bank earns more from it."
-   },
-   "because": "We feel the EMI every month, but the total interest is a number we never see on one screen. Banks sell the comfortable monthly figure.",
-   "payoff": "Before you sign, ask for the total you'll pay over the full loan. Then decide if the low EMI still feels good.",
-   "lived": false,
-   "behaviour": "Buyers pick longer tenures to fit EMIs; banks offer tenure stretches as a favour.",
-   "mechanism": "Monthly comfort hides the total cost, which is where the bank earns.",
-   "group": "First-time home buyers, late 20s to early 30s",
-   "territory": "money_status",
    "mood": "dark_pattern",
-   "format_name": "price_tells",
-   "send_to": "The couple in your life who is about to book their first flat.",
+   "format_name": "behind_the_brand",
+   "moment": "You open the app for milk and leave with a snack, a face wash and a Rs 9 deal you did not plan for.",
+   "turn": {
+    "believed": "Cheap deals mean the app is being generous.",
+    "actually": "Discounts are a habit-building cost, and the price you see can depend on who the app thinks you are."
+   },
+   "feeling": "managed, as if someone is steering the cart",
+   "villain": "a growth model that buys habits with discounts before it earns profit",
+   "story_type": "teaching",
+   "because": "The app wants you back after you lapse. A low price for you and a normal price for someone else is cheaper than a blanket offer.",
+   "proof": [
+    {
+     "fact": "Discounts including brand-funded ones were 29% of Instamart's order value, up from 26% in June.",
+     "source_url": "https://www.businesstoday.in/latest/corporate/story/swiggys-discount-dilemma-is-back-focus-on-growth-or-profitability-563694-2026-10-26",
+     "date": "2026-10-26"
+    },
+    {
+     "fact": "About 100 basis points of gross order value went into targeted investments, including a Rs 9 store and customer-group-specific pricing, to win back lapsed users.",
+     "source_url": "https://www.businesstoday.in/latest/corporate/story/swiggys-discount-dilemma-is-back-focus-on-growth-or-profitability-563694-2026-10-26",
+     "date": "2026-10-26"
+    }
+   ],
+   "lived": false,
+   "payoff": "Test: open the app after a week away. If it is suddenly generous, it noticed you were gone.",
+   "send_to": "The friend who says they 'only order what's cheap' on the app.",
    "format_hint": "carousel",
-   "why_now": "With flats costing a decade or more of salary, longer loans are becoming the default.",
-   "needs_facts": false,
-   "news_peg": null,
-   "evidence": [],
-   "id": "2026-11-021757-043",
+   "real_details": [
+    "Instamart's adjusted EBITDA loss widened to Rs 895 crore from Rs 778 crore"
+   ],
+   "evidence": [
+    {
+     "url": "https://www.businesstoday.in/latest/corporate/story/swiggys-discount-dilemma-is-back-focus-on-growth-or-profitability-563694-2026-10-26",
+     "sub": "news",
+     "rank": 7
+    }
+   ],
+   "news_peg": "Swiggy September quarter results on Instamart discounts, reported 2026-10-26",
+   "why_now": "Results this month show the discount machine running harder, not softer.",
+   "counterintuitive": true,
+   "needs_facts": true,
+   "id": "2026-11-050912-007",
    "score": {
     "rank": 9,
-    "why": "We compare apps over ₹40 and then take the low EMI of a longer loan. It's a dark pattern with a test the reader can run before signing.",
+    "why": "The quick-commerce discount is a habit-building bill, and the price depends on who the app thinks you are. Test: open the app after a week away.",
     "scores": {
      "relatable": 4,
      "fresh_angle": 4,
@@ -201,6 +255,94 @@
      "because": 4
     },
     "format_fit": "carousel"
+   }
+  }
+ },
+ {
+  "due": "2026-11-23T20:30:00+05:30",
+  "format": "carousel",
+  "topic": {
+   "title": "We binge it and forget its name",
+   "claim": "Dropping a full season at once made us finish shows faster and forget them faster; the shows people still talk about are the ones they waited for.",
+   "moment": "You finish a whole series over a weekend and a month later can't remember what it was called.",
+   "turn": {
+    "believed": "Binge release is better because you get everything at once.",
+    "actually": "Without the weekly wait, a show never gets weeks of chat around it, so it fades."
+   },
+   "feeling": "Empty, like I ate a whole packet and didn't taste it.",
+   "villain": "Release models built to make people subscribe and finish fast.",
+   "story_type": "vision",
+   "because": "Platforms want you to finish and stay subscribed, not to discuss. But talk is what makes a show last, and talk needs gaps.",
+   "payoff": "Think of the last three shows you binged. Now think of one you waited a week for. Which one do you still quote?",
+   "lived": false,
+   "behaviour": "Viewers binge whole seasons in a weekend and rarely discuss them afterwards.",
+   "mechanism": "Fast release removes the time that conversation needs.",
+   "group": "OTT subscribers in their 20s and early 30s",
+   "territory": "pop_culture",
+   "mood": "mixed",
+   "format_name": "feed_anthropology",
+   "send_to": "The friend who recommended a show you can't remember finishing.",
+   "format_hint": "carousel",
+   "why_now": "Some platforms are moving back to weekly episodes, and it changes how shows are remembered.",
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-11-050912-043",
+   "score": {
+    "rank": 8,
+    "why": "Binge release means finishing shows and forgetting them. The talk that makes a show last needs gaps.",
+    "scores": {
+     "relatable": 4,
+     "fresh_angle": 4,
+     "shareable": 4,
+     "saveable": 3,
+     "because": 4
+    },
+    "format_fit": "carousel"
+   }
+  }
+ },
+ {
+  "due": "2026-11-24T20:30:00+05:30",
+  "format": "carousel",
+  "topic": {
+   "title": "The friend who settles up in an hour",
+   "claim": "The friend who pays you back on UPI within an hour isn't being petty about money; they're telling you they don't want money between you.",
+   "moment": "Dinner ends, someone posts the split, and one friend has paid before the cab arrives.",
+   "turn": {
+    "believed": "Settling up fast means a person is fussy about money.",
+    "actually": "It's often the most generous habit in the group, because it protects the friendship."
+   },
+   "feeling": "Relieved, and a little guilty about the ₹600 I still owe someone.",
+   "villain": "Small unpaid amounts that slowly turn into resentment.",
+   "story_type": "values",
+   "because": "Small debts nobody mentions grow into quiet grudges. Paying fast removes the thing nobody wants to bring up.",
+   "payoff": "Check your UPI history. Who in your group has never made you ask twice? Keep them.",
+   "lived": false,
+   "behaviour": "Friends split bills on apps or in chat, and some pay instantly while others wait for reminders.",
+   "mechanism": "Quick repayment removes awkwardness before it can grow.",
+   "group": "Friend groups in their 20s splitting dinners and trips",
+   "territory": "life_relationships",
+   "mood": "warm",
+   "format_name": "feed_anthropology",
+   "send_to": "The friend who always pays first, so they know someone noticed.",
+   "format_hint": "single",
+   "why_now": "Trips and dinners are split to the rupee now, so these habits are on display.",
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-11-050912-035",
+   "score": {
+    "rank": 10,
+    "why": "The warm side: the friend who pays back fast is protecting the friendship. Sendable to that exact friend.",
+    "scores": {
+     "relatable": 4,
+     "fresh_angle": 4,
+     "shareable": 5,
+     "saveable": 2,
+     "because": 4
+    },
+    "format_fit": "single"
    }
   }
  },
@@ -208,136 +350,40 @@
   "due": "2026-11-26T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "Dropped on Friday, forgotten by Wednesday",
-   "claim": "The show everyone binged on the weekend is forgotten by midweek, and the platform is mostly fine with that.",
-   "moment": "Friday it's all your group chat talks about; by Wednesday nobody remembers the lead's name.",
+   "title": "The gym is built for people who won't come",
+   "claim": "Gyms push the annual plan hard because their business works best if most of the members who paid never show up.",
+   "moment": "The trainer says 'one year is basically half price' and you sign up on January 3rd feeling like a new person.",
    "turn": {
-    "believed": "A show flops when people stop talking about it.",
-    "actually": "Platforms often measure signups and watch hours in the first days, not how long a show stays in conversation."
+    "believed": "The yearly plan is a discount for committed people.",
+    "actually": "It's money paid upfront by people the gym expects to stop coming."
    },
-   "because": "Dropping every episode at once pulls people in for one weekend. Weekly releases keep a show alive longer, which is why big shows lately come out in parts.",
-   "payoff": "The shows you still quote years later were almost all ones you had to wait for.",
+   "feeling": "Guilty every time I pass the gym, and they're happy I feel that way.",
+   "villain": "Upfront annual memberships sold on future motivation.",
+   "story_type": "teaching",
+   "because": "A gym can only fit so many people. It sells far more memberships than it has space for, betting that most won't come.",
+   "payoff": "Pay monthly for three months. If you still go, the annual plan is a discount. If not, you just saved nine months.",
    "lived": false,
-   "behaviour": "Platforms release full seasons at once; viewers binge and move on.",
-   "mechanism": "Platforms reward a weekend spike more than slow, lasting talk.",
-   "group": "OTT viewers in their 20s and 30s",
-   "territory": "pop_culture",
-   "mood": "mixed",
-   "format_name": "feed_anthropology",
-   "send_to": "The friend who finishes a season in one night and then has nobody to discuss it with.",
-   "format_hint": "carousel",
-   "why_now": "More big shows are switching between full drops and split releases.",
-   "needs_facts": false,
-   "news_peg": null,
-   "evidence": [],
-   "id": "2026-11-021757-050",
-   "score": {
-    "rank": 10,
-    "why": "Weekend binge, forgotten by Wednesday, and the platform is fine with that. It's pop culture seen from the seller's side.",
-    "scores": {
-     "relatable": 4,
-     "fresh_angle": 4,
-     "shareable": 4,
-     "saveable": 3,
-     "because": 4
-    },
-    "format_fit": "carousel"
-   }
-  }
- },
- {
-  "due": "2026-11-27T20:30:00+05:30",
-  "format": "carousel",
-  "topic": {
-   "title": "The badge swipe is the real KPI",
-   "claim": "Three mandatory office days have little to do with collaboration and a lot to do with managers who can't measure work, so they measure presence.",
-   "moment": "You commute ninety minutes to sit on Teams calls with people on the same floor.",
-   "turn": {
-    "believed": "Return to office is about culture and teamwork.",
-    "actually": "Swiping in is the easiest thing to count, and a counted thing feels like control."
-   },
-   "because": "Judging output takes effort and judgment. A badge report lands on the HR dashboard by itself, and an empty floor looks bad to the people paying the lease.",
-   "payoff": "If the meeting could happen from home, the office day was for someone else's spreadsheet.",
-   "lived": false,
-   "behaviour": "Companies track swipe-ins and link them to appraisals; employees come in, sit on calls, and leave after the minimum hours.",
-   "mechanism": "Presence is easier to measure than output, so presence becomes the metric.",
-   "group": "Hybrid office workers in metros",
-   "territory": "business_brands",
-   "mood": "rant",
+   "behaviour": "Gyms offer steep annual discounts and push hardest in January and after Diwali.",
+   "mechanism": "Upfront money from members who drop off pays for the few who stay.",
+   "group": "Young working people trying to get fit",
+   "territory": "money_status",
+   "mood": "funny",
    "format_name": "behind_the_brand",
-   "send_to": "The colleague who also took a call in the office stairwell because every room was booked.",
-   "format_hint": "carousel",
-   "why_now": "More firms keep tightening office mandates and linking attendance to reviews.",
+   "send_to": "The friend who has paid for a gym membership for the last three years in a row.",
+   "format_hint": "single",
+   "why_now": "Wellness spending is up, and annual plans are being pushed harder than ever.",
    "needs_facts": false,
    "news_peg": null,
    "evidence": [],
-   "id": "2026-11-021757-029",
+   "id": "2026-11-050912-034",
    "score": {
-    "rank": 11,
-    "why": "Three office days mean managers count presence because output is hard to measure. It's a rant most readers have lived.",
+    "rank": 12,
+    "why": "The annual gym plan is money from people the gym expects to stop coming. The trap is the guilt you feel at the gate.",
     "scores": {
      "relatable": 5,
      "fresh_angle": 4,
-     "shareable": 5,
-     "saveable": 3,
-     "because": 4
-    },
-    "format_fit": "carousel"
-   }
-  }
- },
- {
-  "due": "2026-11-28T20:30:00+05:30",
-  "format": "carousel",
-  "topic": {
-   "title": "Reach is rented, not owned",
-   "claim": "Every Indian creator's income sits on land they do not own, and one bad week can cut it by two thirds.",
-   "behaviour": "Creator Raghav Trivedi had eight videos taken down in 48 hours and says his reach fell from 100 million to 30 million in October. Creators say they fear re-uploading deleted videos risks further restrictions.",
-   "mechanism": "A creator's audience belongs to the platform, which can change its distribution or remove posts. Followers are a number the platform lends out.",
-   "group": "Creators and the people who depend on creator income aged 22 to 32",
-   "territory": "creators_internet",
-   "mood": "dark_pattern",
-   "format_name": "feed_anthropology",
-   "moment": "You see a creator you follow post 'please share, my reach is down' and you wonder what happened.",
-   "turn": {
-    "believed": "A big following is an asset you own.",
-    "actually": "It is a lease that the platform can renegotiate without telling you."
-   },
-   "because": "Platforms moderate at scale, often automatically, and the person affected has little way to argue. The risk lands entirely on the creator.",
-   "proof": [
-    {
-     "fact": "SFLC.in recorded 268 content restrictions and 83 account restrictions across Meta platforms, X, Reddit and YouTube in October, with Instagram having the most, 174 posts and 59 accounts.",
-     "source_url": "https://thenewsminute.com/news/legal-requests-automated-takedowns-shrinking-reach-how-meta-is-restricting-content",
-     "date": "2026-11-01"
-    }
-   ],
-   "lived": false,
-   "payoff": "Test: if the platform vanished tomorrow, could you reach your audience by any other route? If not, it is not your audience.",
-   "send_to": "The friend who plans to quit a job to become a full-time creator.",
-   "format_hint": "single",
-   "real_details": [
-    "Raghav Trivedi has 772,000 followers"
-   ],
-   "evidence": [
-    {
-     "url": "https://thenewsminute.com/news/legal-requests-automated-takedowns-shrinking-reach-how-meta-is-restricting-content",
-     "sub": "news",
-     "rank": 27
-    }
-   ],
-   "news_peg": "Report on Instagram takedowns cutting creator reach, dated 2026-11-01",
-   "why_now": "Creators are talking openly about reach drops this month.",
-   "counterintuitive": true,
-   "needs_facts": false,
-   "id": "2026-11-021757-015",
-   "score": {
-    "rank": 17,
-    "why": "A following is a lease the platform can renegotiate, not an asset you own. It's the downside of the 'everyone is a brand' belief, with a test to run.",
-    "scores": {
-     "relatable": 4,
-     "fresh_angle": 4,
      "shareable": 4,
-     "saveable": 4,
+     "saveable": 3,
      "because": 4
     },
     "format_fit": "single"
@@ -345,63 +391,212 @@
   }
  },
  {
-  "due": "2026-11-29T20:30:00+05:30",
+  "due": "2026-11-27T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "The menu price goes up and nobody says why",
-   "claim": "Restaurants quietly pass on their gas bill with a small bump on the menu, and we call it inflation instead of asking.",
-   "behaviour": "A dish costs ₹20 more than last month and there is no notice. You assume the place is greedy or the world is expensive. The kitchen's cooking gas has gone up while the one in your home hasn't.",
-   "mechanism": "A restaurant can't send a bill for the cylinder, so the cost moves a rupee at a time into the menu. Small changes are less likely to make a customer leave than one big one.",
-   "group": "People who eat out or order in every week",
-   "territory": "business_brands",
-   "mood": "mixed",
-   "format_name": "behind_the_brand",
-   "moment": "You order your usual and the total is a little higher. You don't check why.",
+   "title": "Control looks like care in a small Lucknow show",
+   "claim": "The most uncomfortable thing about an anxious parent is that it looks exactly like love, and often it is both.",
+   "behaviour": "A parent who calls five times, checks the route and asks where you are is not being nosy in their own mind. They are afraid, and the fear gets handled as rules.",
+   "mechanism": "Fear is easier to act on than to say, so it becomes questions and limits. The child hears control, and the parent means safety, and neither is fully wrong.",
+   "group": "Young adults who still live with or talk daily to anxious parents",
+   "territory": "life_relationships",
+   "mood": "warm",
+   "format_name": "saturday_single",
+   "moment": "Your phone buzzes with a 'reached?' text while you are still standing at the gate.",
    "turn": {
-    "believed": "Menu prices go up because restaurants are greedy.",
-    "actually": "Some of it is a real cost, passed on in pieces small enough that we don't push back."
+    "believed": "Strict, worried parents just want to control us.",
+    "actually": "Much of that control is fear in a form that is easier to carry than saying 'I am scared to lose you'."
    },
-   "because": "A business protects its margin without announcing it. We keep paying because a ₹20 change is easier to accept than to question.",
+   "feeling": "misunderstood, and a little guilty for being irritated",
+   "villain": "a family habit of turning fear into rules because nobody is taught the words for it",
+   "story_type": "objection",
+   "because": "Parents with no one else to share worries with tend to pour them into the child's daily routine. The child pays for that in freedom, and the parent pays in sleep.",
    "proof": [
     {
-     "fact": "The 19 kg commercial cylinder is ₹2,810 in Delhi, while the 14.2 kg domestic cylinder is ₹942 in Delhi and has been unchanged since June 7, 2026. Many restaurants have raised menu prices.",
-     "source_url": "https://www.goodreturns.in/news/gas-cylinder-new-rules-in-november-2026-big-changes-likely-for-indane-gas-hp-gas-bharat-gas-diwali-1542483.html",
-     "date": "2026-10-19"
+     "fact": "Reviewer Rahul Desai says Matargashti explores grief, distance between parent and child, and how control can look like care.",
+     "source_url": "https://www.hollywoodreporterindia.com/reviews/streaming/matargashti-series-review-a-warm-and-watchable-father-daughter-comedy",
+     "date": "2026-10-22"
     }
    ],
    "lived": false,
-   "payoff": "Your home cylinder price stayed put while your biryani didn't. Notice who is carrying the gas bill.",
-   "send_to": "The friend who complains about delivery prices and orders anyway.",
+   "payoff": "Next time the 'reached?' text comes, reply with one line before they ask. See how much of the control disappears.",
+   "send_to": "The friend who keeps complaining about their parent's calls and might not have noticed the fear behind them.",
    "format_hint": "single",
    "real_details": [
-    "Commercial LPG is ₹2,764.50 in Mumbai and ₹2,983 in Chennai",
-    "The article says price rises eventually reach consumers"
+    "Matargashti is a five-episode Netflix series set in Lucknow, with episodes under 25 minutes.",
+    "The review calls it warm and watchable, with a low-key take on girlhood."
    ],
    "evidence": [
     {
-     "url": "https://www.goodreturns.in/news/gas-cylinder-new-rules-in-november-2026-big-changes-likely-for-indane-gas-hp-gas-bharat-gas-diwali-1542483.html",
+     "url": "https://www.hollywoodreporterindia.com/reviews/streaming/matargashti-series-review-a-warm-and-watchable-father-daughter-comedy",
      "sub": "news",
-     "rank": 57
-    },
-    {
-     "url": "https://www.businesstoday.in/latest/economy/story/indias-retail-inflation-rises-to-5-54-in-september-food-inflation-hits-7-74-561057-2026-10-12",
-     "sub": "news",
-     "rank": 53
+     "rank": 48
     }
    ],
-   "news_peg": "Goodreturns report of 19 October 2026 on commercial LPG at ₹2,810 in Delhi and restaurants raising menu prices",
-   "why_now": "Diwali and winter mean more eating out, just as menus are getting repriced.",
+   "news_peg": "Netflix series Matargashti reviewed 2026-10-22",
+   "why_now": "Many people are heading home for Diwali, which is when the 'reached?' calls and the arguments both peak.",
    "counterintuitive": false,
-   "needs_facts": true,
-   "id": "2026-11-021757-023",
+   "needs_facts": false,
+   "id": "2026-11-050912-022",
+   "score": {
+    "rank": 16,
+    "why": "The 'reached?' text is fear dressed up as control. Affectionate family take, with a small thing to try.",
+    "scores": {
+     "relatable": 5,
+     "fresh_angle": 4,
+     "shareable": 4,
+     "saveable": 3,
+     "because": 3
+    },
+    "format_fit": "single"
+   }
+  }
+ },
+ {
+  "due": "2026-11-28T20:30:00+05:30",
+  "format": "carousel",
+  "topic": {
+   "title": "Memes only work when somebody else starts them",
+   "claim": "A brand that posts its own meme templates is asking you to laugh on cue, and that is why it fails.",
+   "behaviour": "Film teams and brands drop ready-made meme templates, then wait for people to use them. When a meme starts on its own, the brand jumps in within days with puns.",
+   "mechanism": "A meme feels funny because it came from the crowd. When the brand hands out the template, it shows the joke was planned and the crowd is staff.",
+   "group": "Instagram and X users who can smell a planned viral moment",
+   "territory": "creators_internet",
+   "mood": "funny",
+   "format_name": "feed_anthropology",
+   "moment": "You see a brand's post that says 'make your own memes' and you scroll on.",
+   "turn": {
+    "believed": "Brands go viral by being funny.",
+    "actually": "Brands go viral by arriving late to someone else's joke. Making the joke yourself rarely works."
+   },
+   "feeling": "talked down to, like a target",
+   "villain": "the engagement metric that rewards brands for forcing a joke",
+   "story_type": "teaching",
+   "because": "A social team is judged on reach, so they push templates. Real memes come free and the brand only borrows them.",
+   "proof": [
+    {
+     "fact": "The film's official X handle posted meme templates made from the trailer ahead of its November 5 release. Many users said memes are the wrong tool for a story people hold in reverence.",
+     "source_url": "https://www.m9.news/bollywood/ramayana-meme-controversy-trailer-backlash/",
+     "date": "2026-10-26"
+    }
+   ],
+   "lived": false,
+   "payoff": "If you need to hand people the template, it's an ad.",
+   "send_to": "The friend who works in social media and hates the 'make it viral' brief",
+   "format_hint": "carousel",
+   "real_details": [
+    "Gowardhan posted a video about the ghee meme and Zomato joined in with Saif-themed puns on delivery bags"
+   ],
+   "evidence": [
+    {
+     "url": "https://www.m9.news/bollywood/ramayana-meme-controversy-trailer-backlash/",
+     "sub": "news",
+     "rank": 32
+    },
+    {
+     "url": "https://www.socialsamosa.com/samosa-snippets/october-2026-features-conversations-beyond-social-media-social-cause-12767647",
+     "sub": "news",
+     "rank": 30
+    }
+   ],
+   "news_peg": "Ramayana makers' meme templates backlash, 26 October 2026, and the Saif ghee meme brand pile-on, 30 October 2026",
+   "why_now": "The film releases on 5 November and the ghee meme is the month's biggest.",
+   "counterintuitive": false,
+   "needs_facts": false,
+   "id": "2026-11-050912-013",
    "score": {
     "rank": 13,
-    "why": "The restaurant gas bill is passed on in ₹20 bumps while the home cylinder stays put. It's a mixed take with a real cost behind it.",
+    "why": "A brand handing out meme templates is an ad. Brands go viral by arriving late to someone else's joke.",
     "scores": {
      "relatable": 4,
      "fresh_angle": 4,
-     "shareable": 3,
+     "shareable": 4,
      "saveable": 3,
+     "because": 4
+    },
+    "format_fit": "carousel"
+   }
+  }
+ },
+ {
+  "due": "2026-11-29T20:30:00+05:30",
+  "format": "carousel",
+  "topic": {
+   "title": "Opening day is the marketing number, the week is the film",
+   "claim": "A film's first-day figure tells you how well it was sold, and the seventh day tells you how good it was.",
+   "behaviour": "We scroll past headlines about a film's opening as if they were its verdict, and many of us decide what to watch from them. Some films with a weak Day 1 grow over the weekend, and some with a big Day 1 are half empty by the end of the week.",
+   "mechanism": "Day 1 is bought with trailers, promotions and fan clubs, so it measures the budget for noise. Later days depend on whether people who watched told someone else.",
+   "group": "Regular movie-goers and people who follow box office numbers on social media",
+   "territory": "pop_culture",
+   "mood": "sharp",
+   "format_name": "saturday_single",
+   "moment": "You see a big opening number on your feed and assume the film is a hit, then hear nothing about it a week later.",
+   "turn": {
+    "believed": "A big opening means the film is good.",
+    "actually": "A big opening means the marketing worked. A film proves itself on the days nobody is promoting it."
+   },
+   "feeling": "tired of being sold a verdict before the film has earned it",
+   "villain": "a release system that celebrates opening day because that is the number marketing controls",
+   "story_type": "teaching",
+   "because": "Studios and stars gain from a loud Day 1, since it shapes how the film is talked about and sold on streaming. The slow days belong to the audience.",
+   "proof": [
+    {
+     "fact": "Ranabaali's Day 1 was ₹10.75 Cr, falling to ₹3.65 Cr on Day 7.",
+     "source_url": "https://www.sacnilk.com/news/vijay-deverakondas-ranabaali-crosses-52-cr-india-gross-in-week-1-but-can-it-avoid-a-box-office-loss",
+     "date": "2026-10-23"
+    },
+    {
+     "fact": "Udta Teer made ₹4.10 Cr India net on Friday 23 October at 13% occupancy; the film later grew over the weekend, and the 1 November roundup puts its cumulative India net at about ₹41–42 crore.",
+     "source_url": "https://www.sacnilk.com/news/ayushmann-khurranas-udta-teer-opens-at-410-cr-misses-his-top-5-openers-and-falls-83-short-of-all-time-best-thamma",
+     "date": "2026-10-24"
+    }
+   ],
+   "lived": false,
+   "payoff": "Next time, ignore the opening number and look at the seventh day. That is the figure nobody can buy.",
+   "send_to": "The friend who picks films by the box office headline and then complains the film was boring.",
+   "format_hint": "single",
+   "real_details": [
+    "Ramayana Part 1 opened on 5 November with a live estimate of ₹26.44 Cr India net at 2:03 PM IST.",
+    "The thread says Band Baaja Baaraat came out in 2010, when several big-star films were competing for audience attention.",
+    "YRF sold it mainly as an Anushka Sharma film, and Ranveer Singh was a newcomer making his Bollywood debut.",
+    "With no established male star, the film still became a sleeper hit, and the poster says people connected with the characters, story and vibe.",
+    "The poster asks whether the cause was the fresh concept, the lead pair's chemistry, YRF's marketing or word of mouth."
+   ],
+   "evidence": [
+    {
+     "url": "https://www.sacnilk.com/news/vijay-deverakondas-ranabaali-crosses-52-cr-india-gross-in-week-1-but-can-it-avoid-a-box-office-loss",
+     "sub": "news",
+     "rank": 45
+    },
+    {
+     "url": "https://www.sacnilk.com/news/ayushmann-khurranas-udta-teer-opens-at-410-cr-misses-his-top-5-openers-and-falls-83-short-of-all-time-best-thamma",
+     "sub": "news",
+     "rank": 46
+    },
+    {
+     "url": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Box_Office_Collection_Day_1",
+     "sub": "news",
+     "rank": 43
+    },
+    {
+     "url": "https://www.reddit.com/r/bollywood/comments/1x8sjmf/how_did_band_baaja_baaraat_become_a_sleeper_hit/",
+     "sub": "bollywood",
+     "rank": 8
+    }
+   ],
+   "news_peg": "Ranabaali week 1 report on 2026-10-23 and Udta Teer opening on 2026-10-24, with Ramayana Part 1 releasing 2026-11-05",
+   "why_now": "Ramayana Part 1 opened today and every feed is shouting its Day 1 figure.",
+   "counterintuitive": true,
+   "needs_facts": true,
+   "id": "2026-11-050912-021",
+   "score": {
+    "rank": 14,
+    "why": "Day 1 shows how well a film was sold and day 7 shows how good it was. A rule people can use before picking a film.",
+    "scores": {
+     "relatable": 4,
+     "fresh_angle": 4,
+     "shareable": 4,
+     "saveable": 4,
      "because": 4
     },
     "format_fit": "single"
@@ -412,60 +607,54 @@
   "due": "2026-11-30T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "Diwali ads now sell the relief of not doing Diwali",
-   "claim": "This year's Diwali ads stopped selling the festival and started selling the errand you want to skip.",
-   "behaviour": "Zomato's film pushes restaurant hampers as gifts instead of towels, bedsheets and crockery. Instamart's film has a tired husband wearing a chandelier after a late-night party, ending with a delivery. Both ads sell the person who wants the work done for them.",
-   "mechanism": "Brands know the festival is now a to-do list for working people. The best pitch is the version where someone else does the list for a fee.",
-   "group": "Working couples and singles who run Diwali as a task list",
-   "territory": "business_brands",
-   "mood": "sharp",
-   "format_name": "behind_the_brand",
-   "moment": "It is the week before Diwali and your head has a list: gifts, decor, cleaning, sweets, and you are already tired.",
+   "title": "UPI feels free because someone else pays",
+   "claim": "UPI feels free to us because the cost sits with the shopkeeper, and the moment it moves, you will feel it too.",
+   "behaviour": "We scan and pay for everything, even tiny amounts, never thinking about who covers the cost. When a fee threatens the shopkeeper, the shop starts asking for cash or a small extra.",
+   "mechanism": "Someone always pays for a network, whether banks, merchants or customers. A 'free' system is one where the bill is hidden from the person with the most choices.",
+   "group": "Everyday UPI users who pay for petrol, shopping and small bills",
+   "territory": "money_status",
+   "mood": "prediction",
+   "format_name": "price_tells",
+   "moment": "You scan the QR at the petrol pump without thinking, because paying has stopped feeling like paying.",
    "turn": {
-    "believed": "Diwali ads are about family, light and togetherness.",
-    "actually": "The ads now compete to take over the chores around Diwali, and the gift itself is becoming something you order rather than choose."
+    "believed": "UPI is free, so it costs nobody anything.",
+    "actually": "The cost was always there, and shops are the ones pushing back before it reaches us."
    },
-   "because": "A platform earns by becoming your default for gifts and decor. If the film makes the chore look like the enemy, the delivery looks like love.",
+   "feeling": "a little uneasy that a habit we love has a hidden bill",
+   "villain": "a payment network whose costs are hidden from the people who use it most",
+   "story_type": "vision",
+   "because": "Banks and payment firms say they need to recover network costs. Merchants will pass any fee on to customers if they can.",
    "proof": [
     {
-     "fact": "Zomato's Diwali film with Saif Ali Khan pushes food hampers as gifts instead of towels, bedsheets and crockery.",
-     "source_url": "https://www.storyboard18.com/brand-marketing/zomato-launches-have-a-wow-diwali-campaign-with-saif-ali-khan-113798.htm",
-     "date": "2026-11-01"
-    },
-    {
-     "fact": "Swiggy's Instamart film skips lit-up homes and family gatherings, and a husband appears wearing a crystal chandelier to exaggerate his tiredness.",
-     "source_url": "https://www.storyboard18.com/brand-marketing/instamart-diwali-campaign-features-man-wearing-chandelier-to-promote-home-decor-113768.htm",
-     "date": "2026-10-31"
+     "fact": "NPCI put off a planned October 15 rollout of a 0.4% fee on eligible UPI merchant transactions above ₹2,000.",
+     "source_url": "https://techcrunch.com/2026/10/13/india-delays-digital-payments-fee-rollout-amid-retailer-pushback/",
+     "date": "2026-10-13"
     }
    ],
    "lived": false,
-   "payoff": "Watch the next Diwali ad and ask who is doing the work in it. If nobody is, you are the customer.",
-   "send_to": "The friend who spends Dhanteras week answering 'what do I even gift this year'.",
+   "payoff": "After Diwali, watch the counter. The first 'cash gives a discount' board will tell you where this is going.",
+   "send_to": "The friend who pays for everything by UPI and never carries cash.",
    "format_hint": "carousel",
    "real_details": [
-    "Zomato's film was made in-house",
-    "Instamart says its festive range covers linen, decor, cleaning supplies, electronics, appliances and beauty hampers"
+    "The fee will now start after Diwali with no new date given",
+    "Retailers and petrol pump operators opposed the fee, and some warned they could stop accepting UPI",
+    "fees on larger payments were capped at ₹300"
    ],
    "evidence": [
     {
-     "url": "https://www.storyboard18.com/brand-marketing/zomato-launches-have-a-wow-diwali-campaign-with-saif-ali-khan-113798.htm",
+     "url": "https://techcrunch.com/2026/10/13/india-delays-digital-payments-fee-rollout-amid-retailer-pushback/",
      "sub": "news",
-     "rank": 0
-    },
-    {
-     "url": "https://www.storyboard18.com/brand-marketing/instamart-diwali-campaign-features-man-wearing-chandelier-to-promote-home-decor-113768.htm",
-     "sub": "news",
-     "rank": 0
+     "rank": 1
     }
    ],
-   "news_peg": "Zomato and Instamart Diwali campaigns launched 2026-10-31 and 2026-11-01",
-   "why_now": "Diwali is days away and both ads are live.",
-   "counterintuitive": true,
-   "needs_facts": false,
-   "id": "2026-11-021757-002",
+   "news_peg": "NPCI postponed the 0.4% UPI merchant fee after retailer pushback, reported 2026-10-13",
+   "why_now": "The fee is only delayed until after Diwali, so the question returns within weeks.",
+   "counterintuitive": false,
+   "needs_facts": true,
+   "id": "2026-11-050912-009",
    "score": {
-    "rank": 15,
-    "why": "Diwali ads now sell taking over the chore, so the delivery looks like love. It's a sharp read on a campaign everyone saw, and it rests on two sourced facts.",
+    "rank": 17,
+    "why": "UPI feels free because the cost sits with the shopkeeper. The first 'cash discount' board shows where this is going.",
     "scores": {
      "relatable": 4,
      "fresh_angle": 4,
@@ -474,6 +663,67 @@
      "because": 4
     },
     "format_fit": "carousel"
+   }
+  }
+ },
+ {
+  "due": null,
+  "format": "spare",
+  "topic": {
+   "title": "The monthly toll pass is the expensive plan",
+   "claim": "The monthly plan is the one built for people who don't want to think about it, and that is what makes it the costly one.",
+   "behaviour": "We pick the small monthly payment because it hurts less today, even when a yearly option is much cheaper. It happens with toll passes, gym plans and streaming subscriptions.",
+   "mechanism": "A small recurring amount rarely gets reviewed, and inertia pays the seller for years. The yearly plan asks for thought and money upfront, so many people skip it even when it saves more.",
+   "group": "Daily commuters and people with a stack of subscriptions",
+   "territory": "money_status",
+   "mood": "funny",
+   "format_name": "saturday_single",
+   "moment": "You have paid the same small amount every month for so long that you have stopped looking at the number.",
+   "turn": {
+    "believed": "A monthly plan is the safe and flexible choice.",
+    "actually": "Monthly is the price of not paying attention. The seller earns from your habit, not your need."
+   },
+   "feeling": "slightly foolish, and wondering what else is on auto-pay",
+   "villain": "a subscription model that rewards the customer who stops checking",
+   "story_type": "objection",
+   "because": "Sellers earn more from the monthly option because most customers renew without comparing. Yearly options exist, but they require you to do the maths once.",
+   "proof": [
+    {
+     "fact": "From 1 November 2026, eligible private vehicle owners living within 20 km of a National Highway fee plaza can buy an annual FASTag local pass at ₹1,500 or ₹3,000, while the monthly local pass costs ₹360, or ₹4,320 a year, so the annual pass can save ₹2,820.",
+     "source_url": "https://www.businesstoday.in/amp/india/story/fastag-new-rules-from-november-1-who-can-apply-how-much-will-it-cost-and-more-564186-2026-10-28",
+     "date": "2026-10-28"
+    }
+   ],
+   "lived": false,
+   "payoff": "Open your auto-pay list tonight and check which ones you would sign up for again today. The rest are paying for your habit.",
+   "send_to": "The friend with seven subscriptions who says they 'barely notice' the charges.",
+   "format_hint": "single",
+   "real_details": [
+    "Living nearby does not automatically qualify you; the pass is not available on closed-toll expressways or where a service road exists."
+   ],
+   "evidence": [
+    {
+     "url": "https://www.businesstoday.in/amp/india/story/fastag-new-rules-from-november-1-who-can-apply-how-much-will-it-cost-and-more-564186-2026-10-28",
+     "sub": "news",
+     "rank": 49
+    }
+   ],
+   "news_peg": "Annual FASTag local pass rules effective 2026-11-01, reported 2026-10-28",
+   "why_now": "The new pass has just started, and it is a clear example of paying more to avoid thinking.",
+   "counterintuitive": true,
+   "needs_facts": true,
+   "id": "2026-11-050912-024",
+   "score": {
+    "rank": 19,
+    "why": "The monthly plan is the price of not paying attention. The auto-pay audit is a test readers will save.",
+    "scores": {
+     "relatable": 4,
+     "fresh_angle": 4,
+     "shareable": 4,
+     "saveable": 4,
+     "because": 4
+    },
+    "format_fit": "single"
    }
   }
  }

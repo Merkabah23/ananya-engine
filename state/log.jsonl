@@ -791,3 +791,24 @@
 {"at": "2026-11-05T06:53:18.281981+00:00", "stage": "writer", "msg": "2026-11-118 passed on attempt 3"}
 {"at": "2026-11-05T07:39:16.394297+00:00", "stage": "writer", "msg": "2026-11-123 attempt 1 failed: ['Rule 11 — \"I\" used in a post the topic marks as pure observation (lived: false): slide 7, \"And I don\\'t think it\\'s going behind their backs.\"', 'Slide 7: \"And I don\\'t think it\\'s going behind their backs.\" — topic says lived: false, so no first person. Rewrite as pure observation, e.g. \"This doesn\\'t read as going behind their backs\" or drop the hedge and state it as the account\\'s take without \"I\".']"}
 {"at": "2026-11-05T07:45:15.879142+00:00", "stage": "writer", "msg": "2026-11-123 passed on attempt 2"}
+{"at": "2026-11-05T09:03:25.140707+00:00", "stage": "produce", "msg": "ENGINE_PAUSED is set; only owner-approved drafts render (3)."}
+{"at": "2026-11-05T09:03:42.063835+00:00", "stage": "produce", "msg": "2026-11-118 ready: 10 slides, due 2026-11-05T20:30:00+05:30"}
+{"at": "2026-11-05T09:03:58.652036+00:00", "stage": "produce", "msg": "2026-11-123 ready: 9 slides, due 2026-11-06T20:30:00+05:30"}
+{"at": "2026-11-05T09:04:13.781625+00:00", "stage": "produce", "msg": "2026-11-125 ready: 9 slides, due 2026-11-12T20:30:00+05:30"}
+{"at": "2026-11-05T09:04:14.472821+00:00", "stage": "push", "msg": "2026-11-118 scheduled in Buffer for 2026-11-05T20:30:00+05:30"}
+{"at": "2026-11-05T09:04:14.853500+00:00", "stage": "push", "msg": "2026-11-123 scheduled in Buffer for 2026-11-06T20:30:00+05:30"}
+{"at": "2026-11-05T09:08:48.087991+00:00", "stage": "scout", "msg": "news scan: 60 items"}
+{"at": "2026-11-05T09:12:44.727932+00:00", "stage": "scout", "msg": "scout job 1: 9 topics"}
+{"at": "2026-11-05T09:12:44.728052+00:00", "stage": "scout", "msg": "scout job 2: 7 topics"}
+{"at": "2026-11-05T09:12:44.728127+00:00", "stage": "scout", "msg": "scout job 3: 8 topics"}
+{"at": "2026-11-05T09:12:44.728196+00:00", "stage": "scout", "msg": "scout job 4: 24 topics"}
+{"at": "2026-11-05T09:12:44.728349+00:00", "stage": "scout", "msg": "48 of 48 topics have a moment, a turn and a because"}
+{"at": "2026-11-05T09:12:57.333433+00:00", "stage": "scout", "msg": "48 candidate topics from 60 news items; 5 backed by Reddit threads"}
+{"at": "2026-11-05T09:13:20.119765+00:00", "stage": "filter", "msg": "selected 19 of 48 takes by the owner's taste"}
+{"at": "2026-11-05T09:13:52.054817+00:00", "stage": "filter", "msg": "2026-11-050912-037 dropped as already-seen: When interest rates go up, the bank keeps your EMI the same so you don't feel it"}
+{"at": "2026-11-05T09:13:52.054957+00:00", "stage": "filter", "msg": "2026-11-050912-046 dropped as already-seen: In health insurance, choosing a bigger hospital room doesn't just cost you the r"}
+{"at": "2026-11-05T09:13:52.055029+00:00", "stage": "filter", "msg": "2026-11-050912-045 dropped as already-seen: A ₹1 free trial isn't about the ₹1; it's about getting you to approve an autopay"}
+{"at": "2026-11-05T09:13:52.055104+00:00", "stage": "filter", "msg": "2026-11-050912-042 dropped as already-seen: The 'candid' airport photos of film stars are often the cheapest ad shoot in the"}
+{"at": "2026-11-05T09:13:52.055171+00:00", "stage": "filter", "msg": "2026-11-050912-023 dropped as already-seen: The household gas price hasn't moved in months, but the commercial cylinder has,"}
+{"at": "2026-11-05T09:13:52.055241+00:00", "stage": "filter", "msg": "2026-11-050912-002 dropped as already-seen: Brands shrink the packet before they raise the price, because you remember the n"}
+{"at": "2026-11-05T09:13:52.059777+00:00", "stage": "filter", "msg": "48 candidates -> 13 passed -> 13 planned for 2026-11"}

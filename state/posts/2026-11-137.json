@@ -1,0 +1,67 @@
+{
+ "id": "2026-11-137",
+ "status": "planned",
+ "due": "2026-11-30T20:30:00+05:30",
+ "format": "carousel",
+ "topic": {
+  "title": "UPI feels free because someone else pays",
+  "claim": "UPI feels free to us because the cost sits with the shopkeeper, and the moment it moves, you will feel it too.",
+  "behaviour": "We scan and pay for everything, even tiny amounts, never thinking about who covers the cost. When a fee threatens the shopkeeper, the shop starts asking for cash or a small extra.",
+  "mechanism": "Someone always pays for a network, whether banks, merchants or customers. A 'free' system is one where the bill is hidden from the person with the most choices.",
+  "group": "Everyday UPI users who pay for petrol, shopping and small bills",
+  "territory": "money_status",
+  "mood": "prediction",
+  "format_name": "price_tells",
+  "moment": "You scan the QR at the petrol pump without thinking, because paying has stopped feeling like paying.",
+  "turn": {
+   "believed": "UPI is free, so it costs nobody anything.",
+   "actually": "The cost was always there, and shops are the ones pushing back before it reaches us."
+  },
+  "feeling": "a little uneasy that a habit we love has a hidden bill",
+  "villain": "a payment network whose costs are hidden from the people who use it most",
+  "story_type": "vision",
+  "because": "Banks and payment firms say they need to recover network costs. Merchants will pass any fee on to customers if they can.",
+  "proof": [
+   {
+    "fact": "NPCI put off a planned October 15 rollout of a 0.4% fee on eligible UPI merchant transactions above ₹2,000.",
+    "source_url": "https://techcrunch.com/2026/10/13/india-delays-digital-payments-fee-rollout-amid-retailer-pushback/",
+    "date": "2026-10-13"
+   }
+  ],
+  "lived": false,
+  "payoff": "After Diwali, watch the counter. The first 'cash gives a discount' board will tell you where this is going.",
+  "send_to": "The friend who pays for everything by UPI and never carries cash.",
+  "format_hint": "carousel",
+  "real_details": [
+   "The fee will now start after Diwali with no new date given",
+   "Retailers and petrol pump operators opposed the fee, and some warned they could stop accepting UPI",
+   "fees on larger payments were capped at ₹300"
+  ],
+  "evidence": [
+   {
+    "url": "https://techcrunch.com/2026/10/13/india-delays-digital-payments-fee-rollout-amid-retailer-pushback/",
+    "sub": "news",
+    "rank": 1
+   }
+  ],
+  "news_peg": "NPCI postponed the 0.4% UPI merchant fee after retailer pushback, reported 2026-10-13",
+  "why_now": "The fee is only delayed until after Diwali, so the question returns within weeks.",
+  "counterintuitive": false,
+  "needs_facts": true,
+  "id": "2026-11-050912-009",
+  "score": {
+   "rank": 17,
+   "why": "UPI feels free because the cost sits with the shopkeeper. The first 'cash discount' board shows where this is going.",
+   "scores": {
+    "relatable": 4,
+    "fresh_angle": 4,
+    "shareable": 4,
+    "saveable": 3,
+    "because": 4
+   },
+   "format_fit": "carousel"
+  }
+ },
+ "history": [],
+ "updated_at": "2026-11-05T09:13:52.059419+00:00"
+}
