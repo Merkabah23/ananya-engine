@@ -1,6 +1,6 @@
 {
  "id": "2026-11-123",
- "status": "scheduled",
+ "status": "approved",
  "due": "2026-11-06T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -124,6 +124,9 @@
   },
   {
    "owner": "2026-11-05 17:47: replace the copied phrase (option a)"
+  },
+  {
+   "owner_edit": "2026-11-05 18:09 approved rewrite; owner deletes the Buffer copy"
   }
  ],
  "sources": [
@@ -134,7 +137,7 @@
    "excerpt": "nearly 70% of elderly Indians remain financially dependent"
   }
  ],
- "updated_at": "2026-11-05T12:21:34.278610+00:00",
+ "updated_at": "2026-11-05T12:44:44.724197+00:00",
  "draft": {
   "cover": {
    "headline": "There's a day you start talking to your parents [the way they talked to you].",
@@ -151,35 +154,42 @@
    },
    {
     "paragraphs": [
-     "\"Papa, aap tension mat lo. Main dekh lunga.\"",
-     "The same line he said to you before every exam, every fee, every hospital visit. Now it's yours."
+     "Here's something nobody prepares you for.",
+     "One day you hear yourself say \"Papa, aap tension mat lo, main dekh lunga.\" The exact line he used on you for twenty-five years. And it doesn't feel like a promotion. It feels like a handover nobody asked for."
+    ],
+    "why_swipe": "why now?"
+   },
+   {
+    "paragraphs": [
+     "See, our parents were built for a different India. One job, one bank, one family doctor, FDs and a passbook.",
+     "Then everything moved to a phone. OTPs, apps, insurance portals, hospital desks that want UPI. And whoever holds the phone ends up holding the family."
     ],
     "why_swipe": "how does it show?"
    },
    {
     "paragraphs": [
-     "You read their medical report before they do. You pay the hospital advance and call it covered. When papa asks \"kitna laga?\", you round it down."
-    ],
-    "why_swipe": "and between siblings?"
-   },
-   {
-    "paragraphs": [
-     "Between siblings, it's a whole system. A group your parents aren't in, where the hospital, the doctor and the money get decided.",
-     "Every one of those chats has typed it once: \"Don't tell them the full amount.\""
+     "This is why:\n- the medical report reaches the sibling group before it reaches them\n- the hospital advance gets paid, and called \"covered\"\n- \"kitna laga?\" gets a rounded-down number\n- every sibling chat has typed it once: \"Don't tell them the full amount.\""
     ],
     "why_swipe": "is it just us?"
    },
    {
     "paragraphs": [
-     "And it isn't just your family. 70% of elderly Indians depend on someone for money, most often their children.",
-     "Even insurers know it: \"health insurance for parents\" is sold to the kids."
+     "And it isn't just your family. 70% of elderly Indians depend on someone for money, mostly their children.",
+     "Insurers figured it out long ago. \"Health insurance for parents\" is sold to the kids, not the parents."
     ],
-    "why_swipe": "is that wrong?"
+    "why_swipe": "the hardest part"
    },
    {
     "paragraphs": [
-     "And yes, it looks like we're running their lives.",
-     "But watch them when you say \"sab set hai.\" They don't ask which hospital. Not because they can't. Because asking would mean admitting it flipped."
+     "The hardest part? Nobody took over. The roles flipped and nobody announced it.",
+     "Your parents noticed first. That's why they've stopped asking which hospital."
+    ],
+    "why_swipe": "is it wrong?"
+   },
+   {
+    "paragraphs": [
+     "And I don't think we're doing anything wrong. We carry it so they can sleep.",
+     "But let's at least call it what it is."
     ],
     "why_swipe": "the line"
    },
@@ -208,202 +218,239 @@
    }
   ]
  },
- "owner_ok": true,
  "verification_cache": {
   "_ledger": {
-   "text": "[cover] There's a day you start talking to your parents [the way they talked to you].\nNobody marks it. You just notice it later.\n \n\n[slide 1] There's a day you start talking to your parents the way they talked to you.\nSwipe to read →\n\n[slide 2] \"Papa, aap tension mat lo. Main dekh lunga.\"\nThe same line he said to you before every exam, every fee, every hospital visit. Now it's yours.\n\n[slide 3] You read their medical report before they do. You pay the hospital advance and call it covered. When papa asks \"kitna laga?\", you round it down.\n\n[slide 4] Between siblings, it's a whole system. A group your parents aren't in, where the hospital, the doctor and the money get decided.\nEvery one of those chats has typed it once: \"Don't tell them the full amount.\"\n\n[slide 5] And it isn't just your family. 70% of elderly Indians depend on someone for money, most often their children.\nEven insurers know it: \"health insurance for parents\" is sold to the kids.\n\n[slide 6] And yes, it looks like we're running their lives.\nBut watch them when you say \"sab set hai.\" They don't ask which hospital. Not because they can't. Because asking would mean admitting it flipped.\n\n[slide 7] The day you say \"main dekh lunga\" and papa doesn't argue, you've become his parent.\n\n[end card] Read it before the next \"don't tell them\" message.\nSend to your sibling in that chat.\n\n[caption] \"Papa, aap tension mat lo. Main dekh lunga.\" The line he said before every exam. Now it's yours.\n\nSend this to your sibling in that chat.\n\n[alt text] A carousel: There's a day you start talking to your parents the way they talked to you.",
+   "text": "[cover] There's a day you start talking to your parents [the way they talked to you].\nNobody marks it. You just notice it later.\n \n\n[slide 1] There's a day you start talking to your parents the way they talked to you.\nSwipe to read →\n\n[slide 2] Here's something nobody prepares you for.\nOne day you hear yourself say \"Papa, aap tension mat lo, main dekh lunga.\" The exact line he used on you for twenty-five years. And it doesn't feel like a promotion. It feels like a handover nobody asked for.\n\n[slide 3] See, our parents were built for a different India. One job, one bank, one family doctor, FDs and a passbook.\nThen everything moved to a phone. OTPs, apps, insurance portals, hospital desks that want UPI. And whoever holds the phone ends up holding the family.\n\n[slide 4] This is why:\n- the medical report reaches the sibling group before it reaches them\n- the hospital advance gets paid, and called \"covered\"\n- \"kitna laga?\" gets a rounded-down number\n- every sibling chat has typed it once: \"Don't tell them the full amount.\"\n\n[slide 5] And it isn't just your family. 70% of elderly Indians depend on someone for money, mostly their children.\nInsurers figured it out long ago. \"Health insurance for parents\" is sold to the kids, not the parents.\n\n[slide 6] The hardest part? Nobody took over. The roles flipped and nobody announced it.\nYour parents noticed first. That's why they've stopped asking which hospital.\n\n[slide 7] And I don't think we're doing anything wrong. We carry it so they can sleep.\nBut let's at least call it what it is.\n\n[slide 8] The day you say \"main dekh lunga\" and papa doesn't argue, you've become his parent.\n\n[end card] Read it before the next \"don't tell them\" message.\nSend to your sibling in that chat.\n\n[caption] \"Papa, aap tension mat lo. Main dekh lunga.\" The line he said before every exam. Now it's yours.\n\nSend this to your sibling in that chat.\n\n[alt text] A carousel: There's a day you start talking to your parents the way they talked to you.",
    "claims": [
     {
      "id": "c1",
-     "text": "When adult children begin speaking to their parents the way their parents once spoke to them (reassuring them, taking charge, saying 'don't worry, I've got it'), it signals that the child has effectively become the parent's caretaker/parent figure — a role reversal that happens gradually and is only noticed in hindsight.",
-     "sentence": "There's a day you start talking to your parents the way they talked to you. Nobody marks it. You just notice it later.",
-     "type": "mechanism",
+     "text": "70% of elderly Indians are financially dependent on someone else.",
+     "sentence": "70% of elderly Indians depend on someone for money, mostly their children.",
+     "type": "figure",
      "core": true,
      "framed_as": "timeless"
     },
     {
      "id": "c2",
-     "text": "70% of elderly Indians depend on someone else for money, most often their children.",
-     "sentence": "70% of elderly Indians depend on someone for money, most often their children.",
+     "text": "Among elderly Indians who are financially dependent, the majority depend specifically on their children.",
+     "sentence": "70% of elderly Indians depend on someone for money, mostly their children.",
      "type": "figure",
      "core": true,
      "framed_as": "timeless"
     },
     {
      "id": "c3",
-     "text": "Health insurance products for parents are marketed by insurers to the children rather than to the parents themselves.",
-     "sentence": "Even insurers know it: \"health insurance for parents\" is sold to the kids.",
+     "text": "Health insurance policies for elderly parents are marketed by insurers primarily to their adult children as the buyers, not to the parents themselves.",
+     "sentence": "Insurers figured it out long ago. \"Health insurance for parents\" is sold to the kids, not the parents.",
      "type": "feature",
-     "core": false,
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c4",
+     "text": "Because banking, insurance, and hospital payment systems have shifted from analog (passbooks, in-person, FDs) to digital (apps, OTPs, UPI) channels that parents are less equipped to use, the family member who controls digital/phone access ends up managing parents' financial and medical affairs, resulting in adult children effectively taking over a caregiving role that reverses the original parent-child dynamic.",
+     "sentence": "our parents were built for a different India... Then everything moved to a phone... whoever holds the phone ends up holding the family... The roles flipped and nobody announced it.",
+     "type": "mechanism",
+     "core": true,
      "framed_as": "timeless"
     }
    ]
   },
-  "70% of elderly Indians depend on someone else for money, most often their children.": {
-   "id": "c2",
+  "70% of elderly Indians are financially dependent on someone else.": {
+   "id": "c1",
    "verdict": "supported",
    "event_date": "2025-08-02",
+   "correct": null,
    "sources": [
     {
      "url": "https://www.outlookmoney.com/retirement/news/around-70-of-elderly-in-india-are-financially-dependent-many-work-after-retirement-to-survive-report",
      "publisher": "Outlook Money",
      "published_date": "2025-08-02",
-     "quote": "Nearly 70 per cent of India's elderly population remains financially dependent, with many continuing to work post-retirement to survive",
+     "quote": "Nearly 70 per cent of India's elderly population remains financially dependent, with many continuing to work post-retirement to survive, according to a new report.",
      "tier": 2
-    },
-    {
-     "url": "https://www.citizenshealth.in/wp-content/uploads/2021/02/LASI_India_Report_2020.pdf",
-     "publisher": "Longitudinal Ageing Study in India (LASI), IIPS/Ministry of Health",
-     "published_date": "2020",
-     "quote": "among economically dependent elderly men, almost 85% receive financial support from their own children, while among elderly women, more than 70% depend on their children",
-     "tier": 1
     }
    ]
   },
-  "Health insurance products for parents are marketed by insurers to the children rather than to the parents themselves.": {
-   "id": "c3",
+  "Among elderly Indians who are financially dependent, the majority depend specifically on their children.": {
+   "id": "c2",
    "verdict": "supported",
+   "event_date": "2020-01-01",
+   "correct": "LASI data (India's largest ageing survey) shows children are the dominant source of financial transfers to elderly parents: children-to-parent transfers (13.1%) were triple parent-to-children transfers (4.4%), and elderly women/those living alone depend most heavily on children specifically, consistent with children being the majority source among dependents rather than spouse or pension.",
    "sources": [
     {
-     "url": "https://www.acko.com/health-insurance/for-parents/",
-     "publisher": "Acko (insurer's own product page)",
-     "published_date": "2026",
-     "quote": "When you are buying health insurance for your parents, start by considering their current health... Instead of adding your parents to your family floater policy, buy a separate health insurance plan for parents.",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10737839/",
+     "publisher": "NCBI/Innovation in Aging (LASI 2017-2018 data)",
+     "published_date": "2023-01-01",
+     "quote": "the proportion of children-to-parent transfers (13.1%) was triple that of parents-to-children transfers (4.4%)",
+     "tier": 2
+    }
+   ]
+  },
+  "Health insurance policies for elderly parents are marketed by insurers primarily to their adult children as the buyers, not to the parents themselves.": {
+   "id": "c3",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.starhealth.in/health-insurance/health-insurance-for-parents/",
+     "publisher": "Star Health Insurance (insurer's own page)",
+     "published_date": null,
+     "quote": "It is an ideal decision if you are looking for this policy for your parents or grandparents... To buy parents' health insurance policy, visit www.starhealth.in",
      "tier": 1
     },
     {
-     "url": "https://www.hdfclife.com/health-insurance-plans/health-insurance-for-parents",
-     "publisher": "HDFC Life (insurer's own product page)",
-     "published_date": "2026",
-     "quote": "Health Insurance for Parents: Buy Mediclaim Policy for Parents",
-     "tier": 1
+     "url": "https://joinditto.in/health-insurance/health-insurance-for-parents-in-india/",
+     "publisher": "Ditto Insurance",
+     "published_date": "2026-11-01",
+     "quote": "Your parent needs a knee replacement or a cardiac procedure. The hospital bill comes to ₹4 lakh-₹6 lakh. Your savings take a hit...",
+     "tier": 3
     }
    ]
   },
   "_skeptic": {
-   "17c33e420358b4cf5ded53f08789df63b656eaff": {
+   "62ee0296c3df7459addacb06dba279e62e534438": {
     "holds": true,
-    "broken_premise": "",
-    "actual_mechanism": "The post's one falsifiable factual premise — that ~70% of elderly Indians depend on someone else for money, most often their children — is accurate. India's Longitudinal Ageing Study (LASI Wave 1) and NSSO data show roughly 70% of persons 60+ are economically dependent, and among dependent elderly ~80-82% rely on their children; the 2025 NITI Aayog/Sankala Foundation report restates the ~70% figure. The rest of the argument (the language shift, reading parents' silence as tacit acceptance, the framing of role reversal) is interpretation of everyday life, not a factual mechanism that can be falsified.",
+    "broken_premise": "none",
+    "actual_mechanism": "The factual spine checks out: India's retail finance and payments genuinely shifted from passbooks/FDs/in-person to UPI, OTP-gated apps and portals (UPI alone processes the bulk of India's retail digital transactions), and the hard stat is real — multiple reports drawing on the Longitudinal Ageing Study in India (LASI), including the NITI Aayog-linked 'Ageing in India' report, put ~70% of elderly as financially dependent, and NSSO data shows ~80%+ of those dependent elderly rely on their children. Whoever operates the phone/app does become the de facto operator of OTP-locked accounts and digital hospital/insurance payments, which is a verifiable access mechanism, not just a feeling. The remaining claims — that this 'reverses' the parent-child role and that insurers pitch parent cover to the kids — are interpretation and marketing observation, not falsifiable facts, and the premises they rest on (digital shift, dependence, phone-holder control) all hold.",
     "take_survives": true,
     "sources": [
      {
-      "url": "https://www.citizenshealth.in/wp-content/uploads/2021/02/LASI_India_Report_2020.pdf",
-      "published_date": "2020",
-      "quote": "According to the Longitudinal Ageing Study in India (LASI), around 70% of older persons depend on others for maintenance."
+      "url": "https://www.outlookmoney.com/retirement/news/around-70-of-elderly-in-india-are-financially-dependent-many-work-after-retirement-to-survive-report",
+      "published_date": "2025-08",
+      "quote": "Around 70 per cent of the elderly in India are financially dependent, and many continue to work post-retirement to survive."
+     },
+     {
+      "url": "https://www.thehitavada.com/Encyc/2025/8/2/70-of-indias-elderly-financially-dependent.html",
+      "published_date": "2025-08-02",
+      "quote": "70% of India's elderly financially dependent."
      },
      {
       "url": "https://www.business-standard.com/article/economy-policy/77-indians-don-t-save-for-retirement-most-depend-on-children-for-support-117100400154_1.html",
       "published_date": "2017-10-04",
-      "quote": "In rural areas, 82% of people above 60 were dependent on children for economic support while 80% were supported by children in urban areas (NSSO)."
-     },
-     {
-      "url": "https://thekashmirimages.com/2025/08/02/70-of-indias-elderly-financially-dependent-report/",
-      "published_date": "2025-08-02",
-      "quote": "Nearly 70 percent of India's elderly population remains financially dependent, with many continuing to work post-retirement to survive."
+      "quote": "Most depend on children for support."
      }
     ]
    }
   },
   "_by_text": {
-   "ff3caeb4ab1a46e259d9fffa41b90ce33b24150b": {
+   "2c8931ed20b4ca6b6346b63dfcaa069296845105": {
     "passed": true,
     "take_dead": false,
     "notes": [],
     "ledger": [
      {
       "id": "c1",
-      "text": "When adult children begin speaking to their parents the way their parents once spoke to them (reassuring them, taking charge, saying 'don't worry, I've got it'), it signals that the child has effectively become the parent's caretaker/parent figure — a role reversal that happens gradually and is only noticed in hindsight.",
-      "sentence": "There's a day you start talking to your parents the way they talked to you. Nobody marks it. You just notice it later.",
-      "type": "mechanism",
+      "text": "70% of elderly Indians are financially dependent on someone else.",
+      "sentence": "70% of elderly Indians depend on someone for money, mostly their children.",
+      "type": "figure",
       "core": true,
       "framed_as": "timeless"
      },
      {
       "id": "c2",
-      "text": "70% of elderly Indians depend on someone else for money, most often their children.",
-      "sentence": "70% of elderly Indians depend on someone for money, most often their children.",
+      "text": "Among elderly Indians who are financially dependent, the majority depend specifically on their children.",
+      "sentence": "70% of elderly Indians depend on someone for money, mostly their children.",
       "type": "figure",
       "core": true,
       "framed_as": "timeless"
      },
      {
       "id": "c3",
-      "text": "Health insurance products for parents are marketed by insurers to the children rather than to the parents themselves.",
-      "sentence": "Even insurers know it: \"health insurance for parents\" is sold to the kids.",
+      "text": "Health insurance policies for elderly parents are marketed by insurers primarily to their adult children as the buyers, not to the parents themselves.",
+      "sentence": "Insurers figured it out long ago. \"Health insurance for parents\" is sold to the kids, not the parents.",
       "type": "feature",
-      "core": false,
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Because banking, insurance, and hospital payment systems have shifted from analog (passbooks, in-person, FDs) to digital (apps, OTPs, UPI) channels that parents are less equipped to use, the family member who controls digital/phone access ends up managing parents' financial and medical affairs, resulting in adult children effectively taking over a caregiving role that reverses the original parent-child dynamic.",
+      "sentence": "our parents were built for a different India... Then everything moved to a phone... whoever holds the phone ends up holding the family... The roles flipped and nobody announced it.",
+      "type": "mechanism",
+      "core": true,
       "framed_as": "timeless"
      }
     ],
     "verdicts": {
-     "c2": {
-      "id": "c2",
+     "c1": {
+      "id": "c1",
       "verdict": "supported",
       "event_date": "2025-08-02",
+      "correct": null,
       "sources": [
        {
         "url": "https://www.outlookmoney.com/retirement/news/around-70-of-elderly-in-india-are-financially-dependent-many-work-after-retirement-to-survive-report",
         "publisher": "Outlook Money",
         "published_date": "2025-08-02",
-        "quote": "Nearly 70 per cent of India's elderly population remains financially dependent, with many continuing to work post-retirement to survive",
+        "quote": "Nearly 70 per cent of India's elderly population remains financially dependent, with many continuing to work post-retirement to survive, according to a new report.",
         "tier": 2
-       },
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2020-01-01",
+      "correct": "LASI data (India's largest ageing survey) shows children are the dominant source of financial transfers to elderly parents: children-to-parent transfers (13.1%) were triple parent-to-children transfers (4.4%), and elderly women/those living alone depend most heavily on children specifically, consistent with children being the majority source among dependents rather than spouse or pension.",
+      "sources": [
        {
-        "url": "https://www.citizenshealth.in/wp-content/uploads/2021/02/LASI_India_Report_2020.pdf",
-        "publisher": "Longitudinal Ageing Study in India (LASI), IIPS/Ministry of Health",
-        "published_date": "2020",
-        "quote": "among economically dependent elderly men, almost 85% receive financial support from their own children, while among elderly women, more than 70% depend on their children",
-        "tier": 1
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10737839/",
+        "publisher": "NCBI/Innovation in Aging (LASI 2017-2018 data)",
+        "published_date": "2023-01-01",
+        "quote": "the proportion of children-to-parent transfers (13.1%) was triple that of parents-to-children transfers (4.4%)",
+        "tier": 2
        }
       ]
      },
      "c3": {
       "id": "c3",
       "verdict": "supported",
+      "event_date": null,
+      "correct": null,
       "sources": [
        {
-        "url": "https://www.acko.com/health-insurance/for-parents/",
-        "publisher": "Acko (insurer's own product page)",
-        "published_date": "2026",
-        "quote": "When you are buying health insurance for your parents, start by considering their current health... Instead of adding your parents to your family floater policy, buy a separate health insurance plan for parents.",
+        "url": "https://www.starhealth.in/health-insurance/health-insurance-for-parents/",
+        "publisher": "Star Health Insurance (insurer's own page)",
+        "published_date": null,
+        "quote": "It is an ideal decision if you are looking for this policy for your parents or grandparents... To buy parents' health insurance policy, visit www.starhealth.in",
         "tier": 1
        },
        {
-        "url": "https://www.hdfclife.com/health-insurance-plans/health-insurance-for-parents",
-        "publisher": "HDFC Life (insurer's own product page)",
-        "published_date": "2026",
-        "quote": "Health Insurance for Parents: Buy Mediclaim Policy for Parents",
-        "tier": 1
+        "url": "https://joinditto.in/health-insurance/health-insurance-for-parents-in-india/",
+        "publisher": "Ditto Insurance",
+        "published_date": "2026-11-01",
+        "quote": "Your parent needs a knee replacement or a cardiac procedure. The hospital bill comes to ₹4 lakh-₹6 lakh. Your savings take a hit...",
+        "tier": 3
        }
       ]
      }
     },
     "mechanism": {
      "holds": true,
-     "broken_premise": "",
-     "actual_mechanism": "The post's one falsifiable factual premise — that ~70% of elderly Indians depend on someone else for money, most often their children — is accurate. India's Longitudinal Ageing Study (LASI Wave 1) and NSSO data show roughly 70% of persons 60+ are economically dependent, and among dependent elderly ~80-82% rely on their children; the 2025 NITI Aayog/Sankala Foundation report restates the ~70% figure. The rest of the argument (the language shift, reading parents' silence as tacit acceptance, the framing of role reversal) is interpretation of everyday life, not a factual mechanism that can be falsified.",
+     "broken_premise": "none",
+     "actual_mechanism": "The factual spine checks out: India's retail finance and payments genuinely shifted from passbooks/FDs/in-person to UPI, OTP-gated apps and portals (UPI alone processes the bulk of India's retail digital transactions), and the hard stat is real — multiple reports drawing on the Longitudinal Ageing Study in India (LASI), including the NITI Aayog-linked 'Ageing in India' report, put ~70% of elderly as financially dependent, and NSSO data shows ~80%+ of those dependent elderly rely on their children. Whoever operates the phone/app does become the de facto operator of OTP-locked accounts and digital hospital/insurance payments, which is a verifiable access mechanism, not just a feeling. The remaining claims — that this 'reverses' the parent-child role and that insurers pitch parent cover to the kids — are interpretation and marketing observation, not falsifiable facts, and the premises they rest on (digital shift, dependence, phone-holder control) all hold.",
      "take_survives": true,
      "sources": [
       {
-       "url": "https://www.citizenshealth.in/wp-content/uploads/2021/02/LASI_India_Report_2020.pdf",
-       "published_date": "2020",
-       "quote": "According to the Longitudinal Ageing Study in India (LASI), around 70% of older persons depend on others for maintenance."
+       "url": "https://www.outlookmoney.com/retirement/news/around-70-of-elderly-in-india-are-financially-dependent-many-work-after-retirement-to-survive-report",
+       "published_date": "2025-08",
+       "quote": "Around 70 per cent of the elderly in India are financially dependent, and many continue to work post-retirement to survive."
+      },
+      {
+       "url": "https://www.thehitavada.com/Encyc/2025/8/2/70-of-indias-elderly-financially-dependent.html",
+       "published_date": "2025-08-02",
+       "quote": "70% of India's elderly financially dependent."
       },
       {
        "url": "https://www.business-standard.com/article/economy-policy/77-indians-don-t-save-for-retirement-most-depend-on-children-for-support-117100400154_1.html",
        "published_date": "2017-10-04",
-       "quote": "In rural areas, 82% of people above 60 were dependent on children for economic support while 80% were supported by children in urban areas (NSSO)."
-      },
-      {
-       "url": "https://thekashmirimages.com/2025/08/02/70-of-indias-elderly-financially-dependent-report/",
-       "published_date": "2025-08-02",
-       "quote": "Nearly 70 percent of India's elderly population remains financially dependent, with many continuing to work post-retirement to survive."
+       "quote": "Most depend on children for support."
       }
      ]
     },
-    "text_hash": "ff3caeb4ab1a46e259d9fffa41b90ce33b24150b",
-    "at": "2026-11-05T12:20:06.747745+00:00"
+    "text_hash": "2c8931ed20b4ca6b6346b63dfcaa069296845105",
+    "at": "2026-11-05T12:44:43.991224+00:00"
    }
   }
  },
@@ -414,118 +461,116 @@
   "ledger": [
    {
     "id": "c1",
-    "text": "When adult children begin speaking to their parents the way their parents once spoke to them (reassuring them, taking charge, saying 'don't worry, I've got it'), it signals that the child has effectively become the parent's caretaker/parent figure — a role reversal that happens gradually and is only noticed in hindsight.",
-    "sentence": "There's a day you start talking to your parents the way they talked to you. Nobody marks it. You just notice it later.",
-    "type": "mechanism",
+    "text": "70% of elderly Indians are financially dependent on someone else.",
+    "sentence": "70% of elderly Indians depend on someone for money, mostly their children.",
+    "type": "figure",
     "core": true,
     "framed_as": "timeless"
    },
    {
     "id": "c2",
-    "text": "70% of elderly Indians depend on someone else for money, most often their children.",
-    "sentence": "70% of elderly Indians depend on someone for money, most often their children.",
+    "text": "Among elderly Indians who are financially dependent, the majority depend specifically on their children.",
+    "sentence": "70% of elderly Indians depend on someone for money, mostly their children.",
     "type": "figure",
     "core": true,
     "framed_as": "timeless"
    },
    {
     "id": "c3",
-    "text": "Health insurance products for parents are marketed by insurers to the children rather than to the parents themselves.",
-    "sentence": "Even insurers know it: \"health insurance for parents\" is sold to the kids.",
+    "text": "Health insurance policies for elderly parents are marketed by insurers primarily to their adult children as the buyers, not to the parents themselves.",
+    "sentence": "Insurers figured it out long ago. \"Health insurance for parents\" is sold to the kids, not the parents.",
     "type": "feature",
-    "core": false,
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c4",
+    "text": "Because banking, insurance, and hospital payment systems have shifted from analog (passbooks, in-person, FDs) to digital (apps, OTPs, UPI) channels that parents are less equipped to use, the family member who controls digital/phone access ends up managing parents' financial and medical affairs, resulting in adult children effectively taking over a caregiving role that reverses the original parent-child dynamic.",
+    "sentence": "our parents were built for a different India... Then everything moved to a phone... whoever holds the phone ends up holding the family... The roles flipped and nobody announced it.",
+    "type": "mechanism",
+    "core": true,
     "framed_as": "timeless"
    }
   ],
   "verdicts": {
-   "c2": {
-    "id": "c2",
+   "c1": {
+    "id": "c1",
     "verdict": "supported",
     "event_date": "2025-08-02",
+    "correct": null,
     "sources": [
      {
       "url": "https://www.outlookmoney.com/retirement/news/around-70-of-elderly-in-india-are-financially-dependent-many-work-after-retirement-to-survive-report",
       "publisher": "Outlook Money",
       "published_date": "2025-08-02",
-      "quote": "Nearly 70 per cent of India's elderly population remains financially dependent, with many continuing to work post-retirement to survive",
+      "quote": "Nearly 70 per cent of India's elderly population remains financially dependent, with many continuing to work post-retirement to survive, according to a new report.",
       "tier": 2
-     },
+     }
+    ]
+   },
+   "c2": {
+    "id": "c2",
+    "verdict": "supported",
+    "event_date": "2020-01-01",
+    "correct": "LASI data (India's largest ageing survey) shows children are the dominant source of financial transfers to elderly parents: children-to-parent transfers (13.1%) were triple parent-to-children transfers (4.4%), and elderly women/those living alone depend most heavily on children specifically, consistent with children being the majority source among dependents rather than spouse or pension.",
+    "sources": [
      {
-      "url": "https://www.citizenshealth.in/wp-content/uploads/2021/02/LASI_India_Report_2020.pdf",
-      "publisher": "Longitudinal Ageing Study in India (LASI), IIPS/Ministry of Health",
-      "published_date": "2020",
-      "quote": "among economically dependent elderly men, almost 85% receive financial support from their own children, while among elderly women, more than 70% depend on their children",
-      "tier": 1
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10737839/",
+      "publisher": "NCBI/Innovation in Aging (LASI 2017-2018 data)",
+      "published_date": "2023-01-01",
+      "quote": "the proportion of children-to-parent transfers (13.1%) was triple that of parents-to-children transfers (4.4%)",
+      "tier": 2
      }
     ]
    },
    "c3": {
     "id": "c3",
     "verdict": "supported",
+    "event_date": null,
+    "correct": null,
     "sources": [
      {
-      "url": "https://www.acko.com/health-insurance/for-parents/",
-      "publisher": "Acko (insurer's own product page)",
-      "published_date": "2026",
-      "quote": "When you are buying health insurance for your parents, start by considering their current health... Instead of adding your parents to your family floater policy, buy a separate health insurance plan for parents.",
+      "url": "https://www.starhealth.in/health-insurance/health-insurance-for-parents/",
+      "publisher": "Star Health Insurance (insurer's own page)",
+      "published_date": null,
+      "quote": "It is an ideal decision if you are looking for this policy for your parents or grandparents... To buy parents' health insurance policy, visit www.starhealth.in",
       "tier": 1
      },
      {
-      "url": "https://www.hdfclife.com/health-insurance-plans/health-insurance-for-parents",
-      "publisher": "HDFC Life (insurer's own product page)",
-      "published_date": "2026",
-      "quote": "Health Insurance for Parents: Buy Mediclaim Policy for Parents",
-      "tier": 1
+      "url": "https://joinditto.in/health-insurance/health-insurance-for-parents-in-india/",
+      "publisher": "Ditto Insurance",
+      "published_date": "2026-11-01",
+      "quote": "Your parent needs a knee replacement or a cardiac procedure. The hospital bill comes to ₹4 lakh-₹6 lakh. Your savings take a hit...",
+      "tier": 3
      }
     ]
    }
   },
   "mechanism": {
    "holds": true,
-   "broken_premise": "",
-   "actual_mechanism": "The post's one falsifiable factual premise — that ~70% of elderly Indians depend on someone else for money, most often their children — is accurate. India's Longitudinal Ageing Study (LASI Wave 1) and NSSO data show roughly 70% of persons 60+ are economically dependent, and among dependent elderly ~80-82% rely on their children; the 2025 NITI Aayog/Sankala Foundation report restates the ~70% figure. The rest of the argument (the language shift, reading parents' silence as tacit acceptance, the framing of role reversal) is interpretation of everyday life, not a factual mechanism that can be falsified.",
+   "broken_premise": "none",
+   "actual_mechanism": "The factual spine checks out: India's retail finance and payments genuinely shifted from passbooks/FDs/in-person to UPI, OTP-gated apps and portals (UPI alone processes the bulk of India's retail digital transactions), and the hard stat is real — multiple reports drawing on the Longitudinal Ageing Study in India (LASI), including the NITI Aayog-linked 'Ageing in India' report, put ~70% of elderly as financially dependent, and NSSO data shows ~80%+ of those dependent elderly rely on their children. Whoever operates the phone/app does become the de facto operator of OTP-locked accounts and digital hospital/insurance payments, which is a verifiable access mechanism, not just a feeling. The remaining claims — that this 'reverses' the parent-child role and that insurers pitch parent cover to the kids — are interpretation and marketing observation, not falsifiable facts, and the premises they rest on (digital shift, dependence, phone-holder control) all hold.",
    "take_survives": true,
    "sources": [
     {
-     "url": "https://www.citizenshealth.in/wp-content/uploads/2021/02/LASI_India_Report_2020.pdf",
-     "published_date": "2020",
-     "quote": "According to the Longitudinal Ageing Study in India (LASI), around 70% of older persons depend on others for maintenance."
+     "url": "https://www.outlookmoney.com/retirement/news/around-70-of-elderly-in-india-are-financially-dependent-many-work-after-retirement-to-survive-report",
+     "published_date": "2025-08",
+     "quote": "Around 70 per cent of the elderly in India are financially dependent, and many continue to work post-retirement to survive."
+    },
+    {
+     "url": "https://www.thehitavada.com/Encyc/2025/8/2/70-of-indias-elderly-financially-dependent.html",
+     "published_date": "2025-08-02",
+     "quote": "70% of India's elderly financially dependent."
     },
     {
      "url": "https://www.business-standard.com/article/economy-policy/77-indians-don-t-save-for-retirement-most-depend-on-children-for-support-117100400154_1.html",
      "published_date": "2017-10-04",
-     "quote": "In rural areas, 82% of people above 60 were dependent on children for economic support while 80% were supported by children in urban areas (NSSO)."
-    },
-    {
-     "url": "https://thekashmirimages.com/2025/08/02/70-of-indias-elderly-financially-dependent-report/",
-     "published_date": "2025-08-02",
-     "quote": "Nearly 70 percent of India's elderly population remains financially dependent, with many continuing to work post-retirement to survive."
+     "quote": "Most depend on children for support."
     }
    ]
   },
-  "text_hash": "ff3caeb4ab1a46e259d9fffa41b90ce33b24150b",
-  "at": "2026-11-05T12:20:06.747745+00:00"
+  "text_hash": "2c8931ed20b4ca6b6346b63dfcaa069296845105",
+  "at": "2026-11-05T12:44:43.991224+00:00"
  },
- "alt_texts": [
-  "There's a day you start talking to your parents the way they talked to you.. Nobody marks it. You just notice it later.",
-  "\"Papa, aap tension mat lo. Main dekh lunga.\" The same line he said to you before every exam, every fee, every hospital visit. Now it's yours.",
-  "You read their medical report before they do. You pay the hospital advance and call it covered. When papa asks \"kitna laga?\", you round it down.",
-  "Between siblings, it's a whole system. A group your parents aren't in, where the hospital, the doctor and the money get decided. Every one of those chats has typed it once: \"Don't tell them the full amount.\"",
-  "And it isn't just your family. 70% of elderly Indians depend on someone for money, most often their children. Even insurers know it: \"health insurance for parents\" is sold to the kids.",
-  "And yes, it looks like we're running their lives. But watch them when you say \"sab set hai.\" They don't ask which hospital. Not because they can't. Because asking would mean admitting it flipped.",
-  "The day you say \"main dekh lunga\" and papa doesn't argue, you've become his parent.",
-  "Send this to your sibling in that chat. Read it before the next \"don't tell them\" message."
- ],
- "image_urls": [
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-123/slide_01.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-123/slide_02.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-123/slide_03.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-123/slide_04.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-123/slide_05.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-123/slide_06.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-123/slide_07.jpg",
-  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-123/slide_08.jpg"
- ],
- "buffer_attempted_at": "2026-11-05T12:21:33.675952+00:00",
- "buffer_post_id": "6aec74ce88ae9eea3f73b23c"
+ "owner_ok": true
 }
