@@ -1,9 +1,13 @@
 {
  "id": "2026-11-125",
- "status": "written",
+ "status": "approved",
  "due": "2026-11-12T20:30:00+05:30",
  "format": "carousel",
- "history": [],
+ "history": [
+  {
+   "owner": "approved in chat 2026-11-05"
+  }
+ ],
  "topic": {
   "id": "2026-11-owner-friend-abroad",
   "title": "the visa friendship",
@@ -25,7 +29,8 @@
  "draft": {
   "cover": {
    "headline": "Indians abroad send home $135 billion a year. Your friend sends [photos].",
-   "sub": "And you know exactly which friend this is."
+   "sub": "And you know exactly which friend this is.",
+   "art": "passport-pass"
   },
   "slides": [
    {
@@ -102,5 +107,255 @@
    }
   ]
  },
- "updated_at": "2026-11-05T08:49:02.834497+00:00"
+ "updated_at": "2026-11-05T08:57:05.152137+00:00",
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] Indians abroad send home $135 billion a year. Your friend sends [photos].\nAnd you know exactly which friend this is.\n \n\n[slide 1] Indians abroad send home $135 billion a year. Your friend sends photos.\nSwipe to read →\n\n[slide 2] Snow. A new apartment. The first car with the steering on the left.\nYou send back rain and a cutting chai. You're both saying the same thing: I'm fine.\n\n[slide 3] They come home for three weeks, and every evening is booked by family.\nYou get one dinner to catch up on a whole year.\n\n[slide 4] The friendship didn't end. It got visiting hours.\nCall it the visa friendship. Same love, fixed schedule.\n\n[slide 5] And everything around them is built for the money, not the person.\nThe bank wants their transfers. The matrimony app has an NRI filter. Nothing is built to bring them back.\n\n[slide 6] At some point you stopped asking \"when are you coming back?\"\nNow you ask \"when are you visiting?\"\n\n[slide 7] Nobody left anybody. They went where the salary was. You stayed where the family is.\nBoth of you chose right.\n\n[slide 8] The money comes home every month. Your friend comes home when the leave allows.\n\n[end card] Read it before their next visit home.\nSend to that friend. Yes, at their 3am.\n\n[caption] Three weeks a year. One dinner. A whole year to catch up on.\n\nSend this to the friend you now see once a year.\n\n[alt text] A carousel: Indians abroad send home $135 billion a year. Your friend sends photos.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Indians living abroad collectively remit about $135 billion to India every year.",
+     "sentence": "Indians abroad send home $135 billion a year.",
+     "type": "figure",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "Matrimony apps/platforms include a filter specifically for NRI (non-resident Indian) profiles.",
+     "sentence": "The matrimony app has an NRI filter.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c3",
+     "text": "Because the financial and matchmaking systems built around NRIs (banks capturing remittances, matrimony apps filtering for NRI status) are designed to extract money/transactions rather than to facilitate the person's return, the relationship between an NRI and their friends/family is structurally reduced from ongoing daily contact to scheduled, infrequent visits.",
+     "sentence": "And everything around them is built for the money, not the person. The bank wants their transfers. The matrimony app has an NRI filter. Nothing is built to bring them back. ... The friendship didn't end. It got visiting hours.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "Indians living abroad collectively remit about $135 billion to India every year.": {
+   "id": "c1",
+   "verdict": "supported",
+   "event_date": "2025-07-01",
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.newsonair.gov.in/remittances-by-indians-working-abroad-scale-record-high-of-135-billion-in-fy25/",
+     "publisher": "All India Radio News (newsonair.gov.in)",
+     "published_date": "2025-07-01",
+     "quote": "The remittances sent back home by Indians working abroad have registered a 14 per cent rise in the financial year 2024-25 to a record 135.46 billion dollars, according to data compiled by the RBI.",
+     "tier": 1
+    }
+   ]
+  },
+  "Matrimony apps/platforms include a filter specifically for NRI (non-resident Indian) profiles.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.shaadi.com/matrimony/nri-matrimony",
+     "publisher": "Shaadi.com",
+     "published_date": null,
+     "quote": "You can easily filter profiles by specific geographical locations and cultural preferences to find a match who truly aligns with your values. — with dedicated 'Show NRI Bride' / 'Show NRI Groom' browsing sections on Shaadi.com's NRI Matrimony page",
+     "tier": 1
+    }
+   ]
+  },
+  "_skeptic": {
+   "6045c476e395d4f4d321806532f2d097592c9efd": {
+    "holds": true,
+    "broken_premise": "none",
+    "actual_mechanism": "India is the world's top remittance recipient, with the World Bank putting 2024 inflows at roughly $129–138 billion, so the ~$135 billion figure is within the credible range and not demonstrably false. Banks genuinely court NRI money through NRE/NRO accounts and remittance services, and matrimony platforms like Shaadi.com do maintain explicit NRI/location filters and dedicated NRI bride/groom sections. The post's leap — that these systems are 'designed to extract rather than bring them back' and therefore 'reduce' the friendship to visiting hours — is a reading of motive and a generalization about relationships, i.e. opinion, not a falsifiable claim about how a product or market works.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.civilsdaily.com/news/india-secures-14-3-of-global-remittances-in-2024-world-bank/",
+      "published_date": "2025-02",
+      "quote": "In 2024, India received a record $129.1 billion in remittances... India accounted for 14.3% of global remittances, the highest share since the turn of the millennium."
+     },
+     {
+      "url": "https://www.shaadi.com/matrimony/nri-brides",
+      "published_date": "2025",
+      "quote": "NRI Brides - Find Compatible NRI Brides / Girls on Shaadi.com — users can filter profiles by location, community, or mother tongue, including a preferred location like USA."
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "699456dbada6c97e54c08473184c78f53073dbc3": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Indians living abroad collectively remit about $135 billion to India every year.",
+      "sentence": "Indians abroad send home $135 billion a year.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Matrimony apps/platforms include a filter specifically for NRI (non-resident Indian) profiles.",
+      "sentence": "The matrimony app has an NRI filter.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Because the financial and matchmaking systems built around NRIs (banks capturing remittances, matrimony apps filtering for NRI status) are designed to extract money/transactions rather than to facilitate the person's return, the relationship between an NRI and their friends/family is structurally reduced from ongoing daily contact to scheduled, infrequent visits.",
+      "sentence": "And everything around them is built for the money, not the person. The bank wants their transfers. The matrimony app has an NRI filter. Nothing is built to bring them back. ... The friendship didn't end. It got visiting hours.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2025-07-01",
+      "correct": null,
+      "sources": [
+       {
+        "url": "https://www.newsonair.gov.in/remittances-by-indians-working-abroad-scale-record-high-of-135-billion-in-fy25/",
+        "publisher": "All India Radio News (newsonair.gov.in)",
+        "published_date": "2025-07-01",
+        "quote": "The remittances sent back home by Indians working abroad have registered a 14 per cent rise in the financial year 2024-25 to a record 135.46 billion dollars, according to data compiled by the RBI.",
+        "tier": 1
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": null,
+      "sources": [
+       {
+        "url": "https://www.shaadi.com/matrimony/nri-matrimony",
+        "publisher": "Shaadi.com",
+        "published_date": null,
+        "quote": "You can easily filter profiles by specific geographical locations and cultural preferences to find a match who truly aligns with your values. — with dedicated 'Show NRI Bride' / 'Show NRI Groom' browsing sections on Shaadi.com's NRI Matrimony page",
+        "tier": 1
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "none",
+     "actual_mechanism": "India is the world's top remittance recipient, with the World Bank putting 2024 inflows at roughly $129–138 billion, so the ~$135 billion figure is within the credible range and not demonstrably false. Banks genuinely court NRI money through NRE/NRO accounts and remittance services, and matrimony platforms like Shaadi.com do maintain explicit NRI/location filters and dedicated NRI bride/groom sections. The post's leap — that these systems are 'designed to extract rather than bring them back' and therefore 'reduce' the friendship to visiting hours — is a reading of motive and a generalization about relationships, i.e. opinion, not a falsifiable claim about how a product or market works.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.civilsdaily.com/news/india-secures-14-3-of-global-remittances-in-2024-world-bank/",
+       "published_date": "2025-02",
+       "quote": "In 2024, India received a record $129.1 billion in remittances... India accounted for 14.3% of global remittances, the highest share since the turn of the millennium."
+      },
+      {
+       "url": "https://www.shaadi.com/matrimony/nri-brides",
+       "published_date": "2025",
+       "quote": "NRI Brides - Find Compatible NRI Brides / Girls on Shaadi.com — users can filter profiles by location, community, or mother tongue, including a preferred location like USA."
+      }
+     ]
+    },
+    "text_hash": "699456dbada6c97e54c08473184c78f53073dbc3",
+    "at": "2026-11-05T08:51:17.770976+00:00"
+   }
+  }
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Indians living abroad collectively remit about $135 billion to India every year.",
+    "sentence": "Indians abroad send home $135 billion a year.",
+    "type": "figure",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "Matrimony apps/platforms include a filter specifically for NRI (non-resident Indian) profiles.",
+    "sentence": "The matrimony app has an NRI filter.",
+    "type": "feature",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c3",
+    "text": "Because the financial and matchmaking systems built around NRIs (banks capturing remittances, matrimony apps filtering for NRI status) are designed to extract money/transactions rather than to facilitate the person's return, the relationship between an NRI and their friends/family is structurally reduced from ongoing daily contact to scheduled, infrequent visits.",
+    "sentence": "And everything around them is built for the money, not the person. The bank wants their transfers. The matrimony app has an NRI filter. Nothing is built to bring them back. ... The friendship didn't end. It got visiting hours.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c1": {
+    "id": "c1",
+    "verdict": "supported",
+    "event_date": "2025-07-01",
+    "correct": null,
+    "sources": [
+     {
+      "url": "https://www.newsonair.gov.in/remittances-by-indians-working-abroad-scale-record-high-of-135-billion-in-fy25/",
+      "publisher": "All India Radio News (newsonair.gov.in)",
+      "published_date": "2025-07-01",
+      "quote": "The remittances sent back home by Indians working abroad have registered a 14 per cent rise in the financial year 2024-25 to a record 135.46 billion dollars, according to data compiled by the RBI.",
+      "tier": 1
+     }
+    ]
+   },
+   "c2": {
+    "id": "c2",
+    "verdict": "supported",
+    "event_date": null,
+    "correct": null,
+    "sources": [
+     {
+      "url": "https://www.shaadi.com/matrimony/nri-matrimony",
+      "publisher": "Shaadi.com",
+      "published_date": null,
+      "quote": "You can easily filter profiles by specific geographical locations and cultural preferences to find a match who truly aligns with your values. — with dedicated 'Show NRI Bride' / 'Show NRI Groom' browsing sections on Shaadi.com's NRI Matrimony page",
+      "tier": 1
+     }
+    ]
+   }
+  },
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "none",
+   "actual_mechanism": "India is the world's top remittance recipient, with the World Bank putting 2024 inflows at roughly $129–138 billion, so the ~$135 billion figure is within the credible range and not demonstrably false. Banks genuinely court NRI money through NRE/NRO accounts and remittance services, and matrimony platforms like Shaadi.com do maintain explicit NRI/location filters and dedicated NRI bride/groom sections. The post's leap — that these systems are 'designed to extract rather than bring them back' and therefore 'reduce' the friendship to visiting hours — is a reading of motive and a generalization about relationships, i.e. opinion, not a falsifiable claim about how a product or market works.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://www.civilsdaily.com/news/india-secures-14-3-of-global-remittances-in-2024-world-bank/",
+     "published_date": "2025-02",
+     "quote": "In 2024, India received a record $129.1 billion in remittances... India accounted for 14.3% of global remittances, the highest share since the turn of the millennium."
+    },
+    {
+     "url": "https://www.shaadi.com/matrimony/nri-brides",
+     "published_date": "2025",
+     "quote": "NRI Brides - Find Compatible NRI Brides / Girls on Shaadi.com — users can filter profiles by location, community, or mother tongue, including a preferred location like USA."
+    }
+   ]
+  },
+  "text_hash": "699456dbada6c97e54c08473184c78f53073dbc3",
+  "at": "2026-11-05T08:51:17.770976+00:00"
+ },
+ "owner_ok": true
 }

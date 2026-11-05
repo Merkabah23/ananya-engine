@@ -329,7 +329,7 @@ def _lead(paragraphs: list[str]) -> list[str]:
     if not paragraphs or "*" in paragraphs[0]:
         return paragraphs
     first, *rest = re.split(r"(?<=[.!?])\s+", paragraphs[0].strip(), maxsplit=1)
-    if len(first.split()) > 12 or len(paragraphs[0].split()) < 4:
+    if not 3 <= len(first.split()) <= 12 or len(paragraphs[0].split()) < 4:  # a one- or two-word lead looks like a slip
         return paragraphs
     words = first.split()
     lead = "\x01" + " ".join(words) + "\x01" if len(words) > 1 else "\x01" + words[0] + "\x01"
