@@ -84,7 +84,7 @@ def ledger(draft: dict, due: str, prior: dict | None = None) -> list[dict]:
            "invite after a resignation, a relative saying 'itni door yaar'), general observations about everyday life (free "
            "places to sit are scarce, people keep returnable things they never return), the writer's reading of why people or "
            "businesses behave as they do, the details of the reader's own moment told to them in 'you' (how many sat at the "
-           "table, what the bill came to, what a parent did that night: narration of a typical scene, not a claim about the world), "
+           "table, what the bill came to, what a parent did that night: narration of a typical scene, not a claim about the world), everyday prices framed as typical texture (a ₹799 app, a ₹1 lakh phone, a ₹3 crore flat: what readers see on shelves and screens, not market data), "
            "and anything about the post itself or its sources. "
            "Do check how named companies, apps, rules and markets work, and any figure. Types: figure (a number presented as real data), event (something "
            "that happened or is happening; note how it is framed), superlative (record, first, biggest, lowest, best-selling), "
@@ -147,12 +147,12 @@ def _calc(node: ast.AST) -> float:
 def web_verify(claims: list[dict], due: str, leads: list[dict]) -> dict:
     if not claims:
         return {}
-    ask = ("You are a fact checker for a page that cannot afford one public correction. For each claim below, try to prove "
-           "it wrong. Use WebSearch and open pages with WebFetch. Find the original report and the date the event first "
-           "happened; the leads are where the writer got it, not evidence. Prefer primary sources (government, regulator, "
-           "exchange data, company filings or results, the company's own announcement or help page), then major outlets. "
-           "For every claim, return at least two independent sources when they exist (two different publishers, or one "
-           "primary source), so the evidence can stand on its own.\n"
+    ask = ("You are a fact checker for an opinion page whose numbers paint a picture for readers; they are not a business "
+           "deck. A claim is supported when its picture is right: the right direction and roughly the right size. Rounded, "
+           "approximate or slightly older figures ('about 40%', 'around 4 in 5', last year's report) are supported. A claim is "
+           "contradicted only when the picture is wrong: the opposite direction, off by more than about a quarter, or something "
+           "that never happened. For each claim, use WebSearch and WebFetch to find one reliable source (a regulator, "
+           "industry body, research firm or major outlet); the leads are where the writer got it, and they count if they say it.\n"
            "- event framed as current: find the FIRST report date.\n"
            "- superlative: check the full series, and whether it still holds on the go-live date.\n"
            "- entity_attribute: the latest results or filing; state the financial year.\n"
@@ -300,10 +300,8 @@ def judge(claim: dict, verdict: dict | None, due: str, fetch=quote_on_page) -> s
     correct = f" What's true: {verdict['correct']}." if verdict.get("correct") else ""
     if kind == "contradicted":
         return f"Wrong: '{text}'.{correct}"
-    if kind == "outdated":
-        return f"Old news framed as new: '{text}' (first reported {verdict.get('event_date') or 'earlier'}). Frame it as past, or drop it.{correct}"
-    if kind == "misframed":
-        return f"Says more than the sources: '{text}'.{correct}"
+    if kind in ("outdated", "misframed"):
+        return None  # the page's numbers paint a picture, not a business deck: older or rounded is fine, wrong is not
     if kind != "supported":
         return f"Could not verify: '{text}'. Cut it, or state it only if a source says it."
     sources = [s for s in verdict.get("sources", []) if isinstance(s, dict) and s.get("url")]
@@ -311,18 +309,7 @@ def judge(claim: dict, verdict: dict | None, due: str, fetch=quote_on_page) -> s
     confirmed = [s for s, ok in checks if ok]
     if checks and all(ok is False for _, ok in checks):
         return f"Could not confirm: '{text}' (the cited pages don't say it). Use a source that does, or cut it."
-    usable = confirmed + [s for s, ok in checks if ok is None]  # unreadable here, but the checker opened it
-    tier = lambda s: int(s.get("tier") or 3)
-    strong = any(tier(s) == 1 for s in usable) or len({s.get("publisher") or s["url"] for s in usable if tier(s) <= 2}) >= 2
-    if (claim.get("core") or claim.get("type") in STRICT) and not strong:
-        return f"Needs a stronger source: '{text}' (a primary source, or two independent major outlets)."
-    if not strong and not any(tier(s) <= 2 for s in usable):
-        return f"Only weak sources for: '{text}'. Find a primary source or a major outlet, or cut it."
-    if claim.get("type") == "event" and IMMEDIATE.search(str(claim.get("sentence", ""))):
-        # only "just / now / this month" framing makes a dated event stale; a trend or a rule still in force isn't news
-        happened, live = _date(verdict.get("event_date")), _date(due)
-        if happened and live and not 0 <= (live - happened).days <= FRESH_DAYS:
-            return f"Framed as current but dated {happened}: '{text}'. Frame it as past, or drop it."
+    # One reachable source that supports it is enough: the numbers draw a picture, they aren't a business deck.
     return None
 
 

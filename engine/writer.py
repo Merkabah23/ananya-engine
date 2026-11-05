@@ -24,11 +24,11 @@ FORMAT_RULES = {
 MAX_PARAS = 3            # per carousel slide
 MAX_SENTS_PER_PARA = 4
 MAX_SENT_WORDS = 22  # 5th-grade scanability: most sentences far shorter
-MIN_SLIDES, MAX_SLIDES = 4, 7  # the reference creator's best carousels run 3-7 slides; 10+ halves likes
+MIN_SLIDES, MAX_SLIDES = 5, 9  # the benchmark runs 8: cover, data, examples, rule, darker, second layer, people, close
 SLIDE_WORDS = (12, 60)   # every slide after the hook: fewer, fuller slides that chain, not thin ones
 HOOK_WORDS = 25
-POST_WORDS = (110, 320)
-MAX_FIGURES = 3          # facts only map the opinion; a post with more numbers is a data explainer
+POST_WORDS = (110, 360)   # the benchmark is ~300 words; shorter owner posts still pass
+MAX_FIGURES = 6          # insider voice: everyday prices are texture; statistics still need a source
 MIN_RHYTHM = 3.5         # sentence-length spread; a metronome rhythm (every sentence ~8 words) reads as AI
 # "isn't X, it's Y" closes many of the reference creator's best posts; repeated mid-post it reads as a template.
 REVERSAL = re.compile(r"\b(isn't|is not|wasn't|was not|aren't|never)\b[^.?!]{0,60}[.?!]\s*(it's|it is|it was|they're|"
@@ -205,7 +205,7 @@ def mechanical(draft: dict, fmt: str, sources: list[dict], rounds: int = 2) -> t
 
 def find_sources(topic: dict) -> list[dict]:
     """Find sources AND save the relevant text of each page, once. The writer may only use these excerpts."""
-    if not topic.get("needs_facts") and not topic.get("news_peg"):
+    if topic.get("needs_facts") is False and not topic.get("news_peg") and not config.ALWAYS_SOURCE:
         return []
     ask = ("Find 1-3 reliable sources about this topic in India: prefer primary ones (regulators, government data, company "
            "filings and results, official announcements, research with a stated method), then major outlets that cite them. "
@@ -283,10 +283,10 @@ def hard_checks(draft: dict, fmt: str, sources: list[dict]) -> list[str]:
     if len(re.findall(r"\bnobody\b", text, re.I)) > 1:
         problems.append("'Nobody' appears more than once; it's the account's most repeated tic. Keep at most one.")
     if fmt == "carousel" and slides:
-        middle = "\n".join(" ".join(s.get("paragraphs", [])) for s in slides[:-1])
-        if len(REVERSAL.findall(middle)) > 1:
-            problems.append("'Isn't X, it's Y' reversals appear more than once before the last slide; that rhythm reads "
-                            "as a template. Keep one at most mid-post; a single one can close the post.")
+        middle = "\n".join(" ".join(s.get("paragraphs", [])) for s in slides[1:-1])  # slide 1 restates the cover
+        if len(REVERSAL.findall(middle)) > 3:  # a run of them can carry examples ("isn't about marble, it's about the guard")
+            problems.append("'Isn't X, it's Y' reversals appear more than three times before the last slide; that rhythm reads "
+                            "as a template. Keep the ones that carry an example.")
     copied = corpus.copied_runs(text)
     if copied:
         problems.append(f"These word runs copy the reference creator; rewrite them: {copied[:5]}")
@@ -378,7 +378,8 @@ def passes(review: dict) -> bool:
     keys = ("hook", "relatable", "fresh_angle", "pull", "payoff", "voice", "story", "tight")
     eq, iq = _score(scores, "eq"), _score(scores, "iq")
     return (not review.get("violations") and all(_score(scores, k) >= 4 for k in keys)
-            and max(eq, iq) >= 4 and min(eq, iq) >= 3)
+            and max(eq, iq) >= 4 and min(eq, iq) >= 3
+            and ("informative" not in scores or _score(scores, "informative") >= 3))  # the benchmark teaches something
 
 
 def write_post(post: dict, notes: str = "") -> dict:

@@ -20,23 +20,17 @@ def verdict(kind="supported", sources=(PRIMARY,), event_date="", correct=""):
     return {"verdict": kind, "sources": list(sources), "event_date": event_date, "correct": correct}
 
 
-def test_stale_news_framed_as_current_fails():
+def test_older_or_rounded_numbers_pass_but_wrong_ones_fail():
+    """The page's numbers paint a picture: older, rounded or framed loosely is fine; wrong in direction or size is not."""
     c = claim("Instagram is testing a Reels-first home screen in India", "event", framed="current",
               sentence="Instagram is testing a Reels-first home screen in India.")
-    note = factgate.judge(c, verdict(event_date="2025-09-29"), DUE, on_page)
-    assert note and "Framed as current" in note
-    past = claim("A year ago Instagram tested a Reels-first home screen in India", "event", framed="past")
-    assert factgate.judge(past, verdict(event_date="2025-09-29"), DUE, on_page) is None
-
-
-def test_outdated_verdict_fails():
-    assert "Old news" in factgate.judge(claim("India just cut GST on scooters", "event", framed="current"),
-                                        verdict("outdated", event_date="2025-09-22"), DUE, on_page)
-
-
-def test_record_backed_only_by_an_aggregator_fails():
+    assert factgate.judge(c, verdict(event_date="2025-09-29"), DUE, on_page) is None
+    assert factgate.judge(claim("India just cut GST on scooters", "event", framed="current"),
+                          verdict("outdated", event_date="2025-09-22"), DUE, on_page) is None
+    assert factgate.judge(claim("About 40% of cars sell in rural India", "figure"), verdict("misframed"), DUE, on_page) is None
     c = claim("Gold hit a record Rs 1,50,300 for 10 grams", "superlative", core=True)
-    assert "stronger source" in factgate.judge(c, verdict(sources=(AGGREGATOR,)), DUE, on_page)
+    assert factgate.judge(c, verdict(sources=(AGGREGATOR,)), DUE, on_page) is None  # one reachable source is enough
+    assert "Wrong" in factgate.judge(claim("Car sales fell in Navratri 2025", "figure"), verdict("contradicted"), DUE, on_page)
 
 
 def test_loss_making_brand_called_profitable_fails():

@@ -76,3 +76,5 @@ def env(name: str, required: bool = True) -> str:
     if required and not v and not DRY_RUN:
         raise SystemExit(f"Missing environment variable {name}. Add it as a GitHub secret.")
     return v
+
+ALWAYS_SOURCE = True  # the benchmark carries 2-4 sourced numbers: search for sources on every topic

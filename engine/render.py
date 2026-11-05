@@ -296,7 +296,8 @@ def render_slide(paragraphs: list[str], i: int = 1, n: int = 1, big: dict | None
     """A reading slide: paragraphs with at most one **bold** teal line, an optional big figure and a source line."""
     paragraphs = _clean(paragraphs)
     room = BODY_BOTTOM - BODY_TOP - (330 if big else 0)
-    for size in BODY_SIZES:
+    short = not big and len(" ".join(paragraphs).replace("*", "").split()) <= 25
+    for size in ([68, 62] if short else []) + BODY_SIZES:  # a short slide is one beat: set it large
         if _body_height(paragraphs, size) <= room:
             break
     else:

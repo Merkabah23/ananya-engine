@@ -34,6 +34,8 @@ def fake_call_json(model, user, stage="", **kw):
                 "scores": {k: 5 for k in ("hook", "relatable", "fresh_angle", "pull", "payoff", "voice", "eq", "iq", "story", "tight")}}
     if stage == "ledger":
         return {"claims": []}
+    if stage == "sources":
+        return {"sources": []}
     if stage == "repeat-check":
         return {"repeat": False, "of": "", "shared": ""}
     if stage == "blindtest":

@@ -1,7 +1,7 @@
 {
  "id": "2026-11-123",
- "status": "planned",
- "due": "2026-11-16T20:30:00+05:30",
+ "status": "written",
+ "due": "2026-11-06T20:30:00+05:30",
  "format": "carousel",
  "topic": {
   "title": "the siblings' group",
@@ -32,7 +32,208 @@
   "news_peg": null,
   "proof": []
  },
- "history": [],
- "sources": [],
- "updated_at": "2026-11-03T14:24:44.016637+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 6 is a dead slide: it restates the cover's own claim ('decided for them... in a chat they'll never see') almost verbatim as 'run from the chat your parents were never added to' instead of adding a new turn or sting — the last slide repeats the cover's point."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 2,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3
+    },
+    "notes": [
+     "Slide 6: Rewrite the closer so it says something the cover hasn't already said. Right now it's a near-paraphrase of the cover sub ('a chat they'll never see' → 'the chat your parents were never added to'). Give it a new sting — what happens next, or what it costs the sibling who carries it — not a repeat of the premise.",
+     "Slide 5: The 'because' is thin — it names the feeling (love, a handover) but not the mechanism. Say plainly why control actually moved to the chat: the kids hold the information and the access now (the reports, the hospital names, the money), so deciding fast without papa lying awake becomes the easier path — and that convenience is also what keeps him out of it. Right now it reads as justification, not explanation.",
+     "Slides 5 and 6 cover the same ground twice ('a handover nobody announced' / 'run from the chat your parents were never added to'). Merge them into one slide so the final line isn't diluted by having already said the idea a beat earlier.",
+     "Slide 4: 'He thinks he's deciding. The deciding is already done' is the strongest line in the post — consider moving a version of this sting to the very end instead of the weaker restated line on slide 6.",
+     "Slide 3: good use of touch/sound already ('phone buzzes past midnight' in slide 4) — no additional sensory note needed."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Slide 6 is a dead slide: it restates the cover's own claim ('decided for them... in a chat they'll never see') almost verbatim as 'run from the chat your parents were never added to' instead of adding a new turn or sting — the last slide repeats the cover's point.",
+    "Slide 6: Rewrite the closer so it says something the cover hasn't already said. Right now it's a near-paraphrase of the cover sub ('a chat they'll never see' → 'the chat your parents were never added to'). Give it a new sting — what happens next, or what it costs the sibling who carries it — not a repeat of the premise.",
+    "Slide 5: The 'because' is thin — it names the feeling (love, a handover) but not the mechanism. Say plainly why control actually moved to the chat: the kids hold the information and the access now (the reports, the hospital names, the money), so deciding fast without papa lying awake becomes the easier path — and that convenience is also what keeps him out of it. Right now it reads as justification, not explanation.",
+    "Slides 5 and 6 cover the same ground twice ('a handover nobody announced' / 'run from the chat your parents were never added to'). Merge them into one slide so the final line isn't diluted by having already said the idea a beat earlier.",
+    "Slide 4: 'He thinks he's deciding. The deciding is already done' is the strongest line in the post — consider moving a version of this sting to the very end instead of the weaker restated line on slide 6.",
+    "Slide 3: good use of touch/sound already ('phone buzzes past midnight' in slide 4) — no additional sensory note needed."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "slide 5: 'Deciding fast, so papa doesn't lie awake, is just easier' is syntactically tangled — the clause stack makes the mechanism (kindness that doubles as exclusion) harder to land than it should be. Rewrite as one clean sentence.",
+     "slide 5: 'You're not cutting them out. You're carrying it for them' restates the idea slide 4 already landed before the post gets to the actual mechanism line. Cut it or fold it into the kindness sentence so slide 5 adds only new ground.",
+     "slide 4: when papa says 'We were thinking...', add one beat of what he sounds like (relieved, unaware, maybe a small laugh) — right now the reader sees the scene but doesn't hear papa in it, and that's the moment the sting should land hardest.",
+     "slide 3 end into slide 4: the jump from 'who can take leave this month' straight to 'the doctor says surgery' is a touch abrupt — a half-line bridging that this is the same chat, now for the real thing, would make the escalation feel inevitable rather than sudden."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "verification": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [],
+    "verdicts": {},
+    "mechanism": null,
+    "text_hash": "6fd8ac0cab89eb83c1c398495c726a9b7b2b33a7",
+    "at": "2026-11-05T06:21:33.228755+00:00"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.outlookmoney.com/amp/story/news/around-70-of-elderly-in-india-are-financially-dependent-many-work-after-retirement-to-survive-report",
+   "date": "2025",
+   "fact": "Around 70% of elderly in India are financially dependent (Ageing in India report, Sankala Foundation with NITI Aayog, LASI-based).",
+   "excerpt": "nearly 70% of elderly Indians remain financially dependent"
+  },
+  {
+   "url": "https://www.advisorkhoj.com/articles/Health-Insurance/Best-Health-Insurance-Plans-for-Parents-who-are-Senior-Citizens",
+   "date": "2025",
+   "fact": "Under Section 80D you can claim up to ₹50,000 per year for health insurance premiums paid for senior citizen parents.",
+   "excerpt": "up to ₹50,000 per year for health insurance premiums paid for senior citizen parents (aged 60+)"
+  }
+ ],
+ "updated_at": "2026-11-05T08:49:02.805576+00:00",
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] At some point you stopped asking your parents and started [deciding for them]\nAnd you did it in a chat they'll never see.\n \n\n[slide 1] At some point you stopped asking your parents and started deciding for them.\nSwipe to read →\n\n[slide 2] There's a group with just you and your siblings. No parents in it.\nIt started for something small. Booking a cab for an anniversary. Splitting the cost of a gift no one wanted to pay for alone.\n\n[slide 3] Then papa's reports started landing there. \"Dr said the sugar is high.\" Someone forwards a prescription.\nSomeone else asks which hospital, which date, who can take leave this month.\n\n[slide 4] The doctor says surgery. Within an hour the three of you have picked the hospital, fixed the week, decided who flies in. Your phone buzzes past midnight with the final plan.\nThen one of you calls papa. \"We were thinking...\" He thinks he's deciding.\nThe deciding is already done.\n\n[slide 5] You're not cutting them out. You're carrying it for them.\nThe reports come to you now. The hospital names, the leave, the money. Deciding fast, so papa doesn't lie awake, is just easier. That same kindness keeps him out of the room.\nOne day someone will read your reports first, and call to tell you what they've already decided.\n\n[end card] Open it again the next time a 'small' family decision lands in that chat before anyone tells your parents.\nSend to the sibling who's in that exact group chat with you, picking dates and doctors at midnight.\n\n[caption] What's the name of your sibling group chat, and when did it turn from party planning into running your parents' lives?\n\n[alt text] A five-slide carousel about adult siblings who coordinate their ageing parents' care, money and medical decisions in a group chat their parents aren't part of. It moves from the chat's small beginnings to a surgery decision made before the parents are told, ending on the line that one day someone will read your reports first and tell you what they've already decided.",
+   "claims": []
+  },
+  "_by_text": {
+   "6fd8ac0cab89eb83c1c398495c726a9b7b2b33a7": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [],
+    "verdicts": {},
+    "mechanism": null,
+    "text_hash": "6fd8ac0cab89eb83c1c398495c726a9b7b2b33a7",
+    "at": "2026-11-05T06:21:33.228755+00:00"
+   }
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "70% of elderly Indians depend on someone for money. [It's you.]",
+   "sub": "And they don't know half of what you decide."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "70% of elderly Indians depend on someone for money. It's you.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "how?"
+   },
+   {
+    "paragraphs": [
+     "Your parents' medical report doesn't go to them first. It goes to the sibling group.",
+     "The hospital, the doctor, who pays the advance: decided there, without them."
+    ],
+    "why_swipe": "what else?"
+   },
+   {
+    "paragraphs": [
+     "Every one of these chats has typed one line: \"Don't tell them the full amount.\""
+    ],
+    "why_swipe": "why?"
+   },
+   {
+    "paragraphs": [
+     "Nobody took over. The roles flipped, and nobody announced it.",
+     "Call it the parallel family. Same people. One room your parents can't enter."
+    ],
+    "why_swipe": "who noticed?"
+   },
+   {
+    "paragraphs": [
+     "The market saw it first.",
+     "\"Health insurance for parents\" is sold to you, not them. Section 80D gives you up to ₹50,000 a year to pay their premium."
+    ],
+    "why_swipe": "and the parents?"
+   },
+   {
+    "paragraphs": [
+     "Parents get the short version: \"Sab set hai.\"",
+     "They don't ask which hospital. The people who decided everything for thirty years take it."
+    ],
+    "why_swipe": "is it wrong?"
+   },
+   {
+    "paragraphs": [
+     "You're not going behind their backs. You're carrying it so they can sleep."
+    ],
+    "why_swipe": "the line"
+   },
+   {
+    "paragraphs": [
+     "**The family isn't run from the dining table anymore. It's run from the chat your parents were never added to.**"
+    ]
+   }
+  ],
+  "end": {
+   "send": "Send to your sibling in that chat.",
+   "save": "Read it before the next \"don't tell them\" message.",
+   "promise": "How Indian families really work."
+  },
+  "caption": "Every sibling group has typed it at least once: \"Don't tell them the full amount.\"\n\nThe roles flipped. Nobody announced it.\n\nSend this to your sibling in that chat.",
+  "hashtags": [
+   "#IndianFamily",
+   "#IndianParents",
+   "#Siblings"
+  ],
+  "alt_text": "A carousel: 70% of elderly Indians depend on someone for money. It's you.",
+  "claims": [
+   {
+    "text": "70% of elderly Indians are financially dependent.",
+    "source_url": "https://www.outlookmoney.com/amp/story/news/around-70-of-elderly-in-india-are-financially-dependent-many-work-after-retirement-to-survive-report"
+   },
+   {
+    "text": "Section 80D allows up to ₹50,000 a year for health insurance premiums paid for senior-citizen parents.",
+    "source_url": "https://www.advisorkhoj.com/articles/Health-Insurance/Best-Health-Insurance-Plans-for-Parents-who-are-Senior-Citizens"
+   }
+  ]
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [],
+  "verdicts": {},
+  "mechanism": null,
+  "text_hash": "6fd8ac0cab89eb83c1c398495c726a9b7b2b33a7",
+  "at": "2026-11-05T06:21:33.228755+00:00"
+ }
 }

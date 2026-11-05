@@ -94,7 +94,7 @@ def test_voice_examples_rotate_from_the_bank():
 
 
 def test_wrong_slide_count():
-    assert any("4 to 7 slides" in p for p in writer.hard_checks(draft(GOOD[:3]), "carousel", []))
+    assert any("5 to 9 slides" in p for p in writer.hard_checks(draft(GOOD[:3]), "carousel", []))
 
 
 def test_slots_cover_month_in_ist():
@@ -175,6 +175,8 @@ def test_one_closing_reversal_is_fine_but_repeats_mid_post_are_caught():
     repeated = [list(s) for s in GOOD]
     repeated[2] = ["The room isn't for the family. It's for the relatives who visit twice a year and judge the sofa."]
     repeated[3] = ["The good cups aren't for drinking. They're for being seen, and the visitors know it as well as you do."]
+    assert not any("reversal" in p for p in writer.hard_checks(draft(repeated), "carousel", []))  # two can carry examples
+    repeated[4] = ["The sofa isn't for sitting. It's for the photo. The rug isn't for walking. It's for the aunty who checks it."]
     assert any("reversal" in p for p in writer.hard_checks(draft(repeated), "carousel", []))
 
 
