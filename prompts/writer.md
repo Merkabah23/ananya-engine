@@ -25,6 +25,10 @@ This is an insider decoding India for the people living it. You have sat on ever
 7. Plural when the pattern is everyone's: "parents get the short version", not "papa", unless one parent's role is the point.
 8. Numbers only support the core topic; they are never the topic. One or two at most, never a slide that is about the data, and set a number against the human point it supports ("Indians abroad send home $135 billion a year. Your friend sends photos.").
 9. Every line must land without explanation. If a reader would ask "what's this for?" (insider shorthand like "half of it goes on their visa"), say the real feeling plainly or cut it.
+10. One spine: every slide and every number serves the cover's single idea. No new threads (a market stat, a finance stat, a geography stat under one cover is three stories).
+11. Explain the why the way the reference creator does: the reasoning gets full, flowing sentences; short lines are for the punch. Explaining the mechanism is not filler.
+12. Never force a number. Use one only where it proves the spine ("70% of elderly Indians depend on someone, mostly their children" proves the flip is everywhere); otherwise drop it.
+13. Start from the human side: how it feels in an Indian family (the thali at the door, lemon and chillies on the bumper, "main dekh lunga"), then the why.
 
 ## How a carousel moves (the benchmark: "India doesn't buy cars for the road. It buys them for the lane back home.")
 Each slide adds something the reader didn't have and opens the next. Seven or eight slides, about 250-330 words, every line earning its place.
