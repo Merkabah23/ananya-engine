@@ -1,6 +1,6 @@
 {
  "id": "2026-11-113",
- "status": "planned",
+ "status": "written",
  "due": "2026-11-06T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -32,7 +32,173 @@
   "news_peg": null,
   "proof": []
  },
- "history": [],
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 5: \"That breaks a distance he has kept for thirty years.\" This is an invented specific number not in the topic or sources, and it doesn't fit the stated 24-32 reader range (anyone under 30 can't have thirty years of this dynamic with their father). It reads as a figure presented as fact, not scene texture."
+    ],
+    "scores": {
+     "hook": 5,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "Slide 5: cut \"thirty years\" entirely, or replace with something that doesn't name a number — e.g. \"a distance he's kept since you can remember\" or \"the distance he's used to\" — so it doesn't contradict the target reader's actual age.",
+     "Slide 2: \"the city they posted you to\" narrows this to transferable government/bank/defence jobs. Most readers in corporate or regular jobs won't recognize \"posted,\" which costs relatability right at the setup. Consider a more universal phrase like \"where you work now\" or \"what you're earning these days.\"",
+     "Slide 4 and slide 6 both land on the same image (\"which room you're in\" / \"audience of one in the next room\"). The payoff works, but tighten slide 4 so it doesn't pre-echo the closer's exact idea — make slide 4 purely about the suspicion (door open, volume up) and save the \"performing for you specifically\" realization entirely for slide 6."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Slide 5: \"That breaks a distance he has kept for thirty years.\" This is an invented specific number not in the topic or sources, and it doesn't fit the stated 24-32 reader range (anyone under 30 can't have thirty years of this dynamic with their father). It reads as a figure presented as fact, not scene texture.",
+    "Slide 5: cut \"thirty years\" entirely, or replace with something that doesn't name a number — e.g. \"a distance he's kept since you can remember\" or \"the distance he's used to\" — so it doesn't contradict the target reader's actual age.",
+    "Slide 2: \"the city they posted you to\" narrows this to transferable government/bank/defence jobs. Most readers in corporate or regular jobs won't recognize \"posted,\" which costs relatability right at the setup. Consider a more universal phrase like \"where you work now\" or \"what you're earning these days.\"",
+    "Slide 4 and slide 6 both land on the same image (\"which room you're in\" / \"audience of one in the next room\"). The payoff works, but tighten slide 4 so it doesn't pre-echo the closer's exact idea — make slide 4 purely about the suspicion (door open, volume up) and save the \"performing for you specifically\" realization entirely for slide 6."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 5,
+     "relatable": 5,
+     "fresh_angle": 5,
+     "pull": 5,
+     "payoff": 5,
+     "voice": 5,
+     "eq": 4,
+     "iq": 4,
+     "story": 5,
+     "tight": 4
+    },
+    "notes": [
+     "Slide 2: 'Sharma uncle' is a named stand-in with no basis in the topic. Swap for 'the neighbour' or 'uncle from next door' so nothing reads as a specific, identifiable person.",
+     "Slide 4/5: 'The volume is a choice' and 'Saying it to your face means looking at you while he does it' make almost the same point twice. Cut one line or merge them so the mechanism lands once, cleaner.",
+     "Slide 2: good that you've already got sound (cooker hissing, fan on low) — keep that, don't add more texture, the scene is set efficiently."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "verification": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [],
+    "verdicts": {},
+    "mechanism": null,
+    "text_hash": "937ed167170f4a8b11b45ba53005f7bcecf9d674",
+    "at": "2026-11-03T14:33:24.049937+00:00"
+   }
+  }
+ ],
  "sources": [],
- "updated_at": "2026-11-03T14:24:44.012195+00:00"
+ "updated_at": "2026-11-03T14:55:44.105153+00:00",
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] Papa tells the neighbour he's proud. [Never you.]\nYou hear it through the wall, and it still counts.\n \n\n[slide 1] Papa tells the neighbour he's proud. Never you.\nSwipe to read →\n\n[slide 2] You're home for a few days. Sunday morning, the pressure cooker hissing, the fan on low.\nThrough the wall you hear papa on the balcony with Sharma uncle. He's listing your salary, your company, where you work now.\n\n[slide 3] He has never said any of it to your face. Not once.\nYou settled this years ago. Some fathers say it, yours just isn't the type.\n\n[slide 4] But the balcony door is open. It's always open when this happens. And he's saying it a notch louder than the chat needs.\nThe volume is a choice.\n\n[slide 5] Saying it to your face means looking at you while he does it. That breaks a distance he's kept since you can remember.\nThe neighbour is easier. You still catch every word.\n\n[slide 6] He wasn't hiding that he's proud of you.\nHe was performing it, at full volume, for an audience of one in the next room.\n\n[end card] Open this the next time you're home and hear him on the phone about you.\nSend to your sibling whose dad has never once said it to their face either.\n\n[caption] Some fathers can only say it loudly, to someone else, while you pretend not to hear.\n\n[alt text] A six-slide carousel. A grown child is home for the weekend and overhears their father on the balcony bragging about their job and salary to a neighbour, though he has never said he is proud to their face. The post reframes this: the father isn't hiding his pride, he's performing it loud enough for the child in the next room to overhear.",
+   "claims": []
+  },
+  "_by_text": {
+   "937ed167170f4a8b11b45ba53005f7bcecf9d674": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [],
+    "verdicts": {},
+    "mechanism": null,
+    "text_hash": "937ed167170f4a8b11b45ba53005f7bcecf9d674",
+    "at": "2026-11-03T14:33:24.049937+00:00"
+   }
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "Papa tells the neighbour he's proud. [Never you.]",
+   "sub": "You hear it through the wall, and it still counts.",
+   "art": "door-ajar"
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Papa tells the neighbour he's proud. Never you.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "Where is this, and why is he saying it to the neighbour?"
+   },
+   {
+    "paragraphs": [
+     "You're home for a few days. Sunday morning, the pressure cooker hissing, the fan on low.",
+     "Through the wall you hear papa on the balcony with Sharma uncle. He's listing your salary, your company, where you work now."
+    ],
+    "why_swipe": "If he can tell the neighbour all this, what has he told you?"
+   },
+   {
+    "paragraphs": [
+     "He has never said any of it to your face. Not once.",
+     "You settled this years ago. Some fathers say it, yours just isn't the type."
+    ],
+    "why_swipe": "So is he really not the type, or is something else going on?"
+   },
+   {
+    "paragraphs": [
+     "But the balcony door is open. It's always open when this happens. And he's saying it a notch louder than the chat needs.",
+     "**The volume is a choice.**"
+    ],
+    "why_swipe": "Why route it through the neighbour if he wants you to hear?"
+   },
+   {
+    "paragraphs": [
+     "Saying it to your face means looking at you while he does it. That breaks a distance he's kept since you can remember.",
+     "The neighbour is easier. You still catch every word."
+    ],
+    "why_swipe": "So what is this really, if not shyness?"
+   },
+   {
+    "paragraphs": [
+     "He wasn't hiding that he's proud of you.",
+     "**He was performing it, at full volume, for an audience of one in the next room.**"
+    ]
+   }
+  ],
+  "end": {
+   "save": "Open this the next time you're home and hear him on the phone about you.",
+   "send": "Send to your sibling whose dad has never once said it to their face either.",
+   "promise": "How Indian families love without saying it."
+  },
+  "caption": "Some fathers can only say it loudly, to someone else, while you pretend not to hear.",
+  "hashtags": [
+   "#IndianDads",
+   "#fatherandchild",
+   "#desifamily",
+   "#goinghome"
+  ],
+  "alt_text": "A six-slide carousel. A grown child is home for the weekend and overhears their father on the balcony bragging about their job and salary to a neighbour, though he has never said he is proud to their face. The post reframes this: the father isn't hiding his pride, he's performing it loud enough for the child in the next room to overhear.",
+  "claims": [],
+  "caption_style": "pov"
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [],
+  "verdicts": {},
+  "mechanism": null,
+  "text_hash": "937ed167170f4a8b11b45ba53005f7bcecf9d674",
+  "at": "2026-11-03T14:33:24.049937+00:00"
+ }
 }

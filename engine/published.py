@@ -39,13 +39,19 @@ def record_live() -> list[dict]:
     return added
 
 
-def lines() -> str:
-    return "\n".join(f"- {r['date']}: {r['headline']} ({r['claim']})" for r in log()) or "(nothing live yet)"
+def lines(queued: bool = True) -> str:
+    """Live posts, and (by default) posts already approved or queued in Buffer: a new post repeats neither."""
+    rows = [f"- {r['date']}: {r['headline']} ({r['claim']})" for r in log()]
+    if queued:
+        rows += [f"- {p['due'][:10]} (queued): {re.sub(r'[\[\]]', '', ((p.get('draft') or {}).get('cover') or {}).get('headline', ''))} "
+                 f"({p['topic'].get('claim', '')})" for p in state.posts()
+                 if p["status"] in ("approved", "uploaded", "scheduled") and p.get("draft") and p.get("due") and p.get("topic")]
+    return "\n".join(rows) or "(nothing live yet)"
 
 
 def repeat_of(topic: dict) -> str | None:
     """The live post this topic would repeat (same take, or the same object or moment at its centre), or None."""
-    if not log():
+    if not log() and not state.posts("scheduled"):
         return None
     ask = ("An Instagram page never repeats itself. Below are the posts already live, then a new topic. The new topic is a "
            "repeat if it makes the same point, or if the same object, ritual or moment sits at its centre (two posts about "

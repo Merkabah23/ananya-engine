@@ -1,6 +1,6 @@
 {
  "id": "2026-11-111",
- "status": "planned",
+ "status": "written",
  "due": "2026-11-05T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -32,7 +32,459 @@
   "news_peg": null,
   "proof": []
  },
- "history": [],
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 6 ('The babysitting was never free. **You paid in every parenting decision you thought was yours to make.**') is the cover's point ('The babysitting is free. You pay in [parenting rules]') restated in past tense — a dead slide per rule 7, and it leaves no new payoff line.",
+     "Slide 5 ('You're grateful, truly. You also didn't pick the thread, the sugar, or the schedule.') just re-lists the thread, sugar and schedule already given in slide 2 — a dead slide, nothing new for the reader to learn before swiping."
+    ],
+    "scores": {
+     "hook": 3,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 2,
+     "payoff": 2,
+     "voice": 4,
+     "eq": 4,
+     "iq": 2,
+     "story": 3,
+     "tight": 2
+    },
+    "notes": [
+     "Slide 6: the ending just restates slide 1 in past tense. Give it a real payoff — a line to repeat that says something slide 1 didn't, a test the reader can run (e.g. notice which rule you gave up this month), or a sting that lands harder than the cover already did.",
+     "Slide 5: cut or rework. Right now it re-lists thread/sugar/schedule from slide 2 with no new beat. Use this slot to move the story forward in time — what the reader now avoids saying, or how the rewrite keeps happening quietly, week after week — instead of recapping the same three details.",
+     "Slide 1/cover: the hook already states the full mechanism ('free babysitting, you pay in rules'), so there's nothing left to discover by slide 6. Consider holding the 'why' back so slides 2–5 earn the swipe by building toward the turn, not just illustrating a thesis already given away.",
+     "Caption ('You can take the hands or keep the rules, and nobody warns you it's only ever one of the two') is a mirrored-pair construction, which the voice rules forbid. Rewrite as one plain observation instead of an A-or-B line.",
+     "Slide 3 reads as exposition explaining the arrangement rather than a moment happening to the reader in time ('You said yes to them moving in...'). Ground it back in the scene — something the reader notices or does — so the story keeps moving forward instead of pausing to explain."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Slide 6 ('The babysitting was never free. **You paid in every parenting decision you thought was yours to make.**') is the cover's point ('The babysitting is free. You pay in [parenting rules]') restated in past tense — a dead slide per rule 7, and it leaves no new payoff line.",
+    "Slide 5 ('You're grateful, truly. You also didn't pick the thread, the sugar, or the schedule.') just re-lists the thread, sugar and schedule already given in slide 2 — a dead slide, nothing new for the reader to learn before swiping.",
+    "Slide 6: the ending just restates slide 1 in past tense. Give it a real payoff — a line to repeat that says something slide 1 didn't, a test the reader can run (e.g. notice which rule you gave up this month), or a sting that lands harder than the cover already did.",
+    "Slide 5: cut or rework. Right now it re-lists thread/sugar/schedule from slide 2 with no new beat. Use this slot to move the story forward in time — what the reader now avoids saying, or how the rewrite keeps happening quietly, week after week — instead of recapping the same three details.",
+    "Slide 1/cover: the hook already states the full mechanism ('free babysitting, you pay in rules'), so there's nothing left to discover by slide 6. Consider holding the 'why' back so slides 2–5 earn the swipe by building toward the turn, not just illustrating a thesis already given away.",
+    "Caption ('You can take the hands or keep the rules, and nobody warns you it's only ever one of the two') is a mirrored-pair construction, which the voice rules forbid. Rewrite as one plain observation instead of an A-or-B line.",
+    "Slide 3 reads as exposition explaining the arrangement rather than a moment happening to the reader in time ('You said yes to them moving in...'). Ground it back in the scene — something the reader notices or does — so the story keeps moving forward instead of pausing to explain."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 4,
+     "tight": 4
+    },
+    "notes": [
+     "Slide 5: right now it just restates slide 4's 'you let it go' beat with a time-skip. Give it a new beat instead — show the surrender creeping into a bigger call (what the baby eats, when solid food starts, which school) so the reader feels the price growing, not just repeating.",
+     "Slide 6: the cover already says 'you pay in parenting rules,' so this slide's job is to say something the cover hasn't, not reword it. 'Signed the rulebook over' is close to 'pay in parenting rules' in meaning — push the image further (what did you actually give up the day they moved in, name one thing) so it lands as a new thought, not an echo.",
+     "Slide 3: 'Daycare costs a whole salary' reads like a stated fact/figure. Since it's not sourced, keep it as a feeling, not a number-shaped claim — e.g. tie it to the panic of the math, not the math itself.",
+     "Slide 4: 'you see them rocking the baby to sleep, the same way they rocked you' is a strong beat but stays visual. Add one non-sight sense here (the hum they're singing, the creak of the same chair) to make the moment land in the body, not just the eye.",
+     "Slide 3's justification for saying yes is all logistics (nights, money, timing) — the topic's mood is 'mixed,' so let one line show you wanting the help emotionally too (missing them doing this, wanting the baby to have that bond), so the surrender in slide 4 costs you something warmer than convenience."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "verification": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "When grandparents provide free childcare, parents in return must accept the grandparents' parenting choices (diet, rituals, schedule) instead of their own.",
+      "sentence": "The babysitting is free. You pay in parenting rules. / Grandparents' help comes bundled with the right to do it their way.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Daycare costs as much as a full salary.",
+      "sentence": "Daycare costs a whole salary, and they offered before you could ask.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": "Not universal across all incomes, but true for a large share of earners: in India, average monthly earnings for women in regular salaried jobs are ₹18,353 (PLFS 2025), while branded/full-day daycare runs ₹12,000–18,000+ a month (and higher in metros) — i.e., a daycare bill that can equal or exceed a typical salary, especially a mother's. The same pattern is independently documented in the UK, where full-time nursery fees in the most expensive areas exceed the annual take-home pay of a full-time worker on the National Living Wage.",
+      "sources": [
+       {
+        "url": "https://indialabourobservatory.com/data/plfs-2025/earnings/",
+        "publisher": "India Labour Observatory (from MoSPI Periodic Labour Force Survey, Jan–Dec 2025)",
+        "published_date": "2026-05-22",
+        "quote": "Average Monthly Earnings for Regular Wage/Salaried Workers in India (2025): Overall ₹22,699; Women: ₹18,353 per month... computed by the observatory from MoSPI's unit-level records.",
+        "tier": 1
+       },
+       {
+        "url": "https://teenybeans.in/blogs/daycare-fee-structure-in-india",
+        "publisher": "Teenybeans",
+        "published_date": "2026-08-03",
+        "quote": "Branded (Full-day): ₹12,000–₹18,000+ monthly... most parents across India can expect monthly fees to fall somewhere between ₹5,000 and ₹20,000, with premium, branded centres in expensive metro neighbourhoods sometimes going well beyond that.",
+        "tier": 3
+       },
+       {
+        "url": "https://www.bigissue.com/news/social-justice/childcare-costs-uk-coram-family/",
+        "publisher": "The Big Issue, citing Coram Family and Childcare Survey 2024",
+        "published_date": "2024-03-19",
+        "quote": "in the most expensive areas unsubsidised full-time nursery fees can exceed the annual take-home pay of someone working full-time on the National Living Wage",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. The central claim is a generalization about family reciprocity, which is opinion, not a falsifiable statement about a price, fee, law, or market. The only concrete factual premise ('daycare costs a whole salary') is relatability hyperbole framed as this couple's situation, not a load-bearing claim about how a fee is set.",
+     "actual_mechanism": "Grandparent care is the dominant form of informal childcare and runs on implicit reciprocity norms rather than a written deal: because the help is unpaid and hard to replace, parents sustain it by not overburdening the givers and by letting small disagreements (diet, rituals, schedule) slide, which hands de facto control over daily choices to the grandparents. Paid daycare in Indian metros runs roughly ₹7,000–₹18,000/month, so for many households the alternative is costly enough that the 'free' option carries real bargaining power. The post's trade — free hands in exchange for ceding parenting rules — is exactly the reciprocity mechanism documented in the childcare literature.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://journals.sagepub.com/doi/10.1177/0192513X20984508",
+       "published_date": "2021",
+       "quote": "Grandparents indicated that both they and their adult children shared an implicit understanding that unpaid childcare was an integral and 'natural' part of the grandparental role... rules and boundaries are typically negotiated through reciprocity norms rather than formal agreements."
+      },
+      {
+       "url": "https://www.daycarefee.com/cities/new-delhi/",
+       "published_date": "2026",
+       "quote": "Daycare cost in New Delhi starts at ₹8,700/month for infants, ₹7,900/month for toddlers, and ₹7,100/month for kids."
+      },
+      {
+       "url": "https://teenybeans.in/blogs/daycare-fee-structure-in-india",
+       "published_date": "2026",
+       "quote": "Most parents across India can expect monthly fees to fall somewhere between ₹5,000 and ₹20,000, with premium, branded centres... going well beyond that."
+      }
+     ]
+    },
+    "text_hash": "fdd49a36d0178c34f80af5d80316f558ee47a22a",
+    "at": "2026-11-03T14:45:44.992457+00:00"
+   }
+  }
+ ],
  "sources": [],
- "updated_at": "2026-11-03T14:18:51.475695+00:00"
+ "updated_at": "2026-11-03T14:55:43.380515+00:00",
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] The babysitting is free. You pay in [parenting rules]\nGrandparents' help comes bundled with the right to do it their way.\n \n\n[slide 1] The babysitting is free. You pay in parenting rules.\nSwipe to read →\n\n[slide 2] You get home at seven, drained. The baby's wrist has a black thread tied on it.\nThere's sugar on the breath. The afternoon nap happened three hours off schedule.\n\n[slide 3] Think back to why you said yes. Two weeks in, the nights had broken you. Daycare costs a whole salary, and they offered before you could ask.\nIt's their grandchild. Pure love.\n\n[slide 4] So you open your mouth about the sugar. Then you see them rocking the baby to sleep, the same way they rocked you.\nYou close it. You can't take the hands and refuse the way they come.\n\n[slide 5] A month on, you don't bring up the sugar anymore. You text to check on the nap and already know it slipped again.\nYou let the small things go so the house stays peaceful.\n\n[slide 6] You never lost an argument about it.\nYou signed the rulebook over the day you asked them to move in.\n\n[end card] Read it again the next time you bite your tongue about the sugar.\nSend to the cousin who just moved their parents in to help with the newborn.\n\n[caption] The most expensive free thing you will ever accept, and you say thank you for it every evening.\n\n[alt text] A six-slide carousel about new parents who accept free childcare from grandparents and, in return, lose control over how their child is raised: sugar, a thread on the wrist, naps off schedule, and every rule rewritten out of love.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "When grandparents provide free childcare, parents in return must accept the grandparents' parenting choices (diet, rituals, schedule) instead of their own.",
+     "sentence": "The babysitting is free. You pay in parenting rules. / Grandparents' help comes bundled with the right to do it their way.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "Daycare costs as much as a full salary.",
+     "sentence": "Daycare costs a whole salary, and they offered before you could ask.",
+     "type": "figure",
+     "core": false,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "Daycare costs as much as a full salary.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": "Not universal across all incomes, but true for a large share of earners: in India, average monthly earnings for women in regular salaried jobs are ₹18,353 (PLFS 2025), while branded/full-day daycare runs ₹12,000–18,000+ a month (and higher in metros) — i.e., a daycare bill that can equal or exceed a typical salary, especially a mother's. The same pattern is independently documented in the UK, where full-time nursery fees in the most expensive areas exceed the annual take-home pay of a full-time worker on the National Living Wage.",
+   "sources": [
+    {
+     "url": "https://indialabourobservatory.com/data/plfs-2025/earnings/",
+     "publisher": "India Labour Observatory (from MoSPI Periodic Labour Force Survey, Jan–Dec 2025)",
+     "published_date": "2026-05-22",
+     "quote": "Average Monthly Earnings for Regular Wage/Salaried Workers in India (2025): Overall ₹22,699; Women: ₹18,353 per month... computed by the observatory from MoSPI's unit-level records.",
+     "tier": 1
+    },
+    {
+     "url": "https://teenybeans.in/blogs/daycare-fee-structure-in-india",
+     "publisher": "Teenybeans",
+     "published_date": "2026-08-03",
+     "quote": "Branded (Full-day): ₹12,000–₹18,000+ monthly... most parents across India can expect monthly fees to fall somewhere between ₹5,000 and ₹20,000, with premium, branded centres in expensive metro neighbourhoods sometimes going well beyond that.",
+     "tier": 3
+    },
+    {
+     "url": "https://www.bigissue.com/news/social-justice/childcare-costs-uk-coram-family/",
+     "publisher": "The Big Issue, citing Coram Family and Childcare Survey 2024",
+     "published_date": "2024-03-19",
+     "quote": "in the most expensive areas unsubsidised full-time nursery fees can exceed the annual take-home pay of someone working full-time on the National Living Wage",
+     "tier": 2
+    }
+   ]
+  },
+  "_skeptic": {
+   "aac9f43b85a4d1179021a2074531509b4e5e8fa4": {
+    "holds": true,
+    "broken_premise": "None. The central claim is a generalization about family reciprocity, which is opinion, not a falsifiable statement about a price, fee, law, or market. The only concrete factual premise ('daycare costs a whole salary') is relatability hyperbole framed as this couple's situation, not a load-bearing claim about how a fee is set.",
+    "actual_mechanism": "Grandparent care is the dominant form of informal childcare and runs on implicit reciprocity norms rather than a written deal: because the help is unpaid and hard to replace, parents sustain it by not overburdening the givers and by letting small disagreements (diet, rituals, schedule) slide, which hands de facto control over daily choices to the grandparents. Paid daycare in Indian metros runs roughly ₹7,000–₹18,000/month, so for many households the alternative is costly enough that the 'free' option carries real bargaining power. The post's trade — free hands in exchange for ceding parenting rules — is exactly the reciprocity mechanism documented in the childcare literature.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://journals.sagepub.com/doi/10.1177/0192513X20984508",
+      "published_date": "2021",
+      "quote": "Grandparents indicated that both they and their adult children shared an implicit understanding that unpaid childcare was an integral and 'natural' part of the grandparental role... rules and boundaries are typically negotiated through reciprocity norms rather than formal agreements."
+     },
+     {
+      "url": "https://www.daycarefee.com/cities/new-delhi/",
+      "published_date": "2026",
+      "quote": "Daycare cost in New Delhi starts at ₹8,700/month for infants, ₹7,900/month for toddlers, and ₹7,100/month for kids."
+     },
+     {
+      "url": "https://teenybeans.in/blogs/daycare-fee-structure-in-india",
+      "published_date": "2026",
+      "quote": "Most parents across India can expect monthly fees to fall somewhere between ₹5,000 and ₹20,000, with premium, branded centres... going well beyond that."
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "fdd49a36d0178c34f80af5d80316f558ee47a22a": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "When grandparents provide free childcare, parents in return must accept the grandparents' parenting choices (diet, rituals, schedule) instead of their own.",
+      "sentence": "The babysitting is free. You pay in parenting rules. / Grandparents' help comes bundled with the right to do it their way.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Daycare costs as much as a full salary.",
+      "sentence": "Daycare costs a whole salary, and they offered before you could ask.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": "Not universal across all incomes, but true for a large share of earners: in India, average monthly earnings for women in regular salaried jobs are ₹18,353 (PLFS 2025), while branded/full-day daycare runs ₹12,000–18,000+ a month (and higher in metros) — i.e., a daycare bill that can equal or exceed a typical salary, especially a mother's. The same pattern is independently documented in the UK, where full-time nursery fees in the most expensive areas exceed the annual take-home pay of a full-time worker on the National Living Wage.",
+      "sources": [
+       {
+        "url": "https://indialabourobservatory.com/data/plfs-2025/earnings/",
+        "publisher": "India Labour Observatory (from MoSPI Periodic Labour Force Survey, Jan–Dec 2025)",
+        "published_date": "2026-05-22",
+        "quote": "Average Monthly Earnings for Regular Wage/Salaried Workers in India (2025): Overall ₹22,699; Women: ₹18,353 per month... computed by the observatory from MoSPI's unit-level records.",
+        "tier": 1
+       },
+       {
+        "url": "https://teenybeans.in/blogs/daycare-fee-structure-in-india",
+        "publisher": "Teenybeans",
+        "published_date": "2026-08-03",
+        "quote": "Branded (Full-day): ₹12,000–₹18,000+ monthly... most parents across India can expect monthly fees to fall somewhere between ₹5,000 and ₹20,000, with premium, branded centres in expensive metro neighbourhoods sometimes going well beyond that.",
+        "tier": 3
+       },
+       {
+        "url": "https://www.bigissue.com/news/social-justice/childcare-costs-uk-coram-family/",
+        "publisher": "The Big Issue, citing Coram Family and Childcare Survey 2024",
+        "published_date": "2024-03-19",
+        "quote": "in the most expensive areas unsubsidised full-time nursery fees can exceed the annual take-home pay of someone working full-time on the National Living Wage",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. The central claim is a generalization about family reciprocity, which is opinion, not a falsifiable statement about a price, fee, law, or market. The only concrete factual premise ('daycare costs a whole salary') is relatability hyperbole framed as this couple's situation, not a load-bearing claim about how a fee is set.",
+     "actual_mechanism": "Grandparent care is the dominant form of informal childcare and runs on implicit reciprocity norms rather than a written deal: because the help is unpaid and hard to replace, parents sustain it by not overburdening the givers and by letting small disagreements (diet, rituals, schedule) slide, which hands de facto control over daily choices to the grandparents. Paid daycare in Indian metros runs roughly ₹7,000–₹18,000/month, so for many households the alternative is costly enough that the 'free' option carries real bargaining power. The post's trade — free hands in exchange for ceding parenting rules — is exactly the reciprocity mechanism documented in the childcare literature.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://journals.sagepub.com/doi/10.1177/0192513X20984508",
+       "published_date": "2021",
+       "quote": "Grandparents indicated that both they and their adult children shared an implicit understanding that unpaid childcare was an integral and 'natural' part of the grandparental role... rules and boundaries are typically negotiated through reciprocity norms rather than formal agreements."
+      },
+      {
+       "url": "https://www.daycarefee.com/cities/new-delhi/",
+       "published_date": "2026",
+       "quote": "Daycare cost in New Delhi starts at ₹8,700/month for infants, ₹7,900/month for toddlers, and ₹7,100/month for kids."
+      },
+      {
+       "url": "https://teenybeans.in/blogs/daycare-fee-structure-in-india",
+       "published_date": "2026",
+       "quote": "Most parents across India can expect monthly fees to fall somewhere between ₹5,000 and ₹20,000, with premium, branded centres... going well beyond that."
+      }
+     ]
+    },
+    "text_hash": "fdd49a36d0178c34f80af5d80316f558ee47a22a",
+    "at": "2026-11-03T14:45:44.992457+00:00"
+   }
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "The babysitting is free. You pay in [parenting rules]",
+   "sub": "Grandparents' help comes bundled with the right to do it their way.",
+   "art": "laddoo-plate"
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "The babysitting is free. You pay in parenting rules.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "What's the hidden price?"
+   },
+   {
+    "paragraphs": [
+     "You get home at seven, drained. The baby's wrist has a black thread tied on it.",
+     "There's sugar on the breath. The afternoon nap happened three hours off schedule."
+    ],
+    "why_swipe": "How did it get to this?"
+   },
+   {
+    "paragraphs": [
+     "Think back to why you said yes. Two weeks in, the nights had broken you. Daycare costs a whole salary, and they offered before you could ask.",
+     "It's their grandchild. Pure love."
+    ],
+    "why_swipe": "So where's the catch?"
+   },
+   {
+    "paragraphs": [
+     "So you open your mouth about the sugar. Then you see them rocking the baby to sleep, the same way they rocked you.",
+     "You close it. You can't take the hands and refuse the way they come."
+    ],
+    "why_swipe": "But isn't that just gratitude?"
+   },
+   {
+    "paragraphs": [
+     "A month on, you don't bring up the sugar anymore. You text to check on the nap and already know it slipped again.",
+     "You let the small things go so the house stays peaceful."
+    ],
+    "why_swipe": "So what did the help actually cost?"
+   },
+   {
+    "paragraphs": [
+     "You never lost an argument about it.",
+     "**You signed the rulebook over the day you asked them to move in.**"
+    ]
+   }
+  ],
+  "end": {
+   "save": "Read it again the next time you bite your tongue about the sugar.",
+   "send": "Send to the cousin who just moved their parents in to help with the newborn.",
+   "promise": "How Indian families really work."
+  },
+  "caption": "The most expensive free thing you will ever accept, and you say thank you for it every evening.",
+  "hashtags": [
+   "#grandparents",
+   "#newparents",
+   "#indianparenting",
+   "#childcare"
+  ],
+  "alt_text": "A six-slide carousel about new parents who accept free childcare from grandparents and, in return, lose control over how their child is raised: sugar, a thread on the wrist, naps off schedule, and every rule rewritten out of love.",
+  "claims": [],
+  "caption_style": "pov"
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "When grandparents provide free childcare, parents in return must accept the grandparents' parenting choices (diet, rituals, schedule) instead of their own.",
+    "sentence": "The babysitting is free. You pay in parenting rules. / Grandparents' help comes bundled with the right to do it their way.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "Daycare costs as much as a full salary.",
+    "sentence": "Daycare costs a whole salary, and they offered before you could ask.",
+    "type": "figure",
+    "core": false,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c2": {
+    "id": "c2",
+    "verdict": "supported",
+    "event_date": null,
+    "correct": "Not universal across all incomes, but true for a large share of earners: in India, average monthly earnings for women in regular salaried jobs are ₹18,353 (PLFS 2025), while branded/full-day daycare runs ₹12,000–18,000+ a month (and higher in metros) — i.e., a daycare bill that can equal or exceed a typical salary, especially a mother's. The same pattern is independently documented in the UK, where full-time nursery fees in the most expensive areas exceed the annual take-home pay of a full-time worker on the National Living Wage.",
+    "sources": [
+     {
+      "url": "https://indialabourobservatory.com/data/plfs-2025/earnings/",
+      "publisher": "India Labour Observatory (from MoSPI Periodic Labour Force Survey, Jan–Dec 2025)",
+      "published_date": "2026-05-22",
+      "quote": "Average Monthly Earnings for Regular Wage/Salaried Workers in India (2025): Overall ₹22,699; Women: ₹18,353 per month... computed by the observatory from MoSPI's unit-level records.",
+      "tier": 1
+     },
+     {
+      "url": "https://teenybeans.in/blogs/daycare-fee-structure-in-india",
+      "publisher": "Teenybeans",
+      "published_date": "2026-08-03",
+      "quote": "Branded (Full-day): ₹12,000–₹18,000+ monthly... most parents across India can expect monthly fees to fall somewhere between ₹5,000 and ₹20,000, with premium, branded centres in expensive metro neighbourhoods sometimes going well beyond that.",
+      "tier": 3
+     },
+     {
+      "url": "https://www.bigissue.com/news/social-justice/childcare-costs-uk-coram-family/",
+      "publisher": "The Big Issue, citing Coram Family and Childcare Survey 2024",
+      "published_date": "2024-03-19",
+      "quote": "in the most expensive areas unsubsidised full-time nursery fees can exceed the annual take-home pay of someone working full-time on the National Living Wage",
+      "tier": 2
+     }
+    ]
+   }
+  },
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "None. The central claim is a generalization about family reciprocity, which is opinion, not a falsifiable statement about a price, fee, law, or market. The only concrete factual premise ('daycare costs a whole salary') is relatability hyperbole framed as this couple's situation, not a load-bearing claim about how a fee is set.",
+   "actual_mechanism": "Grandparent care is the dominant form of informal childcare and runs on implicit reciprocity norms rather than a written deal: because the help is unpaid and hard to replace, parents sustain it by not overburdening the givers and by letting small disagreements (diet, rituals, schedule) slide, which hands de facto control over daily choices to the grandparents. Paid daycare in Indian metros runs roughly ₹7,000–₹18,000/month, so for many households the alternative is costly enough that the 'free' option carries real bargaining power. The post's trade — free hands in exchange for ceding parenting rules — is exactly the reciprocity mechanism documented in the childcare literature.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://journals.sagepub.com/doi/10.1177/0192513X20984508",
+     "published_date": "2021",
+     "quote": "Grandparents indicated that both they and their adult children shared an implicit understanding that unpaid childcare was an integral and 'natural' part of the grandparental role... rules and boundaries are typically negotiated through reciprocity norms rather than formal agreements."
+    },
+    {
+     "url": "https://www.daycarefee.com/cities/new-delhi/",
+     "published_date": "2026",
+     "quote": "Daycare cost in New Delhi starts at ₹8,700/month for infants, ₹7,900/month for toddlers, and ₹7,100/month for kids."
+    },
+    {
+     "url": "https://teenybeans.in/blogs/daycare-fee-structure-in-india",
+     "published_date": "2026",
+     "quote": "Most parents across India can expect monthly fees to fall somewhere between ₹5,000 and ₹20,000, with premium, branded centres... going well beyond that."
+    }
+   ]
+  },
+  "text_hash": "fdd49a36d0178c34f80af5d80316f558ee47a22a",
+  "at": "2026-11-03T14:45:44.992457+00:00"
+ }
 }

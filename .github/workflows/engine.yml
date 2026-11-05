@@ -84,11 +84,11 @@ jobs:
         run: |
           git config user.name "ananya-engine"
           git config user.email "engine@users.noreply.github.com"
-          git add state/
+          git add state/ data/published.json   # the live log sits outside state/; leaving it unstaged blocks the rebase
           git diff --cached --quiet || git commit -m "state: ${{ steps.cmd.outputs.c }} $(date -u +%F)"
           # A push that landed mid-run must not make this run's state get lost: on a clash in state/, this run's copy wins.
           for i in 1 2 3; do
-            git pull --rebase -X theirs origin main && git push && exit 0
+            git pull --rebase --autostash -X theirs origin main && git push && exit 0
             git rebase --abort 2>/dev/null || true
             sleep 10
           done
