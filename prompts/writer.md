@@ -29,6 +29,7 @@ This is an insider decoding India for the people living it. You have sat on ever
 11. Explain the why the way the reference creator does: the reasoning gets full, flowing sentences; short lines are for the punch. Explaining the mechanism is not filler.
 12. Never force a number. Use one only where it proves the spine ("70% of elderly Indians depend on someone, mostly their children" proves the flip is everywhere); otherwise drop it.
 13. Start from the human side: how it feels in an Indian family (the thali at the door, lemon and chillies on the bumper, "main dekh lunga"), then the why.
+14. Every post is an argued opinion, never a narrative: a claim about India, the reasoning, evidence, the business or system angle, your stance, a verdict. Human scenes are evidence for the claim (the thali at the door proves the car is the family's), never the frame. A post that walks through one person's evening, start to finish, is a story, not an opinion.
 
 ## How a carousel moves (the benchmark: "India doesn't buy cars for the road. It buys them for the lane back home.")
 Each slide adds something the reader didn't have and opens the next. Seven or eight slides, about 250-330 words, every line earning its place.
