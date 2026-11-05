@@ -43,9 +43,10 @@ def lines(queued: bool = True) -> str:
     """Live posts, and (by default) posts already approved or queued in Buffer: a new post repeats neither."""
     rows = [f"- {r['date']}: {r['headline']} ({r['claim']})" for r in log()]
     if queued:
-        rows += [f"- {p['due'][:10]} (queued): {re.sub(r'[\[\]]', '', ((p.get('draft') or {}).get('cover') or {}).get('headline', ''))} "
-                 f"({p['topic'].get('claim', '')})" for p in state.posts()
-                 if p["status"] in ("approved", "uploaded", "scheduled") and p.get("draft") and p.get("due") and p.get("topic")]
+        for p in state.posts():
+            if p["status"] in ("approved", "uploaded", "scheduled") and p.get("draft") and p.get("due") and p.get("topic"):
+                head = re.sub(r"[\[\]]", "", ((p["draft"].get("cover") or {}).get("headline", "")))  # no backslash in an f-string (3.11)
+                rows.append(f"- {p['due'][:10]} (queued): {head} ({p['topic'].get('claim', '')})")
     return "\n".join(rows) or "(nothing live yet)"
 
 
