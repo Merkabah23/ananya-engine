@@ -1,6 +1,6 @@
 {
  "id": "2026-11-126",
- "status": "written",
+ "status": "approved",
  "due": "2026-11-24T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -44,11 +44,12 @@
   }
  },
  "history": [],
- "updated_at": "2026-11-08T16:26:57.773212+00:00",
+ "updated_at": "2026-11-08T16:37:10.652822+00:00",
  "draft": {
   "cover": {
    "headline": "The society pool was [never built for you.]",
-   "sub": "It was built to sell your flat."
+   "sub": "It was built to sell your flat.",
+   "art": "society-pool"
   },
   "slides": [
    {
@@ -117,5 +118,327 @@
   ],
   "alt_text": "A text post about society amenities and maintenance.",
   "claims": []
- }
+ },
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] The society pool was [never built for you.]\nIt was built to sell your flat.\n \n\n[slide 1] The society pool was never built for you. It was built to sell your flat.\nSwipe to read →\n\n[slide 2] Every new tower in India sells the same dream. Pool, gym, clubhouse, jogging track, mini theatre.\nOh, and a flat somewhere in there.\n\n[slide 3] Our parents bought a flat for its walls and its water supply. We buy one for the clubhouse photo in the brochure.\n\n[slide 4] Here's the trick. A longer amenity list means a higher price per square foot.\nFor the same two bedrooms.\n\n[slide 5] Then the builder hands the society over and leaves. The pool stays. So does the bill.\nIt's called maintenance.\n\n[slide 6] This is why:\n– the pool is shut half the year\n– the gym has one working treadmill\n– the theatre opens for birthdays\n\n[slide 7] I get why we fall for it. In a brochure, a pool looks like the life we moved to the city for.\n\n[slide 8] The builder sold you the pool once. You pay for it every month.\n\n[end card] read it before you sign for the flat with the biggest clubhouse.\nThe couple visiting sample flats every weekend.\n\n[caption] The pool in the brochure was never for you.\n\nA long amenity list lets the builder charge more per square foot for the same flat. Once it's sold, the running cost is yours, as maintenance.\n\nWhich amenity in your society have you actually used this month?\n\n[alt text] A text post about society amenities and maintenance.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Builders add longer amenity lists (pool, gym, clubhouse, jogging track, mini theatre) to a building, which lets them charge a higher price per square foot for the same flat; once the flat is sold and the builder exits, the ongoing cost of running those amenities falls on residents as monthly maintenance — so the amenities are built to raise the sale price, not to serve residents afterward.",
+     "sentence": "The society pool was never built for you. It was built to sell your flat. ... Here's the trick. A longer amenity list means a higher price per square foot. For the same two bedrooms. ... Then the builder hands the society over and leaves. The pool stays. So does the bill. It's called maintenance. ... The builder sold you the pool once. You pay for it every month.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "A longer amenity list lets a builder charge a higher price per square foot for a flat of the same configuration (e.g. same two bedrooms).",
+     "sentence": "Here's the trick. A longer amenity list means a higher price per square foot. For the same two bedrooms.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c3",
+     "text": "After handing over the project, the builder exits, and the running cost of society amenities then becomes the residents' responsibility, collected as maintenance charges.",
+     "sentence": "Then the builder hands the society over and leaves. The pool stays. So does the bill. It's called maintenance.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "A longer amenity list lets a builder charge a higher price per square foot for a flat of the same configuration (e.g. same two bedrooms).": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.squareyards.com/blog/rise-of-amenity-led-communities-india-housing-market",
+     "publisher": "Square Yards",
+     "published_date": "2026-01-01",
+     "quote": "Features such as 24/7 security, backup power and water, and well-maintained green spaces are known to raise resale value by 10-15%... competition is no longer just on price per square foot, but on the quality of the living experience.",
+     "tier": 3
+    },
+    {
+     "url": "https://booknewproperty.com/plc-charges-in-apartments-floor-wise-view-wise-corner-unit-guide/",
+     "publisher": "BookNewProperty",
+     "published_date": "2026-01-01",
+     "quote": "Units near a clubhouse, pool, or gym can attract charges of ₹100-₹200 per sq. ft.",
+     "tier": 3
+    }
+   ]
+  },
+  "After handing over the project, the builder exits, and the running cost of society amenities then becomes the residents' responsibility, collected as maintenance charges.": {
+   "id": "c3",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://taxguru.in/corporate-law/maintenance-charges-law-payment-interest-rera.html",
+     "publisher": "TaxGuru (citing RERA Act Section 11(4)(d))",
+     "published_date": "2023-01-01",
+     "quote": "Once the society's Resident Welfare Association is formed, and the maintenance work is handed over to it, the builder can no longer charge for maintenance... RWA can then devise its own set of rules for maintenance charges.",
+     "tier": 3
+    },
+    {
+     "url": "https://www.nobrokerhood.com/blog/society-handover-process/",
+     "publisher": "NoBrokerHood",
+     "published_date": "2026-01-01",
+     "quote": "Maintenance fees and inspection details often remain undisclosed until handover. Early collection of this information helps the RWA develop effective maintenance fee structures.",
+     "tier": 3
+    }
+   ]
+  },
+  "_skeptic": {
+   "dc62bec5d0fa7a048aedfe188629e28401bbc6dd": {
+    "holds": true,
+    "broken_premise": "none — both factual premises hold; the 'built to sell, not serve' conclusion is a motive reading (opinion), not a falsifiable premise",
+    "actual_mechanism": "Amenity-heavy projects do carry a higher acquisition cost for the same 2BHK: developers load it as a higher base rate plus preferential-location charges (commonly ₹100–500/sq ft) and one-time club/amenity/development charges (₹50,000 to several lakh), so buyers pay more up front for the amenity package. After the builder forms and hands over the RWA, it legally stops charging for maintenance and the recurring upkeep of those amenities passes to residents, where a pool and clubhouse typically add 15–30% to monthly maintenance. So the sale-side premium and the lifelong running cost are both real and borne by the buyer; whether the builder's *intent* is 'to sell, not to serve' is interpretation, not fact.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.nobrokerhood.com/blog/apartment-maintenance-charges-rules-and-regulations/",
+      "published_date": "",
+      "quote": "Once the society's Resident Welfare Association is formed, and the maintenance work is handed over to it, the builder can no longer charge for maintenance... After possession, the payment of maintenance charges is the buyer's responsibility."
+     },
+     {
+      "url": "https://www.propsoch.com/blogs/hidden-costs-of-buying-an-apartment-in-bangalore-propsoch/",
+      "published_date": "",
+      "quote": "The presence of a swimming pool and high-end clubhouse typically inflates overall maintenance charges by 15 to 20 percent."
+     },
+     {
+      "url": "https://www.thebusinessmalls.com/what-is-plc-preferential-location-charges-and-how-much-extra-should-you-pay/",
+      "published_date": "",
+      "quote": "Preferential Location Charges (PLC) for amenity-related factors typically range from ₹100 to ₹500 per square foot or more."
+     },
+     {
+      "url": "https://booknewproperty.com/true-cost-of-buying-an-apartment-in-india-complete-breakdown/",
+      "published_date": "",
+      "quote": "Modern gated communities charge one-time membership fees and development charges for swimming pools, gyms, and sports facilities, ranging from ₹50,000 in mid-range projects to ₹5 lakhs or more in luxury developments."
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "1b3ff5363b5a43e2457ee600556c276451eee288": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Builders add longer amenity lists (pool, gym, clubhouse, jogging track, mini theatre) to a building, which lets them charge a higher price per square foot for the same flat; once the flat is sold and the builder exits, the ongoing cost of running those amenities falls on residents as monthly maintenance — so the amenities are built to raise the sale price, not to serve residents afterward.",
+      "sentence": "The society pool was never built for you. It was built to sell your flat. ... Here's the trick. A longer amenity list means a higher price per square foot. For the same two bedrooms. ... Then the builder hands the society over and leaves. The pool stays. So does the bill. It's called maintenance. ... The builder sold you the pool once. You pay for it every month.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "A longer amenity list lets a builder charge a higher price per square foot for a flat of the same configuration (e.g. same two bedrooms).",
+      "sentence": "Here's the trick. A longer amenity list means a higher price per square foot. For the same two bedrooms.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "After handing over the project, the builder exits, and the running cost of society amenities then becomes the residents' responsibility, collected as maintenance charges.",
+      "sentence": "Then the builder hands the society over and leaves. The pool stays. So does the bill. It's called maintenance.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": null,
+      "sources": [
+       {
+        "url": "https://www.squareyards.com/blog/rise-of-amenity-led-communities-india-housing-market",
+        "publisher": "Square Yards",
+        "published_date": "2026-01-01",
+        "quote": "Features such as 24/7 security, backup power and water, and well-maintained green spaces are known to raise resale value by 10-15%... competition is no longer just on price per square foot, but on the quality of the living experience.",
+        "tier": 3
+       },
+       {
+        "url": "https://booknewproperty.com/plc-charges-in-apartments-floor-wise-view-wise-corner-unit-guide/",
+        "publisher": "BookNewProperty",
+        "published_date": "2026-01-01",
+        "quote": "Units near a clubhouse, pool, or gym can attract charges of ₹100-₹200 per sq. ft.",
+        "tier": 3
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": null,
+      "sources": [
+       {
+        "url": "https://taxguru.in/corporate-law/maintenance-charges-law-payment-interest-rera.html",
+        "publisher": "TaxGuru (citing RERA Act Section 11(4)(d))",
+        "published_date": "2023-01-01",
+        "quote": "Once the society's Resident Welfare Association is formed, and the maintenance work is handed over to it, the builder can no longer charge for maintenance... RWA can then devise its own set of rules for maintenance charges.",
+        "tier": 3
+       },
+       {
+        "url": "https://www.nobrokerhood.com/blog/society-handover-process/",
+        "publisher": "NoBrokerHood",
+        "published_date": "2026-01-01",
+        "quote": "Maintenance fees and inspection details often remain undisclosed until handover. Early collection of this information helps the RWA develop effective maintenance fee structures.",
+        "tier": 3
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "none — both factual premises hold; the 'built to sell, not serve' conclusion is a motive reading (opinion), not a falsifiable premise",
+     "actual_mechanism": "Amenity-heavy projects do carry a higher acquisition cost for the same 2BHK: developers load it as a higher base rate plus preferential-location charges (commonly ₹100–500/sq ft) and one-time club/amenity/development charges (₹50,000 to several lakh), so buyers pay more up front for the amenity package. After the builder forms and hands over the RWA, it legally stops charging for maintenance and the recurring upkeep of those amenities passes to residents, where a pool and clubhouse typically add 15–30% to monthly maintenance. So the sale-side premium and the lifelong running cost are both real and borne by the buyer; whether the builder's *intent* is 'to sell, not to serve' is interpretation, not fact.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.nobrokerhood.com/blog/apartment-maintenance-charges-rules-and-regulations/",
+       "published_date": "",
+       "quote": "Once the society's Resident Welfare Association is formed, and the maintenance work is handed over to it, the builder can no longer charge for maintenance... After possession, the payment of maintenance charges is the buyer's responsibility."
+      },
+      {
+       "url": "https://www.propsoch.com/blogs/hidden-costs-of-buying-an-apartment-in-bangalore-propsoch/",
+       "published_date": "",
+       "quote": "The presence of a swimming pool and high-end clubhouse typically inflates overall maintenance charges by 15 to 20 percent."
+      },
+      {
+       "url": "https://www.thebusinessmalls.com/what-is-plc-preferential-location-charges-and-how-much-extra-should-you-pay/",
+       "published_date": "",
+       "quote": "Preferential Location Charges (PLC) for amenity-related factors typically range from ₹100 to ₹500 per square foot or more."
+      },
+      {
+       "url": "https://booknewproperty.com/true-cost-of-buying-an-apartment-in-india-complete-breakdown/",
+       "published_date": "",
+       "quote": "Modern gated communities charge one-time membership fees and development charges for swimming pools, gyms, and sports facilities, ranging from ₹50,000 in mid-range projects to ₹5 lakhs or more in luxury developments."
+      }
+     ]
+    },
+    "text_hash": "1b3ff5363b5a43e2457ee600556c276451eee288",
+    "at": "2026-11-08T16:34:01.744758+00:00"
+   }
+  }
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Builders add longer amenity lists (pool, gym, clubhouse, jogging track, mini theatre) to a building, which lets them charge a higher price per square foot for the same flat; once the flat is sold and the builder exits, the ongoing cost of running those amenities falls on residents as monthly maintenance — so the amenities are built to raise the sale price, not to serve residents afterward.",
+    "sentence": "The society pool was never built for you. It was built to sell your flat. ... Here's the trick. A longer amenity list means a higher price per square foot. For the same two bedrooms. ... Then the builder hands the society over and leaves. The pool stays. So does the bill. It's called maintenance. ... The builder sold you the pool once. You pay for it every month.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "A longer amenity list lets a builder charge a higher price per square foot for a flat of the same configuration (e.g. same two bedrooms).",
+    "sentence": "Here's the trick. A longer amenity list means a higher price per square foot. For the same two bedrooms.",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c3",
+    "text": "After handing over the project, the builder exits, and the running cost of society amenities then becomes the residents' responsibility, collected as maintenance charges.",
+    "sentence": "Then the builder hands the society over and leaves. The pool stays. So does the bill. It's called maintenance.",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c2": {
+    "id": "c2",
+    "verdict": "supported",
+    "event_date": null,
+    "correct": null,
+    "sources": [
+     {
+      "url": "https://www.squareyards.com/blog/rise-of-amenity-led-communities-india-housing-market",
+      "publisher": "Square Yards",
+      "published_date": "2026-01-01",
+      "quote": "Features such as 24/7 security, backup power and water, and well-maintained green spaces are known to raise resale value by 10-15%... competition is no longer just on price per square foot, but on the quality of the living experience.",
+      "tier": 3
+     },
+     {
+      "url": "https://booknewproperty.com/plc-charges-in-apartments-floor-wise-view-wise-corner-unit-guide/",
+      "publisher": "BookNewProperty",
+      "published_date": "2026-01-01",
+      "quote": "Units near a clubhouse, pool, or gym can attract charges of ₹100-₹200 per sq. ft.",
+      "tier": 3
+     }
+    ]
+   },
+   "c3": {
+    "id": "c3",
+    "verdict": "supported",
+    "event_date": null,
+    "correct": null,
+    "sources": [
+     {
+      "url": "https://taxguru.in/corporate-law/maintenance-charges-law-payment-interest-rera.html",
+      "publisher": "TaxGuru (citing RERA Act Section 11(4)(d))",
+      "published_date": "2023-01-01",
+      "quote": "Once the society's Resident Welfare Association is formed, and the maintenance work is handed over to it, the builder can no longer charge for maintenance... RWA can then devise its own set of rules for maintenance charges.",
+      "tier": 3
+     },
+     {
+      "url": "https://www.nobrokerhood.com/blog/society-handover-process/",
+      "publisher": "NoBrokerHood",
+      "published_date": "2026-01-01",
+      "quote": "Maintenance fees and inspection details often remain undisclosed until handover. Early collection of this information helps the RWA develop effective maintenance fee structures.",
+      "tier": 3
+     }
+    ]
+   }
+  },
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "none — both factual premises hold; the 'built to sell, not serve' conclusion is a motive reading (opinion), not a falsifiable premise",
+   "actual_mechanism": "Amenity-heavy projects do carry a higher acquisition cost for the same 2BHK: developers load it as a higher base rate plus preferential-location charges (commonly ₹100–500/sq ft) and one-time club/amenity/development charges (₹50,000 to several lakh), so buyers pay more up front for the amenity package. After the builder forms and hands over the RWA, it legally stops charging for maintenance and the recurring upkeep of those amenities passes to residents, where a pool and clubhouse typically add 15–30% to monthly maintenance. So the sale-side premium and the lifelong running cost are both real and borne by the buyer; whether the builder's *intent* is 'to sell, not to serve' is interpretation, not fact.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://www.nobrokerhood.com/blog/apartment-maintenance-charges-rules-and-regulations/",
+     "published_date": "",
+     "quote": "Once the society's Resident Welfare Association is formed, and the maintenance work is handed over to it, the builder can no longer charge for maintenance... After possession, the payment of maintenance charges is the buyer's responsibility."
+    },
+    {
+     "url": "https://www.propsoch.com/blogs/hidden-costs-of-buying-an-apartment-in-bangalore-propsoch/",
+     "published_date": "",
+     "quote": "The presence of a swimming pool and high-end clubhouse typically inflates overall maintenance charges by 15 to 20 percent."
+    },
+    {
+     "url": "https://www.thebusinessmalls.com/what-is-plc-preferential-location-charges-and-how-much-extra-should-you-pay/",
+     "published_date": "",
+     "quote": "Preferential Location Charges (PLC) for amenity-related factors typically range from ₹100 to ₹500 per square foot or more."
+    },
+    {
+     "url": "https://booknewproperty.com/true-cost-of-buying-an-apartment-in-india-complete-breakdown/",
+     "published_date": "",
+     "quote": "Modern gated communities charge one-time membership fees and development charges for swimming pools, gyms, and sports facilities, ranging from ₹50,000 in mid-range projects to ₹5 lakhs or more in luxury developments."
+    }
+   ]
+  },
+  "text_hash": "1b3ff5363b5a43e2457ee600556c276451eee288",
+  "at": "2026-11-08T16:34:01.744758+00:00"
+ },
+ "owner_ok": true
 }

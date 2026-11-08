@@ -37,7 +37,7 @@ In the cover headline, [square brackets] mark the one phrase shown in teal; they
 15. No feeling: the reader follows a situation but never feels anything under it (cheated, behind, guilty, relieved, seen), or the villain is a person or group the reader is meant to blame instead of a system.
 16. A generic end card: the save line names no moment to come back, or the send line names no specific person ("someone who needs this", "a friend", "your friends").
 
-Also note, quoting the line: - Breaks one of the owner's writing rules in the writer prompt: a repeated fact between cover and slide 2, a sub-line that gives away the close, filler or origin-story lines, a decorative invented specific (a time, a reading, an amount), a vague mechanism where the real name exists ("the tax code" for Section 80D), or the writer's own story instead of the reader's. Quote the line and give the fix.
+Also note, quoting the line: - Breaks one of the owner's writing rules in the writer prompt: a repeated fact between cover and slide 2, a sub-line that gives away the close, filler or origin-story lines, a decorative invented specific (a time, a reading, an amount), a vague mechanism where the real name exists ("the tax code" for Section 80D), the writer's own story instead of the reader's, a story where the post should share a thought (an observation, opinion or trend), a brand left vague ("a quick-commerce app") where naming it is the point, or a hedged opinion where Varun would say it straight. Quote the line and give the fix.
 
 ## Scores (1-5)
 - hook: would a stranger stop, and does slide 1 contain the turn without giving the answer away?
