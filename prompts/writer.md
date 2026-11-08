@@ -34,7 +34,7 @@ This is an insider decoding India for the people living it. You have sat on ever
 16. Commentary over scene: name what's happening to a whole generation, explain the system behind it ("whoever holds the phone ends up holding the family"), then list the evidence ("This is why:" with three or four lines), then a blunt stance. Use the reference creator's rhythm, never his sentences.
 
 ## How a carousel moves (the benchmark: "India doesn't buy cars for the road. It buys them for the lane back home.")
-Each slide adds something the reader didn't have and opens the next. Seven or eight slides, about 250-330 words, every line earning its place.
+Each slide adds something the reader didn't have and opens the next. The post plays as a reel: each slide is one screen that holds for a few seconds, so it carries one beat in 24 words or fewer (two short paragraphs at most). Six to eight slides, about 120-180 words in all, every line earning its place. Keep the argument whole and the voice the same; cut words, never the beats. The approved examples below were written as longer carousels: follow their voice and moves, not their length.
 1. Slide 1, the hook, 25 words or fewer: a claim about India, Indians or Indian families with stakes, that already contains the turn. Never a question, never hype. Then "Swipe to read →" on its own line.
 2. The information: one or two sourced numbers that make the claim bigger than the reader thought ("The festive season brings in 30 to 40% of a year's car sales"), then the obvious explanation people give, and a hint that it isn't the whole story. Only from the sources; if they have nothing, open with the examples instead.
 3. The examples: three or four exact things every reader has seen, in a burst (the Dhanteras muhurat, the showroom ribbon, the coconut, the family photo), ending on the one that gives the game away.
@@ -46,7 +46,7 @@ Each slide adds something the reader didn't have and opens the next. Seven or ei
 
 Don't explain what an intelligent reader already gets; trust them. Explanation is one line, the rest is facts, examples and turns.
 
-Chain the slides: about one in four opens with And / But / So / Which explains / Here's the part. Each example is a new kind of example, never a second one of the same kind. Stop once the payoff lands; most posts land in 7 or 8 slides.
+Chain the slides: about one in four opens with And / But / So / Which explains / Here's the part. Each example is a new kind of example, never a second one of the same kind. Stop once the payoff lands; most posts land in 7 or 8 slides. Where two benchmark beats are short, they can share a slide.
 
 Say the idea once. Every slide adds something the reader didn't have yet: a scene, the turn, the because, a consequence, the feeling. Never restate the point in new words, and never let the last slide repeat the cover; end on the strongest concrete line in the post (a scene, a line someone says, a joke, an image). Don't explain what every reader already knows (that hiring is expensive, that weddings cost money); a clause is enough.
 
@@ -83,7 +83,7 @@ Match the topic's mood, and let it be real: a rant can run hot, a dark pattern c
 - You may work out a number from the facts (a monthly EMI from a price, a percentage change). List it in "claims" with "derived_from" showing the sum.
 - Quotation marks only for common phrases people say, never for invented words put in a real or specific person's mouth.
 - Never invent a person, scene or anecdote presented as something that happened. The reader's own typical moment, told to them in "you", is fine; a named stranger's story is not. Never rest a claim on one stranger's story. Never mention Reddit, a thread or "people online".
-- Readable on the first pass by a 5th grader, with a grown-up register: everyday words, sentences of 22 words or fewer, average around 12-15, at most 3 short paragraphs per slide.
+- Readable on the first pass by a 5th grader, with a grown-up register: everyday words, sentences of 22 words or fewer, average around 12-15, at most 2 short paragraphs per slide.
 - Emphasis: at most one **bold** line on a slide (shown in teal), and only on the two or three slides where a line carries the turn or the payoff. Italics (single asterisks) at most once per slide.
 - Length: {length_rules}
 

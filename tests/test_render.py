@@ -52,3 +52,29 @@ def test_long_save_line_is_not_cut(monkeypatch):
     save = "Pull this up before the next offsite speech that makes a weekend call feel compulsory, again and again."
     render.render_end({"save": save, "send": "x"}, 5)
     assert "compulsory," in " ".join(drawn) and "again." in " ".join(drawn)
+
+
+def test_reel_holds_each_screen_for_its_words(tmp_path, monkeypatch):
+    from engine import config, reel
+    monkeypatch.setattr(config, "OUT", tmp_path)
+    draft = {"cover": {"headline": "Every Indian home keeps its [best room] for guests", "sub": "s"},
+             "slides": [{"paragraphs": ["hook", "Swipe to read →"]},
+                        {"paragraphs": ["The best furniture and the best light are kept for relatives who visit twice a year."]},
+                        {"paragraphs": ["**The drawing room moved into our phones.**"]}],
+             "end": {"save": "Before you post the next one.", "send": "The cousin with the perfect grid."}}
+    post = {"id": "r", "format": "carousel", "draft": draft}
+    paths = render.render_post(post)
+    assert reel.holds(post["alt_texts"], len(paths)) == [3.5, 6.83, 3.83, 6.0]
+    assert reel.hold(60) == 8.0 and reel.hold(0) == 2.5
+    framed = reel.frame(paths[1], tmp_path / "f.jpg")
+    assert render.Image.open(framed).size == (1080, 1920)
+    video, secs = reel.build(paths, post["alt_texts"], tmp_path / "reel.mp4")
+    assert video.stat().st_size > 10_000 and secs == round(3.5 + 6.83 + 3.83 + 6.0 + reel.FADE, 2)
+
+
+def test_buffer_sends_a_reel_with_the_cover_as_thumbnail():
+    from engine import buffer
+    post = {"due": "2026-11-10T20:30:00+05:30", "draft": {"caption": "c"}, "video_url": "https://v/reel.mp4"}
+    body = buffer.build_input(post, ["https://i/slide_01.jpg", "https://i/slide_02.jpg"])
+    assert body["assets"] == [{"video": {"url": "https://v/reel.mp4", "thumbnailUrl": "https://i/slide_01.jpg"}}]
+    assert body["metadata"]["instagram"]["type"] == "reel"

@@ -1,8 +1,9 @@
-"""Schedule carousels on Instagram through Buffer's GraphQL API.
+"""Schedule reels (or carousels) on Instagram through Buffer's GraphQL API.
 
 Secrets: BUFFER_API_KEY (Buffer -> Settings -> API), BUFFER_CHANNEL_ID
 (run `python -m engine buffer-channels` once to find it).
-Buffer posts an Instagram carousel as type 'post' with up to 10 image assets.
+Buffer posts an Instagram carousel as type 'post' with up to 10 image assets, and a reel as type 'reel' with one
+video asset (post['video_url']) whose thumbnail is the cover slide.
 """
 from __future__ import annotations
 
@@ -91,11 +92,19 @@ def build_input(post: dict, image_urls: list[str]) -> dict:
         "mode": "customScheduled",
         "dueAt": due.strftime("%Y-%m-%dT%H:%M:%S.000Z"),
         "needsApproval": config.BUFFER_NEEDS_APPROVAL,
-        "assets": [{"image": {"url": u, "metadata": {"altText": (alts[k] if k < len(alts) and alts[k] else alt)[:1000]}}}
+        "assets": [_reel_asset(post, image_urls)] if post.get("video_url") else [{"image": {"url": u, "metadata": {"altText": (alts[k] if k < len(alts) and alts[k] else alt)[:1000]}}}
                    for k, u in enumerate(image_urls[:config.BUFFER_MAX_IMAGES])],  # each slide carries its own words
-        "metadata": {"instagram": {"type": "post", "shouldShareToFeed": True,
+        "metadata": {"instagram": {"type": "reel" if post.get("video_url") else "post", "shouldShareToFeed": True,
                                    "isAiGenerated": config.IS_AI_GENERATED_FLAG}},
     }
+
+
+def _reel_asset(post: dict, image_urls: list[str]) -> dict:
+    """The reel, with its cover slide as the thumbnail: the cover is what shows on the profile grid."""
+    video = {"url": post["video_url"]}
+    if image_urls:
+        video["thumbnailUrl"] = image_urls[0]
+    return {"video": video}
 
 
 def schedule(post: dict) -> str:

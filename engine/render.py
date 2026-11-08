@@ -26,7 +26,9 @@ TEAL_TINT = (226, 241, 238)
 WHITE = (255, 255, 255)
 ON_TEAL = (240, 248, 246)   # 5.2:1 on teal: small text on the end card stays above WCAG AA
 FONTS = config.ASSETS / "fonts"
-BODY_SIZES = [56, 52]   # never shrink a dense slide into small print: split it instead (split_for_fit)
+# One type scale for every image: a slide never changes size to fit its text; a slide that overflows is split instead.
+TITLE, BODY, SUB_SIZE, SMALL, FIGURE = 80, 58, 42, 30, 120
+BODY_SIZES = [BODY]
 SWIPE = "swipe to read"
 BODY_TOP, BODY_BOTTOM = 250, H - 120
 
@@ -82,22 +84,20 @@ def _tag(d: ImageDraw.ImageDraw, x: int, y: int, w: int, h: int, on_teal: bool =
 
 
 def _header(img: Image.Image, d: ImageDraw.ImageDraw, large: bool = False, on_teal: bool = False) -> None:
-    size, y = (96, 72) if large else (72, 72)
+    size, y = 84, 72   # the same header on every image (`large` is kept for callers)
     mark = _avatar(size, on_teal)
     img.paste(mark, (MARGIN, y), mark)
     x = MARGIN + size + 22
-    d.text((x, y + (12 if large else 6)), config.DISPLAY_NAME, font=_font("Bold", 40 if large else 34),
-           fill=WHITE if on_teal else INK)
-    d.text((x, y + (58 if large else 44)), "@" + config.IG_HANDLE, font=_font("Regular", 30 if large else 30),
-           fill=ON_TEAL if on_teal else SUB)
-    tw, th = (150, 58) if large else (116, 44)
-    _tag(d, W - MARGIN - tw, y + (20 if large else 8), tw, th, on_teal)
+    d.text((x, y + 8), config.DISPLAY_NAME, font=_font("Bold", 36), fill=WHITE if on_teal else INK)
+    d.text((x, y + 50), "@" + config.IG_HANDLE, font=_font("Regular", SMALL), fill=ON_TEAL if on_teal else SUB)
+    tw, th = 132, 50
+    _tag(d, W - MARGIN - tw, y + 17, tw, th, on_teal)
 
 
 def _count(d: ImageDraw.ImageDraw, i: int, n: int, on_teal: bool = False) -> None:
-    if n < 2:
+    if n < 2 or config.OUTPUT == "reel":  # a reel plays itself: no page count, no swipe arrow
         return
-    d.text((W - MARGIN, H - 64), f"{i}/{n}  →" if i < n else f"{i}/{n}", font=_font("SemiBold", 36),
+    d.text((W - MARGIN, H - 64), f"{i}/{n}  →" if i < n else f"{i}/{n}", font=_font("SemiBold", SMALL),
            fill=ON_TEAL if on_teal else COUNT, anchor="rs")
 
 
@@ -201,7 +201,7 @@ def render_art_cover(cover: dict, n: int, art: Image.Image) -> Image.Image:
     img.paste(art, ((W - art.width) // 2, 230 + (box_h - art.height) // 2), art)
     headline = re.sub(r"\[([^\]]+)\]", lambda m: "[" + m.group(1).replace(" ", "\xa0") + "]", cover["headline"])
     words, safe = headline.split(), W - 2 * SAFE
-    for size in range(88, 60, -2):
+    for size in [TITLE]:
         f = _font("Bold", size)
         lines, cur = [], []
         for w in words:
@@ -214,9 +214,7 @@ def render_art_cover(cover: dict, n: int, art: Image.Image) -> Image.Image:
             moved = lines[-2][-1:] + lines[-1]
             if f.getlength(" ".join(moved).replace("[", "").replace("]", "").replace("\xa0", " ")) <= safe:
                 lines[-2], lines[-1] = lines[-2][:-1], moved
-        if len(lines) <= 3:
-            break
-    y, teal = 760, False
+    y, teal = (760 if len(lines) <= 4 else 700), False
     for line in lines:
         x = float(SAFE)
         for w in line:
@@ -229,9 +227,9 @@ def render_art_cover(cover: dict, n: int, art: Image.Image) -> Image.Image:
             x += f.getlength(" ")
         y += int(size * 1.12)
     y += 26
-    for line in _plain_lines(cover.get("sub", ""), _font("Medium", 40), safe)[:2]:  # wraps; never runs off the edge
-        d.text((SAFE, y), line, font=_font("Medium", 40), fill=SUB)
-        y += 54
+    for line in _plain_lines(cover.get("sub", ""), _font("Medium", SUB_SIZE), safe)[:2]:  # wraps; never runs off the edge
+        d.text((SAFE, y), line, font=_font("Medium", SUB_SIZE), fill=SUB)
+        y += 56
     _count(d, 1, n)
     return img
 
@@ -245,7 +243,7 @@ def render_cover(cover: dict, n: int) -> Image.Image:
     headline = re.sub(r"\[([^\]]+)\]", lambda m: "[" + m.group(1).replace(" ", " ") + "]", cover["headline"])
     words, safe = headline.split(), W - 2 * SAFE
     proof = cover.get("proof") or {}
-    for size in range(124 if not proof.get("figure") else 108, 70, -2):
+    for size in [TITLE]:
         f = _font("Bold", size)
         lines, cur = [], []
         for w in words:
@@ -258,10 +256,8 @@ def render_cover(cover: dict, n: int) -> Image.Image:
             moved = lines[-2][-1:] + lines[-1]
             if f.getlength(" ".join(moved).replace("[", "").replace("]", "")) <= safe:
                 lines[-2], lines[-1] = lines[-2][:-1], moved
-        if len(lines) <= 4 and all(f.getlength(" ".join(l).replace("[", "").replace("]", "")) <= safe for l in lines):
-            break
-    sub_lines = _plain_lines(cover.get("sub", ""), _font("Medium", 46), safe)
-    block = len(lines) * int(size * 1.12) + 40 + 62 * len(sub_lines)
+    sub_lines = _plain_lines(cover.get("sub", ""), _font("Medium", SUB_SIZE), safe)
+    block = len(lines) * int(size * 1.12) + 40 + 56 * len(sub_lines)
     y = 250 if proof.get("figure") else max(260, (H - block) // 2 - 20)  # no number: the take sits in the optical centre
     teal = False
     for line in lines:
@@ -277,15 +273,15 @@ def render_cover(cover: dict, n: int) -> Image.Image:
         y += int(size * 1.12)
     y += 40
     for line in sub_lines:
-        d.text((SAFE, y), line, font=_font("Medium", 46), fill=SUB)
-        y += 62
+        d.text((SAFE, y), line, font=_font("Medium", SUB_SIZE), fill=SUB)
+        y += 56
     if proof.get("figure"):
         by = H - 330
         d.rounded_rectangle((MARGIN, by, W - MARGIN, by + 210), radius=24, fill=TEAL_TINT)
-        d.text((MARGIN + 44, by + 28), proof["figure"], font=_font("Bold", 84), fill=TEAL)
+        d.text((MARGIN + 44, by + 28), proof["figure"], font=_font("Bold", FIGURE), fill=TEAL)
         ly = by + 130
-        for runs in _wrap(proof.get("label", ""), 32, W - 2 * (MARGIN + 44))[:2]:
-            d.text((MARGIN + 44, ly), " ".join(w for w, _ in runs), font=_font("Medium", 32), fill=SUB)
+        for runs in _wrap(proof.get("label", ""), SMALL, W - 2 * (MARGIN + 44))[:2]:
+            d.text((MARGIN + 44, ly), " ".join(w for w, _ in runs), font=_font("Medium", SMALL), fill=SUB)
             ly += 40
     _count(d, 1, n)
     return img
@@ -296,8 +292,7 @@ def render_slide(paragraphs: list[str], i: int = 1, n: int = 1, big: dict | None
     """A reading slide: paragraphs with at most one **bold** teal line, an optional big figure and a source line."""
     paragraphs = _clean(paragraphs)
     room = BODY_BOTTOM - BODY_TOP - (330 if big else 0)
-    short = not big and len(" ".join(paragraphs).replace("*", "").split()) <= 25
-    for size in ([68, 62] if short else []) + BODY_SIZES:  # a short slide is one beat: set it large
+    for size in BODY_SIZES:
         if _body_height(paragraphs, size) <= room:
             break
     else:
@@ -316,10 +311,10 @@ def render_slide(paragraphs: list[str], i: int = 1, n: int = 1, big: dict | None
         y = _draw_lines(d, _wrap(p, size, W - 2 * MARGIN), MARGIN, y, size, INK, TEAL) + int(size * 1.44 * 0.6)
     if big and big.get("figure"):
         fy = max(y + 10, H - 470)
-        d.text((MARGIN, fy), big["figure"], font=_font("Bold", 150), fill=TEAL)
-        d.text((MARGIN + 4, fy + 178), big.get("label", ""), font=_font("Medium", 34), fill=SUB)
+        d.text((MARGIN, fy), big["figure"], font=_font("Bold", FIGURE), fill=TEAL)
+        d.text((MARGIN + 4, fy + 150), big.get("label", ""), font=_font("Medium", SUB_SIZE), fill=SUB)
     if source:
-        d.text((MARGIN, H - 64), source, font=_font("Regular", 26), fill=COUNT, anchor="ls")
+        d.text((MARGIN, H - 64), source, font=_font("Regular", SMALL), fill=COUNT, anchor="ls")
     _count(d, i, n)
     return img
 
@@ -338,11 +333,9 @@ def _lead(paragraphs: list[str]) -> list[str]:
 
 def _statement(d: ImageDraw.ImageDraw, text: str) -> None:
     """One line, large, teal, in the middle of the slide: the payoff on its own, made to be screenshotted and sent."""
-    for size in range(84, 54, -4):
-        lines = _plain_lines(text, _font("Bold", size), W - 2 * SAFE)
-        lh = int(size * 1.22)
-        if len(lines) * lh <= 640:
-            break
+    size = TITLE
+    lines = _plain_lines(text, _font("Bold", size), W - 2 * SAFE)
+    lh = int(size * 1.22)
     y = (H - len(lines) * lh) // 2 - 20
     for line in lines:
         d.text((SAFE, y), line, font=_font("Bold", size), fill=TEAL)
@@ -355,28 +348,28 @@ def render_end(end: dict, n: int) -> Image.Image:
     d = ImageDraw.Draw(img)
     _header(img, d, large=True, on_teal=True)
     y = 330
-    for line in _plain_lines(end.get("promise") or config.END_PROMISE, _font("Bold", 84), W - 2 * MARGIN):
-        d.text((MARGIN, y), line, font=_font("Bold", 84), fill=WHITE)
-        y += 98
+    for line in _plain_lines(end.get("promise") or config.END_PROMISE, _font("Bold", TITLE), W - 2 * MARGIN):
+        d.text((MARGIN, y), line, font=_font("Bold", TITLE), fill=WHITE)
+        y += int(TITLE * 1.18)
     y += 70
     send = re.sub(r"^(Send (this )?to )", "", (end.get("send") or "").strip(), flags=re.I)
     if send:
-        lines = _plain_lines(send[:1].upper() + send[1:], _font("SemiBold", 48), W - 2 * MARGIN - 88)  # the box grows
-        box = 150 + 64 * len(lines)
+        lines = _plain_lines(send[:1].upper() + send[1:], _font("SemiBold", SUB_SIZE), W - 2 * MARGIN - 88)  # the box grows
+        box = 150 + 58 * len(lines)
         d.rounded_rectangle((MARGIN, y, W - MARGIN, y + box), radius=28, fill=WHITE)
-        d.text((MARGIN + 44, y + 42), "Send this to", font=_font("Bold", 56), fill=TEAL)
+        d.text((MARGIN + 44, y + 42), "Send this to", font=_font("Bold", BODY), fill=TEAL)
         yy = y + 124
         for line in lines:
-            d.text((MARGIN + 44, yy), line, font=_font("SemiBold", 48), fill=INK)
-            yy += 64
+            d.text((MARGIN + 44, yy), line, font=_font("SemiBold", SUB_SIZE), fill=INK)
+            yy += 58
         y += box + 60
     save = (end.get("save") or "").strip()
     if save:
-        for line in _plain_lines("Save it: " + save[:1].lower() + save[1:], _font("Medium", 38), W - 2 * MARGIN)[:3]:
-            d.text((MARGIN, y), line, font=_font("Medium", 38), fill=WHITE)
+        for line in _plain_lines("Save it: " + save[:1].lower() + save[1:], _font("Medium", SUB_SIZE), W - 2 * MARGIN)[:3]:
+            d.text((MARGIN, y), line, font=_font("Medium", SUB_SIZE), fill=WHITE)
             y += 52
     if config.END_FOLLOW_LINE:
-        d.text((MARGIN, H - 64), config.END_FOLLOW_LINE, font=_font("Medium", 32), fill=ON_TEAL, anchor="ls")
+        d.text((MARGIN, H - 64), config.END_FOLLOW_LINE, font=_font("Medium", SMALL), fill=ON_TEAL, anchor="ls")
     _count(d, n, n, on_teal=True)
     return img
 

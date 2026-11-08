@@ -15,19 +15,19 @@ import zlib
 from . import config, corpus, llm, state
 
 FORMAT_RULES = {
-    "carousel": "a carousel of 4 to 7 slides, as few as the idea needs. Slide 1 is at most 25 words and ends with "
-                "'Swipe to read →'. The last slide is the payoff and is shown as the account's end card.",
+    "carousel": "a reel of 6 to 8 text screens, as few as the idea needs, each read in a few seconds. Slide 1 is at "
+                "most 25 words and ends with 'Swipe to read →'. The last slide is the payoff.",
     "single": "a single slide of 30-70 words, like a post someone types straight out of their head: a blunt take or "
               "prediction about India or this generation, a short rant, a satire list ('Literally everyone around me is:' "
               "then short lines starting with '- '), or a short open letter ('Dear ___,'). No 'Swipe to read'.",
 }
-MAX_PARAS = 3            # per carousel slide
+MAX_PARAS = 2            # per slide: a reel screen holds for 8 seconds at most
 MAX_SENTS_PER_PARA = 4
 MAX_SENT_WORDS = 22  # 5th-grade scanability: most sentences far shorter
-MIN_SLIDES, MAX_SLIDES = 5, 9  # the benchmark runs 8: cover, data, examples, rule, darker, second layer, people, close
-SLIDE_WORDS = (12, 60)   # every slide after the hook: fewer, fuller slides that chain, not thin ones
+MIN_SLIDES, MAX_SLIDES = 6, 8  # the benchmark runs 8: cover, data, examples, rule, darker, second layer, people, close
+SLIDE_WORDS = (8, 24)    # reel screens: ~20 words reads in the 8 seconds a screen holds (reel.hold)
 HOOK_WORDS = 25
-POST_WORDS = (110, 360)   # the benchmark is ~300 words; shorter owner posts still pass
+POST_WORDS = (80, 190)   # reels: the benchmark's 8 beats, each cut to one screen; ~35-50 seconds
 MAX_FIGURES = 6          # insider voice: everyday prices are texture; statistics still need a source
 MIN_RHYTHM = 3.5         # sentence-length spread; a metronome rhythm (every sentence ~8 words) reads as AI
 # "isn't X, it's Y" closes many of the reference creator's best posts; repeated mid-post it reads as a template.
@@ -264,7 +264,7 @@ def hard_checks(draft: dict, fmt: str, sources: list[dict]) -> list[str]:
             problems.append(f"Slide {i} has {words} words; the limit is {limit}. It is too much to read on one screen: "
                             "cut an extra example or repeated line, or move a beat to its own slide.")
         if fmt == "carousel" and i > 1 and words < SLIDE_WORDS[0]:
-            problems.append(f"Slide {i} is too thin ({words} words); a lone line reads like a poster. Give it a real beat.")
+            problems.append(f"Slide {i} is too thin ({words} words); give it a real beat.")
     if fmt == "carousel" and total > POST_WORDS[1]:
         problems.append(f"The post is {total} words; keep it under {POST_WORDS[1]} by cutting extra examples, not the thought.")
     if fmt == "carousel" and total < POST_WORDS[0]:

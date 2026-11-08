@@ -1,4 +1,4 @@
-"""Host rendered slides at stable public URLs (Buffer fetches them at publish time).
+"""Host rendered slides and reels at stable public URLs (Buffer fetches them at publish time).
 
 Slides go to a separate PUBLIC GitHub repo (e.g. <you>/ananya-media) through GitHub's
 contents API and are served from raw.githubusercontent.com, which returns image/jpeg.
@@ -27,8 +27,10 @@ def upload(local: Path, key: str) -> str:
     body = {"message": f"slide {key}", "content": base64.b64encode(local.read_bytes()).decode(), "branch": "main"}
     if existing.status_code == 200:
         body["sha"] = existing.json()["sha"]  # re-render of the same slide: overwrite
-    r = requests.put(api, headers=h, json=body, timeout=60)
+    r = requests.put(api, headers=h, json=body, timeout=120)
     r.raise_for_status()
+    if local.suffix == ".mp4":
+        return _video_url(repo, key, r.json()["commit"]["sha"])
     url = f"https://raw.githubusercontent.com/{repo}/main/slides/{key}"
     for _ in range(6):  # new files can take a few seconds to appear on raw.githubusercontent.com
         head = requests.head(url, timeout=30)
@@ -36,3 +38,15 @@ def upload(local: Path, key: str) -> str:
             return url
         time.sleep(5)
     raise RuntimeError(f"Slide not publicly readable as an image ({head.status_code}); is {repo} public?")
+
+
+def _video_url(repo: str, key: str, sha: str) -> str:
+    """raw.githubusercontent.com serves video as application/octet-stream, so reels go out through jsDelivr's GitHub
+    mirror, which serves video/mp4. Pinned to the upload's commit, so a re-render never serves a stale cached copy."""
+    url = f"https://cdn.jsdelivr.net/gh/{repo}@{sha}/slides/{key}"
+    for _ in range(6):
+        head = requests.head(url, timeout=60, allow_redirects=True)
+        if head.status_code == 200 and head.headers.get("content-type", "").startswith("video/"):
+            return url
+        time.sleep(10)
+    raise RuntimeError(f"Reel not publicly readable as video ({head.status_code}, {head.headers.get('content-type')})")

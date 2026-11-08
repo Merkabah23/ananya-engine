@@ -99,7 +99,11 @@ def slots_for_month(month: str) -> list[dict]:
     y, m = map(int, month.split("-"))
     d = date(y, m, 1)
     out = []
+    anchor = date.fromisoformat(config.POST_ANCHOR)
     while d.month == m:
+        if (d - anchor).days % config.POST_EVERY_DAYS:
+            d += timedelta(days=1)
+            continue
         for s in config.SLOTS:
             if d.weekday() == s["weekday"]:
                 hh, mm = map(int, s["time"].split(":"))

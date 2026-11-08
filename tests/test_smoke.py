@@ -7,11 +7,11 @@ from engine import __main__ as cli, config, filter as topic_filter, llm, state  
 
 SLIDES = [
     ["Gill is No. 1 now. Half the group chat went quiet.", "Swipe to read →"],
-    ["Fans picked a side within an hour of the rankings coming out.", "Fans didn't want to say the old king was slipping, so they argued about strike rates instead."],
-    ["This generation grew up with one hero on every poster and every phone wallpaper.", "Letting go of him feels like getting old, and arguing about stats is easier than saying that."],
-    ["Look at the comments under any highlight clip. Half of them are about the old numbers, not the match that just happened.", "Nobody says it, but everyone can feel it."],
-    ["It is not really about cricket. It is about admitting that the years you spent watching him are now behind you, and that he is not twenty-five anymore."],
-    ["So the group chat stays quiet for a day or two. Then someone posts a silly meme, and everyone starts arguing again."],
+    ["Fans picked a side.", "Nobody wanted to say the old king was slipping, so they argued about strike rates all night."],
+    ["This generation grew up with one hero on every poster and every phone wallpaper.", "Now he's slipping."],
+    ["Read the comments.", "Half of them are about the old numbers, not the match that was played on Sunday night."],
+    ["It's not cricket. It is about the years you spent watching him, which are now behind you for good."],
+    ["So the chat stays quiet for a day.", "Then someone posts a meme. Everyone argues again."],
 ]
 
 
@@ -48,16 +48,17 @@ def test_month_end_to_end(tmp_path, monkeypatch):
     monkeypatch.setattr(config, "STATE", tmp_path / "state")
     monkeypatch.setattr(config, "OUT", tmp_path / "out")
     monkeypatch.setattr(llm, "call_json", fake_call_json)
+    monkeypatch.setattr(config, "OUTPUT", "carousel")  # the reel step has its own test; ffmpeg per post is slow here
     territories = list(config.TERRITORY_MIX)
     cands = [{"id": f"2099-10-{i:03d}", "title": f"t{i}", "claim": f"claim {i}", "behaviour": "b", "mechanism": "m",
               "group": "g", "territory": territories[i % 5], "real_details": ["d"], "evidence": [], "needs_facts": False}
              for i in range(30)]
     state.write(cands, "2099-10", "candidates.json")
     plan = topic_filter.run("2099-10", "2099-11")
-    assert len([p for p in plan if p["due"]]) == 30
+    assert len([p for p in plan if p["due"]]) == 15  # every other day
     cli.produce("2099-11")
     done = state.posts("uploaded")
-    assert len(done) == 30
+    assert len(done) == 15
     assert all(1 <= len(p["image_urls"]) <= 10 for p in done)
     assert (tmp_path / "out" / done[0]["id"] / "slide_01.jpg").exists()
 

@@ -12,7 +12,7 @@ import argparse
 import json
 from datetime import datetime, timedelta, timezone
 
-from . import published, buffer, config, factgate, filter as topic_filter, llm, render, scout, state, storage, writer
+from . import published, buffer, config, factgate, filter as topic_filter, llm, reel, render, scout, state, storage, writer
 
 
 def _month(offset: int = 0) -> str:
@@ -101,9 +101,14 @@ def produce(month: str | None = None, limit: int | None = None) -> None:
                     continue
                 paths = render.render_post(post)
                 post["image_urls"] = [storage.upload(p, f"{post['id']}/{p.name}") for p in paths]
+                what = f"{len(paths)} slides"
+                if config.OUTPUT == "reel":
+                    video, secs = reel.build(paths, post.get("alt_texts") or [], paths[0].with_name("reel.mp4"))
+                    post["video_url"], post["reel_seconds"] = storage.upload(video, f"{post['id']}/reel.mp4"), secs
+                    what = f"{secs:.0f}s reel of {len(paths)} screens"
                 post["status"] = "uploaded"
                 state.save_post(post)
-                state.log("produce", f"{post['id']} ready: {len(paths)} slides, due {post['due']}")
+                state.log("produce", f"{post['id']} ready: {what}, due {post['due']}")
             except Exception as e:  # one bad post must not stop the month
                 post["status"], post["error"] = "failed", str(e)[:500]
                 state.save_post(post)
@@ -133,8 +138,11 @@ def sample(n: int, topics_file: str | None) -> None:
             print(f"   [{i}] " + " / ".join(s["paragraphs"]))
         dest = out_root / post["id"]
         dest.mkdir(parents=True, exist_ok=True)
-        for path in render.render_post(post):
+        paths = render.render_post(post)
+        for path in paths:
             shutil.copy(path, dest / path.name)
+        if config.OUTPUT == "reel":
+            reel.build(paths, post.get("alt_texts") or [], dest / "reel.mp4")
         (dest / "post.json").write_text(json.dumps(post, ensure_ascii=False, indent=1))
         print("   saved:", dest)
 

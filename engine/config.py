@@ -24,12 +24,16 @@ MAX_CALLS_PER_MONTH = int(os.getenv("MAX_CALLS_PER_MONTH", "2000"))
 PRODUCE_PER_RUN = int(os.getenv("PRODUCE_PER_RUN", "3"))
 PARALLEL = int(os.getenv("PARALLEL", "3"))  # model calls in flight at once
 
-# Posting plan: one carousel every day. Times are IST; weekday 0 = Monday. 20:30 lands after the commute and before
-# dinner, just ahead of the 8-10pm peak in the large global studies (Buffer 9.6M posts, Metricool 24M); once the
-# account has 100+ followers, Instagram Insights' "Most active times" should override it.
+# Posting plan: one reel every other day (owner, 8 Nov 2026), counted from POST_ANCHOR, so Nov 10, 12, 14...
+# Times are IST. 20:30 lands after the commute and before dinner, just ahead of the 8-10pm peak in the large global
+# studies (Buffer 9.6M posts, Metricool 24M); once the account has 100+ followers, Instagram Insights' "Most active
+# times" should override it. The draft format stays "carousel" (slides of text); OUTPUT decides how it is published.
 POST_TIME = "20:30"
+POST_EVERY_DAYS = 2
+POST_ANCHOR = "2026-11-10"
 SLOTS = [{"weekday": d, "time": POST_TIME, "format": "carousel"} for d in range(7)]
-PUSH_DAYS = 7  # posts go to Buffer a week ahead: 7-8 daily posts stay under Buffer's 10-post queue
+OUTPUT = os.getenv("OUTPUT", "reel")  # "reel": the slides become one 9:16 video; "carousel": the slides go up as images
+PUSH_DAYS = 7  # posts go to Buffer a week ahead: 3-4 posts, well under Buffer's 10-post queue
 SPARE_TOPICS = 5  # extra approved topics per month, used when a draft fails
 
 TERRITORY_MIX = {  # roughly the reference creator's spread of subjects
@@ -67,7 +71,7 @@ PAUSED = os.getenv("ENGINE_PAUSED", "false").lower() == "true"
 BUFFER_NEEDS_APPROVAL = os.getenv("BUFFER_NEEDS_APPROVAL", "false").lower() == "true"
 DRY_RUN = os.getenv("DRY_RUN", "false").lower() == "true"
 BUFFER_API = "https://api.buffer.com"
-BUFFER_MAX_IMAGES = 10        # Buffer's limit for Instagram carousels
+BUFFER_MAX_IMAGES = 10        # Buffer's limit for Instagram carousels; also the most screens a reel carries
 IS_AI_GENERATED_FLAG = os.getenv("IG_AI_FLAG", "false").lower() == "true"
 
 

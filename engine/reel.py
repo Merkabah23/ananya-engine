@@ -1,0 +1,75 @@
+"""Turn a post's rendered slides into one 9:16 reel: each slide framed for the reel screen, held for as long as its
+words take to read, with a short crossfade between screens.
+
+ffmpeg comes from the imageio-ffmpeg wheel (no system install, same binary locally and in Actions). The reel is
+silent with an empty audio track; trending audio, if any, is the owner's call in the Instagram app."""
+from __future__ import annotations
+
+import subprocess
+from pathlib import Path
+
+from PIL import Image
+
+from . import config
+
+REEL = (1080, 1920)
+TOP = 220            # the 4:5 slide sits high: Instagram's caption, handle and buttons cover the bottom of a reel
+COVER_HOLD = 3.5     # the hook stops the scroll; it is not read slowly
+END_HOLD = (3.0, 6.0)
+HOLD = (2.5, 8.0)    # 1.5s for the eye to land, then 1s for every 3 words
+FADE = 0.3
+FPS = 30
+
+
+def hold(words: int, lo: float = HOLD[0], hi: float = HOLD[1]) -> float:
+    return round(min(hi, max(lo, 1.5 + words / 3)), 2)
+
+
+def holds(alt_texts: list[str], n: int) -> list[float]:
+    """Seconds on screen for each of n slides: cover, reading slides, end card (when the post has one)."""
+    words = [len((alt_texts[k] if k < len(alt_texts) else "").split()) for k in range(n)]
+    out = [COVER_HOLD] + [hold(w) for w in words[1:]]
+    if config.END_CARD and n > 1:
+        out[-1] = hold(words[-1], *END_HOLD)
+    return out
+
+
+def frame(slide: Path, out: Path) -> Path:
+    """The 1080x1350 slide on a 1080x1920 screen, the bands filled with the slide's own edge colour so it reads as one."""
+    img = Image.open(slide).convert("RGB")
+    screen = Image.new("RGB", REEL, img.getpixel((4, 4)))
+    bottom = img.getpixel((4, img.height - 4))
+    screen.paste(Image.new("RGB", (REEL[0], REEL[1] - TOP - img.height), bottom), (0, TOP + img.height))
+    screen.paste(img, (0, TOP))
+    screen.save(out, "JPEG", quality=95)
+    return out
+
+
+def ffmpeg() -> str:
+    import imageio_ffmpeg
+    return imageio_ffmpeg.get_ffmpeg_exe()
+
+
+def build(slides: list[Path], alt_texts: list[str], out: Path) -> tuple[Path, float]:
+    """Write the reel to `out`; returns the path and its length in seconds."""
+    durs = holds(alt_texts, len(slides))
+    frames = [frame(s, s.with_name(s.stem + "_reel.jpg")) for s in slides]
+    cmd = [ffmpeg(), "-y", "-loglevel", "error"]
+    for f, d in zip(frames, durs):
+        cmd += ["-loop", "1", "-framerate", str(FPS), "-t", f"{d + FADE:.2f}", "-i", str(f)]
+    cmd += ["-f", "lavfi", "-i", "anullsrc=channel_layout=stereo:sample_rate=44100"]
+    chain, last, offset = [], "[0:v]", 0.0
+    for k in range(1, len(frames)):
+        offset += durs[k - 1]
+        chain.append(f"{last}[{k}:v]xfade=transition=fade:duration={FADE}:offset={offset:.2f}[v{k}]")
+        last = f"[v{k}]"
+    total = round(sum(durs) + FADE, 2)
+    graph = ";".join(chain) + (";" if chain else "") + f"{last}scale=out_range=tv,format=yuv420p[v]"
+    cmd += ["-filter_complex", graph, "-map", "[v]", "-map", f"{len(frames)}:a", "-t", f"{total:.2f}",
+            "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p", "-color_range", "tv",
+            "-r", str(FPS), "-c:a", "aac", "-b:a", "128k",
+            "-shortest", "-movflags", "+faststart", str(out)]
+    subprocess.run(cmd, check=True, capture_output=True, text=True)
+    for f in frames:
+        f.unlink(missing_ok=True)
+    return out, total
