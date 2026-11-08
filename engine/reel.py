@@ -14,15 +14,15 @@ from . import config
 
 REEL = (1080, 1920)
 TOP = 220            # the 4:5 slide sits high: Instagram's caption, handle and buttons cover the bottom of a reel
-COVER_HOLD = 3.5     # the hook stops the scroll; it is not read slowly
-END_HOLD = (3.0, 6.0)
-HOLD = (2.5, 8.0)    # 1.5s for the eye to land, then 1s for every 3 words
+COVER_HOLD = 2.0     # the hook stops the scroll; it is not read slowly (owner: 3s was too slow)
+END_HOLD = (2.0, 4.0)
+HOLD = (2.0, 5.5)    # 1s for the eye to land, then 1s for every 4 words: brisk, a rewatch is fine
 FADE = 0.3
 FPS = 30
 
 
 def hold(words: int, lo: float = HOLD[0], hi: float = HOLD[1]) -> float:
-    return round(min(hi, max(lo, 1.5 + words / 3)), 2)
+    return round(min(hi, max(lo, 1.0 + words / 4)), 2)
 
 
 def holds(alt_texts: list[str], n: int) -> list[float]:

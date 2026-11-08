@@ -463,7 +463,7 @@ def render_post(post: dict) -> list[Path]:
         end = bool(config.END_CARD)
         body = split_for_fit(shape([s for s in draft["slides"][1:]], config.BUFFER_MAX_IMAGES - 1 - end))
         cover = cover_for(draft)
-        post["alt_texts"] = ([re.sub(r"[\[\]]", "", cover.get("headline", "")) + ". " + cover.get("sub", "")]
+        post["alt_texts"] = ([re.sub(r"[\[\]]", "", cover.get("headline", "")).rstrip(".") + ". " + cover.get("sub", "")]
                              + [_alt(s["paragraphs"]) for s in body]
                              + (["Send this to " + re.sub(r"^(Send (this )?to )", "", (draft.get("end") or {}).get("send", ""), flags=re.I)
                                  + " " + (draft.get("end") or {}).get("save", "")] if end else []))
