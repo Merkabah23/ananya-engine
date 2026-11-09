@@ -1,9 +1,10 @@
 """End-to-end wiring with a fake LLM: candidates -> filter -> write/critic -> render -> 'upload' (dry run)."""
 import os
+import pytest
 
 os.environ["DRY_RUN"] = "true"
 
-from engine import __main__ as cli, config, filter as topic_filter, llm, state  # noqa: E402
+from engine import __main__ as cli, config, filter as topic_filter, llm, state, writer  # noqa: E402
 
 SLIDES = [
     ["Gill is No. 1 now. Half the group chat went quiet.", "Swipe to read →"],
@@ -32,6 +33,8 @@ def fake_call_json(model, user, stage="", **kw):
     if stage == "critic":
         return {"pass": True, "violations": [], "notes": [],
                 "scores": {k: 5 for k in ("hook", "relatable", "fresh_angle", "pull", "payoff", "voice", "eq", "iq", "story", "tight")}}
+    if stage == "varun":
+        return {"pass": True, "score": 5, "misses": [], "best": "Half the group chat went quiet."}
     if stage == "ledger":
         return {"claims": []}
     if stage == "sources":
@@ -114,12 +117,20 @@ def test_approve_and_reject_teach_the_engine(tmp_path, monkeypatch):
     draft = {"slides": [{"paragraphs": ["one", "two"]}, {"paragraphs": ["three"]}]}
     state.save_post({"id": "2026-11-01", "status": "written", "topic": {"claim": "a good take", "title": "good"}, "draft": draft})
     state.save_post({"id": "2026-11-02", "status": "written", "topic": {"claim": "a bad take"}, "draft": draft})
+    with pytest.raises(SystemExit, match="Varun check"):  # no Varun pass on this text yet
+        cli.verdict("approve", "2026-11-01", "named thing, sharp")
+    post = state.read("posts", "2026-11-01.json")
+    post["varun"] = writer.varun_stamp({"pass": True, "score": 5, "misses": []}, draft)
+    state.save_post(post)
     cli.verdict("approve", "2026-11-01", "named thing, sharp")
     cli.verdict("reject", "2026-11-02", "sociology essay")
     t = json.loads((data / "taste.json").read_text())
     assert t["approved"][-1]["take"] == "a good take" and t["rejected"][-1]["why"] == "sociology essay"
     bank = json.loads((data / "approved_posts.json").read_text())
     assert bank[-1]["slides"] == ["one\ntwo", "three"]
+    post["draft"] = {"slides": [{"paragraphs": ["edited after the check"]}]}
+    state.save_post(post)
+    assert not writer.varun_valid(post)  # any edit needs a fresh check
 
 
 def test_owner_approved_drafts_skip_the_writer_but_not_the_fact_gate(tmp_path, monkeypatch):

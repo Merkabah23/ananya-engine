@@ -1,3 +1,4 @@
+import json
 import os
 
 os.environ["DRY_RUN"] = "true"
@@ -307,3 +308,41 @@ def test_live_posts_are_logged_once_and_checked(tmp_path, monkeypatch):
     assert published.log()[0]["headline"] == "Mummy's gold"
     monkeypatch.setattr(published.llm, "call_json", lambda *a, **k: {"repeat": True, "of": "Mummy's gold", "shared": "mummy's gold"})
     assert published.repeat_of({"claim": "Gold is the only money in her name"}) == "Mummy's gold"
+
+
+def test_varun_check_gates_on_score_and_misses():
+    miss = {"where": "slide 3", "line": "This reflects a culture of status.", "why": "essay voice", "try": "It's a flex."}
+    assert writer.varun_passes({"pass": True, "score": 5, "misses": []})
+    assert writer.varun_passes({"pass": True, "score": 4, "misses": [miss]})
+    assert not writer.varun_passes({"pass": True, "score": 4, "misses": [miss, miss]})
+    assert not writer.varun_passes({"pass": True, "score": 3, "misses": []})
+    assert not writer.varun_passes({"pass": False, "score": 5, "misses": []})
+    note = writer.varun_notes({"misses": [miss]})[0]
+    assert "slide 3" in note and "culture of status" in note and "It's a flex." in note
+
+
+def test_varun_misses_go_back_to_the_writer(monkeypatch):
+    from engine import factgate, llm, published
+    good = draft(GOOD)
+    monkeypatch.setattr(published, "repeat_of", lambda topic: None)
+    monkeypatch.setattr(writer, "mechanical", lambda d, fmt, ev: (d, []))
+    monkeypatch.setattr(factgate, "verify", lambda post, d: {"passed": True, "notes": []})
+    writes, checks = [], iter([
+        {"pass": False, "score": 3, "misses": [{"where": "slide 2", "line": "x", "why": "essay voice", "try": "y"}]},
+        {"pass": True, "score": 5, "misses": []}])
+    def fake(model, user, stage="", **kw):
+        if stage == "write":
+            writes.append(user)
+            return json.loads(json.dumps(good))
+        if stage == "critic":
+            return {"pass": True, "violations": [], "notes": [], "scores": {k: 5 for k in (
+                "hook", "relatable", "fresh_angle", "pull", "payoff", "voice", "eq", "iq", "story", "tight")}}
+        if stage == "varun":
+            return next(checks)
+        raise AssertionError(stage)
+    monkeypatch.setattr(llm, "call_json", fake)
+    post = {"id": "2099-11-05", "format": "carousel", "sources": [], "history": [],
+            "topic": {"claim": "c", "needs_facts": False}}
+    out = writer.write_post(post)
+    assert out["status"] == "written" and len(writes) == 2
+    assert "Not Varun (slide 2)" in writes[1]  # the second draft was written from the Varun note

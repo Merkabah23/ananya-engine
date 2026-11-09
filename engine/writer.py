@@ -1,6 +1,6 @@
 """Agent 3, the writer (the Above MRP voice), with its editor loop.
 
-sources (searched and fetched once) -> draft -> code checks -> editor + fact check (in parallel)
+sources (searched and fetched once) -> draft -> code checks -> editor -> Varun check -> fact check
 Every failure goes back to the writer as notes, up to MAX_REWRITES times. Nothing after the writer
 rewrites content; the only automatic edit is a mechanical one (splitting sentences, removing bold).
 """
@@ -12,7 +12,7 @@ import re
 import statistics
 import zlib
 
-from . import config, corpus, llm, state
+from . import config, corpus, factgate, llm, state
 
 FORMAT_RULES = {
     "carousel": "a reel of 6 to 8 text screens, as few as the idea needs, each read in a few seconds. Slide 1 is at "
@@ -372,6 +372,46 @@ def critique(post: dict, draft: dict, seed: int) -> dict:
         return {"pass": False, "violations": [f"The editor could not run ({e})."], "notes": []}
 
 
+def varun_check(post: dict, draft: dict, seed: int) -> dict:
+    """The owner's standing rule: every line the reader sees sounds like Varun. One reader, voice only, line by line,
+    against his real posts. Misses go back to the writer as notes; this never edits the draft itself."""
+    fmt = post["format"]
+    try:
+        return llm.call_json(config.MODEL_JUDGE, llm.fill(
+            llm.prompt("varun"), varun_examples=corpus.rhythm_examples(3, seed=seed + 202, fmt=fmt),
+            voice_examples=voice_examples(seed + 202), post=json.dumps(draft, ensure_ascii=False, indent=1)), stage="varun")
+    except SystemExit:
+        raise
+    except Exception as e:
+        return {"pass": False, "score": 0, "misses": [], "error": f"The Varun check could not run ({e})."}
+
+
+def varun_passes(check: dict) -> bool:
+    return bool(check.get("pass")) and _score(check, "score") >= 4 and len(check.get("misses") or []) <= 1
+
+
+def varun_stamp(check: dict, draft: dict) -> dict:
+    """The check, tied to the exact text it read: any later edit to the draft needs a fresh check."""
+    return {**check, "passed": varun_passes(check), "text_hash": factgate.text_hash(draft)}
+
+
+def varun_valid(post: dict) -> bool:
+    """True if the post's current text is exactly the text that passed the Varun check."""
+    v = post.get("varun") or {}
+    return bool(v.get("passed")) and v.get("text_hash") == factgate.text_hash(post.get("draft") or {})
+
+
+def varun_notes(check: dict) -> list[str]:
+    """Each miss as a note the writer can act on: where, the line, why it isn't Varun, and a version in his register."""
+    if check.get("error"):
+        return [check["error"]]
+    notes = [f"Not Varun ({m.get('where', '?')}): '{m.get('line', '')}' reads as {m.get('why', 'off-voice')}. "
+             f"Say it the way he would, e.g. '{m.get('try', '')}' (his register, your words, same facts)."
+             for m in (check.get("misses") or [])[:6]]
+    return notes or [f"The Varun check scored the draft {_score(check, 'score')}/5: it reads like someone imitating him. "
+                     "Make the lines plainer, blunter and more like commentary than scene."]
+
+
 def passes(review: dict) -> bool:
     """No hard failure, 4+ on craft, and real EQ or IQ: one of them 4+, the other at least 3."""
     scores = review.get("scores") or {}
@@ -385,7 +425,7 @@ def passes(review: dict) -> bool:
 def write_post(post: dict, notes: str = "") -> dict:
     """Write, check, edit and verify. The writer is the only thing that changes what the post says: the editor and
     the fact gate send notes back to it. `notes` seeds the first attempt (an owner's rewrite request)."""
-    from . import factgate, published
+    from . import published
     topic = post["topic"]
     seen = published.repeat_of(topic)
     if seen:  # never write a post the page has already made
@@ -425,11 +465,16 @@ def write_post(post: dict, notes: str = "") -> dict:
                     if passes(again):
                         draft, review = trimmed, again
             if passes(review):
+                voice = varun_check(post, draft, seed + attempt)
+                post["history"].append({"attempt": attempt, "varun": voice})
+                if not varun_passes(voice):
+                    review = {"violations": varun_notes(voice)}
+            if passes(review):
                 draft["caption_style"] = caption_style(post)
                 verification = factgate.verify(post, draft)
                 post["history"].append({"attempt": attempt, "verification": verification})
                 if verification["passed"]:
-                    post.update(status="written", draft=draft, verification=verification)
+                    post.update(status="written", draft=draft, verification=verification, varun=varun_stamp(voice, draft))
                     state.log("writer", f"{post['id']} passed on attempt {attempt + 1}")
                     return post
                 if verification.get("take_dead"):

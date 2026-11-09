@@ -5,6 +5,7 @@
   python -m engine push               schedule the next 7 days of ready posts in Buffer
   python -m engine scout|filter|produce|calibrate|status|buffer-channels
   python -m engine approve|reject <post_id> --why "..."   teach the engine your taste
+  python -m engine varun <post_id>    does every line sound like Varun? (run on any draft, hand-written ones too)
 """
 from __future__ import annotations
 
@@ -206,6 +207,9 @@ def verdict(kind: str, post_id: str | None, why: str) -> None:
     post = state.read("posts", f"{post_id}.json")
     if not post:
         raise SystemExit(f"No post {post_id}")
+    if kind == "approve" and post.get("draft") and not writer.varun_valid(post):
+        raise SystemExit(f"{post_id} has not passed the Varun check on its current text. "
+                         f"Run: python -m engine varun {post_id}, fix the misses, run it again.")
     if kind == "reject" and not why:
         raise SystemExit("Say why with --why: the reason is what the engine learns from.")
     path = config.DATA / "taste.json"
@@ -223,6 +227,25 @@ def verdict(kind: str, post_id: str | None, why: str) -> None:
             bank_path.write_text(json.dumps(bank, ensure_ascii=False, indent=1) + "\n")
     state.log("taste", f"{kind} {post_id}: {why}")
     print(f"{kind}d {post_id}; the engine will use this from the next run.")
+
+
+def varun(post_id: str | None) -> None:
+    """Run the Varun check on a post's current draft (engine-written or hand-written) and print each line that misses."""
+    post = state.read("posts", f"{post_id}.json") if post_id else None
+    if not post or not post.get("draft"):
+        raise SystemExit(f"Usage: python -m engine varun <post_id> (a post with a draft); got {post_id!r}")
+    import zlib
+    check = writer.varun_check(post, post["draft"], zlib.crc32(post["id"].encode()) % 10_000)
+    if not check.get("error"):
+        post["varun"] = writer.varun_stamp(check, post["draft"])
+        state.save_post(post)
+    print(f"{'PASS' if writer.varun_passes(check) else 'FAIL'}  Varun {check.get('score', 0)}/5")
+    for m in check.get("misses") or []:
+        print(f"\n- {m.get('where')}: {m.get('line')}\n  why: {m.get('why')}\n  try: {m.get('try')}")
+    if check.get("best"):
+        print(f"\nMost Varun line: {check['best']}")
+    if check.get("error"):
+        print(check["error"])
 
 
 def doctor() -> None:
@@ -263,8 +286,9 @@ def doctor() -> None:
 def main() -> None:
     ap = argparse.ArgumentParser(prog="engine")
     ap.add_argument("command", choices=["monthly", "daily", "fetch-reddit", "scout", "filter", "produce", "push",
-                                        "sample", "calibrate", "status", "buffer-channels", "doctor", "approve", "reject", "scorecard"])
-    ap.add_argument("post_id", nargs="?", help="approve/reject: the post id, e.g. 2026-11-03")
+                                        "sample", "calibrate", "status", "buffer-channels", "doctor", "approve", "reject", "scorecard",
+                                        "varun"])
+    ap.add_argument("post_id", nargs="?", help="approve/reject/varun: the post id, e.g. 2026-11-03")
     ap.add_argument("--why", default="", help="approve/reject: one line on why, in your own words")
     ap.add_argument("--n", type=int, default=3, help="sample: how many posts")
     ap.add_argument("--topics", help="sample: JSON file of topics to write from")
@@ -302,6 +326,8 @@ def main() -> None:
         print(scorecard.summary())
     elif a.command in ("approve", "reject"):
         verdict(a.command, a.post_id, a.why)
+    elif a.command == "varun":
+        varun(a.post_id)
     elif a.command == "calibrate":
         print(json.dumps(topic_filter.calibrate(), indent=1))
     elif a.command == "status":
