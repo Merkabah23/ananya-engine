@@ -72,10 +72,10 @@ def test_reel_holds_each_screen_for_its_words(tmp_path, monkeypatch):
     assert video.stat().st_size > 10_000 and secs == round(2.0 + 5.0 + 2.75 + 4.0 + reel.FADE, 2)
 
 
-def test_buffer_sends_a_reel_with_the_cover_as_thumbnail(monkeypatch):
+def test_buffer_sends_a_reel_with_the_cover_frame_as_thumbnail(monkeypatch):
     from engine import buffer, config
     monkeypatch.setattr(config, "DRY_RUN", True)
     post = {"due": "2026-11-10T20:30:00+05:30", "draft": {"caption": "c"}, "video_url": "https://v/reel.mp4"}
     body = buffer.build_input(post, ["https://i/slide_01.jpg", "https://i/slide_02.jpg"])
-    assert body["assets"] == [{"video": {"url": "https://v/reel.mp4", "thumbnailUrl": "https://i/slide_01.jpg"}}]
+    assert body["assets"] == [{"video": {"url": "https://v/reel.mp4", "metadata": {"thumbnailOffset": 1000}}}]
     assert body["metadata"]["instagram"]["type"] == "reel"

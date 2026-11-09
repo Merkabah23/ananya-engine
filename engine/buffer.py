@@ -3,7 +3,7 @@
 Secrets: BUFFER_API_KEY (Buffer -> Settings -> API), BUFFER_CHANNEL_ID
 (run `python -m engine buffer-channels` once to find it).
 Buffer posts an Instagram carousel as type 'post' with up to 10 image assets, and a reel as type 'reel' with one
-video asset (post['video_url']) whose thumbnail is the cover slide.
+video asset (post['video_url']) whose thumbnail is a frame of the cover, 1s in.
 """
 from __future__ import annotations
 
@@ -100,11 +100,9 @@ def build_input(post: dict, image_urls: list[str]) -> dict:
 
 
 def _reel_asset(post: dict, image_urls: list[str]) -> dict:
-    """The reel, with its cover slide as the thumbnail: the cover is what shows on the profile grid."""
-    video = {"url": post["video_url"]}
-    if image_urls:
-        video["thumbnailUrl"] = image_urls[0]
-    return {"video": video}
+    """The reel. Buffer takes no custom thumbnail image, only a point in the video: 1s in is the cover, which is what
+    shows on the profile grid (the cover holds for reel.COVER_HOLD seconds)."""
+    return {"video": {"url": post["video_url"], "metadata": {"thumbnailOffset": 1000}}}
 
 
 def schedule(post: dict) -> str:
