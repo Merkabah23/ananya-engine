@@ -1,6 +1,6 @@
 {
  "id": "2026-11-120",
- "status": "written",
+ "status": "approved",
  "due": "2026-11-10T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -361,24 +361,62 @@
    }
   }
  ],
- "sources": [],
- "updated_at": "2026-11-08T15:26:46.304782+00:00",
+ "sources": [
+  {
+   "url": "https://duckduckbaby.in/products/bugaboo-fox-5-renew-2-in-1-stroller-moon-grey",
+   "fact": "Bugaboo Fox 5 Renew listed at Rs 1,69,999 in India",
+   "excerpt": "MRP ₹169,999 Inclusive of all taxes"
+  }
+ ],
+ "updated_at": "2026-11-09T05:23:29.750061+00:00",
  "verification_cache": {
   "_ledger": {
-   "text": "[cover] The expensive stroller isn't for the baby. It's for the [society park].\nThe one that costs more than your phone. For a passenger who can't even talk.\n \n\n[slide 1] The expensive stroller isn't for the baby. It's for the society park.\nSwipe to read →\n\n[slide 2] You spent weeks on this one. Reviews, suspension, resale value, which fold fits the car boot.\nThe baby needs a flat surface and someone warm nearby. That's the whole list.\n\n[slide 3] Down in the society park at seven, the strollers talk first.\nThe stroller that costs more than your phone. The brand name turned just so. The parent who mentions, lightly, \"we went for the imported one, folds with one hand.\"\n\n[slide 4] You can hear the wheels on the society tiles before you see who's pushing. The baby inside has been asleep since the lift.\n\n[slide 5] The stroller is the first big thing you push into a crowd of other new parents. And everyone in that park is measuring. Checking who got what.\nIt says you're doing fine. You've arrived. You're the kind of parent who can.\nCall it the park premium. The baby is just the passenger in it.\n\n[slide 6] And half the gear gets used twice.\nThe nursing pillow, the white noise machine, the designer diaper bag, the pram that barely fits the lift.\nThe baby would've been just as happy in a dupatta tied across your chest.\n\n[slide 7] Stand in that park a few evenings and it flips.\nThe park isn't really judging you. It's just as scared as you are.\nEveryone's buying proof because nobody feels like they know what they're doing. The stroller is the receipt that says I've got this.\n\n[slide 8] And it isn't vanity.\nYou're running on no sleep, guessing at everything, and for once you can point at one thing and feel sure. The good stroller is the single decision you got visibly right.\n\n[slide 9] Try the test. Picture the same shortlist with no evening loop. No other parent ever seeing it.\nYou'd have grabbed the one that fits the boot and gone home.\n\n[end card] Open this again before you check out the ₹20,000 pram in your cart.\nSend to the new-parent friend who spent three weeks agonising over which stroller to buy.\n\n[caption] What's the one baby thing you bought for the park and told yourself was for the baby?\n\n[alt text] An eight-slide carousel arguing that new parents in gated societies buy expensive strollers to signal standing to other parents in the park, not for the baby, who sleeps through all of it. It ends on a test: picture the same stroller choice if no other parent would ever see it, and you'd have grabbed the one that fits the boot and gone home.",
+   "text": "[cover] India's priciest baby products aren't for babies. They're for the [society park].\nAnd every baby brand in India knows it.\n \n\n[slide 1] India's priciest baby products aren't for babies. They're for the society park.\nSwipe to read →\n\n[slide 2] A Bugaboo costs more than a new Activa. The baby can't even sit up yet. And somebody in your society already has one.\n\n[slide 3] Here's what's really going on. A stroller is the first thing you push into a crowd of new parents. The park is a showroom.\n\n[slide 4] And baby brands know it. They don't sell comfort. They sell safety, because no Indian parent asks for the less safe one.\n\n[slide 5] Same parents who fight the sabziwala over ten rupees. Same parents who split one Netflix password four ways.\n\n[slide 6] Now the ugly part. A lot of that gear is outgrown in months, then sits on OLX with \"barely used\" in the title.\n\n[slide 7] Honestly, it isn't vanity. You're on no sleep, guessing at everything, and the stroller is one decision everyone can see you got right.\n\n[slide 8] The baby can't tell a Bugaboo from a LuvLap. The park can.\n\n[end card] read it before the imported stroller goes into the cart.\nThe couple with forty stroller tabs open right now.\n\n[caption] The stroller is the first thing new parents push into a crowd.\n\nBaby brands don't sell comfort, they sell safety, and safety is the one thing no Indian parent bargains on. If you sell anything for babies in this country, you're not selling to the baby. You're selling to the park.\n\nWhat did you buy for your baby that got used twice?\n\n[alt text] A text post about baby strollers.",
    "claims": [
     {
      "id": "c1",
-     "text": "Half of the baby gear parents buy gets used only twice.",
-     "sentence": "And half the gear gets used twice.",
-     "type": "figure",
-     "core": false,
+     "text": "A Bugaboo stroller costs more than a brand-new Honda Activa scooter.",
+     "sentence": "A Bugaboo costs more than a new Activa.",
+     "type": "entity_attribute",
+     "core": true,
      "framed_as": "timeless"
     },
     {
      "id": "c2",
-     "text": "Parents buy expensive strollers not to meet the baby's actual needs but to signal status and competent parenting to other parents in the society park, because the baby has minimal needs (a flat surface, warmth) while the park is a space where parents visibly evaluate each other and seek proof against their own parenting insecurity",
-     "sentence": "Call it the park premium. The baby is just the passenger in it.",
+     "text": "A Bugaboo stroller is actually owned by someone in Indian housing societies (not just a hypothetical reference brand)",
+     "sentence": "And somebody in your society already has one.",
+     "type": "entity_attribute",
+     "core": true,
+     "framed_as": "current"
+    },
+    {
+     "id": "c3",
+     "text": "Baby gear bought by Indian parents is commonly outgrown within a few months of purchase",
+     "sentence": "A lot of that gear is outgrown in months",
+     "type": "event",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c4",
+     "text": "Outgrown baby gear from Indian parents is frequently resold on OLX",
+     "sentence": "then sits on OLX with \"barely used\" in the title",
+     "type": "entity_attribute",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c5",
+     "text": "Secondhand baby-gear listings on OLX commonly use the phrase \"barely used\" in the title",
+     "sentence": "then sits on OLX with \"barely used\" in the title",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c6",
+     "text": "Because a stroller is the first visible item new parents bring into a public space, and parks function as showrooms where parents compare gear, baby brands market their products on safety (not comfort) since safety is the one thing parents won't compromise on — therefore India's priciest baby products are bought to signal status/safety to other parents rather than for the baby's actual needs",
+     "sentence": "A stroller is the first thing you push into a crowd of new parents. The park is a showroom. ... They don't sell comfort. They sell safety, because no Indian parent asks for the less safe one.",
      "type": "mechanism",
      "core": true,
      "framed_as": "timeless"
@@ -476,6 +514,57 @@
       "url": "https://www.parnthub.com/2026/03/baby-carrier-safety-guide.html",
       "published_date": "2026-03",
       "quote": "A young newborn should be upright and inward facing, high and snug against the caregiver, with the face visible... back and neck supported."
+     }
+    ]
+   },
+   "c46a3050c593163006255a612bd3693cce82ca42": {
+    "holds": true,
+    "broken_premise": "",
+    "actual_mechanism": "The only falsifiable factual premise is the price comparison, and it holds. A new Honda Activa is roughly ₹76,000–93,000 ex-showroom (about ₹80,000–₹1,01,000 on-road depending on city), while an imported flagship Bugaboo (Fox 5, Donkey 5) retails in India for roughly ₹90,000–₹1.2 lakh — so yes, a Bugaboo does cost more than a brand-new Activa. The rest of the argument (park-as-showroom, selling status/safety not comfort to parents rather than babies) is an opinion/motive reading, not a factual claim to falsify.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.bikewale.com/honda-bikes/activa/",
+      "published_date": "2026",
+      "quote": "Honda Activa price starts from Rs. 67,844 (ex-showroom)... most expensive model is Honda Activa 125"
+     },
+     {
+      "url": "https://www.zigwheels.com/honda-bikes/activa-6g/on-road-price-hyderabad/",
+      "published_date": "2026-11",
+      "quote": "Honda Activa On Road Price Hyderabad Nov 2026 - ₹1.01L"
+     },
+     {
+      "url": "https://www.anbbaby.com/collections/bugaboo",
+      "published_date": "2026",
+      "quote": "Bugaboo Fox 3: From $1,349.00; Bugaboo Donkey 5 Mono: $1,749.00; Bugaboo Dragonfly: $1,349.00"
+     },
+     {
+      "url": "https://www.hababy.co.in/blog/best-stroller-brand-india",
+      "published_date": "2026",
+      "quote": "Bugaboo strollers in India typically range from ₹65,000 to ₹1.2 lakh... considered a luxury option, available via a few personal-import channels"
+     }
+    ]
+   },
+   "533b10d16b3ea4ad2020bc5c92c5172eeef98704": {
+    "holds": true,
+    "broken_premise": "none — the two falsifiable price/resale premises hold; the rest is interpretation",
+    "actual_mechanism": "A flagship Bugaboo (Fox 5 / Donkey 5) retails in India roughly ₹65,000–₹1.2 lakh through select importers, while a new Honda Activa is about ₹76,000–93,000 ex-showroom and ₹84,000–₹1.01 lakh on-road, so a top-end Bugaboo does cost more than a new Activa (the entry Butterfly at ~₹20k–45k does not, but the post invokes the premium tier). Outgrown baby gear including strollers is routinely relisted on OLX as 'barely used,' which is verifiable. The remaining claims — parks as showrooms, brands selling 'safety,' and purchase-as-status — are motive-reading and interpretation, not factual premises to falsify.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.hababy.co.in/blog/best-stroller-brand-india",
+      "published_date": "2026",
+      "quote": "Bugaboo strollers in India are priced in the range of ₹65,000–₹1.2 lakhs; models like the Fox 5 and Donkey 5 are available only via a few personal-import channels."
+     },
+     {
+      "url": "https://www.zigwheels.com/honda-bikes/activa-6g/on-road-price-hyderabad/",
+      "published_date": "2026-11",
+      "quote": "Honda Activa On Road Price Hyderabad Nov 2026 - ₹1.01L"
+     },
+     {
+      "url": "https://www.bikewale.com/honda-bikes/activa/",
+      "published_date": "2026",
+      "quote": "The 2026 ex-showroom price of Honda Activa starts at ₹76,358; the standard model is ₹78,947 and Activa 125 is ₹92,794 (ex-showroom)."
      }
     ]
    }
@@ -661,96 +750,479 @@
     },
     "text_hash": "9134d90a5d479bfdd2be2445c272bff337f69d06",
     "at": "2026-11-05T10:08:13.836532+00:00"
+   },
+   "66829fc2e6ff90085e9574749b8fd77d31dfb0d1": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Wrong: 'The Bugaboo stroller is the top item on every new parent couple's shopping list in India.'. What's true: Bugaboo is not even officially distributed in India (personal-import only, almost no local service network) and ranks near the bottom of brand comparisons for Indian parents; the actual top-selling/most-bought stroller brands in India are budget-to-mid Indian brands like LuvLap (largest Indian volume brand), R for Rabbit, and Babyhug. Bugaboo is a niche status purchase for a small segment chasing 'brand cachet', not the top item on 'every' new-parent couple's shopping list in India..",
+     "Could not verify: 'About half of purchased baby gear gets used only twice before being resold on OLX listed as 'barely used.''. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "The post's central argument: because a stroller is the first visible item new parents bring into a shared park full of other parents, and because baby brands market on 'safety' rather than comfort (a feature Indian parents won't economize on), families end up paying premium prices for baby gear as a status display to other parents in the park, not for the baby's actual benefit.",
+      "sentence": "A stroller is the first thing you push into a crowd of new parents. The park is a showroom. ... They don't sell comfort. They sell safety, because no Indian parent asks for the less safe one. ... You're not selling to the baby. You're selling to the park.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "A Bugaboo stroller costs more than a brand-new Honda Activa scooter.",
+      "sentence": "A Bugaboo costs more than a new Activa.",
+      "type": "entity_attribute",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "The Bugaboo stroller is the top item on every new parent couple's shopping list in India.",
+      "sentence": "And it's still first on every new couple's list.",
+      "type": "superlative",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "About half of purchased baby gear gets used only twice before being resold on OLX listed as 'barely used.'",
+      "sentence": "Half that gear gets used twice, then sits on OLX with \"barely used\" in the title.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": null,
+      "sources": [
+       {
+        "url": "https://duckduckbaby.in/products/bugaboo-fox-5-renew-2-in-1-stroller-moon-grey",
+        "publisher": "DuckDuckBaby (India retailer)",
+        "published_date": null,
+        "quote": "Regular price MRP ₹169,999",
+        "tier": 3
+       },
+       {
+        "url": "https://www.bikewale.com/honda-bikes/activa-6g/",
+        "publisher": "BikeWale",
+        "published_date": "2026-11",
+        "quote": "Honda Activa 6G Standard variant costs Rs. 75,958 ex-showroom in Delhi, while the Deluxe variant is priced at Rs. 86,360 ex-showroom",
+        "tier": 3
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "contradicted",
+      "event_date": null,
+      "correct": "Bugaboo is not even officially distributed in India (personal-import only, almost no local service network) and ranks near the bottom of brand comparisons for Indian parents; the actual top-selling/most-bought stroller brands in India are budget-to-mid Indian brands like LuvLap (largest Indian volume brand), R for Rabbit, and Babyhug. Bugaboo is a niche status purchase for a small segment chasing 'brand cachet', not the top item on 'every' new-parent couple's shopping list in India.",
+      "sources": [
+       {
+        "url": "https://www.hababy.co.in/blog/best-stroller-brand-india",
+        "publisher": "Hababy (baby-gear buying guide, India)",
+        "published_date": "2026",
+        "quote": "Personal-import-only... Almost no Indian service... Skip unless you specifically want the brand cachet... Luvlap - largest Indian volume brand",
+        "tier": 3
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "unverifiable",
+      "event_date": null,
+      "correct": null,
+      "sources": []
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "",
+     "actual_mechanism": "The only falsifiable factual premise is the price comparison, and it holds. A new Honda Activa is roughly ₹76,000–93,000 ex-showroom (about ₹80,000–₹1,01,000 on-road depending on city), while an imported flagship Bugaboo (Fox 5, Donkey 5) retails in India for roughly ₹90,000–₹1.2 lakh — so yes, a Bugaboo does cost more than a brand-new Activa. The rest of the argument (park-as-showroom, selling status/safety not comfort to parents rather than babies) is an opinion/motive reading, not a factual claim to falsify.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.bikewale.com/honda-bikes/activa/",
+       "published_date": "2026",
+       "quote": "Honda Activa price starts from Rs. 67,844 (ex-showroom)... most expensive model is Honda Activa 125"
+      },
+      {
+       "url": "https://www.zigwheels.com/honda-bikes/activa-6g/on-road-price-hyderabad/",
+       "published_date": "2026-11",
+       "quote": "Honda Activa On Road Price Hyderabad Nov 2026 - ₹1.01L"
+      },
+      {
+       "url": "https://www.anbbaby.com/collections/bugaboo",
+       "published_date": "2026",
+       "quote": "Bugaboo Fox 3: From $1,349.00; Bugaboo Donkey 5 Mono: $1,749.00; Bugaboo Dragonfly: $1,349.00"
+      },
+      {
+       "url": "https://www.hababy.co.in/blog/best-stroller-brand-india",
+       "published_date": "2026",
+       "quote": "Bugaboo strollers in India typically range from ₹65,000 to ₹1.2 lakh... considered a luxury option, available via a few personal-import channels"
+      }
+     ]
+    },
+    "text_hash": "66829fc2e6ff90085e9574749b8fd77d31dfb0d1",
+    "at": "2026-11-09T05:07:12.773562+00:00"
+   },
+   "345d3629e1e00e9f329521f617c314d14e71b148": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "A Bugaboo stroller costs more than a brand-new Honda Activa scooter.",
+      "sentence": "A Bugaboo costs more than a new Activa.",
+      "type": "entity_attribute",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "A Bugaboo stroller is actually owned by someone in Indian housing societies (not just a hypothetical reference brand)",
+      "sentence": "And somebody in your society already has one.",
+      "type": "entity_attribute",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c3",
+      "text": "Baby gear bought by Indian parents is commonly outgrown within a few months of purchase",
+      "sentence": "A lot of that gear is outgrown in months",
+      "type": "event",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Outgrown baby gear from Indian parents is frequently resold on OLX",
+      "sentence": "then sits on OLX with \"barely used\" in the title",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Secondhand baby-gear listings on OLX commonly use the phrase \"barely used\" in the title",
+      "sentence": "then sits on OLX with \"barely used\" in the title",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Because a stroller is the first visible item new parents bring into a public space, and parks function as showrooms where parents compare gear, baby brands market their products on safety (not comfort) since safety is the one thing parents won't compromise on — therefore India's priciest baby products are bought to signal status/safety to other parents rather than for the baby's actual needs",
+      "sentence": "A stroller is the first thing you push into a crowd of new parents. The park is a showroom. ... They don't sell comfort. They sell safety, because no Indian parent asks for the less safe one.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": null,
+      "sources": [
+       {
+        "url": "https://duckduckbaby.in/products/bugaboo-fox-5-renew-2-in-1-stroller-moon-grey",
+        "publisher": "DuckDuckBaby (India retailer)",
+        "published_date": null,
+        "quote": "Regular price MRP ₹169,999",
+        "tier": 3
+       },
+       {
+        "url": "https://www.bikewale.com/honda-bikes/activa-6g/",
+        "publisher": "BikeWale",
+        "published_date": "2026-11",
+        "quote": "Honda Activa 6G Standard variant costs Rs. 75,958 ex-showroom in Delhi, while the Deluxe variant is priced at Rs. 86,360 ex-showroom",
+        "tier": 3
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": "Bugaboo strollers are genuinely sold, stocked, and owned in India (not just a hypothetical aspirational reference) — authorized Indian retailers like duckduckbaby and Amazon.in carry models such as the Fox 5 Renew at ₹1,69,999, so an Indian housing-society parent plausibly owns one.",
+      "sources": [
+       {
+        "url": "https://duckduckbaby.in/products/bugaboo-fox-5-renew-2-in-1-stroller-moon-grey",
+        "publisher": "duckduckbaby.in",
+        "published_date": null,
+        "quote": "Bugaboo Fox 5 Renew ... ₹169,999 ... authentic, sourced directly from brands or their authorized Indian distributors",
+        "tier": 3
+       },
+       {
+        "url": "https://www.amazon.in/Strollers-Buggies-Prams-Bugaboo-Baby/s?srs=1953480031&rh=n%3A1953480031%2Cp_89%3ABugaboo",
+        "publisher": "Amazon.in",
+        "published_date": null,
+        "quote": "Bugaboo - Strollers, Buggies & Prams: Baby",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": "Baby gear (bouncers, infant seats, tubs, strollers) is outgrown within roughly 3-9 months in general, consistent with Indian parenting-gear sources describing short usage windows before resale.",
+      "sources": [
+       {
+        "url": "https://rforrabbit.com/blogs/articles/baby-gear-rent-or-buy",
+        "publisher": "R for Rabbit (Indian baby-gear brand)",
+        "published_date": null,
+        "quote": "Most babies use a bouncer intensively for 3–5 months, then lose interest entirely... Infant seats are outgrown by height long before they wear out, often around nine months... Parents can save 50 percent to 70 percent compared to buying new gear, especially for items used only for a few months.",
+        "tier": 3
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": "OLX India runs active, large secondhand marketplaces for strollers, cribs, car seats, walkers, high chairs and other baby gear, confirming outgrown Indian baby gear is commonly resold there.",
+      "sources": [
+       {
+        "url": "https://www.olx.in/furniture_c628/q-baby-strollers",
+        "publisher": "OLX India",
+        "published_date": null,
+        "quote": "Baby Strollers - Buy & Sell Used Furniture in India",
+        "tier": 2
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": "\"Barely used\" is a recurring phrase in actual OLX India baby-stroller listing titles across multiple cities and price points.",
+      "sources": [
+       {
+        "url": "https://www.olx.in/items/q-used-baby-stroller",
+        "publisher": "OLX India",
+        "published_date": null,
+        "quote": "A baby pram stroller barely used for ₹1,000... Babyhug baby stroller that is barely used for ₹3,500 in Nerul, Navi Mumbai",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "none — the two falsifiable price/resale premises hold; the rest is interpretation",
+     "actual_mechanism": "A flagship Bugaboo (Fox 5 / Donkey 5) retails in India roughly ₹65,000–₹1.2 lakh through select importers, while a new Honda Activa is about ₹76,000–93,000 ex-showroom and ₹84,000–₹1.01 lakh on-road, so a top-end Bugaboo does cost more than a new Activa (the entry Butterfly at ~₹20k–45k does not, but the post invokes the premium tier). Outgrown baby gear including strollers is routinely relisted on OLX as 'barely used,' which is verifiable. The remaining claims — parks as showrooms, brands selling 'safety,' and purchase-as-status — are motive-reading and interpretation, not factual premises to falsify.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.hababy.co.in/blog/best-stroller-brand-india",
+       "published_date": "2026",
+       "quote": "Bugaboo strollers in India are priced in the range of ₹65,000–₹1.2 lakhs; models like the Fox 5 and Donkey 5 are available only via a few personal-import channels."
+      },
+      {
+       "url": "https://www.zigwheels.com/honda-bikes/activa-6g/on-road-price-hyderabad/",
+       "published_date": "2026-11",
+       "quote": "Honda Activa On Road Price Hyderabad Nov 2026 - ₹1.01L"
+      },
+      {
+       "url": "https://www.bikewale.com/honda-bikes/activa/",
+       "published_date": "2026",
+       "quote": "The 2026 ex-showroom price of Honda Activa starts at ₹76,358; the standard model is ₹78,947 and Activa 125 is ₹92,794 (ex-showroom)."
+      }
+     ]
+    },
+    "text_hash": "345d3629e1e00e9f329521f617c314d14e71b148",
+    "at": "2026-11-09T05:19:48.496714+00:00"
    }
+  },
+  "A Bugaboo stroller costs more than a brand-new Honda Activa scooter.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://duckduckbaby.in/products/bugaboo-fox-5-renew-2-in-1-stroller-moon-grey",
+     "publisher": "DuckDuckBaby (India retailer)",
+     "published_date": null,
+     "quote": "Regular price MRP ₹169,999",
+     "tier": 3
+    },
+    {
+     "url": "https://www.bikewale.com/honda-bikes/activa-6g/",
+     "publisher": "BikeWale",
+     "published_date": "2026-11",
+     "quote": "Honda Activa 6G Standard variant costs Rs. 75,958 ex-showroom in Delhi, while the Deluxe variant is priced at Rs. 86,360 ex-showroom",
+     "tier": 3
+    }
+   ]
+  },
+  "The Bugaboo stroller is the top item on every new parent couple's shopping list in India.": {
+   "id": "c3",
+   "verdict": "contradicted",
+   "event_date": null,
+   "correct": "Bugaboo is not even officially distributed in India (personal-import only, almost no local service network) and ranks near the bottom of brand comparisons for Indian parents; the actual top-selling/most-bought stroller brands in India are budget-to-mid Indian brands like LuvLap (largest Indian volume brand), R for Rabbit, and Babyhug. Bugaboo is a niche status purchase for a small segment chasing 'brand cachet', not the top item on 'every' new-parent couple's shopping list in India.",
+   "sources": [
+    {
+     "url": "https://www.hababy.co.in/blog/best-stroller-brand-india",
+     "publisher": "Hababy (baby-gear buying guide, India)",
+     "published_date": "2026",
+     "quote": "Personal-import-only... Almost no Indian service... Skip unless you specifically want the brand cachet... Luvlap - largest Indian volume brand",
+     "tier": 3
+    }
+   ]
+  },
+  "About half of purchased baby gear gets used only twice before being resold on OLX listed as 'barely used.'": {
+   "id": "c4",
+   "verdict": "unverifiable",
+   "event_date": null,
+   "correct": null,
+   "sources": []
+  },
+  "A Bugaboo stroller is actually owned by someone in Indian housing societies (not just a hypothetical reference brand)": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": "Bugaboo strollers are genuinely sold, stocked, and owned in India (not just a hypothetical aspirational reference) — authorized Indian retailers like duckduckbaby and Amazon.in carry models such as the Fox 5 Renew at ₹1,69,999, so an Indian housing-society parent plausibly owns one.",
+   "sources": [
+    {
+     "url": "https://duckduckbaby.in/products/bugaboo-fox-5-renew-2-in-1-stroller-moon-grey",
+     "publisher": "duckduckbaby.in",
+     "published_date": null,
+     "quote": "Bugaboo Fox 5 Renew ... ₹169,999 ... authentic, sourced directly from brands or their authorized Indian distributors",
+     "tier": 3
+    },
+    {
+     "url": "https://www.amazon.in/Strollers-Buggies-Prams-Bugaboo-Baby/s?srs=1953480031&rh=n%3A1953480031%2Cp_89%3ABugaboo",
+     "publisher": "Amazon.in",
+     "published_date": null,
+     "quote": "Bugaboo - Strollers, Buggies & Prams: Baby",
+     "tier": 2
+    }
+   ]
+  },
+  "Baby gear bought by Indian parents is commonly outgrown within a few months of purchase": {
+   "id": "c3",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": "Baby gear (bouncers, infant seats, tubs, strollers) is outgrown within roughly 3-9 months in general, consistent with Indian parenting-gear sources describing short usage windows before resale.",
+   "sources": [
+    {
+     "url": "https://rforrabbit.com/blogs/articles/baby-gear-rent-or-buy",
+     "publisher": "R for Rabbit (Indian baby-gear brand)",
+     "published_date": null,
+     "quote": "Most babies use a bouncer intensively for 3–5 months, then lose interest entirely... Infant seats are outgrown by height long before they wear out, often around nine months... Parents can save 50 percent to 70 percent compared to buying new gear, especially for items used only for a few months.",
+     "tier": 3
+    }
+   ]
+  },
+  "Outgrown baby gear from Indian parents is frequently resold on OLX": {
+   "id": "c4",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": "OLX India runs active, large secondhand marketplaces for strollers, cribs, car seats, walkers, high chairs and other baby gear, confirming outgrown Indian baby gear is commonly resold there.",
+   "sources": [
+    {
+     "url": "https://www.olx.in/furniture_c628/q-baby-strollers",
+     "publisher": "OLX India",
+     "published_date": null,
+     "quote": "Baby Strollers - Buy & Sell Used Furniture in India",
+     "tier": 2
+    }
+   ]
+  },
+  "Secondhand baby-gear listings on OLX commonly use the phrase \"barely used\" in the title": {
+   "id": "c5",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": "\"Barely used\" is a recurring phrase in actual OLX India baby-stroller listing titles across multiple cities and price points.",
+   "sources": [
+    {
+     "url": "https://www.olx.in/items/q-used-baby-stroller",
+     "publisher": "OLX India",
+     "published_date": null,
+     "quote": "A baby pram stroller barely used for ₹1,000... Babyhug baby stroller that is barely used for ₹3,500 in Nerul, Navi Mumbai",
+     "tier": 2
+    }
+   ]
   }
  },
  "draft": {
   "cover": {
-   "headline": "The expensive stroller isn't for the baby. It's for the [society park].",
-   "sub": "The one that costs more than your phone. For a passenger who can't even talk."
+   "headline": "India's priciest baby products aren't for babies. They're for the [society park].",
+   "sub": "And every baby brand in India knows it.",
+   "art": "stroller-park"
   },
   "slides": [
    {
     "paragraphs": [
-     "The expensive stroller isn't for the baby. It's for the society park.",
+     "India's priciest baby products aren't for babies. They're for the society park.",
      "Swipe to read →"
     ],
-    "why_swipe": "Did I just do this? Show me."
+    "why_swipe": "what happens next"
    },
    {
     "paragraphs": [
-     "You spent weeks on this one. Reviews, suspension, resale value, which fold fits the car boot.",
-     "The baby needs a flat surface and someone warm nearby. That's the whole list."
+     "A Bugaboo costs more than a new Activa. The baby can't even sit up yet. And somebody in your society already has one."
     ],
-    "why_swipe": "So who was all that research actually for?"
+    "why_swipe": "what happens next"
    },
    {
     "paragraphs": [
-     "Down in the society park at seven, the strollers talk first.",
-     "The stroller that costs more than your phone. The brand name turned just so. The parent who mentions, lightly, \"we went for the imported one, folds with one hand.\""
+     "Here's what's really going on. A stroller is the first thing you push into a crowd of new parents. The park is a showroom."
     ],
-    "why_swipe": "what happens next?"
+    "why_swipe": "what happens next"
    },
    {
     "paragraphs": [
-     "You can hear the wheels on the society tiles before you see who's pushing. The baby inside has been asleep since the lift."
+     "And baby brands know it. They don't sell comfort. They sell safety, because no Indian parent asks for the less safe one."
     ],
-    "why_swipe": "If the baby's asleep, who's the show for?"
+    "why_swipe": "what happens next"
    },
    {
     "paragraphs": [
-     "The stroller is the first big thing you push into a crowd of other new parents. And everyone in that park is measuring. Checking who got what.",
-     "It says you're doing fine. You've arrived. You're the kind of parent who can.",
-     "**Call it the park premium.** The baby is just the passenger in it."
+     "Same parents who fight the sabziwala over ten rupees. Same parents who split one Netflix password four ways."
     ],
-    "why_swipe": "What does this cost me beyond the stroller?"
+    "why_swipe": "what happens next"
    },
    {
     "paragraphs": [
-     "And half the gear gets used twice.",
-     "The nursing pillow, the white noise machine, the designer diaper bag, the pram that barely fits the lift.",
-     "The baby would've been just as happy in a dupatta tied across your chest."
+     "Now the ugly part. A lot of that gear is outgrown in months, then sits on OLX with \"barely used\" in the title."
     ],
-    "why_swipe": "If the park is judging me, why does everyone keep buying more?"
+    "why_swipe": "what happens next"
    },
    {
     "paragraphs": [
-     "Stand in that park a few evenings and it flips.",
-     "The park isn't really judging you. It's just as scared as you are.",
-     "Everyone's buying proof because nobody feels like they know what they're doing. The stroller is the receipt that says I've got this."
+     "Honestly, it isn't vanity. You're on no sleep, guessing at everything, and the stroller is one decision everyone can see you got right."
     ],
-    "why_swipe": "So is wanting the good one actually wrong?"
+    "why_swipe": "what happens next"
    },
    {
     "paragraphs": [
-     "And it isn't vanity.",
-     "You're running on no sleep, guessing at everything, and for once you can point at one thing and feel sure. The good stroller is the single decision you got visibly right."
+     "**The baby can't tell a Bugaboo from a LuvLap. The park can.**"
     ],
-    "why_swipe": "Then what's the honest version of this?"
-   },
-   {
-    "paragraphs": [
-     "Try the test. Picture the same shortlist with no evening loop. No other parent ever seeing it.",
-     "**You'd have grabbed the one that fits the boot and gone home.**"
-    ],
-    "why_swipe": null
+    "why_swipe": "what happens next"
    }
   ],
   "end": {
-   "save": "Open this again before you check out the ₹20,000 pram in your cart.",
-   "send": "Send to the new-parent friend who spent three weeks agonising over which stroller to buy.",
-   "promise": "How status really gets sold to Indians."
+   "send": "The couple with forty stroller tabs open right now.",
+   "save": "read it before the imported stroller goes into the cart."
   },
-  "caption": "What's the one baby thing you bought for the park and told yourself was for the baby?",
+  "caption": "The stroller is the first thing new parents push into a crowd.\n\nBaby brands don't sell comfort, they sell safety, and safety is the one thing no Indian parent bargains on. If you sell anything for babies in this country, you're not selling to the baby. You're selling to the park.\n\nWhat did you buy for your baby that got used twice?",
   "hashtags": [
-   "#NewParents",
-   "#GatedSociety",
-   "#BabyGear",
-   "#StatusSpending"
+   "newparents",
+   "parentingindia",
+   "babyproducts",
+   "middleclassindia"
   ],
-  "alt_text": "An eight-slide carousel arguing that new parents in gated societies buy expensive strollers to signal standing to other parents in the park, not for the baby, who sleeps through all of it. It ends on a test: picture the same stroller choice if no other parent would ever see it, and you'd have grabbed the one that fits the boot and gone home.",
-  "claims": [],
-  "caption_style": "question"
+  "alt_text": "A text post about baby strollers.",
+  "claims": []
  },
  "verification": {
   "passed": true,
@@ -759,16 +1231,48 @@
   "ledger": [
    {
     "id": "c1",
-    "text": "Half of the baby gear parents buy gets used only twice.",
-    "sentence": "And half the gear gets used twice.",
-    "type": "figure",
-    "core": false,
+    "text": "A Bugaboo stroller costs more than a brand-new Honda Activa scooter.",
+    "sentence": "A Bugaboo costs more than a new Activa.",
+    "type": "entity_attribute",
+    "core": true,
     "framed_as": "timeless"
    },
    {
     "id": "c2",
-    "text": "Parents buy expensive strollers not to meet the baby's actual needs but to signal status and competent parenting to other parents in the society park, because the baby has minimal needs (a flat surface, warmth) while the park is a space where parents visibly evaluate each other and seek proof against their own parenting insecurity",
-    "sentence": "Call it the park premium. The baby is just the passenger in it.",
+    "text": "A Bugaboo stroller is actually owned by someone in Indian housing societies (not just a hypothetical reference brand)",
+    "sentence": "And somebody in your society already has one.",
+    "type": "entity_attribute",
+    "core": true,
+    "framed_as": "current"
+   },
+   {
+    "id": "c3",
+    "text": "Baby gear bought by Indian parents is commonly outgrown within a few months of purchase",
+    "sentence": "A lot of that gear is outgrown in months",
+    "type": "event",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c4",
+    "text": "Outgrown baby gear from Indian parents is frequently resold on OLX",
+    "sentence": "then sits on OLX with \"barely used\" in the title",
+    "type": "entity_attribute",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c5",
+    "text": "Secondhand baby-gear listings on OLX commonly use the phrase \"barely used\" in the title",
+    "sentence": "then sits on OLX with \"barely used\" in the title",
+    "type": "feature",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c6",
+    "text": "Because a stroller is the first visible item new parents bring into a public space, and parks function as showrooms where parents compare gear, baby brands market their products on safety (not comfort) since safety is the one thing parents won't compromise on — therefore India's priciest baby products are bought to signal status/safety to other parents rather than for the baby's actual needs",
+    "sentence": "A stroller is the first thing you push into a crowd of new parents. The park is a showroom. ... They don't sell comfort. They sell safety, because no Indian parent asks for the less safe one.",
     "type": "mechanism",
     "core": true,
     "framed_as": "timeless"
@@ -779,13 +1283,87 @@
     "id": "c2",
     "verdict": "supported",
     "event_date": null,
-    "correct": "Surveys put it lower than a flat 'half used twice' but in the same picture: a UK iCandy survey of 1,000+ parents found 38% of parents had bought products they used only once, and 25-30% of specific items (cuddly toys, towels, shoes) went completely unused; a Babylist report found 52% of registry items end up deleted before purchase. The general picture — a very large share of baby gear sees minimal use — is right and roughly the right size.",
+    "correct": null,
     "sources": [
      {
-      "url": "https://www.madeformums.com/news/most-unused-baby-products/",
-      "publisher": "MadeForMums (iCandy survey)",
-      "published_date": "2025-04-24",
-      "quote": "more than a third of parents (38%) had purchased products they had only used once... an average of £379 per parent spent on items used once or not at all",
+      "url": "https://duckduckbaby.in/products/bugaboo-fox-5-renew-2-in-1-stroller-moon-grey",
+      "publisher": "DuckDuckBaby (India retailer)",
+      "published_date": null,
+      "quote": "Regular price MRP ₹169,999",
+      "tier": 3
+     },
+     {
+      "url": "https://www.bikewale.com/honda-bikes/activa-6g/",
+      "publisher": "BikeWale",
+      "published_date": "2026-11",
+      "quote": "Honda Activa 6G Standard variant costs Rs. 75,958 ex-showroom in Delhi, while the Deluxe variant is priced at Rs. 86,360 ex-showroom",
+      "tier": 3
+     }
+    ]
+   },
+   "c2": {
+    "id": "c2",
+    "verdict": "supported",
+    "event_date": null,
+    "correct": "Bugaboo strollers are genuinely sold, stocked, and owned in India (not just a hypothetical aspirational reference) — authorized Indian retailers like duckduckbaby and Amazon.in carry models such as the Fox 5 Renew at ₹1,69,999, so an Indian housing-society parent plausibly owns one.",
+    "sources": [
+     {
+      "url": "https://duckduckbaby.in/products/bugaboo-fox-5-renew-2-in-1-stroller-moon-grey",
+      "publisher": "duckduckbaby.in",
+      "published_date": null,
+      "quote": "Bugaboo Fox 5 Renew ... ₹169,999 ... authentic, sourced directly from brands or their authorized Indian distributors",
+      "tier": 3
+     },
+     {
+      "url": "https://www.amazon.in/Strollers-Buggies-Prams-Bugaboo-Baby/s?srs=1953480031&rh=n%3A1953480031%2Cp_89%3ABugaboo",
+      "publisher": "Amazon.in",
+      "published_date": null,
+      "quote": "Bugaboo - Strollers, Buggies & Prams: Baby",
+      "tier": 2
+     }
+    ]
+   },
+   "c3": {
+    "id": "c3",
+    "verdict": "supported",
+    "event_date": null,
+    "correct": "Baby gear (bouncers, infant seats, tubs, strollers) is outgrown within roughly 3-9 months in general, consistent with Indian parenting-gear sources describing short usage windows before resale.",
+    "sources": [
+     {
+      "url": "https://rforrabbit.com/blogs/articles/baby-gear-rent-or-buy",
+      "publisher": "R for Rabbit (Indian baby-gear brand)",
+      "published_date": null,
+      "quote": "Most babies use a bouncer intensively for 3–5 months, then lose interest entirely... Infant seats are outgrown by height long before they wear out, often around nine months... Parents can save 50 percent to 70 percent compared to buying new gear, especially for items used only for a few months.",
+      "tier": 3
+     }
+    ]
+   },
+   "c4": {
+    "id": "c4",
+    "verdict": "supported",
+    "event_date": null,
+    "correct": "OLX India runs active, large secondhand marketplaces for strollers, cribs, car seats, walkers, high chairs and other baby gear, confirming outgrown Indian baby gear is commonly resold there.",
+    "sources": [
+     {
+      "url": "https://www.olx.in/furniture_c628/q-baby-strollers",
+      "publisher": "OLX India",
+      "published_date": null,
+      "quote": "Baby Strollers - Buy & Sell Used Furniture in India",
+      "tier": 2
+     }
+    ]
+   },
+   "c5": {
+    "id": "c5",
+    "verdict": "supported",
+    "event_date": null,
+    "correct": "\"Barely used\" is a recurring phrase in actual OLX India baby-stroller listing titles across multiple cities and price points.",
+    "sources": [
+     {
+      "url": "https://www.olx.in/items/q-used-baby-stroller",
+      "publisher": "OLX India",
+      "published_date": null,
+      "quote": "A baby pram stroller barely used for ₹1,000... Babyhug baby stroller that is barely used for ₹3,500 in Nerul, Navi Mumbai",
       "tier": 2
      }
     ]
@@ -793,28 +1371,29 @@
   },
   "mechanism": {
    "holds": true,
-   "broken_premise": "",
-   "actual_mechanism": "The post's factual anchors hold: premium prams genuinely run ₹17,000–25,000+ in India (Joie Pact Pro ~₹20,250, Chicco Best Friend Pro ~₹24,999), and pediatric guidance confirms a newborn's real requirement is a near-flat, reclined surface plus warmth and supervision — the features that drive stroller price (suspension, brand, one-hand fold, boot fit, resale value) serve the parent and the car, not any infant medical need, and babywearing in a wrap/carrier is an accepted alternative for the baby. The core claim — that the spend is for standing/reassurance among other parents rather than for the baby — is a reading of motive, which is opinion, not a falsifiable premise about how a product, price or market works. No factual premise about needs, pricing, or how strollers function is untrue.",
+   "broken_premise": "none — the two falsifiable price/resale premises hold; the rest is interpretation",
+   "actual_mechanism": "A flagship Bugaboo (Fox 5 / Donkey 5) retails in India roughly ₹65,000–₹1.2 lakh through select importers, while a new Honda Activa is about ₹76,000–93,000 ex-showroom and ₹84,000–₹1.01 lakh on-road, so a top-end Bugaboo does cost more than a new Activa (the entry Butterfly at ~₹20k–45k does not, but the post invokes the premium tier). Outgrown baby gear including strollers is routinely relisted on OLX as 'barely used,' which is verifiable. The remaining claims — parks as showrooms, brands selling 'safety,' and purchase-as-status — are motive-reading and interpretation, not factual premises to falsify.",
    "take_survives": true,
    "sources": [
     {
-     "url": "https://www.amazon.in/Strollers-Buggies-Prams-%E2%82%B920-000-%E2%82%B930/s?rh=n%3A1953480031%2Cp_36%3A2000000-3000000",
+     "url": "https://www.hababy.co.in/blog/best-stroller-brand-india",
      "published_date": "2026",
-     "quote": "In the ₹20,000-₹30,000 range... strollers like the Joie Pact Pro priced at ₹20,250 and Chicco Best Friend Pro at ₹24,999."
+     "quote": "Bugaboo strollers in India are priced in the range of ₹65,000–₹1.2 lakhs; models like the Fox 5 and Donkey 5 are available only via a few personal-import channels."
     },
     {
-     "url": "https://kidshealth.org/en/parents/products-strollers.html",
-     "published_date": "2026",
-     "quote": "Newborns need a near-flat (lie-flat) position because they can't hold up their head... newborns should ride fully reclined or in a bassinet — not sitting upright — until they have full head and neck control."
+     "url": "https://www.zigwheels.com/honda-bikes/activa-6g/on-road-price-hyderabad/",
+     "published_date": "2026-11",
+     "quote": "Honda Activa On Road Price Hyderabad Nov 2026 - ₹1.01L"
     },
     {
-     "url": "https://www.parnthub.com/2026/03/baby-carrier-safety-guide.html",
-     "published_date": "2026-03",
-     "quote": "A young newborn should be upright and inward facing, high and snug against the caregiver, with the face visible... back and neck supported."
+     "url": "https://www.bikewale.com/honda-bikes/activa/",
+     "published_date": "2026",
+     "quote": "The 2026 ex-showroom price of Honda Activa starts at ₹76,358; the standard model is ₹78,947 and Activa 125 is ₹92,794 (ex-showroom)."
     }
    ]
   },
-  "text_hash": "9134d90a5d479bfdd2be2445c272bff337f69d06",
-  "at": "2026-11-05T10:08:13.836532+00:00"
- }
+  "text_hash": "345d3629e1e00e9f329521f617c314d14e71b148",
+  "at": "2026-11-09T05:19:48.496714+00:00"
+ },
+ "owner_ok": true
 }
