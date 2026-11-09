@@ -74,10 +74,11 @@ def test_explaining_signpost_and_unbalanced_slide_are_caught():
 def test_approved_posts_pass_code_checks(monkeypatch):
     """Posts the owner approved must never be rejected by our own rules. They were written as carousels before the
     page moved to reels, so the style rules apply but the carousel's length limits stand in for the reel's."""
-    for name, value in {"MIN_SLIDES": 5, "MAX_SLIDES": 9, "SLIDE_WORDS": (12, 60), "POST_WORDS": (110, 360),
-                        "MAX_PARAS": 3}.items():
-        monkeypatch.setattr(writer, name, value)
+    reel_limits = {n: getattr(writer, n) for n in ("MIN_SLIDES", "MAX_SLIDES", "SLIDE_WORDS", "POST_WORDS", "MAX_PARAS")}
+    carousel_limits = {"MIN_SLIDES": 5, "MAX_SLIDES": 9, "SLIDE_WORDS": (12, 60), "POST_WORDS": (110, 360), "MAX_PARAS": 3}
     for post in [b for b in writer.approved_posts() if b.get("source") != "reference creator"]:
+        for name, value in (reel_limits if post.get("format") == "reel" else carousel_limits).items():
+            monkeypatch.setattr(writer, name, value)
         # Approved posts were fact-checked against their own sources when written; here only the style rules apply.
         evidence = [{"url": "topic", "fact": "", "excerpt": "\n".join(post["slides"])}]
         slides = []
