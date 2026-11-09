@@ -15,11 +15,11 @@ def draft(slides, claims=None):
 
 GOOD = [
     ["Every Indian home has one room nobody is allowed to sit in.", "Swipe to read →"],
-    ["Think about who that room is for. Not the family. The family lives in the bedroom, dinner on a steel plate."],
+    ["Think about who that room is for. Not the family. The family lives in the bedroom."],
     ["The best furniture and the best light are kept for relatives who visit twice a year."],
-    ["No one decided this out loud. It happened one sofa cover at a time.", "The visitors sip tea in the good cups."],
-    ["This generation said it was done with all that. Then look at the Instagram grid, the best corner kept for an audience."],
-    ["The drawing room didn't die. It moved into our phones, and the best of us is still kept for visitors."],
+    ["No one decided this. It happened one sofa cover at a time.", "Visitors get the good cups."],
+    ["This generation said it was done with all that. Then look at the Instagram grid."],
+    ["The drawing room didn't die. It moved into our phones, still kept for visitors."],
 ]
 
 def test_clean_draft_passes_hard_checks():
@@ -75,6 +75,7 @@ def test_approved_posts_pass_code_checks(monkeypatch):
     """Posts the owner approved must never be rejected by our own rules. They were written as carousels before the
     page moved to reels, so the style rules apply but the carousel's length limits stand in for the reel's."""
     reel_limits = {n: getattr(writer, n) for n in ("MIN_SLIDES", "MAX_SLIDES", "SLIDE_WORDS", "POST_WORDS", "MAX_PARAS")}
+    reel_limits["SLIDE_WORDS"] = (8, 24)  # reels approved before the 18-word cap (9 Nov 2026), timed to their words
     carousel_limits = {"MIN_SLIDES": 5, "MAX_SLIDES": 9, "SLIDE_WORDS": (12, 60), "POST_WORDS": (110, 360), "MAX_PARAS": 3}
     for post in [b for b in writer.approved_posts() if b.get("source") != "reference creator"]:
         for name, value in (reel_limits if post.get("format") == "reel" else carousel_limits).items():

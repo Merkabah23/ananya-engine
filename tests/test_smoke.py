@@ -8,10 +8,10 @@ from engine import __main__ as cli, config, filter as topic_filter, llm, state, 
 
 SLIDES = [
     ["Gill is No. 1 now. Half the group chat went quiet.", "Swipe to read →"],
-    ["Fans picked a side.", "Nobody wanted to say the old king was slipping, so they argued about strike rates all night."],
+    ["Fans picked a side.", "Nobody wanted to say the old king was slipping, so they argued strike rates."],
     ["This generation grew up with one hero on every poster and every phone wallpaper.", "Now he's slipping."],
-    ["Read the comments.", "Half of them are about the old numbers, not the match that was played on Sunday night."],
-    ["It's not cricket. It is about the years you spent watching him, which are now behind you for good."],
+    ["Read the comments.", "Half are about the old numbers, not the match on Sunday night."],
+    ["It's not cricket. It is about the years you spent watching him, now behind you."],
     ["So the chat stays quiet for a day.", "Then someone posts a meme. Everyone argues again."],
 ]
 

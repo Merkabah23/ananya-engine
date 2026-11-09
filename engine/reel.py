@@ -1,5 +1,5 @@
 """Turn a post's rendered slides into one 9:16 reel: each slide framed for the reel screen and held for a fixed
-beat, with a short crossfade between screens.
+time to read it, with a short crossfade between screens.
 
 ffmpeg comes from the imageio-ffmpeg wheel (no system install, same binary locally and in Actions). The reel is
 silent with an empty audio track; trending audio, if any, is the owner's call in the Instagram app."""
@@ -14,14 +14,24 @@ from PIL import Image
 REEL = (1080, 1920)
 TOP = 220            # the 4:5 slide sits high: Instagram's caption, handle and buttons cover the bottom of a reel
 COVER_HOLD = 2.0     # the hook stops the scroll; it is not read slowly (owner: 3s was too slow)
-SLIDE_HOLD = 5.0     # owner, 9 Nov 2026: every slide holds 5s
+SETTLE = 1.0         # owner, 9 Nov 2026: a fixed 5s was too fast on long screens. Time to land on the screen,
+WORDS_PER_SEC = 3.0  # then reading at a phone pace of 3 words a second (about 180 a minute)
+MIN_HOLD = 4.0       # even a short punch line stays long enough to land
+SLIDE_HOLD = 5.0     # only when a screen's words are unknown
 FADE = 0.3
 FPS = 30
 
 
+def hold(text: str) -> float:
+    """Seconds one reading screen stays up: long enough to read every word on it once, at a phone pace."""
+    words = len(text.split())
+    return round(max(MIN_HOLD, SETTLE + words / WORDS_PER_SEC), 1) if words else SLIDE_HOLD
+
+
 def holds(alt_texts: list[str], n: int) -> list[float]:
-    """Seconds on screen for each of n slides: the cover, then every reading slide and the end card."""
-    return [COVER_HOLD] + [SLIDE_HOLD] * (n - 1)
+    """Seconds on screen for each of n slides: the cover, then every reading slide and the end card, each timed to
+    its own words (the alt texts carry each screen's words)."""
+    return [COVER_HOLD] + [hold(alt_texts[i] if i < len(alt_texts) else "") for i in range(1, n)]
 
 
 def frame(slide: Path, out: Path) -> Path:
