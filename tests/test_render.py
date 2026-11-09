@@ -78,3 +78,4 @@ def test_buffer_sends_a_reel_with_the_cover_frame_as_thumbnail(monkeypatch):
     body = buffer.build_input(post, ["https://i/slide_01.jpg", "https://i/slide_02.jpg"])
     assert body["assets"] == [{"video": {"url": "https://v/reel.mp4", "metadata": {"thumbnailOffset": 1000}}}]
     assert body["metadata"]["instagram"]["type"] == "reel"
+    assert body["schedulingType"] == "notification"  # owner publishes from the app to add music
