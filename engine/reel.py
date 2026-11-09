@@ -14,7 +14,7 @@ from PIL import Image
 REEL = (1080, 1920)
 TOP = 220            # the 4:5 slide sits high: Instagram's caption, handle and buttons cover the bottom of a reel
 COVER_HOLD = 2.0     # the hook stops the scroll; it is not read slowly (owner: 3s was too slow)
-SLIDE_HOLD = 3.0     # owner, 9 Nov 2026: every slide holds 3s (2.5s felt too fast, 4s too slow)
+SLIDE_HOLD = 4.0     # owner, 9 Nov 2026: every slide holds 4s
 FADE = 0.3
 FPS = 30
 

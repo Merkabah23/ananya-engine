@@ -64,11 +64,11 @@ def test_reel_holds_each_screen_for_a_fixed_beat(tmp_path, monkeypatch):
              "end": {"save": "Before you post the next one.", "send": "The cousin with the perfect grid."}}
     post = {"id": "r", "format": "carousel", "draft": draft}
     paths = render.render_post(post)
-    assert reel.holds(post["alt_texts"], len(paths)) == [2.0, 3.0, 3.0, 3.0]
+    assert reel.holds(post["alt_texts"], len(paths)) == [2.0, 4.0, 4.0, 4.0]
     framed = reel.frame(paths[1], tmp_path / "f.jpg")
     assert render.Image.open(framed).size == (1080, 1920)
     video, secs = reel.build(paths, post["alt_texts"], tmp_path / "reel.mp4")
-    assert video.stat().st_size > 10_000 and secs == round(2.0 + 3.0 * 3 + reel.FADE, 2)
+    assert video.stat().st_size > 10_000 and secs == round(2.0 + 4.0 * 3 + reel.FADE, 2)
 
 
 def test_buffer_sends_a_reel_with_the_cover_frame_as_thumbnail(monkeypatch):
