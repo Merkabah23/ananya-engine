@@ -872,3 +872,5 @@
 {"at": "2026-11-09T05:24:31.505754+00:00", "stage": "produce", "msg": "ENGINE_PAUSED is set; only owner-approved drafts render (1)."}
 {"at": "2026-11-09T05:25:05.906516+00:00", "stage": "produce", "msg": "2026-11-120 ready: 43s reel of 9 screens, due 2026-11-10T20:30:00+05:30"}
 {"at": "2026-11-09T05:25:06.649596+00:00", "stage": "push", "msg": "2026-11-120 not scheduled: Buffer refused the post: Invalid post: Video thumbnailUrl is not supported: social networks do not accept custom video thumbnail images, so this value is never sent to the network. Remove thumbnailUrl from the video asset. To pick the video thumbnail, set metadata.thumbnailOffset on the video (offset into the video in milliseconds; supported for Instagram, TikTok, and Pinterest only)."}
+{"at": "2026-11-09T05:28:12.178991+00:00", "stage": "produce", "msg": "ENGINE_PAUSED is set; only owner-approved drafts render (0)."}
+{"at": "2026-11-09T05:28:14.541274+00:00", "stage": "push", "msg": "2026-11-120 scheduled in Buffer for 2026-11-10T20:30:00+05:30"}
