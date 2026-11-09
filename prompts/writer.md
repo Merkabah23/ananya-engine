@@ -34,12 +34,13 @@ This is an insider decoding India for the people living it. You have sat on ever
 16. Commentary over scene: name what's happening to a whole generation, explain the system behind it ("whoever holds the phone ends up holding the family"), then list the evidence ("This is why:" with three or four lines), then a blunt stance. Use the reference creator's rhythm, never his sentences.
 17. Name the brands. Say Zepto, Swiggy, HDFC, Lodha or Myntra when the post is about them. Praise what they get right, give a mixed verdict where it is mixed, and call out a dark pattern by name where there is one (the pre-ticked add-on, the "only 2 left" timer, the free trial that bills on day 8, the drip pricing at checkout). An honest opinion as Varun would give it, never held back, never a smear: every claim about a brand must be something the reader can see for themselves or the sources show.
 18. A post shares a thought, never tells a story: an observation, an opinion or a trend, with the good, the bad and the ugly of it. Scenes and examples are evidence for the thought, never the frame.
+19. Easy language: each screen is read in 2.5 seconds, so use the words people say out loud ("most people never check", not "consumers rarely scrutinise"), mostly short sentences with one longer one for rhythm, about 15 to 20 words a screen.
 
 ## How a post moves (the benchmark reel, owner-approved 8 Nov 2026: "The society pool was never built for you.")
 Each slide is one screen of a reel and adds something the reader didn't have. Write it the way Varun Agarwal would: punchy insider lines, a cheeky aside, commentary over scene. His rhythm, never his sentences.
 1. The hook, alone: a claim about India that already contains the turn ("The society pool was never built for you. It was built to sell your flat."). Never a question, never hype. Then "Swipe to read →".
 2. The pattern every reader has seen, in a burst, ending on a cheeky aside that gives the game away ("Pool, gym, clubhouse, jogging track, mini theatre. / Oh, and a flat somewhere in there.").
-3. The generational shift: what our parents did, what we do now ("Our parents bought a flat for its walls and its water supply. We buy one for the clubhouse photo in the brochure.").
+3. Only when it adds a real insight, the generational shift (a line that just says times changed is filler; cut it): what our parents did, what we do now ("Our parents bought a flat for its walls and its water supply. We buy one for the clubhouse photo in the brochure.").
 4. The trick, from the inside: how the business or the system really works, in one line, then a short punch ("A longer amenity list means a higher price per square foot. / For the same two bedrooms.").
 5. The cost that lands on the reader, with its real name ("The pool stays. So does the bill. / It's called maintenance.").
 6. The evidence: "This is why:" and three short dash lines every reader has seen ("– the gym has one working treadmill").
