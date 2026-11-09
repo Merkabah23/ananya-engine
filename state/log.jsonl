@@ -869,3 +869,6 @@
 {"at": "2026-11-08T16:50:06.083402+00:00", "stage": "filter", "msg": "2026-11-081649-001 dropped as already-seen: The ₹5 and ₹10 pack is a promise that the price will never change, and the brand"}
 {"at": "2026-11-08T16:50:06.083582+00:00", "stage": "filter", "msg": "2026-11-081649-019 dropped as already-seen: When a flight is cancelled, we shout at whoever is standing in front of us becau"}
 {"at": "2026-11-08T16:50:06.084924+00:00", "stage": "filter", "msg": "52 candidates -> 6 passed -> 1 planned for 2026-11"}
+{"at": "2026-11-09T05:24:31.505754+00:00", "stage": "produce", "msg": "ENGINE_PAUSED is set; only owner-approved drafts render (1)."}
+{"at": "2026-11-09T05:25:05.906516+00:00", "stage": "produce", "msg": "2026-11-120 ready: 43s reel of 9 screens, due 2026-11-10T20:30:00+05:30"}
+{"at": "2026-11-09T05:25:06.649596+00:00", "stage": "push", "msg": "2026-11-120 not scheduled: Buffer refused the post: Invalid post: Video thumbnailUrl is not supported: social networks do not accept custom video thumbnail images, so this value is never sent to the network. Remove thumbnailUrl from the video asset. To pick the video thumbnail, set metadata.thumbnailOffset on the video (offset into the video in milliseconds; supported for Instagram, TikTok, and Pinterest only)."}
