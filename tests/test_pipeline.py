@@ -201,12 +201,16 @@ def test_question_hook_and_missing_swipe_reason_are_caught():
     assert "question" in problems and "why_swipe" in problems
 
 
-def test_editor_needs_real_eq_or_iq_and_a_tight_post():
+def test_editor_needs_real_eq_or_iq_and_a_strong_average():
     craft = {k: 4 for k in ("hook", "relatable", "fresh_angle", "pull", "payoff", "voice", "story", "tight")}
     assert writer.passes({"violations": [], "scores": {**craft, "eq": 5, "iq": 3}})
     assert not writer.passes({"violations": [], "scores": {**craft, "eq": 3, "iq": 3}})       # neither lands
-    assert not writer.passes({"violations": [], "scores": {**craft, "tight": 3, "eq": 5, "iq": 5}})  # over-explained
-    assert not writer.passes({"violations": [], "scores": {**craft, "story": 3, "eq": 5, "iq": 5}})  # a pattern, not the reader's story
+    # one 3 no longer sinks a strong post (the old bar failed the owner's own approved posts)...
+    assert writer.passes({"violations": [], "scores": {**craft, "tight": 3, "eq": 5, "iq": 5}})
+    # ...but a weak average or a 2 anywhere still does
+    assert not writer.passes({"violations": [], "scores": {**{k: 3 for k in craft}, "hook": 5, "eq": 5, "iq": 4}})
+    assert not writer.passes({"violations": [], "scores": {**craft, "story": 2, "eq": 5, "iq": 5}})
+    assert not writer.passes({"violations": ["Slide 3 is dead"], "scores": {**craft, "eq": 5, "iq": 5}})
 
 
 def test_banned_phrase_on_the_cover_is_caught():

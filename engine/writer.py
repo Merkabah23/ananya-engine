@@ -450,13 +450,15 @@ def varun_notes(check: dict) -> list[str]:
 
 
 def passes(review: dict) -> bool:
-    """No hard failure, 4+ on craft, and real EQ or IQ: one of them 4+, the other at least 3."""
+    """No hard failure, no score below 3, an average of 4+, and real EQ or IQ (one of them 4+). Owner, 10 Nov: the old
+    bar (4+ on every score) failed the owner's own approved posts, so it was stricter than the owner."""
     scores = review.get("scores") or {}
     keys = ("hook", "relatable", "fresh_angle", "pull", "payoff", "voice", "story", "tight")
-    eq, iq = _score(scores, "eq"), _score(scores, "iq")
-    return (not review.get("violations") and all(_score(scores, k) >= 4 for k in keys)
-            and max(eq, iq) >= 4 and min(eq, iq) >= 3
-            and ("informative" not in scores or _score(scores, "informative") >= 3))  # the benchmark teaches something
+    vals = [_score(scores, k) for k in keys] + [_score(scores, "eq"), _score(scores, "iq")]
+    if "informative" in scores:
+        vals.append(_score(scores, "informative"))
+    return (not review.get("violations") and min(vals) >= 3 and sum(vals) / len(vals) >= 4
+            and max(_score(scores, "eq"), _score(scores, "iq")) >= 4)
 
 
 def write_post(post: dict, notes: str = "") -> dict:
