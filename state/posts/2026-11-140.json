@@ -1,6 +1,6 @@
 {
  "id": "2026-11-140",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-20T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -247,9 +247,207 @@
   },
   {
    "why": "retried 10 Nov with 6-10 slides (8 minimum forced padding)"
+  },
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 8 is a dead slide: \"It isn't carelessness. The HR portal wanted a receipt, not a reading.\" It answers the question slide 7 already settled with the IRDAI line (\"The fine print... is your evidence\"). The consoling \"Rushing your parents' cover in March was still you looking after them\" is a soft moral that adds no new beat.",
+     "Slide 7 leans on stock scaffolding: \"Here's the part that should make you angrier.\" The IRDAI fact is strong enough to carry the turn without announcing it.",
+     "Slide 3 states a causal link the source doesn't support: \"India doesn't get sicker in March. It just gets closer to the proof deadline.\" The source says only that March is typically a strong month for insurers. It says nothing about tax proofs driving it. March is also the financial year-end, when insurers push sales targets."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 3,
+     "eq": 3,
+     "iq": 4,
+     "story": 3,
+     "tight": 3,
+     "informative": 4
+    },
+    "notes": [
+     "slide 3: Fix the unsupported cause. Keep the line that India doesn't get sicker in March, but don't claim tax deadlines drive the surge as proven fact. Say it as what the buyer is doing: you buy in March because the form is due, not because anyone fell ill. Or fold the slide into slide 2 so the post doesn't pause on a stat.",
+     "slides 7-8: Merge them. Slide 7 (IRDAI pulled up eight insurers) already carries the 'not only your fault' beat, so cut slide 8's restatement and the 'still you looking after them' line. Use the freed slide for what is missing: the because. Cheap premiums win the comparison-app sort, so insurers gain from tight caps, and a tax form never asks about them. State that once, plainly, with the system as the villain.",
+     "slide 7: Drop 'Here's the part that should make you angrier.' Open straight on the fact: 'In 2025, IRDAI pulled up eight big insurers for cutting claims the policy didn't allow, room rent included.' Let the reader feel the anger themselves.",
+     "slide 6: Add one detail an insider would notice and the reader can feel, such as the form on the reception desk, the pen, or the corridor with the parent already in the bed. Right now the scene is only visual logic. The 'General ward ya private room?' line is good, so give the moment one touch of sound or weight and cut the explanatory second paragraph down.",
+     "slide 9: The close is a 'do this' instruction. Land it harder as a sting or a test: 'Your parents' policy was bought in 20 minutes. Search \"room\" and see how long that 20 minutes lasts.' Or end on a repeatable line like 'The tax form wanted a receipt. The hospital wants the fine print.' Don't repeat the cover's point."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Slide 8 is a dead slide: \"It isn't carelessness. The HR portal wanted a receipt, not a reading.\" It answers the question slide 7 already settled with the IRDAI line (\"The fine print... is your evidence\"). The consoling \"Rushing your parents' cover in March was still you looking after them\" is a soft moral that adds no new beat.",
+    "Slide 7 leans on stock scaffolding: \"Here's the part that should make you angrier.\" The IRDAI fact is strong enough to carry the turn without announcing it.",
+    "Slide 3 states a causal link the source doesn't support: \"India doesn't get sicker in March. It just gets closer to the proof deadline.\" The source says only that March is typically a strong month for insurers. It says nothing about tax proofs driving it. March is also the financial year-end, when insurers push sales targets.",
+    "slide 3: Fix the unsupported cause. Keep the line that India doesn't get sicker in March, but don't claim tax deadlines drive the surge as proven fact. Say it as what the buyer is doing: you buy in March because the form is due, not because anyone fell ill. Or fold the slide into slide 2 so the post doesn't pause on a stat.",
+    "slides 7-8: Merge them. Slide 7 (IRDAI pulled up eight insurers) already carries the 'not only your fault' beat, so cut slide 8's restatement and the 'still you looking after them' line. Use the freed slide for what is missing: the because. Cheap premiums win the comparison-app sort, so insurers gain from tight caps, and a tax form never asks about them. State that once, plainly, with the system as the villain.",
+    "slide 7: Drop 'Here's the part that should make you angrier.' Open straight on the fact: 'In 2025, IRDAI pulled up eight big insurers for cutting claims the policy didn't allow, room rent included.' Let the reader feel the anger themselves.",
+    "slide 6: Add one detail an insider would notice and the reader can feel, such as the form on the reception desk, the pen, or the corridor with the parent already in the bed. Right now the scene is only visual logic. The 'General ward ya private room?' line is good, so give the moment one touch of sound or weight and cut the explanatory second paragraph down.",
+    "slide 9: The close is a 'do this' instruction. Land it harder as a sting or a test: 'Your parents' policy was bought in 20 minutes. Search \"room\" and see how long that 20 minutes lasts.' Or end on a repeatable line like 'The tax form wanted a receipt. The hospital wants the fine print.' Don't repeat the cover's point."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Dead slide, slide 6: \"And that choice happens at the reception desk, with your parent already in a bed upstairs. A form and pen are pushed towards you.\" It only sets up the scene that slide 7 delivers (\"General ward ya private room?\"), and its swipe reason, \"what happens next?\", is weak. Slide 6 adds no new point."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 3,
+     "eq": 4,
+     "iq": 4,
+     "story": 3,
+     "tight": 3,
+     "informative": 4
+    },
+    "notes": [
+     "slide 6: Merge it into slide 7. Open slide 7 straight at the desk with the question \"General ward ya private room?\" and cut the stage-setting. That removes the dead beat and gets you to the sting one slide sooner.",
+     "slide 7: Add one detail only someone who has stood there would notice, such as the pen on a chain, the plastic chair, the parent's name on the admission band, or how quickly you say \"private\" without asking the rate. At the moment everything stays visual and generic. A sound or touch detail would make the reader feel the corridor the cover promised.",
+     "slide 2 and slide 3: The two slides make the same point, that the policy was bought in a rush for the tax form. Slide 3's March fact adds little beyond \"the form was due\". Fold the March line into slide 2 or give it a sharper job, such as showing that the deadline, not any illness, drives the buying. Slide 3 could then carry the first sign of the cost of buying cheap.",
+     "slide 8: Slide 8 interrupts the flow from the room-rent mechanism to the reason cheap plans win, and \"The fine print isn't just homework. It's your evidence.\" reads like a tidy lesson. Keep the IRDAI fact, but make the sting that even insurers got caught doing this and a parent in a bed upstairs is not the moment to argue. Drop the moral line. Also check the claim on slide 9 that the 80D form \"never asks what the policy pays back\", because it is not in the sources. Rephrase it as what the premium receipt shows, or cut it.",
+     "voice, overall: Most sentences are short, declarative and similar in length, and several are two-beat lines. Add one longer, detail-packed sentence in the middle, for example the comparison-app sort-by-premium scene, to vary the rhythm. The ending is a good test, but \"Your parents' cover was bought in twenty minutes\" restates slide 2, so give the last line a fresh bite instead of echoing it."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "cut_slide": 6,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 3,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slide 3: This is the weakest slide. The line \"Nobody in your family fell ill that month. The form was simply due.\" restates the hook, and slide 8 later restates the same cheap-and-rushed idea. Keep the March fact, since it is the only sourced proof that the rush is real. Cut or sharpen the second line so the slide adds something new, such as what 'sort by lowest premium' really buys.",
+     "slide 8: The 80D line, \"It never asks what the policy pays back\", is the sharpest insight in the post, but it arrives late and is buried under a repeat of the cheap-plan point. Shorten the first paragraph, or move the 80D line up beside slide 3, so the 'because' lands once and cleanly. Also keep the claim to what the form asks for (the premium paid) and drop any implication about what the form legally requires.",
+     "slide 6: This is the moment readers will recognise, but it is told only in outline. Add one detail only an insider would notice, a sound or touch at the admission desk, with a parent on a stretcher and a form on a clipboard. Frame it as typical, not as a one-off event. That would lift the story and eq scores.",
+     "slide 7: The IRDAI slide breaks the emotional flow. It moves from your own mistake to a regulator report. The closing line \"The fine print isn't just homework. It's your evidence.\" reads like advice. Replace it with a line that shows the system, not the buyer, as the villain: the cap gets applied by the same people who sold it. Keep the claim exactly as sourced.",
+     "slide 9: The test (search 'room') is good, but the closing line is soft. End on a sting the reader will repeat, such as the cover being bought in twenty minutes while the bill is paid over years. Do not turn it into a tidy moral."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Dead slide, slide 6: \"And that choice happens at the reception desk, with your parent already in a bed upstairs. A form and pen are pushed towards you.\" It only sets up the scene that slide 7 delivers (\"General ward ya private room?\"), and its swipe reason, \"what happens next?\", is weak. Slide 6 adds no new point.",
+    "slide 6: Merge it into slide 7. Open slide 7 straight at the desk with the question \"General ward ya private room?\" and cut the stage-setting. That removes the dead beat and gets you to the sting one slide sooner.",
+    "slide 7: Add one detail only someone who has stood there would notice, such as the pen on a chain, the plastic chair, the parent's name on the admission band, or how quickly you say \"private\" without asking the rate. At the moment everything stays visual and generic. A sound or touch detail would make the reader feel the corridor the cover promised.",
+    "slide 2 and slide 3: The two slides make the same point, that the policy was bought in a rush for the tax form. Slide 3's March fact adds little beyond \"the form was due\". Fold the March line into slide 2 or give it a sharper job, such as showing that the deadline, not any illness, drives the buying. Slide 3 could then carry the first sign of the cost of buying cheap.",
+    "slide 8: Slide 8 interrupts the flow from the room-rent mechanism to the reason cheap plans win, and \"The fine print isn't just homework. It's your evidence.\" reads like a tidy lesson. Keep the IRDAI fact, but make the sting that even insurers got caught doing this and a parent in a bed upstairs is not the moment to argue. Drop the moral line. Also check the claim on slide 9 that the 80D form \"never asks what the policy pays back\", because it is not in the sources. Rephrase it as what the premium receipt shows, or cut it.",
+    "voice, overall: Most sentences are short, declarative and similar in length, and several are two-beat lines. Add one longer, detail-packed sentence in the middle, for example the comparison-app sort-by-premium scene, to vary the rhythm. The ending is a good test, but \"Your parents' cover was bought in twenty minutes\" restates slide 2, so give the last line a fresh bite instead of echoing it."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 5 is a dead slide: \"A comparison app sorts by premium, and the cheapest plan sits on top.\" repeats slide 2 (\"sort by lowest premium\"). Slide 4 already did the job of showing what the cap costs, and slide 5 re-explains the why.",
+     "Slide 8 is a dead slide: \"So even the insurers got caught stretching the cap.\" restates slide 7 with no new beat.",
+     "Slides 7 and 8 read like a news recap (\"In 2025, IRDAI pulled up eight major health insurers…\"). The fact sits in the middle of the post and shifts the villain from the rushed tax-season buyer to insurer misconduct, which blurs the turn.",
+     "Slide 8 stretches the source. \"Even the insurers got caught stretching the cap\" implies insurers in general, and the source says only that some of the eight deducted amounts the policy didn't allow. \"You won't fight that from a corridor\" is an unsupported leap."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 3,
+     "eq": 3,
+     "iq": 3,
+     "story": 3,
+     "tight": 2,
+     "informative": 3
+    },
+    "notes": [
+     "slides 5-8: Collapse the back half into one slide. Keep the best line from slide 5, \"Your 80D receipt shows the premium you paid. It says nothing about what the policy pays back.\" Delete the repeated app-sorting point. Cut slide 8 entirely. That removes two dead slides and tightens the post.",
+     "slide 7: If the IRDAI fact stays, say it plainly and let it support the opinion. Something like: some insurers were found deducting more than the policy allowed, so even reading the cap doesn't fully protect you. Don't let it become a second subject. Drop \"even the insurers got caught\", which goes beyond the source. Alternatively, cut it and finish on the buyer's side.",
+     "slide 2: \"A deadline sold it, not a diagnosis\" is a good line, but the March-is-strong-month fact only shows insurers sell more in March. Make the because explicit in your own words: tax season rewards the cheapest receipt, so the cheapest plan wins, and caps are how it stays cheapest. This is the missing 'who gains' beat. The post currently only implies it, and the topic already contains it.",
+     "slide 4: Add one sensory or insider detail at the admission desk, since the post is all sight and paperwork so far. Slide 5 already has the pen on a string, so put a second detail here or there: the cold corridor, the TPA counter queue, the sound of the billing printer. Pick one where it fits, and keep the dry humour.",
+     "slide 9: The close is a test, which is good, but \"Open your parents' policy tonight and search one word\" reads like a to-do. Lead with the sting (\"The hospital will hold you to it\") and let the search be the test the reader runs on themselves. Also name the real wording people will see (\"room rent\") so the test works."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Slide 5 is a dead slide: \"A comparison app sorts by premium, and the cheapest plan sits on top.\" repeats slide 2 (\"sort by lowest premium\"). Slide 4 already did the job of showing what the cap costs, and slide 5 re-explains the why.",
+    "Slide 8 is a dead slide: \"So even the insurers got caught stretching the cap.\" restates slide 7 with no new beat.",
+    "Slides 7 and 8 read like a news recap (\"In 2025, IRDAI pulled up eight major health insurers…\"). The fact sits in the middle of the post and shifts the villain from the rushed tax-season buyer to insurer misconduct, which blurs the turn.",
+    "Slide 8 stretches the source. \"Even the insurers got caught stretching the cap\" implies insurers in general, and the source says only that some of the eight deducted amounts the policy didn't allow. \"You won't fight that from a corridor\" is an unsupported leap.",
+    "slides 5-8: Collapse the back half into one slide. Keep the best line from slide 5, \"Your 80D receipt shows the premium you paid. It says nothing about what the policy pays back.\" Delete the repeated app-sorting point. Cut slide 8 entirely. That removes two dead slides and tightens the post.",
+    "slide 7: If the IRDAI fact stays, say it plainly and let it support the opinion. Something like: some insurers were found deducting more than the policy allowed, so even reading the cap doesn't fully protect you. Don't let it become a second subject. Drop \"even the insurers got caught\", which goes beyond the source. Alternatively, cut it and finish on the buyer's side.",
+    "slide 2: \"A deadline sold it, not a diagnosis\" is a good line, but the March-is-strong-month fact only shows insurers sell more in March. Make the because explicit in your own words: tax season rewards the cheapest receipt, so the cheapest plan wins, and caps are how it stays cheapest. This is the missing 'who gains' beat. The post currently only implies it, and the topic already contains it.",
+    "slide 4: Add one sensory or insider detail at the admission desk, since the post is all sight and paperwork so far. Slide 5 already has the pen on a string, so put a second detail here or there: the cold corridor, the TPA counter queue, the sound of the billing printer. Pick one where it fits, and keep the dry humour.",
+    "slide 9: The close is a test, which is good, but \"Open your parents' policy tonight and search one word\" reads like a to-do. Lead with the sting (\"The hospital will hold you to it\") and let the search be the test the reader runs on themselves. Also name the real wording people will see (\"room rent\") so the test works."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [
+     "12. Slide 2: \"Tax season rewards the cheapest receipt, so the cheapest plan wins.\" This is a wrong mechanism. An 80D deduction rewards premium paid (up to a limit), not the cheapest receipt, and it doesn't exist under the new tax regime. The topic only says the deadline pushes people to buy fast and buy cheap. Slide 7 has the same kind of error: \"The hospital will hold you to it.\" The insurer applies the cap, not the hospital."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 3,
+     "tight": 3,
+     "informative": 4
+    },
+    "notes": [
+     "slide 2: Fix the tax logic. Drop \"tax season rewards the cheapest receipt\". Say the deadline makes you buy fast and buy cheap: you need a receipt by the cutoff, so you sort by price and stop reading. The pain is that nobody reads the fine print under a deadline. Don't imply the tax rule favours cheap plans.",
+     "slide 6: The first line (\"receipt shows the premium, says nothing about what it pays back\") restates slide 2 and the cover. Cut it. Open on the IRDAI line, which is the new beat: even people who read the cap can get shortchanged. Make that the turn, stated plainly, and attribute the cut to insurers, not to the buyer's carelessness.",
+     "slide 7: The close reads like coaching (\"Search the PDF...\") and repeats the cover, \"A tax deadline picked one number\". Replace it with a sting the reader can repeat, e.g. the room you pick in ten seconds at the desk decides the bill, and you chose the cap in twenty minutes in March. Keep the one-word search test as a short test, not an instruction. Change \"the hospital will hold you\" to the insurer.",
+     "slide 3-5: The scene is inconsistent. Slide 3 says the hospital puts your mother in the ₹10,000 room, and slide 5 says you chose private. Make it one story: you say \"private\" at the desk, and the insurer cuts at discharge. Also say \"on some policies\" in slide 4's \"shrinks the whole claim\" so it doesn't overstate the source.",
+     "slide 4: Add one sensory or insider detail about the discharge moment, such as the wait at the billing counter while the final amount is calculated. Right now the TPA desk line is a stray sound that doesn't carry the beat. Move it to the discharge scene, where you find out the cut, so it lands the sting."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "12. Slide 2: \"Tax season rewards the cheapest receipt, so the cheapest plan wins.\" This is a wrong mechanism. An 80D deduction rewards premium paid (up to a limit), not the cheapest receipt, and it doesn't exist under the new tax regime. The topic only says the deadline pushes people to buy fast and buy cheap. Slide 7 has the same kind of error: \"The hospital will hold you to it.\" The insurer applies the cap, not the hospital.",
+    "slide 2: Fix the tax logic. Drop \"tax season rewards the cheapest receipt\". Say the deadline makes you buy fast and buy cheap: you need a receipt by the cutoff, so you sort by price and stop reading. The pain is that nobody reads the fine print under a deadline. Don't imply the tax rule favours cheap plans.",
+    "slide 6: The first line (\"receipt shows the premium, says nothing about what it pays back\") restates slide 2 and the cover. Cut it. Open on the IRDAI line, which is the new beat: even people who read the cap can get shortchanged. Make that the turn, stated plainly, and attribute the cut to insurers, not to the buyer's carelessness.",
+    "slide 7: The close reads like coaching (\"Search the PDF...\") and repeats the cover, \"A tax deadline picked one number\". Replace it with a sting the reader can repeat, e.g. the room you pick in ten seconds at the desk decides the bill, and you chose the cap in twenty minutes in March. Keep the one-word search test as a short test, not an instruction. Change \"the hospital will hold you\" to the insurer.",
+    "slide 3-5: The scene is inconsistent. Slide 3 says the hospital puts your mother in the ₹10,000 room, and slide 5 says you chose private. Make it one story: you say \"private\" at the desk, and the insurer cuts at discharge. Also say \"on some policies\" in slide 4's \"shrinks the whole claim\" so it doesn't overstate the source.",
+    "slide 4: Add one sensory or insider detail about the discharge moment, such as the wait at the billing counter while the final amount is calculated. Right now the TPA desk line is a stray sound that doesn't carry the beat. Move it to the discharge scene, where you find out the cut, so it lands the sting."
+   ]
   }
  ],
- "updated_at": "2026-11-10T16:09:36.152945+00:00",
+ "updated_at": "2026-11-10T16:16:21.498218+00:00",
  "sources": [
   {
    "url": "https://a2ztaxcorp.net/?p=28108",
@@ -269,5 +467,96 @@
    "excerpt": "IRDAI has pulled up eight major health insurers after finding serious lapses in how they handle claims. Even when claims were approved, some insurers were deducting amounts that were not admissible under the policy. For example, removing certain hospital charges or limiting room rent beyond policy terms. Essentially, policyholders weren't getting the full benefits they were entitled to.",
    "date": "2025-07-14"
   }
- ]
+ ],
+ "draft": {
+  "cover": {
+   "headline": "We buy health insurance for the [tax form], not the hospital",
+   "sub": "The fine print only shows up in the corridor."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "We buy health insurance for the tax form, not the hospital.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "What exactly do we find in that corridor?"
+   },
+   {
+    "paragraphs": [
+     "HR emails: submit your tax proofs.",
+     "You open a comparison app, sort by lowest premium, add both parents, and download the 80D receipt in twenty minutes.",
+     "You feel responsible. Tax season rewards the cheapest receipt, so the cheapest plan wins. A deadline sold it, not a diagnosis."
+    ],
+    "why_swipe": "So what does a rushed, cheap policy hide?"
+   },
+   {
+    "paragraphs": [
+     "But a cheap premium has to save money somewhere. Often it's one line most of us never open: the room-rent cap.",
+     "Say your policy allows ₹5,000 a day. The hospital puts your mother in a ₹10,000 room."
+    ],
+    "why_swipe": "What happens to the bill when the room costs double the cap?"
+   },
+   {
+    "paragraphs": [
+     "The insurer can now treat only half the room as eligible.",
+     "On some policies, that same cut runs through other related charges on the bill too. One choice of room shrinks the whole claim.",
+     "You hear this at the TPA desk, over the hum of the billing printer."
+    ],
+    "why_swipe": "Who actually makes that choice?"
+   },
+   {
+    "paragraphs": [
+     "\"General ward ya private room?\"",
+     "You're signing at the admission desk with a pen tied to a string, and you say \"private\" before anyone mentions the rate. Every one of us does, for a parent.",
+     "You find out what that cost at discharge, with your own card."
+    ],
+    "why_swipe": "So what did that tax receipt actually prove?"
+   },
+   {
+    "paragraphs": [
+     "Your 80D receipt shows the premium you paid. It says nothing about what the policy pays back.",
+     "And reading the cap isn't full protection either. In 2025, IRDAI found some insurers limiting room rent beyond what their own policies allowed."
+    ],
+    "why_swipe": "What can you check right now?"
+   },
+   {
+    "paragraphs": [
+     "A tax deadline picked one number in your parents' policy. The hospital will hold you to it.",
+     "Search the PDF for \"room rent\" before the TPA desk does."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Open this again the week the HR email about tax proofs arrives.",
+   "send": "Send to the sibling who bought your parents' insurance in a rush last March.",
+   "promise": "How money really moves in India."
+  },
+  "caption": "What did you find when you searched 'room rent' in your parents' policy?",
+  "hashtags": [
+   "#HealthInsuranceIndia",
+   "#RoomRentCap",
+   "#Section80D",
+   "#PersonalFinanceIndia"
+  ],
+  "alt_text": "A seven-slide text post arguing that Indians buy health insurance in a rush before the tax proof deadline, sorting a comparison app by lowest premium, because tax season rewards the cheapest receipt. Cheap plans often save money through a room-rent cap. With a ₹5,000 cap and a ₹10,000 room, only half the room cost is eligible, and on some policies the cut runs through related charges too, which people hear about at the TPA desk. At the admission desk, people choose a private room for a parent without asking the rate. The 80D receipt shows only the premium paid, and in 2025 IRDAI found some insurers limiting room rent beyond their own policy terms. It ends by asking readers to search their parents' policy for 'room rent'.",
+  "claims": [
+   {
+    "text": "With a ₹5,000 room-rent limit against a ₹10,000 room, only half the room cost is eligible.",
+    "source_url": "https://www.outlookmoney.com/personal-finance/room-rent-limits-in-health-insurance-how-choosing-a-costlier-room-can-cut-your-entire-claim",
+    "derived_from": "₹5,000 / ₹10,000 = 50%"
+   },
+   {
+    "text": "On some policies, proportionate deduction also applies to other related hospital charges.",
+    "source_url": "https://www.outlookmoney.com/personal-finance/room-rent-limits-in-health-insurance-how-choosing-a-costlier-room-can-cut-your-entire-claim"
+   },
+   {
+    "text": "In 2025, IRDAI found some insurers limiting room rent beyond policy terms.",
+    "source_url": "https://joinditto.in/articles/news/irdai-flags-lapses-in-health-insurance-claims/"
+   },
+   {
+    "text": "Cheap policies often save money through caps that only show up at claim time.",
+    "source_url": "topic"
+   }
+  ]
+ }
 }

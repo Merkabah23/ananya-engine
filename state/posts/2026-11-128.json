@@ -1,6 +1,6 @@
 {
  "id": "2026-11-128",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-14T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -190,9 +190,200 @@
   },
   {
    "why": "retried 10 Nov with 6-10 slides (8 minimum forced padding)"
+  },
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 5 and slide 6 are dead slides. Slide 5 ('Rent near BKC or Whitefield isn't priced on the flat. It's priced on the people walking in to see it.') and slide 6 ('Landlords know what a young engineer near that office earns...') make the same point twice. Slide 5 is a single line with no new beat, and it ends on a weak 'what happens next?'.",
+     "Slide 6, 'The 11-month agreement, with its increase built into every renewal, makes sure each new hike in the area gets re-priced.' states an unsourced product detail and an overclaimed mechanism. The sources and topic only support that landlords price rent against what young professionals earn. 'Makes sure' presents a deliberate system as fact."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 3,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "Slides 5-6: merge them into one slide that carries the because, i.e. rent follows what the people walking in earn, so every announced hike gets priced into the next listing. Drop the 11-month agreement line, or say only what the topic supports, e.g. 'landlords price against what the young crowd near that office earns'. Add a fresh beat about who gains, so the slide earns its place.",
+     "Slide 4: the hook asks why rent rises to eat 'exactly' the hike, but the example shows ₹32,000 of rent growth against a ₹40,000 hike. Reword it to 'most of the hike' or 'almost all of it'. Also cut 'nobody to call on a Sunday'. It reads wistful, which the account avoids. Put a concrete cost in its place, such as the longer commute.",
+     "Slide 6 (EMI): this is the only sourced figure, and it sits as a pivot from rent to buying. Make clear it measures EMIs, not rent, and link it to the claim in one plain line, e.g. 'even buying, the city takes over half'. Keep it to one fact. Right now the 'either way' closer is a mild moral.",
+     "Slides 3 and 4: the post is Mumbai-heavy (Pune to Mumbai, BKC), though the topic's group includes Delhi NCR and Bengaluru. Add one everyday beat any city reader has lived, for example the first-week 'is this the price of the city' maths, or the deposit and broker cost hitting before the first salary. This is the topic's own 'behaviour' beat and would lift story and relatability.",
+     "Slide 8: 'Not the PG. Not the one \"only 40 minutes by metro\"' is a mirrored 'Not X' pair. Keep one example that stings. The test itself is good. End on the line 'Whatever is left is the real offer' or the landlord line, and don't repeat the cover point."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Slide 5 and slide 6 are dead slides. Slide 5 ('Rent near BKC or Whitefield isn't priced on the flat. It's priced on the people walking in to see it.') and slide 6 ('Landlords know what a young engineer near that office earns...') make the same point twice. Slide 5 is a single line with no new beat, and it ends on a weak 'what happens next?'.",
+    "Slide 6, 'The 11-month agreement, with its increase built into every renewal, makes sure each new hike in the area gets re-priced.' states an unsourced product detail and an overclaimed mechanism. The sources and topic only support that landlords price rent against what young professionals earn. 'Makes sure' presents a deliberate system as fact.",
+    "Slides 5-6: merge them into one slide that carries the because, i.e. rent follows what the people walking in earn, so every announced hike gets priced into the next listing. Drop the 11-month agreement line, or say only what the topic supports, e.g. 'landlords price against what the young crowd near that office earns'. Add a fresh beat about who gains, so the slide earns its place.",
+    "Slide 4: the hook asks why rent rises to eat 'exactly' the hike, but the example shows ₹32,000 of rent growth against a ₹40,000 hike. Reword it to 'most of the hike' or 'almost all of it'. Also cut 'nobody to call on a Sunday'. It reads wistful, which the account avoids. Put a concrete cost in its place, such as the longer commute.",
+    "Slide 6 (EMI): this is the only sourced figure, and it sits as a pivot from rent to buying. Make clear it measures EMIs, not rent, and link it to the claim in one plain line, e.g. 'even buying, the city takes over half'. Keep it to one fact. Right now the 'either way' closer is a mild moral.",
+    "Slides 3 and 4: the post is Mumbai-heavy (Pune to Mumbai, BKC), though the topic's group includes Delhi NCR and Bengaluru. Add one everyday beat any city reader has lived, for example the first-week 'is this the price of the city' maths, or the deposit and broker cost hitting before the first salary. This is the topic's own 'behaviour' beat and would lift story and relatability.",
+    "Slide 8: 'Not the PG. Not the one \"only 40 minutes by metro\"' is a mirrored 'Not X' pair. Keep one example that stings. The test itself is good. End on the line 'Whatever is left is the real offer' or the landlord line, and don't repeat the cover point."
+   ]
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "The post is 342 words; keep it under 340 by cutting extra examples, not the thought."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 6 is a dead slide. \"Rent near BKC or Cyber City isn't priced on the flat. It's priced on the people walking in to see it.\" Slide 7 then says the same thing again: \"Landlords price against what the young crowd near that office earns.\" The mechanism is stated twice, and slide 6 only works as a setup line."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 3,
+     "story": 3,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "slide 6/7: Merge them into one slide. The best part is the idea that rent is priced on the crowd walking in, not on the flat. Lead slide 7 with that, then land the pay-off line \"The company posts about its generous appraisals. The flat owner is the one who banks them.\" That frees a slide for the missing beat below.",
+     "slide 5: The post is about CTC versus real salary, but the worked example uses \"₹80,000 a month\" and \"₹1.2 lakh\" as if both were take-home, so a sharp reader will see CTC and in-hand mixed up. Say \"in hand\" for both figures, or show the CTC-to-in-hand gap in one line. Also \"You got promoted\" is wrong for a job switch. Use \"You switched jobs. Your landlord got the raise.\" The ₹8,000 maths is correct and can stay.",
+     "slide 8: The Knight Frank figure is about home-loan EMIs, not rent, and it is a household-income ratio. \"The city takes over half before you see it\" claims more than the source does. Reword it to say what the data says: for MMR and NCR, home-loan EMIs take more than half of household income. Keep the line short. This slide is the only sourced fact and it pulls the post sideways into buying, so make it a quick sting instead of a mini explainer.",
+     "slide 3/4: Slide 4 mostly repeats slide 3's \"hike shrinks\" beat. Fold the \"all of it leaves before the first salary lands\" line into slide 3 and keep the Swiggy-bill-to-the-rupee image, which is the best insider detail. Then add one thing the reader can hear or feel. For example, the broker's voice note saying \"bhai, aaj hi decide karo, aur log aa rahe hain\" is a typical scene and needs no invented event.",
+     "slide 10: \"Whatever is left is the real offer. The rest was promised to a landlord you haven't met yet.\" This mostly repeats the cover's claim. Keep the test (subtract rent of a flat you'd actually live in, not the \"40 minutes by metro\" one). Then end on a new line about what happens next, for example the offer that still looks good after rent being the only one worth bragging about to your parents."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "cut_slide": 6,
+   "review": {
+    "pass": false,
+    "violations": [
+     "7. Dead slide, slide 4: \"All of it leaves your account before the first salary lands. By week three you're splitting a Swiggy bill to the rupee...\" Slide 3 already shows the deposit and broker hit, and slide 5 gives the real number. This slide only restates the squeeze. The Swiggy line is the one new beat.",
+     "7/12. Slide 7: \"So even if you buy, the city takes over half before you see it.\" The Knight Frank figure is the EMI share for a typical homebuyer household in MMR and NCR. It is not what a 24-32 renter loses to a landlord, and it does not mean the money goes \"before you see it\". The \"just buy a flat\" question is a straw man for readers who can't buy yet. The slide turns a rent argument into a data aside, and the source itself only backs it indirectly.",
+     "7. Slide 9 and the cover/slide 1 repeat the same landlord-takes-the-hike punchline. It appears in slide 1, again in slide 5 (\"Your landlord got the raise\"), and again in the last line (\"promised to a landlord you haven't met yet\"). The close needs a fresh sting rather than a third version of the hook."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 3,
+     "iq": 3,
+     "story": 3,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "Slide 7: Cut or rebuild it. The EMI stat is about buying, not renting, and \"the city takes over half before you see it\" overstates it. If the stat stays, say plainly that it measures home-loan EMIs for buyers. Better still, use the real-details point that candidates now compare offers on what is left after rent and travel. That keeps the post on the rent question and gives the sourced proof that people already do this math.",
+     "Slides 3-4: Merge them into one slide. Keep the NoBroker night, the deposit and broker, and \"bachelors not allowed\". Move the \"splitting a Swiggy bill to the rupee, calling it the price of the city\" line to the end of the slide as the feeling. This frees a slot for a concrete detail beyond sight, such as the sound of the broker's voice or the weight of a cheque, and cuts the repeated squeeze.",
+     "Slide 5: Make the math land harder and keep it honest. Say whether ₹1.2 lakh is in-hand. \"Promoted\" is odd for a job switch, so use \"switched\". Add the commute cost the slide mentions but never prices, or drop it. Name Delhi NCR or Bengaluru alongside Mumbai in one line, so the example doesn't read as a Mumbai-only story.",
+     "Slide 6: The mechanism is the core of the post and is thin. Show it with one everyday scene: the broker saying \"IT crowd pays this here\", or listings jumping after a big office opens nearby. Soften \"every hike a company announces shows up in the next listing\" to a plain \"hikes get priced into the next listing\" so it isn't an overclaim.",
+     "Slide 9: Keep the test, but end on a fresh line, not a recap of the cover. For example, say what the reader will notice next time: the recruiter never asks \"where will you stay?\". Drop \"Whatever is left is the real offer\" if it repeats slide 1, and let the sting come from the family-function line in slide 8, which is the best insider detail."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Slide 6 is a dead slide. \"Rent near BKC or Cyber City isn't priced on the flat. It's priced on the people walking in to see it.\" Slide 7 then says the same thing again: \"Landlords price against what the young crowd near that office earns.\" The mechanism is stated twice, and slide 6 only works as a setup line.",
+    "slide 6/7: Merge them into one slide. The best part is the idea that rent is priced on the crowd walking in, not on the flat. Lead slide 7 with that, then land the pay-off line \"The company posts about its generous appraisals. The flat owner is the one who banks them.\" That frees a slide for the missing beat below.",
+    "slide 5: The post is about CTC versus real salary, but the worked example uses \"₹80,000 a month\" and \"₹1.2 lakh\" as if both were take-home, so a sharp reader will see CTC and in-hand mixed up. Say \"in hand\" for both figures, or show the CTC-to-in-hand gap in one line. Also \"You got promoted\" is wrong for a job switch. Use \"You switched jobs. Your landlord got the raise.\" The ₹8,000 maths is correct and can stay.",
+    "slide 8: The Knight Frank figure is about home-loan EMIs, not rent, and it is a household-income ratio. \"The city takes over half before you see it\" claims more than the source does. Reword it to say what the data says: for MMR and NCR, home-loan EMIs take more than half of household income. Keep the line short. This slide is the only sourced fact and it pulls the post sideways into buying, so make it a quick sting instead of a mini explainer.",
+    "slide 3/4: Slide 4 mostly repeats slide 3's \"hike shrinks\" beat. Fold the \"all of it leaves before the first salary lands\" line into slide 3 and keep the Swiggy-bill-to-the-rupee image, which is the best insider detail. Then add one thing the reader can hear or feel. For example, the broker's voice note saying \"bhai, aaj hi decide karo, aur log aa rahe hain\" is a typical scene and needs no invented event.",
+    "slide 10: \"Whatever is left is the real offer. The rest was promised to a landlord you haven't met yet.\" This mostly repeats the cover's claim. Keep the test (subtract rent of a flat you'd actually live in, not the \"40 minutes by metro\" one). Then end on a new line about what happens next, for example the offer that still looks good after rent being the only one worth bragging about to your parents."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 6 is a dead slide: \"So every hike a company announces shows up in the next listing. The company posts about its generous appraisals. The flat owner is the one who banks them.\" It restates slide 4's \"Your landlord got the raise\" and slide 5's pricing point in new words, and adds no new beat."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 4,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "slide 6: Cut or replace it. Slide 4 already says the landlord got the raise, and slide 5 already gives the pricing logic, so this is the same idea said a third time. Use the beat the topic already holds: by week three you are counting every rupee and calling it \"the price of the city\". That is the feeling of being cheated by a number that looked like progress, and it is new.",
+     "slide 5: This is the 'because' of the whole post, but it is one thin line, and its why_swipe is just \"what happens next?\". Say the mechanism straight and plainly. Landlords price against what young professionals around that office hub earn, so the hike the recruiter announces becomes part of the next rent. Keep BKC and Cyber City, but add the 'who gains' beat so the reader sees the system, not a greedy landlord. Avoid the absolute \"every hike\" unless it is framed as the pattern.",
+     "slide 7: The Knight Frank figure measures home-loan EMIs, not rent, so the \"Then just buy a flat\" detour is a side road and reads like a data point dropped in. Either tie it in as one line (\"even the escape route is priced off the same salaries\") or cut it and save a slide. If it stays, keep the wording at \"above 50% of household income\" and drop the cute \"landlord becomes a bank\" if it adds nothing.",
+     "slide 3: This is the most relatable slide, but every detail is visual or financial. Add one sensory or insider detail only a renter would notice, such as the broker's voice note pinging while you are still at your desk, or the flat you see at 9 PM that looks bigger in the photos. Also make clear that the deposit and broker money come out of savings before the new salary arrives.",
+     "slide 9: It works as a test, but \"Before the next yes, subtract…\" reads like coaching. Keep the \"40 minutes by metro\" detail, which is the best insider line. End on a line people will repeat (the number the company gives you versus the number you actually live on) instead of an instruction, and make sure it isn't just the cover line again."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "cut_slide": 6,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 6 is a dead slide: \"Buying doesn't get you out either. Knight Frank's H1 2026 data shows home-loan EMIs take over half of household income...\" It moves from rent to buying and stalls the argument. The source says this measures EMIs, not rent, so it only indirectly supports the claim. The line \"The landlord just becomes a bank\" is a cute turn that proves nothing. The figure is a data point stuck on, not support for the opinion.",
+     "Slide 5 is thin and under-explains the because: \"Rent near BKC or Cyber City isn't priced on the flat. It's priced on the people walking in to see it.\" It is a one-line assertion with no concrete scene. The why_swipe \"what happens next?\" shows the slide has no pull of its own."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 3,
+     "story": 3,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "slide 6: Cut it or replace it. Keep the argument on rent. Use the topic's mechanism here, that landlords price the next rent off what young professionals in the area earn, so every announced hike gets priced in. If the Knight Frank figure stays, use it only as a short aside and say plainly that it is about buying. Do not use it as the proof that rent eats the raise.",
+     "slide 5: Turn the one-liner into the core because. Show the loop: companies announce bigger packages, the broker knows what people in that tower earn, and the next flat quotes against it. The landlord never sees your offer letter. He only needs to know what the 20 people viewing the flat today earn. Replace \"BKC or Cyber City\" with something wider, such as \"near any office hub\", so Bengaluru readers see themselves too.",
+     "slide 3: Add one detail only an insider notices, such as the sound of the voice note or the deposit hitting your account as a transfer. The NoBroker plus \"a broker's month\" combination also reads oddly. Either drop the app name or make clear the broker is the one pushing the deadline.",
+     "slide 8: The close reads as an instruction (\"subtract the rent...\"). Put the test in the reader's own head and end on a sting. For example, name the feeling the rent figure gives them at slide 4, then close on a repeatable line like \"The offer isn't the number on the letter. It's the number after the landlord.\" Avoid anything that sounds like advice.",
+     "slide 7: Make the because sharper by naming the villain as the system, not the company. Cut the generic \"Companies compete on the number they control\" and say who gains from the big number: the recruiter, the landlord and the family function all do, and only the employee loses."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Slide 6 is a dead slide: \"So every hike a company announces shows up in the next listing. The company posts about its generous appraisals. The flat owner is the one who banks them.\" It restates slide 4's \"Your landlord got the raise\" and slide 5's pricing point in new words, and adds no new beat.",
+    "slide 6: Cut or replace it. Slide 4 already says the landlord got the raise, and slide 5 already gives the pricing logic, so this is the same idea said a third time. Use the beat the topic already holds: by week three you are counting every rupee and calling it \"the price of the city\". That is the feeling of being cheated by a number that looked like progress, and it is new.",
+    "slide 5: This is the 'because' of the whole post, but it is one thin line, and its why_swipe is just \"what happens next?\". Say the mechanism straight and plainly. Landlords price against what young professionals around that office hub earn, so the hike the recruiter announces becomes part of the next rent. Keep BKC and Cyber City, but add the 'who gains' beat so the reader sees the system, not a greedy landlord. Avoid the absolute \"every hike\" unless it is framed as the pattern.",
+    "slide 7: The Knight Frank figure measures home-loan EMIs, not rent, so the \"Then just buy a flat\" detour is a side road and reads like a data point dropped in. Either tie it in as one line (\"even the escape route is priced off the same salaries\") or cut it and save a slide. If it stays, keep the wording at \"above 50% of household income\" and drop the cute \"landlord becomes a bank\" if it adds nothing.",
+    "slide 3: This is the most relatable slide, but every detail is visual or financial. Add one sensory or insider detail only a renter would notice, such as the broker's voice note pinging while you are still at your desk, or the flat you see at 9 PM that looks bigger in the photos. Also make clear that the deposit and broker money come out of savings before the new salary arrives.",
+    "slide 9: It works as a test, but \"Before the next yes, subtract…\" reads like coaching. Keep the \"40 minutes by metro\" detail, which is the best insider line. End on a line people will repeat (the number the company gives you versus the number you actually live on) instead of an instruction, and make sure it isn't just the cover line again."
+   ]
   }
  ],
- "updated_at": "2026-11-10T16:09:36.150295+00:00",
+ "updated_at": "2026-11-10T16:16:21.447707+00:00",
  "sources": [
   {
    "url": "https://www.freepressjournal.in/lifestyle/is-rent-becoming-the-biggest-dealbreaker-for-young-professionals",
@@ -206,5 +397,100 @@
    "excerpt": "Homebuyers need about 69% of household income for monthly loan payments, unchanged from 2025. | significantly better than the 77% recorded in 2016 and 2019. | the most financially stretched housing market among India's eight largest cities. | An EMI-to-income ratio above 50% is generally considered unaffordable. | the only two markets where affordability exceeds the benchmark threshold of 50%.",
    "date": "2026-07-03"
   }
- ]
+ ],
+ "draft": {
+  "cover": {
+   "headline": "Your [CTC] is for bragging. Your salary is what the landlord leaves.",
+   "sub": "The offer letter skips the one cost that decides the move."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Your CTC is for bragging. Your salary is what the landlord leaves.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "If the CTC isn't the real salary, what is the offer letter hiding?"
+   },
+   {
+    "paragraphs": [
+     "The offer letter lists basic, HRA, variable pay, and ESOPs that vest in four years.",
+     "Rent isn't on it. Rent was never HR's number, so it never makes the PDF."
+    ],
+    "why_swipe": "So where does that missing cost show up?"
+   },
+   {
+    "paragraphs": [
+     "You say yes. That night you open NoBroker \"just to see\".",
+     "Two months' deposit, a broker's month, and a voice note: \"Bhai, aaj hi decide karo, aur log aa rahe hain.\"",
+     "It all leaves before the first salary. By week three, you split Swiggy bills to the rupee."
+    ],
+    "why_swipe": "How much of the hike actually survives?"
+   },
+   {
+    "paragraphs": [
+     "Say your in-hand pay goes from ₹80,000 a month in Pune to ₹1.2 lakh in Mumbai. Rent goes from ₹18,000 to ₹50,000.",
+     "You keep ₹8,000 more. That has to cover a new city and a longer commute.",
+     "You switched jobs. Your landlord got the raise."
+    ],
+    "why_swipe": "Why does rent rise to eat almost all of the hike?"
+   },
+   {
+    "paragraphs": [
+     "Rent near BKC or Cyber City isn't priced on the flat. It's priced on the people walking in to see it."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "So every hike a company announces shows up in the next listing.",
+     "The company posts about its generous appraisals. The flat owner is the one who banks them."
+    ],
+    "why_swipe": "Then just buy a flat and escape it?"
+   },
+   {
+    "paragraphs": [
+     "Buying doesn't get you out either. Knight Frank's H1 2026 data shows home-loan EMIs take over half of household income in the Mumbai region and NCR.",
+     "The landlord just becomes a bank."
+    ],
+    "why_swipe": "So why do we keep falling for the big number?"
+   },
+   {
+    "paragraphs": [
+     "It's not bad planning. Companies compete on the number they control, so that's the number they sell.",
+     "And it's the number your parents can repeat. \"Itna bada package hai.\" Nobody at a family function repeats the rent."
+    ],
+    "why_swipe": "What's the one test to run before the next yes?"
+   },
+   {
+    "paragraphs": [
+     "Before the next yes, subtract the rent of a flat you'd actually live in. Not the one \"only 40 minutes by metro\".",
+     "The offer that still looks good after that is the only one worth calling home about."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Open this again the night an offer letter lands in your inbox.",
+   "send": "Send to the friend who just got a Mumbai or Gurgaon offer and has only mentioned the hike.",
+   "promise": "How money really moves in India."
+  },
+  "caption": "Which city ate your last hike, and how much of it was left after the first month's rent?",
+  "hashtags": [
+   "#SalaryVsRent",
+   "#MumbaiRent",
+   "#JobSwitchIndia",
+   "#CTCvsInHand"
+  ],
+  "alt_text": "An eight-slide text post arguing that your CTC is a bragging number and your real salary is what remains after rent. It shows how offer letters leave out rent, how the deposit, broker fee and pushy broker voice notes hit before the first salary, works through a typical move from Pune to Mumbai where most of the in-hand hike goes to rent, explains that rent near big office hubs is priced on the people who come to see the flat, notes Knight Frank data that home-loan EMIs take over half of household income in the Mumbai region and NCR, and ends with a test: subtract the rent of a flat you'd actually live in from any offer.",
+  "claims": [
+   {
+    "text": "Knight Frank's H1 2026 data shows home-loan EMIs take over half of household income in the Mumbai region and NCR.",
+    "source_url": "https://www.freepressjournal.in/lifestyle/is-rent-becoming-the-biggest-dealbreaker-for-young-professionals"
+   },
+   {
+    "text": "In-hand pay moving from ₹80,000 a month to ₹1.2 lakh with rent going from ₹18,000 to ₹50,000 leaves you ₹8,000 more (typical illustrative amounts).",
+    "source_url": "topic",
+    "derived_from": "(120,000 − 50,000) − (80,000 − 18,000) = 70,000 − 62,000 = 8,000"
+   }
+  ]
+ }
 }
