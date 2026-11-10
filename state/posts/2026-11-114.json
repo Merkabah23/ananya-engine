@@ -1,6 +1,6 @@
 {
  "id": "2026-11-114",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-22T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -32,7 +32,200 @@
   "news_peg": null,
   "proof": []
  },
- "history": [],
+ "history": [
+  {
+   "attempt": 0,
+   "problems": [
+    "Slides [4] have no why_swipe: say what pulls the reader to the next slide, or rewrite the slide until something does."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 7 and slide 8: slide 7 ('the better watch you buy them now gets worn') is a setup that slide 8 immediately resolves; slide 7 is a dead slide, it only exists to be contradicted, and its why_swipe 'what happens next?' is a placeholder.",
+     "Slide 9: 'It's not that they don't like it. Wearing it would feel like spending the proof.' restates slide 5 ('Kept sealed, it stays exactly what it was that day: proof') and slide 8 ('The old one is the verdict'). The idea is said three times; dead slide.",
+     "Slide 10 (close): 'They never cared what it cost. Only whose salary paid for it.' is a mirrored 'not X, Y' pair, and it restates the cover's point (it's proof, not a gift). It also contradicts the 'price tag is still on the box' image: the saree has the shop's tag, but a price tag on a box is a decorative invented specific, and a tag left on only makes sense for the saree. The payoff is wistful rather than a line people repeat or a test.",
+     "Mechanism stated as fact (hard failure 12): 'Kept sealed, it stays exactly what it was that day: proof the kid they raised can stand alone' and 'Wearing it would feel like spending the proof' assert parents' inner motive as certain. It also contradicts itself: the post says the better watch they buy now gets worn and the old one is kept, yet slide 2 says nobody ever wore the gift because it's 'it was never meant to be used', which is asserted, not shown.",
+     "Slide 6 / hard failure 15 and 14: the feeling is only stated ('the one receipt that came back'), and the examples are narrow: a watch and a saree, plus a relatives-visit ritual. Many readers' parents did use the first-salary gift (phone, appliance, a sweater), so 'every reader has seen this' is not reliably true.",
+     "Voice: 'Think of what that box stands in for' and 'Which is why' are stock connectors; 'It was never meant to be used' repeated in slide 1 and the cover sub; the cover's sub gives away the turn.",
+     "Slide 4: 'That day keeps not coming. Because it already came.' is a riddle-style punch and the 'special day already came' is never explained; it works as a line but the logic (the day was the first salary) is left unstated. Also 'the property papers' cupboard detail leans on the tired 'mummy's cupboard' household genre."
+    ],
+    "scores": {
+     "hook": 3,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 2,
+     "voice": 3,
+     "eq": 4,
+     "iq": 3,
+     "story": 3,
+     "tight": 2,
+     "informative": 2
+    },
+    "notes": [
+     "Slides 7-10: collapse four slides into two. Cut slide 7 and slide 9. Keep the 'purana wala theek hai' beat (the new watch is a gift, the old one is the verdict) as the single proof that the sealed one is different, and let it follow slide 6 directly. Then close on one line that stings, not a mirrored pair.",
+     "Slide 10: drop 'The price tag is still on the box' and the 'never cared what it cost, only whose salary paid' pair. Write a closer that cashes in the post, for example a test the reader can run: offer to take the old watch to get the strap fixed and watch how fast they say no. Or a line like 'You think you gave them a watch. They filed a receipt.' Pick one, don't pile on.",
+     "Slides 1 and cover: slide 1 states the answer ('It was never meant to be used') so there's no reason to swipe. Open on the claim with the turn but hold back the reason, for example 'The watch you bought with your first salary is still in its box, and it will never leave it.' Let slides 2-5 earn the 'proof' idea.",
+     "Slide 5-6: state the because in plain words once. Something like: 'A worn watch is a watch. A boxed one is the day you started paying them back.' Cut 'Think of what that box stands in for' and the school fees/coaching list down to one concrete, fresh detail (the phone they didn't upgrade is the best one). Make the reader feel it, not just list it.",
+     "Slide 2: swap the property-papers cupboard line, which is the tired mummy's-cupboard genre, for a different concrete detail with a sensory touch (the plastic still on the strap, the tissue paper that crackles, the saree smelling of the shop) so the box feels real and you broaden beyond watch and saree with 'or the phone, or the sweater'."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Slide 7 and slide 8: slide 7 ('the better watch you buy them now gets worn') is a setup that slide 8 immediately resolves; slide 7 is a dead slide, it only exists to be contradicted, and its why_swipe 'what happens next?' is a placeholder.",
+    "Slide 9: 'It's not that they don't like it. Wearing it would feel like spending the proof.' restates slide 5 ('Kept sealed, it stays exactly what it was that day: proof') and slide 8 ('The old one is the verdict'). The idea is said three times; dead slide.",
+    "Slide 10 (close): 'They never cared what it cost. Only whose salary paid for it.' is a mirrored 'not X, Y' pair, and it restates the cover's point (it's proof, not a gift). It also contradicts the 'price tag is still on the box' image: the saree has the shop's tag, but a price tag on a box is a decorative invented specific, and a tag left on only makes sense for the saree. The payoff is wistful rather than a line people repeat or a test.",
+    "Mechanism stated as fact (hard failure 12): 'Kept sealed, it stays exactly what it was that day: proof the kid they raised can stand alone' and 'Wearing it would feel like spending the proof' assert parents' inner motive as certain. It also contradicts itself: the post says the better watch they buy now gets worn and the old one is kept, yet slide 2 says nobody ever wore the gift because it's 'it was never meant to be used', which is asserted, not shown.",
+    "Slide 6 / hard failure 15 and 14: the feeling is only stated ('the one receipt that came back'), and the examples are narrow: a watch and a saree, plus a relatives-visit ritual. Many readers' parents did use the first-salary gift (phone, appliance, a sweater), so 'every reader has seen this' is not reliably true.",
+    "Voice: 'Think of what that box stands in for' and 'Which is why' are stock connectors; 'It was never meant to be used' repeated in slide 1 and the cover sub; the cover's sub gives away the turn.",
+    "Slide 4: 'That day keeps not coming. Because it already came.' is a riddle-style punch and the 'special day already came' is never explained; it works as a line but the logic (the day was the first salary) is left unstated. Also 'the property papers' cupboard detail leans on the tired 'mummy's cupboard' household genre.",
+    "Slides 7-10: collapse four slides into two. Cut slide 7 and slide 9. Keep the 'purana wala theek hai' beat (the new watch is a gift, the old one is the verdict) as the single proof that the sealed one is different, and let it follow slide 6 directly. Then close on one line that stings, not a mirrored pair.",
+    "Slide 10: drop 'The price tag is still on the box' and the 'never cared what it cost, only whose salary paid' pair. Write a closer that cashes in the post, for example a test the reader can run: offer to take the old watch to get the strap fixed and watch how fast they say no. Or a line like 'You think you gave them a watch. They filed a receipt.' Pick one, don't pile on.",
+    "Slides 1 and cover: slide 1 states the answer ('It was never meant to be used') so there's no reason to swipe. Open on the claim with the turn but hold back the reason, for example 'The watch you bought with your first salary is still in its box, and it will never leave it.' Let slides 2-5 earn the 'proof' idea.",
+    "Slide 5-6: state the because in plain words once. Something like: 'A worn watch is a watch. A boxed one is the day you started paying them back.' Cut 'Think of what that box stands in for' and the school fees/coaching list down to one concrete, fresh detail (the phone they didn't upgrade is the best one). Make the reader feel it, not just list it.",
+    "Slide 2: swap the property-papers cupboard line, which is the tired mummy's-cupboard genre, for a different concrete detail with a sensory touch (the plastic still on the strap, the tissue paper that crackles, the saree smelling of the shop) so the box feels real and you broaden beyond watch and saree with 'or the phone, or the sweater'."
+   ]
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Every sentence is about the same length, which reads as a template. Put one longer, concrete sentence next to a short punch on most slides."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Dead slide, slide 5: it restates the 'saving it for a special day' belief, then \"It already came, the month your first salary hit your account\" is vague and adds nothing the reader can use.",
+     "Dead or muddled slide, slide 6: \"A boxed one stays that first month. The month you started paying them back.\" is cryptic. It states the mechanism in abstract words and slide 7 then says the same thing in concrete form.",
+     "Mechanism not shown or overstated, slides 1 and 4: \"It will never leave\" and \"Nobody has ever seen it on a wrist\" are absolute claims. Slide 2 also says a phone from the same first salary gets used daily, which weakens the claim that the gift is kept as proof. The post never explains why a phone is used but a watch is not.",
+     "Mixed metaphor and engineered rhetoric, slides 8 and 9: the old watch is 'the verdict' on slide 8 and 'the receipt' on slide 9. \"The new one is a gift. The old one is the verdict.\" is a mirrored pair. The close also reuses the topic's claim almost word for word."
+    ],
+    "scores": {
+     "hook": 3,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 3,
+     "eq": 4,
+     "iq": 3,
+     "story": 3,
+     "tight": 3,
+     "informative": 2
+    },
+    "notes": [
+     "Slides 5-6: merge them into one slide. Drop the 'special day' filler. State the because once, plainly: a worn watch is an object, a sealed box is proof. Use one concrete image, such as parents who never wear it but never let it get scratched either.",
+     "Slide 2: explain why the phone is the exception in one line, because it is a tool they need and the watch or saree is not. That keeps the thesis from contradicting itself. Soften the absolutes on slides 1 and 4 to what typically happens.",
+     "Slide 1: the hook gives the turn only half-way, and the cover's bracketed '[still in its box]' reads oddly. Put the turn in the claim: 'Your parents never wore your first-salary gift because it was never a gift.' Keep the answer back until the end.",
+     "Slides 8-9: choose one metaphor, 'receipt', and use it only at the close. Make slide 8 a plain, concrete beat, such as the new watch worn by Sunday while the first one stays untouched in the cupboard. Remove the mirrored 'gift/verdict' pair.",
+     "Slide 7: this is the strongest emotional beat, so move it earlier, right after the relatives scene. Add one insider detail beyond sight, such as the plastic crackling or the tissue paper smell, on slide 3 or 4."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Dead slide, slide 5: it restates the 'saving it for a special day' belief, then \"It already came, the month your first salary hit your account\" is vague and adds nothing the reader can use.",
+    "Dead or muddled slide, slide 6: \"A boxed one stays that first month. The month you started paying them back.\" is cryptic. It states the mechanism in abstract words and slide 7 then says the same thing in concrete form.",
+    "Mechanism not shown or overstated, slides 1 and 4: \"It will never leave\" and \"Nobody has ever seen it on a wrist\" are absolute claims. Slide 2 also says a phone from the same first salary gets used daily, which weakens the claim that the gift is kept as proof. The post never explains why a phone is used but a watch is not.",
+    "Mixed metaphor and engineered rhetoric, slides 8 and 9: the old watch is 'the verdict' on slide 8 and 'the receipt' on slide 9. \"The new one is a gift. The old one is the verdict.\" is a mirrored pair. The close also reuses the topic's claim almost word for word.",
+    "Slides 5-6: merge them into one slide. Drop the 'special day' filler. State the because once, plainly: a worn watch is an object, a sealed box is proof. Use one concrete image, such as parents who never wear it but never let it get scratched either.",
+    "Slide 2: explain why the phone is the exception in one line, because it is a tool they need and the watch or saree is not. That keeps the thesis from contradicting itself. Soften the absolutes on slides 1 and 4 to what typically happens.",
+    "Slide 1: the hook gives the turn only half-way, and the cover's bracketed '[still in its box]' reads oddly. Put the turn in the claim: 'Your parents never wore your first-salary gift because it was never a gift.' Keep the answer back until the end.",
+    "Slides 8-9: choose one metaphor, 'receipt', and use it only at the close. Make slide 8 a plain, concrete beat, such as the new watch worn by Sunday while the first one stays untouched in the cupboard. Remove the mirrored 'gift/verdict' pair.",
+    "Slide 7: this is the strongest emotional beat, so move it earlier, right after the relatives scene. Add one insider detail beyond sight, such as the plastic crackling or the tissue paper smell, on slide 3 or 4."
+   ]
+  }
+ ],
  "sources": [],
- "updated_at": "2026-11-10T16:25:53.014208+00:00"
+ "updated_at": "2026-11-10T16:34:27.683966+00:00",
+ "draft": {
+  "cover": {
+   "headline": "Your first-salary gift to your parents is [still in its box]",
+   "sub": "And they have no plans to take it out."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Your first-salary gift to your parents is still in its box. It will never leave.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "Why would anyone keep a gift sealed for years?"
+   },
+   {
+    "paragraphs": [
+     "If you bought them a phone, it got used every single day until the screen cracked and the battery died by lunch. The watch or the saree is another matter."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "The watch still has the plastic on its strap. The saree still smells of the shop, folded in tissue paper that crackles. Years later. Untouched."
+    ],
+    "why_swipe": "If it's hidden away, when does it ever come out?"
+   },
+   {
+    "paragraphs": [
+     "It comes out when relatives visit. \"Beta ne pehli salary se liya tha.\"",
+     "The box goes around the room, from one aunt's hands to the next, and everyone admires it. Then it goes back. Nobody has ever seen it on a wrist."
+    ],
+    "why_swipe": "Why show it off but never wear it?"
+   },
+   {
+    "paragraphs": [
+     "We assume they're saving it for a special day, a wedding or a puja that finally feels good enough.",
+     "That day keeps not coming. It already came, the month your first salary hit your account."
+    ],
+    "why_swipe": "So why does wearing it now feel wrong?"
+   },
+   {
+    "paragraphs": [
+     "Worn every day, a watch gets scratched and a saree fades, until it's just one more thing in the house.",
+     "A boxed one stays that first month. The month you started paying them back."
+    ],
+    "why_swipe": "Paying back what, exactly?"
+   },
+   {
+    "paragraphs": [
+     "They ran the same cracked phone for years so your coaching fees, hostel rent and exam forms went through on time.",
+     "That box is the first thing that came back."
+    ],
+    "why_swipe": "So what happens when you buy them something better?"
+   },
+   {
+    "paragraphs": [
+     "Buy them a better watch now and it's on their wrist by Sunday. Suggest the old one gets worn, and you hear \"purana wala theek hai jahan hai.\"",
+     "The new one is a gift. The old one is the verdict."
+    ],
+    "why_swipe": "A verdict on what?"
+   },
+   {
+    "paragraphs": [
+     "You think you gave them a watch.",
+     "They kept the receipt that you turned out okay."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Come back to it the next time you're home and the box comes out for a relative.",
+   "send": "Send to the friend who still remembers exactly what they bought with their first salary.",
+   "promise": "The money and feelings Indian families never name."
+  },
+  "caption": "What did you buy your parents with your first salary, and is it still in the box?",
+  "hashtags": [
+   "#FirstSalary",
+   "#IndianParents",
+   "#FirstSalaryGift",
+   "#IndianFamilies"
+  ],
+  "alt_text": "A nine-slide text carousel. It argues that Indian parents keep the watch or saree their child bought with their first salary sealed in its box, plastic still on the strap, and bring it out only to show relatives. A phone gets used till it cracks, and a newer watch gets worn, but the first one stays boxed because it marks the month the child started paying them back after years of sacrifice, like running the same cracked phone so coaching fees and hostel rent got paid. It ends: you think you gave them a watch; they kept the receipt that you turned out okay.",
+  "claims": []
+ }
 }

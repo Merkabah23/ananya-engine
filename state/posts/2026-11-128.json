@@ -1,6 +1,6 @@
 {
  "id": "2026-11-128",
- "status": "approved",
+ "status": "failed",
  "due": "2026-11-14T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -386,7 +386,7 @@
    "why": "the writer's drafts kept padding a dead middle slide; hand-written in the approved voice (10 Nov)"
   }
  ],
- "updated_at": "2026-11-10T16:28:31.043979+00:00",
+ "updated_at": "2026-11-10T16:34:05.988904+00:00",
  "sources": [
   {
    "url": "https://www.freepressjournal.in/lifestyle/is-rent-becoming-the-biggest-dealbreaker-for-young-professionals",
@@ -476,5 +476,406 @@
    }
   ]
  },
- "owner_ok": true
+ "owner_ok": true,
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] Your offer letter tells you what you'll earn.\nYour landlord decides what you'll keep.\n \n\n[slide 1] Your offer letter tells you what you'll earn.\nYour landlord decides what you'll keep.\n\n[slide 2] You accept the offer at 6 PM. By 11 PM you're on a property app, and the happy feeling drops a little with every listing.\n\n[slide 3] Think about who else reads that number.\nRents near the office hubs follow what the people working there earn. Every hike in your sector reaches the listings before it reaches your account.\n\n[slide 4] So the raise you fought for over three rounds of negotiation changes hands in one rent agreement.\nIt still exists. It just lives with someone else.\n\n[slide 5] That's why the real question about any offer has changed.\nNot \"kitna mil raha hai?\" But \"kitna bachega?\"\n\n[slide 6] And buying your way out doesn't work in the two biggest markets. In Mumbai and NCR, home-loan EMIs take more than half of household income, by Knight Frank's own index.\n\n[slide 7] The CTC is the number you tell your parents.\nThe leftover is the number you live on.\n\n[slide 8] Read the next offer backwards. Subtract the rent of a flat you'd actually live in, before anything else.\nWhat's left is the real offer.\n\n[slide 9] Your company gave you the raise.\nYour landlord collected it.\n\n[end card] \n\n\n[caption] Your company gave you the raise. Your landlord collected it. What's left of yours after rent?\n\n[alt text] A text post about how rent in big Indian cities takes the raise from a new job offer.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Rents near office hubs in Indian cities track the earnings of the people who work there.",
+     "sentence": "Rents near the office hubs follow what the people working there earn.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "Salary hikes in a sector show up in rental listings near workplaces before they show up in an employee's bank account.",
+     "sentence": "Every hike in your sector reaches the listings before it reaches your account.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c3",
+     "text": "A salary raise gained through negotiation is largely absorbed by higher rent, so the raise ends up with the landlord.",
+     "sentence": "So the raise you fought for over three rounds of negotiation changes hands in one rent agreement.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c4",
+     "text": "In Mumbai and NCR, home-loan EMIs take more than half of household income.",
+     "sentence": "In Mumbai and NCR, home-loan EMIs take more than half of household income, by Knight Frank's own index.",
+     "type": "figure",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c5",
+     "text": "Knight Frank's affordability index reports that Mumbai and NCR have EMI-to-income ratios above 50%.",
+     "sentence": "by Knight Frank's own index",
+     "type": "entity_attribute",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c6",
+     "text": "Mumbai and NCR are the two biggest housing markets in India.",
+     "sentence": "And buying your way out doesn't work in the two biggest markets.",
+     "type": "superlative",
+     "core": false,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "In Mumbai and NCR, home-loan EMIs take more than half of household income.": {
+   "id": "c4",
+   "verdict": "supported",
+   "event_date": "2026-07-03",
+   "correct": "Knight Frank's H1 2026 index puts MMR at 69% and Delhi-NCR at 67% EMI-to-income. Both are well above 50%, so 'more than half' holds and understates the ratio. These figures conflict with earlier reports of about 47% for Mumbai, which the lead flagged. Two outlets agree on 69% and 67%, and I could not reach Knight Frank's own report.",
+   "sources": [
+    {
+     "url": "https://www.outlookmoney.com/invest/homebuyer-affordability-holds-steady-in-six-of-eight-cities-in-h1-2026-says-report",
+     "publisher": "Outlook Money",
+     "published_date": "2026-07-05",
+     "quote": "Delhi-NCR and MMR are the least affordable markets, and both exceed the 50% threshold.",
+     "tier": 2
+    }
+   ]
+  },
+  "Knight Frank's affordability index reports that Mumbai and NCR have EMI-to-income ratios above 50%.": {
+   "id": "c5",
+   "verdict": "supported",
+   "event_date": "2026-07-03",
+   "correct": "Knight Frank India Affordability Index, H1 2026 (January to June 2026): MMR 69%, NCR 67%. These are the only two of the eight markets above 50%.",
+   "sources": [
+    {
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-housing-mmr-remains-indias-least-affordable-property-market-despite-lower-home-loan-rates-says-knight-frank",
+     "publisher": "Free Press Journal",
+     "published_date": "2026-07-03",
+     "quote": "MMR's affordability index remained unchanged at 69% in H1 2026.",
+     "tier": 2
+    }
+   ]
+  },
+  "Mumbai and NCR are the two biggest housing markets in India.": {
+   "id": "c6",
+   "verdict": "misframed",
+   "event_date": null,
+   "correct": "MMR is clearly the biggest housing market by sales. NCR is not clearly the second. Anarock's 2026 data show MMR and Bengaluru together taking about 48% of top-7 sales, and NCR's Q2 2026 sales were about 13,365 units against about 28,710 for MMR. Bengaluru is the second-largest by unit sales. NCR could rank second on some other measure, such as value or stock, but I did not confirm that.",
+   "sources": [
+    {
+     "url": "https://www.businesstoday.in/real-estate/story/housing-sales-in-top-seven-cities-rise-3-percent-on-year-in-q3-mumbai-records-highest-sales-558274-2026-09-29",
+     "publisher": "Business Today (Anarock Q3 2026)",
+     "published_date": "2026-09-29",
+     "quote": "Mumbai records highest sales",
+     "tier": 2
+    }
+   ]
+  },
+  "_skeptic": {
+   "58f4bab3e815c57f946d1ed0ec03c889ad741b90": {
+    "holds": false,
+    "broken_premise": "Premise 4, that Knight Frank's affordability index puts Mumbai and NCR above a 50% EMI-to-income ratio, is false. Knight Frank's full-year 2025 index has Mumbai at 47%, below 50% for the first time, and NCR at 28%, which Knight Frank calls comfortably affordable. NCR has never been near 50% in recent editions. So slide 6, which says buying your way out doesn't work in either city, misstates the source it cites. That is especially true for NCR. Premises 1 to 3 are the writer's reading of how rents near job hubs follow local pay and absorb raises. They are interpretation, not checkable claims about how a price or contract works, so they are not failed here.",
+    "actual_mechanism": "Knight Frank's index is the share of a median household's income needed to pay the EMI on a standard home loan for an average-priced home in each city. Above 50% counts as unaffordable because banks rarely lend past that point. Lower home-loan rates in 2025 pushed Mumbai down to 47%. NCR rose only slightly, from 27% to 28%, because prices went up, and Ahmedabad is the most affordable city at 18%. Rents near office hubs are set by local landlords based on demand from nearby workers, so pay growth in a cluster can push asking rents up. Still, how much of a raise rent takes depends on the city and the person.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.freepressjournal.in/business/delhi-ncr-housing-affordability-dips-as-prices-surge-mumbai-improves-below-50-threshold",
+      "published_date": "2025-12-24",
+      "quote": "In Mumbai, housing affordability has improved significantly, with the EMI-to- income ratio declining to 47 per cent in 2025."
+     },
+     {
+      "url": "https://www.freepressjournal.in/business/delhi-ncr-housing-affordability-dips-as-prices-surge-mumbai-improves-below-50-threshold",
+      "published_date": "2025-12-24",
+      "quote": "The affordability index drops marginally in NCR to 28 per cent in 2025 from 27 per cent in the preceding year."
+     },
+     {
+      "url": "https://www.freepressjournal.in/business/delhi-ncr-housing-affordability-dips-as-prices-surge-mumbai-improves-below-50-threshold",
+      "published_date": "2025-12-24",
+      "quote": "An EMI/income ratio over 50 per cent is considered unaffordable."
+     },
+     {
+      "url": "https://www.zeebiz.com/real-estate/news-housing-affordability-2025-falling-interest-rates-mumbai-ahmedabad-pune-knight-frank-386445",
+      "published_date": "2025-12-23",
+      "quote": "Mumbai homes turn more affordable for first time ever as EMI burden falls below 50%"
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "085e5c00f4de5a27db4bf283aa2e8bfc1982d8be": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "The take's premise is wrong: Premise 4, that Knight Frank's affordability index puts Mumbai and NCR above a 50% EMI-to-income ratio, is false. Knight Frank's full-year 2025 index has Mumbai at 47%, below 50% for the first time, and NCR at 28%, which Knight Frank calls comfortably affordable. NCR has never been near 50% in recent editions. So slide 6, which says buying your way out doesn't work in either city, misstates the source it cites. That is especially true for NCR. Premises 1 to 3 are the writer's reading of how rents near job hubs follow local pay and absorb raises. They are interpretation, not checkable claims about how a price or contract works, so they are not failed here.. How it actually works: Knight Frank's index is the share of a median household's income needed to pay the EMI on a standard home loan for an average-priced home in each city. Above 50% counts as unaffordable because banks rarely lend past that point. Lower home-loan rates in 2025 pushed Mumbai down to 47%. NCR rose only slightly, from 27% to 28%, because prices went up, and Ahmedabad is the most affordable city at 18%. Rents near office hubs are set by local landlords based on demand from nearby workers, so pay growth in a cluster can push asking rents up. Still, how much of a raise rent takes depends on the city and the person. Rebuild the post on the correct mechanism."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Rents near office hubs in Indian cities track the earnings of the people who work there.",
+      "sentence": "Rents near the office hubs follow what the people working there earn.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Salary hikes in a sector show up in rental listings near workplaces before they show up in an employee's bank account.",
+      "sentence": "Every hike in your sector reaches the listings before it reaches your account.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "A salary raise gained through negotiation is largely absorbed by higher rent, so the raise ends up with the landlord.",
+      "sentence": "So the raise you fought for over three rounds of negotiation changes hands in one rent agreement.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "In Mumbai and NCR, home-loan EMIs take more than half of household income.",
+      "sentence": "In Mumbai and NCR, home-loan EMIs take more than half of household income, by Knight Frank's own index.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Knight Frank's affordability index reports that Mumbai and NCR have EMI-to-income ratios above 50%.",
+      "sentence": "by Knight Frank's own index",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Mumbai and NCR are the two biggest housing markets in India.",
+      "sentence": "And buying your way out doesn't work in the two biggest markets.",
+      "type": "superlative",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "2026-07-03",
+      "correct": "Knight Frank's H1 2026 index puts MMR at 69% and Delhi-NCR at 67% EMI-to-income. Both are well above 50%, so 'more than half' holds and understates the ratio. These figures conflict with earlier reports of about 47% for Mumbai, which the lead flagged. Two outlets agree on 69% and 67%, and I could not reach Knight Frank's own report.",
+      "sources": [
+       {
+        "url": "https://www.outlookmoney.com/invest/homebuyer-affordability-holds-steady-in-six-of-eight-cities-in-h1-2026-says-report",
+        "publisher": "Outlook Money",
+        "published_date": "2026-07-05",
+        "quote": "Delhi-NCR and MMR are the least affordable markets, and both exceed the 50% threshold.",
+        "tier": 2
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "supported",
+      "event_date": "2026-07-03",
+      "correct": "Knight Frank India Affordability Index, H1 2026 (January to June 2026): MMR 69%, NCR 67%. These are the only two of the eight markets above 50%.",
+      "sources": [
+       {
+        "url": "https://www.freepressjournal.in/mumbai/mumbai-housing-mmr-remains-indias-least-affordable-property-market-despite-lower-home-loan-rates-says-knight-frank",
+        "publisher": "Free Press Journal",
+        "published_date": "2026-07-03",
+        "quote": "MMR's affordability index remained unchanged at 69% in H1 2026.",
+        "tier": 2
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "misframed",
+      "event_date": null,
+      "correct": "MMR is clearly the biggest housing market by sales. NCR is not clearly the second. Anarock's 2026 data show MMR and Bengaluru together taking about 48% of top-7 sales, and NCR's Q2 2026 sales were about 13,365 units against about 28,710 for MMR. Bengaluru is the second-largest by unit sales. NCR could rank second on some other measure, such as value or stock, but I did not confirm that.",
+      "sources": [
+       {
+        "url": "https://www.businesstoday.in/real-estate/story/housing-sales-in-top-seven-cities-rise-3-percent-on-year-in-q3-mumbai-records-highest-sales-558274-2026-09-29",
+        "publisher": "Business Today (Anarock Q3 2026)",
+        "published_date": "2026-09-29",
+        "quote": "Mumbai records highest sales",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "Premise 4, that Knight Frank's affordability index puts Mumbai and NCR above a 50% EMI-to-income ratio, is false. Knight Frank's full-year 2025 index has Mumbai at 47%, below 50% for the first time, and NCR at 28%, which Knight Frank calls comfortably affordable. NCR has never been near 50% in recent editions. So slide 6, which says buying your way out doesn't work in either city, misstates the source it cites. That is especially true for NCR. Premises 1 to 3 are the writer's reading of how rents near job hubs follow local pay and absorb raises. They are interpretation, not checkable claims about how a price or contract works, so they are not failed here.",
+     "actual_mechanism": "Knight Frank's index is the share of a median household's income needed to pay the EMI on a standard home loan for an average-priced home in each city. Above 50% counts as unaffordable because banks rarely lend past that point. Lower home-loan rates in 2025 pushed Mumbai down to 47%. NCR rose only slightly, from 27% to 28%, because prices went up, and Ahmedabad is the most affordable city at 18%. Rents near office hubs are set by local landlords based on demand from nearby workers, so pay growth in a cluster can push asking rents up. Still, how much of a raise rent takes depends on the city and the person.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.freepressjournal.in/business/delhi-ncr-housing-affordability-dips-as-prices-surge-mumbai-improves-below-50-threshold",
+       "published_date": "2025-12-24",
+       "quote": "In Mumbai, housing affordability has improved significantly, with the EMI-to- income ratio declining to 47 per cent in 2025."
+      },
+      {
+       "url": "https://www.freepressjournal.in/business/delhi-ncr-housing-affordability-dips-as-prices-surge-mumbai-improves-below-50-threshold",
+       "published_date": "2025-12-24",
+       "quote": "The affordability index drops marginally in NCR to 28 per cent in 2025 from 27 per cent in the preceding year."
+      },
+      {
+       "url": "https://www.freepressjournal.in/business/delhi-ncr-housing-affordability-dips-as-prices-surge-mumbai-improves-below-50-threshold",
+       "published_date": "2025-12-24",
+       "quote": "An EMI/income ratio over 50 per cent is considered unaffordable."
+      },
+      {
+       "url": "https://www.zeebiz.com/real-estate/news-housing-affordability-2025-falling-interest-rates-mumbai-ahmedabad-pune-knight-frank-386445",
+       "published_date": "2025-12-23",
+       "quote": "Mumbai homes turn more affordable for first time ever as EMI burden falls below 50%"
+      }
+     ]
+    },
+    "text_hash": "085e5c00f4de5a27db4bf283aa2e8bfc1982d8be",
+    "at": "2026-11-10T16:30:12.017337+00:00"
+   }
+  }
+ },
+ "verification": {
+  "passed": false,
+  "take_dead": false,
+  "notes": [
+   "The take's premise is wrong: Premise 4, that Knight Frank's affordability index puts Mumbai and NCR above a 50% EMI-to-income ratio, is false. Knight Frank's full-year 2025 index has Mumbai at 47%, below 50% for the first time, and NCR at 28%, which Knight Frank calls comfortably affordable. NCR has never been near 50% in recent editions. So slide 6, which says buying your way out doesn't work in either city, misstates the source it cites. That is especially true for NCR. Premises 1 to 3 are the writer's reading of how rents near job hubs follow local pay and absorb raises. They are interpretation, not checkable claims about how a price or contract works, so they are not failed here.. How it actually works: Knight Frank's index is the share of a median household's income needed to pay the EMI on a standard home loan for an average-priced home in each city. Above 50% counts as unaffordable because banks rarely lend past that point. Lower home-loan rates in 2025 pushed Mumbai down to 47%. NCR rose only slightly, from 27% to 28%, because prices went up, and Ahmedabad is the most affordable city at 18%. Rents near office hubs are set by local landlords based on demand from nearby workers, so pay growth in a cluster can push asking rents up. Still, how much of a raise rent takes depends on the city and the person. Rebuild the post on the correct mechanism."
+  ],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Rents near office hubs in Indian cities track the earnings of the people who work there.",
+    "sentence": "Rents near the office hubs follow what the people working there earn.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "Salary hikes in a sector show up in rental listings near workplaces before they show up in an employee's bank account.",
+    "sentence": "Every hike in your sector reaches the listings before it reaches your account.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c3",
+    "text": "A salary raise gained through negotiation is largely absorbed by higher rent, so the raise ends up with the landlord.",
+    "sentence": "So the raise you fought for over three rounds of negotiation changes hands in one rent agreement.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c4",
+    "text": "In Mumbai and NCR, home-loan EMIs take more than half of household income.",
+    "sentence": "In Mumbai and NCR, home-loan EMIs take more than half of household income, by Knight Frank's own index.",
+    "type": "figure",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c5",
+    "text": "Knight Frank's affordability index reports that Mumbai and NCR have EMI-to-income ratios above 50%.",
+    "sentence": "by Knight Frank's own index",
+    "type": "entity_attribute",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c6",
+    "text": "Mumbai and NCR are the two biggest housing markets in India.",
+    "sentence": "And buying your way out doesn't work in the two biggest markets.",
+    "type": "superlative",
+    "core": false,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c4": {
+    "id": "c4",
+    "verdict": "supported",
+    "event_date": "2026-07-03",
+    "correct": "Knight Frank's H1 2026 index puts MMR at 69% and Delhi-NCR at 67% EMI-to-income. Both are well above 50%, so 'more than half' holds and understates the ratio. These figures conflict with earlier reports of about 47% for Mumbai, which the lead flagged. Two outlets agree on 69% and 67%, and I could not reach Knight Frank's own report.",
+    "sources": [
+     {
+      "url": "https://www.outlookmoney.com/invest/homebuyer-affordability-holds-steady-in-six-of-eight-cities-in-h1-2026-says-report",
+      "publisher": "Outlook Money",
+      "published_date": "2026-07-05",
+      "quote": "Delhi-NCR and MMR are the least affordable markets, and both exceed the 50% threshold.",
+      "tier": 2
+     }
+    ]
+   },
+   "c5": {
+    "id": "c5",
+    "verdict": "supported",
+    "event_date": "2026-07-03",
+    "correct": "Knight Frank India Affordability Index, H1 2026 (January to June 2026): MMR 69%, NCR 67%. These are the only two of the eight markets above 50%.",
+    "sources": [
+     {
+      "url": "https://www.freepressjournal.in/mumbai/mumbai-housing-mmr-remains-indias-least-affordable-property-market-despite-lower-home-loan-rates-says-knight-frank",
+      "publisher": "Free Press Journal",
+      "published_date": "2026-07-03",
+      "quote": "MMR's affordability index remained unchanged at 69% in H1 2026.",
+      "tier": 2
+     }
+    ]
+   },
+   "c6": {
+    "id": "c6",
+    "verdict": "misframed",
+    "event_date": null,
+    "correct": "MMR is clearly the biggest housing market by sales. NCR is not clearly the second. Anarock's 2026 data show MMR and Bengaluru together taking about 48% of top-7 sales, and NCR's Q2 2026 sales were about 13,365 units against about 28,710 for MMR. Bengaluru is the second-largest by unit sales. NCR could rank second on some other measure, such as value or stock, but I did not confirm that.",
+    "sources": [
+     {
+      "url": "https://www.businesstoday.in/real-estate/story/housing-sales-in-top-seven-cities-rise-3-percent-on-year-in-q3-mumbai-records-highest-sales-558274-2026-09-29",
+      "publisher": "Business Today (Anarock Q3 2026)",
+      "published_date": "2026-09-29",
+      "quote": "Mumbai records highest sales",
+      "tier": 2
+     }
+    ]
+   }
+  },
+  "mechanism": {
+   "holds": false,
+   "broken_premise": "Premise 4, that Knight Frank's affordability index puts Mumbai and NCR above a 50% EMI-to-income ratio, is false. Knight Frank's full-year 2025 index has Mumbai at 47%, below 50% for the first time, and NCR at 28%, which Knight Frank calls comfortably affordable. NCR has never been near 50% in recent editions. So slide 6, which says buying your way out doesn't work in either city, misstates the source it cites. That is especially true for NCR. Premises 1 to 3 are the writer's reading of how rents near job hubs follow local pay and absorb raises. They are interpretation, not checkable claims about how a price or contract works, so they are not failed here.",
+   "actual_mechanism": "Knight Frank's index is the share of a median household's income needed to pay the EMI on a standard home loan for an average-priced home in each city. Above 50% counts as unaffordable because banks rarely lend past that point. Lower home-loan rates in 2025 pushed Mumbai down to 47%. NCR rose only slightly, from 27% to 28%, because prices went up, and Ahmedabad is the most affordable city at 18%. Rents near office hubs are set by local landlords based on demand from nearby workers, so pay growth in a cluster can push asking rents up. Still, how much of a raise rent takes depends on the city and the person.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://www.freepressjournal.in/business/delhi-ncr-housing-affordability-dips-as-prices-surge-mumbai-improves-below-50-threshold",
+     "published_date": "2025-12-24",
+     "quote": "In Mumbai, housing affordability has improved significantly, with the EMI-to- income ratio declining to 47 per cent in 2025."
+    },
+    {
+     "url": "https://www.freepressjournal.in/business/delhi-ncr-housing-affordability-dips-as-prices-surge-mumbai-improves-below-50-threshold",
+     "published_date": "2025-12-24",
+     "quote": "The affordability index drops marginally in NCR to 28 per cent in 2025 from 27 per cent in the preceding year."
+    },
+    {
+     "url": "https://www.freepressjournal.in/business/delhi-ncr-housing-affordability-dips-as-prices-surge-mumbai-improves-below-50-threshold",
+     "published_date": "2025-12-24",
+     "quote": "An EMI/income ratio over 50 per cent is considered unaffordable."
+    },
+    {
+     "url": "https://www.zeebiz.com/real-estate/news-housing-affordability-2025-falling-interest-rates-mumbai-ahmedabad-pune-knight-frank-386445",
+     "published_date": "2025-12-23",
+     "quote": "Mumbai homes turn more affordable for first time ever as EMI burden falls below 50%"
+    }
+   ]
+  },
+  "text_hash": "085e5c00f4de5a27db4bf283aa2e8bfc1982d8be",
+  "at": "2026-11-10T16:30:12.017337+00:00"
+ },
+ "error": "Fact gate: The take's premise is wrong: Premise 4, that Knight Frank's affordability index puts Mumbai and NCR above a 50% EMI-to-income ratio, is false. Knight Frank's full-year 2025 index has Mumbai at 47%, below 50% for the first time, and NCR at 28%, which Knight Frank calls comfortably affordable. NCR has never been near 50% in recent editions. So slide 6, which says buying your way out doesn't work in either city, misstates the source it cites. That is especially true for NCR. Premises 1 to 3 are the writer's reading of how rents near job hubs follow local pay and absorb raises. They are interpretation, not checkable claims about how a price or contract works, so they are not failed here.. How it actually works: Knight Frank's index is the share of a median household's income needed to pay the EMI on a standard home loan for an average-priced home in each city. Above 50% counts as "
 }
