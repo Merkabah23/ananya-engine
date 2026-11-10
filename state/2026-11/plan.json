@@ -1,45 +1,335 @@
 [
  {
-  "due": "2026-11-22T20:30:00+05:30",
+  "due": "2026-11-17T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "Insurance bought for tax, not hospitals",
-   "claim": "Most of us buy health insurance in March for the tax form, which is why we find the room-rent clause in a hospital corridor.",
-   "moment": "An HR email reminding you to submit tax proofs, and a policy bought in 20 minutes.",
+   "title": "Who your RM works for",
+   "claim": "The relationship manager who calls you 'sir' and remembers your birthday earns more when you buy the product that's worse for you.",
+   "moment": "The bank RM visits with a 'guaranteed return' plan that is half insurance, half investment.",
    "turn": {
-    "believed": "Having a policy means you're covered.",
-    "actually": "A room-rent cap can cut the whole bill in proportion, so the cover shrinks right when you need it."
+    "believed": "The RM is the bank's free advisor for me.",
+    "actually": "The RM is a salesperson with targets, and some products pay far better commissions than others."
    },
-   "feeling": "Responsible on paper, exposed in real life.",
-   "villain": "Policies sold as tax savers with limits buried in fine print",
+   "feeling": "Naive for trusting the friendliest person at the bank.",
+   "villain": "Cross-sell targets and commission structures inside banks",
    "story_type": "objection",
-   "because": "Tax season pushes people to buy fast and buy cheap. Cheap policies often save money through caps that only show up at claim time.",
-   "payoff": "Open your policy tonight and search one word: 'room'. That line decides your next hospital bill.",
+   "because": "Insurance-linked plans pay higher commissions than a plain FD or index fund. The warmth is real, and so is the target.",
+   "payoff": "Ask your RM one question: 'What do you earn if I buy this?' Watch how long the answer takes.",
    "lived": false,
-   "behaviour": "Salaried people buy policies before tax deadlines on price alone and never read sub-limits.",
-   "mechanism": "A deadline makes people buy the cheapest policy, and caps keep that policy cheap.",
-   "group": "Salaried earners and those buying cover for parents",
+   "behaviour": "RMs push ULIPs and endowment plans to salaried customers and to their parents.",
+   "mechanism": "The product that pays the seller most gets pitched hardest.",
+   "group": "Salaried account holders and their parents",
    "territory": "money_status",
    "mood": "dark_pattern",
-   "format_name": "price_tells",
-   "send_to": "The sibling who bought parents' insurance in a rush last March.",
+   "format_name": "behind_the_brand",
+   "send_to": "Their parents, who just got a call from the bank",
    "format_hint": "carousel",
-   "why_now": "Renewals and tax planning both start creeping in before year-end.",
-   "needs_facts": "How proportionate deduction works when a room-rent limit is exceeded.",
+   "why_now": "Bonus and year-end tax-saving season is when the RM calls start.",
+   "needs_facts": "That commissions on insurance-linked products are higher than on plain deposits, from IRDAI or SEBI disclosures",
    "news_peg": null,
    "evidence": [],
-   "id": "2026-11-081649-041",
+   "id": "2026-11-101708-039",
    "score": {
-    "rank": 1,
-    "why": "We buy cover in March for the tax form and find the room-rent clause in a hospital corridor; the test is one word, 'room', that you can search tonight.",
+    "rank": 3,
+    "why": "The friendly bank RM is a salesperson with a target, and the question 'what do you earn?' is a test readers can run. A natural one to send to parents.",
     "scores": {
-     "relatable": 5,
+     "relatable": 4,
      "fresh_angle": 4,
      "shareable": 5,
-     "saveable": 5,
+     "saveable": 4,
      "because": 5
     },
     "format_fit": "carousel"
+   }
+  }
+ },
+ {
+  "due": "2026-11-19T20:30:00+05:30",
+  "format": "carousel",
+  "topic": {
+   "title": "We read 1-star reviews to buy",
+   "claim": "We read 1-star reviews to decide to buy, not to avoid. If the complaint is about delivery, we're sold.",
+   "moment": "You skip the 5 stars and go straight to the angriest review, which says 'box came dented'.",
+   "turn": {
+    "believed": "Bad reviews warn us off.",
+    "actually": "Bad reviews are the only ones we trust, so a harmless complaint works as an endorsement."
+   },
+   "feeling": "Relieved I finally have a reason to trust something.",
+   "villain": "Review sections so full of paid praise that only complaints feel real",
+   "story_type": "teaching",
+   "because": "We know 5-star reviews can be bought. A real complaint about a small thing proves the product survived real use.",
+   "payoff": "The best review a brand can get is a 1-star about the courier.",
+   "lived": false,
+   "behaviour": "Shoppers filter by lowest rating first and buy if the flaws are irrelevant to them.",
+   "mechanism": "Paid praise made complaints the only signal left.",
+   "group": "Online shoppers who research before buying",
+   "territory": "creators_internet",
+   "mood": "funny",
+   "format_name": "saturday_single",
+   "send_to": "The friend who takes 40 minutes to buy a kettle",
+   "format_hint": "single",
+   "why_now": "Paid and fake reviews have made star ratings feel useless.",
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-11-101708-038",
+   "score": {
+    "rank": 2,
+    "why": "We go straight to the angriest review, and a harmless complaint ends up working as an endorsement. It's a funny, true habit most people never examine.",
+    "scores": {
+     "relatable": 5,
+     "fresh_angle": 5,
+     "shareable": 4,
+     "saveable": 3,
+     "because": 4
+    },
+    "format_fit": "single"
+   }
+  }
+ },
+ {
+  "due": "2026-11-25T20:30:00+05:30",
+  "format": "carousel",
+  "topic": {
+   "title": "Only three units left",
+   "claim": "'Only three units left at this price' at a site visit is a price ladder, not a shortage.",
+   "moment": "The sales lady says the price goes up next week, and the cheque book suddenly feels urgent.",
+   "turn": {
+    "believed": "Flats are selling out fast.",
+    "actually": "Builders release stock in slabs and raise the price each slab, so 'last units' is always true."
+   },
+   "feeling": "Rushed into the biggest cheque of my life.",
+   "villain": "Phased inventory releases built into builder pricing",
+   "story_type": "teaching",
+   "because": "Each price step rewards early buyers on paper and pushes late ones to hurry. The builder controls how many units are 'left'.",
+   "payoff": "Ask how many units are unreleased, not how many are left.",
+   "lived": false,
+   "behaviour": "Builders announce price hikes by phase and run 'limited' offers at site visits.",
+   "mechanism": "Controlled releases manufacture urgency.",
+   "group": "First-time home buyers, 28 to 35",
+   "territory": "money_status",
+   "mood": "dark_pattern",
+   "format_name": "price_tells",
+   "send_to": "The couple doing site visits every Sunday",
+   "format_hint": "carousel",
+   "why_now": "Festive launches just pushed a wave of 'new phase' pricing.",
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-11-101708-041",
+   "score": {
+    "rank": 4,
+    "why": "'Last units' is always true because the builder controls what's released. The sharp question to ask is how many units are unreleased.",
+    "scores": {
+     "relatable": 4,
+     "fresh_angle": 4,
+     "shareable": 4,
+     "saveable": 4,
+     "because": 5
+    },
+    "format_fit": "carousel"
+   }
+  }
+ },
+ {
+  "due": "2026-11-27T20:30:00+05:30",
+  "format": "carousel",
+  "topic": {
+   "title": "The free trial is priced on forgetting",
+   "claim": "A free trial isn't priced on the people who love the product. It's priced on the people who forget to cancel.",
+   "moment": "A ₹499 debit in month three for an app you opened twice.",
+   "turn": {
+    "believed": "Trials let you test before you pay.",
+    "actually": "Trials work best for the company when you don't remember them."
+   },
+   "feeling": "Careless, and annoyed at myself.",
+   "villain": "Auto-renew subscriptions with cancel buttons buried three screens deep",
+   "story_type": "teaching",
+   "because": "Auto-pay on UPI or card means silence counts as yes. Every forgotten trial is revenue with no service cost.",
+   "payoff": "Open your UPI autopay list tonight. Count the ones you'd sign up for again today.",
+   "lived": false,
+   "behaviour": "Apps ask for a mandate up front, then make cancelling harder than joining.",
+   "mechanism": "Inertia earns more than delight.",
+   "group": "Anyone with three or more subscriptions",
+   "territory": "business_brands",
+   "mood": "sharp",
+   "format_name": "price_tells",
+   "send_to": "The sibling who pays for four OTT apps",
+   "format_hint": "carousel",
+   "why_now": "UPI autopay has made signing up one tap and cancelling a hunt.",
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-11-101708-037",
+   "score": {
+    "rank": 5,
+    "why": "A free trial is priced on the people who forget to cancel. The UPI autopay check is a test readers will actually do tonight.",
+    "scores": {
+     "relatable": 5,
+     "fresh_angle": 4,
+     "shareable": 4,
+     "saveable": 5,
+     "because": 4
+    },
+    "format_fit": "carousel"
+   }
+  }
+ },
+ {
+  "due": null,
+  "format": "spare",
+  "topic": {
+   "title": "The ₹350 chair",
+   "claim": "Half of what you pay for café coffee is rent on a chair, because our cities have almost nowhere free to sit.",
+   "moment": "You buy a cold coffee you don't want so you can take a call for an hour.",
+   "turn": {
+    "believed": "We're paying for good coffee.",
+    "actually": "We're paying for a seat, a plug and Wi-Fi, with the coffee as the ticket."
+   },
+   "feeling": "Like I'm paying an entry fee to exist in my own city.",
+   "villain": "Cities with almost no free public places to sit: few libraries, parks or plazas",
+   "story_type": "objection",
+   "because": "When the only places to sit are ones that sell something, the café can price the seat. The menu is just how it bills you.",
+   "payoff": "Would you buy that coffee if you could sit in a park with Wi-Fi? Then you know what you paid for.",
+   "lived": true,
+   "behaviour": "People work, date and take calls from cafés, buying one drink per hour as rent.",
+   "mechanism": "Scarce free space lets private places charge for sitting.",
+   "group": "Young professionals in metros, often in shared flats",
+   "territory": "money_status",
+   "mood": "mixed",
+   "format_name": "price_tells",
+   "send_to": "The friend who 'works from a café' three days a week",
+   "format_hint": "carousel",
+   "why_now": "Hybrid work has filled cafés with laptops on weekdays.",
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [
+    {
+     "url": "https://www.reddit.com/r/hyderabad/comments/1x91z4w/i_dont_want_more_cafes_i_want_clean_parks_and/",
+     "sub": "hyderabad",
+     "rank": 23
+    }
+   ],
+   "real_details": [
+    "A r/hyderabad post says the poster doesn't want more cafes and wants clean parks and public spaces instead. The thread text includes no comments, numbers or personal stories."
+   ],
+   "id": "2026-11-101708-034",
+   "score": {
+    "rank": 6,
+    "why": "The café coffee is the ticket for a chair. Cities with nowhere free to sit explain it, and the line reads as an everyday observation, not a complaint.",
+    "scores": {
+     "relatable": 5,
+     "fresh_angle": 4,
+     "shareable": 4,
+     "saveable": 3,
+     "because": 4
+    },
+    "format_fit": "carousel"
+   }
+  }
+ },
+ {
+  "due": null,
+  "format": "spare",
+  "topic": {
+   "title": "The photographer runs the wedding",
+   "claim": "At Indian weddings now, the rituals wait for the photographer, because the album is the part the relatives will actually see.",
+   "moment": "The pandit pauses the pheras while the camera team asks the couple to 'do that again, slowly'.",
+   "turn": {
+    "believed": "Weddings are about the ceremony.",
+    "actually": "They're about the footage, because the reel reaches more people than the venue holds."
+   },
+   "feeling": "Like a guest at a film shoot.",
+   "villain": "A wedding industry where the content outlives the event",
+   "story_type": "teaching",
+   "because": "The reel gets shown for years and travels further than the event. So the timeline is built around light and angles.",
+   "payoff": "At the next wedding, watch who says 'one more time'. That's the person in charge.",
+   "lived": false,
+   "behaviour": "Couples book the photo team first and plan rituals around golden hour and drone shots.",
+   "mechanism": "Footage reaches more people than the event.",
+   "group": "People going to or planning weddings this season",
+   "territory": "life_relationships",
+   "mood": "funny",
+   "format_name": "feed_anthropology",
+   "send_to": "The friend getting married in December",
+   "format_hint": "carousel",
+   "why_now": "Wedding season has started.",
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-11-101708-044",
+   "score": {
+    "rank": 9,
+    "why": "The rituals wait for the camera because the reel outlives the venue. It fits 'weddings are for the relatives' with a funny, fresh turn.",
+    "scores": {
+     "relatable": 4,
+     "fresh_angle": 4,
+     "shareable": 4,
+     "saveable": 2,
+     "because": 4
+    },
+    "format_fit": "carousel"
+   }
+  }
+ },
+ {
+  "due": null,
+  "format": "spare",
+  "topic": {
+   "title": "Diwali has one film",
+   "claim": "At Diwali the family picks one film and every other release loses, because a festival ticket is a group decision and not a taste decision.",
+   "behaviour": "Families book seats together and choose what everyone, including the grandmother, can sit through. The weekend chart was lopsided: Ramayana took ₹174.00 crore of the top five's ₹252.75 crore net, and Jailer 2 and AK 47 slipped mainly because they lost screens.",
+   "mechanism": "Theatres give shows to whatever fills the hall, and groups fill the hall for the film that is safe for all ages. A hit gets more screens, which makes it look even bigger.",
+   "group": "People who go to the movies with family at festival time",
+   "territory": "pop_culture",
+   "mood": "sharp",
+   "format_name": "saturday_single",
+   "moment": "You wanted to see a different film this Diwali, but the family plan had one name on it.",
+   "turn": {
+    "believed": "The biggest film wins because it is the best film.",
+    "actually": "It wins because a group of different ages can agree on it, and screens then follow the crowd."
+   },
+   "feeling": "Part of a crowd and slightly left out of your own choice",
+   "villain": "A screen-allocation system that rewards whatever fills the hall in the first weekend",
+   "story_type": "teaching",
+   "because": "Exhibitors earn from full halls, so they move shows to the film families choose. The second-choice film loses its place even if people liked it.",
+   "proof": [
+    {
+     "fact": "Sacnilk puts the top five films at ₹252.75 crore net for the Diwali weekend, with Ramayana taking ₹174.00 Cr (69% of that). Jailer 2 and AK 47 slipped mainly because they lost screens.",
+     "source_url": "https://www.sacnilk.com/news/top-5-indian-box-office-weekend-november-6-8-collections-cross-250-crore-net-as-ramayana-leads-with-69-share",
+     "date": "2026-11-09"
+    }
+   ],
+   "lived": false,
+   "payoff": "A festival hit is the film the whole family could say yes to, not necessarily the one anyone loved most.",
+   "send_to": "The friend who always ends up watching what the family picks",
+   "format_hint": "single",
+   "real_details": [
+    "Scene grew on both Saturday and Sunday, unlike the usual front-loaded star release"
+   ],
+   "evidence": [
+    {
+     "url": "https://www.sacnilk.com/news/top-5-indian-box-office-weekend-november-6-8-collections-cross-250-crore-net-as-ramayana-leads-with-69-share",
+     "sub": "news",
+     "rank": 0
+    }
+   ],
+   "news_peg": "Sacnilk's Diwali weekend (November 6-8) box office report (2026-11-09)",
+   "why_now": "The Diwali weekend numbers have just come out.",
+   "counterintuitive": false,
+   "needs_facts": true,
+   "id": "2026-11-101708-017",
+   "score": {
+    "rank": 12,
+    "why": "A festival ticket is a group decision, not a taste decision. The box-office fact supports the argument instead of being the point.",
+    "scores": {
+     "relatable": 4,
+     "fresh_angle": 4,
+     "shareable": 4,
+     "saveable": 2,
+     "because": 4
+    },
+    "format_fit": "single"
    }
   }
  }

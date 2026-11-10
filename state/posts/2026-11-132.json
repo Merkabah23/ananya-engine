@@ -1,6 +1,6 @@
 {
  "id": "2026-11-132",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-23T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -43,6 +43,291 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-11-10T16:45:14.796149+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Failure 8, no payoff: slide 8 ends on instructions, not a sting or a line to repeat. \"Open your UPI history tonight.\" / \"Keep them. And send the ₹600 you still owe.\" The test is allowed, but \"keep them\" and \"send the ₹600\" turn the close into a do-this lecture."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "slide 8: Drop the coaching (\"Keep them\", \"send the ₹600\"). Keep the test, which is to find the friend who never made you ask twice. End on one human line that stings or gets repeated. For example, that friend has been quietly absorbing the awkwardness for the whole group, and nobody noticed. Also cut the caption's first-person \"Writing this with ₹600 unpaid\". The topic is pure observation, so \"I\" there is invented.",
+     "slide 7: The first line repeats the cover (\"isn't fussy\") and the turn from slide 2, so it adds nothing new. Replace it with the because in fresh words. The fast payer pays the small amount early so it never becomes the thing nobody can mention. \"You forgot, again\" lectures the slow payer, which undercuts the warmth. Make it a shared feeling instead.",
+     "slides 3-5: These three slides keep saying the same thing, that small unpaid amounts sit there. Slide 4 mostly restates slide 3. Merge them, or give slide 4 a new beat, namely the waiting person's feeling (opening the chat, seeing \"seen\", typing and deleting the reminder). Make slide 5 concrete. \"A cold reply about something else\" is abstract, so show the actual reply, like a one-word answer in the group chat, and let readers see themselves in it.",
+     "slide 6: \"The apps know it\" generalises from one source. Name Paytm only. The source says only that the app can send reminders. It does not say why, so keep the claim to \"the app will do the asking for you\" and let the reader draw the friendship point. Slide 2's \"rarely the fast payer\" is also an unsupported assertion, so phrase it as the observation it is.",
+     "slide 3: Add one detail beyond sight to make the scene live. The phone buzz of \"payment received\" lands before the cab shows up, while everyone else is still typing \"ghar jaake karta hoon\". That sound is what the fast payer's gesture feels like from the receiving end."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Failure 8, no payoff: slide 8 ends on instructions, not a sting or a line to repeat. \"Open your UPI history tonight.\" / \"Keep them. And send the ₹600 you still owe.\" The test is allowed, but \"keep them\" and \"send the ₹600\" turn the close into a do-this lecture.",
+    "slide 8: Drop the coaching (\"Keep them\", \"send the ₹600\"). Keep the test, which is to find the friend who never made you ask twice. End on one human line that stings or gets repeated. For example, that friend has been quietly absorbing the awkwardness for the whole group, and nobody noticed. Also cut the caption's first-person \"Writing this with ₹600 unpaid\". The topic is pure observation, so \"I\" there is invented.",
+    "slide 7: The first line repeats the cover (\"isn't fussy\") and the turn from slide 2, so it adds nothing new. Replace it with the because in fresh words. The fast payer pays the small amount early so it never becomes the thing nobody can mention. \"You forgot, again\" lectures the slow payer, which undercuts the warmth. Make it a shared feeling instead.",
+    "slides 3-5: These three slides keep saying the same thing, that small unpaid amounts sit there. Slide 4 mostly restates slide 3. Merge them, or give slide 4 a new beat, namely the waiting person's feeling (opening the chat, seeing \"seen\", typing and deleting the reminder). Make slide 5 concrete. \"A cold reply about something else\" is abstract, so show the actual reply, like a one-word answer in the group chat, and let readers see themselves in it.",
+    "slide 6: \"The apps know it\" generalises from one source. Name Paytm only. The source says only that the app can send reminders. It does not say why, so keep the claim to \"the app will do the asking for you\" and let the reader draw the friendship point. Slide 2's \"rarely the fast payer\" is also an unsupported assertion, so phrase it as the observation it is.",
+    "slide 3: Add one detail beyond sight to make the scene live. The phone buzz of \"payment received\" lands before the cab shows up, while everyone else is still typing \"ghar jaake karta hoon\". That sound is what the fast payer's gesture feels like from the receiving end."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 7: \"Paytm's split feature will even send the reminder for you, in one tap.\" The source only says reminders can be sent from the app. \"In one tap\" is stronger than the source supports, and the claims entry carries no such detail (rule 3)."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "slide 7: Cut \"in one tap\". Say only that the app can send the reminder for you, matching the source. Keep the second line (\"we'd rather a button said it\"), which is the strongest beat in the post.",
+     "slides 3 and 4: Both show the same split-and-pay scene, one with the fast payer and one with the slow ones. Merge them into one slide that holds the contrast: the \"payment received\" buzz before the cab arrives, then the \"ghar jaake karta hoon\" replies. Use the freed slide for a sound or touch detail, such as the phone buzz in the cab, or the thumb hovering over the reminder you type and delete.",
+     "slide 2: It restates the cover (\"isn't stingy\" versus kanjoos) and the \"one still waiting\" line is muddy, because readers will not know who the waiting person is yet. Drop the repeat and use slide 2 to show the scene: someone posts the split and one friend has already paid. Keep the kanjoos label as the belief the post then flips.",
+     "slides 6 and 8: \"Friendships rarely crack over a big fight. They crack over that ₹450.\" is stated as fact with no support. Soften it into the specific thing readers recognise, a small unpaid amount that turns into a one-word \"ok\" in the chat. Slide 8 (\"costs them nothing extra\") only repeats the cover's turn, so tighten it or fold it into slide 6.",
+     "slide 10: \"for years\" is a decorative invented specific, and \"the one debt nobody ever settles\" drifts toward a tidy moral. End on the test and a sharper sting instead. Scroll your UPI history for the friend who never made you ask twice, then note that they never had to be asked."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Slide 7: \"Paytm's split feature will even send the reminder for you, in one tap.\" The source only says reminders can be sent from the app. \"In one tap\" is stronger than the source supports, and the claims entry carries no such detail (rule 3).",
+    "slide 7: Cut \"in one tap\". Say only that the app can send the reminder for you, matching the source. Keep the second line (\"we'd rather a button said it\"), which is the strongest beat in the post.",
+    "slides 3 and 4: Both show the same split-and-pay scene, one with the fast payer and one with the slow ones. Merge them into one slide that holds the contrast: the \"payment received\" buzz before the cab arrives, then the \"ghar jaake karta hoon\" replies. Use the freed slide for a sound or touch detail, such as the phone buzz in the cab, or the thumb hovering over the reminder you type and delete.",
+    "slide 2: It restates the cover (\"isn't stingy\" versus kanjoos) and the \"one still waiting\" line is muddy, because readers will not know who the waiting person is yet. Drop the repeat and use slide 2 to show the scene: someone posts the split and one friend has already paid. Keep the kanjoos label as the belief the post then flips.",
+    "slides 6 and 8: \"Friendships rarely crack over a big fight. They crack over that ₹450.\" is stated as fact with no support. Soften it into the specific thing readers recognise, a small unpaid amount that turns into a one-word \"ok\" in the chat. Slide 8 (\"costs them nothing extra\") only repeats the cover's turn, so tighten it or fold it into slide 6.",
+    "slide 10: \"for years\" is a decorative invented specific, and \"the one debt nobody ever settles\" drifts toward a tidy moral. End on the test and a sharper sting instead. Scroll your UPI history for the friend who never made you ask twice, then note that they never had to be asked."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Dead slide, slide 4: \"The amounts are always small. ₹600 for the birthday cake. ₹450 for the cab you booked.\" It only sets up slide 5. The \"small enough that asking twice looks cheap\" turn is in slide 5, and the amounts repeat what slide 3 already showed."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 3,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "slide 4: Merge it into slide 5. Open slide 5 with \"₹450 is small enough that asking twice makes you look cheap\", then the typed reminder, the hovering thumb and the deleted text. That removes a slide that only sets up the next one and tightens the middle.",
+     "slide 6: Make the grudge concrete. \"A one-word 'ok' about a plan that has nothing to do with money\" is vague, and it is stated as something that always happens. Give one typical, framed-as-typical moment the reader has seen, such as the person who suddenly stops volunteering to book the next trip or goes lukewarm on the next dinner. Frame it as the usual pattern, not a certainty. This is the 'because' of the post, so it needs the most texture.",
+     "slide 7: The Paytm line says the app \"will even send the reminder for you\". The source says you send reminders from the app. Write \"lets you send the reminder from the app\", or \"has a reminder button\". Then sharpen the sting: we built a button so nobody has to say \"you still owe me\". Cut the explaining sentence after it.",
+     "slide 8: This restates the slide 1 thesis almost word for word, so it adds nothing. Replace it with a new beat, such as what the fast payer gets in return (never being the one who has to ask, never being the one owed). Or cut it and let slide 9's guilt carry the turn, since that is the most human line in the post.",
+     "slide 10: The close is a good test, but \"You never had to chase them. They made sure you'd never have to.\" is a mirrored pair and softens the sting. End with one hard line instead, closer to the topic's \"keep them\", for example that the friend who never made you ask is the one who never had to wonder whether you would pay."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "cut_slide": 4,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 3,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 4,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "slide 1: The hook gives away the whole answer (\"They're protecting the friendship\") and the cover headline says it too. Keep the claim, but hold back the reason. For example: \"The friend who pays you back in an hour isn't fussy about money. They're doing something for you.\" Slides 5 to 7 can then cash in the reason.",
+     "slides 4 and 5: Both make the same point, that the small amount goes unasked and gets awkward. Merge them into one slide. Slide 4 also opens with \"Small enough\", but slide 3 ended on a Goa trip advance, which isn't small, so the flow breaks. Use the freed slide for the missing beat the topic already holds: who the slow payer is and how the fast payer sees it. Or show the quiet grudge more concretely, such as the one friend you stop inviting to split things with.",
+     "slide 5: \"Months later it shows up as a one-word 'ok'... about a plan that has nothing to do with money\" asserts a hidden link as fact. Keep it as a typical feeling instead: \"You don't say it. But you remember who made you ask.\" The grudge then comes from the reader's own experience, not a claimed mechanism.",
+     "slide 6 and slide 7: The Paytm line is only texture, since the source covers just the reminder feature. \"We'd rather a button said it\" is the writer's reading, so keep it light. Slide 7 then repeats slide 1 almost word for word. Cut it, or turn it into the sharper line about who gains: the fast payer buys peace for both of you for the price of ₹450.",
+     "slide 9: \"You never had to chase them. They made sure you'd never have to.\" is a mirrored pair, which is the engineered rhetoric the account avoids. Keep the UPI-history test, then close on one stinging line, such as \"That friend wasn't careful with money. They were careful with you.\" Also add the topic's \"keep them\" so the ending has a clear sting."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Dead slide, slide 4: \"The amounts are always small. ₹600 for the birthday cake. ₹450 for the cab you booked.\" It only sets up slide 5. The \"small enough that asking twice looks cheap\" turn is in slide 5, and the amounts repeat what slide 3 already showed.",
+    "slide 4: Merge it into slide 5. Open slide 5 with \"₹450 is small enough that asking twice makes you look cheap\", then the typed reminder, the hovering thumb and the deleted text. That removes a slide that only sets up the next one and tightens the middle.",
+    "slide 6: Make the grudge concrete. \"A one-word 'ok' about a plan that has nothing to do with money\" is vague, and it is stated as something that always happens. Give one typical, framed-as-typical moment the reader has seen, such as the person who suddenly stops volunteering to book the next trip or goes lukewarm on the next dinner. Frame it as the usual pattern, not a certainty. This is the 'because' of the post, so it needs the most texture.",
+    "slide 7: The Paytm line says the app \"will even send the reminder for you\". The source says you send reminders from the app. Write \"lets you send the reminder from the app\", or \"has a reminder button\". Then sharpen the sting: we built a button so nobody has to say \"you still owe me\". Cut the explaining sentence after it.",
+    "slide 8: This restates the slide 1 thesis almost word for word, so it adds nothing. Replace it with a new beat, such as what the fast payer gets in return (never being the one who has to ask, never being the one owed). Or cut it and let slide 9's guilt carry the turn, since that is the most human line in the post.",
+    "slide 10: The close is a good test, but \"You never had to chase them. They made sure you'd never have to.\" is a mirrored pair and softens the sting. End with one hard line instead, closer to the topic's \"keep them\", for example that the friend who never made you ask is the one who never had to wonder whether you would pay."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "slide 5: \"Their 'haan, dekhte hain' for the next dinner gets slower every time\" is muddled. It is unclear whose reply this is, and it reads like the creditor is punishing the debtor. Make it one clear, typical reaction by the creditor, e.g. the friend who always booked the trip quietly stops booking, and the group wonders why. Cut \"Usually\", which hedges the point. Say it straight.",
+     "slides 4-5: These two make the same point, that asking is awkward and the money goes quiet. Merge them into one tighter slide and use the freed space for one new beat. Slide 4's \"thumb hovers over send, then you delete it\" is the strongest line, so keep it. The new beat could be the creditor rehearsing the joke version (\"bhai yaad dila raha hoon 😂\") instead of just saying it. That is a scene every reader has lived.",
+     "slide 6: The Paytm line is a product aside and sits oddly between the consequence and the payoff. Tie it to the turn: the app had to build a reminder button because we can't say it ourselves, while the fast payer needs no reminder because they never put anyone in that spot. Otherwise cut it. The fact is sourced but is not carrying the opinion.",
+     "slide 6/7: \"A clean slate\" and \"never keep a count in their head\" are abstract. Show what the fast payer gets in everyday terms, like being able to ask you for something else later without it feeling like a debt. Slide 7's insight (sending the ₹600 starts to feel more awkward than owing it) is the best line in the post. Move it earlier, or give it more room, so the guilt lands before the payoff.",
+     "slide 8: \"Friendships end over ₹450, and no one ever says why\" overclaims beyond what slides 4-5 showed. Soften it to what the post earned, e.g. that the distance grows over small unpaid money and nobody names it, and end on a sharper repeatable line. \"Keep that one\" edges toward instruction. Let the test (scroll your UPI history) do the work."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "slide 5: \"Their 'haan, dekhte hain' for the next dinner gets slower every time\" is muddled. It is unclear whose reply this is, and it reads like the creditor is punishing the debtor. Make it one clear, typical reaction by the creditor, e.g. the friend who always booked the trip quietly stops booking, and the group wonders why. Cut \"Usually\", which hedges the point. Say it straight.",
+    "slides 4-5: These two make the same point, that asking is awkward and the money goes quiet. Merge them into one tighter slide and use the freed space for one new beat. Slide 4's \"thumb hovers over send, then you delete it\" is the strongest line, so keep it. The new beat could be the creditor rehearsing the joke version (\"bhai yaad dila raha hoon 😂\") instead of just saying it. That is a scene every reader has lived.",
+    "slide 6: The Paytm line is a product aside and sits oddly between the consequence and the payoff. Tie it to the turn: the app had to build a reminder button because we can't say it ourselves, while the fast payer needs no reminder because they never put anyone in that spot. Otherwise cut it. The fact is sourced but is not carrying the opinion.",
+    "slide 6/7: \"A clean slate\" and \"never keep a count in their head\" are abstract. Show what the fast payer gets in everyday terms, like being able to ask you for something else later without it feeling like a debt. Slide 7's insight (sending the ₹600 starts to feel more awkward than owing it) is the best line in the post. Move it earlier, or give it more room, so the guilt lands before the payoff.",
+    "slide 8: \"Friendships end over ₹450, and no one ever says why\" overclaims beyond what slides 4-5 showed. Soften it to what the post earned, e.g. that the distance grows over small unpaid money and nobody names it, and end on a sharper repeatable line. \"Keep that one\" edges toward instruction. Let the test (scroll your UPI history) do the work."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-10T16:57:51.860752+00:00",
+ "sources": [
+  {
+   "url": "https://paytm.com/blog/bill-payments/paytm-split-bills/",
+   "fact": "Paytm's split-bills feature has built-in reminders for pending balances, so settling up between friends is often nudged by the app. Nothing on the page ties prompt repayment to a friend's feelings about money. This is a company product page, not research, and it does not support the claim's psychological reading.",
+   "excerpt": "divide it equally, by exact amount, shares or percentage. Send payment reminders directly from the Paytm app to keep balances clear. Settle dues through Paytm UPI with the amount and recipient details already filled in.",
+   "date": "2026-08-25"
+  },
+  {
+   "url": "https://artha.global/project/upi-usage-patterns/",
+   "fact": "In a nationwide rapid survey of 2,098 respondents, 17% of UPI users used it to send money to friends and family. The survey says nothing about repayment speed or what it signals, so the claim stays an interpretation rather than an established fact.",
+   "excerpt": "15% of UPI users used it for online shopping, 17% for money transfers to friends and family, and 6% for paying bills. Sending money to friends and family was more popular among women than among men.",
+   "date": "2025-01-31"
+  }
+ ],
+ "draft": {
+  "cover": {
+   "headline": "The friend who pays back in an hour is [protecting the friendship]",
+   "sub": "We call them fussy about money. Look again."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "The friend who pays back on UPI within an hour isn't stingy. They're protecting the friendship.\nSwipe to read →"
+    ],
+    "why_swipe": "How is paying fast about the friendship and not the money?"
+   },
+   {
+    "paragraphs": [
+     "Dinner ends. Someone posts the split in the group: ₹1,240 each. The bill isn't even out of the waiter's hand and one friend has already paid.",
+     "We call this friend kanjoos, or \"too particular\"."
+    ],
+    "why_swipe": "What do the rest of us do?"
+   },
+   {
+    "paragraphs": [
+     "If you paid the bill, your phone buzzes \"payment received\" before the cab shows up.",
+     "The rest of us are still typing \"ghar jaake karta hoon\". The Goa trip advance stays unpaid till the next trip gets planned."
+    ],
+    "why_swipe": "What does that unpaid money do to the person who paid?"
+   },
+   {
+    "paragraphs": [
+     "₹450 is small enough that asking twice makes you look cheap. So you type the reminder, your thumb hovers over send, and you delete it. The chat says \"seen\". Nothing comes."
+    ],
+    "why_swipe": "So what happens to all that unasked money?"
+   },
+   {
+    "paragraphs": [
+     "That ₹450 doesn't go away. It just goes quiet.",
+     "Usually it comes out sideways. The friend who always booked the trip stops volunteering. Their \"haan, dekhte hain\" for the next dinner gets slower every time."
+    ],
+    "why_swipe": "If it's this common, why does it stay unsaid?"
+   },
+   {
+    "paragraphs": [
+     "Paytm's split feature has a reminder button.",
+     "We built a button so nobody has to type \"you still owe me\"."
+    ],
+    "why_swipe": "So what does the fast payer get out of it?"
+   },
+   {
+    "paragraphs": [
+     "Here's what the fast payer gets back: a clean slate. They're never the one owed, so they never keep a count in their head or decide whether to ask."
+    ],
+    "why_swipe": "And which one have you been?"
+   },
+   {
+    "paragraphs": [
+     "And most of us have been the slow one. You meant to pay. Then a day became a week, and sending the ₹600 started to feel more awkward than owing it."
+    ],
+    "why_swipe": "So who is that friend in your group?"
+   },
+   {
+    "paragraphs": [
+     "Scroll your UPI history and find the friend who has never once made you ask twice.",
+     "Keep that one. Friendships end over ₹450, and no one ever says why."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Come back to this the next time a split lands in your group chat after dinner.",
+   "send": "Send to the friend who always pays first, so they know someone noticed.",
+   "promise": "How Indian friendships really work."
+  },
+  "caption": "The fastest payer in the group is usually the one who cares most about the group.",
+  "hashtags": [
+   "#UPI",
+   "#FriendshipIndia",
+   "#SplittingBills",
+   "#IndianFriendGroups"
+  ],
+  "alt_text": "A 9-slide text post arguing that the friend who repays on UPI within an hour isn't fussy about money but is protecting the friendship. It shows the dinner split where one friend pays almost instantly and gets called kanjoos, the 'payment received' buzz before the cab arrives while others reply 'ghar jaake karta hoon', and the unpaid trip advance. It describes how ₹450 is small enough that asking twice feels cheap, so people type a reminder and delete it. The unpaid amount usually comes out sideways: the friend who always booked trips stops volunteering and replies slower to dinner plans. It notes Paytm's split feature has a reminder button, so nobody has to type 'you still owe me', that the fast payer gets a clean slate and never has to keep count, and that most of us have been the slow one. It ends by asking readers to find the friend in their UPI history who never made them ask twice and keep them, because friendships end over ₹450 and no one says why.",
+  "claims": [
+   {
+    "text": "Paytm's split-bills feature lets users send payment reminders for pending balances from the app.",
+    "source_url": "https://paytm.com/blog/bill-payments/paytm-split-bills/"
+   }
+  ]
+ }
 }
