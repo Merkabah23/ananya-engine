@@ -1,6 +1,6 @@
 {
  "id": "2026-11-135",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-23T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -65,6 +65,287 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-11-10T16:57:51.930097+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Hard failure 14 (relatability asserted, not shown): the only example a reader has actually seen is Saif/ghee. Slide 2's 'make your own memes' post is generic, with no brand or film the reader remembers. The Ramayana example is a single film's backlash, and slide 3 says that backlash was about reverence, not about the joke being planned. That undercuts the 'planned joke' mechanism the post rests on.",
+     "Hard failure 7 (dead slide): slide 8, 'A real meme can't be scheduled. A brand can only borrow one, and that makes for an awkward slide in a review.' It repeats slides 6 and 7 and adds no new example, consequence or feeling. The 'awkward slide in a review' line is vague."
+    ],
+    "scores": {
+     "hook": 3,
+     "relatable": 3,
+     "fresh_angle": 3,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 3,
+     "eq": 3,
+     "iq": 3,
+     "story": 3,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "slide 3: The Ramayana backlash was about reverence, but the post's thesis is that planted jokes look planned. Say that directly: the handle posted templates, and some people thought memes were wrong for this story at all. Then separate the two ideas. Reverence was one problem. The more general problem is the visible plan, and slide 4 should pick that up. Do not claim the backlash proves the mechanism.",
+     "slides 1-2: Give the reader a scene they live in. Name the template post a launch handle drops, then add one concrete everyday reaction: the one-second scroll, the cringe, and the stray reply that says 'admin, we see you'. Skip invented counts. The sub-line already gives away 'you never ask why', so cut that repetition from slide 2.",
+     "slide 7: Name the villain as the system, not 'a social team'. Say the engagement metric rewards a posted template whether or not anyone laughs. Drop 'Monday' and 'Friday's report' unless they carry the point. Present the reach logic as the typical incentive, not a stated fact about every team.",
+     "slide 8: Cut it, or replace it with the real_details beat the topic already holds: after the Saif meme took off on its own, Zomato joined in with Saif puns on its delivery bags. That adds a third familiar example of brands arriving late. It sharpens 'brands that win wait for the joke' without a new claim.",
+     "slide 9: Keep the 'ad with a blank space for your face' closer. Soften the overreach in 'Brands that win wait for the joke', which rests on a single case. Land the feeling the topic wants (talked down to, a target) with one human line earlier. Right now the post explains the mechanism but the reader never feels anything."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Hard failure 14 (relatability asserted, not shown): the only example a reader has actually seen is Saif/ghee. Slide 2's 'make your own memes' post is generic, with no brand or film the reader remembers. The Ramayana example is a single film's backlash, and slide 3 says that backlash was about reverence, not about the joke being planned. That undercuts the 'planned joke' mechanism the post rests on.",
+    "Hard failure 7 (dead slide): slide 8, 'A real meme can't be scheduled. A brand can only borrow one, and that makes for an awkward slide in a review.' It repeats slides 6 and 7 and adds no new example, consequence or feeling. The 'awkward slide in a review' line is vague.",
+    "slide 3: The Ramayana backlash was about reverence, but the post's thesis is that planted jokes look planned. Say that directly: the handle posted templates, and some people thought memes were wrong for this story at all. Then separate the two ideas. Reverence was one problem. The more general problem is the visible plan, and slide 4 should pick that up. Do not claim the backlash proves the mechanism.",
+    "slides 1-2: Give the reader a scene they live in. Name the template post a launch handle drops, then add one concrete everyday reaction: the one-second scroll, the cringe, and the stray reply that says 'admin, we see you'. Skip invented counts. The sub-line already gives away 'you never ask why', so cut that repetition from slide 2.",
+    "slide 7: Name the villain as the system, not 'a social team'. Say the engagement metric rewards a posted template whether or not anyone laughs. Drop 'Monday' and 'Friday's report' unless they carry the point. Present the reach logic as the typical incentive, not a stated fact about every team.",
+    "slide 8: Cut it, or replace it with the real_details beat the topic already holds: after the Saif meme took off on its own, Zomato joined in with Saif puns on its delivery bags. That adds a third familiar example of brands arriving late. It sharpens 'brands that win wait for the joke' without a new claim.",
+    "slide 9: Keep the 'ad with a blank space for your face' closer. Soften the overreach in 'Brands that win wait for the joke', which rests on a single case. Land the feeling the topic wants (talked down to, a target) with one human line earlier. Right now the post explains the mechanism but the reader never feels anything."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 3,
+     "tight": 3,
+     "informative": 4
+    },
+    "notes": [
+     "slide 4: The proof doesn't match the claim. The source says the Ramayana backlash was about memes being wrong for a revered story, not about the joke being planned. \"The bigger problem shows up on every brand's template\" is vague and doesn't connect. Keep the sourced fact at its real strength (a sacred story makes a forced joke jarring), then say plainly what the problem is: the reader can see the brief behind the template. Don't imply the backlash was about planning.",
+     "slide 9: Zomato's puns repeat slide 6's \"brand arrives late\" beat and add nothing new, and \"Late, borrowed, and easy to smile at\" is a soft punch. Cut the slide or merge Zomato into slide 6 as a one-line second example. If you keep it, give it a new beat, such as what the latecomer owes the crowd. Cutting it also makes the close land sooner.",
+     "slide 1 and slide 10: \"Homework\" is the hook, but it is never explained or called back. Show what the homework is on slide 7: the brand hands the crowd its work, you do the unpaid part of the campaign, and you can feel the brief. Then let the close reverse the cover's image, for example: a template is homework the brand sets, while a real meme is something you'd have made anyway. The current ending, \"an ad with a blank space for your face\", is good, so keep it as the final beat.",
+     "slide 8: \"Social media work is mostly judged on reach and engagement\" is a mild hedge, and \"A posted template counts on that report\" is vague. Say it straight, as the topic's because does: a social team is judged on reach, so a template that gets posted scores whether or not anyone laughs. Name the engagement report as the villain in one clean line instead of two explanatory ones.",
+     "slide 6: \"ThePrint called it a marketing win\" reads like a news recap, and the source is only a citation here. Swap it for what it means for the reader: the brand wasn't the one who made the joke, it just showed up when the crowd was already laughing. Keep the ThePrint fact as one short clause at most. Also add one insider detail on slide 3 or 5, such as the way the \"admin, we see you\" reply gets liked or how the scroll feels, so it isn't all sight-level description."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "slide 4: The proof doesn't match the claim. The source says the Ramayana backlash was about memes being wrong for a revered story, not about the joke being planned. \"The bigger problem shows up on every brand's template\" is vague and doesn't connect. Keep the sourced fact at its real strength (a sacred story makes a forced joke jarring), then say plainly what the problem is: the reader can see the brief behind the template. Don't imply the backlash was about planning.",
+    "slide 9: Zomato's puns repeat slide 6's \"brand arrives late\" beat and add nothing new, and \"Late, borrowed, and easy to smile at\" is a soft punch. Cut the slide or merge Zomato into slide 6 as a one-line second example. If you keep it, give it a new beat, such as what the latecomer owes the crowd. Cutting it also makes the close land sooner.",
+    "slide 1 and slide 10: \"Homework\" is the hook, but it is never explained or called back. Show what the homework is on slide 7: the brand hands the crowd its work, you do the unpaid part of the campaign, and you can feel the brief. Then let the close reverse the cover's image, for example: a template is homework the brand sets, while a real meme is something you'd have made anyway. The current ending, \"an ad with a blank space for your face\", is good, so keep it as the final beat.",
+    "slide 8: \"Social media work is mostly judged on reach and engagement\" is a mild hedge, and \"A posted template counts on that report\" is vague. Say it straight, as the topic's because does: a social team is judged on reach, so a template that gets posted scores whether or not anyone laughs. Name the engagement report as the villain in one clean line instead of two explanatory ones.",
+    "slide 6: \"ThePrint called it a marketing win\" reads like a news recap, and the source is only a citation here. Swap it for what it means for the reader: the brand wasn't the one who made the joke, it just showed up when the crowd was already laughing. Keep the ThePrint fact as one short clause at most. Also add one insider detail on slide 3 or 5, such as the way the \"admin, we see you\" reply gets liked or how the scroll feels, so it isn't all sight-level description."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 5: \"But a shoe brand's template flops too. Under every one of them, you can see the brief.\" The unnamed shoe-brand flop is an invented, unsourced event. \"Under every one of them\" is a sweeping claim the post never shows.",
+     "Relatability (hard failure 14): the post shows only one real template example, the Ramayana handle. The second, the shoe brand, is vague and unnamed, so the pattern is asserted rather than shown. Slide 3 gives a typical reply, but there is no second template the reader has actually scrolled past."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 3,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 3,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "slide 5: Delete the shoe-brand line. It is an invented flop and it adds nothing. Replace it with a typical scenario framed as typical, such as the template sitting there while the top reply mocks it, or a brand showing up days late with puns on a trending joke. Name one or two more brands or formats every reader has seen as texture, not as claimed events. The reader needs to recognise this from their own feed, not only from one film.",
+     "slide 4: The Ramayana example muddies the thesis. The backlash was about reverence for a sacred story, not about templates as homework. Say so plainly in one line: the story made the template sting more, but the template was the brand's own plan. Then tie it back to \"the brief is visible\". Otherwise the reader takes away \"don't joke about religion\" and misses the point.",
+     "slide 6-7: Add the Zomato puns on delivery bags from real_details. It is a second brand that arrived after the crowd, and it makes \"late to someone else's joke\" a pattern, not a single Gowardhan case. Also admit that Gowardhan's video was itself planned. The honest rule is that it worked because the crowd had already made the joke, not because the brand stayed out.",
+     "slide 8-9: These repeat each other and slide 10. Slide 8 says the crowd made it and the template flips that. Slide 9 says the team is judged on reach. Slide 10 says if you hand out the template it is an ad. Merge 8 and 9 into one tighter slide. Spend the freed slide on a sensory or insider detail, such as how the \"admin\" reply sounds, or what the brief looks like when it lands in the social team's inbox, so the post goes beyond sight.",
+     "slide 3: \"You feel the cringe and scroll on in a second\" is the post's emotional anchor, but the feeling fades after slide 3. Bring \"talked down to, like a target\" back in one concrete line before slide 10 so the sting lands at the end, not just in the middle."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Slide 5: \"But a shoe brand's template flops too. Under every one of them, you can see the brief.\" The unnamed shoe-brand flop is an invented, unsourced event. \"Under every one of them\" is a sweeping claim the post never shows.",
+    "Relatability (hard failure 14): the post shows only one real template example, the Ramayana handle. The second, the shoe brand, is vague and unnamed, so the pattern is asserted rather than shown. Slide 3 gives a typical reply, but there is no second template the reader has actually scrolled past.",
+    "slide 5: Delete the shoe-brand line. It is an invented flop and it adds nothing. Replace it with a typical scenario framed as typical, such as the template sitting there while the top reply mocks it, or a brand showing up days late with puns on a trending joke. Name one or two more brands or formats every reader has seen as texture, not as claimed events. The reader needs to recognise this from their own feed, not only from one film.",
+    "slide 4: The Ramayana example muddies the thesis. The backlash was about reverence for a sacred story, not about templates as homework. Say so plainly in one line: the story made the template sting more, but the template was the brand's own plan. Then tie it back to \"the brief is visible\". Otherwise the reader takes away \"don't joke about religion\" and misses the point.",
+    "slide 6-7: Add the Zomato puns on delivery bags from real_details. It is a second brand that arrived after the crowd, and it makes \"late to someone else's joke\" a pattern, not a single Gowardhan case. Also admit that Gowardhan's video was itself planned. The honest rule is that it worked because the crowd had already made the joke, not because the brand stayed out.",
+    "slide 8-9: These repeat each other and slide 10. Slide 8 says the crowd made it and the template flips that. Slide 9 says the team is judged on reach. Slide 10 says if you hand out the template it is an ad. Merge 8 and 9 into one tighter slide. Spend the freed slide on a sensory or insider detail, such as how the \"admin\" reply sounds, or what the brief looks like when it lands in the social team's inbox, so the post goes beyond sight.",
+    "slide 3: \"You feel the cringe and scroll on in a second\" is the post's emotional anchor, but the feeling fades after slide 3. Bring \"talked down to, like a target\" back in one concrete line before slide 10 so the sting lands at the end, not just in the middle."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 9 is dead: \"Inside the social team, the brief reads the same every time: make it viral, keep it on brand, by Friday. That's why the chirpy caption lands like a teacher's worksheet. It talks down to you, and counts your reply anyway.\" The reach motive was already given in slide 8, and \"talks down\" repeats slide 2's \"chirpy\" and the cover's homework image. The \"brief reads the same every time\" line is also an insider claim stated as fact, with no source and no new detail."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 3,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 3,
+     "eq": 3,
+     "iq": 4,
+     "story": 3,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "slide 9: Cut it or replace it. Keep the sting (feeling talked down to) and add one new beat the topic already holds: the metric rewards the brand even when you mock it. Something like \"even the 'admin, we see you' reply is engagement in the report.\" Drop the invented brief wording (\"by Friday\", \"every time\") and the second \"chirpy\".",
+     "slide 5: \"An OTT handle... a food app\" is too vague to be seen. Readers won't picture a scene they haven't seen. Either name a kind of post they scroll past daily and show it exactly (what the blank still looks like, the 'caption this' sticker, the logo in the corner), or cut the slide. It also repeats slide 2's description of the template, so slides 2, 3 and 5 say the same thing three times.",
+     "slides 4, 6, 7: These three read like a news recap of the film, Saif and Gowardhan, and the turn gets muddled. Slide 4 says the sting came from reverence, which is a different reason from the post's thesis. Slide 7 says Gowardhan's video was \"planned too\" and was the winning brand. Tighten so the turn is clear: the crowd tells the joke, and the brand arrives late with a pun. Use the real detail in the topic (Zomato's Saif-themed puns on delivery bags) as the familiar example of arriving late. Merge 6 and 7 into one slide and give the freed slide to the reader's own scroll-past moment.",
+     "slide 8: \"A meme is funny because the crowd made it\" restates slides 6 and 7. Start the slide at the new part, the unpaid half of the campaign plus the report that counts posts and not cringe, and sharpen it into a line that names the rule from the inside.",
+     "slide 3 and overall voice: The rhythm is even and a bit explainer-like (\"Now look at...\", \"Same move, smaller stage\"). Add one concrete detail the reader has felt, such as the half-second thumb flick, the reply thread of admin jokes, or the blank grey space on the still, so it reads like someone typing a long-held thought and not a case study."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Slide 9 is dead: \"Inside the social team, the brief reads the same every time: make it viral, keep it on brand, by Friday. That's why the chirpy caption lands like a teacher's worksheet. It talks down to you, and counts your reply anyway.\" The reach motive was already given in slide 8, and \"talks down\" repeats slide 2's \"chirpy\" and the cover's homework image. The \"brief reads the same every time\" line is also an insider claim stated as fact, with no source and no new detail.",
+    "slide 9: Cut it or replace it. Keep the sting (feeling talked down to) and add one new beat the topic already holds: the metric rewards the brand even when you mock it. Something like \"even the 'admin, we see you' reply is engagement in the report.\" Drop the invented brief wording (\"by Friday\", \"every time\") and the second \"chirpy\".",
+    "slide 5: \"An OTT handle... a food app\" is too vague to be seen. Readers won't picture a scene they haven't seen. Either name a kind of post they scroll past daily and show it exactly (what the blank still looks like, the 'caption this' sticker, the logo in the corner), or cut the slide. It also repeats slide 2's description of the template, so slides 2, 3 and 5 say the same thing three times.",
+    "slides 4, 6, 7: These three read like a news recap of the film, Saif and Gowardhan, and the turn gets muddled. Slide 4 says the sting came from reverence, which is a different reason from the post's thesis. Slide 7 says Gowardhan's video was \"planned too\" and was the winning brand. Tighten so the turn is clear: the crowd tells the joke, and the brand arrives late with a pun. Use the real detail in the topic (Zomato's Saif-themed puns on delivery bags) as the familiar example of arriving late. Merge 6 and 7 into one slide and give the freed slide to the reader's own scroll-past moment.",
+    "slide 8: \"A meme is funny because the crowd made it\" restates slides 6 and 7. Start the slide at the new part, the unpaid half of the campaign plus the report that counts posts and not cringe, and sharpen it into a line that names the rule from the inside.",
+    "slide 3 and overall voice: The rhythm is even and a bit explainer-like (\"Now look at...\", \"Same move, smaller stage\"). Add one concrete detail the reader has felt, such as the half-second thumb flick, the reply thread of admin jokes, or the blank grey space on the still, so it reads like someone typing a long-held thought and not a case study."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-10T17:15:47.931546+00:00",
+ "sources": [
+  {
+   "url": "https://www.mediainfoline.com/brand/forget-the-crores-the-internet-wants-two-years-of-gowardhan-ghee",
+   "fact": "The Saif Ali Khan ghee meme began organically from his KBC reaction, with no brand campaign or template behind it. This partly supports the claim that organic memes work better than planted ones. It does not show a brand pile-on or a Ramayana template backlash.",
+   "excerpt": "Social media users began reacting to Saif’s expression. There was no elaborate campaign or planned product narrative. the internet didn't need much convincing.",
+   "date": "2026-10-09"
+  },
+  {
+   "url": "https://theprint.in/feature/vigyapanti/kbc-instagram-saif-ali-khan-gowardhan-ghee-recall/3080600/",
+   "fact": "Gowardhan Ghee joined the organic meme through a collaboration video with Saif Ali Khan, and ThePrint called it a marketing win. This contradicts the claim that brand involvement in a meme necessarily fails. I found no reported pile-on, and the page does not mention puns or the Ramayana templates.",
+   "excerpt": "And, after all the chatter, the collaboration of the year finally happened. in an Instagram video, Khan collaborated with the ghee brand urging fans to move past the ghee conversation. a case study in how a small moment can become a brand's biggest marketing win. For a brand, that kind of recall is a pretty sweet deal or, in this case, a very ghee-rich one.",
+   "date": "2026-10-24"
+  }
+ ],
+ "draft": {
+  "cover": {
+   "headline": "A brand's meme template isn't a joke. It's [homework].",
+   "sub": "You scroll past it in a second and never ask why."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "When a brand hands you a meme template, it isn't sharing a joke. It's homework.\nSwipe to read →"
+    ],
+    "why_swipe": "Why does a template feel like homework?"
+   },
+   {
+    "paragraphs": [
+     "Every big launch handle now drops the same post. A still from the trailer, blank space on top, and a chirpy \"make your own memes!\""
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "You feel the cringe and scroll on in a second. The top reply is usually some version of \"admin, we see you,\" with more likes than the post."
+    ],
+    "why_swipe": "Has this actually backfired on someone big?"
+   },
+   {
+    "paragraphs": [
+     "The Ramayana film's official X handle did this before its 5 November release.",
+     "Many people said memes were the wrong tool for a story they hold in reverence. Reverence made it sting. But the template was a plan, and it showed."
+    ],
+    "why_swipe": "Is it only big films that do this?"
+   },
+   {
+    "paragraphs": [
+     "Same move, smaller stage. An OTT handle posts a blank still from its new show. A food app posts \"caption this\" with its logo in the corner.",
+     "Both wait for you to do the funny part."
+    ],
+    "why_swipe": "So what does a meme that works look like?"
+   },
+   {
+    "paragraphs": [
+     "Now look at October's biggest meme. Saif Ali Khan's reaction on KBC turned into the ghee joke everyone was sharing.",
+     "Nobody planned it. There was no campaign and no template. The internet just ran with it."
+    ],
+    "why_swipe": "Did any brand win from it?"
+   },
+   {
+    "paragraphs": [
+     "And the winning brand came in late. Gowardhan made a video with Saif once the chatter was everywhere.",
+     "That was planned too. But the crowd made the joke first. A brand pun on a trending meme lands for the same reason."
+    ],
+    "why_swipe": "Then why does the template fail?"
+   },
+   {
+    "paragraphs": [
+     "A meme is funny because the crowd made it. A template makes you do the unpaid half of a campaign.",
+     "Brands still do it because social teams are judged on reach. The report counts posts, not cringe."
+    ],
+    "why_swipe": "What does that look like from inside the team?"
+   },
+   {
+    "paragraphs": [
+     "Inside the social team, the brief reads the same every time: make it viral, keep it on brand, by Friday.",
+     "That's why the chirpy caption lands like a teacher's worksheet. It talks down to you, and counts your reply anyway."
+    ],
+    "why_swipe": "So what's the real difference?"
+   },
+   {
+    "paragraphs": [
+     "A real meme is one you'd have made anyway, logo or no logo.",
+     "If you have to hand people the template, it was never a meme. It was an ad with a blank space for your face."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Read it again the next time a launch post asks you to make its memes.",
+   "send": "Send to the friend in social media who just got another 'make it viral' brief.",
+   "promise": "How brands really sell to us."
+  },
+  "caption": "Which brand's 'make your own meme' post made you scroll fastest?",
+  "hashtags": [
+   "#BrandMemes",
+   "#MemeMarketing",
+   "#SocialMediaMarketing",
+   "#IndianBrands"
+  ],
+  "alt_text": "A ten-slide text post arguing that brand meme templates are homework, not jokes. It notes the Ramayana film's official X handle posting meme templates before release, which many said was wrong for a revered story, and says the reverence made it sting but the template itself was a visible plan. It points to typical templates like an OTT show's blank still or a food app's 'caption this' post. It contrasts these with the organic Saif Ali Khan ghee meme from KBC, which Gowardhan joined later with a planned video that worked because the crowd made the joke first. It says social teams are judged on reach, describes the typical 'make it viral' brief, and closes by saying a template you have to hand out is an ad with a blank space for your face.",
+  "claims": [
+   {
+    "text": "The Ramayana film's official X handle posted meme templates made from the trailer before its 5 November release.",
+    "source_url": "https://www.m9.news/bollywood/ramayana-meme-controversy-trailer-backlash/"
+   },
+   {
+    "text": "Many people said memes were the wrong tool for a story they hold in reverence.",
+    "source_url": "https://www.m9.news/bollywood/ramayana-meme-controversy-trailer-backlash/"
+   },
+   {
+    "text": "The Saif Ali Khan ghee meme began from his KBC reaction with no campaign or template behind it.",
+    "source_url": "https://www.mediainfoline.com/brand/forget-the-crores-the-internet-wants-two-years-of-gowardhan-ghee"
+   },
+   {
+    "text": "Gowardhan made a video with Saif Ali Khan after the chatter around the meme.",
+    "source_url": "https://theprint.in/feature/vigyapanti/kbc-instagram-saif-ali-khan-gowardhan-ghee-recall/3080600/"
+   }
+  ]
+ }
 }
