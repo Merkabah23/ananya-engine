@@ -17,6 +17,7 @@ def test_overflowing_slide_is_split():
 
 
 def test_carousel_is_cover_reading_slides_and_end_card(tmp_path, monkeypatch):
+    monkeypatch.setattr(render.config, "LOOK", "classic")
     from engine import config
     monkeypatch.setattr(config, "OUT", tmp_path)
     draft = {"cover": {"headline": "Mummy's old gold is now the jeweller's [supply line.]", "sub": "s",
@@ -55,6 +56,8 @@ def test_long_save_line_is_not_cut(monkeypatch):
 
 
 def test_reel_holds_each_screen_long_enough_to_read_it(tmp_path, monkeypatch):
+    monkeypatch.setattr(render.config, "LOOK", "classic")
+    monkeypatch.setattr(render.config, "OUTPUT", "reel")
     from engine import config, reel
     monkeypatch.setattr(config, "OUT", tmp_path)
     draft = {"cover": {"headline": "Every Indian home keeps its [best room] for guests", "sub": "s"},
@@ -80,3 +83,37 @@ def test_buffer_sends_a_reel_with_the_cover_frame_as_thumbnail(monkeypatch):
     assert body["assets"] == [{"video": {"url": "https://v/reel.mp4", "metadata": {"thumbnailOffset": 1000}}}]
     assert body["metadata"]["instagram"]["type"] == "reel"
     assert body["schedulingType"] == "notification"  # owner publishes from the app to add music
+
+
+def test_buffer_publishes_a_carousel_by_itself(monkeypatch):
+    from engine import buffer, config
+    monkeypatch.setattr(config, "DRY_RUN", True)
+    post = {"due": "2026-11-11T20:30:00+05:30", "draft": {"caption": "c"}, "alt_texts": ["one", "two"]}
+    body = buffer.build_input(post, ["https://i/slide_01.jpg", "https://i/slide_02.jpg"])
+    assert body["metadata"]["instagram"]["type"] == "post" and len(body["assets"]) == 2
+    assert body["assets"][1]["image"]["metadata"]["altText"] == "two"
+    assert body["schedulingType"] == "automatic"  # no music to add, so nobody has to tap a reminder
+
+
+def test_native_card_is_one_plain_slide_per_beat(tmp_path, monkeypatch):
+    """The native look: every slide shown as written, white, one type size, the header at the same height, no end card."""
+    monkeypatch.setattr(render.config, "OUT", tmp_path)
+    monkeypatch.setattr(render.config, "LOOK", "native")
+    monkeypatch.setattr(render.config, "OUTPUT", "carousel")
+    slides = [{"paragraphs": ["Indian parents don't have a retirement plan.", "They have you."]},
+              {"paragraphs": ["The house is paid off.", "The future isn't."]},
+              {"paragraphs": ["They paid for our future for thirty years.", "We pay for their present on the 1st."]}]
+    post = {"id": "n", "format": "carousel", "draft": {"slides": slides}}
+    paths = render.render_post(post)
+    assert len(paths) == 3 and post["alt_texts"][1] == "The house is paid off. The future isn't."
+    imgs = [render.Image.open(p) for p in paths]
+    assert all(im.size == (1080, 1350) and im.getpixel((5, 5)) == (255, 255, 255) for im in imgs)
+    head = [im.crop((render.NATIVE_M, render.NATIVE_HEAD_Y, render.NATIVE_M + 104, render.NATIVE_HEAD_Y + 104)).tobytes() for im in imgs]
+    assert len(set(head)) == 1  # the photo sits at the same place on every slide
+
+
+def test_native_card_never_shrinks_text_to_fit(monkeypatch):
+    monkeypatch.setattr(render.config, "LOOK", "native")
+    import pytest
+    with pytest.raises(render.Overflow):
+        render.render_native(["word " * 200], 2, 5)

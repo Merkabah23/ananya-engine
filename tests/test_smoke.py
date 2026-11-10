@@ -10,9 +10,12 @@ SLIDES = [
     ["Gill is No. 1 now. Half the group chat went quiet.", "Swipe to read →"],
     ["Fans picked a side.", "Nobody wanted to say the old king was slipping, so they argued strike rates."],
     ["This generation grew up with one hero on every poster and every phone wallpaper.", "Now he's slipping."],
-    ["Read the comments.", "Half are about the old numbers, not the match on Sunday night."],
-    ["It's not cricket. It is about the years you spent watching him, now behind you."],
-    ["So the chat stays quiet for a day.", "Then someone posts a meme. Everyone argues again."],
+    ["Read the comments.", "Half are about the old numbers, not the match on Sunday night. The other half are screenshots of a 2016 scorecard, posted like evidence in court."],
+    ["It's not cricket. It is about the years you spent watching him, the exams you skipped for a Test match, now behind you."],
+    ["The posters came down one by one. The wallpapers changed. The arguments stayed exactly the same, just louder.",
+     "Every fan has a version of the same defence ready."],
+    ["And underneath the stats is something simpler. You were fourteen when he scored that hundred, and you still remember the room."],
+    ["So the chat stays quiet for a day, maybe two, while everyone pretends to be busy at work.", "Then someone posts a meme. Everyone argues again."],
 ]
 
 

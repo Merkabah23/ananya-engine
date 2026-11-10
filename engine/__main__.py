@@ -223,7 +223,7 @@ def verdict(kind: str, post_id: str | None, why: str) -> None:
         if all(b.get("post") != post_id for b in bank):
             bank.append({"title": post["topic"].get("title") or post["topic"]["claim"][:60], "post": post_id,
                          "territory": post["topic"].get("territory"), "mood": post["topic"].get("mood"),
-                         **({"format": "reel"} if config.OUTPUT == "reel" else {}),
+                         **({"format": "reel"} if config.OUTPUT == "reel" else {"format": "native"} if config.LOOK == "native" else {}),
                          "slides": ["\n".join(s["paragraphs"]) for s in post["draft"]["slides"]]})
             bank_path.write_text(json.dumps(bank, ensure_ascii=False, indent=1) + "\n")
     state.log("taste", f"{kind} {post_id}: {why}")

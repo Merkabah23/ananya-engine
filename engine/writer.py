@@ -21,14 +21,16 @@ FORMAT_RULES = {
               "prediction about India or this generation, a short rant, a satire list ('Literally everyone around me is:' "
               "then short lines starting with '- '), or a short open letter ('Dear ___,'). No 'Swipe to read'.",
 }
-MAX_PARAS = 2            # per slide: a reel screen holds for 8 seconds at most
+MAX_PARAS = 3            # per slide: one beat, said in up to three short paragraphs
 MAX_SENTS_PER_PARA = 4
 MAX_SENT_WORDS = 22  # 5th-grade scanability: most sentences far shorter
-MIN_SLIDES, MAX_SLIDES = 6, 8  # the benchmark reel runs 8: hook, burst, generations, trick, cost, this-is-why, stance, close
-SLIDE_WORDS = (8, 18)    # reel screens are timed to their words (reel.hold): 18 words is about 7s on screen
-HOOK_WORDS = 25
-POST_WORDS = (80, 190)   # reels: the benchmark's 8 beats, each cut to one screen; ~35-50 seconds
-MAX_FIGURES = 6          # insider voice: everyday prices are texture; statistics still need a source
+# Owner, 10 Nov 2026 (the pension, shagun and house-help posts): carousels of 8-10 slides, one beat per slide. Buffer
+# and Instagram's API take 10 images at most, so 10 is a hard cap; above ~40 words a slide turns into a wall of text.
+MIN_SLIDES, MAX_SLIDES = 8, 10
+SLIDE_WORDS = (6, 48)    # a punch slide can be one short line; a reading slide stops at about eight lines
+HOOK_WORDS = 20          # slide 1 is the cover, shown as typed: the claim and its turn in one glance
+POST_WORDS = (170, 340)  # the approved posts run 260-300 words: under two minutes, self-paced
+MAX_FIGURES = 12         # everyday rupee receipts carry the argument now (owner, 10 Nov); statistics still need a source
 MIN_RHYTHM = 3.5         # sentence-length spread; a metronome rhythm (every sentence ~8 words) reads as AI
 # "isn't X, it's Y" closes many of the reference creator's best posts; repeated mid-post it reads as a template.
 REVERSAL = re.compile(r"\b(isn't|is not|wasn't|was not|aren't|never)\b[^.?!]{0,60}[.?!]\s*(it's|it is|it was|they're|"
@@ -96,7 +98,7 @@ MECHANICAL = ("sentence has", "paragraphs; use at most", "more than 4 sentences"
 
 
 # Small wording problems: a targeted edit to the named line fixes them without a rewrite.
-WORDING = ("Remove the phrase", "'Nobody' appears more than once", "words; the limit is", "Every sentence is about the same length",
+WORDING = ("Remove the phrase", "'Nobody' appears more than four times", "words; the limit is", "Every sentence is about the same length",
            "isn't in the sources; source it or remove it", "The post carries", "The send line names no specific person")
 
 
@@ -233,7 +235,7 @@ def hard_checks(draft: dict, fmt: str, sources: list[dict]) -> list[str]:
     slides = draft.get("slides", [])
     if fmt == "carousel" and not MIN_SLIDES <= len(slides) <= MAX_SLIDES:
         problems.append(f"Use {MIN_SLIDES} to {MAX_SLIDES} slides, not {len(slides)}: as few as the idea needs.")
-    if fmt == "carousel":
+    if fmt == "carousel" and config.LOOK != "native":  # the native card shows slide 1 as typed: no headline, no teal
         head = re.sub(r"[\[\]]", "", str((draft.get("cover") or {}).get("headline", "")))
         if not 5 <= len(head.split()) <= 13:
             problems.append("The cover needs a headline of 6-12 words (cover.headline), with the key phrase in [brackets].")
@@ -249,7 +251,7 @@ def hard_checks(draft: dict, fmt: str, sources: list[dict]) -> list[str]:
             problems.append(f"Slides {dead} have no why_swipe: say what pulls the reader to the next slide, or rewrite "
                             "the slide until something does.")
     send = str((draft.get("end") or {}).get("send", ""))
-    if GENERIC_SEND.search(send):
+    if config.LOOK != "native" and GENERIC_SEND.search(send):  # the native card has no end card
         problems.append("The send line names no specific person: say who it's for and why it's them "
                         "(e.g. 'Send to the friend who complains about café prices from the same café every weekend.').")
     if fmt == "single" and len(slides) != 1:
@@ -280,8 +282,8 @@ def hard_checks(draft: dict, fmt: str, sources: list[dict]) -> list[str]:
     if figures > MAX_FIGURES:
         problems.append(f"The post carries {figures} numbers. Facts only back the opinion: keep {MAX_FIGURES} at most, "
                         "and only where they make the point land.")
-    if len(re.findall(r"\bnobody\b", text, re.I)) > 1:
-        problems.append("'Nobody' appears more than once; it's the account's most repeated tic. Keep at most one.")
+    if len(re.findall(r"\bnobody\b", text, re.I)) > 4:  # the owner's approved house-help post uses it four times
+        problems.append("'Nobody' appears more than four times; it's the account's most repeated tic. Keep four at most.")
     if fmt == "carousel" and slides:
         middle = "\n".join(" ".join(s.get("paragraphs", [])) for s in slides[1:-1])  # slide 1 restates the cover
         if len(REVERSAL.findall(middle)) > 3:  # a run of them can carry examples ("isn't about marble, it's about the guard")
@@ -297,6 +299,9 @@ def hard_checks(draft: dict, fmt: str, sources: list[dict]) -> list[str]:
         c.get("text", "") for c in draft.get("claims", []) if c.get("derived_from"))
     backed_digits = set(re.findall(r"\d[\d,.]*", backed.replace(",", "")))
     for m in MONEY.finditer(text):
+        if config.LOOK == "native" and re.match(r"(₹|rs)", m.group(0).strip(), re.I) \
+                and not re.search(r"crore|cr\b|billion|million", text[m.start():m.end() + 12], re.I):
+            continue  # an everyday rupee amount, framed as typical, is texture (the fact gate still checks it)
         digits = re.findall(r"\d[\d,.]*", m.group(0).replace(",", ""))
         if digits and not all(d.rstrip(".") in {b.rstrip(".") for b in backed_digits} for d in digits):
             problems.append(f"The figure '{m.group(0).strip()}' isn't in the sources; source it or remove it.")

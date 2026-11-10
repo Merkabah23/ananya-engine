@@ -88,7 +88,7 @@ def build_input(post: dict, image_urls: list[str]) -> dict:
     return {
         "channelId": channel_id(),
         "text": caption_with_tags(post["draft"]),
-        "schedulingType": config.BUFFER_SCHEDULING,
+        "schedulingType": config.BUFFER_SCHEDULING if post.get("video_url") else config.CAROUSEL_SCHEDULING,
         "mode": "customScheduled",
         "dueAt": due.strftime("%Y-%m-%dT%H:%M:%S.000Z"),
         "needsApproval": config.BUFFER_NEEDS_APPROVAL,

@@ -19,6 +19,10 @@ GOOD = [
     ["The best furniture and the best light are kept for relatives who visit twice a year."],
     ["No one decided this. It happened one sofa cover at a time.", "Visitors get the good cups."],
     ["This generation said it was done with all that. Then look at the Instagram grid."],
+    ["Look at what the room holds: the glass showcase, the cups no one drinks from, the sofa with its plastic still on.",
+     "Every object waits for a guest who comes twice a year."],
+    ["The family, meanwhile, eats dinner on the bed in front of the TV. The best room is the one used least, and it feels normal."],
+    ["Even the AC is saved for them. It comes on when the doorbell rings and goes off the minute the last guest leaves."],
     ["The drawing room didn't die. It moved into our phones, still kept for visitors."],
 ]
 
@@ -74,11 +78,13 @@ def test_explaining_signpost_and_unbalanced_slide_are_caught():
 def test_approved_posts_pass_code_checks(monkeypatch):
     """Posts the owner approved must never be rejected by our own rules. They were written as carousels before the
     page moved to reels, so the style rules apply but the carousel's length limits stand in for the reel's."""
-    reel_limits = {n: getattr(writer, n) for n in ("MIN_SLIDES", "MAX_SLIDES", "SLIDE_WORDS", "POST_WORDS", "MAX_PARAS")}
-    reel_limits["SLIDE_WORDS"] = (8, 24)  # reels approved before the 18-word cap (9 Nov 2026), timed to their words
-    carousel_limits = {"MIN_SLIDES": 5, "MAX_SLIDES": 9, "SLIDE_WORDS": (12, 60), "POST_WORDS": (110, 360), "MAX_PARAS": 3}
+    # the reel limits as they stood (8-10 Nov 2026), with the 24-word screens approved before the 18-word cap
+    reel_limits = {"MIN_SLIDES": 6, "MAX_SLIDES": 8, "SLIDE_WORDS": (8, 24), "POST_WORDS": (80, 190), "MAX_PARAS": 2, "HOOK_WORDS": 25}
+    native_limits = {n: getattr(writer, n) for n in ("MIN_SLIDES", "MAX_SLIDES", "SLIDE_WORDS", "POST_WORDS", "MAX_PARAS", "HOOK_WORDS")}
+    carousel_limits = {"MIN_SLIDES": 5, "MAX_SLIDES": 9, "SLIDE_WORDS": (12, 60), "POST_WORDS": (110, 360), "MAX_PARAS": 3, "HOOK_WORDS": 25}
     for post in [b for b in writer.approved_posts() if b.get("source") != "reference creator"]:
-        for name, value in (reel_limits if post.get("format") == "reel" else carousel_limits).items():
+        limits = {"reel": reel_limits, "native": native_limits}.get(post.get("format"), carousel_limits)
+        for name, value in limits.items():
             monkeypatch.setattr(writer, name, value)
         # Approved posts were fact-checked against their own sources when written; here only the style rules apply.
         evidence = [{"url": "topic", "fact": "", "excerpt": "\n".join(post["slides"])}]
@@ -100,7 +106,7 @@ def test_voice_examples_rotate_from_the_bank():
 
 
 def test_wrong_slide_count():
-    assert any("6 to 8 slides" in p for p in writer.hard_checks(draft(GOOD[:3]), "carousel", []))
+    assert any(f"{writer.MIN_SLIDES} to {writer.MAX_SLIDES} slides" in p for p in writer.hard_checks(draft(GOOD[:3]), "carousel", []))
 
 
 def test_slots_cover_month_in_ist():
@@ -170,6 +176,7 @@ def test_hashtags_brand_first_clean_and_capped():
 def test_only_the_last_carousel_slide_is_the_end_card(tmp_path, monkeypatch):
     from engine import config, render
     monkeypatch.setattr(config, "OUT", tmp_path)
+    monkeypatch.setattr(config, "LOOK", "classic")
     post = {"id": "x", "format": "carousel", "draft": draft(GOOD)}
     shades = [render.Image.open(p).getpixel((5, 5)) for p in render.render_post(post)]
     assert shades.count(shades[-1]) == 1 and len(set(shades[:-1])) == 1
@@ -270,7 +277,9 @@ def test_story_types_never_repeat_back_to_back():
     assert all(a != b for a, b in zip(types, types[1:4]))
 
 
-def test_generic_send_line_is_a_wording_fix():
+def test_generic_send_line_is_a_wording_fix(monkeypatch):
+    from engine import config
+    monkeypatch.setattr(config, "LOOK", "classic")  # the native card has no end card, so no send line
     d = {"slides": [{"paragraphs": ["x"]}], "end": {"send": "Send this to someone who needs it."}, "claims": []}
     found = [p for p in writer.hard_checks(d, "single", []) if "send line" in p]
     assert found and writer.is_wording(found[0])
@@ -348,3 +357,12 @@ def test_varun_misses_go_back_to_the_writer(monkeypatch):
     out = writer.write_post(post)
     assert out["status"] == "written" and len(writes) == 2
     assert "Not Varun (slide 2)" in writes[1]  # the second draft was written from the Varun note
+
+
+def test_everyday_rupee_amounts_are_texture_but_big_unsourced_figures_are_not():
+    receipt = [list(s) for s in GOOD]
+    receipt[2] = ["Papa's medicines cost ₹4,000 a month, and the transfer home is ₹25,000. Everyone keeps the fiction going."]
+    assert not any("figure" in p for p in writer.hard_checks(draft(receipt), "carousel", []))
+    stat = [list(s) for s in GOOD]
+    stat[2] = ["Indians spent ₹10 lakh crore on weddings last year, mostly on the guest list and the decor."]
+    assert any("figure" in p for p in writer.hard_checks(draft(stat), "carousel", []))

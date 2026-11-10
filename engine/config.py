@@ -32,10 +32,16 @@ POST_TIME = "20:30"
 POST_EVERY_DAYS = 2
 POST_ANCHOR = "2026-11-10"
 SLOTS = [{"weekday": d, "time": POST_TIME, "format": "carousel"} for d in range(7)]
-OUTPUT = os.getenv("OUTPUT", "reel")  # "reel": the slides become one 9:16 video; "carousel": the slides go up as images
+# Owner, 10 Nov 2026: back to carousels. Readers set their own pace on a carousel; on a reel we set it for them, and
+# the benchmarks' text reels get ~1/30th of their carousels' likes. Reels stay available for posts where something moves.
+OUTPUT = os.getenv("OUTPUT", "carousel")  # "reel": the slides become one 9:16 video; "carousel": the slides go up as images
+# "native": a plain post card (white, left-aligned, the owner's photo and the page name, one type size), the look of
+# the posts that win this format. "classic": the older designed cover, teal accents and end card.
+LOOK = os.getenv("LOOK", "native")
 # Owner, 9 Nov 2026: Buffer sends a reminder at post time and the owner publishes from the Instagram app, so they can
 # add a trending track (Instagram's music library can't be attached through the API). "automatic" posts silently.
-BUFFER_SCHEDULING = os.getenv("BUFFER_SCHEDULING", "notification")
+BUFFER_SCHEDULING = os.getenv("BUFFER_SCHEDULING", "notification")  # reels: the owner adds music in the app
+CAROUSEL_SCHEDULING = os.getenv("CAROUSEL_SCHEDULING", "automatic")  # carousels need no music, so they publish themselves
 PUSH_DAYS = 7  # posts go to Buffer a week ahead: 3-4 posts, well under Buffer's 10-post queue
 SPARE_TOPICS = 5  # extra approved topics per month, used when a draft fails
 

@@ -453,11 +453,66 @@ def _alt(paragraphs: list[str]) -> str:
     return " ".join(_clean(paragraphs)).replace("**", "").replace("*", "").replace("\u00a0", " ")[:1000]
 
 
+# --- native look: the plain post card the format's best accounts use -------------------------------------------
+# Pure white, near-black text, left-aligned, one type size on every slide, the owner's photo and the page name pinned
+# at the same height on every slide. No badge, no accent colour, no art: a designed card reads as an ad and gets
+# scrolled past; a post from a person gets read.
+NATIVE_BG, NATIVE_INK, NATIVE_SUB, NATIVE_FAINT = (255, 255, 255), (15, 20, 25), (83, 100, 113), (150, 160, 168)
+NATIVE_SIZE, NATIVE_M = 50, 96
+NATIVE_HEAD_Y, NATIVE_TEXT_Y, NATIVE_BOTTOM = 300, 470, H - 120
+
+
+def _native_lines(d: ImageDraw.ImageDraw, text: str, font: ImageFont.FreeTypeFont) -> list[str]:
+    lines, cur = [], ""
+    for w in text.split():
+        t = (cur + " " + w).strip()
+        if cur and d.textlength(t, font=font) > W - 2 * NATIVE_M:
+            lines.append(cur)
+            cur = w
+        else:
+            cur = t
+    return lines + ([cur] if cur else [])
+
+
+def render_native(paragraphs: list[str], i: int, n: int) -> Image.Image:
+    """One slide as a post card. Raises Overflow when the words don't fit: the writer tightens, the type never shrinks."""
+    img = Image.new("RGB", (W, H), NATIVE_BG)
+    d = ImageDraw.Draw(img)
+    face = _avatar(104)
+    img.paste(face, (NATIVE_M, NATIVE_HEAD_Y), face)
+    d.text((NATIVE_M + 132, NATIVE_HEAD_Y + 14), config.DISPLAY_NAME, font=_font("Bold", 38), fill=NATIVE_INK)
+    d.text((NATIVE_M + 132, NATIVE_HEAD_Y + 60), "@" + config.IG_HANDLE, font=_font("Regular", 32), fill=NATIVE_SUB)
+    font, lh = _font("Regular", NATIVE_SIZE), int(NATIVE_SIZE * 1.36)
+    y = NATIVE_TEXT_Y
+    for para in _clean(paragraphs):
+        for line in _native_lines(d, para.replace("**", "").replace("*", ""), font):
+            d.text((NATIVE_M, y), line, font=font, fill=NATIVE_INK)
+            y += lh
+        y += int(NATIVE_SIZE * 0.75)
+    if y - int(NATIVE_SIZE * 0.75) > NATIVE_BOTTOM:
+        raise Overflow(f"slide {i} runs past the card; tighten it")
+    if n > 1:
+        d.text((W - NATIVE_M, H - 72), f"{i}/{n}", font=_font("Regular", SMALL), fill=NATIVE_FAINT, anchor="rs")
+    if i == 1 and n > 1:
+        d.text((NATIVE_M, H - 72), "swipe", font=_font("Regular", SMALL), fill=NATIVE_FAINT, anchor="ls")
+    return img
+
+
+def _native_post(post: dict) -> list[Image.Image]:
+    slides = [s for s in post["draft"]["slides"] if _clean(s["paragraphs"])]
+    if len(slides) > config.BUFFER_MAX_IMAGES:
+        raise Overflow(f"{len(slides)} slides; Buffer allows {config.BUFFER_MAX_IMAGES}")
+    post["alt_texts"] = [_alt(s["paragraphs"]) for s in slides]
+    return [render_native(s["paragraphs"], i, len(slides)) for i, s in enumerate(slides, 1)]
+
+
 def render_post(post: dict) -> list[Path]:
     draft = post["draft"]
     outdir = config.OUT / post["id"]
     outdir.mkdir(parents=True, exist_ok=True)
-    if post.get("format") == "single" or len(draft["slides"]) == 1:
+    if config.LOOK == "native" and config.OUTPUT == "carousel":
+        images = _native_post(post)
+    elif post.get("format") == "single" or len(draft["slides"]) == 1:
         images = [render_slide(draft["slides"][0]["paragraphs"])]
     else:
         end = bool(config.END_CARD)

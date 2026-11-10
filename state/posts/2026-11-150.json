@@ -1,0 +1,131 @@
+{
+ "id": "2026-11-150",
+ "status": "approved",
+ "due": "2026-11-11T20:30:00+05:30",
+ "format": "carousel",
+ "topic": {
+  "title": "the shagun diary",
+  "claim": "Every Indian family keeps a shagun diary: wedding envelopes are open accounts, and the extra ₹1 keeps them open.",
+  "territory": "family_identity",
+  "mood": "warm with a sting",
+  "lived": false,
+  "needs_facts": false
+ },
+ "history": [],
+ "sources": [],
+ "draft": {
+  "cover": {
+   "headline": "Every Indian family keeps an account book nobody admits exists.",
+   "sub": "It's the shagun diary."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Every Indian family keeps an account book nobody admits exists.",
+     "It's the shagun diary."
+    ]
+   },
+   {
+    "paragraphs": [
+     "After every wedding, someone sits down with the envelopes and a notebook. Name, amount, relation.",
+     "\"Sharma ji, ₹2,100. Bua, ₹5,100.\"",
+     "Nobody calls it accounting. It's exactly that."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Because the envelope isn't really a gift. It's a loan with no paperwork.",
+     "When Sharma ji's daughter gets married, someone will open that notebook to check what he gave."
+    ]
+   },
+   {
+    "paragraphs": [
+     "And you never return the same amount. ₹2,100 comes back as ₹3,100.",
+     "Returning it exactly would settle the account. Adding a little keeps it open."
+    ]
+   },
+   {
+    "paragraphs": [
+     "That's what the extra ₹1 is doing too. Not ₹500, but ₹501.",
+     "A round number ends in zero, and zero is an ending. The rupee says this continues."
+    ]
+   },
+   {
+    "paragraphs": [
+     "So here's the actual rule. In the West, a wedding gift closes the deal: the couple lists a registry, you buy the toaster, everyone's even.",
+     "An Indian gift is built never to close."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Do the maths on one wedding. 400 guests at an average of ₹1,100, and the family goes home with ₹4.4 lakh.",
+     "And 400 open accounts."
+    ]
+   },
+   {
+    "paragraphs": [
+     "There's a second layer. The diary doesn't only track money; it tracks who came.",
+     "The cousin who sent ₹501 on GPay and skipped the wedding is remembered longer than the one who came with ₹101."
+    ]
+   },
+   {
+    "paragraphs": [
+     "So when your parents insist you attend the wedding of people you've met twice, they're not being social.",
+     "They're paying an instalment on an account opened before you were born."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Indian families don't lose touch. They just carry a balance.",
+     "The ₹1 makes sure it never hits zero."
+    ]
+   }
+  ],
+  "end": {},
+  "caption": "The extra ₹1 in every shagun envelope isn't for luck. It's interest.",
+  "hashtags": [
+   "shagun",
+   "indianwedding",
+   "indianfamily",
+   "desifamily"
+  ],
+  "alt_text": "A text post about the shagun diary Indian families keep after weddings, and why envelopes carry an extra rupee.",
+  "claims": []
+ },
+ "updated_at": "2026-11-10T15:37:33.520648+00:00",
+ "varun": {
+  "pass": false,
+  "score": 4,
+  "misses": [
+   {
+    "where": "slide 5",
+    "line": "A round number ends in zero, and zero is an ending. The rupee says this continues.",
+    "why": "essay wordplay, personifies the rupee — over-explained",
+    "try": "A round number feels settled. ₹501 isn't."
+   },
+   {
+    "where": "slide 4",
+    "line": "Returning it exactly would settle the account. Adding a little keeps it open.",
+    "why": "spells out the mechanism after it already landed",
+    "try": "Same amount back, and the account's closed. A little extra, and it isn't."
+   },
+   {
+    "where": "slide 6",
+    "line": "So here's the actual rule.",
+    "why": "coach-voice throat-clear before the point",
+    "try": "Here's the difference."
+   },
+   {
+    "where": "slide 8",
+    "line": "There's a second layer. The diary doesn't only track money; it tracks who came.",
+    "why": "stiff, semicolon essay construction",
+    "try": "There's a second layer. The diary tracks who showed up too, not just how much."
+   }
+  ],
+  "best": "It's a loan with no paperwork.",
+  "passed": false,
+  "text_hash": "1ded76de6e0555e15519b351cafca787ac6f6b3f"
+ },
+ "owner_ok": true,
+ "owner_approved_text": true
+}

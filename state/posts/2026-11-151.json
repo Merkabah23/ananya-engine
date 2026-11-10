@@ -1,0 +1,129 @@
+{
+ "id": "2026-11-151",
+ "status": "approved",
+ "due": "2026-11-13T20:30:00+05:30",
+ "format": "carousel",
+ "topic": {
+  "title": "the third partner",
+  "claim": "In urban dual-income homes, the house help is the reason the marriage looks equal; her day off shows who really runs the house.",
+  "territory": "family_identity",
+  "mood": "warm with a sting",
+  "lived": false,
+  "needs_facts": true
+ },
+ "history": [],
+ "sources": [],
+ "draft": {
+  "cover": {
+   "headline": "In most urban Indian homes, the marriage has a third partner.",
+   "sub": "She arrives at 8 and leaves by 11."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "In most urban Indian homes, the marriage has a third partner.",
+     "She arrives at 8 and leaves by 11."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Both of you work. Both of you are tired. You split the rent, the EMI, the Netflix.",
+     "And the house runs so smoothly that nobody ever has to ask who does what."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Then one morning, the WhatsApp arrives.",
+     "\"Didi, aaj nahi aaungi.\""
+    ]
+   },
+   {
+    "paragraphs": [
+     "By 9 AM, the most honest audit of your marriage has begun.",
+     "Who does the dishes. Who sweeps. Who remembers the dusting nobody ever noticed she did."
+    ]
+   },
+   {
+    "paragraphs": [
+     "And the audit usually reaches the same finding: the work doesn't split down the middle. It slides back to the wife.",
+     "India's own time-use survey says the same: women who do housework spend about five hours a day on it. Men, about an hour and a half."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Here's what nobody says out loud. Urban India never settled who does the housework.",
+     "It outsourced the question, for ₹10,000 a month, and called the answer equality."
+    ]
+   },
+   {
+    "paragraphs": [
+     "That money buys back two, maybe three hours a day for the woman of the house.",
+     "It's probably the best-returning money the family spends. Nobody budgets it that way."
+    ]
+   },
+   {
+    "paragraphs": [
+     "And the didi who sent that message has a home too.",
+     "Her own dishes, her own kids' tiffin, packed at 6 AM before she gets to yours. The equality you paid for ends at her doorstep."
+    ]
+   },
+   {
+    "paragraphs": [
+     "So when that message comes, don't treat it as a crisis. Treat it as a mirror.",
+     "One day a month, it shows you who actually runs your house."
+    ]
+   },
+   {
+    "paragraphs": [
+     "She isn't the help.",
+     "She's the reason your marriage looks equal."
+    ]
+   }
+  ],
+  "end": {},
+  "caption": "Every working couple's marriage has a third partner. You find out on her day off.",
+  "hashtags": [
+   "workingcouple",
+   "indianmarriage",
+   "househelp",
+   "indianhome"
+  ],
+  "alt_text": "A text post about how the house help keeps urban Indian marriages looking equal, and what her day off reveals.",
+  "claims": [
+   {
+    "text": "In India's Time Use Survey 2019, women who did unpaid domestic work spent about 299 minutes a day on it; men who did, about 97 minutes.",
+    "source_url": "https://www.mospi.gov.in/time-use-survey"
+   }
+  ]
+ },
+ "updated_at": "2026-11-10T15:37:33.526225+00:00",
+ "varun": {
+  "pass": false,
+  "score": 3,
+  "misses": [
+   {
+    "where": "slide 9",
+    "line": "So when that message comes, don't treat it as a crisis. Treat it as a mirror.",
+    "why": "coach/advice voice, 'treat it as' is a lesson not a line he'd type",
+    "try": "That message isn't a crisis. It's your audit day."
+   },
+   {
+    "where": "slide 2",
+    "line": "Both of you work. Both of you are tired. You split the rent, the EMI, the Netflix.",
+    "why": "engineered rhetoric, mirrored pair stacked before the list",
+    "try": "You both work, you're both tired, and you still split the rent, the EMI, the Netflix."
+   },
+   {
+    "where": "slide 5",
+    "line": "And the audit usually reaches the same finding: the work doesn't split down the middle.",
+    "why": "stiff/written word ('finding') he'd never type",
+    "try": "And the audit always ends the same way: the work doesn't split down the middle."
+   }
+  ],
+  "best": "It outsourced the question, for ₹10,000 a month, and called the answer equality.",
+  "passed": false,
+  "text_hash": "710a20956e0b42fb6ec7673e37e8f168d3a3d9a7"
+ },
+ "owner_ok": true,
+ "owner_approved_text": true
+}
