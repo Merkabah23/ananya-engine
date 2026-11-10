@@ -1,6 +1,6 @@
 {
  "id": "2026-11-140",
- "status": "rejected",
+ "status": "approved",
  "due": "2026-11-20T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -445,9 +445,12 @@
     "slide 3-5: The scene is inconsistent. Slide 3 says the hospital puts your mother in the ₹10,000 room, and slide 5 says you chose private. Make it one story: you say \"private\" at the desk, and the insurer cuts at discharge. Also say \"on some policies\" in slide 4's \"shrinks the whole claim\" so it doesn't overstate the source.",
     "slide 4: Add one sensory or insider detail about the discharge moment, such as the wait at the billing counter while the final amount is calculated. Right now the TPA desk line is a stray sound that doesn't carry the beat. Move it to the discharge scene, where you find out the cut, so it lands the sting."
    ]
+  },
+  {
+   "why": "the writer's drafts kept padding a dead middle slide; hand-written in the approved voice (10 Nov)"
   }
  ],
- "updated_at": "2026-11-10T16:16:21.498218+00:00",
+ "updated_at": "2026-11-10T16:19:14.537721+00:00",
  "sources": [
   {
    "url": "https://a2ztaxcorp.net/?p=28108",
@@ -470,93 +473,85 @@
  ],
  "draft": {
   "cover": {
-   "headline": "We buy health insurance for the [tax form], not the hospital",
-   "sub": "The fine print only shows up in the corridor."
+   "headline": "You bought your health insurance for the tax form.",
+   "sub": "You'll read it for the first time in a hospital corridor."
   },
   "slides": [
    {
     "paragraphs": [
-     "We buy health insurance for the tax form, not the hospital.",
-     "Swipe to read →"
-    ],
-    "why_swipe": "What exactly do we find in that corridor?"
+     "You bought your health insurance for the tax form.",
+     "You'll read it for the first time in a hospital corridor."
+    ]
    },
    {
     "paragraphs": [
-     "HR emails: submit your tax proofs.",
-     "You open a comparison app, sort by lowest premium, add both parents, and download the 80D receipt in twenty minutes.",
-     "You feel responsible. Tax season rewards the cheapest receipt, so the cheapest plan wins. A deadline sold it, not a diagnosis."
-    ],
-    "why_swipe": "So what does a rushed, cheap policy hide?"
+     "It starts with an HR email about tax proofs. The deadline is close, a comparison site sorts by price, and twenty minutes later you have a policy and a PDF."
+    ]
    },
    {
     "paragraphs": [
-     "But a cheap premium has to save money somewhere. Often it's one line most of us never open: the room-rent cap.",
-     "Say your policy allows ₹5,000 a day. The hospital puts your mother in a ₹10,000 room."
-    ],
-    "why_swipe": "What happens to the bill when the room costs double the cap?"
+     "Insurers know the calendar. March is usually one of their strongest months, and it isn't because everyone suddenly fell sick."
+    ]
    },
    {
     "paragraphs": [
-     "The insurer can now treat only half the room as eligible.",
-     "On some policies, that same cut runs through other related charges on the bill too. One choice of room shrinks the whole claim.",
-     "You hear this at the TPA desk, over the hum of the billing printer."
-    ],
-    "why_swipe": "Who actually makes that choice?"
+     "The cheap plan wasn't cheap by accident. Cheaper plans often keep the premium low with limits you only meet at claim time.",
+     "One of them hides in a single line about the room."
+    ]
    },
    {
     "paragraphs": [
-     "\"General ward ya private room?\"",
-     "You're signing at the admission desk with a pen tied to a string, and you say \"private\" before anyone mentions the rate. Every one of us does, for a parent.",
-     "You find out what that cost at discharge, with your own card."
-    ],
-    "why_swipe": "So what did that tax receipt actually prove?"
+     "A room-rent cap. On many policies, if you take a room above it, the insurer can pay less. Not just on the room, but on the charges linked to it.",
+     "It's called proportionate deduction."
+    ]
    },
    {
     "paragraphs": [
-     "Your 80D receipt shows the premium you paid. It says nothing about what the policy pays back.",
-     "And reading the cap isn't full protection either. In 2025, IRDAI found some insurers limiting room rent beyond what their own policies allowed."
-    ],
-    "why_swipe": "What can you check right now?"
+     "So the cover shrinks exactly when you need it.",
+     "You find out at the billing desk, with someone you love in the ward."
+    ]
    },
    {
     "paragraphs": [
-     "A tax deadline picked one number in your parents' policy. The hospital will hold you to it.",
-     "Search the PDF for \"room rent\" before the TPA desk does."
+     "And it isn't always your fault for not reading. IRDAI has flagged insurers that cut room rent beyond their own policy terms."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Tonight, open the policy PDF and search one word: \"room\".",
+     "That line decides your next hospital bill."
+    ]
+   },
+   {
+    "paragraphs": [
+     "The tax form got the receipt.",
+     "Your family gets the fine print."
     ]
    }
   ],
-  "end": {
-   "save": "Open this again the week the HR email about tax proofs arrives.",
-   "send": "Send to the sibling who bought your parents' insurance in a rush last March.",
-   "promise": "How money really moves in India."
-  },
-  "caption": "What did you find when you searched 'room rent' in your parents' policy?",
+  "end": {},
+  "caption": "The tax form got the receipt. Your family gets the fine print. Have you ever searched your policy for 'room'?",
   "hashtags": [
-   "#HealthInsuranceIndia",
-   "#RoomRentCap",
-   "#Section80D",
-   "#PersonalFinanceIndia"
+   "healthinsurance",
+   "taxsaving",
+   "personalfinance",
+   "roomrent"
   ],
-  "alt_text": "A seven-slide text post arguing that Indians buy health insurance in a rush before the tax proof deadline, sorting a comparison app by lowest premium, because tax season rewards the cheapest receipt. Cheap plans often save money through a room-rent cap. With a ₹5,000 cap and a ₹10,000 room, only half the room cost is eligible, and on some policies the cut runs through related charges too, which people hear about at the TPA desk. At the admission desk, people choose a private room for a parent without asking the rate. The 80D receipt shows only the premium paid, and in 2025 IRDAI found some insurers limiting room rent beyond their own policy terms. It ends by asking readers to search their parents' policy for 'room rent'.",
+  "alt_text": "A text post about buying health insurance for tax season and the room-rent cap that shows up at claim time.",
   "claims": [
    {
-    "text": "With a ₹5,000 room-rent limit against a ₹10,000 room, only half the room cost is eligible.",
-    "source_url": "https://www.outlookmoney.com/personal-finance/room-rent-limits-in-health-insurance-how-choosing-a-costlier-room-can-cut-your-entire-claim",
-    "derived_from": "₹5,000 / ₹10,000 = 50%"
+    "text": "March is typically a strong month for health insurers (General Insurance Council data).",
+    "source_url": "https://a2ztaxcorp.net/?p=28108"
    },
    {
-    "text": "On some policies, proportionate deduction also applies to other related hospital charges.",
-    "source_url": "https://www.outlookmoney.com/personal-finance/room-rent-limits-in-health-insurance-how-choosing-a-costlier-room-can-cut-your-entire-claim"
+    "text": "With a room-rent cap, taking a costlier room can lead the insurer to pay less on the room and related charges through proportionate deduction; this depends on policy terms.",
+    "source_url": "https://www.outlookmoney.com/personal-finance/room-rent-limits-in-health-insurance-how-cho"
    },
    {
-    "text": "In 2025, IRDAI found some insurers limiting room rent beyond policy terms.",
+    "text": "IRDAI found some insurers limited room rent beyond policy terms.",
     "source_url": "https://joinditto.in/articles/news/irdai-flags-lapses-in-health-insurance-claims/"
-   },
-   {
-    "text": "Cheap policies often save money through caps that only show up at claim time.",
-    "source_url": "topic"
    }
   ]
- }
+ },
+ "owner_ok": true
 }

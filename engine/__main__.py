@@ -26,8 +26,14 @@ def _month(offset: int = 0) -> str:
 def _take_spare(slot_post: dict) -> dict | None:
     """Move a spare topic into a slot whose draft was rejected."""
     month = slot_post["id"][:7]
+    # Owner, 10 Nov: never similar topics together. A spare that is a family take only fills a slot whose neighbours
+    # (the posts two days either side) aren't family takes too; otherwise the slot waits for the planner.
+    due = datetime.fromisoformat(slot_post["due"])
+    near = [p for p in state.posts() if p.get("due") and p["id"] != slot_post["id"] and p["status"] not in ("cancelled", "rejected")
+            and abs((datetime.fromisoformat(p["due"]) - due).days) <= 2]
+    family_near = any(topic_filter._is_family(p["topic"]) for p in near)
     for p in state.posts("planned"):
-        if p["format"] == "spare" and p["id"].startswith(month):
+        if p["format"] == "spare" and p["id"].startswith(month) and not (family_near and topic_filter._is_family(p["topic"])):
             p.update(due=slot_post["due"], format=slot_post["format"] if slot_post["format"] != "spare" else "carousel")
             state.save_post(p)
             state.log("produce", f"{p['id']} replaces rejected {slot_post['id']}")
