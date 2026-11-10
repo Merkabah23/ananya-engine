@@ -366,3 +366,14 @@ def test_everyday_rupee_amounts_are_texture_but_big_unsourced_figures_are_not():
     stat = [list(s) for s in GOOD]
     stat[2] = ["Indians spent ₹10 lakh crore on weddings last year, mostly on the guest list and the decor."]
     assert any("figure" in p for p in writer.hard_checks(draft(stat), "carousel", []))
+
+
+def test_family_takes_are_never_planned_back_to_back():
+    slots = [{"due": f"2099-11-{d:02d}T20:30:00+05:30", "format": "carousel"} for d in (2, 4, 6)]
+    fam = lambda i, terr: {"id": f"f{i}", "title": "the shagun diary", "claim": "every family keeps a wedding ledger",
+                           "territory": terr, "score": {"format_fit": "either"}}
+    other = {"id": "o1", "title": "the creator economy", "claim": "brands pay for reach nobody can measure",
+             "territory": "creators_internet", "score": {"format_fit": "either"}}
+    plan = topic_filter._assign([fam(1, "life_relationships"), fam(2, "money_status"), other], slots)
+    picks = [p["topic"]["id"] for p in plan if p["due"]]
+    assert picks[:2] == ["f1", "o1"]  # the second family take waits until something else has run

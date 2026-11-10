@@ -36,7 +36,7 @@ jobs:
       BUFFER_CHANNEL_ID: ${{ secrets.BUFFER_CHANNEL_ID }}
       MEDIA_REPO: ${{ vars.MEDIA_REPO }}
       MEDIA_REPO_TOKEN: ${{ secrets.MEDIA_REPO_TOKEN }}
-      ENGINE_PAUSED: ${{ vars.ENGINE_PAUSED || 'true' }}   # paused 2026-11-03: owner reviews every post in chat until the taste reset lands
+      ENGINE_PAUSED: ${{ vars.ENGINE_PAUSED || 'false' }}  # unpaused 2026-11-10: owner asked for the engine to run on its own in the new voice
       PRODUCE_PER_RUN: ${{ vars.PRODUCE_PER_RUN || '3' }}
       MODEL_WRITER: ${{ vars.MODEL_WRITER || 'opus' }}
       MAX_CALLS_PER_MONTH: '2000'  # daily posting; overrides the repo variable, which was set for 3 posts a week

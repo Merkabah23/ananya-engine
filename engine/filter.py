@@ -116,6 +116,15 @@ OFFICE = re.compile(r"\b(office|appraisal|manager|boss|layoffs?|laid off|fired|h
                     r"hike|resign\w*|job|jobs|hiring|career|reorg|team structure)\b", re.I)
 
 
+FAMILY = re.compile(r"\b(parents?|mother|father|mom|mummy|papa|maa|sibling|brother|sister|bua|chacha|in-?laws?|"
+                    r"grand(parents?|mother|father)|nani|dadi|wedding|shagun|marriage|husband|wife|spouse|kids?|"
+                    r"family|joint family|ancestral|beta|beti)\b", re.I)
+
+
+def _is_family(t: dict) -> bool:
+    return bool(FAMILY.search(" ".join(str(t.get(k) or "") for k in ("title", "claim", "moment"))))
+
+
 def _is_office(t: dict) -> bool:
     return bool(OFFICE.search(" ".join(str(t.get(k) or "") for k in ("title", "claim", "moment"))))
 
@@ -132,9 +141,10 @@ def _assign(ranked: list[dict], slots: list[dict]) -> list[dict]:
             if not strict:
                 return fits
             office_ok = not (_is_office(t) and any(_is_office(x["topic"]) for x in plan[-2:]))  # one office take in 3 days
+            family_ok = not (_is_family(t) and plan and _is_family(plan[-1]["topic"]))  # family takes never back to back
             kind = t.get("story_type")
             kind_ok = not kind or not plan or plan[-1]["topic"].get("story_type") != kind  # never the same story type twice running
-            return fits and office_ok and kind_ok and terr != last and used.get(terr, 0) < quota.get(terr, 0)
+            return fits and office_ok and family_ok and kind_ok and terr != last and used.get(terr, 0) < quota.get(terr, 0)
         pick = next((t for t in pool if ok(t, True)), None) or next((t for t in pool if ok(t, False)), None)
         if not pick:
             continue  # e.g. no single-format topic left for a Saturday; later carousel slots can still fill

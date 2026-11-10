@@ -17,7 +17,7 @@ You are the editor before a post goes to the owner. The take was already chosen;
 ## Sources the writer was allowed to use (facts in these, the topic's proof or real_details count as sourced)
 {sources}
 
-In the cover headline, [square brackets] mark the one phrase shown in teal; they are never shown, so never flag them.
+The post is shown as plain post cards, exactly as written: slide 1 is the cover and the last slide is the close (there is no separate cover or end card, so ignore the "cover" and "end" fields).
 
 ## Hard failures (any one fails the post; quote the line)
 1. A persona hard rule is broken (invented credentials, meeting, client or result; an invented one-off event with other people; a real private person; mocking a protected group; copying another creator's sentences).
@@ -35,7 +35,7 @@ In the cover headline, [square brackets] mark the one phrase shown in teal; they
 13. A cover that doesn't make clear in two seconds what the post is about.
 14. No relatability: the pattern is asserted, not shown. Fewer than three exact examples every reader has seen, examples too narrow for most readers (a named city only some know, one family's ritual), a named stranger's story, or by the end of slide 2 a stranger still can't tell what the post is about.
 15. No feeling: the reader follows a situation but never feels anything under it (cheated, behind, guilty, relieved, seen), or the villain is a person or group the reader is meant to blame instead of a system.
-16. A generic end card: the save line names no moment to come back, or the send line names no specific person ("someone who needs this", "a friend", "your friends").
+16. A template, not this post: a slide leans on stock scaffolding ("So here's the actual rule", "There's a second layer", "Do the maths") where fresh words would carry the turn, or a West/abroad comparison appears where it isn't the insight.
 
 Also note, quoting the line: - Breaks one of the owner's writing rules in the writer prompt: a repeated fact between cover and slide 2, a sub-line that gives away the close, filler or origin-story lines, a decorative invented specific (a time, a reading, an amount), a vague mechanism where the real name exists ("the tax code" for Section 80D), the writer's own story instead of the reader's, a story where the post should share a thought (an observation, opinion or trend), a brand left vague ("a quick-commerce app") where naming it is the point, or a hedged opinion where Varun would say it straight. Quote the line and give the fix.
 
