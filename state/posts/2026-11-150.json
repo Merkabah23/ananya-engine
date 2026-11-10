@@ -1,6 +1,6 @@
 {
  "id": "2026-11-150",
- "status": "approved",
+ "status": "scheduled",
  "due": "2026-11-11T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -92,7 +92,7 @@
   "alt_text": "A text post about the shagun diary Indian families keep after weddings, and why envelopes carry an extra rupee.",
   "claims": []
  },
- "updated_at": "2026-11-10T15:37:33.520648+00:00",
+ "updated_at": "2026-11-10T15:40:31.520420+00:00",
  "varun": {
   "pass": false,
   "score": 4,
@@ -127,5 +127,373 @@
   "text_hash": "1ded76de6e0555e15519b351cafca787ac6f6b3f"
  },
  "owner_ok": true,
- "owner_approved_text": true
+ "owner_approved_text": true,
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] Every Indian family keeps an account book nobody admits exists.\nIt's the shagun diary.\n \n\n[slide 1] Every Indian family keeps an account book nobody admits exists.\nIt's the shagun diary.\n\n[slide 2] After every wedding, someone sits down with the envelopes and a notebook. Name, amount, relation.\n\"Sharma ji, ₹2,100. Bua, ₹5,100.\"\nNobody calls it accounting. It's exactly that.\n\n[slide 3] Because the envelope isn't really a gift. It's a loan with no paperwork.\nWhen Sharma ji's daughter gets married, someone will open that notebook to check what he gave.\n\n[slide 4] And you never return the same amount. ₹2,100 comes back as ₹3,100.\nReturning it exactly would settle the account. Adding a little keeps it open.\n\n[slide 5] That's what the extra ₹1 is doing too. Not ₹500, but ₹501.\nA round number ends in zero, and zero is an ending. The rupee says this continues.\n\n[slide 6] So here's the actual rule. In the West, a wedding gift closes the deal: the couple lists a registry, you buy the toaster, everyone's even.\nAn Indian gift is built never to close.\n\n[slide 7] Do the maths on one wedding. 400 guests at an average of ₹1,100, and the family goes home with ₹4.4 lakh.\nAnd 400 open accounts.\n\n[slide 8] There's a second layer. The diary doesn't only track money; it tracks who came.\nThe cousin who sent ₹501 on GPay and skipped the wedding is remembered longer than the one who came with ₹101.\n\n[slide 9] So when your parents insist you attend the wedding of people you've met twice, they're not being social.\nThey're paying an instalment on an account opened before you were born.\n\n[slide 10] Indian families don't lose touch. They just carry a balance.\nThe ₹1 makes sure it never hits zero.\n\n[end card] \n\n\n[caption] The extra ₹1 in every shagun envelope isn't for luck. It's interest.\n\n[alt text] A text post about the shagun diary Indian families keep after weddings, and why envelopes carry an extra rupee.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Every Indian family keeps a written record (a 'shagun diary') of gifts received at weddings.",
+     "sentence": "Every Indian family keeps an account book nobody admits exists. It's the shagun diary.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "After weddings, families sit down with the gift envelopes and record each giver's name, amount and relation in a notebook.",
+     "sentence": "After every wedding, someone sits down with the envelopes and a notebook. Name, amount, relation.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c3",
+     "text": "A shagun envelope works as a loan: when the giver's family holds a wedding, the recipient family consults the notebook to see what the giver gave.",
+     "sentence": "Because the envelope isn't really a gift. It's a loan with no paperwork. When Sharma ji's daughter gets married, someone will open that notebook to check what he gave.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c4",
+     "text": "Families do not return the same amount they received; they return a somewhat larger sum (e.g. ₹2,100 comes back as ₹3,100), which keeps the obligation open.",
+     "sentence": "And you never return the same amount. ₹2,100 comes back as ₹3,100. Returning it exactly would settle the account. Adding a little keeps it open.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c5",
+     "text": "The extra ₹1 in shagun amounts (₹501 rather than ₹500) is meant to avoid ending on a zero, signalling that the relationship and exchange continue, not as a luck token.",
+     "sentence": "That's what the extra ₹1 is doing too. Not ₹500, but ₹501. A round number ends in zero, and zero is an ending. The rupee says this continues.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c6",
+     "text": "In Western weddings, couples list a gift registry and guests buy items from it, which closes the gift exchange so everyone is even.",
+     "sentence": "In the West, a wedding gift closes the deal: the couple lists a registry, you buy the toaster, everyone's even.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c7",
+     "text": "400 guests giving an average of ₹1,100 each totals ₹4.4 lakh.",
+     "sentence": "400 guests at an average of ₹1,100, and the family goes home with ₹4.4 lakh.",
+     "type": "arithmetic",
+     "core": false,
+     "framed_as": "timeless",
+     "expr": "400*1100/100000",
+     "stated": "4.4"
+    },
+    {
+     "id": "c8",
+     "text": "The shagun diary also records who attended, and a relative who sent money digitally (₹501 on GPay) but skipped the wedding is remembered longer than one who attended with a smaller gift (₹101).",
+     "sentence": "The diary doesn't only track money; it tracks who came. The cousin who sent ₹501 on GPay and skipped the wedding is remembered longer than the one who came with ₹101.",
+     "type": "mechanism",
+     "core": false,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "In Western weddings, couples list a gift registry and guests buy items from it, which closes the gift exchange so everyone is even.": {
+   "id": "c6",
+   "verdict": "misframed",
+   "correct": "The mechanics are right. Couples in Western weddings commonly set up a registry, guests commonly buy from it, and purchased items are marked off. But registry gifts are not a reciprocal exchange that leaves everyone even. Guests give and the couple answers with a thank-you note. Buying from the registry is also optional, and guests often give cash or off-list gifts. The 'closes the exchange so everyone is even' part is the writer's interpretation, not what registries do. I could not confirm it in any source I found. I did not open the Emily Post page and only saw its title in search results.",
+   "sources": [
+    {
+     "url": "https://emilypost.com/advice/all-about-registries",
+     "publisher": "Emily Post Institute",
+     "published_date": "2026-01-01",
+     "quote": "all about registries (title only; I did not fetch the page. The search summary of etiquette sites says buying from a registry is common but not mandatory, and that cash and off-registry gifts are also common.)",
+     "tier": 2
+    }
+   ]
+  },
+  "_skeptic": {
+   "0ea921b0c900a8c228fba02ff707658ec2a41269": {
+    "holds": true,
+    "broken_premise": "None. No premise makes a false claim about a product, price, fee, law, contract or market. Most of them are generalizations about everyday life, like 'every Indian family', the notebook ritual, giving back more than you got, and remembering who skipped the wedding. Those are opinion, not something to falsify. The 'loan with no paperwork' line is a metaphor, not a legal claim. Under Indian tax law a wedding envelope is a gift, not a debt: gifts received on the occasion of your own marriage are fully exempt from income tax under Section 56(2)(x) of the Income Tax Act, from anyone, with no cap. That fits the post's point that the obligation is social and unwritten. The one claim that can be checked against outside sources is the meaning of the extra ₹1, and the zero-means-ending, one-means-continuity reading is the one most often given. The caption's 'isn't for luck' is a bit too absolute, because the same sources also give auspicious explanations (indivisibility as an unbroken blessing, the coin as seed money). That doesn't break the take.",
+    "actual_mechanism": "Shagun is a gift with an unwritten social expectation that it will be returned, usually with something added, when the giver's family has its own wedding or celebration. The law treats it as a tax-exempt marriage gift, so the record keeping and repayment are purely social. The extra ₹1 is commonly explained as avoiding a round number, because a total ending in zero suggests the transaction is over while the added rupee suggests the exchange will continue. Other explanations also circulate, such as an odd amount being indivisible and therefore a lasting blessing, and the rupee being seed money for the recipient to invest or give to charity.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.thequint.com/news/india/curious-case-of-the-one-rupee-why-its-in-your-shagun-envelope",
+      "published_date": "2015-03-11",
+      "quote": "Another theory goes - an amount that ends in zero suggests the end of a transaction... But the additional rupee connotes continuity and the hope of future exchanges."
+     },
+     {
+      "url": "https://www.taxmann.com/post/blog/opinion-gifts-received-after-marriage-are-exempt-from-tax",
+      "published_date": "unknown",
+      "quote": "Search-result summary, not quoted from the article: gifts received on the occasion of the individual's own marriage are exempt under Section 56(2)(x), regardless of who gives them."
+     },
+     {
+      "url": "https://dnaindia.com/lifestyle/report-diwali-2024-why-do-we-add-rs-1-coin-in-shagun-envelope-3115672/amp",
+      "published_date": "2024",
+      "quote": "Search-result summary, not quoted from the article: zero (shunya) signals an ending, while one marks a fresh start, so an extra rupee is added."
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "1ded76de6e0555e15519b351cafca787ac6f6b3f": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Every Indian family keeps a written record (a 'shagun diary') of gifts received at weddings.",
+      "sentence": "Every Indian family keeps an account book nobody admits exists. It's the shagun diary.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "After weddings, families sit down with the gift envelopes and record each giver's name, amount and relation in a notebook.",
+      "sentence": "After every wedding, someone sits down with the envelopes and a notebook. Name, amount, relation.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "A shagun envelope works as a loan: when the giver's family holds a wedding, the recipient family consults the notebook to see what the giver gave.",
+      "sentence": "Because the envelope isn't really a gift. It's a loan with no paperwork. When Sharma ji's daughter gets married, someone will open that notebook to check what he gave.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Families do not return the same amount they received; they return a somewhat larger sum (e.g. ₹2,100 comes back as ₹3,100), which keeps the obligation open.",
+      "sentence": "And you never return the same amount. ₹2,100 comes back as ₹3,100. Returning it exactly would settle the account. Adding a little keeps it open.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "The extra ₹1 in shagun amounts (₹501 rather than ₹500) is meant to avoid ending on a zero, signalling that the relationship and exchange continue, not as a luck token.",
+      "sentence": "That's what the extra ₹1 is doing too. Not ₹500, but ₹501. A round number ends in zero, and zero is an ending. The rupee says this continues.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "In Western weddings, couples list a gift registry and guests buy items from it, which closes the gift exchange so everyone is even.",
+      "sentence": "In the West, a wedding gift closes the deal: the couple lists a registry, you buy the toaster, everyone's even.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "400 guests giving an average of ₹1,100 each totals ₹4.4 lakh.",
+      "sentence": "400 guests at an average of ₹1,100, and the family goes home with ₹4.4 lakh.",
+      "type": "arithmetic",
+      "core": false,
+      "framed_as": "timeless",
+      "expr": "400*1100/100000",
+      "stated": "4.4"
+     },
+     {
+      "id": "c8",
+      "text": "The shagun diary also records who attended, and a relative who sent money digitally (₹501 on GPay) but skipped the wedding is remembered longer than one who attended with a smaller gift (₹101).",
+      "sentence": "The diary doesn't only track money; it tracks who came. The cousin who sent ₹501 on GPay and skipped the wedding is remembered longer than the one who came with ₹101.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c6": {
+      "id": "c6",
+      "verdict": "misframed",
+      "correct": "The mechanics are right. Couples in Western weddings commonly set up a registry, guests commonly buy from it, and purchased items are marked off. But registry gifts are not a reciprocal exchange that leaves everyone even. Guests give and the couple answers with a thank-you note. Buying from the registry is also optional, and guests often give cash or off-list gifts. The 'closes the exchange so everyone is even' part is the writer's interpretation, not what registries do. I could not confirm it in any source I found. I did not open the Emily Post page and only saw its title in search results.",
+      "sources": [
+       {
+        "url": "https://emilypost.com/advice/all-about-registries",
+        "publisher": "Emily Post Institute",
+        "published_date": "2026-01-01",
+        "quote": "all about registries (title only; I did not fetch the page. The search summary of etiquette sites says buying from a registry is common but not mandatory, and that cash and off-registry gifts are also common.)",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. No premise makes a false claim about a product, price, fee, law, contract or market. Most of them are generalizations about everyday life, like 'every Indian family', the notebook ritual, giving back more than you got, and remembering who skipped the wedding. Those are opinion, not something to falsify. The 'loan with no paperwork' line is a metaphor, not a legal claim. Under Indian tax law a wedding envelope is a gift, not a debt: gifts received on the occasion of your own marriage are fully exempt from income tax under Section 56(2)(x) of the Income Tax Act, from anyone, with no cap. That fits the post's point that the obligation is social and unwritten. The one claim that can be checked against outside sources is the meaning of the extra ₹1, and the zero-means-ending, one-means-continuity reading is the one most often given. The caption's 'isn't for luck' is a bit too absolute, because the same sources also give auspicious explanations (indivisibility as an unbroken blessing, the coin as seed money). That doesn't break the take.",
+     "actual_mechanism": "Shagun is a gift with an unwritten social expectation that it will be returned, usually with something added, when the giver's family has its own wedding or celebration. The law treats it as a tax-exempt marriage gift, so the record keeping and repayment are purely social. The extra ₹1 is commonly explained as avoiding a round number, because a total ending in zero suggests the transaction is over while the added rupee suggests the exchange will continue. Other explanations also circulate, such as an odd amount being indivisible and therefore a lasting blessing, and the rupee being seed money for the recipient to invest or give to charity.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.thequint.com/news/india/curious-case-of-the-one-rupee-why-its-in-your-shagun-envelope",
+       "published_date": "2015-03-11",
+       "quote": "Another theory goes - an amount that ends in zero suggests the end of a transaction... But the additional rupee connotes continuity and the hope of future exchanges."
+      },
+      {
+       "url": "https://www.taxmann.com/post/blog/opinion-gifts-received-after-marriage-are-exempt-from-tax",
+       "published_date": "unknown",
+       "quote": "Search-result summary, not quoted from the article: gifts received on the occasion of the individual's own marriage are exempt under Section 56(2)(x), regardless of who gives them."
+      },
+      {
+       "url": "https://dnaindia.com/lifestyle/report-diwali-2024-why-do-we-add-rs-1-coin-in-shagun-envelope-3115672/amp",
+       "published_date": "2024",
+       "quote": "Search-result summary, not quoted from the article: zero (shunya) signals an ending, while one marks a fresh start, so an extra rupee is added."
+      }
+     ]
+    },
+    "text_hash": "1ded76de6e0555e15519b351cafca787ac6f6b3f",
+    "at": "2026-11-10T15:40:00.867164+00:00"
+   }
+  }
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Every Indian family keeps a written record (a 'shagun diary') of gifts received at weddings.",
+    "sentence": "Every Indian family keeps an account book nobody admits exists. It's the shagun diary.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "After weddings, families sit down with the gift envelopes and record each giver's name, amount and relation in a notebook.",
+    "sentence": "After every wedding, someone sits down with the envelopes and a notebook. Name, amount, relation.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c3",
+    "text": "A shagun envelope works as a loan: when the giver's family holds a wedding, the recipient family consults the notebook to see what the giver gave.",
+    "sentence": "Because the envelope isn't really a gift. It's a loan with no paperwork. When Sharma ji's daughter gets married, someone will open that notebook to check what he gave.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c4",
+    "text": "Families do not return the same amount they received; they return a somewhat larger sum (e.g. ₹2,100 comes back as ₹3,100), which keeps the obligation open.",
+    "sentence": "And you never return the same amount. ₹2,100 comes back as ₹3,100. Returning it exactly would settle the account. Adding a little keeps it open.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c5",
+    "text": "The extra ₹1 in shagun amounts (₹501 rather than ₹500) is meant to avoid ending on a zero, signalling that the relationship and exchange continue, not as a luck token.",
+    "sentence": "That's what the extra ₹1 is doing too. Not ₹500, but ₹501. A round number ends in zero, and zero is an ending. The rupee says this continues.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c6",
+    "text": "In Western weddings, couples list a gift registry and guests buy items from it, which closes the gift exchange so everyone is even.",
+    "sentence": "In the West, a wedding gift closes the deal: the couple lists a registry, you buy the toaster, everyone's even.",
+    "type": "feature",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c7",
+    "text": "400 guests giving an average of ₹1,100 each totals ₹4.4 lakh.",
+    "sentence": "400 guests at an average of ₹1,100, and the family goes home with ₹4.4 lakh.",
+    "type": "arithmetic",
+    "core": false,
+    "framed_as": "timeless",
+    "expr": "400*1100/100000",
+    "stated": "4.4"
+   },
+   {
+    "id": "c8",
+    "text": "The shagun diary also records who attended, and a relative who sent money digitally (₹501 on GPay) but skipped the wedding is remembered longer than one who attended with a smaller gift (₹101).",
+    "sentence": "The diary doesn't only track money; it tracks who came. The cousin who sent ₹501 on GPay and skipped the wedding is remembered longer than the one who came with ₹101.",
+    "type": "mechanism",
+    "core": false,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c6": {
+    "id": "c6",
+    "verdict": "misframed",
+    "correct": "The mechanics are right. Couples in Western weddings commonly set up a registry, guests commonly buy from it, and purchased items are marked off. But registry gifts are not a reciprocal exchange that leaves everyone even. Guests give and the couple answers with a thank-you note. Buying from the registry is also optional, and guests often give cash or off-list gifts. The 'closes the exchange so everyone is even' part is the writer's interpretation, not what registries do. I could not confirm it in any source I found. I did not open the Emily Post page and only saw its title in search results.",
+    "sources": [
+     {
+      "url": "https://emilypost.com/advice/all-about-registries",
+      "publisher": "Emily Post Institute",
+      "published_date": "2026-01-01",
+      "quote": "all about registries (title only; I did not fetch the page. The search summary of etiquette sites says buying from a registry is common but not mandatory, and that cash and off-registry gifts are also common.)",
+      "tier": 2
+     }
+    ]
+   }
+  },
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "None. No premise makes a false claim about a product, price, fee, law, contract or market. Most of them are generalizations about everyday life, like 'every Indian family', the notebook ritual, giving back more than you got, and remembering who skipped the wedding. Those are opinion, not something to falsify. The 'loan with no paperwork' line is a metaphor, not a legal claim. Under Indian tax law a wedding envelope is a gift, not a debt: gifts received on the occasion of your own marriage are fully exempt from income tax under Section 56(2)(x) of the Income Tax Act, from anyone, with no cap. That fits the post's point that the obligation is social and unwritten. The one claim that can be checked against outside sources is the meaning of the extra ₹1, and the zero-means-ending, one-means-continuity reading is the one most often given. The caption's 'isn't for luck' is a bit too absolute, because the same sources also give auspicious explanations (indivisibility as an unbroken blessing, the coin as seed money). That doesn't break the take.",
+   "actual_mechanism": "Shagun is a gift with an unwritten social expectation that it will be returned, usually with something added, when the giver's family has its own wedding or celebration. The law treats it as a tax-exempt marriage gift, so the record keeping and repayment are purely social. The extra ₹1 is commonly explained as avoiding a round number, because a total ending in zero suggests the transaction is over while the added rupee suggests the exchange will continue. Other explanations also circulate, such as an odd amount being indivisible and therefore a lasting blessing, and the rupee being seed money for the recipient to invest or give to charity.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://www.thequint.com/news/india/curious-case-of-the-one-rupee-why-its-in-your-shagun-envelope",
+     "published_date": "2015-03-11",
+     "quote": "Another theory goes - an amount that ends in zero suggests the end of a transaction... But the additional rupee connotes continuity and the hope of future exchanges."
+    },
+    {
+     "url": "https://www.taxmann.com/post/blog/opinion-gifts-received-after-marriage-are-exempt-from-tax",
+     "published_date": "unknown",
+     "quote": "Search-result summary, not quoted from the article: gifts received on the occasion of the individual's own marriage are exempt under Section 56(2)(x), regardless of who gives them."
+    },
+    {
+     "url": "https://dnaindia.com/lifestyle/report-diwali-2024-why-do-we-add-rs-1-coin-in-shagun-envelope-3115672/amp",
+     "published_date": "2024",
+     "quote": "Search-result summary, not quoted from the article: zero (shunya) signals an ending, while one marks a fresh start, so an extra rupee is added."
+    }
+   ]
+  },
+  "text_hash": "1ded76de6e0555e15519b351cafca787ac6f6b3f",
+  "at": "2026-11-10T15:40:00.867164+00:00"
+ },
+ "alt_texts": [
+  "Every Indian family keeps an account book nobody admits exists. It's the shagun diary.",
+  "After every wedding, someone sits down with the envelopes and a notebook. Name, amount, relation. \"Sharma ji, ₹2,100. Bua, ₹5,100.\" Nobody calls it accounting. It's exactly that.",
+  "Because the envelope isn't really a gift. It's a loan with no paperwork. When Sharma ji's daughter gets married, someone will open that notebook to check what he gave.",
+  "And you never return the same amount. ₹2,100 comes back as ₹3,100. Returning it exactly would settle the account. Adding a little keeps it open.",
+  "That's what the extra ₹1 is doing too. Not ₹500, but ₹501. A round number ends in zero, and zero is an ending. The rupee says this continues.",
+  "So here's the actual rule. In the West, a wedding gift closes the deal: the couple lists a registry, you buy the toaster, everyone's even. An Indian gift is built never to close.",
+  "Do the maths on one wedding. 400 guests at an average of ₹1,100, and the family goes home with ₹4.4 lakh. And 400 open accounts.",
+  "There's a second layer. The diary doesn't only track money; it tracks who came. The cousin who sent ₹501 on GPay and skipped the wedding is remembered longer than the one who came with ₹101.",
+  "So when your parents insist you attend the wedding of people you've met twice, they're not being social. They're paying an instalment on an account opened before you were born.",
+  "Indian families don't lose touch. They just carry a balance. The ₹1 makes sure it never hits zero."
+ ],
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-150/slide_01.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-150/slide_02.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-150/slide_03.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-150/slide_04.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-150/slide_05.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-150/slide_06.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-150/slide_07.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-150/slide_08.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-150/slide_09.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-150/slide_10.jpg"
+ ],
+ "buffer_attempted_at": "2026-11-10T15:40:30.351307+00:00",
+ "buffer_post_id": "6af33aefe9e4a87f7b4d65dc"
 }
