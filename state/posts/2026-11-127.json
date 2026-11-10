@@ -1,6 +1,6 @@
 {
  "id": "2026-11-127",
- "status": "approved",
+ "status": "scheduled",
  "due": "2026-11-16T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -513,7 +513,7 @@
    "why": "the writer's drafts kept padding a dead middle slide; hand-written in the approved voice (10 Nov)"
   }
  ],
- "updated_at": "2026-11-10T16:18:26.320622+00:00",
+ "updated_at": "2026-11-10T16:25:54.223147+00:00",
  "sources": [
   {
    "url": "https://www.refinery29.com/en-gb/instagram-stories-viewers-ranking",
@@ -597,5 +597,317 @@
    }
   ]
  },
- "owner_ok": true
+ "owner_ok": true,
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] Half the stories you post aren't for your followers.\nThey're for one person.\n \n\n[slide 1] Half the stories you post aren't for your followers.\nThey're for one person.\n\n[slide 2] A sunset. A song you know they like. A coffee at the café you both used to go to.\nThen you open your own story four times in an hour.\n\n[slide 3] Not to see the sunset again.\nTo check one name in the viewer list.\n\n[slide 4] A story is the safest message ever invented. You never send it, so you never have to admit you sent it.\nIf nothing comes back, you never asked anything.\n\n[slide 5] That's why the song takes longer to pick than the photo. The photo is for everyone.\nThe song is for them.\n\n[slide 6] And the list you keep checking isn't the scoreboard you think it is. Instagram says the viewer list is ordered by several signals, not simply by who watched first.\n\n[slide 7] So you're reading a reply into a list that was never a reply.\nDecoding an algorithm like it's a letter.\n\n[slide 8] Scroll back through your last five stories and ask who each one was really for.\n\n[slide 9] You posted it for everyone.\nYou checked it for one.\n\n[end card] \n\n\n[caption] You posted it for everyone. You checked it for one. Who was your last story for?\n\n[alt text] A text post about posting Instagram stories for one person and checking the viewer list.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Instagram says the story viewer list is ordered by several signals, not simply by who viewed first.",
+     "sentence": "Instagram says the viewer list is ordered by several signals, not simply by who watched first.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "Instagram's story viewer list is not a simple chronological order of who watched first, so a person's position in it does not directly show their interest or reply.",
+     "sentence": "So you're reading a reply into a list that was never a reply. Decoding an algorithm like it's a letter.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c3",
+     "text": "On Instagram, a story is not sent to anyone as a message, so the poster does not have to admit to sending it to a specific person and nothing is asked of them.",
+     "sentence": "A story is the safest message ever invented. You never send it, so you never have to admit you sent it.",
+     "type": "mechanism",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c4",
+     "text": "Instagram story posters can see the list of people who viewed their story, including specific names.",
+     "sentence": "To check one name in the viewer list.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "Instagram says the story viewer list is ordered by several signals, not simply by who viewed first.": {
+   "id": "c1",
+   "verdict": "supported",
+   "event_date": "2018-09-25",
+   "correct": "",
+   "sources": [
+    {
+     "url": "https://www.refinery29.com/en-gb/instagram-stories-viewers-ranking",
+     "publisher": "Refinery29",
+     "published_date": "2018-09-25",
+     "quote": "The list of people who view your story is ordered based on a number of signals.",
+     "tier": 2
+    }
+   ]
+  },
+  "Instagram story posters can see the list of people who viewed their story, including specific names.": {
+   "id": "c4",
+   "verdict": "supported",
+   "event_date": "",
+   "correct": "",
+   "sources": [
+    {
+     "url": "https://about.instagram.com/features/stories/",
+     "publisher": "Instagram (Meta)",
+     "published_date": "",
+     "quote": "The viewer list and view number do not include the usernames of Meta Plus subscribers who have previewed your story.",
+     "tier": 1
+    }
+   ]
+  },
+  "_skeptic": {
+   "ca893449a90eadbfd39303ad19a70a30a172ffe9": {
+    "holds": true,
+    "broken_premise": "None. Premise 1 checks out: in 2018 an Instagram spokesperson said the viewer list is 'ordered based on a number of signals,' and the main ones were who viewed recently and which accounts you interact with most. It is not a plain list of who watched first. Premise 2 checks out too: a Story is a broadcast to your followers or your Close Friends list. Nobody receives it as a message, and it asks nothing of anyone. The only messages are the replies or reactions viewers choose to send, which land in your DMs.",
+    "actual_mechanism": "A Story goes to your followers (or just your Close Friends list) for 24 hours. You can see who watched it, and viewers can only reach you by replying or reacting through DMs. Instagram says the viewer list is ranked by several signals, mainly how recently someone viewed and how much you interact with each account, and it has never published the exact formula. Third-party guides say the list is chronological under about 50 viewers, but Instagram has never confirmed that, so a name near the top tells you about the algorithm, not about whether that person is replying to you.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.refinery29.com/en-gb/instagram-stories-viewers-ranking",
+      "published_date": "2018-09-25",
+      "quote": "The list of people who view your story is ordered based on a number of signals."
+     },
+     {
+      "url": "https://www.unum.la/blog/instagram-stories-viewers-order",
+      "published_date": "unknown",
+      "quote": "Speaking to The Verge in 2018, product lead for Instagram Home, Julian Gutman, revealed the list of your Instagram Stories viewers appears the way it does based on what you do on the app."
+     },
+     {
+      "url": "https://vistasocial.com/insights/instagram-story-viewer-order/",
+      "published_date": "unknown",
+      "quote": "Instagram DOES NOT expressly state the rules on how Story viewers are sorted."
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "c4f501c33f9e2d3077711764c5ee9e86abbd5f55": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Instagram says the story viewer list is ordered by several signals, not simply by who viewed first.",
+      "sentence": "Instagram says the viewer list is ordered by several signals, not simply by who watched first.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Instagram's story viewer list is not a simple chronological order of who watched first, so a person's position in it does not directly show their interest or reply.",
+      "sentence": "So you're reading a reply into a list that was never a reply. Decoding an algorithm like it's a letter.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "On Instagram, a story is not sent to anyone as a message, so the poster does not have to admit to sending it to a specific person and nothing is asked of them.",
+      "sentence": "A story is the safest message ever invented. You never send it, so you never have to admit you sent it.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Instagram story posters can see the list of people who viewed their story, including specific names.",
+      "sentence": "To check one name in the viewer list.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2018-09-25",
+      "correct": "",
+      "sources": [
+       {
+        "url": "https://www.refinery29.com/en-gb/instagram-stories-viewers-ranking",
+        "publisher": "Refinery29",
+        "published_date": "2018-09-25",
+        "quote": "The list of people who view your story is ordered based on a number of signals.",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "",
+      "correct": "",
+      "sources": [
+       {
+        "url": "https://about.instagram.com/features/stories/",
+        "publisher": "Instagram (Meta)",
+        "published_date": "",
+        "quote": "The viewer list and view number do not include the usernames of Meta Plus subscribers who have previewed your story.",
+        "tier": 1
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. Premise 1 checks out: in 2018 an Instagram spokesperson said the viewer list is 'ordered based on a number of signals,' and the main ones were who viewed recently and which accounts you interact with most. It is not a plain list of who watched first. Premise 2 checks out too: a Story is a broadcast to your followers or your Close Friends list. Nobody receives it as a message, and it asks nothing of anyone. The only messages are the replies or reactions viewers choose to send, which land in your DMs.",
+     "actual_mechanism": "A Story goes to your followers (or just your Close Friends list) for 24 hours. You can see who watched it, and viewers can only reach you by replying or reacting through DMs. Instagram says the viewer list is ranked by several signals, mainly how recently someone viewed and how much you interact with each account, and it has never published the exact formula. Third-party guides say the list is chronological under about 50 viewers, but Instagram has never confirmed that, so a name near the top tells you about the algorithm, not about whether that person is replying to you.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.refinery29.com/en-gb/instagram-stories-viewers-ranking",
+       "published_date": "2018-09-25",
+       "quote": "The list of people who view your story is ordered based on a number of signals."
+      },
+      {
+       "url": "https://www.unum.la/blog/instagram-stories-viewers-order",
+       "published_date": "unknown",
+       "quote": "Speaking to The Verge in 2018, product lead for Instagram Home, Julian Gutman, revealed the list of your Instagram Stories viewers appears the way it does based on what you do on the app."
+      },
+      {
+       "url": "https://vistasocial.com/insights/instagram-story-viewer-order/",
+       "published_date": "unknown",
+       "quote": "Instagram DOES NOT expressly state the rules on how Story viewers are sorted."
+      }
+     ]
+    },
+    "text_hash": "c4f501c33f9e2d3077711764c5ee9e86abbd5f55",
+    "at": "2026-11-10T16:20:51.094289+00:00"
+   }
+  }
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Instagram says the story viewer list is ordered by several signals, not simply by who viewed first.",
+    "sentence": "Instagram says the viewer list is ordered by several signals, not simply by who watched first.",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "Instagram's story viewer list is not a simple chronological order of who watched first, so a person's position in it does not directly show their interest or reply.",
+    "sentence": "So you're reading a reply into a list that was never a reply. Decoding an algorithm like it's a letter.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c3",
+    "text": "On Instagram, a story is not sent to anyone as a message, so the poster does not have to admit to sending it to a specific person and nothing is asked of them.",
+    "sentence": "A story is the safest message ever invented. You never send it, so you never have to admit you sent it.",
+    "type": "mechanism",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c4",
+    "text": "Instagram story posters can see the list of people who viewed their story, including specific names.",
+    "sentence": "To check one name in the viewer list.",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c1": {
+    "id": "c1",
+    "verdict": "supported",
+    "event_date": "2018-09-25",
+    "correct": "",
+    "sources": [
+     {
+      "url": "https://www.refinery29.com/en-gb/instagram-stories-viewers-ranking",
+      "publisher": "Refinery29",
+      "published_date": "2018-09-25",
+      "quote": "The list of people who view your story is ordered based on a number of signals.",
+      "tier": 2
+     }
+    ]
+   },
+   "c4": {
+    "id": "c4",
+    "verdict": "supported",
+    "event_date": "",
+    "correct": "",
+    "sources": [
+     {
+      "url": "https://about.instagram.com/features/stories/",
+      "publisher": "Instagram (Meta)",
+      "published_date": "",
+      "quote": "The viewer list and view number do not include the usernames of Meta Plus subscribers who have previewed your story.",
+      "tier": 1
+     }
+    ]
+   }
+  },
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "None. Premise 1 checks out: in 2018 an Instagram spokesperson said the viewer list is 'ordered based on a number of signals,' and the main ones were who viewed recently and which accounts you interact with most. It is not a plain list of who watched first. Premise 2 checks out too: a Story is a broadcast to your followers or your Close Friends list. Nobody receives it as a message, and it asks nothing of anyone. The only messages are the replies or reactions viewers choose to send, which land in your DMs.",
+   "actual_mechanism": "A Story goes to your followers (or just your Close Friends list) for 24 hours. You can see who watched it, and viewers can only reach you by replying or reacting through DMs. Instagram says the viewer list is ranked by several signals, mainly how recently someone viewed and how much you interact with each account, and it has never published the exact formula. Third-party guides say the list is chronological under about 50 viewers, but Instagram has never confirmed that, so a name near the top tells you about the algorithm, not about whether that person is replying to you.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://www.refinery29.com/en-gb/instagram-stories-viewers-ranking",
+     "published_date": "2018-09-25",
+     "quote": "The list of people who view your story is ordered based on a number of signals."
+    },
+    {
+     "url": "https://www.unum.la/blog/instagram-stories-viewers-order",
+     "published_date": "unknown",
+     "quote": "Speaking to The Verge in 2018, product lead for Instagram Home, Julian Gutman, revealed the list of your Instagram Stories viewers appears the way it does based on what you do on the app."
+    },
+    {
+     "url": "https://vistasocial.com/insights/instagram-story-viewer-order/",
+     "published_date": "unknown",
+     "quote": "Instagram DOES NOT expressly state the rules on how Story viewers are sorted."
+    }
+   ]
+  },
+  "text_hash": "c4f501c33f9e2d3077711764c5ee9e86abbd5f55",
+  "at": "2026-11-10T16:20:51.094289+00:00"
+ },
+ "alt_texts": [
+  "Half the stories you post aren't for your followers. They're for one person.",
+  "A sunset. A song you know they like. A coffee at the café you both used to go to. Then you open your own story four times in an hour.",
+  "Not to see the sunset again. To check one name in the viewer list.",
+  "A story is the safest message ever invented. You never send it, so you never have to admit you sent it. If nothing comes back, you never asked anything.",
+  "That's why the song takes longer to pick than the photo. The photo is for everyone. The song is for them.",
+  "And the list you keep checking isn't the scoreboard you think it is. Instagram says the viewer list is ordered by several signals, not simply by who watched first.",
+  "So you're reading a reply into a list that was never a reply. Decoding an algorithm like it's a letter.",
+  "Scroll back through your last five stories and ask who each one was really for.",
+  "You posted it for everyone. You checked it for one."
+ ],
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-127/slide_01.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-127/slide_02.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-127/slide_03.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-127/slide_04.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-127/slide_05.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-127/slide_06.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-127/slide_07.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-127/slide_08.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-127/slide_09.jpg"
+ ],
+ "buffer_attempted_at": "2026-11-10T16:25:53.084769+00:00",
+ "buffer_post_id": "6af3459242d372a81f69ef43"
 }

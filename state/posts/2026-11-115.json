@@ -1,6 +1,6 @@
 {
  "id": "2026-11-115",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-26T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -32,7 +32,268 @@
   "news_peg": null,
   "proof": []
  },
- "history": [],
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Hard failure 12 (mechanism stated as fact that can't be shown), slide 5: \"They paid it from the household cash, so it never showed up on any account you can see.\" This is an invented hidden-payment mechanism, and the ₹4,000 is a decorative specific. Slide 4's \"booked on a weekday morning, while you were at work\" is the same kind of detail.",
+     "Hard failure 12, slide 7: \"Being the one who worries is how they stay the parent. Telling you everything would make you the one in charge. That swap scares them more than the report.\" A secret motive is asserted as fact. The topic's because is only that they see shielding you as their job. Slide 2 also states as fact that \"They booked the test, went alone, read every line, and chose which part you get to hear.\"",
+     "Hard failure 7 (dead slide), slide 9: it restates the cover's report-card comparison. \"Consent form\" also overstates what a routine checkup involves. Slide 6 (\"their job was to hear the bad news first\") and slide 2 (\"chose which part you get to hear\") make the same shielding point, so one of them is redundant.",
+     "Hard failure 16, slides 7 and 8: \"Look again and it's also about…\" and \"It's both. It's love, and it's a wall.\" This is stock scaffolding and a tidy verdict, not a fresh turn."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 3,
+     "eq": 4,
+     "iq": 3,
+     "story": 3,
+     "tight": 3,
+     "informative": 2
+    },
+    "notes": [
+     "slide 9: Don't recycle the cover's comparison. End on something that stings and moves forward, such as the role swap itself: you used to hide the report to keep them calm, and now you are the one being kept calm. Drop \"consent form\", which is inaccurate for a routine checkup, and drop the forged signature, which changes the comparison from hiding to forging.",
+     "slide 5: Cut the ₹4,000 and the \"household cash, never on any account\" claim. Replace them with a sensory detail the reader has actually seen: the strip of tablets counted out, the report folded small inside the newspaper, a phone face-down when you walk in. Keep it as a typical habit, not a mechanism.",
+     "slide 7: Remove the \"stay the parent / swap scares them\" motive stated as fact. Stay with the topic's because: they spent your childhood taking bad news first, and you being able to help doesn't change that. Say it plainly, with no \"Look again\" opener.",
+     "slides 4 and 6: Merge or sharpen them so the because appears once. Slide 4's \"And who paid\" beat adds nothing, so use that slot for the new consequence: you only find out when something goes wrong, which is when you can help least.",
+     "slide 8: Drop \"It's both. It's love, and it's a wall.\" Keep the sibling split (one finds out at the pharmacy, one hears \"sab theek hai\" on Sunday), but cut the tidy verdict. Let the split show how the arrangement shuts everyone out."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Hard failure 12 (mechanism stated as fact that can't be shown), slide 5: \"They paid it from the household cash, so it never showed up on any account you can see.\" This is an invented hidden-payment mechanism, and the ₹4,000 is a decorative specific. Slide 4's \"booked on a weekday morning, while you were at work\" is the same kind of detail.",
+    "Hard failure 12, slide 7: \"Being the one who worries is how they stay the parent. Telling you everything would make you the one in charge. That swap scares them more than the report.\" A secret motive is asserted as fact. The topic's because is only that they see shielding you as their job. Slide 2 also states as fact that \"They booked the test, went alone, read every line, and chose which part you get to hear.\"",
+    "Hard failure 7 (dead slide), slide 9: it restates the cover's report-card comparison. \"Consent form\" also overstates what a routine checkup involves. Slide 6 (\"their job was to hear the bad news first\") and slide 2 (\"chose which part you get to hear\") make the same shielding point, so one of them is redundant.",
+    "Hard failure 16, slides 7 and 8: \"Look again and it's also about…\" and \"It's both. It's love, and it's a wall.\" This is stock scaffolding and a tidy verdict, not a fresh turn.",
+    "slide 9: Don't recycle the cover's comparison. End on something that stings and moves forward, such as the role swap itself: you used to hide the report to keep them calm, and now you are the one being kept calm. Drop \"consent form\", which is inaccurate for a routine checkup, and drop the forged signature, which changes the comparison from hiding to forging.",
+    "slide 5: Cut the ₹4,000 and the \"household cash, never on any account\" claim. Replace them with a sensory detail the reader has actually seen: the strip of tablets counted out, the report folded small inside the newspaper, a phone face-down when you walk in. Keep it as a typical habit, not a mechanism.",
+    "slide 7: Remove the \"stay the parent / swap scares them\" motive stated as fact. Stay with the topic's because: they spent your childhood taking bad news first, and you being able to help doesn't change that. Say it plainly, with no \"Look again\" opener.",
+    "slides 4 and 6: Merge or sharpen them so the because appears once. Slide 4's \"And who paid\" beat adds nothing, so use that slot for the new consequence: you only find out when something goes wrong, which is when you can help least.",
+    "slide 8: Drop \"It's both. It's love, and it's a wall.\" Keep the sibling split (one finds out at the pharmacy, one hears \"sab theek hai\" on Sunday), but cut the tidy verdict. Let the split show how the arrangement shuts everyone out."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 9 (\"At fifteen, you were the one keeping them calm. Now they pour your chai, ask about your office, and keep you calm instead.\"): no payoff. It is a soft, wistful role-swap image. The chai line has no link to the hiding, and it does not sting or leave a line to repeat. It also drifts from the topic's payoff, which is hiding the report card so they wouldn't worry.",
+     "Slide 7 (\"None of that moved the job of worrying. In their heads, it still belongs to them.\"): dead slide. Slide 6 already said the shielding job never ended. Slide 7 restates it in new words.",
+     "Slide 2 (\"It's neither. Not telling you was the plan, and they stuck to it.\"): restates the cover sub-line (\"They didn't forget. They decided not to.\"), so the turn is spent twice. The slide adds no new beat."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 2,
+     "voice": 3,
+     "eq": 3,
+     "iq": 3,
+     "story": 3,
+     "tight": 3,
+     "informative": 2
+    },
+    "notes": [
+     "slide 9: Rebuild the close on the topic's payoff. Show the reader's own old hiding with one concrete detail (the report card slipped under the books, the signature you got a cousin to forge, the \"result kal aayega\"). Land on one line that stings, such as you hid it so they wouldn't worry, and now they are doing the same. Drop the chai and \"keep you calm\" image, which is sentimental and does not match the topic.",
+     "slide 7: Merge slides 6 and 7 into one. The new beat should be the \"because\": now that you can pay and drive, their identity as the one who takes the bad news first is what you are threatening. Cut \"the job of worrying\" repeated, and \"Call it the edited report\" if it reads as a stock label.",
+     "slide 2: Don't spend the turn twice. Use this slide to bring in the report-card parallel as a real scene, with the reader as a kid hiding marks, so the analogy in the hook is shown rather than only claimed. Leave the \"they decided\" line to the cover.",
+     "slide 8: This is the strongest new beat (siblings get different versions). Push it one step further: the edited report is edited differently for each child, so no one has the full picture. Tie that to the villain, the arrangement where protecting each other means keeping each other out, rather than to the parents.",
+     "slide 5: Add one detail beyond sight, such as the rustle of the newspaper being folded when you walk in, or the tablet strip click at 7am. Cut \"The worry is all theirs.\" because slide 6 says it again."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Slide 9 (\"At fifteen, you were the one keeping them calm. Now they pour your chai, ask about your office, and keep you calm instead.\"): no payoff. It is a soft, wistful role-swap image. The chai line has no link to the hiding, and it does not sting or leave a line to repeat. It also drifts from the topic's payoff, which is hiding the report card so they wouldn't worry.",
+    "Slide 7 (\"None of that moved the job of worrying. In their heads, it still belongs to them.\"): dead slide. Slide 6 already said the shielding job never ended. Slide 7 restates it in new words.",
+    "Slide 2 (\"It's neither. Not telling you was the plan, and they stuck to it.\"): restates the cover sub-line (\"They didn't forget. They decided not to.\"), so the turn is spent twice. The slide adds no new beat.",
+    "slide 9: Rebuild the close on the topic's payoff. Show the reader's own old hiding with one concrete detail (the report card slipped under the books, the signature you got a cousin to forge, the \"result kal aayega\"). Land on one line that stings, such as you hid it so they wouldn't worry, and now they are doing the same. Drop the chai and \"keep you calm\" image, which is sentimental and does not match the topic.",
+    "slide 7: Merge slides 6 and 7 into one. The new beat should be the \"because\": now that you can pay and drive, their identity as the one who takes the bad news first is what you are threatening. Cut \"the job of worrying\" repeated, and \"Call it the edited report\" if it reads as a stock label.",
+    "slide 2: Don't spend the turn twice. Use this slide to bring in the report-card parallel as a real scene, with the reader as a kid hiding marks, so the analogy in the hook is shown rather than only claimed. Leave the \"they decided\" line to the cover.",
+    "slide 8: This is the strongest new beat (siblings get different versions). Push it one step further: the edited report is edited differently for each child, so no one has the full picture. Tie that to the villain, the arrangement where protecting each other means keeping each other out, rather than to the parents.",
+    "slide 5: Add one detail beyond sight, such as the rustle of the newspaper being folded when you walk in, or the tablet strip click at 7am. Cut \"The worry is all theirs.\" because slide 6 says it again."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 3 (dead/thin slide): \"You find the lab envelope tucked behind the medicine box, dated weeks before anyone said a word.\" It is the topic's moment, but it sits after slide 2 and only restates the claim (parents hide reports) with a prop. The hook already told us they hide reports, so this adds no new beat.",
+     "Slide 5 (dead slide, partly): \"The signs were there: tablets counted out every morning, a phone turned face-down...\" lists three signs, and the newspaper line then repeats the same image twice (folded small inside the newspaper / rustle of the newspaper being folded shut). Also, the phone and newspaper details are invented scene specifics presented as the reader's own and are not clearly shared by most readers (too narrow).",
+     "Slide 8 and 9 (dead slide): slide 8 sets up siblings getting different versions and slide 9 restates it (\"you were each told a different story\"), so it is one idea said twice. Slide 9 also over-explains: \"Each version was cut to protect one child\" states a deliberate plan as fact, and it is not shown that parents tailor versions per child.",
+     "Slide 7 (mechanism stated as fact that can't be shown): \"Telling you everything means admitting that job has passed to you. That's what the folder is protecting.\" It asserts a deliberate hidden motive (protecting their role) as fact; the topic's own because is shielding you from worry. Slides 6 and 7 together explain the motive twice (parents' job to hear bad news first, then job passed to you).",
+     "Slide 10 (payoff weakened by contradiction): \"The only thing that changed is who's too young to be told.\" It lands as a clever mirrored line, but it contradicts slide 7's reading (the parents are protecting their role, not treating you as too young), so the close and the because disagree. Also \"Their reports sit behind the medicines for exactly that reason\" repeats the cover's point, so the last slide restates the hook."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 3,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "Slides 6 and 7: merge into one clear because and pick the one the topic gives. Parents spent your childhood shielding you from bad news, and now that you could help they still see shielding as their job, not yours. Drop the double explanation of role handover, and don't state their inner motive as certain. Say what it looks like from outside, e.g. \"It's not that they don't trust you. Worrying is the one job they haven't handed over.\"",
+     "Slides 8 and 9: collapse into one slide. Keep the pharmacy-counter versus Sunday-call contrast, which is a sharp, concrete detail, then cut the \"each version was cut to protect one child\" line, which claims a plan nobody can show. End the slide on the consequence: two siblings, two stories, nobody holding the whole report.",
+     "Slide 3 and slide 5: fold the lab-envelope moment into slide 2 or make it the opener of the post, and keep one sensory detail on slide 5 instead of three. The newspaper rustle is the best one (sound), so cut the tablets and the phone, and don't repeat the newspaper image. The kid-hiding-marks comparison is slide 2's job, so slide 3 should move forward, not re-show the discovery.",
+     "Slide 10: rebuild the close so it agrees with the because. Your hook compares the two hidings, so the last line should add something new instead of re-stating it. Try a sting that names the swap: you hid the marks so they wouldn't worry, and now they hide the reports for the same reason, and you are the one who has to ask for the paper. Or give a test the reader can run: next time, ask to see the envelope before they offer it. Cut \"too young to be told\" since nothing earlier says that.",
+     "Slide 4: \"bas routine checkup tha\" and \"Doctor ne thoda sugar kam karne bola hai\" are good, typical lines the reader has heard. Frame them as what parents typically say, and add one beat of what you do next (you nod and let it go), so the reader feels their own part in the silence. That gives the post the guilt and mixed feelings the topic's mood asks for, and it stops the post from only blaming the parents."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Slide 3 (dead/thin slide): \"You find the lab envelope tucked behind the medicine box, dated weeks before anyone said a word.\" It is the topic's moment, but it sits after slide 2 and only restates the claim (parents hide reports) with a prop. The hook already told us they hide reports, so this adds no new beat.",
+    "Slide 5 (dead slide, partly): \"The signs were there: tablets counted out every morning, a phone turned face-down...\" lists three signs, and the newspaper line then repeats the same image twice (folded small inside the newspaper / rustle of the newspaper being folded shut). Also, the phone and newspaper details are invented scene specifics presented as the reader's own and are not clearly shared by most readers (too narrow).",
+    "Slide 8 and 9 (dead slide): slide 8 sets up siblings getting different versions and slide 9 restates it (\"you were each told a different story\"), so it is one idea said twice. Slide 9 also over-explains: \"Each version was cut to protect one child\" states a deliberate plan as fact, and it is not shown that parents tailor versions per child.",
+    "Slide 7 (mechanism stated as fact that can't be shown): \"Telling you everything means admitting that job has passed to you. That's what the folder is protecting.\" It asserts a deliberate hidden motive (protecting their role) as fact; the topic's own because is shielding you from worry. Slides 6 and 7 together explain the motive twice (parents' job to hear bad news first, then job passed to you).",
+    "Slide 10 (payoff weakened by contradiction): \"The only thing that changed is who's too young to be told.\" It lands as a clever mirrored line, but it contradicts slide 7's reading (the parents are protecting their role, not treating you as too young), so the close and the because disagree. Also \"Their reports sit behind the medicines for exactly that reason\" repeats the cover's point, so the last slide restates the hook.",
+    "Slides 6 and 7: merge into one clear because and pick the one the topic gives. Parents spent your childhood shielding you from bad news, and now that you could help they still see shielding as their job, not yours. Drop the double explanation of role handover, and don't state their inner motive as certain. Say what it looks like from outside, e.g. \"It's not that they don't trust you. Worrying is the one job they haven't handed over.\"",
+    "Slides 8 and 9: collapse into one slide. Keep the pharmacy-counter versus Sunday-call contrast, which is a sharp, concrete detail, then cut the \"each version was cut to protect one child\" line, which claims a plan nobody can show. End the slide on the consequence: two siblings, two stories, nobody holding the whole report.",
+    "Slide 3 and slide 5: fold the lab-envelope moment into slide 2 or make it the opener of the post, and keep one sensory detail on slide 5 instead of three. The newspaper rustle is the best one (sound), so cut the tablets and the phone, and don't repeat the newspaper image. The kid-hiding-marks comparison is slide 2's job, so slide 3 should move forward, not re-show the discovery.",
+    "Slide 10: rebuild the close so it agrees with the because. Your hook compares the two hidings, so the last line should add something new instead of re-stating it. Try a sting that names the swap: you hid the marks so they wouldn't worry, and now they hide the reports for the same reason, and you are the one who has to ask for the paper. Or give a test the reader can run: next time, ask to see the envelope before they offer it. Cut \"too young to be told\" since nothing earlier says that.",
+    "Slide 4: \"bas routine checkup tha\" and \"Doctor ne thoda sugar kam karne bola hai\" are good, typical lines the reader has heard. Frame them as what parents typically say, and add one beat of what you do next (you nod and let it go), so the reader feels their own part in the silence. That gives the post the guilt and mixed feelings the topic's mood asks for, and it stops the post from only blaming the parents."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [
+     "7. Dead slide, slide 5: \"The signs were there, if you think back. The rustle of a newspaper being folded shut...\" It adds one thin image and no new idea. It also delays the turn that slide 6 delivers.",
+     "12. Shaky mechanism, slides 1 and 8: \"You kept your thumb over the marks so they wouldn't worry.\" Most kids hid marks to avoid a scolding, not to spare their parents worry. Every reader will notice, and the whole 'same reason' parallel rests on it.",
+     "Hook, slide 1: it states the claim but not the turn. \"They decided not to\" sits only in the cover sub, which is ignored here. The why_swipe 'surely they just forgot' is not carried by the slide text."
+    ],
+    "scores": {
+     "hook": 3,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 3,
+     "eq": 4,
+     "iq": 3,
+     "story": 3,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "Slide 8 and slide 2: fix the false parallel. Say honestly that you hid marks to dodge the scolding, and they hide reports to dodge your worry. The reversal is the real sting: you hid it out of fear, they hide it out of love. Then end on 'now you're the one who has to ask to see the paper'.",
+     "Slide 5: cut it, or replace it with a real insider beat. For example, the parents manage appointments alone, tell you the report 'isn't ready yet', or send you the doctor's name but never the result. Use a sound or touch detail only if it carries the point, not as decoration.",
+     "Slides 3 and 4: merge them. The 'routine checkup' line and 'you nod and let it go' say the same thing twice. Free the space to move the turn (they decided, deliberately) up to slide 3 or 4, so the post doesn't wait until slide 6 to say what's going on.",
+     "Slide 6: it is the strongest slide, so sharpen it. Cut 'It's not about trust.' because it sounds like a mini-lecture. Keep the line about worry being the one job they haven't handed over. Name who loses under the arrangement: the family system where shielding each other means locking each other out.",
+     "Slide 7: keep the sibling split, but make it a typical scenario in plain words. Drop the neat 'Two children, two stories' mirror and say plainly that no one has the whole report. This is the 'insider rule' beat, so give it a short name the reader can repeat."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "7. Dead slide, slide 5: \"The signs were there, if you think back. The rustle of a newspaper being folded shut...\" It adds one thin image and no new idea. It also delays the turn that slide 6 delivers.",
+    "12. Shaky mechanism, slides 1 and 8: \"You kept your thumb over the marks so they wouldn't worry.\" Most kids hid marks to avoid a scolding, not to spare their parents worry. Every reader will notice, and the whole 'same reason' parallel rests on it.",
+    "Hook, slide 1: it states the claim but not the turn. \"They decided not to\" sits only in the cover sub, which is ignored here. The why_swipe 'surely they just forgot' is not carried by the slide text.",
+    "Slide 8 and slide 2: fix the false parallel. Say honestly that you hid marks to dodge the scolding, and they hide reports to dodge your worry. The reversal is the real sting: you hid it out of fear, they hide it out of love. Then end on 'now you're the one who has to ask to see the paper'.",
+    "Slide 5: cut it, or replace it with a real insider beat. For example, the parents manage appointments alone, tell you the report 'isn't ready yet', or send you the doctor's name but never the result. Use a sound or touch detail only if it carries the point, not as decoration.",
+    "Slides 3 and 4: merge them. The 'routine checkup' line and 'you nod and let it go' say the same thing twice. Free the space to move the turn (they decided, deliberately) up to slide 3 or 4, so the post doesn't wait until slide 6 to say what's going on.",
+    "Slide 6: it is the strongest slide, so sharpen it. Cut 'It's not about trust.' because it sounds like a mini-lecture. Keep the line about worry being the one job they haven't handed over. Name who loses under the arrangement: the family system where shielding each other means locking each other out.",
+    "Slide 7: keep the sibling split, but make it a typical scenario in plain words. Drop the neat 'Two children, two stories' mirror and say plainly that no one has the whole report. This is the 'insider rule' beat, so give it a short name the reader can repeat."
+   ]
+  }
+ ],
  "sources": [],
- "updated_at": "2026-11-10T15:59:34.909919+00:00"
+ "updated_at": "2026-11-10T16:25:53.049715+00:00",
+ "draft": {
+  "cover": {
+   "headline": "Your parents hide their [medical reports] like you hid your marks",
+   "sub": "They didn't forget to tell you. They decided not to."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Your parents hide their medical reports like you hid your marks.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "Hide? Surely they just forgot to mention it."
+   },
+   {
+    "paragraphs": [
+     "Remember the unit test paper that needed a parent's signature?",
+     "You waited until one of them was rushing out the door, held out a pen, and kept your thumb over the marks.",
+     "Now it's a lab envelope behind the medicine box, dated weeks before anyone said a word."
+    ],
+    "why_swipe": "So what do they say when you find it?"
+   },
+   {
+    "paragraphs": [
+     "You ask, and it's usually \"bas routine checkup tha.\" Days later: \"Doctor ne thoda sugar kam karne bola hai.\""
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "You nod and let it go. Pushing would feel like checking up on them.",
+     "The full story comes only when something goes wrong, which is when you can help the least."
+    ],
+    "why_swipe": "How did you miss it?"
+   },
+   {
+    "paragraphs": [
+     "The signs were there, if you think back.",
+     "The rustle of a newspaper being folded shut the moment your footsteps reach the room."
+    ],
+    "why_swipe": "Why would they choose to carry it alone?"
+   },
+   {
+    "paragraphs": [
+     "For thirty years, they heard the bad news first and handed you the soft version. A diagnosis doesn't end that job.",
+     "You can drive them to the hospital and pay the bill now. It's not about trust.",
+     "Worrying is the one job they haven't handed over."
+    ],
+    "why_swipe": "So what happens when there's more than one child?"
+   },
+   {
+    "paragraphs": [
+     "The sibling in the same city finds out at the pharmacy counter. The one further away hears \"sab theek hai\" on the Sunday call, and believes it.",
+     "Two children, two stories. Nobody in the family is holding the whole report."
+    ],
+    "why_swipe": "Where does that leave you?"
+   },
+   {
+    "paragraphs": [
+     "You kept your thumb over the marks so they wouldn't worry.",
+     "Now you're the one who has to ask to see the paper."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Come back to this before your parents' next winter checkup.",
+   "send": "Send to the sibling you split parent-care with, so you both start asking for the full report.",
+   "promise": "How Indian families really run."
+  },
+  "caption": "What's the one health thing your parents told you about only after it was over?",
+  "hashtags": [
+   "#IndianParents",
+   "#AgeingParents",
+   "#IndianFamilies",
+   "#ParentCare"
+  ],
+  "alt_text": "A text post in seven slides arguing that Indian parents hide their medical reports from their adult children, the way those children once hid bad marks. It recalls getting a test paper signed with a thumb over the marks, then finding a lab envelope behind the medicine box dated weeks earlier. Parents typically call it a routine checkup, and the child nods and lets it go. The full story comes only when something goes wrong. It remembers the sound of a newspaper folded shut when footsteps reach the room. It argues parents spent decades taking bad news first, and worrying is the one job they haven't handed over. One sibling finds out at the pharmacy counter, the other hears everything is fine on the Sunday call, so nobody holds the whole report. It ends: you kept your thumb over the marks so they wouldn't worry, and now you're the one who has to ask to see the paper.",
+  "claims": []
+ }
 }

@@ -1,6 +1,6 @@
 {
  "id": "2026-11-111",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-22T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -255,9 +255,230 @@
     }
    ],
    "why": "old reel-voice draft; rewritten by the writer in the new voice (10 Nov)"
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Slides [9] have no why_swipe: say what pulls the reader to the next slide, or rewrite the slide until something does."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 5 is a dead slide: \"This is the deal no one signs but everyone accepts. The hands that do the work bring the methods they learned thirty years ago.\" It restates the cover claim and slides 3-4 in new words, adds no new beat, and gives the reader no reason to swipe.",
+     "Slide 9 and slide 10 both close on the same idea. \"You're trading control for sleep, a salary and a kid who is loved all day. Most weeks, that's a fair trade.\" is the same trade-off as the last slide's \"paid in every parenting decision\", which in turn repeats the cover's point. Slide 9 also reads as a tidy-moral reassurance (\"It's not weakness when you let it go\")."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 4,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "slide 5: Cut it or replace it with a new beat from the topic's because. For example, show why you can't object: you took the help first, so any correction now sounds like you're taking something back. Name that mechanism from the inside instead of restating that a deal exists.",
+     "slide 9: Don't write a closing verdict (\"fair trade\", \"not weakness\"). Slide 8 already gives the good side. Merge the concession into slide 8, or make slide 9 a new step: what happens next, such as the child starting to call the shots because of whose rules apply during the day. Then slide 10 lands without being pre-explained.",
+     "slide 10: The first line restates the cover. Keep the black thread image as the sting, but move the line to something repeatable and sharper than \"paid in every parenting decision\". For example, say what the bill looks like: the thank you is the payment. Don't just repeat the claim.",
+     "slide 3: Make the nanny price plainly typical (\"a nanny costs real money every month\") or put it in as a rough everyday figure. \"can easily cost\" sounds hedged, and the number is the only fact-like element in the post. Check that the contrast with 'free' still carries the 'On paper' turn.",
+     "slides 6-7: The post mixes 'your mother' and 'in-laws', and it assumes the reader is the daughter-in-law. Make the 'you' work for any new parent, or state the in-law asymmetry once and cleanly. Add one sensory detail that only an insider would notice, such as the smell of the oil massage, the hum of a lullaby, or the sticky bottle, on the slide where it fits."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Slide 5 is a dead slide: \"This is the deal no one signs but everyone accepts. The hands that do the work bring the methods they learned thirty years ago.\" It restates the cover claim and slides 3-4 in new words, adds no new beat, and gives the reader no reason to swipe.",
+    "Slide 9 and slide 10 both close on the same idea. \"You're trading control for sleep, a salary and a kid who is loved all day. Most weeks, that's a fair trade.\" is the same trade-off as the last slide's \"paid in every parenting decision\", which in turn repeats the cover's point. Slide 9 also reads as a tidy-moral reassurance (\"It's not weakness when you let it go\").",
+    "slide 5: Cut it or replace it with a new beat from the topic's because. For example, show why you can't object: you took the help first, so any correction now sounds like you're taking something back. Name that mechanism from the inside instead of restating that a deal exists.",
+    "slide 9: Don't write a closing verdict (\"fair trade\", \"not weakness\"). Slide 8 already gives the good side. Merge the concession into slide 8, or make slide 9 a new step: what happens next, such as the child starting to call the shots because of whose rules apply during the day. Then slide 10 lands without being pre-explained.",
+    "slide 10: The first line restates the cover. Keep the black thread image as the sting, but move the line to something repeatable and sharper than \"paid in every parenting decision\". For example, say what the bill looks like: the thank you is the payment. Don't just repeat the claim.",
+    "slide 3: Make the nanny price plainly typical (\"a nanny costs real money every month\") or put it in as a rough everyday figure. \"can easily cost\" sounds hedged, and the number is the only fact-like element in the post. Check that the contrast with 'free' still carries the 'On paper' turn.",
+    "slides 6-7: The post mixes 'your mother' and 'in-laws', and it assumes the reader is the daughter-in-law. Make the 'you' work for any new parent, or state the in-law asymmetry once and cleanly. Add one sensory detail that only an insider would notice, such as the smell of the oil massage, the hum of a lullaby, or the sticky bottle, on the slide where it fits."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 6 is a dead slide: \"A nanny gets a list of rules on her first day. Hand that same list to a grandparent and it reads like you're firing them from loving their grandchild.\" Slide 5 already said any rule now sounds like taking back the yes, and slide 3 already used the nanny. This restates the idea in new words.",
+     "Slide 10 mostly repeats the cover's point (\"This help never sends a bill. You pay it at the door every evening, one thank you at a time.\"). It is also a tidy, engineered line, not a closer people would repeat."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 4,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "slide 10: The close restates the cover. Cash in the topic's payoff in plain words: the cost was every parenting decision you didn't get to make. For example, say the free help was paid for in decisions, then end on a sharp human line. Drop \"one thank you at a time\", which reads as engineered. If the black thread stays, make it the sting rather than a wistful image.",
+     "slide 6: Cut it or merge it into slide 3 or 5. Use the nanny contrast once, early. A nanny can be given rules because she can be replaced and nothing is owed to her. That sentence names the real mechanism, which is that love and authority arrive together. Then slide 5 can go straight to the spouse's-parents layer.",
+     "slide 4: Name the inside rule more sharply. \"Humne tumhe aise hi paala\" works because the parent is the proof, and you can't argue with your own upbringing. Say plainly that it makes any disagreement an insult to how you were raised. This is the new idea (iq), so give it more room than the sugar line.",
+     "slide 2 and slide 4: Add one detail beyond sight, such as the sugary smell of a mithai-sweetened bottle or the scratchy feel of the thread. Also check consistency: slide 2 has you swallowing it, but slide 4 has you correcting. Make slide 4 start with \"the one time you do say something\".",
+     "slide 9: This is the strongest beat, since the child learns whose rules run the day. Move it earlier, directly after slide 4, so the cost shows up before the good-side concession. The post then escalates (the line, then the spouse's-parents layer, then the concession, then the toddler) and the close lands harder."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Slide 6 is a dead slide: \"A nanny gets a list of rules on her first day. Hand that same list to a grandparent and it reads like you're firing them from loving their grandchild.\" Slide 5 already said any rule now sounds like taking back the yes, and slide 3 already used the nanny. This restates the idea in new words.",
+    "Slide 10 mostly repeats the cover's point (\"This help never sends a bill. You pay it at the door every evening, one thank you at a time.\"). It is also a tidy, engineered line, not a closer people would repeat.",
+    "slide 10: The close restates the cover. Cash in the topic's payoff in plain words: the cost was every parenting decision you didn't get to make. For example, say the free help was paid for in decisions, then end on a sharp human line. Drop \"one thank you at a time\", which reads as engineered. If the black thread stays, make it the sting rather than a wistful image.",
+    "slide 6: Cut it or merge it into slide 3 or 5. Use the nanny contrast once, early. A nanny can be given rules because she can be replaced and nothing is owed to her. That sentence names the real mechanism, which is that love and authority arrive together. Then slide 5 can go straight to the spouse's-parents layer.",
+    "slide 4: Name the inside rule more sharply. \"Humne tumhe aise hi paala\" works because the parent is the proof, and you can't argue with your own upbringing. Say plainly that it makes any disagreement an insult to how you were raised. This is the new idea (iq), so give it more room than the sugar line.",
+    "slide 2 and slide 4: Add one detail beyond sight, such as the sugary smell of a mithai-sweetened bottle or the scratchy feel of the thread. Also check consistency: slide 2 has you swallowing it, but slide 4 has you correcting. Make slide 4 start with \"the one time you do say something\".",
+    "slide 9: This is the strongest beat, since the child learns whose rules run the day. Move it earlier, directly after slide 4, so the cost shows up before the good-side concession. The post then escalates (the line, then the spouse's-parents layer, then the concession, then the toddler) and the close lands harder."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 10 (last slide): \"The free help was paid for in decisions. Sugar, sleep, the thread on the wrist: none of those calls were yours.\" This restates the cover's claim (\"you raise your kid their way\") and re-lists the three examples from slide 2. A close that repeats the cover's point counts as a dead slide. Only the black-thread line is new."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3,
+     "informative": 4
+    },
+    "notes": [
+     "slide 10: Cut the opening summary line, since the cover already said it and slide 2 already listed sugar, sleep and thread. Open on the new beat, the secret cutting of the thread while the grandparents are on their evening walk. Let that image carry the sting, because it shows the reader has already stopped negotiating. End on that or on one short repeatable line, with no restating of the idea.",
+     "slide 8: This only applies to readers whose parents-in-law are doing the care, and it re-explains the 'owed' logic from slide 7. Either fold it into slide 7 as one line or sharpen it. The real insider detail is that the same sentence is a 'small chat' from their child but 'the bahu/damaad is fussy' story from you. Name that asymmetry in fresh words, and don't say 'the story at the next family function' as a generic line.",
+     "slide 4: The two quotes are strong, but add the part only an insider notices: the second line arrives with a laugh or a pat on your arm, which is what makes it impossible to argue with. A small sensory or behavioural detail here would lift the whole slide. Keep the lines framed as typical, which they already are.",
+     "slides 5 and 7: Both make the point that questioning them means questioning the yes or your own upbringing. Merge the overlap. Keep slide 5's 'you are the proof' line and trim slide 7 to the order-of-events insight, with the nanny contrast in one sentence, so the post gets shorter and tighter.",
+     "slide 9: The mustard oil and lullaby concession is good and honest. Make 'you're not wrong to' less of a reassurance and more of a hook into the cost. For example, end with the fact that this concession is exactly what makes the bigger calls harder to take back."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Slide 10 (last slide): \"The free help was paid for in decisions. Sugar, sleep, the thread on the wrist: none of those calls were yours.\" This restates the cover's claim (\"you raise your kid their way\") and re-lists the three examples from slide 2. A close that repeats the cover's point counts as a dead slide. Only the black-thread line is new.",
+    "slide 10: Cut the opening summary line, since the cover already said it and slide 2 already listed sugar, sleep and thread. Open on the new beat, the secret cutting of the thread while the grandparents are on their evening walk. Let that image carry the sting, because it shows the reader has already stopped negotiating. End on that or on one short repeatable line, with no restating of the idea.",
+    "slide 8: This only applies to readers whose parents-in-law are doing the care, and it re-explains the 'owed' logic from slide 7. Either fold it into slide 7 as one line or sharpen it. The real insider detail is that the same sentence is a 'small chat' from their child but 'the bahu/damaad is fussy' story from you. Name that asymmetry in fresh words, and don't say 'the story at the next family function' as a generic line.",
+    "slide 4: The two quotes are strong, but add the part only an insider notices: the second line arrives with a laugh or a pat on your arm, which is what makes it impossible to argue with. A small sensory or behavioural detail here would lift the whole slide. Keep the lines framed as typical, which they already are.",
+    "slides 5 and 7: Both make the point that questioning them means questioning the yes or your own upbringing. Merge the overlap. Keep slide 5's 'you are the proof' line and trim slide 7 to the order-of-events insight, with the nanny contrast in one sentence, so the post gets shorter and tighter.",
+    "slide 9: The mustard oil and lullaby concession is good and honest. Make 'you're not wrong to' less of a reassurance and more of a hook into the cost. For example, end with the fact that this concession is exactly what makes the bigger calls harder to take back."
+   ]
   }
  ],
  "sources": [],
- "updated_at": "2026-11-10T15:59:34.907296+00:00",
- "deleted_buffer_ids": []
+ "updated_at": "2026-11-10T16:25:52.969050+00:00",
+ "deleted_buffer_ids": [],
+ "draft": {
+  "cover": {
+   "headline": "Free babysitting from grandparents means you raise your kid [their way].",
+   "sub": "The thank you and the giving in come out together."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Free babysitting from grandparents means you raise your kid their way.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "What price? They're doing it for free."
+   },
+   {
+    "paragraphs": [
+     "You get home from office. The bottle smells of sugar, a scratchy black thread sits on the wrist, and the nap ran three hours late.",
+     "You notice all three. You say \"thank you\"."
+    ],
+    "why_swipe": "Why does the reader stay silent?"
+   },
+   {
+    "paragraphs": [
+     "And you mean it. They walked the corridor with a crying baby all afternoon so you could take your calls.",
+     "A full-time nanny is a real bill every month, in any city. They charge you nothing.",
+     "On paper."
+    ],
+    "why_swipe": "If not on paper, then where is the bill?"
+   },
+   {
+    "paragraphs": [
+     "The one time you do say something, you get one of two answers. \"Thoda sa meetha kuch nahi karta.\" Or \"Humne bhi tumhe aise hi paala tha.\""
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "The second one isn't an argument. It's you, standing there as the proof. Question their method and you're calling your own upbringing a mistake, to the people who did it."
+    ],
+    "why_swipe": "So what happens when the baby picks up on this?"
+   },
+   {
+    "paragraphs": [
+     "Then the baby becomes a toddler, and toddlers learn fast whose rules run the day.",
+     "You say no to the biscuit. They walk straight past you to ask their grandmother."
+    ],
+    "why_swipe": "So why not just set the rules early?"
+   },
+   {
+    "paragraphs": [
+     "Because of the order. You said yes to the help months before anyone talked about methods.",
+     "So any rule now sounds like you're taking back the yes.",
+     "A nanny can be handed rules because nothing is owed to her. Love and authority arrived in the same hands."
+    ],
+    "why_swipe": "Is it the same for everyone in the house?"
+   },
+   {
+    "paragraphs": [
+     "It lands harder when the help is your spouse's parents. Their own child can say \"no sugar\" and it's a small chat.",
+     "When you say the same line, it becomes the story at the next family function."
+    ],
+    "why_swipe": "So is the old way just wrong?"
+   },
+   {
+    "paragraphs": [
+     "And some of the old way is right. A baby who smells of mustard oil from the morning massage and falls asleep to the same hummed lullaby is doing fine.",
+     "Most days you let the rest go, and you're not wrong to."
+    ],
+    "why_swipe": "So what did the free help actually cost?"
+   },
+   {
+    "paragraphs": [
+     "The free help was paid for in decisions. Sugar, sleep, the thread on the wrist: none of those calls were yours.",
+     "And when you finally cut that black thread, you'll do it while the grandparents are out on their evening walk."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Read it again the evening you find a black thread on your baby's wrist.",
+   "send": "Send to the cousin who just moved their parents in to help with the newborn.",
+   "promise": "How Indian families really run."
+  },
+  "caption": "We said thank you and gave up the nap schedule in the same breath.",
+  "hashtags": [
+   "#IndianParenting",
+   "#NewParentsIndia",
+   "#GrandparentsAndGrandkids",
+   "#IndianFamilies"
+  ],
+  "alt_text": "A nine-slide text post arguing that free babysitting from grandparents comes bundled with their way of raising the child. It covers coming home to a sugary bottle, a scratchy black thread and a late nap, the lines grandparents say when you object and how 'we raised you this way' makes you the proof, the toddler who learns whose rules run the day, why accepting the help first makes any later rule sound like taking it back unlike a replaceable nanny, why it is harder with a spouse's parents, the good side of the old way like the mustard oil massage and hummed lullabies, and a close that the help was paid for in parenting decisions, ending with cutting the black thread while the grandparents are out on their walk.",
+  "claims": []
+ }
 }
