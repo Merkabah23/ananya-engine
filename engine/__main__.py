@@ -32,8 +32,10 @@ def _take_spare(slot_post: dict) -> dict | None:
     near = [p for p in state.posts() if p.get("due") and p["id"] != slot_post["id"] and p["status"] not in ("cancelled", "rejected")
             and abs((datetime.fromisoformat(p["due"]) - due).days) <= 2]
     family_near = any(topic_filter._is_family(p["topic"]) for p in near)
+    terr_near = {p["topic"].get("territory") for p in near if abs((datetime.fromisoformat(p["due"]) - due).days) <= 1}
     for p in state.posts("planned"):
-        if p["format"] == "spare" and p["id"].startswith(month) and not (family_near and topic_filter._is_family(p["topic"])):
+        if p["format"] == "spare" and p["id"].startswith(month) and not (family_near and topic_filter._is_family(p["topic"])) \
+                and p["topic"].get("territory") not in terr_near:
             p.update(due=slot_post["due"], format=slot_post["format"] if slot_post["format"] != "spare" else "carousel")
             state.save_post(p)
             state.log("produce", f"{p['id']} replaces rejected {slot_post['id']}")

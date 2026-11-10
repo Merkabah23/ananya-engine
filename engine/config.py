@@ -16,6 +16,9 @@ OUT = ROOT / "out"  # rendered slides (git-ignored; uploaded to storage)
 CLAUDE_BIN = os.getenv("CLAUDE_BIN", "claude")
 MODEL_WRITER = os.getenv("MODEL_WRITER", "opus")
 MODEL_JUDGE = os.getenv("MODEL_JUDGE", "sonnet")
+# The editor and the voice check judge taste, not facts. On sonnet their notes shifted every attempt and no draft
+# converged (0 of 12 on 10 Nov), so they run on the writer's model; the fact gate stays on MODEL_JUDGE.
+MODEL_CRITIC = os.getenv("MODEL_CRITIC", "opus")
 MODEL_FAST = os.getenv("MODEL_FAST", "haiku")
 
 # Subscription limits are per usage window, so work is spread out: the monthly run only
@@ -62,7 +65,7 @@ TERRITORY_MIX = {  # owner, 10 Nov 2026: widen to world news, geopolitics, trend
 
 # Gates
 MIN_TOPIC_SCORE = 22          # out of 35 (seven criteria x 5), plus fresh >= 4
-MAX_REWRITES = 3  # four attempts: most drafts that fail on the third pass clear on the fourth
+MAX_REWRITES = 4  # five attempts: the native carousel bar is higher than the reel's
 NGRAM_BLOCK = 6               # any shared 6-word run with Varun's corpus blocks a draft
 
 # Rendering

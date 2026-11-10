@@ -398,7 +398,7 @@ def length_rules(fmt: str) -> str:
 def critique(post: dict, draft: dict, seed: int) -> dict:
     topic, fmt = post["topic"], post["format"]
     try:
-        return llm.call_json(config.MODEL_JUDGE, llm.fill(
+        return llm.call_json(config.MODEL_CRITIC, llm.fill(
             llm.prompt("critic"), persona=llm.prompt("persona"), post=json.dumps(draft, ensure_ascii=False, indent=1),
             tone_examples=corpus.rhythm_examples(2, seed=seed + 101, fmt=fmt), voice_examples=voice_examples(seed),
             topic=json.dumps({k: topic.get(k) for k in TOPIC_FIELDS}, ensure_ascii=False, indent=1),
@@ -414,7 +414,7 @@ def varun_check(post: dict, draft: dict, seed: int) -> dict:
     against his real posts. Misses go back to the writer as notes; this never edits the draft itself."""
     fmt = post["format"]
     try:
-        return llm.call_json(config.MODEL_JUDGE, llm.fill(
+        return llm.call_json(config.MODEL_CRITIC, llm.fill(
             llm.prompt("varun"), varun_examples=corpus.rhythm_examples(3, seed=seed + 202, fmt=fmt),
             voice_examples=voice_examples(seed + 202), post=json.dumps(draft, ensure_ascii=False, indent=1)), stage="varun")
     except SystemExit:
