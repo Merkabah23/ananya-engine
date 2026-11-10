@@ -48,11 +48,11 @@ The backbone is an argument in Varun Agarwal's register: a claim, how it works, 
 6. The second look: what changes when you look again, often who it lands on ("If you're the daughter, they often won't take it at all.").
 7. What it means for the reader's own life, on the people's side, never advice.
 8. The close, alone: a two- or three-line reversal that reframes the whole post ("They paid for our future for thirty years. / We pay for their present on the 1st. / Nobody will ever call it a debt."). Never a moral.
-Beats can share a slide or run over two; 8 to 10 slides in all, as few as the idea needs.
+Beats can share a slide or run over two; 6 to 10 slides in all, as few as the idea needs. Never pad to reach a length: a slide with no new beat is dead.
 
 Don't explain what an intelligent reader already gets; trust them. Explanation is one line, the rest is facts, examples and turns.
 
-Chain the slides: about one in four opens with And / But / So / Which explains / Here's the part. Each example is a new kind of example, never a second one of the same kind. Stop once the payoff lands; most posts land in 8 to 10 slides. Where two beats are short, they can share a slide.
+Chain the slides: about one in four opens with And / But / So / Which explains / Here's the part. Each example is a new kind of example, never a second one of the same kind. Stop once the payoff lands; most posts land in 7 to 9 slides. Where two beats are short, they can share a slide.
 
 Say the idea once. Every slide adds something the reader didn't have yet: a scene, the turn, the because, a consequence, the feeling. Never restate the point in new words, and never let the last slide repeat the cover; end on the strongest concrete line in the post (a scene, a line someone says, a joke, an image). Don't explain what every reader already knows (that hiring is expensive, that weddings cost money); a clause is enough.
 

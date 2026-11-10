@@ -26,10 +26,10 @@ MAX_SENTS_PER_PARA = 4
 MAX_SENT_WORDS = 22  # 5th-grade scanability: most sentences far shorter
 # Owner, 10 Nov 2026 (the pension, shagun and house-help posts): carousels of 8-10 slides, one beat per slide. Buffer
 # and Instagram's API take 10 images at most, so 10 is a hard cap; above ~40 words a slide turns into a wall of text.
-MIN_SLIDES, MAX_SLIDES = 8, 10
+MIN_SLIDES, MAX_SLIDES = 6, 10  # 8 forced padding the editor rightly called dead (10 Nov run)
 SLIDE_WORDS = (6, 48)    # a punch slide can be one short line; a reading slide stops at about eight lines
 HOOK_WORDS = 20          # slide 1 is the cover, shown as typed: the claim and its turn in one glance
-POST_WORDS = (170, 340)  # the approved posts run 260-300 words: under two minutes, self-paced
+POST_WORDS = (130, 340)  # the approved posts run 260-300 words: under two minutes, self-paced
 MAX_FIGURES = 12         # everyday rupee receipts carry the argument now (owner, 10 Nov); statistics still need a source
 MIN_RHYTHM = 3.5         # sentence-length spread; a metronome rhythm (every sentence ~8 words) reads as AI
 # "isn't X, it's Y" closes many of the reference creator's best posts; repeated mid-post it reads as a template.

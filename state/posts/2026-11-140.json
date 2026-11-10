@@ -1,6 +1,6 @@
 {
  "id": "2026-11-140",
- "status": "rejected",
+ "status": "planned",
  "due": "2026-11-20T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -244,9 +244,12 @@
     "slides 4-5: Slide 4 is a single thin setup line. Merge it into slide 5 so the hospital scene lands in one slide, then spend the freed slot on the test or a human closer. Keep the phenyl smell and the mother's \"insurance toh hai na?\" line.",
     "slide 2: Name the real thing readers see in that HR email, 80D proofs, so the insider detail is exact rather than \"investment proofs\". It also sets up the tax link that slide 9 needs."
    ]
+  },
+  {
+   "why": "retried 10 Nov with 6-10 slides (8 minimum forced padding)"
   }
  ],
- "updated_at": "2026-11-10T16:08:14.771879+00:00",
+ "updated_at": "2026-11-10T16:09:36.152945+00:00",
  "sources": [
   {
    "url": "https://a2ztaxcorp.net/?p=28108",
@@ -266,103 +269,5 @@
    "excerpt": "IRDAI has pulled up eight major health insurers after finding serious lapses in how they handle claims. Even when claims were approved, some insurers were deducting amounts that were not admissible under the policy. For example, removing certain hospital charges or limiting room rent beyond policy terms. Essentially, policyholders weren't getting the full benefits they were entitled to.",
    "date": "2025-07-14"
   }
- ],
- "draft": {
-  "cover": {
-   "headline": "We buy health insurance for [the tax form], not the hospital.",
-   "sub": "Which is why the fine print shows up at the billing desk."
-  },
-  "slides": [
-   {
-    "paragraphs": [
-     "We buy health insurance for the tax form, not the hospital.",
-     "Swipe to read →"
-    ],
-    "why_swipe": "Why would a policy you paid for fail you?"
-   },
-   {
-    "paragraphs": [
-     "HR sends the reminder: submit your investment proofs by Friday. You open a comparison site, sort by premium, low to high. Cheapest first."
-    ],
-    "why_swipe": "How long does buying it actually take?"
-   },
-   {
-    "paragraphs": [
-     "Twenty minutes, one OTP, one PDF. If it's for your parents, the call home is \"ho gaya, tension mat lo.\"",
-     "The PDF goes to the family WhatsApp group. Two thumbs up."
-    ],
-    "why_swipe": "What's inside the PDF that got two thumbs up?"
-   },
-   {
-    "paragraphs": [
-     "Say your policy caps room rent at ₹5,000 a day. Your father gets a ₹10,000 room, the only one free."
-    ],
-    "why_swipe": "what happens next?"
-   },
-   {
-    "paragraphs": [
-     "The desk smells of phenyl. A stapler clicks through the file. Only half that room cost is eligible.",
-     "Your mother asks, \"insurance toh hai na?\" Half a room. Same illness."
-    ],
-    "why_swipe": "Is it only the room that gets cut?"
-   },
-   {
-    "paragraphs": [
-     "But the cut doesn't always stay in the room. In some policies, several related charges on the bill can be reduced in the same proportion."
-    ],
-    "why_swipe": "So why did nobody catch this when buying?"
-   },
-   {
-    "paragraphs": [
-     "The comparison site sorts by premium. The room cap isn't in that number. It sits in the policy wording, a few pages in.",
-     "And the premium you sorted for is low partly because of limits like that cap. The cheapest policy is cheap for a reason."
-    ],
-    "why_swipe": "So is the fine print the only problem?"
-   },
-   {
-    "paragraphs": [
-     "Here's the uglier part. The system lets you down at both ends. The policy is sold fast, and the claim can be cut hard.",
-     "IRDAI found some insurers limiting room rent beyond what the policy allowed. So even a policy you've read can get cut."
-    ],
-    "why_swipe": "So who actually reads that line?"
-   },
-   {
-    "paragraphs": [
-     "For the taxman, the premium receipt is enough.",
-     "The hospital billing desk only cares about one word inside the policy: room."
-    ]
-   }
-  ],
-  "end": {
-   "save": "Read it again before you renew, and before HR's tax proof email lands.",
-   "send": "Send to the sibling who bought your parents' insurance in a rush last March.",
-   "promise": "How Indian money really moves."
-  },
-  "caption": "When did you last open your health policy, and was it for HR or for a hospital?",
-  "hashtags": [
-   "#HealthInsuranceIndia",
-   "#RoomRentLimit",
-   "#TaxSavingIndia",
-   "#PersonalFinanceIndia"
-  ],
-  "alt_text": "An eight-slide text post arguing that many Indians buy health insurance in a hurry for the tax form, sorted by lowest premium and forwarded to the family WhatsApp group, and only discover room-rent caps at the hospital. In a typical scene at the hospital desk, a ₹5,000 room cap against a ₹10,000 room makes only half the room cost eligible, while a mother asks if there isn't insurance. It explains that some policies cut related charges in the same proportion, that the cheapest premium is low partly because of caps like this, and that IRDAI found some insurers limiting room rent beyond policy terms, so even a read policy can get cut. It ends by saying the taxman only needs the premium receipt, while the hospital billing desk cares about one word in the policy: room.",
-  "claims": [
-   {
-    "text": "If a policy caps room rent at ₹5,000 a day and the room costs ₹10,000, only half the room cost is eligible.",
-    "source_url": "https://www.outlookmoney.com/personal-finance/room-rent-limits-in-health-insurance-how-choosing-a-costlier-room-can-cut-your-entire-claim"
-   },
-   {
-    "text": "In some policies, proportionate deduction can also cut several related hospital charges.",
-    "source_url": "https://www.outlookmoney.com/personal-finance/room-rent-limits-in-health-insurance-how-choosing-a-costlier-room-can-cut-your-entire-claim"
-   },
-   {
-    "text": "IRDAI found some insurers limiting room rent beyond policy terms.",
-    "source_url": "https://joinditto.in/articles/news/irdai-flags-lapses-in-health-insurance-claims/"
-   },
-   {
-    "text": "For the tax deduction, the premium receipt is enough, regardless of what the policy covers.",
-    "source_url": "editor note (general Income Tax Act rule, not in the sources list)"
-   }
-  ]
- }
+ ]
 }
