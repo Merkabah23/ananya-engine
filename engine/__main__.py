@@ -46,7 +46,8 @@ def top_up(days: int = 14, min_open: int = 3, every: int = 2) -> None:
     today's news and plan those days. At most every 2 days, so a thin news week can't burn the call budget."""
     today = datetime.now(topic_filter.IST).date()
     live = {p["due"][:10] for p in state.posts() if p.get("due") and p["status"] not in ("cancelled", "rejected")}
-    open_days = [d for d in (today + timedelta(n) for n in range(1, days + 1)) if d.isoformat() not in live]
+    open_days = [d for d in (today + timedelta(n) for n in range(1, days + 1))
+                 if topic_filter.is_slot_day(d) and d.isoformat() not in live]  # only days the plan posts on
     urgent = any(d <= today + timedelta(7) for d in open_days)
     last = (state.read(_month(0), "topup.json") or {}).get("at", "")
     if not (urgent or len(open_days) >= min_open) or last > (datetime.now(timezone.utc) - timedelta(days=every)).isoformat():

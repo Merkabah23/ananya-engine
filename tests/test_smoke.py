@@ -61,10 +61,12 @@ def test_month_end_to_end(tmp_path, monkeypatch):
              for i in range(30)]
     state.write(cands, "2099-10", "candidates.json")
     plan = topic_filter.run("2099-10", "2099-11")
-    assert len([p for p in plan if p["due"]]) == 15  # every other day
+    n = len(topic_filter.slots_for_month("2099-11"))
+    assert n == 21  # Monday to Friday
+    assert len([p for p in plan if p["due"]]) == n
     cli.produce("2099-11")
     done = state.posts("uploaded")
-    assert len(done) == 15
+    assert len(done) == n
     assert all(1 <= len(p["image_urls"]) <= 10 for p in done)
     assert (tmp_path / "out" / done[0]["id"] / "slide_01.jpg").exists()
 

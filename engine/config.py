@@ -24,14 +24,19 @@ MAX_CALLS_PER_MONTH = int(os.getenv("MAX_CALLS_PER_MONTH", "2000"))
 PRODUCE_PER_RUN = int(os.getenv("PRODUCE_PER_RUN", "3"))
 PARALLEL = int(os.getenv("PARALLEL", "3"))  # model calls in flight at once
 
-# Posting plan: one reel every other day (owner, 8 Nov 2026), counted from POST_ANCHOR, so Nov 10, 12, 14...
+# Posting plan (10 Nov 2026, from the research the owner asked for): five carousels a week, Monday to Friday.
+# Buffer's 2.1M-post study (2025): reach per post rises with frequency (+12% at 3-5 a week, +18% at 6-9, +24% at 10+,
+# vs 1-2), the biggest jump being 1-2 -> 3-5; Mosseri: posting more reaches more people, and a new post doesn't take
+# reach from one that's doing well. Quality is the limit, not the algorithm: five a week at the approved bar beats
+# seven with filler. Raise to daily (add 5, 6 to POST_DAYS) once the writer's drafts pass without hand edits.
 # Times are IST. 20:30 lands after the commute and before dinner, just ahead of the 8-10pm peak in the large global
 # studies (Buffer 9.6M posts, Metricool 24M); once the account has 100+ followers, Instagram Insights' "Most active
 # times" should override it. The draft format stays "carousel" (slides of text); OUTPUT decides how it is published.
 POST_TIME = "20:30"
-POST_EVERY_DAYS = 2
+POST_EVERY_DAYS = 1
 POST_ANCHOR = "2026-11-10"
-SLOTS = [{"weekday": d, "time": POST_TIME, "format": "carousel"} for d in range(7)]
+POST_DAYS = [0, 1, 2, 3, 4]  # Monday to Friday
+SLOTS = [{"weekday": d, "time": POST_TIME, "format": "carousel"} for d in POST_DAYS]
 # Owner, 10 Nov 2026: back to carousels. Readers set their own pace on a carousel; on a reel we set it for them, and
 # the benchmarks' text reels get ~1/30th of their carousels' likes. Reels stay available for posts where something moves.
 OUTPUT = os.getenv("OUTPUT", "carousel")  # "reel": the slides become one 9:16 video; "carousel": the slides go up as images

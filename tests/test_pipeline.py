@@ -111,8 +111,8 @@ def test_wrong_slide_count():
 
 def test_slots_cover_month_in_ist():
     slots = topic_filter.slots_for_month("2026-11")
-    assert len(slots) == 15  # every other day
-    assert [s["due"][:10] for s in slots[4:7]] == ["2026-11-10", "2026-11-12", "2026-11-14"]
+    assert len(slots) == 21  # Monday to Friday
+    assert [s["due"][:10] for s in slots[5:8]] == ["2026-11-09", "2026-11-10", "2026-11-11"]
     assert all(s["due"][11:16] == "20:30" and s["format"] == "carousel" for s in slots)
     assert slots[0]["due"].endswith("+05:30")
 
@@ -123,7 +123,7 @@ def test_assign_respects_format_and_no_repeat():
               for i, t in enumerate(list(config.TERRITORY_MIX) * 7)]
     plan = topic_filter._assign(ranked, topic_filter.slots_for_month("2026-11"))
     dated = [p for p in plan if p["due"]]
-    assert len(dated) == 15
+    assert len(dated) == 21
     for a, b in zip(dated, dated[1:]):
         assert a["topic"]["territory"] != b["topic"]["territory"]
     for p in dated:
@@ -397,3 +397,22 @@ def test_native_slide_one_is_shown_as_written(monkeypatch):
     d = draft([["Indian parents don't have a retirement plan.", "They have you."]] + [list(x) for x in GOOD[1:]])
     out, _ = writer.mechanical(d, "carousel", [], rounds=0)
     assert out["slides"][0]["paragraphs"] == ["Indian parents don't have a retirement plan.", "They have you."]
+
+
+def test_posting_plan_is_weekdays_at_eight_thirty():
+    from datetime import date
+    slots = topic_filter.slots_for_month("2026-12")
+    days = {date.fromisoformat(s["due"][:10]).weekday() for s in slots}
+    assert days == {0, 1, 2, 3, 4} and all(s["due"][11:16] == "20:30" for s in slots)
+    assert topic_filter.is_slot_day(date(2026, 12, 7)) and not topic_filter.is_slot_day(date(2026, 12, 6))  # Mon yes, Sun no
+
+
+def test_new_topics_are_spaced_from_posts_already_in_the_calendar():
+    slots = [{"due": "2099-11-03T20:30:00+05:30", "format": "carousel"}]
+    around = {"2099-11-02": {"title": "the shagun diary", "claim": "every family keeps a wedding ledger", "territory": "life_relationships"}}
+    fam = {"id": "f", "title": "your parents' bills", "claim": "paying your parents' bills from your account", "territory": "money_status",
+           "score": {"format_fit": "either"}}
+    other = {"id": "o", "title": "the creator economy", "claim": "brands pay for reach nobody can measure", "territory": "creators_internet",
+             "score": {"format_fit": "either"}}
+    plan = topic_filter._assign([fam, other], slots, around)
+    assert plan[0]["topic"]["id"] == "o"

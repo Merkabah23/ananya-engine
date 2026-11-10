@@ -95,6 +95,11 @@ def _seen_check(ranked: list[dict]) -> list[dict]:
     return fresh
 
 
+def is_slot_day(d: date) -> bool:
+    return not (d - date.fromisoformat(config.POST_ANCHOR)).days % config.POST_EVERY_DAYS and \
+        any(d.weekday() == s["weekday"] for s in config.SLOTS)
+
+
 def slots_for_month(month: str) -> list[dict]:
     y, m = map(int, month.split("-"))
     d = date(y, m, 1)
@@ -129,7 +134,9 @@ def _is_office(t: dict) -> bool:
     return bool(OFFICE.search(" ".join(str(t.get(k) or "") for k in ("title", "claim", "moment"))))
 
 
-def _assign(ranked: list[dict], slots: list[dict]) -> list[dict]:
+def _assign(ranked: list[dict], slots: list[dict], around: dict[str, dict] | None = None) -> list[dict]:
+    """around: date -> topic of posts already in the calendar, so a new topic is spaced from them too."""
+    around = around or {}
     n = len(slots)
     quota = {t: max(1, math.ceil(w * n)) for t, w in config.TERRITORY_MIX.items()}  # ceil so quotas cover every slot
     used = {t: 0 for t in quota}
@@ -141,10 +148,14 @@ def _assign(ranked: list[dict], slots: list[dict]) -> list[dict]:
             if not strict:
                 return fits
             office_ok = not (_is_office(t) and any(_is_office(x["topic"]) for x in plan[-2:]))  # one office take in 3 days
-            family_ok = not (_is_family(t) and plan and _is_family(plan[-1]["topic"]))  # family takes never back to back
+            day = date.fromisoformat(slot["due"][:10])
+            near = [around[(day + timedelta(k)).isoformat()] for k in (-2, -1, 1, 2) if (day + timedelta(k)).isoformat() in around]
+            near += [plan[-1]["topic"]] if plan and (day - date.fromisoformat(plan[-1]["due"][:10])).days <= 2 else []
+            family_ok = not (_is_family(t) and any(_is_family(x) for x in near))  # family takes never back to back
+            terr_ok = all(x.get("territory") != terr for x in near[-1:] + [around.get((day - timedelta(1)).isoformat(), {})])
             kind = t.get("story_type")
             kind_ok = not kind or not plan or plan[-1]["topic"].get("story_type") != kind  # never the same story type twice running
-            return fits and office_ok and family_ok and kind_ok and terr != last and used.get(terr, 0) < quota.get(terr, 0)
+            return fits and office_ok and family_ok and terr_ok and kind_ok and terr != last and used.get(terr, 0) < quota.get(terr, 0)
         pick = next((t for t in pool if ok(t, True)), None) or next((t for t in pool if ok(t, False)), None)
         if not pick:
             continue  # e.g. no single-format topic left for a Saturday; later carousel slots can still fill
@@ -177,7 +188,9 @@ def run(month: str, plan_month: str | None = None) -> list[dict]:
         return []
     want = len(slots) + config.SPARE_TOPICS
     kept = _seen_check(select(candidates, round(want * 1.4)))  # a margin for the ones already seen widely
-    plan = _assign(kept, slots)
+    around = {p["due"][:10]: p["topic"] for p in existing
+              if p.get("due") and p.get("topic") and p["status"] not in ("cancelled", "rejected") and p["format"] != "spare"}
+    plan = _assign(kept, slots, around)
     spares_held = sum(1 for p in existing if p["format"] == "spare" and p["status"] != "cancelled" and p["id"].startswith(plan_month))
     plan = [p for p in plan if p["format"] != "spare"] + \
            [p for p in plan if p["format"] == "spare"][:max(0, config.SPARE_TOPICS - spares_held)]
