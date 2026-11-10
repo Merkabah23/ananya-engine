@@ -239,7 +239,9 @@ def test_top_up_plans_open_days_once(tmp_path, monkeypatch):
     assert calls == []
 
 
-def test_slide_one_becomes_the_cover():
+def test_slide_one_becomes_the_cover(monkeypatch):
+    from engine import config
+    monkeypatch.setattr(config, "LOOK", "classic")
     d = {"cover": {"headline": "The corner shop backs you harder than any [bank] will"},
          "slides": [{"paragraphs": [" ".join(["word"] * 30), "Swipe to read →"]}, {"paragraphs": ["x"]}], "claims": []}
     out, _ = writer.mechanical(d, "carousel", [])
@@ -377,3 +379,21 @@ def test_family_takes_are_never_planned_back_to_back():
     plan = topic_filter._assign([fam(1, "life_relationships"), fam(2, "money_status"), other], slots)
     picks = [p["topic"]["id"] for p in plan if p["due"]]
     assert picks[:2] == ["f1", "o1"]  # the second family take waits until something else has run
+
+
+def test_dense_writing_is_caught_but_the_approved_voice_passes(monkeypatch):
+    from engine import config
+    monkeypatch.setattr(config, "LOOK", "native")
+    dense = [["Organisational considerations notwithstanding, comprehensive institutional accountability frameworks systematically "
+              "underperform expectations, particularly regarding infrastructural deficiencies affecting metropolitan populations."]] * 8
+    assert any("reads above the page's level" in p for p in writer.readability_problems(draft(dense), "carousel"))
+    plain = [["The house is paid off.", "The future isn't."], ["Your mother calls it papa ki dawai ka kharcha. Everyone knows."]] * 4
+    assert not any("reads above" in p for p in writer.readability_problems(draft(plain), "carousel"))
+
+
+def test_native_slide_one_is_shown_as_written(monkeypatch):
+    from engine import config
+    monkeypatch.setattr(config, "LOOK", "native")
+    d = draft([["Indian parents don't have a retirement plan.", "They have you."]] + [list(x) for x in GOOD[1:]])
+    out, _ = writer.mechanical(d, "carousel", [], rounds=0)
+    assert out["slides"][0]["paragraphs"] == ["Indian parents don't have a retirement plan.", "They have you."]

@@ -27,10 +27,15 @@ MAX_SENT_WORDS = 22  # 5th-grade scanability: most sentences far shorter
 # Owner, 10 Nov 2026 (the pension, shagun and house-help posts): carousels of 8-10 slides, one beat per slide. Buffer
 # and Instagram's API take 10 images at most, so 10 is a hard cap; above ~40 words a slide turns into a wall of text.
 MIN_SLIDES, MAX_SLIDES = 6, 10  # 8 forced padding the editor rightly called dead (10 Nov run)
-SLIDE_WORDS = (6, 48)    # a punch slide can be one short line; a reading slide stops at about eight lines
+SLIDE_WORDS = (6, 42)    # a punch slide can be one short line; a reading slide stops at about seven lines
 HOOK_WORDS = 20          # slide 1 is the cover, shown as typed: the claim and its turn in one glance
 POST_WORDS = (130, 340)  # the approved posts run 260-300 words: under two minutes, self-paced
 MAX_FIGURES = 12         # everyday rupee receipts carry the argument now (owner, 10 Nov); statistics still need a source
+# Owner, 10 Nov 2026: "let's not drop the scanability, readability and ease of understanding". Every approved post
+# reads at Flesch-Kincaid grade 2-5.3 with sentences of 8-11 words; the reference creator reads at 6.5-9.3.
+MAX_GRADE = 6.0          # reading grade of the whole post
+MAX_AVG_SENT = 12        # average words per sentence
+MAX_LONG_WORDS = 13.0    # % of words with 3+ syllables
 MIN_RHYTHM = 3.5         # sentence-length spread; a metronome rhythm (every sentence ~8 words) reads as AI
 # "isn't X, it's Y" closes many of the reference creator's best posts; repeated mid-post it reads as a template.
 REVERSAL = re.compile(r"\b(isn't|is not|wasn't|was not|aren't|never)\b[^.?!]{0,60}[.?!]\s*(it's|it is|it was|they're|"
@@ -55,6 +60,27 @@ def sentences(text: str) -> list[str]:
     """Split into sentences without breaking on 'No. 1', 'Rs. 500', 'Dr. Rao' and similar."""
     protected = _ABBREV.sub(lambda m: m.group(1) + "\u2024", text.replace("*", ""))
     return [x.replace("\u2024", ".") for x in re.split(r"(?<=[.!?])\s+", protected) if x.strip()]
+
+
+def _syllables(word: str) -> int:
+    w = re.sub(r"[^a-z]", "", word.lower())
+    if not w:
+        return 0
+    n = len(re.findall(r"[aeiouy]+", w))
+    if w.endswith("e") and n > 1 and not w.endswith(("le", "ee")):
+        n -= 1
+    return max(1, n)
+
+
+def reading_level(text: str) -> tuple[float, float, float]:
+    """Flesch-Kincaid grade, average sentence length, and % of words with 3+ syllables."""
+    sents = [x for x in sentences(text.replace("\n", " ")) if not x.lower().startswith("swipe")]
+    words = [w for w in text.split() if re.search(r"[A-Za-z]", w)]
+    if not sents or not words:
+        return 0.0, 0.0, 0.0
+    syl = [_syllables(w) for w in words]
+    grade = 0.39 * len(words) / len(sents) + 11.8 * sum(syl) / len(words) - 15.59
+    return grade, len(words) / len(sents), 100 * sum(1 for n in syl if n >= 3) / len(words)
 
 
 def readability_problems(draft: dict, fmt: str) -> list[str]:
@@ -85,6 +111,12 @@ def readability_problems(draft: dict, fmt: str) -> list[str]:
              for x in sentences(p) if not x.lower().startswith("swipe")]
     if fmt == "carousel" and words and sum(words) / len(words) > 16:
         problems.append(f"Average sentence is {sum(words) / len(words):.1f} words; keep it at 16 or under.")
+    if fmt == "carousel" and config.LOOK == "native":
+        grade, avg, long_pct = reading_level(post_text(draft))
+        if grade > MAX_GRADE or avg > MAX_AVG_SENT or long_pct > MAX_LONG_WORDS:
+            problems.append(f"The post reads above the page's level (grade {grade:.1f}, max {MAX_GRADE:.0f}; {avg:.1f} words a "
+                            f"sentence, max {MAX_AVG_SENT}; {long_pct:.0f}% long words, max {MAX_LONG_WORDS:.0f}%). Use the "
+                            "words people say out loud and break the longest sentences; keep every point.")
     if fmt == "carousel" and len(words) >= 8 and statistics.pstdev(words) < MIN_RHYTHM:
         problems.append("Every sentence is about the same length, which reads as a template. Put one longer, concrete "
                         "sentence next to a short punch on most slides.")
@@ -98,7 +130,7 @@ MECHANICAL = ("sentence has", "paragraphs; use at most", "more than 4 sentences"
 
 
 # Small wording problems: a targeted edit to the named line fixes them without a rewrite.
-WORDING = ("Remove the phrase", "'Nobody' appears more than four times", "words; the limit is", "Every sentence is about the same length",
+WORDING = ("Remove the phrase", "reads above the page's level", "'Nobody' appears more than four times", "words; the limit is", "Every sentence is about the same length",
            "isn't in the sources; source it or remove it", "The post carries", "The send line names no specific person")
 
 
@@ -186,7 +218,7 @@ def mechanical(draft: dict, fmt: str, sources: list[dict], rounds: int = 2) -> t
     """Code checks. Layout problems get a quick mechanical repair; content problems are returned for the writer.
     Does not use up a rewrite attempt."""
     headline = re.sub(r"[\[\]]", "", (draft.get("cover") or {}).get("headline", "")).strip()
-    if fmt == "carousel" and headline and draft.get("slides"):  # slide 1 is never shown: the cover replaces it
+    if fmt == "carousel" and headline and draft.get("slides") and config.LOOK != "native":  # classic: the cover replaces slide 1
         draft["slides"][0]["paragraphs"] = [headline.rstrip(".") + ".", "Swipe to read →"]
     draft = merge_paragraphs(draft, fmt)
     if fmt == "carousel":
