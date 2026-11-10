@@ -1,7 +1,7 @@
 {
  "id": "2026-11-138",
- "status": "planned",
- "due": "2026-11-16T20:30:00+05:30",
+ "status": "rejected",
+ "due": "2026-11-17T20:30:00+05:30",
  "format": "carousel",
  "topic": {
   "title": "The monthly toll pass is the expensive plan",
@@ -60,6 +60,299 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-11-10T17:21:12.744580+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Failure 12, mechanism that doesn't hold: slide 7 says \"Every month you don't check, the seller gets paid for it\", and slide 5 uses the FASTag local pass as the proof. The monthly toll pass is a government product that the driver buys on purpose. It is not a quiet auto-debit that renews while you stop looking, and nobody 'sells' it for profit off your inattention. The proof shows a price gap, not inertia. The post therefore claims a hidden seller motive the example cannot show.",
+     "Failure 2/3 (stronger wording than the source): slide 6, \"The yearly buyer can keep ₹2,820 for doing one sum, once.\" That figure holds only against the ₹1,500 pass. Slide 5 itself says the annual pass can be ₹3,000, and against that the saving is ₹1,320. The line states the larger saving as if it applied to every yearly buyer.",
+     "Failure 14, examples too narrow: the one sourced example, \"Same car, same toll gate every morning\", applies only to private car owners within 20 km of a toll plaza who also pass the eligibility rules. Most readers aged 24 to 32 will never use it. The relatable examples (gym, OTT, cloud storage) get one bullet each, while the numbers go to the toll pass.",
+     "Failure 11 and persona rule 2, invented lived claim: the caption says \"Checked my own auto-pay list while writing this and found two things I'd never sign up for again.\" The topic marks this post lived:false (pure observation), and this is an invented one-off personal event."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 3,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 3,
+     "eq": 3,
+     "iq": 3,
+     "story": 2,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "Slides 5-6: The toll pass proves a price gap, not 'habit pays the seller'. Either move the weight to subscriptions every reader has, with the FASTag pass as one short sourced aside, or reframe it honestly as 'the small number hides the yearly sum'. Say the ₹2,820 saving applies to the ₹1,500 pass only, or use the ₹3,000 case (saves ₹1,320) as well. Do not state it as the saving for every yearly buyer.",
+     "Slide 7: Cut 'the seller gets paid for it' as a flat fact. Name the real mechanism the topic gives: a small recurring charge rarely gets reviewed, so renewals run on inertia. Drop 'Anyone who has worked in sales knows', which reads as a credential. Also remove the sales-insider tone that the FASTag example (a government pass) contradicts.",
+     "Slides 3-4: Slide 4 is nearly dead; it is just a quote and a line of setup. Merge it into slide 3 or give it a new beat. Slide 3's bullets are good, but one concrete, felt detail would sharpen them, for example the SMS or bank-statement line you scroll past without reading. Make the viewer feel foolish, which is the feeling the topic wants.",
+     "Slides 8-9: Slide 8 restates the point of slide 7 ('we pay extra to skip a decision'). Cut 'in the same week as rent', which is a decorative invented detail. The close ('Open your auto-pay list tonight. Keep only what you'd sign up for again today') is an instruction. Replace it with a sting or a line people repeat, and let the test sit inside the image rather than a do-this command.",
+     "Caption: Delete the invented personal check. The post is pure observation, so the caption should not claim 'I checked my own list'. Use a 'we' line instead."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Failure 12, mechanism that doesn't hold: slide 7 says \"Every month you don't check, the seller gets paid for it\", and slide 5 uses the FASTag local pass as the proof. The monthly toll pass is a government product that the driver buys on purpose. It is not a quiet auto-debit that renews while you stop looking, and nobody 'sells' it for profit off your inattention. The proof shows a price gap, not inertia. The post therefore claims a hidden seller motive the example cannot show.",
+    "Failure 2/3 (stronger wording than the source): slide 6, \"The yearly buyer can keep ₹2,820 for doing one sum, once.\" That figure holds only against the ₹1,500 pass. Slide 5 itself says the annual pass can be ₹3,000, and against that the saving is ₹1,320. The line states the larger saving as if it applied to every yearly buyer.",
+    "Failure 14, examples too narrow: the one sourced example, \"Same car, same toll gate every morning\", applies only to private car owners within 20 km of a toll plaza who also pass the eligibility rules. Most readers aged 24 to 32 will never use it. The relatable examples (gym, OTT, cloud storage) get one bullet each, while the numbers go to the toll pass.",
+    "Failure 11 and persona rule 2, invented lived claim: the caption says \"Checked my own auto-pay list while writing this and found two things I'd never sign up for again.\" The topic marks this post lived:false (pure observation), and this is an invented one-off personal event.",
+    "Slides 5-6: The toll pass proves a price gap, not 'habit pays the seller'. Either move the weight to subscriptions every reader has, with the FASTag pass as one short sourced aside, or reframe it honestly as 'the small number hides the yearly sum'. Say the ₹2,820 saving applies to the ₹1,500 pass only, or use the ₹3,000 case (saves ₹1,320) as well. Do not state it as the saving for every yearly buyer.",
+    "Slide 7: Cut 'the seller gets paid for it' as a flat fact. Name the real mechanism the topic gives: a small recurring charge rarely gets reviewed, so renewals run on inertia. Drop 'Anyone who has worked in sales knows', which reads as a credential. Also remove the sales-insider tone that the FASTag example (a government pass) contradicts.",
+    "Slides 3-4: Slide 4 is nearly dead; it is just a quote and a line of setup. Merge it into slide 3 or give it a new beat. Slide 3's bullets are good, but one concrete, felt detail would sharpen them, for example the SMS or bank-statement line you scroll past without reading. Make the viewer feel foolish, which is the feeling the topic wants.",
+    "Slides 8-9: Slide 8 restates the point of slide 7 ('we pay extra to skip a decision'). Cut 'in the same week as rent', which is a decorative invented detail. The close ('Open your auto-pay list tonight. Keep only what you'd sign up for again today') is an instruction. Replace it with a sting or a line people repeat, and let the test sit inside the image rather than a do-this command.",
+    "Caption: Delete the invented personal check. The post is pure observation, so the caption should not claim 'I checked my own list'. Use a 'we' line instead."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 9 (close): \"Your auto-pay list is a museum of who you meant to be. The January gym plan is still on display. Still charging entry.\" The image is wistful (\"who you meant to be\"). It does not call back to the cover's image with a reversal, and it leaves out the test the topic promised (which of these would you sign up for again today?)."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 3,
+     "tight": 3,
+     "informative": 4
+    },
+    "notes": [
+     "slide 9: Drop the wistful museum line. End on a line people will repeat that names the rule and calls back to the cover, for example that the seller doesn't need you to want it, only to stop checking. The topic's payoff is a test (open the list tonight and keep only what you'd sign up for again today). Fold that in as a dry observation, not an instruction like \"do this\", so the post ends on a sting and a test the reader can run.",
+     "slides 5-6: Merge the two FASTag slides into one with a single clear contrast, ₹360 a month against ₹1,500 once (₹2,820 less). Mention the ₹3,000 case briefly or cut it. \"Even the new FASTag...\" opens as if a point came before it. Also, the toll pass isn't a seller milking your inertia, so say plainly that it shows the price gap, and don't lean on it as proof of the habit mechanism. Right now the facts take up the middle of the post and the opinion goes quiet.",
+     "slide 2: This is generic (\"feels safe, cancel anytime\"). Bring the topic's mechanism up here with fresher words: the yearly option exists, but it makes you do the maths once, and the monthly one never asks you to. That makes the turn sharper and gives slide 3 something to build on.",
+     "slide 4: Add one detail beyond sight, such as the phone buzzing with the debit alert while you're in the middle of something and the thumb swiping it away before the amount registers. It makes \"this is me\" land harder than \"you swipe it away\".",
+     "slide 8: \"₹360 hurts less today than ₹1,500\" is something every reader already knows, so it explains rather than adds. Keep the concession, which is good, but cut or sharpen the first line. Say something an insider would notice, for example that a small number never triggers a decision because it doesn't feel like one, and so the seller never has to win you again."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Slide 9 (close): \"Your auto-pay list is a museum of who you meant to be. The January gym plan is still on display. Still charging entry.\" The image is wistful (\"who you meant to be\"). It does not call back to the cover's image with a reversal, and it leaves out the test the topic promised (which of these would you sign up for again today?).",
+    "slide 9: Drop the wistful museum line. End on a line people will repeat that names the rule and calls back to the cover, for example that the seller doesn't need you to want it, only to stop checking. The topic's payoff is a test (open the list tonight and keep only what you'd sign up for again today). Fold that in as a dry observation, not an instruction like \"do this\", so the post ends on a sting and a test the reader can run.",
+    "slides 5-6: Merge the two FASTag slides into one with a single clear contrast, ₹360 a month against ₹1,500 once (₹2,820 less). Mention the ₹3,000 case briefly or cut it. \"Even the new FASTag...\" opens as if a point came before it. Also, the toll pass isn't a seller milking your inertia, so say plainly that it shows the price gap, and don't lean on it as proof of the habit mechanism. Right now the facts take up the middle of the post and the opinion goes quiet.",
+    "slide 2: This is generic (\"feels safe, cancel anytime\"). Bring the topic's mechanism up here with fresher words: the yearly option exists, but it makes you do the maths once, and the monthly one never asks you to. That makes the turn sharper and gives slide 3 something to build on.",
+    "slide 4: Add one detail beyond sight, such as the phone buzzing with the debit alert while you're in the middle of something and the thumb swiping it away before the amount registers. It makes \"this is me\" land harder than \"you swipe it away\".",
+    "slide 8: \"₹360 hurts less today than ₹1,500\" is something every reader already knows, so it explains rather than adds. Keep the concession, which is good, but cut or sharpen the first line. Say something an insider would notice, for example that a small number never triggers a decision because it doesn't feel like one, and so the seller never has to win you again."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3,
+     "informative": 4
+    },
+    "notes": [
+     "slide 5: The FASTag pass is real and sourced, but most readers don't live within 20 km of a toll plaza, and the slide reads as if anyone can buy it. Add a short qualifier such as \"if you live within 20 km of a toll plaza\", since eligibility is limited. Frame it as one clean receipt, not the main example. Say plainly that you choose monthly each time, so it doesn't clash with the \"renews on autopilot\" line on slide 6.",
+     "slide 6: It mostly repeats slides 4 and 5 (\"small charge never gets a second look\", \"easiest customer\", \"too small to feel like a decision\"). Merge 5 and 6 into one beat. Keep the strongest line, \"The seller won you once and never has to win you again\", and cut the rest.",
+     "slide 2: \"Almost every seller has a yearly plan too\" is an unsourced sweeping claim. Soften it to the places the reader sees: gyms and apps that show a yearly price. Add one concrete image of the yearly option, such as the \"Save 40%\" tag on the yearly toggle that you scroll past.",
+     "slide 4: The scene is good but only visual. Add one sound or touch detail, such as the double buzz against the table, or the thumb swiping before the screen has even lit up, to make it feel lived.",
+     "slide 8: Make the test sharper and more physical. Name where to look, such as the UPI auto-pay mandates and the Play Store or App Store subscriptions page. Keep \"Only to stop checking\" as the last line."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 4",
+      "line": "Your phone buzzes mid-meeting with a bank SMS. \"Debited.\" Your thumb swipes it away before the amount even registers.",
+      "why": "scene narration where he'd give commentary",
+      "try": "The bank SMS says \"Debited.\" You swipe it away mid-meeting without reading the amount."
+     },
+     {
+      "where": "slide 7",
+      "line": "And it's not laziness. ₹199 is too small to feel like a decision, so it never gets one. The seller won you once and never has to win you again.",
+      "why": "over-explained, repeats slides 5-6, essay voice",
+      "try": "₹199 is too small to feel like a decision, so it never gets one. They won you once. Never again."
+     },
+     {
+      "where": "slide 5",
+      "line": "The new FASTag local pass, live since 1 November, shows the gap in plain numbers. No trick here, just the price list.",
+      "why": "stiff, written words, needless setup",
+      "try": "The new FASTag local pass, live since 1 November, has both plans on one price list."
+     },
+     {
+      "where": "slide 8",
+      "line": "Monthly does buy something real. You never have to feel the full price.",
+      "why": "polite concession, reads like a lecture",
+      "try": "I get why monthly wins. You never see the full price."
+     },
+     {
+      "where": "slide 9",
+      "line": "Your auto-pay list has the ones you'd sign up for again today. Everything else is billing your habit.",
+      "why": "engineered two-part contrast, slightly stiff",
+      "try": "Open your auto-pay list. Keep what you'd sign up for again today. The rest is just billing your habit."
+     }
+    ],
+    "best": "\"It's only ₹199, yaar.\" Said every month, for years."
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Not Varun (slide 4): 'Your phone buzzes mid-meeting with a bank SMS. \"Debited.\" Your thumb swipes it away before the amount even registers.' reads as scene narration where he'd give commentary. Say it the way he would, e.g. 'The bank SMS says \"Debited.\" You swipe it away mid-meeting without reading the amount.' (his register, your words, same facts).",
+    "Not Varun (slide 7): 'And it's not laziness. ₹199 is too small to feel like a decision, so it never gets one. The seller won you once and never has to win you again.' reads as over-explained, repeats slides 5-6, essay voice. Say it the way he would, e.g. '₹199 is too small to feel like a decision, so it never gets one. They won you once. Never again.' (his register, your words, same facts).",
+    "Not Varun (slide 5): 'The new FASTag local pass, live since 1 November, shows the gap in plain numbers. No trick here, just the price list.' reads as stiff, written words, needless setup. Say it the way he would, e.g. 'The new FASTag local pass, live since 1 November, has both plans on one price list.' (his register, your words, same facts).",
+    "Not Varun (slide 8): 'Monthly does buy something real. You never have to feel the full price.' reads as polite concession, reads like a lecture. Say it the way he would, e.g. 'I get why monthly wins. You never see the full price.' (his register, your words, same facts).",
+    "Not Varun (slide 9): 'Your auto-pay list has the ones you'd sign up for again today. Everything else is billing your habit.' reads as engineered two-part contrast, slightly stiff. Say it the way he would, e.g. 'Open your auto-pay list. Keep what you'd sign up for again today. The rest is just billing your habit.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [
+     "The editor could not run (Claude call failed after 3 attempts in critic: You've hit your 5-hour limit · resets 6:10pm (UTC))."
+    ],
+    "notes": []
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "The editor could not run (Claude call failed after 3 attempts in critic: You've hit your 5-hour limit · resets 6:10pm (UTC))."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-10T17:31:43.081538+00:00",
+ "sources": [
+  {
+   "url": "https://www.autocarindia.com/car-news/govt-introduces-fastag-local-pass-for-residents-within-20-km-of-toll-plazas-441152",
+   "fact": "From 1 Nov 2026, residents within 20 km of an NH toll plaza can buy a local annual FASTag pass at Rs 1,500 a year outside municipal or local town limits and Rs 3,000 within them. The standard annual pass costs Rs 3,075 in 2026-27. The page does not give the monthly pass price, so it does not show that the monthly plan costs more.",
+   "excerpt": "Rs 1,500 a year",
+   "date": "2026-10-28"
+  },
+  {
+   "url": "https://www.newsonair.gov.in/nhai-revises-fastag-annual-pass-fee-to-%E2%82%B93075-for-fy-2026-27",
+   "fact": "NHAI, announced by the Ministry of Road Transport and Highways, revised the FASTag annual pass fee from Rs 3,000 to Rs 3,075 for FY 2026-27. It covers one year or 200 toll plaza crossings, whichever comes first.",
+   "excerpt": "The pass is a one-time payment that covers either one year of validity or 200 toll plaza crossings, whichever comes first",
+   "date": "2026-03-15"
+  }
+ ],
+ "draft": {
+  "cover": {
+   "headline": "The monthly plan is the one built for [people who stopped checking]",
+   "sub": "It feels flexible. You're just paying extra for it every month."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "The monthly plan was never the flexible option. It's the one made for people who stopped checking.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "Isn't monthly the safe choice? Why would it be the costly one?"
+   },
+   {
+    "paragraphs": [
+     "Almost every seller has a yearly plan too. It's cheaper, but it makes you sit down and do the maths once.",
+     "The monthly plan never asks you to think. Not on day one, not in year three."
+    ],
+    "why_swipe": "Where does this show up in my own bank statement?"
+   },
+   {
+    "paragraphs": [
+     "This is why:\n– the gym plan you've paid for since the January you meant it\n– the OTT app you joined for one show, two seasons ago\n– the cloud storage still backing up a phone you sold"
+    ],
+    "why_swipe": "And why don't I notice any of it?"
+   },
+   {
+    "paragraphs": [
+     "The bank SMS says \"Debited.\" You swipe it away mid-meeting without reading the amount.",
+     "\"It's only ₹199, yaar.\" Said every month, for years."
+    ],
+    "why_swipe": "How much is that small amount really costing?"
+   },
+   {
+    "paragraphs": [
+     "The new FASTag local pass, live since 1 November, has both plans on one price list.",
+     "Monthly: ₹360, so ₹4,320 a year. Annual, outside town limits: ₹1,500 once. That's ₹2,820 less."
+    ],
+    "why_swipe": "So why does the small number win anyway?"
+   },
+   {
+    "paragraphs": [
+     "A small charge never gets a second look. So it renews on autopilot, month after month.",
+     "For an app or a gym, that's the easiest customer there is: one who stopped checking."
+    ],
+    "why_swipe": "Then why do smart people keep choosing monthly?"
+   },
+   {
+    "paragraphs": [
+     "₹199 is too small to feel like a decision, so it never gets one. They won you once. They never have to again."
+    ],
+    "why_swipe": "So is there any upside to monthly at all?"
+   },
+   {
+    "paragraphs": [
+     "I get why monthly wins. You never see the full price."
+    ],
+    "why_swipe": "So what is sitting on my own auto-pay list?"
+   },
+   {
+    "paragraphs": [
+     "Open your auto-pay list. Keep what you'd sign up for again today. The rest is just billing your habit.",
+     "The seller doesn't need you to want it. Only to stop checking."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Come back to this the next time a ₹199 charge shows up and you don't remember why.",
+   "send": "Send to the friend with seven subscriptions who swears they barely notice the charges.",
+   "promise": "Where your money really goes in India."
+  },
+  "caption": "We'll argue for ten minutes over a ₹40 delivery fee and never look at the ₹199 that left this month.",
+  "hashtags": [
+   "#FASTag",
+   "#SubscriptionTrap",
+   "#PersonalFinanceIndia",
+   "#AutoPay"
+  ],
+  "alt_text": "A text reel of nine plain cards arguing that monthly plans are built for people who stop checking. It says the yearly plan asks you to do the maths once while monthly never asks you to think, and lists a gym plan, an OTT app and old cloud storage as examples. It describes swiping away a bank debit SMS mid-meeting without reading the amount. It uses the new FASTag local pass, ₹360 a month or ₹4,320 a year against a ₹1,500 annual pass outside town limits, to show a ₹2,820 gap. It says small charges never feel like a decision, so the seller wins you once and never has to again, admits monthly wins because you never see the full price, and ends by telling you to keep only what you'd sign up for again today, since the seller only needs you to stop checking.",
+  "claims": [
+   {
+    "text": "The FASTag local pass rules took effect on 1 November 2026.",
+    "source_url": "https://www.businesstoday.in/amp/india/story/fastag-new-rules-from-november-1-who-can-apply-how-much-will-it-cost-and-more-564186-2026-10-28"
+   },
+   {
+    "text": "The monthly FASTag local pass costs ₹360, or ₹4,320 a year, for eligible owners.",
+    "source_url": "https://www.businesstoday.in/amp/india/story/fastag-new-rules-from-november-1-who-can-apply-how-much-will-it-cost-and-more-564186-2026-10-28"
+   },
+   {
+    "text": "The annual FASTag local pass costs ₹1,500 a year for eligible residents outside municipal or local town limits.",
+    "source_url": "https://www.autocarindia.com/car-news/govt-introduces-fastag-local-pass-for-residents-within-20-km-of-toll-plazas-441152"
+   },
+   {
+    "text": "Paying once for the ₹1,500 annual pass instead of monthly costs ₹2,820 less.",
+    "source_url": "topic",
+    "derived_from": "₹4,320 (12 x ₹360) minus ₹1,500 = ₹2,820"
+   }
+  ]
+ }
 }

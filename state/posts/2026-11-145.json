@@ -1,6 +1,6 @@
 {
  "id": "2026-11-145",
- "status": "planned",
+ "status": "failed",
  "due": "2026-11-19T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -52,6 +52,110 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-11-10T17:21:34.221622+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "12. Slide 9: \"That's what the coffee is worth. Everything else was rent.\" This is stated as fact and is wrong. The sources put a café's real rent at roughly 15-20% of revenue (Blue Tokai about 17%). The rest of the price covers beans, staff and margin. The post never says \"half\", but \"everything else\" is stronger than the topic's own claim, which the sources already contradict.",
+     "16. Slide 6: \"Here's what's going on underneath.\" This is stock scaffolding where fresh words should carry the turn. Slide 7's \"Anyone who has worked on pricing knows this\" is also a vague insider-credential line standing in for the actual mechanism."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 3,
+     "eq": 3,
+     "iq": 3,
+     "story": 3,
+     "tight": 3,
+     "informative": 2
+    },
+    "notes": [
+     "slide 9: Don't say \"everything else was rent\". Reframe it as a seat premium: whatever you'd pay beyond the coffee's worth is the price of the chair. Keep the park-with-shade-and-Wi-Fi test, but end on a line people can repeat, not an accounting claim the sources contradict.",
+     "slides 5-7: The same idea (the seat gets a price) is said three times, and slide 7 is a generic pricing line. Merge them into one slide. Drop \"Here's what's going on underneath\" and \"Anyone who has worked on pricing knows this\". Name the mechanism plainly: when every place to sit also sells something, the café can charge for the sitting, and the menu is how it bills you.",
+     "slide 6 or 7: Add one sourced fact that makes the point bigger and is true. A café's real rent is only about 15-20% of its revenue (2019 industry reporting; Blue Tokai FY25 is about 17%). So the landlord isn't what you're paying for. You're paying for how few alternatives you have. This adds the new insight the post lacks and fixes the accuracy problem.",
+     "slides 5 and 8: The prices don't match. Slide 5 gives three hours for about ₹700, which is roughly ₹230 an hour. Slide 8 says \"₹280 an hour\", but ₹280 is the price of one drink. Use one consistent figure. For example: \"You paid ₹280 for the drink and the hour came free.\"",
+     "slides 3-4: Slide 3 has three examples but is generic (laptop crowd, couple, flatmate). Slide 4 has the one real insider detail, the staff wiping your table. Give slide 4 more weight, add one more detail only a regular would notice (the plug seat that opens up, the Wi-Fi password printed on the bill), and cut slide 2's closing \"You barely drank half\", which repeats what the ice already shows."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "12. Slide 9: \"That's what the coffee is worth. Everything else was rent.\" This is stated as fact and is wrong. The sources put a café's real rent at roughly 15-20% of revenue (Blue Tokai about 17%). The rest of the price covers beans, staff and margin. The post never says \"half\", but \"everything else\" is stronger than the topic's own claim, which the sources already contradict.",
+    "16. Slide 6: \"Here's what's going on underneath.\" This is stock scaffolding where fresh words should carry the turn. Slide 7's \"Anyone who has worked on pricing knows this\" is also a vague insider-credential line standing in for the actual mechanism.",
+    "slide 9: Don't say \"everything else was rent\". Reframe it as a seat premium: whatever you'd pay beyond the coffee's worth is the price of the chair. Keep the park-with-shade-and-Wi-Fi test, but end on a line people can repeat, not an accounting claim the sources contradict.",
+    "slides 5-7: The same idea (the seat gets a price) is said three times, and slide 7 is a generic pricing line. Merge them into one slide. Drop \"Here's what's going on underneath\" and \"Anyone who has worked on pricing knows this\". Name the mechanism plainly: when every place to sit also sells something, the café can charge for the sitting, and the menu is how it bills you.",
+    "slide 6 or 7: Add one sourced fact that makes the point bigger and is true. A café's real rent is only about 15-20% of its revenue (2019 industry reporting; Blue Tokai FY25 is about 17%). So the landlord isn't what you're paying for. You're paying for how few alternatives you have. This adds the new insight the post lacks and fixes the accuracy problem.",
+    "slides 5 and 8: The prices don't match. Slide 5 gives three hours for about ₹700, which is roughly ₹230 an hour. Slide 8 says \"₹280 an hour\", but ₹280 is the price of one drink. Use one consistent figure. For example: \"You paid ₹280 for the drink and the hour came free.\"",
+    "slides 3-4: Slide 3 has three examples but is generic (laptop crowd, couple, flatmate). Slide 4 has the one real insider detail, the staff wiping your table. Give slide 4 more weight, add one more detail only a regular would notice (the plug seat that opens up, the Wi-Fi password printed on the bill), and cut slide 2's closing \"You barely drank half\", which repeats what the ice already shows."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 7: \"And most of it isn't the landlord's cut... You're paying for having nowhere else to go.\" The post shows rent is only 15-20% (Blue Tokai 17%), then says the rest of the bill is the price of the chair. Nothing shows that. Staff, beans, margin and other costs fill the gap. The seat-pricing mechanism is asserted rather than shown, and the cited figure weakens the thesis instead of backing it (hard failure 12, with a thin 'because')."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 3,
+     "story": 3,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "slide 7: The rent figure does not prove the chair is what you pay for. Either drop the percentages and the 'most of it' jump, or use them honestly: rent is a small slice, so the café isn't charging you rent on the seat. Then make the real because explicit. Free places to sit are so rare that a café can sell the sitting itself, and the café bills it as a drink. The topic's 'because' already says this. Don't claim a share of the bill that the sources can't back.",
+     "slide 9 and 10: The park test carries the turn. Sharpen it so it lands as the because. The café can price the seat only because the park next door has no shade, no plug and no Wi-Fi. That makes the villain the city, not the café, and the post is stronger for it. Keep the last line as a test, but cut one 'chair' repetition so it stings instead of explaining.",
+     "slide 5: This slide is the weakest, and the repeated 'what happens next' pull is flat. Make it add a new feeling or a physical detail: the guilt of the table being wiped around your laptop, the glass being taken away while you still hold it. Cut or fold it into slide 4 if it doesn't add something.",
+     "slide 2 and 3: The scene is solid, but slide 3's list (laptop crowd, couple, flatmate) is three versions of 'people with nowhere to sit'. Keep the strongest two and use the freed space for one insider detail the reader has seen: the 'sorry, minimum order per person' sign, or the plug seat being guarded.",
+     "slide 1 and 6: Slide 1 gives away the whole answer ('ticket to a chair, nowhere else to sit'), so slides 2 to 5 only confirm it. Hold back 'nowhere else to sit' until slide 6 or the park test, and start with the ₹280 coffee you didn't want to create pull."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Slide 7: \"And most of it isn't the landlord's cut... You're paying for having nowhere else to go.\" The post shows rent is only 15-20% (Blue Tokai 17%), then says the rest of the bill is the price of the chair. Nothing shows that. Staff, beans, margin and other costs fill the gap. The seat-pricing mechanism is asserted rather than shown, and the cited figure weakens the thesis instead of backing it (hard failure 12, with a thin 'because').",
+    "slide 7: The rent figure does not prove the chair is what you pay for. Either drop the percentages and the 'most of it' jump, or use them honestly: rent is a small slice, so the café isn't charging you rent on the seat. Then make the real because explicit. Free places to sit are so rare that a café can sell the sitting itself, and the café bills it as a drink. The topic's 'because' already says this. Don't claim a share of the bill that the sources can't back.",
+    "slide 9 and 10: The park test carries the turn. Sharpen it so it lands as the because. The café can price the seat only because the park next door has no shade, no plug and no Wi-Fi. That makes the villain the city, not the café, and the post is stronger for it. Keep the last line as a test, but cut one 'chair' repetition so it stings instead of explaining.",
+    "slide 5: This slide is the weakest, and the repeated 'what happens next' pull is flat. Make it add a new feeling or a physical detail: the guilt of the table being wiped around your laptop, the glass being taken away while you still hold it. Cut or fold it into slide 4 if it doesn't add something.",
+    "slide 2 and 3: The scene is solid, but slide 3's list (laptop crowd, couple, flatmate) is three versions of 'people with nowhere to sit'. Keep the strongest two and use the freed space for one insider detail the reader has seen: the 'sorry, minimum order per person' sign, or the plug seat being guarded.",
+    "slide 1 and 6: Slide 1 gives away the whole answer ('ticket to a chair, nowhere else to sit'), so slides 2 to 5 only confirm it. Hold back 'nowhere else to sit' until slide 6 or the park test, and start with the ₹280 coffee you didn't want to create pull."
+   ]
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Slide 7 has 44 words; the limit is 42. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-10T17:31:43.145671+00:00",
+ "sources": [
+  {
+   "url": "https://startuppedia.in/trending/startup-news/founded-by-husband-wife-duo-in-2012-specialty-coffee-chain-blue-tokai-posts-rs-333-crore-revenue-in-fy25-narrows-losses-to-rs-50-crore-11150722",
+   "fact": "Blue Tokai's FY25 rent expense was Rs 55.16 crore on revenue of Rs 332.7 crore, about 17% of revenue. That is well below half, which contradicts the claim. The percentage is my own calculation from the two figures.",
+   "excerpt": "reported a 50% year-on-year increase in revenue to Rs 332.7 crore in FY25, up from Rs 221 crore in FY24. ... the rent expense of the company surged 67%, to Rs 55.16 crore in FY25, up from Rs 33 crore in FY24.",
+   "date": "2026-02-24"
+  },
+  {
+   "url": "https://www.asianage.com/business/in-other-news/070819/high-operating-costs-troubling-coffee-shops.html",
+   "fact": "Industry reporting puts rent at roughly 15-20% of a coffee shop's revenue, and up to 25% in prime locations, not 50%. The article is from 2019.",
+   "excerpt": "Rentals, as a percentage of operating costs, have more than doubled in the last few years and eat away almost 15-20 per cent ... In prime locales, it even goes as high as 25 per cent.",
+   "date": "2019-08-07"
+  }
+ ],
+ "error": "Claude call failed after 3 attempts in write: You've hit your 5-hour limit · resets 6:10pm (UTC)"
 }

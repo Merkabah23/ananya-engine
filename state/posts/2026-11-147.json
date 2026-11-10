@@ -1,6 +1,6 @@
 {
  "id": "2026-11-147",
- "status": "rejected",
+ "status": "failed",
  "due": "2026-11-16T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -66,83 +66,52 @@
    "review": {
     "pass": false,
     "violations": [
-     "Hard failure 14, no relatability: the pattern is asserted more than shown. Beyond the WhatsApp group and the popcorn cousin, there is no third exact scene every reader has lived, such as the booking-app seat map, someone asking 'kaunsi dekhni hai?' or the grandmother asking what the film is about. Slides 3, 4 and 5 keep restating the rule ('group decision', 'sab dekh sakte hain', 'whatever survives') where a lived moment should carry it."
+     "Invented specifics (hard failure 2): slide 6 \"nobody sulks for three hours in the dark\" uses the exact kind of made-up number the rules call out. Slide 2 \"five seat numbers in a row\" and slide 3 \"the 12-year-old cousin\" are also decorative figures that appear in no source, proof or real_details.",
+     "Mechanism stated as a deliberate plan (hard failure 12): slide 2 \"That was the plan.\" presents the family booking as a scheme. The topic says the group decides, not that someone engineered it.",
+     "Stock scaffolding (hard failure 16): slide 5 \"Here's the part the audience never sees.\" is a template connector where plain words would carry the turn."
     ],
     "scores": {
      "hook": 4,
-     "relatable": 3,
+     "relatable": 4,
      "fresh_angle": 4,
-     "pull": 3,
+     "pull": 4,
      "payoff": 3,
      "voice": 3,
      "eq": 3,
      "iq": 4,
      "story": 3,
-     "tight": 3,
-     "informative": 3
+     "tight": 4,
+     "informative": 4
     },
     "notes": [
-     "Slides 3, 4 and 5 say the same thing three times: a ticket is a group decision, so the film must suit everyone, so 'sab dekh sakte hain' wins. Merge them into one slide with one concrete scene, such as the group chat where the grandmother's 'something clean' and the kids' 'not a serious one' cancel everything else. Delete 'Nobody gets their favourite' and the 'Whatever survives that vote' line, since they repeat the rule. Slide 3's why_swipe, 'what happens next?', is also filler.",
-     "Slide 1 states the whole answer ('the one the whole family could agree on'), and the last slide repeats it ('what your whole row could say yes to'), so the close adds nothing new. Keep the cover claim, but make the close a sting or a test the reader can run, for example: 'Next Diwali, count how many films were ever in the group chat.' Alternatively end on what the second-choice film actually loses: its showtimes.",
-     "Slides 6 to 8 need a clearer mechanism. Say plainly that the multiplex hands the 7pm Saturday slot to whichever film filled Friday, so the next film's audience arrives to find fewer shows. Slide 8's 'Their fans didn't vanish. Their showtimes did.' goes further than Sacnilk's 'lost screens' line, so soften it to what the source supports. Also say that 69% is the weekend share among the top five, so it is not read as national share.",
-     "Slide 9 ('It isn't bad taste...') and slide 10 both reassure the reader, which softens the sharp mood. Cut the 'six people happy in one row' line, which repeats slide 4. Spend the space on the feeling the topic names: part of the crowd, slightly left out of your own choice. A sensory beat would help here, such as the six-seat row, the shared popcorn tub that settles who sits where, or the cousin's phone lighting up when the film drags.",
-     "Slide 2 is the best slide because it shows the moment. Push it further with a second everyday beat, like the 'ok sab ready?' message arriving after the booking is already done, so the reader feels the decision was never theirs. That sets up the 'system, not family' turn without making the family the villain."
+     "Slide 6: remove \"three hours\" and rewrite the line without any number, e.g. \"Picking the safe film means nobody sulks through the film.\" Also drop \"the mall near you\" or keep it generic. The point that Jailer 2 and AK 47 lost screens is sourced, but don't imply they were the family's runner-up; say only that screens moved away from them.",
+     "Slide 2: cut \"five seat numbers\" and \"That was the plan.\" Show the moment as a typical one: the booking link lands in the family group, one name is already on it, and everyone just replies \"done\". That keeps the feeling of being slightly left out of your own choice without inventing a count or a scheme.",
+     "Slide 3: drop \"12-year-old\" and the \"score in the interval\" detail, which is unclear. Use plain roles such as grandmother, the kids and the uncle who wants nothing too heavy. Reconsider the invented quote \"Koi family wali dekh lete hain\". It can stay only as an obviously typical phrase, not a reported line.",
+     "Slide 5: replace the opener \"Here's the part the audience never sees\" with the claim itself, e.g. \"Theatres don't care which film you love. They care which hall is full.\" That puts the because (who gains) in his voice.",
+     "Slide 7: the close is soft and slightly wistful (\"alone, on your phone, in bed\"). Give it a sharper reversal that calls back to the cover, e.g. the film that wins the weekend is chosen by the whole row, while your pick waits for OTT. Make the last line one repeatable sentence about a festival hit being the film nobody vetoed, not the film anyone loved."
     ]
    }
   },
   {
    "attempt": 0,
    "problems": [
-    "Hard failure 14, no relatability: the pattern is asserted more than shown. Beyond the WhatsApp group and the popcorn cousin, there is no third exact scene every reader has lived, such as the booking-app seat map, someone asking 'kaunsi dekhni hai?' or the grandmother asking what the film is about. Slides 3, 4 and 5 keep restating the rule ('group decision', 'sab dekh sakte hain', 'whatever survives') where a lived moment should carry it.",
-    "Slides 3, 4 and 5 say the same thing three times: a ticket is a group decision, so the film must suit everyone, so 'sab dekh sakte hain' wins. Merge them into one slide with one concrete scene, such as the group chat where the grandmother's 'something clean' and the kids' 'not a serious one' cancel everything else. Delete 'Nobody gets their favourite' and the 'Whatever survives that vote' line, since they repeat the rule. Slide 3's why_swipe, 'what happens next?', is also filler.",
-    "Slide 1 states the whole answer ('the one the whole family could agree on'), and the last slide repeats it ('what your whole row could say yes to'), so the close adds nothing new. Keep the cover claim, but make the close a sting or a test the reader can run, for example: 'Next Diwali, count how many films were ever in the group chat.' Alternatively end on what the second-choice film actually loses: its showtimes.",
-    "Slides 6 to 8 need a clearer mechanism. Say plainly that the multiplex hands the 7pm Saturday slot to whichever film filled Friday, so the next film's audience arrives to find fewer shows. Slide 8's 'Their fans didn't vanish. Their showtimes did.' goes further than Sacnilk's 'lost screens' line, so soften it to what the source supports. Also say that 69% is the weekend share among the top five, so it is not read as national share.",
-    "Slide 9 ('It isn't bad taste...') and slide 10 both reassure the reader, which softens the sharp mood. Cut the 'six people happy in one row' line, which repeats slide 4. Spend the space on the feeling the topic names: part of the crowd, slightly left out of your own choice. A sensory beat would help here, such as the six-seat row, the shared popcorn tub that settles who sits where, or the cousin's phone lighting up when the film drags.",
-    "Slide 2 is the best slide because it shows the moment. Push it further with a second everyday beat, like the 'ok sab ready?' message arriving after the booking is already done, so the reader feels the decision was never theirs. That sets up the 'system, not family' turn without making the family the villain."
+    "Invented specifics (hard failure 2): slide 6 \"nobody sulks for three hours in the dark\" uses the exact kind of made-up number the rules call out. Slide 2 \"five seat numbers in a row\" and slide 3 \"the 12-year-old cousin\" are also decorative figures that appear in no source, proof or real_details.",
+    "Mechanism stated as a deliberate plan (hard failure 12): slide 2 \"That was the plan.\" presents the family booking as a scheme. The topic says the group decides, not that someone engineered it.",
+    "Stock scaffolding (hard failure 16): slide 5 \"Here's the part the audience never sees.\" is a template connector where plain words would carry the turn.",
+    "Slide 6: remove \"three hours\" and rewrite the line without any number, e.g. \"Picking the safe film means nobody sulks through the film.\" Also drop \"the mall near you\" or keep it generic. The point that Jailer 2 and AK 47 lost screens is sourced, but don't imply they were the family's runner-up; say only that screens moved away from them.",
+    "Slide 2: cut \"five seat numbers\" and \"That was the plan.\" Show the moment as a typical one: the booking link lands in the family group, one name is already on it, and everyone just replies \"done\". That keeps the feeling of being slightly left out of your own choice without inventing a count or a scheme.",
+    "Slide 3: drop \"12-year-old\" and the \"score in the interval\" detail, which is unclear. Use plain roles such as grandmother, the kids and the uncle who wants nothing too heavy. Reconsider the invented quote \"Koi family wali dekh lete hain\". It can stay only as an obviously typical phrase, not a reported line.",
+    "Slide 5: replace the opener \"Here's the part the audience never sees\" with the claim itself, e.g. \"Theatres don't care which film you love. They care which hall is full.\" That puts the because (who gains) in his voice.",
+    "Slide 7: the close is soft and slightly wistful (\"alone, on your phone, in bed\"). Give it a sharper reversal that calls back to the cover, e.g. the film that wins the weekend is chosen by the whole row, while your pick waits for OTT. Make the last line one repeatable sentence about a festival hit being the film nobody vetoed, not the film anyone loved."
    ]
   },
   {
    "attempt": 1,
    "review": {
     "pass": false,
-    "violations": [],
-    "scores": {
-     "hook": 4,
-     "relatable": 4,
-     "fresh_angle": 4,
-     "pull": 4,
-     "payoff": 3,
-     "voice": 4,
-     "eq": 4,
-     "iq": 4,
-     "story": 3,
-     "tight": 3,
-     "informative": 4
-    },
-    "notes": [
-     "slide 5-6: Slide 5 is a thin setup line, and \"Then the theatres do the maths\" is stock scaffolding. Merge 5 and 6 into one slide with fresh words. Also cut the decorative \"7pm Saturday slot\" (an invented time) and the unsourced \"at worse times\". Say plainly that the hall that fills gets the shows, and the other film's fans find it gone. If you want the earning point to feel real, tie it to the popcorn tub you use later.",
-     "slide 7: This slide is the only receipt, but it reads like a news line with two numbers and no feeling. Keep the 69% as the one hard number and drop the ₹252.75 crore sum. Then tie it to the previous slide: the films that lost screens were the ones some family's second choice. Let the reader feel their own pick being the one that disappeared.",
-     "slide 9: The test contradicts slide 2, where the group chat had \"one name on it\". Counting films in the chat won't work. Replace it with a test the reader can really run, such as asking who in the row picked the film first. Give the last line a quotable sting about the chart counting what the row agreed to, not what anyone wanted. \"The chart counts only the one that got booked\" is flat.",
-     "slide 4: This is the most insider slide, but \"Six seats, three generations\" is an invented count. Make it \"a row\". Add one detail only someone who has booked these tickets would notice, like the grandmother's \"koi maar-dhaad toh nahi hai na?\" or the debate over whether the interval is long enough. If possible, add a sound or touch detail, such as the group chat buzzing or the tub's rustle in slide 8.",
-     "slides 2-3 and caption: Slide 2 says the plan had one name and slide 3 re-states the same thing with the WhatsApp message. Tighten these into one slide so the swipe moves faster. The caption \"Watched the family's film again this Diwali, and my pick is now officially an OTT plan\" is a first-person lived event in a post marked as pure observation. Rewrite it as \"we\" or \"you\"."
-    ]
-   }
-  },
-  {
-   "attempt": 1,
-   "problems": [
-    "slide 5-6: Slide 5 is a thin setup line, and \"Then the theatres do the maths\" is stock scaffolding. Merge 5 and 6 into one slide with fresh words. Also cut the decorative \"7pm Saturday slot\" (an invented time) and the unsourced \"at worse times\". Say plainly that the hall that fills gets the shows, and the other film's fans find it gone. If you want the earning point to feel real, tie it to the popcorn tub you use later.",
-    "slide 7: This slide is the only receipt, but it reads like a news line with two numbers and no feeling. Keep the 69% as the one hard number and drop the ₹252.75 crore sum. Then tie it to the previous slide: the films that lost screens were the ones some family's second choice. Let the reader feel their own pick being the one that disappeared.",
-    "slide 9: The test contradicts slide 2, where the group chat had \"one name on it\". Counting films in the chat won't work. Replace it with a test the reader can really run, such as asking who in the row picked the film first. Give the last line a quotable sting about the chart counting what the row agreed to, not what anyone wanted. \"The chart counts only the one that got booked\" is flat.",
-    "slide 4: This is the most insider slide, but \"Six seats, three generations\" is an invented count. Make it \"a row\". Add one detail only someone who has booked these tickets would notice, like the grandmother's \"koi maar-dhaad toh nahi hai na?\" or the debate over whether the interval is long enough. If possible, add a sound or touch detail, such as the group chat buzzing or the tub's rustle in slide 8.",
-    "slides 2-3 and caption: Slide 2 says the plan had one name and slide 3 re-states the same thing with the WhatsApp message. Tighten these into one slide so the swipe moves faster. The caption \"Watched the family's film again this Diwali, and my pick is now officially an OTT plan\" is a first-person lived event in a post marked as pure observation. Rewrite it as \"we\" or \"you\"."
-   ]
-  },
-  {
-   "attempt": 2,
-   "review": {
-    "pass": false,
-    "violations": [],
+    "violations": [
+     "Slide 3 is a dead slide. 'A festival ticket is not one person's taste. It's a vote with five ages in it, from the grandmother to the youngest cousin' says the same thing as slide 4 ('The film has to work for the grandmother, the kids, and the uncle...'). Slide 3 also adds a decorative invented specific, 'five ages'."
+    ],
     "scores": {
      "hook": 4,
      "relatable": 4,
@@ -157,26 +126,17 @@
      "informative": 4
     },
     "notes": [
-     "slides 5-6: These two repeat one idea. Slide 5 states the 69% and says screens went to the winner. Slide 6 ('In plenty of rows, one of those was someone's pick') and slide 7 ('And you were in that row') then say the reader's pick lost. Merge them into one beat. Put the 69% and the lost screens directly after the Saturday-morning app scene, so the number lands as proof of that scene. Drop 'In plenty of rows', which is an unsourced claim about how many people were affected.",
-     "slide 7 (the 'And you were in that row' slide): It leans on decorative texture (the popcorn tub passed down, the phone lighting up) that adds no new thought. If you keep it, make it carry a feeling only an insider would notice. The sting is that you helped build the hit by saying 'chalo, theek hai'. Give that concession its own short line. The 'you didn't pick it' line should be the sharp punch, not a summary.",
-     "slide 3: This is the strongest slide, but make it more physical. Show the family booking a row in more detail: the group chat vote, the grandmother's one condition, the kid vetoing anything 'serious', and your pick being the first to go. Right now the filter is described, not felt. Add one sensory or small human detail, such as the grandmother asking the seat count aloud or someone saying 'sab ko chalega?'. That gives the post its missing feeling of being slightly left out of your own choice.",
-     "slide 4: State the mechanism more plainly and tie it to the topic: halls earn from full seats, so shows follow the crowd the family picked. 'The other film's fans open the app and find their show gone' reads as an event. Frame it as a typical scenario ('Open the booking app Saturday morning and the show you wanted is gone'). Keep the claim at 'lost screens', which is what the source says. Do not imply the source proves family choice caused it.",
-     "slide 8 (the last slide): 'Watch everyone point at someone else' predicts a specific reaction as if it were fact. Cut it, or make it a test the reader can run honestly ('ask who picked the film first'). Keep 'The chart doesn't count what anyone wanted. It counts what a whole row could sit through.' as the closer, and end on it so nothing softens it."
+     "slide 3: Cut it or merge it into slide 4. Both say that the film has to work for every age in the family. Drop 'five ages'. Use the freed slot for the beat the topic already has: you are part of the crowd and slightly left out of your own choice. For example, what you type back in the group when everyone has already said 'done'.",
+     "slide 2: Show the moment through one detail the reader has lived. Your own pick gets one lukewarm reply, then the link arrives and the thumbs-up emojis pile up. Add something you can hear or touch, like the shared popcorn tub, the row of seats booked together or the phone buzzing in the group. At the moment the scene is all sight and has no feeling under it.",
+     "slide 5: The numbers float on their own. Tie them to the family decision right away, in his voice. That 69% is a lot of groups saying 'done' to the same film. Keep the figures exactly as sourced, and don't claim any reason for Ramayana's lead that the source doesn't give.",
+     "slide 6/7: These carry the 'because' but read like explanation. Say the rule in one punchy line a reader would repeat, for example the full hall decides which film gets the shows. Cut the repeated 'screens' phrasing across slides 6 and 7 so the idea lands once.",
+     "slide 9: The first line ('picked by the whole row. Yours waits for OTT') partly repeats slide 8's peace point. Keep 'nobody vetoed' as the closer and fold the OTT sting into one line. Also make the cover's headline and sub carry a plain claim without brackets, and don't let the sub ('Your vote counted. Your choice didn't.') pre-empt the close."
     ]
    }
   },
   {
-   "attempt": 2,
-   "problems": [
-    "slides 5-6: These two repeat one idea. Slide 5 states the 69% and says screens went to the winner. Slide 6 ('In plenty of rows, one of those was someone's pick') and slide 7 ('And you were in that row') then say the reader's pick lost. Merge them into one beat. Put the 69% and the lost screens directly after the Saturday-morning app scene, so the number lands as proof of that scene. Drop 'In plenty of rows', which is an unsourced claim about how many people were affected.",
-    "slide 7 (the 'And you were in that row' slide): It leans on decorative texture (the popcorn tub passed down, the phone lighting up) that adds no new thought. If you keep it, make it carry a feeling only an insider would notice. The sting is that you helped build the hit by saying 'chalo, theek hai'. Give that concession its own short line. The 'you didn't pick it' line should be the sharp punch, not a summary.",
-    "slide 3: This is the strongest slide, but make it more physical. Show the family booking a row in more detail: the group chat vote, the grandmother's one condition, the kid vetoing anything 'serious', and your pick being the first to go. Right now the filter is described, not felt. Add one sensory or small human detail, such as the grandmother asking the seat count aloud or someone saying 'sab ko chalega?'. That gives the post its missing feeling of being slightly left out of your own choice.",
-    "slide 4: State the mechanism more plainly and tie it to the topic: halls earn from full seats, so shows follow the crowd the family picked. 'The other film's fans open the app and find their show gone' reads as an event. Frame it as a typical scenario ('Open the booking app Saturday morning and the show you wanted is gone'). Keep the claim at 'lost screens', which is what the source says. Do not imply the source proves family choice caused it.",
-    "slide 8 (the last slide): 'Watch everyone point at someone else' predicts a specific reaction as if it were fact. Cut it, or make it a test the reader can run honestly ('ask who picked the film first'). Keep 'The chart doesn't count what anyone wanted. It counts what a whole row could sit through.' as the closer, and end on it so nothing softens it."
-   ]
-  },
-  {
-   "attempt": 3,
+   "attempt": 1,
+   "cut_slide": 3,
    "review": {
     "pass": false,
     "violations": [],
@@ -187,124 +147,53 @@
      "pull": 4,
      "payoff": 4,
      "voice": 4,
-     "eq": 4,
+     "eq": 3,
      "iq": 4,
      "story": 3,
      "tight": 4,
-     "informative": 3
+     "informative": 4
     },
     "notes": [
-     "slide 4: This is the 'because' slide, but it reads as generic ('A hall earns from full seats, so its shows follow the crowd'). Say it from the inside: what a hall does with a film that fills and a film that doesn't. Show the choice the reader can picture, e.g. the show list on the booking app thinning out for the film you wanted while the family pick gets extra slots. Also separate this from the Friday-to-Saturday claim so it doesn't sound like a stated schedule.",
-     "slide 3: The scene is mostly voices (dadi's line, kids' veto). Add one detail only someone who has sat in that row would notice, beyond sight: the shared popcorn tub, the cold hall, or the 'sab ko chalega?' typed at the last minute. Keep it short and unforced. The row texture is what will make a stranger think 'this is exactly us'.",
-     "slide 5: The 69% line is correct and sourced, but it sits alone and the 'lost screens' fact is only half-used. Link the two: the film the group chose gets bigger, the others get fewer shows, and that isn't a verdict on quality. You may use the sourced ₹174 crore of ₹252.75 crore if it makes the lopsidedness concrete. Keep it to one or two figures and state them plainly. Don't imply the sources show family booking itself.",
-     "slide 6: 'You helped build the hit. You just didn't pick it.' repeats the cover's idea. Keep the sting, but cut one of the three beats and add the feeling underneath: you were in the seat, counted in the number, and your film never got a vote.",
-     "slide 7: The close is a test plus a rule, but the rule has a mirrored shape ('doesn't count what anyone wanted. It counts...'). Give it one blunt line people would repeat, such as the chart rewarding the film nobody objected to. Keep the 'ask your row' test, since it works."
+     "slide 2: The feeling is told, not shown. 'You even said so in the family group' is flat. Add one insider detail, such as your suggestion getting a thumbs-up emoji and then being ignored, or the link arriving with seats already chosen. That is the 'part of a crowd, left out of your own choice' feeling the topic wants, and the post barely has it.",
+     "slide 3: 'Every family says some version of \"koi family wali dekh lete hain\"' is an unsourced quote, and 'every family' is too strong. Frame it as a typical line ('The line is always \"something family-friendly\"'), or drop the quote. Also show the veto more concretely: the uncle's 'nothing too heavy' and the grandmother's tolerance are the real filter, so put one of them in a short punchy sentence.",
+     "slides 5-6: These two repeat each other. 'Shows move to what families book' and 'films lose screens' are one idea said twice. Merge them so the line 'A film doesn't need bad reviews to disappear' lands harder. Use the freed slide for the missing beat the topic holds: the second-choice film loses its place even if people liked it, which is the post's sharpest point.",
+     "slide 4: 'Look at the weekend.' is a stock lead-in, and the three number lines read like a data card. Keep 69% as the hero figure and drop the ₹252.75 crore total, or fold it into one sentence. Make the number feel like the family decision, not a recap, for example 'Seven of every ten rupees went to one film.' Only use figures that are in the sources.",
+     "slide 7-8: 'Picking the safe film means nobody sulks through the film' over-explains what slide 3 already showed. Cut it or make it sting. The close 'Yours waits for OTT' also claims something the sources don't back for any particular film, so rephrase it as a typical outcome. Keep 'the one nobody vetoed' as the final line and make slide 8 shorter."
     ]
    }
   },
   {
-   "attempt": 3,
+   "attempt": 1,
    "problems": [
-    "slide 4: This is the 'because' slide, but it reads as generic ('A hall earns from full seats, so its shows follow the crowd'). Say it from the inside: what a hall does with a film that fills and a film that doesn't. Show the choice the reader can picture, e.g. the show list on the booking app thinning out for the film you wanted while the family pick gets extra slots. Also separate this from the Friday-to-Saturday claim so it doesn't sound like a stated schedule.",
-    "slide 3: The scene is mostly voices (dadi's line, kids' veto). Add one detail only someone who has sat in that row would notice, beyond sight: the shared popcorn tub, the cold hall, or the 'sab ko chalega?' typed at the last minute. Keep it short and unforced. The row texture is what will make a stranger think 'this is exactly us'.",
-    "slide 5: The 69% line is correct and sourced, but it sits alone and the 'lost screens' fact is only half-used. Link the two: the film the group chose gets bigger, the others get fewer shows, and that isn't a verdict on quality. You may use the sourced ₹174 crore of ₹252.75 crore if it makes the lopsidedness concrete. Keep it to one or two figures and state them plainly. Don't imply the sources show family booking itself.",
-    "slide 6: 'You helped build the hit. You just didn't pick it.' repeats the cover's idea. Keep the sting, but cut one of the three beats and add the feeling underneath: you were in the seat, counted in the number, and your film never got a vote.",
-    "slide 7: The close is a test plus a rule, but the rule has a mirrored shape ('doesn't count what anyone wanted. It counts...'). Give it one blunt line people would repeat, such as the chart rewarding the film nobody objected to. Keep the 'ask your row' test, since it works."
+    "Slide 3 is a dead slide. 'A festival ticket is not one person's taste. It's a vote with five ages in it, from the grandmother to the youngest cousin' says the same thing as slide 4 ('The film has to work for the grandmother, the kids, and the uncle...'). Slide 3 also adds a decorative invented specific, 'five ages'.",
+    "slide 3: Cut it or merge it into slide 4. Both say that the film has to work for every age in the family. Drop 'five ages'. Use the freed slot for the beat the topic already has: you are part of the crowd and slightly left out of your own choice. For example, what you type back in the group when everyone has already said 'done'.",
+    "slide 2: Show the moment through one detail the reader has lived. Your own pick gets one lukewarm reply, then the link arrives and the thumbs-up emojis pile up. Add something you can hear or touch, like the shared popcorn tub, the row of seats booked together or the phone buzzing in the group. At the moment the scene is all sight and has no feeling under it.",
+    "slide 5: The numbers float on their own. Tie them to the family decision right away, in his voice. That 69% is a lot of groups saying 'done' to the same film. Keep the figures exactly as sourced, and don't claim any reason for Ramayana's lead that the source doesn't give.",
+    "slide 6/7: These carry the 'because' but read like explanation. Say the rule in one punchy line a reader would repeat, for example the full hall decides which film gets the shows. Cut the repeated 'screens' phrasing across slides 6 and 7 so the idea lands once.",
+    "slide 9: The first line ('picked by the whole row. Yours waits for OTT') partly repeats slide 8's peace point. Keep 'nobody vetoed' as the closer and fold the OTT sting into one line. Also make the cover's headline and sub carry a plain claim without brackets, and don't let the sub ('Your vote counted. Your choice didn't.') pre-empt the close."
+   ]
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Slide 1 has 22 words; the limit is 20. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide."
    ]
   }
  ],
- "updated_at": "2026-11-10T17:21:12.704230+00:00",
+ "updated_at": "2026-11-10T17:31:43.080455+00:00",
  "sources": [
   {
-   "url": "https://www.businesstoday.in/trending/box-office/story/ramayana-box-office-collection-day-3-ranbir-kapoor-yash-starrer-epic-film-sails-nears-rs200-crore-in-india-566351-2026-11-08",
-   "fact": "Citing Sacnilk, Ramayana had earned ₹182.70 crore net in India after three days, helped by Diwali weekend footfall across languages. The page has no data on other films or family booking.",
-   "excerpt": "collecting ₹69.80 crore net in India on Day 3; three-day India net total is ₹182.70 crore, and the India gross is ₹218.25 crore; 23,696 shows on Saturday, with 41.3% overall occupancy; Diwali weekend boosted footfalls across languages.",
-   "date": "2026-11-08"
+   "url": "https://www.sacnilk.com/news/ramayana-4-day-pre-diwali-weekend-prediction-will-it-beat-trades-240-cr-estimate",
+   "fact": "Sacnilk says family routines around Diwali (preparations, shopping, travel, Lakshmi Puja) shape cinema attendance, and that family audiences return to cinemas once the main celebrations end. This supports the festival-audience-as-family point, but it is not direct evidence of group film-picking and does not address other films losing screens.",
+   "excerpt": "when family preparations, shopping and travel traditionally affect cinema attendance\n\n\"Sunday's Lakshmi Puja celebrations may restrict evening and night shows.\"\n\n\"when the main Diwali celebrations are over, and family audiences begin returning to cinemas.\"\n\n\"The film opened across approximately 25,200 shows with an overall occupancy of 36%\"",
+   "date": "2026-11-06"
   },
   {
-   "url": "https://www.sacnilk.com/news/ramayana-day-1-box-office-breaks-pre-diwali-opening-record-and-beats-adipurush-in-hindi-but-trails-in-overall-india-collections",
-   "fact": "Sacnilk put Ramayana's opening-day India net at ₹64.85 crore, a pre-Diwali opening record. The page does not mention Jailer 2, AK 47 or family audiences.",
-   "excerpt": "collected ₹64.85 crore India net and ₹77.50 crore India gross on Thursday, November 5; across approximately 25,200 tracked shows",
-   "date": "2026-11-06"
+   "fact": "Ramayana earned ₹56.15 crore India net across 21,719 shows on its fourth day (Diwali Sunday), per Sacnilk, but the page does not report the ₹174 crore or ₹252.75 crore figures. It also lists Ramayana at ₹174 crore, 12th on an all-time list, so it does not confirm the claimed 'lopsided' chart or screen losses for Jailer 2 and AK 47.",
+   "url": "https://www.theweek.in/news/entertainment/2026/11/08/ramayana-day-four-box-office-collection-500-crore.html",
+   "excerpt": "\"collecting ₹56.15 crore in India net earnings across 21,719 shows on day four, as per box office tracker Sacnilk.\"\n\n\"The Hindi screenings ruled the roost, contributing ₹36.75 crore across 17,714 shows.\"\n\nRamayana was ranked 12th, with ₹174 crore, \"below Drishyam 3: The Conclusion with ₹176.50 crore.\"",
+   "date": "2026-11-08"
   }
  ],
- "draft": {
-  "cover": {
-   "headline": "A Diwali hit is the film the [whole family agreed on]",
-   "sub": "Your pick lost before anyone booked a single ticket."
-  },
-  "slides": [
-   {
-    "paragraphs": [
-     "A Diwali hit isn't the best film. It's the one the whole family could agree on.\nSwipe to read →"
-    ],
-    "why_swipe": "If it's not the best film, how does it win?"
-   },
-   {
-    "paragraphs": [
-     "You had your own pick. Then the family WhatsApp group made the plan, and it had one name on it.",
-     "Your film became \"baad mein OTT pe dekh lenge.\""
-    ],
-    "why_swipe": "Why does the group always land on that one film?"
-   },
-   {
-    "paragraphs": [
-     "The group chat counts seats. Dadi has one condition: \"koi maar-dhaad toh nahi hai na?\" The kids veto anything \"serious.\"",
-     "Your pick is the first to go. Then someone types \"sab ko chalega?\" and one name is left."
-    ],
-    "why_swipe": "And what do the theatres do with a row like that?"
-   },
-   {
-    "paragraphs": [
-     "A hall earns from full seats, so its shows follow the crowd. The film families filled on Friday gets Saturday's shows.",
-     "Open the booking app on Saturday morning, and the show you wanted is often gone."
-    ],
-    "why_swipe": "Did that actually happen this weekend?"
-   },
-   {
-    "paragraphs": [
-     "This Diwali weekend, Ramayana took 69% of what the top five films made. Jailer 2 and AK 47 slipped mainly because they lost screens.",
-     "The hit looks even bigger."
-    ],
-    "why_swipe": "So where were you in all this?"
-   },
-   {
-    "paragraphs": [
-     "And you said \"chalo, theek hai.\"",
-     "That one line put you in a seat, in a full hall that kept its shows. You helped build the hit.",
-     "You just didn't pick it."
-    ],
-    "why_swipe": "So what does the chart actually count?"
-   },
-   {
-    "paragraphs": [
-     "Next festival, ask your row who picked the film first.",
-     "The chart doesn't count what anyone wanted. It counts what a whole row could sit through."
-    ]
-   }
-  ],
-  "end": {
-   "save": "Read it again when the next festival box office numbers come out.",
-   "send": "Send to the friend who always ends up watching whatever the family picks.",
-   "promise": "How Indian choices really get made."
-  },
-  "caption": "Most of us helped make this Diwali's biggest hit without ever picking it.",
-  "hashtags": [
-   "#DiwaliBoxOffice",
-   "#RamayanaMovie",
-   "#IndianCinema",
-   "#BoxOfficeIndia"
-  ],
-  "alt_text": "A text carousel of seven slides arguing that a Diwali box office hit is the film a whole family can agree on, not necessarily the best one. The family WhatsApp group makes the plan and the reader's pick becomes a 'later on OTT' plan. In the group chat, seats get counted, the grandmother asks if there's any violence, the kids veto anything serious, the reader's pick goes first, and someone asks 'will it work for everyone?'. Halls earn from full seats, so shows follow the crowd, and on Saturday morning the show you wanted is often gone. It cites Sacnilk: Ramayana took 69% of the top five films' Diwali weekend total, and Jailer 2 and AK 47 slipped mainly because they lost screens. The reader said 'okay, fine', helped build the hit, but didn't pick it. It ends by suggesting the reader ask their row who picked the film first, because the chart counts what a whole row could sit through, not what anyone wanted.",
-  "claims": [
-   {
-    "text": "Ramayana took 69% of the top five films' net collections over the Diwali weekend.",
-    "source_url": "https://www.sacnilk.com/news/top-5-indian-box-office-weekend-november-6-8-collections-cross-250-crore-net-as-ramayana-leads-with-69-share"
-   },
-   {
-    "text": "Jailer 2 and AK 47 slipped mainly because they lost screens.",
-    "source_url": "https://www.sacnilk.com/news/top-5-indian-box-office-weekend-november-6-8-collections-cross-250-crore-net-as-ramayana-leads-with-69-share"
-   }
-  ]
- }
+ "error": "Claude call failed after 3 attempts in write: You've hit your 5-hour limit · resets 6:10pm (UTC)"
 }
