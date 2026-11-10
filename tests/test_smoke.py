@@ -168,3 +168,23 @@ def test_scorecard_rows_and_per_thousand(tmp_path, monkeypatch):
     scorecard.write(rows)
     assert scorecard.per_k(scorecard.read()[0], "shares") == 15.0
     assert "1 of 1 posts have numbers" in scorecard.summary()
+
+
+def test_cancelled_posts_come_out_of_buffer(tmp_path, monkeypatch):
+    from engine import buffer
+    monkeypatch.setattr(config, "STATE", tmp_path / "state")
+    removed = []
+    monkeypatch.setattr(buffer, "unschedule", lambda bid: removed.append(bid))
+    state.save_post({"id": "2099-11-01", "status": "cancelled", "buffer_post_id": "abc", "topic": {"claim": "x"}})
+    state.save_post({"id": "2099-11-02", "status": "scheduled", "buffer_post_id": "keep", "topic": {"claim": "y"}})
+    cli.unschedule_cancelled()
+    assert removed == ["abc"]
+    post = state.read("posts", "2099-11-01.json")
+    assert "buffer_post_id" not in post and post["deleted_buffer_ids"] == ["abc"]
+    def refuse(bid):
+        raise RuntimeError("Buffer refused the delete: nope")
+    monkeypatch.setattr(buffer, "unschedule", refuse)
+    state.save_post({"id": "2099-11-03", "status": "cancelled", "buffer_post_id": "def", "topic": {"claim": "z"}})
+    cli.unschedule_cancelled()
+    kept = state.read("posts", "2099-11-03.json")
+    assert kept["buffer_post_id"] == "def" and "refused" in kept["unschedule_error"]  # tried again next run

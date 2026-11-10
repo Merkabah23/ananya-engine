@@ -50,12 +50,14 @@ CAROUSEL_SCHEDULING = os.getenv("CAROUSEL_SCHEDULING", "automatic")  # carousels
 PUSH_DAYS = 7  # posts go to Buffer a week ahead: 3-4 posts, well under Buffer's 10-post queue
 SPARE_TOPICS = 5  # extra approved topics per month, used when a draft fails
 
-TERRITORY_MIX = {  # roughly the reference creator's spread of subjects
-    "business_brands": 0.25,     # brands, ads, marketing, D2C, startups, business stories
-    "creators_internet": 0.20,   # Instagram, creators, reels, apps, AI, online culture
-    "money_status": 0.20,        # how people spend, prices, status, salaries
-    "pop_culture": 0.15,         # films, OTT, celebrities, cricket, music
-    "life_relationships": 0.20,  # family, dating, friendship, work, cities, growing up
+TERRITORY_MIX = {  # owner, 10 Nov 2026: widen to world news, geopolitics, trending things, sports, consumer behaviour, startups
+    "business_brands": 0.20,     # brands, ads, marketing, D2C, startups, funding, IPOs, shutdowns, business stories
+    "money_status": 0.20,        # consumer behaviour: how people spend, prices, status, salaries, what we buy and why
+    "world_geopolitics": 0.15,   # world news and geopolitics as they land in Indian lives: prices, jobs, visas, travel
+    "life_relationships": 0.15,  # family, dating, friendship, work, cities, growing up
+    "sports": 0.10,              # cricket, football, chess, the Olympics, fandom, the business of sport
+    "pop_culture": 0.10,         # films, OTT, music, celebrities, what's trending this week
+    "creators_internet": 0.10,   # Instagram, creators, apps, AI, online culture, viral moments
 }
 
 # Gates

@@ -155,7 +155,24 @@ def sample(n: int, topics_file: str | None) -> None:
         print("   saved:", dest)
 
 
+def unschedule_cancelled() -> None:
+    """Cancelled posts that are still queued in Buffer come out of the queue (owner, 10 Nov: no manual Buffer work)."""
+    for post in state.posts("cancelled"):
+        if not post.get("buffer_post_id"):
+            continue
+        try:
+            buffer.unschedule(post["buffer_post_id"])
+            post["deleted_buffer_ids"] = post.get("deleted_buffer_ids", []) + [post.pop("buffer_post_id")]
+            post.pop("unschedule_error", None)
+            state.log("push", f"{post['id']} removed from Buffer (cancelled)")
+        except Exception as e:  # noqa: BLE001 - keep the id and the reason; the next run tries again
+            post["unschedule_error"] = str(e)[:900]
+            state.log("push", f"{post['id']} could not be removed from Buffer: {str(e)[:300]}")
+        state.save_post(post)
+
+
 def push(days: int = config.PUSH_DAYS) -> None:
+    unschedule_cancelled()
     now = datetime.now(timezone.utc)
     horizon = now + timedelta(days=days)
     for post in state.posts("uploaded"):

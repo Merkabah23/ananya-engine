@@ -39,7 +39,7 @@ Return only JSON: {"topics": [ ... ]} where each topic is
   "behaviour": "what people or companies actually do, concretely",
   "mechanism": "the because, in one plain sentence",
   "group": "who the reader is",
-  "territory": one of ["business_brands","creators_internet","money_status","pop_culture","life_relationships"],
+  "territory": one of ["business_brands","money_status","world_geopolitics","life_relationships","sports","pop_culture","creators_internet"],
   "mood": one of ["sharp","funny","rant","mixed","dark_pattern","warm","prediction"],
   "format_name": one of ["price_tells","behind_the_brand","family_ledger","feed_anthropology","saturday_single"],
   "send_to": "who a reader would send this to, and why, in one line",

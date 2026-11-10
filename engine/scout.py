@@ -77,9 +77,14 @@ def tired_tropes() -> str:
 
 NEWS_THEMES = {
     "brands": "how brands launched, priced, advertised and sold things to Indians, campaigns people argued about, fees and pricing changes people noticed",
+    "startups": "Indian startups and business: funding rounds, IPOs, shutdowns, layoffs, founders in the news, quick commerce and D2C fights, business moves people talked about",
+    "consumers": "consumer behaviour in India: what people are buying, skipping, switching to or queueing for, and the surveys and sales numbers behind it",
+    "world": "world news and geopolitics that changed something for ordinary Indians: oil and fuel prices, tariffs and trade, visas and jobs abroad, the rupee, global companies, travel; how it lands in Indian lives, never party politics",
+    "sports": "sport Indians followed and argued about: cricket, football, chess, the Olympics and other events, fandom, the money and business of sport",
+    "trending": "what was trending in India this week: the moments, phrases, products and debates everyone was talking about online and offline",
     "work": "office life and how companies treat people: appraisals, layoffs, return to office, hiring, policies, AI at work",
     "internet": "what people did and argued about online: creators, Instagram and app changes, viral moments, how people behave on the internet",
-    "screen": "films, OTT shows, music and cricket people were watching and arguing about, what worked and what flopped",
+    "screen": "films, OTT shows and music people were watching and arguing about, what worked and what flopped",
     "society": "money, status, cities, dating and friendship, everyday behaviour and new rules that change daily life",
 }
 
@@ -90,7 +95,7 @@ def _fetch_news() -> list[dict]:
         ask = (f"Search the web for what happened in India in the last 30 days in this area: {NEWS_THEMES[theme]}. "
                "Focus on what ordinary working Indians actually noticed, talked about or felt. Open each page with WebFetch "
                "and take the date from the page itself, never from memory. Skip anything older than 30 days, party "
-               "politics, crime and disasters. Find 12 distinct items, each with its source.\n\n"
+               "politics, crime and disasters. Find 8 distinct items, each with its source.\n\n"
                'Return only JSON: {"items": [{"source": "news", "title": "...", "date": "YYYY-MM-DD as printed on the page", '
                '"url": "...", "body": "3-5 sentences: what happened, any key number exactly as the page states it, and what people '
                'are saying about it"}]}')

@@ -223,7 +223,7 @@ def test_office_takes_are_spaced_out():
     office = [{"id": f"o{i}", "territory": t, "title": "appraisal season", "score": {"format_fit": "carousel"}}
               for i, t in enumerate(["money_status", "business_brands"] * 3)]
     other = [{"id": f"x{i}", "territory": t, "title": "trip photos", "score": {"format_fit": "carousel"}}
-             for i, t in enumerate(["creators_internet", "pop_culture", "life_relationships"] * 3)]
+             for i, t in enumerate(["creators_internet", "pop_culture", "life_relationships", "world_geopolitics", "sports"] * 3)]
     slots = topic_filter.slots_for_month("2026-11")[:9]
     plan = [p for p in topic_filter._assign(office + other, slots) if p["due"]]
     flags = [topic_filter._is_office(p["topic"]) for p in plan]

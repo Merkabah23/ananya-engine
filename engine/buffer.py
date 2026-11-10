@@ -105,6 +105,34 @@ def _reel_asset(post: dict, image_urls: list[str]) -> dict:
     return {"video": {"url": post["video_url"], "metadata": {"thumbnailOffset": 1000}}}
 
 
+DELETE = """
+mutation DeletePost($input: DeletePostInput!) {
+  deletePost(input: $input) {
+    __typename
+    ... on MutationError { message }
+  }
+}"""
+MUTATIONS = "query { __schema { mutationType { fields { name } } } }"
+
+
+def unschedule(buffer_id: str) -> None:
+    """Remove a queued post from Buffer. If the API refuses the call shape, the error names the delete-like mutations
+    Buffer does offer, so the next fix is one line."""
+    if config.DRY_RUN:
+        return
+    try:
+        out = _gql(DELETE, {"input": {"id": buffer_id}})["deletePost"]
+    except RuntimeError as e:
+        try:
+            names = [f["name"] for f in _gql(MUTATIONS)["__schema"]["mutationType"]["fields"]]
+            hint = [n for n in names if re.search(r"delete|remove|cancel|trash", n, re.I)]
+        except Exception:  # noqa: BLE001 - introspection is only a hint
+            hint = []
+        raise RuntimeError(f"{e} | delete-like mutations Buffer offers: {hint}") from e
+    if out.get("__typename") == "MutationError":
+        raise RuntimeError(f"Buffer refused the delete: {out.get('message')}")
+
+
 def schedule(post: dict) -> str:
     if config.DRY_RUN:
         return "dry-run"
