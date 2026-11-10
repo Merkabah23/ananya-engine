@@ -1,6 +1,6 @@
 {
  "id": "2026-11-125",
- "status": "approved",
+ "status": "scheduled",
  "due": "2026-11-12T20:30:00+05:30",
  "format": "carousel",
  "history": [
@@ -162,7 +162,7 @@
    }
   ]
  },
- "updated_at": "2026-11-10T15:59:34.900762+00:00",
+ "updated_at": "2026-11-10T16:08:15.883917+00:00",
  "owner_ok": true,
  "old_carousel_buffer_id": "6aedc172c60945d644993d23",
  "deleted_buffer_ids": [
@@ -171,5 +171,199 @@
   "6af17f857522f65ac0cd451f",
   "6af1ac4a56a4abd5c291c077",
   "6af1d15498f733215157c135"
- ]
+ ],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] Your best friend didn't leave when they moved abroad.\nThe friendship just got visiting hours.\n \n\n[slide 1] Your best friend didn't leave when they moved abroad.\nThe friendship just got visiting hours.\n\n[slide 2] The first year, nothing changes. Video calls on Sunday, voice notes at 2 AM their time, \"bas yaar, tu bata.\"\nThen the time zone starts winning.\n\n[slide 3] Your good news reaches them while they're asleep. Their bad news reaches you a day late, already handled.\nYou stop being in each other's day. You become each other's update.\n\n[slide 4] Indians abroad send home about $135 billion a year, and every bank and app fights for that money every month.\nWhat the friendships pay never shows up anywhere.\n\n[slide 5] They pay in calls moved to \"next weekend.\" In birthdays wished a day late. In a wedding watched on a livestream, sound off, in a meeting.\n\n[slide 6] Then December comes, and they're home for three weeks. Parents get the mornings. Relatives get the evenings. In-laws get a weekend.\nYou get one dinner, and you take it.\n\n[slide 7] At that dinner you notice it. The jokes still land, but you're talking about the past, not the plan.\nThe friendship isn't gone. It stopped growing.\n\n[slide 8] Nobody did anything wrong. They went where the salary was. You stayed where the parents are.\nBoth of you call it the right decision, and both of you are right.\n\n[slide 9] The friendships that survive a time zone aren't the ones with the longest calls.\nThey're the ones where someone calls on a random Tuesday with nothing to say.\n\n[slide 10] The money comes home every month.\nYour friend comes home once a year.\n\n[end card] \n\n\n[caption] The money comes home every month. Your friend comes home once a year. Who's yours?\n\n[alt text] A text post about friends who moved abroad.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Indians living abroad send home about $135 billion a year in remittances.",
+     "sentence": "Indians abroad send home about $135 billion a year",
+     "type": "figure",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "Banks and money-transfer apps compete actively with each other for Indian remittance business every month.",
+     "sentence": "every bank and app fights for that money every month.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "Indians living abroad send home about $135 billion a year in remittances.": {
+   "id": "c1",
+   "verdict": "supported",
+   "event_date": "2025-07-01",
+   "correct": "Remittances to India were a record $135.46 billion in FY2024-25 (RBI data), up 14%. The claim's $135 billion is correct for that year. The figure is not yet checked against any FY26 release.",
+   "sources": [
+    {
+     "url": "https://www.newsonair.gov.in/remittances-by-indians-working-abroad-scale-record-high-of-135-billion-in-fy25/",
+     "publisher": "All India Radio (News on AIR)",
+     "published_date": "2025-07-01",
+     "quote": "registered a 14 per cent rise in the financial year 2024-25 to a record 135.46 billion dollars",
+     "tier": 2
+    }
+   ]
+  },
+  "Banks and money-transfer apps compete actively with each other for Indian remittance business every month.": {
+   "id": "c2",
+   "verdict": "supported",
+   "correct": "The RBI survey of authorised dealer banks, money transfer operators and fintechs says money transfer operators have a cost edge over banks for cash-based low-value transfers, and digital remittances cost less than the average. This shows banks, MTOs and fintech apps compete in the market. 'Every month' is rhetorical and not checkable.",
+   "sources": [
+    {
+     "url": "https://rbi.org.in/scripts/BS_ViewBulletin.aspx?Id=17882",
+     "publisher": "Reserve Bank of India (RBI Bulletin, 'Globalising People: India's Inward Remittances')",
+     "published_date": "2025-01-01",
+     "quote": "money transfer operators maintain an edge over banks in terms of cost for cash-based low value transactions",
+     "tier": 1
+    }
+   ]
+  },
+  "_by_text": {
+   "ca31f2438803955e54561fe42bbdc71f3841a473": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Indians living abroad send home about $135 billion a year in remittances.",
+      "sentence": "Indians abroad send home about $135 billion a year",
+      "type": "figure",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Banks and money-transfer apps compete actively with each other for Indian remittance business every month.",
+      "sentence": "every bank and app fights for that money every month.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2025-07-01",
+      "correct": "Remittances to India were a record $135.46 billion in FY2024-25 (RBI data), up 14%. The claim's $135 billion is correct for that year. The figure is not yet checked against any FY26 release.",
+      "sources": [
+       {
+        "url": "https://www.newsonair.gov.in/remittances-by-indians-working-abroad-scale-record-high-of-135-billion-in-fy25/",
+        "publisher": "All India Radio (News on AIR)",
+        "published_date": "2025-07-01",
+        "quote": "registered a 14 per cent rise in the financial year 2024-25 to a record 135.46 billion dollars",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "correct": "The RBI survey of authorised dealer banks, money transfer operators and fintechs says money transfer operators have a cost edge over banks for cash-based low-value transfers, and digital remittances cost less than the average. This shows banks, MTOs and fintech apps compete in the market. 'Every month' is rhetorical and not checkable.",
+      "sources": [
+       {
+        "url": "https://rbi.org.in/scripts/BS_ViewBulletin.aspx?Id=17882",
+        "publisher": "Reserve Bank of India (RBI Bulletin, 'Globalising People: India's Inward Remittances')",
+        "published_date": "2025-01-01",
+        "quote": "money transfer operators maintain an edge over banks in terms of cost for cash-based low value transactions",
+        "tier": 1
+       }
+      ]
+     }
+    },
+    "mechanism": null,
+    "text_hash": "ca31f2438803955e54561fe42bbdc71f3841a473",
+    "at": "2026-11-10T16:01:46.196024+00:00"
+   }
+  }
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Indians living abroad send home about $135 billion a year in remittances.",
+    "sentence": "Indians abroad send home about $135 billion a year",
+    "type": "figure",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "Banks and money-transfer apps compete actively with each other for Indian remittance business every month.",
+    "sentence": "every bank and app fights for that money every month.",
+    "type": "feature",
+    "core": false,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c1": {
+    "id": "c1",
+    "verdict": "supported",
+    "event_date": "2025-07-01",
+    "correct": "Remittances to India were a record $135.46 billion in FY2024-25 (RBI data), up 14%. The claim's $135 billion is correct for that year. The figure is not yet checked against any FY26 release.",
+    "sources": [
+     {
+      "url": "https://www.newsonair.gov.in/remittances-by-indians-working-abroad-scale-record-high-of-135-billion-in-fy25/",
+      "publisher": "All India Radio (News on AIR)",
+      "published_date": "2025-07-01",
+      "quote": "registered a 14 per cent rise in the financial year 2024-25 to a record 135.46 billion dollars",
+      "tier": 2
+     }
+    ]
+   },
+   "c2": {
+    "id": "c2",
+    "verdict": "supported",
+    "correct": "The RBI survey of authorised dealer banks, money transfer operators and fintechs says money transfer operators have a cost edge over banks for cash-based low-value transfers, and digital remittances cost less than the average. This shows banks, MTOs and fintech apps compete in the market. 'Every month' is rhetorical and not checkable.",
+    "sources": [
+     {
+      "url": "https://rbi.org.in/scripts/BS_ViewBulletin.aspx?Id=17882",
+      "publisher": "Reserve Bank of India (RBI Bulletin, 'Globalising People: India's Inward Remittances')",
+      "published_date": "2025-01-01",
+      "quote": "money transfer operators maintain an edge over banks in terms of cost for cash-based low value transactions",
+      "tier": 1
+     }
+    ]
+   }
+  },
+  "mechanism": null,
+  "text_hash": "ca31f2438803955e54561fe42bbdc71f3841a473",
+  "at": "2026-11-10T16:01:46.196024+00:00"
+ },
+ "alt_texts": [
+  "Your best friend didn't leave when they moved abroad. The friendship just got visiting hours.",
+  "The first year, nothing changes. Video calls on Sunday, voice notes at 2 AM their time, \"bas yaar, tu bata.\" Then the time zone starts winning.",
+  "Your good news reaches them while they're asleep. Their bad news reaches you a day late, already handled. You stop being in each other's day. You become each other's update.",
+  "Indians abroad send home about $135 billion a year, and every bank and app fights for that money every month. What the friendships pay never shows up anywhere.",
+  "They pay in calls moved to \"next weekend.\" In birthdays wished a day late. In a wedding watched on a livestream, sound off, in a meeting.",
+  "Then December comes, and they're home for three weeks. Parents get the mornings. Relatives get the evenings. In-laws get a weekend. You get one dinner, and you take it.",
+  "At that dinner you notice it. The jokes still land, but you're talking about the past, not the plan. The friendship isn't gone. It stopped growing.",
+  "Nobody did anything wrong. They went where the salary was. You stayed where the parents are. Both of you call it the right decision, and both of you are right.",
+  "The friendships that survive a time zone aren't the ones with the longest calls. They're the ones where someone calls on a random Tuesday with nothing to say.",
+  "The money comes home every month. Your friend comes home once a year."
+ ],
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-125/slide_01.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-125/slide_02.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-125/slide_03.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-125/slide_04.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-125/slide_05.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-125/slide_06.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-125/slide_07.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-125/slide_08.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-125/slide_09.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-125/slide_10.jpg"
+ ],
+ "buffer_attempted_at": "2026-11-10T16:08:14.789846+00:00",
+ "buffer_post_id": "6af3416fa9f33a390a4d0d04"
 }

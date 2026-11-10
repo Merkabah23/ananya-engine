@@ -1,6 +1,6 @@
 {
  "id": "2026-11-140",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-20T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -43,6 +43,326 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-11-10T15:59:34.906046+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 8 is a dead slide. \"In March, a policy is a receipt for HR, and buying one genuinely feels like the responsible thing\" restates the hook, slide 2 (\"It saved tax\") and slide 3 (the HR portal PDF). \"It's not carelessness\" only defends the reader against a charge nobody made. The only new beat is the billing-desk image, and that can move up.",
+     "Slide 2 mostly repeats the cover and slide 1. \"The policy did exactly what we bought it for. It saved tax\" says the same thing in new words. It gives the reader no new reason to swipe."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 3,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "Slide 8: cut it, or turn it into the feeling the post lacks. Keep only the billing desk with a relative holding the file, and put that image on slide 7 or in the close. The reader should feel the gap between 'I did the responsible thing' and 'I'm standing here exposed'. The post currently explains the mistake without making the reader feel it.",
+     "Slide 2: stop re-saying the hook. Use the slot for the first concrete beat, or merge it into slide 3. Slide 3 already shows the March scene well. The 'brief' line is good, so keep it there.",
+     "Slide 6: \"This is how a cheap policy stays cheap\" and \"caps like this are what let the lowest price exist\" are stated as fact, but no source backs them. Say it straight but narrower, for example \"one way a policy stays cheap is a cap like this\". Also name the tax rule for the insider feel, for example the 80D deduction, instead of just \"the tax form\", and name what the sort-by-premium row hides. That would add the one insider detail the post is missing.",
+     "Slide 7: \"So even the people who read the fine print got cut\" goes past the source. IRDAI said insurers deducted amounts beyond policy terms. It did not say the buyers had read their policies. Reword to what the source supports: some of the cuts were not even allowed by the policy. This also lightens the clash with the close, where reading the 'room' line is the fix.",
+     "Slide 9: \"That one line decides your next hospital bill. The ₹10 lakh on the cover doesn't\" overclaims, because room rent is one factor among many. Make it sharper and more accurate, for example that the room line can quietly shrink the ₹10 lakh when you need it. Also add one sensory detail on slide 4, such as the corridor, the file or the billing-desk queue, so the insider scene goes beyond sight."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Slide 8 is a dead slide. \"In March, a policy is a receipt for HR, and buying one genuinely feels like the responsible thing\" restates the hook, slide 2 (\"It saved tax\") and slide 3 (the HR portal PDF). \"It's not carelessness\" only defends the reader against a charge nobody made. The only new beat is the billing-desk image, and that can move up.",
+    "Slide 2 mostly repeats the cover and slide 1. \"The policy did exactly what we bought it for. It saved tax\" says the same thing in new words. It gives the reader no new reason to swipe.",
+    "Slide 8: cut it, or turn it into the feeling the post lacks. Keep only the billing desk with a relative holding the file, and put that image on slide 7 or in the close. The reader should feel the gap between 'I did the responsible thing' and 'I'm standing here exposed'. The post currently explains the mistake without making the reader feel it.",
+    "Slide 2: stop re-saying the hook. Use the slot for the first concrete beat, or merge it into slide 3. Slide 3 already shows the March scene well. The 'brief' line is good, so keep it there.",
+    "Slide 6: \"This is how a cheap policy stays cheap\" and \"caps like this are what let the lowest price exist\" are stated as fact, but no source backs them. Say it straight but narrower, for example \"one way a policy stays cheap is a cap like this\". Also name the tax rule for the insider feel, for example the 80D deduction, instead of just \"the tax form\", and name what the sort-by-premium row hides. That would add the one insider detail the post is missing.",
+    "Slide 7: \"So even the people who read the fine print got cut\" goes past the source. IRDAI said insurers deducted amounts beyond policy terms. It did not say the buyers had read their policies. Reword to what the source supports: some of the cuts were not even allowed by the policy. This also lightens the clash with the close, where reading the 'room' line is the fix.",
+    "Slide 9: \"That one line decides your next hospital bill. The ₹10 lakh on the cover doesn't\" overclaims, because room rent is one factor among many. Make it sharper and more accurate, for example that the room line can quietly shrink the ₹10 lakh when you need it. Also add one sensory detail on slide 4, such as the corridor, the file or the billing-desk queue, so the insider scene goes beyond sight."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 7: \"One way a policy stays cheap is a cap like this. The premium is on the first screen. The cap is in the wording.\" The topic's because (caps keep cheap policies cheap) is stated as a general mechanism, but the sources only say proportionate deduction exists in some policies. Nothing sourced says caps are how cheap policies get cheap. It is a mechanism stated as fact without support (hard failure 12).",
+     "Slide 8: \"Anyone who has worked in sales knows the top row of a comparison table is cheap for a reason.\" This is a vague insider claim with no content, so it is a dead slide (hard failure 7). It also asserts a hidden motive that is not shown.",
+     "Slide 9: \"So some of those cuts weren't in the policy.\" This stretches the IRDAI finding. The source says some insurers deducted amounts not admissible, which is fair, but the slide frames it as a rebuttal to the reader's own blame while the post has just argued the cap is in the wording. The two ideas are never reconciled, so the turn blurs (hard failure 4/12).",
+     "Slide 2 and slide 3: the scene is relatable, but by slide 2 the post has not yet said it is about insurance room limits. Slide 2 only mentions an HR reminder and a comparison site. Slide 1 carries the topic, so this is minor, but the relatability rests on one scene (the HR email) and one hospital scene. Fewer than three exact examples every reader has seen (hard failure 14).",
+     "Slide 4 and slide 5: \"Say your policy caps room rent at ₹5,000 a day\" and \"Your father gets a ₹10,000 room, because that's the one available\" are fine as typical scenarios. But \"someone flips through the file. Only half of that room cost is eligible\" is shown only at the room level, and the vivid insider detail ends there."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 3,
+     "tight": 3,
+     "informative": 4
+    },
+    "notes": [
+     "slide 8: Delete or replace. \"Anyone who has worked in sales knows...\" is a credential wink with no content, and it asserts a motive the sources do not back. If you want the insider view, say plainly what the comparison table sorts by (premium) and what it hides (the cap), in one concrete line, with no claim about intent.",
+     "slide 7: Remove \"One way a policy stays cheap is a cap like this.\" The sources do not say that caps are how cheap policies get cheap. Keep the sourced part: Section 80D needs only a premium receipt, so nobody checks the room line. Then say the because as a fact you can show: the comparison site sorts by price, and the cap is not in the price.",
+     "slide 9: Make the IRDAI beat do one job. Either it says the cap was not the buyer's fault (some insurers cut beyond the policy terms), or it says the cap is in your wording. Right now it does both. Cut the \"Try arguing that...\" line or tie it to one clear point: even a clean policy can be cut, so you need the room line in hand on that day.",
+     "slide 6: Fold slides 4 to 6 into two slides. Slide 4 sets the cap, slide 5 shows the half-room cut, slide 6 repeats that the cover shrinks. \"So the cover shrinks exactly when the bill grows\" restates the cover idea. Keep one line that names the related charges (for example, which charges the Outlook piece names, only if the source contains it) or cut it.",
+     "slide 3: Add one more everyday scene that every reader has seen, such as the family WhatsApp forward of the policy PDF, or the agent's call in March. This gives a third example and a sensory detail beyond sight (a sound or a touch) where the hospital corridor or billing desk appears."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Slide 7: \"One way a policy stays cheap is a cap like this. The premium is on the first screen. The cap is in the wording.\" The topic's because (caps keep cheap policies cheap) is stated as a general mechanism, but the sources only say proportionate deduction exists in some policies. Nothing sourced says caps are how cheap policies get cheap. It is a mechanism stated as fact without support (hard failure 12).",
+    "Slide 8: \"Anyone who has worked in sales knows the top row of a comparison table is cheap for a reason.\" This is a vague insider claim with no content, so it is a dead slide (hard failure 7). It also asserts a hidden motive that is not shown.",
+    "Slide 9: \"So some of those cuts weren't in the policy.\" This stretches the IRDAI finding. The source says some insurers deducted amounts not admissible, which is fair, but the slide frames it as a rebuttal to the reader's own blame while the post has just argued the cap is in the wording. The two ideas are never reconciled, so the turn blurs (hard failure 4/12).",
+    "Slide 2 and slide 3: the scene is relatable, but by slide 2 the post has not yet said it is about insurance room limits. Slide 2 only mentions an HR reminder and a comparison site. Slide 1 carries the topic, so this is minor, but the relatability rests on one scene (the HR email) and one hospital scene. Fewer than three exact examples every reader has seen (hard failure 14).",
+    "Slide 4 and slide 5: \"Say your policy caps room rent at ₹5,000 a day\" and \"Your father gets a ₹10,000 room, because that's the one available\" are fine as typical scenarios. But \"someone flips through the file. Only half of that room cost is eligible\" is shown only at the room level, and the vivid insider detail ends there.",
+    "slide 8: Delete or replace. \"Anyone who has worked in sales knows...\" is a credential wink with no content, and it asserts a motive the sources do not back. If you want the insider view, say plainly what the comparison table sorts by (premium) and what it hides (the cap), in one concrete line, with no claim about intent.",
+    "slide 7: Remove \"One way a policy stays cheap is a cap like this.\" The sources do not say that caps are how cheap policies get cheap. Keep the sourced part: Section 80D needs only a premium receipt, so nobody checks the room line. Then say the because as a fact you can show: the comparison site sorts by price, and the cap is not in the price.",
+    "slide 9: Make the IRDAI beat do one job. Either it says the cap was not the buyer's fault (some insurers cut beyond the policy terms), or it says the cap is in your wording. Right now it does both. Cut the \"Try arguing that...\" line or tie it to one clear point: even a clean policy can be cut, so you need the room line in hand on that day.",
+    "slide 6: Fold slides 4 to 6 into two slides. Slide 4 sets the cap, slide 5 shows the half-room cut, slide 6 repeats that the cover shrinks. \"So the cover shrinks exactly when the bill grows\" restates the cover idea. Keep one line that names the related charges (for example, which charges the Outlook piece names, only if the source contains it) or cut it.",
+    "slide 3: Add one more everyday scene that every reader has seen, such as the family WhatsApp forward of the policy PDF, or the agent's call in March. This gives a third example and a sensory detail beyond sight (a sound or a touch) where the hospital corridor or billing desk appears."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 4 is a dead slide: \"The PDF goes to the family WhatsApp group. Two thumbs up. Nobody opens it.\" Slide 3 already shows done-and-forgotten with \"ho gaya, tension mat lo\", and slide 4 restates it. \"Paying the hospital properly was never part of the brief\" also repeats the cover line in new words."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 3,
+     "tight": 3,
+     "informative": 4
+    },
+    "notes": [
+     "slides 2-4: Three slides of setup before the real turn at slide 5, and the why_swipe on slide 3 is generic. Merge them into two. Keep the HR email, the sort-by-premium click and the WhatsApp thumbs-up. Cut the repeated \"nobody reads it\" beat and the line \"Paying the hospital properly was never part of the brief\".",
+     "slide 7: The \"because\" is thin. The topic says cheap policies stay cheap through caps, and the post never says it plainly. Add one straight line that the low premium you sorted for is low partly because of limits like the room cap, so the cheapest policy is cheap for a reason. That is who gains, and it replaces the reader-blame \"is it our fault for not reading?\". Also don't re-explain 80D when slide 1 already said it.",
+     "slide 9: The close is a coaching instruction (\"Open your policy tonight\") and then says the line shrinks \"the ₹10 lakh on the cover\". The cover doesn't shrink; the claim payout does. Fix the wording. End on a sting the reader repeats, for example that the receipt is all the taxman ever asks to see and the room line is what the hospital asks to see. Keep the one-word test as a short tag, not the whole ending.",
+     "slide 5: The scene is the strongest in the post but only visual (the stapler). Add one sensory detail from the hospital desk or corridor, such as a sound or a smell, and one line on the family's reaction, to raise eq and story. Avoid inventing a specific event; keep it framed as typical.",
+     "slide 8: The pivot to IRDAI muddles the villain. Frame it as the system letting buyers down at both ends, not as a news fact. Say it in one plain line, \"even a policy you've read can get cut\", and cut the extra sentence so the slide doesn't read like a news recap."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "cut_slide": 4,
+   "review": {
+    "pass": false,
+    "violations": [
+     "No because (hard failure 5): the post never says why a cheap, tax-season policy is cheap, which is that the caps are what keep the premium low and the insurer gains from them. Slide 6 ('The room cap isn't in that number') only shows a sorting quirk. It never names the trade: low premium bought with limits that surface at claim time.",
+     "No payoff (hard failure 8): slide 8 ends on an instruction ('Open your policy tonight and search one word: room') plus a generic 'right when you need it most'. That reads as a do-this lecture with no line to repeat and no sting. 'Shrink the ₹10 lakh on the cover' is also slightly wrong, because the cap cuts the payout on a claim, not the sum insured."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 3,
+     "eq": 3,
+     "iq": 4,
+     "story": 3,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "slide 6: Add the missing because, using the topic's own mechanism. The list is sorted by premium and the deduction only needs a receipt, so the policy that wins is the one with the most limits tucked into the wording. Say the cap is part of why it's cheap, so the buyer pays less and the insurer pays less later. Name Section 80D here as the thing that rewards the receipt, not the cover.",
+     "slide 8: Replace the instruction and the generic closer with a line people repeat. Keep the 'room' search only as a one-sentence test, then end on a sting, for example that the premium was paid for the receipt and the cap decides the bill. Also fix 'shrink the ₹10 lakh on the cover': say the cap shrinks what the insurer pays on the bill, since the sum insured stays the same.",
+     "slides 2-3: These two both narrate the same 20-minute purchase, and slide 3's why_swipe is weak. Merge them into one tighter slide and let the 'ho gaya, tension mat lo' call home carry the guilt and relief. That frees room for the because beat and cuts the over-explaining.",
+     "slide 7: Cut 'So even a policy you've read can get cut. The room line is what you hold up at the billing desk.' It muddles the argument, because it undercuts the buyer-didn't-read point and repeats slide 4. Keep the IRDAI line as the 'it's not only your fault' beat and make it land as a feeling: you did the responsible thing and still got cut.",
+     "slide 4: Add one non-visual detail at the billing desk, such as the sound of the stapler or the cold corridor, so the scene feels lived in. Keep the ₹5,000 and ₹10,000 framed clearly as an example, which the 'Say your policy…' opening already does."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Slide 4 is a dead slide: \"The PDF goes to the family WhatsApp group. Two thumbs up. Nobody opens it.\" Slide 3 already shows done-and-forgotten with \"ho gaya, tension mat lo\", and slide 4 restates it. \"Paying the hospital properly was never part of the brief\" also repeats the cover line in new words.",
+    "slides 2-4: Three slides of setup before the real turn at slide 5, and the why_swipe on slide 3 is generic. Merge them into two. Keep the HR email, the sort-by-premium click and the WhatsApp thumbs-up. Cut the repeated \"nobody reads it\" beat and the line \"Paying the hospital properly was never part of the brief\".",
+    "slide 7: The \"because\" is thin. The topic says cheap policies stay cheap through caps, and the post never says it plainly. Add one straight line that the low premium you sorted for is low partly because of limits like the room cap, so the cheapest policy is cheap for a reason. That is who gains, and it replaces the reader-blame \"is it our fault for not reading?\". Also don't re-explain 80D when slide 1 already said it.",
+    "slide 9: The close is a coaching instruction (\"Open your policy tonight\") and then says the line shrinks \"the ₹10 lakh on the cover\". The cover doesn't shrink; the claim payout does. Fix the wording. End on a sting the reader repeats, for example that the receipt is all the taxman ever asks to see and the room line is what the hospital asks to see. Keep the one-word test as a short tag, not the whole ending.",
+    "slide 5: The scene is the strongest in the post but only visual (the stapler). Add one sensory detail from the hospital desk or corridor, such as a sound or a smell, and one line on the family's reaction, to raise eq and story. Avoid inventing a specific event; keep it framed as typical.",
+    "slide 8: The pivot to IRDAI muddles the villain. Frame it as the system letting buyers down at both ends, not as a news fact. Say it in one plain line, \"even a policy you've read can get cut\", and cut the extra sentence so the slide doesn't read like a news recap."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 9 (dead slide): \"For the taxman, the premium receipt is enough.\" This restates the cover's point (tax form vs hospital) in new words. The topic's real payoff, searching your policy for the word 'room' tonight, never appears, so there is no test to run."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 4,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 4,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "slide 9: Drop the cover echo. Close on the topic's payoff: open the policy tonight, search one word, 'room', because that line decides the next hospital bill. If the tax half stays, name it (Section 80D, where the premium receipt is all that counts) and keep it to a clause, not the whole slide.",
+     "slide 8: \"Here's the uglier part\" and \"lets you down at both ends\" are stock scaffolding and a mirrored pair. Say it plainly: reading the policy still may not save you, because IRDAI found some insurers limiting room rent beyond what the policy allowed. Keep the sourced wording exactly as it is.",
+     "slide 7: \"sorts by premium\" repeats slide 2. Fold the sorting into slide 2 and let this slide carry only the new beat: the cap is why the premium is low, and it sits pages deep in the wording. State it straight, with no \"partly\" and no \"for a reason\" proverb.",
+     "slides 4-5: Slide 4 is a single thin setup line. Merge it into slide 5 so the hospital scene lands in one slide, then spend the freed slot on the test or a human closer. Keep the phenyl smell and the mother's \"insurance toh hai na?\" line.",
+     "slide 2: Name the real thing readers see in that HR email, 80D proofs, so the insider detail is exact rather than \"investment proofs\". It also sets up the tax link that slide 9 needs."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Slide 9 (dead slide): \"For the taxman, the premium receipt is enough.\" This restates the cover's point (tax form vs hospital) in new words. The topic's real payoff, searching your policy for the word 'room' tonight, never appears, so there is no test to run.",
+    "slide 9: Drop the cover echo. Close on the topic's payoff: open the policy tonight, search one word, 'room', because that line decides the next hospital bill. If the tax half stays, name it (Section 80D, where the premium receipt is all that counts) and keep it to a clause, not the whole slide.",
+    "slide 8: \"Here's the uglier part\" and \"lets you down at both ends\" are stock scaffolding and a mirrored pair. Say it plainly: reading the policy still may not save you, because IRDAI found some insurers limiting room rent beyond what the policy allowed. Keep the sourced wording exactly as it is.",
+    "slide 7: \"sorts by premium\" repeats slide 2. Fold the sorting into slide 2 and let this slide carry only the new beat: the cap is why the premium is low, and it sits pages deep in the wording. State it straight, with no \"partly\" and no \"for a reason\" proverb.",
+    "slides 4-5: Slide 4 is a single thin setup line. Merge it into slide 5 so the hospital scene lands in one slide, then spend the freed slot on the test or a human closer. Keep the phenyl smell and the mother's \"insurance toh hai na?\" line.",
+    "slide 2: Name the real thing readers see in that HR email, 80D proofs, so the insider detail is exact rather than \"investment proofs\". It also sets up the tax link that slide 9 needs."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-10T16:08:14.771879+00:00",
+ "sources": [
+  {
+   "url": "https://a2ztaxcorp.net/?p=28108",
+   "fact": "Reporting on General Insurance Council data calls March typically a strong month for health insurers, and retail health premiums grew 19% to about ₹48,952 crore by February 2026. It does not say that salaried buyers pick plans on price alone or skip sub-limits.",
+   "excerpt": "Premiums are expected to rise further in March, typically a strong month for insurers. Health premiums for April 2025 to February 2026 reached ₹1.24 lakh crore, already above the ₹1.18 lakh crore for all of FY25. Retail health premiums rose 19% to ₹48,952.01 crore, helped by the GST exemption on individual policies effective September 22, 2025.",
+   "date": "2026-03-21"
+  },
+  {
+   "url": "https://www.outlookmoney.com/personal-finance/room-rent-limits-in-health-insurance-how-choosing-a-costlier-room-can-cut-your-entire-claim",
+   "fact": "If a policy caps room rent and the patient takes a costlier room, the insurer can pay less on the room and on related charges through proportionate deduction. This depends on the policy's terms and does not apply to every policy.",
+   "excerpt": "Some policies restrict the amount that can be claimed towards hospital room charges. In some policies, proportionate deductions can also apply to several related hospital expenses. Under the article's example, a Rs 5,000 limit against a Rs 10,000 room makes only half the room cost eligible. Where proportionate deduction applies, the insurer may similarly restrict certain associated expenses subject to the policy's terms.",
+   "date": "2026-08-13"
+  },
+  {
+   "url": "https://joinditto.in/articles/news/irdai-flags-lapses-in-health-insurance-claims/",
+   "fact": "IRDAI found that some insurers deducted amounts not admissible under policy terms, such as limiting room rent beyond those terms. This shows that room-rent disputes are not only a buyer's failure to read the policy.",
+   "excerpt": "IRDAI has pulled up eight major health insurers after finding serious lapses in how they handle claims. Even when claims were approved, some insurers were deducting amounts that were not admissible under the policy. For example, removing certain hospital charges or limiting room rent beyond policy terms. Essentially, policyholders weren't getting the full benefits they were entitled to.",
+   "date": "2025-07-14"
+  }
+ ],
+ "draft": {
+  "cover": {
+   "headline": "We buy health insurance for [the tax form], not the hospital.",
+   "sub": "Which is why the fine print shows up at the billing desk."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "We buy health insurance for the tax form, not the hospital.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "Why would a policy you paid for fail you?"
+   },
+   {
+    "paragraphs": [
+     "HR sends the reminder: submit your investment proofs by Friday. You open a comparison site, sort by premium, low to high. Cheapest first."
+    ],
+    "why_swipe": "How long does buying it actually take?"
+   },
+   {
+    "paragraphs": [
+     "Twenty minutes, one OTP, one PDF. If it's for your parents, the call home is \"ho gaya, tension mat lo.\"",
+     "The PDF goes to the family WhatsApp group. Two thumbs up."
+    ],
+    "why_swipe": "What's inside the PDF that got two thumbs up?"
+   },
+   {
+    "paragraphs": [
+     "Say your policy caps room rent at ₹5,000 a day. Your father gets a ₹10,000 room, the only one free."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "The desk smells of phenyl. A stapler clicks through the file. Only half that room cost is eligible.",
+     "Your mother asks, \"insurance toh hai na?\" Half a room. Same illness."
+    ],
+    "why_swipe": "Is it only the room that gets cut?"
+   },
+   {
+    "paragraphs": [
+     "But the cut doesn't always stay in the room. In some policies, several related charges on the bill can be reduced in the same proportion."
+    ],
+    "why_swipe": "So why did nobody catch this when buying?"
+   },
+   {
+    "paragraphs": [
+     "The comparison site sorts by premium. The room cap isn't in that number. It sits in the policy wording, a few pages in.",
+     "And the premium you sorted for is low partly because of limits like that cap. The cheapest policy is cheap for a reason."
+    ],
+    "why_swipe": "So is the fine print the only problem?"
+   },
+   {
+    "paragraphs": [
+     "Here's the uglier part. The system lets you down at both ends. The policy is sold fast, and the claim can be cut hard.",
+     "IRDAI found some insurers limiting room rent beyond what the policy allowed. So even a policy you've read can get cut."
+    ],
+    "why_swipe": "So who actually reads that line?"
+   },
+   {
+    "paragraphs": [
+     "For the taxman, the premium receipt is enough.",
+     "The hospital billing desk only cares about one word inside the policy: room."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Read it again before you renew, and before HR's tax proof email lands.",
+   "send": "Send to the sibling who bought your parents' insurance in a rush last March.",
+   "promise": "How Indian money really moves."
+  },
+  "caption": "When did you last open your health policy, and was it for HR or for a hospital?",
+  "hashtags": [
+   "#HealthInsuranceIndia",
+   "#RoomRentLimit",
+   "#TaxSavingIndia",
+   "#PersonalFinanceIndia"
+  ],
+  "alt_text": "An eight-slide text post arguing that many Indians buy health insurance in a hurry for the tax form, sorted by lowest premium and forwarded to the family WhatsApp group, and only discover room-rent caps at the hospital. In a typical scene at the hospital desk, a ₹5,000 room cap against a ₹10,000 room makes only half the room cost eligible, while a mother asks if there isn't insurance. It explains that some policies cut related charges in the same proportion, that the cheapest premium is low partly because of caps like this, and that IRDAI found some insurers limiting room rent beyond policy terms, so even a read policy can get cut. It ends by saying the taxman only needs the premium receipt, while the hospital billing desk cares about one word in the policy: room.",
+  "claims": [
+   {
+    "text": "If a policy caps room rent at ₹5,000 a day and the room costs ₹10,000, only half the room cost is eligible.",
+    "source_url": "https://www.outlookmoney.com/personal-finance/room-rent-limits-in-health-insurance-how-choosing-a-costlier-room-can-cut-your-entire-claim"
+   },
+   {
+    "text": "In some policies, proportionate deduction can also cut several related hospital charges.",
+    "source_url": "https://www.outlookmoney.com/personal-finance/room-rent-limits-in-health-insurance-how-choosing-a-costlier-room-can-cut-your-entire-claim"
+   },
+   {
+    "text": "IRDAI found some insurers limiting room rent beyond policy terms.",
+    "source_url": "https://joinditto.in/articles/news/irdai-flags-lapses-in-health-insurance-claims/"
+   },
+   {
+    "text": "For the tax deduction, the premium receipt is enough, regardless of what the policy covers.",
+    "source_url": "editor note (general Income Tax Act rule, not in the sources list)"
+   }
+  ]
+ }
 }

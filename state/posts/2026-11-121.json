@@ -1,6 +1,6 @@
 {
  "id": "2026-11-121",
- "status": "approved",
+ "status": "uploaded",
  "due": "2026-11-18T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -207,7 +207,7 @@
   }
  ],
  "sources": [],
- "updated_at": "2026-11-10T15:59:34.902425+00:00",
+ "updated_at": "2026-11-10T16:08:14.721818+00:00",
  "draft": {
   "cover": {
    "headline": "The eldest child fights every rule.",
@@ -288,5 +288,162 @@
  "deleted_buffer_ids": [
   "6af1ac4a3c5611da27a8bc19",
   "6af1d15249a9d0ada8da2261"
+ ],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] The eldest child fights every rule.\nThe youngest walks through the door that fight opened.\n \n\n[slide 1] The eldest child fights every rule.\nThe youngest walks through the door that fight opened.\n\n[slide 2] Your first phone came in class 11, after months of begging and a speech about studies.\nYour sibling had one in class 8. No speech. No conditions.\n\n[slide 3] Indian parents don't plan this. They just test every rule on the first child: curfew, college, friends, clothes.\nThe eldest is the trial run.\n\n[slide 4] And the trial run comes with a label. \"Ziddi.\" \"Answers back.\" \"Isse toh kuch kehna hi bekaar hai.\"\nYou lost almost every fight, but each one left the rule a little looser.\n\n[slide 5] By the time your sibling asked for the Goa trip, that argument had already happened. With you, years earlier.\nThey just collected the result.\n\n[slide 6] Parents don't mellow with age. They mellow with practice.\nAnd you were the practice.\n\n[slide 7] Look at the receipts. Your curfew: 8 PM, pushed to 9 over two years. Theirs: \"bas phone utha lena.\"\nYour college: the safe city nearby. Theirs: wherever they got in.\n\n[slide 8] The strange part is that everyone remembers it differently. Your parents still call you the difficult one. Your sibling believes mummy-papa were always chill.\n\n[slide 9] Your sibling isn't spoiled.\nThey just walked in after the door was already open.\n\n[slide 10] Every fight you lost, your sibling is still cashing in on.\n\n[end card] \n\n\n[caption] Parents don't mellow with age. They mellow with practice. Eldest or youngest?\n\n[alt text] A text post about eldest and younger siblings.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Indian parents test their rules on the first child, and each fight the eldest has loosens the rules, so younger siblings get more freedom (such as phones, curfews and travel) without having to fight for it.",
+     "sentence": "Indian parents don't plan this. They just test every rule on the first child: curfew, college, friends, clothes. The eldest is the trial run.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "Parents become more lenient because of practice with earlier children, not because they get older.",
+     "sentence": "Parents don't mellow with age. They mellow with practice.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "_skeptic": {
+   "041ae1c0908cdd48217be3e96d6b426e5318135b": {
+    "holds": true,
+    "broken_premise": "None. Both premises are generalizations about family life and parents' motives. They say nothing checkable about a product, price, fee, law, contract or market, so they aren't premises this check can fail. The research supports the pattern the post describes: parents are stricter with firstborns and get more relaxed with later children. It does point to an extra reason for this besides 'practice.' That is a difference in interpretation, not something the post gets wrong.",
+    "actual_mechanism": "Economists using large US surveys (the NLSY) find that rules and discipline get looser with each later-born child. For example, firstborns face more TV rules and more homework monitoring. One explanation is strategic: parents are tough on the oldest to show the younger children they are 'not a pushover,' and that pressure eases once fewer children are left to deter. So younger siblings do tend to get looser rules without fighting for them. The cause is partly parents' deterrence strategy and changing incentives, not only practice or the eldest's fights wearing the rules down. That evidence is from the US, not India.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.nbcnews.com/health/health-news/plight-older-sibling-flna1c9459443",
+      "published_date": "2008-05-05",
+      "quote": "Parents 'have an incentive to play tough with their kids, especially the older ones' ... [signalling] 'that they're not a pushover.'"
+     },
+     {
+      "url": "https://www.bustle.com/articles/7326-parents-are-tougher-on-first-children-just-as-we-suspected",
+      "published_date": "2013-10-21",
+      "quote": "school performance of children ... declines with birth order as does the stringency of their parents' disciplinary restrictions."
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "a037acd134f42531784b86564ae955472b5fffa2": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Indian parents test their rules on the first child, and each fight the eldest has loosens the rules, so younger siblings get more freedom (such as phones, curfews and travel) without having to fight for it.",
+      "sentence": "Indian parents don't plan this. They just test every rule on the first child: curfew, college, friends, clothes. The eldest is the trial run.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Parents become more lenient because of practice with earlier children, not because they get older.",
+      "sentence": "Parents don't mellow with age. They mellow with practice.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {},
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. Both premises are generalizations about family life and parents' motives. They say nothing checkable about a product, price, fee, law, contract or market, so they aren't premises this check can fail. The research supports the pattern the post describes: parents are stricter with firstborns and get more relaxed with later children. It does point to an extra reason for this besides 'practice.' That is a difference in interpretation, not something the post gets wrong.",
+     "actual_mechanism": "Economists using large US surveys (the NLSY) find that rules and discipline get looser with each later-born child. For example, firstborns face more TV rules and more homework monitoring. One explanation is strategic: parents are tough on the oldest to show the younger children they are 'not a pushover,' and that pressure eases once fewer children are left to deter. So younger siblings do tend to get looser rules without fighting for them. The cause is partly parents' deterrence strategy and changing incentives, not only practice or the eldest's fights wearing the rules down. That evidence is from the US, not India.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.nbcnews.com/health/health-news/plight-older-sibling-flna1c9459443",
+       "published_date": "2008-05-05",
+       "quote": "Parents 'have an incentive to play tough with their kids, especially the older ones' ... [signalling] 'that they're not a pushover.'"
+      },
+      {
+       "url": "https://www.bustle.com/articles/7326-parents-are-tougher-on-first-children-just-as-we-suspected",
+       "published_date": "2013-10-21",
+       "quote": "school performance of children ... declines with birth order as does the stringency of their parents' disciplinary restrictions."
+      }
+     ]
+    },
+    "text_hash": "a037acd134f42531784b86564ae955472b5fffa2",
+    "at": "2026-11-10T16:01:57.297258+00:00"
+   }
+  }
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Indian parents test their rules on the first child, and each fight the eldest has loosens the rules, so younger siblings get more freedom (such as phones, curfews and travel) without having to fight for it.",
+    "sentence": "Indian parents don't plan this. They just test every rule on the first child: curfew, college, friends, clothes. The eldest is the trial run.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "Parents become more lenient because of practice with earlier children, not because they get older.",
+    "sentence": "Parents don't mellow with age. They mellow with practice.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {},
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "None. Both premises are generalizations about family life and parents' motives. They say nothing checkable about a product, price, fee, law, contract or market, so they aren't premises this check can fail. The research supports the pattern the post describes: parents are stricter with firstborns and get more relaxed with later children. It does point to an extra reason for this besides 'practice.' That is a difference in interpretation, not something the post gets wrong.",
+   "actual_mechanism": "Economists using large US surveys (the NLSY) find that rules and discipline get looser with each later-born child. For example, firstborns face more TV rules and more homework monitoring. One explanation is strategic: parents are tough on the oldest to show the younger children they are 'not a pushover,' and that pressure eases once fewer children are left to deter. So younger siblings do tend to get looser rules without fighting for them. The cause is partly parents' deterrence strategy and changing incentives, not only practice or the eldest's fights wearing the rules down. That evidence is from the US, not India.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://www.nbcnews.com/health/health-news/plight-older-sibling-flna1c9459443",
+     "published_date": "2008-05-05",
+     "quote": "Parents 'have an incentive to play tough with their kids, especially the older ones' ... [signalling] 'that they're not a pushover.'"
+    },
+    {
+     "url": "https://www.bustle.com/articles/7326-parents-are-tougher-on-first-children-just-as-we-suspected",
+     "published_date": "2013-10-21",
+     "quote": "school performance of children ... declines with birth order as does the stringency of their parents' disciplinary restrictions."
+    }
+   ]
+  },
+  "text_hash": "a037acd134f42531784b86564ae955472b5fffa2",
+  "at": "2026-11-10T16:01:57.297258+00:00"
+ },
+ "alt_texts": [
+  "The eldest child fights every rule. The youngest walks through the door that fight opened.",
+  "Your first phone came in class 11, after months of begging and a speech about studies. Your sibling had one in class 8. No speech. No conditions.",
+  "Indian parents don't plan this. They just test every rule on the first child: curfew, college, friends, clothes. The eldest is the trial run.",
+  "And the trial run comes with a label. \"Ziddi.\" \"Answers back.\" \"Isse toh kuch kehna hi bekaar hai.\" You lost almost every fight, but each one left the rule a little looser.",
+  "By the time your sibling asked for the Goa trip, that argument had already happened. With you, years earlier. They just collected the result.",
+  "Parents don't mellow with age. They mellow with practice. And you were the practice.",
+  "Look at the receipts. Your curfew: 8 PM, pushed to 9 over two years. Theirs: \"bas phone utha lena.\" Your college: the safe city nearby. Theirs: wherever they got in.",
+  "The strange part is that everyone remembers it differently. Your parents still call you the difficult one. Your sibling believes mummy-papa were always chill.",
+  "Your sibling isn't spoiled. They just walked in after the door was already open.",
+  "Every fight you lost, your sibling is still cashing in on."
+ ],
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-121/slide_01.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-121/slide_02.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-121/slide_03.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-121/slide_04.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-121/slide_05.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-121/slide_06.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-121/slide_07.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-121/slide_08.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-121/slide_09.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-121/slide_10.jpg"
  ]
 }

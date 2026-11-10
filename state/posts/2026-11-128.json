@@ -1,6 +1,6 @@
 {
  "id": "2026-11-128",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-14T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -60,6 +60,249 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-11-10T15:59:34.904159+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 3,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "slide 7: \"Knight Frank's 2026 numbers put home-loan EMIs in Mumbai and NCR above half of household income.\" This is a stat detour. It measures EMIs, not rent, so it doesn't back the landlord-takes-the-raise claim. Rewrite it as the answer to \"why not buy\": buying only swaps the landlord for the bank. Keep the number to one plain line, then add what the reader feels, e.g. the EMI is a rent you can't walk out of. Otherwise cut the slide.",
+     "slide 2: \"Every offer letter is built around the one number HR controls...\" says the cover's point again in abstract words before any scene. Cut it down to a single line, or fold the 'HR controls the number, the city sends the bill' mechanism into slide 3 after the scene. That way the NoBroker night opens the post and the swipes move faster.",
+     "slide 9: \"The offer was smaller than it looked, and nobody showed you the real number\" restates slides 2 and 4. Replace it with a beat the topic already has: the first-week surprise of the flat near the office, and the phrase 'the price of the city' used as an excuse. Name how the loss gets relabelled as the city's fault so the reader feels cheated by a system, not by their own spending. Add one sensory detail, such as the broker's WhatsApp or the 11-month agreement PDF.",
+     "slide 10: \"take the rent... and subtract it\" reads like an instruction, and it is muddy. Is the reader subtracting from CTC or from monthly in-hand? Make the test exact: subtract the rent from the monthly in-hand and compare the two offers on what's left. Then end on a line people repeat or a sting, not a restatement of the cover. Avoid \"The rest was always the landlord's\", which repeats the hook.",
+     "slides 3, 4, 8: Powai, Golf Course Road and Andheri limit the examples to Mumbai and Gurgaon, and the topic's group includes Bengaluru. Add one example everyone has seen: the Bengaluru deposit of several months' rent, or the 'near the office' premium. Also give slide 8 a clearer insider angle (same CTC, different salaries) without it reading like a dig at the colleague."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "slide 7: \"Knight Frank's 2026 numbers put home-loan EMIs in Mumbai and NCR above half of household income.\" This is a stat detour. It measures EMIs, not rent, so it doesn't back the landlord-takes-the-raise claim. Rewrite it as the answer to \"why not buy\": buying only swaps the landlord for the bank. Keep the number to one plain line, then add what the reader feels, e.g. the EMI is a rent you can't walk out of. Otherwise cut the slide.",
+    "slide 2: \"Every offer letter is built around the one number HR controls...\" says the cover's point again in abstract words before any scene. Cut it down to a single line, or fold the 'HR controls the number, the city sends the bill' mechanism into slide 3 after the scene. That way the NoBroker night opens the post and the swipes move faster.",
+    "slide 9: \"The offer was smaller than it looked, and nobody showed you the real number\" restates slides 2 and 4. Replace it with a beat the topic already has: the first-week surprise of the flat near the office, and the phrase 'the price of the city' used as an excuse. Name how the loss gets relabelled as the city's fault so the reader feels cheated by a system, not by their own spending. Add one sensory detail, such as the broker's WhatsApp or the 11-month agreement PDF.",
+    "slide 10: \"take the rent... and subtract it\" reads like an instruction, and it is muddy. Is the reader subtracting from CTC or from monthly in-hand? Make the test exact: subtract the rent from the monthly in-hand and compare the two offers on what's left. Then end on a line people repeat or a sting, not a restatement of the cover. Avoid \"The rest was always the landlord's\", which repeats the hook.",
+    "slides 3, 4, 8: Powai, Golf Course Road and Andheri limit the examples to Mumbai and Gurgaon, and the topic's group includes Bengaluru. Add one example everyone has seen: the Bengaluru deposit of several months' rent, or the 'near the office' premium. Also give slide 8 a clearer insider angle (same CTC, different salaries) without it reading like a dig at the colleague."
+   ]
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "The post is 342 words; keep it under 340 by cutting extra examples, not the thought."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 2: \"That night you open NoBroker... Then a month's rent to the broker.\" This is a basic error about how the thing works. NoBroker is the app you open to avoid paying a broker, so the scene contradicts itself. It also names a company the sources don't cover.",
+     "Slide 3: \"The hike gets smaller with every listing. HR controls the number in the offer letter. The city sends its bill later.\" This is a dead slide. It restates the cover's point (the CTC is the brag, the landlord decides the salary) and slide 2's point (listings shrink the hike) in new words, and adds no new beat."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 3,
+     "story": 3,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "slide 2: Remove NoBroker and the broker line, or say \"a property app\". Make the scene one that every reader recognises: the listing price, the deposit, the moment the happy feeling drops. Drop \"in Bengaluru runs to several months' rent\", because it's an unsourced fact about the world. Say \"a deposit of a few months' rent\" as a typical scene, and use one city for the whole post.",
+     "slide 3: Cut it, or fold its one useful line (HR controls the number, the city sends the bill later) into slide 2 or 4. It repeats the cover, and the post jumps straight to the ₹12L to ₹18L example, which is stronger.",
+     "slides 5-6: Slide 6 mostly repeats slide 5's idea that hikes get priced into rent. Merge them into one slide. Keep the 11-month agreement as the one concrete detail, since the reader has lived the yearly renewal. Use the freed space for an insider detail the reader hasn't put together, such as the broker or landlord quoting rent by asking \"which company?\".",
+     "slide 8: The Andheri colleague on the same band is a good idea, but the post has been in Gurgaon and Pune, so he reads as a different city. Make it a typical \"colleague who lives with parents\" in the same city as your example, so the same CTC lands as two different salaries without a city switch. Also stay clear of any person-as-villain feel: the landlord is the face, but the system (rent priced off announced salaries) should be what the reader resents.",
+     "slide 7: The EMI line is a good sting, but the Knight Frank stat is about buying, not renting, and the post leans on it as proof. Say plainly that it's about home loans, keep it as one supporting number, and keep \"an EMI is a rent you can't walk out of\" as the punch."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Slide 2: \"That night you open NoBroker... Then a month's rent to the broker.\" This is a basic error about how the thing works. NoBroker is the app you open to avoid paying a broker, so the scene contradicts itself. It also names a company the sources don't cover.",
+    "Slide 3: \"The hike gets smaller with every listing. HR controls the number in the offer letter. The city sends its bill later.\" This is a dead slide. It restates the cover's point (the CTC is the brag, the landlord decides the salary) and slide 2's point (listings shrink the hike) in new words, and adds no new beat.",
+    "slide 2: Remove NoBroker and the broker line, or say \"a property app\". Make the scene one that every reader recognises: the listing price, the deposit, the moment the happy feeling drops. Drop \"in Bengaluru runs to several months' rent\", because it's an unsourced fact about the world. Say \"a deposit of a few months' rent\" as a typical scene, and use one city for the whole post.",
+    "slide 3: Cut it, or fold its one useful line (HR controls the number, the city sends the bill later) into slide 2 or 4. It repeats the cover, and the post jumps straight to the ₹12L to ₹18L example, which is stronger.",
+    "slides 5-6: Slide 6 mostly repeats slide 5's idea that hikes get priced into rent. Merge them into one slide. Keep the 11-month agreement as the one concrete detail, since the reader has lived the yearly renewal. Use the freed space for an insider detail the reader hasn't put together, such as the broker or landlord quoting rent by asking \"which company?\".",
+    "slide 8: The Andheri colleague on the same band is a good idea, but the post has been in Gurgaon and Pune, so he reads as a different city. Make it a typical \"colleague who lives with parents\" in the same city as your example, so the same CTC lands as two different salaries without a city switch. Also stay clear of any person-as-villain feel: the landlord is the face, but the system (rent priced off announced salaries) should be what the reader resents.",
+    "slide 7: The EMI line is a good sting, but the Knight Frank stat is about buying, not renting, and the post leans on it as proof. Say plainly that it's about home loans, keep it as one supporting number, and keep \"an EMI is a rent you can't walk out of\" as the punch."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Dead slide, slide 3: 'HR controls the number in the offer letter. The city sends its bill later.' restates the cover's claim. The ₹40,000 Powai rent is then repeated on slide 4 ('Your rent goes from ₹15,000 to ₹40,000') and again on slide 7 ('Yours loses ₹40,000 to the city'), so the same figure and point land three times.",
+     "Dead slide, slide 8: 'We call it \"the price of the city\" so it doesn't sound like a pay cut. It was one.' repeats what slide 4 already showed ('Your landlord got most of it'). The slide adds only the Swiggy detail."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 3,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "Slide 3: Merge it with slide 4 or give it a different job. Keep the property-app scene and the deposit, drop the Powai ₹40,000 listing, and cut 'HR controls the number...' since the cover already says it. Let slide 4 carry the single Pune-to-Mumbai comparison, so the rent figure appears once.",
+     "Slide 7: The colleague-living-with-parents idea is the freshest beat, but it says 'Yours loses ₹40,000'. That muddles the earlier example, where the raise was ₹35,000 and the rent increase was ₹25,000. Say it without a new number: the same CTC and band, yet one of you keeps the whole raise and the other hands it to a stranger every month. Move this slide before the buy-instead detour so the build is tighter.",
+     "Slide 6: The buying detour answers an objection but pulls away from the salary point. Cut it to one line, or let the Knight Frank fact (above 50% for EMIs in Mumbai and NCR) arrive as 'buying only changes who you pay'. Right now it is the most fact-led slide and it slows the middle.",
+     "Slide 5: 'That's why the broker asks \"Which company?\" before the budget' is stated as fact but is not in the sources. Frame it as the typical habit it is ('The broker's first question is usually which company'). This is the one insider detail in the post, so make it specific, such as the broker glancing at your ID card or LinkedIn before quoting a price. Add one sensory detail somewhere, for example the broker's WhatsApp ping or the deposit transfer.",
+     "Slide 8: Replace the restated pay-cut line with something new. For example, show how the Swiggy counting changes behaviour (skipping the weekend trip, telling home 'all good') so the reader feels cheated by a number that looked like progress. Then keep the closing test on slide 9, which works."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Dead slide, slide 3: 'HR controls the number in the offer letter. The city sends its bill later.' restates the cover's claim. The ₹40,000 Powai rent is then repeated on slide 4 ('Your rent goes from ₹15,000 to ₹40,000') and again on slide 7 ('Yours loses ₹40,000 to the city'), so the same figure and point land three times.",
+    "Dead slide, slide 8: 'We call it \"the price of the city\" so it doesn't sound like a pay cut. It was one.' repeats what slide 4 already showed ('Your landlord got most of it'). The slide adds only the Swiggy detail.",
+    "Slide 3: Merge it with slide 4 or give it a different job. Keep the property-app scene and the deposit, drop the Powai ₹40,000 listing, and cut 'HR controls the number...' since the cover already says it. Let slide 4 carry the single Pune-to-Mumbai comparison, so the rent figure appears once.",
+    "Slide 7: The colleague-living-with-parents idea is the freshest beat, but it says 'Yours loses ₹40,000'. That muddles the earlier example, where the raise was ₹35,000 and the rent increase was ₹25,000. Say it without a new number: the same CTC and band, yet one of you keeps the whole raise and the other hands it to a stranger every month. Move this slide before the buy-instead detour so the build is tighter.",
+    "Slide 6: The buying detour answers an objection but pulls away from the salary point. Cut it to one line, or let the Knight Frank fact (above 50% for EMIs in Mumbai and NCR) arrive as 'buying only changes who you pay'. Right now it is the most fact-led slide and it slows the middle.",
+    "Slide 5: 'That's why the broker asks \"Which company?\" before the budget' is stated as fact but is not in the sources. Frame it as the typical habit it is ('The broker's first question is usually which company'). This is the one insider detail in the post, so make it specific, such as the broker glancing at your ID card or LinkedIn before quoting a price. Add one sensory detail somewhere, for example the broker's WhatsApp ping or the deposit transfer.",
+    "Slide 8: Replace the restated pay-cut line with something new. For example, show how the Swiggy counting changes behaviour (skipping the weekend trip, telling home 'all good') so the reader feels cheated by a number that looked like progress. Then keep the closing test on slide 9, which works."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-10T16:08:14.722951+00:00",
+ "sources": [
+  {
+   "url": "https://www.freepressjournal.in/lifestyle/is-rent-becoming-the-biggest-dealbreaker-for-young-professionals",
+   "fact": "HR heads say candidates now compare job offers on what is left after rent and travel. Knight Frank's H1 2026 data puts MMR and NCR above the 50% EMI-to-income mark and the other six of the eight largest markets below it.",
+   "excerpt": "the offer letter didn't show what Mumbai would actually cost me. | candidates now compare offers on the money left after rent and travel. | A salary is only as good as what's left after rent, deposit and commute. | Knight Frank India's Affordability Index tracks the share of household income that goes towards home loan EMIs.",
+   "date": "2026-10-21"
+  },
+  {
+   "url": "https://www.freepressjournal.in/mumbai/mumbai-housing-mmr-remains-indias-least-affordable-property-market-despite-lower-home-loan-rates-says-knight-frank",
+   "fact": "Knight Frank's H1 2026 index shows MMR homebuyers need about 69% of household income for EMIs, and MMR and NCR are the only two of the eight largest markets above the 50% threshold. This measures home-loan EMIs, not rent, so it supports the claim only indirectly. The 69% figure also looks inconsistent with the roughly 47–48% reported for Mumbai in earlier Knight Frank releases, so check it against Knight Frank's own report.",
+   "excerpt": "Homebuyers need about 69% of household income for monthly loan payments, unchanged from 2025. | significantly better than the 77% recorded in 2016 and 2019. | the most financially stretched housing market among India's eight largest cities. | An EMI-to-income ratio above 50% is generally considered unaffordable. | the only two markets where affordability exceeds the benchmark threshold of 50%.",
+   "date": "2026-07-03"
+  }
+ ],
+ "draft": {
+  "cover": {
+   "headline": "Your CTC is for bragging. [Your landlord] decides your salary.",
+   "sub": "The hike in your offer letter already has a second owner."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Your CTC is for bragging. Your landlord decides your salary.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "How does the landlord get a say in my salary?"
+   },
+   {
+    "paragraphs": [
+     "You accept the offer and tell home \"a huge hike\". That night you open a property app."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "A 1BHK near the office in Powai wants around ₹40,000. Then a deposit of a few months' rent. The happy feeling drops a little with every listing.",
+     "HR controls the number in the offer letter. The city sends its bill later."
+    ],
+    "why_swipe": "So how much of the raise actually survives?"
+   },
+   {
+    "paragraphs": [
+     "Say you jump from ₹12 lakh in Pune to ₹18 lakh in Mumbai. Your in-hand goes up by roughly ₹35,000 a month.",
+     "Your rent goes from ₹15,000 to ₹40,000.",
+     "You got the raise. Your landlord got most of it."
+    ],
+    "why_swipe": "Is that just bad luck, or is it built that way?"
+   },
+   {
+    "paragraphs": [
+     "It's built that way. A flat isn't priced by its walls. It's priced by who rents nearby: people holding offer letters like yours.",
+     "That's why the broker asks \"Which company?\" before the budget. And the 11-month agreement brings every round of hikes to your door at renewal."
+    ],
+    "why_swipe": "Can't you just buy instead and stop feeding the landlord?"
+   },
+   {
+    "paragraphs": [
+     "Buying only swaps the landlord for a bank.",
+     "On home loans, Knight Frank's H1 2026 data puts EMIs in Mumbai and NCR above half of household income.",
+     "And an EMI is a rent you can't walk out of."
+    ],
+    "why_swipe": "So is everyone on the same salary paying the same price?"
+   },
+   {
+    "paragraphs": [
+     "And the same CTC is two different salaries. HR puts you and a colleague who lives with his parents in the same band, with the same appraisal.",
+     "He goes home to the family flat. Yours loses ₹40,000 to the city before it reaches you."
+    ],
+    "why_swipe": "So what does this do to how you live after the move?"
+   },
+   {
+    "paragraphs": [
+     "By the third week you're counting every Swiggy order and calling it \"Bombay ka kharcha\".",
+     "That isn't you being bad with money. The money left in the first week.",
+     "We call it \"the price of the city\" so it doesn't sound like a pay cut. It was one."
+    ],
+    "why_swipe": "So how do you find the real number before you sign?"
+   },
+   {
+    "paragraphs": [
+     "The real test runs on monthly in-hand, not CTC. Take each offer's in-hand. Subtract the rent of a flat you'd actually live in near that office. Compare what's left.",
+     "Sometimes the smaller offer wins. The bigger CTC still wins the family WhatsApp group."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Open this again the night an offer letter lands in your inbox.",
+   "send": "Send to the friend who just got a Mumbai or Gurgaon offer and only talks about the hike.",
+   "promise": "How money really moves in India."
+  },
+  "caption": "What was your hike when you moved cities, and how much of it went straight to rent?",
+  "hashtags": [
+   "#CTCvsInHand",
+   "#MumbaiRent",
+   "#RentVsSalary",
+   "#SalaryIndia"
+  ],
+  "alt_text": "An eight-slide text post. It argues that your CTC is the number you brag about, while your real salary is what is left after rent in a big city like Mumbai. It opens on the night you accept an offer and browse a property app, with ₹40,000 rents for a 1BHK in Powai and a deposit of a few months' rent, as the happy feeling drops with every listing. It walks through a move from ₹12 lakh in Pune to ₹18 lakh in Mumbai that adds about ₹35,000 a month in hand while rent jumps from ₹15,000 to ₹40,000. It explains that flats are priced by who rents nearby, which is why brokers ask which company you work for, and that the 11-month agreement brings every round of hikes to your rent at renewal. It notes that buying only swaps the landlord for a bank, since Knight Frank's data shows home-loan EMIs in Mumbai and NCR take over half of household income. It points out that two colleagues on the same CTC take home different salaries if one lives with his parents, and that we call the loss 'the price of the city' when it was really a pay cut. It ends with a test: compare offers on monthly in-hand minus the rent of a flat you would actually live in, because sometimes the smaller offer wins, though the bigger CTC still wins the family WhatsApp group.",
+  "claims": [
+   {
+    "text": "On home loans, Knight Frank's H1 2026 data puts EMIs in Mumbai and NCR above half of household income.",
+    "source_url": "topic"
+   },
+   {
+    "text": "A jump from ₹12 lakh in Pune to ₹18 lakh in Mumbai CTC adds roughly ₹35,000 a month in hand (typical example).",
+    "source_url": "topic",
+    "derived_from": "₹6 lakh CTC increase × about 70% after tax and deductions ≈ ₹4.2 lakh a year ÷ 12 ≈ ₹35,000 a month"
+   },
+   {
+    "text": "Rent going from ₹15,000 to ₹40,000 takes ₹25,000 of the ₹35,000 monthly raise, which is most of it (typical example).",
+    "source_url": "topic",
+    "derived_from": "₹40,000 − ₹15,000 = ₹25,000; ₹25,000 ÷ ₹35,000 ≈ 71%"
+   }
+  ]
+ }
 }

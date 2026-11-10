@@ -1,6 +1,6 @@
 {
  "id": "2026-11-127",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-16T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -43,6 +43,308 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-11-10T15:59:34.905138+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 7: \"Anyone who has built an app knows a screen people refresh all evening is a screen worth keeping.\" This is a hidden-motive claim stated as fact (Instagram keeps the viewer list on purpose to drive engagement). It is not in the sources, and it also leans on the writer's builder background in a pure-observation post (lived is false). Fails the mechanism-can't-be-shown rule and the credentials rule.",
+     "Slide 6: the slide is a bare fact (\"Instagram says the viewer list isn't simply in order of who watched first\") with no payoff of its own. Slide 7 then uses it to undercut the reader's theory, but the pair reads as a data explainer inserted mid-post. The sourced fact itself is fine, but slide 6 is close to a dead slide as written.",
+     "Slide 3 and slide 5 overlap: slide 3 says stories are a text we were too proud to send, and slide 5 explains again that a story is safer than a text because it needs no reply. Slide 5 restates the idea in new words. Slide 3 also states the turn before the examples show it, so slide 4 reads as a list of proof for something already conceded.",
+     "Slide 8: \"It's not desperation. It's the safest way to say 'I miss you' or 'look, I'm doing great'.\" It restates slide 5's 'safer than a text' point a third time. It is a dead slide apart from the closer \"Deniability, with a filter on it.\"",
+     "Feeling/villain: the topic's villain is the feature that shows who watched, but the post barely blames it. Slide 7 hints at it with an unsupported motive claim. Slide 6's sourced fact never lands as a sting, so the reader is caught on slide 2 and then lectured on mechanism instead of made to feel more."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 3,
+     "tight": 2,
+     "informative": 3
+    },
+    "notes": [
+     "Slide 7: delete \"Anyone who has built an app knows a screen people refresh all evening is a screen worth keeping.\" It claims a deliberate motive Instagram has not stated and borrows the author's builder background. Replace it with what the source supports. The viewer list can't reliably show whether that one person watched, so the signal you're chasing is noisy. The sting is that you've been reading tea leaves.",
+     "Slides 3, 5, 8: the 'safer than a text' idea is said three times. Keep it once, in slide 5, where it has the best wording (\"officially, you just posted a sunset\"). Make slide 3 only set the turn (stories are for one person), and cut the first half of slide 8 so it carries only \"Deniability, with a filter on it.\" Merge or remove one slide to tighten the post.",
+     "Slide 6: it is a fact with no stake. Merge it with slide 7 into one slide: the viewer list isn't strictly ordered by who watched first, so the name at the top proves nothing, yet you built a theory on it anyway. Put the human reaction (\"you've read meaning into the order of faces\") after the fact so it lands as a laugh, not a footnote.",
+     "Slide 4: the three examples are good, but the third (\"a 'random' story from the café you two used to go to\") is the only one that shows the checking behaviour. Add one insider detail with a sense beyond sight (the phone buzzing on the table, the thumb hovering over the eye icon) so it reads like someone who has done this, and sharpen the examples so they cover people who aren't only post-breakup.",
+     "Slide 2: the opening scene is strong, but \"a page that sells kurtas\" is a throwaway. Replace it with the viewer-list detail only a person who has done this would notice, like scrolling past the same three names and checking whether the grey 'seen' tick is there. Keep the slide to one beat so slide 3 can carry the turn without repeating it."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Slide 7: \"Anyone who has built an app knows a screen people refresh all evening is a screen worth keeping.\" This is a hidden-motive claim stated as fact (Instagram keeps the viewer list on purpose to drive engagement). It is not in the sources, and it also leans on the writer's builder background in a pure-observation post (lived is false). Fails the mechanism-can't-be-shown rule and the credentials rule.",
+    "Slide 6: the slide is a bare fact (\"Instagram says the viewer list isn't simply in order of who watched first\") with no payoff of its own. Slide 7 then uses it to undercut the reader's theory, but the pair reads as a data explainer inserted mid-post. The sourced fact itself is fine, but slide 6 is close to a dead slide as written.",
+    "Slide 3 and slide 5 overlap: slide 3 says stories are a text we were too proud to send, and slide 5 explains again that a story is safer than a text because it needs no reply. Slide 5 restates the idea in new words. Slide 3 also states the turn before the examples show it, so slide 4 reads as a list of proof for something already conceded.",
+    "Slide 8: \"It's not desperation. It's the safest way to say 'I miss you' or 'look, I'm doing great'.\" It restates slide 5's 'safer than a text' point a third time. It is a dead slide apart from the closer \"Deniability, with a filter on it.\"",
+    "Feeling/villain: the topic's villain is the feature that shows who watched, but the post barely blames it. Slide 7 hints at it with an unsupported motive claim. Slide 6's sourced fact never lands as a sting, so the reader is caught on slide 2 and then lectured on mechanism instead of made to feel more.",
+    "Slide 7: delete \"Anyone who has built an app knows a screen people refresh all evening is a screen worth keeping.\" It claims a deliberate motive Instagram has not stated and borrows the author's builder background. Replace it with what the source supports. The viewer list can't reliably show whether that one person watched, so the signal you're chasing is noisy. The sting is that you've been reading tea leaves.",
+    "Slides 3, 5, 8: the 'safer than a text' idea is said three times. Keep it once, in slide 5, where it has the best wording (\"officially, you just posted a sunset\"). Make slide 3 only set the turn (stories are for one person), and cut the first half of slide 8 so it carries only \"Deniability, with a filter on it.\" Merge or remove one slide to tighten the post.",
+    "Slide 6: it is a fact with no stake. Merge it with slide 7 into one slide: the viewer list isn't strictly ordered by who watched first, so the name at the top proves nothing, yet you built a theory on it anyway. Put the human reaction (\"you've read meaning into the order of faces\") after the fact so it lands as a laugh, not a footnote.",
+    "Slide 4: the three examples are good, but the third (\"a 'random' story from the café you two used to go to\") is the only one that shows the checking behaviour. Add one insider detail with a sense beyond sight (the phone buzzing on the table, the thumb hovering over the eye icon) so it reads like someone who has done this, and sharpen the examples so they cover people who aren't only post-breakup.",
+    "Slide 2: the opening scene is strong, but \"a page that sells kurtas\" is a throwaway. Replace it with the viewer-list detail only a person who has done this would notice, like scrolling past the same three names and checking whether the grey 'seen' tick is there. Keep the slide to one beat so slide 3 can carry the turn without repeating it."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Dead slide 5: \"And every buzz on the table sends your thumb to the eye icon. Even when it's the family group.\" It repeats the checking habit already shown on slide 2 and adds no new beat.",
+     "Dead slide 3: \"But a lot of them are posted for exactly one viewer.\" It restates the slide 1 hook in new words. The only new content is the \"we tell ourselves stories are for sharing the day\" setup, which every reader already knows.",
+     "Template scaffolding: slide 4 opens with \"This is why:\" but the list is examples, not reasons. Slide 7 uses \"Here's the funny part\" and slide 8 uses \"That's the real trap\". Fresh words should carry the turn instead."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 3,
+     "eq": 4,
+     "iq": 3,
+     "story": 3,
+     "tight": 3,
+     "informative": 2
+    },
+    "notes": [
+     "Slides 3 and 5: cut slide 5, since slide 2 already shows the compulsive checking. Fold the 'we tell ourselves it's to share the day' belief into the slide 2/4 flow so slide 3 doesn't re-say the hook. Merging 3 and 4 gives a tighter run: scene, belief, examples, why a story and not a text.",
+     "Slide 4: drop \"This is why:\" and name the pattern instead, for example 'The one-viewer story'. Trim the four examples to the two or three every reader has seen (the breakup song, the café story). The gym selfie after 'let's take a break' is a sharp one to keep. Replace the weak why_swipe ('what happens next?') with a real pull toward the because.",
+     "Slide 7: the logic is muddled and the claim runs stronger than the source. A name in the list does show they watched. Only the ORDER is unreliable, so 'proves nothing' overreaches. Say plainly that the order doesn't tell you who watched first or last, so the 'top' name means nothing. Also drop 'Instagram says' as present tense if you can't date it. The source is a 2018 article.",
+     "Slides 6 and 8: this is the best insight (deniability, and a feature that shows who but never why). Merge slide 8 into slide 6 so the idea is said once. Then sharpen the villain: a feature that gives you just enough data to build a whole story and none to check it. Add one sensory or insider detail, like the phone face-down on the table, or the thumb hovering before you open it, to lift the 'story' score.",
+     "Slide 9: the test is good. Keep 'writing them letters with a sunset on top' but make the test sting a little more, for example by asking who you'd be embarrassed to find at the top of the list. Avoid the tidy-moral feel. For informative: the post has only one thin fact. Add the named pattern (a message without a message) as the repeatable line rather than inventing any stats."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Dead slide 5: \"And every buzz on the table sends your thumb to the eye icon. Even when it's the family group.\" It repeats the checking habit already shown on slide 2 and adds no new beat.",
+    "Dead slide 3: \"But a lot of them are posted for exactly one viewer.\" It restates the slide 1 hook in new words. The only new content is the \"we tell ourselves stories are for sharing the day\" setup, which every reader already knows.",
+    "Template scaffolding: slide 4 opens with \"This is why:\" but the list is examples, not reasons. Slide 7 uses \"Here's the funny part\" and slide 8 uses \"That's the real trap\". Fresh words should carry the turn instead.",
+    "Slides 3 and 5: cut slide 5, since slide 2 already shows the compulsive checking. Fold the 'we tell ourselves it's to share the day' belief into the slide 2/4 flow so slide 3 doesn't re-say the hook. Merging 3 and 4 gives a tighter run: scene, belief, examples, why a story and not a text.",
+    "Slide 4: drop \"This is why:\" and name the pattern instead, for example 'The one-viewer story'. Trim the four examples to the two or three every reader has seen (the breakup song, the café story). The gym selfie after 'let's take a break' is a sharp one to keep. Replace the weak why_swipe ('what happens next?') with a real pull toward the because.",
+    "Slide 7: the logic is muddled and the claim runs stronger than the source. A name in the list does show they watched. Only the ORDER is unreliable, so 'proves nothing' overreaches. Say plainly that the order doesn't tell you who watched first or last, so the 'top' name means nothing. Also drop 'Instagram says' as present tense if you can't date it. The source is a 2018 article.",
+    "Slides 6 and 8: this is the best insight (deniability, and a feature that shows who but never why). Merge slide 8 into slide 6 so the idea is said once. Then sharpen the villain: a feature that gives you just enough data to build a whole story and none to check it. Add one sensory or insider detail, like the phone face-down on the table, or the thumb hovering before you open it, to lift the 'story' score.",
+    "Slide 9: the test is good. Keep 'writing them letters with a sunset on top' but make the test sting a little more, for example by asking who you'd be embarrassed to find at the top of the list. Avoid the tidy-moral feel. For informative: the post has only one thin fact. Add the named pattern (a message without a message) as the repeatable line rather than inventing any stats."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Dead slide, slide 3: \"We tell ourselves stories are for sharing the day. Then look at which ones we actually post.\" It restates the hook's turn in new words and sets up nothing the reader doesn't already know. Slide 4 can follow slide 2 directly.",
+     "Dead or padded slides 7 and 8. Slide 7 is one sourced sentence and slide 8 explains it. Slide 6 has already said the list shows who watched but never why, so slide 8 repeats that point. The two slides should be one."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 3,
+     "tight": 3,
+     "informative": 2
+    },
+    "notes": [
+     "slide 3: Cut it. It repeats the hook and the why_swipe is a placeholder (\"what happens next?\"). Go straight from the reopening scene to the named pattern, so the post reads as 7 or 8 slides, not 9.",
+     "slides 7-8: Merge into one slide and match the source exactly. Instagram said in 2018 that the list is ordered by several signals, including who viewed recently, so it can't reliably show whether one person is watching. \"Even the order lies to you\" and \"tells you nothing\" are stronger than that, so soften them. Cut \"Their name being there means they saw it\". Keep the tea-leaves line, which is good, and make it the punch of the merged slide.",
+     "slide 9: The test asks for two tasks and contradicts slide 7. Writing the name each story was for is clear and runnable. \"The face you'd be embarrassed to find at the top\" is muddy, because you just said the top means nothing. Use one task, and end on a plainer, funnier sting than \"letters with a sunset on top\", which sounds engineered. For example: if one name repeats, that wasn't a story, it was a reply you never sent.",
+     "slide 4: All three examples are breakup or ex scenes, so a reader without an ex may not feel caught. Swap one for a different single target a working 24-32 reader has, such as a crush, a friend who stopped replying, or a former colleague whose promotion you saw. Keep the breakup song, since it is the strongest.",
+     "slides 5-6: The deniability point is the best insight in the post, so lead with it and cut slide 6's overlap with slide 2. Add the missing 'who gains' beat the topic already hints at: every recheck is another app open, so the viewer list keeps you coming back to the feature. Keep this as framing and don't state it as a deliberate plan. Add one non-visual detail on slide 2, such as the phone face-down or the buzz you hope is them."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Dead slide, slide 3: \"We tell ourselves stories are for sharing the day. Then look at which ones we actually post.\" It restates the hook's turn in new words and sets up nothing the reader doesn't already know. Slide 4 can follow slide 2 directly.",
+    "Dead or padded slides 7 and 8. Slide 7 is one sourced sentence and slide 8 explains it. Slide 6 has already said the list shows who watched but never why, so slide 8 repeats that point. The two slides should be one.",
+    "slide 3: Cut it. It repeats the hook and the why_swipe is a placeholder (\"what happens next?\"). Go straight from the reopening scene to the named pattern, so the post reads as 7 or 8 slides, not 9.",
+    "slides 7-8: Merge into one slide and match the source exactly. Instagram said in 2018 that the list is ordered by several signals, including who viewed recently, so it can't reliably show whether one person is watching. \"Even the order lies to you\" and \"tells you nothing\" are stronger than that, so soften them. Cut \"Their name being there means they saw it\". Keep the tea-leaves line, which is good, and make it the punch of the merged slide.",
+    "slide 9: The test asks for two tasks and contradicts slide 7. Writing the name each story was for is clear and runnable. \"The face you'd be embarrassed to find at the top\" is muddy, because you just said the top means nothing. Use one task, and end on a plainer, funnier sting than \"letters with a sunset on top\", which sounds engineered. For example: if one name repeats, that wasn't a story, it was a reply you never sent.",
+    "slide 4: All three examples are breakup or ex scenes, so a reader without an ex may not feel caught. Swap one for a different single target a working 24-32 reader has, such as a crush, a friend who stopped replying, or a former colleague whose promotion you saw. Keep the breakup song, since it is the strongest.",
+    "slides 5-6: The deniability point is the best insight in the post, so lead with it and cut slide 6's overlap with slide 2. Add the missing 'who gains' beat the topic already hints at: every recheck is another app open, so the viewer list keeps you coming back to the feature. Keep this as framing and don't state it as a deliberate plan. Add one non-visual detail on slide 2, such as the phone face-down or the buzz you hope is them."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 6 is a dead slide: \"And the app plays along. It gives you just enough to build a whole story and nothing to check it with.\" It only previews slide 7 (\"It shows who watched, never why\"), so the idea is said twice and the reader has no reason to swipe off it."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 4,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "slide 6: Delete it, or fold its one useful idea (\"just enough to build a story, nothing to check it with\") into the opening line of slide 7. Right now slides 6 and 7 are the same beat, and slide 5 ends on a strong deniability line that slide 6 deflates.",
+     "slide 8: The logic is muddy. Slide 7 says the list shows who watched, then this slide says it \"can't reliably tell you whether one person is watching\", which reads as a contradiction. Keep the sourced point (Instagram said in 2018 the order mixes several signals, including who viewed recently) but draw the right conclusion: position on the list is not a sign that someone is thinking of you. Then the \"tea leaves\" line lands. Don't add any claim beyond the source.",
+     "slides 2-3: Both are the same beat, reopening the app and hunting for one name. Merge them into one tighter slide and keep the best details: the count going up by two, the face-down phone, the buzz that turns out to be a Swiggy offer. Make the buzz a sound or a feel on the table so there is one detail beyond sight.",
+     "slide 5: Add the topic's because in plain words: a story is safer than a text because you never have to admit you cared. \"A message without sending one\" is clumsy; say it straight, e.g. a text you can deny sending. Name the feature as the villain, since it lets you check without asking. Right now the reader feels caught but isn't shown the hidden payoff.",
+     "slide 7 and slide 9: Slide 7's \"Whatever the list was built for, it keeps you coming back\" is vague and hedged. Say the plain thing: a list you can check is a reason to keep opening the app. In the last line, \"replies you never sent\" doesn't fit, because nobody asked anything. Use \"messages you never sent\", or find a sharper sting."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "cut_slide": 6,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Hard failure 12 (mechanism that isn't true): slide 7, \"So it can't reliably tell you whether one person is watching.\" The viewer list does show whether a specific person viewed. The source only says the order is not strictly chronological. The slide 6 setup, \"At least the order of the list means something. Right?\", wrongly implies the order is what tells you someone watched.",
+     "Hard failure 7 (dead slide): slide 3 (\"Close the app, open it again... It's a Swiggy offer\") repeats the recheck beat of slide 2 and the cover. Slide 7's source fact adds nothing the reader needs, because the order of the list was never what mattered."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 3,
+     "tight": 3,
+     "informative": 2
+    },
+    "notes": [
+     "slide 7: Fix the wrong inference. The source says the list order mixes several signals, including recent viewers. That means the order is not a ranking of who cares most or who watched first. Rewrite so the point is that you read meaning into a sort order, and drop the claim that it can't show whether someone watched. Or cut the slide and use the space for a stronger beat.",
+     "slide 6: Remove the setup that the order of the list \"means something\". Nobody reads order as proof they watched. Replace it with the reading-into-signals problem that is already in the slide: a tap with no reason behind it, and no way to tell a glance from interest.",
+     "slide 3: Merge with slide 2 or give it a new beat. The Swiggy buzz is the one sharp, funny detail, so keep it and cut the repeated open-and-close loop. Add one sensory detail only an insider would notice, such as the thumb hovering over the eye icon or the screen dimming mid-check.",
+     "slide 5: The best idea is that a story is deniable, and it is buried after the list of examples. Sharpen it with a line the reader will repeat, such as \"If they skip it, you only posted a sunset.\" Cut the 'message without sending one' restatement, since slide 1 and the caption already carry it.",
+     "slide 6: \"Whatever the list was built for, it keeps you coming back\" is vague and slightly lecturing. Either say plainly that the feature rewards the checking, or cut it. Don't hint at a motive you can't show."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Slide 6 is a dead slide: \"And the app plays along. It gives you just enough to build a whole story and nothing to check it with.\" It only previews slide 7 (\"It shows who watched, never why\"), so the idea is said twice and the reader has no reason to swipe off it.",
+    "slide 6: Delete it, or fold its one useful idea (\"just enough to build a story, nothing to check it with\") into the opening line of slide 7. Right now slides 6 and 7 are the same beat, and slide 5 ends on a strong deniability line that slide 6 deflates.",
+    "slide 8: The logic is muddy. Slide 7 says the list shows who watched, then this slide says it \"can't reliably tell you whether one person is watching\", which reads as a contradiction. Keep the sourced point (Instagram said in 2018 the order mixes several signals, including who viewed recently) but draw the right conclusion: position on the list is not a sign that someone is thinking of you. Then the \"tea leaves\" line lands. Don't add any claim beyond the source.",
+    "slides 2-3: Both are the same beat, reopening the app and hunting for one name. Merge them into one tighter slide and keep the best details: the count going up by two, the face-down phone, the buzz that turns out to be a Swiggy offer. Make the buzz a sound or a feel on the table so there is one detail beyond sight.",
+    "slide 5: Add the topic's because in plain words: a story is safer than a text because you never have to admit you cared. \"A message without sending one\" is clumsy; say it straight, e.g. a text you can deny sending. Name the feature as the villain, since it lets you check without asking. Right now the reader feels caught but isn't shown the hidden payoff.",
+    "slide 7 and slide 9: Slide 7's \"Whatever the list was built for, it keeps you coming back\" is vague and hedged. Say the plain thing: a list you can check is a reason to keep opening the app. In the last line, \"replies you never sent\" doesn't fit, because nobody asked anything. Use \"messages you never sent\", or find a sharper sting."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-10T16:08:14.745628+00:00",
+ "sources": [
+  {
+   "url": "https://www.refinery29.com/en-gb/instagram-stories-viewers-ranking",
+   "fact": "Instagram says the story viewer list is ordered by several signals, not strictly by who viewed first, so it can't reliably show whether one specific person is watching. This is a general, non-India source. I found no India-specific research backing or refuting the claim that half of stories are for one person.",
+   "excerpt": "is ordered based on a number of signals including people who recently viewed",
+   "date": "2018-09-25"
+  }
+ ],
+ "draft": {
+  "cover": {
+   "headline": "That sunset story wasn't for your followers. It was for [one person].",
+   "sub": "And you've already checked the viewer list four times."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "That sunset story wasn't for your followers. It was for one person.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "Caught. Now the reader wants to see how bad it gets."
+   },
+   {
+    "paragraphs": [
+     "You open it again on the walk back. The count went up by two, so you check which two. Your cousin and an ex-colleague."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "You're looking for one name. Still not there. Close the app, open it again.",
+     "Phone face-down on the table. It buzzes, and for one second you hope. It's a Swiggy offer."
+    ],
+    "why_swipe": "Everyone has done this. So what were we really posting?"
+   },
+   {
+    "paragraphs": [
+     "Call it the one-viewer story:\n– the breakup song, lyrics sticker on the line\n– the book you're \"reading\", because your crush once mentioned it\n– a \"random\" story from the café you two used to go to"
+    ],
+    "why_swipe": "So why a story, and not just a text to that one person?"
+   },
+   {
+    "paragraphs": [
+     "A text needs a reply. If none comes, they know you tried.",
+     "A story asks for nothing. They watch it, you get your signal. They skip it, and officially you just posted a sunset.",
+     "A message without sending one. Deniability, with a filter on it."
+    ],
+    "why_swipe": "And the app makes the guessing worse."
+   },
+   {
+    "paragraphs": [
+     "And the app plays along. It gives you just enough to build a whole story and nothing to check it with."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "It shows who watched, never why. A two-second tap from them becomes a sign. Their silence becomes a statement.",
+     "Every recheck is one more app open. Whatever the list was built for, it keeps you coming back to it."
+    ],
+    "why_swipe": "At least the order of the list means something. Right?"
+   },
+   {
+    "paragraphs": [
+     "Even the order is a guess. Back in 2018, Instagram said the viewer list is sorted by several signals, including who viewed recently.",
+     "So it can't reliably tell you whether one person is watching.",
+     "Yet you spent the evening reading the order of faces like tea leaves."
+    ],
+    "why_swipe": "Time to run the test on yourself."
+   },
+   {
+    "paragraphs": [
+     "Open your last five stories. Next to each one, write the name it was really for.",
+     "If one name keeps showing up, those weren't stories. They were replies you never sent."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Come back to this the next time your thumb is on the viewer list for the third time.",
+   "send": "Send to the friend who posted a very specific song story the night after the breakup.",
+   "promise": "How we really behave online."
+  },
+  "caption": "Every story has an audience of hundreds and a target audience of one.",
+  "hashtags": [
+   "#InstagramStories",
+   "#StoryViewers",
+   "#SocialMediaHabits",
+   "#DatingInIndia"
+  ],
+  "alt_text": "A seven-slide text post on plain cards. It argues that many Instagram stories are posted for one specific person, and that the viewer list is how we check whether they saw it. It shows the habit of reopening a story to look for one name, with the phone face-down and a buzz that turns out to be a Swiggy offer. It names the one-viewer story with examples: a breakup song with a lyrics sticker, a book posted because a crush once mentioned it, and a 'random' story from a café two people used to visit. It explains that a story is a message without sending one, safer than a text because it needs no reply. It says the viewer list shows who watched but never why, and that every recheck keeps you coming back to the app. It notes that in 2018 Instagram said the list is sorted by several signals, including who viewed recently, so it can't reliably show whether one person is watching. It ends by asking readers to write, next to each of their last five stories, the name it was really for.",
+  "claims": [
+   {
+    "text": "In 2018, Instagram said the story viewer list is sorted by several signals, including who viewed recently, so it can't reliably show whether one person is watching.",
+    "source_url": "https://www.refinery29.com/en-gb/instagram-stories-viewers-ranking"
+   }
+  ]
+ }
 }
