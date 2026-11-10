@@ -1,6 +1,6 @@
 {
  "id": "2026-11-124",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-23T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -32,7 +32,232 @@
   "news_peg": null,
   "proof": []
  },
- "history": [],
+ "history": [
+  {
+   "attempt": 0,
+   "problems": [
+    "Slide 7 has 46 words; the limit is 42. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Dead slide, slide 8: \"You paid their bills every month on the 5th to take away the weight. You never meant to take away the freedom.\" restates the cover and slide 1, and \"Their bills got lighter. Their say got smaller.\" from slide 4. It adds no new beat. The closing line \"Now a ₹1,200 kurta needs your okay\" is just the slide 3 example again.",
+     "Dead slide, slide 2: \"Nobody in the family planned what came next. Hard to say out loud.\" is filler. It teases without saying anything, and slide 3 delivers the actual content.",
+     "Weak because and muddled mechanism, slides 5 and 7: slide 5 says \"It isn't fear\", then slide 7 says parents ask for everything so they don't \"feel like a burden\", which is fear or guilt. The post gives two different reasons and never settles which one drives the asking."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 3,
+     "eq": 4,
+     "iq": 3,
+     "story": 3,
+     "tight": 3,
+     "informative": 2
+    },
+    "notes": [
+     "slide 8: Do not restate the cover. End on something new that stings. Options: what happens next (the mother stops asking and just stops buying), or a test the reader can run (when did your mother last buy something for herself without telling you?). Or end on a repeatable line such as \"The bill moved to your account. So did the say.\" Cut the \"on the 5th\" and \"take away the weight\" echo.",
+     "slides 5 and 7: Pick one mechanism and say it once. Cut \"It isn't fear. It isn't you being strict.\", which is mirrored scaffolding. Keep the topic's because: once your account pays, every rupee they spend feels like yours, so they check first, the way you once checked with them. Then slide 7 should not bring in a second reason (burden). Make it the honest mixed-feelings beat: you never asked them to ask, and you never told them not to either.",
+     "slide 2: Replace \"Nobody in the family planned what came next. Hard to say out loud.\" with a concrete beat. For example, the first month, when the standing instruction starts feeling like relief for you and for them. This also gives the sting in slide 3 something to land on.",
+     "slide 6: The \"you at 15\" mirror is the freshest idea in the post, but it comes late and is rushed. Give it more room and a sharper line, like \"You once asked for ₹500 for a gift. Now she asks for ₹1,200 for a kurta.\" Then say plainly that the roles flipped without either side agreeing to it. Add one detail only an insider would notice, such as her voice dropping or the pause before \"theek hai na?\"",
+     "slide 4: The ₹25,000 list (electricity, maintenance, medicines, WiFi) is flat. Keep one number. Move the \"say got smaller\" turn earlier or fold it into slide 3, so the post does not state the thesis in slide 1, slide 4 and slide 8."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Dead slide, slide 8: \"You paid their bills every month on the 5th to take away the weight. You never meant to take away the freedom.\" restates the cover and slide 1, and \"Their bills got lighter. Their say got smaller.\" from slide 4. It adds no new beat. The closing line \"Now a ₹1,200 kurta needs your okay\" is just the slide 3 example again.",
+    "Dead slide, slide 2: \"Nobody in the family planned what came next. Hard to say out loud.\" is filler. It teases without saying anything, and slide 3 delivers the actual content.",
+    "Weak because and muddled mechanism, slides 5 and 7: slide 5 says \"It isn't fear\", then slide 7 says parents ask for everything so they don't \"feel like a burden\", which is fear or guilt. The post gives two different reasons and never settles which one drives the asking.",
+    "slide 8: Do not restate the cover. End on something new that stings. Options: what happens next (the mother stops asking and just stops buying), or a test the reader can run (when did your mother last buy something for herself without telling you?). Or end on a repeatable line such as \"The bill moved to your account. So did the say.\" Cut the \"on the 5th\" and \"take away the weight\" echo.",
+    "slides 5 and 7: Pick one mechanism and say it once. Cut \"It isn't fear. It isn't you being strict.\", which is mirrored scaffolding. Keep the topic's because: once your account pays, every rupee they spend feels like yours, so they check first, the way you once checked with them. Then slide 7 should not bring in a second reason (burden). Make it the honest mixed-feelings beat: you never asked them to ask, and you never told them not to either.",
+    "slide 2: Replace \"Nobody in the family planned what came next. Hard to say out loud.\" with a concrete beat. For example, the first month, when the standing instruction starts feeling like relief for you and for them. This also gives the sting in slide 3 something to land on.",
+    "slide 6: The \"you at 15\" mirror is the freshest idea in the post, but it comes late and is rushed. Give it more room and a sharper line, like \"You once asked for ₹500 for a gift. Now she asks for ₹1,200 for a kurta.\" Then say plainly that the roles flipped without either side agreeing to it. Add one detail only an insider would notice, such as her voice dropping or the pause before \"theek hai na?\"",
+    "slide 4: The ₹25,000 list (electricity, maintenance, medicines, WiFi) is flat. Keep one number. Move the \"say got smaller\" turn earlier or fold it into slide 3, so the post does not state the thesis in slide 1, slide 4 and slide 8."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 4 (dead slide): \"They start to feel like guests in their own house.\" and its opening \"Money carries the right to decide... So they check with you first\" restate slide 3's \"Their bills got lighter. Their say got smaller.\" The post states the mechanism twice before it moves on.",
+     "Slide 5 (dead slide / sentiment): \"The roles flipped, and neither of you agreed to it.\" restates the flip that slide 4 already explained, and \"voice dropping before 'theek hai na?'\" repeats the line quoted on slide 3. The reader gets the same example again.",
+     "Slide 6 (dead slide): \"Taking the bills was the right call. The relief is real on both sides...\" only restates the concession from slide 2. \"The silence did the deciding\" is a tidy moral that tells the reader what to think.",
+     "Slide 7 (payoff / invented event): \"One month, the calls... stop coming. She didn't start feeling free. She just stopped buying.\" is presented as what happens next. It rests on one imagined mother, and it is a mirrored \"Not X. Y.\" construction. It is also a stronger claim than the topic supports, since the topic only says parents ask before spending. It reads as a wistful closer, not a sting the reader can use.",
+     "Slide 1 / cover: The hook \"Paying your parents' bills feels like love. Until your mother starts asking permission to buy a saree.\" is fine, but the saree never appears again. The reader gets kurta and mixer instead, so the cover's example does not pay off.",
+     "Relatability (fail 14): Only two concrete examples appear (kurta and mixer), and both are small purchases the reader may not have lived. No exact scene a stranger has seen, such as the parent asking before the grocery order or before a doctor visit, is shown.",
+     "Slide 2: \"₹25,000 goes out on the 5th\" is texture and fine. But \"The first month\" and \"Everyone breathes easier, you included\" is filler that explains something every reader already knows."
+    ],
+    "scores": {
+     "hook": 3,
+     "relatable": 3,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 2,
+     "voice": 3,
+     "eq": 3,
+     "iq": 3,
+     "story": 2,
+     "tight": 2,
+     "informative": 2
+    },
+    "notes": [
+     "slides 3-6: Merge these four into two. Keep slide 3 as the scene (the permission calls), then give one slide that names the mechanism once: whoever pays starts to decide, even though nobody asked for it. Cut the repeated \"theek hai na?\" and the second statement of the role flip. Right now the same idea appears four times.",
+     "slide 5: The strongest beat is the flip, where you once asked mummy for ₹500 and now she asks you. Give it its own slide with fresh wording and a concrete detail from your childhood (the pocket-money ask, the wait for her answer). Drop \"neither of you agreed to it\", which is a moral. Let the scene do the work.",
+     "slide 7: Replace the \"She just stopped buying\" close. It is wistful, it reuses a Not X. Y. rhythm, and it states a result as fact. Use the topic's payoff instead: you paid to take their burden and ended up taking the freedom to spend without asking. Say it plainly in the voice of someone typing out a thought, with one line the reader can repeat.",
+     "slides 1-3: Show three exact scenes every reader has seen. Use the saree from the cover, and add two more everyday ones, such as asking before ordering groceries or before getting a repair done. Pay off the saree on a later slide. Cut the slide 2 filler line about everyone breathing easier.",
+     "slide 4: Name the villain as the arrangement, not the child or the parent. The topic's villain is \"whoever pays quietly starts to decide\". Say that as a rule from the inside, and add one sensory detail (the tone of the voice on the phone, the pause before the question) where it fits."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Slide 4 (dead slide): \"They start to feel like guests in their own house.\" and its opening \"Money carries the right to decide... So they check with you first\" restate slide 3's \"Their bills got lighter. Their say got smaller.\" The post states the mechanism twice before it moves on.",
+    "Slide 5 (dead slide / sentiment): \"The roles flipped, and neither of you agreed to it.\" restates the flip that slide 4 already explained, and \"voice dropping before 'theek hai na?'\" repeats the line quoted on slide 3. The reader gets the same example again.",
+    "Slide 6 (dead slide): \"Taking the bills was the right call. The relief is real on both sides...\" only restates the concession from slide 2. \"The silence did the deciding\" is a tidy moral that tells the reader what to think.",
+    "Slide 7 (payoff / invented event): \"One month, the calls... stop coming. She didn't start feeling free. She just stopped buying.\" is presented as what happens next. It rests on one imagined mother, and it is a mirrored \"Not X. Y.\" construction. It is also a stronger claim than the topic supports, since the topic only says parents ask before spending. It reads as a wistful closer, not a sting the reader can use.",
+    "Slide 1 / cover: The hook \"Paying your parents' bills feels like love. Until your mother starts asking permission to buy a saree.\" is fine, but the saree never appears again. The reader gets kurta and mixer instead, so the cover's example does not pay off.",
+    "Relatability (fail 14): Only two concrete examples appear (kurta and mixer), and both are small purchases the reader may not have lived. No exact scene a stranger has seen, such as the parent asking before the grocery order or before a doctor visit, is shown.",
+    "Slide 2: \"₹25,000 goes out on the 5th\" is texture and fine. But \"The first month\" and \"Everyone breathes easier, you included\" is filler that explains something every reader already knows.",
+    "slides 3-6: Merge these four into two. Keep slide 3 as the scene (the permission calls), then give one slide that names the mechanism once: whoever pays starts to decide, even though nobody asked for it. Cut the repeated \"theek hai na?\" and the second statement of the role flip. Right now the same idea appears four times.",
+    "slide 5: The strongest beat is the flip, where you once asked mummy for ₹500 and now she asks you. Give it its own slide with fresh wording and a concrete detail from your childhood (the pocket-money ask, the wait for her answer). Drop \"neither of you agreed to it\", which is a moral. Let the scene do the work.",
+    "slide 7: Replace the \"She just stopped buying\" close. It is wistful, it reuses a Not X. Y. rhythm, and it states a result as fact. Use the topic's payoff instead: you paid to take their burden and ended up taking the freedom to spend without asking. Say it plainly in the voice of someone typing out a thought, with one line the reader can repeat.",
+    "slides 1-3: Show three exact scenes every reader has seen. Use the saree from the cover, and add two more everyday ones, such as asking before ordering groceries or before getting a repair done. Pay off the saree on a later slide. Cut the slide 2 filler line about everyone breathing easier.",
+    "slide 4: Name the villain as the arrangement, not the child or the parent. The topic's villain is \"whoever pays quietly starts to decide\". Say that as a rule from the inside, and add one sensory detail (the tone of the voice on the phone, the pause before the question) where it fits."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 3: 'The leaking geyser waits until your next visit home, so you can decide on the plumber.' and 'the chemist's UPI screenshot lands on WhatsApp, unasked.' Three examples are stacked, but the geyser and the screenshot are narrow, and the UPI screenshot is not clearly something every reader has seen. This falls under failure 14 (examples too narrow, pattern partly asserted).",
+     "Slide 4: 'Whoever pays starts to decide, even when the payer never wanted the job.' It restates the cover's claim (the cover already says this), so it is a dead slide (failure 7).",
+     "Slide 5: 'Once the money comes from your account, every rupee they spend feels a little like yours.' This is the because, but it says the same thing as slide 4 in new words and is a dead slide (failure 7). It also asserts what the parents feel, with no basis for it.",
+     "Slide 7: 'Now she's the one waiting. She saw a saree in the Diwali sale and called you before buying it.' The mirror of slide 6 is a real turn, but this slide also repeats the cover's saree line (the cover says she asks permission to buy a saree). Repeating the cover's example is a dead-slide issue (failure 7).",
+     "Slide 8: 'Love can pay for the medicines. It was never meant to sign off on the saree.' This is a tidy moral that also repeats the cover's saree line, so it fails the payoff test (failure 8). 'The freedom to spend without asking came along with it, and nobody noticed it leave' is wistful as well."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 3,
+     "eq": 4,
+     "iq": 3,
+     "story": 3,
+     "tight": 2,
+     "informative": 2
+    },
+    "notes": [
+     "Slides 4, 5 and 8: the idea of 'whoever pays decides' appears three times (cover, slide 4, slide 5, close). Merge slides 4 and 5 into one slide that says the mechanism once, in plain words. The topic's because is this: your parents start to feel like guests in their own spending, and the money carries the power with it, though nobody meant it to. Use that idea instead of repeating the claim, and drop slide 5.",
+     "Slide 3: Cut the geyser line (it is contrived: a plumber decision does not need your visit) and the unasked UPI screenshot. Replace them with small asks every reader has seen: 'Beta, ye le loon?' before a new pressure cooker, the pause before ordering from Blinkit, a call before a family gift. Keep three small, everyday examples with one touch of sound or feeling, such as her voice dropping when she asks.",
+     "Slide 8 and the cover: The saree appears in the cover, slide 7 and the close. Keep it in the cover only, or in slide 7 only. Give the close a new line that stings, not the moral 'love can pay for the medicines'. For example, point to the thing the reader will notice next time: the day you hear 'tum bol do toh le loon' and realise she used to buy sarees without asking anyone.",
+     "Slides 6 and 7: The flip, where you once asked for ₹500 and now she asks you, is the best beat in the post. Make it the centre. Merge 6 and 7 into one slide, remove the 'what happens next?' filler, and move it earlier so the post reaches its sting by slide 5 instead of repeating the claim.",
+     "Slide 2: '₹25,000 goes out on the 5th' is an invented figure presented as a scene, but it is fine as texture. Cut 'And it worked.' and the dull list 'electricity, medicines, society maintenance'. Open on a specific moment instead: the first month when the bills paid themselves and she told everyone you had taken it all over. That gives the reader the pride and relief before the turn."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Slide 3: 'The leaking geyser waits until your next visit home, so you can decide on the plumber.' and 'the chemist's UPI screenshot lands on WhatsApp, unasked.' Three examples are stacked, but the geyser and the screenshot are narrow, and the UPI screenshot is not clearly something every reader has seen. This falls under failure 14 (examples too narrow, pattern partly asserted).",
+    "Slide 4: 'Whoever pays starts to decide, even when the payer never wanted the job.' It restates the cover's claim (the cover already says this), so it is a dead slide (failure 7).",
+    "Slide 5: 'Once the money comes from your account, every rupee they spend feels a little like yours.' This is the because, but it says the same thing as slide 4 in new words and is a dead slide (failure 7). It also asserts what the parents feel, with no basis for it.",
+    "Slide 7: 'Now she's the one waiting. She saw a saree in the Diwali sale and called you before buying it.' The mirror of slide 6 is a real turn, but this slide also repeats the cover's saree line (the cover says she asks permission to buy a saree). Repeating the cover's example is a dead-slide issue (failure 7).",
+    "Slide 8: 'Love can pay for the medicines. It was never meant to sign off on the saree.' This is a tidy moral that also repeats the cover's saree line, so it fails the payoff test (failure 8). 'The freedom to spend without asking came along with it, and nobody noticed it leave' is wistful as well.",
+    "Slides 4, 5 and 8: the idea of 'whoever pays decides' appears three times (cover, slide 4, slide 5, close). Merge slides 4 and 5 into one slide that says the mechanism once, in plain words. The topic's because is this: your parents start to feel like guests in their own spending, and the money carries the power with it, though nobody meant it to. Use that idea instead of repeating the claim, and drop slide 5.",
+    "Slide 3: Cut the geyser line (it is contrived: a plumber decision does not need your visit) and the unasked UPI screenshot. Replace them with small asks every reader has seen: 'Beta, ye le loon?' before a new pressure cooker, the pause before ordering from Blinkit, a call before a family gift. Keep three small, everyday examples with one touch of sound or feeling, such as her voice dropping when she asks.",
+    "Slide 8 and the cover: The saree appears in the cover, slide 7 and the close. Keep it in the cover only, or in slide 7 only. Give the close a new line that stings, not the moral 'love can pay for the medicines'. For example, point to the thing the reader will notice next time: the day you hear 'tum bol do toh le loon' and realise she used to buy sarees without asking anyone.",
+    "Slides 6 and 7: The flip, where you once asked for ₹500 and now she asks you, is the best beat in the post. Make it the centre. Merge 6 and 7 into one slide, remove the 'what happens next?' filler, and move it earlier so the post reaches its sting by slide 5 instead of repeating the claim.",
+    "Slide 2: '₹25,000 goes out on the 5th' is an invented figure presented as a scene, but it is fine as texture. Cut 'And it worked.' and the dull list 'electricity, medicines, society maintenance'. Open on a specific moment instead: the first month when the bills paid themselves and she told everyone you had taken it all over. That gives the reader the pride and relief before the turn."
+   ]
+  }
+ ],
  "sources": [],
- "updated_at": "2026-11-10T16:38:24.888517+00:00"
+ "updated_at": "2026-11-10T16:45:14.741594+00:00",
+ "draft": {
+  "cover": {
+   "headline": "Paying your parents' bills comes with [a permission slip]",
+   "sub": "The money meant to free them changed who decides."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Paying your parents' bills feels like love. Until your mother starts asking permission to buy a saree.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "Why would a mother ask her own child for permission?"
+   },
+   {
+    "paragraphs": [
+     "You set up the standing instruction to take a weight off them. And it worked.",
+     "₹25,000 goes out on the 5th. The electricity, the medicines and the society maintenance just get paid."
+    ],
+    "why_swipe": "So where does it go wrong?"
+   },
+   {
+    "paragraphs": [
+     "Then the small calls start. \"Beta, Blinkit pe groceries order kar doon?\"",
+     "The leaking geyser waits until your next visit home, so you can decide on the plumber.",
+     "And the chemist's UPI screenshot lands on WhatsApp, unasked."
+    ],
+    "why_swipe": "Why are they reporting every rupee?"
+   },
+   {
+    "paragraphs": [
+     "You never asked for any of this. The arrangement did it. Whoever pays starts to decide, even when the payer never wanted the job."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "Once the money comes from your account, every rupee they spend feels a little like yours. You hear it in the small pause before the question."
+    ],
+    "why_swipe": "Where have you heard that pause before?"
+   },
+   {
+    "paragraphs": [
+     "At 15, you stood at the kitchen door asking for ₹500 for a friend's birthday gift. Then you waited while she thought about it."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "Now she's the one waiting. She saw a saree in the Diwali sale and called you before buying it."
+    ],
+    "why_swipe": "So what did the money really buy?"
+   },
+   {
+    "paragraphs": [
+     "You took over the bills to lift their burden. The freedom to spend without asking came along with it, and nobody noticed it leave.",
+     "Love can pay for the medicines. It was never meant to sign off on the saree."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Read it again before you set up next year's standing instruction for home.",
+   "send": "Send to the friend who just moved their parents' bills to their own account.",
+   "promise": "How Indian families really run on money."
+  },
+  "caption": "We took over the bills to give them a break and accidentally gave them a boss.",
+  "hashtags": [
+   "#IndianParents",
+   "#SupportingParents",
+   "#MoneyAndFamily",
+   "#IndianFamilies"
+  ],
+  "alt_text": "A six-slide text post. It argues that when adult children take over their parents' monthly bills through a standing instruction, parents begin asking permission before spending: checking before a Blinkit grocery order, waiting for the child's visit to fix a leaking geyser, sending UPI screenshots of the chemist's bill unasked. It says the arrangement is to blame, not the child or the parent: whoever pays starts to decide, and you hear it in the pause before the question. It recalls the child asking their mother for ₹500 at 15 and waiting for her answer, while now the mother calls before buying a saree in the Diwali sale. It ends by saying the bills were taken over to lift a burden, but the freedom to spend without asking went with them, and that love can pay for the medicines but was never meant to sign off on the saree.",
+  "claims": []
+ }
 }

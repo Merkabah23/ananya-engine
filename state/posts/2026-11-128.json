@@ -1,6 +1,6 @@
 {
  "id": "2026-11-128",
- "status": "approved",
+ "status": "failed",
  "due": "2026-11-17T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -386,7 +386,7 @@
    "why": "the writer's drafts kept padding a dead middle slide; hand-written in the approved voice (10 Nov)"
   }
  ],
- "updated_at": "2026-11-10T16:38:24.887380+00:00",
+ "updated_at": "2026-11-10T16:45:14.739728+00:00",
  "sources": [
   {
    "url": "https://www.freepressjournal.in/lifestyle/is-rent-becoming-the-biggest-dealbreaker-for-young-professionals",
@@ -466,5 +466,311 @@
   "alt_text": "A text post about how rent in big Indian cities takes the raise from a new job offer.",
   "claims": []
  },
- "owner_ok": true
+ "owner_ok": true,
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] Your offer letter tells you what you'll earn.\nYour landlord decides what you'll keep.\n \n\n[slide 1] Your offer letter tells you what you'll earn.\nYour landlord decides what you'll keep.\n\n[slide 2] You accept the offer at 6 PM. By 11 PM you're on a property app, and the happy feeling drops a little with every listing.\n\n[slide 3] Think about who else reads that number.\nRents near the office hubs follow what the people working there earn. Every hike in your sector reaches the listings before it reaches your account.\n\n[slide 4] So the raise you fought for over three rounds of negotiation changes hands in one rent agreement.\nIt still exists. It just lives with someone else.\n\n[slide 5] That's why the real question about any offer has changed.\nNot \"kitna mil raha hai?\" But \"kitna bachega?\"\n\n[slide 6] The CTC is the number you tell your parents.\nThe leftover is the number you live on.\n\n[slide 7] Read the next offer backwards. Subtract the rent of a flat you'd actually live in, before anything else.\nWhat's left is the real offer.\n\n[slide 8] Your company gave you the raise.\nYour landlord collected it.\n\n[end card] \n\n\n[caption] Your company gave you the raise. Your landlord collected it. What's left of yours after rent?\n\n[alt text] A text post about how rent in big Indian cities takes the raise from a new job offer.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Rents near office hubs rise with what the people working there earn, so a salary raise is largely absorbed by higher rent and the employee keeps little of it. Premises: (1) rents near office hubs track local salaries; (2) salary hikes in a sector show up in rent listings before they show up in employees' accounts. Conclusion: the raise goes to landlords.",
+     "sentence": "So the raise you fought for over three rounds of negotiation changes hands in one rent agreement.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "Rents near office hubs follow what the people working there earn.",
+     "sentence": "Rents near the office hubs follow what the people working there earn.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c3",
+     "text": "When salaries in a sector go up, rents in listings rise before the higher pay reaches employees' bank accounts.",
+     "sentence": "Every hike in your sector reaches the listings before it reaches your account.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c4",
+     "text": "Rent in big Indian cities takes up the raise a new job offer brings, for people who move to take a job.",
+     "sentence": "A text post about how rent in big Indian cities takes the raise from a new job offer.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "Rents near office hubs follow what the people working there earn.": {
+   "id": "c2",
+   "verdict": "unverifiable",
+   "correct": "No source directly tests whether rents near office hubs track local pay. Zonda's analysis of BLS wage data found US wage growth and rent growth have moved broadly in tandem nationally. At metro level, 46 of 66 major markets had rents growing faster than wages from May 2019 to May 2025. That supports a loose link but not a close one. The Knight Frank leads measure home-loan EMI-to-income ratios, not rents, so they do not support this claim.",
+   "sources": [
+    {
+     "url": "https://www.builderonline.com/?p=176118",
+     "publisher": "Builder (citing Zonda analysis of BLS data)",
+     "published_date": "2025-01-01",
+     "quote": "Where Income Growth Outpaces Rent Growth",
+     "tier": 2
+    }
+   ]
+  },
+  "When salaries in a sector go up, rents in listings rise before the higher pay reaches employees' bank accounts.": {
+   "id": "c3",
+   "verdict": "unverifiable",
+   "correct": "I found no evidence that listing rents rise before higher pay reaches employees. The research I found points the other way or is silent on timing: rents tend to respond to supply and vacancy, and to trail wage and job growth. This timing claim is not supported by any source I found.",
+   "sources": [
+    {
+     "url": "https://www.cfn.news/news/2016/1/5/office-employment-growth-has-not-translated-into-robust-leasing-and-rent-growth-heres-why",
+     "publisher": "CFN News",
+     "published_date": "2016-01-05",
+     "quote": "Office Employment Growth Has Not Translated into Robust Leasing and Rent Growth: Here’s Why",
+     "tier": 3
+    }
+   ]
+  },
+  "_skeptic": {
+   "083fc3a7b07014ed8fdc27a4f1fecad1f5cb2805": {
+    "holds": false,
+    "broken_premise": "Premise 2 and the conclusion fail. Premise 1 roughly holds: Magicbricks data ties Bengaluru's rent jump to strong IT hiring. Premise 2, that sector pay hikes show up in rent listings before they reach employees, is stated as fact with nothing behind it. Landlords set asking rents from current demand (hiring, how many flats are empty, metro links), not from expected appraisals. The conclusion that 'your landlord collected it' does not follow either. Rent is only a share of income, so even a 10–14% rent rise on that share is smaller in rupees than a 9% raise on the whole salary. For example, on ₹15 lakh CTC with ₹30,000/month rent, a 9% raise adds about ₹1.35 lakh a year before tax, while a 14% rent rise costs about ₹50,000. The landlord takes part of the raise, not all of it. For someone moving cities for a job, the new rent is a difference in living costs, not the raise being taken away.",
+    "actual_mechanism": "Residential rents near job hubs are set by local demand and supply: hiring in IT corridors pushes up demand for nearby flats, and asking rents follow the market. They are not pegged to salaries, and there is no lead-time link to appraisal cycles. Recently, rents in hot Bengaluru areas have risen faster in percentage terms than average pay (about 14% a year for rents in Q1 2026, 9–9.1% average raises). Because rent is a fraction of income, though, that eats part of a raise, and only eats all of it if the person also moves to a much pricier flat. The useful corrected point is the post's practical one: judge an offer by what is left after tax and a realistic rent, not by CTC.",
+    "take_survives": false,
+    "sources": [
+     {
+      "url": "https://www.outlookmoney.com/invest/residential-rents-climb-14-across-major-indian-cities-in-q1-2026",
+      "published_date": "2026-05-18",
+      "quote": "Average rents across major cities rose 14 per cent on a year-on-year (y-o-y) basis ... [Bengaluru surge driven by] strong hiring activity in IT and technology corridors (Magicbricks Rental Index)"
+     },
+     {
+      "url": "https://www.aon.com/apac/in-the-press/asia-newsroom/2026/aon-survey-projects-slight-uptick-in-salaries-in-india-2026",
+      "published_date": "2026-02-24",
+      "quote": "Aon plc projects that salaries in India will increase by 9.1 percent in 2026, according to its Annual Salary Increase and Turnover Survey 2025-26 India."
+     },
+     {
+      "url": "https://therealtytoday.com/news/housing-prices-in-sarjapur-and-thanisandra-surge-80-in-35-years-anarock-report",
+      "published_date": "2025",
+      "quote": "Rentals [on Thanisandra Main Road] grew 65% to ₹33,800 per month (Anarock, late 2021 to Q2 2025)"
+     },
+     {
+      "url": "https://www.geosquare.in/bengalurus-rental-market-impact-of-it-layoffs-and-hiring-freeze-379220275856-news",
+      "published_date": "2025-08",
+      "quote": "slowdown in demand attributed to large-scale layoffs in the IT sector, hiring freezes, and the rise of artificial intelligence"
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "e70507cc3327e012277fb4f6d84fe50242abd635": {
+    "passed": false,
+    "take_dead": true,
+    "notes": [
+     "The take's premise is wrong: Premise 2 and the conclusion fail. Premise 1 roughly holds: Magicbricks data ties Bengaluru's rent jump to strong IT hiring. Premise 2, that sector pay hikes show up in rent listings before they reach employees, is stated as fact with nothing behind it. Landlords set asking rents from current demand (hiring, how many flats are empty, metro links), not from expected appraisals. The conclusion that 'your landlord collected it' does not follow either. Rent is only a share of income, so even a 10–14% rent rise on that share is smaller in rupees than a 9% raise on the whole salary. For example, on ₹15 lakh CTC with ₹30,000/month rent, a 9% raise adds about ₹1.35 lakh a year before tax, while a 14% rent rise costs about ₹50,000. The landlord takes part of the raise, not all of it. For someone moving cities for a job, the new rent is a difference in living costs, not the raise being taken away.. How it actually works: Residential rents near job hubs are set by local demand and supply: hiring in IT corridors pushes up demand for nearby flats, and asking rents follow the market. They are not pegged to salaries, and there is no lead-time link to appraisal cycles. Recently, rents in hot Bengaluru areas have risen faster in percentage terms than average pay (about 14% a year for rents in Q1 2026, 9–9.1% average raises). Because rent is a fraction of income, though, that eats part of a raise, and only eats all of it if the person also moves to a much pricier flat. The useful corrected point is the post's practical one: judge an offer by what is left after tax and a realistic rent, not by CTC. Rebuild the post on the correct mechanism.",
+     "Could not verify: 'Rents near office hubs follow what the people working there earn.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'When salaries in a sector go up, rents in listings rise before the higher pay reaches employees' bank accounts.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Rents near office hubs rise with what the people working there earn, so a salary raise is largely absorbed by higher rent and the employee keeps little of it. Premises: (1) rents near office hubs track local salaries; (2) salary hikes in a sector show up in rent listings before they show up in employees' accounts. Conclusion: the raise goes to landlords.",
+      "sentence": "So the raise you fought for over three rounds of negotiation changes hands in one rent agreement.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Rents near office hubs follow what the people working there earn.",
+      "sentence": "Rents near the office hubs follow what the people working there earn.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "When salaries in a sector go up, rents in listings rise before the higher pay reaches employees' bank accounts.",
+      "sentence": "Every hike in your sector reaches the listings before it reaches your account.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Rent in big Indian cities takes up the raise a new job offer brings, for people who move to take a job.",
+      "sentence": "A text post about how rent in big Indian cities takes the raise from a new job offer.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c2": {
+      "id": "c2",
+      "verdict": "unverifiable",
+      "correct": "No source directly tests whether rents near office hubs track local pay. Zonda's analysis of BLS wage data found US wage growth and rent growth have moved broadly in tandem nationally. At metro level, 46 of 66 major markets had rents growing faster than wages from May 2019 to May 2025. That supports a loose link but not a close one. The Knight Frank leads measure home-loan EMI-to-income ratios, not rents, so they do not support this claim.",
+      "sources": [
+       {
+        "url": "https://www.builderonline.com/?p=176118",
+        "publisher": "Builder (citing Zonda analysis of BLS data)",
+        "published_date": "2025-01-01",
+        "quote": "Where Income Growth Outpaces Rent Growth",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "unverifiable",
+      "correct": "I found no evidence that listing rents rise before higher pay reaches employees. The research I found points the other way or is silent on timing: rents tend to respond to supply and vacancy, and to trail wage and job growth. This timing claim is not supported by any source I found.",
+      "sources": [
+       {
+        "url": "https://www.cfn.news/news/2016/1/5/office-employment-growth-has-not-translated-into-robust-leasing-and-rent-growth-heres-why",
+        "publisher": "CFN News",
+        "published_date": "2016-01-05",
+        "quote": "Office Employment Growth Has Not Translated into Robust Leasing and Rent Growth: Here’s Why",
+        "tier": 3
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "Premise 2 and the conclusion fail. Premise 1 roughly holds: Magicbricks data ties Bengaluru's rent jump to strong IT hiring. Premise 2, that sector pay hikes show up in rent listings before they reach employees, is stated as fact with nothing behind it. Landlords set asking rents from current demand (hiring, how many flats are empty, metro links), not from expected appraisals. The conclusion that 'your landlord collected it' does not follow either. Rent is only a share of income, so even a 10–14% rent rise on that share is smaller in rupees than a 9% raise on the whole salary. For example, on ₹15 lakh CTC with ₹30,000/month rent, a 9% raise adds about ₹1.35 lakh a year before tax, while a 14% rent rise costs about ₹50,000. The landlord takes part of the raise, not all of it. For someone moving cities for a job, the new rent is a difference in living costs, not the raise being taken away.",
+     "actual_mechanism": "Residential rents near job hubs are set by local demand and supply: hiring in IT corridors pushes up demand for nearby flats, and asking rents follow the market. They are not pegged to salaries, and there is no lead-time link to appraisal cycles. Recently, rents in hot Bengaluru areas have risen faster in percentage terms than average pay (about 14% a year for rents in Q1 2026, 9–9.1% average raises). Because rent is a fraction of income, though, that eats part of a raise, and only eats all of it if the person also moves to a much pricier flat. The useful corrected point is the post's practical one: judge an offer by what is left after tax and a realistic rent, not by CTC.",
+     "take_survives": false,
+     "sources": [
+      {
+       "url": "https://www.outlookmoney.com/invest/residential-rents-climb-14-across-major-indian-cities-in-q1-2026",
+       "published_date": "2026-05-18",
+       "quote": "Average rents across major cities rose 14 per cent on a year-on-year (y-o-y) basis ... [Bengaluru surge driven by] strong hiring activity in IT and technology corridors (Magicbricks Rental Index)"
+      },
+      {
+       "url": "https://www.aon.com/apac/in-the-press/asia-newsroom/2026/aon-survey-projects-slight-uptick-in-salaries-in-india-2026",
+       "published_date": "2026-02-24",
+       "quote": "Aon plc projects that salaries in India will increase by 9.1 percent in 2026, according to its Annual Salary Increase and Turnover Survey 2025-26 India."
+      },
+      {
+       "url": "https://therealtytoday.com/news/housing-prices-in-sarjapur-and-thanisandra-surge-80-in-35-years-anarock-report",
+       "published_date": "2025",
+       "quote": "Rentals [on Thanisandra Main Road] grew 65% to ₹33,800 per month (Anarock, late 2021 to Q2 2025)"
+      },
+      {
+       "url": "https://www.geosquare.in/bengalurus-rental-market-impact-of-it-layoffs-and-hiring-freeze-379220275856-news",
+       "published_date": "2025-08",
+       "quote": "slowdown in demand attributed to large-scale layoffs in the IT sector, hiring freezes, and the rise of artificial intelligence"
+      }
+     ]
+    },
+    "text_hash": "e70507cc3327e012277fb4f6d84fe50242abd635",
+    "at": "2026-11-10T16:40:35.336660+00:00"
+   }
+  }
+ },
+ "verification": {
+  "passed": false,
+  "take_dead": true,
+  "notes": [
+   "The take's premise is wrong: Premise 2 and the conclusion fail. Premise 1 roughly holds: Magicbricks data ties Bengaluru's rent jump to strong IT hiring. Premise 2, that sector pay hikes show up in rent listings before they reach employees, is stated as fact with nothing behind it. Landlords set asking rents from current demand (hiring, how many flats are empty, metro links), not from expected appraisals. The conclusion that 'your landlord collected it' does not follow either. Rent is only a share of income, so even a 10–14% rent rise on that share is smaller in rupees than a 9% raise on the whole salary. For example, on ₹15 lakh CTC with ₹30,000/month rent, a 9% raise adds about ₹1.35 lakh a year before tax, while a 14% rent rise costs about ₹50,000. The landlord takes part of the raise, not all of it. For someone moving cities for a job, the new rent is a difference in living costs, not the raise being taken away.. How it actually works: Residential rents near job hubs are set by local demand and supply: hiring in IT corridors pushes up demand for nearby flats, and asking rents follow the market. They are not pegged to salaries, and there is no lead-time link to appraisal cycles. Recently, rents in hot Bengaluru areas have risen faster in percentage terms than average pay (about 14% a year for rents in Q1 2026, 9–9.1% average raises). Because rent is a fraction of income, though, that eats part of a raise, and only eats all of it if the person also moves to a much pricier flat. The useful corrected point is the post's practical one: judge an offer by what is left after tax and a realistic rent, not by CTC. Rebuild the post on the correct mechanism.",
+   "Could not verify: 'Rents near office hubs follow what the people working there earn.'. Cut it, or state it only if a source says it.",
+   "Could not verify: 'When salaries in a sector go up, rents in listings rise before the higher pay reaches employees' bank accounts.'. Cut it, or state it only if a source says it."
+  ],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Rents near office hubs rise with what the people working there earn, so a salary raise is largely absorbed by higher rent and the employee keeps little of it. Premises: (1) rents near office hubs track local salaries; (2) salary hikes in a sector show up in rent listings before they show up in employees' accounts. Conclusion: the raise goes to landlords.",
+    "sentence": "So the raise you fought for over three rounds of negotiation changes hands in one rent agreement.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "Rents near office hubs follow what the people working there earn.",
+    "sentence": "Rents near the office hubs follow what the people working there earn.",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c3",
+    "text": "When salaries in a sector go up, rents in listings rise before the higher pay reaches employees' bank accounts.",
+    "sentence": "Every hike in your sector reaches the listings before it reaches your account.",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c4",
+    "text": "Rent in big Indian cities takes up the raise a new job offer brings, for people who move to take a job.",
+    "sentence": "A text post about how rent in big Indian cities takes the raise from a new job offer.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c2": {
+    "id": "c2",
+    "verdict": "unverifiable",
+    "correct": "No source directly tests whether rents near office hubs track local pay. Zonda's analysis of BLS wage data found US wage growth and rent growth have moved broadly in tandem nationally. At metro level, 46 of 66 major markets had rents growing faster than wages from May 2019 to May 2025. That supports a loose link but not a close one. The Knight Frank leads measure home-loan EMI-to-income ratios, not rents, so they do not support this claim.",
+    "sources": [
+     {
+      "url": "https://www.builderonline.com/?p=176118",
+      "publisher": "Builder (citing Zonda analysis of BLS data)",
+      "published_date": "2025-01-01",
+      "quote": "Where Income Growth Outpaces Rent Growth",
+      "tier": 2
+     }
+    ]
+   },
+   "c3": {
+    "id": "c3",
+    "verdict": "unverifiable",
+    "correct": "I found no evidence that listing rents rise before higher pay reaches employees. The research I found points the other way or is silent on timing: rents tend to respond to supply and vacancy, and to trail wage and job growth. This timing claim is not supported by any source I found.",
+    "sources": [
+     {
+      "url": "https://www.cfn.news/news/2016/1/5/office-employment-growth-has-not-translated-into-robust-leasing-and-rent-growth-heres-why",
+      "publisher": "CFN News",
+      "published_date": "2016-01-05",
+      "quote": "Office Employment Growth Has Not Translated into Robust Leasing and Rent Growth: Here’s Why",
+      "tier": 3
+     }
+    ]
+   }
+  },
+  "mechanism": {
+   "holds": false,
+   "broken_premise": "Premise 2 and the conclusion fail. Premise 1 roughly holds: Magicbricks data ties Bengaluru's rent jump to strong IT hiring. Premise 2, that sector pay hikes show up in rent listings before they reach employees, is stated as fact with nothing behind it. Landlords set asking rents from current demand (hiring, how many flats are empty, metro links), not from expected appraisals. The conclusion that 'your landlord collected it' does not follow either. Rent is only a share of income, so even a 10–14% rent rise on that share is smaller in rupees than a 9% raise on the whole salary. For example, on ₹15 lakh CTC with ₹30,000/month rent, a 9% raise adds about ₹1.35 lakh a year before tax, while a 14% rent rise costs about ₹50,000. The landlord takes part of the raise, not all of it. For someone moving cities for a job, the new rent is a difference in living costs, not the raise being taken away.",
+   "actual_mechanism": "Residential rents near job hubs are set by local demand and supply: hiring in IT corridors pushes up demand for nearby flats, and asking rents follow the market. They are not pegged to salaries, and there is no lead-time link to appraisal cycles. Recently, rents in hot Bengaluru areas have risen faster in percentage terms than average pay (about 14% a year for rents in Q1 2026, 9–9.1% average raises). Because rent is a fraction of income, though, that eats part of a raise, and only eats all of it if the person also moves to a much pricier flat. The useful corrected point is the post's practical one: judge an offer by what is left after tax and a realistic rent, not by CTC.",
+   "take_survives": false,
+   "sources": [
+    {
+     "url": "https://www.outlookmoney.com/invest/residential-rents-climb-14-across-major-indian-cities-in-q1-2026",
+     "published_date": "2026-05-18",
+     "quote": "Average rents across major cities rose 14 per cent on a year-on-year (y-o-y) basis ... [Bengaluru surge driven by] strong hiring activity in IT and technology corridors (Magicbricks Rental Index)"
+    },
+    {
+     "url": "https://www.aon.com/apac/in-the-press/asia-newsroom/2026/aon-survey-projects-slight-uptick-in-salaries-in-india-2026",
+     "published_date": "2026-02-24",
+     "quote": "Aon plc projects that salaries in India will increase by 9.1 percent in 2026, according to its Annual Salary Increase and Turnover Survey 2025-26 India."
+    },
+    {
+     "url": "https://therealtytoday.com/news/housing-prices-in-sarjapur-and-thanisandra-surge-80-in-35-years-anarock-report",
+     "published_date": "2025",
+     "quote": "Rentals [on Thanisandra Main Road] grew 65% to ₹33,800 per month (Anarock, late 2021 to Q2 2025)"
+    },
+    {
+     "url": "https://www.geosquare.in/bengalurus-rental-market-impact-of-it-layoffs-and-hiring-freeze-379220275856-news",
+     "published_date": "2025-08",
+     "quote": "slowdown in demand attributed to large-scale layoffs in the IT sector, hiring freezes, and the rise of artificial intelligence"
+    }
+   ]
+  },
+  "text_hash": "e70507cc3327e012277fb4f6d84fe50242abd635",
+  "at": "2026-11-10T16:40:35.336660+00:00"
+ },
+ "error": "Fact gate: The take's premise is wrong: Premise 2 and the conclusion fail. Premise 1 roughly holds: Magicbricks data ties Bengaluru's rent jump to strong IT hiring. Premise 2, that sector pay hikes show up in rent listings before they reach employees, is stated as fact with nothing behind it. Landlords set asking rents from current demand (hiring, how many flats are empty, metro links), not from expected appraisals. The conclusion that 'your landlord collected it' does not follow either. Rent is only a share of income, so even a 10–14% rent rise on that share is smaller in rupees than a 9% raise on the whole salary. For example, on ₹15 lakh CTC with ₹30,000/month rent, a 9% raise adds about ₹1.35 lakh a year before tax, while a 14% rent rise costs about ₹50,000. The landlord takes part of the raise, not all of it. For someone moving cities for a job, the new rent is a difference in livin"
 }
