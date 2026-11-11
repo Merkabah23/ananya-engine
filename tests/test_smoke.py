@@ -188,3 +188,38 @@ def test_cancelled_posts_come_out_of_buffer(tmp_path, monkeypatch):
     cli.unschedule_cancelled()
     kept = state.read("posts", "2099-11-03.json")
     assert kept["buffer_post_id"] == "def" and "refused" in kept["unschedule_error"]  # tried again next run
+
+
+def test_session_limit_stops_the_run_without_retrying(monkeypatch):
+    import json as _json, subprocess
+    runs = []
+    class P:
+        returncode, stderr = 1, ""
+        stdout = _json.dumps({"is_error": True, "result": "You've hit your session limit · resets 11:40pm"})
+    monkeypatch.setattr(subprocess, "run", lambda *a, **k: runs.append(1) or P())
+    monkeypatch.setattr(llm, "append_jsonl", lambda *a, **k: None)
+    with pytest.raises(SystemExit, match="usage limit"):
+        llm.call("sonnet", "hi", stage="verify")
+    assert len(runs) == 1
+
+
+def test_a_top_up_reuses_a_recent_news_scan(tmp_path, monkeypatch):
+    from datetime import datetime, timezone
+    from engine import scout
+    monkeypatch.setattr(config, "STATE", tmp_path / "state")
+    state.write([{"id": "news-1", "url": "https://n/1"}], "2099-11", "news.json")
+    state.write({"at": datetime.now(timezone.utc).isoformat()}, "2099-11", "news_at.json")
+    fetched = []
+    monkeypatch.setattr(scout, "_fetch_news", lambda: fetched.append(1) or [])
+    class Stop(Exception):
+        pass
+    def stop(month):
+        raise Stop()
+    monkeypatch.setattr(scout, "fetch_reddit", stop)
+    with pytest.raises(Stop):
+        scout.run("2099-11", fresh_news=True)
+    assert fetched == []  # scanned under 5 days ago: reused
+    state.write({"at": "2020-01-01T00:00:00+00:00"}, "2099-11", "news_at.json")
+    with pytest.raises(Stop):
+        scout.run("2099-11", fresh_news=True)
+    assert fetched == [1]

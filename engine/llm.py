@@ -59,7 +59,7 @@ def call(model: str, user: str, *, stage: str = "", tools: list | None = None, t
         if proc.returncode == 0 and not out.get("is_error"):
             return out.get("result", "")
         last = str(out.get("result", ""))[:300]
-        if re.search(r"usage limit|rate limit|limit reached", last, re.I):
+        if re.search(r"usage limit|rate limit|limit reached|session limit|hit your .{0,20}limit", last, re.I):
             raise SystemExit(f"Subscription usage limit hit during {stage}; the next scheduled run will continue. ({last})")
         time.sleep(20 * (attempt + 1))
     raise RuntimeError(f"Claude call failed after {retries} attempts in {stage}: {last}")

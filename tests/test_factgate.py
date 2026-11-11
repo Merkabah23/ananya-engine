@@ -129,3 +129,20 @@ def test_an_edit_only_rereads_the_changed_sentences(monkeypatch):
     out = factgate.verify(post, {"slides": [{"paragraphs": ["A bank goes by your score.", "He knows why you didn't."]}]}, on_page)
     assert "- He knows why you didn't." in asks[-1] and "- A bank goes by your score." not in asks[-1]
     assert [c["text"] for c in out["ledger"]] == ["Banks use credit scores"] and out["passed"]
+
+
+def test_a_take_that_held_is_not_rechecked_on_every_rewrite(monkeypatch):
+    from engine import factgate
+    calls = []
+    monkeypatch.setattr(factgate, "ledger", lambda draft, due, prior=None: [
+        {"id": "c1", "text": f"mechanism worded as {draft['slides'][0]['paragraphs'][0]}", "type": "mechanism"}])
+    monkeypatch.setattr(factgate, "skeptic", lambda d, a, due: calls.append(1) or {"holds": True})
+    post = {"id": "x", "due": "2099-11-01T20:30:00+05:30", "topic": {"claim": "the take"}}
+    factgate.verify(post, {"slides": [{"paragraphs": ["first wording"]}]})
+    factgate.verify(post, {"slides": [{"paragraphs": ["second wording"]}]})
+    assert len(calls) == 1  # same take, reworded: one mechanism check
+    monkeypatch.setattr(factgate, "skeptic", lambda d, a, due: calls.append(1) or {"holds": False, "take_survives": True})
+    post2 = {"id": "y", "due": "2099-11-01T20:30:00+05:30", "topic": {"claim": "another take"}}
+    factgate.verify(post2, {"slides": [{"paragraphs": ["a"]}]})
+    factgate.verify(post2, {"slides": [{"paragraphs": ["b"]}]})
+    assert len(calls) == 3  # a take that failed is always checked again

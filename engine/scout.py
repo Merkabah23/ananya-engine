@@ -6,7 +6,7 @@ fall back to Claude's own web search over reddit.com.
 from __future__ import annotations
 
 import json
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 from . import config, corpus, llm, state
 from .reddit import Blocked, Reddit
@@ -89,21 +89,27 @@ NEWS_THEMES = {
 }
 
 
+# Two themes per web search: the same coverage in half the calls (the scan was ~11% of all model spend).
+NEWS_SCANS = [("brands", "startups"), ("consumers", "society"), ("world", "trending"), ("sports", "screen"), ("work", "internet")]
+NEWS_REUSE_DAYS = 5
+
+
 def _fetch_news() -> list[dict]:
-    """What happened in India in the last 30 days, scanned as three themes in parallel."""
-    def scan(theme: str) -> list[dict]:
-        ask = (f"Search the web for what happened in India in the last 30 days in this area: {NEWS_THEMES[theme]}. "
+    """What happened in India in the last 30 days, scanned as five paired themes in parallel."""
+    def scan(pair: tuple) -> list[dict]:
+        areas = " AND ".join(NEWS_THEMES[t] for t in pair)
+        ask = (f"Search the web for what happened in India in the last 30 days in these two areas: {areas}. "
                "Focus on what ordinary working Indians actually noticed, talked about or felt. Open each page with WebFetch "
                "and take the date from the page itself, never from memory. Skip anything older than 30 days, party "
-               "politics, crime and disasters. Find 8 distinct items, each with its source.\n\n"
+               "politics, crime and disasters. Find 14 distinct items, at least 6 from each area, each with its source.\n\n"
                'Return only JSON: {"items": [{"source": "news", "title": "...", "date": "YYYY-MM-DD as printed on the page", '
                '"url": "...", "body": "3-5 sentences: what happened, any key number exactly as the page states it, and what people '
                'are saying about it"}]}')
-        return llm.call_json(config.MODEL_JUDGE, ask, stage=f"scout-news-{theme}",
+        return llm.call_json(config.MODEL_JUDGE, ask, stage=f"scout-news-{'+'.join(pair)}",
                              tools=[llm.web_search_tool(), "WebFetch"], timeout=1800).get("items", [])
-    results = llm.pmap(scan, list(NEWS_THEMES))
+    results = llm.pmap(scan, NEWS_SCANS)
     items, seen = [], set()
-    for theme, res in zip(NEWS_THEMES, results):
+    for theme, res in zip(NEWS_SCANS, results):
         if isinstance(res, Exception):
             state.log("scout", f"news scan '{theme}' failed: {res}")
             continue
@@ -193,10 +199,13 @@ def run(month: str | None = None, fresh_news: bool = False) -> list[dict]:
     """Culture first: topics come from what India is watching, buying and arguing about, plus evergreen
     observations. Reddit is then used as evidence and texture, never as the origin of a topic."""
     month = month or datetime.now(timezone.utc).strftime("%Y-%m")
-    news = None if fresh_news else state.read(month, "news.json")  # a mid-month top-up reads today's news
-    if news is None:
+    news = state.read(month, "news.json")
+    scanned = (state.read(month, "news_at.json") or {}).get("at", "")
+    recent = scanned > (datetime.now(timezone.utc) - timedelta(days=NEWS_REUSE_DAYS)).isoformat()
+    if news is None or (fresh_news and not recent):  # a top-up rescans only when the last scan is 5+ days old
         news = _fetch_news()
         state.write(news, month, "news.json")
+        state.write({"at": datetime.now(timezone.utc).isoformat()}, month, "news_at.json")
     reddit = [t for t in fetch_reddit(month) if "reddit.com" in t.get("url", "")]
     persona = llm.prompt("persona")
     prompt_head = llm.fill(llm.prompt("scout"), persona=persona, tired_tropes=tired_tropes()) + "\n\n## Items\n"
