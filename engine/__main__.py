@@ -173,6 +173,39 @@ def unschedule_cancelled() -> None:
         state.save_post(post)
 
 
+def recaption(limit: int = 8) -> None:
+    """Posts written before the caption step (11 Nov) get the new caption and hashtags, soonest first. The new text is
+    fact-checked like any other; if it doesn't pass, the old caption stays. A post already in Buffer is taken out and
+    goes back in with the new caption on this run's push. Posts due within 3 hours are left alone."""
+    from . import caption
+    soon = datetime.now(timezone.utc) + timedelta(hours=3)
+    todo = sorted((p for p in state.posts() if p["status"] in ("written", "uploaded", "scheduled") and p.get("draft")
+                   and p.get("due") and datetime.fromisoformat(p["due"]) > soon
+                   and (p["draft"] or {}).get("caption_v") != 2), key=lambda p: p["due"])
+    for post in todo[:limit]:
+        trial = {**post["draft"], **caption.make(post, post["draft"])}
+        if trial.get("caption_v") != 2:
+            continue
+        verification = factgate.verify(post, trial)
+        if not verification["passed"]:
+            post["draft"]["caption_v"] = 2  # tried once; keep the verified old caption rather than retry every day
+            state.save_post(post)
+            state.log("caption", f"{post['id']} new caption not verified, kept the old one: {verification['notes'][:1]}")
+            continue
+        if post["status"] == "scheduled" and post.get("buffer_post_id"):
+            try:
+                buffer.unschedule(post["buffer_post_id"])
+            except Exception as e:  # noqa: BLE001 - leave it as it is in Buffer rather than risk a double post
+                state.log("caption", f"{post['id']} kept its old caption: couldn't take it out of Buffer: {str(e)[:200]}")
+                continue
+            post["deleted_buffer_ids"] = post.get("deleted_buffer_ids", []) + [post.pop("buffer_post_id")]
+            post.pop("buffer_attempted_at", None)
+            post["status"] = "uploaded"
+        post["draft"], post["verification"] = trial, verification
+        state.save_post(post)
+        state.log("caption", f"{post['id']} new caption ({trial.get('caption_style')}), tags {' '.join(trial['hashtags'])}")
+
+
 def push(days: int = config.PUSH_DAYS) -> None:
     unschedule_cancelled()
     now = datetime.now(timezone.utc)
@@ -331,6 +364,10 @@ def main() -> None:
             published.record_live()  # what went live since the last run joins the log the writer checks against
             produce(limit=config.PRODUCE_PER_RUN)
         finally:  # a usage cap mid-writing must not stop ready posts reaching Buffer
+            try:  # older posts move to the new caption shape before they go out
+                recaption()
+            except (Exception, SystemExit) as e:
+                state.log("caption", f"recaption stopped: {e}")
             push(a.days)
             try:  # planning ahead comes last, so it can never hold up today's posts
                 top_up()

@@ -167,8 +167,8 @@ def test_italic_markers_render_and_are_stripped_from_text():
 
 
 def test_hashtags_brand_first_clean_and_capped():
-    tags = buffer.hashtags({"hashtags": ["PersonalFinanceIndia", "#Diwali 2026", "#aboveMRP", "#a", "#b", "#c", "#d"]})
-    assert tags[0] == "#AboveMRP" and len(tags) == 5
+    tags = buffer.hashtags({"hashtags": ["#Diwali 2026", "PersonalFinanceIndia", "#aboveMRP", "#a", "#b", "#c", "#d"]})
+    assert tags[0] == "#AboveMRP" and len(tags) == 3
     assert "#Diwali2026" in tags and sum(t.lower() == "#abovemrp" for t in tags) == 1
     assert buffer.caption_with_tags({"caption": "Which one are you?", "hashtags": ["#X"]}) == "Which one are you?\n\n#AboveMRP #X"
 
@@ -456,3 +456,47 @@ def test_new_topics_are_spaced_from_posts_already_in_the_calendar():
              "score": {"format_fit": "either"}}
     plan = topic_filter._assign([fam, other], slots, around)
     assert plan[0]["topic"]["id"] == "o"
+
+
+# --- caption step (11 Nov) ---------------------------------------------------------------------------------------
+from engine import caption as cap_mod
+
+CAP_DRAFT = {"slides": [{"paragraphs": ["The extra ₹1 in a shagun envelope isn't for luck."]},
+                        {"paragraphs": ["Your mother keeps a diary of who gave what."]}],
+             "end": {"send": "Send this to the cousin who keeps the diary now."}}
+CAP_POST = {"id": "2099-12-010", "due": "2099-12-05T20:30:00+05:30", "topic": {"claim": "c", "lived": False, "territory": "life_relationships"}}
+GOOD_CAP = {"line": "Every shagun envelope is a loan your family expects back, with interest.",
+            "body": ["\"Unhone kitna diya tha?\" is asked before every wedding."], "ask_type": "send",
+            "ask": "Send this to the cousin who keeps the diary now.", "search_phrase": "shagun envelope", "topic_tag": "#Shagun"}
+
+
+def test_a_good_caption_has_no_problems():
+    assert cap_mod.problems(CAP_POST, CAP_DRAFT, GOOD_CAP) == []
+    assert cap_mod.assemble(GOOD_CAP).endswith("diary now.") and "\n\n" in cap_mod.assemble(GOOD_CAP)
+
+
+def test_caption_checks_catch_the_old_failures():
+    bad = {**GOOD_CAP, "line": "The extra ₹1 in a shagun envelope isn't for luck.", "ask": "What do you think?",
+           "ask_type": "send", "topic_tag": "#viral", "body": ["I keep my own diary of ₹501 gifts."]}
+    found = " ".join(cap_mod.problems(CAP_POST, CAP_DRAFT, bad))
+    for want in ("repeats slide 1", "Send this to", "topic_tag", "no I, me or my", "₹501"):
+        assert want in found, want
+    missing = {**GOOD_CAP, "search_phrase": "wedding gifts"}
+    assert any("search_phrase" in p for p in cap_mod.problems(CAP_POST, CAP_DRAFT, missing))
+
+
+def test_caption_fix_loop_and_three_tags(monkeypatch):
+    replies = iter([{**GOOD_CAP, "topic_tag": "#viral"}, GOOD_CAP])
+    monkeypatch.setattr(cap_mod.llm, "call_json", lambda *a, **k: next(replies))
+    monkeypatch.setattr(cap_mod.state, "posts", lambda *a: [])
+    out = cap_mod.make(CAP_POST, CAP_DRAFT)
+    assert out["caption_v"] == 2 and out["caption_style"] == "send"
+    assert out["hashtags"] == ["#Shagun", "#IndianFamily"]
+    from engine import buffer
+    assert buffer.hashtags(out) == ["#AboveMRP", "#Shagun", "#IndianFamily"]
+
+
+def test_territory_tag_rotates_within_a_week(monkeypatch):
+    near = [{"id": "x", "due": "2099-12-03T20:30:00+05:30", "status": "scheduled", "draft": {"hashtags": ["#IndianFamily"]}}]
+    monkeypatch.setattr(cap_mod.state, "posts", lambda *a: near)
+    assert cap_mod.territory_tag(CAP_POST) == "#DesiParents"

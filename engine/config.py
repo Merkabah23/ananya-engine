@@ -80,7 +80,7 @@ END_CARD = os.getenv("END_CARD", "true").lower() == "true"  # a teal end card af
 END_PROMISE = "The real price of things in India."  # a post can set its own line in draft.end.promise
 END_FOLLOW_LINE = os.getenv("END_FOLLOW_LINE", "")  # owner removed the posting-days line from the end card
 MONOGRAM = "A/M"  # fallback slide-header mark when assets/avatar.png is missing
-MAX_HASHTAGS = 5  # Instagram caps posts at 5 hashtags (Dec 2025)
+MAX_HASHTAGS = 3  # this post's tag, a rotated territory tag, #AboveMRP (Instagram allows 5 since Dec 2025; tags are labels, not reach)
 VERIFIED = False              # never draw a tick unless the account is verified
 
 # Publishing

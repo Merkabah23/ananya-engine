@@ -12,7 +12,7 @@ import re
 import statistics
 import zlib
 
-from . import config, corpus, factgate, llm, state
+from . import caption, config, corpus, factgate, llm, state
 
 FORMAT_RULES = {
     "carousel": "a reel of 6 to 8 text screens, as few as the idea needs, each read in a few seconds. Slide 1 is at "
@@ -344,17 +344,6 @@ def hard_checks(draft: dict, fmt: str, sources: list[dict]) -> list[str]:
 
 
 
-CAPTION_STYLES = {
-    "question": "a specific question that invites the reader's own version (not a generic 'what do you think?').",
-    "pov": "a one-line point of view in his voice, a confession or a dry aside, no question mark.",
-}
-
-
-def caption_style(post: dict) -> str:
-    """Alternate caption shapes so the feed doesn't settle into one template, and the scorecard can compare them."""
-    return post.get("caption_style") or ("question" if zlib.crc32(post["id"].encode()) % 2 == 0 else "pov")
-
-
 def approved_posts() -> list[dict]:
     return json.loads((config.DATA / "approved_posts.json").read_text())
 
@@ -516,7 +505,6 @@ def write_post(post: dict, notes: str = "") -> dict:
             topic=json.dumps({k: topic.get(k) for k in TOPIC_FIELDS if topic.get(k)}, ensure_ascii=False, indent=1),
             sources=json.dumps(evidence, ensure_ascii=False, indent=1) if evidence else "(none: use no statistics)",
             voice_examples=voice_examples(seed + attempt),
-            caption_style=CAPTION_STYLES[caption_style(post)],
             revision_notes=notes,
         )
         draft = llm.call_json(config.MODEL_WRITER, user, stage="write", max_tokens=5000)
@@ -543,7 +531,7 @@ def write_post(post: dict, notes: str = "") -> dict:
                 if not varun_passes(voice):
                     review = {"violations": varun_notes(voice)}
             if passes(review):
-                draft["caption_style"] = caption_style(post)
+                draft.update(caption.make(post, draft))  # its own step: a caption problem never costs a slide rewrite
                 verification = factgate.verify(post, draft)
                 post["history"].append({"attempt": attempt, "verification": verification})
                 if verification["passed"]:

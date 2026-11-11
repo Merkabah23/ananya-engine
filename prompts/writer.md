@@ -102,8 +102,6 @@ Every slide is shown exactly as you write it, as a plain post card: the page's p
 ## Sources you may cite (only these and the topic's proof; if empty, use no statistics)
 {sources}
 
-Caption style for this post: {caption_style}
-
 {revision_notes}
 
 Return only JSON:
@@ -111,8 +109,6 @@ Return only JSON:
   "cover": {"headline": "6-12 words, the take as a claim, with exactly one key phrase in [brackets]", "sub": "one short line under it (the hook's tension, under 14 words)"},
   "slides": [{"paragraphs": ["...", "..."], "why_swipe": "for every slide except the last: the question or pull that makes the reader swipe to the next slide"}],
   "end": {"save": "one line under a 'Save this' heading: the exact moment to come back (e.g. 'Read it again before your next appraisal meeting.'); don't start with 'Save'", "send": "one line: a specific person and why it's them (e.g. 'Send to the friend who complains about café prices from the same café every weekend.'), never 'someone who needs this'", "promise": "optional: under 8 words, what this page is, fitted to this post (e.g. 'How Indian offices really work.')"},
-  "caption": "one line: either a specific question that invites the reader's own version, or a one-line point of view in your voice. No hashtags here",
-  "hashtags": ["3-4 specific, descriptive hashtags a reader would search for this topic. No #AboveMRP (added automatically), no generic tags like #viral"],
   "alt_text": "plain description of the post for screen readers",
   "claims": [{"text": "every factual claim with a number, date or named fact (often none)", "source_url": "from the sources list, or 'topic' for the topic's proof", "derived_from": "only for a number you worked out: the sum"}]
 }
