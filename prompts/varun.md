@@ -30,6 +30,7 @@ This account is Varun's argument carried by a few extra moves. These are on-voic
 ## The draft
 {post}
 
+{revision}
 ## What to do
 Read every line the reader sees: the cover headline and sub-line, every slide, the end card (save and send lines) and the caption. For each line ask: would Varun type this, in this register? Keep every line that already sounds like him exactly as it is, and don't flag it.
 

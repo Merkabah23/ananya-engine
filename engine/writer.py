@@ -130,7 +130,8 @@ MECHANICAL = ("sentence has", "paragraphs; use at most", "more than 4 sentences"
 
 
 # Small wording problems: a targeted edit to the named line fixes them without a rewrite.
-WORDING = ("Remove the phrase", "reads above the page's level", "'Nobody' appears more than four times", "words; the limit is", "Every sentence is about the same length",
+WORDING = ("Remove the phrase", "reads above the page's level", "'Nobody' appears more than four times", "words; the limit is",
+           "words; keep it under", "have no why_swipe", "Every sentence is about the same length",
            "isn't in the sources; source it or remove it", "The post carries", "The send line names no specific person")
 
 
@@ -148,7 +149,7 @@ def polish(draft: dict, problems: list[str]) -> dict:
     ask = ("Make the smallest edits that fix ONLY these problems in this Instagram carousel draft. Change only the sentences "
            "they name or that cause them: swap a banned phrase for plain words, change a repeated 'nobody' to another "
            "phrasing, trim a few words from an overlong slide, make one sentence longer or shorter to vary the rhythm, "
-           "write an unsourced figure out in words without a number. Keep every other sentence, the meaning and the voice "
+           "write an unsourced figure out in words without a number, add a short why_swipe (what pulls the reader to the next slide) to a slide that has none. When a slide or the post is over a word limit, count again after your edit: it must end under the limit. Keep every other sentence, the meaning and the voice "
            "exactly as they are, and keep every other field.\n\n## Problems\n" + "\n".join(f"- {p}" for p in problems) +
            "\n\n## Draft\n" + json.dumps(draft, ensure_ascii=False, indent=1) + "\n\nReturn only the corrected draft as the same JSON object.")
     try:
@@ -214,7 +215,7 @@ def split_long_slides(draft: dict) -> dict:
     return draft
 
 
-def mechanical(draft: dict, fmt: str, sources: list[dict], rounds: int = 2) -> tuple[dict, list[str]]:
+def mechanical(draft: dict, fmt: str, sources: list[dict], rounds: int = 3) -> tuple[dict, list[str]]:
     """Code checks. Layout problems get a quick mechanical repair; content problems are returned for the writer.
     Does not use up a rewrite attempt."""
     headline = re.sub(r"[\[\]]", "", (draft.get("cover") or {}).get("headline", "")).strip()
@@ -395,28 +396,48 @@ def length_rules(fmt: str) -> str:
             f"{POST_WORDS[0]}-{POST_WORDS[1]} words.")
 
 
-def critique(post: dict, draft: dict, seed: int) -> dict:
+def revision_block(previous: list[str], who: str) -> str:
+    """On a rewrite, the reader sees its own last notes and checks those, instead of reading a fresh draft cold.
+    Without this, every attempt fixed the named slide and the editor then found a different one (10 Nov: 1 of ~20
+    drafts converged in five attempts)."""
+    if not previous:
+        return ""
+    if who == "varun":
+        return ("## This is a revision\nYour last read of this draft flagged these lines:\n" + "\n".join(f"- {p}" for p in previous) +
+                "\nThe writer changed only those lines. Every other line was already read and accepted: don't flag it now. "
+                "Check that the flagged lines now sound like him, and flag a new miss only on a line that changed.\n")
+    return ("## This is a revision\nYou (and the fact check) sent these notes on the last draft:\n" + "\n".join(f"- {p}" for p in previous) +
+            "\nThe writer edited only the lines those notes name; every other line was already read and accepted. Check each "
+            "note first: it is settled if this draft fixes it. Raise a NEW hard failure only for 1, 2, 11 or 12 (a persona rule, "
+            "an invented specific, 'I' in an observation post, a wrong mechanism), or where the edit itself broke something "
+            "(a new or changed slide that repeats another). Don't go looking for a different dead slide, template sign or style "
+            "point in lines you already let pass: that is how notes kept moving and no draft ever converged. Score on the same bar.\n")
+
+
+def critique(post: dict, draft: dict, seed: int, previous: list[str] | None = None) -> dict:
     topic, fmt = post["topic"], post["format"]
     try:
         return llm.call_json(config.MODEL_CRITIC, llm.fill(
             llm.prompt("critic"), persona=llm.prompt("persona"), post=json.dumps(draft, ensure_ascii=False, indent=1),
             tone_examples=corpus.rhythm_examples(2, seed=seed + 101, fmt=fmt), voice_examples=voice_examples(seed),
             topic=json.dumps({k: topic.get(k) for k in TOPIC_FIELDS}, ensure_ascii=False, indent=1),
-            sources=json.dumps(evidence_for(post), ensure_ascii=False, indent=1) or "(none)"), stage="critic")
+            sources=json.dumps(evidence_for(post), ensure_ascii=False, indent=1) or "(none)",
+            revision=revision_block(previous or [], "critic")), stage="critic")
     except SystemExit:
         raise
     except Exception as e:
         return {"pass": False, "violations": [f"The editor could not run ({e})."], "notes": []}
 
 
-def varun_check(post: dict, draft: dict, seed: int) -> dict:
+def varun_check(post: dict, draft: dict, seed: int, previous: list[str] | None = None) -> dict:
     """The owner's standing rule: every line the reader sees sounds like Varun. One reader, voice only, line by line,
     against his real posts. Misses go back to the writer as notes; this never edits the draft itself."""
     fmt = post["format"]
     try:
         return llm.call_json(config.MODEL_CRITIC, llm.fill(
             llm.prompt("varun"), varun_examples=corpus.rhythm_examples(3, seed=seed + 202, fmt=fmt),
-            voice_examples=voice_examples(seed + 202), post=json.dumps(draft, ensure_ascii=False, indent=1)), stage="varun")
+            voice_examples=voice_examples(seed + 202), post=json.dumps(draft, ensure_ascii=False, indent=1),
+            revision=revision_block(previous or [], "varun")), stage="varun")
     except SystemExit:
         raise
     except Exception as e:
@@ -478,6 +499,16 @@ def write_post(post: dict, notes: str = "") -> dict:
     evidence = evidence_for(post)
     draft = None
     seed = zlib.crc32(post["id"].encode()) % 10_000  # deterministic across runs, unlike hash()
+    check = factgate.preflight(post)  # is the take itself true? Asked once, before five drafts are spent on it
+    if check and check.get("holds") is False:
+        if check.get("take_survives") is False:
+            post.update(status="rejected", verification={"passed": False, "take_dead": True, "mechanism": check, "notes": []})
+            state.log("writer", f"{post['id']} rejected before writing: the take's premise is false ({str(check.get('broken_premise'))[:120]})")
+            return post
+        notes = (notes + "\n" if notes else "") + (
+            f"## Before you write: the take needs a correction\n{check.get('broken_premise')} is wrong. How it actually works: "
+            f"{check.get('actual_mechanism')} Build the post on that mechanism.")
+    previous: list[str] = []  # the last round's notes: the editor checks these instead of reading cold
     for attempt in range(config.MAX_REWRITES + 1):
         user = llm.fill(
             llm.prompt("writer"), persona=persona, format_rules=FORMAT_RULES[fmt], length_rules=length_rules(fmt),
@@ -490,21 +521,24 @@ def write_post(post: dict, notes: str = "") -> dict:
         )
         draft = llm.call_json(config.MODEL_WRITER, user, stage="write", max_tokens=5000)
         draft, problems = mechanical(draft, fmt, evidence)
+        voice_prev = [p for p in previous if p.startswith("Not Varun")]
         if not problems:
-            review = critique(post, draft, seed + attempt)
+            review = critique(post, draft, seed + attempt, previous)
             post["history"].append({"attempt": attempt, "review": review})
-            cut = None if passes(review) else dead_slide(review, len(draft.get("slides", [])))
-            if cut:  # one repeated middle slide: cut it and ask again, instead of spending a rewrite on it
+            cuts = [] if passes(review) else dead_slides(review, len(draft.get("slides", [])))
+            if cuts:  # the only hard failures are repeated middle slides: cut them and ask again, instead of a rewrite
                 trimmed = json.loads(json.dumps(draft))
-                del trimmed["slides"][cut - 1]
+                for k in sorted(cuts, reverse=True):
+                    del trimmed["slides"][k - 1]
                 trimmed, left = mechanical(trimmed, fmt, evidence)
                 if not left and len(trimmed["slides"]) >= MIN_SLIDES:
-                    again = critique(post, trimmed, seed + attempt)
-                    post["history"].append({"attempt": attempt, "cut_slide": cut, "review": again})
-                    if passes(again):
+                    cut_notes = review.get("violations", [])
+                    again = critique(post, trimmed, seed + attempt, previous + [f"{v} (that slide was cut)" for v in cut_notes])
+                    post["history"].append({"attempt": attempt, "cut_slides": cuts, "review": again})
+                    if passes(again) or len(again.get("violations") or []) < len(review.get("violations") or []):
                         draft, review = trimmed, again
             if passes(review):
-                voice = varun_check(post, draft, seed + attempt)
+                voice = varun_check(post, draft, seed + attempt, voice_prev)
                 post["history"].append({"attempt": attempt, "varun": voice})
                 if not varun_passes(voice):
                     review = {"violations": varun_notes(voice)}
@@ -525,6 +559,7 @@ def write_post(post: dict, notes: str = "") -> dict:
                 problems = review.get("violations", []) + review.get("notes", [])[:5]
                 if not problems:
                     problems = [f"The editor scored it below 4 on: {', '.join(k for k, v in (review.get('scores') or {}).items() if _score(review['scores'], k) < 4)}."]
+        previous = problems
         post["history"].append({"attempt": attempt, "problems": problems})
         notes = ("## Your previous draft\n" + json.dumps(draft, ensure_ascii=False, indent=1) +
                  "\n\n## Notes from the editor and fact checker\nEdit the draft above; don't write a new one. Change only "
@@ -544,14 +579,21 @@ def write_post(post: dict, notes: str = "") -> dict:
 
 
 
-def dead_slide(review: dict, n: int) -> int | None:
-    """The middle slide to cut, when the editor's only hard failure is that one slide repeats another."""
-    v = review.get("violations") or []
-    if len(v) != 1 or "dead slide" not in v[0].lower():
-        return None
-    m = re.search(r"\bslide (\d+)", v[0], re.I)
-    k = int(m.group(1)) if m else 0
-    return k if 2 <= k < n else None
+def dead_slides(review: dict, n: int) -> list[int]:
+    """The middle slides to cut, when every hard failure is a dead (repeated) slide. The first slide a note names is the
+    dead one ("Dead slide 5: it restates slide 4"); a note that calls two slides dead together is left to the writer."""
+    out = []
+    for v in review.get("violations") or []:
+        if "dead" not in v.lower() and "restates" not in v.lower():
+            return []
+        m = re.search(r"\bslides? \[?(\d+)", v, re.I)
+        if not m or re.search(r"\bslides \[?\d+\]?\s*(?:-|–|and|&)|\bslide \d+ and slide \d+", v, re.I):
+            return []  # names no slide, or two slides together: which one to cut is a judgement for the writer
+        k = int(m.group(1))
+        if not 2 <= k < n:
+            return []
+        out.append(k)
+    return sorted(set(out)) if n - len(set(out)) >= MIN_SLIDES else []
 
 
 def _score(scores: dict, key: str) -> int:

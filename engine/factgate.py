@@ -189,6 +189,36 @@ def skeptic(draft: dict, claims: list[dict], due: str) -> dict:
     return llm.call_json(config.MODEL_WRITER, ask, stage="skeptic", tools=["WebSearch", "WebFetch"], timeout=1500)
 
 
+def _take_key(post: dict) -> str:
+    return hashlib.sha1((post.get("topic") or {}).get("claim", "").encode()).hexdigest()
+
+
+def preflight(post: dict) -> dict | None:
+    """Test the take before any draft is written. The same check verify() runs on the finished draft, asked once per
+    take: 10 Nov, three takes spent five drafts each before the fact gate found the premise was false. A take that
+    holds is cached, so verify() reuses the verdict and the check still costs one call per take."""
+    topic = post.get("topic") or {}
+    if not topic.get("claim"):
+        return None
+    cache = post.setdefault("verification_cache", {})
+    key = _take_key(post)
+    if key in cache.get("_skeptic_take", {}):
+        return cache["_skeptic_take"][key]
+    if key in cache.get("_preflight", {}):
+        return cache["_preflight"][key]
+    lines = [topic.get(k) for k in ("claim", "turn", "because", "mechanism") if topic.get(k)]
+    try:
+        check = skeptic({"slides": [{"paragraphs": lines}]}, [{"text": t} for t in lines], post.get("due") or "")
+    except SystemExit:
+        raise
+    except Exception:
+        return None  # the check runs again on the finished draft
+    cache.setdefault("_preflight", {})[key] = check
+    if check.get("holds") is not False:
+        cache.setdefault("_skeptic_take", {})[key] = check
+    return check
+
+
 # --- E: evidence and the rules, in code -----------------------------------------------------------------------
 
 def _norm(text: str) -> str:
@@ -336,7 +366,7 @@ def verify(post: dict, draft: dict, fetch=quote_on_page) -> dict:
         key = hashlib.sha1(json.dumps(sorted(c.get("text", "") for c in argument)).encode()).hexdigest()
         # Rewrites reword the ledger, so an exact-text key almost never hit. The take is the topic's claim: once it has
         # held, a rewrite of the same take reuses that verdict; a take that failed is always checked again.
-        take = hashlib.sha1((post.get("topic") or {}).get("claim", "").encode()).hexdigest()
+        take = _take_key(post)
         held = cache.get("_skeptic_take", {}).get(take)
         mechanism = cache.setdefault("_skeptic", {}).get(key) or held or skeptic(draft, argument, due)
         cache["_skeptic"][key] = mechanism

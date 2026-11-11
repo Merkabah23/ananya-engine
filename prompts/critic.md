@@ -17,6 +17,7 @@ You are the editor before a post goes to the owner. The take was already chosen;
 ## Sources the writer was allowed to use (facts in these, the topic's proof or real_details count as sourced)
 {sources}
 
+{revision}
 The post is shown as plain post cards, exactly as written: slide 1 is the cover and the last slide is the close (there is no separate cover or end card, so ignore the "cover" and "end" fields).
 
 ## Hard failures (any one fails the post; quote the line)

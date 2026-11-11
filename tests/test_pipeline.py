@@ -293,11 +293,47 @@ def test_generic_send_line_is_a_wording_fix(monkeypatch):
     assert not [p for p in writer.hard_checks(d, "single", []) if "send line" in p]
 
 
-def test_one_dead_middle_slide_is_cut_not_rewritten():
+def test_dead_middle_slides_are_cut_not_rewritten():
     review = {"violations": ["Dead slide, slide 5: it restates slide 4's bold line."], "scores": {}}
-    assert writer.dead_slide(review, 7) == 5
-    assert writer.dead_slide(review, 5) is None  # the last slide carries the payoff: never cut blind
-    assert writer.dead_slide({"violations": ["Dead slide, slide 3", "No because"]}, 7) is None
+    assert writer.dead_slides(review, 9) == [5]
+    assert writer.dead_slides(review, 5) == []  # the last slide carries the payoff: never cut blind
+    assert writer.dead_slides({"violations": ["Dead slide, slide 3", "No because"]}, 9) == []
+    two = {"violations": ["Dead slide 3: restates slide 2.", "Slide 6 is a dead slide. Slide 7 says it again."]}
+    assert writer.dead_slides(two, 9) == [3, 6]
+    assert writer.dead_slides(two, 7) == []  # would leave fewer than the minimum
+    assert writer.dead_slides({"violations": ["Slide 4 and slide 5 are partly dead"]}, 9) == []
+    assert writer.dead_slides({"violations": ["Slides 4-5: dead"]}, 9) == []
+
+
+def test_rewrites_are_checked_against_the_last_notes():
+    assert writer.revision_block([], "critic") == ""
+    block = writer.revision_block(["Dead slide 5: repeats slide 4."], "critic")
+    assert "Dead slide 5" in block and "already read and accepted" in block
+    assert "flag a new miss only on a line that changed" in writer.revision_block(["Not Varun (slide 2)"], "varun")
+
+
+def test_near_miss_limits_are_trimmed_not_rewritten():
+    assert writer.is_wording("The post is 342 words; keep it under 340 by cutting extra examples, not the thought.")
+    assert writer.is_wording("Slides [9] have no why_swipe: say what pulls the reader to the next slide.")
+    assert writer.is_wording("Slide 7 has 44 words; the limit is 42. It is too much to read on one screen.")
+
+
+def test_a_false_take_is_dropped_before_any_draft(monkeypatch):
+    calls = []
+    def fake(model, prompt, stage="", **kw):
+        calls.append(stage)
+        return {"holds": False, "take_survives": False, "broken_premise": "premise 2", "actual_mechanism": "m"}
+    monkeypatch.setattr(writer.llm, "call_json", fake)
+    monkeypatch.setattr(writer, "find_sources", lambda t: [])
+    post = {"id": "2099-12-001", "format": "carousel", "due": "2099-12-02T20:30:00+05:30", "history": [],
+            "topic": {"claim": "a take that is false", "mechanism": "m"}}
+    out = writer.write_post(post)
+    assert out["status"] == "rejected" and "write" not in calls and calls.count("skeptic") == 1
+    # a take that holds is checked once, and the fact gate reuses that verdict
+    post2 = {"id": "2099-12-002", "topic": {"claim": "a true take"}, "due": ""}
+    monkeypatch.setattr(writer.factgate, "skeptic", lambda *a: {"holds": True})
+    assert writer.factgate.preflight(post2)["holds"] is True
+    assert writer.factgate._take_key(post2) in post2["verification_cache"]["_skeptic_take"]
 
 
 def test_review_mode_renders_only_owner_approved(tmp_path, monkeypatch):
