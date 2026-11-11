@@ -1,6 +1,6 @@
 {
  "id": "2026-11-147",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-16T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -178,9 +178,337 @@
    "problems": [
     "Slide 1 has 22 words; the limit is 20. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide."
    ]
+  },
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Hard failure 11 ('I' in a post marked lived: false): the caption reads \"Every Diwali I lose the film vote, and every year the family is right about the outing and wrong about the film.\" The topic is pure observation, so the caption cannot speak as the author."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 3,
+     "tight": 3,
+     "informative": 4
+    },
+    "notes": [
+     "caption: rewrite \"Every Diwali I lose the film vote\" without 'I' and keep it in 'you/we', for example: \"Every Diwali someone in the family loses the film vote. The family is right about the outing and wrong about the film.\" The idea is good. Only the first person has to go.",
+     "slide 5: \"The film that survives every objection wins\" says slide 1 again (\"the one nobody would veto\"), and slide 2 already said the group-agreement turn. Keep \"Groups choose by elimination\" and \"Even if no one in the car was excited.\" Cut the restatement so the idea is said once.",
+     "slides 8-9: slide 8 alone (\"this isn't the family being boring. Diwali is the one weekend everyone is home\") is thin. Merge it with slide 9 into one slide: the concession, then the popcorn bucket passing down the row, then \"The film is just the reason.\" This tightens the run into the close.",
+     "slide 10: \"You like it more than the hit\" is asserted and slightly wistful. The first line also repeats the topic payoff in a flat way. End on one sharp, repeatable sting instead, one that calls back to the row. Example direction: the hit got the whole row's yes, and your film gets you, alone, on a weeknight, a few weeks later. Make the contrast the punch line, with no soft feeling after it.",
+     "slide 6: add an insider detail from the allowed source. Sacnilk notes that Lakshmi Puja can restrict Sunday evening and night shows, and that family audiences return to cinemas once the main celebrations end. Use this to show why theatres keep handing shows to the family film after the puja rush. The real_details point that Ramayana grew on Saturday and Sunday, unlike a usual front-loaded star release, can colour the scene, but it must not be stated as proof."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Hard failure 11 ('I' in a post marked lived: false): the caption reads \"Every Diwali I lose the film vote, and every year the family is right about the outing and wrong about the film.\" The topic is pure observation, so the caption cannot speak as the author.",
+    "caption: rewrite \"Every Diwali I lose the film vote\" without 'I' and keep it in 'you/we', for example: \"Every Diwali someone in the family loses the film vote. The family is right about the outing and wrong about the film.\" The idea is good. Only the first person has to go.",
+    "slide 5: \"The film that survives every objection wins\" says slide 1 again (\"the one nobody would veto\"), and slide 2 already said the group-agreement turn. Keep \"Groups choose by elimination\" and \"Even if no one in the car was excited.\" Cut the restatement so the idea is said once.",
+    "slides 8-9: slide 8 alone (\"this isn't the family being boring. Diwali is the one weekend everyone is home\") is thin. Merge it with slide 9 into one slide: the concession, then the popcorn bucket passing down the row, then \"The film is just the reason.\" This tightens the run into the close.",
+    "slide 10: \"You like it more than the hit\" is asserted and slightly wistful. The first line also repeats the topic payoff in a flat way. End on one sharp, repeatable sting instead, one that calls back to the row. Example direction: the hit got the whole row's yes, and your film gets you, alone, on a weeknight, a few weeks later. Make the contrast the punch line, with no soft feeling after it.",
+    "slide 6: add an insider detail from the allowed source. Sacnilk notes that Lakshmi Puja can restrict Sunday evening and night shows, and that family audiences return to cinemas once the main celebrations end. Use this to show why theatres keep handing shows to the family film after the puja rush. The real_details point that Ramayana grew on Saturday and Sunday, unlike a usual front-loaded star release, can colour the scene, but it must not be stated as proof."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slide 9: the merge introduced a contradiction. \"A film all of you can sit through is the whole outing. The film is just the reason.\" calls the film the outing and then says the film is only the reason. The popcorn-bucket beat from the last note is also missing. Fix: \"The outing is the point: one row, one popcorn bucket going hand to hand. The film is just the reason.\" This also adds the touch detail the post lacks.",
+     "slide 7: the \"So\" link is loose. The puja cutting Sunday evening shows does not by itself move shows. The reader needs the step that families come back in a rush, all for one title, and theatres follow. Fix: \"After it, families come back at once, all for the film they already chose. So the evening shows go where the families are, and your film loses its slot.\" Keep \"can\": the source says \"may restrict\".",
+     "slide 5: after the cut, \"Even if no one in the car was excited.\" dangles as a fragment after \"Groups choose by elimination.\" Attach it so it lands: \"Groups choose by elimination. The last film standing wins, even if no one in the car was excited.\" Or simply: \"Groups choose by elimination, even if no one in the car was excited.\"",
+     "alt_text: it says \"A nine-slide text post\", but the post has ten slides. Update the count. Also add the OTT-on-a-weeknight close so the alt text matches what the post ends on."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 6",
+      "line": "Theatres make money from full halls. Anyone who sells things puts stock where it moves.",
+      "why": "lecture voice, generic econ rule instead of saying what's going on",
+      "try": "Theatres don't care which film is better. They care which hall is full.\nSo the shows go wherever the families went."
+     },
+     {
+      "where": "slide 5",
+      "line": "A festival ticket is a group decision, made by people with different tastes and one shared evening. Groups choose by elimination.\nEven if no one in the car was excited.",
+      "why": "essay voice, explains the mechanism abstractly, dangling fragment",
+      "try": "A Diwali ticket isn't your pick. It's whatever survives everyone's veto.\nNobody in the car is excited. Nobody's upset either. That's the winner."
+     },
+     {
+      "where": "slide 9",
+      "line": "A film all of you can sit through is the whole outing. The film is just the reason.",
+      "why": "muddled turn, over-explained and a bit soft",
+      "try": "The outing is the point. The film is just the excuse to get everyone in one row."
+     },
+     {
+      "where": "slide 7",
+      "line": "Lakshmi Puja can cut into Sunday's evening shows. After it, families return, for the film they already chose.",
+      "why": "stiff, written phrasing with awkward comma",
+      "try": "Lakshmi Puja can eat into Sunday's evening shows. Once it's done, families head out, and they already know which film."
+     },
+     {
+      "where": "caption",
+      "line": "Every Diwali someone in the family loses the film vote, and the family is right about the outing and wrong about the film.",
+      "why": "engineered mirrored pair",
+      "try": "Every Diwali someone in the family loses the film vote. The family still gets its outing. Your film loses its screen."
+     }
+    ],
+    "best": "Nani can't sit through blood, the cousin's kid is eight, someone wants \"kuch achha, family wala,\" and then seats get booked. Your film was never in the running."
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Not Varun (slide 6): 'Theatres make money from full halls. Anyone who sells things puts stock where it moves.' reads as lecture voice, generic econ rule instead of saying what's going on. Say it the way he would, e.g. 'Theatres don't care which film is better. They care which hall is full.\nSo the shows go wherever the families went.' (his register, your words, same facts).",
+    "Not Varun (slide 5): 'A festival ticket is a group decision, made by people with different tastes and one shared evening. Groups choose by elimination.\nEven if no one in the car was excited.' reads as essay voice, explains the mechanism abstractly, dangling fragment. Say it the way he would, e.g. 'A Diwali ticket isn't your pick. It's whatever survives everyone's veto.\nNobody in the car is excited. Nobody's upset either. That's the winner.' (his register, your words, same facts).",
+    "Not Varun (slide 9): 'A film all of you can sit through is the whole outing. The film is just the reason.' reads as muddled turn, over-explained and a bit soft. Say it the way he would, e.g. 'The outing is the point. The film is just the excuse to get everyone in one row.' (his register, your words, same facts).",
+    "Not Varun (slide 7): 'Lakshmi Puja can cut into Sunday's evening shows. After it, families return, for the film they already chose.' reads as stiff, written phrasing with awkward comma. Say it the way he would, e.g. 'Lakshmi Puja can eat into Sunday's evening shows. Once it's done, families head out, and they already know which film.' (his register, your words, same facts).",
+    "Not Varun (caption): 'Every Diwali someone in the family loses the film vote, and the family is right about the outing and wrong about the film.' reads as engineered mirrored pair. Say it the way he would, e.g. 'Every Diwali someone in the family loses the film vote. The family still gets its outing. Your film loses its screen.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "All five earlier notes are settled. Slide 6 ('It ranks them by how full the hall gets'), slide 5 ('the film left standing after every veto'), slide 9 ('The film just gets everyone into one row'), slide 7 ('Once it's over, families head out') and the caption ('The family still gets its evening out. Your film loses its screen.') now read in his register. No new hard failures came from the edits.",
+     "slide 5: 'the film left standing after every veto' repeats the veto word from slide 1 ('the one nobody would veto'). Optional fix: swap it for something like 'the one left after everyone's crossed theirs off', so the rule lands as a new phrase and not an echo of the hook.",
+     "slide 7: 'So your film's evening show goes to the big one' skips a step. Puja cutting shows doesn't by itself move shows to Ramayana. Optional fix: tie it to the full halls from slide 6, e.g. 'So when the halls reopen that night, the evening shows go to the film families already booked.' Keep it to what the sources support: puja restricts evening shows, and families return after the celebrations."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "varun": {
+    "pass": true,
+    "score": 5,
+    "misses": [],
+    "best": "Nani can't sit through blood, the cousin's kid is eight, someone wants \"kuch achha, family wala,\" and then seats get booked. Your film was never in the running."
+   }
+  },
+  {
+   "attempt": 2,
+   "verification": {
+    "passed": false,
+    "take_dead": true,
+    "notes": [
+     "The take's premise is wrong: The first premise: that Jailer 2 and AK 47 slipped mainly because theatres took away their screens, not because of audience preference. Both films were losing their audiences before Ramayana opened. Jailer 2 came out on 15 Oct 2026, so Diwali weekend was its fourth weekend. Its India net fell from about ₹311 Cr in week 1 to ₹105 Cr, then ₹42 Cr. Its active screens dropped from a peak of 3,279 on 22 Oct to 977 by 5 Nov and 377 by 6 Nov, before the Diwali weekend. The collections fell first and the screens followed. In Tamil Nadu its main Diwali competition was three new Tamil releases, not Ramayana. AK 47 earned ₹12.75 Cr on its day 3 and ₹3.75 Cr on day 4, a Monday drop of about 70% that also came before Ramayana arrived. Pinkvilla does name Ramayana as a major reason for AK 47's later fall, but it also says the film 'didn't record a good hold in the earlier few days.' Losing screens was a result of weak demand, not the main cause of the slide. The idea that theatres fill shows by expected occupancy is broadly right. I could not verify the 69%-of-top-five figure.. How it actually works: Indian multiplexes split ticket revenue with distributors and revise show allocations every week, mostly based on advance bookings and how full the previous week's shows were. A film's screen count tracks its audience: screens are withdrawn after collections drop. In a festival week, a new event film with heavy advance bookings, such as Ramayana with about ₹50 Cr in advance sales, takes over the shows that ageing or fading films had already lost demand for. Jailer 2 was in week 4 and had already shed most of its screens, and AK 47 had already slumped on its first Monday. Rebuild the post on the correct mechanism.",
+     "Could not confirm: 'Jailer 2 and AK 47 were among the top five films this Diwali weekend and their earnings slipped.' (the cited pages don't say it). Use a source that does, or cut it.",
+     "Could not verify: 'Ramayana is the film the families chose as the one everyone in the row could agree on.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Ramayana took 69% of what the top five films earned over this Diwali weekend.",
+      "sentence": "This Diwali weekend, Ramayana took 69% of what the top five films earned.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c2",
+      "text": "Jailer 2 and AK 47 were among the top five films this Diwali weekend and their earnings slipped.",
+      "sentence": "Jailer 2 and AK 47 slipped mainly because they lost screens.",
+      "type": "event",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c3",
+      "text": "Jailer 2 and AK 47 slipped mainly because theatres took away their screens, not because of audience preference.",
+      "sentence": "Jailer 2 and AK 47 slipped mainly because they lost screens. No hall, no tickets.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c4",
+      "text": "Theatres allocate shows by how full the hall gets, not by film quality, so shows move to the film families chose.",
+      "sentence": "A theatre doesn't rank films by how good they are. It ranks them by how full the hall gets. So the shows move to wherever the families went.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "At Diwali, families choose the film that every generation in the group can agree on, and that film becomes the biggest because of this, not because it is the best. Theatres then give it more screens, so other releases lose screens and tickets.",
+      "sentence": "It wins because one row of three generations can agree on it. Then the screens follow.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Lakshmi Puja fell on the Sunday of this Diwali weekend, cutting into evening show timings, after which families went out to cinemas.",
+      "sentence": "Lakshmi Puja can eat into Sunday's evening shows. Once it's over, families head out, and they've already picked the film.",
+      "type": "event",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c7",
+      "text": "Theatres give the family-favourite film the evening shows that other films previously held.",
+      "sentence": "So your film's evening show goes to the big one.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c8",
+      "text": "Ramayana is the film the families chose as the one everyone in the row could agree on.",
+      "sentence": "The hit got a yes from the whole row.",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c9",
+      "text": "Films that miss out in theatres typically reach OTT a few weeks after release.",
+      "sentence": "Yours, on OTT, alone on a weeknight, a few weeks later.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2026-11-08",
+      "correct": "Ramayana's opening weekend was ₹174 crore India net. Against a ₹252.75 crore top-five total, that is about 69%. The ₹252.75 crore total comes only from the Sacnilk lead, which has no URL, so I could not check it independently.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/entertainment/2026/11/08/ramayana-day-four-box-office-collection-500-crore.html",
+        "publisher": "The Week",
+        "published_date": "2026-11-08",
+        "quote": "India net opening weekend of ₹174 crore ranks 12th all-time",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2026-11-09",
+      "correct": "Only the Sacnilk lead says this. It has no URL and I could not find the chart itself. It says Jailer 2 and AK 47 were in the top five and slipped mainly because they lost screens.",
+      "sources": [
+       {
+        "url": "https://www.sacnilk.com/news/ramayana-4-day-pre-diwali-weekend-prediction-will-it-beat-trades-240-cr-estimate",
+        "publisher": "Sacnilk",
+        "published_date": "2026-11-09",
+        "quote": "Jailer 2 and AK 47 slipped mainly because they lost screens.",
+        "tier": 3
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "supported",
+      "event_date": "2026-11-08",
+      "correct": "Diwali Sunday was 8 November 2026, and Lakshmi Puja is observed on Diwali evening. Sacnilk says family routines such as Lakshmi Puja shape attendance and that families return once the main celebrations end. Ramayana's day-four India net was ₹56.15 crore, down from ₹69.80 crore on day three. That fits the claim of a Sunday dip followed by families going out, but no source directly describes evening shows being cut.",
+      "sources": [
+       {
+        "url": "https://www.sacnilk.com/news/ramayana-4-day-pre-diwali-weekend-prediction-will-it-beat-trades-240-cr-estimate",
+        "publisher": "Sacnilk",
+        "published_date": "2026-11-06",
+        "quote": "family audiences return to cinemas once the main celebrations end",
+        "tier": 3
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "unverifiable",
+      "correct": "The numbers show families flocking to Ramayana. A film being 'the one everyone in the row could agree on' is anecdote, and no source reports it.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/entertainment/2026/11/08/ramayana-day-four-box-office-collection-500-crore.html",
+        "publisher": "The Week",
+        "published_date": "2026-11-08",
+        "quote": "₹56.15 crore net on day four across 21,719 shows",
+        "tier": 2
+       }
+      ]
+     },
+     "c9": {
+      "id": "c9",
+      "verdict": "supported",
+      "correct": "This is a general industry norm. Indian films usually reach OTT about 4 to 8 weeks after release. I did not fetch a source for it.",
+      "sources": []
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "The first premise: that Jailer 2 and AK 47 slipped mainly because theatres took away their screens, not because of audience preference. Both films were losing their audiences before Ramayana opened. Jailer 2 came out on 15 Oct 2026, so Diwali weekend was its fourth weekend. Its India net fell from about ₹311 Cr in week 1 to ₹105 Cr, then ₹42 Cr. Its active screens dropped from a peak of 3,279 on 22 Oct to 977 by 5 Nov and 377 by 6 Nov, before the Diwali weekend. The collections fell first and the screens followed. In Tamil Nadu its main Diwali competition was three new Tamil releases, not Ramayana. AK 47 earned ₹12.75 Cr on its day 3 and ₹3.75 Cr on day 4, a Monday drop of about 70% that also came before Ramayana arrived. Pinkvilla does name Ramayana as a major reason for AK 47's later fall, but it also says the film 'didn't record a good hold in the earlier few days.' Losing screens was a result of weak demand, not the main cause of the slide. The idea that theatres fill shows by expected occupancy is broadly right. I could not verify the 69%-of-top-five figure.",
+     "actual_mechanism": "Indian multiplexes split ticket revenue with distributors and revise show allocations every week, mostly based on advance bookings and how full the previous week's shows were. A film's screen count tracks its audience: screens are withdrawn after collections drop. In a festival week, a new event film with heavy advance bookings, such as Ramayana with about ₹50 Cr in advance sales, takes over the shows that ageing or fading films had already lost demand for. Jailer 2 was in week 4 and had already shed most of its screens, and AK 47 had already slumped on its first Monday.",
+     "take_survives": false,
+     "sources": [
+      {
+       "url": "https://boxofficewala.in/db/jailer-2-collection-worldwide-day-wise/",
+       "published_date": "2026-11",
+       "quote": "Active screens: Day 8 (22 Oct) 3,279 peak; Day 16 (30 Oct) 2,377; Day 22 (5 Nov) 977; Day 23 (6 Nov) 377. Week 1 ₹311.28 Cr, Week 2 ₹104.83 Cr, Week 3 ₹42.17 Cr net."
+      },
+      {
+       "url": "https://www.pinkvilla.com/entertainment/box-office/aadarsha-kutumbam-house-no-47-ak-47-india-box-office-collections-venkatesh-starrer-closes-first-week-at-rs-46-crore-1406303",
+       "published_date": "2026-11-06",
+       "quote": "Day 3: Rs. 12.75 crore; Day 4: Rs. 3.75 crore ... Ramayana's release is one of the major reasons behind this big fall ... didn't record a good hold in the earlier few days."
+      },
+      {
+       "url": "https://www.boxoffy.com/boxoffice-weekend-preview-november-6-8-2026.html",
+       "published_date": "2026-11-05",
+       "quote": "Jailer 2 ... Rs 456 Cr so far; Tamil Diwali openers split Tamil Nadu ... AK 47: Opened Rs 31.40 Cr; loses screens to Ramayana."
+      }
+     ]
+    },
+    "text_hash": "4b90d4dde587fcf4b5c70d4eca9569aac1e61cfa",
+    "at": "2026-11-11T11:54:59.979526+00:00"
+   }
   }
  ],
- "updated_at": "2026-11-11T04:17:28.634928+00:00",
+ "updated_at": "2026-11-11T11:55:47.407365+00:00",
  "sources": [
   {
    "url": "https://www.sacnilk.com/news/ramayana-4-day-pre-diwali-weekend-prediction-will-it-beat-trades-240-cr-estimate",
@@ -194,5 +522,629 @@
    "excerpt": "\"collecting ₹56.15 crore in India net earnings across 21,719 shows on day four, as per box office tracker Sacnilk.\"\n\n\"The Hindi screenings ruled the roost, contributing ₹36.75 crore across 17,714 shows.\"\n\nRamayana was ranked 12th, with ₹174 crore, \"below Drishyam 3: The Conclusion with ₹176.50 crore.\"",
    "date": "2026-11-08"
   }
- ]
+ ],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] Your family's Diwali film wasn't the best one. It was [the safest].\nEvery other release paid for that choice, screen by screen.\n \n\n[slide 1] Your family didn't pick the best film this Diwali. They picked the one nobody would veto.\nSwipe to read →\n\n[slide 2] We assume the biggest film wins because it's the best one.\nIt wins because one row of three generations can agree on it. Then the screens follow.\n\n[slide 3] You had a different film in mind from the moment the weekend started. Then the family group chat said \"sab saath chalenge.\"\n\n[slide 4] Nani can't sit through blood, the cousin's kid is eight, someone wants \"kuch achha, family wala,\" and then seats get booked. Your film was never in the running.\n\n[slide 5] A Diwali ticket isn't anyone's favourite. It's the film left standing after every veto, the one every aunt, uncle and cousin in the car can live with.\nHalf the car is lukewarm and no one is sulking. That wins.\n\n[slide 6] A theatre doesn't rank films by how good they are. It ranks them by how full the hall gets.\nSo the shows move to wherever the families went.\n\n[slide 7] Lakshmi Puja can eat into Sunday's evening shows. Once it's over, families head out, and they've already picked the film.\nSo your film's evening show goes to the big one.\n\n[slide 8] This Diwali weekend, Ramayana took 69% of what the top five films earned.\nJailer 2 and AK 47 slipped mainly because they lost screens. No hall, no tickets.\n\n[slide 9] And this isn't the family being boring. Diwali is the one weekend everyone is home at the same time.\nThe outing is what matters. The film just gets everyone into one row.\n\n[slide 10] The hit got a yes from the whole row.\nYour film gets one yes. Yours, on OTT, alone on a weeknight, a few weeks later.\n\n[end card] Read it again when the family group chat starts planning the next festival film.\nSend to the friend who always ends up watching whatever the family picks.\n\n[caption] Every Diwali someone in the family loses the film vote. The family still gets its evening out. Your film loses its screen.\n\n[alt text] A ten-slide text post arguing that at Diwali, Indian families pick the one film every age group can agree on, theatres then move shows to that film, and other releases lose screens. It notes that Lakshmi Puja can cut into Sunday evening shows before families head out to cinemas, cites Ramayana taking 69% of the top five films' Diwali weekend earnings, and says Jailer 2 and AK 47 slipped mainly because they lost screens.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Ramayana took 69% of what the top five films earned over this Diwali weekend.",
+     "sentence": "This Diwali weekend, Ramayana took 69% of what the top five films earned.",
+     "type": "figure",
+     "core": true,
+     "framed_as": "current"
+    },
+    {
+     "id": "c2",
+     "text": "Jailer 2 and AK 47 were among the top five films this Diwali weekend and their earnings slipped.",
+     "sentence": "Jailer 2 and AK 47 slipped mainly because they lost screens.",
+     "type": "event",
+     "core": false,
+     "framed_as": "current"
+    },
+    {
+     "id": "c3",
+     "text": "Jailer 2 and AK 47 slipped mainly because theatres took away their screens, not because of audience preference.",
+     "sentence": "Jailer 2 and AK 47 slipped mainly because they lost screens. No hall, no tickets.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "current"
+    },
+    {
+     "id": "c4",
+     "text": "Theatres allocate shows by how full the hall gets, not by film quality, so shows move to the film families chose.",
+     "sentence": "A theatre doesn't rank films by how good they are. It ranks them by how full the hall gets. So the shows move to wherever the families went.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c5",
+     "text": "At Diwali, families choose the film that every generation in the group can agree on, and that film becomes the biggest because of this, not because it is the best. Theatres then give it more screens, so other releases lose screens and tickets.",
+     "sentence": "It wins because one row of three generations can agree on it. Then the screens follow.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c6",
+     "text": "Lakshmi Puja fell on the Sunday of this Diwali weekend, cutting into evening show timings, after which families went out to cinemas.",
+     "sentence": "Lakshmi Puja can eat into Sunday's evening shows. Once it's over, families head out, and they've already picked the film.",
+     "type": "event",
+     "core": false,
+     "framed_as": "current"
+    },
+    {
+     "id": "c7",
+     "text": "Theatres give the family-favourite film the evening shows that other films previously held.",
+     "sentence": "So your film's evening show goes to the big one.",
+     "type": "mechanism",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c8",
+     "text": "Ramayana is the film the families chose as the one everyone in the row could agree on.",
+     "sentence": "The hit got a yes from the whole row.",
+     "type": "entity_attribute",
+     "core": false,
+     "framed_as": "current"
+    },
+    {
+     "id": "c9",
+     "text": "Films that miss out in theatres typically reach OTT a few weeks after release.",
+     "sentence": "Yours, on OTT, alone on a weeknight, a few weeks later.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "Ramayana took 69% of what the top five films earned over this Diwali weekend.": {
+   "id": "c1",
+   "verdict": "supported",
+   "event_date": "2026-11-08",
+   "correct": "Ramayana's opening weekend was ₹174 crore India net. Against a ₹252.75 crore top-five total, that is about 69%. The ₹252.75 crore total comes only from the Sacnilk lead, which has no URL, so I could not check it independently.",
+   "sources": [
+    {
+     "url": "https://www.theweek.in/news/entertainment/2026/11/08/ramayana-day-four-box-office-collection-500-crore.html",
+     "publisher": "The Week",
+     "published_date": "2026-11-08",
+     "quote": "India net opening weekend of ₹174 crore ranks 12th all-time",
+     "tier": 2
+    }
+   ]
+  },
+  "Jailer 2 and AK 47 were among the top five films this Diwali weekend and their earnings slipped.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": "2026-11-09",
+   "correct": "Only the Sacnilk lead says this. It has no URL and I could not find the chart itself. It says Jailer 2 and AK 47 were in the top five and slipped mainly because they lost screens.",
+   "sources": [
+    {
+     "url": "https://www.sacnilk.com/news/ramayana-4-day-pre-diwali-weekend-prediction-will-it-beat-trades-240-cr-estimate",
+     "publisher": "Sacnilk",
+     "published_date": "2026-11-09",
+     "quote": "Jailer 2 and AK 47 slipped mainly because they lost screens.",
+     "tier": 3
+    }
+   ]
+  },
+  "Lakshmi Puja fell on the Sunday of this Diwali weekend, cutting into evening show timings, after which families went out to cinemas.": {
+   "id": "c6",
+   "verdict": "supported",
+   "event_date": "2026-11-08",
+   "correct": "Diwali Sunday was 8 November 2026, and Lakshmi Puja is observed on Diwali evening. Sacnilk says family routines such as Lakshmi Puja shape attendance and that families return once the main celebrations end. Ramayana's day-four India net was ₹56.15 crore, down from ₹69.80 crore on day three. That fits the claim of a Sunday dip followed by families going out, but no source directly describes evening shows being cut.",
+   "sources": [
+    {
+     "url": "https://www.sacnilk.com/news/ramayana-4-day-pre-diwali-weekend-prediction-will-it-beat-trades-240-cr-estimate",
+     "publisher": "Sacnilk",
+     "published_date": "2026-11-06",
+     "quote": "family audiences return to cinemas once the main celebrations end",
+     "tier": 3
+    }
+   ]
+  },
+  "Ramayana is the film the families chose as the one everyone in the row could agree on.": {
+   "id": "c8",
+   "verdict": "unverifiable",
+   "correct": "The numbers show families flocking to Ramayana. A film being 'the one everyone in the row could agree on' is anecdote, and no source reports it.",
+   "sources": [
+    {
+     "url": "https://www.theweek.in/news/entertainment/2026/11/08/ramayana-day-four-box-office-collection-500-crore.html",
+     "publisher": "The Week",
+     "published_date": "2026-11-08",
+     "quote": "₹56.15 crore net on day four across 21,719 shows",
+     "tier": 2
+    }
+   ]
+  },
+  "Films that miss out in theatres typically reach OTT a few weeks after release.": {
+   "id": "c9",
+   "verdict": "supported",
+   "correct": "This is a general industry norm. Indian films usually reach OTT about 4 to 8 weeks after release. I did not fetch a source for it.",
+   "sources": []
+  },
+  "_skeptic": {
+   "7f35c7d6a869cd8799d6e2c1f54799ba142c1460": {
+    "holds": false,
+    "broken_premise": "The first premise: that Jailer 2 and AK 47 slipped mainly because theatres took away their screens, not because of audience preference. Both films were losing their audiences before Ramayana opened. Jailer 2 came out on 15 Oct 2026, so Diwali weekend was its fourth weekend. Its India net fell from about ₹311 Cr in week 1 to ₹105 Cr, then ₹42 Cr. Its active screens dropped from a peak of 3,279 on 22 Oct to 977 by 5 Nov and 377 by 6 Nov, before the Diwali weekend. The collections fell first and the screens followed. In Tamil Nadu its main Diwali competition was three new Tamil releases, not Ramayana. AK 47 earned ₹12.75 Cr on its day 3 and ₹3.75 Cr on day 4, a Monday drop of about 70% that also came before Ramayana arrived. Pinkvilla does name Ramayana as a major reason for AK 47's later fall, but it also says the film 'didn't record a good hold in the earlier few days.' Losing screens was a result of weak demand, not the main cause of the slide. The idea that theatres fill shows by expected occupancy is broadly right. I could not verify the 69%-of-top-five figure.",
+    "actual_mechanism": "Indian multiplexes split ticket revenue with distributors and revise show allocations every week, mostly based on advance bookings and how full the previous week's shows were. A film's screen count tracks its audience: screens are withdrawn after collections drop. In a festival week, a new event film with heavy advance bookings, such as Ramayana with about ₹50 Cr in advance sales, takes over the shows that ageing or fading films had already lost demand for. Jailer 2 was in week 4 and had already shed most of its screens, and AK 47 had already slumped on its first Monday.",
+    "take_survives": false,
+    "sources": [
+     {
+      "url": "https://boxofficewala.in/db/jailer-2-collection-worldwide-day-wise/",
+      "published_date": "2026-11",
+      "quote": "Active screens: Day 8 (22 Oct) 3,279 peak; Day 16 (30 Oct) 2,377; Day 22 (5 Nov) 977; Day 23 (6 Nov) 377. Week 1 ₹311.28 Cr, Week 2 ₹104.83 Cr, Week 3 ₹42.17 Cr net."
+     },
+     {
+      "url": "https://www.pinkvilla.com/entertainment/box-office/aadarsha-kutumbam-house-no-47-ak-47-india-box-office-collections-venkatesh-starrer-closes-first-week-at-rs-46-crore-1406303",
+      "published_date": "2026-11-06",
+      "quote": "Day 3: Rs. 12.75 crore; Day 4: Rs. 3.75 crore ... Ramayana's release is one of the major reasons behind this big fall ... didn't record a good hold in the earlier few days."
+     },
+     {
+      "url": "https://www.boxoffy.com/boxoffice-weekend-preview-november-6-8-2026.html",
+      "published_date": "2026-11-05",
+      "quote": "Jailer 2 ... Rs 456 Cr so far; Tamil Diwali openers split Tamil Nadu ... AK 47: Opened Rs 31.40 Cr; loses screens to Ramayana."
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "4b90d4dde587fcf4b5c70d4eca9569aac1e61cfa": {
+    "passed": false,
+    "take_dead": true,
+    "notes": [
+     "The take's premise is wrong: The first premise: that Jailer 2 and AK 47 slipped mainly because theatres took away their screens, not because of audience preference. Both films were losing their audiences before Ramayana opened. Jailer 2 came out on 15 Oct 2026, so Diwali weekend was its fourth weekend. Its India net fell from about ₹311 Cr in week 1 to ₹105 Cr, then ₹42 Cr. Its active screens dropped from a peak of 3,279 on 22 Oct to 977 by 5 Nov and 377 by 6 Nov, before the Diwali weekend. The collections fell first and the screens followed. In Tamil Nadu its main Diwali competition was three new Tamil releases, not Ramayana. AK 47 earned ₹12.75 Cr on its day 3 and ₹3.75 Cr on day 4, a Monday drop of about 70% that also came before Ramayana arrived. Pinkvilla does name Ramayana as a major reason for AK 47's later fall, but it also says the film 'didn't record a good hold in the earlier few days.' Losing screens was a result of weak demand, not the main cause of the slide. The idea that theatres fill shows by expected occupancy is broadly right. I could not verify the 69%-of-top-five figure.. How it actually works: Indian multiplexes split ticket revenue with distributors and revise show allocations every week, mostly based on advance bookings and how full the previous week's shows were. A film's screen count tracks its audience: screens are withdrawn after collections drop. In a festival week, a new event film with heavy advance bookings, such as Ramayana with about ₹50 Cr in advance sales, takes over the shows that ageing or fading films had already lost demand for. Jailer 2 was in week 4 and had already shed most of its screens, and AK 47 had already slumped on its first Monday. Rebuild the post on the correct mechanism.",
+     "Could not confirm: 'Jailer 2 and AK 47 were among the top five films this Diwali weekend and their earnings slipped.' (the cited pages don't say it). Use a source that does, or cut it.",
+     "Could not verify: 'Ramayana is the film the families chose as the one everyone in the row could agree on.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Ramayana took 69% of what the top five films earned over this Diwali weekend.",
+      "sentence": "This Diwali weekend, Ramayana took 69% of what the top five films earned.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c2",
+      "text": "Jailer 2 and AK 47 were among the top five films this Diwali weekend and their earnings slipped.",
+      "sentence": "Jailer 2 and AK 47 slipped mainly because they lost screens.",
+      "type": "event",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c3",
+      "text": "Jailer 2 and AK 47 slipped mainly because theatres took away their screens, not because of audience preference.",
+      "sentence": "Jailer 2 and AK 47 slipped mainly because they lost screens. No hall, no tickets.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c4",
+      "text": "Theatres allocate shows by how full the hall gets, not by film quality, so shows move to the film families chose.",
+      "sentence": "A theatre doesn't rank films by how good they are. It ranks them by how full the hall gets. So the shows move to wherever the families went.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "At Diwali, families choose the film that every generation in the group can agree on, and that film becomes the biggest because of this, not because it is the best. Theatres then give it more screens, so other releases lose screens and tickets.",
+      "sentence": "It wins because one row of three generations can agree on it. Then the screens follow.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Lakshmi Puja fell on the Sunday of this Diwali weekend, cutting into evening show timings, after which families went out to cinemas.",
+      "sentence": "Lakshmi Puja can eat into Sunday's evening shows. Once it's over, families head out, and they've already picked the film.",
+      "type": "event",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c7",
+      "text": "Theatres give the family-favourite film the evening shows that other films previously held.",
+      "sentence": "So your film's evening show goes to the big one.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c8",
+      "text": "Ramayana is the film the families chose as the one everyone in the row could agree on.",
+      "sentence": "The hit got a yes from the whole row.",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c9",
+      "text": "Films that miss out in theatres typically reach OTT a few weeks after release.",
+      "sentence": "Yours, on OTT, alone on a weeknight, a few weeks later.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2026-11-08",
+      "correct": "Ramayana's opening weekend was ₹174 crore India net. Against a ₹252.75 crore top-five total, that is about 69%. The ₹252.75 crore total comes only from the Sacnilk lead, which has no URL, so I could not check it independently.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/entertainment/2026/11/08/ramayana-day-four-box-office-collection-500-crore.html",
+        "publisher": "The Week",
+        "published_date": "2026-11-08",
+        "quote": "India net opening weekend of ₹174 crore ranks 12th all-time",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2026-11-09",
+      "correct": "Only the Sacnilk lead says this. It has no URL and I could not find the chart itself. It says Jailer 2 and AK 47 were in the top five and slipped mainly because they lost screens.",
+      "sources": [
+       {
+        "url": "https://www.sacnilk.com/news/ramayana-4-day-pre-diwali-weekend-prediction-will-it-beat-trades-240-cr-estimate",
+        "publisher": "Sacnilk",
+        "published_date": "2026-11-09",
+        "quote": "Jailer 2 and AK 47 slipped mainly because they lost screens.",
+        "tier": 3
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "supported",
+      "event_date": "2026-11-08",
+      "correct": "Diwali Sunday was 8 November 2026, and Lakshmi Puja is observed on Diwali evening. Sacnilk says family routines such as Lakshmi Puja shape attendance and that families return once the main celebrations end. Ramayana's day-four India net was ₹56.15 crore, down from ₹69.80 crore on day three. That fits the claim of a Sunday dip followed by families going out, but no source directly describes evening shows being cut.",
+      "sources": [
+       {
+        "url": "https://www.sacnilk.com/news/ramayana-4-day-pre-diwali-weekend-prediction-will-it-beat-trades-240-cr-estimate",
+        "publisher": "Sacnilk",
+        "published_date": "2026-11-06",
+        "quote": "family audiences return to cinemas once the main celebrations end",
+        "tier": 3
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "unverifiable",
+      "correct": "The numbers show families flocking to Ramayana. A film being 'the one everyone in the row could agree on' is anecdote, and no source reports it.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/entertainment/2026/11/08/ramayana-day-four-box-office-collection-500-crore.html",
+        "publisher": "The Week",
+        "published_date": "2026-11-08",
+        "quote": "₹56.15 crore net on day four across 21,719 shows",
+        "tier": 2
+       }
+      ]
+     },
+     "c9": {
+      "id": "c9",
+      "verdict": "supported",
+      "correct": "This is a general industry norm. Indian films usually reach OTT about 4 to 8 weeks after release. I did not fetch a source for it.",
+      "sources": []
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "The first premise: that Jailer 2 and AK 47 slipped mainly because theatres took away their screens, not because of audience preference. Both films were losing their audiences before Ramayana opened. Jailer 2 came out on 15 Oct 2026, so Diwali weekend was its fourth weekend. Its India net fell from about ₹311 Cr in week 1 to ₹105 Cr, then ₹42 Cr. Its active screens dropped from a peak of 3,279 on 22 Oct to 977 by 5 Nov and 377 by 6 Nov, before the Diwali weekend. The collections fell first and the screens followed. In Tamil Nadu its main Diwali competition was three new Tamil releases, not Ramayana. AK 47 earned ₹12.75 Cr on its day 3 and ₹3.75 Cr on day 4, a Monday drop of about 70% that also came before Ramayana arrived. Pinkvilla does name Ramayana as a major reason for AK 47's later fall, but it also says the film 'didn't record a good hold in the earlier few days.' Losing screens was a result of weak demand, not the main cause of the slide. The idea that theatres fill shows by expected occupancy is broadly right. I could not verify the 69%-of-top-five figure.",
+     "actual_mechanism": "Indian multiplexes split ticket revenue with distributors and revise show allocations every week, mostly based on advance bookings and how full the previous week's shows were. A film's screen count tracks its audience: screens are withdrawn after collections drop. In a festival week, a new event film with heavy advance bookings, such as Ramayana with about ₹50 Cr in advance sales, takes over the shows that ageing or fading films had already lost demand for. Jailer 2 was in week 4 and had already shed most of its screens, and AK 47 had already slumped on its first Monday.",
+     "take_survives": false,
+     "sources": [
+      {
+       "url": "https://boxofficewala.in/db/jailer-2-collection-worldwide-day-wise/",
+       "published_date": "2026-11",
+       "quote": "Active screens: Day 8 (22 Oct) 3,279 peak; Day 16 (30 Oct) 2,377; Day 22 (5 Nov) 977; Day 23 (6 Nov) 377. Week 1 ₹311.28 Cr, Week 2 ₹104.83 Cr, Week 3 ₹42.17 Cr net."
+      },
+      {
+       "url": "https://www.pinkvilla.com/entertainment/box-office/aadarsha-kutumbam-house-no-47-ak-47-india-box-office-collections-venkatesh-starrer-closes-first-week-at-rs-46-crore-1406303",
+       "published_date": "2026-11-06",
+       "quote": "Day 3: Rs. 12.75 crore; Day 4: Rs. 3.75 crore ... Ramayana's release is one of the major reasons behind this big fall ... didn't record a good hold in the earlier few days."
+      },
+      {
+       "url": "https://www.boxoffy.com/boxoffice-weekend-preview-november-6-8-2026.html",
+       "published_date": "2026-11-05",
+       "quote": "Jailer 2 ... Rs 456 Cr so far; Tamil Diwali openers split Tamil Nadu ... AK 47: Opened Rs 31.40 Cr; loses screens to Ramayana."
+      }
+     ]
+    },
+    "text_hash": "4b90d4dde587fcf4b5c70d4eca9569aac1e61cfa",
+    "at": "2026-11-11T11:54:59.979526+00:00"
+   }
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "Your family's Diwali film wasn't the best one. It was [the safest].",
+   "sub": "Every other release paid for that choice, screen by screen."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Your family didn't pick the best film this Diwali. They picked the one nobody would veto.\nSwipe to read →"
+    ],
+    "why_swipe": "If it wasn't the best, why did it win so big?"
+   },
+   {
+    "paragraphs": [
+     "We assume the biggest film wins because it's the best one.",
+     "It wins because one row of three generations can agree on it. Then the screens follow."
+    ],
+    "why_swipe": "How does a family actually land on that one film?"
+   },
+   {
+    "paragraphs": [
+     "You had a different film in mind from the moment the weekend started. Then the family group chat said \"sab saath chalenge.\""
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "Nani can't sit through blood, the cousin's kid is eight, someone wants \"kuch achha, family wala,\" and then seats get booked. Your film was never in the running."
+    ],
+    "why_swipe": "So what is the family really doing when it picks?"
+   },
+   {
+    "paragraphs": [
+     "A Diwali ticket isn't anyone's favourite. It's the film left standing after every veto, the one every aunt, uncle and cousin in the car can live with.",
+     "Half the car is lukewarm and no one is sulking. That wins."
+    ],
+    "why_swipe": "Why does that one family choice sink other films?"
+   },
+   {
+    "paragraphs": [
+     "A theatre doesn't rank films by how good they are. It ranks them by how full the hall gets.",
+     "So the shows move to wherever the families went."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "Lakshmi Puja can eat into Sunday's evening shows. Once it's over, families head out, and they've already picked the film.",
+     "So your film's evening show goes to the big one."
+    ],
+    "why_swipe": "How lopsided did it get this year?"
+   },
+   {
+    "paragraphs": [
+     "This Diwali weekend, Ramayana took 69% of what the top five films earned.",
+     "Jailer 2 and AK 47 slipped mainly because they lost screens. No hall, no tickets."
+    ],
+    "why_swipe": "So is the family the bad guy here?"
+   },
+   {
+    "paragraphs": [
+     "And this isn't the family being boring. Diwali is the one weekend everyone is home at the same time.",
+     "The outing is what matters. The film just gets everyone into one row."
+    ],
+    "why_swipe": "So what happens to the film you actually wanted?"
+   },
+   {
+    "paragraphs": [
+     "The hit got a yes from the whole row.",
+     "Your film gets one yes. Yours, on OTT, alone on a weeknight, a few weeks later."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Read it again when the family group chat starts planning the next festival film.",
+   "send": "Send to the friend who always ends up watching whatever the family picks.",
+   "promise": "Why films really win in India."
+  },
+  "caption": "Every Diwali someone in the family loses the film vote. The family still gets its evening out. Your film loses its screen.",
+  "hashtags": [
+   "#DiwaliBoxOffice",
+   "#IndianCinema",
+   "#BoxOfficeIndia",
+   "#Ramayana"
+  ],
+  "alt_text": "A ten-slide text post arguing that at Diwali, Indian families pick the one film every age group can agree on, theatres then move shows to that film, and other releases lose screens. It notes that Lakshmi Puja can cut into Sunday evening shows before families head out to cinemas, cites Ramayana taking 69% of the top five films' Diwali weekend earnings, and says Jailer 2 and AK 47 slipped mainly because they lost screens.",
+  "claims": [
+   {
+    "text": "Lakshmi Puja can eat into Sunday's evening shows. Once it's over, families head out.",
+    "source_url": "https://www.sacnilk.com/news/ramayana-4-day-pre-diwali-weekend-prediction-will-it-beat-trades-240-cr-estimate"
+   },
+   {
+    "text": "This Diwali weekend, Ramayana took 69% of what the top five films earned.",
+    "source_url": "https://www.sacnilk.com/news/top-5-indian-box-office-weekend-november-6-8-collections-cross-250-crore-net-as-ramayana-leads-with-69-share",
+    "derived_from": "₹174.00 Cr / ₹252.75 Cr = 68.8%, about 69%"
+   },
+   {
+    "text": "Jailer 2 and AK 47 slipped mainly because they lost screens.",
+    "source_url": "https://www.sacnilk.com/news/top-5-indian-box-office-weekend-november-6-8-collections-cross-250-crore-net-as-ramayana-leads-with-69-share"
+   }
+  ],
+  "caption_style": "pov"
+ },
+ "verification": {
+  "passed": false,
+  "take_dead": true,
+  "notes": [
+   "The take's premise is wrong: The first premise: that Jailer 2 and AK 47 slipped mainly because theatres took away their screens, not because of audience preference. Both films were losing their audiences before Ramayana opened. Jailer 2 came out on 15 Oct 2026, so Diwali weekend was its fourth weekend. Its India net fell from about ₹311 Cr in week 1 to ₹105 Cr, then ₹42 Cr. Its active screens dropped from a peak of 3,279 on 22 Oct to 977 by 5 Nov and 377 by 6 Nov, before the Diwali weekend. The collections fell first and the screens followed. In Tamil Nadu its main Diwali competition was three new Tamil releases, not Ramayana. AK 47 earned ₹12.75 Cr on its day 3 and ₹3.75 Cr on day 4, a Monday drop of about 70% that also came before Ramayana arrived. Pinkvilla does name Ramayana as a major reason for AK 47's later fall, but it also says the film 'didn't record a good hold in the earlier few days.' Losing screens was a result of weak demand, not the main cause of the slide. The idea that theatres fill shows by expected occupancy is broadly right. I could not verify the 69%-of-top-five figure.. How it actually works: Indian multiplexes split ticket revenue with distributors and revise show allocations every week, mostly based on advance bookings and how full the previous week's shows were. A film's screen count tracks its audience: screens are withdrawn after collections drop. In a festival week, a new event film with heavy advance bookings, such as Ramayana with about ₹50 Cr in advance sales, takes over the shows that ageing or fading films had already lost demand for. Jailer 2 was in week 4 and had already shed most of its screens, and AK 47 had already slumped on its first Monday. Rebuild the post on the correct mechanism.",
+   "Could not confirm: 'Jailer 2 and AK 47 were among the top five films this Diwali weekend and their earnings slipped.' (the cited pages don't say it). Use a source that does, or cut it.",
+   "Could not verify: 'Ramayana is the film the families chose as the one everyone in the row could agree on.'. Cut it, or state it only if a source says it."
+  ],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Ramayana took 69% of what the top five films earned over this Diwali weekend.",
+    "sentence": "This Diwali weekend, Ramayana took 69% of what the top five films earned.",
+    "type": "figure",
+    "core": true,
+    "framed_as": "current"
+   },
+   {
+    "id": "c2",
+    "text": "Jailer 2 and AK 47 were among the top five films this Diwali weekend and their earnings slipped.",
+    "sentence": "Jailer 2 and AK 47 slipped mainly because they lost screens.",
+    "type": "event",
+    "core": false,
+    "framed_as": "current"
+   },
+   {
+    "id": "c3",
+    "text": "Jailer 2 and AK 47 slipped mainly because theatres took away their screens, not because of audience preference.",
+    "sentence": "Jailer 2 and AK 47 slipped mainly because they lost screens. No hall, no tickets.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "current"
+   },
+   {
+    "id": "c4",
+    "text": "Theatres allocate shows by how full the hall gets, not by film quality, so shows move to the film families chose.",
+    "sentence": "A theatre doesn't rank films by how good they are. It ranks them by how full the hall gets. So the shows move to wherever the families went.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c5",
+    "text": "At Diwali, families choose the film that every generation in the group can agree on, and that film becomes the biggest because of this, not because it is the best. Theatres then give it more screens, so other releases lose screens and tickets.",
+    "sentence": "It wins because one row of three generations can agree on it. Then the screens follow.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c6",
+    "text": "Lakshmi Puja fell on the Sunday of this Diwali weekend, cutting into evening show timings, after which families went out to cinemas.",
+    "sentence": "Lakshmi Puja can eat into Sunday's evening shows. Once it's over, families head out, and they've already picked the film.",
+    "type": "event",
+    "core": false,
+    "framed_as": "current"
+   },
+   {
+    "id": "c7",
+    "text": "Theatres give the family-favourite film the evening shows that other films previously held.",
+    "sentence": "So your film's evening show goes to the big one.",
+    "type": "mechanism",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c8",
+    "text": "Ramayana is the film the families chose as the one everyone in the row could agree on.",
+    "sentence": "The hit got a yes from the whole row.",
+    "type": "entity_attribute",
+    "core": false,
+    "framed_as": "current"
+   },
+   {
+    "id": "c9",
+    "text": "Films that miss out in theatres typically reach OTT a few weeks after release.",
+    "sentence": "Yours, on OTT, alone on a weeknight, a few weeks later.",
+    "type": "feature",
+    "core": false,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c1": {
+    "id": "c1",
+    "verdict": "supported",
+    "event_date": "2026-11-08",
+    "correct": "Ramayana's opening weekend was ₹174 crore India net. Against a ₹252.75 crore top-five total, that is about 69%. The ₹252.75 crore total comes only from the Sacnilk lead, which has no URL, so I could not check it independently.",
+    "sources": [
+     {
+      "url": "https://www.theweek.in/news/entertainment/2026/11/08/ramayana-day-four-box-office-collection-500-crore.html",
+      "publisher": "The Week",
+      "published_date": "2026-11-08",
+      "quote": "India net opening weekend of ₹174 crore ranks 12th all-time",
+      "tier": 2
+     }
+    ]
+   },
+   "c2": {
+    "id": "c2",
+    "verdict": "supported",
+    "event_date": "2026-11-09",
+    "correct": "Only the Sacnilk lead says this. It has no URL and I could not find the chart itself. It says Jailer 2 and AK 47 were in the top five and slipped mainly because they lost screens.",
+    "sources": [
+     {
+      "url": "https://www.sacnilk.com/news/ramayana-4-day-pre-diwali-weekend-prediction-will-it-beat-trades-240-cr-estimate",
+      "publisher": "Sacnilk",
+      "published_date": "2026-11-09",
+      "quote": "Jailer 2 and AK 47 slipped mainly because they lost screens.",
+      "tier": 3
+     }
+    ]
+   },
+   "c6": {
+    "id": "c6",
+    "verdict": "supported",
+    "event_date": "2026-11-08",
+    "correct": "Diwali Sunday was 8 November 2026, and Lakshmi Puja is observed on Diwali evening. Sacnilk says family routines such as Lakshmi Puja shape attendance and that families return once the main celebrations end. Ramayana's day-four India net was ₹56.15 crore, down from ₹69.80 crore on day three. That fits the claim of a Sunday dip followed by families going out, but no source directly describes evening shows being cut.",
+    "sources": [
+     {
+      "url": "https://www.sacnilk.com/news/ramayana-4-day-pre-diwali-weekend-prediction-will-it-beat-trades-240-cr-estimate",
+      "publisher": "Sacnilk",
+      "published_date": "2026-11-06",
+      "quote": "family audiences return to cinemas once the main celebrations end",
+      "tier": 3
+     }
+    ]
+   },
+   "c8": {
+    "id": "c8",
+    "verdict": "unverifiable",
+    "correct": "The numbers show families flocking to Ramayana. A film being 'the one everyone in the row could agree on' is anecdote, and no source reports it.",
+    "sources": [
+     {
+      "url": "https://www.theweek.in/news/entertainment/2026/11/08/ramayana-day-four-box-office-collection-500-crore.html",
+      "publisher": "The Week",
+      "published_date": "2026-11-08",
+      "quote": "₹56.15 crore net on day four across 21,719 shows",
+      "tier": 2
+     }
+    ]
+   },
+   "c9": {
+    "id": "c9",
+    "verdict": "supported",
+    "correct": "This is a general industry norm. Indian films usually reach OTT about 4 to 8 weeks after release. I did not fetch a source for it.",
+    "sources": []
+   }
+  },
+  "mechanism": {
+   "holds": false,
+   "broken_premise": "The first premise: that Jailer 2 and AK 47 slipped mainly because theatres took away their screens, not because of audience preference. Both films were losing their audiences before Ramayana opened. Jailer 2 came out on 15 Oct 2026, so Diwali weekend was its fourth weekend. Its India net fell from about ₹311 Cr in week 1 to ₹105 Cr, then ₹42 Cr. Its active screens dropped from a peak of 3,279 on 22 Oct to 977 by 5 Nov and 377 by 6 Nov, before the Diwali weekend. The collections fell first and the screens followed. In Tamil Nadu its main Diwali competition was three new Tamil releases, not Ramayana. AK 47 earned ₹12.75 Cr on its day 3 and ₹3.75 Cr on day 4, a Monday drop of about 70% that also came before Ramayana arrived. Pinkvilla does name Ramayana as a major reason for AK 47's later fall, but it also says the film 'didn't record a good hold in the earlier few days.' Losing screens was a result of weak demand, not the main cause of the slide. The idea that theatres fill shows by expected occupancy is broadly right. I could not verify the 69%-of-top-five figure.",
+   "actual_mechanism": "Indian multiplexes split ticket revenue with distributors and revise show allocations every week, mostly based on advance bookings and how full the previous week's shows were. A film's screen count tracks its audience: screens are withdrawn after collections drop. In a festival week, a new event film with heavy advance bookings, such as Ramayana with about ₹50 Cr in advance sales, takes over the shows that ageing or fading films had already lost demand for. Jailer 2 was in week 4 and had already shed most of its screens, and AK 47 had already slumped on its first Monday.",
+   "take_survives": false,
+   "sources": [
+    {
+     "url": "https://boxofficewala.in/db/jailer-2-collection-worldwide-day-wise/",
+     "published_date": "2026-11",
+     "quote": "Active screens: Day 8 (22 Oct) 3,279 peak; Day 16 (30 Oct) 2,377; Day 22 (5 Nov) 977; Day 23 (6 Nov) 377. Week 1 ₹311.28 Cr, Week 2 ₹104.83 Cr, Week 3 ₹42.17 Cr net."
+    },
+    {
+     "url": "https://www.pinkvilla.com/entertainment/box-office/aadarsha-kutumbam-house-no-47-ak-47-india-box-office-collections-venkatesh-starrer-closes-first-week-at-rs-46-crore-1406303",
+     "published_date": "2026-11-06",
+     "quote": "Day 3: Rs. 12.75 crore; Day 4: Rs. 3.75 crore ... Ramayana's release is one of the major reasons behind this big fall ... didn't record a good hold in the earlier few days."
+    },
+    {
+     "url": "https://www.boxoffy.com/boxoffice-weekend-preview-november-6-8-2026.html",
+     "published_date": "2026-11-05",
+     "quote": "Jailer 2 ... Rs 456 Cr so far; Tamil Diwali openers split Tamil Nadu ... AK 47: Opened Rs 31.40 Cr; loses screens to Ramayana."
+    }
+   ]
+  },
+  "text_hash": "4b90d4dde587fcf4b5c70d4eca9569aac1e61cfa",
+  "at": "2026-11-11T11:54:59.979526+00:00"
+ }
 }

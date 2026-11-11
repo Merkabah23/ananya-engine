@@ -1,41 +1,41 @@
 [
  {
-  "due": "2026-11-17T20:30:00+05:30",
+  "due": "2026-11-16T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "Who your RM works for",
-   "claim": "The relationship manager who calls you 'sir' and remembers your birthday earns more when you buy the product that's worse for you.",
-   "moment": "The bank RM visits with a 'guaranteed return' plan that is half insurance, half investment.",
+   "title": "The sunroof ladder",
+   "claim": "The sunroof you'll open twice a year is how carmakers get you from the variant you needed to the one you bought.",
+   "moment": "At the showroom, the one feature you want only comes in the top two variants.",
    "turn": {
-    "believed": "The RM is the bank's free advisor for me.",
-    "actually": "The RM is a salesperson with targets, and some products pay far better commissions than others."
+    "believed": "Top variants are for people who want all the features.",
+    "actually": "One visible feature is kept for the top end so you buy everything that comes with it."
    },
-   "feeling": "Naive for trusting the friendliest person at the bank.",
-   "villain": "Cross-sell targets and commission structures inside banks",
-   "story_type": "objection",
-   "because": "Insurance-linked plans pay higher commissions than a plain FD or index fund. The warmth is real, and so is the target.",
-   "payoff": "Ask your RM one question: 'What do you earn if I buy this?' Watch how long the answer takes.",
+   "feeling": "I paid lakhs extra for one thing other people can see.",
+   "villain": "Variant bundling that locks the visible features to the costliest trims",
+   "story_type": "teaching",
+   "because": "Features people can see from the road sell better than safety or engines. Putting them only in top trims raises what the average buyer spends.",
+   "payoff": "Test: list the features you paid for and tick the ones you used this month.",
    "lived": false,
-   "behaviour": "RMs push ULIPs and endowment plans to salaried customers and to their parents.",
-   "mechanism": "The product that pays the seller most gets pitched hardest.",
-   "group": "Salaried account holders and their parents",
+   "behaviour": "Buyers go two variants up for a sunroof or a big screen, and brands bundle those features only at the top.",
+   "mechanism": "Visible features drive the upgrade, so they're used as bait for the whole bundle.",
+   "group": "First-time car buyers in their late 20s and early 30s",
    "territory": "money_status",
-   "mood": "dark_pattern",
-   "format_name": "behind_the_brand",
-   "send_to": "Their parents, who just got a call from the bank",
+   "mood": "sharp",
+   "format_name": "price_tells",
+   "send_to": "The friend who's comparing variants this week",
    "format_hint": "carousel",
-   "why_now": "Bonus and year-end tax-saving season is when the RM calls start.",
-   "needs_facts": "That commissions on insurance-linked products are higher than on plain deposits, from IRDAI or SEBI disclosures",
+   "why_now": "Festive car-buying season just ended with record bookings.",
+   "needs_facts": false,
    "news_peg": null,
    "evidence": [],
-   "id": "2026-11-101708-039",
+   "id": "2026-11-111204-041",
    "score": {
-    "rank": 3,
-    "why": "The friendly bank RM is a salesperson with a target, and the question 'what do you earn?' is a test readers can run. A natural one to send to parents.",
+    "rank": 1,
+    "why": "Everyone who has stood in a showroom knows the one feature that only comes in the top trim. It shows we pay for what others can see, and the reader can test it on their own car.",
     "scores": {
-     "relatable": 4,
+     "relatable": 5,
      "fresh_angle": 4,
-     "shareable": 5,
+     "shareable": 4,
      "saveable": 4,
      "because": 5
     },
@@ -47,40 +47,40 @@
   "due": "2026-11-19T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "We read 1-star reviews to buy",
-   "claim": "We read 1-star reviews to decide to buy, not to avoid. If the complaint is about delivery, we're sold.",
-   "moment": "You skip the 5 stars and go straight to the angriest review, which says 'box came dented'.",
+   "title": "Saved means done",
+   "claim": "Saving a reel gives you the feeling of having done the thing, which is why you never come back to it.",
+   "moment": "A saved folder full of recipes, workouts and money tips you've never opened since.",
    "turn": {
-    "believed": "Bad reviews warn us off.",
-    "actually": "Bad reviews are the only ones we trust, so a harmless complaint works as an endorsement."
+    "believed": "You're building a library for later.",
+    "actually": "The save is the reward. Your brain counts it as progress."
    },
-   "feeling": "Relieved I finally have a reason to trust something.",
-   "villain": "Review sections so full of paid praise that only complaints feel real",
-   "story_type": "teaching",
-   "because": "We know 5-star reviews can be bought. A real complaint about a small thing proves the product survived real use.",
-   "payoff": "The best review a brand can get is a 1-star about the courier.",
+   "feeling": "I'm busy improving myself and nothing has changed.",
+   "villain": "An algorithm that rewards saves, so creators make content made to be saved",
+   "story_type": "objection",
+   "because": "Saves boost a post's reach, so creators make 'save this' content. You get the small high of planning without doing anything.",
+   "payoff": "Test: open your saved folder and do one thing from it today. Then delete the rest.",
    "lived": false,
-   "behaviour": "Shoppers filter by lowest rating first and buy if the flaws are irrelevant to them.",
-   "mechanism": "Paid praise made complaints the only signal left.",
-   "group": "Online shoppers who research before buying",
+   "behaviour": "Users save tips and tutorials in bulk and rarely revisit them.",
+   "mechanism": "Planning feels like progress, and the platform rewards that feeling.",
+   "group": "Instagram users trying to be better at something",
    "territory": "creators_internet",
    "mood": "funny",
-   "format_name": "saturday_single",
-   "send_to": "The friend who takes 40 minutes to buy a kettle",
+   "format_name": "feed_anthropology",
+   "send_to": "The friend with 400 saved recipes and a Swiggy habit",
    "format_hint": "single",
-   "why_now": "Paid and fake reviews have made star ratings feel useless.",
+   "why_now": "'Save this for later' has become every creator's closing line.",
    "needs_facts": false,
    "news_peg": null,
    "evidence": [],
-   "id": "2026-11-101708-038",
+   "id": "2026-11-111204-052",
    "score": {
-    "rank": 2,
-    "why": "We go straight to the angriest review, and a harmless complaint ends up working as an endorsement. It's a funny, true habit most people never examine.",
+    "rank": 6,
+    "why": "Everyone's saved folder is untouched. The turn is that saving feels like progress, which is why creators say 'save this', and it ends with a test the reader can run today.",
     "scores": {
      "relatable": 5,
-     "fresh_angle": 5,
+     "fresh_angle": 4,
      "shareable": 4,
-     "saveable": 3,
+     "saveable": 4,
      "because": 4
     },
     "format_fit": "single"
@@ -88,43 +88,214 @@
   }
  },
  {
-  "due": "2026-11-25T20:30:00+05:30",
-  "format": "carousel",
+  "due": null,
+  "format": "spare",
   "topic": {
-   "title": "Only three units left",
-   "claim": "'Only three units left at this price' at a site visit is a price ladder, not a shortage.",
-   "moment": "The sales lady says the price goes up next week, and the cheque book suddenly feels urgent.",
+   "title": "Shows written for your phone",
+   "claim": "Many OTT shows now have characters say out loud what just happened, because the show expects you to be scrolling.",
+   "moment": "A character explains the plot twist you just watched while you're replying to a message.",
    "turn": {
-    "believed": "Flats are selling out fast.",
-    "actually": "Builders release stock in slabs and raise the price each slab, so 'last units' is always true."
+    "believed": "Writing has got lazy.",
+    "actually": "It's built for a second screen, so you can look away and still follow."
    },
-   "feeling": "Rushed into the biggest cheque of my life.",
-   "villain": "Phased inventory releases built into builder pricing",
+   "feeling": "The show doesn't trust me, and honestly, it's right.",
+   "villain": "Streaming metrics that reward finishing a show over paying attention to it",
    "story_type": "teaching",
-   "because": "Each price step rewards early buyers on paper and pushes late ones to hurry. The builder controls how many units are 'left'.",
-   "payoff": "Ask how many units are unreleased, not how many are left.",
+   "because": "Platforms care whether you finish the episode. Spelling things out keeps distracted viewers from dropping off.",
+   "payoff": "Test: put your phone in another room for one episode. Count how often the show repeats itself.",
    "lived": false,
-   "behaviour": "Builders announce price hikes by phase and run 'limited' offers at site visits.",
-   "mechanism": "Controlled releases manufacture urgency.",
-   "group": "First-time home buyers, 28 to 35",
-   "territory": "money_status",
-   "mood": "dark_pattern",
-   "format_name": "price_tells",
-   "send_to": "The couple doing site visits every Sunday",
+   "behaviour": "Viewers watch with phones in hand, and writers add recap lines and obvious dialogue.",
+   "mechanism": "Completion rates drive decisions, so writing serves the distracted viewer.",
+   "group": "Streaming viewers who watch in the evening after work",
+   "territory": "pop_culture",
+   "mood": "mixed",
+   "format_name": "feed_anthropology",
+   "send_to": "The friend who watches shows at 1.5x while scrolling",
    "format_hint": "carousel",
-   "why_now": "Festive launches just pushed a wave of 'new phase' pricing.",
+   "why_now": "Streaming platforms are releasing more shows built for binge watching.",
    "needs_facts": false,
    "news_peg": null,
    "evidence": [],
-   "id": "2026-11-101708-041",
+   "id": "2026-11-111204-050",
+   "score": {
+    "rank": 2,
+    "why": "You catch yourself half-watching a show while the characters explain the twist. It turns 'lazy writing' into 'written for your second screen'.",
+    "scores": {
+     "relatable": 5,
+     "fresh_angle": 4,
+     "shareable": 4,
+     "saveable": 3,
+     "because": 4
+    },
+    "format_fit": "carousel"
+   }
+  }
+ },
+ {
+  "due": null,
+  "format": "spare",
+  "topic": {
+   "title": "GPay is the word, UPI is the thing",
+   "claim": "When we say 'GPay kar do' for any UPI payment, one brand has won the one thing no ad can buy: becoming the word.",
+   "behaviour": "People say 'GPay kar do' whichever app they use. A Karan Johar story about a school snack counter that took 'only GPay' is the latest example.",
+   "mechanism": "The first app people learned becomes the name of the act. After that, rivals have to spend money on a habit that is already owned.",
+   "group": "Everyday UPI users who pay with PhonePe, Paytm or a bank app and still say 'GPay'",
+   "territory": "business_brands",
+   "mood": "funny",
+   "format_name": "behind_the_brand",
+   "moment": "You're paying with PhonePe, but you tell the shopkeeper 'GPay kar diya'.",
+   "turn": {
+    "believed": "We pick the app that is best for us.",
+    "actually": "We pick the name that is already in our mouth, and the brand that owns the word owns the habit."
+   },
+   "feeling": "amused, then slightly manipulated",
+   "villain": "a market where the first brand to teach a habit gets the name of the habit for free",
+   "story_type": "teaching",
+   "because": "Once a brand name becomes the verb, every payment by any app is free advertising for the first one. Rivals have to fight a word, not a product.",
+   "proof": [
+    {
+     "fact": "The article uses Karan Johar's school sports day anecdote, where the snack counter took only Google Pay, to show how 'GPay kar do' is said for any UPI payment, whichever app people use.",
+     "source_url": "https://www.businesstoday.in/trending/entertainment/story/only-gpay-karan-johars-anecdote-shows-how-google-pay-became-synonymous-with-upi-566191-2026-11-07",
+     "date": "2026-11-07"
+    }
+   ],
+   "lived": false,
+   "payoff": "Check your own habit: which app do you say out loud, and is it the one you actually use?",
+   "send_to": "The friend who still says 'GPay kar do' while paying with another app.",
+   "format_hint": "single",
+   "real_details": [
+    "The anecdote came from Koffee with Karan season 9"
+   ],
+   "evidence": [
+    {
+     "url": "https://www.businesstoday.in/trending/entertainment/story/only-gpay-karan-johars-anecdote-shows-how-google-pay-became-synonymous-with-upi-566191-2026-11-07",
+     "sub": "news",
+     "rank": 42
+    }
+   ],
+   "news_peg": "Karan Johar's 'Only GPay' anecdote from Koffee with Karan season 9, reported on 7 November 2026",
+   "why_now": "The anecdote went around this week and prompted a fresh look at how a brand name becomes a verb.",
+   "counterintuitive": false,
+   "needs_facts": false,
+   "id": "2026-11-111204-024",
+   "score": {
+    "rank": 3,
+    "why": "Everyone says 'GPay kar do' while paying with another app. A brand becoming the word is a clear hidden win, and the anecdote supports it without being the point.",
+    "scores": {
+     "relatable": 5,
+     "fresh_angle": 4,
+     "shareable": 5,
+     "saveable": 2,
+     "because": 4
+    },
+    "format_fit": "single"
+   }
+  }
+ },
+ {
+  "due": null,
+  "format": "spare",
+  "topic": {
+   "title": "The seat lottery home",
+   "claim": "Every city runs on people who go home twice a year, and for them the station isn't a journey, it's a holding pen.",
+   "behaviour": "Workers from Delhi heading to Bihar and UP for Chhath wait in holding areas, and platform entry is limited to people with confirmed tickets. The system plans for the rush like it is an emergency, even though it comes every year.",
+   "mechanism": "Trains are added late and temporary fixes get reused each season. A rush that happens on the same dates every year is still managed like a surprise.",
+   "group": "Migrant workers and their friends in metros, who go home only for the big festivals",
+   "territory": "life_relationships",
+   "mood": "mixed",
+   "format_name": "saturday_single",
+   "moment": "You open the ticket app at 8 am the day booking opens, and every train home already shows a waiting list.",
+   "turn": {
+    "believed": "Festival crowds are a one-time rush that the railways handle as best they can.",
+    "actually": "The rush is on the calendar every year, and the fix is still a waiting area outside the platform."
+   },
+   "feeling": "Taken for granted by the city I work for",
+   "villain": "A transport system that handles a predictable annual rush with temporary arrangements",
+   "story_type": "objection",
+   "because": "Adding permanent capacity for two peak weeks is expensive, so crowd control is cheaper than seats. The people who bear the cost have no way to push back.",
+   "proof": [
+    {
+     "fact": "Platform tickets are suspended from 3 to 14 November at six Delhi stations, and a permanent holding area outside Platform 16 at New Delhi can hold about 7,000 people.",
+     "source_url": "https://www.businesstoday.in/india/story/diwali-chhath-travel-railways-suspend-platform-tickets-at-6-delhi-stations-check-new-rules-565428-2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "lived": false,
+   "payoff": "The city counts on you to leave on those dates, and it still isn't ready when you do.",
+   "send_to": "A colleague who is leaving for Chhath and has no confirmed seat",
+   "format_hint": "single",
+   "real_details": [
+    "A second holding area was commissioned at Anand Vihar Terminal this year"
+   ],
+   "evidence": [
+    {
+     "url": "https://www.businesstoday.in/india/story/diwali-chhath-travel-railways-suspend-platform-tickets-at-6-delhi-stations-check-new-rules-565428-2026-11-03",
+     "sub": "news",
+     "rank": 25
+    },
+    {
+     "url": "https://newsonair.gov.in/railways-make-elaborate-arrangements-for-passengers-travelling-for-chhat-puja/",
+     "sub": "trending",
+     "rank": 40
+    }
+   ],
+   "news_peg": "Platform tickets suspended at six Delhi stations from 3 to 14 November (2026-11-03) and Chhath holding areas (2026-11-09)",
+   "why_now": "Chhath travel is happening right now.",
+   "counterintuitive": false,
+   "needs_facts": true,
+   "id": "2026-11-111204-011",
    "score": {
     "rank": 4,
-    "why": "'Last units' is always true because the builder controls what's released. The sharp question to ask is how many units are unreleased.",
+    "why": "The waiting list and the holding pen for the trip home are lived by millions every Diwali and Chhath. The turn is that the city counts on you leaving and still isn't ready.",
+    "scores": {
+     "relatable": 5,
+     "fresh_angle": 4,
+     "shareable": 5,
+     "saveable": 2,
+     "because": 4
+    },
+    "format_fit": "either"
+   }
+  }
+ },
+ {
+  "due": null,
+  "format": "spare",
+  "topic": {
+   "title": "The PR box report",
+   "claim": "Most PR boxes sent to influencers aren't meant to sell anything. They're meant to fill a slide in a brand's monthly report.",
+   "moment": "Five creators unbox the same pastel hamper in the same week.",
+   "turn": {
+    "believed": "Brands send these because they drive sales.",
+    "actually": "They create screenshots that prove activity, and almost nobody checks whether anyone bought."
+   },
+   "feeling": "I fell for a campaign nobody was measuring.",
+   "villain": "Marketing teams judged on activity because sales are hard to trace",
+   "story_type": "teaching",
+   "because": "Influencer reach is hard to tie to sales. So brand teams report what they can count: posts, mentions and views.",
+   "payoff": "When everyone posts the same box the same week, you're looking at a report, not a recommendation.",
+   "lived": false,
+   "behaviour": "Brands mail gifted kits to creators, and creators post unboxings with a 'PR' tag.",
+   "mechanism": "What gets counted is what gets done, even when it doesn't sell.",
+   "group": "Instagram users who follow lifestyle creators",
+   "territory": "creators_internet",
+   "mood": "sharp",
+   "format_name": "behind_the_brand",
+   "send_to": "The friend who bought the serum every creator unboxed",
+   "format_hint": "carousel",
+   "why_now": "Festive gifting season floods feeds with PR hampers.",
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-11-111204-047",
+   "score": {
+    "rank": 5,
+    "why": "Five creators unbox the same hamper in the same week. It makes the page's influencer belief concrete: the box feeds a report slide, not sales.",
     "scores": {
      "relatable": 4,
      "fresh_angle": 4,
      "shareable": 4,
-     "saveable": 4,
+     "saveable": 3,
      "because": 5
     },
     "format_fit": "carousel"
@@ -132,204 +303,69 @@
   }
  },
  {
-  "due": "2026-11-27T20:30:00+05:30",
-  "format": "carousel",
-  "topic": {
-   "title": "The free trial is priced on forgetting",
-   "claim": "A free trial isn't priced on the people who love the product. It's priced on the people who forget to cancel.",
-   "moment": "A ₹499 debit in month three for an app you opened twice.",
-   "turn": {
-    "believed": "Trials let you test before you pay.",
-    "actually": "Trials work best for the company when you don't remember them."
-   },
-   "feeling": "Careless, and annoyed at myself.",
-   "villain": "Auto-renew subscriptions with cancel buttons buried three screens deep",
-   "story_type": "teaching",
-   "because": "Auto-pay on UPI or card means silence counts as yes. Every forgotten trial is revenue with no service cost.",
-   "payoff": "Open your UPI autopay list tonight. Count the ones you'd sign up for again today.",
-   "lived": false,
-   "behaviour": "Apps ask for a mandate up front, then make cancelling harder than joining.",
-   "mechanism": "Inertia earns more than delight.",
-   "group": "Anyone with three or more subscriptions",
-   "territory": "business_brands",
-   "mood": "sharp",
-   "format_name": "price_tells",
-   "send_to": "The sibling who pays for four OTT apps",
-   "format_hint": "carousel",
-   "why_now": "UPI autopay has made signing up one tap and cancelling a hunt.",
-   "needs_facts": false,
-   "news_peg": null,
-   "evidence": [],
-   "id": "2026-11-101708-037",
-   "score": {
-    "rank": 5,
-    "why": "A free trial is priced on the people who forget to cancel. The UPI autopay check is a test readers will actually do tonight.",
-    "scores": {
-     "relatable": 5,
-     "fresh_angle": 4,
-     "shareable": 4,
-     "saveable": 5,
-     "because": 4
-    },
-    "format_fit": "carousel"
-   }
-  }
- },
- {
   "due": null,
   "format": "spare",
   "topic": {
-   "title": "The ₹350 chair",
-   "claim": "Half of what you pay for café coffee is rent on a chair, because our cities have almost nowhere free to sit.",
-   "moment": "You buy a cold coffee you don't want so you can take a call for an hour.",
-   "turn": {
-    "believed": "We're paying for good coffee.",
-    "actually": "We're paying for a seat, a plug and Wi-Fi, with the coffee as the ticket."
-   },
-   "feeling": "Like I'm paying an entry fee to exist in my own city.",
-   "villain": "Cities with almost no free public places to sit: few libraries, parks or plazas",
-   "story_type": "objection",
-   "because": "When the only places to sit are ones that sell something, the café can price the seat. The menu is just how it bills you.",
-   "payoff": "Would you buy that coffee if you could sit in a park with Wi-Fi? Then you know what you paid for.",
-   "lived": true,
-   "behaviour": "People work, date and take calls from cafés, buying one drink per hour as rent.",
-   "mechanism": "Scarce free space lets private places charge for sitting.",
-   "group": "Young professionals in metros, often in shared flats",
+   "title": "The ticket is for the outing, not the film",
+   "claim": "We don't buy a Rs 2,600 recliner seat to watch a film, we buy it to be seen having the best seat, and the review comes after.",
+   "behaviour": "Premium IMAX recliner seats sold out in the festive rush while the same film's reviews were split on X. People book the visible upgrade before they know if the film is good.",
+   "mechanism": "Cinemas and booking apps price the seat, not the story. A bad film still sells the photo, the outing and the 'we went' bragging rights, so the price has no reason to wait for the verdict.",
+   "group": "Urban working Indians 24 to 32 who book weekend and festival outings",
    "territory": "money_status",
-   "mood": "mixed",
+   "mood": "sharp",
    "format_name": "price_tells",
-   "send_to": "The friend who 'works from a café' three days a week",
-   "format_hint": "carousel",
-   "why_now": "Hybrid work has filled cafés with laptops on weekdays.",
-   "needs_facts": false,
-   "news_peg": null,
-   "evidence": [
+   "moment": "You open the booking app on a holiday, see the cheap seats gone, and tap the Rs 1,600 one anyway.",
+   "turn": {
+    "believed": "A higher ticket price means you expect a better film.",
+    "actually": "The higher price buys a better seat and a better story to tell. The film is almost beside the point."
+   },
+   "feeling": "slightly foolish and also not sorry",
+   "villain": "a dynamic pricing model that charges for the seat when demand is highest, which is before any review exists",
+   "story_type": "teaching",
+   "because": "Cinema chains earn most when everyone books in the first festive days. Seat tiers turn the same three hours into a status ladder you can climb with money.",
+   "proof": [
     {
-     "url": "https://www.reddit.com/r/hyderabad/comments/1x91z4w/i_dont_want_more_cafes_i_want_clean_parks_and/",
-     "sub": "hyderabad",
-     "rank": 23
+     "fact": "On BookMyShow listings checked on 6 November, the top price for Ramayana was Rs 2,600 for IMAX 3D recliners at PVR Palladium Mall, Ahmedabad, while regular 2D shows started around Rs 500.",
+     "source_url": "https://deshgujarat.com/2026/11/06/ranbir-kapoor-starrer-ramayana-movie-ticket-prices-touch-%e2%82%b92600-in-ahmedabad/",
+     "date": "2026-11-06"
     }
    ],
+   "lived": false,
+   "payoff": "Test yourself: would you still pay the recliner price if you couldn't post a single photo of it?",
+   "send_to": "The friend who always books the premium seat and then says the film was 'okay'.",
+   "format_hint": "carousel",
    "real_details": [
-    "A r/hyderabad post says the poster doesn't want more cafes and wants clean parks and public spaces instead. The thread text includes no comments, numbers or personal stories."
+    "Most premium categories sold out in the festive rush",
+    "Viewers on X were divided on release day, with some calling it 'average' and one suggesting waiting for OTT"
    ],
-   "id": "2026-11-101708-034",
+   "evidence": [
+    {
+     "url": "https://deshgujarat.com/2026/11/06/ranbir-kapoor-starrer-ramayana-movie-ticket-prices-touch-%e2%82%b92600-in-ahmedabad/",
+     "sub": "news",
+     "rank": 51
+    },
+    {
+     "url": "https://www.siasat.com/ramayana-x-review-yash-gets-all-love-ranbir-kapoor-gets-flak-3569996/",
+     "sub": "news",
+     "rank": 49
+    }
+   ],
+   "news_peg": "Ramayana released on 5 November 2026 with recliner tickets listed at Rs 2,600 on 6 November and split first-day reviews",
+   "why_now": "The film is still in theatres and the booking-first, verdict-later pattern is playing out in real time.",
+   "counterintuitive": true,
+   "needs_facts": true,
+   "id": "2026-11-111204-017",
    "score": {
-    "rank": 6,
-    "why": "The café coffee is the ticket for a chair. Cities with nowhere free to sit explain it, and the line reads as an everyday observation, not a complaint.",
+    "rank": 7,
+    "why": "Paying for the best seat is paying for the story you tell afterwards. It fits the page's belief that Indians pay for what others can see, and ends on a photo test.",
     "scores": {
-     "relatable": 5,
+     "relatable": 4,
      "fresh_angle": 4,
      "shareable": 4,
      "saveable": 3,
      "because": 4
     },
     "format_fit": "carousel"
-   }
-  }
- },
- {
-  "due": null,
-  "format": "spare",
-  "topic": {
-   "title": "The photographer runs the wedding",
-   "claim": "At Indian weddings now, the rituals wait for the photographer, because the album is the part the relatives will actually see.",
-   "moment": "The pandit pauses the pheras while the camera team asks the couple to 'do that again, slowly'.",
-   "turn": {
-    "believed": "Weddings are about the ceremony.",
-    "actually": "They're about the footage, because the reel reaches more people than the venue holds."
-   },
-   "feeling": "Like a guest at a film shoot.",
-   "villain": "A wedding industry where the content outlives the event",
-   "story_type": "teaching",
-   "because": "The reel gets shown for years and travels further than the event. So the timeline is built around light and angles.",
-   "payoff": "At the next wedding, watch who says 'one more time'. That's the person in charge.",
-   "lived": false,
-   "behaviour": "Couples book the photo team first and plan rituals around golden hour and drone shots.",
-   "mechanism": "Footage reaches more people than the event.",
-   "group": "People going to or planning weddings this season",
-   "territory": "life_relationships",
-   "mood": "funny",
-   "format_name": "feed_anthropology",
-   "send_to": "The friend getting married in December",
-   "format_hint": "carousel",
-   "why_now": "Wedding season has started.",
-   "needs_facts": false,
-   "news_peg": null,
-   "evidence": [],
-   "id": "2026-11-101708-044",
-   "score": {
-    "rank": 9,
-    "why": "The rituals wait for the camera because the reel outlives the venue. It fits 'weddings are for the relatives' with a funny, fresh turn.",
-    "scores": {
-     "relatable": 4,
-     "fresh_angle": 4,
-     "shareable": 4,
-     "saveable": 2,
-     "because": 4
-    },
-    "format_fit": "carousel"
-   }
-  }
- },
- {
-  "due": null,
-  "format": "spare",
-  "topic": {
-   "title": "Diwali has one film",
-   "claim": "At Diwali the family picks one film and every other release loses, because a festival ticket is a group decision and not a taste decision.",
-   "behaviour": "Families book seats together and choose what everyone, including the grandmother, can sit through. The weekend chart was lopsided: Ramayana took ₹174.00 crore of the top five's ₹252.75 crore net, and Jailer 2 and AK 47 slipped mainly because they lost screens.",
-   "mechanism": "Theatres give shows to whatever fills the hall, and groups fill the hall for the film that is safe for all ages. A hit gets more screens, which makes it look even bigger.",
-   "group": "People who go to the movies with family at festival time",
-   "territory": "pop_culture",
-   "mood": "sharp",
-   "format_name": "saturday_single",
-   "moment": "You wanted to see a different film this Diwali, but the family plan had one name on it.",
-   "turn": {
-    "believed": "The biggest film wins because it is the best film.",
-    "actually": "It wins because a group of different ages can agree on it, and screens then follow the crowd."
-   },
-   "feeling": "Part of a crowd and slightly left out of your own choice",
-   "villain": "A screen-allocation system that rewards whatever fills the hall in the first weekend",
-   "story_type": "teaching",
-   "because": "Exhibitors earn from full halls, so they move shows to the film families choose. The second-choice film loses its place even if people liked it.",
-   "proof": [
-    {
-     "fact": "Sacnilk puts the top five films at ₹252.75 crore net for the Diwali weekend, with Ramayana taking ₹174.00 Cr (69% of that). Jailer 2 and AK 47 slipped mainly because they lost screens.",
-     "source_url": "https://www.sacnilk.com/news/top-5-indian-box-office-weekend-november-6-8-collections-cross-250-crore-net-as-ramayana-leads-with-69-share",
-     "date": "2026-11-09"
-    }
-   ],
-   "lived": false,
-   "payoff": "A festival hit is the film the whole family could say yes to, not necessarily the one anyone loved most.",
-   "send_to": "The friend who always ends up watching what the family picks",
-   "format_hint": "single",
-   "real_details": [
-    "Scene grew on both Saturday and Sunday, unlike the usual front-loaded star release"
-   ],
-   "evidence": [
-    {
-     "url": "https://www.sacnilk.com/news/top-5-indian-box-office-weekend-november-6-8-collections-cross-250-crore-net-as-ramayana-leads-with-69-share",
-     "sub": "news",
-     "rank": 0
-    }
-   ],
-   "news_peg": "Sacnilk's Diwali weekend (November 6-8) box office report (2026-11-09)",
-   "why_now": "The Diwali weekend numbers have just come out.",
-   "counterintuitive": false,
-   "needs_facts": true,
-   "id": "2026-11-101708-017",
-   "score": {
-    "rank": 12,
-    "why": "A festival ticket is a group decision, not a taste decision. The box-office fact supports the argument instead of being the point.",
-    "scores": {
-     "relatable": 4,
-     "fresh_angle": 4,
-     "shareable": 4,
-     "saveable": 2,
-     "because": 4
-    },
-    "format_fit": "single"
    }
   }
  }

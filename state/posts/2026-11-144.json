@@ -1,6 +1,6 @@
 {
  "id": "2026-11-144",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-19T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -43,6 +43,1685 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-11-10T17:17:08.386732+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "11. \"I\" in a post the topic marks as pure observation (lived: false). The caption reads: \"Went through my own autopay list and found an app I couldn't even recognise the logo of.\" This is a first-person one-off that the topic doesn't support."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3,
+     "informative": 4
+    },
+    "notes": [
+     "Caption: drop the first person, because lived is false. Make it an observation the reader can check, e.g. \"Somewhere in your autopay list is a logo you won't recognise.\"",
+     "Slide 7: \"The fans would have paid on day one\" repeats slide 1 and the cover sub. Cut it so the slide carries only the new beat, the named pattern (\"Call it the forgetting fee\"). Also swap the decorative \"day 6\" for something tied to the trial itself, like \"meant to cancel before the trial ended\".",
+     "Slides 2 and 5 both use the same mirrored shape: \"You don't even get angry at the app. You get angry at yourself.\" and \"You don't have to choose to pay. You have to remember to stop.\" With \"Life moved on. The mandate didn't.\" on slide 9, the post starts to feel engineered. Keep slide 5's pair, because it is the because of the post. Rewrite slide 2's second beat as a plain observation of the self-blame.",
+     "Slide 2: no detail goes beyond sight. Open on the sound or buzz of the bank SMS landing (\"Your phone buzzes: ₹499 debited.\") so the reader feels the moment before reading about it. Don't add a time or date.",
+     "Slide 9: after the legal slide, \"And it isn't carelessness on your part\" reads like a step backwards. Either place it straight after slide 2, where it answers the self-anger, or keep it here but cut \"And\" and open on the concrete list (one series, one match, one month of workouts) so it lands as recognition rather than reassurance."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "11. \"I\" in a post the topic marks as pure observation (lived: false). The caption reads: \"Went through my own autopay list and found an app I couldn't even recognise the logo of.\" This is a first-person one-off that the topic doesn't support.",
+    "Caption: drop the first person, because lived is false. Make it an observation the reader can check, e.g. \"Somewhere in your autopay list is a logo you won't recognise.\"",
+    "Slide 7: \"The fans would have paid on day one\" repeats slide 1 and the cover sub. Cut it so the slide carries only the new beat, the named pattern (\"Call it the forgetting fee\"). Also swap the decorative \"day 6\" for something tied to the trial itself, like \"meant to cancel before the trial ended\".",
+    "Slides 2 and 5 both use the same mirrored shape: \"You don't even get angry at the app. You get angry at yourself.\" and \"You don't have to choose to pay. You have to remember to stop.\" With \"Life moved on. The mandate didn't.\" on slide 9, the post starts to feel engineered. Keep slide 5's pair, because it is the because of the post. Rewrite slide 2's second beat as a plain observation of the self-blame.",
+    "Slide 2: no detail goes beyond sight. Open on the sound or buzz of the bank SMS landing (\"Your phone buzzes: ₹499 debited.\") so the reader feels the moment before reading about it. Don't add a time or date.",
+    "Slide 9: after the legal slide, \"And it isn't carelessness on your part\" reads like a step backwards. Either place it straight after slide 2, where it answers the self-anger, or keep it here but cut \"And\" and open on the concrete list (one series, one match, one month of workouts) so it lands as recognition rather than reassurance."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "All five notes from the last draft are settled. The caption is now an observation the reader can check. Slide 2 opens on the buzz and states the self-blame plainly. Slide 7 carries only the new beat and ties it to the trial ending. Slide 9 opens on the concrete list with \"And\" cut. No new hard failures came from the edits. Ready for the owner."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 9",
+      "line": "It isn't carelessness on your part.",
+      "why": "coach-style reassurance, soft where he'd be blunt",
+      "try": "That's not you being careless. That's the whole design."
+     },
+     {
+      "where": "slide 8",
+      "line": "The 2023 dark pattern guidelines call it a \"subscription trap\": forcing auto-debit approval for a free trial, or hiding the cancel option.",
+      "why": "stiff legal wording, fact made the hero",
+      "try": "India's 2023 dark pattern guidelines even have a name for it. A \"subscription trap.\" Making you approve auto-debit for a free trial counts. So does hiding the cancel button."
+     },
+     {
+      "where": "slide 5",
+      "line": "You don't have to choose to pay. You have to remember to stop. And the whole system is built for the version of you who doesn't remember.",
+      "why": "mirrored pair, then the turn spelled out again",
+      "try": "Paying needs nothing from you. Stopping needs you to remember. And they're betting you won't."
+     },
+     {
+      "where": "slide 7",
+      "line": "So the trial was never about letting you test anything. The real money comes from people who meant to cancel before the trial ended.",
+      "why": "over-explained, repeats the opening point in stiffer words",
+      "try": "So the trial was never really a trial. The money is everyone who meant to cancel and didn't."
+     },
+     {
+      "where": "slide 9",
+      "line": "You signed up for one series, one match, one month of workouts.",
+      "why": "neat triple list, engineered rhythm",
+      "try": "You signed up for one series. Maybe a match, or a month of workouts."
+     },
+     {
+      "where": "slide 3",
+      "line": "To start the free trial, the app wants a UPI autopay mandate first.",
+      "why": "stiff, written phrasing",
+      "try": "Before the free trial even starts, the app asks you to set up UPI autopay."
+     }
+    ],
+    "best": "Every app after that number is billing you for being busy."
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Not Varun (slide 9): 'It isn't carelessness on your part.' reads as coach-style reassurance, soft where he'd be blunt. Say it the way he would, e.g. 'That's not you being careless. That's the whole design.' (his register, your words, same facts).",
+    "Not Varun (slide 8): 'The 2023 dark pattern guidelines call it a \"subscription trap\": forcing auto-debit approval for a free trial, or hiding the cancel option.' reads as stiff legal wording, fact made the hero. Say it the way he would, e.g. 'India's 2023 dark pattern guidelines even have a name for it. A \"subscription trap.\" Making you approve auto-debit for a free trial counts. So does hiding the cancel button.' (his register, your words, same facts).",
+    "Not Varun (slide 5): 'You don't have to choose to pay. You have to remember to stop. And the whole system is built for the version of you who doesn't remember.' reads as mirrored pair, then the turn spelled out again. Say it the way he would, e.g. 'Paying needs nothing from you. Stopping needs you to remember. And they're betting you won't.' (his register, your words, same facts).",
+    "Not Varun (slide 7): 'So the trial was never about letting you test anything. The real money comes from people who meant to cancel before the trial ended.' reads as over-explained, repeats the opening point in stiffer words. Say it the way he would, e.g. 'So the trial was never really a trial. The money is everyone who meant to cancel and didn't.' (his register, your words, same facts).",
+    "Not Varun (slide 9): 'You signed up for one series, one match, one month of workouts.' reads as neat triple list, engineered rhythm. Say it the way he would, e.g. 'You signed up for one series. Maybe a match, or a month of workouts.' (his register, your words, same facts).",
+    "Not Varun (slide 3): 'To start the free trial, the app wants a UPI autopay mandate first.' reads as stiff, written phrasing. Say it the way he would, e.g. 'Before the free trial even starts, the app asks you to set up UPI autopay.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "All six notes are settled. Slide 3 now reads 'Before the free trial even starts, the app asks you to set up UPI autopay.' Slide 5 drops the mirrored pair and ends on 'the app is betting you won't.' Slide 7 is 'never really a trial'. Slide 8 says the guideline in his voice and keeps the source's meaning. Slide 9 breaks up the triple and replaces the soft reassurance with 'That's not you being careless. That's how it was designed.' None of these edits created a new hard failure or a repeat between slides. Ship as is."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "varun": {
+    "pass": true,
+    "score": 5,
+    "misses": [],
+    "best": "Because with autopay, silence counts as yes."
+   }
+  },
+  {
+   "attempt": 2,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not verify: 'Cancelling a subscription in these apps typically requires navigating Account, then Manage plan, then an 'Are you sure?' screen, followed by a half-price retention offer.'. Cut it, or state it only if a source says it.",
+     "The sum is wrong: 'About ₹950 a month amounts to over ₹11,000 a year.' (950*12 is not 11000).",
+     "Could not verify: 'An app spends almost nothing on a user who never opens it.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Free trials are priced on (their revenue depends on) users who forget to cancel rather than on users who love the app.",
+      "sentence": "A free trial isn't priced on people who love the app. It's priced on people who forget to cancel.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Apps offering free trials ask users to set up UPI autopay before the trial starts.",
+      "sentence": "Before the free trial even starts, the app asks you to set up UPI autopay.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Setting up UPI autopay takes one tap on GPay or PhonePe plus entering the UPI PIN.",
+      "sentence": "One tap on GPay or PhonePe, your PIN, done.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Cancelling a subscription in these apps typically requires navigating Account, then Manage plan, then an 'Are you sure?' screen, followed by a half-price retention offer.",
+      "sentence": "To cancel, you hunt through Account, then Manage plan, then an \"Are you sure?\" screen. Then an offer to stay at half price.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "With UPI autopay, payments continue automatically without any action from the user, and stopping requires the user to act.",
+      "sentence": "Because with autopay, silence counts as yes. Paying needs nothing from you. To stop, you have to remember",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Apps offering free trials design the flow betting that users will forget to cancel.",
+      "sentence": "the app is betting you won't.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "Three subscriptions at ₹149, ₹299 and ₹499 add up to about ₹950 a month.",
+      "sentence": "Three forgotten apps at ₹149, ₹299 and ₹499 come to about ₹950 a month.",
+      "type": "arithmetic",
+      "core": false,
+      "framed_as": "timeless",
+      "expr": "149+299+499",
+      "stated": "950"
+     },
+     {
+      "id": "c8",
+      "text": "About ₹950 a month amounts to over ₹11,000 a year.",
+      "sentence": "Over ₹11,000 a year.",
+      "type": "arithmetic",
+      "core": false,
+      "framed_as": "timeless",
+      "expr": "950*12",
+      "stated": "11000"
+     },
+     {
+      "id": "c9",
+      "text": "An app spends almost nothing on a user who never opens it.",
+      "sentence": "The app spends almost nothing on you. You never open it.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c10",
+      "text": "India's 2023 dark pattern guidelines name 'subscription trap' as a dark pattern.",
+      "sentence": "India's 2023 dark pattern guidelines even have a name for this. A \"subscription trap.\"",
+      "type": "feature",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c11",
+      "text": "Under India's 2023 dark pattern guidelines, making a user approve auto-debit for a free trial counts as a subscription trap.",
+      "sentence": "Making you approve auto-debit for a free trial counts.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c12",
+      "text": "Under India's 2023 dark pattern guidelines, hiding the cancel button counts as a subscription trap.",
+      "sentence": "So does hiding the cancel button.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "correct": "The guidelines treat forcing auto-debit authorisation for a free subscription as a dark pattern, which implies the practice is common. I found no source on how widespread it is across apps.",
+      "sources": [
+       {
+        "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+        "publisher": "Verdictum",
+        "published_date": "2023-12-01",
+        "quote": "forcing a user to provide payment details or authorization for auto debits for availing a free subscription",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "correct": "The user approves the mandate in the UPI app and enters the UPI PIN. Google Pay requires the PIN for first-time setup of recurring payments under ₹15,000.",
+      "sources": [
+       {
+        "url": "https://support.google.com/pay/india/answer/10452280?hl=en",
+        "publisher": "Google Pay Help",
+        "published_date": "2026-01-01",
+        "quote": "if your recurring payment is less than ₹15,000, you need to enter your UPI PIN to set it up for the first time",
+        "tier": 1
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "unverifiable",
+      "correct": "No source confirms this exact Account > Manage plan > 'Are you sure?' > half-price offer flow. It is an illustrative generalisation, and the guidelines do name complex or hidden cancellation as a dark pattern.",
+      "sources": [
+       {
+        "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+        "publisher": "Verdictum",
+        "published_date": "2023-12-01",
+        "quote": "making cancellation of a paid subscription impossible or a complex and lengthy process",
+        "tier": 2
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "supported",
+      "correct": "After the first PIN-authenticated setup, debits run automatically (usually with no PIN for amounts up to ₹15,000). The user has to open the UPI app and revoke or pause the mandate to stop them.",
+      "sources": [
+       {
+        "url": "https://moneyview.in/upi/what-is-upi-mandate",
+        "publisher": "Moneyview",
+        "published_date": "2025-01-01",
+        "quote": "payments up to ₹15,000 can happen automatically without a UPI PIN after the first setup",
+        "tier": 3
+       }
+      ]
+     },
+     "c9": {
+      "id": "c9",
+      "verdict": "unverifiable",
+      "correct": "This is a business-economics assertion about app costs. I found no reliable source for it.",
+      "sources": []
+     },
+     "c10": {
+      "id": "c10",
+      "verdict": "supported",
+      "event_date": "2023-11-30",
+      "sources": [
+       {
+        "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+        "publisher": "Verdictum",
+        "published_date": "2023-12-01",
+        "quote": "\"Subscription trap\" means the process of- (i) making cancellation of a paid subscription impossible or a complex and lengthy process",
+        "tier": 2
+       }
+      ]
+     },
+     "c11": {
+      "id": "c11",
+      "verdict": "supported",
+      "event_date": "2023-11-30",
+      "sources": [
+       {
+        "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+        "publisher": "Verdictum",
+        "published_date": "2023-12-01",
+        "quote": "forcing a user to provide payment details or authorization for auto debits for availing a free subscription",
+        "tier": 2
+       }
+      ]
+     },
+     "c12": {
+      "id": "c12",
+      "verdict": "supported",
+      "event_date": "2023-11-30",
+      "sources": [
+       {
+        "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+        "publisher": "Verdictum",
+        "published_date": "2023-12-01",
+        "quote": "hiding the cancellation option for a subscription",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None of the premises is false. Saying trials are 'priced on' people who forget to cancel, and that the app is 'betting' they won't remember, is an interpretation of business motive. It is not a claim that can be shown untrue. The factual premises check out. Under UPI AutoPay you sign a mandate with your PIN and later debits run without any further action from you. India's 2023 CCPA Dark Patterns Guidelines do name 'subscription trap', and that definition covers asking for auto-debit authorisation for a free subscription and hiding the cancel option. One thing slides 4–5 leave out: by rule, the bank sends a notice 24 hours before each scheduled debit, and you can tap it to pause or cancel. Any mandate can also be revoked from the AutoPay list in GPay or PhonePe without opening the merchant's app. So stopping a charge doesn't depend only on your memory, though if you don't act, the debit still goes through.",
+     "actual_mechanism": "A UPI AutoPay mandate is authorised once with your UPI PIN, and after that the merchant can debit you on schedule. Before each debit, the bank must send a notice at least 24 hours ahead, and you can pause or revoke the mandate from it. You can also revoke from the AutoPay section of your UPI app, after which the merchant can't debit you again. India's CCPA Dark Patterns Guidelines (30 Nov 2023) list 'subscription trap' as a banned practice. It covers making cancellation impossible or long, hiding the cancel option, forcing payment details or auto-debit authorisation for a free subscription, and unclear cancellation instructions.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+       "published_date": "2023-12-01",
+       "quote": "making cancellation of a paid subscription impossible or a complex and lengthy process"
+      },
+      {
+       "url": "https://support.google.com/pay/india/answer/10452280?hl=en",
+       "published_date": "unknown",
+       "quote": "You will receive a bank notification 24 hours before any scheduled debit."
+      },
+      {
+       "url": "https://support.google.com/pay/india/answer/10452280?hl=en",
+       "published_date": "unknown",
+       "quote": "Entering your UPI PIN to revoke a mandate stops the merchant from debiting funds from your account going forward."
+      },
+      {
+       "url": "https://www.npci.org.in/PDF/npci/rupay/2022/Circular-RuPay-AutoPay-AFA-Limit-enhancement-and-compliance.pdf",
+       "published_date": "2022",
+       "quote": "Issuer shall ensure to send a Pre debit notification to the cardholder, at least 24 hours prior to the actual charge / debit to the card."
+      }
+     ]
+    },
+    "text_hash": "5571045910c16efa46820418dd1122c39ad4a574",
+    "at": "2026-11-11T11:54:15.982236+00:00"
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Could not verify: 'Cancelling a subscription in these apps typically requires navigating Account, then Manage plan, then an 'Are you sure?' screen, followed by a half-price retention offer.'. Cut it, or state it only if a source says it.",
+    "The sum is wrong: 'About ₹950 a month amounts to over ₹11,000 a year.' (950*12 is not 11000).",
+    "Could not verify: 'An app spends almost nothing on a user who never opens it.'. Cut it, or state it only if a source says it."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "All three earlier notes are settled. The retention-offer line is gone. Slide 5's sum is now right (149 + 299 + 499 = 947, and 947 x 12 = 11,364), and it matches the claim's derived_from. The 'spends almost nothing' line is cut. The edited slides 5 and 6 don't repeat any other slide, and they add no new invented specific.",
+     "slide 7: the 'why_swipe' reads 'what happens next?' in lowercase, and it promises something slide 8 doesn't deliver. Slide 8 is about the design, not what happens next. Change it to something like 'So whose fault is the ₹499?' so slide 8 answers it. This is optional polish, not a blocker."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "varun": {
+    "pass": false,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 8",
+      "line": "That's not you being careless. That's how it was designed.",
+      "why": "mirrored Not X. Y., soft reassurance",
+      "try": "Call it careless if you want. The app planned for it."
+     },
+     {
+      "where": "slide 6",
+      "line": "So the trial was never really a trial. The money is everyone who meant to cancel and didn't.",
+      "why": "stiff phrasing, re-explains slide 1",
+      "try": "So the trial was never really a trial. It runs on everyone who meant to cancel and didn't."
+     }
+    ],
+    "best": "Every app after that number is billing you for being busy."
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Not Varun (slide 8): 'That's not you being careless. That's how it was designed.' reads as mirrored Not X. Y., soft reassurance. Say it the way he would, e.g. 'Call it careless if you want. The app planned for it.' (his register, your words, same facts).",
+    "Not Varun (slide 6): 'So the trial was never really a trial. The money is everyone who meant to cancel and didn't.' reads as stiff phrasing, re-explains slide 1. Say it the way he would, e.g. 'So the trial was never really a trial. It runs on everyone who meant to cancel and didn't.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 4,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "Both earlier notes are settled. Slide 8 now reads 'Call it careless if you want. The app planned for it.' Slide 6 now reads 'It runs on everyone who meant to cancel and didn't.' Neither edit broke anything.",
+     "slide 6: The slide 8 edit means two slides now lean on 'Call it…' ('Call it the forgetting fee.' and 'Call it careless if you want.'). Keep slide 8 as it is. Change slide 6's line to 'That's the forgetting fee.' so the phrasing isn't repeated.",
+     "slide 7: The why_swipe 'what happens next?' should start with a capital letter to match the others: 'What happens next?'"
+    ]
+   }
+  },
+  {
+   "attempt": 4,
+   "varun": {
+    "pass": true,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 8",
+      "line": "Call it careless if you want. The app planned for it.",
+      "why": "repeats the 'Call it' opener from slide 6, so it reads as a pattern",
+      "try": "Careless, sure. Except the app planned for it."
+     }
+    ],
+    "best": "Because with autopay, silence counts as yes."
+   }
+  },
+  {
+   "attempt": 4,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not confirm: 'Once a UPI autopay mandate is set up, recurring debits continue without any action from the user, and stopping them requires the user to actively cancel.' (the cited pages don't say it). Use a source that does, or cut it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Apps offering free trials ask users to set up UPI autopay before the trial starts.",
+      "sentence": "Before the free trial even starts, the app asks you to set up UPI autopay.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Setting up UPI autopay takes one tap on GPay or PhonePe plus entering the UPI PIN.",
+      "sentence": "One tap on GPay or PhonePe, your PIN, done.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "With UPI autopay, payments continue automatically without any action from the user, and stopping requires the user to act.",
+      "sentence": "Because with autopay, silence counts as yes. Paying needs nothing from you. To stop, you have to remember",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "India's 2023 dark pattern guidelines name 'subscription trap' as a dark pattern.",
+      "sentence": "India's 2023 dark pattern guidelines even have a name for this. A \"subscription trap.\"",
+      "type": "feature",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c5",
+      "text": "Under India's 2023 dark pattern guidelines, making a user approve auto-debit for a free trial counts as a subscription trap.",
+      "sentence": "Making you approve auto-debit for a free trial counts.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Under India's 2023 dark pattern guidelines, hiding the cancel button counts as a subscription trap.",
+      "sentence": "So does hiding the cancel button.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "The monthly prices of ₹149, ₹299 and ₹499 add up to ₹947.",
+      "sentence": "Three forgotten apps at ₹149, ₹299 and ₹499 come to ₹947 a month.",
+      "type": "arithmetic",
+      "core": false,
+      "framed_as": "timeless",
+      "expr": "149+299+499",
+      "stated": "947"
+     },
+     {
+      "id": "c8",
+      "text": "₹947 a month over 12 months comes to ₹11,364 a year.",
+      "sentence": "That's ₹11,364 a year, for apps you never open.",
+      "type": "arithmetic",
+      "core": false,
+      "framed_as": "timeless",
+      "expr": "947*12",
+      "stated": "11364"
+     },
+     {
+      "id": "c9",
+      "text": "UPI autopay mandates can be set up with one tap in an app like GPay or PhonePe plus a PIN, which makes signing up for a subscription frictionless.",
+      "sentence": "UPI autopay mandates make signing up one tap",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c10",
+      "text": "Once a UPI autopay mandate is set up, recurring debits continue without any action from the user, and stopping them requires the user to actively cancel.",
+      "sentence": "silence counts as yes",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c11",
+      "text": "Free trials are priced and profit-modelled on the subscribers who forget to cancel rather than on fans who would have paid anyway. Premises: apps collect UPI autopay consent before the trial begins; autopay charges continue without any action from the user; cancelling requires the user to remember and act; some users forget to cancel. Conclusion: a meaningful share of a free trial's revenue comes from those who meant to cancel and didn't, and the app's design and pricing rely on this.",
+      "sentence": "It runs on everyone who meant to cancel and didn't.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c2",
+      "verdict": "supported",
+      "correct": "The guidelines treat forcing auto-debit authorisation for a free subscription as a dark pattern, which implies the practice is common. I found no source on how widespread it is across apps.",
+      "sources": [
+       {
+        "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+        "publisher": "Verdictum",
+        "published_date": "2023-12-01",
+        "quote": "forcing a user to provide payment details or authorization for auto debits for availing a free subscription",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c3",
+      "verdict": "supported",
+      "correct": "The user approves the mandate in the UPI app and enters the UPI PIN. Google Pay requires the PIN for first-time setup of recurring payments under ₹15,000.",
+      "sources": [
+       {
+        "url": "https://support.google.com/pay/india/answer/10452280?hl=en",
+        "publisher": "Google Pay Help",
+        "published_date": "2026-01-01",
+        "quote": "if your recurring payment is less than ₹15,000, you need to enter your UPI PIN to set it up for the first time",
+        "tier": 1
+       }
+      ]
+     },
+     "c3": {
+      "id": "c5",
+      "verdict": "supported",
+      "correct": "After the first PIN-authenticated setup, debits run automatically (usually with no PIN for amounts up to ₹15,000). The user has to open the UPI app and revoke or pause the mandate to stop them.",
+      "sources": [
+       {
+        "url": "https://moneyview.in/upi/what-is-upi-mandate",
+        "publisher": "Moneyview",
+        "published_date": "2025-01-01",
+        "quote": "payments up to ₹15,000 can happen automatically without a UPI PIN after the first setup",
+        "tier": 3
+       }
+      ]
+     },
+     "c4": {
+      "id": "c10",
+      "verdict": "supported",
+      "event_date": "2023-11-30",
+      "sources": [
+       {
+        "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+        "publisher": "Verdictum",
+        "published_date": "2023-12-01",
+        "quote": "\"Subscription trap\" means the process of- (i) making cancellation of a paid subscription impossible or a complex and lengthy process",
+        "tier": 2
+       }
+      ]
+     },
+     "c5": {
+      "id": "c11",
+      "verdict": "supported",
+      "event_date": "2023-11-30",
+      "sources": [
+       {
+        "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+        "publisher": "Verdictum",
+        "published_date": "2023-12-01",
+        "quote": "forcing a user to provide payment details or authorization for auto debits for availing a free subscription",
+        "tier": 2
+       }
+      ]
+     },
+     "c6": {
+      "id": "c12",
+      "verdict": "supported",
+      "event_date": "2023-11-30",
+      "sources": [
+       {
+        "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+        "publisher": "Verdictum",
+        "published_date": "2023-12-01",
+        "quote": "hiding the cancellation option for a subscription",
+        "tier": 2
+       }
+      ]
+     },
+     "c9": {
+      "id": "c9",
+      "verdict": "supported",
+      "correct": "Setting up a UPI AutoPay mandate means choosing the merchant, amount, frequency and validity in a UPI app such as GPay or PhonePe. The user then approves it with their UPI PIN. The flow is short and low-friction, though it is not literally a single tap.",
+      "sources": [
+       {
+        "url": "https://paytm.com/blog/bill-payments/upi-autopay/process-upi-autopay-activation",
+        "publisher": "Paytm blog",
+        "published_date": "2025-01-01",
+        "quote": "Enter your UPI PIN to finalise the setup, which confirms consent for the recurring payments.",
+        "tier": 3
+       }
+      ]
+     },
+     "c10": {
+      "id": "c10",
+      "verdict": "supported",
+      "correct": "After a mandate is registered, debits run automatically on the agreed schedule. The user stops them by pausing or cancelling the mandate in the UPI app's AutoPay/Mandates section. Cancelling the mandate may not end the underlying service.",
+      "sources": [
+       {
+        "url": "https://paytm.com/blog/bill-payments/upi-autopay/managing-your-upi-autopay-mandates-pause-resume-and-delete-with-ease/",
+        "publisher": "Paytm blog",
+        "published_date": "2025-01-01",
+        "quote": "Manage your UPI AutoPay mandates: pause, resume, and delete with ease.",
+        "tier": 3
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None of the premises is false. Saying trials are 'priced on' people who forget to cancel, and that the app is 'betting' they won't remember, is an interpretation of business motive. It is not a claim that can be shown untrue. The factual premises check out. Under UPI AutoPay you sign a mandate with your PIN and later debits run without any further action from you. India's 2023 CCPA Dark Patterns Guidelines do name 'subscription trap', and that definition covers asking for auto-debit authorisation for a free subscription and hiding the cancel option. One thing slides 4–5 leave out: by rule, the bank sends a notice 24 hours before each scheduled debit, and you can tap it to pause or cancel. Any mandate can also be revoked from the AutoPay list in GPay or PhonePe without opening the merchant's app. So stopping a charge doesn't depend only on your memory, though if you don't act, the debit still goes through.",
+     "actual_mechanism": "A UPI AutoPay mandate is authorised once with your UPI PIN, and after that the merchant can debit you on schedule. Before each debit, the bank must send a notice at least 24 hours ahead, and you can pause or revoke the mandate from it. You can also revoke from the AutoPay section of your UPI app, after which the merchant can't debit you again. India's CCPA Dark Patterns Guidelines (30 Nov 2023) list 'subscription trap' as a banned practice. It covers making cancellation impossible or long, hiding the cancel option, forcing payment details or auto-debit authorisation for a free subscription, and unclear cancellation instructions.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+       "published_date": "2023-12-01",
+       "quote": "making cancellation of a paid subscription impossible or a complex and lengthy process"
+      },
+      {
+       "url": "https://support.google.com/pay/india/answer/10452280?hl=en",
+       "published_date": "unknown",
+       "quote": "You will receive a bank notification 24 hours before any scheduled debit."
+      },
+      {
+       "url": "https://support.google.com/pay/india/answer/10452280?hl=en",
+       "published_date": "unknown",
+       "quote": "Entering your UPI PIN to revoke a mandate stops the merchant from debiting funds from your account going forward."
+      },
+      {
+       "url": "https://www.npci.org.in/PDF/npci/rupay/2022/Circular-RuPay-AutoPay-AFA-Limit-enhancement-and-compliance.pdf",
+       "published_date": "2022",
+       "quote": "Issuer shall ensure to send a Pre debit notification to the cardholder, at least 24 hours prior to the actual charge / debit to the card."
+      }
+     ]
+    },
+    "text_hash": "f849751bd90298b32b634b686cadeb24d5466421",
+    "at": "2026-11-11T11:55:47.406534+00:00"
+   }
+  },
+  {
+   "attempt": 4,
+   "problems": [
+    "Could not confirm: 'Once a UPI autopay mandate is set up, recurring debits continue without any action from the user, and stopping them requires the user to actively cancel.' (the cited pages don't say it). Use a source that does, or cut it."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-11T11:55:47.460686+00:00",
+ "sources": [
+  {
+   "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+   "fact": "India's CCPA Dark Patterns Guidelines, 2023 (notified 30 Nov 2023) define a 'subscription trap' to include forcing payment details or auto-debit authorisation for a free subscription, and making cancellation complex, lengthy or hidden.",
+   "excerpt": "“Subscription trap” means the process of- (i) making cancellation of a paid subscription impossible or a complex and lengthy process; (ii) hiding the cancellation option for a subscription; (iii) forcing a user to provide payment details or authorization for auto debits for availing a free subscription; (iv) making the instructions related to cancellation of subscription ambiguous, latent, confusing, cumbersome.",
+   "date": "2023-12-01"
+  },
+  {
+   "url": "https://www.legal500.com/intelligence/india/consumer-protection/ccpa-issues-guidelines-for-prevention-and-regulation-of-dark-patterns-2023-effective-30-november-2023",
+   "fact": "A law-firm summary of the same CCPA guidelines repeats the subscription trap definition, which covers forced payment details or auto-debit authorisation for a free subscription and cumbersome cancellation.",
+   "excerpt": "the process of: making cancellation of a paid subscription impossible or a complex and lengthy process; or hiding the cancellation option for a subscription; or forcing a user to provide payment details or authorization for auto debits for availing a free subscription; or making the instructions related to cancellation of subscription ambiguous, latent, confusing, cumbersome.",
+   "date": "2023-12-04"
+  }
+ ],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] A free trial is priced on the people who [forget to cancel]\nThe fans would have paid anyway. The money is somewhere else.\n \n\n[slide 1] A free trial isn't priced on people who love the app. It's priced on people who forget to cancel.\n\n[slide 2] Your phone buzzes in month three: ₹499 debited, for an app you opened twice and forgot you even had.\nAnd the first person you blame is yourself.\n\n[slide 3] Before the free trial even starts, the app asks you to set up UPI autopay. One tap on GPay or PhonePe, your PIN, done.\n\n[slide 4] Because with autopay, silence counts as yes.\nPaying needs nothing from you. To stop, you have to remember, and the app is betting you won't.\n\n[slide 5] Three forgotten apps at ₹149, ₹299 and ₹499 come to ₹947 a month.\nThat's ₹11,364 a year, for apps you never open.\n\n[slide 6] So the trial was never really a trial. It runs on everyone who meant to cancel and didn't.\nCall it the forgetting fee.\n\n[slide 7] India's 2023 dark pattern guidelines even have a name for this. A \"subscription trap.\"\nMaking you approve auto-debit for a free trial counts. So does hiding the cancel button.\n\n[slide 8] You signed up for one series, or maybe a match, or a month of workouts, and then life moved on. The mandate didn't.\nCall it careless if you want. The app planned for it.\n\n[slide 9] Open your UPI autopay list tonight and count the ones you'd sign up for again today.\nEvery app after that number is billing you for being busy.\n\n[end card] Come back to this the next time an app says \"Start free trial\" and asks for your UPI PIN.\nSend to the sibling who pays for four OTT apps and watches one.\n\n[caption] Somewhere in your autopay list is a logo you won't recognise.\n\n[alt text] Text carousel arguing that free trials make money from people who forget to cancel. UPI autopay mandates make signing up one tap, and silence counts as yes. Three forgotten apps at ₹149, ₹299 and ₹499 cost ₹947 a month, or ₹11,364 a year. India's 2023 dark pattern guidelines call this a subscription trap. Ends by asking readers to open their UPI autopay list and count the subscriptions they would still choose today.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Apps offering free trials ask users to set up UPI autopay before the trial starts.",
+     "sentence": "Before the free trial even starts, the app asks you to set up UPI autopay.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "Setting up UPI autopay takes one tap on GPay or PhonePe plus entering the UPI PIN.",
+     "sentence": "One tap on GPay or PhonePe, your PIN, done.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c3",
+     "text": "With UPI autopay, payments continue automatically without any action from the user, and stopping requires the user to act.",
+     "sentence": "Because with autopay, silence counts as yes. Paying needs nothing from you. To stop, you have to remember",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c4",
+     "text": "India's 2023 dark pattern guidelines name 'subscription trap' as a dark pattern.",
+     "sentence": "India's 2023 dark pattern guidelines even have a name for this. A \"subscription trap.\"",
+     "type": "feature",
+     "core": true,
+     "framed_as": "past"
+    },
+    {
+     "id": "c5",
+     "text": "Under India's 2023 dark pattern guidelines, making a user approve auto-debit for a free trial counts as a subscription trap.",
+     "sentence": "Making you approve auto-debit for a free trial counts.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c6",
+     "text": "Under India's 2023 dark pattern guidelines, hiding the cancel button counts as a subscription trap.",
+     "sentence": "So does hiding the cancel button.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c7",
+     "text": "The monthly prices of ₹149, ₹299 and ₹499 add up to ₹947.",
+     "sentence": "Three forgotten apps at ₹149, ₹299 and ₹499 come to ₹947 a month.",
+     "type": "arithmetic",
+     "core": false,
+     "framed_as": "timeless",
+     "expr": "149+299+499",
+     "stated": "947"
+    },
+    {
+     "id": "c8",
+     "text": "₹947 a month over 12 months comes to ₹11,364 a year.",
+     "sentence": "That's ₹11,364 a year, for apps you never open.",
+     "type": "arithmetic",
+     "core": false,
+     "framed_as": "timeless",
+     "expr": "947*12",
+     "stated": "11364"
+    },
+    {
+     "id": "c9",
+     "text": "UPI autopay mandates can be set up with one tap in an app like GPay or PhonePe plus a PIN, which makes signing up for a subscription frictionless.",
+     "sentence": "UPI autopay mandates make signing up one tap",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c10",
+     "text": "Once a UPI autopay mandate is set up, recurring debits continue without any action from the user, and stopping them requires the user to actively cancel.",
+     "sentence": "silence counts as yes",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c11",
+     "text": "Free trials are priced and profit-modelled on the subscribers who forget to cancel rather than on fans who would have paid anyway. Premises: apps collect UPI autopay consent before the trial begins; autopay charges continue without any action from the user; cancelling requires the user to remember and act; some users forget to cancel. Conclusion: a meaningful share of a free trial's revenue comes from those who meant to cancel and didn't, and the app's design and pricing rely on this.",
+     "sentence": "It runs on everyone who meant to cancel and didn't.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "Apps offering free trials ask users to set up UPI autopay before the trial starts.": {
+   "id": "c2",
+   "verdict": "supported",
+   "correct": "The guidelines treat forcing auto-debit authorisation for a free subscription as a dark pattern, which implies the practice is common. I found no source on how widespread it is across apps.",
+   "sources": [
+    {
+     "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+     "publisher": "Verdictum",
+     "published_date": "2023-12-01",
+     "quote": "forcing a user to provide payment details or authorization for auto debits for availing a free subscription",
+     "tier": 2
+    }
+   ]
+  },
+  "Setting up UPI autopay takes one tap on GPay or PhonePe plus entering the UPI PIN.": {
+   "id": "c3",
+   "verdict": "supported",
+   "correct": "The user approves the mandate in the UPI app and enters the UPI PIN. Google Pay requires the PIN for first-time setup of recurring payments under ₹15,000.",
+   "sources": [
+    {
+     "url": "https://support.google.com/pay/india/answer/10452280?hl=en",
+     "publisher": "Google Pay Help",
+     "published_date": "2026-01-01",
+     "quote": "if your recurring payment is less than ₹15,000, you need to enter your UPI PIN to set it up for the first time",
+     "tier": 1
+    }
+   ]
+  },
+  "Cancelling a subscription in these apps typically requires navigating Account, then Manage plan, then an 'Are you sure?' screen, followed by a half-price retention offer.": {
+   "id": "c4",
+   "verdict": "unverifiable",
+   "correct": "No source confirms this exact Account > Manage plan > 'Are you sure?' > half-price offer flow. It is an illustrative generalisation, and the guidelines do name complex or hidden cancellation as a dark pattern.",
+   "sources": [
+    {
+     "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+     "publisher": "Verdictum",
+     "published_date": "2023-12-01",
+     "quote": "making cancellation of a paid subscription impossible or a complex and lengthy process",
+     "tier": 2
+    }
+   ]
+  },
+  "With UPI autopay, payments continue automatically without any action from the user, and stopping requires the user to act.": {
+   "id": "c5",
+   "verdict": "supported",
+   "correct": "After the first PIN-authenticated setup, debits run automatically (usually with no PIN for amounts up to ₹15,000). The user has to open the UPI app and revoke or pause the mandate to stop them.",
+   "sources": [
+    {
+     "url": "https://moneyview.in/upi/what-is-upi-mandate",
+     "publisher": "Moneyview",
+     "published_date": "2025-01-01",
+     "quote": "payments up to ₹15,000 can happen automatically without a UPI PIN after the first setup",
+     "tier": 3
+    }
+   ]
+  },
+  "An app spends almost nothing on a user who never opens it.": {
+   "id": "c9",
+   "verdict": "unverifiable",
+   "correct": "This is a business-economics assertion about app costs. I found no reliable source for it.",
+   "sources": []
+  },
+  "India's 2023 dark pattern guidelines name 'subscription trap' as a dark pattern.": {
+   "id": "c10",
+   "verdict": "supported",
+   "event_date": "2023-11-30",
+   "sources": [
+    {
+     "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+     "publisher": "Verdictum",
+     "published_date": "2023-12-01",
+     "quote": "\"Subscription trap\" means the process of- (i) making cancellation of a paid subscription impossible or a complex and lengthy process",
+     "tier": 2
+    }
+   ]
+  },
+  "Under India's 2023 dark pattern guidelines, making a user approve auto-debit for a free trial counts as a subscription trap.": {
+   "id": "c11",
+   "verdict": "supported",
+   "event_date": "2023-11-30",
+   "sources": [
+    {
+     "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+     "publisher": "Verdictum",
+     "published_date": "2023-12-01",
+     "quote": "forcing a user to provide payment details or authorization for auto debits for availing a free subscription",
+     "tier": 2
+    }
+   ]
+  },
+  "Under India's 2023 dark pattern guidelines, hiding the cancel button counts as a subscription trap.": {
+   "id": "c12",
+   "verdict": "supported",
+   "event_date": "2023-11-30",
+   "sources": [
+    {
+     "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+     "publisher": "Verdictum",
+     "published_date": "2023-12-01",
+     "quote": "hiding the cancellation option for a subscription",
+     "tier": 2
+    }
+   ]
+  },
+  "_skeptic": {
+   "e2bb8c8bdab4e135e962cbdc9a1582d618c3f1a9": {
+    "holds": true,
+    "broken_premise": "None of the premises is false. Saying trials are 'priced on' people who forget to cancel, and that the app is 'betting' they won't remember, is an interpretation of business motive. It is not a claim that can be shown untrue. The factual premises check out. Under UPI AutoPay you sign a mandate with your PIN and later debits run without any further action from you. India's 2023 CCPA Dark Patterns Guidelines do name 'subscription trap', and that definition covers asking for auto-debit authorisation for a free subscription and hiding the cancel option. One thing slides 4–5 leave out: by rule, the bank sends a notice 24 hours before each scheduled debit, and you can tap it to pause or cancel. Any mandate can also be revoked from the AutoPay list in GPay or PhonePe without opening the merchant's app. So stopping a charge doesn't depend only on your memory, though if you don't act, the debit still goes through.",
+    "actual_mechanism": "A UPI AutoPay mandate is authorised once with your UPI PIN, and after that the merchant can debit you on schedule. Before each debit, the bank must send a notice at least 24 hours ahead, and you can pause or revoke the mandate from it. You can also revoke from the AutoPay section of your UPI app, after which the merchant can't debit you again. India's CCPA Dark Patterns Guidelines (30 Nov 2023) list 'subscription trap' as a banned practice. It covers making cancellation impossible or long, hiding the cancel option, forcing payment details or auto-debit authorisation for a free subscription, and unclear cancellation instructions.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+      "published_date": "2023-12-01",
+      "quote": "making cancellation of a paid subscription impossible or a complex and lengthy process"
+     },
+     {
+      "url": "https://support.google.com/pay/india/answer/10452280?hl=en",
+      "published_date": "unknown",
+      "quote": "You will receive a bank notification 24 hours before any scheduled debit."
+     },
+     {
+      "url": "https://support.google.com/pay/india/answer/10452280?hl=en",
+      "published_date": "unknown",
+      "quote": "Entering your UPI PIN to revoke a mandate stops the merchant from debiting funds from your account going forward."
+     },
+     {
+      "url": "https://www.npci.org.in/PDF/npci/rupay/2022/Circular-RuPay-AutoPay-AFA-Limit-enhancement-and-compliance.pdf",
+      "published_date": "2022",
+      "quote": "Issuer shall ensure to send a Pre debit notification to the cardholder, at least 24 hours prior to the actual charge / debit to the card."
+     }
+    ]
+   },
+   "f8163c75dd72c1d8e47318a6f7a1afafa5f6bb94": {
+    "holds": true,
+    "broken_premise": "None of the premises is false. Saying trials are 'priced on' people who forget to cancel, and that the app is 'betting' they won't remember, is an interpretation of business motive. It is not a claim that can be shown untrue. The factual premises check out. Under UPI AutoPay you sign a mandate with your PIN and later debits run without any further action from you. India's 2023 CCPA Dark Patterns Guidelines do name 'subscription trap', and that definition covers asking for auto-debit authorisation for a free subscription and hiding the cancel option. One thing slides 4–5 leave out: by rule, the bank sends a notice 24 hours before each scheduled debit, and you can tap it to pause or cancel. Any mandate can also be revoked from the AutoPay list in GPay or PhonePe without opening the merchant's app. So stopping a charge doesn't depend only on your memory, though if you don't act, the debit still goes through.",
+    "actual_mechanism": "A UPI AutoPay mandate is authorised once with your UPI PIN, and after that the merchant can debit you on schedule. Before each debit, the bank must send a notice at least 24 hours ahead, and you can pause or revoke the mandate from it. You can also revoke from the AutoPay section of your UPI app, after which the merchant can't debit you again. India's CCPA Dark Patterns Guidelines (30 Nov 2023) list 'subscription trap' as a banned practice. It covers making cancellation impossible or long, hiding the cancel option, forcing payment details or auto-debit authorisation for a free subscription, and unclear cancellation instructions.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+      "published_date": "2023-12-01",
+      "quote": "making cancellation of a paid subscription impossible or a complex and lengthy process"
+     },
+     {
+      "url": "https://support.google.com/pay/india/answer/10452280?hl=en",
+      "published_date": "unknown",
+      "quote": "You will receive a bank notification 24 hours before any scheduled debit."
+     },
+     {
+      "url": "https://support.google.com/pay/india/answer/10452280?hl=en",
+      "published_date": "unknown",
+      "quote": "Entering your UPI PIN to revoke a mandate stops the merchant from debiting funds from your account going forward."
+     },
+     {
+      "url": "https://www.npci.org.in/PDF/npci/rupay/2022/Circular-RuPay-AutoPay-AFA-Limit-enhancement-and-compliance.pdf",
+      "published_date": "2022",
+      "quote": "Issuer shall ensure to send a Pre debit notification to the cardholder, at least 24 hours prior to the actual charge / debit to the card."
+     }
+    ]
+   }
+  },
+  "_skeptic_take": {
+   "49773f2cdff24f778199af1b2efdb49419abc3b4": {
+    "holds": true,
+    "broken_premise": "None of the premises is false. Saying trials are 'priced on' people who forget to cancel, and that the app is 'betting' they won't remember, is an interpretation of business motive. It is not a claim that can be shown untrue. The factual premises check out. Under UPI AutoPay you sign a mandate with your PIN and later debits run without any further action from you. India's 2023 CCPA Dark Patterns Guidelines do name 'subscription trap', and that definition covers asking for auto-debit authorisation for a free subscription and hiding the cancel option. One thing slides 4–5 leave out: by rule, the bank sends a notice 24 hours before each scheduled debit, and you can tap it to pause or cancel. Any mandate can also be revoked from the AutoPay list in GPay or PhonePe without opening the merchant's app. So stopping a charge doesn't depend only on your memory, though if you don't act, the debit still goes through.",
+    "actual_mechanism": "A UPI AutoPay mandate is authorised once with your UPI PIN, and after that the merchant can debit you on schedule. Before each debit, the bank must send a notice at least 24 hours ahead, and you can pause or revoke the mandate from it. You can also revoke from the AutoPay section of your UPI app, after which the merchant can't debit you again. India's CCPA Dark Patterns Guidelines (30 Nov 2023) list 'subscription trap' as a banned practice. It covers making cancellation impossible or long, hiding the cancel option, forcing payment details or auto-debit authorisation for a free subscription, and unclear cancellation instructions.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+      "published_date": "2023-12-01",
+      "quote": "making cancellation of a paid subscription impossible or a complex and lengthy process"
+     },
+     {
+      "url": "https://support.google.com/pay/india/answer/10452280?hl=en",
+      "published_date": "unknown",
+      "quote": "You will receive a bank notification 24 hours before any scheduled debit."
+     },
+     {
+      "url": "https://support.google.com/pay/india/answer/10452280?hl=en",
+      "published_date": "unknown",
+      "quote": "Entering your UPI PIN to revoke a mandate stops the merchant from debiting funds from your account going forward."
+     },
+     {
+      "url": "https://www.npci.org.in/PDF/npci/rupay/2022/Circular-RuPay-AutoPay-AFA-Limit-enhancement-and-compliance.pdf",
+      "published_date": "2022",
+      "quote": "Issuer shall ensure to send a Pre debit notification to the cardholder, at least 24 hours prior to the actual charge / debit to the card."
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "5571045910c16efa46820418dd1122c39ad4a574": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not verify: 'Cancelling a subscription in these apps typically requires navigating Account, then Manage plan, then an 'Are you sure?' screen, followed by a half-price retention offer.'. Cut it, or state it only if a source says it.",
+     "The sum is wrong: 'About ₹950 a month amounts to over ₹11,000 a year.' (950*12 is not 11000).",
+     "Could not verify: 'An app spends almost nothing on a user who never opens it.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Free trials are priced on (their revenue depends on) users who forget to cancel rather than on users who love the app.",
+      "sentence": "A free trial isn't priced on people who love the app. It's priced on people who forget to cancel.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Apps offering free trials ask users to set up UPI autopay before the trial starts.",
+      "sentence": "Before the free trial even starts, the app asks you to set up UPI autopay.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Setting up UPI autopay takes one tap on GPay or PhonePe plus entering the UPI PIN.",
+      "sentence": "One tap on GPay or PhonePe, your PIN, done.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Cancelling a subscription in these apps typically requires navigating Account, then Manage plan, then an 'Are you sure?' screen, followed by a half-price retention offer.",
+      "sentence": "To cancel, you hunt through Account, then Manage plan, then an \"Are you sure?\" screen. Then an offer to stay at half price.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "With UPI autopay, payments continue automatically without any action from the user, and stopping requires the user to act.",
+      "sentence": "Because with autopay, silence counts as yes. Paying needs nothing from you. To stop, you have to remember",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Apps offering free trials design the flow betting that users will forget to cancel.",
+      "sentence": "the app is betting you won't.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "Three subscriptions at ₹149, ₹299 and ₹499 add up to about ₹950 a month.",
+      "sentence": "Three forgotten apps at ₹149, ₹299 and ₹499 come to about ₹950 a month.",
+      "type": "arithmetic",
+      "core": false,
+      "framed_as": "timeless",
+      "expr": "149+299+499",
+      "stated": "950"
+     },
+     {
+      "id": "c8",
+      "text": "About ₹950 a month amounts to over ₹11,000 a year.",
+      "sentence": "Over ₹11,000 a year.",
+      "type": "arithmetic",
+      "core": false,
+      "framed_as": "timeless",
+      "expr": "950*12",
+      "stated": "11000"
+     },
+     {
+      "id": "c9",
+      "text": "An app spends almost nothing on a user who never opens it.",
+      "sentence": "The app spends almost nothing on you. You never open it.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c10",
+      "text": "India's 2023 dark pattern guidelines name 'subscription trap' as a dark pattern.",
+      "sentence": "India's 2023 dark pattern guidelines even have a name for this. A \"subscription trap.\"",
+      "type": "feature",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c11",
+      "text": "Under India's 2023 dark pattern guidelines, making a user approve auto-debit for a free trial counts as a subscription trap.",
+      "sentence": "Making you approve auto-debit for a free trial counts.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c12",
+      "text": "Under India's 2023 dark pattern guidelines, hiding the cancel button counts as a subscription trap.",
+      "sentence": "So does hiding the cancel button.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "correct": "The guidelines treat forcing auto-debit authorisation for a free subscription as a dark pattern, which implies the practice is common. I found no source on how widespread it is across apps.",
+      "sources": [
+       {
+        "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+        "publisher": "Verdictum",
+        "published_date": "2023-12-01",
+        "quote": "forcing a user to provide payment details or authorization for auto debits for availing a free subscription",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "correct": "The user approves the mandate in the UPI app and enters the UPI PIN. Google Pay requires the PIN for first-time setup of recurring payments under ₹15,000.",
+      "sources": [
+       {
+        "url": "https://support.google.com/pay/india/answer/10452280?hl=en",
+        "publisher": "Google Pay Help",
+        "published_date": "2026-01-01",
+        "quote": "if your recurring payment is less than ₹15,000, you need to enter your UPI PIN to set it up for the first time",
+        "tier": 1
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "unverifiable",
+      "correct": "No source confirms this exact Account > Manage plan > 'Are you sure?' > half-price offer flow. It is an illustrative generalisation, and the guidelines do name complex or hidden cancellation as a dark pattern.",
+      "sources": [
+       {
+        "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+        "publisher": "Verdictum",
+        "published_date": "2023-12-01",
+        "quote": "making cancellation of a paid subscription impossible or a complex and lengthy process",
+        "tier": 2
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "supported",
+      "correct": "After the first PIN-authenticated setup, debits run automatically (usually with no PIN for amounts up to ₹15,000). The user has to open the UPI app and revoke or pause the mandate to stop them.",
+      "sources": [
+       {
+        "url": "https://moneyview.in/upi/what-is-upi-mandate",
+        "publisher": "Moneyview",
+        "published_date": "2025-01-01",
+        "quote": "payments up to ₹15,000 can happen automatically without a UPI PIN after the first setup",
+        "tier": 3
+       }
+      ]
+     },
+     "c9": {
+      "id": "c9",
+      "verdict": "unverifiable",
+      "correct": "This is a business-economics assertion about app costs. I found no reliable source for it.",
+      "sources": []
+     },
+     "c10": {
+      "id": "c10",
+      "verdict": "supported",
+      "event_date": "2023-11-30",
+      "sources": [
+       {
+        "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+        "publisher": "Verdictum",
+        "published_date": "2023-12-01",
+        "quote": "\"Subscription trap\" means the process of- (i) making cancellation of a paid subscription impossible or a complex and lengthy process",
+        "tier": 2
+       }
+      ]
+     },
+     "c11": {
+      "id": "c11",
+      "verdict": "supported",
+      "event_date": "2023-11-30",
+      "sources": [
+       {
+        "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+        "publisher": "Verdictum",
+        "published_date": "2023-12-01",
+        "quote": "forcing a user to provide payment details or authorization for auto debits for availing a free subscription",
+        "tier": 2
+       }
+      ]
+     },
+     "c12": {
+      "id": "c12",
+      "verdict": "supported",
+      "event_date": "2023-11-30",
+      "sources": [
+       {
+        "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+        "publisher": "Verdictum",
+        "published_date": "2023-12-01",
+        "quote": "hiding the cancellation option for a subscription",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None of the premises is false. Saying trials are 'priced on' people who forget to cancel, and that the app is 'betting' they won't remember, is an interpretation of business motive. It is not a claim that can be shown untrue. The factual premises check out. Under UPI AutoPay you sign a mandate with your PIN and later debits run without any further action from you. India's 2023 CCPA Dark Patterns Guidelines do name 'subscription trap', and that definition covers asking for auto-debit authorisation for a free subscription and hiding the cancel option. One thing slides 4–5 leave out: by rule, the bank sends a notice 24 hours before each scheduled debit, and you can tap it to pause or cancel. Any mandate can also be revoked from the AutoPay list in GPay or PhonePe without opening the merchant's app. So stopping a charge doesn't depend only on your memory, though if you don't act, the debit still goes through.",
+     "actual_mechanism": "A UPI AutoPay mandate is authorised once with your UPI PIN, and after that the merchant can debit you on schedule. Before each debit, the bank must send a notice at least 24 hours ahead, and you can pause or revoke the mandate from it. You can also revoke from the AutoPay section of your UPI app, after which the merchant can't debit you again. India's CCPA Dark Patterns Guidelines (30 Nov 2023) list 'subscription trap' as a banned practice. It covers making cancellation impossible or long, hiding the cancel option, forcing payment details or auto-debit authorisation for a free subscription, and unclear cancellation instructions.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+       "published_date": "2023-12-01",
+       "quote": "making cancellation of a paid subscription impossible or a complex and lengthy process"
+      },
+      {
+       "url": "https://support.google.com/pay/india/answer/10452280?hl=en",
+       "published_date": "unknown",
+       "quote": "You will receive a bank notification 24 hours before any scheduled debit."
+      },
+      {
+       "url": "https://support.google.com/pay/india/answer/10452280?hl=en",
+       "published_date": "unknown",
+       "quote": "Entering your UPI PIN to revoke a mandate stops the merchant from debiting funds from your account going forward."
+      },
+      {
+       "url": "https://www.npci.org.in/PDF/npci/rupay/2022/Circular-RuPay-AutoPay-AFA-Limit-enhancement-and-compliance.pdf",
+       "published_date": "2022",
+       "quote": "Issuer shall ensure to send a Pre debit notification to the cardholder, at least 24 hours prior to the actual charge / debit to the card."
+      }
+     ]
+    },
+    "text_hash": "5571045910c16efa46820418dd1122c39ad4a574",
+    "at": "2026-11-11T11:54:15.982236+00:00"
+   },
+   "f849751bd90298b32b634b686cadeb24d5466421": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not confirm: 'Once a UPI autopay mandate is set up, recurring debits continue without any action from the user, and stopping them requires the user to actively cancel.' (the cited pages don't say it). Use a source that does, or cut it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Apps offering free trials ask users to set up UPI autopay before the trial starts.",
+      "sentence": "Before the free trial even starts, the app asks you to set up UPI autopay.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Setting up UPI autopay takes one tap on GPay or PhonePe plus entering the UPI PIN.",
+      "sentence": "One tap on GPay or PhonePe, your PIN, done.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "With UPI autopay, payments continue automatically without any action from the user, and stopping requires the user to act.",
+      "sentence": "Because with autopay, silence counts as yes. Paying needs nothing from you. To stop, you have to remember",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "India's 2023 dark pattern guidelines name 'subscription trap' as a dark pattern.",
+      "sentence": "India's 2023 dark pattern guidelines even have a name for this. A \"subscription trap.\"",
+      "type": "feature",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c5",
+      "text": "Under India's 2023 dark pattern guidelines, making a user approve auto-debit for a free trial counts as a subscription trap.",
+      "sentence": "Making you approve auto-debit for a free trial counts.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Under India's 2023 dark pattern guidelines, hiding the cancel button counts as a subscription trap.",
+      "sentence": "So does hiding the cancel button.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "The monthly prices of ₹149, ₹299 and ₹499 add up to ₹947.",
+      "sentence": "Three forgotten apps at ₹149, ₹299 and ₹499 come to ₹947 a month.",
+      "type": "arithmetic",
+      "core": false,
+      "framed_as": "timeless",
+      "expr": "149+299+499",
+      "stated": "947"
+     },
+     {
+      "id": "c8",
+      "text": "₹947 a month over 12 months comes to ₹11,364 a year.",
+      "sentence": "That's ₹11,364 a year, for apps you never open.",
+      "type": "arithmetic",
+      "core": false,
+      "framed_as": "timeless",
+      "expr": "947*12",
+      "stated": "11364"
+     },
+     {
+      "id": "c9",
+      "text": "UPI autopay mandates can be set up with one tap in an app like GPay or PhonePe plus a PIN, which makes signing up for a subscription frictionless.",
+      "sentence": "UPI autopay mandates make signing up one tap",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c10",
+      "text": "Once a UPI autopay mandate is set up, recurring debits continue without any action from the user, and stopping them requires the user to actively cancel.",
+      "sentence": "silence counts as yes",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c11",
+      "text": "Free trials are priced and profit-modelled on the subscribers who forget to cancel rather than on fans who would have paid anyway. Premises: apps collect UPI autopay consent before the trial begins; autopay charges continue without any action from the user; cancelling requires the user to remember and act; some users forget to cancel. Conclusion: a meaningful share of a free trial's revenue comes from those who meant to cancel and didn't, and the app's design and pricing rely on this.",
+      "sentence": "It runs on everyone who meant to cancel and didn't.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c2",
+      "verdict": "supported",
+      "correct": "The guidelines treat forcing auto-debit authorisation for a free subscription as a dark pattern, which implies the practice is common. I found no source on how widespread it is across apps.",
+      "sources": [
+       {
+        "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+        "publisher": "Verdictum",
+        "published_date": "2023-12-01",
+        "quote": "forcing a user to provide payment details or authorization for auto debits for availing a free subscription",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c3",
+      "verdict": "supported",
+      "correct": "The user approves the mandate in the UPI app and enters the UPI PIN. Google Pay requires the PIN for first-time setup of recurring payments under ₹15,000.",
+      "sources": [
+       {
+        "url": "https://support.google.com/pay/india/answer/10452280?hl=en",
+        "publisher": "Google Pay Help",
+        "published_date": "2026-01-01",
+        "quote": "if your recurring payment is less than ₹15,000, you need to enter your UPI PIN to set it up for the first time",
+        "tier": 1
+       }
+      ]
+     },
+     "c3": {
+      "id": "c5",
+      "verdict": "supported",
+      "correct": "After the first PIN-authenticated setup, debits run automatically (usually with no PIN for amounts up to ₹15,000). The user has to open the UPI app and revoke or pause the mandate to stop them.",
+      "sources": [
+       {
+        "url": "https://moneyview.in/upi/what-is-upi-mandate",
+        "publisher": "Moneyview",
+        "published_date": "2025-01-01",
+        "quote": "payments up to ₹15,000 can happen automatically without a UPI PIN after the first setup",
+        "tier": 3
+       }
+      ]
+     },
+     "c4": {
+      "id": "c10",
+      "verdict": "supported",
+      "event_date": "2023-11-30",
+      "sources": [
+       {
+        "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+        "publisher": "Verdictum",
+        "published_date": "2023-12-01",
+        "quote": "\"Subscription trap\" means the process of- (i) making cancellation of a paid subscription impossible or a complex and lengthy process",
+        "tier": 2
+       }
+      ]
+     },
+     "c5": {
+      "id": "c11",
+      "verdict": "supported",
+      "event_date": "2023-11-30",
+      "sources": [
+       {
+        "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+        "publisher": "Verdictum",
+        "published_date": "2023-12-01",
+        "quote": "forcing a user to provide payment details or authorization for auto debits for availing a free subscription",
+        "tier": 2
+       }
+      ]
+     },
+     "c6": {
+      "id": "c12",
+      "verdict": "supported",
+      "event_date": "2023-11-30",
+      "sources": [
+       {
+        "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+        "publisher": "Verdictum",
+        "published_date": "2023-12-01",
+        "quote": "hiding the cancellation option for a subscription",
+        "tier": 2
+       }
+      ]
+     },
+     "c9": {
+      "id": "c9",
+      "verdict": "supported",
+      "correct": "Setting up a UPI AutoPay mandate means choosing the merchant, amount, frequency and validity in a UPI app such as GPay or PhonePe. The user then approves it with their UPI PIN. The flow is short and low-friction, though it is not literally a single tap.",
+      "sources": [
+       {
+        "url": "https://paytm.com/blog/bill-payments/upi-autopay/process-upi-autopay-activation",
+        "publisher": "Paytm blog",
+        "published_date": "2025-01-01",
+        "quote": "Enter your UPI PIN to finalise the setup, which confirms consent for the recurring payments.",
+        "tier": 3
+       }
+      ]
+     },
+     "c10": {
+      "id": "c10",
+      "verdict": "supported",
+      "correct": "After a mandate is registered, debits run automatically on the agreed schedule. The user stops them by pausing or cancelling the mandate in the UPI app's AutoPay/Mandates section. Cancelling the mandate may not end the underlying service.",
+      "sources": [
+       {
+        "url": "https://paytm.com/blog/bill-payments/upi-autopay/managing-your-upi-autopay-mandates-pause-resume-and-delete-with-ease/",
+        "publisher": "Paytm blog",
+        "published_date": "2025-01-01",
+        "quote": "Manage your UPI AutoPay mandates: pause, resume, and delete with ease.",
+        "tier": 3
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None of the premises is false. Saying trials are 'priced on' people who forget to cancel, and that the app is 'betting' they won't remember, is an interpretation of business motive. It is not a claim that can be shown untrue. The factual premises check out. Under UPI AutoPay you sign a mandate with your PIN and later debits run without any further action from you. India's 2023 CCPA Dark Patterns Guidelines do name 'subscription trap', and that definition covers asking for auto-debit authorisation for a free subscription and hiding the cancel option. One thing slides 4–5 leave out: by rule, the bank sends a notice 24 hours before each scheduled debit, and you can tap it to pause or cancel. Any mandate can also be revoked from the AutoPay list in GPay or PhonePe without opening the merchant's app. So stopping a charge doesn't depend only on your memory, though if you don't act, the debit still goes through.",
+     "actual_mechanism": "A UPI AutoPay mandate is authorised once with your UPI PIN, and after that the merchant can debit you on schedule. Before each debit, the bank must send a notice at least 24 hours ahead, and you can pause or revoke the mandate from it. You can also revoke from the AutoPay section of your UPI app, after which the merchant can't debit you again. India's CCPA Dark Patterns Guidelines (30 Nov 2023) list 'subscription trap' as a banned practice. It covers making cancellation impossible or long, hiding the cancel option, forcing payment details or auto-debit authorisation for a free subscription, and unclear cancellation instructions.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072",
+       "published_date": "2023-12-01",
+       "quote": "making cancellation of a paid subscription impossible or a complex and lengthy process"
+      },
+      {
+       "url": "https://support.google.com/pay/india/answer/10452280?hl=en",
+       "published_date": "unknown",
+       "quote": "You will receive a bank notification 24 hours before any scheduled debit."
+      },
+      {
+       "url": "https://support.google.com/pay/india/answer/10452280?hl=en",
+       "published_date": "unknown",
+       "quote": "Entering your UPI PIN to revoke a mandate stops the merchant from debiting funds from your account going forward."
+      },
+      {
+       "url": "https://www.npci.org.in/PDF/npci/rupay/2022/Circular-RuPay-AutoPay-AFA-Limit-enhancement-and-compliance.pdf",
+       "published_date": "2022",
+       "quote": "Issuer shall ensure to send a Pre debit notification to the cardholder, at least 24 hours prior to the actual charge / debit to the card."
+      }
+     ]
+    },
+    "text_hash": "f849751bd90298b32b634b686cadeb24d5466421",
+    "at": "2026-11-11T11:55:47.406534+00:00"
+   }
+  },
+  "UPI autopay mandates can be set up with one tap in an app like GPay or PhonePe plus a PIN, which makes signing up for a subscription frictionless.": {
+   "id": "c9",
+   "verdict": "supported",
+   "correct": "Setting up a UPI AutoPay mandate means choosing the merchant, amount, frequency and validity in a UPI app such as GPay or PhonePe. The user then approves it with their UPI PIN. The flow is short and low-friction, though it is not literally a single tap.",
+   "sources": [
+    {
+     "url": "https://paytm.com/blog/bill-payments/upi-autopay/process-upi-autopay-activation",
+     "publisher": "Paytm blog",
+     "published_date": "2025-01-01",
+     "quote": "Enter your UPI PIN to finalise the setup, which confirms consent for the recurring payments.",
+     "tier": 3
+    }
+   ]
+  },
+  "Once a UPI autopay mandate is set up, recurring debits continue without any action from the user, and stopping them requires the user to actively cancel.": {
+   "id": "c10",
+   "verdict": "supported",
+   "correct": "After a mandate is registered, debits run automatically on the agreed schedule. The user stops them by pausing or cancelling the mandate in the UPI app's AutoPay/Mandates section. Cancelling the mandate may not end the underlying service.",
+   "sources": [
+    {
+     "url": "https://paytm.com/blog/bill-payments/upi-autopay/managing-your-upi-autopay-mandates-pause-resume-and-delete-with-ease/",
+     "publisher": "Paytm blog",
+     "published_date": "2025-01-01",
+     "quote": "Manage your UPI AutoPay mandates: pause, resume, and delete with ease.",
+     "tier": 3
+    }
+   ]
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "A free trial is priced on the people who [forget to cancel]",
+   "sub": "The fans would have paid anyway. The money is somewhere else."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "A free trial isn't priced on people who love the app. It's priced on people who forget to cancel."
+    ],
+    "why_swipe": "If not the fans, then who is paying for it?"
+   },
+   {
+    "paragraphs": [
+     "Your phone buzzes in month three: ₹499 debited, for an app you opened twice and forgot you even had.",
+     "And the first person you blame is yourself."
+    ],
+    "why_swipe": "How did it get that far without you noticing?"
+   },
+   {
+    "paragraphs": [
+     "Before the free trial even starts, the app asks you to set up UPI autopay. One tap on GPay or PhonePe, your PIN, done."
+    ],
+    "why_swipe": "Why does the app want that one tap so badly?"
+   },
+   {
+    "paragraphs": [
+     "Because with autopay, silence counts as yes.",
+     "Paying needs nothing from you. To stop, you have to remember, and the app is betting you won't."
+    ],
+    "why_swipe": "How much does that forgetting actually cost?"
+   },
+   {
+    "paragraphs": [
+     "Three forgotten apps at ₹149, ₹299 and ₹499 come to ₹947 a month.",
+     "That's ₹11,364 a year, for apps you never open."
+    ],
+    "why_swipe": "So what is the trial really for?"
+   },
+   {
+    "paragraphs": [
+     "So the trial was never really a trial. It runs on everyone who meant to cancel and didn't.",
+     "Call it the forgetting fee."
+    ],
+    "why_swipe": "Is any of this even allowed?"
+   },
+   {
+    "paragraphs": [
+     "India's 2023 dark pattern guidelines even have a name for this. A \"subscription trap.\"",
+     "Making you approve auto-debit for a free trial counts. So does hiding the cancel button."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "You signed up for one series, or maybe a match, or a month of workouts, and then life moved on. The mandate didn't.",
+     "Call it careless if you want. The app planned for it."
+    ],
+    "why_swipe": "What can you see for yourself, right now?"
+   },
+   {
+    "paragraphs": [
+     "Open your UPI autopay list tonight and count the ones you'd sign up for again today.",
+     "Every app after that number is billing you for being busy."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Come back to this the next time an app says \"Start free trial\" and asks for your UPI PIN.",
+   "send": "Send to the sibling who pays for four OTT apps and watches one.",
+   "promise": "How brands really sell to India."
+  },
+  "caption": "Somewhere in your autopay list is a logo you won't recognise.",
+  "hashtags": [
+   "#UPIAutopay",
+   "#DarkPatterns",
+   "#SubscriptionTrap",
+   "#FreeTrial"
+  ],
+  "alt_text": "Text carousel arguing that free trials make money from people who forget to cancel. UPI autopay mandates make signing up one tap, and silence counts as yes. Three forgotten apps at ₹149, ₹299 and ₹499 cost ₹947 a month, or ₹11,364 a year. India's 2023 dark pattern guidelines call this a subscription trap. Ends by asking readers to open their UPI autopay list and count the subscriptions they would still choose today.",
+  "claims": [
+   {
+    "text": "Three apps at ₹149, ₹299 and ₹499 come to ₹947 a month, ₹11,364 a year",
+    "source_url": "topic",
+    "derived_from": "149 + 299 + 499 = 947 per month; 947 x 12 = 11,364 per year"
+   },
+   {
+    "text": "India's 2023 dark pattern guidelines define a 'subscription trap' to include forcing auto-debit authorisation for a free subscription and hiding the cancellation option",
+    "source_url": "https://www.verdictum.in/news/central-consumer-protection-authority-dark-patterns-guidelines-notification-1507072"
+   }
+  ],
+  "caption_style": "pov"
+ }
 }

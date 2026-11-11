@@ -1,6 +1,6 @@
 {
  "id": "2026-11-143",
- "status": "planned",
+ "status": "uploaded",
  "due": "2026-11-23T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -43,6 +43,904 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-11-10T17:17:08.387753+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slide 5: 'The next fifty are waiting behind it, at a new price.' The 'fifty' is an invented count that reads like data. Either drop the number ('The whole next phase is waiting behind it, at a new price.') or replace it with the sourced example: Ashiana Housing's director said prices on its Gurugram project Amarah 'more than doubled between Phase 1 and Phase 4'. Keep that wording exactly. Do not make it stronger.",
+     "slide 7: 'Scarcity here isn't measured. It's scheduled.' This repeats the 'isn't X. It's Y.' structure from slide 1 ('isn't a shortage. It's a price ladder'), so the post starts to feel engineered. Recast it as a plain statement, for example: 'The builder controls the count. The shortage is on a calendar.' That keeps the sting without echoing the cover.",
+     "slide 7: The UP RERA line is the post's best receipt, but it sits after the mechanism line and lands like a news add-on. Lead into it with why it matters: a regulator had to publicly warn people about this exact sales line. For example: 'It's common enough that UP RERA warned buyers about \"limited stock\" and \"price hike\" messages. Over 1.15 lakh units were unsold across the state.' That makes the fact back the opinion instead of standing alone.",
+     "slide 4: This is the most explainer-like slide ('They release it in slabs: phase one, phase two, phase three.'). Add one detail only an insider would notice, still framed as typical. For example, the rate card on the sales table quietly changes its date while the brochure stays the same. That keeps the slide in the reader's room, not in a textbook.",
+     "slide 9: 'That fear is exactly what the slab is priced to use.' This states a deliberate design as fact. Soften the mechanism, not the voice: 'That fear is what the slab runs on.' It stays sharp without claiming a plan you can't show."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "varun": {
+    "pass": false,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 7",
+      "line": "The builder controls the count. Scarcity here isn't measured. It's scheduled.",
+      "why": "engineered mirrored pair, third 'isn't X. It's Y.' in the post",
+      "try": "The builder controls the count. The shortage runs on a calendar."
+     },
+     {
+      "where": "slide 9",
+      "line": "It's not foolishness to rush. A flat costs a decade of salary now.\nMissing the 'old rate' feels like losing money you never even had. That fear is exactly what the slab is priced to use.",
+      "why": "stiff word ('foolishness'), another 'not X', and the turn gets explained",
+      "try": "Nobody's dumb for rushing. A flat costs a decade of salary now.\nMissing the 'old rate' feels like losing money you never had. The slab is priced for exactly that feeling."
+     }
+    ],
+    "best": "The hike on phase two sells phase three."
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Not Varun (slide 7): 'The builder controls the count. Scarcity here isn't measured. It's scheduled.' reads as engineered mirrored pair, third 'isn't X. It's Y.' in the post. Say it the way he would, e.g. 'The builder controls the count. The shortage runs on a calendar.' (his register, your words, same facts).",
+    "Not Varun (slide 9): 'It's not foolishness to rush. A flat costs a decade of salary now.\nMissing the 'old rate' feels like losing money you never even had. That fear is exactly what the slab is priced to use.' reads as stiff word ('foolishness'), another 'not X', and the turn gets explained. Say it the way he would, e.g. 'Nobody's dumb for rushing. A flat costs a decade of salary now.\nMissing the 'old rate' feels like losing money you never had. The slab is priced for exactly that feeling.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 4,
+     "iq": 5,
+     "story": 4,
+     "tight": 4,
+     "informative": 5
+    },
+    "notes": [
+     "Slide 7: settled. 'The builder controls the count. The shortage runs on a calendar.' drops the mirrored 'isn't X. It's Y.' and keeps the same fact. The UP RERA line matches the source ('more than 115,000 units are available statewide'), so no change is needed.",
+     "Slide 9: settled. 'Nobody's dumb for rushing' and 'The slab is priced for exactly that feeling' read in his voice and no longer over-explain the turn. It does not repeat any other slide.",
+     "No new hard failures were found in the edited lines. The post is ready to go to the owner as it stands."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "varun": {
+    "pass": true,
+    "score": 5,
+    "misses": [],
+    "best": "The hike on phase two sells phase three."
+   }
+  },
+  {
+   "attempt": 1,
+   "verification": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Builders do not put an entire project on sale at once; they release flats in slabs or phases (phase one, two, three).",
+      "sentence": "Builders don't put the whole project on sale at once. They release it in slabs: phase one, phase two, phase three.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Each successive phase or slab is released at a higher rate per square foot.",
+      "sentence": "Each slab comes with a higher rate per square foot.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "When a builder says only three units are left at a price, that is true only for the current slab; many more units are waiting to be released at a new, higher price.",
+      "sentence": "So 'only three left' is true. Three are left in this slab. The next fifty are waiting behind it, at a new price.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "The builder controls how many units are shown as left, so the 'shortage' is set by the builder's release calendar rather than real scarcity.",
+      "sentence": "The builder controls the count. The shortage runs on a calendar.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "A ₹500 per sq ft increase on a 1,000 sq ft flat amounts to ₹5 lakh.",
+      "sentence": "On a 1,000 sq ft flat, a ₹500 jump per square foot is ₹5 lakh.",
+      "type": "arithmetic",
+      "core": false,
+      "framed_as": "timeless",
+      "expr": "500*1000/100000",
+      "stated": "5 lakh"
+     },
+     {
+      "id": "c6",
+      "text": "UP RERA has issued a warning to buyers about 'limited stock' and 'price hike' messages in property marketing.",
+      "sentence": "UP RERA itself warned buyers about 'limited stock' and 'price hike' messages",
+      "type": "event",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c7",
+      "text": "Over 1.15 lakh units were unsold across Uttar Pradesh at the time of the UP RERA warning.",
+      "sentence": "while over 1.15 lakh units sat unsold across the state.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c8",
+      "text": "When the rate card rises, early buyers see their flat's value go up on paper, and they tell relatives the project is hot, which helps sell later phases.",
+      "sentence": "When the rate card changes, early buyers see their flat 'go up' on paper. They tell every relative the project is hot. The hike on phase two sells phase three.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c9",
+      "text": "A flat now costs about a decade of an Indian buyer's salary.",
+      "sentence": "A flat costs a decade of salary now.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "current"
+     }
+    ],
+    "verdicts": {
+     "c6": {
+      "id": "c6",
+      "verdict": "supported",
+      "event_date": "2026-06-02",
+      "sources": [
+       {
+        "url": "https://www.outlookmoney.com/invest/planning-to-buy-a-home-uprera-says-dont-fall-for-limited-stock-claims",
+        "publisher": "Outlook Money",
+        "published_date": "2026-06-02",
+        "quote": "UP RERA advised homebuyers not to make hurried purchases based on misleading messages claiming \"limited stock\" or imminent price hikes.",
+        "tier": 2
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "supported",
+      "event_date": "2026-06-02",
+      "correct": "UP RERA's figure was 'more than 115,000 residential and commercial units currently available across the state'. This is inventory, which is effectively unsold stock.",
+      "sources": [
+       {
+        "url": "https://www.outlookmoney.com/invest/planning-to-buy-a-home-uprera-says-dont-fall-for-limited-stock-claims",
+        "publisher": "Outlook Money",
+        "published_date": "2026-06-02",
+        "quote": "more than 115,000 residential and commercial units are currently available across the state",
+        "tier": 2
+       }
+      ]
+     },
+     "c9": {
+      "id": "c9",
+      "verdict": "supported",
+      "correct": "Estimates run from about 7.5 years of income (national price-to-income ratio, 2024) to about 11–12 years (₹2.7 crore average 3BHK against about ₹23 lakh household income). Mumbai is about 11.6 years. 'About a decade' is the right picture.",
+      "sources": [
+       {
+        "url": "https://www.squareyards.com/blog/wp-content/uploads/2026/04/the-cost-of-owning-a-3BHK-in-India.pdf",
+        "publisher": "Square Yards",
+        "published_date": "2026-01-22",
+        "quote": "pan-India average 3BHK price of ₹2.7 crore against average household income of about ₹23 lakh",
+        "tier": 3
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. The premises hold as descriptions of common practice, with two caveats. (1) No law says each phase must cost more. Phase-wise escalation is a builder's choice, and a builder can hold or cut prices, or offer discounts, when stock isn't selling. UP RERA's own advisory says the market is 'not running out of inventory'. (2) The 1.15 lakh figure counts all available stock, including flats, villas, plots, shops and offices. It is not only unsold flats, and it dates from a June 2026 advisory. Neither caveat breaks the argument.",
+     "actual_mechanism": "The RERA Act lets a promoter register and develop a project in phases, and each phase counts as a separate project with its own registration, unit count and timeline. That is why a builder can open inventory in tranches and reprice each one. 'Only three left' can be literally true for the current tranche or price band while the builder decides when the next units go on sale. The builder can't hide totals, though: each registered phase's unit count and progress are filed on the state RERA portal. So the post's tip to ask how many units haven't been released can be checked there instead of relying on the salesperson.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://therealtytoday.com/news/regulatory/up-rera-warns-homebuyers-against-scarcity-claims-as-115-lakh-units-remain-unsold",
+       "published_date": "2026-06-13",
+       "quote": "The availability of 1.15 lakh properties in Uttar Pradesh reflects the wide variety of housing."
+      },
+      {
+       "url": "https://www.outlookmoney.com/invest/planning-to-buy-a-home-uprera-says-dont-fall-for-limited-stock-claims",
+       "published_date": "2026-06",
+       "quote": "Planning to buy a home? UPRERA says don't fall for 'limited stock' claims"
+      },
+      {
+       "url": "https://propnewstime.com/latestnewsstories/MzEzMDg=/up-rera-says-1-15-lakh-units-remain-unsold-warns-buyers-against-artificial-scarcity-claims",
+       "published_date": "2026-06",
+       "quote": "Such claims are often used to create pressure on buyers to make immediate bookings."
+      },
+      {
+       "url": "https://www.advocatekhoj.com/library/bareacts/realestate2016/3.php",
+       "published_date": "2016-03-25",
+       "quote": "Where the real estate project is to be developed in phases, every such phase shall be considered a stand alone real estate project, and the promoter shall obtain registration under this Act for each phase separately."
+      }
+     ]
+    },
+    "text_hash": "70898dfcef610e1869d3cebe054e1ca4e5bffb7e",
+    "at": "2026-11-11T11:52:49.355246+00:00"
+   }
+  }
+ ],
+ "updated_at": "2026-11-11T11:56:05.552667+00:00",
+ "sources": [
+  {
+   "url": "https://www.outlookmoney.com/invest/planning-to-buy-a-home-uprera-says-dont-fall-for-limited-stock-claims",
+   "fact": "UP RERA warned buyers that promoters and agents use limited-stock and imminent-price-hike claims to create urgency, while data shows over 1.15 lakh unsold units statewide.",
+   "excerpt": "UPRERA warned against \"misleading messages claiming limited stock or imminent price hikes.\" ... promoters and agents \"create a sense of urgency by claiming that property prices are set to rise sharply\" ... \"current market data does not indicate any shortage of inventory,\" and more than 115,000 units are available statewide.",
+   "date": "2026-06-02"
+  },
+  {
+   "url": "https://www.geosquare.in/ashianas-gurugram-project-sees-25-price-hike-in-under-a-year-more-increases-expected-717687461588-news",
+   "fact": "Ashiana Housing's Gurugram project Amarah raised prices phase by phase, with remaining Phase 4 units priced at least 10% above Phase 3.",
+   "excerpt": "Varun Gupta, Director of Ashiana Housing, says \"the prices have more than doubled between Phase 1 and Phase 4.\" He adds that \"the remaining units in Phase 4 may be priced at least 10% higher than Phase 3 prices.\" The remaining 112 Phase 4 units are expected to sell at a 10% higher price.",
+   "date": "2024-09-09"
+  }
+ ],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] 'Only three units left' is a [price ladder], not a shortage.\nThe builder decides how many flats are left.\n \n\n[slide 1] 'Only three units left at this price' isn't a shortage. It's a price ladder.\nSwipe to read →\n\n[slide 2] Every Sunday site visit ends the same way. Sample flat, cold coffee, a floor plan on the table.\nThen the soft line: 'Sir, is price pe sirf teen units bache hain. Next week se rate badh raha hai.'\n\n[slide 3] And it works. A couple who came 'just to see' starts asking about the token amount.\nThe biggest cheque of your life gets written on a weekend, in an AC room, against a countdown.\n\n[slide 4] Builders don't put the whole project on sale at once. They release it in slabs: phase one, phase two, phase three.\nEach slab comes with a higher rate per square foot.\n\n[slide 5] So 'only three left' is true. Three are left in this slab. The next fifty are waiting behind it, at a new price.\n\n[slide 6] On a 1,000 sq ft flat, a ₹500 jump per square foot is ₹5 lakh.\nSame flat. One week later.\n\n[slide 7] The builder controls the count. The shortage runs on a calendar.\nUP RERA itself warned buyers about 'limited stock' and 'price hike' messages, while over 1.15 lakh units sat unsold across the state.\n\n[slide 8] The ladder has a sweetener built in. When the rate card changes, early buyers see their flat 'go up' on paper.\nThey tell every relative the project is hot. The hike on phase two sells phase three.\n\n[slide 9] Nobody's dumb for rushing. A flat costs a decade of salary now.\nMissing the 'old rate' feels like losing money you never had. The slab is priced for exactly that feeling.\n\n[slide 10] Next site visit, skip 'how many are left?'\nAsk how many haven't been released yet. Then watch how long the answer takes.\n\n[end card] Read it again before you hand over the token cheque at your next site visit.\nSend to the couple spending every Sunday in sample flats, sure the good rate is about to disappear.\n\n[caption] What line did the sales team use on you at your last site visit?\n\n[alt text] Text post with ten plain cards. It argues that 'only three units left at this price' at a builder's site visit is not a real shortage. Builders release flats in phases and raise the price each phase, so 'last units' is always true for the current slab. It mentions UP RERA warning buyers about limited-stock and price-hike claims while over 1.15 lakh units were unsold in the state. It ends by telling the reader to ask how many units are unreleased, not how many are left.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Builders do not put an entire project on sale at once; they release flats in slabs or phases (phase one, two, three).",
+     "sentence": "Builders don't put the whole project on sale at once. They release it in slabs: phase one, phase two, phase three.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "Each successive phase or slab is released at a higher rate per square foot.",
+     "sentence": "Each slab comes with a higher rate per square foot.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c3",
+     "text": "When a builder says only three units are left at a price, that is true only for the current slab; many more units are waiting to be released at a new, higher price.",
+     "sentence": "So 'only three left' is true. Three are left in this slab. The next fifty are waiting behind it, at a new price.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c4",
+     "text": "The builder controls how many units are shown as left, so the 'shortage' is set by the builder's release calendar rather than real scarcity.",
+     "sentence": "The builder controls the count. The shortage runs on a calendar.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c5",
+     "text": "A ₹500 per sq ft increase on a 1,000 sq ft flat amounts to ₹5 lakh.",
+     "sentence": "On a 1,000 sq ft flat, a ₹500 jump per square foot is ₹5 lakh.",
+     "type": "arithmetic",
+     "core": false,
+     "framed_as": "timeless",
+     "expr": "500*1000/100000",
+     "stated": "5 lakh"
+    },
+    {
+     "id": "c6",
+     "text": "UP RERA has issued a warning to buyers about 'limited stock' and 'price hike' messages in property marketing.",
+     "sentence": "UP RERA itself warned buyers about 'limited stock' and 'price hike' messages",
+     "type": "event",
+     "core": true,
+     "framed_as": "past"
+    },
+    {
+     "id": "c7",
+     "text": "Over 1.15 lakh units were unsold across Uttar Pradesh at the time of the UP RERA warning.",
+     "sentence": "while over 1.15 lakh units sat unsold across the state.",
+     "type": "figure",
+     "core": true,
+     "framed_as": "past"
+    },
+    {
+     "id": "c8",
+     "text": "When the rate card rises, early buyers see their flat's value go up on paper, and they tell relatives the project is hot, which helps sell later phases.",
+     "sentence": "When the rate card changes, early buyers see their flat 'go up' on paper. They tell every relative the project is hot. The hike on phase two sells phase three.",
+     "type": "mechanism",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c9",
+     "text": "A flat now costs about a decade of an Indian buyer's salary.",
+     "sentence": "A flat costs a decade of salary now.",
+     "type": "figure",
+     "core": false,
+     "framed_as": "current"
+    }
+   ]
+  },
+  "UP RERA has issued a warning to buyers about 'limited stock' and 'price hike' messages in property marketing.": {
+   "id": "c6",
+   "verdict": "supported",
+   "event_date": "2026-06-02",
+   "sources": [
+    {
+     "url": "https://www.outlookmoney.com/invest/planning-to-buy-a-home-uprera-says-dont-fall-for-limited-stock-claims",
+     "publisher": "Outlook Money",
+     "published_date": "2026-06-02",
+     "quote": "UP RERA advised homebuyers not to make hurried purchases based on misleading messages claiming \"limited stock\" or imminent price hikes.",
+     "tier": 2
+    }
+   ]
+  },
+  "Over 1.15 lakh units were unsold across Uttar Pradesh at the time of the UP RERA warning.": {
+   "id": "c7",
+   "verdict": "supported",
+   "event_date": "2026-06-02",
+   "correct": "UP RERA's figure was 'more than 115,000 residential and commercial units currently available across the state'. This is inventory, which is effectively unsold stock.",
+   "sources": [
+    {
+     "url": "https://www.outlookmoney.com/invest/planning-to-buy-a-home-uprera-says-dont-fall-for-limited-stock-claims",
+     "publisher": "Outlook Money",
+     "published_date": "2026-06-02",
+     "quote": "more than 115,000 residential and commercial units are currently available across the state",
+     "tier": 2
+    }
+   ]
+  },
+  "A flat now costs about a decade of an Indian buyer's salary.": {
+   "id": "c9",
+   "verdict": "supported",
+   "correct": "Estimates run from about 7.5 years of income (national price-to-income ratio, 2024) to about 11–12 years (₹2.7 crore average 3BHK against about ₹23 lakh household income). Mumbai is about 11.6 years. 'About a decade' is the right picture.",
+   "sources": [
+    {
+     "url": "https://www.squareyards.com/blog/wp-content/uploads/2026/04/the-cost-of-owning-a-3BHK-in-India.pdf",
+     "publisher": "Square Yards",
+     "published_date": "2026-01-22",
+     "quote": "pan-India average 3BHK price of ₹2.7 crore against average household income of about ₹23 lakh",
+     "tier": 3
+    }
+   ]
+  },
+  "_skeptic": {
+   "8ff73fd2c64e38759803d7ba1950616096b12780": {
+    "holds": true,
+    "broken_premise": "None. The premises hold as descriptions of common practice, with two caveats. (1) No law says each phase must cost more. Phase-wise escalation is a builder's choice, and a builder can hold or cut prices, or offer discounts, when stock isn't selling. UP RERA's own advisory says the market is 'not running out of inventory'. (2) The 1.15 lakh figure counts all available stock, including flats, villas, plots, shops and offices. It is not only unsold flats, and it dates from a June 2026 advisory. Neither caveat breaks the argument.",
+    "actual_mechanism": "The RERA Act lets a promoter register and develop a project in phases, and each phase counts as a separate project with its own registration, unit count and timeline. That is why a builder can open inventory in tranches and reprice each one. 'Only three left' can be literally true for the current tranche or price band while the builder decides when the next units go on sale. The builder can't hide totals, though: each registered phase's unit count and progress are filed on the state RERA portal. So the post's tip to ask how many units haven't been released can be checked there instead of relying on the salesperson.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://therealtytoday.com/news/regulatory/up-rera-warns-homebuyers-against-scarcity-claims-as-115-lakh-units-remain-unsold",
+      "published_date": "2026-06-13",
+      "quote": "The availability of 1.15 lakh properties in Uttar Pradesh reflects the wide variety of housing."
+     },
+     {
+      "url": "https://www.outlookmoney.com/invest/planning-to-buy-a-home-uprera-says-dont-fall-for-limited-stock-claims",
+      "published_date": "2026-06",
+      "quote": "Planning to buy a home? UPRERA says don't fall for 'limited stock' claims"
+     },
+     {
+      "url": "https://propnewstime.com/latestnewsstories/MzEzMDg=/up-rera-says-1-15-lakh-units-remain-unsold-warns-buyers-against-artificial-scarcity-claims",
+      "published_date": "2026-06",
+      "quote": "Such claims are often used to create pressure on buyers to make immediate bookings."
+     },
+     {
+      "url": "https://www.advocatekhoj.com/library/bareacts/realestate2016/3.php",
+      "published_date": "2016-03-25",
+      "quote": "Where the real estate project is to be developed in phases, every such phase shall be considered a stand alone real estate project, and the promoter shall obtain registration under this Act for each phase separately."
+     }
+    ]
+   }
+  },
+  "_skeptic_take": {
+   "cfc3ab112786e79f806b93da925b6afe1f8a52f3": {
+    "holds": true,
+    "broken_premise": "None. The premises hold as descriptions of common practice, with two caveats. (1) No law says each phase must cost more. Phase-wise escalation is a builder's choice, and a builder can hold or cut prices, or offer discounts, when stock isn't selling. UP RERA's own advisory says the market is 'not running out of inventory'. (2) The 1.15 lakh figure counts all available stock, including flats, villas, plots, shops and offices. It is not only unsold flats, and it dates from a June 2026 advisory. Neither caveat breaks the argument.",
+    "actual_mechanism": "The RERA Act lets a promoter register and develop a project in phases, and each phase counts as a separate project with its own registration, unit count and timeline. That is why a builder can open inventory in tranches and reprice each one. 'Only three left' can be literally true for the current tranche or price band while the builder decides when the next units go on sale. The builder can't hide totals, though: each registered phase's unit count and progress are filed on the state RERA portal. So the post's tip to ask how many units haven't been released can be checked there instead of relying on the salesperson.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://therealtytoday.com/news/regulatory/up-rera-warns-homebuyers-against-scarcity-claims-as-115-lakh-units-remain-unsold",
+      "published_date": "2026-06-13",
+      "quote": "The availability of 1.15 lakh properties in Uttar Pradesh reflects the wide variety of housing."
+     },
+     {
+      "url": "https://www.outlookmoney.com/invest/planning-to-buy-a-home-uprera-says-dont-fall-for-limited-stock-claims",
+      "published_date": "2026-06",
+      "quote": "Planning to buy a home? UPRERA says don't fall for 'limited stock' claims"
+     },
+     {
+      "url": "https://propnewstime.com/latestnewsstories/MzEzMDg=/up-rera-says-1-15-lakh-units-remain-unsold-warns-buyers-against-artificial-scarcity-claims",
+      "published_date": "2026-06",
+      "quote": "Such claims are often used to create pressure on buyers to make immediate bookings."
+     },
+     {
+      "url": "https://www.advocatekhoj.com/library/bareacts/realestate2016/3.php",
+      "published_date": "2016-03-25",
+      "quote": "Where the real estate project is to be developed in phases, every such phase shall be considered a stand alone real estate project, and the promoter shall obtain registration under this Act for each phase separately."
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "70898dfcef610e1869d3cebe054e1ca4e5bffb7e": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Builders do not put an entire project on sale at once; they release flats in slabs or phases (phase one, two, three).",
+      "sentence": "Builders don't put the whole project on sale at once. They release it in slabs: phase one, phase two, phase three.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Each successive phase or slab is released at a higher rate per square foot.",
+      "sentence": "Each slab comes with a higher rate per square foot.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "When a builder says only three units are left at a price, that is true only for the current slab; many more units are waiting to be released at a new, higher price.",
+      "sentence": "So 'only three left' is true. Three are left in this slab. The next fifty are waiting behind it, at a new price.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "The builder controls how many units are shown as left, so the 'shortage' is set by the builder's release calendar rather than real scarcity.",
+      "sentence": "The builder controls the count. The shortage runs on a calendar.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "A ₹500 per sq ft increase on a 1,000 sq ft flat amounts to ₹5 lakh.",
+      "sentence": "On a 1,000 sq ft flat, a ₹500 jump per square foot is ₹5 lakh.",
+      "type": "arithmetic",
+      "core": false,
+      "framed_as": "timeless",
+      "expr": "500*1000/100000",
+      "stated": "5 lakh"
+     },
+     {
+      "id": "c6",
+      "text": "UP RERA has issued a warning to buyers about 'limited stock' and 'price hike' messages in property marketing.",
+      "sentence": "UP RERA itself warned buyers about 'limited stock' and 'price hike' messages",
+      "type": "event",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c7",
+      "text": "Over 1.15 lakh units were unsold across Uttar Pradesh at the time of the UP RERA warning.",
+      "sentence": "while over 1.15 lakh units sat unsold across the state.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c8",
+      "text": "When the rate card rises, early buyers see their flat's value go up on paper, and they tell relatives the project is hot, which helps sell later phases.",
+      "sentence": "When the rate card changes, early buyers see their flat 'go up' on paper. They tell every relative the project is hot. The hike on phase two sells phase three.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c9",
+      "text": "A flat now costs about a decade of an Indian buyer's salary.",
+      "sentence": "A flat costs a decade of salary now.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "current"
+     }
+    ],
+    "verdicts": {
+     "c6": {
+      "id": "c6",
+      "verdict": "supported",
+      "event_date": "2026-06-02",
+      "sources": [
+       {
+        "url": "https://www.outlookmoney.com/invest/planning-to-buy-a-home-uprera-says-dont-fall-for-limited-stock-claims",
+        "publisher": "Outlook Money",
+        "published_date": "2026-06-02",
+        "quote": "UP RERA advised homebuyers not to make hurried purchases based on misleading messages claiming \"limited stock\" or imminent price hikes.",
+        "tier": 2
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "supported",
+      "event_date": "2026-06-02",
+      "correct": "UP RERA's figure was 'more than 115,000 residential and commercial units currently available across the state'. This is inventory, which is effectively unsold stock.",
+      "sources": [
+       {
+        "url": "https://www.outlookmoney.com/invest/planning-to-buy-a-home-uprera-says-dont-fall-for-limited-stock-claims",
+        "publisher": "Outlook Money",
+        "published_date": "2026-06-02",
+        "quote": "more than 115,000 residential and commercial units are currently available across the state",
+        "tier": 2
+       }
+      ]
+     },
+     "c9": {
+      "id": "c9",
+      "verdict": "supported",
+      "correct": "Estimates run from about 7.5 years of income (national price-to-income ratio, 2024) to about 11–12 years (₹2.7 crore average 3BHK against about ₹23 lakh household income). Mumbai is about 11.6 years. 'About a decade' is the right picture.",
+      "sources": [
+       {
+        "url": "https://www.squareyards.com/blog/wp-content/uploads/2026/04/the-cost-of-owning-a-3BHK-in-India.pdf",
+        "publisher": "Square Yards",
+        "published_date": "2026-01-22",
+        "quote": "pan-India average 3BHK price of ₹2.7 crore against average household income of about ₹23 lakh",
+        "tier": 3
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. The premises hold as descriptions of common practice, with two caveats. (1) No law says each phase must cost more. Phase-wise escalation is a builder's choice, and a builder can hold or cut prices, or offer discounts, when stock isn't selling. UP RERA's own advisory says the market is 'not running out of inventory'. (2) The 1.15 lakh figure counts all available stock, including flats, villas, plots, shops and offices. It is not only unsold flats, and it dates from a June 2026 advisory. Neither caveat breaks the argument.",
+     "actual_mechanism": "The RERA Act lets a promoter register and develop a project in phases, and each phase counts as a separate project with its own registration, unit count and timeline. That is why a builder can open inventory in tranches and reprice each one. 'Only three left' can be literally true for the current tranche or price band while the builder decides when the next units go on sale. The builder can't hide totals, though: each registered phase's unit count and progress are filed on the state RERA portal. So the post's tip to ask how many units haven't been released can be checked there instead of relying on the salesperson.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://therealtytoday.com/news/regulatory/up-rera-warns-homebuyers-against-scarcity-claims-as-115-lakh-units-remain-unsold",
+       "published_date": "2026-06-13",
+       "quote": "The availability of 1.15 lakh properties in Uttar Pradesh reflects the wide variety of housing."
+      },
+      {
+       "url": "https://www.outlookmoney.com/invest/planning-to-buy-a-home-uprera-says-dont-fall-for-limited-stock-claims",
+       "published_date": "2026-06",
+       "quote": "Planning to buy a home? UPRERA says don't fall for 'limited stock' claims"
+      },
+      {
+       "url": "https://propnewstime.com/latestnewsstories/MzEzMDg=/up-rera-says-1-15-lakh-units-remain-unsold-warns-buyers-against-artificial-scarcity-claims",
+       "published_date": "2026-06",
+       "quote": "Such claims are often used to create pressure on buyers to make immediate bookings."
+      },
+      {
+       "url": "https://www.advocatekhoj.com/library/bareacts/realestate2016/3.php",
+       "published_date": "2016-03-25",
+       "quote": "Where the real estate project is to be developed in phases, every such phase shall be considered a stand alone real estate project, and the promoter shall obtain registration under this Act for each phase separately."
+      }
+     ]
+    },
+    "text_hash": "70898dfcef610e1869d3cebe054e1ca4e5bffb7e",
+    "at": "2026-11-11T11:52:49.355246+00:00"
+   }
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "'Only three units left' is a [price ladder], not a shortage.",
+   "sub": "The builder decides how many flats are left."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "'Only three units left at this price' isn't a shortage. It's a price ladder.\nSwipe to read →"
+    ],
+    "why_swipe": "If it isn't a shortage, why does it feel so real in the room?"
+   },
+   {
+    "paragraphs": [
+     "Every Sunday site visit ends the same way. Sample flat, cold coffee, a floor plan on the table.",
+     "Then the soft line: 'Sir, is price pe sirf teen units bache hain. Next week se rate badh raha hai.'"
+    ],
+    "why_swipe": "What does that one line do to the couple listening?"
+   },
+   {
+    "paragraphs": [
+     "And it works. A couple who came 'just to see' starts asking about the token amount.",
+     "The biggest cheque of your life gets written on a weekend, in an AC room, against a countdown."
+    ],
+    "why_swipe": "So how many flats are actually left?"
+   },
+   {
+    "paragraphs": [
+     "Builders don't put the whole project on sale at once. They release it in slabs: phase one, phase two, phase three.",
+     "Each slab comes with a higher rate per square foot."
+    ],
+    "why_swipe": "Then is 'only three left' a lie?"
+   },
+   {
+    "paragraphs": [
+     "So 'only three left' is true. Three are left in this slab. The next fifty are waiting behind it, at a new price."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "On a 1,000 sq ft flat, a ₹500 jump per square foot is ₹5 lakh.",
+     "Same flat. One week later."
+    ],
+    "why_swipe": "Who decides when the next slab opens?"
+   },
+   {
+    "paragraphs": [
+     "The builder controls the count. The shortage runs on a calendar.",
+     "UP RERA itself warned buyers about 'limited stock' and 'price hike' messages, while over 1.15 lakh units sat unsold across the state."
+    ],
+    "why_swipe": "Why do early buyers keep falling for it too?"
+   },
+   {
+    "paragraphs": [
+     "The ladder has a sweetener built in. When the rate card changes, early buyers see their flat 'go up' on paper.",
+     "They tell every relative the project is hot. The hike on phase two sells phase three."
+    ],
+    "why_swipe": "So is rushing just bad judgement?"
+   },
+   {
+    "paragraphs": [
+     "Nobody's dumb for rushing. A flat costs a decade of salary now.",
+     "Missing the 'old rate' feels like losing money you never had. The slab is priced for exactly that feeling."
+    ],
+    "why_swipe": "What do you say at the next site visit instead?"
+   },
+   {
+    "paragraphs": [
+     "Next site visit, skip 'how many are left?'",
+     "Ask how many haven't been released yet. Then watch how long the answer takes."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Read it again before you hand over the token cheque at your next site visit.",
+   "send": "Send to the couple spending every Sunday in sample flats, sure the good rate is about to disappear.",
+   "promise": "How things really get sold to Indians."
+  },
+  "caption": "What line did the sales team use on you at your last site visit?",
+  "hashtags": [
+   "#FirstHomeBuyer",
+   "#RealEstateIndia",
+   "#SiteVisit",
+   "#HomeBuyingTips"
+  ],
+  "alt_text": "Text post with ten plain cards. It argues that 'only three units left at this price' at a builder's site visit is not a real shortage. Builders release flats in phases and raise the price each phase, so 'last units' is always true for the current slab. It mentions UP RERA warning buyers about limited-stock and price-hike claims while over 1.15 lakh units were unsold in the state. It ends by telling the reader to ask how many units are unreleased, not how many are left.",
+  "claims": [
+   {
+    "text": "UP RERA warned buyers about misleading 'limited stock' and 'imminent price hike' messages used to create urgency.",
+    "source_url": "https://www.outlookmoney.com/invest/planning-to-buy-a-home-uprera-says-dont-fall-for-limited-stock-claims"
+   },
+   {
+    "text": "Over 1.15 lakh units were unsold across Uttar Pradesh.",
+    "source_url": "https://www.outlookmoney.com/invest/planning-to-buy-a-home-uprera-says-dont-fall-for-limited-stock-claims"
+   },
+   {
+    "text": "A ₹500 per sq ft jump on a 1,000 sq ft flat is ₹5 lakh (typical example).",
+    "source_url": "topic",
+    "derived_from": "1,000 sq ft × ₹500 = ₹5,00,000"
+   }
+  ],
+  "caption_style": "question"
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Builders do not put an entire project on sale at once; they release flats in slabs or phases (phase one, two, three).",
+    "sentence": "Builders don't put the whole project on sale at once. They release it in slabs: phase one, phase two, phase three.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "Each successive phase or slab is released at a higher rate per square foot.",
+    "sentence": "Each slab comes with a higher rate per square foot.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c3",
+    "text": "When a builder says only three units are left at a price, that is true only for the current slab; many more units are waiting to be released at a new, higher price.",
+    "sentence": "So 'only three left' is true. Three are left in this slab. The next fifty are waiting behind it, at a new price.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c4",
+    "text": "The builder controls how many units are shown as left, so the 'shortage' is set by the builder's release calendar rather than real scarcity.",
+    "sentence": "The builder controls the count. The shortage runs on a calendar.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c5",
+    "text": "A ₹500 per sq ft increase on a 1,000 sq ft flat amounts to ₹5 lakh.",
+    "sentence": "On a 1,000 sq ft flat, a ₹500 jump per square foot is ₹5 lakh.",
+    "type": "arithmetic",
+    "core": false,
+    "framed_as": "timeless",
+    "expr": "500*1000/100000",
+    "stated": "5 lakh"
+   },
+   {
+    "id": "c6",
+    "text": "UP RERA has issued a warning to buyers about 'limited stock' and 'price hike' messages in property marketing.",
+    "sentence": "UP RERA itself warned buyers about 'limited stock' and 'price hike' messages",
+    "type": "event",
+    "core": true,
+    "framed_as": "past"
+   },
+   {
+    "id": "c7",
+    "text": "Over 1.15 lakh units were unsold across Uttar Pradesh at the time of the UP RERA warning.",
+    "sentence": "while over 1.15 lakh units sat unsold across the state.",
+    "type": "figure",
+    "core": true,
+    "framed_as": "past"
+   },
+   {
+    "id": "c8",
+    "text": "When the rate card rises, early buyers see their flat's value go up on paper, and they tell relatives the project is hot, which helps sell later phases.",
+    "sentence": "When the rate card changes, early buyers see their flat 'go up' on paper. They tell every relative the project is hot. The hike on phase two sells phase three.",
+    "type": "mechanism",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c9",
+    "text": "A flat now costs about a decade of an Indian buyer's salary.",
+    "sentence": "A flat costs a decade of salary now.",
+    "type": "figure",
+    "core": false,
+    "framed_as": "current"
+   }
+  ],
+  "verdicts": {
+   "c6": {
+    "id": "c6",
+    "verdict": "supported",
+    "event_date": "2026-06-02",
+    "sources": [
+     {
+      "url": "https://www.outlookmoney.com/invest/planning-to-buy-a-home-uprera-says-dont-fall-for-limited-stock-claims",
+      "publisher": "Outlook Money",
+      "published_date": "2026-06-02",
+      "quote": "UP RERA advised homebuyers not to make hurried purchases based on misleading messages claiming \"limited stock\" or imminent price hikes.",
+      "tier": 2
+     }
+    ]
+   },
+   "c7": {
+    "id": "c7",
+    "verdict": "supported",
+    "event_date": "2026-06-02",
+    "correct": "UP RERA's figure was 'more than 115,000 residential and commercial units currently available across the state'. This is inventory, which is effectively unsold stock.",
+    "sources": [
+     {
+      "url": "https://www.outlookmoney.com/invest/planning-to-buy-a-home-uprera-says-dont-fall-for-limited-stock-claims",
+      "publisher": "Outlook Money",
+      "published_date": "2026-06-02",
+      "quote": "more than 115,000 residential and commercial units are currently available across the state",
+      "tier": 2
+     }
+    ]
+   },
+   "c9": {
+    "id": "c9",
+    "verdict": "supported",
+    "correct": "Estimates run from about 7.5 years of income (national price-to-income ratio, 2024) to about 11–12 years (₹2.7 crore average 3BHK against about ₹23 lakh household income). Mumbai is about 11.6 years. 'About a decade' is the right picture.",
+    "sources": [
+     {
+      "url": "https://www.squareyards.com/blog/wp-content/uploads/2026/04/the-cost-of-owning-a-3BHK-in-India.pdf",
+      "publisher": "Square Yards",
+      "published_date": "2026-01-22",
+      "quote": "pan-India average 3BHK price of ₹2.7 crore against average household income of about ₹23 lakh",
+      "tier": 3
+     }
+    ]
+   }
+  },
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "None. The premises hold as descriptions of common practice, with two caveats. (1) No law says each phase must cost more. Phase-wise escalation is a builder's choice, and a builder can hold or cut prices, or offer discounts, when stock isn't selling. UP RERA's own advisory says the market is 'not running out of inventory'. (2) The 1.15 lakh figure counts all available stock, including flats, villas, plots, shops and offices. It is not only unsold flats, and it dates from a June 2026 advisory. Neither caveat breaks the argument.",
+   "actual_mechanism": "The RERA Act lets a promoter register and develop a project in phases, and each phase counts as a separate project with its own registration, unit count and timeline. That is why a builder can open inventory in tranches and reprice each one. 'Only three left' can be literally true for the current tranche or price band while the builder decides when the next units go on sale. The builder can't hide totals, though: each registered phase's unit count and progress are filed on the state RERA portal. So the post's tip to ask how many units haven't been released can be checked there instead of relying on the salesperson.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://therealtytoday.com/news/regulatory/up-rera-warns-homebuyers-against-scarcity-claims-as-115-lakh-units-remain-unsold",
+     "published_date": "2026-06-13",
+     "quote": "The availability of 1.15 lakh properties in Uttar Pradesh reflects the wide variety of housing."
+    },
+    {
+     "url": "https://www.outlookmoney.com/invest/planning-to-buy-a-home-uprera-says-dont-fall-for-limited-stock-claims",
+     "published_date": "2026-06",
+     "quote": "Planning to buy a home? UPRERA says don't fall for 'limited stock' claims"
+    },
+    {
+     "url": "https://propnewstime.com/latestnewsstories/MzEzMDg=/up-rera-says-1-15-lakh-units-remain-unsold-warns-buyers-against-artificial-scarcity-claims",
+     "published_date": "2026-06",
+     "quote": "Such claims are often used to create pressure on buyers to make immediate bookings."
+    },
+    {
+     "url": "https://www.advocatekhoj.com/library/bareacts/realestate2016/3.php",
+     "published_date": "2016-03-25",
+     "quote": "Where the real estate project is to be developed in phases, every such phase shall be considered a stand alone real estate project, and the promoter shall obtain registration under this Act for each phase separately."
+    }
+   ]
+  },
+  "text_hash": "70898dfcef610e1869d3cebe054e1ca4e5bffb7e",
+  "at": "2026-11-11T11:52:49.355246+00:00"
+ },
+ "varun": {
+  "pass": true,
+  "score": 5,
+  "misses": [],
+  "best": "The hike on phase two sells phase three.",
+  "passed": true,
+  "text_hash": "70898dfcef610e1869d3cebe054e1ca4e5bffb7e"
+ },
+ "alt_texts": [
+  "'Only three units left at this price' isn't a shortage. It's a price ladder.\nSwipe to read →",
+  "Every Sunday site visit ends the same way. Sample flat, cold coffee, a floor plan on the table. Then the soft line: 'Sir, is price pe sirf teen units bache hain. Next week se rate badh raha hai.'",
+  "And it works. A couple who came 'just to see' starts asking about the token amount. The biggest cheque of your life gets written on a weekend, in an AC room, against a countdown.",
+  "Builders don't put the whole project on sale at once. They release it in slabs: phase one, phase two, phase three. Each slab comes with a higher rate per square foot.",
+  "So 'only three left' is true. Three are left in this slab. The next fifty are waiting behind it, at a new price.",
+  "On a 1,000 sq ft flat, a ₹500 jump per square foot is ₹5 lakh. Same flat. One week later.",
+  "The builder controls the count. The shortage runs on a calendar. UP RERA itself warned buyers about 'limited stock' and 'price hike' messages, while over 1.15 lakh units sat unsold across the state.",
+  "The ladder has a sweetener built in. When the rate card changes, early buyers see their flat 'go up' on paper. They tell every relative the project is hot. The hike on phase two sells phase three.",
+  "Nobody's dumb for rushing. A flat costs a decade of salary now. Missing the 'old rate' feels like losing money you never had. The slab is priced for exactly that feeling.",
+  "Next site visit, skip 'how many are left?' Ask how many haven't been released yet. Then watch how long the answer takes."
+ ],
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-143/slide_01.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-143/slide_02.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-143/slide_03.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-143/slide_04.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-143/slide_05.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-143/slide_06.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-143/slide_07.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-143/slide_08.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-143/slide_09.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-143/slide_10.jpg"
+ ]
 }
