@@ -450,7 +450,7 @@
    "why": "the writer's drafts kept padding a dead middle slide; hand-written in the approved voice (10 Nov)"
   }
  ],
- "updated_at": "2026-11-10T16:34:27.682237+00:00",
+ "updated_at": "2026-11-12T12:46:36.022706+00:00",
  "sources": [
   {
    "url": "https://a2ztaxcorp.net/?p=28108",
@@ -530,12 +530,10 @@
    }
   ],
   "end": {},
-  "caption": "The tax form got the receipt. Your family gets the fine print. Have you ever searched your policy for 'room'?",
+  "caption": "Your health insurance isn't as big as the number on it. The room-rent cap decides how much of it is real.\n\n\"Bas tax ke liye li thi\" sounds fine in March. It sounds very different at the billing desk.\n\nSend this to the sibling who bought your parents' insurance in a rush last March, so they read it before a hospital makes them.",
   "hashtags": [
-   "healthinsurance",
-   "taxsaving",
-   "personalfinance",
-   "roomrent"
+   "#HealthInsurance",
+   "#MiddleClassIndia"
   ],
   "alt_text": "A text post about buying health insurance for tax season and the room-rent cap that shows up at claim time.",
   "claims": [
@@ -551,12 +549,15 @@
     "text": "IRDAI found some insurers limited room rent beyond policy terms.",
     "source_url": "https://joinditto.in/articles/news/irdai-flags-lapses-in-health-insurance-claims/"
    }
-  ]
+  ],
+  "caption_style": "send",
+  "search_phrase": "health insurance",
+  "caption_v": 2
  },
  "owner_ok": true,
  "verification_cache": {
   "_ledger": {
-   "text": "[cover] You bought your health insurance for the tax form.\nYou'll read it for the first time in a hospital corridor.\n \n\n[slide 1] You bought your health insurance for the tax form.\nYou'll read it for the first time in a hospital corridor.\n\n[slide 2] You got the email about tax proofs. The deadline was close, you sorted the plans by price, and twenty minutes later you had a policy and a PDF.\n\n[slide 3] Insurers know the calendar. March is usually one of their strongest months, and it isn't because everyone suddenly fell sick.\n\n[slide 4] The cheap plan wasn't cheap by accident. Cheaper plans often keep the premium low with limits you only meet at claim time.\nOne of them hides in a single line about the room.\n\n[slide 5] A room-rent cap. On many policies, if you take a room above it, the insurer can pay less. Not just on the room, but on the charges linked to it.\nIt's called proportionate deduction.\n\n[slide 6] So the cover shrinks exactly when you need it.\nYou find out at the billing desk, with someone you love in the ward.\n\n[slide 7] And it isn't always your fault for not reading. IRDAI has flagged insurers that cut room rent beyond their own policy terms.\n\n[slide 8] Tonight, open the policy PDF and search one word: \"room\".\nThat line decides your next hospital bill.\n\n[slide 9] The tax form got the receipt.\nYour family gets the fine print.\n\n[end card] \n\n\n[caption] The tax form got the receipt. Your family gets the fine print. Have you ever searched your policy for 'room'?\n\n[alt text] A text post about buying health insurance for tax season and the room-rent cap that shows up at claim time.",
+   "text": "[cover] You bought your health insurance for the tax form.\nYou'll read it for the first time in a hospital corridor.\n \n\n[slide 1] You bought your health insurance for the tax form.\nYou'll read it for the first time in a hospital corridor.\n\n[slide 2] You got the email about tax proofs. The deadline was close, you sorted the plans by price, and twenty minutes later you had a policy and a PDF.\n\n[slide 3] Insurers know the calendar. March is usually one of their strongest months, and it isn't because everyone suddenly fell sick.\n\n[slide 4] The cheap plan wasn't cheap by accident. Cheaper plans often keep the premium low with limits you only meet at claim time.\nOne of them hides in a single line about the room.\n\n[slide 5] A room-rent cap. On many policies, if you take a room above it, the insurer can pay less. Not just on the room, but on the charges linked to it.\nIt's called proportionate deduction.\n\n[slide 6] So the cover shrinks exactly when you need it.\nYou find out at the billing desk, with someone you love in the ward.\n\n[slide 7] And it isn't always your fault for not reading. IRDAI has flagged insurers that cut room rent beyond their own policy terms.\n\n[slide 8] Tonight, open the policy PDF and search one word: \"room\".\nThat line decides your next hospital bill.\n\n[slide 9] The tax form got the receipt.\nYour family gets the fine print.\n\n[end card] \n\n\n[caption] Your health insurance isn't as big as the number on it. The room-rent cap decides how much of it is real.\n\n\"Bas tax ke liye li thi\" sounds fine in March. It sounds very different at the billing desk.\n\nSend this to the sibling who bought your parents' insurance in a rush last March, so they read it before a hospital makes them.\n\n[alt text] A text post about buying health insurance for tax season and the room-rent cap that shows up at claim time.",
    "claims": [
     {
      "id": "c1",
@@ -568,14 +569,6 @@
     },
     {
      "id": "c2",
-     "text": "Cheaper health insurance plans often keep premiums low by imposing limits (such as room-rent caps) that only become apparent at claim time.",
-     "sentence": "Cheaper plans often keep the premium low with limits you only meet at claim time.",
-     "type": "mechanism",
-     "core": true,
-     "framed_as": "timeless"
-    },
-    {
-     "id": "c3",
      "text": "Many health insurance policies have a room-rent cap, and if the insured takes a room above the cap, the insurer can pay less.",
      "sentence": "A room-rent cap. On many policies, if you take a room above it, the insurer can pay less.",
      "type": "feature",
@@ -583,7 +576,7 @@
      "framed_as": "timeless"
     },
     {
-     "id": "c4",
+     "id": "c3",
      "text": "When a room above the cap is taken, the insurer's reduced payment can apply not only to the room charge but also to the charges linked to the room.",
      "sentence": "Not just on the room, but on the charges linked to it.",
      "type": "feature",
@@ -591,7 +584,7 @@
      "framed_as": "timeless"
     },
     {
-     "id": "c5",
+     "id": "c4",
      "text": "This reduction of linked charges in proportion to the room-rent excess is called proportionate deduction.",
      "sentence": "It's called proportionate deduction.",
      "type": "feature",
@@ -599,15 +592,7 @@
      "framed_as": "timeless"
     },
     {
-     "id": "c6",
-     "text": "Health insurance cover is effectively reduced by proportionate deduction at claim time, when the policyholder is hospitalised, and the policyholder learns this at the hospital billing desk.",
-     "sentence": "So the cover shrinks exactly when you need it. You find out at the billing desk, with someone you love in the ward.",
-     "type": "mechanism",
-     "core": true,
-     "framed_as": "timeless"
-    },
-    {
-     "id": "c7",
+     "id": "c5",
      "text": "IRDAI has flagged insurers for cutting room rent claims beyond what their own policy terms allow.",
      "sentence": "IRDAI has flagged insurers that cut room rent beyond their own policy terms.",
      "type": "event",
@@ -615,11 +600,27 @@
      "framed_as": "past"
     },
     {
+     "id": "c6",
+     "text": "A health policy's sum insured is not always what the insurer actually pays, because limits such as sub-limits and caps can reduce the payout at claim time.",
+     "sentence": "Your health insurance isn't as big as the number on it.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c7",
+     "text": "A room-rent cap in a health policy can cut the amount the insurer pays on a claim. If the insured takes a room costlier than the cap, the deduction can also apply to charges linked to the room, not just the room rent (proportionate deduction).",
+     "sentence": "The room-rent cap decides how much of it is real.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
      "id": "c8",
-     "text": "Searching the policy document for the word 'room' will find the clause that determines how much of a hospital bill the insurer pays.",
-     "sentence": "Tonight, open the policy PDF and search one word: \"room\". That line decides your next hospital bill.",
+     "text": "Mechanism. Premises: (1) Many buyers pick health plans by price close to the March tax-proof deadline. (2) Cheaper plans often keep premiums low through limits such as a room-rent cap. (3) With a room-rent cap, a room above the cap can lead the insurer to pay less on the room and on linked charges. (4) Buyers usually find this out only at claim time. Conclusion: a plan bought for the tax form can leave the family with much less real cover than the sum insured suggests, and the room-rent cap largely decides how much.",
+     "sentence": "The room-rent cap decides how much of it is real.",
      "type": "mechanism",
-     "core": false,
+     "core": true,
      "framed_as": "timeless"
     }
    ]
@@ -717,6 +718,34 @@
       "url": "https://www.outlookmoney.com/insurance/irdai-fines-care-health-insurance-rs-1-crore-after-inspection-flags-failures-in-claims-and-internal-controls",
       "published_date": "2025-12-16",
       "quote": "communications explaining claim settlements, deductions or partial payments were sent only to hospitals"
+     }
+    ]
+   },
+   "6c754cabb99e3242b9b83030d7b384c7c206d4db": {
+    "holds": true,
+    "broken_premise": "None. Premise 3 is true but leaves out important limits. Under IRDAI rules, proportionate deduction can apply only to 'associated medical expenses' that the policy itself defines, such as doctor, surgeon or nursing fees that change with the room category. It cannot apply to pharmacy and consumables, implants and medical devices, or diagnostics. It also cannot apply to ICU charges, and it applies only at hospitals that charge different rates by room category. The cut is real, but it is narrower than 'everything linked to the room'. Premise 1 is also weaker than it used to be. The Section 80D health-insurance deduction is available only under the old tax regime, and the new regime is now the default, so fewer people buy a policy in March just for the tax form. That is a trend, though, not a false statement about how the product works.",
+    "actual_mechanism": "If you take a room above the policy's room-rent limit, the insurer pays the eligible rent and cuts the 'associated medical expenses' defined in the policy by the same ratio. For example, with a ₹5,000 cap and a ₹10,000 room, the insurer pays about 50% of those linked charges. Since IRDAI's 2020 circular (IRDAI/HLT/REG/CIR/151/06/2020), insurers cannot include pharmacy, consumables, implants, medical devices or diagnostics in that definition, cannot apply the cut to ICU charges, and can apply it only where the hospital bills differently by room category. A low room-rent cap can therefore still cost a family a lot of money at claim time, but less than the full sum insured suggests is at risk.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://teamleaseregtech.com/updates/article/9425/irdai-modifies-the-guidelines-on-product-filing-in-health-insurance-bu/",
+      "published_date": "2020-06-11",
+      "quote": "associated medical expenses shall not include the cost of pharmacy and consumables"
+     },
+     {
+      "url": "https://taxguru.in/corporate-law/modified-guidelines-product-filing-health-insurance-business-norms-proportionate-deductions.html",
+      "published_date": "2020-03-17",
+      "quote": "proportionate deduction would be applied only in case of a hospital that follows differential billing practice"
+     },
+     {
+      "url": "https://taxguru.in/corporate-law/modified-guidelines-product-filing-health-insurance-business-norms-proportionate-deductions.html",
+      "published_date": "2020-03-17",
+      "quote": "not permitted to apply proportionate deduction for 'ICU charges'"
+     },
+     {
+      "url": "https://www.joinditto.in/articles/health-insurance/proportionate-deduction-in-health-insurance/",
+      "published_date": "unknown",
+      "quote": "Secondary source: says the 2020 exclusions from proportionate deduction were later carried into IRDAI's Master Circular on health insurance (not checked against the official IRDAI text)."
      }
     ]
    }
@@ -891,6 +920,262 @@
     },
     "text_hash": "36093fa95a13f31acb5ec4bd7b85f88e6a63b4a0",
     "at": "2026-11-10T16:30:17.489121+00:00"
+   },
+   "b2508f6e673ad0549347bcf6c714f6635dce6ed7": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "March is usually one of the strongest months for health insurers in India, driven by tax-saving purchases rather than a rise in illness.",
+      "sentence": "Insurers know the calendar. March is usually one of their strongest months, and it isn't because everyone suddenly fell sick.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Many health insurance policies have a room-rent cap, and if the insured takes a room above the cap, the insurer can pay less.",
+      "sentence": "A room-rent cap. On many policies, if you take a room above it, the insurer can pay less.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "When a room above the cap is taken, the insurer's reduced payment can apply not only to the room charge but also to the charges linked to the room.",
+      "sentence": "Not just on the room, but on the charges linked to it.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "This reduction of linked charges in proportion to the room-rent excess is called proportionate deduction.",
+      "sentence": "It's called proportionate deduction.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "IRDAI has flagged insurers for cutting room rent claims beyond what their own policy terms allow.",
+      "sentence": "IRDAI has flagged insurers that cut room rent beyond their own policy terms.",
+      "type": "event",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c6",
+      "text": "A health policy's sum insured is not always what the insurer actually pays, because limits such as sub-limits and caps can reduce the payout at claim time.",
+      "sentence": "Your health insurance isn't as big as the number on it.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "A room-rent cap in a health policy can cut the amount the insurer pays on a claim. If the insured takes a room costlier than the cap, the deduction can also apply to charges linked to the room, not just the room rent (proportionate deduction).",
+      "sentence": "The room-rent cap decides how much of it is real.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c8",
+      "text": "Mechanism. Premises: (1) Many buyers pick health plans by price close to the March tax-proof deadline. (2) Cheaper plans often keep premiums low through limits such as a room-rent cap. (3) With a room-rent cap, a room above the cap can lead the insurer to pay less on the room and on linked charges. (4) Buyers usually find this out only at claim time. Conclusion: a plan bought for the tax form can leave the family with much less real cover than the sum insured suggests, and the room-rent cap largely decides how much.",
+      "sentence": "The room-rent cap decides how much of it is real.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "correct": "March is typically a strong month for insurers. The financial-year-end tax-saving rush is the widely cited reason, though the lead page doesn't state the tax-saving cause.",
+      "sources": [
+       {
+        "url": "https://a2ztaxcorp.net/?p=28108",
+        "publisher": "A2Z Taxcorp (reporting General Insurance Council data)",
+        "published_date": "2026-03-21",
+        "quote": "Premiums are expected to rise further in March, typically a strong month for insurers.",
+        "tier": 3
+       }
+      ]
+     },
+     "c2": {
+      "id": "c3",
+      "verdict": "supported",
+      "sources": [
+       {
+        "url": "https://www.outlookmoney.com/personal-finance/room-rent-limits-in-health-insurance-how-choosing-a-costlier-room-can-cut-your-entire-claim",
+        "publisher": "Outlook Money",
+        "published_date": "2026-08-13",
+        "quote": "restrict the amount that can be claimed towards hospital room charges.",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c4",
+      "verdict": "supported",
+      "sources": [
+       {
+        "url": "https://www.outlookmoney.com/personal-finance/room-rent-limits-in-health-insurance-how-choosing-a-costlier-room-can-cut-your-entire-claim",
+        "publisher": "Outlook Money",
+        "published_date": "2026-08-13",
+        "quote": "the insurer may similarly restrict certain associated expenses to the eligible proportion",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c5",
+      "verdict": "supported",
+      "sources": [
+       {
+        "url": "https://www.outlookmoney.com/personal-finance/room-rent-limits-in-health-insurance-how-choosing-a-costlier-room-can-cut-your-entire-claim",
+        "publisher": "Outlook Money",
+        "published_date": "2026-08-13",
+        "quote": "Where a proportionate deduction clause applies, choosing a costlier room can also reduce payment for some other hospital expenses.",
+        "tier": 2
+       }
+      ]
+     },
+     "c5": {
+      "id": "c7",
+      "verdict": "supported",
+      "event_date": "2025-07-14",
+      "sources": [
+       {
+        "url": "https://joinditto.in/articles/news/irdai-flags-lapses-in-health-insurance-claims/",
+        "publisher": "Ditto",
+        "published_date": "2025-07-14",
+        "quote": "For example, removing certain hospital charges or limiting room rent beyond policy terms.",
+        "tier": 3
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "supported",
+      "correct": "",
+      "sources": [
+       {
+        "url": "https://www.business-standard.com/finance/personal-finance/partial-hospital-bill-payout-boost-policy-cover-to-secure-full-claims-125111401478_1.html",
+        "publisher": "Business Standard",
+        "published_date": "2025-11-14",
+        "quote": "Partial hospital bill payout: Boost policy cover to secure full claims",
+        "tier": 2
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "supported",
+      "correct": "",
+      "sources": [
+       {
+        "url": "https://www.outlookmoney.com/personal-finance/room-rent-limits-in-health-insurance-how-choosing-a-costlier-room-can-cut-your-entire-claim",
+        "publisher": "Outlook Money",
+        "published_date": "2026-08-13",
+        "quote": "In some policies, proportionate deductions can also apply to several related hospital expenses.",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. Premise 3 is true but leaves out important limits. Under IRDAI rules, proportionate deduction can apply only to 'associated medical expenses' that the policy itself defines, such as doctor, surgeon or nursing fees that change with the room category. It cannot apply to pharmacy and consumables, implants and medical devices, or diagnostics. It also cannot apply to ICU charges, and it applies only at hospitals that charge different rates by room category. The cut is real, but it is narrower than 'everything linked to the room'. Premise 1 is also weaker than it used to be. The Section 80D health-insurance deduction is available only under the old tax regime, and the new regime is now the default, so fewer people buy a policy in March just for the tax form. That is a trend, though, not a false statement about how the product works.",
+     "actual_mechanism": "If you take a room above the policy's room-rent limit, the insurer pays the eligible rent and cuts the 'associated medical expenses' defined in the policy by the same ratio. For example, with a ₹5,000 cap and a ₹10,000 room, the insurer pays about 50% of those linked charges. Since IRDAI's 2020 circular (IRDAI/HLT/REG/CIR/151/06/2020), insurers cannot include pharmacy, consumables, implants, medical devices or diagnostics in that definition, cannot apply the cut to ICU charges, and can apply it only where the hospital bills differently by room category. A low room-rent cap can therefore still cost a family a lot of money at claim time, but less than the full sum insured suggests is at risk.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://teamleaseregtech.com/updates/article/9425/irdai-modifies-the-guidelines-on-product-filing-in-health-insurance-bu/",
+       "published_date": "2020-06-11",
+       "quote": "associated medical expenses shall not include the cost of pharmacy and consumables"
+      },
+      {
+       "url": "https://taxguru.in/corporate-law/modified-guidelines-product-filing-health-insurance-business-norms-proportionate-deductions.html",
+       "published_date": "2020-03-17",
+       "quote": "proportionate deduction would be applied only in case of a hospital that follows differential billing practice"
+      },
+      {
+       "url": "https://taxguru.in/corporate-law/modified-guidelines-product-filing-health-insurance-business-norms-proportionate-deductions.html",
+       "published_date": "2020-03-17",
+       "quote": "not permitted to apply proportionate deduction for 'ICU charges'"
+      },
+      {
+       "url": "https://www.joinditto.in/articles/health-insurance/proportionate-deduction-in-health-insurance/",
+       "published_date": "unknown",
+       "quote": "Secondary source: says the 2020 exclusions from proportionate deduction were later carried into IRDAI's Master Circular on health insurance (not checked against the official IRDAI text)."
+      }
+     ]
+    },
+    "text_hash": "b2508f6e673ad0549347bcf6c714f6635dce6ed7",
+    "at": "2026-11-12T12:46:36.022689+00:00"
+   }
+  },
+  "A health policy's sum insured is not always what the insurer actually pays, because limits such as sub-limits and caps can reduce the payout at claim time.": {
+   "id": "c6",
+   "verdict": "supported",
+   "correct": "",
+   "sources": [
+    {
+     "url": "https://www.business-standard.com/finance/personal-finance/partial-hospital-bill-payout-boost-policy-cover-to-secure-full-claims-125111401478_1.html",
+     "publisher": "Business Standard",
+     "published_date": "2025-11-14",
+     "quote": "Partial hospital bill payout: Boost policy cover to secure full claims",
+     "tier": 2
+    }
+   ]
+  },
+  "A room-rent cap in a health policy can cut the amount the insurer pays on a claim. If the insured takes a room costlier than the cap, the deduction can also apply to charges linked to the room, not just the room rent (proportionate deduction).": {
+   "id": "c7",
+   "verdict": "supported",
+   "correct": "",
+   "sources": [
+    {
+     "url": "https://www.outlookmoney.com/personal-finance/room-rent-limits-in-health-insurance-how-choosing-a-costlier-room-can-cut-your-entire-claim",
+     "publisher": "Outlook Money",
+     "published_date": "2026-08-13",
+     "quote": "In some policies, proportionate deductions can also apply to several related hospital expenses.",
+     "tier": 2
+    }
+   ]
+  },
+  "_skeptic_take": {
+   "e53fbca6bfba8a40a0cc720fa4d1f8e469f25961": {
+    "holds": true,
+    "broken_premise": "None. Premise 3 is true but leaves out important limits. Under IRDAI rules, proportionate deduction can apply only to 'associated medical expenses' that the policy itself defines, such as doctor, surgeon or nursing fees that change with the room category. It cannot apply to pharmacy and consumables, implants and medical devices, or diagnostics. It also cannot apply to ICU charges, and it applies only at hospitals that charge different rates by room category. The cut is real, but it is narrower than 'everything linked to the room'. Premise 1 is also weaker than it used to be. The Section 80D health-insurance deduction is available only under the old tax regime, and the new regime is now the default, so fewer people buy a policy in March just for the tax form. That is a trend, though, not a false statement about how the product works.",
+    "actual_mechanism": "If you take a room above the policy's room-rent limit, the insurer pays the eligible rent and cuts the 'associated medical expenses' defined in the policy by the same ratio. For example, with a ₹5,000 cap and a ₹10,000 room, the insurer pays about 50% of those linked charges. Since IRDAI's 2020 circular (IRDAI/HLT/REG/CIR/151/06/2020), insurers cannot include pharmacy, consumables, implants, medical devices or diagnostics in that definition, cannot apply the cut to ICU charges, and can apply it only where the hospital bills differently by room category. A low room-rent cap can therefore still cost a family a lot of money at claim time, but less than the full sum insured suggests is at risk.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://teamleaseregtech.com/updates/article/9425/irdai-modifies-the-guidelines-on-product-filing-in-health-insurance-bu/",
+      "published_date": "2020-06-11",
+      "quote": "associated medical expenses shall not include the cost of pharmacy and consumables"
+     },
+     {
+      "url": "https://taxguru.in/corporate-law/modified-guidelines-product-filing-health-insurance-business-norms-proportionate-deductions.html",
+      "published_date": "2020-03-17",
+      "quote": "proportionate deduction would be applied only in case of a hospital that follows differential billing practice"
+     },
+     {
+      "url": "https://taxguru.in/corporate-law/modified-guidelines-product-filing-health-insurance-business-norms-proportionate-deductions.html",
+      "published_date": "2020-03-17",
+      "quote": "not permitted to apply proportionate deduction for 'ICU charges'"
+     },
+     {
+      "url": "https://www.joinditto.in/articles/health-insurance/proportionate-deduction-in-health-insurance/",
+      "published_date": "unknown",
+      "quote": "Secondary source: says the 2020 exclusions from proportionate deduction were later carried into IRDAI's Master Circular on health insurance (not checked against the official IRDAI text)."
+     }
+    ]
    }
   }
  },
@@ -909,14 +1194,6 @@
    },
    {
     "id": "c2",
-    "text": "Cheaper health insurance plans often keep premiums low by imposing limits (such as room-rent caps) that only become apparent at claim time.",
-    "sentence": "Cheaper plans often keep the premium low with limits you only meet at claim time.",
-    "type": "mechanism",
-    "core": true,
-    "framed_as": "timeless"
-   },
-   {
-    "id": "c3",
     "text": "Many health insurance policies have a room-rent cap, and if the insured takes a room above the cap, the insurer can pay less.",
     "sentence": "A room-rent cap. On many policies, if you take a room above it, the insurer can pay less.",
     "type": "feature",
@@ -924,7 +1201,7 @@
     "framed_as": "timeless"
    },
    {
-    "id": "c4",
+    "id": "c3",
     "text": "When a room above the cap is taken, the insurer's reduced payment can apply not only to the room charge but also to the charges linked to the room.",
     "sentence": "Not just on the room, but on the charges linked to it.",
     "type": "feature",
@@ -932,7 +1209,7 @@
     "framed_as": "timeless"
    },
    {
-    "id": "c5",
+    "id": "c4",
     "text": "This reduction of linked charges in proportion to the room-rent excess is called proportionate deduction.",
     "sentence": "It's called proportionate deduction.",
     "type": "feature",
@@ -940,15 +1217,7 @@
     "framed_as": "timeless"
    },
    {
-    "id": "c6",
-    "text": "Health insurance cover is effectively reduced by proportionate deduction at claim time, when the policyholder is hospitalised, and the policyholder learns this at the hospital billing desk.",
-    "sentence": "So the cover shrinks exactly when you need it. You find out at the billing desk, with someone you love in the ward.",
-    "type": "mechanism",
-    "core": true,
-    "framed_as": "timeless"
-   },
-   {
-    "id": "c7",
+    "id": "c5",
     "text": "IRDAI has flagged insurers for cutting room rent claims beyond what their own policy terms allow.",
     "sentence": "IRDAI has flagged insurers that cut room rent beyond their own policy terms.",
     "type": "event",
@@ -956,11 +1225,27 @@
     "framed_as": "past"
    },
    {
+    "id": "c6",
+    "text": "A health policy's sum insured is not always what the insurer actually pays, because limits such as sub-limits and caps can reduce the payout at claim time.",
+    "sentence": "Your health insurance isn't as big as the number on it.",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c7",
+    "text": "A room-rent cap in a health policy can cut the amount the insurer pays on a claim. If the insured takes a room costlier than the cap, the deduction can also apply to charges linked to the room, not just the room rent (proportionate deduction).",
+    "sentence": "The room-rent cap decides how much of it is real.",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
     "id": "c8",
-    "text": "Searching the policy document for the word 'room' will find the clause that determines how much of a hospital bill the insurer pays.",
-    "sentence": "Tonight, open the policy PDF and search one word: \"room\". That line decides your next hospital bill.",
+    "text": "Mechanism. Premises: (1) Many buyers pick health plans by price close to the March tax-proof deadline. (2) Cheaper plans often keep premiums low through limits such as a room-rent cap. (3) With a room-rent cap, a room above the cap can lead the insurer to pay less on the room and on linked charges. (4) Buyers usually find this out only at claim time. Conclusion: a plan bought for the tax form can leave the family with much less real cover than the sum insured suggests, and the room-rent cap largely decides how much.",
+    "sentence": "The room-rent cap decides how much of it is real.",
     "type": "mechanism",
-    "core": false,
+    "core": true,
     "framed_as": "timeless"
    }
   ],
@@ -979,7 +1264,7 @@
      }
     ]
    },
-   "c3": {
+   "c2": {
     "id": "c3",
     "verdict": "supported",
     "sources": [
@@ -992,7 +1277,7 @@
      }
     ]
    },
-   "c4": {
+   "c3": {
     "id": "c4",
     "verdict": "supported",
     "sources": [
@@ -1005,7 +1290,7 @@
      }
     ]
    },
-   "c5": {
+   "c4": {
     "id": "c5",
     "verdict": "supported",
     "sources": [
@@ -1018,7 +1303,7 @@
      }
     ]
    },
-   "c7": {
+   "c5": {
     "id": "c7",
     "verdict": "supported",
     "event_date": "2025-07-14",
@@ -1031,38 +1316,66 @@
       "tier": 3
      }
     ]
+   },
+   "c6": {
+    "id": "c6",
+    "verdict": "supported",
+    "correct": "",
+    "sources": [
+     {
+      "url": "https://www.business-standard.com/finance/personal-finance/partial-hospital-bill-payout-boost-policy-cover-to-secure-full-claims-125111401478_1.html",
+      "publisher": "Business Standard",
+      "published_date": "2025-11-14",
+      "quote": "Partial hospital bill payout: Boost policy cover to secure full claims",
+      "tier": 2
+     }
+    ]
+   },
+   "c7": {
+    "id": "c7",
+    "verdict": "supported",
+    "correct": "",
+    "sources": [
+     {
+      "url": "https://www.outlookmoney.com/personal-finance/room-rent-limits-in-health-insurance-how-choosing-a-costlier-room-can-cut-your-entire-claim",
+      "publisher": "Outlook Money",
+      "published_date": "2026-08-13",
+      "quote": "In some policies, proportionate deductions can also apply to several related hospital expenses.",
+      "tier": 2
+     }
+    ]
    }
   },
   "mechanism": {
    "holds": true,
-   "broken_premise": "None of the three listed premises is false. Premise 2 is overstated, though. IRDAI's 2020 rules stop proportionate deduction from touching pharmacy and consumables, implants and medical devices, diagnostics, and ICU charges. It also cannot be applied at hospitals that charge the same whatever room you take. So the cover shrinks only on room-linked charges, not on the whole bill. A separate problem is slide 7, which is not one of the listed premises. It says IRDAI 'flagged insurers that cut room rent beyond their own policy terms.' I couldn't find an IRDAI order that says this. The closest I found was a December 2025 Rs 1 crore penalty on Care Health over claim-settlement failures, and the report on it doesn't mention room rent. That line needs a citation or a softer wording.",
-   "actual_mechanism": "Many Indian health policies cap room rent, either as a percentage of the sum insured or a fixed amount per day. If the patient takes a costlier room, the insurer pays only the eligible share (eligible rent divided by actual rent) of the 'associated medical expenses' the policy defines, such as doctor, nursing and OT fees. Under IRDAI's 2020 product-filing rules, that definition cannot include pharmacy, implants, diagnostics or ICU charges, and the deduction cannot be applied at hospitals that don't bill by room category. The cap and the definition must be written into the policy wording, which is why searching for 'room' (and 'associated medical expenses') turns up the clause that decides the size of the cut.",
+   "broken_premise": "None. Premise 3 is true but leaves out important limits. Under IRDAI rules, proportionate deduction can apply only to 'associated medical expenses' that the policy itself defines, such as doctor, surgeon or nursing fees that change with the room category. It cannot apply to pharmacy and consumables, implants and medical devices, or diagnostics. It also cannot apply to ICU charges, and it applies only at hospitals that charge different rates by room category. The cut is real, but it is narrower than 'everything linked to the room'. Premise 1 is also weaker than it used to be. The Section 80D health-insurance deduction is available only under the old tax regime, and the new regime is now the default, so fewer people buy a policy in March just for the tax form. That is a trend, though, not a false statement about how the product works.",
+   "actual_mechanism": "If you take a room above the policy's room-rent limit, the insurer pays the eligible rent and cuts the 'associated medical expenses' defined in the policy by the same ratio. For example, with a ₹5,000 cap and a ₹10,000 room, the insurer pays about 50% of those linked charges. Since IRDAI's 2020 circular (IRDAI/HLT/REG/CIR/151/06/2020), insurers cannot include pharmacy, consumables, implants, medical devices or diagnostics in that definition, cannot apply the cut to ICU charges, and can apply it only where the hospital bills differently by room category. A low room-rent cap can therefore still cost a family a lot of money at claim time, but less than the full sum insured suggests is at risk.",
    "take_survives": true,
    "sources": [
     {
-     "url": "https://taxguru.in/corporate-law/modified-guidelines-product-filing-health-insurance-business-norms-proportionate-deductions.html",
-     "published_date": "2020-03-17",
-     "quote": "Insurers are also not permitted to apply proportionate deduction for 'ICU charges' ... proportionate deductions are not applied in respect of the hospitals which do not follow differential billing."
-    },
-    {
      "url": "https://teamleaseregtech.com/updates/article/9425/irdai-modifies-the-guidelines-on-product-filing-in-health-insurance-bu/",
      "published_date": "2020-06-11",
-     "quote": "Associated medical expenses shall not include the cost of pharmacy and consumables, cost of implants and medical devices and cost of diagnostics ... insurers shall not recover any expenses towards proportionate deductions other than the defined 'associate medical expenses'."
+     "quote": "associated medical expenses shall not include the cost of pharmacy and consumables"
     },
     {
-     "url": "https://www.business-standard.com/amp/article/companies/out-of-pocket-expenses-of-policyholders-to-fall-after-new-irdai-guidelines-120061200007_1.html",
-     "published_date": "2020-06-12",
-     "quote": "Insurers must now define the associated medical expenses that will be deducted proportionately when a person opts for a higher room category than the one they are eligible for."
+     "url": "https://taxguru.in/corporate-law/modified-guidelines-product-filing-health-insurance-business-norms-proportionate-deductions.html",
+     "published_date": "2020-03-17",
+     "quote": "proportionate deduction would be applied only in case of a hospital that follows differential billing practice"
     },
     {
-     "url": "https://www.outlookmoney.com/insurance/irdai-fines-care-health-insurance-rs-1-crore-after-inspection-flags-failures-in-claims-and-internal-controls",
-     "published_date": "2025-12-16",
-     "quote": "communications explaining claim settlements, deductions or partial payments were sent only to hospitals"
+     "url": "https://taxguru.in/corporate-law/modified-guidelines-product-filing-health-insurance-business-norms-proportionate-deductions.html",
+     "published_date": "2020-03-17",
+     "quote": "not permitted to apply proportionate deduction for 'ICU charges'"
+    },
+    {
+     "url": "https://www.joinditto.in/articles/health-insurance/proportionate-deduction-in-health-insurance/",
+     "published_date": "unknown",
+     "quote": "Secondary source: says the 2020 exclusions from proportionate deduction were later carried into IRDAI's Master Circular on health insurance (not checked against the official IRDAI text)."
     }
    ]
   },
-  "text_hash": "36093fa95a13f31acb5ec4bd7b85f88e6a63b4a0",
-  "at": "2026-11-10T16:30:17.489121+00:00"
+  "text_hash": "b2508f6e673ad0549347bcf6c714f6635dce6ed7",
+  "at": "2026-11-12T12:46:36.022689+00:00"
  },
  "alt_texts": [
   "You bought your health insurance for the tax form. You'll read it for the first time in a hospital corridor.",

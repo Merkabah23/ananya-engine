@@ -1,6 +1,6 @@
 {
  "id": "2026-11-148",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-16T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -43,6 +43,787 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-11-11T12:05:25.339034+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3,
+     "informative": 4
+    },
+    "notes": [
+     "slides 6-7: these two slides say the same beat twice. Slide 4 already showed the sunroof arriving with the whole bundle, and slide 7's \"everything else rides in with it\" repeats it. Merge them into one slide: keep \"A sunroof shows from the road. A better engine or a stronger body doesn't.\" then \"So the one thing you can see sits at the top, and the rest rides in with it. Call it the glass-roof tax.\" Also cut \"This is the bundle working exactly as planned\". It states intent as fact when the visible-vs-invisible contrast already proves the point.",
+     "slide 8: \"It's where most of us get steered\" claims more than the source. Maruti's 67% is a ceiling (\"as high as\"), and ICRA puts the figure at 40-50% across models. Keep the opinion, drop the head-count: \"The top variant was never for the few who want everything. It's where the showroom walks you.\" Also, \"And it works\" links the 67% to sunroofs, but the source only credits premium features in general. Say \"premium features\", or let the number stand without the sunroof link.",
+     "slide 3: \"Watch it happen at the showroom\" copies the opener scaffolding of the first-car benchmark (\"Watch how a first car actually gets bought\"). Open on the scene itself: \"The variant you came for has everything you need. Then you ask about the sunroof.\" The salesman's line already carries the slide.",
+     "slide 4 → slide 5: slide 4 says \"a couple of lakh\" and slide 5 jumps to \"₹2.5 lakh\". Pick one figure so the EMI maths reads as the same money. For example, end slide 4 with \"Often ₹2 to 2.5 lakh more than the variant you needed\" and keep slide 5 as is.",
+     "slide 2: the post never goes beyond sight. Add one detail of touch or heat where it fits naturally, for example the glass roof that turns the cabin into an oven by noon in May, so the shade stays pulled shut. This makes \"count the days an Indian summer lets you open one\" something the reader feels, not just counts."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "varun": {
+    "pass": true,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 8",
+      "line": "The top variant was never for the few who want everything. It's where most of us get steered.",
+      "why": "engineered 'never X, it's Y' pair; 'get steered' is stiff and explains the stat after it already landed",
+      "try": "So the 'top' variant is basically just the variant now. The showroom walks most of us straight to it."
+     }
+    ],
+    "best": "The wireless charger, maybe. The sunroof, once, so a nephew could wave from it at the toll plaza."
+   }
+  },
+  {
+   "attempt": 0,
+   "verification": {
+    "passed": false,
+    "take_dead": true,
+    "notes": [
+     "The take's premise is wrong: The core premise is that carmakers keep the sunroof locked to top trims, so you have to buy the top variant and its bundle to get one. That is not true of the Indian market the post describes. Since 2024, most high-volume models offer a sunroof in an entry-level or mid variant: Tata Altroz XM S, Punch Adventure S, Hyundai Exter S(O)+, Venue E+ (one step above base), Kia Sonet HTE(O) (one above base), Nexon Smart+ S, Curvv Pure+ S, Verna SX (mid), Seltos HTK+ and Hector Shine Pro (one above base). The post's own Hyundai figure points the same way. Hyundai links its 57% sunroof share to an effort to 'democratise premium features', and 12 of its 14 models offered a sunroof by mid-2025. That share fits a feature spread across mid trims, not one reserved for the top trim. The claim that sunroof cars cost 'a couple of lakh more' than the variant you needed, and the ₹2.5 lakh EMI example, rest on the same false premise. The EMI arithmetic is right: about ₹5,200 a month at around 9% over 60 months. I also could not verify the Maruti claim that top variants were 67% of sales in 2023. Autocar Pro and Money9 do report that buyers were shifting toward higher trims.. How it actually works: Carmakers set trim levels so that popular features sit at different price steps. Sunroof demand has been strong enough that Hyundai, Tata, Kia and others moved the sunroof down to a variant just above base or to a mid variant, often around ₹8–9 lakh ex-showroom, to win buyers and gain volume. Top trims still pile on extras like a panoramic roof, ADAS, a bigger screen and ventilated seats. But in most mainstream models, wanting a sunroof means going up one or two trims, not buying the top variant. Upselling to higher trims is real. The sunroof just usually isn't the thing locked to the top trim. Rebuild the post on the correct mechanism.",
+     "Could not verify: 'In the top variant, the sunroof comes bundled with alloy wheels, ambient lighting, a bigger screen, a connected-car app and a wireless charger.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'The top variant that includes the sunroof often costs a couple of lakh rupees more than the variant a buyer actually needed.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "57% of the cars Hyundai sold in India in the last financial year (FY26) had a sunroof.",
+      "sentence": "57% of the cars Hyundai sold last financial year had a sunroof.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Carmakers in India offer the sunroof only in top variants, so a buyer who wants one must buy the top variant.",
+      "sentence": "\"Sir, woh top variant mein hi milega.\"",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "In the top variant, the sunroof comes bundled with alloy wheels, ambient lighting, a bigger screen, a connected-car app and a wireless charger.",
+      "sentence": "So the sunroof arrives with alloys, ambient lighting, a bigger screen, a connected-car app and a wireless charger.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "The top variant that includes the sunroof often costs a couple of lakh rupees more than the variant a buyer actually needed.",
+      "sentence": "Often a couple of lakh more than the variant you actually needed.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "An extra ₹2.5 lakh financed on a five-year car loan costs over ₹5,000 a month (an interest rate of about 9% is assumed).",
+      "sentence": "On a five-year loan, ₹2.5 lakh extra is over ₹5,000 a month.",
+      "type": "arithmetic",
+      "core": false,
+      "framed_as": "timeless",
+      "expr": "250000*0.0075/(1-1.0075**-60)",
+      "stated": "5000"
+     },
+     {
+      "id": "c6",
+      "text": "Carmakers lock the sunroof, a feature visible from the road, to top trims and bundle other features with it, because buyers can see a sunroof from outside but cannot see a better engine or stronger body. This pushes buyers to costlier variants.",
+      "sentence": "This is the bundle working exactly as planned. A sunroof shows from the road. A better engine or a stronger body doesn't.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "By 2023, Maruti Suzuki said top variants made up as much as 67% of its passenger vehicle sales.",
+      "sentence": "By 2023, Maruti said top variants were as much as 67% of passenger vehicle sales.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "past"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2026-08-04",
+      "correct": "Hyundai Motor India's Annual Report 2025-26 puts sunroof penetration at close to 57% of FY26 sales.",
+      "sources": [
+       {
+        "url": "https://www.businesstoday.in/auto/story/hyundai-says-sunroof-adoption-climbs-to-57-of-sales-in-fy26-547227-2026-08-04",
+        "publisher": "Business Today",
+        "published_date": "2026-08-04",
+        "quote": "sunroof penetration close to 57% and automatic transmission at over 24%",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "misframed",
+      "correct": "This is too absolute. Hyundai says it is bringing sunroofs to more models, and several Indian cars offer one in mid variants. The Business Today article does not itself list those mid-variant models. A sunroof is concentrated in higher variants, but it is not top-variant-only.",
+      "sources": [
+       {
+        "url": "https://www.businesstoday.in/auto/story/hyundai-says-sunroof-adoption-climbs-to-57-of-sales-in-fy26-547227-2026-08-04",
+        "publisher": "Business Today",
+        "published_date": "2026-08-04",
+        "quote": "sunroof penetration close to 57%",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "unverifiable",
+      "correct": "The bundle differs by model and carmaker. No single source confirms that every top variant includes all of these features."
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "unverifiable",
+      "correct": "The price gap between variants differs by model. No source checked supports a general 'couple of lakh' figure, though gaps of that size are plausible for some models."
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "misframed",
+      "event_date": "2023-03-20",
+      "correct": "The 67% top-variant share was an industry-wide figure given by Maruti's Shashank Srivastava. It was not Maruti's own share. He put Maruti's own top-variant share at 33%, up from 25% five years earlier.",
+      "sources": [
+       {
+        "url": "https://theprint.in/business/indians-shedding-cost-conscious-tag-as-comfort-styling-features-drive-demand-for-premium-cars/1453510",
+        "publisher": "ThePrint",
+        "published_date": "2023-03-20",
+        "quote": "the top variant (contribution in) percentage of sales has gone up from 25 per cent five years back to 33 per cent now.",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "The core premise is that carmakers keep the sunroof locked to top trims, so you have to buy the top variant and its bundle to get one. That is not true of the Indian market the post describes. Since 2024, most high-volume models offer a sunroof in an entry-level or mid variant: Tata Altroz XM S, Punch Adventure S, Hyundai Exter S(O)+, Venue E+ (one step above base), Kia Sonet HTE(O) (one above base), Nexon Smart+ S, Curvv Pure+ S, Verna SX (mid), Seltos HTK+ and Hector Shine Pro (one above base). The post's own Hyundai figure points the same way. Hyundai links its 57% sunroof share to an effort to 'democratise premium features', and 12 of its 14 models offered a sunroof by mid-2025. That share fits a feature spread across mid trims, not one reserved for the top trim. The claim that sunroof cars cost 'a couple of lakh more' than the variant you needed, and the ₹2.5 lakh EMI example, rest on the same false premise. The EMI arithmetic is right: about ₹5,200 a month at around 9% over 60 months. I also could not verify the Maruti claim that top variants were 67% of sales in 2023. Autocar Pro and Money9 do report that buyers were shifting toward higher trims.",
+     "actual_mechanism": "Carmakers set trim levels so that popular features sit at different price steps. Sunroof demand has been strong enough that Hyundai, Tata, Kia and others moved the sunroof down to a variant just above base or to a mid variant, often around ₹8–9 lakh ex-showroom, to win buyers and gain volume. Top trims still pile on extras like a panoramic roof, ADAS, a bigger screen and ventilated seats. But in most mainstream models, wanting a sunroof means going up one or two trims, not buying the top variant. Upselling to higher trims is real. The sunroof just usually isn't the thing locked to the top trim.",
+     "take_survives": false,
+     "sources": [
+      {
+       "url": "https://www.businesstoday.in/auto/story/hyundai-says-sunroof-adoption-climbs-to-57-of-sales-in-fy26-547227-2026-08-04",
+       "published_date": "2026-08-04",
+       "quote": "We take pride in our continued effort to democratise premium features across models ... driving higher adoption, with sunroof penetration close to 57%."
+      },
+      {
+       "url": "https://www.cardekho.com/india-car-news/cars-with-sunroof-in-entrylevel-variants-tata-altroz-hyundai-exter-tata-nexon-and-more-33436.htm",
+       "published_date": "2024-11-01",
+       "quote": "the base E trim of the Hyundai Venue was extended to a new E+ variant, making the sunroof more accessible."
+      },
+      {
+       "url": "https://www.cardekho.com/india-car-news/cars-with-sunroof-in-entrylevel-variants-tata-altroz-hyundai-exter-tata-nexon-and-more-33436.htm",
+       "published_date": "2024-11-01",
+       "quote": "is offered with a sunroof in its one-above-base HTE (O) variant"
+      },
+      {
+       "url": "https://www.mobilityoutlook.com/news/hyundai-motor-india-crosses-11-million-sunroof-car-sales/",
+       "published_date": "2025",
+       "quote": "12 of Hyundai's 14 models in India offer a sunroof (as summarised in search results)"
+      }
+     ]
+    },
+    "text_hash": "9a2b52aba49967e5bab9971bf15641aed8924f13",
+    "at": "2026-11-12T12:39:34.133776+00:00"
+   }
+  }
+ ],
+ "updated_at": "2026-11-12T12:42:25.118122+00:00",
+ "sources": [
+  {
+   "url": "https://theprint.in/business/indians-shedding-cost-conscious-tag-as-comfort-styling-features-drive-demand-for-premium-cars/1453510",
+   "fact": "In 2023, ICRA, Maruti, Tata and Kia said top variants made up 40-67% of passenger vehicle sales, driven by premium features. This is the top-variant share, not a sunroof-specific figure, and the article does not mention sunroofs.",
+   "excerpt": "\"the percentage of top variants in vehicle sales has increased to levels of 40-50 per cent across models.\" (ICRA's Rohan Kanwar Gupta) | \"the contribution of top variants to sales of the entire passenger vehicles segment is currently as high as 67 per cent.\" (Maruti Suzuki)",
+   "date": "2023-03-20"
+  },
+  {
+   "url": "https://www.businesstoday.in/auto/story/hyundai-says-sunroof-adoption-climbs-to-57-of-sales-in-fy26-547227-2026-08-04",
+   "fact": "Hyundai Motor India says sunroof-equipped models were 57% of its FY26 sales, and that it is bringing premium features to more models. This is a company figure and does not show that buyers moved up variants to get a sunroof.",
+   "excerpt": "\"Sunroof-equipped models accounted for 57% of Hyundai Motor India Ltd's sales in FY26.\" | \"sunroof penetration close to 57% and automatic transmission at over 24%.\" (Hyundai Motor India Annual Report 2025-26, COO Dong Huwy Park)",
+   "date": "2026-08-04"
+  }
+ ],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] The [sunroof] you rarely open is why you bought the top variant\nYou wanted one feature. It came with a bundle attached.\n \n\n[slide 1] The sunroof you'll open twice a year is how carmakers sold you a costlier variant.\nSwipe to read →\n\n[slide 2] 57% of the cars Hyundai sold last financial year had a sunroof.\nNow count the days an Indian summer lets you open one.\n\n[slide 3] Watch it happen at the showroom. The variant you came for has everything you need.\nThen you ask about the sunroof. \"Sir, woh top variant mein hi milega.\"\nThe comparison sheet you made at home stops mattering right there.\n\n[slide 4] So the sunroof arrives with alloys, ambient lighting, a bigger screen, a connected-car app and a wireless charger.\nOften a couple of lakh more than the variant you actually needed.\n\n[slide 5] On a five-year loan, ₹2.5 lakh extra is over ₹5,000 a month.\nEvery month for five years. For a roof that mostly stays shut.\n\n[slide 6] This is the bundle working exactly as planned. A sunroof shows from the road. A better engine or a stronger body doesn't.\n\n[slide 7] So the one thing buyers can see is locked to the top trims, and everything else rides in with it. Call it the glass-roof tax.\n\n[slide 8] And it works. By 2023, Maruti said top variants were as much as 67% of passenger vehicle sales.\nThe top variant was never for the few who want everything. It's where most of us get steered.\n\n[slide 9] It's not vanity. A first car is the one big thing you can show for years of work.\nThe sunroof is the part that makes it look like an upgrade in the parking lot. And in the photo for the family group.\n\n[slide 10] Try this. List every feature you paid extra for. Tick the ones you used this month.\nThe wireless charger, maybe. The sunroof, once, so a nephew could wave from it at the toll plaza.\n\n[end card] Open this again before you sign the booking form for your next car.\nSend to the friend who's been comparing variants all week and suddenly needs the top one.\n\n[caption] The top variant was built around the one car feature your neighbours can see from the road: the sunroof.\n\n\"Sir, woh top variant mein hi milega\" is the most expensive sentence you'll hear in a showroom.\n\nSend this to the friend who's been comparing variants all week and suddenly needs the top one.\n\n[alt text] A text carousel arguing that carmakers keep the sunroof only in top variants so first-time buyers pay lakhs extra for a whole bundle of features. It notes that 57% of Hyundai's FY26 sales had sunroofs and that top variants made up as much as 67% of passenger vehicle sales by 2023. It ends with a test: list the features you paid for and tick the ones you used this month.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "57% of the cars Hyundai sold in India in the last financial year (FY26) had a sunroof.",
+     "sentence": "57% of the cars Hyundai sold last financial year had a sunroof.",
+     "type": "figure",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "Carmakers in India offer the sunroof only in top variants, so a buyer who wants one must buy the top variant.",
+     "sentence": "\"Sir, woh top variant mein hi milega.\"",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c3",
+     "text": "In the top variant, the sunroof comes bundled with alloy wheels, ambient lighting, a bigger screen, a connected-car app and a wireless charger.",
+     "sentence": "So the sunroof arrives with alloys, ambient lighting, a bigger screen, a connected-car app and a wireless charger.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c4",
+     "text": "The top variant that includes the sunroof often costs a couple of lakh rupees more than the variant a buyer actually needed.",
+     "sentence": "Often a couple of lakh more than the variant you actually needed.",
+     "type": "figure",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c5",
+     "text": "An extra ₹2.5 lakh financed on a five-year car loan costs over ₹5,000 a month (an interest rate of about 9% is assumed).",
+     "sentence": "On a five-year loan, ₹2.5 lakh extra is over ₹5,000 a month.",
+     "type": "arithmetic",
+     "core": false,
+     "framed_as": "timeless",
+     "expr": "250000*0.0075/(1-1.0075**-60)",
+     "stated": "5000"
+    },
+    {
+     "id": "c6",
+     "text": "Carmakers lock the sunroof, a feature visible from the road, to top trims and bundle other features with it, because buyers can see a sunroof from outside but cannot see a better engine or stronger body. This pushes buyers to costlier variants.",
+     "sentence": "This is the bundle working exactly as planned. A sunroof shows from the road. A better engine or a stronger body doesn't.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c7",
+     "text": "By 2023, Maruti Suzuki said top variants made up as much as 67% of its passenger vehicle sales.",
+     "sentence": "By 2023, Maruti said top variants were as much as 67% of passenger vehicle sales.",
+     "type": "figure",
+     "core": true,
+     "framed_as": "past"
+    }
+   ]
+  },
+  "57% of the cars Hyundai sold in India in the last financial year (FY26) had a sunroof.": {
+   "id": "c1",
+   "verdict": "supported",
+   "event_date": "2026-08-04",
+   "correct": "Hyundai Motor India's Annual Report 2025-26 puts sunroof penetration at close to 57% of FY26 sales.",
+   "sources": [
+    {
+     "url": "https://www.businesstoday.in/auto/story/hyundai-says-sunroof-adoption-climbs-to-57-of-sales-in-fy26-547227-2026-08-04",
+     "publisher": "Business Today",
+     "published_date": "2026-08-04",
+     "quote": "sunroof penetration close to 57% and automatic transmission at over 24%",
+     "tier": 2
+    }
+   ]
+  },
+  "Carmakers in India offer the sunroof only in top variants, so a buyer who wants one must buy the top variant.": {
+   "id": "c2",
+   "verdict": "misframed",
+   "correct": "This is too absolute. Hyundai says it is bringing sunroofs to more models, and several Indian cars offer one in mid variants. The Business Today article does not itself list those mid-variant models. A sunroof is concentrated in higher variants, but it is not top-variant-only.",
+   "sources": [
+    {
+     "url": "https://www.businesstoday.in/auto/story/hyundai-says-sunroof-adoption-climbs-to-57-of-sales-in-fy26-547227-2026-08-04",
+     "publisher": "Business Today",
+     "published_date": "2026-08-04",
+     "quote": "sunroof penetration close to 57%",
+     "tier": 2
+    }
+   ]
+  },
+  "In the top variant, the sunroof comes bundled with alloy wheels, ambient lighting, a bigger screen, a connected-car app and a wireless charger.": {
+   "id": "c3",
+   "verdict": "unverifiable",
+   "correct": "The bundle differs by model and carmaker. No single source confirms that every top variant includes all of these features."
+  },
+  "The top variant that includes the sunroof often costs a couple of lakh rupees more than the variant a buyer actually needed.": {
+   "id": "c4",
+   "verdict": "unverifiable",
+   "correct": "The price gap between variants differs by model. No source checked supports a general 'couple of lakh' figure, though gaps of that size are plausible for some models."
+  },
+  "By 2023, Maruti Suzuki said top variants made up as much as 67% of its passenger vehicle sales.": {
+   "id": "c7",
+   "verdict": "misframed",
+   "event_date": "2023-03-20",
+   "correct": "The 67% top-variant share was an industry-wide figure given by Maruti's Shashank Srivastava. It was not Maruti's own share. He put Maruti's own top-variant share at 33%, up from 25% five years earlier.",
+   "sources": [
+    {
+     "url": "https://theprint.in/business/indians-shedding-cost-conscious-tag-as-comfort-styling-features-drive-demand-for-premium-cars/1453510",
+     "publisher": "ThePrint",
+     "published_date": "2023-03-20",
+     "quote": "the top variant (contribution in) percentage of sales has gone up from 25 per cent five years back to 33 per cent now.",
+     "tier": 2
+    }
+   ]
+  },
+  "_skeptic": {
+   "90abe52cc23c58f5eb07a14c8484d53e08aacedf": {
+    "holds": false,
+    "broken_premise": "The core premise is that carmakers keep the sunroof locked to top trims, so you have to buy the top variant and its bundle to get one. That is not true of the Indian market the post describes. Since 2024, most high-volume models offer a sunroof in an entry-level or mid variant: Tata Altroz XM S, Punch Adventure S, Hyundai Exter S(O)+, Venue E+ (one step above base), Kia Sonet HTE(O) (one above base), Nexon Smart+ S, Curvv Pure+ S, Verna SX (mid), Seltos HTK+ and Hector Shine Pro (one above base). The post's own Hyundai figure points the same way. Hyundai links its 57% sunroof share to an effort to 'democratise premium features', and 12 of its 14 models offered a sunroof by mid-2025. That share fits a feature spread across mid trims, not one reserved for the top trim. The claim that sunroof cars cost 'a couple of lakh more' than the variant you needed, and the ₹2.5 lakh EMI example, rest on the same false premise. The EMI arithmetic is right: about ₹5,200 a month at around 9% over 60 months. I also could not verify the Maruti claim that top variants were 67% of sales in 2023. Autocar Pro and Money9 do report that buyers were shifting toward higher trims.",
+    "actual_mechanism": "Carmakers set trim levels so that popular features sit at different price steps. Sunroof demand has been strong enough that Hyundai, Tata, Kia and others moved the sunroof down to a variant just above base or to a mid variant, often around ₹8–9 lakh ex-showroom, to win buyers and gain volume. Top trims still pile on extras like a panoramic roof, ADAS, a bigger screen and ventilated seats. But in most mainstream models, wanting a sunroof means going up one or two trims, not buying the top variant. Upselling to higher trims is real. The sunroof just usually isn't the thing locked to the top trim.",
+    "take_survives": false,
+    "sources": [
+     {
+      "url": "https://www.businesstoday.in/auto/story/hyundai-says-sunroof-adoption-climbs-to-57-of-sales-in-fy26-547227-2026-08-04",
+      "published_date": "2026-08-04",
+      "quote": "We take pride in our continued effort to democratise premium features across models ... driving higher adoption, with sunroof penetration close to 57%."
+     },
+     {
+      "url": "https://www.cardekho.com/india-car-news/cars-with-sunroof-in-entrylevel-variants-tata-altroz-hyundai-exter-tata-nexon-and-more-33436.htm",
+      "published_date": "2024-11-01",
+      "quote": "the base E trim of the Hyundai Venue was extended to a new E+ variant, making the sunroof more accessible."
+     },
+     {
+      "url": "https://www.cardekho.com/india-car-news/cars-with-sunroof-in-entrylevel-variants-tata-altroz-hyundai-exter-tata-nexon-and-more-33436.htm",
+      "published_date": "2024-11-01",
+      "quote": "is offered with a sunroof in its one-above-base HTE (O) variant"
+     },
+     {
+      "url": "https://www.mobilityoutlook.com/news/hyundai-motor-india-crosses-11-million-sunroof-car-sales/",
+      "published_date": "2025",
+      "quote": "12 of Hyundai's 14 models in India offer a sunroof (as summarised in search results)"
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "9a2b52aba49967e5bab9971bf15641aed8924f13": {
+    "passed": false,
+    "take_dead": true,
+    "notes": [
+     "The take's premise is wrong: The core premise is that carmakers keep the sunroof locked to top trims, so you have to buy the top variant and its bundle to get one. That is not true of the Indian market the post describes. Since 2024, most high-volume models offer a sunroof in an entry-level or mid variant: Tata Altroz XM S, Punch Adventure S, Hyundai Exter S(O)+, Venue E+ (one step above base), Kia Sonet HTE(O) (one above base), Nexon Smart+ S, Curvv Pure+ S, Verna SX (mid), Seltos HTK+ and Hector Shine Pro (one above base). The post's own Hyundai figure points the same way. Hyundai links its 57% sunroof share to an effort to 'democratise premium features', and 12 of its 14 models offered a sunroof by mid-2025. That share fits a feature spread across mid trims, not one reserved for the top trim. The claim that sunroof cars cost 'a couple of lakh more' than the variant you needed, and the ₹2.5 lakh EMI example, rest on the same false premise. The EMI arithmetic is right: about ₹5,200 a month at around 9% over 60 months. I also could not verify the Maruti claim that top variants were 67% of sales in 2023. Autocar Pro and Money9 do report that buyers were shifting toward higher trims.. How it actually works: Carmakers set trim levels so that popular features sit at different price steps. Sunroof demand has been strong enough that Hyundai, Tata, Kia and others moved the sunroof down to a variant just above base or to a mid variant, often around ₹8–9 lakh ex-showroom, to win buyers and gain volume. Top trims still pile on extras like a panoramic roof, ADAS, a bigger screen and ventilated seats. But in most mainstream models, wanting a sunroof means going up one or two trims, not buying the top variant. Upselling to higher trims is real. The sunroof just usually isn't the thing locked to the top trim. Rebuild the post on the correct mechanism.",
+     "Could not verify: 'In the top variant, the sunroof comes bundled with alloy wheels, ambient lighting, a bigger screen, a connected-car app and a wireless charger.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'The top variant that includes the sunroof often costs a couple of lakh rupees more than the variant a buyer actually needed.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "57% of the cars Hyundai sold in India in the last financial year (FY26) had a sunroof.",
+      "sentence": "57% of the cars Hyundai sold last financial year had a sunroof.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Carmakers in India offer the sunroof only in top variants, so a buyer who wants one must buy the top variant.",
+      "sentence": "\"Sir, woh top variant mein hi milega.\"",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "In the top variant, the sunroof comes bundled with alloy wheels, ambient lighting, a bigger screen, a connected-car app and a wireless charger.",
+      "sentence": "So the sunroof arrives with alloys, ambient lighting, a bigger screen, a connected-car app and a wireless charger.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "The top variant that includes the sunroof often costs a couple of lakh rupees more than the variant a buyer actually needed.",
+      "sentence": "Often a couple of lakh more than the variant you actually needed.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "An extra ₹2.5 lakh financed on a five-year car loan costs over ₹5,000 a month (an interest rate of about 9% is assumed).",
+      "sentence": "On a five-year loan, ₹2.5 lakh extra is over ₹5,000 a month.",
+      "type": "arithmetic",
+      "core": false,
+      "framed_as": "timeless",
+      "expr": "250000*0.0075/(1-1.0075**-60)",
+      "stated": "5000"
+     },
+     {
+      "id": "c6",
+      "text": "Carmakers lock the sunroof, a feature visible from the road, to top trims and bundle other features with it, because buyers can see a sunroof from outside but cannot see a better engine or stronger body. This pushes buyers to costlier variants.",
+      "sentence": "This is the bundle working exactly as planned. A sunroof shows from the road. A better engine or a stronger body doesn't.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "By 2023, Maruti Suzuki said top variants made up as much as 67% of its passenger vehicle sales.",
+      "sentence": "By 2023, Maruti said top variants were as much as 67% of passenger vehicle sales.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "past"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2026-08-04",
+      "correct": "Hyundai Motor India's Annual Report 2025-26 puts sunroof penetration at close to 57% of FY26 sales.",
+      "sources": [
+       {
+        "url": "https://www.businesstoday.in/auto/story/hyundai-says-sunroof-adoption-climbs-to-57-of-sales-in-fy26-547227-2026-08-04",
+        "publisher": "Business Today",
+        "published_date": "2026-08-04",
+        "quote": "sunroof penetration close to 57% and automatic transmission at over 24%",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "misframed",
+      "correct": "This is too absolute. Hyundai says it is bringing sunroofs to more models, and several Indian cars offer one in mid variants. The Business Today article does not itself list those mid-variant models. A sunroof is concentrated in higher variants, but it is not top-variant-only.",
+      "sources": [
+       {
+        "url": "https://www.businesstoday.in/auto/story/hyundai-says-sunroof-adoption-climbs-to-57-of-sales-in-fy26-547227-2026-08-04",
+        "publisher": "Business Today",
+        "published_date": "2026-08-04",
+        "quote": "sunroof penetration close to 57%",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "unverifiable",
+      "correct": "The bundle differs by model and carmaker. No single source confirms that every top variant includes all of these features."
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "unverifiable",
+      "correct": "The price gap between variants differs by model. No source checked supports a general 'couple of lakh' figure, though gaps of that size are plausible for some models."
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "misframed",
+      "event_date": "2023-03-20",
+      "correct": "The 67% top-variant share was an industry-wide figure given by Maruti's Shashank Srivastava. It was not Maruti's own share. He put Maruti's own top-variant share at 33%, up from 25% five years earlier.",
+      "sources": [
+       {
+        "url": "https://theprint.in/business/indians-shedding-cost-conscious-tag-as-comfort-styling-features-drive-demand-for-premium-cars/1453510",
+        "publisher": "ThePrint",
+        "published_date": "2023-03-20",
+        "quote": "the top variant (contribution in) percentage of sales has gone up from 25 per cent five years back to 33 per cent now.",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "The core premise is that carmakers keep the sunroof locked to top trims, so you have to buy the top variant and its bundle to get one. That is not true of the Indian market the post describes. Since 2024, most high-volume models offer a sunroof in an entry-level or mid variant: Tata Altroz XM S, Punch Adventure S, Hyundai Exter S(O)+, Venue E+ (one step above base), Kia Sonet HTE(O) (one above base), Nexon Smart+ S, Curvv Pure+ S, Verna SX (mid), Seltos HTK+ and Hector Shine Pro (one above base). The post's own Hyundai figure points the same way. Hyundai links its 57% sunroof share to an effort to 'democratise premium features', and 12 of its 14 models offered a sunroof by mid-2025. That share fits a feature spread across mid trims, not one reserved for the top trim. The claim that sunroof cars cost 'a couple of lakh more' than the variant you needed, and the ₹2.5 lakh EMI example, rest on the same false premise. The EMI arithmetic is right: about ₹5,200 a month at around 9% over 60 months. I also could not verify the Maruti claim that top variants were 67% of sales in 2023. Autocar Pro and Money9 do report that buyers were shifting toward higher trims.",
+     "actual_mechanism": "Carmakers set trim levels so that popular features sit at different price steps. Sunroof demand has been strong enough that Hyundai, Tata, Kia and others moved the sunroof down to a variant just above base or to a mid variant, often around ₹8–9 lakh ex-showroom, to win buyers and gain volume. Top trims still pile on extras like a panoramic roof, ADAS, a bigger screen and ventilated seats. But in most mainstream models, wanting a sunroof means going up one or two trims, not buying the top variant. Upselling to higher trims is real. The sunroof just usually isn't the thing locked to the top trim.",
+     "take_survives": false,
+     "sources": [
+      {
+       "url": "https://www.businesstoday.in/auto/story/hyundai-says-sunroof-adoption-climbs-to-57-of-sales-in-fy26-547227-2026-08-04",
+       "published_date": "2026-08-04",
+       "quote": "We take pride in our continued effort to democratise premium features across models ... driving higher adoption, with sunroof penetration close to 57%."
+      },
+      {
+       "url": "https://www.cardekho.com/india-car-news/cars-with-sunroof-in-entrylevel-variants-tata-altroz-hyundai-exter-tata-nexon-and-more-33436.htm",
+       "published_date": "2024-11-01",
+       "quote": "the base E trim of the Hyundai Venue was extended to a new E+ variant, making the sunroof more accessible."
+      },
+      {
+       "url": "https://www.cardekho.com/india-car-news/cars-with-sunroof-in-entrylevel-variants-tata-altroz-hyundai-exter-tata-nexon-and-more-33436.htm",
+       "published_date": "2024-11-01",
+       "quote": "is offered with a sunroof in its one-above-base HTE (O) variant"
+      },
+      {
+       "url": "https://www.mobilityoutlook.com/news/hyundai-motor-india-crosses-11-million-sunroof-car-sales/",
+       "published_date": "2025",
+       "quote": "12 of Hyundai's 14 models in India offer a sunroof (as summarised in search results)"
+      }
+     ]
+    },
+    "text_hash": "9a2b52aba49967e5bab9971bf15641aed8924f13",
+    "at": "2026-11-12T12:39:34.133776+00:00"
+   }
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "The [sunroof] you rarely open is why you bought the top variant",
+   "sub": "You wanted one feature. It came with a bundle attached."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "The sunroof you'll open twice a year is how carmakers sold you a costlier variant.\nSwipe to read →"
+    ],
+    "why_swipe": "How does one glass panel decide the whole car?"
+   },
+   {
+    "paragraphs": [
+     "57% of the cars Hyundai sold last financial year had a sunroof.",
+     "Now count the days an Indian summer lets you open one."
+    ],
+    "why_swipe": "If it's barely usable, why does everyone end up with it?"
+   },
+   {
+    "paragraphs": [
+     "Watch it happen at the showroom. The variant you came for has everything you need.",
+     "Then you ask about the sunroof. \"Sir, woh top variant mein hi milega.\"",
+     "The comparison sheet you made at home stops mattering right there."
+    ],
+    "why_swipe": "What else comes along with the sunroof?"
+   },
+   {
+    "paragraphs": [
+     "So the sunroof arrives with alloys, ambient lighting, a bigger screen, a connected-car app and a wireless charger.",
+     "Often a couple of lakh more than the variant you actually needed."
+    ],
+    "why_swipe": "What does that extra really cost you?"
+   },
+   {
+    "paragraphs": [
+     "On a five-year loan, ₹2.5 lakh extra is over ₹5,000 a month.",
+     "Every month for five years. For a roof that mostly stays shut."
+    ],
+    "why_swipe": "Is this an accident or a design?"
+   },
+   {
+    "paragraphs": [
+     "This is the bundle working exactly as planned. A sunroof shows from the road. A better engine or a stronger body doesn't."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "So the one thing buyers can see is locked to the top trims, and everything else rides in with it. Call it the glass-roof tax."
+    ],
+    "why_swipe": "Does this actually work on most buyers?"
+   },
+   {
+    "paragraphs": [
+     "And it works. By 2023, Maruti said top variants were as much as 67% of passenger vehicle sales.",
+     "The top variant was never for the few who want everything. It's where most of us get steered."
+    ],
+    "why_swipe": "So are buyers just being vain?"
+   },
+   {
+    "paragraphs": [
+     "It's not vanity. A first car is the one big thing you can show for years of work.",
+     "The sunroof is the part that makes it look like an upgrade in the parking lot. And in the photo for the family group."
+    ],
+    "why_swipe": "How do you know if it happened to you?"
+   },
+   {
+    "paragraphs": [
+     "Try this. List every feature you paid extra for. Tick the ones you used this month.",
+     "The wireless charger, maybe. The sunroof, once, so a nephew could wave from it at the toll plaza."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Open this again before you sign the booking form for your next car.",
+   "send": "Send to the friend who's been comparing variants all week and suddenly needs the top one.",
+   "promise": "How things really get sold to us."
+  },
+  "alt_text": "A text carousel arguing that carmakers keep the sunroof only in top variants so first-time buyers pay lakhs extra for a whole bundle of features. It notes that 57% of Hyundai's FY26 sales had sunroofs and that top variants made up as much as 67% of passenger vehicle sales by 2023. It ends with a test: list the features you paid for and tick the ones you used this month.",
+  "claims": [
+   {
+    "text": "57% of the cars Hyundai sold last financial year had a sunroof.",
+    "source_url": "https://www.businesstoday.in/auto/story/hyundai-says-sunroof-adoption-climbs-to-57-of-sales-in-fy26-547227-2026-08-04"
+   },
+   {
+    "text": "By 2023, Maruti said top variants were as much as 67% of passenger vehicle sales.",
+    "source_url": "https://theprint.in/business/indians-shedding-cost-conscious-tag-as-comfort-styling-features-drive-demand-for-premium-cars/1453510"
+   },
+   {
+    "text": "On a five-year loan, ₹2.5 lakh extra is over ₹5,000 a month.",
+    "source_url": "topic",
+    "derived_from": "Typical car loan at about 9% a year over 60 months: EMI = 250000 × 0.0075 × 1.0075^60 / (1.0075^60 − 1) ≈ 1875 × 1.5657 / 0.5657 ≈ ₹5,190 a month"
+   }
+  ],
+  "caption": "The top variant was built around the one car feature your neighbours can see from the road: the sunroof.\n\n\"Sir, woh top variant mein hi milega\" is the most expensive sentence you'll hear in a showroom.\n\nSend this to the friend who's been comparing variants all week and suddenly needs the top one.",
+  "hashtags": [
+   "#CarBuying",
+   "#MiddleClassIndia"
+  ],
+  "caption_style": "send",
+  "search_phrase": "top variant",
+  "caption_v": 2
+ },
+ "verification": {
+  "passed": false,
+  "take_dead": true,
+  "notes": [
+   "The take's premise is wrong: The core premise is that carmakers keep the sunroof locked to top trims, so you have to buy the top variant and its bundle to get one. That is not true of the Indian market the post describes. Since 2024, most high-volume models offer a sunroof in an entry-level or mid variant: Tata Altroz XM S, Punch Adventure S, Hyundai Exter S(O)+, Venue E+ (one step above base), Kia Sonet HTE(O) (one above base), Nexon Smart+ S, Curvv Pure+ S, Verna SX (mid), Seltos HTK+ and Hector Shine Pro (one above base). The post's own Hyundai figure points the same way. Hyundai links its 57% sunroof share to an effort to 'democratise premium features', and 12 of its 14 models offered a sunroof by mid-2025. That share fits a feature spread across mid trims, not one reserved for the top trim. The claim that sunroof cars cost 'a couple of lakh more' than the variant you needed, and the ₹2.5 lakh EMI example, rest on the same false premise. The EMI arithmetic is right: about ₹5,200 a month at around 9% over 60 months. I also could not verify the Maruti claim that top variants were 67% of sales in 2023. Autocar Pro and Money9 do report that buyers were shifting toward higher trims.. How it actually works: Carmakers set trim levels so that popular features sit at different price steps. Sunroof demand has been strong enough that Hyundai, Tata, Kia and others moved the sunroof down to a variant just above base or to a mid variant, often around ₹8–9 lakh ex-showroom, to win buyers and gain volume. Top trims still pile on extras like a panoramic roof, ADAS, a bigger screen and ventilated seats. But in most mainstream models, wanting a sunroof means going up one or two trims, not buying the top variant. Upselling to higher trims is real. The sunroof just usually isn't the thing locked to the top trim. Rebuild the post on the correct mechanism.",
+   "Could not verify: 'In the top variant, the sunroof comes bundled with alloy wheels, ambient lighting, a bigger screen, a connected-car app and a wireless charger.'. Cut it, or state it only if a source says it.",
+   "Could not verify: 'The top variant that includes the sunroof often costs a couple of lakh rupees more than the variant a buyer actually needed.'. Cut it, or state it only if a source says it."
+  ],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "57% of the cars Hyundai sold in India in the last financial year (FY26) had a sunroof.",
+    "sentence": "57% of the cars Hyundai sold last financial year had a sunroof.",
+    "type": "figure",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "Carmakers in India offer the sunroof only in top variants, so a buyer who wants one must buy the top variant.",
+    "sentence": "\"Sir, woh top variant mein hi milega.\"",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c3",
+    "text": "In the top variant, the sunroof comes bundled with alloy wheels, ambient lighting, a bigger screen, a connected-car app and a wireless charger.",
+    "sentence": "So the sunroof arrives with alloys, ambient lighting, a bigger screen, a connected-car app and a wireless charger.",
+    "type": "feature",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c4",
+    "text": "The top variant that includes the sunroof often costs a couple of lakh rupees more than the variant a buyer actually needed.",
+    "sentence": "Often a couple of lakh more than the variant you actually needed.",
+    "type": "figure",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c5",
+    "text": "An extra ₹2.5 lakh financed on a five-year car loan costs over ₹5,000 a month (an interest rate of about 9% is assumed).",
+    "sentence": "On a five-year loan, ₹2.5 lakh extra is over ₹5,000 a month.",
+    "type": "arithmetic",
+    "core": false,
+    "framed_as": "timeless",
+    "expr": "250000*0.0075/(1-1.0075**-60)",
+    "stated": "5000"
+   },
+   {
+    "id": "c6",
+    "text": "Carmakers lock the sunroof, a feature visible from the road, to top trims and bundle other features with it, because buyers can see a sunroof from outside but cannot see a better engine or stronger body. This pushes buyers to costlier variants.",
+    "sentence": "This is the bundle working exactly as planned. A sunroof shows from the road. A better engine or a stronger body doesn't.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c7",
+    "text": "By 2023, Maruti Suzuki said top variants made up as much as 67% of its passenger vehicle sales.",
+    "sentence": "By 2023, Maruti said top variants were as much as 67% of passenger vehicle sales.",
+    "type": "figure",
+    "core": true,
+    "framed_as": "past"
+   }
+  ],
+  "verdicts": {
+   "c1": {
+    "id": "c1",
+    "verdict": "supported",
+    "event_date": "2026-08-04",
+    "correct": "Hyundai Motor India's Annual Report 2025-26 puts sunroof penetration at close to 57% of FY26 sales.",
+    "sources": [
+     {
+      "url": "https://www.businesstoday.in/auto/story/hyundai-says-sunroof-adoption-climbs-to-57-of-sales-in-fy26-547227-2026-08-04",
+      "publisher": "Business Today",
+      "published_date": "2026-08-04",
+      "quote": "sunroof penetration close to 57% and automatic transmission at over 24%",
+      "tier": 2
+     }
+    ]
+   },
+   "c2": {
+    "id": "c2",
+    "verdict": "misframed",
+    "correct": "This is too absolute. Hyundai says it is bringing sunroofs to more models, and several Indian cars offer one in mid variants. The Business Today article does not itself list those mid-variant models. A sunroof is concentrated in higher variants, but it is not top-variant-only.",
+    "sources": [
+     {
+      "url": "https://www.businesstoday.in/auto/story/hyundai-says-sunroof-adoption-climbs-to-57-of-sales-in-fy26-547227-2026-08-04",
+      "publisher": "Business Today",
+      "published_date": "2026-08-04",
+      "quote": "sunroof penetration close to 57%",
+      "tier": 2
+     }
+    ]
+   },
+   "c3": {
+    "id": "c3",
+    "verdict": "unverifiable",
+    "correct": "The bundle differs by model and carmaker. No single source confirms that every top variant includes all of these features."
+   },
+   "c4": {
+    "id": "c4",
+    "verdict": "unverifiable",
+    "correct": "The price gap between variants differs by model. No source checked supports a general 'couple of lakh' figure, though gaps of that size are plausible for some models."
+   },
+   "c7": {
+    "id": "c7",
+    "verdict": "misframed",
+    "event_date": "2023-03-20",
+    "correct": "The 67% top-variant share was an industry-wide figure given by Maruti's Shashank Srivastava. It was not Maruti's own share. He put Maruti's own top-variant share at 33%, up from 25% five years earlier.",
+    "sources": [
+     {
+      "url": "https://theprint.in/business/indians-shedding-cost-conscious-tag-as-comfort-styling-features-drive-demand-for-premium-cars/1453510",
+      "publisher": "ThePrint",
+      "published_date": "2023-03-20",
+      "quote": "the top variant (contribution in) percentage of sales has gone up from 25 per cent five years back to 33 per cent now.",
+      "tier": 2
+     }
+    ]
+   }
+  },
+  "mechanism": {
+   "holds": false,
+   "broken_premise": "The core premise is that carmakers keep the sunroof locked to top trims, so you have to buy the top variant and its bundle to get one. That is not true of the Indian market the post describes. Since 2024, most high-volume models offer a sunroof in an entry-level or mid variant: Tata Altroz XM S, Punch Adventure S, Hyundai Exter S(O)+, Venue E+ (one step above base), Kia Sonet HTE(O) (one above base), Nexon Smart+ S, Curvv Pure+ S, Verna SX (mid), Seltos HTK+ and Hector Shine Pro (one above base). The post's own Hyundai figure points the same way. Hyundai links its 57% sunroof share to an effort to 'democratise premium features', and 12 of its 14 models offered a sunroof by mid-2025. That share fits a feature spread across mid trims, not one reserved for the top trim. The claim that sunroof cars cost 'a couple of lakh more' than the variant you needed, and the ₹2.5 lakh EMI example, rest on the same false premise. The EMI arithmetic is right: about ₹5,200 a month at around 9% over 60 months. I also could not verify the Maruti claim that top variants were 67% of sales in 2023. Autocar Pro and Money9 do report that buyers were shifting toward higher trims.",
+   "actual_mechanism": "Carmakers set trim levels so that popular features sit at different price steps. Sunroof demand has been strong enough that Hyundai, Tata, Kia and others moved the sunroof down to a variant just above base or to a mid variant, often around ₹8–9 lakh ex-showroom, to win buyers and gain volume. Top trims still pile on extras like a panoramic roof, ADAS, a bigger screen and ventilated seats. But in most mainstream models, wanting a sunroof means going up one or two trims, not buying the top variant. Upselling to higher trims is real. The sunroof just usually isn't the thing locked to the top trim.",
+   "take_survives": false,
+   "sources": [
+    {
+     "url": "https://www.businesstoday.in/auto/story/hyundai-says-sunroof-adoption-climbs-to-57-of-sales-in-fy26-547227-2026-08-04",
+     "published_date": "2026-08-04",
+     "quote": "We take pride in our continued effort to democratise premium features across models ... driving higher adoption, with sunroof penetration close to 57%."
+    },
+    {
+     "url": "https://www.cardekho.com/india-car-news/cars-with-sunroof-in-entrylevel-variants-tata-altroz-hyundai-exter-tata-nexon-and-more-33436.htm",
+     "published_date": "2024-11-01",
+     "quote": "the base E trim of the Hyundai Venue was extended to a new E+ variant, making the sunroof more accessible."
+    },
+    {
+     "url": "https://www.cardekho.com/india-car-news/cars-with-sunroof-in-entrylevel-variants-tata-altroz-hyundai-exter-tata-nexon-and-more-33436.htm",
+     "published_date": "2024-11-01",
+     "quote": "is offered with a sunroof in its one-above-base HTE (O) variant"
+    },
+    {
+     "url": "https://www.mobilityoutlook.com/news/hyundai-motor-india-crosses-11-million-sunroof-car-sales/",
+     "published_date": "2025",
+     "quote": "12 of Hyundai's 14 models in India offer a sunroof (as summarised in search results)"
+    }
+   ]
+  },
+  "text_hash": "9a2b52aba49967e5bab9971bf15641aed8924f13",
+  "at": "2026-11-12T12:39:34.133776+00:00"
+ }
 }

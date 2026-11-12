@@ -1,6 +1,6 @@
 {
  "id": "2026-11-149",
- "status": "planned",
+ "status": "uploaded",
  "due": "2026-11-19T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -43,6 +43,1282 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-11-11T12:05:25.339201+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 3,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "slide 8: The close reads like an instruction list ('Here's a test. Open the folder and actually cook, lift or try one thing from it today. Then delete the rest.'), and the sting arrives only in the last six words. Drop 'Here's a test', which is stock scaffolding, and lead with the thumb. Make the test a single move the reader can run: try deleting the folder. Then end on the line people will repeat, the one that cashes in slide 1: what you were really saving was the version of you who'd do it. That turns a chore into a sting.",
+     "slide 4: 'Experts say the tap gives a brief dopamine boost' is a vague attribution that reads like a hedge. The source supports stating it plainly: 'That tap gives you a small dopamine hit. The recipe starts to feel like yours.' Keep 'Your brain logs it as progress. Your kitchen never hears about it.' That punch is the best line in the post.",
+     "slides 6-7: These are two thin slides where one strong slide belongs. Slide 7 is a single line, and slide 6's why_swipe is a placeholder ('what happens next?'). 'It's not laziness.' also opens on a Not-X move. Merge them into one slide: concede it ('I get it. After a long day, planning gives you the glow of doing without the sweat or the dishes.'), then land 'The folder keeps growing. Dinner still comes from Swiggy.' That restores pull into the close.",
+     "slide 5: This is where his selling-side eye should show, and right now it only restates the topic. Add the insider beat: a save costs the viewer nothing and tells the platform the post is worth more people. That is why creators build content you can't use in one go: the '7 habits', the '10 places', the recipe flashed too fast to follow. The format is made to be saved, not done. Keep it as observation, with no numbers. Also soften 'every reel now ends with' to 'half the reels', so the exaggeration stays dry rather than false.",
+     "slide 2: Every detail in the post is visual. One physical detail would make the scene land, for example the thumb scrolling the saved grid for longer than the recipe would take to cook. Put it here, where the reader opens the folder."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "slide 8: The close reads like an instruction list ('Here's a test. Open the folder and actually cook, lift or try one thing from it today. Then delete the rest.'), and the sting arrives only in the last six words. Drop 'Here's a test', which is stock scaffolding, and lead with the thumb. Make the test a single move the reader can run: try deleting the folder. Then end on the line people will repeat, the one that cashes in slide 1: what you were really saving was the version of you who'd do it. That turns a chore into a sting.",
+    "slide 4: 'Experts say the tap gives a brief dopamine boost' is a vague attribution that reads like a hedge. The source supports stating it plainly: 'That tap gives you a small dopamine hit. The recipe starts to feel like yours.' Keep 'Your brain logs it as progress. Your kitchen never hears about it.' That punch is the best line in the post.",
+    "slides 6-7: These are two thin slides where one strong slide belongs. Slide 7 is a single line, and slide 6's why_swipe is a placeholder ('what happens next?'). 'It's not laziness.' also opens on a Not-X move. Merge them into one slide: concede it ('I get it. After a long day, planning gives you the glow of doing without the sweat or the dishes.'), then land 'The folder keeps growing. Dinner still comes from Swiggy.' That restores pull into the close.",
+    "slide 5: This is where his selling-side eye should show, and right now it only restates the topic. Add the insider beat: a save costs the viewer nothing and tells the platform the post is worth more people. That is why creators build content you can't use in one go: the '7 habits', the '10 places', the recipe flashed too fast to follow. The format is made to be saved, not done. Keep it as observation, with no numbers. Also soften 'every reel now ends with' to 'half the reels', so the exaggeration stays dry rather than false.",
+    "slide 2: Every detail in the post is visual. One physical detail would make the scene land, for example the thumb scrolling the saved grid for longer than the recipe would take to cook. Put it here, where the reader opens the folder."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 3
+    },
+    "notes": [
+     "slide 6: The insider beat now sits on a one-line slide ('A save costs you nothing. To Instagram, it says the post deserves more people.'), and its why_swipe is still the placeholder 'what happens next?'. Fold it into the top of slide 7 so cause and effect land together: a save costs nothing and tells Instagram to push the post, so creators build reels too big for one go. If it stays a separate slide, give it a real why_swipe such as 'So what do creators do with that?'",
+     "slide 7: Add the line the last note asked for, which turns the examples into a rule the reader can repeat: 'The format is made to be saved, not done.' (or fresher wording). Put it after the '7 habits, 10 places' list and before the 'Save this for later' punch, so the insider beat names the pattern instead of only listing it.",
+     "slide 9: All three earlier notes on the close are settled. One small tightening: 'Watch it refuse to press' reads slightly off, because a thumb doesn't refuse. Try 'Watch it stop.' or 'Notice it won't.' so the test lands cleanly before the sting line."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 9",
+      "line": "What you were really saving was the version of you who'd cook them.",
+      "why": "soft self-help ending, wistful",
+      "try": "Those reels were never for you. They were for the you who actually cooks."
+     },
+     {
+      "where": "slide 9",
+      "line": "Put your thumb on delete for the whole folder. Watch it refuse to press.",
+      "why": "stiff, written scene narration",
+      "try": "Now try deleting the whole folder. Your thumb won't do it."
+     },
+     {
+      "where": "slide 8",
+      "line": "I get it. After a long day, planning gives you the glow of doing without the sweat or the dishes.",
+      "why": "written phrasing, 'the glow of doing'",
+      "try": "I get it. After a long day, planning feels like doing. No sweat. No dishes."
+     },
+     {
+      "where": "cover",
+      "line": "Saving a reel feels like [doing the thing], so you never return",
+      "why": "stiff word, 'never return'",
+      "try": "Saving a reel feels like [doing the thing]. That's why you never open it again."
+     },
+     {
+      "where": "slide 6",
+      "line": "A save costs you nothing. To Instagram, it says the post deserves more people.",
+      "why": "stiff, explained rather than said straight",
+      "try": "A save costs you nothing. To Instagram, it means one thing: show this to more people."
+     }
+    ],
+    "best": "The folder keeps growing. Dinner still comes from Swiggy."
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Not Varun (slide 9): 'What you were really saving was the version of you who'd cook them.' reads as soft self-help ending, wistful. Say it the way he would, e.g. 'Those reels were never for you. They were for the you who actually cooks.' (his register, your words, same facts).",
+    "Not Varun (slide 9): 'Put your thumb on delete for the whole folder. Watch it refuse to press.' reads as stiff, written scene narration. Say it the way he would, e.g. 'Now try deleting the whole folder. Your thumb won't do it.' (his register, your words, same facts).",
+    "Not Varun (slide 8): 'I get it. After a long day, planning gives you the glow of doing without the sweat or the dishes.' reads as written phrasing, 'the glow of doing'. Say it the way he would, e.g. 'I get it. After a long day, planning feels like doing. No sweat. No dishes.' (his register, your words, same facts).",
+    "Not Varun (cover): 'Saving a reel feels like [doing the thing], so you never return' reads as stiff word, 'never return'. Say it the way he would, e.g. 'Saving a reel feels like [doing the thing]. That's why you never open it again.' (his register, your words, same facts).",
+    "Not Varun (slide 6): 'A save costs you nothing. To Instagram, it says the post deserves more people.' reads as stiff, explained rather than said straight. Say it the way he would, e.g. 'A save costs you nothing. To Instagram, it means one thing: show this to more people.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "All five notes from the last draft are settled. Cover/slide 1 now reads 'That's why you never go back.' Slide 6 says 'push this to more people.' Slide 8 is 'planning feels like doing. No sweat, no dishes.' Slide 9 is split into the thumb test and 'They're for the you who actually cooks.' No new hard failures came in with these edits.",
+     "Slide 6 (optional polish): 'it reads as one message' is still slightly written. 'To Instagram, it means one thing: push this to more people.' says the same thing more plainly. Change it only if the writer touches the slide again."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "varun": {
+    "pass": true,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 9",
+      "line": "Now try deleting the whole folder, every last reel in one go. Your thumb won't let you.",
+      "why": "over-explained; 'every last reel in one go' repeats 'whole folder' and slows the punch",
+      "try": "Now try deleting the whole folder. Your thumb won't let you."
+     }
+    ],
+    "best": "Your brain logs it as progress. Your kitchen never hears about it."
+   }
+  },
+  {
+   "attempt": 2,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not verify: 'About half of creators' reels of this kind end with the line 'Save this for later'.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Creators never end such reels with 'Make this tonight'.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Most people who save reels never open them again, treating the save as the whole plan.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'People typically scroll their saved grid for longer than a paneer tikka recipe takes to cook.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'A typical saved folder grows by a few reels every week.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Saving a reel gives a small dopamine hit to the person who saves it.",
+      "sentence": "That tap gives you a small dopamine hit.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Saving a reel makes the brain register the content as progress, which is why people feel they have done the thing and do not return to saved reels.",
+      "sentence": "Your brain logs it as progress. Your kitchen never hears about it.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "On Instagram, a save is read by the platform as a signal to push that reel to more people.",
+      "sentence": "To Instagram, it reads as one message: push this to more people.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Because saves boost distribution, creators make reels too big to act on in one go (lists of habits or places, fast recipes) and end them with 'Save this for later' rather than 'Make this tonight'.",
+      "sentence": "Creators make reels too big for one go: 7 habits, 10 places, a recipe too fast to follow. Half end with \"Save this for later.\" Never \"Make this tonight.\"",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "About half of creators' reels of this kind end with the line 'Save this for later'.",
+      "sentence": "Half end with \"Save this for later.\"",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Creators never end such reels with 'Make this tonight'.",
+      "sentence": "Never \"Make this tonight.\"",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "Most people who save reels never open them again, treating the save as the whole plan.",
+      "sentence": "You haven't opened one since. ... For most of us, it was the whole plan.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c8",
+      "text": "People typically scroll their saved grid for longer than a paneer tikka recipe takes to cook.",
+      "sentence": "You scroll that grid for longer than the paneer would take to cook.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c9",
+      "text": "A typical saved folder grows by a few reels every week.",
+      "sentence": "The folder keeps growing by a few reels every single week.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c10",
+      "text": "Instagram lets users delete an entire saved folder in one go.",
+      "sentence": "Now try deleting the whole folder, every last reel in one go.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "correct": "Saves are one of several engagement signals Instagram's ranking uses. Mosseri's named top three are watch time, likes per reach and sends per reach, so saves are a weaker signal than sends. The claim is directionally right.",
+      "sources": [
+       {
+        "url": "https://buffer.com/resources//instagram-algorithms/",
+        "publisher": "Buffer",
+        "published_date": "2026-01-01",
+        "quote": "The top three signals that matter most for ranking are watch time, likes and sends",
+        "tier": 3
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "unverifiable",
+      "correct": "I found no dataset on how often creators end reels with 'Save this for later'.",
+      "sources": []
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "unverifiable",
+      "correct": "I found no data on this. 'Never' is an absolute that can't be verified, and some creators almost certainly do use that line.",
+      "sources": []
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "unverifiable",
+      "correct": "The lead is expert commentary only, not a measured revisit rate. It says people save videos and links intending to return but never do.",
+      "sources": [
+       {
+        "url": "https://www.decodeinternet.in/decode/indias-internet-generation-is-overwhelmed-by-what-they-save-28974",
+        "publisher": "Decode (BOOM)",
+        "published_date": "2025-07-03",
+        "quote": "people save videos and links intending to return but never do",
+        "tier": 2
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "unverifiable",
+      "correct": "I found no data on how long people scroll their saved grid.",
+      "sources": []
+     },
+     "c9": {
+      "id": "c9",
+      "verdict": "unverifiable",
+      "correct": "I found no data on how fast a typical saved folder grows.",
+      "sources": []
+     },
+     "c10": {
+      "id": "c10",
+      "verdict": "supported",
+      "correct": "Instagram lets users delete a collection. The posts in it stay saved in 'All posts'. The default 'All posts' collection can't be deleted. This rests on a search summary of Instagram's Help Center page. The page did not load when I fetched it, so I could not quote its deletion wording.",
+      "sources": [
+       {
+        "url": "https://help.instagram.com/iphone-app/1524436600950937",
+        "publisher": "Instagram Help Center",
+        "published_date": "2026-01-01",
+        "quote": "After you create a collection on Instagram, you can:",
+        "tier": 1
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None of the premises fails. Premises 1 and 2 (the dopamine hit, the brain counting a save as progress) are pop-psychology generalizations about everyday life, not checkable claims about how a product works, so they are outside what I can falsify. Premise 3 holds with one correction. Instagram's own ranking documentation lists saves as a signal that can widen a post's reach. But slide 6 says a save sends 'one message: push this to more people', and that overstates it. A save is one input among several, and for Reels it is not one of the top predicted actions. Instagram names reshares, full watches, likes and audio-page visits as the main Reels predictions, and Mosseri has pointed to watch time, likes per reach and sends per reach as the key signals.",
+     "actual_mechanism": "Instagram ranks posts by predicting what each viewer is likely to do with them. Saving shows up in three places in its own explanation: it is one of the 'most important actions' predicted for Explore, which is how non-followers find posts; how fast a post is being saved counts toward its popularity in Feed; and your past saves shape what Reels shows you. For Reels, the main predictions are whether people will reshare it, watch it to the end, like it or open its audio page. Sends by DM have been emphasized most for reaching people who don't follow you. So 'Save this for later' is a sensible thing for creators to ask for, but a save is one boost among several, not the main thing that spreads a reel.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+       "published_date": "2023-05-31",
+       "quote": "The most important actions we predict in Explore include likes, saves, and shares."
+      },
+      {
+       "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+       "published_date": "2023-05-31",
+       "quote": "how quickly people are liking, commenting, sharing and saving a post"
+      },
+      {
+       "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+       "published_date": "2023-05-31",
+       "quote": "how likely you are to reshare a reel, watch a reel all the way through, like it, and go to the audio page"
+      },
+      {
+       "url": "https://searchenginejournal.com/instagram-algorithm-shift-why-sends-matter-more-than-ever/521389",
+       "published_date": "unknown",
+       "quote": "Secondary report of Mosseri calling sends per reach one of the most important signals used in ranking (paraphrase; this tool returned only the link, not the page text)"
+      }
+     ]
+    },
+    "text_hash": "a064e504f5944b6c77caac4f09ca33f357d8985d",
+    "at": "2026-11-12T12:40:34.403587+00:00"
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Could not verify: 'About half of creators' reels of this kind end with the line 'Save this for later'.'. Cut it, or state it only if a source says it.",
+    "Could not verify: 'Creators never end such reels with 'Make this tonight'.'. Cut it, or state it only if a source says it.",
+    "Could not verify: 'Most people who save reels never open them again, treating the save as the whole plan.'. Cut it, or state it only if a source says it.",
+    "Could not verify: 'People typically scroll their saved grid for longer than a paneer tikka recipe takes to cook.'. Cut it, or state it only if a source says it.",
+    "Could not verify: 'A typical saved folder grows by a few reels every week.'. Cut it, or state it only if a source says it."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 3
+    },
+    "notes": [
+     "All five fact-check notes are settled. The 'about half', 'Make this tonight', 'most people never open them', 'scroll longer than cooking' and 'grows every week' lines are gone. Slide 3 now carries the point as opinion ('It was the whole plan'), and slide 6 states the 'Save this for later' closer without a count. No new hard failures came in with the edits.",
+     "slide 2: 'You haven't opened one since.' leaves 'since' hanging, because no moment was named before it. Make it 'You haven't opened one since the day you saved it.' so the line lands on the first read.",
+     "slide 4: every detail in the post is something you see. You could add one thing you feel or hear: the small buzz of the bookmark icon filling in under your thumb. 'The icon fills in, your thumb gets a tiny buzz, and the recipe starts to feel like yours.' This makes the dopamine beat physical instead of a term."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "varun": {
+    "pass": true,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 8",
+      "line": "Because those reels aren't for you. They're for the version of you who has a free Sunday and actually cooks.",
+      "why": "over-explained close: 'Because' spells out the turn, and 'the version of you' is coach-speak",
+      "try": "Those reels belong to the you who has a free Sunday and actually cooks. You're just holding them for him."
+     }
+    ],
+    "best": "Dinner still comes from Swiggy."
+   }
+  },
+  {
+   "attempt": 3,
+   "verification": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "On Instagram, a save is read by the platform as a signal to push that reel to more people.",
+      "sentence": "To Instagram, it reads as one message: push this to more people.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Instagram lets users delete an entire saved folder in one go.",
+      "sentence": "Now try deleting the whole folder, every last reel in one go.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Mechanism: (1) saving a reel gives a small dopamine hit; (2) the brain registers the save as progress, as if the task were done; (3) so people feel they have acted on the recipe, workout or money tip and rarely open the saved reel again.",
+      "sentence": "The save was the reward, and your brain already counted it as done.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "On Instagram, a save is a signal that leads the platform to show a reel to more people.",
+      "sentence": "Saves push a reel to more people, which is why every creator ends with \"save this for later.\"",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c3",
+      "verdict": "supported",
+      "correct": "Saves are one of several engagement signals Instagram's ranking uses. Mosseri's named top three are watch time, likes per reach and sends per reach, so saves are a weaker signal than sends. The claim is directionally right.",
+      "sources": [
+       {
+        "url": "https://buffer.com/resources//instagram-algorithms/",
+        "publisher": "Buffer",
+        "published_date": "2026-01-01",
+        "quote": "The top three signals that matter most for ranking are watch time, likes and sends",
+        "tier": 3
+       }
+      ]
+     },
+     "c2": {
+      "id": "c10",
+      "verdict": "supported",
+      "correct": "Instagram lets users delete a collection. The posts in it stay saved in 'All posts'. The default 'All posts' collection can't be deleted. This rests on a search summary of Instagram's Help Center page. The page did not load when I fetched it, so I could not quote its deletion wording.",
+      "sources": [
+       {
+        "url": "https://help.instagram.com/iphone-app/1524436600950937",
+        "publisher": "Instagram Help Center",
+        "published_date": "2026-01-01",
+        "quote": "After you create a collection on Instagram, you can:",
+        "tier": 1
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "2023-05-31",
+      "correct": "Saves are an official Instagram ranking signal. Instagram names saves among the most important predicted actions for Explore, and a user's past saves feed Reels recommendations. Mosseri's top-three signals are watch time, likes and sends, so saves are a real but not the leading signal. Instagram does not publish exact weights.",
+      "sources": [
+       {
+        "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+        "publisher": "Instagram (Meta)",
+        "published_date": "2023-05-31",
+        "quote": "The most important actions we predict in Explore include likes, saves, and shares.",
+        "tier": 1
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None of the premises fails. Premises 1 and 2 (the dopamine hit, the brain counting a save as progress) are pop-psychology generalizations about everyday life, not checkable claims about how a product works, so they are outside what I can falsify. Premise 3 holds with one correction. Instagram's own ranking documentation lists saves as a signal that can widen a post's reach. But slide 6 says a save sends 'one message: push this to more people', and that overstates it. A save is one input among several, and for Reels it is not one of the top predicted actions. Instagram names reshares, full watches, likes and audio-page visits as the main Reels predictions, and Mosseri has pointed to watch time, likes per reach and sends per reach as the key signals.",
+     "actual_mechanism": "Instagram ranks posts by predicting what each viewer is likely to do with them. Saving shows up in three places in its own explanation: it is one of the 'most important actions' predicted for Explore, which is how non-followers find posts; how fast a post is being saved counts toward its popularity in Feed; and your past saves shape what Reels shows you. For Reels, the main predictions are whether people will reshare it, watch it to the end, like it or open its audio page. Sends by DM have been emphasized most for reaching people who don't follow you. So 'Save this for later' is a sensible thing for creators to ask for, but a save is one boost among several, not the main thing that spreads a reel.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+       "published_date": "2023-05-31",
+       "quote": "The most important actions we predict in Explore include likes, saves, and shares."
+      },
+      {
+       "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+       "published_date": "2023-05-31",
+       "quote": "how quickly people are liking, commenting, sharing and saving a post"
+      },
+      {
+       "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+       "published_date": "2023-05-31",
+       "quote": "how likely you are to reshare a reel, watch a reel all the way through, like it, and go to the audio page"
+      },
+      {
+       "url": "https://searchenginejournal.com/instagram-algorithm-shift-why-sends-matter-more-than-ever/521389",
+       "published_date": "unknown",
+       "quote": "Secondary report of Mosseri calling sends per reach one of the most important signals used in ranking (paraphrase; this tool returned only the link, not the page text)"
+      }
+     ]
+    },
+    "text_hash": "dd56e47e407dc630f46216577db12b0729e283d1",
+    "at": "2026-11-12T12:42:25.117234+00:00"
+   }
+  }
+ ],
+ "updated_at": "2026-11-12T12:42:39.455489+00:00",
+ "sources": [
+  {
+   "url": "https://www.decodeinternet.in/decode/indias-internet-generation-is-overwhelmed-by-what-they-save-28974",
+   "fact": "An Indian media explainer (originally on BOOM) quotes experts saying saving gives a brief dopamine reward and a sense of ownership, and that people save videos and links intending to return but never do. This is expert commentary, not a measured Indian survey of revisit rates.",
+   "excerpt": "Khoobi admitted she rarely revisited the content she saved online. | The act of saving provides a brief dopamine boost, reinforcing the hoarding cycle, | There's a deep-seated fear that if I don't save this now, I'll never find it again. | People save tasks, videos, or links intending to get to them later but never do, | these are all very psychologically engineered tools to create a sense of ownership",
+   "date": "2025-07-03"
+  }
+ ],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] Saving a reel feels like [doing the thing], so you never open it\nYour saved folder is a gym membership you never use.\n \n\n[slide 1] Saving a reel feels like doing the thing. That's why you never go back.\nSwipe to read →\n\n[slide 2] Open your saved folder right now. Paneer tikka in an air fryer. A 12-minute abs routine. \"How to invest your first salary.\" A trick to fold fitted sheets.\nYou haven't opened one since.\n\n[slide 3] We tell ourselves it's a library for later, and that one free Sunday we'll cook, train and sort our money properly.\nBut the save was never step one. It was the whole plan.\n\n[slide 4] That tap gives you a small dopamine hit. The recipe starts to feel like yours the second it lands in the folder.\nYour brain logs it as progress. Your kitchen never hears.\n\n[slide 5] A save costs you nothing. To Instagram, it reads as one message: push this to more people.\n\n[slide 6] Creators make reels too big for one go: 7 habits, 10 places, a recipe too fast to follow.\nAnd the last line is \"Save this for later.\"\n\n[slide 7] I get it. After a long day, planning feels like doing, with no sweat and no dishes.\nDinner still comes from Swiggy.\n\n[slide 8] Now try deleting the whole folder, every last reel in one go. Your thumb won't let you.\nBecause those reels aren't for you. They're for the version of you who has a free Sunday and actually cooks.\n\n[end card] Come back to this the next time your thumb hovers over the bookmark icon.\nSend to the friend with 400 saved recipes and a Swiggy order every night.\n\n[caption] Your saved reels folder isn't a to-do list. The save was the reward, and your brain already counted it as done.\n\nSaves push a reel to more people, which is why every creator ends with \"save this for later.\"\n\nRecipe saved, Swiggy ordered. Kal pakka banayenge.\n\nSend this to the friend with a folder full of saved recipes and a Swiggy order every night.\n\n[alt text] An eight-slide text post. It argues that saving Instagram reels gives the feeling of progress, so people rarely return to them. It lists typical saved reels like air fryer recipes, abs routines and money tips that never get opened again. It explains the small dopamine hit of saving, says a save tells Instagram to push a post to more people, so creators make reels too big to use in one go and end them with 'Save this for later'. It ends by asking the reader to try deleting the whole folder, and says the reels were really for the version of them who actually cooks.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "On Instagram, a save is read by the platform as a signal to push that reel to more people.",
+     "sentence": "To Instagram, it reads as one message: push this to more people.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "Instagram lets users delete an entire saved folder in one go.",
+     "sentence": "Now try deleting the whole folder, every last reel in one go.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c3",
+     "text": "Mechanism: (1) saving a reel gives a small dopamine hit; (2) the brain registers the save as progress, as if the task were done; (3) so people feel they have acted on the recipe, workout or money tip and rarely open the saved reel again.",
+     "sentence": "The save was the reward, and your brain already counted it as done.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c4",
+     "text": "On Instagram, a save is a signal that leads the platform to show a reel to more people.",
+     "sentence": "Saves push a reel to more people, which is why every creator ends with \"save this for later.\"",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "On Instagram, a save is read by the platform as a signal to push that reel to more people.": {
+   "id": "c3",
+   "verdict": "supported",
+   "correct": "Saves are one of several engagement signals Instagram's ranking uses. Mosseri's named top three are watch time, likes per reach and sends per reach, so saves are a weaker signal than sends. The claim is directionally right.",
+   "sources": [
+    {
+     "url": "https://buffer.com/resources//instagram-algorithms/",
+     "publisher": "Buffer",
+     "published_date": "2026-01-01",
+     "quote": "The top three signals that matter most for ranking are watch time, likes and sends",
+     "tier": 3
+    }
+   ]
+  },
+  "About half of creators' reels of this kind end with the line 'Save this for later'.": {
+   "id": "c5",
+   "verdict": "unverifiable",
+   "correct": "I found no dataset on how often creators end reels with 'Save this for later'.",
+   "sources": []
+  },
+  "Creators never end such reels with 'Make this tonight'.": {
+   "id": "c6",
+   "verdict": "unverifiable",
+   "correct": "I found no data on this. 'Never' is an absolute that can't be verified, and some creators almost certainly do use that line.",
+   "sources": []
+  },
+  "Most people who save reels never open them again, treating the save as the whole plan.": {
+   "id": "c7",
+   "verdict": "unverifiable",
+   "correct": "The lead is expert commentary only, not a measured revisit rate. It says people save videos and links intending to return but never do.",
+   "sources": [
+    {
+     "url": "https://www.decodeinternet.in/decode/indias-internet-generation-is-overwhelmed-by-what-they-save-28974",
+     "publisher": "Decode (BOOM)",
+     "published_date": "2025-07-03",
+     "quote": "people save videos and links intending to return but never do",
+     "tier": 2
+    }
+   ]
+  },
+  "People typically scroll their saved grid for longer than a paneer tikka recipe takes to cook.": {
+   "id": "c8",
+   "verdict": "unverifiable",
+   "correct": "I found no data on how long people scroll their saved grid.",
+   "sources": []
+  },
+  "A typical saved folder grows by a few reels every week.": {
+   "id": "c9",
+   "verdict": "unverifiable",
+   "correct": "I found no data on how fast a typical saved folder grows.",
+   "sources": []
+  },
+  "Instagram lets users delete an entire saved folder in one go.": {
+   "id": "c10",
+   "verdict": "supported",
+   "correct": "Instagram lets users delete a collection. The posts in it stay saved in 'All posts'. The default 'All posts' collection can't be deleted. This rests on a search summary of Instagram's Help Center page. The page did not load when I fetched it, so I could not quote its deletion wording.",
+   "sources": [
+    {
+     "url": "https://help.instagram.com/iphone-app/1524436600950937",
+     "publisher": "Instagram Help Center",
+     "published_date": "2026-01-01",
+     "quote": "After you create a collection on Instagram, you can:",
+     "tier": 1
+    }
+   ]
+  },
+  "_skeptic": {
+   "b81c217888f47cbbf25659d8db6c3f7c8f790ccb": {
+    "holds": true,
+    "broken_premise": "None of the premises fails. Premises 1 and 2 (the dopamine hit, the brain counting a save as progress) are pop-psychology generalizations about everyday life, not checkable claims about how a product works, so they are outside what I can falsify. Premise 3 holds with one correction. Instagram's own ranking documentation lists saves as a signal that can widen a post's reach. But slide 6 says a save sends 'one message: push this to more people', and that overstates it. A save is one input among several, and for Reels it is not one of the top predicted actions. Instagram names reshares, full watches, likes and audio-page visits as the main Reels predictions, and Mosseri has pointed to watch time, likes per reach and sends per reach as the key signals.",
+    "actual_mechanism": "Instagram ranks posts by predicting what each viewer is likely to do with them. Saving shows up in three places in its own explanation: it is one of the 'most important actions' predicted for Explore, which is how non-followers find posts; how fast a post is being saved counts toward its popularity in Feed; and your past saves shape what Reels shows you. For Reels, the main predictions are whether people will reshare it, watch it to the end, like it or open its audio page. Sends by DM have been emphasized most for reaching people who don't follow you. So 'Save this for later' is a sensible thing for creators to ask for, but a save is one boost among several, not the main thing that spreads a reel.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+      "published_date": "2023-05-31",
+      "quote": "The most important actions we predict in Explore include likes, saves, and shares."
+     },
+     {
+      "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+      "published_date": "2023-05-31",
+      "quote": "how quickly people are liking, commenting, sharing and saving a post"
+     },
+     {
+      "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+      "published_date": "2023-05-31",
+      "quote": "how likely you are to reshare a reel, watch a reel all the way through, like it, and go to the audio page"
+     },
+     {
+      "url": "https://searchenginejournal.com/instagram-algorithm-shift-why-sends-matter-more-than-ever/521389",
+      "published_date": "unknown",
+      "quote": "Secondary report of Mosseri calling sends per reach one of the most important signals used in ranking (paraphrase; this tool returned only the link, not the page text)"
+     }
+    ]
+   },
+   "e44f3a3670c8256d57bcf598980658c9e0720400": {
+    "holds": true,
+    "broken_premise": "None of the premises fails. Premises 1 and 2 (the dopamine hit, the brain counting a save as progress) are pop-psychology generalizations about everyday life, not checkable claims about how a product works, so they are outside what I can falsify. Premise 3 holds with one correction. Instagram's own ranking documentation lists saves as a signal that can widen a post's reach. But slide 6 says a save sends 'one message: push this to more people', and that overstates it. A save is one input among several, and for Reels it is not one of the top predicted actions. Instagram names reshares, full watches, likes and audio-page visits as the main Reels predictions, and Mosseri has pointed to watch time, likes per reach and sends per reach as the key signals.",
+    "actual_mechanism": "Instagram ranks posts by predicting what each viewer is likely to do with them. Saving shows up in three places in its own explanation: it is one of the 'most important actions' predicted for Explore, which is how non-followers find posts; how fast a post is being saved counts toward its popularity in Feed; and your past saves shape what Reels shows you. For Reels, the main predictions are whether people will reshare it, watch it to the end, like it or open its audio page. Sends by DM have been emphasized most for reaching people who don't follow you. So 'Save this for later' is a sensible thing for creators to ask for, but a save is one boost among several, not the main thing that spreads a reel.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+      "published_date": "2023-05-31",
+      "quote": "The most important actions we predict in Explore include likes, saves, and shares."
+     },
+     {
+      "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+      "published_date": "2023-05-31",
+      "quote": "how quickly people are liking, commenting, sharing and saving a post"
+     },
+     {
+      "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+      "published_date": "2023-05-31",
+      "quote": "how likely you are to reshare a reel, watch a reel all the way through, like it, and go to the audio page"
+     },
+     {
+      "url": "https://searchenginejournal.com/instagram-algorithm-shift-why-sends-matter-more-than-ever/521389",
+      "published_date": "unknown",
+      "quote": "Secondary report of Mosseri calling sends per reach one of the most important signals used in ranking (paraphrase; this tool returned only the link, not the page text)"
+     }
+    ]
+   }
+  },
+  "_skeptic_take": {
+   "9a35ba9830c8a54592b7b60b1b9834e7e5a9df3e": {
+    "holds": true,
+    "broken_premise": "None of the premises fails. Premises 1 and 2 (the dopamine hit, the brain counting a save as progress) are pop-psychology generalizations about everyday life, not checkable claims about how a product works, so they are outside what I can falsify. Premise 3 holds with one correction. Instagram's own ranking documentation lists saves as a signal that can widen a post's reach. But slide 6 says a save sends 'one message: push this to more people', and that overstates it. A save is one input among several, and for Reels it is not one of the top predicted actions. Instagram names reshares, full watches, likes and audio-page visits as the main Reels predictions, and Mosseri has pointed to watch time, likes per reach and sends per reach as the key signals.",
+    "actual_mechanism": "Instagram ranks posts by predicting what each viewer is likely to do with them. Saving shows up in three places in its own explanation: it is one of the 'most important actions' predicted for Explore, which is how non-followers find posts; how fast a post is being saved counts toward its popularity in Feed; and your past saves shape what Reels shows you. For Reels, the main predictions are whether people will reshare it, watch it to the end, like it or open its audio page. Sends by DM have been emphasized most for reaching people who don't follow you. So 'Save this for later' is a sensible thing for creators to ask for, but a save is one boost among several, not the main thing that spreads a reel.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+      "published_date": "2023-05-31",
+      "quote": "The most important actions we predict in Explore include likes, saves, and shares."
+     },
+     {
+      "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+      "published_date": "2023-05-31",
+      "quote": "how quickly people are liking, commenting, sharing and saving a post"
+     },
+     {
+      "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+      "published_date": "2023-05-31",
+      "quote": "how likely you are to reshare a reel, watch a reel all the way through, like it, and go to the audio page"
+     },
+     {
+      "url": "https://searchenginejournal.com/instagram-algorithm-shift-why-sends-matter-more-than-ever/521389",
+      "published_date": "unknown",
+      "quote": "Secondary report of Mosseri calling sends per reach one of the most important signals used in ranking (paraphrase; this tool returned only the link, not the page text)"
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "a064e504f5944b6c77caac4f09ca33f357d8985d": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not verify: 'About half of creators' reels of this kind end with the line 'Save this for later'.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Creators never end such reels with 'Make this tonight'.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Most people who save reels never open them again, treating the save as the whole plan.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'People typically scroll their saved grid for longer than a paneer tikka recipe takes to cook.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'A typical saved folder grows by a few reels every week.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Saving a reel gives a small dopamine hit to the person who saves it.",
+      "sentence": "That tap gives you a small dopamine hit.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Saving a reel makes the brain register the content as progress, which is why people feel they have done the thing and do not return to saved reels.",
+      "sentence": "Your brain logs it as progress. Your kitchen never hears about it.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "On Instagram, a save is read by the platform as a signal to push that reel to more people.",
+      "sentence": "To Instagram, it reads as one message: push this to more people.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Because saves boost distribution, creators make reels too big to act on in one go (lists of habits or places, fast recipes) and end them with 'Save this for later' rather than 'Make this tonight'.",
+      "sentence": "Creators make reels too big for one go: 7 habits, 10 places, a recipe too fast to follow. Half end with \"Save this for later.\" Never \"Make this tonight.\"",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "About half of creators' reels of this kind end with the line 'Save this for later'.",
+      "sentence": "Half end with \"Save this for later.\"",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Creators never end such reels with 'Make this tonight'.",
+      "sentence": "Never \"Make this tonight.\"",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "Most people who save reels never open them again, treating the save as the whole plan.",
+      "sentence": "You haven't opened one since. ... For most of us, it was the whole plan.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c8",
+      "text": "People typically scroll their saved grid for longer than a paneer tikka recipe takes to cook.",
+      "sentence": "You scroll that grid for longer than the paneer would take to cook.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c9",
+      "text": "A typical saved folder grows by a few reels every week.",
+      "sentence": "The folder keeps growing by a few reels every single week.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c10",
+      "text": "Instagram lets users delete an entire saved folder in one go.",
+      "sentence": "Now try deleting the whole folder, every last reel in one go.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "correct": "Saves are one of several engagement signals Instagram's ranking uses. Mosseri's named top three are watch time, likes per reach and sends per reach, so saves are a weaker signal than sends. The claim is directionally right.",
+      "sources": [
+       {
+        "url": "https://buffer.com/resources//instagram-algorithms/",
+        "publisher": "Buffer",
+        "published_date": "2026-01-01",
+        "quote": "The top three signals that matter most for ranking are watch time, likes and sends",
+        "tier": 3
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "unverifiable",
+      "correct": "I found no dataset on how often creators end reels with 'Save this for later'.",
+      "sources": []
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "unverifiable",
+      "correct": "I found no data on this. 'Never' is an absolute that can't be verified, and some creators almost certainly do use that line.",
+      "sources": []
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "unverifiable",
+      "correct": "The lead is expert commentary only, not a measured revisit rate. It says people save videos and links intending to return but never do.",
+      "sources": [
+       {
+        "url": "https://www.decodeinternet.in/decode/indias-internet-generation-is-overwhelmed-by-what-they-save-28974",
+        "publisher": "Decode (BOOM)",
+        "published_date": "2025-07-03",
+        "quote": "people save videos and links intending to return but never do",
+        "tier": 2
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "unverifiable",
+      "correct": "I found no data on how long people scroll their saved grid.",
+      "sources": []
+     },
+     "c9": {
+      "id": "c9",
+      "verdict": "unverifiable",
+      "correct": "I found no data on how fast a typical saved folder grows.",
+      "sources": []
+     },
+     "c10": {
+      "id": "c10",
+      "verdict": "supported",
+      "correct": "Instagram lets users delete a collection. The posts in it stay saved in 'All posts'. The default 'All posts' collection can't be deleted. This rests on a search summary of Instagram's Help Center page. The page did not load when I fetched it, so I could not quote its deletion wording.",
+      "sources": [
+       {
+        "url": "https://help.instagram.com/iphone-app/1524436600950937",
+        "publisher": "Instagram Help Center",
+        "published_date": "2026-01-01",
+        "quote": "After you create a collection on Instagram, you can:",
+        "tier": 1
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None of the premises fails. Premises 1 and 2 (the dopamine hit, the brain counting a save as progress) are pop-psychology generalizations about everyday life, not checkable claims about how a product works, so they are outside what I can falsify. Premise 3 holds with one correction. Instagram's own ranking documentation lists saves as a signal that can widen a post's reach. But slide 6 says a save sends 'one message: push this to more people', and that overstates it. A save is one input among several, and for Reels it is not one of the top predicted actions. Instagram names reshares, full watches, likes and audio-page visits as the main Reels predictions, and Mosseri has pointed to watch time, likes per reach and sends per reach as the key signals.",
+     "actual_mechanism": "Instagram ranks posts by predicting what each viewer is likely to do with them. Saving shows up in three places in its own explanation: it is one of the 'most important actions' predicted for Explore, which is how non-followers find posts; how fast a post is being saved counts toward its popularity in Feed; and your past saves shape what Reels shows you. For Reels, the main predictions are whether people will reshare it, watch it to the end, like it or open its audio page. Sends by DM have been emphasized most for reaching people who don't follow you. So 'Save this for later' is a sensible thing for creators to ask for, but a save is one boost among several, not the main thing that spreads a reel.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+       "published_date": "2023-05-31",
+       "quote": "The most important actions we predict in Explore include likes, saves, and shares."
+      },
+      {
+       "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+       "published_date": "2023-05-31",
+       "quote": "how quickly people are liking, commenting, sharing and saving a post"
+      },
+      {
+       "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+       "published_date": "2023-05-31",
+       "quote": "how likely you are to reshare a reel, watch a reel all the way through, like it, and go to the audio page"
+      },
+      {
+       "url": "https://searchenginejournal.com/instagram-algorithm-shift-why-sends-matter-more-than-ever/521389",
+       "published_date": "unknown",
+       "quote": "Secondary report of Mosseri calling sends per reach one of the most important signals used in ranking (paraphrase; this tool returned only the link, not the page text)"
+      }
+     ]
+    },
+    "text_hash": "a064e504f5944b6c77caac4f09ca33f357d8985d",
+    "at": "2026-11-12T12:40:34.403587+00:00"
+   },
+   "dd56e47e407dc630f46216577db12b0729e283d1": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "On Instagram, a save is read by the platform as a signal to push that reel to more people.",
+      "sentence": "To Instagram, it reads as one message: push this to more people.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Instagram lets users delete an entire saved folder in one go.",
+      "sentence": "Now try deleting the whole folder, every last reel in one go.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Mechanism: (1) saving a reel gives a small dopamine hit; (2) the brain registers the save as progress, as if the task were done; (3) so people feel they have acted on the recipe, workout or money tip and rarely open the saved reel again.",
+      "sentence": "The save was the reward, and your brain already counted it as done.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "On Instagram, a save is a signal that leads the platform to show a reel to more people.",
+      "sentence": "Saves push a reel to more people, which is why every creator ends with \"save this for later.\"",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c3",
+      "verdict": "supported",
+      "correct": "Saves are one of several engagement signals Instagram's ranking uses. Mosseri's named top three are watch time, likes per reach and sends per reach, so saves are a weaker signal than sends. The claim is directionally right.",
+      "sources": [
+       {
+        "url": "https://buffer.com/resources//instagram-algorithms/",
+        "publisher": "Buffer",
+        "published_date": "2026-01-01",
+        "quote": "The top three signals that matter most for ranking are watch time, likes and sends",
+        "tier": 3
+       }
+      ]
+     },
+     "c2": {
+      "id": "c10",
+      "verdict": "supported",
+      "correct": "Instagram lets users delete a collection. The posts in it stay saved in 'All posts'. The default 'All posts' collection can't be deleted. This rests on a search summary of Instagram's Help Center page. The page did not load when I fetched it, so I could not quote its deletion wording.",
+      "sources": [
+       {
+        "url": "https://help.instagram.com/iphone-app/1524436600950937",
+        "publisher": "Instagram Help Center",
+        "published_date": "2026-01-01",
+        "quote": "After you create a collection on Instagram, you can:",
+        "tier": 1
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "2023-05-31",
+      "correct": "Saves are an official Instagram ranking signal. Instagram names saves among the most important predicted actions for Explore, and a user's past saves feed Reels recommendations. Mosseri's top-three signals are watch time, likes and sends, so saves are a real but not the leading signal. Instagram does not publish exact weights.",
+      "sources": [
+       {
+        "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+        "publisher": "Instagram (Meta)",
+        "published_date": "2023-05-31",
+        "quote": "The most important actions we predict in Explore include likes, saves, and shares.",
+        "tier": 1
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None of the premises fails. Premises 1 and 2 (the dopamine hit, the brain counting a save as progress) are pop-psychology generalizations about everyday life, not checkable claims about how a product works, so they are outside what I can falsify. Premise 3 holds with one correction. Instagram's own ranking documentation lists saves as a signal that can widen a post's reach. But slide 6 says a save sends 'one message: push this to more people', and that overstates it. A save is one input among several, and for Reels it is not one of the top predicted actions. Instagram names reshares, full watches, likes and audio-page visits as the main Reels predictions, and Mosseri has pointed to watch time, likes per reach and sends per reach as the key signals.",
+     "actual_mechanism": "Instagram ranks posts by predicting what each viewer is likely to do with them. Saving shows up in three places in its own explanation: it is one of the 'most important actions' predicted for Explore, which is how non-followers find posts; how fast a post is being saved counts toward its popularity in Feed; and your past saves shape what Reels shows you. For Reels, the main predictions are whether people will reshare it, watch it to the end, like it or open its audio page. Sends by DM have been emphasized most for reaching people who don't follow you. So 'Save this for later' is a sensible thing for creators to ask for, but a save is one boost among several, not the main thing that spreads a reel.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+       "published_date": "2023-05-31",
+       "quote": "The most important actions we predict in Explore include likes, saves, and shares."
+      },
+      {
+       "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+       "published_date": "2023-05-31",
+       "quote": "how quickly people are liking, commenting, sharing and saving a post"
+      },
+      {
+       "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+       "published_date": "2023-05-31",
+       "quote": "how likely you are to reshare a reel, watch a reel all the way through, like it, and go to the audio page"
+      },
+      {
+       "url": "https://searchenginejournal.com/instagram-algorithm-shift-why-sends-matter-more-than-ever/521389",
+       "published_date": "unknown",
+       "quote": "Secondary report of Mosseri calling sends per reach one of the most important signals used in ranking (paraphrase; this tool returned only the link, not the page text)"
+      }
+     ]
+    },
+    "text_hash": "dd56e47e407dc630f46216577db12b0729e283d1",
+    "at": "2026-11-12T12:42:25.117234+00:00"
+   }
+  },
+  "On Instagram, a save is a signal that leads the platform to show a reel to more people.": {
+   "id": "c4",
+   "verdict": "supported",
+   "event_date": "2023-05-31",
+   "correct": "Saves are an official Instagram ranking signal. Instagram names saves among the most important predicted actions for Explore, and a user's past saves feed Reels recommendations. Mosseri's top-three signals are watch time, likes and sends, so saves are a real but not the leading signal. Instagram does not publish exact weights.",
+   "sources": [
+    {
+     "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+     "publisher": "Instagram (Meta)",
+     "published_date": "2023-05-31",
+     "quote": "The most important actions we predict in Explore include likes, saves, and shares.",
+     "tier": 1
+    }
+   ]
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "Saving a reel feels like [doing the thing], so you never open it",
+   "sub": "Your saved folder is a gym membership you never use."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Saving a reel feels like doing the thing. That's why you never go back.\nSwipe to read →"
+    ],
+    "why_swipe": "Wait, is that what my saved folder is?"
+   },
+   {
+    "paragraphs": [
+     "Open your saved folder right now. Paneer tikka in an air fryer. A 12-minute abs routine. \"How to invest your first salary.\" A trick to fold fitted sheets.",
+     "You haven't opened one since."
+    ],
+    "why_swipe": "Caught. So why do I keep saving them?"
+   },
+   {
+    "paragraphs": [
+     "We tell ourselves it's a library for later, and that one free Sunday we'll cook, train and sort our money properly.",
+     "But the save was never step one. It was the whole plan."
+    ],
+    "why_swipe": "How can a tap feel like a plan?"
+   },
+   {
+    "paragraphs": [
+     "That tap gives you a small dopamine hit. The recipe starts to feel like yours the second it lands in the folder.",
+     "Your brain logs it as progress. Your kitchen never hears."
+    ],
+    "why_swipe": "Then who gains from all this saving?"
+   },
+   {
+    "paragraphs": [
+     "A save costs you nothing. To Instagram, it reads as one message: push this to more people."
+    ],
+    "why_swipe": "So what do creators do with that?"
+   },
+   {
+    "paragraphs": [
+     "Creators make reels too big for one go: 7 habits, 10 places, a recipe too fast to follow.",
+     "And the last line is \"Save this for later.\""
+    ],
+    "why_swipe": "So is it my fault or theirs?"
+   },
+   {
+    "paragraphs": [
+     "I get it. After a long day, planning feels like doing, with no sweat and no dishes.",
+     "Dinner still comes from Swiggy."
+    ],
+    "why_swipe": "So how do I know if this is me?"
+   },
+   {
+    "paragraphs": [
+     "Now try deleting the whole folder, every last reel in one go. Your thumb won't let you.",
+     "Because those reels aren't for you. They're for the version of you who has a free Sunday and actually cooks."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Come back to this the next time your thumb hovers over the bookmark icon.",
+   "send": "Send to the friend with 400 saved recipes and a Swiggy order every night.",
+   "promise": "How the internet really works on us."
+  },
+  "alt_text": "An eight-slide text post. It argues that saving Instagram reels gives the feeling of progress, so people rarely return to them. It lists typical saved reels like air fryer recipes, abs routines and money tips that never get opened again. It explains the small dopamine hit of saving, says a save tells Instagram to push a post to more people, so creators make reels too big to use in one go and end them with 'Save this for later'. It ends by asking the reader to try deleting the whole folder, and says the reels were really for the version of them who actually cooks.",
+  "claims": [
+   {
+    "text": "Saving content gives a small dopamine hit and a sense of ownership.",
+    "source_url": "https://www.decodeinternet.in/decode/indias-internet-generation-is-overwhelmed-by-what-they-save-28974"
+   },
+   {
+    "text": "On Instagram, a save signals the platform to push the post to more people, so saves boost a post's reach.",
+    "source_url": "topic"
+   },
+   {
+    "text": "'Save this for later' is a common closing line on creators' reels.",
+    "source_url": "topic"
+   }
+  ],
+  "caption": "Your saved reels folder isn't a to-do list. The save was the reward, and your brain already counted it as done.\n\nSaves push a reel to more people, which is why every creator ends with \"save this for later.\"\n\nRecipe saved, Swiggy ordered. Kal pakka banayenge.\n\nSend this to the friend with a folder full of saved recipes and a Swiggy order every night.",
+  "hashtags": [
+   "#InstagramReels",
+   "#CreatorEconomy"
+  ],
+  "caption_style": "send",
+  "search_phrase": "saved reels folder",
+  "caption_v": 2
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "On Instagram, a save is read by the platform as a signal to push that reel to more people.",
+    "sentence": "To Instagram, it reads as one message: push this to more people.",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "Instagram lets users delete an entire saved folder in one go.",
+    "sentence": "Now try deleting the whole folder, every last reel in one go.",
+    "type": "feature",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c3",
+    "text": "Mechanism: (1) saving a reel gives a small dopamine hit; (2) the brain registers the save as progress, as if the task were done; (3) so people feel they have acted on the recipe, workout or money tip and rarely open the saved reel again.",
+    "sentence": "The save was the reward, and your brain already counted it as done.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c4",
+    "text": "On Instagram, a save is a signal that leads the platform to show a reel to more people.",
+    "sentence": "Saves push a reel to more people, which is why every creator ends with \"save this for later.\"",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c1": {
+    "id": "c3",
+    "verdict": "supported",
+    "correct": "Saves are one of several engagement signals Instagram's ranking uses. Mosseri's named top three are watch time, likes per reach and sends per reach, so saves are a weaker signal than sends. The claim is directionally right.",
+    "sources": [
+     {
+      "url": "https://buffer.com/resources//instagram-algorithms/",
+      "publisher": "Buffer",
+      "published_date": "2026-01-01",
+      "quote": "The top three signals that matter most for ranking are watch time, likes and sends",
+      "tier": 3
+     }
+    ]
+   },
+   "c2": {
+    "id": "c10",
+    "verdict": "supported",
+    "correct": "Instagram lets users delete a collection. The posts in it stay saved in 'All posts'. The default 'All posts' collection can't be deleted. This rests on a search summary of Instagram's Help Center page. The page did not load when I fetched it, so I could not quote its deletion wording.",
+    "sources": [
+     {
+      "url": "https://help.instagram.com/iphone-app/1524436600950937",
+      "publisher": "Instagram Help Center",
+      "published_date": "2026-01-01",
+      "quote": "After you create a collection on Instagram, you can:",
+      "tier": 1
+     }
+    ]
+   },
+   "c4": {
+    "id": "c4",
+    "verdict": "supported",
+    "event_date": "2023-05-31",
+    "correct": "Saves are an official Instagram ranking signal. Instagram names saves among the most important predicted actions for Explore, and a user's past saves feed Reels recommendations. Mosseri's top-three signals are watch time, likes and sends, so saves are a real but not the leading signal. Instagram does not publish exact weights.",
+    "sources": [
+     {
+      "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+      "publisher": "Instagram (Meta)",
+      "published_date": "2023-05-31",
+      "quote": "The most important actions we predict in Explore include likes, saves, and shares.",
+      "tier": 1
+     }
+    ]
+   }
+  },
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "None of the premises fails. Premises 1 and 2 (the dopamine hit, the brain counting a save as progress) are pop-psychology generalizations about everyday life, not checkable claims about how a product works, so they are outside what I can falsify. Premise 3 holds with one correction. Instagram's own ranking documentation lists saves as a signal that can widen a post's reach. But slide 6 says a save sends 'one message: push this to more people', and that overstates it. A save is one input among several, and for Reels it is not one of the top predicted actions. Instagram names reshares, full watches, likes and audio-page visits as the main Reels predictions, and Mosseri has pointed to watch time, likes per reach and sends per reach as the key signals.",
+   "actual_mechanism": "Instagram ranks posts by predicting what each viewer is likely to do with them. Saving shows up in three places in its own explanation: it is one of the 'most important actions' predicted for Explore, which is how non-followers find posts; how fast a post is being saved counts toward its popularity in Feed; and your past saves shape what Reels shows you. For Reels, the main predictions are whether people will reshare it, watch it to the end, like it or open its audio page. Sends by DM have been emphasized most for reaching people who don't follow you. So 'Save this for later' is a sensible thing for creators to ask for, but a save is one boost among several, not the main thing that spreads a reel.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+     "published_date": "2023-05-31",
+     "quote": "The most important actions we predict in Explore include likes, saves, and shares."
+    },
+    {
+     "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+     "published_date": "2023-05-31",
+     "quote": "how quickly people are liking, commenting, sharing and saving a post"
+    },
+    {
+     "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+     "published_date": "2023-05-31",
+     "quote": "how likely you are to reshare a reel, watch a reel all the way through, like it, and go to the audio page"
+    },
+    {
+     "url": "https://searchenginejournal.com/instagram-algorithm-shift-why-sends-matter-more-than-ever/521389",
+     "published_date": "unknown",
+     "quote": "Secondary report of Mosseri calling sends per reach one of the most important signals used in ranking (paraphrase; this tool returned only the link, not the page text)"
+    }
+   ]
+  },
+  "text_hash": "dd56e47e407dc630f46216577db12b0729e283d1",
+  "at": "2026-11-12T12:42:25.117234+00:00"
+ },
+ "varun": {
+  "pass": true,
+  "score": 4,
+  "misses": [
+   {
+    "where": "slide 8",
+    "line": "Because those reels aren't for you. They're for the version of you who has a free Sunday and actually cooks.",
+    "why": "over-explained close: 'Because' spells out the turn, and 'the version of you' is coach-speak",
+    "try": "Those reels belong to the you who has a free Sunday and actually cooks. You're just holding them for him."
+   }
+  ],
+  "best": "Dinner still comes from Swiggy.",
+  "passed": true,
+  "text_hash": "dd56e47e407dc630f46216577db12b0729e283d1"
+ },
+ "alt_texts": [
+  "Saving a reel feels like doing the thing. That's why you never go back.\nSwipe to read →",
+  "Open your saved folder right now. Paneer tikka in an air fryer. A 12-minute abs routine. \"How to invest your first salary.\" A trick to fold fitted sheets. You haven't opened one since.",
+  "We tell ourselves it's a library for later, and that one free Sunday we'll cook, train and sort our money properly. But the save was never step one. It was the whole plan.",
+  "That tap gives you a small dopamine hit. The recipe starts to feel like yours the second it lands in the folder. Your brain logs it as progress. Your kitchen never hears.",
+  "A save costs you nothing. To Instagram, it reads as one message: push this to more people.",
+  "Creators make reels too big for one go: 7 habits, 10 places, a recipe too fast to follow. And the last line is \"Save this for later.\"",
+  "I get it. After a long day, planning feels like doing, with no sweat and no dishes. Dinner still comes from Swiggy.",
+  "Now try deleting the whole folder, every last reel in one go. Your thumb won't let you. Because those reels aren't for you. They're for the version of you who has a free Sunday and actually cooks."
+ ],
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-149/slide_01.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-149/slide_02.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-149/slide_03.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-149/slide_04.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-149/slide_05.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-149/slide_06.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-149/slide_07.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-149/slide_08.jpg"
+ ]
 }

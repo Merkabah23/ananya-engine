@@ -1,6 +1,6 @@
 {
  "id": "2026-11-146",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-24T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -43,6 +43,1580 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-11-10T17:17:08.388287+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Dead slide (7), slide 3: \"Look around and you'll see it everywhere.\" This one-line slide adds no example, consequence or feeling. It is also stock scaffolding that only announces the list on slide 4."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 4,
+     "tight": 2,
+     "informative": 3
+    },
+    "notes": [
+     "slide 3: Cut \"Look around and you'll see it everywhere.\" Open slide 4's list straight away so the examples land right after the pheras scene. A one-line slide that only announces a list breaks the pull and reads as template.",
+     "slides 6-7: Merge these into one slide. \"It makes sense once you see who the audience is\" is scaffolding, and slide 6 is half a thought. Say it once, concretely: the hall holds the guests for one evening, while the film plays on the family WhatsApp group and every cousin's phone for years. That makes the because land in one beat instead of being set up and then delivered.",
+     "slide 5: This is where the insider detail should go, and the sources give you one. Manyavar's guide tells couples to set aside at least an hour just for couple portraits in the day's timeline. Put that next to the pandit's \"time slot\" so the reader sees the camera gets a block of the day written in, while the ritual gets squeezed around it. Keep \"Guess whose schedule wins.\" as the punch after it.",
+     "slide 2: Every detail here is visual. Add one detail the reader can feel during the retake, for example the heat of the havan fire on the couple's faces while they hold the pose, or the dhol going quiet while everyone waits. It would make the \"guest at a film shoot\" feeling physical and add to the comedy.",
+     "slide 4: Sharpen the list item \"guests get asked to lower their phones\" so its irony is visible. The guests are told to put their cameras down so the paid camera owns the shot. As written, it reads like a neutral courtesy, not proof that the footage outranks the people in the room."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "cut_slides": [
+    3
+   ],
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 3
+    },
+    "notes": [
+     "The earlier note is settled. The dead slide 'Look around and you'll see it everywhere.' was cut. The list now sits on slide 3, straight after the phera scene on slide 2, and that jump reads cleanly with no lead-in needed. Nothing else needs changing."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "varun": {
+    "pass": false,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 5",
+      "line": "It makes sense once you see who the audience is. The wedding happens once, for whoever fits in the hall.",
+      "why": "essay setup, explains before landing",
+      "try": "The wedding happens once. For whoever fits in the hall."
+     },
+     {
+      "where": "slide 7",
+      "line": "The one catch is the couple. They barely remember the day. They were busy hitting their marks.",
+      "why": "stiff, written phrasing",
+      "try": "Only problem? The couple barely remembers the day. They were busy hitting their marks."
+     }
+    ],
+    "best": "The pandit gets an envelope and a time slot. The camera crew gets a quote in lakhs and all three days."
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Not Varun (slide 5): 'It makes sense once you see who the audience is. The wedding happens once, for whoever fits in the hall.' reads as essay setup, explains before landing. Say it the way he would, e.g. 'The wedding happens once. For whoever fits in the hall.' (his register, your words, same facts).",
+    "Not Varun (slide 7): 'The one catch is the couple. They barely remember the day. They were busy hitting their marks.' reads as stiff, written phrasing. Say it the way he would, e.g. 'Only problem? The couple barely remembers the day. They were busy hitting their marks.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 3
+    },
+    "notes": [
+     "slide 5: Mostly settled. 'The wedding happens once. For whoever fits in the hall.' now lands in his register. 'Look at who the audience is.' is still a small setup line that announces the point before making it. Optional fix: cut it so the slide opens straight on 'The wedding happens once.'",
+     "slide 7: Settled. 'Only problem? The couple barely remembers the day. They were too busy hitting their marks.' reads like him talking. No further change needed."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "varun": {
+    "pass": true,
+    "score": 5,
+    "misses": [],
+    "best": "the varmala happens twice, once for real, once for the drone"
+   }
+  },
+  {
+   "attempt": 1,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not verify: 'Indian weddings did not always run on the photographer's schedule; this is a recent shift.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Haldi ceremonies are commonly rescheduled to golden hour for photography.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'The varmala exchange is commonly staged twice, once for real and once for a drone shot.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Guests at weddings are commonly asked to lower their phones for the photographers.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Candid shots at weddings are commonly restaged over several takes.'. Cut it, or state it only if a source says it.",
+     "Wrong: 'Couples commonly book the photography team before the caterer, and sometimes before the venue.'. What's true: Planning guides mostly advise booking the venue first, then the caterer and photographer. Some say to book the photographer early because popular ones fill up. Neither supports photographers commonly being booked before the caterer or venue..",
+     "Could not verify: 'Pandits are typically paid an envelope and given a time slot, while camera crews are typically quoted in lakhs and booked for all three days.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Relatives who miss the wedding judge it from roughly three minutes of video on a phone.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Indian weddings are now scheduled around the photographer's needs, so the photographer outranks the pandit in running the day.",
+      "sentence": "Indian weddings now run on the photographer's clock, because the album outlives the mandap.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c2",
+      "text": "Premise: a wedding happens once, for only as many people as fit in the hall.",
+      "sentence": "The wedding happens once. For whoever fits in the hall.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Premise: the wedding film or reel is watched for years by many more people than attend, including relatives who missed the wedding, who judge it from a short video on a phone.",
+      "sentence": "The film plays for years. On the family WhatsApp group, on every cousin's phone, every time someone asks to see it.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Conclusion: because the film reaches more people than the hall holds, families plan the day around light and angles and fit the rituals in between.",
+      "sentence": "So the day gets built around light and angles, and the rituals fit in between.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Indian weddings did not always run on the photographer's schedule; this is a recent shift.",
+      "sentence": "Indian weddings now run on the photographer's clock",
+      "type": "event",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c6",
+      "text": "Haldi ceremonies are commonly rescheduled to golden hour for photography.",
+      "sentence": "the haldi gets moved to golden hour",
+      "type": "event",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "The varmala exchange is commonly staged twice, once for real and once for a drone shot.",
+      "sentence": "the varmala happens twice, once for real, once for the drone",
+      "type": "event",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c8",
+      "text": "Guests at weddings are commonly asked to lower their phones for the photographers.",
+      "sentence": "guests get asked to lower their phones",
+      "type": "event",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c9",
+      "text": "Candid shots at weddings are commonly restaged over several takes.",
+      "sentence": "the \"candid\" laugh is on its third take",
+      "type": "event",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c10",
+      "text": "Couples commonly book the photography team before the caterer, and sometimes before the venue.",
+      "sentence": "The photo team gets booked first, before the caterer, sometimes before the venue.",
+      "type": "event",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c11",
+      "text": "Pandits are typically paid an envelope and given a time slot, while camera crews are typically quoted in lakhs and booked for all three days.",
+      "sentence": "The pandit gets an envelope and a time slot. The camera crew gets a quote in lakhs and all three days.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c12",
+      "text": "In practice the photographer's schedule wins over the pandit's when the two conflict.",
+      "sentence": "Guess whose schedule wins.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c13",
+      "text": "Couples barely remember their wedding day because they are busy hitting photographers' marks.",
+      "sentence": "The couple barely remembers the day. They were too busy hitting their marks.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c14",
+      "text": "Relatives who miss the wedding judge it from roughly three minutes of video on a phone.",
+      "sentence": "Their verdict comes from three minutes on a phone.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c5": {
+      "id": "c5",
+      "verdict": "unverifiable",
+      "correct": "No reliable source dates a recent shift toward weddings running on the photographer's schedule. Planning guides only advise building photo time into the timeline.",
+      "sources": [
+       {
+        "url": "https://www.manyavar.com/en-in/blog-ultimate-guide-wedding-photographer-videographer-india.html",
+        "publisher": "Manyavar",
+        "published_date": "2025-04-04",
+        "quote": "leave ample time for photos in the day's timeline, with at least an hour for couple portraits",
+        "tier": 3
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "unverifiable",
+      "correct": "Guides advise scheduling portraits and drone shots at golden hour. No source shows haldi ceremonies are commonly moved to golden hour.",
+      "sources": [
+       {
+        "url": "https://www.bridestoday.in/weddings-planning/story/how-to-use-drone-photography-to-capture-stunning-wedding-moments-1181710-2025-03-11",
+        "publisher": "Brides Today",
+        "published_date": "2025-03-11",
+        "quote": "scheduling wedding drone shots at golden hour and coordinating with the planner",
+        "tier": 3
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "unverifiable",
+      "correct": "No reliable source says the varmala is commonly staged twice for a drone shot.",
+      "sources": []
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "unverifiable",
+      "correct": "No reliable source says guests are commonly asked to lower their phones for the photographers.",
+      "sources": []
+     },
+     "c9": {
+      "id": "c9",
+      "verdict": "unverifiable",
+      "correct": "A Kolkata piece describes one shoot with orchestrated poses and repeated takes. No source shows candid shots are commonly restaged.",
+      "sources": [
+       {
+        "url": "https://obeta.ttef.in/my-kolkata/news/the-wedding-shoot/cid/2000937",
+        "publisher": "The Telegraph (Kolkata)",
+        "published_date": "",
+        "quote": "",
+        "tier": 2
+       }
+      ]
+     },
+     "c10": {
+      "id": "c10",
+      "verdict": "contradicted",
+      "correct": "Planning guides mostly advise booking the venue first, then the caterer and photographer. Some say to book the photographer early because popular ones fill up. Neither supports photographers commonly being booked before the caterer or venue.",
+      "sources": [
+       {
+        "url": "https://www.weddingwire.in/wedding-tips/choosing-your-wedding-photographer--c11515",
+        "publisher": "WeddingWire India",
+        "published_date": "",
+        "quote": "venue as the first booking, since it sets the location and other decisions before you start looking for a photographer",
+        "tier": 3
+       }
+      ]
+     },
+     "c11": {
+      "id": "c11",
+      "verdict": "unverifiable",
+      "correct": "Photography packages are quoted in lakhs at the premium end (about ₹3–5 lakh in Gurgaon). No source covers pandit payment or crews being booked for all three days.",
+      "sources": []
+     },
+     "c14": {
+      "id": "c14",
+      "verdict": "unverifiable",
+      "correct": "No source gives a figure for how much video relatives who miss the wedding watch.",
+      "sources": []
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. Most of the post is cultural reading and opinion: the photographer 'outranking' the pandit, rituals fitting around light, couples barely remembering the day. Those are interpretations, not claims I can check. The factual claims it relies on are plausible and match vendor sources. The photographer is often one of the first vendors booked, popular dates go 9–18 months ahead, and multi-day coverage is commonly priced from about ₹1 lakh to ₹10–15 lakh in metros. I found no source showing it is false that photographers are 'sometimes booked before the venue.' Two caveats. First, 'a quote in lakhs' fits mid-to-premium teams, while solo photographers can charge ₹30,000–60,000. Second, venues can limit crews and equipment, so the photographer's schedule doesn't always win.",
+     "actual_mechanism": "Wedding photo and video teams price by team size, number of event days (haldi, mehendi, sangeet, wedding, reception), drones and album or film deliverables. That's why multi-day coverage often costs lakhs. Good teams fill peak muhurat dates 9–18 months ahead, which pushes couples to lock them in early, sometimes before other vendors. How much the shoot shapes the day is down to each family and the planner. The pandit's muhurat and the venue's rules still set the outer limits.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.weddingbazaar.com/wedding-photographers-in-mumbai",
+       "published_date": "unknown",
+       "quote": "The starting range of wedding photographer in Mumbai for 2 day function is generally 1 lakh and it goes up to 10-15 lakhs."
+      },
+      {
+       "url": "https://impresiostudio.mypixieset.com/blog/wedding-photography-cost-in-delhi-a-complete-2026-pricing-guide/",
+       "published_date": "2026",
+       "quote": "Solo Photographer: ₹30,000 – ₹60,000 Photographer + Assistant: ₹50,000 – ₹1,00,000"
+      },
+      {
+       "url": "https://resident.com/art-and-culture-resources/2026/10/22/luxury-wedding-photography-in-india-what-to-expect-from-palace-and-destination-weddings",
+       "published_date": "2026-10-22",
+       "quote": "some venues require advance approval for equipment or additional crew, so your photographer should confirm these with the venue well before the event"
+      },
+      {
+       "url": "https://www.finnable.com/finn-advice/photographer-wedding-cost/",
+       "published_date": "unknown",
+       "quote": "most professional photographers book popular wedding dates anywhere from 9 – 18 months in advance"
+      }
+     ]
+    },
+    "text_hash": "2e8f08480ffab0a51c5486203fecb084d22be60c",
+    "at": "2026-11-12T12:39:34.887450+00:00"
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Could not verify: 'Indian weddings did not always run on the photographer's schedule; this is a recent shift.'. Cut it, or state it only if a source says it.",
+    "Could not verify: 'Haldi ceremonies are commonly rescheduled to golden hour for photography.'. Cut it, or state it only if a source says it.",
+    "Could not verify: 'The varmala exchange is commonly staged twice, once for real and once for a drone shot.'. Cut it, or state it only if a source says it.",
+    "Could not verify: 'Guests at weddings are commonly asked to lower their phones for the photographers.'. Cut it, or state it only if a source says it.",
+    "Could not verify: 'Candid shots at weddings are commonly restaged over several takes.'. Cut it, or state it only if a source says it.",
+    "Wrong: 'Couples commonly book the photography team before the caterer, and sometimes before the venue.'. What's true: Planning guides mostly advise booking the venue first, then the caterer and photographer. Some say to book the photographer early because popular ones fill up. Neither supports photographers commonly being booked before the caterer or venue..",
+    "Could not verify: 'Pandits are typically paid an envelope and given a time slot, while camera crews are typically quoted in lakhs and booked for all three days.'. Cut it, or state it only if a source says it.",
+    "Could not verify: 'Relatives who miss the wedding judge it from roughly three minutes of video on a phone.'. Cut it, or state it only if a source says it."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 3
+    },
+    "notes": [
+     "All eight fact-check notes are settled. The unverifiable claims are gone: the recent shift, haldi at golden hour, the double varmala, phones lowered, restaged candids, booking order, the envelope vs lakhs comparison and the three-minute judgement. The only numbers left are the guide figures on slide 3, and those match the Manyavar and Brides Today sources. Keep slide 3 exactly as it is: 'at least an hour', 'Thirty minutes per group shot', golden hour and the family warning all stay within what the sources say.",
+     "slide 2: every detail so far is something you see. Add one sound to make the shoot feel physical, for example the drone humming over the havan while the pandit waits. Drones at weddings are already in the sources, so this adds no new claim.",
+     "slide 6: 'They were too busy hitting their marks' uses film-set slang that some readers may not catch on the first read. A plainer version keeps the joke: 'They were too busy standing where the camera told them to.'"
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "varun": {
+    "pass": false,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 6",
+      "line": "And it isn't vanity. For every relative who couldn't make it, the reel is the wedding.",
+      "why": "answers a vanity question the reader never saw; the 'And' dangles",
+      "try": "It's not even vanity. For every relative who couldn't make it, the reel is the wedding."
+     },
+     {
+      "where": "slide 2",
+      "line": "The whole mandap waits. Two hundred guests, the sacred fire, the muhurat everyone fought over. And everyone smiles like this is normal.",
+      "why": "triple list plus stiff 'sacred fire'; narrates the scene instead of landing it",
+      "try": "Two hundred guests, the fire, a muhurat the family fought over. All on hold for a retake. Nobody even blinks."
+     },
+     {
+      "where": "slide 4",
+      "line": "Look at who the audience is. The wedding happens once. For whoever fits in the hall.",
+      "why": "stiff, lecture-ish opener",
+      "try": "Think about who it's actually for. The wedding happens once, for whoever fits in the hall."
+     }
+    ],
+    "best": "Guess whose schedule wins."
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Not Varun (slide 6): 'And it isn't vanity. For every relative who couldn't make it, the reel is the wedding.' reads as answers a vanity question the reader never saw; the 'And' dangles. Say it the way he would, e.g. 'It's not even vanity. For every relative who couldn't make it, the reel is the wedding.' (his register, your words, same facts).",
+    "Not Varun (slide 2): 'The whole mandap waits. Two hundred guests, the sacred fire, the muhurat everyone fought over. And everyone smiles like this is normal.' reads as triple list plus stiff 'sacred fire'; narrates the scene instead of landing it. Say it the way he would, e.g. 'Two hundred guests, the fire, a muhurat the family fought over. All on hold for a retake. Nobody even blinks.' (his register, your words, same facts).",
+    "Not Varun (slide 4): 'Look at who the audience is. The wedding happens once. For whoever fits in the hall.' reads as stiff, lecture-ish opener. Say it the way he would, e.g. 'Think about who it's actually for. The wedding happens once, for whoever fits in the hall.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "All three notes are settled. Slide 2 now lands the scene: 'Two hundred guests and a muhurat the family fought over, all on hold for a retake. Nobody even blinks.' Slide 4 opens plainly: 'Think about who the day is really for.' Slide 6 answers the vanity question that slide 5 sets up: 'It's not even vanity.' The edits created no new hard failure and no repeated slide.",
+     "slide 6 (optional, small): 'Only problem?' is a mini question-hook inside a slide. If the writer touches this slide again, state it outright, e.g. 'The only catch: the couple barely remembers the day. They were too busy hitting their marks.' This is not blocking."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "varun": {
+    "pass": true,
+    "score": 5,
+    "misses": [],
+    "best": "It's not even vanity. For every relative who couldn't make it, the reel is the wedding."
+   }
+  },
+  {
+   "attempt": 3,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not verify: 'At Indian weddings the pandit's rituals, including the pheras, are paused so the camera team can retake shots, with the guests and the muhurat waiting.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Indian weddings are now scheduled around the photographer's timeline, with rituals fitted in around photo and video needs.",
+      "sentence": "Indian weddings run on the photographer's clock, because the album outlives the mandap.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Wedding guides for Indian weddings advise allowing at least an hour for couple portraits.",
+      "sentence": "At least an hour for couple portraits.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Wedding guides advise allowing about thirty minutes per group shot.",
+      "sentence": "Thirty minutes per group shot.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Wedding guides advise scheduling drone shots at golden hour and warning the family where not to stand.",
+      "sentence": "Drones at golden hour, and the family warned where not to stand.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "At Indian weddings the pandit's rituals, including the pheras, are paused so the camera team can retake shots, with the guests and the muhurat waiting.",
+      "sentence": "Two hundred guests and a muhurat the family fought over, all on hold for a retake.",
+      "type": "event",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Wedding guides explicitly set out photographer scheduling needs (portrait time, group shot time, drones, where family should stand) as part of planning the wedding day.",
+      "sentence": "The wedding guides spell it out.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "Wedding films and reels reach more people than attend the wedding hall, and are replayed for years on family WhatsApp groups and phones.",
+      "sentence": "The pheras wait for the wedding photographer now, because the reel reaches more people than the hall.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c8",
+      "text": "Couples barely remember their wedding day because they are busy hitting photo marks.",
+      "sentence": "They were too busy hitting their marks.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c9",
+      "text": "Mechanism: The wedding film/album lasts for years and reaches far more people than those in the hall; so planners and families build the day around light and angles, and rituals like the pheras wait for the photographer rather than the pandit.",
+      "sentence": "So the day gets built around light and angles, and the rituals fit in between.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "correct": "",
+      "sources": [
+       {
+        "url": "https://www.manyavar.com/en-in/blog-ultimate-guide-wedding-photographer-videographer-india.html",
+        "publisher": "Manyavar",
+        "published_date": "2025-04-04",
+        "quote": "Ideally, allocate at least an hour for couple portraits and 30 minutes per group shot.",
+        "tier": 3
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "correct": "",
+      "sources": [
+       {
+        "url": "https://www.manyavar.com/en-in/blog-ultimate-guide-wedding-photographer-videographer-india.html",
+        "publisher": "Manyavar",
+        "published_date": "2025-04-04",
+        "quote": "Ideally, allocate at least an hour for couple portraits and 30 minutes per group shot.",
+        "tier": 3
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "correct": "",
+      "sources": [
+       {
+        "url": "https://www.bridestoday.in/weddings-planning/story/how-to-use-drone-photography-to-capture-stunning-wedding-moments-1181710-2025-03-11",
+        "publisher": "Brides Today",
+        "published_date": "2025-03-11",
+        "quote": "Scheduling drone shots during ideal lighting conditions, like the golden hour, ensures the most flattering results. ... Informing guests and family beforehand prevents unexpected obstructions in aerial footage.",
+        "tier": 2
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "unverifiable",
+      "correct": "No reliable source found saying pandit's rituals or pheras are routinely paused for retakes. The guides checked do not say this. It is an anecdotal or opinion claim, not a documented fact.",
+      "sources": [
+       {
+        "url": "https://www.manyavar.com/en-in/blog-ultimate-guide-wedding-photographer-videographer-india.html",
+        "publisher": "Manyavar",
+        "published_date": "2025-04-04",
+        "quote": "Ideally, allocate at least an hour for couple portraits and 30 minutes per group shot.",
+        "tier": 3
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "supported",
+      "correct": "Guides do cover portrait time, group shot time and drone timing. Telling family beforehand, rather than where exactly to stand, is the closest they come to the family-positioning point.",
+      "sources": [
+       {
+        "url": "https://www.manyavar.com/en-in/blog-ultimate-guide-wedding-photographer-videographer-india.html",
+        "publisher": "Manyavar",
+        "published_date": "2025-04-04",
+        "quote": "Ideally, allocate at least an hour for couple portraits and 30 minutes per group shot.",
+        "tier": 3
+       },
+       {
+        "url": "https://www.bridestoday.in/weddings-planning/story/how-to-use-drone-photography-to-capture-stunning-wedding-moments-1181710-2025-03-11",
+        "publisher": "Brides Today",
+        "published_date": "2025-03-11",
+        "quote": "Informing guests and family beforehand prevents unexpected obstructions in aerial footage.",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. Most of the post is cultural reading and opinion: the photographer 'outranking' the pandit, rituals fitting around light, couples barely remembering the day. Those are interpretations, not claims I can check. The factual claims it relies on are plausible and match vendor sources. The photographer is often one of the first vendors booked, popular dates go 9–18 months ahead, and multi-day coverage is commonly priced from about ₹1 lakh to ₹10–15 lakh in metros. I found no source showing it is false that photographers are 'sometimes booked before the venue.' Two caveats. First, 'a quote in lakhs' fits mid-to-premium teams, while solo photographers can charge ₹30,000–60,000. Second, venues can limit crews and equipment, so the photographer's schedule doesn't always win.",
+     "actual_mechanism": "Wedding photo and video teams price by team size, number of event days (haldi, mehendi, sangeet, wedding, reception), drones and album or film deliverables. That's why multi-day coverage often costs lakhs. Good teams fill peak muhurat dates 9–18 months ahead, which pushes couples to lock them in early, sometimes before other vendors. How much the shoot shapes the day is down to each family and the planner. The pandit's muhurat and the venue's rules still set the outer limits.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.weddingbazaar.com/wedding-photographers-in-mumbai",
+       "published_date": "unknown",
+       "quote": "The starting range of wedding photographer in Mumbai for 2 day function is generally 1 lakh and it goes up to 10-15 lakhs."
+      },
+      {
+       "url": "https://impresiostudio.mypixieset.com/blog/wedding-photography-cost-in-delhi-a-complete-2026-pricing-guide/",
+       "published_date": "2026",
+       "quote": "Solo Photographer: ₹30,000 – ₹60,000 Photographer + Assistant: ₹50,000 – ₹1,00,000"
+      },
+      {
+       "url": "https://resident.com/art-and-culture-resources/2026/10/22/luxury-wedding-photography-in-india-what-to-expect-from-palace-and-destination-weddings",
+       "published_date": "2026-10-22",
+       "quote": "some venues require advance approval for equipment or additional crew, so your photographer should confirm these with the venue well before the event"
+      },
+      {
+       "url": "https://www.finnable.com/finn-advice/photographer-wedding-cost/",
+       "published_date": "unknown",
+       "quote": "most professional photographers book popular wedding dates anywhere from 9 – 18 months in advance"
+      }
+     ]
+    },
+    "text_hash": "0cfa3d72d10c45efa6d1090d07592122d7a1cefc",
+    "at": "2026-11-12T12:41:27.826837+00:00"
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Could not verify: 'At Indian weddings the pandit's rituals, including the pheras, are paused so the camera team can retake shots, with the guests and the muhurat waiting.'. Cut it, or state it only if a source says it."
+   ]
+  },
+  {
+   "attempt": 4,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 3
+    },
+    "notes": [
+     "Slide 2: the last note is settled. The paused pheras are gone. The new scene, a grand entry retaken for the camera with guests watching, is framed as typical and makes no claim about rituals or the muhurat waiting. It also sets up the 'ek baar aur, please' close cleanly. Keep it as written.",
+     "Slide 2: the retake scene does not repeat any other slide. Slide 3 gives the planning guides, slide 5 the film's afterlife and slide 7 the test, so the post still moves forward. No further edits are needed for this revision."
+    ]
+   }
+  },
+  {
+   "attempt": 4,
+   "varun": {
+    "pass": false,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 2",
+      "line": "The couple's grand entry. Halfway down, the camera team asks them to \"do that again, slowly.\" So they walk back and do it again, same smile.",
+      "why": "scene narration, three beats before any commentary",
+      "try": "Halfway through the grand entry, the camera team says \"do that again, slowly.\" So the couple walks back and does it again. Same smile."
+     },
+     {
+      "where": "slide 4",
+      "line": "Think about who the day is really for. The wedding happens once, for whoever fits in the hall.",
+      "why": "coach voice, tells the reader to think",
+      "try": "The wedding happens once. Only for whoever fits in the hall."
+     },
+     {
+      "where": "slide 1",
+      "line": "Indian weddings run on the photographer's clock, because the album outlives the mandap.",
+      "why": "explained with 'because' where he'd split it into a punch",
+      "try": "Indian weddings run on the photographer's clock. The album outlives the mandap."
+     },
+     {
+      "where": "end.send",
+      "line": "Send to the friend getting married in December, who already has the photographer's timeline open.",
+      "why": "stiff written clause",
+      "try": "Send to the friend getting married in December. They already have the photographer's timeline open."
+     }
+    ],
+    "best": "That's the person in charge.\nIt's never the pandit."
+   }
+  },
+  {
+   "attempt": 4,
+   "problems": [
+    "Not Varun (slide 2): 'The couple's grand entry. Halfway down, the camera team asks them to \"do that again, slowly.\" So they walk back and do it again, same smile.' reads as scene narration, three beats before any commentary. Say it the way he would, e.g. 'Halfway through the grand entry, the camera team says \"do that again, slowly.\" So the couple walks back and does it again. Same smile.' (his register, your words, same facts).",
+    "Not Varun (slide 4): 'Think about who the day is really for. The wedding happens once, for whoever fits in the hall.' reads as coach voice, tells the reader to think. Say it the way he would, e.g. 'The wedding happens once. Only for whoever fits in the hall.' (his register, your words, same facts).",
+    "Not Varun (slide 1): 'Indian weddings run on the photographer's clock, because the album outlives the mandap.' reads as explained with 'because' where he'd split it into a punch. Say it the way he would, e.g. 'Indian weddings run on the photographer's clock. The album outlives the mandap.' (his register, your words, same facts).",
+    "Not Varun (end.send): 'Send to the friend getting married in December, who already has the photographer's timeline open.' reads as stiff written clause. Say it the way he would, e.g. 'Send to the friend getting married in December. They already have the photographer's timeline open.' (his register, your words, same facts)."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-12T12:42:39.457759+00:00",
+ "sources": [
+  {
+   "url": "https://www.bridestoday.in/weddings-planning/story/how-to-use-drone-photography-to-capture-stunning-wedding-moments-1181710-2025-03-11",
+   "fact": "A Brides Today guide advises scheduling wedding drone shots at golden hour and coordinating with the planner. It does not say rituals are rescheduled around the photographer.",
+   "excerpt": "Scheduling drone shots during ideal lighting conditions, like the golden hour, ensures the most flattering results. Coordinating with the planner helps avoid overhead obstructions, such as mandap canopies or stage setups, Informing guests and family beforehand prevents unexpected obstructions in aerial footage.",
+   "date": "2025-03-11"
+  },
+  {
+   "url": "https://www.manyavar.com/en-in/blog-ultimate-guide-wedding-photographer-videographer-india.html",
+   "fact": "Manyavar's guide tells couples to leave ample time for photos in the day's timeline, with at least an hour for couple portraits. It does not say rituals wait for the photographer. It does not say photographers are booked first.",
+   "excerpt": "Factor in ample time for photos when mapping out your wedding day timeline. Ideally, allocate at least an hour for couple portraits and 30 minutes per group shot. Treasured albums and videos allow you to relive the romance, laughter, and love that made your wedding magical.",
+   "date": "2025-04-04"
+  }
+ ],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] Indian weddings run on the [photographer's clock]\nThe album outlives the mandap, and every planner knows it.\n \n\n[slide 1] Indian weddings run on the photographer's clock, because the album outlives the mandap.\nSwipe to read →\n\n[slide 2] Third phera. The pandit stops mid-mantra, because the camera team needs the couple to \"do that again, slowly.\"\nTwo hundred guests and a muhurat the family fought over, all on hold for a retake. Nobody even blinks.\n\n[slide 3] The wedding guides spell it out. At least an hour for couple portraits. Thirty minutes per group shot. Drones at golden hour, and the family warned where not to stand.\nGuess whose schedule wins.\n\n[slide 4] Think about who the day is really for. The wedding happens once, for whoever fits in the hall.\n\n[slide 5] The film plays for years. On the family WhatsApp group, on every cousin's phone, every time someone asks to see it. So the day gets built around light and angles, and the rituals fit in between.\n\n[slide 6] It's not even vanity. For every relative who couldn't make it, the reel is the wedding.\nOnly problem? The couple barely remembers the day. They were too busy hitting their marks.\n\n[slide 7] At the next wedding, watch who says \"ek baar aur, please.\"\nThat's the person in charge.\nIt's never the pandit.\n\n[end card] Open it again when the photographer sends you the wedding-day timeline.\nSend to the friend getting married in December, who already has the photographer's timeline open.\n\n[caption] The pheras wait for the wedding photographer now, because the reel reaches more people than the hall.\n\nEk baar aur, please. Somewhere a muhurat is waiting on that sentence.\n\nSend this to the friend getting married in December, who already has the photographer's timeline open.\n\n[alt text] A seven-slide text post arguing that Indian weddings run on the photographer's schedule. During the pheras, the pandit pauses because the camera team wants a slower retake, and two hundred guests and the muhurat wait. It points out that wedding guides advise keeping at least an hour for couple portraits, thirty minutes per group shot, drone shots at golden hour, and warning the family where not to stand. It argues that the wedding happens once for whoever fits in the hall, while the film plays for years on family phones, so the day is planned around light and angles. It says this isn't even vanity, because for relatives who couldn't make it, the reel is the wedding, though the couple barely remembers the day. It ends by saying that whoever says 'one more time' is the person in charge, and it's never the pandit.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Indian weddings are now scheduled around the photographer's timeline, with rituals fitted in around photo and video needs.",
+     "sentence": "Indian weddings run on the photographer's clock, because the album outlives the mandap.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "Wedding guides for Indian weddings advise allowing at least an hour for couple portraits.",
+     "sentence": "At least an hour for couple portraits.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c3",
+     "text": "Wedding guides advise allowing about thirty minutes per group shot.",
+     "sentence": "Thirty minutes per group shot.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c4",
+     "text": "Wedding guides advise scheduling drone shots at golden hour and warning the family where not to stand.",
+     "sentence": "Drones at golden hour, and the family warned where not to stand.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c5",
+     "text": "At Indian weddings the pandit's rituals, including the pheras, are paused so the camera team can retake shots, with the guests and the muhurat waiting.",
+     "sentence": "Two hundred guests and a muhurat the family fought over, all on hold for a retake.",
+     "type": "event",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c6",
+     "text": "Wedding guides explicitly set out photographer scheduling needs (portrait time, group shot time, drones, where family should stand) as part of planning the wedding day.",
+     "sentence": "The wedding guides spell it out.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c7",
+     "text": "Wedding films and reels reach more people than attend the wedding hall, and are replayed for years on family WhatsApp groups and phones.",
+     "sentence": "The pheras wait for the wedding photographer now, because the reel reaches more people than the hall.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "current"
+    },
+    {
+     "id": "c8",
+     "text": "Couples barely remember their wedding day because they are busy hitting photo marks.",
+     "sentence": "They were too busy hitting their marks.",
+     "type": "mechanism",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c9",
+     "text": "Mechanism: The wedding film/album lasts for years and reaches far more people than those in the hall; so planners and families build the day around light and angles, and rituals like the pheras wait for the photographer rather than the pandit.",
+     "sentence": "So the day gets built around light and angles, and the rituals fit in between.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "Indian weddings did not always run on the photographer's schedule; this is a recent shift.": {
+   "id": "c5",
+   "verdict": "unverifiable",
+   "correct": "No reliable source dates a recent shift toward weddings running on the photographer's schedule. Planning guides only advise building photo time into the timeline.",
+   "sources": [
+    {
+     "url": "https://www.manyavar.com/en-in/blog-ultimate-guide-wedding-photographer-videographer-india.html",
+     "publisher": "Manyavar",
+     "published_date": "2025-04-04",
+     "quote": "leave ample time for photos in the day's timeline, with at least an hour for couple portraits",
+     "tier": 3
+    }
+   ]
+  },
+  "Haldi ceremonies are commonly rescheduled to golden hour for photography.": {
+   "id": "c6",
+   "verdict": "unverifiable",
+   "correct": "Guides advise scheduling portraits and drone shots at golden hour. No source shows haldi ceremonies are commonly moved to golden hour.",
+   "sources": [
+    {
+     "url": "https://www.bridestoday.in/weddings-planning/story/how-to-use-drone-photography-to-capture-stunning-wedding-moments-1181710-2025-03-11",
+     "publisher": "Brides Today",
+     "published_date": "2025-03-11",
+     "quote": "scheduling wedding drone shots at golden hour and coordinating with the planner",
+     "tier": 3
+    }
+   ]
+  },
+  "The varmala exchange is commonly staged twice, once for real and once for a drone shot.": {
+   "id": "c7",
+   "verdict": "unverifiable",
+   "correct": "No reliable source says the varmala is commonly staged twice for a drone shot.",
+   "sources": []
+  },
+  "Guests at weddings are commonly asked to lower their phones for the photographers.": {
+   "id": "c8",
+   "verdict": "unverifiable",
+   "correct": "No reliable source says guests are commonly asked to lower their phones for the photographers.",
+   "sources": []
+  },
+  "Candid shots at weddings are commonly restaged over several takes.": {
+   "id": "c9",
+   "verdict": "unverifiable",
+   "correct": "A Kolkata piece describes one shoot with orchestrated poses and repeated takes. No source shows candid shots are commonly restaged.",
+   "sources": [
+    {
+     "url": "https://obeta.ttef.in/my-kolkata/news/the-wedding-shoot/cid/2000937",
+     "publisher": "The Telegraph (Kolkata)",
+     "published_date": "",
+     "quote": "",
+     "tier": 2
+    }
+   ]
+  },
+  "Couples commonly book the photography team before the caterer, and sometimes before the venue.": {
+   "id": "c10",
+   "verdict": "contradicted",
+   "correct": "Planning guides mostly advise booking the venue first, then the caterer and photographer. Some say to book the photographer early because popular ones fill up. Neither supports photographers commonly being booked before the caterer or venue.",
+   "sources": [
+    {
+     "url": "https://www.weddingwire.in/wedding-tips/choosing-your-wedding-photographer--c11515",
+     "publisher": "WeddingWire India",
+     "published_date": "",
+     "quote": "venue as the first booking, since it sets the location and other decisions before you start looking for a photographer",
+     "tier": 3
+    }
+   ]
+  },
+  "Pandits are typically paid an envelope and given a time slot, while camera crews are typically quoted in lakhs and booked for all three days.": {
+   "id": "c11",
+   "verdict": "unverifiable",
+   "correct": "Photography packages are quoted in lakhs at the premium end (about ₹3–5 lakh in Gurgaon). No source covers pandit payment or crews being booked for all three days.",
+   "sources": []
+  },
+  "Relatives who miss the wedding judge it from roughly three minutes of video on a phone.": {
+   "id": "c14",
+   "verdict": "unverifiable",
+   "correct": "No source gives a figure for how much video relatives who miss the wedding watch.",
+   "sources": []
+  },
+  "_skeptic": {
+   "0453ef183ad53ce55abe85576093b333adcc2e08": {
+    "holds": true,
+    "broken_premise": "None. Most of the post is cultural reading and opinion: the photographer 'outranking' the pandit, rituals fitting around light, couples barely remembering the day. Those are interpretations, not claims I can check. The factual claims it relies on are plausible and match vendor sources. The photographer is often one of the first vendors booked, popular dates go 9–18 months ahead, and multi-day coverage is commonly priced from about ₹1 lakh to ₹10–15 lakh in metros. I found no source showing it is false that photographers are 'sometimes booked before the venue.' Two caveats. First, 'a quote in lakhs' fits mid-to-premium teams, while solo photographers can charge ₹30,000–60,000. Second, venues can limit crews and equipment, so the photographer's schedule doesn't always win.",
+    "actual_mechanism": "Wedding photo and video teams price by team size, number of event days (haldi, mehendi, sangeet, wedding, reception), drones and album or film deliverables. That's why multi-day coverage often costs lakhs. Good teams fill peak muhurat dates 9–18 months ahead, which pushes couples to lock them in early, sometimes before other vendors. How much the shoot shapes the day is down to each family and the planner. The pandit's muhurat and the venue's rules still set the outer limits.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.weddingbazaar.com/wedding-photographers-in-mumbai",
+      "published_date": "unknown",
+      "quote": "The starting range of wedding photographer in Mumbai for 2 day function is generally 1 lakh and it goes up to 10-15 lakhs."
+     },
+     {
+      "url": "https://impresiostudio.mypixieset.com/blog/wedding-photography-cost-in-delhi-a-complete-2026-pricing-guide/",
+      "published_date": "2026",
+      "quote": "Solo Photographer: ₹30,000 – ₹60,000 Photographer + Assistant: ₹50,000 – ₹1,00,000"
+     },
+     {
+      "url": "https://resident.com/art-and-culture-resources/2026/10/22/luxury-wedding-photography-in-india-what-to-expect-from-palace-and-destination-weddings",
+      "published_date": "2026-10-22",
+      "quote": "some venues require advance approval for equipment or additional crew, so your photographer should confirm these with the venue well before the event"
+     },
+     {
+      "url": "https://www.finnable.com/finn-advice/photographer-wedding-cost/",
+      "published_date": "unknown",
+      "quote": "most professional photographers book popular wedding dates anywhere from 9 – 18 months in advance"
+     }
+    ]
+   },
+   "2b19559a9684d9fda999c2bd37ff384b970ff869": {
+    "holds": true,
+    "broken_premise": "None. Most of the post is cultural reading and opinion: the photographer 'outranking' the pandit, rituals fitting around light, couples barely remembering the day. Those are interpretations, not claims I can check. The factual claims it relies on are plausible and match vendor sources. The photographer is often one of the first vendors booked, popular dates go 9–18 months ahead, and multi-day coverage is commonly priced from about ₹1 lakh to ₹10–15 lakh in metros. I found no source showing it is false that photographers are 'sometimes booked before the venue.' Two caveats. First, 'a quote in lakhs' fits mid-to-premium teams, while solo photographers can charge ₹30,000–60,000. Second, venues can limit crews and equipment, so the photographer's schedule doesn't always win.",
+    "actual_mechanism": "Wedding photo and video teams price by team size, number of event days (haldi, mehendi, sangeet, wedding, reception), drones and album or film deliverables. That's why multi-day coverage often costs lakhs. Good teams fill peak muhurat dates 9–18 months ahead, which pushes couples to lock them in early, sometimes before other vendors. How much the shoot shapes the day is down to each family and the planner. The pandit's muhurat and the venue's rules still set the outer limits.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.weddingbazaar.com/wedding-photographers-in-mumbai",
+      "published_date": "unknown",
+      "quote": "The starting range of wedding photographer in Mumbai for 2 day function is generally 1 lakh and it goes up to 10-15 lakhs."
+     },
+     {
+      "url": "https://impresiostudio.mypixieset.com/blog/wedding-photography-cost-in-delhi-a-complete-2026-pricing-guide/",
+      "published_date": "2026",
+      "quote": "Solo Photographer: ₹30,000 – ₹60,000 Photographer + Assistant: ₹50,000 – ₹1,00,000"
+     },
+     {
+      "url": "https://resident.com/art-and-culture-resources/2026/10/22/luxury-wedding-photography-in-india-what-to-expect-from-palace-and-destination-weddings",
+      "published_date": "2026-10-22",
+      "quote": "some venues require advance approval for equipment or additional crew, so your photographer should confirm these with the venue well before the event"
+     },
+     {
+      "url": "https://www.finnable.com/finn-advice/photographer-wedding-cost/",
+      "published_date": "unknown",
+      "quote": "most professional photographers book popular wedding dates anywhere from 9 – 18 months in advance"
+     }
+    ]
+   }
+  },
+  "_skeptic_take": {
+   "6960e17f7415da7ef341da56a7833640aa0824fd": {
+    "holds": true,
+    "broken_premise": "None. Most of the post is cultural reading and opinion: the photographer 'outranking' the pandit, rituals fitting around light, couples barely remembering the day. Those are interpretations, not claims I can check. The factual claims it relies on are plausible and match vendor sources. The photographer is often one of the first vendors booked, popular dates go 9–18 months ahead, and multi-day coverage is commonly priced from about ₹1 lakh to ₹10–15 lakh in metros. I found no source showing it is false that photographers are 'sometimes booked before the venue.' Two caveats. First, 'a quote in lakhs' fits mid-to-premium teams, while solo photographers can charge ₹30,000–60,000. Second, venues can limit crews and equipment, so the photographer's schedule doesn't always win.",
+    "actual_mechanism": "Wedding photo and video teams price by team size, number of event days (haldi, mehendi, sangeet, wedding, reception), drones and album or film deliverables. That's why multi-day coverage often costs lakhs. Good teams fill peak muhurat dates 9–18 months ahead, which pushes couples to lock them in early, sometimes before other vendors. How much the shoot shapes the day is down to each family and the planner. The pandit's muhurat and the venue's rules still set the outer limits.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.weddingbazaar.com/wedding-photographers-in-mumbai",
+      "published_date": "unknown",
+      "quote": "The starting range of wedding photographer in Mumbai for 2 day function is generally 1 lakh and it goes up to 10-15 lakhs."
+     },
+     {
+      "url": "https://impresiostudio.mypixieset.com/blog/wedding-photography-cost-in-delhi-a-complete-2026-pricing-guide/",
+      "published_date": "2026",
+      "quote": "Solo Photographer: ₹30,000 – ₹60,000 Photographer + Assistant: ₹50,000 – ₹1,00,000"
+     },
+     {
+      "url": "https://resident.com/art-and-culture-resources/2026/10/22/luxury-wedding-photography-in-india-what-to-expect-from-palace-and-destination-weddings",
+      "published_date": "2026-10-22",
+      "quote": "some venues require advance approval for equipment or additional crew, so your photographer should confirm these with the venue well before the event"
+     },
+     {
+      "url": "https://www.finnable.com/finn-advice/photographer-wedding-cost/",
+      "published_date": "unknown",
+      "quote": "most professional photographers book popular wedding dates anywhere from 9 – 18 months in advance"
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "2e8f08480ffab0a51c5486203fecb084d22be60c": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not verify: 'Indian weddings did not always run on the photographer's schedule; this is a recent shift.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Haldi ceremonies are commonly rescheduled to golden hour for photography.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'The varmala exchange is commonly staged twice, once for real and once for a drone shot.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Guests at weddings are commonly asked to lower their phones for the photographers.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Candid shots at weddings are commonly restaged over several takes.'. Cut it, or state it only if a source says it.",
+     "Wrong: 'Couples commonly book the photography team before the caterer, and sometimes before the venue.'. What's true: Planning guides mostly advise booking the venue first, then the caterer and photographer. Some say to book the photographer early because popular ones fill up. Neither supports photographers commonly being booked before the caterer or venue..",
+     "Could not verify: 'Pandits are typically paid an envelope and given a time slot, while camera crews are typically quoted in lakhs and booked for all three days.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Relatives who miss the wedding judge it from roughly three minutes of video on a phone.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Indian weddings are now scheduled around the photographer's needs, so the photographer outranks the pandit in running the day.",
+      "sentence": "Indian weddings now run on the photographer's clock, because the album outlives the mandap.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c2",
+      "text": "Premise: a wedding happens once, for only as many people as fit in the hall.",
+      "sentence": "The wedding happens once. For whoever fits in the hall.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Premise: the wedding film or reel is watched for years by many more people than attend, including relatives who missed the wedding, who judge it from a short video on a phone.",
+      "sentence": "The film plays for years. On the family WhatsApp group, on every cousin's phone, every time someone asks to see it.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Conclusion: because the film reaches more people than the hall holds, families plan the day around light and angles and fit the rituals in between.",
+      "sentence": "So the day gets built around light and angles, and the rituals fit in between.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Indian weddings did not always run on the photographer's schedule; this is a recent shift.",
+      "sentence": "Indian weddings now run on the photographer's clock",
+      "type": "event",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c6",
+      "text": "Haldi ceremonies are commonly rescheduled to golden hour for photography.",
+      "sentence": "the haldi gets moved to golden hour",
+      "type": "event",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "The varmala exchange is commonly staged twice, once for real and once for a drone shot.",
+      "sentence": "the varmala happens twice, once for real, once for the drone",
+      "type": "event",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c8",
+      "text": "Guests at weddings are commonly asked to lower their phones for the photographers.",
+      "sentence": "guests get asked to lower their phones",
+      "type": "event",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c9",
+      "text": "Candid shots at weddings are commonly restaged over several takes.",
+      "sentence": "the \"candid\" laugh is on its third take",
+      "type": "event",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c10",
+      "text": "Couples commonly book the photography team before the caterer, and sometimes before the venue.",
+      "sentence": "The photo team gets booked first, before the caterer, sometimes before the venue.",
+      "type": "event",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c11",
+      "text": "Pandits are typically paid an envelope and given a time slot, while camera crews are typically quoted in lakhs and booked for all three days.",
+      "sentence": "The pandit gets an envelope and a time slot. The camera crew gets a quote in lakhs and all three days.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c12",
+      "text": "In practice the photographer's schedule wins over the pandit's when the two conflict.",
+      "sentence": "Guess whose schedule wins.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c13",
+      "text": "Couples barely remember their wedding day because they are busy hitting photographers' marks.",
+      "sentence": "The couple barely remembers the day. They were too busy hitting their marks.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c14",
+      "text": "Relatives who miss the wedding judge it from roughly three minutes of video on a phone.",
+      "sentence": "Their verdict comes from three minutes on a phone.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c5": {
+      "id": "c5",
+      "verdict": "unverifiable",
+      "correct": "No reliable source dates a recent shift toward weddings running on the photographer's schedule. Planning guides only advise building photo time into the timeline.",
+      "sources": [
+       {
+        "url": "https://www.manyavar.com/en-in/blog-ultimate-guide-wedding-photographer-videographer-india.html",
+        "publisher": "Manyavar",
+        "published_date": "2025-04-04",
+        "quote": "leave ample time for photos in the day's timeline, with at least an hour for couple portraits",
+        "tier": 3
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "unverifiable",
+      "correct": "Guides advise scheduling portraits and drone shots at golden hour. No source shows haldi ceremonies are commonly moved to golden hour.",
+      "sources": [
+       {
+        "url": "https://www.bridestoday.in/weddings-planning/story/how-to-use-drone-photography-to-capture-stunning-wedding-moments-1181710-2025-03-11",
+        "publisher": "Brides Today",
+        "published_date": "2025-03-11",
+        "quote": "scheduling wedding drone shots at golden hour and coordinating with the planner",
+        "tier": 3
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "unverifiable",
+      "correct": "No reliable source says the varmala is commonly staged twice for a drone shot.",
+      "sources": []
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "unverifiable",
+      "correct": "No reliable source says guests are commonly asked to lower their phones for the photographers.",
+      "sources": []
+     },
+     "c9": {
+      "id": "c9",
+      "verdict": "unverifiable",
+      "correct": "A Kolkata piece describes one shoot with orchestrated poses and repeated takes. No source shows candid shots are commonly restaged.",
+      "sources": [
+       {
+        "url": "https://obeta.ttef.in/my-kolkata/news/the-wedding-shoot/cid/2000937",
+        "publisher": "The Telegraph (Kolkata)",
+        "published_date": "",
+        "quote": "",
+        "tier": 2
+       }
+      ]
+     },
+     "c10": {
+      "id": "c10",
+      "verdict": "contradicted",
+      "correct": "Planning guides mostly advise booking the venue first, then the caterer and photographer. Some say to book the photographer early because popular ones fill up. Neither supports photographers commonly being booked before the caterer or venue.",
+      "sources": [
+       {
+        "url": "https://www.weddingwire.in/wedding-tips/choosing-your-wedding-photographer--c11515",
+        "publisher": "WeddingWire India",
+        "published_date": "",
+        "quote": "venue as the first booking, since it sets the location and other decisions before you start looking for a photographer",
+        "tier": 3
+       }
+      ]
+     },
+     "c11": {
+      "id": "c11",
+      "verdict": "unverifiable",
+      "correct": "Photography packages are quoted in lakhs at the premium end (about ₹3–5 lakh in Gurgaon). No source covers pandit payment or crews being booked for all three days.",
+      "sources": []
+     },
+     "c14": {
+      "id": "c14",
+      "verdict": "unverifiable",
+      "correct": "No source gives a figure for how much video relatives who miss the wedding watch.",
+      "sources": []
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. Most of the post is cultural reading and opinion: the photographer 'outranking' the pandit, rituals fitting around light, couples barely remembering the day. Those are interpretations, not claims I can check. The factual claims it relies on are plausible and match vendor sources. The photographer is often one of the first vendors booked, popular dates go 9–18 months ahead, and multi-day coverage is commonly priced from about ₹1 lakh to ₹10–15 lakh in metros. I found no source showing it is false that photographers are 'sometimes booked before the venue.' Two caveats. First, 'a quote in lakhs' fits mid-to-premium teams, while solo photographers can charge ₹30,000–60,000. Second, venues can limit crews and equipment, so the photographer's schedule doesn't always win.",
+     "actual_mechanism": "Wedding photo and video teams price by team size, number of event days (haldi, mehendi, sangeet, wedding, reception), drones and album or film deliverables. That's why multi-day coverage often costs lakhs. Good teams fill peak muhurat dates 9–18 months ahead, which pushes couples to lock them in early, sometimes before other vendors. How much the shoot shapes the day is down to each family and the planner. The pandit's muhurat and the venue's rules still set the outer limits.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.weddingbazaar.com/wedding-photographers-in-mumbai",
+       "published_date": "unknown",
+       "quote": "The starting range of wedding photographer in Mumbai for 2 day function is generally 1 lakh and it goes up to 10-15 lakhs."
+      },
+      {
+       "url": "https://impresiostudio.mypixieset.com/blog/wedding-photography-cost-in-delhi-a-complete-2026-pricing-guide/",
+       "published_date": "2026",
+       "quote": "Solo Photographer: ₹30,000 – ₹60,000 Photographer + Assistant: ₹50,000 – ₹1,00,000"
+      },
+      {
+       "url": "https://resident.com/art-and-culture-resources/2026/10/22/luxury-wedding-photography-in-india-what-to-expect-from-palace-and-destination-weddings",
+       "published_date": "2026-10-22",
+       "quote": "some venues require advance approval for equipment or additional crew, so your photographer should confirm these with the venue well before the event"
+      },
+      {
+       "url": "https://www.finnable.com/finn-advice/photographer-wedding-cost/",
+       "published_date": "unknown",
+       "quote": "most professional photographers book popular wedding dates anywhere from 9 – 18 months in advance"
+      }
+     ]
+    },
+    "text_hash": "2e8f08480ffab0a51c5486203fecb084d22be60c",
+    "at": "2026-11-12T12:39:34.887450+00:00"
+   },
+   "0cfa3d72d10c45efa6d1090d07592122d7a1cefc": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not verify: 'At Indian weddings the pandit's rituals, including the pheras, are paused so the camera team can retake shots, with the guests and the muhurat waiting.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Indian weddings are now scheduled around the photographer's timeline, with rituals fitted in around photo and video needs.",
+      "sentence": "Indian weddings run on the photographer's clock, because the album outlives the mandap.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Wedding guides for Indian weddings advise allowing at least an hour for couple portraits.",
+      "sentence": "At least an hour for couple portraits.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Wedding guides advise allowing about thirty minutes per group shot.",
+      "sentence": "Thirty minutes per group shot.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Wedding guides advise scheduling drone shots at golden hour and warning the family where not to stand.",
+      "sentence": "Drones at golden hour, and the family warned where not to stand.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "At Indian weddings the pandit's rituals, including the pheras, are paused so the camera team can retake shots, with the guests and the muhurat waiting.",
+      "sentence": "Two hundred guests and a muhurat the family fought over, all on hold for a retake.",
+      "type": "event",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Wedding guides explicitly set out photographer scheduling needs (portrait time, group shot time, drones, where family should stand) as part of planning the wedding day.",
+      "sentence": "The wedding guides spell it out.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "Wedding films and reels reach more people than attend the wedding hall, and are replayed for years on family WhatsApp groups and phones.",
+      "sentence": "The pheras wait for the wedding photographer now, because the reel reaches more people than the hall.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c8",
+      "text": "Couples barely remember their wedding day because they are busy hitting photo marks.",
+      "sentence": "They were too busy hitting their marks.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c9",
+      "text": "Mechanism: The wedding film/album lasts for years and reaches far more people than those in the hall; so planners and families build the day around light and angles, and rituals like the pheras wait for the photographer rather than the pandit.",
+      "sentence": "So the day gets built around light and angles, and the rituals fit in between.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "correct": "",
+      "sources": [
+       {
+        "url": "https://www.manyavar.com/en-in/blog-ultimate-guide-wedding-photographer-videographer-india.html",
+        "publisher": "Manyavar",
+        "published_date": "2025-04-04",
+        "quote": "Ideally, allocate at least an hour for couple portraits and 30 minutes per group shot.",
+        "tier": 3
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "correct": "",
+      "sources": [
+       {
+        "url": "https://www.manyavar.com/en-in/blog-ultimate-guide-wedding-photographer-videographer-india.html",
+        "publisher": "Manyavar",
+        "published_date": "2025-04-04",
+        "quote": "Ideally, allocate at least an hour for couple portraits and 30 minutes per group shot.",
+        "tier": 3
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "correct": "",
+      "sources": [
+       {
+        "url": "https://www.bridestoday.in/weddings-planning/story/how-to-use-drone-photography-to-capture-stunning-wedding-moments-1181710-2025-03-11",
+        "publisher": "Brides Today",
+        "published_date": "2025-03-11",
+        "quote": "Scheduling drone shots during ideal lighting conditions, like the golden hour, ensures the most flattering results. ... Informing guests and family beforehand prevents unexpected obstructions in aerial footage.",
+        "tier": 2
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "unverifiable",
+      "correct": "No reliable source found saying pandit's rituals or pheras are routinely paused for retakes. The guides checked do not say this. It is an anecdotal or opinion claim, not a documented fact.",
+      "sources": [
+       {
+        "url": "https://www.manyavar.com/en-in/blog-ultimate-guide-wedding-photographer-videographer-india.html",
+        "publisher": "Manyavar",
+        "published_date": "2025-04-04",
+        "quote": "Ideally, allocate at least an hour for couple portraits and 30 minutes per group shot.",
+        "tier": 3
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "supported",
+      "correct": "Guides do cover portrait time, group shot time and drone timing. Telling family beforehand, rather than where exactly to stand, is the closest they come to the family-positioning point.",
+      "sources": [
+       {
+        "url": "https://www.manyavar.com/en-in/blog-ultimate-guide-wedding-photographer-videographer-india.html",
+        "publisher": "Manyavar",
+        "published_date": "2025-04-04",
+        "quote": "Ideally, allocate at least an hour for couple portraits and 30 minutes per group shot.",
+        "tier": 3
+       },
+       {
+        "url": "https://www.bridestoday.in/weddings-planning/story/how-to-use-drone-photography-to-capture-stunning-wedding-moments-1181710-2025-03-11",
+        "publisher": "Brides Today",
+        "published_date": "2025-03-11",
+        "quote": "Informing guests and family beforehand prevents unexpected obstructions in aerial footage.",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. Most of the post is cultural reading and opinion: the photographer 'outranking' the pandit, rituals fitting around light, couples barely remembering the day. Those are interpretations, not claims I can check. The factual claims it relies on are plausible and match vendor sources. The photographer is often one of the first vendors booked, popular dates go 9–18 months ahead, and multi-day coverage is commonly priced from about ₹1 lakh to ₹10–15 lakh in metros. I found no source showing it is false that photographers are 'sometimes booked before the venue.' Two caveats. First, 'a quote in lakhs' fits mid-to-premium teams, while solo photographers can charge ₹30,000–60,000. Second, venues can limit crews and equipment, so the photographer's schedule doesn't always win.",
+     "actual_mechanism": "Wedding photo and video teams price by team size, number of event days (haldi, mehendi, sangeet, wedding, reception), drones and album or film deliverables. That's why multi-day coverage often costs lakhs. Good teams fill peak muhurat dates 9–18 months ahead, which pushes couples to lock them in early, sometimes before other vendors. How much the shoot shapes the day is down to each family and the planner. The pandit's muhurat and the venue's rules still set the outer limits.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.weddingbazaar.com/wedding-photographers-in-mumbai",
+       "published_date": "unknown",
+       "quote": "The starting range of wedding photographer in Mumbai for 2 day function is generally 1 lakh and it goes up to 10-15 lakhs."
+      },
+      {
+       "url": "https://impresiostudio.mypixieset.com/blog/wedding-photography-cost-in-delhi-a-complete-2026-pricing-guide/",
+       "published_date": "2026",
+       "quote": "Solo Photographer: ₹30,000 – ₹60,000 Photographer + Assistant: ₹50,000 – ₹1,00,000"
+      },
+      {
+       "url": "https://resident.com/art-and-culture-resources/2026/10/22/luxury-wedding-photography-in-india-what-to-expect-from-palace-and-destination-weddings",
+       "published_date": "2026-10-22",
+       "quote": "some venues require advance approval for equipment or additional crew, so your photographer should confirm these with the venue well before the event"
+      },
+      {
+       "url": "https://www.finnable.com/finn-advice/photographer-wedding-cost/",
+       "published_date": "unknown",
+       "quote": "most professional photographers book popular wedding dates anywhere from 9 – 18 months in advance"
+      }
+     ]
+    },
+    "text_hash": "0cfa3d72d10c45efa6d1090d07592122d7a1cefc",
+    "at": "2026-11-12T12:41:27.826837+00:00"
+   }
+  },
+  "Wedding guides for Indian weddings advise allowing at least an hour for couple portraits.": {
+   "id": "c2",
+   "verdict": "supported",
+   "correct": "",
+   "sources": [
+    {
+     "url": "https://www.manyavar.com/en-in/blog-ultimate-guide-wedding-photographer-videographer-india.html",
+     "publisher": "Manyavar",
+     "published_date": "2025-04-04",
+     "quote": "Ideally, allocate at least an hour for couple portraits and 30 minutes per group shot.",
+     "tier": 3
+    }
+   ]
+  },
+  "Wedding guides advise allowing about thirty minutes per group shot.": {
+   "id": "c3",
+   "verdict": "supported",
+   "correct": "",
+   "sources": [
+    {
+     "url": "https://www.manyavar.com/en-in/blog-ultimate-guide-wedding-photographer-videographer-india.html",
+     "publisher": "Manyavar",
+     "published_date": "2025-04-04",
+     "quote": "Ideally, allocate at least an hour for couple portraits and 30 minutes per group shot.",
+     "tier": 3
+    }
+   ]
+  },
+  "Wedding guides advise scheduling drone shots at golden hour and warning the family where not to stand.": {
+   "id": "c4",
+   "verdict": "supported",
+   "correct": "",
+   "sources": [
+    {
+     "url": "https://www.bridestoday.in/weddings-planning/story/how-to-use-drone-photography-to-capture-stunning-wedding-moments-1181710-2025-03-11",
+     "publisher": "Brides Today",
+     "published_date": "2025-03-11",
+     "quote": "Scheduling drone shots during ideal lighting conditions, like the golden hour, ensures the most flattering results. ... Informing guests and family beforehand prevents unexpected obstructions in aerial footage.",
+     "tier": 2
+    }
+   ]
+  },
+  "At Indian weddings the pandit's rituals, including the pheras, are paused so the camera team can retake shots, with the guests and the muhurat waiting.": {
+   "id": "c5",
+   "verdict": "unverifiable",
+   "correct": "No reliable source found saying pandit's rituals or pheras are routinely paused for retakes. The guides checked do not say this. It is an anecdotal or opinion claim, not a documented fact.",
+   "sources": [
+    {
+     "url": "https://www.manyavar.com/en-in/blog-ultimate-guide-wedding-photographer-videographer-india.html",
+     "publisher": "Manyavar",
+     "published_date": "2025-04-04",
+     "quote": "Ideally, allocate at least an hour for couple portraits and 30 minutes per group shot.",
+     "tier": 3
+    }
+   ]
+  },
+  "Wedding guides explicitly set out photographer scheduling needs (portrait time, group shot time, drones, where family should stand) as part of planning the wedding day.": {
+   "id": "c6",
+   "verdict": "supported",
+   "correct": "Guides do cover portrait time, group shot time and drone timing. Telling family beforehand, rather than where exactly to stand, is the closest they come to the family-positioning point.",
+   "sources": [
+    {
+     "url": "https://www.manyavar.com/en-in/blog-ultimate-guide-wedding-photographer-videographer-india.html",
+     "publisher": "Manyavar",
+     "published_date": "2025-04-04",
+     "quote": "Ideally, allocate at least an hour for couple portraits and 30 minutes per group shot.",
+     "tier": 3
+    },
+    {
+     "url": "https://www.bridestoday.in/weddings-planning/story/how-to-use-drone-photography-to-capture-stunning-wedding-moments-1181710-2025-03-11",
+     "publisher": "Brides Today",
+     "published_date": "2025-03-11",
+     "quote": "Informing guests and family beforehand prevents unexpected obstructions in aerial footage.",
+     "tier": 2
+    }
+   ]
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "Indian weddings run on the [photographer's clock]",
+   "sub": "The album outlives the mandap, and every planner knows it."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Indian weddings run on the photographer's clock, because the album outlives the mandap.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "What does that actually look like on the day?"
+   },
+   {
+    "paragraphs": [
+     "The couple's grand entry. Halfway down, the camera team asks them to \"do that again, slowly.\" So they walk back and do it again, same smile.",
+     "Two hundred guests watch the retake with their plates in hand. Nobody even blinks."
+    ],
+    "why_swipe": "Is it just that one moment, or the whole wedding?"
+   },
+   {
+    "paragraphs": [
+     "The wedding guides spell it out. At least an hour for couple portraits. Thirty minutes per group shot. Drones at golden hour, and the family warned where not to stand.",
+     "Guess whose schedule wins."
+    ],
+    "why_swipe": "Why would families let the camera outrank the ritual?"
+   },
+   {
+    "paragraphs": [
+     "Think about who the day is really for. The wedding happens once, for whoever fits in the hall."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "The film plays for years. On the family WhatsApp group, on every cousin's phone, every time someone asks to see it. So the day gets built around light and angles, and the rituals fit in between."
+    ],
+    "why_swipe": "Is this just vanity, then?"
+   },
+   {
+    "paragraphs": [
+     "It's not even vanity. For every relative who couldn't make it, the reel is the wedding.",
+     "Only problem? The couple barely remembers the day. They were too busy hitting their marks."
+    ],
+    "why_swipe": "So who is really running the wedding?"
+   },
+   {
+    "paragraphs": [
+     "At the next wedding, watch who says \"ek baar aur, please.\"",
+     "That's the person in charge.\nIt's never the pandit."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Open it again when the photographer sends you the wedding-day timeline.",
+   "send": "Send to the friend getting married in December, who already has the photographer's timeline open.",
+   "promise": "How Indian weddings really work."
+  },
+  "alt_text": "A seven-slide text post arguing that Indian weddings run on the photographer's schedule. During the couple's grand entry, the camera team asks them to do it again, slowly, and two hundred guests watch the retake as if it's normal. It points out that wedding guides advise keeping at least an hour for couple portraits, thirty minutes per group shot, drone shots at golden hour, and warning the family where not to stand. It argues that the wedding happens once for whoever fits in the hall, while the film plays for years on family phones, so the day is planned around light and angles. It says this isn't even vanity, because for relatives who couldn't make it, the reel is the wedding, though the couple barely remembers the day. It ends by saying that whoever says 'one more time' is the person in charge, and it's never the pandit.",
+  "claims": [
+   {
+    "text": "Wedding guides advise allocating at least an hour for couple portraits and 30 minutes per group shot in the wedding-day timeline.",
+    "source_url": "https://www.manyavar.com/en-in/blog-ultimate-guide-wedding-photographer-videographer-india.html"
+   },
+   {
+    "text": "Wedding drone shots are advised to be scheduled at golden hour, with guests and family informed beforehand to prevent obstructions.",
+    "source_url": "https://www.bridestoday.in/weddings-planning/story/how-to-use-drone-photography-to-capture-stunning-wedding-moments-1181710-2025-03-11"
+   }
+  ]
+ }
 }

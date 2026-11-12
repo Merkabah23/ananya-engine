@@ -160,9 +160,10 @@
     "text": "India's Time Use Survey found women who did unpaid domestic work spent about 289-299 minutes a day on it (2024 and 2019 rounds); men about 88-97 minutes.",
     "source_url": "https://www.mospi.gov.in/time-use-survey"
    }
-  ]
+  ],
+  "caption_v": 2
  },
- "updated_at": "2026-11-10T16:25:54.987094+00:00",
+ "updated_at": "2026-11-12T12:43:25.801998+00:00",
  "varun": {
   "pass": false,
   "score": 3,
@@ -194,7 +195,7 @@
  "owner_approved_text": true,
  "verification_cache": {
   "_ledger": {
-   "text": "[cover] If you both work, your marriage has a third partner.\nShe arrives at 8 and leaves by 11.\n \n\n[slide 1] If you both work, your marriage has a third partner.\nShe arrives at 8 and leaves by 11.\n\n[slide 2] You split the rent, the EMI, the Netflix.\nAnd the house runs so smoothly that nobody ever has to ask who does what.\n\n[slide 3] Then one morning, the WhatsApp arrives.\n\"Didi, aaj nahi aaungi.\"\n\n[slide 4] By 9 AM, the most honest audit of your marriage has begun.\nWho does the dishes. Who sweeps. Who remembers the dusting nobody ever noticed she did.\n\n[slide 5] Look at who ends up doing most of it. It isn't just your house.\nAcross India, women who do housework average close to five hours a day on it, by the government's own time-use survey. Men, about an hour and a half.\n\n[slide 6] Here's what nobody says out loud. Urban India never settled who does the housework.\nIt outsourced the question, for one monthly salary, and called the answer equality.\n\n[slide 7] That salary buys back some of those hours.\nWithout it, the survey already tells you whose hours they'd be. Nobody budgets it that way.\n\n[slide 8] And the didi who sent that message has a home too.\nHer own dishes, her own kids' tiffin, packed at 6 AM before she gets to yours. The equality you paid for ends at her doorstep.\n\n[slide 9] So when that message comes, don't treat it as a crisis. Treat it as a mirror.\nOn her day off, it shows you who actually runs your house.\n\n[slide 10] She isn't the help.\nShe's the reason your marriage looks equal.\n\n[end card] \n\n\n[caption] If you both work, your marriage has a third partner. You find out on her day off.\n\n[alt text] A text post about how the house help keeps urban Indian marriages looking equal, and what her day off reveals.",
+   "text": "[cover] If you both work, your marriage has a third partner.\nShe arrives at 8 and leaves by 11.\n \n\n[slide 1] If you both work, your marriage has a third partner.\nShe arrives at 8 and leaves by 11.\n\n[slide 2] You split the rent, the EMI, the Netflix.\nAnd the house runs so smoothly that nobody ever has to ask who does what.\n\n[slide 3] Then one morning, the WhatsApp arrives.\n\"Didi, aaj nahi aaungi.\"\n\n[slide 4] By 9 AM, the most honest audit of your marriage has begun.\nWho does the dishes. Who sweeps. Who remembers the dusting nobody ever noticed she did.\n\n[slide 5] Look at who ends up doing most of it. It isn't just your house.\nAcross India, women who do housework average close to five hours a day on it, by the government's own time-use survey. Men, about an hour and a half.\n\n[slide 6] Here's what nobody says out loud. Urban India never settled who does the housework.\nIt outsourced the question, for one monthly salary, and called the answer equality.\n\n[slide 7] That salary buys back some of those hours.\nWithout it, the survey already tells you whose hours they'd be. Nobody budgets it that way.\n\n[slide 8] And the didi who sent that message has a home too.\nHer own dishes, her own kids' tiffin, packed at 6 AM before she gets to yours. The equality you paid for ends at her doorstep.\n\n[slide 9] So when that message comes, don't treat it as a crisis. Treat it as a mirror.\nOn her day off, it shows you who actually runs your house.\n\n[slide 10] She isn't the help.\nShe's the reason your marriage looks equal.\n\n[end card] \n\n\n[caption] The house help is how most working couples skipped the fight over who does the dishes.\n\nHer day off just shows you who says \"theek hai, main kar leti hoon\" first.\n\nSend this to your partner before the next \"didi, aaj nahi aaungi\" message lands.\n\n[alt text] A text post about how the house help keeps urban Indian marriages looking equal, and what her day off reveals.",
    "claims": [
     {
      "id": "c1",
@@ -222,14 +223,6 @@
     },
     {
      "id": "c4",
-     "text": "Urban Indian households commonly hand housework to a paid domestic worker, paid a single monthly salary, instead of settling the division of housework between spouses.",
-     "sentence": "Urban India never settled who does the housework. It outsourced the question, for one monthly salary, and called the answer equality.",
-     "type": "mechanism",
-     "core": true,
-     "framed_as": "timeless"
-    },
-    {
-     "id": "c5",
      "text": "Domestic workers in urban India are typically paid a monthly salary.",
      "sentence": "for one monthly salary",
      "type": "feature",
@@ -237,27 +230,27 @@
      "framed_as": "timeless"
     },
     {
+     "id": "c5",
+     "text": "Domestic workers who work in other people's homes typically pack their own children's tiffin at about 6 AM before going to work.",
+     "sentence": "Her own dishes, her own kids' tiffin, packed at 6 AM before she gets to yours.",
+     "type": "anecdote",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
      "id": "c6",
-     "text": "Premise: paid domestic help covers much of the housework in dual-income urban households. Premise: unpaid housework in India falls mostly to women, per the survey. Conclusion: when the domestic worker is absent, the unequal split between spouses becomes visible, so the help is what makes the marriage look equal.",
-     "sentence": "She isn't the help. She's the reason your marriage looks equal.",
-     "type": "mechanism",
+     "text": "Most working couples in urban India rely on a paid house help to handle the housework, so they avoid arguing over who does the dishes.",
+     "sentence": "The house help is how most working couples skipped the fight over who does the dishes.",
+     "type": "figure",
      "core": true,
      "framed_as": "timeless"
     },
     {
      "id": "c7",
-     "text": "Domestic workers typically arrive at around 8 AM and leave by around 11 AM in urban dual-income homes.",
-     "sentence": "She arrives at 8 and leaves by 11.",
+     "text": "Mechanism: (1) In dual-earner urban Indian couples, housework is split unequally, with women doing far more of it than men. (2) Paid house help takes over much of that housework for a monthly salary. (3) Because the help absorbs the work, the couple never has to negotiate who does what. (4) So the marriage looks equal, and the unequal split only shows when the help is absent. Conclusion: the house help is the reason these marriages look equal.",
+     "sentence": "She isn't the help. She's the reason your marriage looks equal.",
      "type": "mechanism",
-     "core": false,
-     "framed_as": "timeless"
-    },
-    {
-     "id": "c8",
-     "text": "Domestic workers who work in other people's homes typically pack their own children's tiffin at about 6 AM before going to work.",
-     "sentence": "Her own dishes, her own kids' tiffin, packed at 6 AM before she gets to yours.",
-     "type": "anecdote",
-     "core": false,
+     "core": true,
      "framed_as": "timeless"
     }
    ]
@@ -343,6 +336,29 @@
       "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2106113",
       "published_date": "2025-02-25",
       "quote": "MoSPI press release on Time Use Survey 2024 (Jan-Dec 2024), the source of the 289 vs 88 minute figures. The page returned 403, so I couldn't check it directly; the figures come from the secondary reports."
+     }
+    ]
+   },
+   "9c2e242e444a8b953996c3d62086ad2bf9d47286": {
+    "holds": true,
+    "broken_premise": "None. One premise is less precise than the post suggests: premise (1) is about dual-earner urban couples, but the time-use figures on slide 5 are all-India averages for every woman and man aged 6+ who did any unpaid domestic work, not working couples specifically. The numbers themselves are right: about 289 minutes a day for women and 88 for men in TUS 2024, and 299 and 97 in TUS 2019. Premise (2) is how paid domestic work actually operates: a household pays a monthly salary for set tasks such as sweeping, dishes and dusting. It buys back some hours but doesn't end the split. Premises (3) and (4) and the conclusion are interpretation, and they follow from (1) and (2).",
+    "actual_mechanism": "India's official Time Use Survey (NSO/MoSPI, Jan–Dec 2024) found that 81.5% of women did unpaid domestic work, against 27.1% of men. Women who did it averaged about 289 minutes a day and men about 88. In 2019 the figures were 299 and 97, so 'close to five hours' and 'about an hour and a half' are accurate. A monthly-salaried part-time help in an urban home takes over a defined set of chores. The leftover work and the job of managing the help still fall mostly to women, and when she's absent her tasks go back to the household's existing default split. That supports the post's claim that the help hides the imbalance rather than removing it.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://ruralindiaonline.org/te/library/resource/time-use-survey-fact-sheet-january---december-2024/",
+      "published_date": "2025",
+      "quote": "Women spent 289 minutes each day on unpaid domestic services for household members whereas men spent only 88 minutes."
+     },
+     {
+      "url": "https://www.downtoearth.org.in/governance/womens-poverty-of-time",
+      "published_date": "2025",
+      "quote": "81.5% of women engaged in unpaid domestic services compared to 27.1% of men (Time Use Survey 2024)."
+     },
+     {
+      "url": "https://m.thewire.in/article/gender/what-the-time-use-survey-says-about-womens-work",
+      "published_date": "2025",
+      "quote": "Female participants aged 15-59 spent about 305 minutes a day on unpaid domestic services in 2024, down from about 315 in 2019."
      }
     ]
    }
@@ -505,6 +521,195 @@
     },
     "text_hash": "2978d58b642614a823d65c51069bd24dede085ca",
     "at": "2026-11-10T16:21:09.807942+00:00"
+   },
+   "199c552af3c08262e8a71c05166aa4699e151869": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not verify: 'Most working couples in urban India rely on a paid house help to handle the housework, so they avoid arguing over who does the dishes.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Across India, women who do housework spend close to five hours a day on it on average, according to the government's time-use survey.",
+      "sentence": "Across India, women who do housework average close to five hours a day on it, by the government's own time-use survey.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Across India, men who do housework spend about an hour and a half a day on it on average, according to the government's time-use survey.",
+      "sentence": "Men, about an hour and a half.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "India's government runs a time-use survey that measures time spent on housework by gender.",
+      "sentence": "by the government's own time-use survey",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Domestic workers in urban India are typically paid a monthly salary.",
+      "sentence": "for one monthly salary",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Domestic workers who work in other people's homes typically pack their own children's tiffin at about 6 AM before going to work.",
+      "sentence": "Her own dishes, her own kids' tiffin, packed at 6 AM before she gets to yours.",
+      "type": "anecdote",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Most working couples in urban India rely on a paid house help to handle the housework, so they avoid arguing over who does the dishes.",
+      "sentence": "The house help is how most working couples skipped the fight over who does the dishes.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "Mechanism: (1) In dual-earner urban Indian couples, housework is split unequally, with women doing far more of it than men. (2) Paid house help takes over much of that housework for a monthly salary. (3) Because the help absorbs the work, the couple never has to negotiate who does what. (4) So the marriage looks equal, and the unequal split only shows when the help is absent. Conclusion: the house help is the reason these marriages look equal.",
+      "sentence": "She isn't the help. She's the reason your marriage looks equal.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2025-02-25",
+      "correct": "MoSPI's Time Use Survey 2024 reports that women aged 6 and above who take part in unpaid domestic work spend 289 minutes a day on it, about 4.8 hours. For women aged 15-59 the figure is about 305 minutes.",
+      "sources": [
+       {
+        "url": "https://www.businesstoday.in/india/story/time-use-survey-women-take-on-most-of-household-and-caregiving-work-465946-2025-02-25",
+        "publisher": "Business Today",
+        "published_date": "2025-02-25",
+        "quote": "females spent 289 minutes daily on unpaid domestic services in 2024 compared to just 88 minutes by men.",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2025-02-25",
+      "correct": "Men aged 6 and above who take part in unpaid domestic work spend 88 minutes a day on it, about 1.5 hours.",
+      "sources": [
+       {
+        "url": "https://www.businesstoday.in/india/story/time-use-survey-women-take-on-most-of-household-and-caregiving-work-465946-2025-02-25",
+        "publisher": "Business Today",
+        "published_date": "2025-02-25",
+        "quote": "females spent 289 minutes daily on unpaid domestic services in 2024 compared to just 88 minutes by men.",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "2025-02-25",
+      "correct": "The National Statistics Office (MoSPI) ran the Time Use Survey in 2019 and again in 2024. It reports time spent on unpaid domestic work by gender.",
+      "sources": [
+       {
+        "url": "https://www.businesstoday.in/india/story/time-use-survey-women-take-on-most-of-household-and-caregiving-work-465946-2025-02-25",
+        "publisher": "Business Today",
+        "published_date": "2025-02-25",
+        "quote": "females spent 289 minutes daily on unpaid domestic services in 2024 compared to just 88 minutes by men.",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c5",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": "Domestic workers in urban India are generally paid a monthly sum. The amount varies with the tasks done and the number of households served, and many are paid below minimum wage.",
+      "sources": [
+       {
+        "url": "https://www.ihdindia.org/research/gender-and-development/persisting-servitude-and-gradual-shifts-towards-recognition-and-dignity-of-labour-a-study-of-employers-of-domestic-workers-in-delhi-and-mumbai/",
+        "publisher": "Institute for Human Development",
+        "published_date": null,
+        "quote": "Part-time workers earn an average of Rs. 1,500 per month",
+        "tier": 1
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "unverifiable",
+      "correct": "I found no national survey of how many urban Indian working couples employ paid house help. The closest evidence is an IIHS survey of 9,636 households, which found about 54% of Bengaluru households and 32% of Chennai households hired domestic workers. That covered all household types, not only working couples. The figure varies widely by city, so 'most' is plausible in some places and doubtful in others. The claim also assumes that having help means couples don't argue over chores, and no source tests that.",
+      "sources": []
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. One premise is less precise than the post suggests: premise (1) is about dual-earner urban couples, but the time-use figures on slide 5 are all-India averages for every woman and man aged 6+ who did any unpaid domestic work, not working couples specifically. The numbers themselves are right: about 289 minutes a day for women and 88 for men in TUS 2024, and 299 and 97 in TUS 2019. Premise (2) is how paid domestic work actually operates: a household pays a monthly salary for set tasks such as sweeping, dishes and dusting. It buys back some hours but doesn't end the split. Premises (3) and (4) and the conclusion are interpretation, and they follow from (1) and (2).",
+     "actual_mechanism": "India's official Time Use Survey (NSO/MoSPI, Jan–Dec 2024) found that 81.5% of women did unpaid domestic work, against 27.1% of men. Women who did it averaged about 289 minutes a day and men about 88. In 2019 the figures were 299 and 97, so 'close to five hours' and 'about an hour and a half' are accurate. A monthly-salaried part-time help in an urban home takes over a defined set of chores. The leftover work and the job of managing the help still fall mostly to women, and when she's absent her tasks go back to the household's existing default split. That supports the post's claim that the help hides the imbalance rather than removing it.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://ruralindiaonline.org/te/library/resource/time-use-survey-fact-sheet-january---december-2024/",
+       "published_date": "2025",
+       "quote": "Women spent 289 minutes each day on unpaid domestic services for household members whereas men spent only 88 minutes."
+      },
+      {
+       "url": "https://www.downtoearth.org.in/governance/womens-poverty-of-time",
+       "published_date": "2025",
+       "quote": "81.5% of women engaged in unpaid domestic services compared to 27.1% of men (Time Use Survey 2024)."
+      },
+      {
+       "url": "https://m.thewire.in/article/gender/what-the-time-use-survey-says-about-womens-work",
+       "published_date": "2025",
+       "quote": "Female participants aged 15-59 spent about 305 minutes a day on unpaid domestic services in 2024, down from about 315 in 2019."
+      }
+     ]
+    },
+    "text_hash": "199c552af3c08262e8a71c05166aa4699e151869",
+    "at": "2026-11-12T12:43:25.801984+00:00"
+   }
+  },
+  "Most working couples in urban India rely on a paid house help to handle the housework, so they avoid arguing over who does the dishes.": {
+   "id": "c6",
+   "verdict": "unverifiable",
+   "correct": "I found no national survey of how many urban Indian working couples employ paid house help. The closest evidence is an IIHS survey of 9,636 households, which found about 54% of Bengaluru households and 32% of Chennai households hired domestic workers. That covered all household types, not only working couples. The figure varies widely by city, so 'most' is plausible in some places and doubtful in others. The claim also assumes that having help means couples don't argue over chores, and no source tests that.",
+   "sources": []
+  },
+  "_skeptic_take": {
+   "36bf8169e524fb3816e7eabc4902280ecbda5382": {
+    "holds": true,
+    "broken_premise": "None. One premise is less precise than the post suggests: premise (1) is about dual-earner urban couples, but the time-use figures on slide 5 are all-India averages for every woman and man aged 6+ who did any unpaid domestic work, not working couples specifically. The numbers themselves are right: about 289 minutes a day for women and 88 for men in TUS 2024, and 299 and 97 in TUS 2019. Premise (2) is how paid domestic work actually operates: a household pays a monthly salary for set tasks such as sweeping, dishes and dusting. It buys back some hours but doesn't end the split. Premises (3) and (4) and the conclusion are interpretation, and they follow from (1) and (2).",
+    "actual_mechanism": "India's official Time Use Survey (NSO/MoSPI, Jan–Dec 2024) found that 81.5% of women did unpaid domestic work, against 27.1% of men. Women who did it averaged about 289 minutes a day and men about 88. In 2019 the figures were 299 and 97, so 'close to five hours' and 'about an hour and a half' are accurate. A monthly-salaried part-time help in an urban home takes over a defined set of chores. The leftover work and the job of managing the help still fall mostly to women, and when she's absent her tasks go back to the household's existing default split. That supports the post's claim that the help hides the imbalance rather than removing it.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://ruralindiaonline.org/te/library/resource/time-use-survey-fact-sheet-january---december-2024/",
+      "published_date": "2025",
+      "quote": "Women spent 289 minutes each day on unpaid domestic services for household members whereas men spent only 88 minutes."
+     },
+     {
+      "url": "https://www.downtoearth.org.in/governance/womens-poverty-of-time",
+      "published_date": "2025",
+      "quote": "81.5% of women engaged in unpaid domestic services compared to 27.1% of men (Time Use Survey 2024)."
+     },
+     {
+      "url": "https://m.thewire.in/article/gender/what-the-time-use-survey-says-about-womens-work",
+      "published_date": "2025",
+      "quote": "Female participants aged 15-59 spent about 305 minutes a day on unpaid domestic services in 2024, down from about 315 in 2019."
+     }
+    ]
    }
   }
  },

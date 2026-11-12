@@ -1,6 +1,6 @@
 {
  "id": "2026-11-121",
- "status": "uploaded",
+ "status": "scheduled",
  "due": "2026-11-18T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -207,7 +207,7 @@
   }
  ],
  "sources": [],
- "updated_at": "2026-11-10T16:08:14.721818+00:00",
+ "updated_at": "2026-11-12T12:47:13.188026+00:00",
  "draft": {
   "cover": {
    "headline": "The eldest child fights every rule.",
@@ -274,15 +274,16 @@
    }
   ],
   "end": {},
-  "caption": "Parents don't mellow with age. They mellow with practice. Eldest or youngest?",
+  "caption": "Your younger sibling didn't get chill parents. They got the ones the eldest child already wore down.\n\nThe shouting happened with you. By their turn, the rule had already been argued loose.\n\nSend this to your younger sibling, who still thinks mummy-papa were always this chill.",
   "hashtags": [
-   "siblings",
-   "indianfamily",
-   "eldestchild",
-   "desiparents"
+   "#EldestChild",
+   "#IndianFamily"
   ],
   "alt_text": "A text post about eldest and younger siblings.",
-  "claims": []
+  "claims": [],
+  "caption_style": "send",
+  "search_phrase": "eldest child",
+  "caption_v": 2
  },
  "owner_ok": true,
  "deleted_buffer_ids": [
@@ -291,20 +292,12 @@
  ],
  "verification_cache": {
   "_ledger": {
-   "text": "[cover] The eldest child fights every rule.\nThe youngest walks through the door that fight opened.\n \n\n[slide 1] The eldest child fights every rule.\nThe youngest walks through the door that fight opened.\n\n[slide 2] Your first phone came in class 11, after months of begging and a speech about studies.\nYour sibling had one in class 8. No speech. No conditions.\n\n[slide 3] Indian parents don't plan this. They just test every rule on the first child: curfew, college, friends, clothes.\nThe eldest is the trial run.\n\n[slide 4] And the trial run comes with a label. \"Ziddi.\" \"Answers back.\" \"Isse toh kuch kehna hi bekaar hai.\"\nYou lost almost every fight, but each one left the rule a little looser.\n\n[slide 5] By the time your sibling asked for the Goa trip, that argument had already happened. With you, years earlier.\nThey just collected the result.\n\n[slide 6] Parents don't mellow with age. They mellow with practice.\nAnd you were the practice.\n\n[slide 7] Look at the receipts. Your curfew: 8 PM, pushed to 9 over two years. Theirs: \"bas phone utha lena.\"\nYour college: the safe city nearby. Theirs: wherever they got in.\n\n[slide 8] The strange part is that everyone remembers it differently. Your parents still call you the difficult one. Your sibling believes mummy-papa were always chill.\n\n[slide 9] Your sibling isn't spoiled.\nThey just walked in after the door was already open.\n\n[slide 10] Every fight you lost, your sibling is still cashing in on.\n\n[end card] \n\n\n[caption] Parents don't mellow with age. They mellow with practice. Eldest or youngest?\n\n[alt text] A text post about eldest and younger siblings.",
+   "text": "[cover] The eldest child fights every rule.\nThe youngest walks through the door that fight opened.\n \n\n[slide 1] The eldest child fights every rule.\nThe youngest walks through the door that fight opened.\n\n[slide 2] Your first phone came in class 11, after months of begging and a speech about studies.\nYour sibling had one in class 8. No speech. No conditions.\n\n[slide 3] Indian parents don't plan this. They just test every rule on the first child: curfew, college, friends, clothes.\nThe eldest is the trial run.\n\n[slide 4] And the trial run comes with a label. \"Ziddi.\" \"Answers back.\" \"Isse toh kuch kehna hi bekaar hai.\"\nYou lost almost every fight, but each one left the rule a little looser.\n\n[slide 5] By the time your sibling asked for the Goa trip, that argument had already happened. With you, years earlier.\nThey just collected the result.\n\n[slide 6] Parents don't mellow with age. They mellow with practice.\nAnd you were the practice.\n\n[slide 7] Look at the receipts. Your curfew: 8 PM, pushed to 9 over two years. Theirs: \"bas phone utha lena.\"\nYour college: the safe city nearby. Theirs: wherever they got in.\n\n[slide 8] The strange part is that everyone remembers it differently. Your parents still call you the difficult one. Your sibling believes mummy-papa were always chill.\n\n[slide 9] Your sibling isn't spoiled.\nThey just walked in after the door was already open.\n\n[slide 10] Every fight you lost, your sibling is still cashing in on.\n\n[end card] \n\n\n[caption] Your younger sibling didn't get chill parents. They got the ones the eldest child already wore down.\n\nThe shouting happened with you. By their turn, the rule had already been argued loose.\n\nSend this to your younger sibling, who still thinks mummy-papa were always this chill.\n\n[alt text] A text post about eldest and younger siblings.",
    "claims": [
     {
      "id": "c1",
-     "text": "Indian parents test their rules on the first child, and each fight the eldest has loosens the rules, so younger siblings get more freedom (such as phones, curfews and travel) without having to fight for it.",
-     "sentence": "Indian parents don't plan this. They just test every rule on the first child: curfew, college, friends, clothes. The eldest is the trial run.",
-     "type": "mechanism",
-     "core": true,
-     "framed_as": "timeless"
-    },
-    {
-     "id": "c2",
-     "text": "Parents become more lenient because of practice with earlier children, not because they get older.",
-     "sentence": "Parents don't mellow with age. They mellow with practice.",
+     "text": "Younger siblings get more lenient parents because the eldest child's repeated arguments over rules wore those rules down first. Premises: parents hold firm on rules and the eldest contests them; each contested rule loosens a little; by the time the younger sibling asks, the loosened rule is the starting point. Conclusion: the younger sibling's greater freedom comes from the eldest's earlier fights, not from the parents being naturally more relaxed.",
+     "sentence": "Your younger sibling didn't get chill parents. They got the ones the eldest child already wore down. By their turn, the rule had already been argued loose.",
      "type": "mechanism",
      "core": true,
      "framed_as": "timeless"
@@ -327,6 +320,29 @@
       "url": "https://www.bustle.com/articles/7326-parents-are-tougher-on-first-children-just-as-we-suspected",
       "published_date": "2013-10-21",
       "quote": "school performance of children ... declines with birth order as does the stringency of their parents' disciplinary restrictions."
+     }
+    ]
+   },
+   "9b3f3292f39e89145c77baff4fd87c184783e630": {
+    "holds": true,
+    "broken_premise": "None that can be failed under the brief. Every premise is a generalization about family life or a reading of parents' motives (parents test rules on the eldest, each fight loosens the rule, the younger sibling inherits the looser rule). None of them claims anything about a product, price, fee, law, contract or market, so none can be shown to be untrue. One note for the editor: economics research gives a different reason for the same pattern. It suggests parents may be strict with the first child on purpose, to show later children they mean it, and then relax once that is less needed. Under that reading the leniency comes from the parents' strategy and from fatigue, not from the eldest wearing them down. This is a competing interpretation, not proof that the post is wrong.",
+    "actual_mechanism": "Survey data (NLSY-C, analysed by Hotz & Pantano) show that parental discipline really does get less strict with each later child. Parents also say they would be less likely to punish a later-born child for bad grades. The authors explain this with a 'reputation' model: parents are deliberately tough on the first-born to deter younger siblings, and press coverage also mentions parental fatigue. That fits the post's 'they mellow with practice' line, though the main driver may be the parents' own strategy more than the eldest's arguments.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://econpapers.repec.org/RePEc:nbr:nberwo:19542",
+      "published_date": "2013-10",
+      "quote": "Parents impose more stringent disciplinary environments in response to their earlier-born children's poor performance in school."
+     },
+     {
+      "url": "https://econpapers.repec.org/RePEc:spr:jopoec:v:28:y:2015:i:4:p:911-936",
+      "published_date": "2015-10",
+      "quote": "When asked how they will respond if a child brought home bad grades, parents state that they would be less likely to punish their later-born children. Taken together, these patterns are consistent with a reputation model of strategic parenting."
+     },
+     {
+      "url": "https://www.metroparent.com/?p=13127",
+      "published_date": "unknown",
+      "quote": "Parents were stricter with their first-born children when it came to poor school performance."
      }
     ]
    }
@@ -375,6 +391,72 @@
     },
     "text_hash": "a037acd134f42531784b86564ae955472b5fffa2",
     "at": "2026-11-10T16:01:57.297258+00:00"
+   },
+   "cfad9bb40b1c9dd61d8868bb9316aef57247eda5": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Younger siblings get more lenient parents because the eldest child's repeated arguments over rules wore those rules down first. Premises: parents hold firm on rules and the eldest contests them; each contested rule loosens a little; by the time the younger sibling asks, the loosened rule is the starting point. Conclusion: the younger sibling's greater freedom comes from the eldest's earlier fights, not from the parents being naturally more relaxed.",
+      "sentence": "Your younger sibling didn't get chill parents. They got the ones the eldest child already wore down. By their turn, the rule had already been argued loose.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {},
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None that can be failed under the brief. Every premise is a generalization about family life or a reading of parents' motives (parents test rules on the eldest, each fight loosens the rule, the younger sibling inherits the looser rule). None of them claims anything about a product, price, fee, law, contract or market, so none can be shown to be untrue. One note for the editor: economics research gives a different reason for the same pattern. It suggests parents may be strict with the first child on purpose, to show later children they mean it, and then relax once that is less needed. Under that reading the leniency comes from the parents' strategy and from fatigue, not from the eldest wearing them down. This is a competing interpretation, not proof that the post is wrong.",
+     "actual_mechanism": "Survey data (NLSY-C, analysed by Hotz & Pantano) show that parental discipline really does get less strict with each later child. Parents also say they would be less likely to punish a later-born child for bad grades. The authors explain this with a 'reputation' model: parents are deliberately tough on the first-born to deter younger siblings, and press coverage also mentions parental fatigue. That fits the post's 'they mellow with practice' line, though the main driver may be the parents' own strategy more than the eldest's arguments.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://econpapers.repec.org/RePEc:nbr:nberwo:19542",
+       "published_date": "2013-10",
+       "quote": "Parents impose more stringent disciplinary environments in response to their earlier-born children's poor performance in school."
+      },
+      {
+       "url": "https://econpapers.repec.org/RePEc:spr:jopoec:v:28:y:2015:i:4:p:911-936",
+       "published_date": "2015-10",
+       "quote": "When asked how they will respond if a child brought home bad grades, parents state that they would be less likely to punish their later-born children. Taken together, these patterns are consistent with a reputation model of strategic parenting."
+      },
+      {
+       "url": "https://www.metroparent.com/?p=13127",
+       "published_date": "unknown",
+       "quote": "Parents were stricter with their first-born children when it came to poor school performance."
+      }
+     ]
+    },
+    "text_hash": "cfad9bb40b1c9dd61d8868bb9316aef57247eda5",
+    "at": "2026-11-12T12:45:24.676230+00:00"
+   }
+  },
+  "_skeptic_take": {
+   "329a53dbea1dc94934394db24e38fa8dd9033cb9": {
+    "holds": true,
+    "broken_premise": "None that can be failed under the brief. Every premise is a generalization about family life or a reading of parents' motives (parents test rules on the eldest, each fight loosens the rule, the younger sibling inherits the looser rule). None of them claims anything about a product, price, fee, law, contract or market, so none can be shown to be untrue. One note for the editor: economics research gives a different reason for the same pattern. It suggests parents may be strict with the first child on purpose, to show later children they mean it, and then relax once that is less needed. Under that reading the leniency comes from the parents' strategy and from fatigue, not from the eldest wearing them down. This is a competing interpretation, not proof that the post is wrong.",
+    "actual_mechanism": "Survey data (NLSY-C, analysed by Hotz & Pantano) show that parental discipline really does get less strict with each later child. Parents also say they would be less likely to punish a later-born child for bad grades. The authors explain this with a 'reputation' model: parents are deliberately tough on the first-born to deter younger siblings, and press coverage also mentions parental fatigue. That fits the post's 'they mellow with practice' line, though the main driver may be the parents' own strategy more than the eldest's arguments.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://econpapers.repec.org/RePEc:nbr:nberwo:19542",
+      "published_date": "2013-10",
+      "quote": "Parents impose more stringent disciplinary environments in response to their earlier-born children's poor performance in school."
+     },
+     {
+      "url": "https://econpapers.repec.org/RePEc:spr:jopoec:v:28:y:2015:i:4:p:911-936",
+      "published_date": "2015-10",
+      "quote": "When asked how they will respond if a child brought home bad grades, parents state that they would be less likely to punish their later-born children. Taken together, these patterns are consistent with a reputation model of strategic parenting."
+     },
+     {
+      "url": "https://www.metroparent.com/?p=13127",
+      "published_date": "unknown",
+      "quote": "Parents were stricter with their first-born children when it came to poor school performance."
+     }
+    ]
    }
   }
  },
@@ -385,16 +467,8 @@
   "ledger": [
    {
     "id": "c1",
-    "text": "Indian parents test their rules on the first child, and each fight the eldest has loosens the rules, so younger siblings get more freedom (such as phones, curfews and travel) without having to fight for it.",
-    "sentence": "Indian parents don't plan this. They just test every rule on the first child: curfew, college, friends, clothes. The eldest is the trial run.",
-    "type": "mechanism",
-    "core": true,
-    "framed_as": "timeless"
-   },
-   {
-    "id": "c2",
-    "text": "Parents become more lenient because of practice with earlier children, not because they get older.",
-    "sentence": "Parents don't mellow with age. They mellow with practice.",
+    "text": "Younger siblings get more lenient parents because the eldest child's repeated arguments over rules wore those rules down first. Premises: parents hold firm on rules and the eldest contests them; each contested rule loosens a little; by the time the younger sibling asks, the loosened rule is the starting point. Conclusion: the younger sibling's greater freedom comes from the eldest's earlier fights, not from the parents being naturally more relaxed.",
+    "sentence": "Your younger sibling didn't get chill parents. They got the ones the eldest child already wore down. By their turn, the rule had already been argued loose.",
     "type": "mechanism",
     "core": true,
     "framed_as": "timeless"
@@ -403,24 +477,29 @@
   "verdicts": {},
   "mechanism": {
    "holds": true,
-   "broken_premise": "None. Both premises are generalizations about family life and parents' motives. They say nothing checkable about a product, price, fee, law, contract or market, so they aren't premises this check can fail. The research supports the pattern the post describes: parents are stricter with firstborns and get more relaxed with later children. It does point to an extra reason for this besides 'practice.' That is a difference in interpretation, not something the post gets wrong.",
-   "actual_mechanism": "Economists using large US surveys (the NLSY) find that rules and discipline get looser with each later-born child. For example, firstborns face more TV rules and more homework monitoring. One explanation is strategic: parents are tough on the oldest to show the younger children they are 'not a pushover,' and that pressure eases once fewer children are left to deter. So younger siblings do tend to get looser rules without fighting for them. The cause is partly parents' deterrence strategy and changing incentives, not only practice or the eldest's fights wearing the rules down. That evidence is from the US, not India.",
+   "broken_premise": "None that can be failed under the brief. Every premise is a generalization about family life or a reading of parents' motives (parents test rules on the eldest, each fight loosens the rule, the younger sibling inherits the looser rule). None of them claims anything about a product, price, fee, law, contract or market, so none can be shown to be untrue. One note for the editor: economics research gives a different reason for the same pattern. It suggests parents may be strict with the first child on purpose, to show later children they mean it, and then relax once that is less needed. Under that reading the leniency comes from the parents' strategy and from fatigue, not from the eldest wearing them down. This is a competing interpretation, not proof that the post is wrong.",
+   "actual_mechanism": "Survey data (NLSY-C, analysed by Hotz & Pantano) show that parental discipline really does get less strict with each later child. Parents also say they would be less likely to punish a later-born child for bad grades. The authors explain this with a 'reputation' model: parents are deliberately tough on the first-born to deter younger siblings, and press coverage also mentions parental fatigue. That fits the post's 'they mellow with practice' line, though the main driver may be the parents' own strategy more than the eldest's arguments.",
    "take_survives": true,
    "sources": [
     {
-     "url": "https://www.nbcnews.com/health/health-news/plight-older-sibling-flna1c9459443",
-     "published_date": "2008-05-05",
-     "quote": "Parents 'have an incentive to play tough with their kids, especially the older ones' ... [signalling] 'that they're not a pushover.'"
+     "url": "https://econpapers.repec.org/RePEc:nbr:nberwo:19542",
+     "published_date": "2013-10",
+     "quote": "Parents impose more stringent disciplinary environments in response to their earlier-born children's poor performance in school."
     },
     {
-     "url": "https://www.bustle.com/articles/7326-parents-are-tougher-on-first-children-just-as-we-suspected",
-     "published_date": "2013-10-21",
-     "quote": "school performance of children ... declines with birth order as does the stringency of their parents' disciplinary restrictions."
+     "url": "https://econpapers.repec.org/RePEc:spr:jopoec:v:28:y:2015:i:4:p:911-936",
+     "published_date": "2015-10",
+     "quote": "When asked how they will respond if a child brought home bad grades, parents state that they would be less likely to punish their later-born children. Taken together, these patterns are consistent with a reputation model of strategic parenting."
+    },
+    {
+     "url": "https://www.metroparent.com/?p=13127",
+     "published_date": "unknown",
+     "quote": "Parents were stricter with their first-born children when it came to poor school performance."
     }
    ]
   },
-  "text_hash": "a037acd134f42531784b86564ae955472b5fffa2",
-  "at": "2026-11-10T16:01:57.297258+00:00"
+  "text_hash": "cfad9bb40b1c9dd61d8868bb9316aef57247eda5",
+  "at": "2026-11-12T12:45:24.676230+00:00"
  },
  "alt_texts": [
   "The eldest child fights every rule. The youngest walks through the door that fight opened.",
@@ -445,5 +524,7 @@
   "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-121/slide_08.jpg",
   "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-121/slide_09.jpg",
   "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-121/slide_10.jpg"
- ]
+ ],
+ "buffer_attempted_at": "2026-11-12T12:47:12.187569+00:00",
+ "buffer_post_id": "6af5b551be882fe76e223d43"
 }
