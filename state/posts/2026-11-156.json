@@ -1,6 +1,6 @@
 {
  "id": "2026-11-156",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-27T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -66,6 +66,1050 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-11-13T07:12:24.404805+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 3,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3,
+     "informative": 4
+    },
+    "notes": [
+     "Slides 1, 6 and 10: the owner's banned repeated 'Not X. Y.' pattern appears three times. Slide 1 has \"doesn't buy a better film. It buys the best seat in the house.\" Slide 6 has \"The cinema is selling the seat, not the story.\" Slide 10 has \"you didn't book a film. You booked the photo.\" Keep the shape only in the slide 10 close. Rewrite slide 1 as a plain claim with the turn inside it, e.g. 'A ₹2,600 recliner ticket is priced for the seat. The film comes free.' Rewrite slide 6 without the contrast, e.g. 'The cinema prices the recliner, and a recliner is worth most in the first festive days, when everyone wants to go and nobody has a verdict yet.'",
+     "Slides 6 and 7 make the same point twice ('A seat sells best...' then 'A bad film still sells the outing'). Merge them into one slide that names who gains, using the topic's mechanism. The top price is set and sold out before a single review exists. The cinema is paid either way, and the risk of an average film is yours. That 'the risk is yours' beat is the because the post is missing, and merging gives a tighter slide.",
+     "Slide 2: three facts in a row make this slide read like a recap, and one is worded stronger than the source. The source says 'most premium categories were marked sold out', not 'most premium seats'. Change it to 'most premium categories were sold out in the festive rush' or drop it. Lead with the Mumbai IMAX shows selling out before the film opened, since that fact carries the 'paid before the verdict' point. Slide 3 then clashes with slide 2: 'the recliner is still green' after 'sold out'. Make it 'two recliners in the corner are still green' so the scene fits the facts.",
+     "Slide 9: \"We feel a little silly paying it. We're not sorry either.\" names the feeling instead of making the reader feel it. Show it with one small beat the reader has lived, such as the UPI debit SMS you swipe away without opening. Then land on the flat line, which already does the real work ('A flat in this city is a decade away. A recliner on a holiday is a luxury most of us can actually reach.').",
+     "Slide 8: the parking-lot line is the post's best insider beat. Sharpen it with the real split from real_details as a typical scene. The friend who skipped it says 'wait for OTT', and the one who paid ₹2,600 says 'Film okay-okay thi. But the seats, bhai.' That contrast proves 'the more the ticket cost, the kinder the review' without stating it. It also adds a sound beat the post otherwise lacks, so you can trim the explaining sentence after it."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Slides 1, 6 and 10: the owner's banned repeated 'Not X. Y.' pattern appears three times. Slide 1 has \"doesn't buy a better film. It buys the best seat in the house.\" Slide 6 has \"The cinema is selling the seat, not the story.\" Slide 10 has \"you didn't book a film. You booked the photo.\" Keep the shape only in the slide 10 close. Rewrite slide 1 as a plain claim with the turn inside it, e.g. 'A ₹2,600 recliner ticket is priced for the seat. The film comes free.' Rewrite slide 6 without the contrast, e.g. 'The cinema prices the recliner, and a recliner is worth most in the first festive days, when everyone wants to go and nobody has a verdict yet.'",
+    "Slides 6 and 7 make the same point twice ('A seat sells best...' then 'A bad film still sells the outing'). Merge them into one slide that names who gains, using the topic's mechanism. The top price is set and sold out before a single review exists. The cinema is paid either way, and the risk of an average film is yours. That 'the risk is yours' beat is the because the post is missing, and merging gives a tighter slide.",
+    "Slide 2: three facts in a row make this slide read like a recap, and one is worded stronger than the source. The source says 'most premium categories were marked sold out', not 'most premium seats'. Change it to 'most premium categories were sold out in the festive rush' or drop it. Lead with the Mumbai IMAX shows selling out before the film opened, since that fact carries the 'paid before the verdict' point. Slide 3 then clashes with slide 2: 'the recliner is still green' after 'sold out'. Make it 'two recliners in the corner are still green' so the scene fits the facts.",
+    "Slide 9: \"We feel a little silly paying it. We're not sorry either.\" names the feeling instead of making the reader feel it. Show it with one small beat the reader has lived, such as the UPI debit SMS you swipe away without opening. Then land on the flat line, which already does the real work ('A flat in this city is a decade away. A recliner on a holiday is a luxury most of us can actually reach.').",
+    "Slide 8: the parking-lot line is the post's best insider beat. Sharpen it with the real split from real_details as a typical scene. The friend who skipped it says 'wait for OTT', and the one who paid ₹2,600 says 'Film okay-okay thi. But the seats, bhai.' That contrast proves 'the more the ticket cost, the kinder the review' without stating it. It also adds a sound beat the post otherwise lacks, so you can trim the explaining sentence after it."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "All five notes from the last draft are fixed. Slide 1 is now a plain claim. Slides 6 and 7 are merged and carry the 'risk is yours' because. Slide 2 leads with the Mumbai sell-out, and slide 3 says 'two recliners in the corner'. The SMS beat shows the feeling on slide 8. The OTT vs 'okay-okay thi' split lands on slide 7.",
+     "slide 6: the merge brought back slide 2's point. 'The top seats sell out before a review' repeats 'sold out before the film had even opened… before anyone had seen it.' Cut that sentence so the slide reads: 'A recliner is priced highest in the first festive days, when everyone wants to go and no verdict exists. The cinema is paid either way. The risk of an average film is all yours.' That says the idea once and lets the 'risk is yours' line hit harder."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 8",
+      "line": "The debit SMS from your bank pings. You swipe it away unopened. And it isn't foolish.",
+      "why": "scene narration, then a soft, hedged verdict",
+      "try": "The debit SMS? Swiped away unread. And honestly, fair enough. A flat in this city is a decade away. A recliner on a holiday is the one luxury most of us can actually reach."
+     },
+     {
+      "where": "slide 3",
+      "line": "It's a holiday. You open BookMyShow. The cheap rows are gone, the front three are left, and two recliners in the corner are still green.",
+      "why": "three lines of scene before any point",
+      "try": "Every holiday booking goes the same way. Cheap rows gone on BookMyShow. It's the front three or the two green recliners in the corner. Nobody picks the front three."
+     },
+     {
+      "where": "slide 9",
+      "line": "Before the next big release, try one test.",
+      "why": "coach voice, unasked-for advice",
+      "try": "So here's how you know which one you paid for."
+     },
+     {
+      "where": "slide 6",
+      "line": "A recliner is priced highest in the first festive days, when everyone wants to go and no verdict exists.",
+      "why": "stiff, written phrasing",
+      "try": "Recliners cost the most in the first festive days, when everyone wants to go and nobody's seen the film yet."
+     },
+     {
+      "where": "slide 4",
+      "line": "Then the footrest goes up, the blanket comes out, and the Instagram story is posted during the ads.",
+      "why": "triple list, more scene narration",
+      "try": "Footrest up, blanket out. The story is posted before the ads end."
+     },
+     {
+      "where": "slide 7",
+      "line": "Which explains the split in the parking lot after.",
+      "why": "written connective, explains instead of says",
+      "try": "You can see the split in the parking lot after."
+     }
+    ],
+    "best": "The rest buys a photo of your feet up, with the screen glowing behind them."
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Not Varun (slide 8): 'The debit SMS from your bank pings. You swipe it away unopened. And it isn't foolish.' reads as scene narration, then a soft, hedged verdict. Say it the way he would, e.g. 'The debit SMS? Swiped away unread. And honestly, fair enough. A flat in this city is a decade away. A recliner on a holiday is the one luxury most of us can actually reach.' (his register, your words, same facts).",
+    "Not Varun (slide 3): 'It's a holiday. You open BookMyShow. The cheap rows are gone, the front three are left, and two recliners in the corner are still green.' reads as three lines of scene before any point. Say it the way he would, e.g. 'Every holiday booking goes the same way. Cheap rows gone on BookMyShow. It's the front three or the two green recliners in the corner. Nobody picks the front three.' (his register, your words, same facts).",
+    "Not Varun (slide 9): 'Before the next big release, try one test.' reads as coach voice, unasked-for advice. Say it the way he would, e.g. 'So here's how you know which one you paid for.' (his register, your words, same facts).",
+    "Not Varun (slide 6): 'A recliner is priced highest in the first festive days, when everyone wants to go and no verdict exists.' reads as stiff, written phrasing. Say it the way he would, e.g. 'Recliners cost the most in the first festive days, when everyone wants to go and nobody's seen the film yet.' (his register, your words, same facts).",
+    "Not Varun (slide 4): 'Then the footrest goes up, the blanket comes out, and the Instagram story is posted during the ads.' reads as triple list, more scene narration. Say it the way he would, e.g. 'Footrest up, blanket out. The story is posted before the ads end.' (his register, your words, same facts).",
+    "Not Varun (slide 7): 'Which explains the split in the parking lot after.' reads as written connective, explains instead of says. Say it the way he would, e.g. 'You can see the split in the parking lot after.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": []
+   }
+  },
+  {
+   "attempt": 2,
+   "varun": {
+    "pass": true,
+    "score": 5,
+    "misses": [],
+    "best": "Nobody picks the front three."
+   }
+  },
+  {
+   "attempt": 2,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not verify: 'BookMyShow's seat map shows recliner seats in green.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'The cinema is paid for the ticket whether or not the film turns out good, so the viewer carries the risk of an average film.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "A recliner cinema ticket in the post's example costs ₹2,600.",
+      "sentence": "A ₹2,600 recliner ticket is priced for the seat.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Some IMAX shows of Ramayana in Mumbai sold out before the film opened.",
+      "sentence": "In Mumbai, some IMAX shows of Ramayana sold out before the film had even opened.",
+      "type": "event",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c3",
+      "text": "BookMyShow's seat map shows recliner seats in green.",
+      "sentence": "It's the front three or two green recliners in the corner.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Regular 2D show tickets for the same film started at around ₹500.",
+      "sentence": "Regular 2D shows started around ₹500.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c5",
+      "text": "The gap between the ₹2,600 recliner ticket and the ₹500 regular 2D ticket is ₹2,100.",
+      "sentence": "Some of the extra ₹2,100 is real",
+      "type": "arithmetic",
+      "core": false,
+      "framed_as": "timeless",
+      "expr": "2600-500",
+      "stated": "2100"
+     },
+     {
+      "id": "c6",
+      "text": "The premium ticket includes a bigger screen, better sound and a reclining seat compared with a regular 2D show.",
+      "sentence": "a bigger screen, better sound, a seat that leans back.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "Recliner seat prices are highest in the first festive days of a film's run.",
+      "sentence": "Recliners cost the most in the first festive days, when everyone wants to go and no one has seen the film yet.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c8",
+      "text": "The top-priced seats sell out before reviews of the film are out.",
+      "sentence": "The top seats sell out before a review.",
+      "type": "event",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c9",
+      "text": "The cinema is paid for the ticket whether or not the film turns out good, so the viewer carries the risk of an average film.",
+      "sentence": "The cinema is paid either way. The risk of an average film is all yours.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c10",
+      "text": "Premium seats are priced highest at a film's festive opening, when demand is peak and no reviews exist, and sell out early, so the cinema earns the money regardless of film quality and the buyer bears the risk.",
+      "sentence": "Recliner seats sell out before a single review is out... The best seats cost the most in the first festive days, when nobody knows yet if the film is any good.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2026-11-06",
+      "correct": "BookMyShow listed IMAX 3D recliners for Ramayana at PVR Palladium, Ahmedabad, at ₹2,600.",
+      "sources": [
+       {
+        "url": "https://deshgujarat.com/2026/11/06/ranbir-kapoor-starrer-ramayana-movie-ticket-prices-touch-%E2%82%B92600-in-ahmedabad/",
+        "publisher": "DeshGujarat",
+        "published_date": "2026-11-06",
+        "quote": "recliner seats for IMAX 3D screenings at PVR Palladium Mall were priced at ₹2,600",
+        "tier": 3
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2026-10-22",
+      "correct": "Sacnilk's advance-booking report, dated 22 October, says a Mumbai IMAX show sold out at ₹2,770, before the 5 November release.",
+      "sources": [
+       {
+        "url": "https://www.sacnilk.com/news/ramayana-first-day-of-advance-booking-report-544-cr-gross-dhurandhar-2-leads-by-over-84-as-ramayanas-imax-demand-stands-out",
+        "publisher": "Sacnilk",
+        "published_date": "2026-10-22",
+        "quote": "an IMAX screening reportedly sold out despite tickets being priced at ₹2,770",
+        "tier": 3
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "unverifiable",
+      "correct": "I found no BookMyShow page or announcement stating that recliner seats are shown in green. The DeshGujarat article names seat categories but gives no colours."
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "2026-11-06",
+      "correct": "Regular 2D shows in Ahmedabad and Surat had several tickets starting around ₹500.",
+      "sources": [
+       {
+        "url": "https://deshgujarat.com/2026/11/06/ranbir-kapoor-starrer-ramayana-movie-ticket-prices-touch-%E2%82%B92600-in-ahmedabad/",
+        "publisher": "DeshGujarat",
+        "published_date": "2026-11-06",
+        "quote": "regular 2D screenings in Ahmedabad and Surat offered comparatively affordable options",
+        "tier": 3
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "supported",
+      "correct": "This is a general description of premium IMAX recliner tickets: IMAX has a bigger screen and better sound, and a recliner is a reclining seat. The article shows premium formats cost far more than 2D, at ₹2,600 against about ₹500.",
+      "sources": [
+       {
+        "url": "https://deshgujarat.com/2026/11/06/ranbir-kapoor-starrer-ramayana-movie-ticket-prices-touch-%E2%82%B92600-in-ahmedabad/",
+        "publisher": "DeshGujarat",
+        "published_date": "2026-11-06",
+        "quote": "recliner seats for IMAX 3D screenings at PVR Palladium Mall were priced at ₹2,600",
+        "tier": 3
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "supported",
+      "correct": "Premium seat prices peaked at release: IMAX recliners were ₹2,600–₹3,170 in the opening window, against ₹1,400 for non-IMAX 3D recliners.",
+      "sources": [
+       {
+        "url": "https://www.sacnilk.com/news/ramayana-first-day-of-advance-booking-report-544-cr-gross-dhurandhar-2-leads-by-over-84-as-ramayanas-imax-demand-stands-out",
+        "publisher": "Sacnilk",
+        "published_date": "2026-10-22",
+        "quote": "premium recliner seats at another Mumbai cinema were priced as high as ₹3,170",
+        "tier": 3
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "supported",
+      "event_date": "2026-10-22",
+      "correct": "Top-priced seats sold out in advance booking, before release and so before reviews.",
+      "sources": [
+       {
+        "url": "https://deshgujarat.com/2026/11/06/ranbir-kapoor-starrer-ramayana-movie-ticket-prices-touch-%E2%82%B92600-in-ahmedabad/",
+        "publisher": "DeshGujarat",
+        "published_date": "2026-11-06",
+        "quote": "Most premium categories were marked sold out",
+        "tier": 3
+       }
+      ]
+     },
+     "c9": {
+      "id": "c9",
+      "verdict": "unverifiable",
+      "correct": "This is an argument, not a checkable fact. It is broadly true that tickets are non-refundable once bought, but I found no source for the claim as worded."
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None of the premises is false about how the pricing or the purchase works. Opening-day premium seats do get the highest prices, tickets are paid upfront before reviews exist, and a disappointing film doesn't get you a refund. Three things need correcting but don't break the take. (1) 'The cinema is paid either way' is too simple. The cinema shares ticket money with the film's distributor, and a weak film means fewer tickets sold in later weeks and less food and drinks revenue. So the cinema is only certain of the money for seats already sold. (2) Reports I found don't confirm that Mumbai IMAX shows of Ramayana sold out. They confirm only the high listed prices, and the top Mumbai recliner price was ₹3,170, not ₹2,600. (3) Reports disagree on the India release date (Nov 5, 6 or 8, 2026). By the Nov 27 posting date, reviews will have been out for about three weeks.",
+     "actual_mechanism": "Indian multiplex chains change ticket prices by format, seat type, showtime and expected demand. A big festive release opens with premium formats (IMAX/3D recliners) priced highest on the first days. At PVR ICON Lower Parel, Ramayana's IMAX 3D recliners were listed at ₹3,170 for Nov 5–7 and ₹2,770 for Nov 8. Regular 3D tickets averaged about ₹472. Bookings opened Oct 20, weeks before release, and tickets are paid upfront with no refund if you don't like the film. So the viewer carries the risk of a bad film, while the cinema has the money for seats already sold, which it splits with the distributor.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.thespnews.in/news/india/ramayana-ticket-price-hits-3170-in-mumbai-as-premium-imax-recliner-seats-draw-attention",
+       "published_date": "2026-10-23",
+       "quote": "Recliner seats for afternoon and evening IMAX 3D screenings at PVR ICON in Lower Parel, Mumbai, are listed at ₹3,170 (Nov 5, 6, 7) and ₹2,770 for Nov 8; Advance bookings opened on October 20, coinciding with Dussehra; Actual prices may vary depending on the theatre, showtime, seat category, taxes and booking-platform charges."
+      },
+      {
+       "url": "https://www.flickonclick.com/ramayana-ticket-price/",
+       "published_date": "unknown (2026, pre-release)",
+       "quote": "the average ticket price across all formats is about Rs 536, while regular 3D tickets average around Rs 472."
+      },
+      {
+       "url": "https://varietyindia.com/ramayana-to-release-internationally-two-days-before-india-producer-namit-malhotra-confirms/",
+       "published_date": "2026",
+       "quote": "Producer Namit Malhotra confirms Ramayana will release internationally two days before India (Diwali window, November 2026)."
+      }
+     ]
+    },
+    "text_hash": "fc6b3d887109d9234ebe6901058d54af996d6a6d",
+    "at": "2026-11-13T07:19:04.126949+00:00"
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Could not verify: 'BookMyShow's seat map shows recliner seats in green.'. Cut it, or state it only if a source says it.",
+    "Could not verify: 'The cinema is paid for the ticket whether or not the film turns out good, so the viewer carries the risk of an average film.'. Cut it, or state it only if a source says it."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3,
+     "informative": 4
+    },
+    "notes": [
+     "Both earlier notes are settled. Slide 3 no longer mentions green recliner seats on the seat map. Slide 7 drops the unsourced 'cinema is paid whether or not the film is good' claim and now carries the sourced sell-out-before-reviews point.",
+     "slide 7: 'The top seats sell out before a review.' repeats the fact slide 2 already gave ('sold out before the film had even opened'). Open on the new beat instead, e.g. 'So the price never has to wait for the verdict.' Then land 'The seat is the product, and the seat is never average.' The idea stays, and the repeat goes.",
+     "slide 3: 'It's the front three or two recliners in the corner.' reads unclear on first pass, because 'front three' sounds like a number of seats. Make it 'It's the first three rows, or two recliners in the corner.' Then 'Nobody picks the first three rows.' This keeps the 5th-grade first-read rule."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Both earlier notes are settled. Slide 3 no longer mentions green recliner seats on the seat map. Slide 7 drops the unsourced 'cinema is paid whether or not the film is good' claim and now carries the sourced sell-out-before-reviews point.",
+    "slide 7: 'The top seats sell out before a review.' repeats the fact slide 2 already gave ('sold out before the film had even opened'). Open on the new beat instead, e.g. 'So the price never has to wait for the verdict.' Then land 'The seat is the product, and the seat is never average.' The idea stays, and the repeat goes.",
+    "slide 3: 'It's the front three or two recliners in the corner.' reads unclear on first pass, because 'front three' sounds like a number of seats. Make it 'It's the first three rows, or two recliners in the corner.' Then 'Nobody picks the first three rows.' This keeps the 5th-grade first-read rule."
+   ]
+  },
+  {
+   "attempt": 4,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "Both notes are settled. Slide 7 now opens on 'So the price never has to wait for the verdict.' and no longer repeats slide 2's sell-out fact. Slide 3 now reads 'It's the first three rows, or two recliners in the corner.' followed by 'Nobody picks the first three rows.', which reads clean on the first pass. Neither edit repeats another slide or breaks the flow from slide 6 into 7. No new hard failures. Ready for the owner."
+    ]
+   }
+  },
+  {
+   "attempt": 4,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 10",
+      "line": "So here's how you tell which one you paid for.",
+      "why": "coach voice, 'here's how' lesson setup",
+      "try": "One question."
+     },
+     {
+      "where": "slide 4",
+      "line": "Footrest up, blanket out. The story goes up before the ads end.",
+      "why": "scene narration, and 'story' reads like the film's story",
+      "try": "Footrest up, blanket out, and it's on your story before the ads are even over."
+     },
+     {
+      "where": "slide 9",
+      "line": "The debit SMS from the bank? Swiped away without a look.",
+      "why": "forced, stiff aside that doesn't land",
+      "try": "Nobody even opens the debit SMS."
+     }
+    ],
+    "best": "A ₹2,600 recliner ticket is priced for the seat. The film comes free."
+   }
+  },
+  {
+   "attempt": 4,
+   "problems": [
+    "Not Varun (slide 10): 'So here's how you tell which one you paid for.' reads as coach voice, 'here's how' lesson setup. Say it the way he would, e.g. 'One question.' (his register, your words, same facts).",
+    "Not Varun (slide 4): 'Footrest up, blanket out. The story goes up before the ads end.' reads as scene narration, and 'story' reads like the film's story. Say it the way he would, e.g. 'Footrest up, blanket out, and it's on your story before the ads are even over.' (his register, your words, same facts).",
+    "Not Varun (slide 9): 'The debit SMS from the bank? Swiped away without a look.' reads as forced, stiff aside that doesn't land. Say it the way he would, e.g. 'Nobody even opens the debit SMS.' (his register, your words, same facts)."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-13T07:20:27.802098+00:00",
+ "sources": [
+  {
+   "url": "https://deshgujarat.com/2026/11/06/ranbir-kapoor-starrer-ramayana-movie-ticket-prices-touch-%E2%82%B92600-in-ahmedabad/",
+   "fact": "On 6 November 2026, BookMyShow listed IMAX 3D recliner seats for Ramayana at PVR Palladium Mall, Ahmedabad, at Rs 2,600, and most premium categories were sold out.",
+   "excerpt": "recliner seats for IMAX 3D screenings at PVR Palladium Mall were priced at ₹2,600 | Most premium categories were marked sold out",
+   "date": "2026-11-06"
+  },
+  {
+   "url": "https://www.sacnilk.com/news/ramayana-first-day-of-advance-booking-report-544-cr-gross-dhurandhar-2-leads-by-over-84-as-ramayanas-imax-demand-stands-out",
+   "fact": "Sacnilk's advance-booking report said some Mumbai IMAX shows sold out even at up to Rs 2,770, with recliners reaching Rs 3,170, before the film opened and therefore before any reviews.",
+   "excerpt": "strong demand for premium formats, with select IMAX screenings in Mumbai selling out despite tickets priced as high as ₹2,770. | an IMAX screening reportedly sold out despite tickets being priced at ₹2,770 | premium recliner seats at another Mumbai cinema were priced as high as ₹3,170. | a section of the audience is willing to pay significantly more for a premium theatrical experience.",
+   "date": "2026-10-22"
+  }
+ ],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] A ₹2,600 recliner ticket is priced for the [seat]. The film comes free.\nAnd we book it before anyone knows if the film is good.\n \n\n[slide 1] A ₹2,600 recliner ticket is priced for the seat. The film comes free.\nSwipe to read →\n\n[slide 2] In Mumbai, some IMAX shows of Ramayana sold out before the film had even opened.\nWe decided it was worth it before anyone had seen it.\n\n[slide 3] Every holiday booking on BookMyShow ends up in the same place. The cheap rows are gone. It's the front three or two green recliners in the corner.\nNobody picks the front three.\n\n[slide 4] You tap it. \"Arre, once in a while yaar.\"\nFootrest up, blanket out. The story goes up before the ads end.\n\n[slide 5] Regular 2D shows started around ₹500. Some of the extra ₹2,100 is real: a bigger screen, better sound, a seat that leans back.\nThe rest buys a photo of your feet up, with the screen glowing behind them.\n\n[slide 6] Recliners cost the most in the first festive days, when everyone wants to go and no one has seen the film yet.\n\n[slide 7] The top seats sell out before a review. The cinema is paid either way. The risk of an average film is all yours.\n\n[slide 8] You can see the split in the parking lot after.\nThe friend who skipped it says, \"Wait for OTT.\"\nThe one who paid ₹2,600 says, \"Film okay-okay thi. But the seats, bhai.\"\n\n[slide 9] The debit SMS from the bank? Swiped away without a look.\nAnd fair enough. A flat in this city is a decade away. A recliner on a holiday is the one luxury most of us can actually reach.\n\n[slide 10] So here's how you tell which one you paid for.\nWould you still tap the ₹2,600 seat if you couldn't post a single photo from it?\nIf you had to think about it, you didn't book a film. You booked the photo.\n\n[end card] Read it again the next time a big film opens on a holiday.\nSend to the friend who always books the recliners and then calls the film 'okay'.\n\n[caption] Recliner seats sell out before a single review is out, because what you're buying is the photo, not the film.\n\nThe best seats cost the most in the first festive days, when nobody knows yet if the film is any good.\n\n\"Film okay-okay thi. But the seats, bhai.\"\n\nSend this to the friend who books the recliners every holiday and then calls the film 'okay-okay'.\n\n[alt text] A nine-slide text post arguing that premium ₹2,600 recliner cinema seats are bought for the seat and the photo, not the film. It notes Mumbai IMAX shows of Ramayana selling out before release, compares regular 2D tickets around ₹500, explains that the top seats are priced highest and sold out before any review so the cinema is paid either way while the viewer carries the risk of an average film, contrasts the friend who says 'wait for OTT' with the one who praises the seats, and ends with a test: would you pay the recliner price if you couldn't post a photo of it.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "A recliner cinema ticket in the post's example costs ₹2,600.",
+     "sentence": "A ₹2,600 recliner ticket is priced for the seat.",
+     "type": "figure",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "Some IMAX shows of Ramayana in Mumbai sold out before the film opened.",
+     "sentence": "In Mumbai, some IMAX shows of Ramayana sold out before the film had even opened.",
+     "type": "event",
+     "core": true,
+     "framed_as": "past"
+    },
+    {
+     "id": "c3",
+     "text": "BookMyShow's seat map shows recliner seats in green.",
+     "sentence": "It's the front three or two green recliners in the corner.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c4",
+     "text": "Regular 2D show tickets for the same film started at around ₹500.",
+     "sentence": "Regular 2D shows started around ₹500.",
+     "type": "figure",
+     "core": true,
+     "framed_as": "past"
+    },
+    {
+     "id": "c5",
+     "text": "The gap between the ₹2,600 recliner ticket and the ₹500 regular 2D ticket is ₹2,100.",
+     "sentence": "Some of the extra ₹2,100 is real",
+     "type": "arithmetic",
+     "core": false,
+     "framed_as": "timeless",
+     "expr": "2600-500",
+     "stated": "2100"
+    },
+    {
+     "id": "c6",
+     "text": "The premium ticket includes a bigger screen, better sound and a reclining seat compared with a regular 2D show.",
+     "sentence": "a bigger screen, better sound, a seat that leans back.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c7",
+     "text": "Recliner seat prices are highest in the first festive days of a film's run.",
+     "sentence": "Recliners cost the most in the first festive days, when everyone wants to go and no one has seen the film yet.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c8",
+     "text": "The top-priced seats sell out before reviews of the film are out.",
+     "sentence": "The top seats sell out before a review.",
+     "type": "event",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c9",
+     "text": "The cinema is paid for the ticket whether or not the film turns out good, so the viewer carries the risk of an average film.",
+     "sentence": "The cinema is paid either way. The risk of an average film is all yours.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c10",
+     "text": "Premium seats are priced highest at a film's festive opening, when demand is peak and no reviews exist, and sell out early, so the cinema earns the money regardless of film quality and the buyer bears the risk.",
+     "sentence": "Recliner seats sell out before a single review is out... The best seats cost the most in the first festive days, when nobody knows yet if the film is any good.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "A recliner cinema ticket in the post's example costs ₹2,600.": {
+   "id": "c1",
+   "verdict": "supported",
+   "event_date": "2026-11-06",
+   "correct": "BookMyShow listed IMAX 3D recliners for Ramayana at PVR Palladium, Ahmedabad, at ₹2,600.",
+   "sources": [
+    {
+     "url": "https://deshgujarat.com/2026/11/06/ranbir-kapoor-starrer-ramayana-movie-ticket-prices-touch-%E2%82%B92600-in-ahmedabad/",
+     "publisher": "DeshGujarat",
+     "published_date": "2026-11-06",
+     "quote": "recliner seats for IMAX 3D screenings at PVR Palladium Mall were priced at ₹2,600",
+     "tier": 3
+    }
+   ]
+  },
+  "Some IMAX shows of Ramayana in Mumbai sold out before the film opened.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": "2026-10-22",
+   "correct": "Sacnilk's advance-booking report, dated 22 October, says a Mumbai IMAX show sold out at ₹2,770, before the 5 November release.",
+   "sources": [
+    {
+     "url": "https://www.sacnilk.com/news/ramayana-first-day-of-advance-booking-report-544-cr-gross-dhurandhar-2-leads-by-over-84-as-ramayanas-imax-demand-stands-out",
+     "publisher": "Sacnilk",
+     "published_date": "2026-10-22",
+     "quote": "an IMAX screening reportedly sold out despite tickets being priced at ₹2,770",
+     "tier": 3
+    }
+   ]
+  },
+  "BookMyShow's seat map shows recliner seats in green.": {
+   "id": "c3",
+   "verdict": "unverifiable",
+   "correct": "I found no BookMyShow page or announcement stating that recliner seats are shown in green. The DeshGujarat article names seat categories but gives no colours."
+  },
+  "Regular 2D show tickets for the same film started at around ₹500.": {
+   "id": "c4",
+   "verdict": "supported",
+   "event_date": "2026-11-06",
+   "correct": "Regular 2D shows in Ahmedabad and Surat had several tickets starting around ₹500.",
+   "sources": [
+    {
+     "url": "https://deshgujarat.com/2026/11/06/ranbir-kapoor-starrer-ramayana-movie-ticket-prices-touch-%E2%82%B92600-in-ahmedabad/",
+     "publisher": "DeshGujarat",
+     "published_date": "2026-11-06",
+     "quote": "regular 2D screenings in Ahmedabad and Surat offered comparatively affordable options",
+     "tier": 3
+    }
+   ]
+  },
+  "The premium ticket includes a bigger screen, better sound and a reclining seat compared with a regular 2D show.": {
+   "id": "c6",
+   "verdict": "supported",
+   "correct": "This is a general description of premium IMAX recliner tickets: IMAX has a bigger screen and better sound, and a recliner is a reclining seat. The article shows premium formats cost far more than 2D, at ₹2,600 against about ₹500.",
+   "sources": [
+    {
+     "url": "https://deshgujarat.com/2026/11/06/ranbir-kapoor-starrer-ramayana-movie-ticket-prices-touch-%E2%82%B92600-in-ahmedabad/",
+     "publisher": "DeshGujarat",
+     "published_date": "2026-11-06",
+     "quote": "recliner seats for IMAX 3D screenings at PVR Palladium Mall were priced at ₹2,600",
+     "tier": 3
+    }
+   ]
+  },
+  "Recliner seat prices are highest in the first festive days of a film's run.": {
+   "id": "c7",
+   "verdict": "supported",
+   "correct": "Premium seat prices peaked at release: IMAX recliners were ₹2,600–₹3,170 in the opening window, against ₹1,400 for non-IMAX 3D recliners.",
+   "sources": [
+    {
+     "url": "https://www.sacnilk.com/news/ramayana-first-day-of-advance-booking-report-544-cr-gross-dhurandhar-2-leads-by-over-84-as-ramayanas-imax-demand-stands-out",
+     "publisher": "Sacnilk",
+     "published_date": "2026-10-22",
+     "quote": "premium recliner seats at another Mumbai cinema were priced as high as ₹3,170",
+     "tier": 3
+    }
+   ]
+  },
+  "The top-priced seats sell out before reviews of the film are out.": {
+   "id": "c8",
+   "verdict": "supported",
+   "event_date": "2026-10-22",
+   "correct": "Top-priced seats sold out in advance booking, before release and so before reviews.",
+   "sources": [
+    {
+     "url": "https://deshgujarat.com/2026/11/06/ranbir-kapoor-starrer-ramayana-movie-ticket-prices-touch-%E2%82%B92600-in-ahmedabad/",
+     "publisher": "DeshGujarat",
+     "published_date": "2026-11-06",
+     "quote": "Most premium categories were marked sold out",
+     "tier": 3
+    }
+   ]
+  },
+  "The cinema is paid for the ticket whether or not the film turns out good, so the viewer carries the risk of an average film.": {
+   "id": "c9",
+   "verdict": "unverifiable",
+   "correct": "This is an argument, not a checkable fact. It is broadly true that tickets are non-refundable once bought, but I found no source for the claim as worded."
+  },
+  "_skeptic": {
+   "b9600a408fb9e9ff4cf9c1b9120f0cafd8997f2e": {
+    "holds": true,
+    "broken_premise": "None of the premises is false about how the pricing or the purchase works. Opening-day premium seats do get the highest prices, tickets are paid upfront before reviews exist, and a disappointing film doesn't get you a refund. Three things need correcting but don't break the take. (1) 'The cinema is paid either way' is too simple. The cinema shares ticket money with the film's distributor, and a weak film means fewer tickets sold in later weeks and less food and drinks revenue. So the cinema is only certain of the money for seats already sold. (2) Reports I found don't confirm that Mumbai IMAX shows of Ramayana sold out. They confirm only the high listed prices, and the top Mumbai recliner price was ₹3,170, not ₹2,600. (3) Reports disagree on the India release date (Nov 5, 6 or 8, 2026). By the Nov 27 posting date, reviews will have been out for about three weeks.",
+    "actual_mechanism": "Indian multiplex chains change ticket prices by format, seat type, showtime and expected demand. A big festive release opens with premium formats (IMAX/3D recliners) priced highest on the first days. At PVR ICON Lower Parel, Ramayana's IMAX 3D recliners were listed at ₹3,170 for Nov 5–7 and ₹2,770 for Nov 8. Regular 3D tickets averaged about ₹472. Bookings opened Oct 20, weeks before release, and tickets are paid upfront with no refund if you don't like the film. So the viewer carries the risk of a bad film, while the cinema has the money for seats already sold, which it splits with the distributor.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.thespnews.in/news/india/ramayana-ticket-price-hits-3170-in-mumbai-as-premium-imax-recliner-seats-draw-attention",
+      "published_date": "2026-10-23",
+      "quote": "Recliner seats for afternoon and evening IMAX 3D screenings at PVR ICON in Lower Parel, Mumbai, are listed at ₹3,170 (Nov 5, 6, 7) and ₹2,770 for Nov 8; Advance bookings opened on October 20, coinciding with Dussehra; Actual prices may vary depending on the theatre, showtime, seat category, taxes and booking-platform charges."
+     },
+     {
+      "url": "https://www.flickonclick.com/ramayana-ticket-price/",
+      "published_date": "unknown (2026, pre-release)",
+      "quote": "the average ticket price across all formats is about Rs 536, while regular 3D tickets average around Rs 472."
+     },
+     {
+      "url": "https://varietyindia.com/ramayana-to-release-internationally-two-days-before-india-producer-namit-malhotra-confirms/",
+      "published_date": "2026",
+      "quote": "Producer Namit Malhotra confirms Ramayana will release internationally two days before India (Diwali window, November 2026)."
+     }
+    ]
+   }
+  },
+  "_skeptic_take": {
+   "545d85714b63e0da3b2bdb054c7180420023a3c7": {
+    "holds": true,
+    "broken_premise": "None of the premises is false about how the pricing or the purchase works. Opening-day premium seats do get the highest prices, tickets are paid upfront before reviews exist, and a disappointing film doesn't get you a refund. Three things need correcting but don't break the take. (1) 'The cinema is paid either way' is too simple. The cinema shares ticket money with the film's distributor, and a weak film means fewer tickets sold in later weeks and less food and drinks revenue. So the cinema is only certain of the money for seats already sold. (2) Reports I found don't confirm that Mumbai IMAX shows of Ramayana sold out. They confirm only the high listed prices, and the top Mumbai recliner price was ₹3,170, not ₹2,600. (3) Reports disagree on the India release date (Nov 5, 6 or 8, 2026). By the Nov 27 posting date, reviews will have been out for about three weeks.",
+    "actual_mechanism": "Indian multiplex chains change ticket prices by format, seat type, showtime and expected demand. A big festive release opens with premium formats (IMAX/3D recliners) priced highest on the first days. At PVR ICON Lower Parel, Ramayana's IMAX 3D recliners were listed at ₹3,170 for Nov 5–7 and ₹2,770 for Nov 8. Regular 3D tickets averaged about ₹472. Bookings opened Oct 20, weeks before release, and tickets are paid upfront with no refund if you don't like the film. So the viewer carries the risk of a bad film, while the cinema has the money for seats already sold, which it splits with the distributor.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.thespnews.in/news/india/ramayana-ticket-price-hits-3170-in-mumbai-as-premium-imax-recliner-seats-draw-attention",
+      "published_date": "2026-10-23",
+      "quote": "Recliner seats for afternoon and evening IMAX 3D screenings at PVR ICON in Lower Parel, Mumbai, are listed at ₹3,170 (Nov 5, 6, 7) and ₹2,770 for Nov 8; Advance bookings opened on October 20, coinciding with Dussehra; Actual prices may vary depending on the theatre, showtime, seat category, taxes and booking-platform charges."
+     },
+     {
+      "url": "https://www.flickonclick.com/ramayana-ticket-price/",
+      "published_date": "unknown (2026, pre-release)",
+      "quote": "the average ticket price across all formats is about Rs 536, while regular 3D tickets average around Rs 472."
+     },
+     {
+      "url": "https://varietyindia.com/ramayana-to-release-internationally-two-days-before-india-producer-namit-malhotra-confirms/",
+      "published_date": "2026",
+      "quote": "Producer Namit Malhotra confirms Ramayana will release internationally two days before India (Diwali window, November 2026)."
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "fc6b3d887109d9234ebe6901058d54af996d6a6d": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not verify: 'BookMyShow's seat map shows recliner seats in green.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'The cinema is paid for the ticket whether or not the film turns out good, so the viewer carries the risk of an average film.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "A recliner cinema ticket in the post's example costs ₹2,600.",
+      "sentence": "A ₹2,600 recliner ticket is priced for the seat.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Some IMAX shows of Ramayana in Mumbai sold out before the film opened.",
+      "sentence": "In Mumbai, some IMAX shows of Ramayana sold out before the film had even opened.",
+      "type": "event",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c3",
+      "text": "BookMyShow's seat map shows recliner seats in green.",
+      "sentence": "It's the front three or two green recliners in the corner.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Regular 2D show tickets for the same film started at around ₹500.",
+      "sentence": "Regular 2D shows started around ₹500.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c5",
+      "text": "The gap between the ₹2,600 recliner ticket and the ₹500 regular 2D ticket is ₹2,100.",
+      "sentence": "Some of the extra ₹2,100 is real",
+      "type": "arithmetic",
+      "core": false,
+      "framed_as": "timeless",
+      "expr": "2600-500",
+      "stated": "2100"
+     },
+     {
+      "id": "c6",
+      "text": "The premium ticket includes a bigger screen, better sound and a reclining seat compared with a regular 2D show.",
+      "sentence": "a bigger screen, better sound, a seat that leans back.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "Recliner seat prices are highest in the first festive days of a film's run.",
+      "sentence": "Recliners cost the most in the first festive days, when everyone wants to go and no one has seen the film yet.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c8",
+      "text": "The top-priced seats sell out before reviews of the film are out.",
+      "sentence": "The top seats sell out before a review.",
+      "type": "event",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c9",
+      "text": "The cinema is paid for the ticket whether or not the film turns out good, so the viewer carries the risk of an average film.",
+      "sentence": "The cinema is paid either way. The risk of an average film is all yours.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c10",
+      "text": "Premium seats are priced highest at a film's festive opening, when demand is peak and no reviews exist, and sell out early, so the cinema earns the money regardless of film quality and the buyer bears the risk.",
+      "sentence": "Recliner seats sell out before a single review is out... The best seats cost the most in the first festive days, when nobody knows yet if the film is any good.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2026-11-06",
+      "correct": "BookMyShow listed IMAX 3D recliners for Ramayana at PVR Palladium, Ahmedabad, at ₹2,600.",
+      "sources": [
+       {
+        "url": "https://deshgujarat.com/2026/11/06/ranbir-kapoor-starrer-ramayana-movie-ticket-prices-touch-%E2%82%B92600-in-ahmedabad/",
+        "publisher": "DeshGujarat",
+        "published_date": "2026-11-06",
+        "quote": "recliner seats for IMAX 3D screenings at PVR Palladium Mall were priced at ₹2,600",
+        "tier": 3
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2026-10-22",
+      "correct": "Sacnilk's advance-booking report, dated 22 October, says a Mumbai IMAX show sold out at ₹2,770, before the 5 November release.",
+      "sources": [
+       {
+        "url": "https://www.sacnilk.com/news/ramayana-first-day-of-advance-booking-report-544-cr-gross-dhurandhar-2-leads-by-over-84-as-ramayanas-imax-demand-stands-out",
+        "publisher": "Sacnilk",
+        "published_date": "2026-10-22",
+        "quote": "an IMAX screening reportedly sold out despite tickets being priced at ₹2,770",
+        "tier": 3
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "unverifiable",
+      "correct": "I found no BookMyShow page or announcement stating that recliner seats are shown in green. The DeshGujarat article names seat categories but gives no colours."
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "2026-11-06",
+      "correct": "Regular 2D shows in Ahmedabad and Surat had several tickets starting around ₹500.",
+      "sources": [
+       {
+        "url": "https://deshgujarat.com/2026/11/06/ranbir-kapoor-starrer-ramayana-movie-ticket-prices-touch-%E2%82%B92600-in-ahmedabad/",
+        "publisher": "DeshGujarat",
+        "published_date": "2026-11-06",
+        "quote": "regular 2D screenings in Ahmedabad and Surat offered comparatively affordable options",
+        "tier": 3
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "supported",
+      "correct": "This is a general description of premium IMAX recliner tickets: IMAX has a bigger screen and better sound, and a recliner is a reclining seat. The article shows premium formats cost far more than 2D, at ₹2,600 against about ₹500.",
+      "sources": [
+       {
+        "url": "https://deshgujarat.com/2026/11/06/ranbir-kapoor-starrer-ramayana-movie-ticket-prices-touch-%E2%82%B92600-in-ahmedabad/",
+        "publisher": "DeshGujarat",
+        "published_date": "2026-11-06",
+        "quote": "recliner seats for IMAX 3D screenings at PVR Palladium Mall were priced at ₹2,600",
+        "tier": 3
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "supported",
+      "correct": "Premium seat prices peaked at release: IMAX recliners were ₹2,600–₹3,170 in the opening window, against ₹1,400 for non-IMAX 3D recliners.",
+      "sources": [
+       {
+        "url": "https://www.sacnilk.com/news/ramayana-first-day-of-advance-booking-report-544-cr-gross-dhurandhar-2-leads-by-over-84-as-ramayanas-imax-demand-stands-out",
+        "publisher": "Sacnilk",
+        "published_date": "2026-10-22",
+        "quote": "premium recliner seats at another Mumbai cinema were priced as high as ₹3,170",
+        "tier": 3
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "supported",
+      "event_date": "2026-10-22",
+      "correct": "Top-priced seats sold out in advance booking, before release and so before reviews.",
+      "sources": [
+       {
+        "url": "https://deshgujarat.com/2026/11/06/ranbir-kapoor-starrer-ramayana-movie-ticket-prices-touch-%E2%82%B92600-in-ahmedabad/",
+        "publisher": "DeshGujarat",
+        "published_date": "2026-11-06",
+        "quote": "Most premium categories were marked sold out",
+        "tier": 3
+       }
+      ]
+     },
+     "c9": {
+      "id": "c9",
+      "verdict": "unverifiable",
+      "correct": "This is an argument, not a checkable fact. It is broadly true that tickets are non-refundable once bought, but I found no source for the claim as worded."
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None of the premises is false about how the pricing or the purchase works. Opening-day premium seats do get the highest prices, tickets are paid upfront before reviews exist, and a disappointing film doesn't get you a refund. Three things need correcting but don't break the take. (1) 'The cinema is paid either way' is too simple. The cinema shares ticket money with the film's distributor, and a weak film means fewer tickets sold in later weeks and less food and drinks revenue. So the cinema is only certain of the money for seats already sold. (2) Reports I found don't confirm that Mumbai IMAX shows of Ramayana sold out. They confirm only the high listed prices, and the top Mumbai recliner price was ₹3,170, not ₹2,600. (3) Reports disagree on the India release date (Nov 5, 6 or 8, 2026). By the Nov 27 posting date, reviews will have been out for about three weeks.",
+     "actual_mechanism": "Indian multiplex chains change ticket prices by format, seat type, showtime and expected demand. A big festive release opens with premium formats (IMAX/3D recliners) priced highest on the first days. At PVR ICON Lower Parel, Ramayana's IMAX 3D recliners were listed at ₹3,170 for Nov 5–7 and ₹2,770 for Nov 8. Regular 3D tickets averaged about ₹472. Bookings opened Oct 20, weeks before release, and tickets are paid upfront with no refund if you don't like the film. So the viewer carries the risk of a bad film, while the cinema has the money for seats already sold, which it splits with the distributor.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.thespnews.in/news/india/ramayana-ticket-price-hits-3170-in-mumbai-as-premium-imax-recliner-seats-draw-attention",
+       "published_date": "2026-10-23",
+       "quote": "Recliner seats for afternoon and evening IMAX 3D screenings at PVR ICON in Lower Parel, Mumbai, are listed at ₹3,170 (Nov 5, 6, 7) and ₹2,770 for Nov 8; Advance bookings opened on October 20, coinciding with Dussehra; Actual prices may vary depending on the theatre, showtime, seat category, taxes and booking-platform charges."
+      },
+      {
+       "url": "https://www.flickonclick.com/ramayana-ticket-price/",
+       "published_date": "unknown (2026, pre-release)",
+       "quote": "the average ticket price across all formats is about Rs 536, while regular 3D tickets average around Rs 472."
+      },
+      {
+       "url": "https://varietyindia.com/ramayana-to-release-internationally-two-days-before-india-producer-namit-malhotra-confirms/",
+       "published_date": "2026",
+       "quote": "Producer Namit Malhotra confirms Ramayana will release internationally two days before India (Diwali window, November 2026)."
+      }
+     ]
+    },
+    "text_hash": "fc6b3d887109d9234ebe6901058d54af996d6a6d",
+    "at": "2026-11-13T07:19:04.126949+00:00"
+   }
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "A ₹2,600 recliner ticket is priced for the [seat]. The film comes free.",
+   "sub": "And we book it before anyone knows if the film is good."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "A ₹2,600 recliner ticket is priced for the seat. The film comes free.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "If it isn't about the film, what are we paying for?"
+   },
+   {
+    "paragraphs": [
+     "In Mumbai, some IMAX shows of Ramayana sold out before the film had even opened.",
+     "We decided it was worth it before anyone had seen it."
+    ],
+    "why_swipe": "How does a whole country pay top price for something it hasn't seen?"
+   },
+   {
+    "paragraphs": [
+     "Every holiday booking on BookMyShow ends up in the same place. The cheap rows are gone. It's the first three rows, or two recliners in the corner.",
+     "Nobody picks the first three rows."
+    ],
+    "why_swipe": "What happens next?"
+   },
+   {
+    "paragraphs": [
+     "You tap it. \"Arre, once in a while yaar.\"",
+     "Footrest up, blanket out. The story goes up before the ads end."
+    ],
+    "why_swipe": "Is the extra money really for the film, then?"
+   },
+   {
+    "paragraphs": [
+     "Regular 2D shows started around ₹500. Some of the extra ₹2,100 is real: a bigger screen, better sound, a seat that leans back.",
+     "The rest buys a photo of your feet up, with the screen glowing behind them."
+    ],
+    "why_swipe": "Why would the cinema charge the most before any review exists?"
+   },
+   {
+    "paragraphs": [
+     "Recliners cost the most in the first festive days, when everyone wants to go and no one has seen the film yet."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "So the price never has to wait for the verdict. The seat is the product, and the seat is never average."
+    ],
+    "why_swipe": "What happens when the film turns out average?"
+   },
+   {
+    "paragraphs": [
+     "You can see the split in the parking lot after.",
+     "The friend who skipped it says, \"Wait for OTT.\"",
+     "The one who paid ₹2,600 says, \"Film okay-okay thi. But the seats, bhai.\""
+    ],
+    "why_swipe": "So are we just being silly with money?"
+   },
+   {
+    "paragraphs": [
+     "The debit SMS from the bank? Swiped away without a look.",
+     "And fair enough. A flat in this city is a decade away. A recliner on a holiday is the one luxury most of us can actually reach."
+    ],
+    "why_swipe": "So how do you know which one you paid for?"
+   },
+   {
+    "paragraphs": [
+     "So here's how you tell which one you paid for.",
+     "Would you still tap the ₹2,600 seat if you couldn't post a single photo from it?",
+     "If you had to think about it, you didn't book a film. You booked the photo."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Read it again the next time a big film opens on a holiday.",
+   "send": "Send to the friend who always books the recliners and then calls the film 'okay'.",
+   "promise": "How Indians really spend on status."
+  },
+  "alt_text": "A ten-slide text post arguing that premium ₹2,600 recliner cinema seats are bought for the seat and the photo, not the film. It notes Mumbai IMAX shows of Ramayana selling out before release, compares regular 2D tickets around ₹500, points out that the price of the top seats never has to wait for the verdict, contrasts the friend who says 'wait for OTT' with the one who praises the seats, and ends with a test: would you pay the recliner price if you couldn't post a photo of it.",
+  "claims": [
+   {
+    "text": "IMAX 3D recliner seats for Ramayana at PVR Palladium Mall, Ahmedabad, were listed on BookMyShow at ₹2,600 on 6 November 2026.",
+    "source_url": "https://deshgujarat.com/2026/11/06/ranbir-kapoor-starrer-ramayana-movie-ticket-prices-touch-%E2%82%B92600-in-ahmedabad/"
+   },
+   {
+    "text": "Some Mumbai IMAX shows of Ramayana sold out before the film opened.",
+    "source_url": "https://www.sacnilk.com/news/ramayana-first-day-of-advance-booking-report-544-cr-gross-dhurandhar-2-leads-by-over-84-as-ramayanas-imax-demand-stands-out"
+   },
+   {
+    "text": "Premium seats sold out before any reviews existed.",
+    "source_url": "https://www.sacnilk.com/news/ramayana-first-day-of-advance-booking-report-544-cr-gross-dhurandhar-2-leads-by-over-84-as-ramayanas-imax-demand-stands-out"
+   },
+   {
+    "text": "Regular 2D shows of Ramayana started around ₹500.",
+    "source_url": "topic"
+   },
+   {
+    "text": "The extra cost over a regular 2D ticket is ₹2,100.",
+    "source_url": "topic",
+    "derived_from": "₹2,600 IMAX 3D recliner minus ₹500 regular 2D = ₹2,100"
+   }
+  ]
+ }
 }
