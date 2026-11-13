@@ -1,0 +1,810 @@
+{
+ "id": "2026-11-157",
+ "status": "approved",
+ "due": "2026-11-13T13:30:00+05:30",
+ "format": "carousel",
+ "topic": {
+  "title": "the Microsoft outage",
+  "claim": "When Outlook and Teams went down, your work didn't stop. Only the proof that you were working did.",
+  "moment": "Friday morning, Teams won't load, Outlook spins, and after the first panic your day goes strangely quiet and you get the one real task done by lunch.",
+  "turn": {
+   "believed": "An outage stops office work.",
+   "actually": "It stops the signals of work: the green dot, the instant reply, the cc to your boss. A lot of your day is spent making those signals."
+  },
+  "because": "Your boss can't see your work, only your replies. So you stay green, reply in seconds and cc people, because that is what looks like work. Take the tools away and the signal goes, and the real work turns out to be smaller and quieter than the day felt.",
+  "payoff": "The outage took away the stage, not the work. Notice how your day felt without an audience.",
+  "feeling": "guilty relief",
+  "villain": "an office that judges you by how fast you reply, not by what you finish",
+  "story_type": "values",
+  "lived": false,
+  "behaviour": "office workers spend much of the day replying, staying online and cc-ing to look busy",
+  "mechanism": "when work is invisible, people manage what is visible: replies and online status, so a tool outage removes the performance and leaves the actual work",
+  "group": "salaried office workers in India on Microsoft Teams and Outlook",
+  "territory": "creators_internet",
+  "mood": "funny",
+  "format_name": null,
+  "send_to": "the colleague who spent today refreshing Teams to see if it's back",
+  "format_hint": "carousel",
+  "why_now": "Microsoft 365's global outage from late Thursday 12 Nov into Friday 13 Nov 2026 took down Outlook, Teams and Copilot",
+  "news_peg": "Microsoft 365 global outage, 12-13 November 2026: Outlook, Teams and Copilot down for over 12 hours",
+  "needs_facts": true,
+  "id": "2026-11-outage-157",
+  "evidence": [
+   {
+    "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+    "sub": "news",
+    "rank": 1
+   },
+   {
+    "url": "https://www.abc.net.au/news/2026-11-13/microsoft-outage-affects-users-worldwide/107381050",
+    "sub": "news",
+    "rank": 1
+   }
+  ],
+  "proof": null
+ },
+ "history": [],
+ "sources": [
+  {
+   "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+   "fact": "A Microsoft 365 outage that began Thursday 12 November 2026 at 1:26 PM ET (11:56 PM IST) disrupted Outlook, Teams, Copilot, OneDrive and other Microsoft services worldwide.",
+   "excerpt": "outage began Thursday at 1:26 PM ET | Downdetector complaints covered Outlook, Microsoft 365, Teams, Copilot, Azure, OneDrive, and the Microsoft Store | customers may be unable to connect to multiple services | As of 6:57 PM ET the ongoing Microsoft 365 outage has not yet been resolved | limited recovery",
+   "date": "2026-11-12"
+  },
+  {
+   "url": "https://www.abc.net.au/news/2026-11-13/microsoft-outage-affects-users-worldwide/107381050",
+   "fact": "On Friday 13 November 2026 the global outage hitting Outlook, Teams and Copilot was still unresolved more than 12 hours in; Microsoft said there was no indication of a cyber attack.",
+   "excerpt": "Microsoft outage affects users worldwide, impacting Teams, Outlook and Copilot | still ongoing as of 5:06pm AEDT Friday 13 November | partial recovery that was not sustained | no indication this is a cyber attack | reverting a recent network configuration change",
+   "date": "2026-11-13"
+  }
+ ],
+ "updated_at": "2026-11-13T06:30:53.024064+00:00",
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] One company had a bad night.\nThis morning your whole office forgot how to talk.\n \n\n[slide 1] One company had a bad night.\nThis morning your whole office forgot how to talk.\n\n[slide 2] Outlook kept spinning. Teams wouldn't load. Copilot went quiet.\nIt started near midnight on Thursday, and twelve hours later it still wasn't fully fixed.\n\n[slide 3] Nobody in your office did anything wrong.\nYour IT team couldn't fix it either. They were refreshing the same status page you were.\n\n[slide 4] We call it the cloud, like it's the sky.\nIt isn't. It's a company. Buildings full of servers, run by people who also have bad nights.\n\n[slide 5] Your company and its biggest rival probably rent the same cloud.\nSo when it stumbles, they stumble together, at the same minute, in every time zone.\n\n[slide 6] The world doesn't run on a million companies.\nIt runs on a handful, and the rest of us rent a desk inside them. Today you found out whose desk you sit at.\n\n[end card] \nSend this to the colleague who restarted their laptop three times this morning.\n\n[caption] The Microsoft outage showed how much of your workday runs on one company's servers.\n\nOutlook, Teams and Copilot went down near midnight on Thursday, and your office stood still with them.\n\nSend this to the colleague who restarted their laptop three times this morning.\n\n[alt text] A text post about the Microsoft outage that took down Outlook, Teams and Copilot, and how much of the world runs on a handful of companies.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Microsoft Outlook was malfunctioning/unresponsive (outage) that morning",
+     "sentence": "Outlook kept spinning.",
+     "type": "event",
+     "core": true,
+     "framed_as": "current"
+    },
+    {
+     "id": "c2",
+     "text": "Microsoft Teams failed to load (outage) that morning",
+     "sentence": "Teams wouldn't load.",
+     "type": "event",
+     "core": true,
+     "framed_as": "current"
+    },
+    {
+     "id": "c3",
+     "text": "Microsoft Copilot was unresponsive/down that morning",
+     "sentence": "Copilot went quiet.",
+     "type": "event",
+     "core": true,
+     "framed_as": "current"
+    },
+    {
+     "id": "c4",
+     "text": "The outage began near midnight on Thursday",
+     "sentence": "It started near midnight on Thursday",
+     "type": "event",
+     "core": false,
+     "framed_as": "current"
+    },
+    {
+     "id": "c5",
+     "text": "Twelve hours after it started, the outage still was not fully fixed",
+     "sentence": "twelve hours later it still wasn't fully fixed",
+     "type": "figure",
+     "core": false,
+     "framed_as": "current"
+    },
+    {
+     "id": "c6",
+     "text": "Outlook, Teams and Copilot are services owned and run by Microsoft on Microsoft's own servers",
+     "sentence": "The Microsoft outage showed how much of your workday runs on one company's servers.",
+     "type": "entity_attribute",
+     "core": true,
+     "framed_as": "current"
+    },
+    {
+     "id": "c7",
+     "text": "Cloud computing is physically implemented as servers in buildings owned and operated by companies, not an abstract intangible thing",
+     "sentence": "We call it the cloud, like it's the sky. It isn't. It's a company. Buildings full of servers, run by people who also have bad nights.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c8",
+     "text": "A company and its biggest competitor commonly rent cloud infrastructure from the same cloud provider",
+     "sentence": "Your company and its biggest rival probably rent the same cloud.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c9",
+     "text": "Premise: most businesses, including direct competitors, rely on a small set of shared cloud providers. Premise: when one of those providers fails, every business renting from it is affected at the same time, everywhere. Conclusion: the global tech/cloud infrastructure that businesses depend on is concentrated in a handful of companies rather than spread across many.",
+     "sentence": "The world doesn't run on a million companies. It runs on a handful, and the rest of us rent a desk inside them.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "Microsoft Outlook was malfunctioning/unresponsive (outage) that morning": {
+   "id": "c1",
+   "verdict": "supported",
+   "event_date": "2026-11-12",
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+     "publisher": "BleepingComputer",
+     "published_date": "2026-11-12",
+     "quote": "customers may be unable to connect to multiple services, including Exchange Online, Microsoft Teams, SharePoint Online, Microsoft 365 Copilot, and Microsoft Defender XDR",
+     "tier": 2
+    },
+    {
+     "url": "https://www.abc.net.au/news/2026-11-13/microsoft-outage-affects-users-worldwide/107381050",
+     "publisher": "ABC News Australia",
+     "published_date": "2026-11-13",
+     "quote": "The outage is affecting several Microsoft 365 platforms, including Outlook, Teams and Copilot.",
+     "tier": 2
+    }
+   ]
+  },
+  "Microsoft Teams failed to load (outage) that morning": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": "2026-11-12",
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.abc.net.au/news/2026-11-13/microsoft-outage-affects-users-worldwide/107381050",
+     "publisher": "ABC News Australia",
+     "published_date": "2026-11-13",
+     "quote": "The outage is affecting several Microsoft 365 platforms, including Outlook, Teams and Copilot.",
+     "tier": 2
+    },
+    {
+     "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+     "publisher": "BleepingComputer",
+     "published_date": "2026-11-12",
+     "quote": "customers may be unable to connect to multiple services, including Exchange Online, Microsoft Teams, SharePoint Online, Microsoft 365 Copilot, and Microsoft Defender XDR",
+     "tier": 2
+    }
+   ]
+  },
+  "Microsoft Copilot was unresponsive/down that morning": {
+   "id": "c3",
+   "verdict": "supported",
+   "event_date": "2026-11-12",
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.abc.net.au/news/2026-11-13/microsoft-outage-affects-users-worldwide/107381050",
+     "publisher": "ABC News Australia",
+     "published_date": "2026-11-13",
+     "quote": "The outage is affecting several Microsoft 365 platforms, including Outlook, Teams and Copilot.",
+     "tier": 2
+    },
+    {
+     "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+     "publisher": "BleepingComputer",
+     "published_date": "2026-11-12",
+     "quote": "customers may be unable to connect to multiple services, including Exchange Online, Microsoft Teams, SharePoint Online, Microsoft 365 Copilot, and Microsoft Defender XDR",
+     "tier": 2
+    }
+   ]
+  },
+  "The outage began near midnight on Thursday": {
+   "id": "c4",
+   "verdict": "supported",
+   "event_date": "2026-11-12",
+   "correct": "Outage began Thursday Nov 12 at 1:26 PM ET, which is 11:56 PM IST — i.e. near midnight Thursday night in India.",
+   "sources": [
+    {
+     "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+     "publisher": "BleepingComputer",
+     "published_date": "2026-11-12",
+     "quote": "The Microsoft 365 incident began Thursday at 1:26 PM ET.",
+     "tier": 2
+    }
+   ]
+  },
+  "Twelve hours after it started, the outage still was not fully fixed": {
+   "id": "c5",
+   "verdict": "supported",
+   "event_date": "2026-11-13",
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.abc.net.au/news/2026-11-13/microsoft-outage-affects-users-worldwide/107381050",
+     "publisher": "ABC News Australia",
+     "published_date": "2026-11-13",
+     "quote": "Microsoft said there was no indication of a cyber attack... the global outage hitting Outlook, Teams and Copilot was still unresolved more than 12 hours in",
+     "tier": 2
+    }
+   ]
+  },
+  "Outlook, Teams and Copilot are services owned and run by Microsoft on Microsoft's own servers": {
+   "id": "c6",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://openthemagazine.com/business/microsoft-outlook-outage-hits-10-hours-why-didnt-the-fix-hold",
+     "publisher": "Open The Magazine",
+     "published_date": "2026-11-13",
+     "quote": "In the November 2026 incident, the confirmed problem was on Microsoft's servers.",
+     "tier": 2
+    },
+    {
+     "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+     "publisher": "BleepingComputer",
+     "published_date": "2026-11-12",
+     "quote": "customers may be unable to connect to multiple services, including Exchange Online, Microsoft Teams, SharePoint Online, Microsoft 365 Copilot, and Microsoft Defender XDR",
+     "tier": 2
+    }
+   ]
+  },
+  "_skeptic": {
+   "2d7188d7fef8ecafc8be2238dd9f19a34f363ac2": {
+    "holds": true,
+    "broken_premise": "",
+    "actual_mechanism": "Outlook, Teams and Copilot are Microsoft 365 services Microsoft runs on its own Azure cloud (physical datacenters), and the Nov 12-13, 2026 incident began with an Exchange Online failure (~16:17 UTC Nov 12) that cascaded across Teams, SharePoint, Copilot and even third-party AI tools using M365 connectors, hitting 74 countries within an hour. The cloud market is genuinely concentrated: AWS, Azure and Google Cloud together hold roughly two-thirds (~67%) of global cloud infrastructure, so unrelated firms and direct competitors do commonly depend on the same few providers, and a single provider's failure takes down everyone renting from it simultaneously, everywhere.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+      "published_date": "2026-11-12",
+      "quote": "Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot... customers may be unable to connect to multiple services, including Exchange Online, Microsoft Teams, SharePoint Online, Microsoft 365 Copilot, and Microsoft Defender XDR."
+     },
+     {
+      "url": "https://www.statista.com/chart/18819/worldwide-market-share-of-leading-cloud-infrastructure-service-providers/",
+      "published_date": "2026-05-01",
+      "quote": "Amazon's market share in the worldwide cloud infrastructure market was 28 percent... ahead of Microsoft's Azure platform at 21 percent and Google Cloud at 14 percent; the top three vendors' combined share is roughly two-thirds of the market."
+     }
+    ]
+   }
+  },
+  "_skeptic_take": {
+   "d24045c3b6d185f30f8a622a2186c29a27f5b042": {
+    "holds": true,
+    "broken_premise": "",
+    "actual_mechanism": "Outlook, Teams and Copilot are Microsoft 365 services Microsoft runs on its own Azure cloud (physical datacenters), and the Nov 12-13, 2026 incident began with an Exchange Online failure (~16:17 UTC Nov 12) that cascaded across Teams, SharePoint, Copilot and even third-party AI tools using M365 connectors, hitting 74 countries within an hour. The cloud market is genuinely concentrated: AWS, Azure and Google Cloud together hold roughly two-thirds (~67%) of global cloud infrastructure, so unrelated firms and direct competitors do commonly depend on the same few providers, and a single provider's failure takes down everyone renting from it simultaneously, everywhere.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+      "published_date": "2026-11-12",
+      "quote": "Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot... customers may be unable to connect to multiple services, including Exchange Online, Microsoft Teams, SharePoint Online, Microsoft 365 Copilot, and Microsoft Defender XDR."
+     },
+     {
+      "url": "https://www.statista.com/chart/18819/worldwide-market-share-of-leading-cloud-infrastructure-service-providers/",
+      "published_date": "2026-05-01",
+      "quote": "Amazon's market share in the worldwide cloud infrastructure market was 28 percent... ahead of Microsoft's Azure platform at 21 percent and Google Cloud at 14 percent; the top three vendors' combined share is roughly two-thirds of the market."
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "f1387bc6e868b515c95b2cbc5d2cb2e3c7a8c581": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Microsoft Outlook was malfunctioning/unresponsive (outage) that morning",
+      "sentence": "Outlook kept spinning.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c2",
+      "text": "Microsoft Teams failed to load (outage) that morning",
+      "sentence": "Teams wouldn't load.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c3",
+      "text": "Microsoft Copilot was unresponsive/down that morning",
+      "sentence": "Copilot went quiet.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c4",
+      "text": "The outage began near midnight on Thursday",
+      "sentence": "It started near midnight on Thursday",
+      "type": "event",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c5",
+      "text": "Twelve hours after it started, the outage still was not fully fixed",
+      "sentence": "twelve hours later it still wasn't fully fixed",
+      "type": "figure",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c6",
+      "text": "Outlook, Teams and Copilot are services owned and run by Microsoft on Microsoft's own servers",
+      "sentence": "The Microsoft outage showed how much of your workday runs on one company's servers.",
+      "type": "entity_attribute",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c7",
+      "text": "Cloud computing is physically implemented as servers in buildings owned and operated by companies, not an abstract intangible thing",
+      "sentence": "We call it the cloud, like it's the sky. It isn't. It's a company. Buildings full of servers, run by people who also have bad nights.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c8",
+      "text": "A company and its biggest competitor commonly rent cloud infrastructure from the same cloud provider",
+      "sentence": "Your company and its biggest rival probably rent the same cloud.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c9",
+      "text": "Premise: most businesses, including direct competitors, rely on a small set of shared cloud providers. Premise: when one of those providers fails, every business renting from it is affected at the same time, everywhere. Conclusion: the global tech/cloud infrastructure that businesses depend on is concentrated in a handful of companies rather than spread across many.",
+      "sentence": "The world doesn't run on a million companies. It runs on a handful, and the rest of us rent a desk inside them.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2026-11-12",
+      "correct": null,
+      "sources": [
+       {
+        "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+        "publisher": "BleepingComputer",
+        "published_date": "2026-11-12",
+        "quote": "customers may be unable to connect to multiple services, including Exchange Online, Microsoft Teams, SharePoint Online, Microsoft 365 Copilot, and Microsoft Defender XDR",
+        "tier": 2
+       },
+       {
+        "url": "https://www.abc.net.au/news/2026-11-13/microsoft-outage-affects-users-worldwide/107381050",
+        "publisher": "ABC News Australia",
+        "published_date": "2026-11-13",
+        "quote": "The outage is affecting several Microsoft 365 platforms, including Outlook, Teams and Copilot.",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2026-11-12",
+      "correct": null,
+      "sources": [
+       {
+        "url": "https://www.abc.net.au/news/2026-11-13/microsoft-outage-affects-users-worldwide/107381050",
+        "publisher": "ABC News Australia",
+        "published_date": "2026-11-13",
+        "quote": "The outage is affecting several Microsoft 365 platforms, including Outlook, Teams and Copilot.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+        "publisher": "BleepingComputer",
+        "published_date": "2026-11-12",
+        "quote": "customers may be unable to connect to multiple services, including Exchange Online, Microsoft Teams, SharePoint Online, Microsoft 365 Copilot, and Microsoft Defender XDR",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "2026-11-12",
+      "correct": null,
+      "sources": [
+       {
+        "url": "https://www.abc.net.au/news/2026-11-13/microsoft-outage-affects-users-worldwide/107381050",
+        "publisher": "ABC News Australia",
+        "published_date": "2026-11-13",
+        "quote": "The outage is affecting several Microsoft 365 platforms, including Outlook, Teams and Copilot.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+        "publisher": "BleepingComputer",
+        "published_date": "2026-11-12",
+        "quote": "customers may be unable to connect to multiple services, including Exchange Online, Microsoft Teams, SharePoint Online, Microsoft 365 Copilot, and Microsoft Defender XDR",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "2026-11-12",
+      "correct": "Outage began Thursday Nov 12 at 1:26 PM ET, which is 11:56 PM IST — i.e. near midnight Thursday night in India.",
+      "sources": [
+       {
+        "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+        "publisher": "BleepingComputer",
+        "published_date": "2026-11-12",
+        "quote": "The Microsoft 365 incident began Thursday at 1:26 PM ET.",
+        "tier": 2
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "supported",
+      "event_date": "2026-11-13",
+      "correct": null,
+      "sources": [
+       {
+        "url": "https://www.abc.net.au/news/2026-11-13/microsoft-outage-affects-users-worldwide/107381050",
+        "publisher": "ABC News Australia",
+        "published_date": "2026-11-13",
+        "quote": "Microsoft said there was no indication of a cyber attack... the global outage hitting Outlook, Teams and Copilot was still unresolved more than 12 hours in",
+        "tier": 2
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": null,
+      "sources": [
+       {
+        "url": "https://openthemagazine.com/business/microsoft-outlook-outage-hits-10-hours-why-didnt-the-fix-hold",
+        "publisher": "Open The Magazine",
+        "published_date": "2026-11-13",
+        "quote": "In the November 2026 incident, the confirmed problem was on Microsoft's servers.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+        "publisher": "BleepingComputer",
+        "published_date": "2026-11-12",
+        "quote": "customers may be unable to connect to multiple services, including Exchange Online, Microsoft Teams, SharePoint Online, Microsoft 365 Copilot, and Microsoft Defender XDR",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "",
+     "actual_mechanism": "Outlook, Teams and Copilot are Microsoft 365 services Microsoft runs on its own Azure cloud (physical datacenters), and the Nov 12-13, 2026 incident began with an Exchange Online failure (~16:17 UTC Nov 12) that cascaded across Teams, SharePoint, Copilot and even third-party AI tools using M365 connectors, hitting 74 countries within an hour. The cloud market is genuinely concentrated: AWS, Azure and Google Cloud together hold roughly two-thirds (~67%) of global cloud infrastructure, so unrelated firms and direct competitors do commonly depend on the same few providers, and a single provider's failure takes down everyone renting from it simultaneously, everywhere.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+       "published_date": "2026-11-12",
+       "quote": "Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot... customers may be unable to connect to multiple services, including Exchange Online, Microsoft Teams, SharePoint Online, Microsoft 365 Copilot, and Microsoft Defender XDR."
+      },
+      {
+       "url": "https://www.statista.com/chart/18819/worldwide-market-share-of-leading-cloud-infrastructure-service-providers/",
+       "published_date": "2026-05-01",
+       "quote": "Amazon's market share in the worldwide cloud infrastructure market was 28 percent... ahead of Microsoft's Azure platform at 21 percent and Google Cloud at 14 percent; the top three vendors' combined share is roughly two-thirds of the market."
+      }
+     ]
+    },
+    "text_hash": "f1387bc6e868b515c95b2cbc5d2cb2e3c7a8c581",
+    "at": "2026-11-13T06:30:13.463224+00:00"
+   }
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "One company had a bad night.",
+   "sub": "This morning your whole office forgot how to talk."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "One company had a bad night.",
+     "This morning your whole office forgot how to talk."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Outlook kept spinning. Teams wouldn't load. Copilot went quiet.",
+     "It started near midnight on Thursday, and twelve hours later it still wasn't fully fixed."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Nobody in your office did anything wrong.",
+     "Your IT team couldn't fix it either. They were refreshing the same status page you were."
+    ]
+   },
+   {
+    "paragraphs": [
+     "We call it the cloud, like it's the sky.",
+     "It isn't. It's a company. Buildings full of servers, run by people who also have bad nights."
+    ]
+   },
+   {
+    "paragraphs": [
+     "Your company and its biggest rival probably rent the same cloud.",
+     "So when it stumbles, they stumble together, at the same minute, in every time zone."
+    ]
+   },
+   {
+    "paragraphs": [
+     "The world doesn't run on a million companies.",
+     "It runs on a handful, and the rest of us rent a desk inside them. Today you found out whose desk you sit at."
+    ]
+   }
+  ],
+  "end": {
+   "send": "Send this to the colleague who restarted their laptop three times this morning."
+  },
+  "caption": "The Microsoft outage showed how much of your workday runs on one company's servers.\n\nOutlook, Teams and Copilot went down near midnight on Thursday, and your office stood still with them.\n\nSend this to the colleague who restarted their laptop three times this morning.",
+  "hashtags": [
+   "#MicrosoftOutage",
+   "#DigitalIndia"
+  ],
+  "alt_text": "A text post about the Microsoft outage that took down Outlook, Teams and Copilot, and how much of the world runs on a handful of companies.",
+  "claims": [
+   {
+    "text": "A Microsoft 365 outage starting 12 Nov 2026 took down Outlook, Teams and Copilot and was not fully fixed 12+ hours later.",
+    "source_url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/"
+   }
+  ],
+  "caption_style": "send",
+  "search_phrase": "Microsoft outage",
+  "caption_v": 2
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Microsoft Outlook was malfunctioning/unresponsive (outage) that morning",
+    "sentence": "Outlook kept spinning.",
+    "type": "event",
+    "core": true,
+    "framed_as": "current"
+   },
+   {
+    "id": "c2",
+    "text": "Microsoft Teams failed to load (outage) that morning",
+    "sentence": "Teams wouldn't load.",
+    "type": "event",
+    "core": true,
+    "framed_as": "current"
+   },
+   {
+    "id": "c3",
+    "text": "Microsoft Copilot was unresponsive/down that morning",
+    "sentence": "Copilot went quiet.",
+    "type": "event",
+    "core": true,
+    "framed_as": "current"
+   },
+   {
+    "id": "c4",
+    "text": "The outage began near midnight on Thursday",
+    "sentence": "It started near midnight on Thursday",
+    "type": "event",
+    "core": false,
+    "framed_as": "current"
+   },
+   {
+    "id": "c5",
+    "text": "Twelve hours after it started, the outage still was not fully fixed",
+    "sentence": "twelve hours later it still wasn't fully fixed",
+    "type": "figure",
+    "core": false,
+    "framed_as": "current"
+   },
+   {
+    "id": "c6",
+    "text": "Outlook, Teams and Copilot are services owned and run by Microsoft on Microsoft's own servers",
+    "sentence": "The Microsoft outage showed how much of your workday runs on one company's servers.",
+    "type": "entity_attribute",
+    "core": true,
+    "framed_as": "current"
+   },
+   {
+    "id": "c7",
+    "text": "Cloud computing is physically implemented as servers in buildings owned and operated by companies, not an abstract intangible thing",
+    "sentence": "We call it the cloud, like it's the sky. It isn't. It's a company. Buildings full of servers, run by people who also have bad nights.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c8",
+    "text": "A company and its biggest competitor commonly rent cloud infrastructure from the same cloud provider",
+    "sentence": "Your company and its biggest rival probably rent the same cloud.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c9",
+    "text": "Premise: most businesses, including direct competitors, rely on a small set of shared cloud providers. Premise: when one of those providers fails, every business renting from it is affected at the same time, everywhere. Conclusion: the global tech/cloud infrastructure that businesses depend on is concentrated in a handful of companies rather than spread across many.",
+    "sentence": "The world doesn't run on a million companies. It runs on a handful, and the rest of us rent a desk inside them.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c1": {
+    "id": "c1",
+    "verdict": "supported",
+    "event_date": "2026-11-12",
+    "correct": null,
+    "sources": [
+     {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+      "publisher": "BleepingComputer",
+      "published_date": "2026-11-12",
+      "quote": "customers may be unable to connect to multiple services, including Exchange Online, Microsoft Teams, SharePoint Online, Microsoft 365 Copilot, and Microsoft Defender XDR",
+      "tier": 2
+     },
+     {
+      "url": "https://www.abc.net.au/news/2026-11-13/microsoft-outage-affects-users-worldwide/107381050",
+      "publisher": "ABC News Australia",
+      "published_date": "2026-11-13",
+      "quote": "The outage is affecting several Microsoft 365 platforms, including Outlook, Teams and Copilot.",
+      "tier": 2
+     }
+    ]
+   },
+   "c2": {
+    "id": "c2",
+    "verdict": "supported",
+    "event_date": "2026-11-12",
+    "correct": null,
+    "sources": [
+     {
+      "url": "https://www.abc.net.au/news/2026-11-13/microsoft-outage-affects-users-worldwide/107381050",
+      "publisher": "ABC News Australia",
+      "published_date": "2026-11-13",
+      "quote": "The outage is affecting several Microsoft 365 platforms, including Outlook, Teams and Copilot.",
+      "tier": 2
+     },
+     {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+      "publisher": "BleepingComputer",
+      "published_date": "2026-11-12",
+      "quote": "customers may be unable to connect to multiple services, including Exchange Online, Microsoft Teams, SharePoint Online, Microsoft 365 Copilot, and Microsoft Defender XDR",
+      "tier": 2
+     }
+    ]
+   },
+   "c3": {
+    "id": "c3",
+    "verdict": "supported",
+    "event_date": "2026-11-12",
+    "correct": null,
+    "sources": [
+     {
+      "url": "https://www.abc.net.au/news/2026-11-13/microsoft-outage-affects-users-worldwide/107381050",
+      "publisher": "ABC News Australia",
+      "published_date": "2026-11-13",
+      "quote": "The outage is affecting several Microsoft 365 platforms, including Outlook, Teams and Copilot.",
+      "tier": 2
+     },
+     {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+      "publisher": "BleepingComputer",
+      "published_date": "2026-11-12",
+      "quote": "customers may be unable to connect to multiple services, including Exchange Online, Microsoft Teams, SharePoint Online, Microsoft 365 Copilot, and Microsoft Defender XDR",
+      "tier": 2
+     }
+    ]
+   },
+   "c4": {
+    "id": "c4",
+    "verdict": "supported",
+    "event_date": "2026-11-12",
+    "correct": "Outage began Thursday Nov 12 at 1:26 PM ET, which is 11:56 PM IST — i.e. near midnight Thursday night in India.",
+    "sources": [
+     {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+      "publisher": "BleepingComputer",
+      "published_date": "2026-11-12",
+      "quote": "The Microsoft 365 incident began Thursday at 1:26 PM ET.",
+      "tier": 2
+     }
+    ]
+   },
+   "c5": {
+    "id": "c5",
+    "verdict": "supported",
+    "event_date": "2026-11-13",
+    "correct": null,
+    "sources": [
+     {
+      "url": "https://www.abc.net.au/news/2026-11-13/microsoft-outage-affects-users-worldwide/107381050",
+      "publisher": "ABC News Australia",
+      "published_date": "2026-11-13",
+      "quote": "Microsoft said there was no indication of a cyber attack... the global outage hitting Outlook, Teams and Copilot was still unresolved more than 12 hours in",
+      "tier": 2
+     }
+    ]
+   },
+   "c6": {
+    "id": "c6",
+    "verdict": "supported",
+    "event_date": null,
+    "correct": null,
+    "sources": [
+     {
+      "url": "https://openthemagazine.com/business/microsoft-outlook-outage-hits-10-hours-why-didnt-the-fix-hold",
+      "publisher": "Open The Magazine",
+      "published_date": "2026-11-13",
+      "quote": "In the November 2026 incident, the confirmed problem was on Microsoft's servers.",
+      "tier": 2
+     },
+     {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+      "publisher": "BleepingComputer",
+      "published_date": "2026-11-12",
+      "quote": "customers may be unable to connect to multiple services, including Exchange Online, Microsoft Teams, SharePoint Online, Microsoft 365 Copilot, and Microsoft Defender XDR",
+      "tier": 2
+     }
+    ]
+   }
+  },
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "",
+   "actual_mechanism": "Outlook, Teams and Copilot are Microsoft 365 services Microsoft runs on its own Azure cloud (physical datacenters), and the Nov 12-13, 2026 incident began with an Exchange Online failure (~16:17 UTC Nov 12) that cascaded across Teams, SharePoint, Copilot and even third-party AI tools using M365 connectors, hitting 74 countries within an hour. The cloud market is genuinely concentrated: AWS, Azure and Google Cloud together hold roughly two-thirds (~67%) of global cloud infrastructure, so unrelated firms and direct competitors do commonly depend on the same few providers, and a single provider's failure takes down everyone renting from it simultaneously, everywhere.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+     "published_date": "2026-11-12",
+     "quote": "Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot... customers may be unable to connect to multiple services, including Exchange Online, Microsoft Teams, SharePoint Online, Microsoft 365 Copilot, and Microsoft Defender XDR."
+    },
+    {
+     "url": "https://www.statista.com/chart/18819/worldwide-market-share-of-leading-cloud-infrastructure-service-providers/",
+     "published_date": "2026-05-01",
+     "quote": "Amazon's market share in the worldwide cloud infrastructure market was 28 percent... ahead of Microsoft's Azure platform at 21 percent and Google Cloud at 14 percent; the top three vendors' combined share is roughly two-thirds of the market."
+    }
+   ]
+  },
+  "text_hash": "f1387bc6e868b515c95b2cbc5d2cb2e3c7a8c581",
+  "at": "2026-11-13T06:30:13.463224+00:00"
+ },
+ "alt_texts": [
+  "One company had a bad night. This morning your whole office forgot how to talk.",
+  "Outlook kept spinning. Teams wouldn't load. Copilot went quiet. It started near midnight on Thursday, and twelve hours later it still wasn't fully fixed.",
+  "Nobody in your office did anything wrong. Your IT team couldn't fix it either. They were refreshing the same status page you were.",
+  "We call it the cloud, like it's the sky. It isn't. It's a company. Buildings full of servers, run by people who also have bad nights.",
+  "Your company and its biggest rival probably rent the same cloud. So when it stumbles, they stumble together, at the same minute, in every time zone.",
+  "The world doesn't run on a million companies. It runs on a handful, and the rest of us rent a desk inside them. Today you found out whose desk you sit at."
+ ],
+ "owner_ok": true
+}
