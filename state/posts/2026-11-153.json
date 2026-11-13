@@ -1,6 +1,6 @@
 {
  "id": "2026-11-153",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-24T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -60,6 +60,1571 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-11-12T12:42:39.507732+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "2/Hard rule 3 (specific event stated beyond the source), slide 4: \"Everyone understood it meant UPI.\" The source only says the snack counter took only Google Pay, and that the article uses the anecdote to show 'GPay' is said for any UPI payment. How the people at the event understood it is not in the source. This is an invented detail about a real named person's story, worded more strongly than the source."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 4,
+     "tight": 3,
+     "informative": 4
+    },
+    "notes": [
+     "slide 4: Cut \"Everyone understood it meant UPI.\" and stop at what the source supports: \"The snack counter took 'only GPay'.\" Let the reader make the jump, or bridge with a sourced line such as \"Nobody at that counter was checking which app you opened.\" Do not describe how people at the event reacted.",
+     "slide 7: The mechanism is shaky as written. For many readers, the first app that taught them to scan a QR was Paytm, and people said \"Paytm karo\" for years. Under this slide's own rule, Paytm should own the word. Reword it so it holds up, using the topic's line \"the first app people learned becomes the name of the act\". Frame it as the app most of us learned UPI on, then add the dry admission that Paytm owned the word once and lost it. That makes the point sharper and harder to dispute.",
+     "slide 2: \"The money came from one app. The thanks went to another.\" says again what slide 1 already said (\"Google Pay got credit for a payment it never touched\"), and the mirrored pair reads as engineered. Keep the speaker beep and the shopkeeper's nod, which is the best sensory detail in the post. Replace the punch with something new, for example what the shopkeeper's speaker actually announces versus what you said.",
+     "slide 9: \"every payment you make on any app is a small ad for the one you named\" gives away the closing line (\"you just ran an ad for Google Pay. Unpaid.\"). Keep the Xerox concession. Fix the wording to \"never meant one company's machine\". Then end this slide on the 'slightly manipulated' feeling the topic asks for, such as the rival paying the cashback while Google gets the mention, so the ad line lands fresh on the last slide.",
+     "slide 8: \"They are not up against a better app. They are up against a habit of speech.\" falls into the Not X. Y. scaffolding. Merge it into one plain sentence, for example \"What they're fighting is a habit of speech.\" Also push the humour a little, since the mood is funny: a PhonePe scratch card winning you ₹2 while you thank Google out loud is the kind of picture this slide needs."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "2/Hard rule 3 (specific event stated beyond the source), slide 4: \"Everyone understood it meant UPI.\" The source only says the snack counter took only Google Pay, and that the article uses the anecdote to show 'GPay' is said for any UPI payment. How the people at the event understood it is not in the source. This is an invented detail about a real named person's story, worded more strongly than the source.",
+    "slide 4: Cut \"Everyone understood it meant UPI.\" and stop at what the source supports: \"The snack counter took 'only GPay'.\" Let the reader make the jump, or bridge with a sourced line such as \"Nobody at that counter was checking which app you opened.\" Do not describe how people at the event reacted.",
+    "slide 7: The mechanism is shaky as written. For many readers, the first app that taught them to scan a QR was Paytm, and people said \"Paytm karo\" for years. Under this slide's own rule, Paytm should own the word. Reword it so it holds up, using the topic's line \"the first app people learned becomes the name of the act\". Frame it as the app most of us learned UPI on, then add the dry admission that Paytm owned the word once and lost it. That makes the point sharper and harder to dispute.",
+    "slide 2: \"The money came from one app. The thanks went to another.\" says again what slide 1 already said (\"Google Pay got credit for a payment it never touched\"), and the mirrored pair reads as engineered. Keep the speaker beep and the shopkeeper's nod, which is the best sensory detail in the post. Replace the punch with something new, for example what the shopkeeper's speaker actually announces versus what you said.",
+    "slide 9: \"every payment you make on any app is a small ad for the one you named\" gives away the closing line (\"you just ran an ad for Google Pay. Unpaid.\"). Keep the Xerox concession. Fix the wording to \"never meant one company's machine\". Then end this slide on the 'slightly manipulated' feeling the topic asks for, such as the rival paying the cashback while Google gets the mention, so the ad line lands fresh on the last slide.",
+    "slide 8: \"They are not up against a better app. They are up against a habit of speech.\" falls into the Not X. Y. scaffolding. Merge it into one plain sentence, for example \"What they're fighting is a habit of speech.\" Also push the humour a little, since the mood is funny: a PhonePe scratch card winning you ₹2 while you thank Google out loud is the kind of picture this slide needs."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slide 7: The Paytm admission is in, but the two halves now pull against each other. \"After that, the name stays even when the app changes\" is followed by \"Then the habit moved, and the word went with it\", so a reader could say the slide disproves itself. Make the order of events clear. For example: \"Paytm owned the word when we paid from a wallet. When the habit moved to UPI, the word moved to the app most of us learned it on. Since then it stays, whichever app we open.\" That keeps the topic's mechanism (the first app learned names the act) and makes the Paytm line the proof, not a contradiction.",
+     "slide 4: \"a story about his kids' school sports day\". The source only says \"school sports day anecdote\". It does not say whose children. Cut it to \"told a story about a school sports day\" so every detail about a named person matches the source exactly. The cut \"Everyone understood it meant UPI\" is fixed.",
+     "slide 9: The \"feels a little rigged\" turn now lands, and the Xerox line reads right. To keep the close fresh, swap \"it gets mentioned for free all day\" for something that doesn't rehearse the free ad. For example: \"Google never asked us to say it. We just keep saying it.\" Then \"Unpaid.\" on the last slide is the first time the price comes up.",
+     "slide 2: Settled. \"The speaker reads out the rupees. Only you read out a brand.\" is new and keeps the beep and the nod. No change.",
+     "slide 8: Settled. The scratch card line brings the humour the mood asks for, and \"What they're fighting is a habit of speech.\" fixes the Not X. Y. scaffolding. No change."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 9",
+      "line": "Still, it feels a little rigged. Google never asked us to say it, and it gets mentioned for free all day.",
+      "why": "hedged verdict, 'feels a little' softens it",
+      "try": "Still, it's rigged. Google never asked us to say it, and it gets a free mention all day, every day."
+     },
+     {
+      "where": "slide 8",
+      "line": "What they're fighting is a habit of speech.",
+      "why": "over-explained, spells out the turn after the ₹2 joke already landed",
+      "try": "Good luck running a cashback offer on how India talks."
+     },
+     {
+      "where": "slide 2",
+      "line": "The shopkeeper doesn't care which app you used. He waits for the beep from the speaker on his counter, hears the amount and nods.",
+      "why": "scene narration where he'd give commentary",
+      "try": "The shopkeeper doesn't care which app you used. All he listens for is the beep from the speaker on his counter."
+     },
+     {
+      "where": "slide 7",
+      "line": "The app most of us learned UPI on got to name the act.",
+      "why": "stiff, written phrasing ('name the act')",
+      "try": "Whichever app taught most of us UPI got to name the whole thing."
+     }
+    ],
+    "best": "A PhonePe scratch card hands you ₹2, and you thank Google out loud."
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Not Varun (slide 9): 'Still, it feels a little rigged. Google never asked us to say it, and it gets mentioned for free all day.' reads as hedged verdict, 'feels a little' softens it. Say it the way he would, e.g. 'Still, it's rigged. Google never asked us to say it, and it gets a free mention all day, every day.' (his register, your words, same facts).",
+    "Not Varun (slide 8): 'What they're fighting is a habit of speech.' reads as over-explained, spells out the turn after the ₹2 joke already landed. Say it the way he would, e.g. 'Good luck running a cashback offer on how India talks.' (his register, your words, same facts).",
+    "Not Varun (slide 2): 'The shopkeeper doesn't care which app you used. He waits for the beep from the speaker on his counter, hears the amount and nods.' reads as scene narration where he'd give commentary. Say it the way he would, e.g. 'The shopkeeper doesn't care which app you used. All he listens for is the beep from the speaker on his counter.' (his register, your words, same facts).",
+    "Not Varun (slide 7): 'The app most of us learned UPI on got to name the act.' reads as stiff, written phrasing ('name the act'). Say it the way he would, e.g. 'Whichever app taught most of us UPI got to name the whole thing.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "All four notes from the last round are settled. Slide 2 now reads as commentary ('All he listens for is the beep from the speaker on his counter'). Slide 7 says 'Whichever app taught most of us UPI got to name the whole thing'. Slide 8 lands on 'Try running a cashback offer on how India talks.' Slide 9 states the verdict straight: 'Still, it's rigged.' None of the edits introduced a repeat, an invented specific or a persona break. Ready for the owner as written."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "varun": {
+    "pass": true,
+    "score": 5,
+    "misses": [],
+    "best": "A PhonePe scratch card hands you ₹2, and you thank Google out loud."
+   }
+  },
+  {
+   "attempt": 2,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "The take's premise is wrong: Premise 1 is wrong: 'The app that taught most Indians UPI was Google Pay, and that is why its name became the word for UPI payment.' Google Pay (launched as Tez) was the top UPI app only for about 18 months, roughly 2019 to 2020. PhonePe led at points in 2018, passed Google Pay in October 2020, and has been the biggest UPI app since then. UPI handled about 2 billion transactions a month at that point. It now handles about 25 billion a month. So most Indians started using UPI while PhonePe was the leader, not Google Pay. Slide 7 also contradicts itself. It says 'the habit moved, and the word went with it,' but the habit moved from Google Pay to PhonePe and the word stayed 'GPay.' The other premises hold. Cashback is a fight over payments, not over the brand name. 'Xerox' is used as a generic verb in India. People do say 'GPay' for payments made on other apps. The 79% combined share is correct: it fell to 79% in May 2026, and in September 2026 it was PhonePe 45.6% plus Google Pay 32.2%.. How it actually works: Any UPI app sends a payment through NPCI's shared system. The shop's speaker only announces that money arrived, so which app you used never comes up at the counter. 'GPay' probably became the everyday word while Google Pay led in 2019–20, during UPI's first big growth among city users, and because it is short and easy to say. It stayed after PhonePe took the lead in October 2020 and grew much bigger. Of the two leaders, Google Pay has the smaller share (about 32%) but still owns the word. The everyday word follows whatever name caught on early and is easy to say, not which app people actually use most. Rebuild the post on the correct mechanism.",
+     "Could not verify: 'Shopkeepers' payment speakers (soundboxes) announce the amount received in rupees and do not announce the app brand used by the payer.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Paytm was once the app that taught most Indians UPI-style digital payments and its name was the everyday word for digital payment.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'PhonePe scratch card rewards can be as small as ₹2.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'The word 'Xerox' is used in India as a generic verb for photocopying, not tied to one company's machine.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Google did not ask Indians to use 'GPay' as a generic word for UPI payment.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Karan Johar appeared on Koffee with Karan and told a story about his kids' school sports day.",
+      "sentence": "On Koffee with Karan, Karan Johar told a story about his kids' school sports day.",
+      "type": "anecdote",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c2",
+      "text": "In Karan Johar's story, the school sports day snack counter accepted 'only GPay'.",
+      "sentence": "The snack counter took \"only GPay\".",
+      "type": "anecdote",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c3",
+      "text": "PhonePe and Google Pay together carry about 79% of UPI payments.",
+      "sentence": "PhonePe and Google Pay together carry about 79% of UPI payments.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Only part of the 79% combined PhonePe and Google Pay share of UPI payments is Google Pay's; the rest is PhonePe's.",
+      "sentence": "Only part of that is GPay.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Shopkeepers' payment speakers (soundboxes) announce the amount received in rupees and do not announce the app brand used by the payer.",
+      "sentence": "The speaker reads out the rupees.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Paytm was once the app that taught most Indians UPI-style digital payments and its name was the everyday word for digital payment.",
+      "sentence": "Paytm owned the word once. Then the habit moved, and the word went with it.",
+      "type": "event",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c7",
+      "text": "The app that taught most Indians UPI was Google Pay, and that is why its name became the word for UPI payment.",
+      "sentence": "Whichever app taught most of us UPI got to name the whole thing.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c8",
+      "text": "PhonePe scratch card rewards can be as small as ₹2.",
+      "sentence": "A PhonePe scratch card hands you ₹2, and you thank Google out loud.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c9",
+      "text": "Cashback offers by rival UPI apps can win them payments but do not change which brand name people use as the verb for paying.",
+      "sentence": "Every cashback offer can win them a payment. None wins them the word.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c10",
+      "text": "The word 'Xerox' is used in India as a generic verb for photocopying, not tied to one company's machine.",
+      "sentence": "the way \"Xerox kar do\" never meant one company's machine.",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c11",
+      "text": "Google did not ask Indians to use 'GPay' as a generic word for UPI payment.",
+      "sentence": "Google never asked us to say it, and it gets a free mention all day, every day.",
+      "type": "event",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c12",
+      "text": "Google Pay is a UPI app in India that is used by many people and is called by name even when payments are made through PhonePe, Paytm or bank apps.",
+      "sentence": "You say GPay even when another app moves the money.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "2026-05-01",
+      "correct": "",
+      "sources": [
+       {
+        "url": "https://www.outlookbusiness.com/economy-and-policy/phonepe-google-pay-combined-upi-market-share-drops-below-80-for-first-time",
+        "publisher": "Outlook Business",
+        "published_date": "2026-06-17",
+        "quote": "The combined UPI market share of PhonePe and Google Pay fell to 79% in May 2026.",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "2026-05-01",
+      "correct": "The 79% is a combined figure, so Google Pay holds only part of it and PhonePe holds the rest. The source gives no split between the two apps.",
+      "sources": [
+       {
+        "url": "https://www.outlookbusiness.com/economy-and-policy/phonepe-google-pay-combined-upi-market-share-drops-below-80-for-first-time",
+        "publisher": "Outlook Business",
+        "published_date": "2026-06-17",
+        "quote": "The combined UPI market share of PhonePe and Google Pay fell to 79% in May 2026.",
+        "tier": 2
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "unverifiable",
+      "correct": "I found no source on what soundboxes announce. Brand-run speakers may name their own brand, such as Paytm or PhonePe, instead of the payer's app.",
+      "sources": []
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "unverifiable",
+      "correct": "I did not check this claim against a source. It is a broad historical characterisation.",
+      "sources": []
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "unverifiable",
+      "correct": "I found no PhonePe source giving a ₹2 minimum. The minimum depends on the offer. Third-party listings show floors from ₹1 to ₹2.5, and PhonePe's own help page does not state one.",
+      "sources": [
+       {
+        "url": "https://cms.phonepe.com/en/myhelp/payments-other-websites-and-apps/cashback-related-issues/what-type-rewards-can-i-win-phonepe/",
+        "publisher": "PhonePe",
+        "published_date": "",
+        "quote": "you may see the Better luck next time message after playing a scratch card",
+        "tier": 1
+       }
+      ]
+     },
+     "c10": {
+      "id": "c10",
+      "verdict": "unverifiable",
+      "correct": "I did not check this claim against a source.",
+      "sources": []
+     },
+     "c11": {
+      "id": "c11",
+      "verdict": "unverifiable",
+      "correct": "I found no source on whether Google asked Indians to use 'GPay' generically. This is a negative claim and is hard to verify.",
+      "sources": []
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "Premise 1 is wrong: 'The app that taught most Indians UPI was Google Pay, and that is why its name became the word for UPI payment.' Google Pay (launched as Tez) was the top UPI app only for about 18 months, roughly 2019 to 2020. PhonePe led at points in 2018, passed Google Pay in October 2020, and has been the biggest UPI app since then. UPI handled about 2 billion transactions a month at that point. It now handles about 25 billion a month. So most Indians started using UPI while PhonePe was the leader, not Google Pay. Slide 7 also contradicts itself. It says 'the habit moved, and the word went with it,' but the habit moved from Google Pay to PhonePe and the word stayed 'GPay.' The other premises hold. Cashback is a fight over payments, not over the brand name. 'Xerox' is used as a generic verb in India. People do say 'GPay' for payments made on other apps. The 79% combined share is correct: it fell to 79% in May 2026, and in September 2026 it was PhonePe 45.6% plus Google Pay 32.2%.",
+     "actual_mechanism": "Any UPI app sends a payment through NPCI's shared system. The shop's speaker only announces that money arrived, so which app you used never comes up at the counter. 'GPay' probably became the everyday word while Google Pay led in 2019–20, during UPI's first big growth among city users, and because it is short and easy to say. It stayed after PhonePe took the lead in October 2020 and grew much bigger. Of the two leaders, Google Pay has the smaller share (about 32%) but still owns the word. The everyday word follows whatever name caught on early and is easy to say, not which app people actually use most.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.outlookbusiness.com/economy-and-policy/phonepe-google-pay-combined-upi-market-share-drops-below-80-for-first-time",
+       "published_date": "2026-06-17",
+       "quote": "The combined market share of PhonePe and Google Pay on the Unified Payments Interface (UPI) fell to 79% in May 2026"
+      },
+      {
+       "url": "https://techcrunch.com/2020/11/02/walmarts-phonepe-zips-past-google-pay-in-india-as-upi-tops-2-billion-monthly-transactions",
+       "published_date": "2020-11-02",
+       "quote": "Walmart's PhonePe zips past Google Pay in India as UPI tops 2 billion monthly transactions"
+      },
+      {
+       "url": "https://qz.com/india/1702484/google-pay-way-ahead-of-paytm-phonepe-in-upi-based-transactions",
+       "published_date": "2019-09",
+       "quote": "Google Pay at 59.75% of all UPI transactions logged in August 2019 (Razorpay data), vs PhonePe's 24.91% and Paytm's 5.93%"
+      },
+      {
+       "url": "https://www.digit.in/?p=72721",
+       "published_date": "2018-08",
+       "quote": "PhonePe becomes largest UPI player, leaps ahead of Paytm and Tez"
+      },
+      {
+       "url": "https://india.entrepreneur.com/business-news/upi-hits-record-25-47-bn-transactions-in-october-daily-value-crosses-inr-1-l-cr",
+       "published_date": "2026-11",
+       "quote": "UPI Hits Record 25.47 Bn Transactions in October"
+      }
+     ]
+    },
+    "text_hash": "7f5005901a8557d2ac37a756e01f67913f021b59",
+    "at": "2026-11-13T06:36:13.927364+00:00"
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "The take's premise is wrong: Premise 1 is wrong: 'The app that taught most Indians UPI was Google Pay, and that is why its name became the word for UPI payment.' Google Pay (launched as Tez) was the top UPI app only for about 18 months, roughly 2019 to 2020. PhonePe led at points in 2018, passed Google Pay in October 2020, and has been the biggest UPI app since then. UPI handled about 2 billion transactions a month at that point. It now handles about 25 billion a month. So most Indians started using UPI while PhonePe was the leader, not Google Pay. Slide 7 also contradicts itself. It says 'the habit moved, and the word went with it,' but the habit moved from Google Pay to PhonePe and the word stayed 'GPay.' The other premises hold. Cashback is a fight over payments, not over the brand name. 'Xerox' is used as a generic verb in India. People do say 'GPay' for payments made on other apps. The 79% combined share is correct: it fell to 79% in May 2026, and in September 2026 it was PhonePe 45.6% plus Google Pay 32.2%.. How it actually works: Any UPI app sends a payment through NPCI's shared system. The shop's speaker only announces that money arrived, so which app you used never comes up at the counter. 'GPay' probably became the everyday word while Google Pay led in 2019–20, during UPI's first big growth among city users, and because it is short and easy to say. It stayed after PhonePe took the lead in October 2020 and grew much bigger. Of the two leaders, Google Pay has the smaller share (about 32%) but still owns the word. The everyday word follows whatever name caught on early and is easy to say, not which app people actually use most. Rebuild the post on the correct mechanism.",
+    "Could not verify: 'Shopkeepers' payment speakers (soundboxes) announce the amount received in rupees and do not announce the app brand used by the payer.'. Cut it, or state it only if a source says it.",
+    "Could not verify: 'Paytm was once the app that taught most Indians UPI-style digital payments and its name was the everyday word for digital payment.'. Cut it, or state it only if a source says it.",
+    "Could not verify: 'PhonePe scratch card rewards can be as small as ₹2.'. Cut it, or state it only if a source says it.",
+    "Could not verify: 'The word 'Xerox' is used in India as a generic verb for photocopying, not tied to one company's machine.'. Cut it, or state it only if a source says it.",
+    "Could not verify: 'Google did not ask Indians to use 'GPay' as a generic word for UPI payment.'. Cut it, or state it only if a source says it."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "All six earlier notes are settled. Slide 7 now rests on the correct mechanism: the name that caught on early and is easy to say, which stays after the money moves. The soundbox, Paytm-origin, ₹2 scratch card, Xerox and 'Google didn't ask' lines are gone. Slide 2's 'He just wants to see the money land' is a general observation, not the unverified soundbox claim.",
+     "slide 9: 'GPay is the shortest name in the queue' is not quite true. PhonePe and Paytm are also two-beat names, so a reader can catch it. Keep the idea and drop the false comparison, e.g. 'Language takes the easiest road, and GPay was the name already on the road.'",
+     "slide 4: 'his kids' school sports day' adds a detail the source doesn't spell out. The source only calls it Karan Johar's school sports day anecdote. Make it 'a school sports day' so it matches the source exactly, and keep \"only GPay\".",
+     "slide 9: 'the rest buy each payment with offers' implies only rivals run offers. Google Pay runs cashback too. Narrow it so it stays fair to the brands: 'while the rest keep paying offers to win payments the word already gave away.'",
+     "slide 2 or slide 10: no detail in the post goes beyond sight. One sound would make the counter scene land, and slide 10's chai stall is the natural spot, e.g. the half-shouted 'GPay kar diya, bhaiya' over the stall noise. Keep it to one short beat and don't add the unverified soundbox claim."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 9",
+      "line": "It's not foolish of us. Language always takes the shortest road, and GPay is the shortest name in the queue.",
+      "why": "essay voice plus a defensive, softened verdict",
+      "try": "Nobody's being dumb here. GPay is just the shortest name in the queue."
+     },
+     {
+      "where": "slide 7",
+      "line": "The name that wins is the one that caught on early and is easy to say. GPay fits in one breath at a busy counter.",
+      "why": "explains the rule like a textbook before giving the thing",
+      "try": "GPay caught on early and fits in one breath at a busy counter. That's the whole trick."
+     },
+     {
+      "where": "slide 10",
+      "line": "At the next chai stall, notice which app you say out loud.",
+      "why": "coach voice, an instruction to the reader",
+      "try": "Next time you're at a chai stall, catch which app comes out of your mouth."
+     },
+     {
+      "where": "slide 9",
+      "line": "Still, it's lopsided. One brand gets mentioned all day for free, while the rest buy each payment with offers.",
+      "why": "stiff written word and a balanced, polite sentence where he'd be blunt",
+      "try": "But one brand gets said out loud all day, for free. The rest are paying for every single payment with offers."
+     },
+     {
+      "where": "slide 4",
+      "line": "It reaches the top too.",
+      "why": "stiff, written transition",
+      "try": "And it's not just the chai stall."
+     },
+     {
+      "where": "slide 8",
+      "line": "For rivals, this is a strange fight.",
+      "why": "flat, written framing instead of a straight insider line",
+      "try": "So PhonePe and the rest are stuck in a weird fight."
+     }
+    ],
+    "best": "If they don't match, you just ran an ad for Google Pay. Unpaid."
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Not Varun (slide 9): 'It's not foolish of us. Language always takes the shortest road, and GPay is the shortest name in the queue.' reads as essay voice plus a defensive, softened verdict. Say it the way he would, e.g. 'Nobody's being dumb here. GPay is just the shortest name in the queue.' (his register, your words, same facts).",
+    "Not Varun (slide 7): 'The name that wins is the one that caught on early and is easy to say. GPay fits in one breath at a busy counter.' reads as explains the rule like a textbook before giving the thing. Say it the way he would, e.g. 'GPay caught on early and fits in one breath at a busy counter. That's the whole trick.' (his register, your words, same facts).",
+    "Not Varun (slide 10): 'At the next chai stall, notice which app you say out loud.' reads as coach voice, an instruction to the reader. Say it the way he would, e.g. 'Next time you're at a chai stall, catch which app comes out of your mouth.' (his register, your words, same facts).",
+    "Not Varun (slide 9): 'Still, it's lopsided. One brand gets mentioned all day for free, while the rest buy each payment with offers.' reads as stiff written word and a balanced, polite sentence where he'd be blunt. Say it the way he would, e.g. 'But one brand gets said out loud all day, for free. The rest are paying for every single payment with offers.' (his register, your words, same facts).",
+    "Not Varun (slide 4): 'It reaches the top too.' reads as stiff, written transition. Say it the way he would, e.g. 'And it's not just the chai stall.' (his register, your words, same facts).",
+    "Not Varun (slide 8): 'For rivals, this is a strange fight.' reads as flat, written framing instead of a straight insider line. Say it the way he would, e.g. 'So PhonePe and the rest are stuck in a weird fight.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 4,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "All six notes from the last round are fixed. The Karan Johar line on slide 4 now opens with 'And it's not just the chai stall.' Slide 7 gives the reason straight: 'GPay caught on early and fits in one breath at a busy counter.' Slide 8 says 'stuck in a weird fight.' Both slide 9 lines are blunt and in his voice ('Nobody's being dumb here.' and 'The rest are paying for every single payment with offers.'). Slide 10 catches the reader instead of coaching ('catch which app comes out of your mouth'). The edits add no new invented specifics, no 'I', and no repeated slide. Ready for the owner as is."
+    ]
+   }
+  },
+  {
+   "attempt": 4,
+   "varun": {
+    "pass": true,
+    "score": 5,
+    "misses": [],
+    "best": "If they don't match, you just ran an ad for Google Pay. Unpaid."
+   }
+  },
+  {
+   "attempt": 4,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not verify: 'GPay is the shortest name among the UPI apps people use at the counter.'. Cut it, or state it only if a source says it.",
+     "Wrong: 'PhonePe and the other UPI apps pay for every payment they win through cashback or offers.'. What's true: UPI apps do not pay cashback or offers on every payment. Rewards depend on the campaign, are not guaranteed, and are capped. PhonePe's own terms say rewards are not guaranteed.."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Karan Johar appeared on Koffee with Karan and told a story about his kids' school sports day.",
+      "sentence": "On Koffee with Karan, Karan Johar told a story about his kids' school sports day.",
+      "type": "anecdote",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c2",
+      "text": "In Karan Johar's story, the school sports day snack counter accepted 'only GPay'.",
+      "sentence": "The snack counter took \"only GPay\".",
+      "type": "anecdote",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c3",
+      "text": "PhonePe and Google Pay together carry about 79% of UPI payments.",
+      "sentence": "PhonePe and Google Pay together carry about 79% of UPI payments.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Only part of the 79% combined PhonePe and Google Pay share of UPI payments is Google Pay's; the rest is PhonePe's.",
+      "sentence": "Only part of that is GPay.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Google Pay caught on early among UPI apps in India.",
+      "sentence": "GPay caught on early and fits in one breath at a busy counter.",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c6",
+      "text": "GPay is the shortest name among the UPI apps people use at the counter.",
+      "sentence": "GPay is just the shortest name in the queue.",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "PhonePe offers scratch cards that pay users cashback or rewards.",
+      "sentence": "A PhonePe scratch card pays you, and you still say GPay out loud.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c8",
+      "text": "PhonePe and the other UPI apps pay for every payment they win through cashback or offers.",
+      "sentence": "The rest are paying for every single payment with offers.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c9",
+      "text": "Google Pay gets said out loud all day at no cost, as free advertising, while rival apps have to pay for each payment through offers.",
+      "sentence": "But one brand gets said out loud all day, for free.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c10",
+      "text": "Mechanism: Google Pay caught on early and has a short, easy-to-say name. Once people adopt a brand name as the word for paying, it sticks even when they pay on another app. As a result, every UPI payment on any app gets called 'GPay', which gives Google Pay free, unpaid advertising. Rivals can win individual payments with cashback offers but cannot win the word.",
+      "sentence": "Google Pay won the one thing no cashback can buy: every UPI payment, on any app, gets called GPay.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "2026-05-01",
+      "correct": "",
+      "sources": [
+       {
+        "url": "https://www.outlookbusiness.com/economy-and-policy/phonepe-google-pay-combined-upi-market-share-drops-below-80-for-first-time",
+        "publisher": "Outlook Business",
+        "published_date": "2026-06-17",
+        "quote": "The combined UPI market share of PhonePe and Google Pay fell to 79% in May 2026.",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "2026-05-01",
+      "correct": "The 79% is a combined figure, so Google Pay holds only part of it and PhonePe holds the rest. The source gives no split between the two apps.",
+      "sources": [
+       {
+        "url": "https://www.outlookbusiness.com/economy-and-policy/phonepe-google-pay-combined-upi-market-share-drops-below-80-for-first-time",
+        "publisher": "Outlook Business",
+        "published_date": "2026-06-17",
+        "quote": "The combined UPI market share of PhonePe and Google Pay fell to 79% in May 2026.",
+        "tier": 2
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "supported",
+      "event_date": "2017-09-18",
+      "correct": "Google Pay launched as Tez in September 2017. By December 2017 it reportedly handled about 52% of UPI transactions, though its share later fell.",
+      "sources": [
+       {
+        "url": "https://entrackr.com/?p=22240",
+        "publisher": "Entrackr",
+        "published_date": "2018-01-01",
+        "quote": "Tez accounted for 52 per cent of UPI transactions in India in December 2017",
+        "tier": 2
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "unverifiable",
+      "correct": "No source ranks UPI app names by length. BHIM also has four letters, so GPay is at best tied for shortest. 'GPay' is a nickname rather than the app's official name, Google Pay.",
+      "sources": []
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "supported",
+      "correct": "PhonePe gives scratch cards on eligible payments. The reward is usually credited as a PhonePe Gift Card balance.",
+      "sources": [
+       {
+        "url": "https://www.phonepe.com/terms-conditions/gifts-rewards",
+        "publisher": "PhonePe",
+        "published_date": "2026-01-01",
+        "quote": "rewards not claimed within thirty (30) calendar days from the granting of the scratch card will be forfeited/cancelled",
+        "tier": 1
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "contradicted",
+      "correct": "UPI apps do not pay cashback or offers on every payment. Rewards depend on the campaign, are not guaranteed, and are capped. PhonePe's own terms say rewards are not guaranteed.",
+      "sources": [
+       {
+        "url": "https://www.phonepe.com/terms-conditions/gifts-rewards",
+        "publisher": "PhonePe",
+        "published_date": "2026-01-01",
+        "quote": "the reward is not guaranteed in any manner whatsoever",
+        "tier": 1
+       }
+      ]
+     },
+     "c9": {
+      "id": "c9",
+      "verdict": "misframed",
+      "correct": "Rivals do not pay for each payment through offers, since rewards are limited campaigns. Google Pay also runs its own rewards and scratch cards. 'GPay kar do' is a generic phrase for paying by UPI, which supports the free-advertising idea only as the writer's opinion.",
+      "sources": [
+       {
+        "url": "https://www.outlookbusiness.com/economy-and-policy/phonepe-google-pay-combined-upi-market-share-drops-below-80-for-first-time",
+        "publisher": "Outlook Business",
+        "published_date": "2026-06-17",
+        "quote": "PhonePe and Google Pay combined UPI market share drops below 80% for first time",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "No premise is demonstrably false. 'Caught on early' needs context. PhonePe went live on UPI in August 2016 and led the market. Google's Tez, later renamed Google Pay, launched in September 2017, about a year later, but it then grew very quickly. 'Shortest name' is a loose judgment about speech, not a checkable fact about a product: 'BHIM' and 'Paytm' are just as short. Two smaller claims are weak but don't break the take. First, slide 9 implies only rivals pay for payments with offers, yet Google Pay has used its own cashback and scratch-card rewards since the Tez days. Second, I couldn't verify the Koffee with Karan 'only GPay' story.",
+     "actual_mechanism": "UPI is a shared NPCI network, so any UPI app can pay any merchant's QR code. That's why the app you name doesn't matter to the shopkeeper, and why 'GPay' can become a generic word for paying. The 79% figure is right: NPCI data for May 2026 puts PhonePe at about 46% and Google Pay at about 33%, so PhonePe actually carries more payments than the brand whose name people say. That fits the post's own point that the word and the money have come apart. Google gains brand awareness from people saying 'GPay', but no payment fee, since UPI payments to merchants are generally free of charges.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.outlookbusiness.com/economy-and-policy/phonepe-google-pay-combined-upi-market-share-drops-below-80-for-first-time",
+       "published_date": "2026-06-17",
+       "quote": "The combined market share of PhonePe and Google Pay on the Unified Payments Interface (UPI) fell to 79% in May 2026"
+      },
+      {
+       "url": "https://voice.lapaas.com/upi-may-phonepe-googlepay-share/",
+       "published_date": "2026-06",
+       "quote": "PhonePe held 46.26% of transaction volume and Google Pay held 32.75%"
+      },
+      {
+       "url": "https://kbssidhu.substack.com/p/from-upi-to-global-paytech-how-tez",
+       "published_date": "unknown",
+       "quote": "PhonePe had entered in August 2016 as the first third-party UPI application"
+      },
+      {
+       "url": "https://archive.factordaily.com/google-pay-tez-india-transactions-30-bn-run-rate/",
+       "published_date": "2018",
+       "quote": "Tez was launched in September 2017 ... within 37 days of launch, Tez had achieved approximately 8.5 million installations"
+      }
+     ]
+    },
+    "text_hash": "56889954827ca040f23e2d4a3f72d9a5ad2cb80f",
+    "at": "2026-11-13T06:39:05.648867+00:00"
+   }
+  },
+  {
+   "attempt": 4,
+   "problems": [
+    "Could not verify: 'GPay is the shortest name among the UPI apps people use at the counter.'. Cut it, or state it only if a source says it.",
+    "Wrong: 'PhonePe and the other UPI apps pay for every payment they win through cashback or offers.'. What's true: UPI apps do not pay cashback or offers on every payment. Rewards depend on the campaign, are not guaranteed, and are capped. PhonePe's own terms say rewards are not guaranteed.."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-13T06:41:31.110409+00:00",
+ "sources": [
+  {
+   "url": "https://www.outlookbusiness.com/economy-and-policy/phonepe-google-pay-combined-upi-market-share-drops-below-80-for-first-time",
+   "fact": "Google Pay is one of two apps, with PhonePe, that together hold about 79% of UPI transactions (May 2026). This is their first fall below 80%, and it shows that 'GPay kar do' is said across a market where many payments are not made on GPay.",
+   "excerpt": "The combined UPI market share of PhonePe and Google Pay fell to 79% in May 2026. PhonePe and Google Pay previously expanded their combined grip from 80 % in 2021 to 86% in May 2024.",
+   "date": "2026-06-17"
+  }
+ ],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] Google Pay won the one thing no ad can buy: [the word]\nYou say GPay even when another app moves the money.\n \n\n[slide 1] You paid on PhonePe and said \"GPay kar diya\".\nGoogle Pay got credit for a payment it never touched.\nSwipe to read →\n\n[slide 2] The shopkeeper doesn't care which app you used. He just wants to see the money land.\nOnly you say a brand out loud.\n\n[slide 3] Listen to how far the word travels:\n– \"GPay kar do\" to the chaiwala with a Paytm QR\n– \"Maine GPay kar diya\" in the flatmates group, from a bank app\n– \"GPay number bhejo\" when you mean your UPI number\n\n[slide 4] And it's not just the chai stall. On Koffee with Karan, Karan Johar told a story about his kids' school sports day.\nThe snack counter took \"only GPay\".\n\n[slide 5] PhonePe and Google Pay together carry about 79% of UPI payments. Only part of that is GPay.\nThe word covers all of it. And every app outside it.\n\n[slide 6] We like to think we pick the app that suits us best. Mostly we pick the name already in our mouth.\n\n[slide 7] GPay caught on early and fits in one breath at a busy counter.\nOnce a word sticks, it stays put. Even when the money moves to another app.\n\n[slide 8] So PhonePe and the rest are stuck in a weird fight. Every cashback offer can win them a payment.\nNone wins them the word. A PhonePe scratch card pays you, and you still say GPay out loud.\n\n[slide 9] Nobody's being dumb here. GPay is just the shortest name in the queue.\nBut one brand gets said out loud all day, for free. The rest are paying for every single payment with offers.\n\n[slide 10] Next time you're at a chai stall, catch which app comes out of your mouth.\nThen look at which one is open on your phone.\nIf they don't match, you just ran an ad for Google Pay. Unpaid.\n\n[end card] Come back to this the next time you hear yourself say \"GPay kar diya\".\nSend to the friend who says \"GPay kar do\" while paying with PhonePe.\n\n[caption] Google Pay won the one thing no cashback can buy: every UPI payment, on any app, gets called GPay.\n\n\"Bhaiya, GPay kar diya\" after paying on PhonePe is a free ad for Google Pay, said out loud at the counter.\n\nSend this to the friend who says \"GPay kar do\" with PhonePe already open on their phone.\n\n[alt text] A ten-slide text post arguing that Google Pay has become the everyday word for any UPI payment in India. People say 'GPay kar do' while paying on PhonePe, Paytm or bank apps, while the shopkeeper only cares that the money arrived. It mentions Karan Johar's Koffee with Karan story about a school snack counter that took 'only GPay', and notes that PhonePe and Google Pay together carry about 79% of UPI payments, only part of which is GPay. It argues GPay caught on early and is easy to say, so the word stays even when people use other apps. Rivals can win payments with cashback offers but not the word. It ends by asking readers to catch which app they say out loud versus which one they actually use.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Karan Johar appeared on Koffee with Karan and told a story about his kids' school sports day.",
+     "sentence": "On Koffee with Karan, Karan Johar told a story about his kids' school sports day.",
+     "type": "anecdote",
+     "core": false,
+     "framed_as": "past"
+    },
+    {
+     "id": "c2",
+     "text": "In Karan Johar's story, the school sports day snack counter accepted 'only GPay'.",
+     "sentence": "The snack counter took \"only GPay\".",
+     "type": "anecdote",
+     "core": false,
+     "framed_as": "past"
+    },
+    {
+     "id": "c3",
+     "text": "PhonePe and Google Pay together carry about 79% of UPI payments.",
+     "sentence": "PhonePe and Google Pay together carry about 79% of UPI payments.",
+     "type": "figure",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c4",
+     "text": "Only part of the 79% combined PhonePe and Google Pay share of UPI payments is Google Pay's; the rest is PhonePe's.",
+     "sentence": "Only part of that is GPay.",
+     "type": "figure",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c5",
+     "text": "Google Pay caught on early among UPI apps in India.",
+     "sentence": "GPay caught on early and fits in one breath at a busy counter.",
+     "type": "entity_attribute",
+     "core": false,
+     "framed_as": "past"
+    },
+    {
+     "id": "c6",
+     "text": "GPay is the shortest name among the UPI apps people use at the counter.",
+     "sentence": "GPay is just the shortest name in the queue.",
+     "type": "entity_attribute",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c7",
+     "text": "PhonePe offers scratch cards that pay users cashback or rewards.",
+     "sentence": "A PhonePe scratch card pays you, and you still say GPay out loud.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c8",
+     "text": "PhonePe and the other UPI apps pay for every payment they win through cashback or offers.",
+     "sentence": "The rest are paying for every single payment with offers.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c9",
+     "text": "Google Pay gets said out loud all day at no cost, as free advertising, while rival apps have to pay for each payment through offers.",
+     "sentence": "But one brand gets said out loud all day, for free.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c10",
+     "text": "Mechanism: Google Pay caught on early and has a short, easy-to-say name. Once people adopt a brand name as the word for paying, it sticks even when they pay on another app. As a result, every UPI payment on any app gets called 'GPay', which gives Google Pay free, unpaid advertising. Rivals can win individual payments with cashback offers but cannot win the word.",
+     "sentence": "Google Pay won the one thing no cashback can buy: every UPI payment, on any app, gets called GPay.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "PhonePe and Google Pay together carry about 79% of UPI payments.": {
+   "id": "c3",
+   "verdict": "supported",
+   "event_date": "2026-05-01",
+   "correct": "",
+   "sources": [
+    {
+     "url": "https://www.outlookbusiness.com/economy-and-policy/phonepe-google-pay-combined-upi-market-share-drops-below-80-for-first-time",
+     "publisher": "Outlook Business",
+     "published_date": "2026-06-17",
+     "quote": "The combined UPI market share of PhonePe and Google Pay fell to 79% in May 2026.",
+     "tier": 2
+    }
+   ]
+  },
+  "Only part of the 79% combined PhonePe and Google Pay share of UPI payments is Google Pay's; the rest is PhonePe's.": {
+   "id": "c4",
+   "verdict": "supported",
+   "event_date": "2026-05-01",
+   "correct": "The 79% is a combined figure, so Google Pay holds only part of it and PhonePe holds the rest. The source gives no split between the two apps.",
+   "sources": [
+    {
+     "url": "https://www.outlookbusiness.com/economy-and-policy/phonepe-google-pay-combined-upi-market-share-drops-below-80-for-first-time",
+     "publisher": "Outlook Business",
+     "published_date": "2026-06-17",
+     "quote": "The combined UPI market share of PhonePe and Google Pay fell to 79% in May 2026.",
+     "tier": 2
+    }
+   ]
+  },
+  "Shopkeepers' payment speakers (soundboxes) announce the amount received in rupees and do not announce the app brand used by the payer.": {
+   "id": "c5",
+   "verdict": "unverifiable",
+   "correct": "I found no source on what soundboxes announce. Brand-run speakers may name their own brand, such as Paytm or PhonePe, instead of the payer's app.",
+   "sources": []
+  },
+  "Paytm was once the app that taught most Indians UPI-style digital payments and its name was the everyday word for digital payment.": {
+   "id": "c6",
+   "verdict": "unverifiable",
+   "correct": "I did not check this claim against a source. It is a broad historical characterisation.",
+   "sources": []
+  },
+  "PhonePe scratch card rewards can be as small as ₹2.": {
+   "id": "c8",
+   "verdict": "unverifiable",
+   "correct": "I found no PhonePe source giving a ₹2 minimum. The minimum depends on the offer. Third-party listings show floors from ₹1 to ₹2.5, and PhonePe's own help page does not state one.",
+   "sources": [
+    {
+     "url": "https://cms.phonepe.com/en/myhelp/payments-other-websites-and-apps/cashback-related-issues/what-type-rewards-can-i-win-phonepe/",
+     "publisher": "PhonePe",
+     "published_date": "",
+     "quote": "you may see the Better luck next time message after playing a scratch card",
+     "tier": 1
+    }
+   ]
+  },
+  "The word 'Xerox' is used in India as a generic verb for photocopying, not tied to one company's machine.": {
+   "id": "c10",
+   "verdict": "unverifiable",
+   "correct": "I did not check this claim against a source.",
+   "sources": []
+  },
+  "Google did not ask Indians to use 'GPay' as a generic word for UPI payment.": {
+   "id": "c11",
+   "verdict": "unverifiable",
+   "correct": "I found no source on whether Google asked Indians to use 'GPay' generically. This is a negative claim and is hard to verify.",
+   "sources": []
+  },
+  "_skeptic": {
+   "3a07389cab844698fce00901fe0037286ec64e8e": {
+    "holds": false,
+    "broken_premise": "Premise 1 is wrong: 'The app that taught most Indians UPI was Google Pay, and that is why its name became the word for UPI payment.' Google Pay (launched as Tez) was the top UPI app only for about 18 months, roughly 2019 to 2020. PhonePe led at points in 2018, passed Google Pay in October 2020, and has been the biggest UPI app since then. UPI handled about 2 billion transactions a month at that point. It now handles about 25 billion a month. So most Indians started using UPI while PhonePe was the leader, not Google Pay. Slide 7 also contradicts itself. It says 'the habit moved, and the word went with it,' but the habit moved from Google Pay to PhonePe and the word stayed 'GPay.' The other premises hold. Cashback is a fight over payments, not over the brand name. 'Xerox' is used as a generic verb in India. People do say 'GPay' for payments made on other apps. The 79% combined share is correct: it fell to 79% in May 2026, and in September 2026 it was PhonePe 45.6% plus Google Pay 32.2%.",
+    "actual_mechanism": "Any UPI app sends a payment through NPCI's shared system. The shop's speaker only announces that money arrived, so which app you used never comes up at the counter. 'GPay' probably became the everyday word while Google Pay led in 2019–20, during UPI's first big growth among city users, and because it is short and easy to say. It stayed after PhonePe took the lead in October 2020 and grew much bigger. Of the two leaders, Google Pay has the smaller share (about 32%) but still owns the word. The everyday word follows whatever name caught on early and is easy to say, not which app people actually use most.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.outlookbusiness.com/economy-and-policy/phonepe-google-pay-combined-upi-market-share-drops-below-80-for-first-time",
+      "published_date": "2026-06-17",
+      "quote": "The combined market share of PhonePe and Google Pay on the Unified Payments Interface (UPI) fell to 79% in May 2026"
+     },
+     {
+      "url": "https://techcrunch.com/2020/11/02/walmarts-phonepe-zips-past-google-pay-in-india-as-upi-tops-2-billion-monthly-transactions",
+      "published_date": "2020-11-02",
+      "quote": "Walmart's PhonePe zips past Google Pay in India as UPI tops 2 billion monthly transactions"
+     },
+     {
+      "url": "https://qz.com/india/1702484/google-pay-way-ahead-of-paytm-phonepe-in-upi-based-transactions",
+      "published_date": "2019-09",
+      "quote": "Google Pay at 59.75% of all UPI transactions logged in August 2019 (Razorpay data), vs PhonePe's 24.91% and Paytm's 5.93%"
+     },
+     {
+      "url": "https://www.digit.in/?p=72721",
+      "published_date": "2018-08",
+      "quote": "PhonePe becomes largest UPI player, leaps ahead of Paytm and Tez"
+     },
+     {
+      "url": "https://india.entrepreneur.com/business-news/upi-hits-record-25-47-bn-transactions-in-october-daily-value-crosses-inr-1-l-cr",
+      "published_date": "2026-11",
+      "quote": "UPI Hits Record 25.47 Bn Transactions in October"
+     }
+    ]
+   },
+   "b11f2149fdf0118d29d6cfdd17bdaa6fdc7b2b99": {
+    "holds": true,
+    "broken_premise": "No premise is demonstrably false. 'Caught on early' needs context. PhonePe went live on UPI in August 2016 and led the market. Google's Tez, later renamed Google Pay, launched in September 2017, about a year later, but it then grew very quickly. 'Shortest name' is a loose judgment about speech, not a checkable fact about a product: 'BHIM' and 'Paytm' are just as short. Two smaller claims are weak but don't break the take. First, slide 9 implies only rivals pay for payments with offers, yet Google Pay has used its own cashback and scratch-card rewards since the Tez days. Second, I couldn't verify the Koffee with Karan 'only GPay' story.",
+    "actual_mechanism": "UPI is a shared NPCI network, so any UPI app can pay any merchant's QR code. That's why the app you name doesn't matter to the shopkeeper, and why 'GPay' can become a generic word for paying. The 79% figure is right: NPCI data for May 2026 puts PhonePe at about 46% and Google Pay at about 33%, so PhonePe actually carries more payments than the brand whose name people say. That fits the post's own point that the word and the money have come apart. Google gains brand awareness from people saying 'GPay', but no payment fee, since UPI payments to merchants are generally free of charges.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.outlookbusiness.com/economy-and-policy/phonepe-google-pay-combined-upi-market-share-drops-below-80-for-first-time",
+      "published_date": "2026-06-17",
+      "quote": "The combined market share of PhonePe and Google Pay on the Unified Payments Interface (UPI) fell to 79% in May 2026"
+     },
+     {
+      "url": "https://voice.lapaas.com/upi-may-phonepe-googlepay-share/",
+      "published_date": "2026-06",
+      "quote": "PhonePe held 46.26% of transaction volume and Google Pay held 32.75%"
+     },
+     {
+      "url": "https://kbssidhu.substack.com/p/from-upi-to-global-paytech-how-tez",
+      "published_date": "unknown",
+      "quote": "PhonePe had entered in August 2016 as the first third-party UPI application"
+     },
+     {
+      "url": "https://archive.factordaily.com/google-pay-tez-india-transactions-30-bn-run-rate/",
+      "published_date": "2018",
+      "quote": "Tez was launched in September 2017 ... within 37 days of launch, Tez had achieved approximately 8.5 million installations"
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "7f5005901a8557d2ac37a756e01f67913f021b59": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "The take's premise is wrong: Premise 1 is wrong: 'The app that taught most Indians UPI was Google Pay, and that is why its name became the word for UPI payment.' Google Pay (launched as Tez) was the top UPI app only for about 18 months, roughly 2019 to 2020. PhonePe led at points in 2018, passed Google Pay in October 2020, and has been the biggest UPI app since then. UPI handled about 2 billion transactions a month at that point. It now handles about 25 billion a month. So most Indians started using UPI while PhonePe was the leader, not Google Pay. Slide 7 also contradicts itself. It says 'the habit moved, and the word went with it,' but the habit moved from Google Pay to PhonePe and the word stayed 'GPay.' The other premises hold. Cashback is a fight over payments, not over the brand name. 'Xerox' is used as a generic verb in India. People do say 'GPay' for payments made on other apps. The 79% combined share is correct: it fell to 79% in May 2026, and in September 2026 it was PhonePe 45.6% plus Google Pay 32.2%.. How it actually works: Any UPI app sends a payment through NPCI's shared system. The shop's speaker only announces that money arrived, so which app you used never comes up at the counter. 'GPay' probably became the everyday word while Google Pay led in 2019–20, during UPI's first big growth among city users, and because it is short and easy to say. It stayed after PhonePe took the lead in October 2020 and grew much bigger. Of the two leaders, Google Pay has the smaller share (about 32%) but still owns the word. The everyday word follows whatever name caught on early and is easy to say, not which app people actually use most. Rebuild the post on the correct mechanism.",
+     "Could not verify: 'Shopkeepers' payment speakers (soundboxes) announce the amount received in rupees and do not announce the app brand used by the payer.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Paytm was once the app that taught most Indians UPI-style digital payments and its name was the everyday word for digital payment.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'PhonePe scratch card rewards can be as small as ₹2.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'The word 'Xerox' is used in India as a generic verb for photocopying, not tied to one company's machine.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Google did not ask Indians to use 'GPay' as a generic word for UPI payment.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Karan Johar appeared on Koffee with Karan and told a story about his kids' school sports day.",
+      "sentence": "On Koffee with Karan, Karan Johar told a story about his kids' school sports day.",
+      "type": "anecdote",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c2",
+      "text": "In Karan Johar's story, the school sports day snack counter accepted 'only GPay'.",
+      "sentence": "The snack counter took \"only GPay\".",
+      "type": "anecdote",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c3",
+      "text": "PhonePe and Google Pay together carry about 79% of UPI payments.",
+      "sentence": "PhonePe and Google Pay together carry about 79% of UPI payments.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Only part of the 79% combined PhonePe and Google Pay share of UPI payments is Google Pay's; the rest is PhonePe's.",
+      "sentence": "Only part of that is GPay.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Shopkeepers' payment speakers (soundboxes) announce the amount received in rupees and do not announce the app brand used by the payer.",
+      "sentence": "The speaker reads out the rupees.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Paytm was once the app that taught most Indians UPI-style digital payments and its name was the everyday word for digital payment.",
+      "sentence": "Paytm owned the word once. Then the habit moved, and the word went with it.",
+      "type": "event",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c7",
+      "text": "The app that taught most Indians UPI was Google Pay, and that is why its name became the word for UPI payment.",
+      "sentence": "Whichever app taught most of us UPI got to name the whole thing.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c8",
+      "text": "PhonePe scratch card rewards can be as small as ₹2.",
+      "sentence": "A PhonePe scratch card hands you ₹2, and you thank Google out loud.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c9",
+      "text": "Cashback offers by rival UPI apps can win them payments but do not change which brand name people use as the verb for paying.",
+      "sentence": "Every cashback offer can win them a payment. None wins them the word.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c10",
+      "text": "The word 'Xerox' is used in India as a generic verb for photocopying, not tied to one company's machine.",
+      "sentence": "the way \"Xerox kar do\" never meant one company's machine.",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c11",
+      "text": "Google did not ask Indians to use 'GPay' as a generic word for UPI payment.",
+      "sentence": "Google never asked us to say it, and it gets a free mention all day, every day.",
+      "type": "event",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c12",
+      "text": "Google Pay is a UPI app in India that is used by many people and is called by name even when payments are made through PhonePe, Paytm or bank apps.",
+      "sentence": "You say GPay even when another app moves the money.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "2026-05-01",
+      "correct": "",
+      "sources": [
+       {
+        "url": "https://www.outlookbusiness.com/economy-and-policy/phonepe-google-pay-combined-upi-market-share-drops-below-80-for-first-time",
+        "publisher": "Outlook Business",
+        "published_date": "2026-06-17",
+        "quote": "The combined UPI market share of PhonePe and Google Pay fell to 79% in May 2026.",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "2026-05-01",
+      "correct": "The 79% is a combined figure, so Google Pay holds only part of it and PhonePe holds the rest. The source gives no split between the two apps.",
+      "sources": [
+       {
+        "url": "https://www.outlookbusiness.com/economy-and-policy/phonepe-google-pay-combined-upi-market-share-drops-below-80-for-first-time",
+        "publisher": "Outlook Business",
+        "published_date": "2026-06-17",
+        "quote": "The combined UPI market share of PhonePe and Google Pay fell to 79% in May 2026.",
+        "tier": 2
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "unverifiable",
+      "correct": "I found no source on what soundboxes announce. Brand-run speakers may name their own brand, such as Paytm or PhonePe, instead of the payer's app.",
+      "sources": []
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "unverifiable",
+      "correct": "I did not check this claim against a source. It is a broad historical characterisation.",
+      "sources": []
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "unverifiable",
+      "correct": "I found no PhonePe source giving a ₹2 minimum. The minimum depends on the offer. Third-party listings show floors from ₹1 to ₹2.5, and PhonePe's own help page does not state one.",
+      "sources": [
+       {
+        "url": "https://cms.phonepe.com/en/myhelp/payments-other-websites-and-apps/cashback-related-issues/what-type-rewards-can-i-win-phonepe/",
+        "publisher": "PhonePe",
+        "published_date": "",
+        "quote": "you may see the Better luck next time message after playing a scratch card",
+        "tier": 1
+       }
+      ]
+     },
+     "c10": {
+      "id": "c10",
+      "verdict": "unverifiable",
+      "correct": "I did not check this claim against a source.",
+      "sources": []
+     },
+     "c11": {
+      "id": "c11",
+      "verdict": "unverifiable",
+      "correct": "I found no source on whether Google asked Indians to use 'GPay' generically. This is a negative claim and is hard to verify.",
+      "sources": []
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "Premise 1 is wrong: 'The app that taught most Indians UPI was Google Pay, and that is why its name became the word for UPI payment.' Google Pay (launched as Tez) was the top UPI app only for about 18 months, roughly 2019 to 2020. PhonePe led at points in 2018, passed Google Pay in October 2020, and has been the biggest UPI app since then. UPI handled about 2 billion transactions a month at that point. It now handles about 25 billion a month. So most Indians started using UPI while PhonePe was the leader, not Google Pay. Slide 7 also contradicts itself. It says 'the habit moved, and the word went with it,' but the habit moved from Google Pay to PhonePe and the word stayed 'GPay.' The other premises hold. Cashback is a fight over payments, not over the brand name. 'Xerox' is used as a generic verb in India. People do say 'GPay' for payments made on other apps. The 79% combined share is correct: it fell to 79% in May 2026, and in September 2026 it was PhonePe 45.6% plus Google Pay 32.2%.",
+     "actual_mechanism": "Any UPI app sends a payment through NPCI's shared system. The shop's speaker only announces that money arrived, so which app you used never comes up at the counter. 'GPay' probably became the everyday word while Google Pay led in 2019–20, during UPI's first big growth among city users, and because it is short and easy to say. It stayed after PhonePe took the lead in October 2020 and grew much bigger. Of the two leaders, Google Pay has the smaller share (about 32%) but still owns the word. The everyday word follows whatever name caught on early and is easy to say, not which app people actually use most.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.outlookbusiness.com/economy-and-policy/phonepe-google-pay-combined-upi-market-share-drops-below-80-for-first-time",
+       "published_date": "2026-06-17",
+       "quote": "The combined market share of PhonePe and Google Pay on the Unified Payments Interface (UPI) fell to 79% in May 2026"
+      },
+      {
+       "url": "https://techcrunch.com/2020/11/02/walmarts-phonepe-zips-past-google-pay-in-india-as-upi-tops-2-billion-monthly-transactions",
+       "published_date": "2020-11-02",
+       "quote": "Walmart's PhonePe zips past Google Pay in India as UPI tops 2 billion monthly transactions"
+      },
+      {
+       "url": "https://qz.com/india/1702484/google-pay-way-ahead-of-paytm-phonepe-in-upi-based-transactions",
+       "published_date": "2019-09",
+       "quote": "Google Pay at 59.75% of all UPI transactions logged in August 2019 (Razorpay data), vs PhonePe's 24.91% and Paytm's 5.93%"
+      },
+      {
+       "url": "https://www.digit.in/?p=72721",
+       "published_date": "2018-08",
+       "quote": "PhonePe becomes largest UPI player, leaps ahead of Paytm and Tez"
+      },
+      {
+       "url": "https://india.entrepreneur.com/business-news/upi-hits-record-25-47-bn-transactions-in-october-daily-value-crosses-inr-1-l-cr",
+       "published_date": "2026-11",
+       "quote": "UPI Hits Record 25.47 Bn Transactions in October"
+      }
+     ]
+    },
+    "text_hash": "7f5005901a8557d2ac37a756e01f67913f021b59",
+    "at": "2026-11-13T06:36:13.927364+00:00"
+   },
+   "56889954827ca040f23e2d4a3f72d9a5ad2cb80f": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not verify: 'GPay is the shortest name among the UPI apps people use at the counter.'. Cut it, or state it only if a source says it.",
+     "Wrong: 'PhonePe and the other UPI apps pay for every payment they win through cashback or offers.'. What's true: UPI apps do not pay cashback or offers on every payment. Rewards depend on the campaign, are not guaranteed, and are capped. PhonePe's own terms say rewards are not guaranteed.."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Karan Johar appeared on Koffee with Karan and told a story about his kids' school sports day.",
+      "sentence": "On Koffee with Karan, Karan Johar told a story about his kids' school sports day.",
+      "type": "anecdote",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c2",
+      "text": "In Karan Johar's story, the school sports day snack counter accepted 'only GPay'.",
+      "sentence": "The snack counter took \"only GPay\".",
+      "type": "anecdote",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c3",
+      "text": "PhonePe and Google Pay together carry about 79% of UPI payments.",
+      "sentence": "PhonePe and Google Pay together carry about 79% of UPI payments.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Only part of the 79% combined PhonePe and Google Pay share of UPI payments is Google Pay's; the rest is PhonePe's.",
+      "sentence": "Only part of that is GPay.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Google Pay caught on early among UPI apps in India.",
+      "sentence": "GPay caught on early and fits in one breath at a busy counter.",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c6",
+      "text": "GPay is the shortest name among the UPI apps people use at the counter.",
+      "sentence": "GPay is just the shortest name in the queue.",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "PhonePe offers scratch cards that pay users cashback or rewards.",
+      "sentence": "A PhonePe scratch card pays you, and you still say GPay out loud.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c8",
+      "text": "PhonePe and the other UPI apps pay for every payment they win through cashback or offers.",
+      "sentence": "The rest are paying for every single payment with offers.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c9",
+      "text": "Google Pay gets said out loud all day at no cost, as free advertising, while rival apps have to pay for each payment through offers.",
+      "sentence": "But one brand gets said out loud all day, for free.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c10",
+      "text": "Mechanism: Google Pay caught on early and has a short, easy-to-say name. Once people adopt a brand name as the word for paying, it sticks even when they pay on another app. As a result, every UPI payment on any app gets called 'GPay', which gives Google Pay free, unpaid advertising. Rivals can win individual payments with cashback offers but cannot win the word.",
+      "sentence": "Google Pay won the one thing no cashback can buy: every UPI payment, on any app, gets called GPay.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "2026-05-01",
+      "correct": "",
+      "sources": [
+       {
+        "url": "https://www.outlookbusiness.com/economy-and-policy/phonepe-google-pay-combined-upi-market-share-drops-below-80-for-first-time",
+        "publisher": "Outlook Business",
+        "published_date": "2026-06-17",
+        "quote": "The combined UPI market share of PhonePe and Google Pay fell to 79% in May 2026.",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "2026-05-01",
+      "correct": "The 79% is a combined figure, so Google Pay holds only part of it and PhonePe holds the rest. The source gives no split between the two apps.",
+      "sources": [
+       {
+        "url": "https://www.outlookbusiness.com/economy-and-policy/phonepe-google-pay-combined-upi-market-share-drops-below-80-for-first-time",
+        "publisher": "Outlook Business",
+        "published_date": "2026-06-17",
+        "quote": "The combined UPI market share of PhonePe and Google Pay fell to 79% in May 2026.",
+        "tier": 2
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "supported",
+      "event_date": "2017-09-18",
+      "correct": "Google Pay launched as Tez in September 2017. By December 2017 it reportedly handled about 52% of UPI transactions, though its share later fell.",
+      "sources": [
+       {
+        "url": "https://entrackr.com/?p=22240",
+        "publisher": "Entrackr",
+        "published_date": "2018-01-01",
+        "quote": "Tez accounted for 52 per cent of UPI transactions in India in December 2017",
+        "tier": 2
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "unverifiable",
+      "correct": "No source ranks UPI app names by length. BHIM also has four letters, so GPay is at best tied for shortest. 'GPay' is a nickname rather than the app's official name, Google Pay.",
+      "sources": []
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "supported",
+      "correct": "PhonePe gives scratch cards on eligible payments. The reward is usually credited as a PhonePe Gift Card balance.",
+      "sources": [
+       {
+        "url": "https://www.phonepe.com/terms-conditions/gifts-rewards",
+        "publisher": "PhonePe",
+        "published_date": "2026-01-01",
+        "quote": "rewards not claimed within thirty (30) calendar days from the granting of the scratch card will be forfeited/cancelled",
+        "tier": 1
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "contradicted",
+      "correct": "UPI apps do not pay cashback or offers on every payment. Rewards depend on the campaign, are not guaranteed, and are capped. PhonePe's own terms say rewards are not guaranteed.",
+      "sources": [
+       {
+        "url": "https://www.phonepe.com/terms-conditions/gifts-rewards",
+        "publisher": "PhonePe",
+        "published_date": "2026-01-01",
+        "quote": "the reward is not guaranteed in any manner whatsoever",
+        "tier": 1
+       }
+      ]
+     },
+     "c9": {
+      "id": "c9",
+      "verdict": "misframed",
+      "correct": "Rivals do not pay for each payment through offers, since rewards are limited campaigns. Google Pay also runs its own rewards and scratch cards. 'GPay kar do' is a generic phrase for paying by UPI, which supports the free-advertising idea only as the writer's opinion.",
+      "sources": [
+       {
+        "url": "https://www.outlookbusiness.com/economy-and-policy/phonepe-google-pay-combined-upi-market-share-drops-below-80-for-first-time",
+        "publisher": "Outlook Business",
+        "published_date": "2026-06-17",
+        "quote": "PhonePe and Google Pay combined UPI market share drops below 80% for first time",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "No premise is demonstrably false. 'Caught on early' needs context. PhonePe went live on UPI in August 2016 and led the market. Google's Tez, later renamed Google Pay, launched in September 2017, about a year later, but it then grew very quickly. 'Shortest name' is a loose judgment about speech, not a checkable fact about a product: 'BHIM' and 'Paytm' are just as short. Two smaller claims are weak but don't break the take. First, slide 9 implies only rivals pay for payments with offers, yet Google Pay has used its own cashback and scratch-card rewards since the Tez days. Second, I couldn't verify the Koffee with Karan 'only GPay' story.",
+     "actual_mechanism": "UPI is a shared NPCI network, so any UPI app can pay any merchant's QR code. That's why the app you name doesn't matter to the shopkeeper, and why 'GPay' can become a generic word for paying. The 79% figure is right: NPCI data for May 2026 puts PhonePe at about 46% and Google Pay at about 33%, so PhonePe actually carries more payments than the brand whose name people say. That fits the post's own point that the word and the money have come apart. Google gains brand awareness from people saying 'GPay', but no payment fee, since UPI payments to merchants are generally free of charges.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.outlookbusiness.com/economy-and-policy/phonepe-google-pay-combined-upi-market-share-drops-below-80-for-first-time",
+       "published_date": "2026-06-17",
+       "quote": "The combined market share of PhonePe and Google Pay on the Unified Payments Interface (UPI) fell to 79% in May 2026"
+      },
+      {
+       "url": "https://voice.lapaas.com/upi-may-phonepe-googlepay-share/",
+       "published_date": "2026-06",
+       "quote": "PhonePe held 46.26% of transaction volume and Google Pay held 32.75%"
+      },
+      {
+       "url": "https://kbssidhu.substack.com/p/from-upi-to-global-paytech-how-tez",
+       "published_date": "unknown",
+       "quote": "PhonePe had entered in August 2016 as the first third-party UPI application"
+      },
+      {
+       "url": "https://archive.factordaily.com/google-pay-tez-india-transactions-30-bn-run-rate/",
+       "published_date": "2018",
+       "quote": "Tez was launched in September 2017 ... within 37 days of launch, Tez had achieved approximately 8.5 million installations"
+      }
+     ]
+    },
+    "text_hash": "56889954827ca040f23e2d4a3f72d9a5ad2cb80f",
+    "at": "2026-11-13T06:39:05.648867+00:00"
+   }
+  },
+  "Google Pay caught on early among UPI apps in India.": {
+   "id": "c5",
+   "verdict": "supported",
+   "event_date": "2017-09-18",
+   "correct": "Google Pay launched as Tez in September 2017. By December 2017 it reportedly handled about 52% of UPI transactions, though its share later fell.",
+   "sources": [
+    {
+     "url": "https://entrackr.com/?p=22240",
+     "publisher": "Entrackr",
+     "published_date": "2018-01-01",
+     "quote": "Tez accounted for 52 per cent of UPI transactions in India in December 2017",
+     "tier": 2
+    }
+   ]
+  },
+  "GPay is the shortest name among the UPI apps people use at the counter.": {
+   "id": "c6",
+   "verdict": "unverifiable",
+   "correct": "No source ranks UPI app names by length. BHIM also has four letters, so GPay is at best tied for shortest. 'GPay' is a nickname rather than the app's official name, Google Pay.",
+   "sources": []
+  },
+  "PhonePe offers scratch cards that pay users cashback or rewards.": {
+   "id": "c7",
+   "verdict": "supported",
+   "correct": "PhonePe gives scratch cards on eligible payments. The reward is usually credited as a PhonePe Gift Card balance.",
+   "sources": [
+    {
+     "url": "https://www.phonepe.com/terms-conditions/gifts-rewards",
+     "publisher": "PhonePe",
+     "published_date": "2026-01-01",
+     "quote": "rewards not claimed within thirty (30) calendar days from the granting of the scratch card will be forfeited/cancelled",
+     "tier": 1
+    }
+   ]
+  },
+  "PhonePe and the other UPI apps pay for every payment they win through cashback or offers.": {
+   "id": "c8",
+   "verdict": "contradicted",
+   "correct": "UPI apps do not pay cashback or offers on every payment. Rewards depend on the campaign, are not guaranteed, and are capped. PhonePe's own terms say rewards are not guaranteed.",
+   "sources": [
+    {
+     "url": "https://www.phonepe.com/terms-conditions/gifts-rewards",
+     "publisher": "PhonePe",
+     "published_date": "2026-01-01",
+     "quote": "the reward is not guaranteed in any manner whatsoever",
+     "tier": 1
+    }
+   ]
+  },
+  "Google Pay gets said out loud all day at no cost, as free advertising, while rival apps have to pay for each payment through offers.": {
+   "id": "c9",
+   "verdict": "misframed",
+   "correct": "Rivals do not pay for each payment through offers, since rewards are limited campaigns. Google Pay also runs its own rewards and scratch cards. 'GPay kar do' is a generic phrase for paying by UPI, which supports the free-advertising idea only as the writer's opinion.",
+   "sources": [
+    {
+     "url": "https://www.outlookbusiness.com/economy-and-policy/phonepe-google-pay-combined-upi-market-share-drops-below-80-for-first-time",
+     "publisher": "Outlook Business",
+     "published_date": "2026-06-17",
+     "quote": "PhonePe and Google Pay combined UPI market share drops below 80% for first time",
+     "tier": 2
+    }
+   ]
+  },
+  "_skeptic_take": {
+   "62b9670486b8f6377f581976d38272296e3855f5": {
+    "holds": true,
+    "broken_premise": "No premise is demonstrably false. 'Caught on early' needs context. PhonePe went live on UPI in August 2016 and led the market. Google's Tez, later renamed Google Pay, launched in September 2017, about a year later, but it then grew very quickly. 'Shortest name' is a loose judgment about speech, not a checkable fact about a product: 'BHIM' and 'Paytm' are just as short. Two smaller claims are weak but don't break the take. First, slide 9 implies only rivals pay for payments with offers, yet Google Pay has used its own cashback and scratch-card rewards since the Tez days. Second, I couldn't verify the Koffee with Karan 'only GPay' story.",
+    "actual_mechanism": "UPI is a shared NPCI network, so any UPI app can pay any merchant's QR code. That's why the app you name doesn't matter to the shopkeeper, and why 'GPay' can become a generic word for paying. The 79% figure is right: NPCI data for May 2026 puts PhonePe at about 46% and Google Pay at about 33%, so PhonePe actually carries more payments than the brand whose name people say. That fits the post's own point that the word and the money have come apart. Google gains brand awareness from people saying 'GPay', but no payment fee, since UPI payments to merchants are generally free of charges.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.outlookbusiness.com/economy-and-policy/phonepe-google-pay-combined-upi-market-share-drops-below-80-for-first-time",
+      "published_date": "2026-06-17",
+      "quote": "The combined market share of PhonePe and Google Pay on the Unified Payments Interface (UPI) fell to 79% in May 2026"
+     },
+     {
+      "url": "https://voice.lapaas.com/upi-may-phonepe-googlepay-share/",
+      "published_date": "2026-06",
+      "quote": "PhonePe held 46.26% of transaction volume and Google Pay held 32.75%"
+     },
+     {
+      "url": "https://kbssidhu.substack.com/p/from-upi-to-global-paytech-how-tez",
+      "published_date": "unknown",
+      "quote": "PhonePe had entered in August 2016 as the first third-party UPI application"
+     },
+     {
+      "url": "https://archive.factordaily.com/google-pay-tez-india-transactions-30-bn-run-rate/",
+      "published_date": "2018",
+      "quote": "Tez was launched in September 2017 ... within 37 days of launch, Tez had achieved approximately 8.5 million installations"
+     }
+    ]
+   }
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "Google Pay won the one thing no ad can buy: [the word]",
+   "sub": "You say GPay even when another app moves the money."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "You paid on PhonePe and said \"GPay kar diya\".",
+     "Google Pay got credit for a payment it never touched.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "How does a brand win a payment it didn't even process?"
+   },
+   {
+    "paragraphs": [
+     "The shopkeeper doesn't care which app you used. He just wants to see the money land.",
+     "Only you say a brand out loud."
+    ],
+    "why_swipe": "Is this just one slip, or does everyone do it?"
+   },
+   {
+    "paragraphs": [
+     "Listen to how far the word travels:\n– \"GPay kar do\" to the chaiwala with a Paytm QR\n– \"Maine GPay kar diya\" in the flatmates group, from a bank app\n– \"GPay number bhejo\" when you mean your UPI number"
+    ],
+    "why_swipe": "If even famous people say it, how big is this?"
+   },
+   {
+    "paragraphs": [
+     "And it's not just the chai stall. On Koffee with Karan, Karan Johar told a story about his kids' school sports day.",
+     "The snack counter took \"only GPay\"."
+    ],
+    "why_swipe": "So how much of the market is actually GPay?"
+   },
+   {
+    "paragraphs": [
+     "PhonePe and Google Pay together carry about 79% of UPI payments. Only part of that is GPay.",
+     "The word covers all of it. And every app outside it."
+    ],
+    "why_swipe": "Why does one name stick when the apps all work the same?"
+   },
+   {
+    "paragraphs": [
+     "We like to think we pick the app that suits us best. Mostly we pick the name already in our mouth."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "GPay caught on early and fits in one breath at a busy counter.",
+     "Once a word sticks, it stays put. Even when the money moves to another app."
+    ],
+    "why_swipe": "What does that mean for the brands fighting Google Pay?"
+   },
+   {
+    "paragraphs": [
+     "So PhonePe and the rest are stuck in a weird fight. Every cashback offer can win them a payment.",
+     "None wins them the word. A PhonePe scratch card pays you, and you still say GPay out loud."
+    ],
+    "why_swipe": "So are we being played, or is this just how language works?"
+   },
+   {
+    "paragraphs": [
+     "Nobody's being dumb here. GPay is just the shortest name in the queue.",
+     "But one brand gets said out loud all day, for free. The rest are paying for every single payment with offers."
+    ],
+    "why_swipe": "How do you check if you're doing it too?"
+   },
+   {
+    "paragraphs": [
+     "Next time you're at a chai stall, catch which app comes out of your mouth.",
+     "Then look at which one is open on your phone.",
+     "If they don't match, you just ran an ad for Google Pay. Unpaid."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Come back to this the next time you hear yourself say \"GPay kar diya\".",
+   "send": "Send to the friend who says \"GPay kar do\" while paying with PhonePe.",
+   "promise": "How brands get inside Indian habits."
+  },
+  "alt_text": "A ten-slide text post arguing that Google Pay has become the everyday word for any UPI payment in India. People say 'GPay kar do' while paying on PhonePe, Paytm or bank apps, while the shopkeeper only cares that the money arrived. It mentions Karan Johar's Koffee with Karan story about a school snack counter that took 'only GPay', and notes that PhonePe and Google Pay together carry about 79% of UPI payments, only part of which is GPay. It argues GPay caught on early and is easy to say, so the word stays even when people use other apps. Rivals can win payments with cashback offers but not the word. It ends by asking readers to catch which app they say out loud versus which one they actually use.",
+  "claims": [
+   {
+    "text": "On Koffee with Karan, Karan Johar told a story about his kids' school sports day where the snack counter took 'only GPay'.",
+    "source_url": "https://www.businesstoday.in/trending/entertainment/story/only-gpay-karan-johars-anecdote-shows-how-google-pay-became-synonymous-with-upi-566191-2026-11-07"
+   },
+   {
+    "text": "PhonePe and Google Pay together carry about 79% of UPI payments (May 2026).",
+    "source_url": "https://www.outlookbusiness.com/economy-and-policy/phonepe-google-pay-combined-upi-market-share-drops-below-80-for-first-time"
+   }
+  ],
+  "caption": "Google Pay won the one thing no cashback can buy: every UPI payment, on any app, gets called GPay.\n\n\"Bhaiya, GPay kar diya\" after paying on PhonePe is a free ad for Google Pay, said out loud at the counter.\n\nSend this to the friend who says \"GPay kar do\" with PhonePe already open on their phone.",
+  "hashtags": [
+   "#GooglePay",
+   "#IndianBrands"
+  ],
+  "caption_style": "send",
+  "search_phrase": "UPI payment",
+  "caption_v": 2
+ }
 }

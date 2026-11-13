@@ -1,6 +1,6 @@
 {
  "id": "2026-11-137",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-25T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -62,6 +62,2315 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-11-10T17:17:08.388864+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "11: 'I' in a post the topic marks as pure observation (lived: false). Slide 9: \"I don't think the fee is wrong.\" and \"What bothers me is where it'll show up.\"",
+     "6: Facts as the hero. Slides 4, 5 and 6 are three fact slides in a row, carrying the zero-MDR date, the subsidy share, the 0.4% rate, the ₹2,000 threshold, the October 15 date and the deferral. The middle of the post reads like a news recap, and the opinion only arrives on slide 7."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 3,
+     "eq": 3,
+     "iq": 4,
+     "story": 3,
+     "tight": 3,
+     "informative": 4
+    },
+    "notes": [
+     "Slides 3-6: compress the news into one slide. Keep only two facts: shops have paid nothing to take UPI since January 2020, and the planned 0.4% fee on shop payments above ₹2,000, paid by the shop. Then give the deferral one short line: \"Retailers pushed back, so it's parked till after Diwali.\" Cut slide 3. It explains what every reader already knows (networks cost money), so it is a dead slide. Bring slide 7's mechanism forward so the turn lands by slide 4, not slide 7.",
+     "Slide 9: remove 'I' and 'me', because this is an observation post. Say the opinion straight, in the reader's voice. For example: \"The fee isn't the scam. Rails cost money, and someone was always paying.\" Then: \"The question is where it surfaces. At the counter, in the price, in a small sigh when you ask for the scanner.\" Keep the sigh. It is the post's one detail beyond sight.",
+     "Slide 8: \"So your kirana is safe\" overclaims. The exemption only covers merchants collecting up to ₹1 lakh a month on UPI, and plenty of busy kiranas cross that. The fee also applies only above ₹2,000, so chai-sized payments were never in scope. Say exactly that: your ₹10 chai was never in this, and the fee lands where bills are big, like the pump.",
+     "Slide 4: \"The rest sat with banks and payment apps\" states who carried the cost as fact, but no source supports it. Reframe it from the topic's because: banks and payment firms say they need to recover the cost of running the network. Also, the source says the subsidy covered 'roughly a tenth' even in its best year. \"About a tenth\" makes the subsidy sound steadier than it was, so write 'at best, about a tenth'.",
+     "Slide 7: push the mechanism one step further with the real_details. Petrol pump operators opposed the fee, and some warned they could stop accepting UPI. Use that as the shop's side of the squeeze. It sets up the 'cash pe discount' close, so the payoff feels predicted rather than guessed, and it gives the reader the uneasy feeling the topic asks for."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "11: 'I' in a post the topic marks as pure observation (lived: false). Slide 9: \"I don't think the fee is wrong.\" and \"What bothers me is where it'll show up.\"",
+    "6: Facts as the hero. Slides 4, 5 and 6 are three fact slides in a row, carrying the zero-MDR date, the subsidy share, the 0.4% rate, the ₹2,000 threshold, the October 15 date and the deferral. The middle of the post reads like a news recap, and the opinion only arrives on slide 7.",
+    "Slides 3-6: compress the news into one slide. Keep only two facts: shops have paid nothing to take UPI since January 2020, and the planned 0.4% fee on shop payments above ₹2,000, paid by the shop. Then give the deferral one short line: \"Retailers pushed back, so it's parked till after Diwali.\" Cut slide 3. It explains what every reader already knows (networks cost money), so it is a dead slide. Bring slide 7's mechanism forward so the turn lands by slide 4, not slide 7.",
+    "Slide 9: remove 'I' and 'me', because this is an observation post. Say the opinion straight, in the reader's voice. For example: \"The fee isn't the scam. Rails cost money, and someone was always paying.\" Then: \"The question is where it surfaces. At the counter, in the price, in a small sigh when you ask for the scanner.\" Keep the sigh. It is the post's one detail beyond sight.",
+    "Slide 8: \"So your kirana is safe\" overclaims. The exemption only covers merchants collecting up to ₹1 lakh a month on UPI, and plenty of busy kiranas cross that. The fee also applies only above ₹2,000, so chai-sized payments were never in scope. Say exactly that: your ₹10 chai was never in this, and the fee lands where bills are big, like the pump.",
+    "Slide 4: \"The rest sat with banks and payment apps\" states who carried the cost as fact, but no source supports it. Reframe it from the topic's because: banks and payment firms say they need to recover the cost of running the network. Also, the source says the subsidy covered 'roughly a tenth' even in its best year. \"About a tenth\" makes the subsidy sound steadier than it was, so write 'at best, about a tenth'.",
+    "Slide 7: push the mechanism one step further with the real_details. Petrol pump operators opposed the fee, and some warned they could stop accepting UPI. Use that as the shop's side of the squeeze. It sets up the 'cash pe discount' close, so the payoff feels predicted rather than guessed, and it gives the reader the uneasy feeling the topic asks for."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "All seven earlier notes are settled. Slide 8 has no 'I' and keeps the sigh. The news now fits on one slide, slide 3, with only the two facts and the one-line deferral. The turn lands on slide 4. The chai line on slide 7 now matches the ₹2,000 threshold and the ₹1 lakh exemption. The subsidy claim is gone. The banks line on slide 5 is framed as what banks and payment firms say. The petrol pump pushback on slide 6 sets up the 'cash pe discount' close.",
+     "slide 5: optional polish. \"And banks and payment firms say they need to recover what the network costs to run.\" reads flat after the sharp app-versus-customers line. Trim it to \"Banks and payment firms say the network costs money to run. Someone has to cover it.\" That way the shop is clearly the one left holding the bill. Don't add any new figure.",
+     "slide 4: optional polish. Opening on \"Which tells you how a free system works.\" leans on a stock connector. Start straight on the rule: \"That's how a free system works. The bill gets hidden from the person with the most choices.\""
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 8",
+      "line": "The question is where it surfaces. At the counter, in the price, in a small sigh when you ask for the scanner.",
+      "why": "triple list, written word 'surfaces', wistful 'small sigh'",
+      "try": "What matters is where it shows up. My bet: in the price, or in the look you get when you ask for the scanner."
+     },
+     {
+      "where": "slide 4",
+      "line": "Which tells you how a free system works. The bill gets hidden from the person with the most choices.",
+      "why": "essay voice, abstract 'free system', 'person with the most choices'",
+      "try": "That's how free works. The bill gets hidden from the one guy who can walk away. You."
+     },
+     {
+      "where": "slide 5",
+      "line": "And banks and payment firms say they need to recover what the network costs to run.",
+      "why": "stiff, press-release wording",
+      "try": "Meanwhile the banks and payment apps want their money back for keeping the whole thing running."
+     }
+    ],
+    "best": "You can switch apps in a second. The shop can't switch its customers."
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Not Varun (slide 8): 'The question is where it surfaces. At the counter, in the price, in a small sigh when you ask for the scanner.' reads as triple list, written word 'surfaces', wistful 'small sigh'. Say it the way he would, e.g. 'What matters is where it shows up. My bet: in the price, or in the look you get when you ask for the scanner.' (his register, your words, same facts).",
+    "Not Varun (slide 4): 'Which tells you how a free system works. The bill gets hidden from the person with the most choices.' reads as essay voice, abstract 'free system', 'person with the most choices'. Say it the way he would, e.g. 'That's how free works. The bill gets hidden from the one guy who can walk away. You.' (his register, your words, same facts).",
+    "Not Varun (slide 5): 'And banks and payment firms say they need to recover what the network costs to run.' reads as stiff, press-release wording. Say it the way he would, e.g. 'Meanwhile the banks and payment apps want their money back for keeping the whole thing running.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "All three notes are settled. Slide 4 now reads 'That's how free works. The bill gets hidden from the one guy who can walk away. You.' Slide 5 now reads 'Meanwhile, the banks and payment apps want their money back for keeping the whole thing running.' Slide 8 now reads 'What matters is where it shows up. Most likely in the price, or in the look you get...' None of these edits repeats another slide or adds an unsourced specific.",
+     "Slide 2 (optional): every detail in the post is visual. If it fits, add one sound everyone knows. For example, the shop's speaker announcing the payment right after 'Paying stopped feeling like paying.' That would make the habit land physically. Keep it to one short line and add no new facts."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "varun": {
+    "pass": true,
+    "score": 5,
+    "misses": [],
+    "best": "That's how free works. The bill gets hidden from the one guy who can walk away. You."
+   }
+  },
+  {
+   "attempt": 2,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "The take's premise is wrong: Premise 2 is half right. Merchants can't add the fee to the customer's bill, but the way the post says they'll pass it on doesn't work, especially at its main example, the petrol pump. Reports of NPCI's 15 Sept 2026 FAQ say merchants can't pass the MDR to customers as a separate charge. One fintech guide also lists a higher UPI price than cash price as not allowed, which would cover a 'cash pe discount'. I didn't see NPCI's own circular, so the cash-versus-UPI price point rests on secondary sources. Pump dealers can't raise prices either, because the oil marketing companies set the retail fuel price and pay dealers a fixed commission per kilolitre. That rules out both channels the post names at the pump, the price and the 'cash pe discount' board. What dealers actually did was threaten to refuse UPI above ₹2,000 and send customers to cards. The rest of the post checks out. Zero MDR has applied since Jan 2020. The fee is 0.4% above ₹2,000 and is paid by the merchant. Shops taking up to ₹1 lakh a month are exempt. ₹12 on a ₹3,000 fill is correct. The fee was deferred past Diwali and still had no new date in reports as of mid-November. Premise 1 also holds: NPCI says the MDR is shared among UPI participants to pay for infrastructure, fraud prevention and cybersecurity.. How it actually works: From the deferred start date, the acquiring merchant pays a 0.4% MDR, capped at ₹300, on eligible P2M UPI payments above ₹2,000. Small P2PM merchants under ₹1 lakh a month pay nothing. The money is shared among UPI ecosystem participants, and merchants are barred from adding it to the bill. Shops that set their own prices could still quietly fold the cost into general prices, though NPCI reportedly told them not to inflate shelf prices. At a petrol pump the OMCs fix the price and the dealer's margin, so the fee gets absorbed (dealers say their margin is about 0.5%) or avoided by refusing UPI on large fills. Customers lose a convenience; they don't pay a higher price or see a cash discount. Rebuild the post on the correct mechanism.",
+     "Could not confirm: 'Since January 2020, merchants have paid nothing (zero MDR) to accept UPI payments.' (the cited pages don't say it). Use a source that does, or cut it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Since January 2020, merchants have paid nothing (zero MDR) to accept UPI payments.",
+      "sentence": "Since January 2020, shops have paid nothing to take UPI.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "UPI users pay no fee for UPI payments, so the cost of running UPI is not visible to them.",
+      "sentence": "The bill gets hidden from the one guy who can walk away. You.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "NPCI planned a 0.4% fee on shop UPI payments above ₹2,000, to be paid by the shop and not the customer.",
+      "sentence": "Then NPCI planned a 0.4% fee on shop payments above ₹2,000, paid by the shop, not you.",
+      "type": "event",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c4",
+      "text": "Retailers pushed back against the proposed UPI fee.",
+      "sentence": "Retailers pushed back, so it's parked till after Diwali.",
+      "type": "event",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c5",
+      "text": "The proposed UPI fee has been put on hold until after Diwali (Diwali is over and the fee has not yet been dropped).",
+      "sentence": "Diwali is over, and the fee was only parked.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c6",
+      "text": "Banks and payment apps want to recover the cost of keeping the UPI system running.",
+      "sentence": "Meanwhile, the banks and payment apps want their money back for keeping the whole thing running.",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c7",
+      "text": "Petrol pump owners opposed the proposed UPI fee.",
+      "sentence": "Petrol pump owners opposed the fee too.",
+      "type": "event",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c8",
+      "text": "Some petrol pump owners warned they could stop accepting UPI altogether.",
+      "sentence": "Some warned they could stop taking UPI altogether.",
+      "type": "event",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c9",
+      "text": "A 0.4% fee on a ₹3,000 payment comes to ₹12.",
+      "sentence": "On a ₹3,000 fill at the pump, that's ₹12.",
+      "type": "arithmetic",
+      "core": false,
+      "framed_as": "timeless",
+      "expr": "3000*0.4/100",
+      "stated": "12"
+     },
+     {
+      "id": "c10",
+      "text": "Small shops taking up to ₹1 lakh a month on UPI are exempt from the proposed fee.",
+      "sentence": "Small shops taking up to ₹1 lakh a month on UPI are left out.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c11",
+      "text": "The proposed fee falls on large-ticket merchants such as petrol pumps rather than small purchases like a ₹10 chai.",
+      "sentence": "The fee lands where bills are big, like the pump.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c12",
+      "text": "Because merchants bear the UPI fee but cannot pass it to customers via the app, they are likely to recover it through higher prices or cash discounts, so a cost on the seller ends up with the buyer.",
+      "sentence": "A cost on the seller rarely stays with the seller.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2020-01-01",
+      "sources": [
+       {
+        "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+        "publisher": "DT Next",
+        "published_date": "2026-09-16",
+        "quote": "UPI has been zero-MDR since January 2020.",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "correct": "Consumers pay no fee. NPCI says the MDR cannot be passed on to consumers. Government subsidy covers only part of the network's running cost.",
+      "sources": [
+       {
+        "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+        "publisher": "DT Next",
+        "published_date": "2026-09-16",
+        "quote": "Merchants, not consumers, would bear the fee.",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "2026-09-16",
+      "correct": "The fee is 0.4% on select person-to-merchant payments above ₹2,000, capped at ₹300. It was due from 15 October 2026. Some sectors pay a flat ₹5.",
+      "sources": [
+       {
+        "url": "https://techcrunch.com/2026/10/13/india-delays-digital-payments-fee-rollout-amid-retailer-pushback/",
+        "publisher": "TechCrunch",
+        "published_date": "2026-10-13",
+        "quote": "postponing the planned October 15 rollout of a 0.4% fee",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "2026-09-16",
+      "sources": [
+       {
+        "url": "https://techcrunch.com/2026/10/13/india-delays-digital-payments-fee-rollout-amid-retailer-pushback/",
+        "publisher": "TechCrunch",
+        "published_date": "2026-10-13",
+        "quote": "The proposed fee drew opposition from retailers.",
+        "tier": 2
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "correct": "NPCI deferred the rollout on 13 October 2026 until after Diwali. Diwali was around 8 November. As of about 13 November there was no new date and no withdrawal. The claim should be rechecked at publication on 25 November.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/biz-tech/2026/10/13/npci-defers-upi-mdr-until-after-diwali.amp.html",
+        "publisher": "The Week",
+        "published_date": "2026-10-13",
+        "quote": "NPCI deferred the 0.4% MDR on select person-to-merchant UPI payments above ₹2,000, which had been due from October 15. The new start date is to be notified separately.",
+        "tier": 2
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "supported",
+      "sources": [
+       {
+        "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+        "publisher": "DT Next",
+        "published_date": "2026-09-16",
+        "quote": "NPCI estimates the network costs about Rs 20,000 crore a year to run, while the government's subsidy has been far smaller",
+        "tier": 2
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "supported",
+      "event_date": "2026-09-16",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/biz-tech/2026/09/16/mdr-fee-rules-will-you-need-cash-for-petrol-now-pumps-warn-of-stopping-upi-for-purchases-over-indian-rupee2000.amp.html",
+        "publisher": "The Week",
+        "published_date": "2026-09-16",
+        "quote": "Will you need cash for petrol now? Pumps warn of stopping UPI for purchases over ₹2,000",
+        "tier": 2
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "supported",
+      "event_date": "2026-09-16",
+      "sources": [
+       {
+        "url": "https://techcrunch.com/2026/10/13/india-delays-digital-payments-fee-rollout-amid-retailer-pushback/",
+        "publisher": "TechCrunch",
+        "published_date": "2026-10-13",
+        "quote": "could stop accepting UPI payments if the charge took effect",
+        "tier": 2
+       }
+      ]
+     },
+     "c10": {
+      "id": "c10",
+      "verdict": "supported",
+      "correct": "Small merchants collecting up to ₹1 lakh a month through UPI QR codes are exempt from the proposed fee.",
+      "sources": [
+       {
+        "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+        "publisher": "DT Next",
+        "published_date": "2026-09-16",
+        "quote": "Small merchants collecting up to Rs 1 lakh a month through UPI QR codes are exempt",
+        "tier": 2
+       }
+      ]
+     },
+     "c11": {
+      "id": "c11",
+      "verdict": "supported",
+      "correct": "The fee applies only to payments above ₹2,000, so a ₹10 chai is not affected. Only about 4% of person-to-merchant transactions exceed ₹2,000, yet they make up nearly two-thirds of UPI value. Fuel is on a flat ₹5 rate rather than 0.4%, but it is still a large-ticket category.",
+      "sources": [
+       {
+        "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+        "publisher": "DT Next",
+        "published_date": "2026-09-16",
+        "quote": "Only about 4% of person-to-merchant transactions exceed Rs 2,000, but they account for close to two-thirds of UPI payment value.",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "Premise 2 is half right. Merchants can't add the fee to the customer's bill, but the way the post says they'll pass it on doesn't work, especially at its main example, the petrol pump. Reports of NPCI's 15 Sept 2026 FAQ say merchants can't pass the MDR to customers as a separate charge. One fintech guide also lists a higher UPI price than cash price as not allowed, which would cover a 'cash pe discount'. I didn't see NPCI's own circular, so the cash-versus-UPI price point rests on secondary sources. Pump dealers can't raise prices either, because the oil marketing companies set the retail fuel price and pay dealers a fixed commission per kilolitre. That rules out both channels the post names at the pump, the price and the 'cash pe discount' board. What dealers actually did was threaten to refuse UPI above ₹2,000 and send customers to cards. The rest of the post checks out. Zero MDR has applied since Jan 2020. The fee is 0.4% above ₹2,000 and is paid by the merchant. Shops taking up to ₹1 lakh a month are exempt. ₹12 on a ₹3,000 fill is correct. The fee was deferred past Diwali and still had no new date in reports as of mid-November. Premise 1 also holds: NPCI says the MDR is shared among UPI participants to pay for infrastructure, fraud prevention and cybersecurity.",
+     "actual_mechanism": "From the deferred start date, the acquiring merchant pays a 0.4% MDR, capped at ₹300, on eligible P2M UPI payments above ₹2,000. Small P2PM merchants under ₹1 lakh a month pay nothing. The money is shared among UPI ecosystem participants, and merchants are barred from adding it to the bill. Shops that set their own prices could still quietly fold the cost into general prices, though NPCI reportedly told them not to inflate shelf prices. At a petrol pump the OMCs fix the price and the dealer's margin, so the fee gets absorbed (dealers say their margin is about 0.5%) or avoided by refusing UPI on large fills. Customers lose a convenience; they don't pay a higher price or see a cash discount.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.scconline.com/blog/?p=396374",
+       "published_date": "2026-09-16",
+       "quote": "Merchants will not be permitted to pass MDR charges on to customers."
+      },
+      {
+       "url": "https://www.theweek.in/news/biz-tech/2026/10/13/npci-defers-upi-mdr-until-after-diwali.amp.html",
+       "published_date": "2026-10-13",
+       "quote": "NPCI defers 0.4% UPI merchant fee until after Diwali; new date to be announced separately"
+      },
+      {
+       "url": "https://www.thedailyjagran.com/india/news/mp-petrol-pumps-to-stop-upi-payments-above-rs-2000-from-oct-16-as-dealers-oppose-mdr-10329782",
+       "published_date": "2026-09-19",
+       "quote": "We cannot recover this because our profit margin is very small... We are able to make only around 0.5 per cent profit"
+      },
+      {
+       "url": "https://www.businesstoday.in/india/story/pump-commission-rules-explained-how-much-petrol-pump-owners-earn-per-litre-in-india-what-costs-do-they-have-to-manage-and-more-520996-2026-03-18",
+       "published_date": "2026-03-18",
+       "quote": "Dealers do not freely decide their margins; they receive a fixed commission per litre from oil marketing companies such as Indian Oil, BPCL and HPCL."
+      },
+      {
+       "url": "https://www.cashfree.com/blog/upi-mdr-merchants-guide/",
+       "published_date": "2026",
+       "quote": "Prohibited: a 'UPI convenience fee' or surcharge line at checkout or on invoices; a higher price for paying by UPI than by cash."
+      }
+     ]
+    },
+    "text_hash": "a6965e5b2cf9f4876de9b94dba10dcf03877e928",
+    "at": "2026-11-13T06:37:28.140928+00:00"
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "The take's premise is wrong: Premise 2 is half right. Merchants can't add the fee to the customer's bill, but the way the post says they'll pass it on doesn't work, especially at its main example, the petrol pump. Reports of NPCI's 15 Sept 2026 FAQ say merchants can't pass the MDR to customers as a separate charge. One fintech guide also lists a higher UPI price than cash price as not allowed, which would cover a 'cash pe discount'. I didn't see NPCI's own circular, so the cash-versus-UPI price point rests on secondary sources. Pump dealers can't raise prices either, because the oil marketing companies set the retail fuel price and pay dealers a fixed commission per kilolitre. That rules out both channels the post names at the pump, the price and the 'cash pe discount' board. What dealers actually did was threaten to refuse UPI above ₹2,000 and send customers to cards. The rest of the post checks out. Zero MDR has applied since Jan 2020. The fee is 0.4% above ₹2,000 and is paid by the merchant. Shops taking up to ₹1 lakh a month are exempt. ₹12 on a ₹3,000 fill is correct. The fee was deferred past Diwali and still had no new date in reports as of mid-November. Premise 1 also holds: NPCI says the MDR is shared among UPI participants to pay for infrastructure, fraud prevention and cybersecurity.. How it actually works: From the deferred start date, the acquiring merchant pays a 0.4% MDR, capped at ₹300, on eligible P2M UPI payments above ₹2,000. Small P2PM merchants under ₹1 lakh a month pay nothing. The money is shared among UPI ecosystem participants, and merchants are barred from adding it to the bill. Shops that set their own prices could still quietly fold the cost into general prices, though NPCI reportedly told them not to inflate shelf prices. At a petrol pump the OMCs fix the price and the dealer's margin, so the fee gets absorbed (dealers say their margin is about 0.5%) or avoided by refusing UPI on large fills. Customers lose a convenience; they don't pay a higher price or see a cash discount. Rebuild the post on the correct mechanism.",
+    "Could not confirm: 'Since January 2020, merchants have paid nothing (zero MDR) to accept UPI payments.' (the cited pages don't say it). Use a source that does, or cut it."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "Both earlier notes are settled. The mechanism is now right: the pump can't add the fee to the bill, so the ₹12 is either absorbed (slide 7) or avoided by refusing UPI on big fills (slides 8-9). The cash-discount idea is gone. The close's 'UPI sirf ₹2,000 tak' paper fits what dealers actually threatened. The zero-MDR line no longer carries the 'since January 2020' date, and dtnext supports 'costs shops nothing today'.",
+     "slide 9: 'Rails cost money' uses insider jargon that a 5th grader won't get on the first read. Change it to 'The network costs money, and someone was always paying.'",
+     "slide 8: 'stop big fills from coming in on UPI' repeats the refusal threat already made on slide 6 and paid off on slide 9. Keep the two-choice line short, for example 'Eat the ₹12 on every big fill, or quietly stop taking UPI on them.', so that slide 9's 'scanner isn't working' gets the reveal.",
+     "slide 3: 'Then NPCI planned a 0.4% fee' reads oddly after 'today'. Change it to 'But NPCI planned a 0.4% fee on shop payments above ₹2,000, paid by the shop, not you.'",
+     "slide 2: every detail is visual. If it fits, add one sound the reader hears every day, such as the shop's speaker announcing the payment was received, to make 'Paying stopped feeling like paying' land harder."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "varun": {
+    "pass": false,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 6",
+      "line": "Petrol pump owners opposed the fee too. Some warned they could stop taking UPI altogether. On a ₹3,000 fill at the pump, that's ₹12.",
+      "why": "News-report voice ('opposed', 'warned'); 'that's' has no clear referent",
+      "try": "Petrol pumps hate this one the most. Some have said they might just stop taking UPI. On a ₹3,000 fill, 0.4% is ₹12."
+     },
+     {
+      "where": "slide 9",
+      "line": "The fee isn't the scam. Rails cost money, and someone was always paying. What matters is where it shows up.",
+      "why": "Over-explained; 'what matters is' is essay voice, and 'rails' is stiff jargon",
+      "try": "The fee isn't the scam. Running UPI costs money, and someone was always paying. You just won't see it in the price."
+     }
+    ],
+    "best": "That's how free works. The bill gets hidden from the one guy who can walk away. You."
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Not Varun (slide 6): 'Petrol pump owners opposed the fee too. Some warned they could stop taking UPI altogether. On a ₹3,000 fill at the pump, that's ₹12.' reads as News-report voice ('opposed', 'warned'); 'that's' has no clear referent. Say it the way he would, e.g. 'Petrol pumps hate this one the most. Some have said they might just stop taking UPI. On a ₹3,000 fill, 0.4% is ₹12.' (his register, your words, same facts).",
+    "Not Varun (slide 9): 'The fee isn't the scam. Rails cost money, and someone was always paying. What matters is where it shows up.' reads as Over-explained; 'what matters is' is essay voice, and 'rails' is stiff jargon. Say it the way he would, e.g. 'The fee isn't the scam. Running UPI costs money, and someone was always paying. You just won't see it in the price.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 4,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "Slide 6: settled. 'Petrol pumps don't like this one at all. Some have said they might just stop taking UPI. On a ₹3,000 fill, 0.4% is ₹12.' drops the news-report verbs and gives the ₹12 a clear referent. It matches real_details and the derived sum.",
+     "Slide 9: settled. 'Running UPI costs money, and someone was always paying. You just won't see it in the price.' replaces the jargon and the essay voice. It also fits slide 7's point that the pump can't add the fee to your bill, so the edit doesn't contradict or repeat anything.",
+     "No new hard failures. Slide 10's 'Diwali is over' is accurate for the posting date. 'UPI sirf ₹2,000 tak' is framed as a sign to watch for, not a reported quote, and every figure matches the sources or the derived sum."
+    ]
+   }
+  },
+  {
+   "attempt": 4,
+   "varun": {
+    "pass": true,
+    "score": 5,
+    "misses": [],
+    "best": "You'll see it when the scanner suddenly \"isn't working\" once the meter crosses ₹2,000."
+   }
+  },
+  {
+   "attempt": 4,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "The take's premise is wrong: Slides 6–8 assume the 0.4% rate applies at petrol pumps (₹12 on a ₹3,000 fill, a cost that grows with every big fill). It doesn't. NPCI put fuel in a concessional category that pays a flat ₹5 per UPI payment above ₹2,000, whatever the bill size: ₹5 on ₹2,500 and ₹5 on ₹10,000. The ₹12 figure is NPCI's own example for a general merchant, not for a pump. Smaller point: The Week reports that NPCI's stated reason for deferring the fee was 'keeping in mind the festive season', not retailer pushback. The rest of the post holds. Customers pay nothing, merchants pay the MDR and can't pass it on, dealers earn a set commission and don't set the retail price, and dealer groups have warned they may stop taking UPI at ₹2,000 and above.. How it actually works: UPI payments to merchants have carried no merchant fee so far. NPCI's new framework adds a merchant-paid MDR of 0.4% on specified person-to-merchant payments above ₹2,000, capped at ₹300. Payments up to ₹2,000 stay free, and small merchants receiving up to ₹1 lakh a month are exempt. Fuel, railways, telecom and insurance pay a flat ₹5 per payment above ₹2,000 instead. Merchants are not allowed to pass the MDR on to customers, and pump dealers work on a set commission, so the ₹5 comes out of the dealer's margin. Dealer groups (FAIPT, AIPDA) have asked for a full exemption and warned they may stop taking UPI at ₹2,000 and above. The fee was due on 15 October 2026 and has been deferred until after Diwali; NPCI will announce the new date separately. Rebuild the post on the correct mechanism.",
+     "Could not confirm: 'Accepting UPI payments currently costs shops nothing (no merchant discount rate on UPI).' (the cited pages don't say it). Use a source that does, or cut it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "UPI users pay no fee for UPI payments, so the cost of running UPI is not visible to them.",
+      "sentence": "The bill gets hidden from the one guy who can walk away. You.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "NPCI planned a 0.4% fee on shop UPI payments above ₹2,000, to be paid by the shop and not the customer.",
+      "sentence": "Then NPCI planned a 0.4% fee on shop payments above ₹2,000, paid by the shop, not you.",
+      "type": "event",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c3",
+      "text": "Retailers pushed back against the proposed UPI fee.",
+      "sentence": "Retailers pushed back, so it's parked till after Diwali.",
+      "type": "event",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c4",
+      "text": "The proposed UPI fee has been put on hold until after Diwali (Diwali is over and the fee has not yet been dropped).",
+      "sentence": "Diwali is over, and the fee was only parked.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c5",
+      "text": "Banks and payment apps want to recover the cost of keeping the UPI system running.",
+      "sentence": "Meanwhile, the banks and payment apps want their money back for keeping the whole thing running.",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c6",
+      "text": "The proposed fee falls on large-ticket merchants such as petrol pumps rather than small purchases like a ₹10 chai.",
+      "sentence": "The fee lands where bills are big, like the pump.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "Accepting UPI payments currently costs shops nothing (no merchant discount rate on UPI).",
+      "sentence": "Taking UPI costs shops nothing today.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c8",
+      "text": "Petrol pump operators/dealers object to the proposed 0.4% UPI fee.",
+      "sentence": "Petrol pumps don't like this one at all.",
+      "type": "event",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c9",
+      "text": "Some petrol pumps have said they might stop accepting UPI if the fee is imposed.",
+      "sentence": "Some have said they might just stop taking UPI.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c10",
+      "text": "0.4% of ₹3,000 is ₹12.",
+      "sentence": "On a ₹3,000 fill, 0.4% is ₹12.",
+      "type": "arithmetic",
+      "core": false,
+      "framed_as": "timeless",
+      "expr": "3000*0.4/100",
+      "stated": "12"
+     },
+     {
+      "id": "c11",
+      "text": "A petrol pump cannot pass a UPI fee on to the customer by adding it to the bill.",
+      "sentence": "And the pump can't add it to your bill.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c12",
+      "text": "Petrol pump owners do not set the retail petrol price.",
+      "sentence": "The owner doesn't set the petrol price, so the ₹12 comes out of his own cut.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c13",
+      "text": "Because the owner cannot set the petrol price, a UPI fee would be absorbed from the pump owner's own margin/commission.",
+      "sentence": "The owner doesn't set the petrol price, so the ₹12 comes out of his own cut.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c14",
+      "text": "Running UPI has costs, and someone (banks, apps, or others) has always been bearing them.",
+      "sentence": "Running UPI costs money, and someone was always paying.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c15",
+      "text": "Mechanism: UPI costs money to run and are not charged to users or shops; a fee would hit shops, which cannot switch customers or pass it on (pumps cannot raise price); so pumps must either absorb the fee or restrict large UPI payments, leading to refusals of UPI above ₹2,000 at pumps.",
+      "sentence": "So the pump has two choices. Eat the ₹12 on every big fill, or stop big fills from coming in on UPI.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c16",
+      "text": "The 0.4% fee, if imposed, applies to payments above ₹2,000, so would be paid by pumps only on large fills (the post says 'the first notice' about a ₹2,000 UPI limit is the cost returning).",
+      "sentence": "The first one saying \"UPI sirf ₹2,000 tak\" is the bill finding its way home.",
+      "type": "event",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c17",
+      "text": "UPI charges are not borne by users; they fall on the shop.",
+      "sentence": "UPI charges never land on you. They land on the shop, because you're the one who can walk away.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c18",
+      "text": "The fee has only been postponed and has not been dropped, so it could return after Diwali.",
+      "sentence": "Diwali is over, and the fee was only parked.",
+      "type": "event",
+      "core": false,
+      "framed_as": "current"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c2",
+      "verdict": "supported",
+      "correct": "Consumers pay no fee. NPCI says the MDR cannot be passed on to consumers. Government subsidy covers only part of the network's running cost.",
+      "sources": [
+       {
+        "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+        "publisher": "DT Next",
+        "published_date": "2026-09-16",
+        "quote": "Merchants, not consumers, would bear the fee.",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "2026-09-16",
+      "correct": "The fee is 0.4% on select person-to-merchant payments above ₹2,000, capped at ₹300. It was due from 15 October 2026. Some sectors pay a flat ₹5.",
+      "sources": [
+       {
+        "url": "https://techcrunch.com/2026/10/13/india-delays-digital-payments-fee-rollout-amid-retailer-pushback/",
+        "publisher": "TechCrunch",
+        "published_date": "2026-10-13",
+        "quote": "postponing the planned October 15 rollout of a 0.4% fee",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "2026-09-16",
+      "sources": [
+       {
+        "url": "https://techcrunch.com/2026/10/13/india-delays-digital-payments-fee-rollout-amid-retailer-pushback/",
+        "publisher": "TechCrunch",
+        "published_date": "2026-10-13",
+        "quote": "The proposed fee drew opposition from retailers.",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c5",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "correct": "NPCI deferred the rollout on 13 October 2026 until after Diwali. Diwali was around 8 November. As of about 13 November there was no new date and no withdrawal. The claim should be rechecked at publication on 25 November.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/biz-tech/2026/10/13/npci-defers-upi-mdr-until-after-diwali.amp.html",
+        "publisher": "The Week",
+        "published_date": "2026-10-13",
+        "quote": "NPCI deferred the 0.4% MDR on select person-to-merchant UPI payments above ₹2,000, which had been due from October 15. The new start date is to be notified separately.",
+        "tier": 2
+       }
+      ]
+     },
+     "c5": {
+      "id": "c6",
+      "verdict": "supported",
+      "sources": [
+       {
+        "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+        "publisher": "DT Next",
+        "published_date": "2026-09-16",
+        "quote": "NPCI estimates the network costs about Rs 20,000 crore a year to run, while the government's subsidy has been far smaller",
+        "tier": 2
+       }
+      ]
+     },
+     "c6": {
+      "id": "c11",
+      "verdict": "supported",
+      "correct": "The fee applies only to payments above ₹2,000, so a ₹10 chai is not affected. Only about 4% of person-to-merchant transactions exceed ₹2,000, yet they make up nearly two-thirds of UPI value. Fuel is on a flat ₹5 rate rather than 0.4%, but it is still a large-ticket category.",
+      "sources": [
+       {
+        "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+        "publisher": "DT Next",
+        "published_date": "2026-09-16",
+        "quote": "Only about 4% of person-to-merchant transactions exceed Rs 2,000, but they account for close to two-thirds of UPI payment value.",
+        "tier": 2
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "supported",
+      "event_date": "2020-01-01",
+      "correct": "Zero MDR on UPI has applied since January 2020. The 0.4% fee on larger merchant payments was deferred before it took effect, so it is still zero.",
+      "sources": [
+       {
+        "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+        "publisher": "DT Next",
+        "published_date": "2026-09-16",
+        "quote": "It ends the zero-MDR regime in place since January 2020.",
+        "tier": 2
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "supported",
+      "event_date": "2026-09-16",
+      "correct": "Petrol dealer bodies objected to the MDR on UPI payments above ₹2,000 and cited thin margins. Some reports say fuel would get a flat ₹5 charge rather than 0.4%.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/biz-tech/2026/09/16/mdr-fee-rules-will-you-need-cash-for-petrol-now-pumps-warn-of-stopping-upi-for-purchases-over-indian-rupee2000.amp.html",
+        "publisher": "The Week",
+        "published_date": "2026-09-16",
+        "quote": "Pumps warn of stopping UPI for purchases over ₹2,000",
+        "tier": 2
+       }
+      ]
+     },
+     "c9": {
+      "id": "c9",
+      "verdict": "supported",
+      "event_date": "2026-09-16",
+      "correct": "Dealer associations in Madhya Pradesh, Punjab and Mumbai threatened to stop accepting UPI payments above ₹2,000. As of early October, one association said it would keep accepting UPI while awaiting clarity.",
+      "sources": [
+       {
+        "url": "https://www.outlookmoney.com/news/no-upi-payments-above-rs-2000-from-october-16-say-madhya-pradesh-petrol-pumps",
+        "publisher": "Outlook Money",
+        "published_date": "2026-09-21",
+        "quote": "No UPI payments above Rs 2000 from October 16, say Madhya Pradesh petrol pumps",
+        "tier": 2
+       }
+      ]
+     },
+     "c11": {
+      "id": "c11",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": "Reports say the fee falls on merchants and not consumers. I did not find a rule that explicitly bars a pump from adding the fee to the bill. Surcharging on UPI is generally disallowed.",
+      "sources": [
+       {
+        "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+        "publisher": "DT Next",
+        "published_date": "2026-09-16",
+        "quote": "Merchants, not consumers, would bear the fee.",
+        "tier": 2
+       }
+      ]
+     },
+     "c12": {
+      "id": "c12",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": "Oil marketing companies set retail petrol prices. Dealers earn a fixed commission per litre.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/biz-tech/2026/09/16/mdr-fee-rules-will-you-need-cash-for-petrol-now-pumps-warn-of-stopping-upi-for-purchases-over-indian-rupee2000.amp.html",
+        "publisher": "The Week",
+        "published_date": "2026-09-16",
+        "quote": "Pumps warn of stopping UPI for purchases over ₹2,000",
+        "tier": 2
+       }
+      ]
+     },
+     "c13": {
+      "id": "c13",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": "Dealers say they cannot absorb the fee because their margins are narrow. Since they cannot raise the price, the fee would come out of their commission.",
+      "sources": [
+       {
+        "url": "https://www.outlookmoney.com/news/no-upi-payments-above-rs-2000-from-october-16-say-madhya-pradesh-petrol-pumps",
+        "publisher": "Outlook Money",
+        "published_date": "2026-09-21",
+        "quote": "No UPI payments above Rs 2000 from October 16, say Madhya Pradesh petrol pumps",
+        "tier": 2
+       }
+      ]
+     },
+     "c14": {
+      "id": "c14",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": "The government subsidy has covered only about a tenth of what industry says the network costs to run. Banks, apps and others have absorbed the rest.",
+      "sources": [
+       {
+        "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+        "publisher": "DT Next",
+        "published_date": "2026-09-16",
+        "quote": "The government subsidy has covered only about a tenth of what industry says the network costs to run.",
+        "tier": 2
+       }
+      ]
+     },
+     "c16": {
+      "id": "c16",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "correct": "The 0.4% MDR applies to select person-to-merchant payments above ₹2,000. It would be charged on the whole eligible payment and not only on the portion above ₹2,000. Fuel may carry a flat ₹5 charge.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/biz-tech/2026/10/13/npci-defers-upi-mdr-until-after-diwali.amp.html",
+        "publisher": "The Week",
+        "published_date": "2026-10-13",
+        "quote": "0.4% Merchant Discount Rate on select person-to-merchant UPI transactions ... above ₹2,000",
+        "tier": 2
+       }
+      ]
+     },
+     "c17": {
+      "id": "c17",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": "Merchants would bear the fee, not consumers. Small merchants collecting up to ₹1 lakh a month through UPI QR codes stay exempt.",
+      "sources": [
+       {
+        "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+        "publisher": "DT Next",
+        "published_date": "2026-09-16",
+        "quote": "Merchants, not consumers, would bear the fee.",
+        "tier": 2
+       }
+      ]
+     },
+     "c18": {
+      "id": "c18",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "correct": "NPCI deferred the fee until after Diwali. It has not been dropped, and the new start date is to be notified separately. I found no later announcement.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/biz-tech/2026/10/13/npci-defers-upi-mdr-until-after-diwali.amp.html",
+        "publisher": "The Week",
+        "published_date": "2026-10-13",
+        "quote": "NPCI will notify the implementation date separately.",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "Slides 6–8 assume the 0.4% rate applies at petrol pumps (₹12 on a ₹3,000 fill, a cost that grows with every big fill). It doesn't. NPCI put fuel in a concessional category that pays a flat ₹5 per UPI payment above ₹2,000, whatever the bill size: ₹5 on ₹2,500 and ₹5 on ₹10,000. The ₹12 figure is NPCI's own example for a general merchant, not for a pump. Smaller point: The Week reports that NPCI's stated reason for deferring the fee was 'keeping in mind the festive season', not retailer pushback. The rest of the post holds. Customers pay nothing, merchants pay the MDR and can't pass it on, dealers earn a set commission and don't set the retail price, and dealer groups have warned they may stop taking UPI at ₹2,000 and above.",
+     "actual_mechanism": "UPI payments to merchants have carried no merchant fee so far. NPCI's new framework adds a merchant-paid MDR of 0.4% on specified person-to-merchant payments above ₹2,000, capped at ₹300. Payments up to ₹2,000 stay free, and small merchants receiving up to ₹1 lakh a month are exempt. Fuel, railways, telecom and insurance pay a flat ₹5 per payment above ₹2,000 instead. Merchants are not allowed to pass the MDR on to customers, and pump dealers work on a set commission, so the ₹5 comes out of the dealer's margin. Dealer groups (FAIPT, AIPDA) have asked for a full exemption and warned they may stop taking UPI at ₹2,000 and above. The fee was due on 15 October 2026 and has been deferred until after Diwali; NPCI will announce the new date separately.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.scconline.com/blog/post/2026/09/16/npci-released-upi-mdr-faqs-explained/",
+       "published_date": "2026-09-16",
+       "quote": "will attract a flat MDR of ₹5 per transaction for payments above ₹2,000 ... Merchants will not be permitted to pass MDR charges on to customers."
+      },
+      {
+       "url": "https://www.punekarnews.in/upi-fuel-payments-above-rs-2000-to-attract-flat-rs-5-mdr-for-petrol-pumps-npci/",
+       "published_date": "2026-09-19",
+       "quote": "For fuel payments above ₹2,000, petrol pump operators will pay a flat MDR of ₹5."
+      },
+      {
+       "url": "https://www.businesstoday.in/latest/economy/story/petrol-pump-dealers-oppose-rs5-upi-mdr-warn-of-cash-only-payments-for-big-transactions-555985-2026-09-16",
+       "published_date": "2026-09-16",
+       "quote": "We may have to stop accepting UPI payments of ₹2,000 and above if exemption is not allowed to fuel retailers"
+      },
+      {
+       "url": "https://www.theweek.in/news/biz-tech/2026/10/13/npci-defers-upi-mdr-until-after-diwali.html",
+       "published_date": "2026-10-13",
+       "quote": "keeping in mind the festive season"
+      }
+     ]
+    },
+    "text_hash": "bbba438d9f4655757c339828a4d2329b9d3391cf",
+    "at": "2026-11-13T06:41:02.303586+00:00"
+   }
+  },
+  {
+   "attempt": 4,
+   "problems": [
+    "The take's premise is wrong: Slides 6–8 assume the 0.4% rate applies at petrol pumps (₹12 on a ₹3,000 fill, a cost that grows with every big fill). It doesn't. NPCI put fuel in a concessional category that pays a flat ₹5 per UPI payment above ₹2,000, whatever the bill size: ₹5 on ₹2,500 and ₹5 on ₹10,000. The ₹12 figure is NPCI's own example for a general merchant, not for a pump. Smaller point: The Week reports that NPCI's stated reason for deferring the fee was 'keeping in mind the festive season', not retailer pushback. The rest of the post holds. Customers pay nothing, merchants pay the MDR and can't pass it on, dealers earn a set commission and don't set the retail price, and dealer groups have warned they may stop taking UPI at ₹2,000 and above.. How it actually works: UPI payments to merchants have carried no merchant fee so far. NPCI's new framework adds a merchant-paid MDR of 0.4% on specified person-to-merchant payments above ₹2,000, capped at ₹300. Payments up to ₹2,000 stay free, and small merchants receiving up to ₹1 lakh a month are exempt. Fuel, railways, telecom and insurance pay a flat ₹5 per payment above ₹2,000 instead. Merchants are not allowed to pass the MDR on to customers, and pump dealers work on a set commission, so the ₹5 comes out of the dealer's margin. Dealer groups (FAIPT, AIPDA) have asked for a full exemption and warned they may stop taking UPI at ₹2,000 and above. The fee was due on 15 October 2026 and has been deferred until after Diwali; NPCI will announce the new date separately. Rebuild the post on the correct mechanism.",
+    "Could not confirm: 'Accepting UPI payments currently costs shops nothing (no merchant discount rate on UPI).' (the cited pages don't say it). Use a source that does, or cut it."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-13T06:41:31.157489+00:00",
+ "sources": [
+  {
+   "url": "https://www.theweek.in/news/biz-tech/2026/10/13/npci-defers-upi-mdr-until-after-diwali.amp.html",
+   "fact": "NPCI deferred the 0.4% MDR on select person-to-merchant UPI payments above ₹2,000, which had been due from October 15. The new start date is to be notified separately.",
+   "excerpt": "has officially deferred the rollout of a 0.4 percent merchant discount rate | 0.4 per cent Merchant Discount Rate (MDR) on select person-to-merchant UPI transactions | The fee had been scheduled to take effect from October 15 on merchant UPI payments above ₹2,000 | temporary relief to merchants and consumers during the festival shopping season | will be notified separately",
+   "date": "2026-10-13"
+  },
+  {
+   "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+   "fact": "Merchants, not consumers, would bear the fee. It ends the zero-MDR regime in place since January 2020. The government subsidy has covered only about a tenth of what industry says the network costs to run. Small merchants collecting up to Rs 1 lakh a month via UPI QR codes stay exempt.",
+   "excerpt": "The move ends a zero-MDR regime that has been in place since January 2020. | Even in its best year, the subsidy has covered roughly a tenth of what industry says the network costs to run. | The charge will be paid by merchants, not consumers. | Small merchants collecting up to Rs 1 lakh a month via UPI QR codes remain fully exempt from any new charge.",
+   "date": "2026-09-16"
+  }
+ ],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] UPI was never free. [Your bill] just went to someone else.\nScanning stopped feeling like paying. That's about to change.\n \n\n[slide 1] UPI was never free. Your bill just went to someone else.\nSwipe to read →\n\n[slide 2] We scan for a ₹10 chai, ₹30 of parking, a full tank at the petrol pump. Nobody counts notes or waits for change anymore.\n\"Bhaiya, scanner kidhar hai?\" has replaced \"change hai?\"\nPaying stopped feeling like paying.\n\n[slide 3] Taking UPI costs shops nothing today. Then NPCI planned a 0.4% fee on shop payments above ₹2,000, paid by the shop, not you.\nRetailers pushed back, so it's parked till after Diwali.\n\n[slide 4] That's how free works. The bill gets hidden from the one guy who can walk away. You.\n\n[slide 5] You can switch apps in a second. The shop can't switch its customers.\nMeanwhile, the banks and payment apps want their money back for keeping the whole thing running.\n\n[slide 6] Petrol pumps don't like this one at all. Some have said they might just stop taking UPI.\nOn a ₹3,000 fill, 0.4% is ₹12.\n\n[slide 7] And the pump can't add it to your bill. The owner doesn't set the petrol price, so the ₹12 comes out of his own cut.\n\n[slide 8] Your ₹10 chai was never in this. The fee lands where bills are big, like the pump.\nSo the pump has two choices. Eat the ₹12 on every big fill, or stop big fills from coming in on UPI.\n\n[slide 9] The fee isn't the scam. Running UPI costs money, and someone was always paying.\nYou just won't see it in the price. You'll see it when the scanner suddenly \"isn't working\" once the meter crosses ₹2,000.\n\n[slide 10] Diwali is over, and the fee was only parked.\nNext time you fill up, read the paper stuck next to the QR. The first one saying \"UPI sirf ₹2,000 tak\" is the bill finding its way home.\n\n[end card] Come back to this the next time the pump attendant points you to the card machine.\nSend to the friend who pays for everything by UPI and hasn't carried a note since 2020.\n\n[caption] UPI charges never land on you. They land on the shop, because you're the one who can walk away.\n\nRunning UPI was never free. The only question was who gets the bill.\n\nAt the pump once the meter crosses ₹2,000: \"Bhaiya, scanner kaam nahi kar raha, cash de do.\"\n\nSend this to the friend who pays for everything by UPI and hasn't carried a note in years.\n\n[alt text] A ten-slide text post arguing that UPI only feels free because the cost of running it was hidden from the people who use it most. Taking UPI costs shops nothing today. NPCI planned a 0.4% fee on shop payments above ₹2,000, paid by the shop, then parked it till after Diwali when retailers pushed back. Banks and payment apps want to recover the cost of running the network. Petrol pumps don't like the fee, and some have said they might stop taking UPI. On a ₹3,000 fill the fee is ₹12, and since the pump owner doesn't set the petrol price, it comes out of his own cut. The post says customers won't feel it in the price but in pumps refusing UPI on big fills, and ends by telling readers to watch for a 'UPI only up to ₹2,000' note next to the QR code.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "UPI users pay no fee for UPI payments, so the cost of running UPI is not visible to them.",
+     "sentence": "The bill gets hidden from the one guy who can walk away. You.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "NPCI planned a 0.4% fee on shop UPI payments above ₹2,000, to be paid by the shop and not the customer.",
+     "sentence": "Then NPCI planned a 0.4% fee on shop payments above ₹2,000, paid by the shop, not you.",
+     "type": "event",
+     "core": true,
+     "framed_as": "past"
+    },
+    {
+     "id": "c3",
+     "text": "Retailers pushed back against the proposed UPI fee.",
+     "sentence": "Retailers pushed back, so it's parked till after Diwali.",
+     "type": "event",
+     "core": false,
+     "framed_as": "past"
+    },
+    {
+     "id": "c4",
+     "text": "The proposed UPI fee has been put on hold until after Diwali (Diwali is over and the fee has not yet been dropped).",
+     "sentence": "Diwali is over, and the fee was only parked.",
+     "type": "event",
+     "core": true,
+     "framed_as": "current"
+    },
+    {
+     "id": "c5",
+     "text": "Banks and payment apps want to recover the cost of keeping the UPI system running.",
+     "sentence": "Meanwhile, the banks and payment apps want their money back for keeping the whole thing running.",
+     "type": "entity_attribute",
+     "core": false,
+     "framed_as": "current"
+    },
+    {
+     "id": "c6",
+     "text": "The proposed fee falls on large-ticket merchants such as petrol pumps rather than small purchases like a ₹10 chai.",
+     "sentence": "The fee lands where bills are big, like the pump.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c7",
+     "text": "Accepting UPI payments currently costs shops nothing (no merchant discount rate on UPI).",
+     "sentence": "Taking UPI costs shops nothing today.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "current"
+    },
+    {
+     "id": "c8",
+     "text": "Petrol pump operators/dealers object to the proposed 0.4% UPI fee.",
+     "sentence": "Petrol pumps don't like this one at all.",
+     "type": "event",
+     "core": false,
+     "framed_as": "current"
+    },
+    {
+     "id": "c9",
+     "text": "Some petrol pumps have said they might stop accepting UPI if the fee is imposed.",
+     "sentence": "Some have said they might just stop taking UPI.",
+     "type": "event",
+     "core": true,
+     "framed_as": "current"
+    },
+    {
+     "id": "c10",
+     "text": "0.4% of ₹3,000 is ₹12.",
+     "sentence": "On a ₹3,000 fill, 0.4% is ₹12.",
+     "type": "arithmetic",
+     "core": false,
+     "framed_as": "timeless",
+     "expr": "3000*0.4/100",
+     "stated": "12"
+    },
+    {
+     "id": "c11",
+     "text": "A petrol pump cannot pass a UPI fee on to the customer by adding it to the bill.",
+     "sentence": "And the pump can't add it to your bill.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c12",
+     "text": "Petrol pump owners do not set the retail petrol price.",
+     "sentence": "The owner doesn't set the petrol price, so the ₹12 comes out of his own cut.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c13",
+     "text": "Because the owner cannot set the petrol price, a UPI fee would be absorbed from the pump owner's own margin/commission.",
+     "sentence": "The owner doesn't set the petrol price, so the ₹12 comes out of his own cut.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c14",
+     "text": "Running UPI has costs, and someone (banks, apps, or others) has always been bearing them.",
+     "sentence": "Running UPI costs money, and someone was always paying.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c15",
+     "text": "Mechanism: UPI costs money to run and are not charged to users or shops; a fee would hit shops, which cannot switch customers or pass it on (pumps cannot raise price); so pumps must either absorb the fee or restrict large UPI payments, leading to refusals of UPI above ₹2,000 at pumps.",
+     "sentence": "So the pump has two choices. Eat the ₹12 on every big fill, or stop big fills from coming in on UPI.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c16",
+     "text": "The 0.4% fee, if imposed, applies to payments above ₹2,000, so would be paid by pumps only on large fills (the post says 'the first notice' about a ₹2,000 UPI limit is the cost returning).",
+     "sentence": "The first one saying \"UPI sirf ₹2,000 tak\" is the bill finding its way home.",
+     "type": "event",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c17",
+     "text": "UPI charges are not borne by users; they fall on the shop.",
+     "sentence": "UPI charges never land on you. They land on the shop, because you're the one who can walk away.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c18",
+     "text": "The fee has only been postponed and has not been dropped, so it could return after Diwali.",
+     "sentence": "Diwali is over, and the fee was only parked.",
+     "type": "event",
+     "core": false,
+     "framed_as": "current"
+    }
+   ]
+  },
+  "Since January 2020, merchants have paid nothing (zero MDR) to accept UPI payments.": {
+   "id": "c1",
+   "verdict": "supported",
+   "event_date": "2020-01-01",
+   "sources": [
+    {
+     "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+     "publisher": "DT Next",
+     "published_date": "2026-09-16",
+     "quote": "UPI has been zero-MDR since January 2020.",
+     "tier": 2
+    }
+   ]
+  },
+  "UPI users pay no fee for UPI payments, so the cost of running UPI is not visible to them.": {
+   "id": "c2",
+   "verdict": "supported",
+   "correct": "Consumers pay no fee. NPCI says the MDR cannot be passed on to consumers. Government subsidy covers only part of the network's running cost.",
+   "sources": [
+    {
+     "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+     "publisher": "DT Next",
+     "published_date": "2026-09-16",
+     "quote": "Merchants, not consumers, would bear the fee.",
+     "tier": 2
+    }
+   ]
+  },
+  "NPCI planned a 0.4% fee on shop UPI payments above ₹2,000, to be paid by the shop and not the customer.": {
+   "id": "c3",
+   "verdict": "supported",
+   "event_date": "2026-09-16",
+   "correct": "The fee is 0.4% on select person-to-merchant payments above ₹2,000, capped at ₹300. It was due from 15 October 2026. Some sectors pay a flat ₹5.",
+   "sources": [
+    {
+     "url": "https://techcrunch.com/2026/10/13/india-delays-digital-payments-fee-rollout-amid-retailer-pushback/",
+     "publisher": "TechCrunch",
+     "published_date": "2026-10-13",
+     "quote": "postponing the planned October 15 rollout of a 0.4% fee",
+     "tier": 2
+    }
+   ]
+  },
+  "Retailers pushed back against the proposed UPI fee.": {
+   "id": "c4",
+   "verdict": "supported",
+   "event_date": "2026-09-16",
+   "sources": [
+    {
+     "url": "https://techcrunch.com/2026/10/13/india-delays-digital-payments-fee-rollout-amid-retailer-pushback/",
+     "publisher": "TechCrunch",
+     "published_date": "2026-10-13",
+     "quote": "The proposed fee drew opposition from retailers.",
+     "tier": 2
+    }
+   ]
+  },
+  "The proposed UPI fee has been put on hold until after Diwali (Diwali is over and the fee has not yet been dropped).": {
+   "id": "c5",
+   "verdict": "supported",
+   "event_date": "2026-10-13",
+   "correct": "NPCI deferred the rollout on 13 October 2026 until after Diwali. Diwali was around 8 November. As of about 13 November there was no new date and no withdrawal. The claim should be rechecked at publication on 25 November.",
+   "sources": [
+    {
+     "url": "https://www.theweek.in/news/biz-tech/2026/10/13/npci-defers-upi-mdr-until-after-diwali.amp.html",
+     "publisher": "The Week",
+     "published_date": "2026-10-13",
+     "quote": "NPCI deferred the 0.4% MDR on select person-to-merchant UPI payments above ₹2,000, which had been due from October 15. The new start date is to be notified separately.",
+     "tier": 2
+    }
+   ]
+  },
+  "Banks and payment apps want to recover the cost of keeping the UPI system running.": {
+   "id": "c6",
+   "verdict": "supported",
+   "sources": [
+    {
+     "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+     "publisher": "DT Next",
+     "published_date": "2026-09-16",
+     "quote": "NPCI estimates the network costs about Rs 20,000 crore a year to run, while the government's subsidy has been far smaller",
+     "tier": 2
+    }
+   ]
+  },
+  "Petrol pump owners opposed the proposed UPI fee.": {
+   "id": "c7",
+   "verdict": "supported",
+   "event_date": "2026-09-16",
+   "sources": [
+    {
+     "url": "https://www.theweek.in/news/biz-tech/2026/09/16/mdr-fee-rules-will-you-need-cash-for-petrol-now-pumps-warn-of-stopping-upi-for-purchases-over-indian-rupee2000.amp.html",
+     "publisher": "The Week",
+     "published_date": "2026-09-16",
+     "quote": "Will you need cash for petrol now? Pumps warn of stopping UPI for purchases over ₹2,000",
+     "tier": 2
+    }
+   ]
+  },
+  "Some petrol pump owners warned they could stop accepting UPI altogether.": {
+   "id": "c8",
+   "verdict": "supported",
+   "event_date": "2026-09-16",
+   "sources": [
+    {
+     "url": "https://techcrunch.com/2026/10/13/india-delays-digital-payments-fee-rollout-amid-retailer-pushback/",
+     "publisher": "TechCrunch",
+     "published_date": "2026-10-13",
+     "quote": "could stop accepting UPI payments if the charge took effect",
+     "tier": 2
+    }
+   ]
+  },
+  "Small shops taking up to ₹1 lakh a month on UPI are exempt from the proposed fee.": {
+   "id": "c10",
+   "verdict": "supported",
+   "correct": "Small merchants collecting up to ₹1 lakh a month through UPI QR codes are exempt from the proposed fee.",
+   "sources": [
+    {
+     "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+     "publisher": "DT Next",
+     "published_date": "2026-09-16",
+     "quote": "Small merchants collecting up to Rs 1 lakh a month through UPI QR codes are exempt",
+     "tier": 2
+    }
+   ]
+  },
+  "The proposed fee falls on large-ticket merchants such as petrol pumps rather than small purchases like a ₹10 chai.": {
+   "id": "c11",
+   "verdict": "supported",
+   "correct": "The fee applies only to payments above ₹2,000, so a ₹10 chai is not affected. Only about 4% of person-to-merchant transactions exceed ₹2,000, yet they make up nearly two-thirds of UPI value. Fuel is on a flat ₹5 rate rather than 0.4%, but it is still a large-ticket category.",
+   "sources": [
+    {
+     "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+     "publisher": "DT Next",
+     "published_date": "2026-09-16",
+     "quote": "Only about 4% of person-to-merchant transactions exceed Rs 2,000, but they account for close to two-thirds of UPI payment value.",
+     "tier": 2
+    }
+   ]
+  },
+  "_skeptic": {
+   "6a7b081b59c11aa02d93d7b48a0c0e7c1e164f98": {
+    "holds": false,
+    "broken_premise": "Premise 2 is half right. Merchants can't add the fee to the customer's bill, but the way the post says they'll pass it on doesn't work, especially at its main example, the petrol pump. Reports of NPCI's 15 Sept 2026 FAQ say merchants can't pass the MDR to customers as a separate charge. One fintech guide also lists a higher UPI price than cash price as not allowed, which would cover a 'cash pe discount'. I didn't see NPCI's own circular, so the cash-versus-UPI price point rests on secondary sources. Pump dealers can't raise prices either, because the oil marketing companies set the retail fuel price and pay dealers a fixed commission per kilolitre. That rules out both channels the post names at the pump, the price and the 'cash pe discount' board. What dealers actually did was threaten to refuse UPI above ₹2,000 and send customers to cards. The rest of the post checks out. Zero MDR has applied since Jan 2020. The fee is 0.4% above ₹2,000 and is paid by the merchant. Shops taking up to ₹1 lakh a month are exempt. ₹12 on a ₹3,000 fill is correct. The fee was deferred past Diwali and still had no new date in reports as of mid-November. Premise 1 also holds: NPCI says the MDR is shared among UPI participants to pay for infrastructure, fraud prevention and cybersecurity.",
+    "actual_mechanism": "From the deferred start date, the acquiring merchant pays a 0.4% MDR, capped at ₹300, on eligible P2M UPI payments above ₹2,000. Small P2PM merchants under ₹1 lakh a month pay nothing. The money is shared among UPI ecosystem participants, and merchants are barred from adding it to the bill. Shops that set their own prices could still quietly fold the cost into general prices, though NPCI reportedly told them not to inflate shelf prices. At a petrol pump the OMCs fix the price and the dealer's margin, so the fee gets absorbed (dealers say their margin is about 0.5%) or avoided by refusing UPI on large fills. Customers lose a convenience; they don't pay a higher price or see a cash discount.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.scconline.com/blog/?p=396374",
+      "published_date": "2026-09-16",
+      "quote": "Merchants will not be permitted to pass MDR charges on to customers."
+     },
+     {
+      "url": "https://www.theweek.in/news/biz-tech/2026/10/13/npci-defers-upi-mdr-until-after-diwali.amp.html",
+      "published_date": "2026-10-13",
+      "quote": "NPCI defers 0.4% UPI merchant fee until after Diwali; new date to be announced separately"
+     },
+     {
+      "url": "https://www.thedailyjagran.com/india/news/mp-petrol-pumps-to-stop-upi-payments-above-rs-2000-from-oct-16-as-dealers-oppose-mdr-10329782",
+      "published_date": "2026-09-19",
+      "quote": "We cannot recover this because our profit margin is very small... We are able to make only around 0.5 per cent profit"
+     },
+     {
+      "url": "https://www.businesstoday.in/india/story/pump-commission-rules-explained-how-much-petrol-pump-owners-earn-per-litre-in-india-what-costs-do-they-have-to-manage-and-more-520996-2026-03-18",
+      "published_date": "2026-03-18",
+      "quote": "Dealers do not freely decide their margins; they receive a fixed commission per litre from oil marketing companies such as Indian Oil, BPCL and HPCL."
+     },
+     {
+      "url": "https://www.cashfree.com/blog/upi-mdr-merchants-guide/",
+      "published_date": "2026",
+      "quote": "Prohibited: a 'UPI convenience fee' or surcharge line at checkout or on invoices; a higher price for paying by UPI than by cash."
+     }
+    ]
+   },
+   "52cce16431fbe37f29f9352b52ff46f91b517b53": {
+    "holds": false,
+    "broken_premise": "Slides 6–8 assume the 0.4% rate applies at petrol pumps (₹12 on a ₹3,000 fill, a cost that grows with every big fill). It doesn't. NPCI put fuel in a concessional category that pays a flat ₹5 per UPI payment above ₹2,000, whatever the bill size: ₹5 on ₹2,500 and ₹5 on ₹10,000. The ₹12 figure is NPCI's own example for a general merchant, not for a pump. Smaller point: The Week reports that NPCI's stated reason for deferring the fee was 'keeping in mind the festive season', not retailer pushback. The rest of the post holds. Customers pay nothing, merchants pay the MDR and can't pass it on, dealers earn a set commission and don't set the retail price, and dealer groups have warned they may stop taking UPI at ₹2,000 and above.",
+    "actual_mechanism": "UPI payments to merchants have carried no merchant fee so far. NPCI's new framework adds a merchant-paid MDR of 0.4% on specified person-to-merchant payments above ₹2,000, capped at ₹300. Payments up to ₹2,000 stay free, and small merchants receiving up to ₹1 lakh a month are exempt. Fuel, railways, telecom and insurance pay a flat ₹5 per payment above ₹2,000 instead. Merchants are not allowed to pass the MDR on to customers, and pump dealers work on a set commission, so the ₹5 comes out of the dealer's margin. Dealer groups (FAIPT, AIPDA) have asked for a full exemption and warned they may stop taking UPI at ₹2,000 and above. The fee was due on 15 October 2026 and has been deferred until after Diwali; NPCI will announce the new date separately.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.scconline.com/blog/post/2026/09/16/npci-released-upi-mdr-faqs-explained/",
+      "published_date": "2026-09-16",
+      "quote": "will attract a flat MDR of ₹5 per transaction for payments above ₹2,000 ... Merchants will not be permitted to pass MDR charges on to customers."
+     },
+     {
+      "url": "https://www.punekarnews.in/upi-fuel-payments-above-rs-2000-to-attract-flat-rs-5-mdr-for-petrol-pumps-npci/",
+      "published_date": "2026-09-19",
+      "quote": "For fuel payments above ₹2,000, petrol pump operators will pay a flat MDR of ₹5."
+     },
+     {
+      "url": "https://www.businesstoday.in/latest/economy/story/petrol-pump-dealers-oppose-rs5-upi-mdr-warn-of-cash-only-payments-for-big-transactions-555985-2026-09-16",
+      "published_date": "2026-09-16",
+      "quote": "We may have to stop accepting UPI payments of ₹2,000 and above if exemption is not allowed to fuel retailers"
+     },
+     {
+      "url": "https://www.theweek.in/news/biz-tech/2026/10/13/npci-defers-upi-mdr-until-after-diwali.html",
+      "published_date": "2026-10-13",
+      "quote": "keeping in mind the festive season"
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "a6965e5b2cf9f4876de9b94dba10dcf03877e928": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "The take's premise is wrong: Premise 2 is half right. Merchants can't add the fee to the customer's bill, but the way the post says they'll pass it on doesn't work, especially at its main example, the petrol pump. Reports of NPCI's 15 Sept 2026 FAQ say merchants can't pass the MDR to customers as a separate charge. One fintech guide also lists a higher UPI price than cash price as not allowed, which would cover a 'cash pe discount'. I didn't see NPCI's own circular, so the cash-versus-UPI price point rests on secondary sources. Pump dealers can't raise prices either, because the oil marketing companies set the retail fuel price and pay dealers a fixed commission per kilolitre. That rules out both channels the post names at the pump, the price and the 'cash pe discount' board. What dealers actually did was threaten to refuse UPI above ₹2,000 and send customers to cards. The rest of the post checks out. Zero MDR has applied since Jan 2020. The fee is 0.4% above ₹2,000 and is paid by the merchant. Shops taking up to ₹1 lakh a month are exempt. ₹12 on a ₹3,000 fill is correct. The fee was deferred past Diwali and still had no new date in reports as of mid-November. Premise 1 also holds: NPCI says the MDR is shared among UPI participants to pay for infrastructure, fraud prevention and cybersecurity.. How it actually works: From the deferred start date, the acquiring merchant pays a 0.4% MDR, capped at ₹300, on eligible P2M UPI payments above ₹2,000. Small P2PM merchants under ₹1 lakh a month pay nothing. The money is shared among UPI ecosystem participants, and merchants are barred from adding it to the bill. Shops that set their own prices could still quietly fold the cost into general prices, though NPCI reportedly told them not to inflate shelf prices. At a petrol pump the OMCs fix the price and the dealer's margin, so the fee gets absorbed (dealers say their margin is about 0.5%) or avoided by refusing UPI on large fills. Customers lose a convenience; they don't pay a higher price or see a cash discount. Rebuild the post on the correct mechanism.",
+     "Could not confirm: 'Since January 2020, merchants have paid nothing (zero MDR) to accept UPI payments.' (the cited pages don't say it). Use a source that does, or cut it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Since January 2020, merchants have paid nothing (zero MDR) to accept UPI payments.",
+      "sentence": "Since January 2020, shops have paid nothing to take UPI.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "UPI users pay no fee for UPI payments, so the cost of running UPI is not visible to them.",
+      "sentence": "The bill gets hidden from the one guy who can walk away. You.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "NPCI planned a 0.4% fee on shop UPI payments above ₹2,000, to be paid by the shop and not the customer.",
+      "sentence": "Then NPCI planned a 0.4% fee on shop payments above ₹2,000, paid by the shop, not you.",
+      "type": "event",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c4",
+      "text": "Retailers pushed back against the proposed UPI fee.",
+      "sentence": "Retailers pushed back, so it's parked till after Diwali.",
+      "type": "event",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c5",
+      "text": "The proposed UPI fee has been put on hold until after Diwali (Diwali is over and the fee has not yet been dropped).",
+      "sentence": "Diwali is over, and the fee was only parked.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c6",
+      "text": "Banks and payment apps want to recover the cost of keeping the UPI system running.",
+      "sentence": "Meanwhile, the banks and payment apps want their money back for keeping the whole thing running.",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c7",
+      "text": "Petrol pump owners opposed the proposed UPI fee.",
+      "sentence": "Petrol pump owners opposed the fee too.",
+      "type": "event",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c8",
+      "text": "Some petrol pump owners warned they could stop accepting UPI altogether.",
+      "sentence": "Some warned they could stop taking UPI altogether.",
+      "type": "event",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c9",
+      "text": "A 0.4% fee on a ₹3,000 payment comes to ₹12.",
+      "sentence": "On a ₹3,000 fill at the pump, that's ₹12.",
+      "type": "arithmetic",
+      "core": false,
+      "framed_as": "timeless",
+      "expr": "3000*0.4/100",
+      "stated": "12"
+     },
+     {
+      "id": "c10",
+      "text": "Small shops taking up to ₹1 lakh a month on UPI are exempt from the proposed fee.",
+      "sentence": "Small shops taking up to ₹1 lakh a month on UPI are left out.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c11",
+      "text": "The proposed fee falls on large-ticket merchants such as petrol pumps rather than small purchases like a ₹10 chai.",
+      "sentence": "The fee lands where bills are big, like the pump.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c12",
+      "text": "Because merchants bear the UPI fee but cannot pass it to customers via the app, they are likely to recover it through higher prices or cash discounts, so a cost on the seller ends up with the buyer.",
+      "sentence": "A cost on the seller rarely stays with the seller.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2020-01-01",
+      "sources": [
+       {
+        "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+        "publisher": "DT Next",
+        "published_date": "2026-09-16",
+        "quote": "UPI has been zero-MDR since January 2020.",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "correct": "Consumers pay no fee. NPCI says the MDR cannot be passed on to consumers. Government subsidy covers only part of the network's running cost.",
+      "sources": [
+       {
+        "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+        "publisher": "DT Next",
+        "published_date": "2026-09-16",
+        "quote": "Merchants, not consumers, would bear the fee.",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "2026-09-16",
+      "correct": "The fee is 0.4% on select person-to-merchant payments above ₹2,000, capped at ₹300. It was due from 15 October 2026. Some sectors pay a flat ₹5.",
+      "sources": [
+       {
+        "url": "https://techcrunch.com/2026/10/13/india-delays-digital-payments-fee-rollout-amid-retailer-pushback/",
+        "publisher": "TechCrunch",
+        "published_date": "2026-10-13",
+        "quote": "postponing the planned October 15 rollout of a 0.4% fee",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "2026-09-16",
+      "sources": [
+       {
+        "url": "https://techcrunch.com/2026/10/13/india-delays-digital-payments-fee-rollout-amid-retailer-pushback/",
+        "publisher": "TechCrunch",
+        "published_date": "2026-10-13",
+        "quote": "The proposed fee drew opposition from retailers.",
+        "tier": 2
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "correct": "NPCI deferred the rollout on 13 October 2026 until after Diwali. Diwali was around 8 November. As of about 13 November there was no new date and no withdrawal. The claim should be rechecked at publication on 25 November.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/biz-tech/2026/10/13/npci-defers-upi-mdr-until-after-diwali.amp.html",
+        "publisher": "The Week",
+        "published_date": "2026-10-13",
+        "quote": "NPCI deferred the 0.4% MDR on select person-to-merchant UPI payments above ₹2,000, which had been due from October 15. The new start date is to be notified separately.",
+        "tier": 2
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "supported",
+      "sources": [
+       {
+        "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+        "publisher": "DT Next",
+        "published_date": "2026-09-16",
+        "quote": "NPCI estimates the network costs about Rs 20,000 crore a year to run, while the government's subsidy has been far smaller",
+        "tier": 2
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "supported",
+      "event_date": "2026-09-16",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/biz-tech/2026/09/16/mdr-fee-rules-will-you-need-cash-for-petrol-now-pumps-warn-of-stopping-upi-for-purchases-over-indian-rupee2000.amp.html",
+        "publisher": "The Week",
+        "published_date": "2026-09-16",
+        "quote": "Will you need cash for petrol now? Pumps warn of stopping UPI for purchases over ₹2,000",
+        "tier": 2
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "supported",
+      "event_date": "2026-09-16",
+      "sources": [
+       {
+        "url": "https://techcrunch.com/2026/10/13/india-delays-digital-payments-fee-rollout-amid-retailer-pushback/",
+        "publisher": "TechCrunch",
+        "published_date": "2026-10-13",
+        "quote": "could stop accepting UPI payments if the charge took effect",
+        "tier": 2
+       }
+      ]
+     },
+     "c10": {
+      "id": "c10",
+      "verdict": "supported",
+      "correct": "Small merchants collecting up to ₹1 lakh a month through UPI QR codes are exempt from the proposed fee.",
+      "sources": [
+       {
+        "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+        "publisher": "DT Next",
+        "published_date": "2026-09-16",
+        "quote": "Small merchants collecting up to Rs 1 lakh a month through UPI QR codes are exempt",
+        "tier": 2
+       }
+      ]
+     },
+     "c11": {
+      "id": "c11",
+      "verdict": "supported",
+      "correct": "The fee applies only to payments above ₹2,000, so a ₹10 chai is not affected. Only about 4% of person-to-merchant transactions exceed ₹2,000, yet they make up nearly two-thirds of UPI value. Fuel is on a flat ₹5 rate rather than 0.4%, but it is still a large-ticket category.",
+      "sources": [
+       {
+        "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+        "publisher": "DT Next",
+        "published_date": "2026-09-16",
+        "quote": "Only about 4% of person-to-merchant transactions exceed Rs 2,000, but they account for close to two-thirds of UPI payment value.",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "Premise 2 is half right. Merchants can't add the fee to the customer's bill, but the way the post says they'll pass it on doesn't work, especially at its main example, the petrol pump. Reports of NPCI's 15 Sept 2026 FAQ say merchants can't pass the MDR to customers as a separate charge. One fintech guide also lists a higher UPI price than cash price as not allowed, which would cover a 'cash pe discount'. I didn't see NPCI's own circular, so the cash-versus-UPI price point rests on secondary sources. Pump dealers can't raise prices either, because the oil marketing companies set the retail fuel price and pay dealers a fixed commission per kilolitre. That rules out both channels the post names at the pump, the price and the 'cash pe discount' board. What dealers actually did was threaten to refuse UPI above ₹2,000 and send customers to cards. The rest of the post checks out. Zero MDR has applied since Jan 2020. The fee is 0.4% above ₹2,000 and is paid by the merchant. Shops taking up to ₹1 lakh a month are exempt. ₹12 on a ₹3,000 fill is correct. The fee was deferred past Diwali and still had no new date in reports as of mid-November. Premise 1 also holds: NPCI says the MDR is shared among UPI participants to pay for infrastructure, fraud prevention and cybersecurity.",
+     "actual_mechanism": "From the deferred start date, the acquiring merchant pays a 0.4% MDR, capped at ₹300, on eligible P2M UPI payments above ₹2,000. Small P2PM merchants under ₹1 lakh a month pay nothing. The money is shared among UPI ecosystem participants, and merchants are barred from adding it to the bill. Shops that set their own prices could still quietly fold the cost into general prices, though NPCI reportedly told them not to inflate shelf prices. At a petrol pump the OMCs fix the price and the dealer's margin, so the fee gets absorbed (dealers say their margin is about 0.5%) or avoided by refusing UPI on large fills. Customers lose a convenience; they don't pay a higher price or see a cash discount.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.scconline.com/blog/?p=396374",
+       "published_date": "2026-09-16",
+       "quote": "Merchants will not be permitted to pass MDR charges on to customers."
+      },
+      {
+       "url": "https://www.theweek.in/news/biz-tech/2026/10/13/npci-defers-upi-mdr-until-after-diwali.amp.html",
+       "published_date": "2026-10-13",
+       "quote": "NPCI defers 0.4% UPI merchant fee until after Diwali; new date to be announced separately"
+      },
+      {
+       "url": "https://www.thedailyjagran.com/india/news/mp-petrol-pumps-to-stop-upi-payments-above-rs-2000-from-oct-16-as-dealers-oppose-mdr-10329782",
+       "published_date": "2026-09-19",
+       "quote": "We cannot recover this because our profit margin is very small... We are able to make only around 0.5 per cent profit"
+      },
+      {
+       "url": "https://www.businesstoday.in/india/story/pump-commission-rules-explained-how-much-petrol-pump-owners-earn-per-litre-in-india-what-costs-do-they-have-to-manage-and-more-520996-2026-03-18",
+       "published_date": "2026-03-18",
+       "quote": "Dealers do not freely decide their margins; they receive a fixed commission per litre from oil marketing companies such as Indian Oil, BPCL and HPCL."
+      },
+      {
+       "url": "https://www.cashfree.com/blog/upi-mdr-merchants-guide/",
+       "published_date": "2026",
+       "quote": "Prohibited: a 'UPI convenience fee' or surcharge line at checkout or on invoices; a higher price for paying by UPI than by cash."
+      }
+     ]
+    },
+    "text_hash": "a6965e5b2cf9f4876de9b94dba10dcf03877e928",
+    "at": "2026-11-13T06:37:28.140928+00:00"
+   },
+   "bbba438d9f4655757c339828a4d2329b9d3391cf": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "The take's premise is wrong: Slides 6–8 assume the 0.4% rate applies at petrol pumps (₹12 on a ₹3,000 fill, a cost that grows with every big fill). It doesn't. NPCI put fuel in a concessional category that pays a flat ₹5 per UPI payment above ₹2,000, whatever the bill size: ₹5 on ₹2,500 and ₹5 on ₹10,000. The ₹12 figure is NPCI's own example for a general merchant, not for a pump. Smaller point: The Week reports that NPCI's stated reason for deferring the fee was 'keeping in mind the festive season', not retailer pushback. The rest of the post holds. Customers pay nothing, merchants pay the MDR and can't pass it on, dealers earn a set commission and don't set the retail price, and dealer groups have warned they may stop taking UPI at ₹2,000 and above.. How it actually works: UPI payments to merchants have carried no merchant fee so far. NPCI's new framework adds a merchant-paid MDR of 0.4% on specified person-to-merchant payments above ₹2,000, capped at ₹300. Payments up to ₹2,000 stay free, and small merchants receiving up to ₹1 lakh a month are exempt. Fuel, railways, telecom and insurance pay a flat ₹5 per payment above ₹2,000 instead. Merchants are not allowed to pass the MDR on to customers, and pump dealers work on a set commission, so the ₹5 comes out of the dealer's margin. Dealer groups (FAIPT, AIPDA) have asked for a full exemption and warned they may stop taking UPI at ₹2,000 and above. The fee was due on 15 October 2026 and has been deferred until after Diwali; NPCI will announce the new date separately. Rebuild the post on the correct mechanism.",
+     "Could not confirm: 'Accepting UPI payments currently costs shops nothing (no merchant discount rate on UPI).' (the cited pages don't say it). Use a source that does, or cut it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "UPI users pay no fee for UPI payments, so the cost of running UPI is not visible to them.",
+      "sentence": "The bill gets hidden from the one guy who can walk away. You.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "NPCI planned a 0.4% fee on shop UPI payments above ₹2,000, to be paid by the shop and not the customer.",
+      "sentence": "Then NPCI planned a 0.4% fee on shop payments above ₹2,000, paid by the shop, not you.",
+      "type": "event",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c3",
+      "text": "Retailers pushed back against the proposed UPI fee.",
+      "sentence": "Retailers pushed back, so it's parked till after Diwali.",
+      "type": "event",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c4",
+      "text": "The proposed UPI fee has been put on hold until after Diwali (Diwali is over and the fee has not yet been dropped).",
+      "sentence": "Diwali is over, and the fee was only parked.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c5",
+      "text": "Banks and payment apps want to recover the cost of keeping the UPI system running.",
+      "sentence": "Meanwhile, the banks and payment apps want their money back for keeping the whole thing running.",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c6",
+      "text": "The proposed fee falls on large-ticket merchants such as petrol pumps rather than small purchases like a ₹10 chai.",
+      "sentence": "The fee lands where bills are big, like the pump.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "Accepting UPI payments currently costs shops nothing (no merchant discount rate on UPI).",
+      "sentence": "Taking UPI costs shops nothing today.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c8",
+      "text": "Petrol pump operators/dealers object to the proposed 0.4% UPI fee.",
+      "sentence": "Petrol pumps don't like this one at all.",
+      "type": "event",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c9",
+      "text": "Some petrol pumps have said they might stop accepting UPI if the fee is imposed.",
+      "sentence": "Some have said they might just stop taking UPI.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c10",
+      "text": "0.4% of ₹3,000 is ₹12.",
+      "sentence": "On a ₹3,000 fill, 0.4% is ₹12.",
+      "type": "arithmetic",
+      "core": false,
+      "framed_as": "timeless",
+      "expr": "3000*0.4/100",
+      "stated": "12"
+     },
+     {
+      "id": "c11",
+      "text": "A petrol pump cannot pass a UPI fee on to the customer by adding it to the bill.",
+      "sentence": "And the pump can't add it to your bill.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c12",
+      "text": "Petrol pump owners do not set the retail petrol price.",
+      "sentence": "The owner doesn't set the petrol price, so the ₹12 comes out of his own cut.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c13",
+      "text": "Because the owner cannot set the petrol price, a UPI fee would be absorbed from the pump owner's own margin/commission.",
+      "sentence": "The owner doesn't set the petrol price, so the ₹12 comes out of his own cut.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c14",
+      "text": "Running UPI has costs, and someone (banks, apps, or others) has always been bearing them.",
+      "sentence": "Running UPI costs money, and someone was always paying.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c15",
+      "text": "Mechanism: UPI costs money to run and are not charged to users or shops; a fee would hit shops, which cannot switch customers or pass it on (pumps cannot raise price); so pumps must either absorb the fee or restrict large UPI payments, leading to refusals of UPI above ₹2,000 at pumps.",
+      "sentence": "So the pump has two choices. Eat the ₹12 on every big fill, or stop big fills from coming in on UPI.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c16",
+      "text": "The 0.4% fee, if imposed, applies to payments above ₹2,000, so would be paid by pumps only on large fills (the post says 'the first notice' about a ₹2,000 UPI limit is the cost returning).",
+      "sentence": "The first one saying \"UPI sirf ₹2,000 tak\" is the bill finding its way home.",
+      "type": "event",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c17",
+      "text": "UPI charges are not borne by users; they fall on the shop.",
+      "sentence": "UPI charges never land on you. They land on the shop, because you're the one who can walk away.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c18",
+      "text": "The fee has only been postponed and has not been dropped, so it could return after Diwali.",
+      "sentence": "Diwali is over, and the fee was only parked.",
+      "type": "event",
+      "core": false,
+      "framed_as": "current"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c2",
+      "verdict": "supported",
+      "correct": "Consumers pay no fee. NPCI says the MDR cannot be passed on to consumers. Government subsidy covers only part of the network's running cost.",
+      "sources": [
+       {
+        "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+        "publisher": "DT Next",
+        "published_date": "2026-09-16",
+        "quote": "Merchants, not consumers, would bear the fee.",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "2026-09-16",
+      "correct": "The fee is 0.4% on select person-to-merchant payments above ₹2,000, capped at ₹300. It was due from 15 October 2026. Some sectors pay a flat ₹5.",
+      "sources": [
+       {
+        "url": "https://techcrunch.com/2026/10/13/india-delays-digital-payments-fee-rollout-amid-retailer-pushback/",
+        "publisher": "TechCrunch",
+        "published_date": "2026-10-13",
+        "quote": "postponing the planned October 15 rollout of a 0.4% fee",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "2026-09-16",
+      "sources": [
+       {
+        "url": "https://techcrunch.com/2026/10/13/india-delays-digital-payments-fee-rollout-amid-retailer-pushback/",
+        "publisher": "TechCrunch",
+        "published_date": "2026-10-13",
+        "quote": "The proposed fee drew opposition from retailers.",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c5",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "correct": "NPCI deferred the rollout on 13 October 2026 until after Diwali. Diwali was around 8 November. As of about 13 November there was no new date and no withdrawal. The claim should be rechecked at publication on 25 November.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/biz-tech/2026/10/13/npci-defers-upi-mdr-until-after-diwali.amp.html",
+        "publisher": "The Week",
+        "published_date": "2026-10-13",
+        "quote": "NPCI deferred the 0.4% MDR on select person-to-merchant UPI payments above ₹2,000, which had been due from October 15. The new start date is to be notified separately.",
+        "tier": 2
+       }
+      ]
+     },
+     "c5": {
+      "id": "c6",
+      "verdict": "supported",
+      "sources": [
+       {
+        "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+        "publisher": "DT Next",
+        "published_date": "2026-09-16",
+        "quote": "NPCI estimates the network costs about Rs 20,000 crore a year to run, while the government's subsidy has been far smaller",
+        "tier": 2
+       }
+      ]
+     },
+     "c6": {
+      "id": "c11",
+      "verdict": "supported",
+      "correct": "The fee applies only to payments above ₹2,000, so a ₹10 chai is not affected. Only about 4% of person-to-merchant transactions exceed ₹2,000, yet they make up nearly two-thirds of UPI value. Fuel is on a flat ₹5 rate rather than 0.4%, but it is still a large-ticket category.",
+      "sources": [
+       {
+        "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+        "publisher": "DT Next",
+        "published_date": "2026-09-16",
+        "quote": "Only about 4% of person-to-merchant transactions exceed Rs 2,000, but they account for close to two-thirds of UPI payment value.",
+        "tier": 2
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "supported",
+      "event_date": "2020-01-01",
+      "correct": "Zero MDR on UPI has applied since January 2020. The 0.4% fee on larger merchant payments was deferred before it took effect, so it is still zero.",
+      "sources": [
+       {
+        "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+        "publisher": "DT Next",
+        "published_date": "2026-09-16",
+        "quote": "It ends the zero-MDR regime in place since January 2020.",
+        "tier": 2
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "supported",
+      "event_date": "2026-09-16",
+      "correct": "Petrol dealer bodies objected to the MDR on UPI payments above ₹2,000 and cited thin margins. Some reports say fuel would get a flat ₹5 charge rather than 0.4%.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/biz-tech/2026/09/16/mdr-fee-rules-will-you-need-cash-for-petrol-now-pumps-warn-of-stopping-upi-for-purchases-over-indian-rupee2000.amp.html",
+        "publisher": "The Week",
+        "published_date": "2026-09-16",
+        "quote": "Pumps warn of stopping UPI for purchases over ₹2,000",
+        "tier": 2
+       }
+      ]
+     },
+     "c9": {
+      "id": "c9",
+      "verdict": "supported",
+      "event_date": "2026-09-16",
+      "correct": "Dealer associations in Madhya Pradesh, Punjab and Mumbai threatened to stop accepting UPI payments above ₹2,000. As of early October, one association said it would keep accepting UPI while awaiting clarity.",
+      "sources": [
+       {
+        "url": "https://www.outlookmoney.com/news/no-upi-payments-above-rs-2000-from-october-16-say-madhya-pradesh-petrol-pumps",
+        "publisher": "Outlook Money",
+        "published_date": "2026-09-21",
+        "quote": "No UPI payments above Rs 2000 from October 16, say Madhya Pradesh petrol pumps",
+        "tier": 2
+       }
+      ]
+     },
+     "c11": {
+      "id": "c11",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": "Reports say the fee falls on merchants and not consumers. I did not find a rule that explicitly bars a pump from adding the fee to the bill. Surcharging on UPI is generally disallowed.",
+      "sources": [
+       {
+        "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+        "publisher": "DT Next",
+        "published_date": "2026-09-16",
+        "quote": "Merchants, not consumers, would bear the fee.",
+        "tier": 2
+       }
+      ]
+     },
+     "c12": {
+      "id": "c12",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": "Oil marketing companies set retail petrol prices. Dealers earn a fixed commission per litre.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/biz-tech/2026/09/16/mdr-fee-rules-will-you-need-cash-for-petrol-now-pumps-warn-of-stopping-upi-for-purchases-over-indian-rupee2000.amp.html",
+        "publisher": "The Week",
+        "published_date": "2026-09-16",
+        "quote": "Pumps warn of stopping UPI for purchases over ₹2,000",
+        "tier": 2
+       }
+      ]
+     },
+     "c13": {
+      "id": "c13",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": "Dealers say they cannot absorb the fee because their margins are narrow. Since they cannot raise the price, the fee would come out of their commission.",
+      "sources": [
+       {
+        "url": "https://www.outlookmoney.com/news/no-upi-payments-above-rs-2000-from-october-16-say-madhya-pradesh-petrol-pumps",
+        "publisher": "Outlook Money",
+        "published_date": "2026-09-21",
+        "quote": "No UPI payments above Rs 2000 from October 16, say Madhya Pradesh petrol pumps",
+        "tier": 2
+       }
+      ]
+     },
+     "c14": {
+      "id": "c14",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": "The government subsidy has covered only about a tenth of what industry says the network costs to run. Banks, apps and others have absorbed the rest.",
+      "sources": [
+       {
+        "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+        "publisher": "DT Next",
+        "published_date": "2026-09-16",
+        "quote": "The government subsidy has covered only about a tenth of what industry says the network costs to run.",
+        "tier": 2
+       }
+      ]
+     },
+     "c16": {
+      "id": "c16",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "correct": "The 0.4% MDR applies to select person-to-merchant payments above ₹2,000. It would be charged on the whole eligible payment and not only on the portion above ₹2,000. Fuel may carry a flat ₹5 charge.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/biz-tech/2026/10/13/npci-defers-upi-mdr-until-after-diwali.amp.html",
+        "publisher": "The Week",
+        "published_date": "2026-10-13",
+        "quote": "0.4% Merchant Discount Rate on select person-to-merchant UPI transactions ... above ₹2,000",
+        "tier": 2
+       }
+      ]
+     },
+     "c17": {
+      "id": "c17",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": "Merchants would bear the fee, not consumers. Small merchants collecting up to ₹1 lakh a month through UPI QR codes stay exempt.",
+      "sources": [
+       {
+        "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+        "publisher": "DT Next",
+        "published_date": "2026-09-16",
+        "quote": "Merchants, not consumers, would bear the fee.",
+        "tier": 2
+       }
+      ]
+     },
+     "c18": {
+      "id": "c18",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "correct": "NPCI deferred the fee until after Diwali. It has not been dropped, and the new start date is to be notified separately. I found no later announcement.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/biz-tech/2026/10/13/npci-defers-upi-mdr-until-after-diwali.amp.html",
+        "publisher": "The Week",
+        "published_date": "2026-10-13",
+        "quote": "NPCI will notify the implementation date separately.",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "Slides 6–8 assume the 0.4% rate applies at petrol pumps (₹12 on a ₹3,000 fill, a cost that grows with every big fill). It doesn't. NPCI put fuel in a concessional category that pays a flat ₹5 per UPI payment above ₹2,000, whatever the bill size: ₹5 on ₹2,500 and ₹5 on ₹10,000. The ₹12 figure is NPCI's own example for a general merchant, not for a pump. Smaller point: The Week reports that NPCI's stated reason for deferring the fee was 'keeping in mind the festive season', not retailer pushback. The rest of the post holds. Customers pay nothing, merchants pay the MDR and can't pass it on, dealers earn a set commission and don't set the retail price, and dealer groups have warned they may stop taking UPI at ₹2,000 and above.",
+     "actual_mechanism": "UPI payments to merchants have carried no merchant fee so far. NPCI's new framework adds a merchant-paid MDR of 0.4% on specified person-to-merchant payments above ₹2,000, capped at ₹300. Payments up to ₹2,000 stay free, and small merchants receiving up to ₹1 lakh a month are exempt. Fuel, railways, telecom and insurance pay a flat ₹5 per payment above ₹2,000 instead. Merchants are not allowed to pass the MDR on to customers, and pump dealers work on a set commission, so the ₹5 comes out of the dealer's margin. Dealer groups (FAIPT, AIPDA) have asked for a full exemption and warned they may stop taking UPI at ₹2,000 and above. The fee was due on 15 October 2026 and has been deferred until after Diwali; NPCI will announce the new date separately.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.scconline.com/blog/post/2026/09/16/npci-released-upi-mdr-faqs-explained/",
+       "published_date": "2026-09-16",
+       "quote": "will attract a flat MDR of ₹5 per transaction for payments above ₹2,000 ... Merchants will not be permitted to pass MDR charges on to customers."
+      },
+      {
+       "url": "https://www.punekarnews.in/upi-fuel-payments-above-rs-2000-to-attract-flat-rs-5-mdr-for-petrol-pumps-npci/",
+       "published_date": "2026-09-19",
+       "quote": "For fuel payments above ₹2,000, petrol pump operators will pay a flat MDR of ₹5."
+      },
+      {
+       "url": "https://www.businesstoday.in/latest/economy/story/petrol-pump-dealers-oppose-rs5-upi-mdr-warn-of-cash-only-payments-for-big-transactions-555985-2026-09-16",
+       "published_date": "2026-09-16",
+       "quote": "We may have to stop accepting UPI payments of ₹2,000 and above if exemption is not allowed to fuel retailers"
+      },
+      {
+       "url": "https://www.theweek.in/news/biz-tech/2026/10/13/npci-defers-upi-mdr-until-after-diwali.html",
+       "published_date": "2026-10-13",
+       "quote": "keeping in mind the festive season"
+      }
+     ]
+    },
+    "text_hash": "bbba438d9f4655757c339828a4d2329b9d3391cf",
+    "at": "2026-11-13T06:41:02.303586+00:00"
+   }
+  },
+  "Accepting UPI payments currently costs shops nothing (no merchant discount rate on UPI).": {
+   "id": "c7",
+   "verdict": "supported",
+   "event_date": "2020-01-01",
+   "correct": "Zero MDR on UPI has applied since January 2020. The 0.4% fee on larger merchant payments was deferred before it took effect, so it is still zero.",
+   "sources": [
+    {
+     "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+     "publisher": "DT Next",
+     "published_date": "2026-09-16",
+     "quote": "It ends the zero-MDR regime in place since January 2020.",
+     "tier": 2
+    }
+   ]
+  },
+  "Petrol pump operators/dealers object to the proposed 0.4% UPI fee.": {
+   "id": "c8",
+   "verdict": "supported",
+   "event_date": "2026-09-16",
+   "correct": "Petrol dealer bodies objected to the MDR on UPI payments above ₹2,000 and cited thin margins. Some reports say fuel would get a flat ₹5 charge rather than 0.4%.",
+   "sources": [
+    {
+     "url": "https://www.theweek.in/news/biz-tech/2026/09/16/mdr-fee-rules-will-you-need-cash-for-petrol-now-pumps-warn-of-stopping-upi-for-purchases-over-indian-rupee2000.amp.html",
+     "publisher": "The Week",
+     "published_date": "2026-09-16",
+     "quote": "Pumps warn of stopping UPI for purchases over ₹2,000",
+     "tier": 2
+    }
+   ]
+  },
+  "Some petrol pumps have said they might stop accepting UPI if the fee is imposed.": {
+   "id": "c9",
+   "verdict": "supported",
+   "event_date": "2026-09-16",
+   "correct": "Dealer associations in Madhya Pradesh, Punjab and Mumbai threatened to stop accepting UPI payments above ₹2,000. As of early October, one association said it would keep accepting UPI while awaiting clarity.",
+   "sources": [
+    {
+     "url": "https://www.outlookmoney.com/news/no-upi-payments-above-rs-2000-from-october-16-say-madhya-pradesh-petrol-pumps",
+     "publisher": "Outlook Money",
+     "published_date": "2026-09-21",
+     "quote": "No UPI payments above Rs 2000 from October 16, say Madhya Pradesh petrol pumps",
+     "tier": 2
+    }
+   ]
+  },
+  "A petrol pump cannot pass a UPI fee on to the customer by adding it to the bill.": {
+   "id": "c11",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": "Reports say the fee falls on merchants and not consumers. I did not find a rule that explicitly bars a pump from adding the fee to the bill. Surcharging on UPI is generally disallowed.",
+   "sources": [
+    {
+     "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+     "publisher": "DT Next",
+     "published_date": "2026-09-16",
+     "quote": "Merchants, not consumers, would bear the fee.",
+     "tier": 2
+    }
+   ]
+  },
+  "Petrol pump owners do not set the retail petrol price.": {
+   "id": "c12",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": "Oil marketing companies set retail petrol prices. Dealers earn a fixed commission per litre.",
+   "sources": [
+    {
+     "url": "https://www.theweek.in/news/biz-tech/2026/09/16/mdr-fee-rules-will-you-need-cash-for-petrol-now-pumps-warn-of-stopping-upi-for-purchases-over-indian-rupee2000.amp.html",
+     "publisher": "The Week",
+     "published_date": "2026-09-16",
+     "quote": "Pumps warn of stopping UPI for purchases over ₹2,000",
+     "tier": 2
+    }
+   ]
+  },
+  "Because the owner cannot set the petrol price, a UPI fee would be absorbed from the pump owner's own margin/commission.": {
+   "id": "c13",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": "Dealers say they cannot absorb the fee because their margins are narrow. Since they cannot raise the price, the fee would come out of their commission.",
+   "sources": [
+    {
+     "url": "https://www.outlookmoney.com/news/no-upi-payments-above-rs-2000-from-october-16-say-madhya-pradesh-petrol-pumps",
+     "publisher": "Outlook Money",
+     "published_date": "2026-09-21",
+     "quote": "No UPI payments above Rs 2000 from October 16, say Madhya Pradesh petrol pumps",
+     "tier": 2
+    }
+   ]
+  },
+  "Running UPI has costs, and someone (banks, apps, or others) has always been bearing them.": {
+   "id": "c14",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": "The government subsidy has covered only about a tenth of what industry says the network costs to run. Banks, apps and others have absorbed the rest.",
+   "sources": [
+    {
+     "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+     "publisher": "DT Next",
+     "published_date": "2026-09-16",
+     "quote": "The government subsidy has covered only about a tenth of what industry says the network costs to run.",
+     "tier": 2
+    }
+   ]
+  },
+  "The 0.4% fee, if imposed, applies to payments above ₹2,000, so would be paid by pumps only on large fills (the post says 'the first notice' about a ₹2,000 UPI limit is the cost returning).": {
+   "id": "c16",
+   "verdict": "supported",
+   "event_date": "2026-10-13",
+   "correct": "The 0.4% MDR applies to select person-to-merchant payments above ₹2,000. It would be charged on the whole eligible payment and not only on the portion above ₹2,000. Fuel may carry a flat ₹5 charge.",
+   "sources": [
+    {
+     "url": "https://www.theweek.in/news/biz-tech/2026/10/13/npci-defers-upi-mdr-until-after-diwali.amp.html",
+     "publisher": "The Week",
+     "published_date": "2026-10-13",
+     "quote": "0.4% Merchant Discount Rate on select person-to-merchant UPI transactions ... above ₹2,000",
+     "tier": 2
+    }
+   ]
+  },
+  "UPI charges are not borne by users; they fall on the shop.": {
+   "id": "c17",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": "Merchants would bear the fee, not consumers. Small merchants collecting up to ₹1 lakh a month through UPI QR codes stay exempt.",
+   "sources": [
+    {
+     "url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments",
+     "publisher": "DT Next",
+     "published_date": "2026-09-16",
+     "quote": "Merchants, not consumers, would bear the fee.",
+     "tier": 2
+    }
+   ]
+  },
+  "The fee has only been postponed and has not been dropped, so it could return after Diwali.": {
+   "id": "c18",
+   "verdict": "supported",
+   "event_date": "2026-10-13",
+   "correct": "NPCI deferred the fee until after Diwali. It has not been dropped, and the new start date is to be notified separately. I found no later announcement.",
+   "sources": [
+    {
+     "url": "https://www.theweek.in/news/biz-tech/2026/10/13/npci-defers-upi-mdr-until-after-diwali.amp.html",
+     "publisher": "The Week",
+     "published_date": "2026-10-13",
+     "quote": "NPCI will notify the implementation date separately.",
+     "tier": 2
+    }
+   ]
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "UPI was never free. [Your bill] just went to someone else.",
+   "sub": "Scanning stopped feeling like paying. That's about to change."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "UPI was never free. Your bill just went to someone else.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "If I'm not paying, who is?"
+   },
+   {
+    "paragraphs": [
+     "We scan for a ₹10 chai, ₹30 of parking, a full tank at the petrol pump. Nobody counts notes or waits for change anymore.",
+     "\"Bhaiya, scanner kidhar hai?\" has replaced \"change hai?\"",
+     "Paying stopped feeling like paying."
+    ],
+    "why_swipe": "So where did the cost of all those scans go?"
+   },
+   {
+    "paragraphs": [
+     "Taking UPI costs shops nothing today. Then NPCI planned a 0.4% fee on shop payments above ₹2,000, paid by the shop, not you.",
+     "Retailers pushed back, so it's parked till after Diwali."
+    ],
+    "why_swipe": "Why does the shop get the bill and not me?"
+   },
+   {
+    "paragraphs": [
+     "That's how free works. The bill gets hidden from the one guy who can walk away. You."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "You can switch apps in a second. The shop can't switch its customers.",
+     "Meanwhile, the banks and payment apps want their money back for keeping the whole thing running."
+    ],
+    "why_swipe": "So what does the shop do when the bill arrives?"
+   },
+   {
+    "paragraphs": [
+     "Petrol pumps don't like this one at all. Some have said they might just stop taking UPI.",
+     "On a ₹3,000 fill, 0.4% is ₹12."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "And the pump can't add it to your bill. The owner doesn't set the petrol price, so the ₹12 comes out of his own cut."
+    ],
+    "why_swipe": "Does this hit every payment I make?"
+   },
+   {
+    "paragraphs": [
+     "Your ₹10 chai was never in this. The fee lands where bills are big, like the pump.",
+     "So the pump has two choices. Eat the ₹12 on every big fill, or stop big fills from coming in on UPI."
+    ],
+    "why_swipe": "So is the fee the villain here?"
+   },
+   {
+    "paragraphs": [
+     "The fee isn't the scam. Running UPI costs money, and someone was always paying.",
+     "You just won't see it in the price. You'll see it when the scanner suddenly \"isn't working\" once the meter crosses ₹2,000."
+    ],
+    "why_swipe": "So how will I know when it reaches me?"
+   },
+   {
+    "paragraphs": [
+     "Diwali is over, and the fee was only parked.",
+     "Next time you fill up, read the paper stuck next to the QR. The first one saying \"UPI sirf ₹2,000 tak\" is the bill finding its way home."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Come back to this the next time the pump attendant points you to the card machine.",
+   "send": "Send to the friend who pays for everything by UPI and hasn't carried a note since 2020.",
+   "promise": "Who really pays for what in India."
+  },
+  "alt_text": "A ten-slide text post arguing that UPI only feels free because the cost of running it was hidden from the people who use it most. Taking UPI costs shops nothing today. NPCI planned a 0.4% fee on shop payments above ₹2,000, paid by the shop, then parked it till after Diwali when retailers pushed back. Banks and payment apps want to recover the cost of running the network. Petrol pumps don't like the fee, and some have said they might stop taking UPI. On a ₹3,000 fill the fee is ₹12, and since the pump owner doesn't set the petrol price, it comes out of his own cut. The post says customers won't feel it in the price but in pumps refusing UPI on big fills, and ends by telling readers to watch for a 'UPI only up to ₹2,000' note next to the QR code.",
+  "claims": [
+   {
+    "text": "Shops currently pay nothing to accept UPI (zero-MDR regime).",
+    "source_url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments"
+   },
+   {
+    "text": "NPCI planned a 0.4% fee on merchant UPI payments above ₹2,000.",
+    "source_url": "topic"
+   },
+   {
+    "text": "The fee would be paid by merchants, not consumers.",
+    "source_url": "https://www.dtnext.in/news/business/upi-fee-why-govt-is-putting-a-price-on-big-merchant-payments"
+   },
+   {
+    "text": "After retailer pushback, NPCI deferred the fee until after Diwali.",
+    "source_url": "https://www.theweek.in/news/biz-tech/2026/10/13/npci-defers-upi-mdr-until-after-diwali.amp.html"
+   },
+   {
+    "text": "Banks and payment firms say they need to recover the cost of running the network.",
+    "source_url": "topic"
+   },
+   {
+    "text": "Petrol pump operators opposed the fee, and some warned they could stop accepting UPI.",
+    "source_url": "topic"
+   },
+   {
+    "text": "0.4% on a ₹3,000 petrol fill is ₹12.",
+    "source_url": "topic",
+    "derived_from": "₹3,000 × 0.4% = ₹12"
+   }
+  ],
+  "caption": "UPI charges never land on you. They land on the shop, because you're the one who can walk away.\n\nRunning UPI was never free. The only question was who gets the bill.\n\nAt the pump once the meter crosses ₹2,000: \"Bhaiya, scanner kaam nahi kar raha, cash de do.\"\n\nSend this to the friend who pays for everything by UPI and hasn't carried a note in years.",
+  "hashtags": [
+   "#UPICharges",
+   "#PersonalFinanceIndia"
+  ],
+  "caption_style": "send",
+  "search_phrase": "UPI charges",
+  "caption_v": 2
+ }
 }
