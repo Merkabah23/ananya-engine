@@ -1,6 +1,6 @@
 {
  "id": "2026-11-145",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-27T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -140,9 +140,371 @@
    "problems": [
     "Slide 7 has 44 words; the limit is 42. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide."
    ]
+  },
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 3,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 3,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "slide 6: the stat and the pricing idea are side by side with nothing joining them, so the reader can't tell what 17% proves. Say it plainly: rent is only about 17% of what Blue Tokai takes in, so your ₹300 isn't paying back the chair's cost. It's priced against your other option, which is the flat with the flatmate on speaker. Also cut 'Anyone who has priced a product knows'. It reads like a credential nod. Say it straight: 'Cafés don't price off their costs. They price off your other option.' This is the post's because and its one real insight, so it has to land in one read.",
+     "slide 2: 'The drink is just how the café lets you stay' repeats slide 1's 'ticket to a chair', and slide 4's 'Rent's due' says it a third time. Cut the line and use slide 2 for the moment the reader actually lives, with one insider detail: you check which table is near the socket before you look at the menu, or you crawl under the table hunting for a plug. Add one detail beyond sight here, like the AC hum or the milk steamer screaming just as your call connects.",
+     "slide 7: 'That's real.' is filler and softens the mixed feeling into a pat line. End on 'somewhere to work, meet and breathe.' Keep 'I've taken more calls over coffee I didn't want than I'd like to admit'. It is a good habitual admission and fits lived=true.",
+     "slide 5: the because stops at 'cities have nowhere free to sit'. Push it one step to who gains: when every chair outside home comes with a menu, the café isn't competing with the café next door. It's competing with your bedroom, and it knows your bedroom has a flatmate in it. That sets up slide 6 so the pricing point feels earned, not dropped in.",
+     "slide 9: the test works, but the list 'clean park with shade, a bench and free Wi-Fi, two minutes from your flat' is long for a close. Trim it to 'a shaded bench with free Wi-Fi down your lane'. Keep 'If not, that ₹300 was rent.' as the final beat so the cover's word 'ticket' pays off as 'rent' cleanly."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "slide 6: the stat and the pricing idea are side by side with nothing joining them, so the reader can't tell what 17% proves. Say it plainly: rent is only about 17% of what Blue Tokai takes in, so your ₹300 isn't paying back the chair's cost. It's priced against your other option, which is the flat with the flatmate on speaker. Also cut 'Anyone who has priced a product knows'. It reads like a credential nod. Say it straight: 'Cafés don't price off their costs. They price off your other option.' This is the post's because and its one real insight, so it has to land in one read.",
+    "slide 2: 'The drink is just how the café lets you stay' repeats slide 1's 'ticket to a chair', and slide 4's 'Rent's due' says it a third time. Cut the line and use slide 2 for the moment the reader actually lives, with one insider detail: you check which table is near the socket before you look at the menu, or you crawl under the table hunting for a plug. Add one detail beyond sight here, like the AC hum or the milk steamer screaming just as your call connects.",
+    "slide 7: 'That's real.' is filler and softens the mixed feeling into a pat line. End on 'somewhere to work, meet and breathe.' Keep 'I've taken more calls over coffee I didn't want than I'd like to admit'. It is a good habitual admission and fits lived=true.",
+    "slide 5: the because stops at 'cities have nowhere free to sit'. Push it one step to who gains: when every chair outside home comes with a menu, the café isn't competing with the café next door. It's competing with your bedroom, and it knows your bedroom has a flatmate in it. That sets up slide 6 so the pricing point feels earned, not dropped in.",
+    "slide 9: the test works, but the list 'clean park with shade, a bench and free Wi-Fi, two minutes from your flat' is long for a close. Trim it to 'a shaded bench with free Wi-Fi down your lane'. Keep 'If not, that ₹300 was rent.' as the final beat so the cover's word 'ticket' pays off as 'rent' cleanly."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3,
+     "informative": 4
+    },
+    "notes": [
+     "All five notes from the last round are settled. Slide 7 now joins the stat to the pricing idea in plain words, with no credential nod. Slide 8 ends on 'somewhere to work, meet and breathe.' Slide 6 now carries 'It's your bedroom.' Slide 10 uses the trimmed bench line and ends on 'that ₹300 was rent.' Slide 3 has the plug check and the screaming milk steamer.",
+     "slide 2: the rewrite now repeats the cover. 'You wanted a table, a socket and one quiet hour' restates slide 1's 'a chair, a plug and Wi-Fi', and slide 3 mentions the plug again. Merge slides 2 and 3 into one slide. Open with 'You didn't even want a cold coffee.', then go straight to checking which table is near the plug before you look at the menu, and end on the milk steamer. This cuts a slide and gets the reader into the moment faster.",
+     "slide 5: 'Rent's due.' uses the word 'rent' before the close needs it, which blunts 'If not, that ₹300 was rent.' on the last slide. Swap it for something that keeps the joke without the word, for example: 'The waiter has walked past twice.' That way 'rent' lands for the first time at the close."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 3",
+      "line": "So you check which table is near the plug before you look at the menu. Then the milk steamer screams just as your call connects.",
+      "why": "scene narration where he'd give commentary",
+      "try": "You find the plug before you find the menu. And the milk steamer still goes off the second your call connects."
+     },
+     {
+      "where": "slide 7",
+      "line": "Cafés don't price off their costs. They price off your other option.",
+      "why": "stiff econ-essay wording, mirrored pair",
+      "try": "A café doesn't care what the chair costs it. It cares where else you could go."
+     },
+     {
+      "where": "slide 8",
+      "line": "They gave a whole generation without a spare room somewhere to work, meet and breathe.",
+      "why": "sentimental, sweeping 'a whole generation', triple list",
+      "try": "If you don't have a spare room, the café is where you work, date and get some air."
+     },
+     {
+      "where": "slide 9",
+      "line": "But it lands hardest on whoever has the least space. Three people in a 2BHK. A PG with no common room.",
+      "why": "abstract essay opener before the specifics",
+      "try": "But if you're one of three people in a 2BHK, or in a PG with no common room, this hits harder."
+     }
+    ],
+    "best": "And when your cup has been empty too long, you order a cookie you won't eat. Rent's due."
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Not Varun (slide 3): 'So you check which table is near the plug before you look at the menu. Then the milk steamer screams just as your call connects.' reads as scene narration where he'd give commentary. Say it the way he would, e.g. 'You find the plug before you find the menu. And the milk steamer still goes off the second your call connects.' (his register, your words, same facts).",
+    "Not Varun (slide 7): 'Cafés don't price off their costs. They price off your other option.' reads as stiff econ-essay wording, mirrored pair. Say it the way he would, e.g. 'A café doesn't care what the chair costs it. It cares where else you could go.' (his register, your words, same facts).",
+    "Not Varun (slide 8): 'They gave a whole generation without a spare room somewhere to work, meet and breathe.' reads as sentimental, sweeping 'a whole generation', triple list. Say it the way he would, e.g. 'If you don't have a spare room, the café is where you work, date and get some air.' (his register, your words, same facts).",
+    "Not Varun (slide 9): 'But it lands hardest on whoever has the least space. Three people in a 2BHK. A PG with no common room.' reads as abstract essay opener before the specifics. Say it the way he would, e.g. 'But if you're one of three people in a 2BHK, or in a PG with no common room, this hits harder.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "All four notes are settled. Slide 3 now gives commentary instead of narrating a scene. Slide 7 drops the econ-essay pair. Slide 8 loses the sweeping 'whole generation' line. Slide 9 opens on the specific people. None of the edits broke another rule. The 'I' on slide 8 is allowed because the topic is marked lived, and it describes a habit, not a one-off event.",
+     "slide 7 (optional, edited line only): 'It cares where you could go.' reads a touch flat. 'It cares where else you could go.' says more clearly that the café is pricing against your other option."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "varun": {
+    "pass": true,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 7",
+      "line": "A café doesn't care what the chair costs. It cares where you could go.",
+      "why": "dropped 'else', so the punch goes vague",
+      "try": "A café doesn't care what the chair costs it. It cares where else you could go."
+     }
+    ],
+    "best": "So every chair outside home comes with a menu."
+   }
+  },
+  {
+   "attempt": 2,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "The take's premise is wrong: Slide 7 says 'A café doesn't care what the chair costs… Your ₹300 isn't repaying the chair.' The 17% figure is roughly right as a reported number: FY25 rent was ₹55.2 Cr on ₹325.4 Cr of operating revenue, about 17%. The conclusion drawn from it does not follow, for three reasons. (1) A 17% rent line is one of a café chain's biggest costs. Rent was 14.3% of total expenses, sitting alongside ₹94 Cr of staff costs. (2) That revenue includes sales of coffee products (beans and retail), not just café orders, so rent as a share of café takings is likely higher than 17%. Lease costs can also be booked partly as depreciation instead of rent. The FY26 rent line fell to ₹26.65 Cr while depreciation nearly doubled to ₹87 Cr, which suggests that is happening here, though the reports don't explain it. (3) Blue Tokai lost ₹50 Cr in FY25 and ₹83 Cr in FY26. Its ₹300 drinks are not even covering its costs, so the price cannot be floating free of what the space costs.. How it actually works: Café menu prices start from costs: ingredients, staff, and occupancy (rent, fit-out, power), with occupancy usually a double-digit share of revenue. Prices are then pushed up to whatever customers will pay at that location. Customers' other options, including having nowhere else to sit, do shape what they will pay, but the price still has to cover the cost of the seat over time, and a loss-making chain like Blue Tokai shows that today's ₹300 doesn't yet. Rebuild the post on the correct mechanism.",
+     "Could not verify: 'Indian cities have almost no free public places to sit; libraries are rare and shaded benches are scarce.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Blue Tokai's rent is about 17% of its revenue (FY25).",
+      "sentence": "Rent is only about 17% of what Blue Tokai takes in.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Indian cities have almost no free public places to sit; libraries are rare and shaded benches are scarce.",
+      "sentence": "Because our cities have almost nowhere free to sit. Libraries are rare, and benches with shade are a luxury.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Café pricing is set by customers' alternatives (where they could go) rather than by the cost of the chair; the price is not repaying the chair's cost.",
+      "sentence": "A café doesn't care what the chair costs. It cares where you could go. Your ₹300 isn't repaying the chair.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2025-03-31",
+      "correct": "Blue Tokai's FY25 rent expense was Rs 55.16 crore on revenue of Rs 332.7 crore, which is about 16.6% of revenue (my calculation). That matches the claim of about 17%.",
+      "sources": [
+       {
+        "url": "https://startuppedia.in/trending/startup-news/founded-by-husband-wife-duo-in-2012-specialty-coffee-chain-blue-tokai-posts-rs-333-crore-revenue-in-fy25-narrows-losses-to-rs-50-crore-11150722",
+        "publisher": "Startuppedia",
+        "published_date": "2026-02-24",
+        "quote": "surged 67%, to Rs 55.16 crore in FY25",
+        "tier": 3
+       },
+       {
+        "url": "https://www.asianage.com/business/in-other-news/070819/high-operating-costs-troubling-coffee-shops.html",
+        "publisher": "Asian Age",
+        "published_date": "2019-08-07",
+        "quote": "Industry reporting puts rent at roughly 15-20% of a coffee shop's revenue, and up to 25% in prime locations.",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "unverifiable",
+      "correct": "Commentary and local reporting describe too few benches, hostile seating design and a lack of public places to read. I found no systematic national data on benches, shade or libraries, so 'almost no free places to sit' cannot be confirmed or refuted as stated. The evidence is anecdotal.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/india/2026/02/13/grand-buildings-vs-ground-realities-the-missing-public-spaces-of-delhi.html",
+        "publisher": "The Week",
+        "published_date": "2026-02-13",
+        "quote": "Grand buildings vs ground realities: The missing public spaces of Delhi",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "Slide 7 says 'A café doesn't care what the chair costs… Your ₹300 isn't repaying the chair.' The 17% figure is roughly right as a reported number: FY25 rent was ₹55.2 Cr on ₹325.4 Cr of operating revenue, about 17%. The conclusion drawn from it does not follow, for three reasons. (1) A 17% rent line is one of a café chain's biggest costs. Rent was 14.3% of total expenses, sitting alongside ₹94 Cr of staff costs. (2) That revenue includes sales of coffee products (beans and retail), not just café orders, so rent as a share of café takings is likely higher than 17%. Lease costs can also be booked partly as depreciation instead of rent. The FY26 rent line fell to ₹26.65 Cr while depreciation nearly doubled to ₹87 Cr, which suggests that is happening here, though the reports don't explain it. (3) Blue Tokai lost ₹50 Cr in FY25 and ₹83 Cr in FY26. Its ₹300 drinks are not even covering its costs, so the price cannot be floating free of what the space costs.",
+     "actual_mechanism": "Café menu prices start from costs: ingredients, staff, and occupancy (rent, fit-out, power), with occupancy usually a double-digit share of revenue. Prices are then pushed up to whatever customers will pay at that location. Customers' other options, including having nowhere else to sit, do shape what they will pay, but the price still has to cover the cost of the seat over time, and a loss-making chain like Blue Tokai shows that today's ₹300 doesn't yet.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://inc42.com/buzz/blue-tokais-fy25-loss-narrows-20-to-inr-50-cr/",
+       "published_date": "2026-01-06",
+       "quote": "Blue Tokai's rent costs stood at INR 55.2 Cr in FY25, up 67% from INR 33 Cr in FY24. It accounted for 14.3% of the total expenses."
+      },
+      {
+       "url": "https://entrackr.com/fintrackr/blue-tokai-posts-rs-325-cr-revenue-in-fy25-cuts-losses-by-21-10918097",
+       "published_date": "2025-12-17",
+       "quote": "Employee benefit expenses also rose 24% year-on-year to Rs 94 crore in FY25... reduced its losses by 20.6% to Rs 50 crore in FY25, from Rs 63 crore in FY24."
+      },
+      {
+       "url": "https://www.restaurantindia.in/news/blue-tokai-crosses-rs-500-crore-revenue-in-fy26-but-losses-surge-537.n17617",
+       "published_date": "2026-11-10",
+       "quote": "Rent expenses rose 59.6% to Rs 26.65 crore... depreciation nearly doubled to Rs 87 crore... its net losses widened 53.7% to Rs 83 crore from Rs 54 crore."
+      }
+     ]
+    },
+    "text_hash": "82e84330af6fde7ee3a814c1bda4140471bd90e8",
+    "at": "2026-11-13T07:10:03.648381+00:00"
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "The take's premise is wrong: Slide 7 says 'A café doesn't care what the chair costs… Your ₹300 isn't repaying the chair.' The 17% figure is roughly right as a reported number: FY25 rent was ₹55.2 Cr on ₹325.4 Cr of operating revenue, about 17%. The conclusion drawn from it does not follow, for three reasons. (1) A 17% rent line is one of a café chain's biggest costs. Rent was 14.3% of total expenses, sitting alongside ₹94 Cr of staff costs. (2) That revenue includes sales of coffee products (beans and retail), not just café orders, so rent as a share of café takings is likely higher than 17%. Lease costs can also be booked partly as depreciation instead of rent. The FY26 rent line fell to ₹26.65 Cr while depreciation nearly doubled to ₹87 Cr, which suggests that is happening here, though the reports don't explain it. (3) Blue Tokai lost ₹50 Cr in FY25 and ₹83 Cr in FY26. Its ₹300 drinks are not even covering its costs, so the price cannot be floating free of what the space costs.. How it actually works: Café menu prices start from costs: ingredients, staff, and occupancy (rent, fit-out, power), with occupancy usually a double-digit share of revenue. Prices are then pushed up to whatever customers will pay at that location. Customers' other options, including having nowhere else to sit, do shape what they will pay, but the price still has to cover the cost of the seat over time, and a loss-making chain like Blue Tokai shows that today's ₹300 doesn't yet. Rebuild the post on the correct mechanism.",
+    "Could not verify: 'Indian cities have almost no free public places to sit; libraries are rare and shaded benches are scarce.'. Cut it, or state it only if a source says it."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 3,
+     "eq": 4,
+     "iq": 3,
+     "story": 3,
+     "tight": 3,
+     "informative": 4
+    },
+    "notes": [
+     "slide 7: The first note is mostly settled. The post no longer says the price floats free of rent. But \"So yes, your ₹300 is paying for the chair.\" still jumps from 17% to the whole ₹300. Rebuild the slide on the real mechanism: rent is one of a café's biggest costs, the price is built to cover it, and Blue Tokai still isn't covering its costs. Try: \"About ₹50 of every ₹300 went to rent. The chain still lost money. That chair isn't cheap for them either.\" Add a claim for it with derived_from: 17% of ₹300 = ₹51.",
+     "slide 7: Cut \"You pay because the other choice is a flat with the flatmate on speaker.\" This edit brought in a third flatmate beat. Slide 4 already has \"someone on a call because the flatmate is home\" and slide 9 has the shared 2BHK. Let the cost point end the slide.",
+     "slide 6: \"Because outside home, no place lets you sit an hour. Each one wants an order first.\" is the unverified claim from the second note in new words. As written it is a statement about the whole city. Frame it as the reader's own experience instead, as the alt text already does: \"Try naming a place outside home where you can sit an hour without ordering. You'll struggle.\" Keep the bedroom line after it.",
+     "slide 10: \"If not, that ₹300 was rent.\" now clashes with slide 7, which shows only about a sixth of the price goes to rent. Point the test at what the reader was buying, not at the café's books. For example: \"If not, you didn't buy a coffee. You bought a seat.\" That also calls back to the cover's \"ticket to a chair\"."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "slide 7: The first note is mostly settled. The post no longer says the price floats free of rent. But \"So yes, your ₹300 is paying for the chair.\" still jumps from 17% to the whole ₹300. Rebuild the slide on the real mechanism: rent is one of a café's biggest costs, the price is built to cover it, and Blue Tokai still isn't covering its costs. Try: \"About ₹50 of every ₹300 went to rent. The chain still lost money. That chair isn't cheap for them either.\" Add a claim for it with derived_from: 17% of ₹300 = ₹51.",
+    "slide 7: Cut \"You pay because the other choice is a flat with the flatmate on speaker.\" This edit brought in a third flatmate beat. Slide 4 already has \"someone on a call because the flatmate is home\" and slide 9 has the shared 2BHK. Let the cost point end the slide.",
+    "slide 6: \"Because outside home, no place lets you sit an hour. Each one wants an order first.\" is the unverified claim from the second note in new words. As written it is a statement about the whole city. Frame it as the reader's own experience instead, as the alt text already does: \"Try naming a place outside home where you can sit an hour without ordering. You'll struggle.\" Keep the bedroom line after it.",
+    "slide 10: \"If not, that ₹300 was rent.\" now clashes with slide 7, which shows only about a sixth of the price goes to rent. Point the test at what the reader was buying, not at the café's books. For example: \"If not, you didn't buy a coffee. You bought a seat.\" That also calls back to the cover's \"ticket to a chair\"."
+   ]
+  },
+  {
+   "attempt": 4,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slide 7: Settled. The slide now rests on the real mechanism. Rent is one of a café's biggest costs, the price is built to cover it, it was about ₹50 of every ₹300 at Blue Tokai, and the chain still lost money. The leap to the whole ₹300 is gone. The new claim's derived_from is correct (17% of ₹300 = ₹51, about ₹50). The third flatmate beat is cut, so the slide ends on the cost point. No change needed.",
+     "slide 6: Settled. \"Try naming a place outside home where you can sit an hour without ordering. You'll struggle.\" is now the reader's own test, not an unverified statement about the city, and the bedroom line still lands after it. No change needed.",
+     "slide 10: Settled. \"If not, you didn't buy a coffee. You bought a seat.\" points the test at what the reader bought, no longer clashes with slide 7's one-sixth figure, and calls back to slide 1's \"ticket to a chair\". No change needed."
+    ]
+   }
+  },
+  {
+   "attempt": 4,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 7",
+      "line": "Rent is one of a café's biggest costs, and the menu price is built to cover it. At Blue Tokai, rent was about 17% of revenue in FY25. That's about ₹50 of every ₹300.",
+      "why": "facts as the hero, stiff explainer voice",
+      "try": "Blue Tokai spent about 17% of its FY25 revenue on rent. So roughly ₹50 of your ₹300 cold coffee is just paying for the chair. Rent is one of a café's biggest costs, and your bill is built to cover it."
+     },
+     {
+      "where": "slide 5",
+      "line": "Your cup sits empty too long. So you order a cookie you won't eat. Rent's due.",
+      "why": "cryptic punch, turn doesn't land",
+      "try": "Your cup's been empty a while, so you order a cookie you won't eat. That cookie is rent."
+     },
+     {
+      "where": "slide 9",
+      "line": "But say you share a 2BHK with two others, or live in a PG with no common room. This hits harder. For them, ₹300 an hour is the fee to leave their own room.",
+      "why": "generic 'this hits harder', pronoun drift",
+      "try": "Now if you share a 2BHK with two others, or live in a PG with no common room, it's worse. ₹300 an hour is what it costs you to leave your own room."
+     },
+     {
+      "where": "end.save",
+      "line": "Read it again when you order a second drink. It's just so the waiter stops hovering.",
+      "why": "stiff, the aside doesn't land",
+      "try": "Save this for the next time you order a second drink just so the waiter stops hovering."
+     },
+     {
+      "where": "slide 8",
+      "line": "I don't hate cafés for it. I've taken many calls over coffee I didn't want. More than I'd like to admit.",
+      "why": "stock phrase, soft confessional",
+      "try": "I don't hate cafés for it. Half my work calls have happened over a coffee I didn't want."
+     }
+    ],
+    "best": "The café's rival isn't the café next door. It's your bedroom."
+   }
+  },
+  {
+   "attempt": 4,
+   "problems": [
+    "Not Varun (slide 7): 'Rent is one of a café's biggest costs, and the menu price is built to cover it. At Blue Tokai, rent was about 17% of revenue in FY25. That's about ₹50 of every ₹300.' reads as facts as the hero, stiff explainer voice. Say it the way he would, e.g. 'Blue Tokai spent about 17% of its FY25 revenue on rent. So roughly ₹50 of your ₹300 cold coffee is just paying for the chair. Rent is one of a café's biggest costs, and your bill is built to cover it.' (his register, your words, same facts).",
+    "Not Varun (slide 5): 'Your cup sits empty too long. So you order a cookie you won't eat. Rent's due.' reads as cryptic punch, turn doesn't land. Say it the way he would, e.g. 'Your cup's been empty a while, so you order a cookie you won't eat. That cookie is rent.' (his register, your words, same facts).",
+    "Not Varun (slide 9): 'But say you share a 2BHK with two others, or live in a PG with no common room. This hits harder. For them, ₹300 an hour is the fee to leave their own room.' reads as generic 'this hits harder', pronoun drift. Say it the way he would, e.g. 'Now if you share a 2BHK with two others, or live in a PG with no common room, it's worse. ₹300 an hour is what it costs you to leave your own room.' (his register, your words, same facts).",
+    "Not Varun (end.save): 'Read it again when you order a second drink. It's just so the waiter stops hovering.' reads as stiff, the aside doesn't land. Say it the way he would, e.g. 'Save this for the next time you order a second drink just so the waiter stops hovering.' (his register, your words, same facts).",
+    "Not Varun (slide 8): 'I don't hate cafés for it. I've taken many calls over coffee I didn't want. More than I'd like to admit.' reads as stock phrase, soft confessional. Say it the way he would, e.g. 'I don't hate cafés for it. Half my work calls have happened over a coffee I didn't want.' (his register, your words, same facts)."
+   ]
   }
  ],
- "updated_at": "2026-11-11T04:17:28.636127+00:00",
+ "updated_at": "2026-11-13T07:12:24.332241+00:00",
  "sources": [
   {
    "url": "https://startuppedia.in/trending/startup-news/founded-by-husband-wife-duo-in-2012-specialty-coffee-chain-blue-tokai-posts-rs-333-crore-revenue-in-fy25-narrows-losses-to-rs-50-crore-11150722",
@@ -156,5 +518,297 @@
    "excerpt": "Rentals, as a percentage of operating costs, have more than doubled in the last few years and eat away almost 15-20 per cent ... In prime locales, it even goes as high as 25 per cent.",
    "date": "2019-08-07"
   }
- ]
+ ],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] Your café cold coffee is really [a ticket to a chair]\nThe drink is the excuse. The table is the product.\n \n\n[slide 1] Your ₹300 cold coffee isn't the thing you're buying. It's a ticket to a chair, a plug and Wi-Fi.\nSwipe to read →\n\n[slide 2] You didn't even want a cold coffee. You wanted a table, a socket and one quiet hour for a work call.\n\n[slide 3] You find the plug before you find the menu. And the milk steamer still goes off the second your call connects.\n\n[slide 4] Walk into any Starbucks or Third Wave on a weekday:\n– a laptop on every table, one drink each\n– a first date that couldn't happen at either home\n– someone on a call because the flatmate is home\n\n[slide 5] And when your cup has been empty too long, you order a cookie you won't eat. Rent's due.\n\n[slide 6] Because our cities have almost nowhere free to sit. Libraries are rare, and benches with shade are a luxury.\nSo every chair outside home comes with a menu. The café's rival isn't the café next door. It's your bedroom.\n\n[slide 7] A café doesn't care what the chair costs. It cares where you could go.\nRent is only about 17% of what Blue Tokai takes in. Your ₹300 isn't repaying the chair.\nIt's priced against the flat with the flatmate on speaker.\n\n[slide 8] I don't hate cafés for it. I've taken more calls over coffee I didn't want than I'd like to admit.\nIf you don't have a spare room, the café is where you work, date and get some air.\n\n[slide 9] But if you're one of three people in a 2BHK, or in a PG with no common room, this hits harder.\nFor them, ₹300 an hour is the entry fee to step out of their own room.\n\n[slide 10] Picture a shaded bench with free Wi-Fi down your lane.\nWould you still order the cold coffee?\nIf not, that ₹300 was rent.\n\n[end card] Read it again the next time you order a second drink just so the waiter stops hovering.\nSend to the friend who 'works from a café' three days a week and calls it a coffee habit.\n\n[caption] When you're working from a café, the coffee is just how they bill you for the chair, the plug and the Wi-Fi.\n\nOur cities have almost nowhere free to sit, so every seat outside home comes with a menu.\n\n\"Chal, café mein baith ke kaam karte hain\" usually means \"ghar pe jagah nahi hai.\"\n\nSend this to the friend who 'works from a café' three days a week and still calls it a coffee habit.\n\n[alt text] A ten-slide text post arguing that café coffee in Indian cities is mostly a ticket to a seat, a plug and Wi-Fi, because there are few free public places to sit. It describes finding the plug before the menu and the milk steamer going off as a call connects, then lists the laptop crowd, first dates and calls taken away from flatmates. It says the café's real rival is your bedroom, not the café next door. It notes that Blue Tokai's rent was about 17% of its revenue in FY25, so the price isn't paying back the chair; a café cares where else you could go, and prices against the flat with a flatmate on speaker. It admits that without a spare room, the café is where you work, date and get some air, and says the cost hits harder for people sharing a 2BHK or living in a PG. It ends by asking whether you'd still buy the coffee if there were a shaded bench with free Wi-Fi down your lane.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Blue Tokai's rent is about 17% of its revenue (FY25).",
+     "sentence": "Rent is only about 17% of what Blue Tokai takes in.",
+     "type": "figure",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "Indian cities have almost no free public places to sit; libraries are rare and shaded benches are scarce.",
+     "sentence": "Because our cities have almost nowhere free to sit. Libraries are rare, and benches with shade are a luxury.",
+     "type": "figure",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c3",
+     "text": "Café pricing is set by customers' alternatives (where they could go) rather than by the cost of the chair; the price is not repaying the chair's cost.",
+     "sentence": "A café doesn't care what the chair costs. It cares where you could go. Your ₹300 isn't repaying the chair.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "Blue Tokai's rent is about 17% of its revenue (FY25).": {
+   "id": "c1",
+   "verdict": "supported",
+   "event_date": "2025-03-31",
+   "correct": "Blue Tokai's FY25 rent expense was Rs 55.16 crore on revenue of Rs 332.7 crore, which is about 16.6% of revenue (my calculation). That matches the claim of about 17%.",
+   "sources": [
+    {
+     "url": "https://startuppedia.in/trending/startup-news/founded-by-husband-wife-duo-in-2012-specialty-coffee-chain-blue-tokai-posts-rs-333-crore-revenue-in-fy25-narrows-losses-to-rs-50-crore-11150722",
+     "publisher": "Startuppedia",
+     "published_date": "2026-02-24",
+     "quote": "surged 67%, to Rs 55.16 crore in FY25",
+     "tier": 3
+    },
+    {
+     "url": "https://www.asianage.com/business/in-other-news/070819/high-operating-costs-troubling-coffee-shops.html",
+     "publisher": "Asian Age",
+     "published_date": "2019-08-07",
+     "quote": "Industry reporting puts rent at roughly 15-20% of a coffee shop's revenue, and up to 25% in prime locations.",
+     "tier": 2
+    }
+   ]
+  },
+  "Indian cities have almost no free public places to sit; libraries are rare and shaded benches are scarce.": {
+   "id": "c2",
+   "verdict": "unverifiable",
+   "correct": "Commentary and local reporting describe too few benches, hostile seating design and a lack of public places to read. I found no systematic national data on benches, shade or libraries, so 'almost no free places to sit' cannot be confirmed or refuted as stated. The evidence is anecdotal.",
+   "sources": [
+    {
+     "url": "https://www.theweek.in/news/india/2026/02/13/grand-buildings-vs-ground-realities-the-missing-public-spaces-of-delhi.html",
+     "publisher": "The Week",
+     "published_date": "2026-02-13",
+     "quote": "Grand buildings vs ground realities: The missing public spaces of Delhi",
+     "tier": 2
+    }
+   ]
+  },
+  "_skeptic": {
+   "4e349e7104fdec0e32cc5498f383ec336fd8585f": {
+    "holds": false,
+    "broken_premise": "Slide 7 says 'A café doesn't care what the chair costs… Your ₹300 isn't repaying the chair.' The 17% figure is roughly right as a reported number: FY25 rent was ₹55.2 Cr on ₹325.4 Cr of operating revenue, about 17%. The conclusion drawn from it does not follow, for three reasons. (1) A 17% rent line is one of a café chain's biggest costs. Rent was 14.3% of total expenses, sitting alongside ₹94 Cr of staff costs. (2) That revenue includes sales of coffee products (beans and retail), not just café orders, so rent as a share of café takings is likely higher than 17%. Lease costs can also be booked partly as depreciation instead of rent. The FY26 rent line fell to ₹26.65 Cr while depreciation nearly doubled to ₹87 Cr, which suggests that is happening here, though the reports don't explain it. (3) Blue Tokai lost ₹50 Cr in FY25 and ₹83 Cr in FY26. Its ₹300 drinks are not even covering its costs, so the price cannot be floating free of what the space costs.",
+    "actual_mechanism": "Café menu prices start from costs: ingredients, staff, and occupancy (rent, fit-out, power), with occupancy usually a double-digit share of revenue. Prices are then pushed up to whatever customers will pay at that location. Customers' other options, including having nowhere else to sit, do shape what they will pay, but the price still has to cover the cost of the seat over time, and a loss-making chain like Blue Tokai shows that today's ₹300 doesn't yet.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://inc42.com/buzz/blue-tokais-fy25-loss-narrows-20-to-inr-50-cr/",
+      "published_date": "2026-01-06",
+      "quote": "Blue Tokai's rent costs stood at INR 55.2 Cr in FY25, up 67% from INR 33 Cr in FY24. It accounted for 14.3% of the total expenses."
+     },
+     {
+      "url": "https://entrackr.com/fintrackr/blue-tokai-posts-rs-325-cr-revenue-in-fy25-cuts-losses-by-21-10918097",
+      "published_date": "2025-12-17",
+      "quote": "Employee benefit expenses also rose 24% year-on-year to Rs 94 crore in FY25... reduced its losses by 20.6% to Rs 50 crore in FY25, from Rs 63 crore in FY24."
+     },
+     {
+      "url": "https://www.restaurantindia.in/news/blue-tokai-crosses-rs-500-crore-revenue-in-fy26-but-losses-surge-537.n17617",
+      "published_date": "2026-11-10",
+      "quote": "Rent expenses rose 59.6% to Rs 26.65 crore... depreciation nearly doubled to Rs 87 crore... its net losses widened 53.7% to Rs 83 crore from Rs 54 crore."
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "82e84330af6fde7ee3a814c1bda4140471bd90e8": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "The take's premise is wrong: Slide 7 says 'A café doesn't care what the chair costs… Your ₹300 isn't repaying the chair.' The 17% figure is roughly right as a reported number: FY25 rent was ₹55.2 Cr on ₹325.4 Cr of operating revenue, about 17%. The conclusion drawn from it does not follow, for three reasons. (1) A 17% rent line is one of a café chain's biggest costs. Rent was 14.3% of total expenses, sitting alongside ₹94 Cr of staff costs. (2) That revenue includes sales of coffee products (beans and retail), not just café orders, so rent as a share of café takings is likely higher than 17%. Lease costs can also be booked partly as depreciation instead of rent. The FY26 rent line fell to ₹26.65 Cr while depreciation nearly doubled to ₹87 Cr, which suggests that is happening here, though the reports don't explain it. (3) Blue Tokai lost ₹50 Cr in FY25 and ₹83 Cr in FY26. Its ₹300 drinks are not even covering its costs, so the price cannot be floating free of what the space costs.. How it actually works: Café menu prices start from costs: ingredients, staff, and occupancy (rent, fit-out, power), with occupancy usually a double-digit share of revenue. Prices are then pushed up to whatever customers will pay at that location. Customers' other options, including having nowhere else to sit, do shape what they will pay, but the price still has to cover the cost of the seat over time, and a loss-making chain like Blue Tokai shows that today's ₹300 doesn't yet. Rebuild the post on the correct mechanism.",
+     "Could not verify: 'Indian cities have almost no free public places to sit; libraries are rare and shaded benches are scarce.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Blue Tokai's rent is about 17% of its revenue (FY25).",
+      "sentence": "Rent is only about 17% of what Blue Tokai takes in.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Indian cities have almost no free public places to sit; libraries are rare and shaded benches are scarce.",
+      "sentence": "Because our cities have almost nowhere free to sit. Libraries are rare, and benches with shade are a luxury.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Café pricing is set by customers' alternatives (where they could go) rather than by the cost of the chair; the price is not repaying the chair's cost.",
+      "sentence": "A café doesn't care what the chair costs. It cares where you could go. Your ₹300 isn't repaying the chair.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2025-03-31",
+      "correct": "Blue Tokai's FY25 rent expense was Rs 55.16 crore on revenue of Rs 332.7 crore, which is about 16.6% of revenue (my calculation). That matches the claim of about 17%.",
+      "sources": [
+       {
+        "url": "https://startuppedia.in/trending/startup-news/founded-by-husband-wife-duo-in-2012-specialty-coffee-chain-blue-tokai-posts-rs-333-crore-revenue-in-fy25-narrows-losses-to-rs-50-crore-11150722",
+        "publisher": "Startuppedia",
+        "published_date": "2026-02-24",
+        "quote": "surged 67%, to Rs 55.16 crore in FY25",
+        "tier": 3
+       },
+       {
+        "url": "https://www.asianage.com/business/in-other-news/070819/high-operating-costs-troubling-coffee-shops.html",
+        "publisher": "Asian Age",
+        "published_date": "2019-08-07",
+        "quote": "Industry reporting puts rent at roughly 15-20% of a coffee shop's revenue, and up to 25% in prime locations.",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "unverifiable",
+      "correct": "Commentary and local reporting describe too few benches, hostile seating design and a lack of public places to read. I found no systematic national data on benches, shade or libraries, so 'almost no free places to sit' cannot be confirmed or refuted as stated. The evidence is anecdotal.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/india/2026/02/13/grand-buildings-vs-ground-realities-the-missing-public-spaces-of-delhi.html",
+        "publisher": "The Week",
+        "published_date": "2026-02-13",
+        "quote": "Grand buildings vs ground realities: The missing public spaces of Delhi",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "Slide 7 says 'A café doesn't care what the chair costs… Your ₹300 isn't repaying the chair.' The 17% figure is roughly right as a reported number: FY25 rent was ₹55.2 Cr on ₹325.4 Cr of operating revenue, about 17%. The conclusion drawn from it does not follow, for three reasons. (1) A 17% rent line is one of a café chain's biggest costs. Rent was 14.3% of total expenses, sitting alongside ₹94 Cr of staff costs. (2) That revenue includes sales of coffee products (beans and retail), not just café orders, so rent as a share of café takings is likely higher than 17%. Lease costs can also be booked partly as depreciation instead of rent. The FY26 rent line fell to ₹26.65 Cr while depreciation nearly doubled to ₹87 Cr, which suggests that is happening here, though the reports don't explain it. (3) Blue Tokai lost ₹50 Cr in FY25 and ₹83 Cr in FY26. Its ₹300 drinks are not even covering its costs, so the price cannot be floating free of what the space costs.",
+     "actual_mechanism": "Café menu prices start from costs: ingredients, staff, and occupancy (rent, fit-out, power), with occupancy usually a double-digit share of revenue. Prices are then pushed up to whatever customers will pay at that location. Customers' other options, including having nowhere else to sit, do shape what they will pay, but the price still has to cover the cost of the seat over time, and a loss-making chain like Blue Tokai shows that today's ₹300 doesn't yet.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://inc42.com/buzz/blue-tokais-fy25-loss-narrows-20-to-inr-50-cr/",
+       "published_date": "2026-01-06",
+       "quote": "Blue Tokai's rent costs stood at INR 55.2 Cr in FY25, up 67% from INR 33 Cr in FY24. It accounted for 14.3% of the total expenses."
+      },
+      {
+       "url": "https://entrackr.com/fintrackr/blue-tokai-posts-rs-325-cr-revenue-in-fy25-cuts-losses-by-21-10918097",
+       "published_date": "2025-12-17",
+       "quote": "Employee benefit expenses also rose 24% year-on-year to Rs 94 crore in FY25... reduced its losses by 20.6% to Rs 50 crore in FY25, from Rs 63 crore in FY24."
+      },
+      {
+       "url": "https://www.restaurantindia.in/news/blue-tokai-crosses-rs-500-crore-revenue-in-fy26-but-losses-surge-537.n17617",
+       "published_date": "2026-11-10",
+       "quote": "Rent expenses rose 59.6% to Rs 26.65 crore... depreciation nearly doubled to Rs 87 crore... its net losses widened 53.7% to Rs 83 crore from Rs 54 crore."
+      }
+     ]
+    },
+    "text_hash": "82e84330af6fde7ee3a814c1bda4140471bd90e8",
+    "at": "2026-11-13T07:10:03.648381+00:00"
+   }
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "Your café cold coffee is really [a ticket to a chair]",
+   "sub": "The drink is the excuse. The table is the product."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Your ₹300 cold coffee isn't the thing you're buying. It's a ticket to a chair, a plug and Wi-Fi.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "If not the coffee, then what exactly am I paying for?"
+   },
+   {
+    "paragraphs": [
+     "You didn't even want a cold coffee. You wanted a table, a socket and one quiet hour. For a work call."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "You find the plug before you find the menu. And the milk steamer still goes off the second your call connects."
+    ],
+    "why_swipe": "Is this just me, or everyone?"
+   },
+   {
+    "paragraphs": [
+     "Walk into any Starbucks or Third Wave on a weekday:\n– a laptop on every table, one drink each\n– a first date that couldn't happen at either home\n– someone on a call because the flatmate is home"
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "Your cup sits empty too long. So you order a cookie you won't eat. Rent's due."
+    ],
+    "why_swipe": "Why do we all end up in cafés for this?"
+   },
+   {
+    "paragraphs": [
+     "Try naming a place outside home where you can sit an hour without ordering. You'll struggle.",
+     "So every chair outside home comes with a menu. The café's rival isn't the café next door. It's your bedroom."
+    ],
+    "why_swipe": "So how does the café use that?"
+   },
+   {
+    "paragraphs": [
+     "Rent is one of a café's biggest costs, and the menu price is built to cover it.",
+     "At Blue Tokai, rent was about 17% of revenue in FY25. That's about ₹50 of every ₹300.",
+     "The chain still lost money."
+    ],
+    "why_swipe": "So is the café the villain here?"
+   },
+   {
+    "paragraphs": [
+     "I don't hate cafés for it. I've taken many calls over coffee I didn't want. More than I'd like to admit.",
+     "No spare room? The café is where you work, date and get some air."
+    ],
+    "why_swipe": "Then who is actually paying the price?"
+   },
+   {
+    "paragraphs": [
+     "But say you share a 2BHK with two others, or live in a PG with no common room. This hits harder.",
+     "For them, ₹300 an hour is the fee to leave their own room."
+    ],
+    "why_swipe": "How do I know what I really paid for?"
+   },
+   {
+    "paragraphs": [
+     "Picture a shaded bench with free Wi-Fi down your lane.",
+     "Would you still order the cold coffee?",
+     "If not, you didn't buy a coffee. You bought a seat."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Read it again when you order a second drink. It's just so the waiter stops hovering.",
+   "send": "Send to the friend who 'works from a café' three days a week. They call it a coffee habit.",
+   "promise": "How Indian money and status really move."
+  },
+  "alt_text": "A ten-slide text post arguing that café coffee in Indian cities is mostly a ticket to a seat, a plug and Wi-Fi. It describes finding the plug before the menu and the milk steamer going off as a call connects, then lists the laptop crowd, first dates and calls taken away from flatmates. It asks the reader to name a place outside home where they can sit an hour without ordering, and says the café's real rival is your bedroom, not the café next door. It explains that rent is one of a café's biggest costs and the menu price is built to cover it: at Blue Tokai, rent was about 17% of revenue in FY25, about ₹50 of every ₹300, and the chain still lost money. It admits that without a spare room, the café is where you work, date and get some air, and says the cost hits harder for people sharing a 2BHK or living in a PG. It ends by asking whether you'd still buy the coffee if there were a shaded bench with free Wi-Fi down your lane. If not, you didn't buy a coffee, you bought a seat.",
+  "claims": [
+   {
+    "text": "At Blue Tokai, rent was about 17% of revenue in FY25.",
+    "source_url": "https://startuppedia.in/trending/startup-news/founded-by-husband-wife-duo-in-2012-specialty-coffee-chain-blue-tokai-posts-rs-333-crore-revenue-in-fy25-narrows-losses-to-rs-50-crore-11150722",
+    "derived_from": "FY25 rent Rs 55.16 crore / revenue Rs 332.7 crore = 16.6%, about 17%"
+   },
+   {
+    "text": "That's about ₹50 of every ₹300.",
+    "source_url": "https://startuppedia.in/trending/startup-news/founded-by-husband-wife-duo-in-2012-specialty-coffee-chain-blue-tokai-posts-rs-333-crore-revenue-in-fy25-narrows-losses-to-rs-50-crore-11150722",
+    "derived_from": "17% of ₹300 = ₹51, about ₹50"
+   },
+   {
+    "text": "The chain still lost money.",
+    "source_url": "https://startuppedia.in/trending/startup-news/founded-by-husband-wife-duo-in-2012-specialty-coffee-chain-blue-tokai-posts-rs-333-crore-revenue-in-fy25-narrows-losses-to-rs-50-crore-11150722"
+   },
+   {
+    "text": "Rent is one of a café's biggest costs.",
+    "source_url": "https://www.asianage.com/business/in-other-news/070819/high-operating-costs-troubling-coffee-shops.html"
+   }
+  ]
+ }
 }

@@ -1,6 +1,6 @@
 {
  "id": "2026-11-117",
- "status": "planned",
+ "status": "uploaded",
  "due": "2026-11-30T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -32,7 +32,527 @@
   "news_peg": null,
   "proof": []
  },
- "history": [],
+ "history": [
+  {
+   "attempt": 0,
+   "problems": [
+    "Slide 6: this sentence has 27 words, max 22: 'You can announce the biggest thing of your year over dinner and watch ...'"
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 5,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 3
+    },
+    "notes": [
+     "slide 6: settled. The 27-word line is now two sentences of 11 and 7 words ('You can announce the biggest thing of your year over dinner. Then watch it slide right past them.'). It reads cleanly and repeats no other slide, so no further change is needed."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 6",
+      "line": "You can announce the biggest thing of your year over dinner. Then watch it slide right past them. It isn't the thing they were listening for.",
+      "why": "scene narration over three beats, then the turn spelled out",
+      "try": "Your biggest news of the year slides right past them at dinner. Wrong frequency."
+     },
+     {
+      "where": "slide 8",
+      "line": "It's not control, mostly. It's fear wearing a to-do list. They know they can't carry the worry forever. Every milestone is them asking permission to relax before time runs out.",
+      "why": "hedged 'mostly' blunts the punch; soft, wistful finish",
+      "try": "It's not control. It's fear wearing a to-do list. They can't carry the worry forever, so every milestone is them asking if they can finally relax before time runs out."
+     },
+     {
+      "where": "slide 9",
+      "line": "It still isn't fair that their peace hangs on your wedding date. But that's why arguing about the checklist never wins.",
+      "why": "stiff, lecture-ish phrasing",
+      "try": "Their peace hanging on your wedding date isn't fair. It's also why fighting them on the checklist goes nowhere."
+     },
+     {
+      "where": "slide 3",
+      "line": "So it feels like the goalpost keeps moving. The job came, and they asked about a house, and once the house came, it was the wedding.",
+      "why": "hedged opener, clunky narrated chain",
+      "try": "The goalpost keeps moving. First the job, then the house, then the wedding."
+     },
+     {
+      "where": "end.save",
+      "line": "Read it again before the next wedding-season visit when the 'settle' talk starts.",
+      "why": "stiff and over-long for a throwaway line",
+      "try": "Save this for wedding season. The 'settle' talk is coming."
+     }
+    ],
+    "best": "Your colleagues say congrats. Home says, \"company toh theek hai na?\""
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Not Varun (slide 6): 'You can announce the biggest thing of your year over dinner. Then watch it slide right past them. It isn't the thing they were listening for.' reads as scene narration over three beats, then the turn spelled out. Say it the way he would, e.g. 'Your biggest news of the year slides right past them at dinner. Wrong frequency.' (his register, your words, same facts).",
+    "Not Varun (slide 8): 'It's not control, mostly. It's fear wearing a to-do list. They know they can't carry the worry forever. Every milestone is them asking permission to relax before time runs out.' reads as hedged 'mostly' blunts the punch; soft, wistful finish. Say it the way he would, e.g. 'It's not control. It's fear wearing a to-do list. They can't carry the worry forever, so every milestone is them asking if they can finally relax before time runs out.' (his register, your words, same facts).",
+    "Not Varun (slide 9): 'It still isn't fair that their peace hangs on your wedding date. But that's why arguing about the checklist never wins.' reads as stiff, lecture-ish phrasing. Say it the way he would, e.g. 'Their peace hanging on your wedding date isn't fair. It's also why fighting them on the checklist goes nowhere.' (his register, your words, same facts).",
+    "Not Varun (slide 3): 'So it feels like the goalpost keeps moving. The job came, and they asked about a house, and once the house came, it was the wedding.' reads as hedged opener, clunky narrated chain. Say it the way he would, e.g. 'The goalpost keeps moving. First the job, then the house, then the wedding.' (his register, your words, same facts).",
+    "Not Varun (end.save): 'Read it again before the next wedding-season visit when the 'settle' talk starts.' reads as stiff and over-long for a throwaway line. Say it the way he would, e.g. 'Save this for wedding season. The 'settle' talk is coming.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 5,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 3
+    },
+    "notes": [
+     "All five notes from the last draft are settled. Slide 3 is now a clean chain ('The job, then the house, then the wedding.'). Slide 6 lands as a two-beat punch ('They were tuned to a different station.'). Slide 8 drops the hedge and states the because straight. Slide 9 reads as speech, not a lecture. The save line is short and throwaway. No new hard failures came in with the edits.",
+     "alt_text: it says 'A seven-slide text post', but the post has ten slides. Change it to 'A ten-slide text post' so the description matches what screen-reader users get."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "varun": {
+    "pass": true,
+    "score": 5,
+    "misses": [],
+    "best": "It's not control. It's fear wearing a to-do list."
+   }
+  },
+  {
+   "attempt": 2,
+   "verification": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "When Indian parents say 'settle ho jao', the milestones they name (job, house, wedding) are stand-ins for their underlying worry about the child. Because the worry is what drives the request, ticking every milestone does not end it and the demand moves to the next milestone.",
+      "sentence": "\"Settle ho jao\" was never about marriage or a flat. It means: become someone we can stop worrying about.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "A sarkari (government) job comes with no layoffs.",
+      "sentence": "A sarkari job means no layoff email.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c2": {
+      "id": "c2",
+      "verdict": "misframed",
+      "correct": "Permanent, regular government employees have strong job security. Article 311 of the Constitution bars dismissal, removal or demotion without an inquiry. It is not a guarantee of no job loss. Dismissal is allowed after an inquiry, and the inquiry can be skipped after a criminal conviction, when it is impracticable, or for state security. Contract, outsourced and temporary workers in government and PSU jobs are regularly let go, for example more than 1,200 Haryana contract staff and SAIL's cut to its contract workforce. A blanket 'no layoffs' is too absolute. It holds only for regular posts, as protection from arbitrary removal.",
+      "sources": [
+       {
+        "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/article-311-of-the-constitution",
+        "publisher": "Drishti IAS",
+        "published_date": "2021-05-13",
+        "quote": "no civil servant shall be dismissed or removed or reduced in rank except after an inquiry (Article 311(2)); exceptions: criminal conviction, not reasonably practicable to hold inquiry, security of the State",
+        "tier": 3
+       },
+       {
+        "url": "https://www.hrkatha.com/news/haryana-government-ends-contracts-of-over-1200-employees/",
+        "publisher": "HRKatha",
+        "published_date": "2021-01-01",
+        "quote": "Haryana government ends contracts of over 1,200 employees",
+        "tier": 3
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. Most of the post is opinion: it reads the parents' motive, uses the goalpost-moving pattern, and makes generalizations about family calls, so none of that can be proven false. The checkable claims hold in substance. Owning a house removes the landlord's power to evict you, though if you stop paying the EMI the lender can take the property under SARFAESI. That's a small caveat, not a broken premise. Indian government jobs have constitutional protection from summary dismissal under Article 311, so 'no layoff email' is a fair shorthand. There are exceptions: dismissal after a criminal conviction, cases where an inquiry isn't practical, and cases involving state security. Defence personnel aren't covered. Contract and temporary government staff have weaker protection. A startup offer can be large on paper and still carry real layoff and ESOP risk, so the parents' 'company toh theek hai na?' is a reasonable question.",
+     "actual_mechanism": "The post doesn't depend on any product, price, fee, law or market working a certain way. Its claim is about why parents keep asking, and that's an interpretation. The few concrete facts it uses are broadly accurate. Clause (2) of Article 311 bars dismissing, removing or demoting a civil servant without an inquiry and a hearing. That's the job security parents mean by 'sarkari'. An owned flat removes landlord eviction risk, though a home loan brings foreclosure risk instead. Because the security premises hold and the rest is opinion, the conclusion follows on the post's own terms.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://blog.ipleaders.in/article-311-of-the-indian-constitution/",
+       "published_date": "unknown",
+       "quote": "Constitution of India, Art. 311(2) (text recalled from memory; neither this page nor the official text was opened to check it): 'No such person as aforesaid shall be dismissed or removed or reduced in rank except after an inquiry in which he has been informed of the charges against him and given a reasonable opportunity of being heard in respect of those charges.'"
+      },
+      {
+       "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/article-311-of-the-constitution",
+       "published_date": "2021-05-13",
+       "quote": "Paraphrase from search summary, not verbatim: Article 311 limits the President's or Governor's 'doctrine of pleasure' power under Article 310. It requires an inquiry before a civil servant is dismissed, with exceptions for criminal conviction, impracticability and state security."
+      }
+     ]
+    },
+    "text_hash": "1077b8d1e3983fe6b8d5f8a5f4bb656c1444b900",
+    "at": "2026-11-13T07:09:41.192992+00:00"
+   }
+  }
+ ],
  "sources": [],
- "updated_at": "2026-11-10T15:59:34.910782+00:00"
+ "updated_at": "2026-11-13T07:12:42.408251+00:00",
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] [Settle ho jao] was never about marriage or a flat\nYou ticked every box. The sigh didn't change.\n \n\n[slide 1] \"Settle ho jao\" was never about marriage or a flat. It means: become someone we can stop worrying about.\nSwipe to read →\n\n[slide 2] You've done the list. The promotion, a flat on EMI, an emergency fund, even a term plan you didn't fully understand.\nYou say all of it on the Sunday call. And mummy still sighs, \"Bas ab settle ho jao.\"\n\n[slide 3] The goalpost keeps moving. The job, then the house, then the wedding.\nAfter the wedding, every call ends with a hopeful pause and then \"good news kab?\"\n\n[slide 4] Because the list was never the point. Parents can't say \"we lie awake about you\" to a grown child on a Sunday call. So they name things they can point at.\n\n[slide 5] A spouse means someone else notices when you stop picking up the phone. A house means no landlord can ask you to leave. A sarkari job means no layoff email.\n\n[slide 6] This is also why your wins don't land at home. Your biggest news of the year slides right past them at dinner. They were tuned to a different station.\n\n[slide 7] A big package at a startup sounds like a risk to them. They don't hear the number. They hear whether the ground under you looks solid.\nYour colleagues say congrats. Home says, \"company toh theek hai na?\"\n\n[slide 8] It's not control. It's fear wearing a to-do list.\nThey can't carry the worry forever, and they know it. So every milestone is really them asking if they can relax before time runs out.\n\n[slide 9] Their peace hanging on your wedding date isn't fair. It's also why winning the checklist argument changes nothing.\n\n[slide 10] They're not asking when you'll get married.\nThey're asking when they can stop waiting up for your \"reached home\" message.\n\n[end card] Come back to this in wedding season. The 'settle' talk is coming.\nSend to the friend who hangs up angry every time their parents say 'settle ho jao.'\n\n[caption] Every time parents say settle ho jao, the checklist is just the part of the worry they can say out loud.\n\nIt's why ticking every box never ends the call. The worry just moves to the next one: job, flat, shaadi, then \"good news kab?\"\n\nSend this to the friend who hangs up angry every time their parents say 'settle ho jao.'\n\n[alt text] A seven-slide text post arguing that when Indian parents say 'settle ho jao', the milestones they name (a job, a house, a wedding) are stand-ins for what they really want: to stop worrying about their child before they run out of time. It ends by saying they are really asking when they can stop waiting up for a 'reached home' message.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "When Indian parents say 'settle ho jao', the milestones they name (job, house, wedding) are stand-ins for their underlying worry about the child. Because the worry is what drives the request, ticking every milestone does not end it and the demand moves to the next milestone.",
+     "sentence": "\"Settle ho jao\" was never about marriage or a flat. It means: become someone we can stop worrying about.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "A sarkari (government) job comes with no layoffs.",
+     "sentence": "A sarkari job means no layoff email.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "A sarkari (government) job comes with no layoffs.": {
+   "id": "c2",
+   "verdict": "misframed",
+   "correct": "Permanent, regular government employees have strong job security. Article 311 of the Constitution bars dismissal, removal or demotion without an inquiry. It is not a guarantee of no job loss. Dismissal is allowed after an inquiry, and the inquiry can be skipped after a criminal conviction, when it is impracticable, or for state security. Contract, outsourced and temporary workers in government and PSU jobs are regularly let go, for example more than 1,200 Haryana contract staff and SAIL's cut to its contract workforce. A blanket 'no layoffs' is too absolute. It holds only for regular posts, as protection from arbitrary removal.",
+   "sources": [
+    {
+     "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/article-311-of-the-constitution",
+     "publisher": "Drishti IAS",
+     "published_date": "2021-05-13",
+     "quote": "no civil servant shall be dismissed or removed or reduced in rank except after an inquiry (Article 311(2)); exceptions: criminal conviction, not reasonably practicable to hold inquiry, security of the State",
+     "tier": 3
+    },
+    {
+     "url": "https://www.hrkatha.com/news/haryana-government-ends-contracts-of-over-1200-employees/",
+     "publisher": "HRKatha",
+     "published_date": "2021-01-01",
+     "quote": "Haryana government ends contracts of over 1,200 employees",
+     "tier": 3
+    }
+   ]
+  },
+  "_skeptic": {
+   "128ce3a8ffe7ec8d1dbea0f40d87139b3d48f8a9": {
+    "holds": true,
+    "broken_premise": "None. Most of the post is opinion: it reads the parents' motive, uses the goalpost-moving pattern, and makes generalizations about family calls, so none of that can be proven false. The checkable claims hold in substance. Owning a house removes the landlord's power to evict you, though if you stop paying the EMI the lender can take the property under SARFAESI. That's a small caveat, not a broken premise. Indian government jobs have constitutional protection from summary dismissal under Article 311, so 'no layoff email' is a fair shorthand. There are exceptions: dismissal after a criminal conviction, cases where an inquiry isn't practical, and cases involving state security. Defence personnel aren't covered. Contract and temporary government staff have weaker protection. A startup offer can be large on paper and still carry real layoff and ESOP risk, so the parents' 'company toh theek hai na?' is a reasonable question.",
+    "actual_mechanism": "The post doesn't depend on any product, price, fee, law or market working a certain way. Its claim is about why parents keep asking, and that's an interpretation. The few concrete facts it uses are broadly accurate. Clause (2) of Article 311 bars dismissing, removing or demoting a civil servant without an inquiry and a hearing. That's the job security parents mean by 'sarkari'. An owned flat removes landlord eviction risk, though a home loan brings foreclosure risk instead. Because the security premises hold and the rest is opinion, the conclusion follows on the post's own terms.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://blog.ipleaders.in/article-311-of-the-indian-constitution/",
+      "published_date": "unknown",
+      "quote": "Constitution of India, Art. 311(2) (text recalled from memory; neither this page nor the official text was opened to check it): 'No such person as aforesaid shall be dismissed or removed or reduced in rank except after an inquiry in which he has been informed of the charges against him and given a reasonable opportunity of being heard in respect of those charges.'"
+     },
+     {
+      "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/article-311-of-the-constitution",
+      "published_date": "2021-05-13",
+      "quote": "Paraphrase from search summary, not verbatim: Article 311 limits the President's or Governor's 'doctrine of pleasure' power under Article 310. It requires an inquiry before a civil servant is dismissed, with exceptions for criminal conviction, impracticability and state security."
+     }
+    ]
+   }
+  },
+  "_skeptic_take": {
+   "b6fda0edc8cc1a4410b09e26f86c98a7ac197a73": {
+    "holds": true,
+    "broken_premise": "None. Most of the post is opinion: it reads the parents' motive, uses the goalpost-moving pattern, and makes generalizations about family calls, so none of that can be proven false. The checkable claims hold in substance. Owning a house removes the landlord's power to evict you, though if you stop paying the EMI the lender can take the property under SARFAESI. That's a small caveat, not a broken premise. Indian government jobs have constitutional protection from summary dismissal under Article 311, so 'no layoff email' is a fair shorthand. There are exceptions: dismissal after a criminal conviction, cases where an inquiry isn't practical, and cases involving state security. Defence personnel aren't covered. Contract and temporary government staff have weaker protection. A startup offer can be large on paper and still carry real layoff and ESOP risk, so the parents' 'company toh theek hai na?' is a reasonable question.",
+    "actual_mechanism": "The post doesn't depend on any product, price, fee, law or market working a certain way. Its claim is about why parents keep asking, and that's an interpretation. The few concrete facts it uses are broadly accurate. Clause (2) of Article 311 bars dismissing, removing or demoting a civil servant without an inquiry and a hearing. That's the job security parents mean by 'sarkari'. An owned flat removes landlord eviction risk, though a home loan brings foreclosure risk instead. Because the security premises hold and the rest is opinion, the conclusion follows on the post's own terms.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://blog.ipleaders.in/article-311-of-the-indian-constitution/",
+      "published_date": "unknown",
+      "quote": "Constitution of India, Art. 311(2) (text recalled from memory; neither this page nor the official text was opened to check it): 'No such person as aforesaid shall be dismissed or removed or reduced in rank except after an inquiry in which he has been informed of the charges against him and given a reasonable opportunity of being heard in respect of those charges.'"
+     },
+     {
+      "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/article-311-of-the-constitution",
+      "published_date": "2021-05-13",
+      "quote": "Paraphrase from search summary, not verbatim: Article 311 limits the President's or Governor's 'doctrine of pleasure' power under Article 310. It requires an inquiry before a civil servant is dismissed, with exceptions for criminal conviction, impracticability and state security."
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "1077b8d1e3983fe6b8d5f8a5f4bb656c1444b900": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "When Indian parents say 'settle ho jao', the milestones they name (job, house, wedding) are stand-ins for their underlying worry about the child. Because the worry is what drives the request, ticking every milestone does not end it and the demand moves to the next milestone.",
+      "sentence": "\"Settle ho jao\" was never about marriage or a flat. It means: become someone we can stop worrying about.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "A sarkari (government) job comes with no layoffs.",
+      "sentence": "A sarkari job means no layoff email.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c2": {
+      "id": "c2",
+      "verdict": "misframed",
+      "correct": "Permanent, regular government employees have strong job security. Article 311 of the Constitution bars dismissal, removal or demotion without an inquiry. It is not a guarantee of no job loss. Dismissal is allowed after an inquiry, and the inquiry can be skipped after a criminal conviction, when it is impracticable, or for state security. Contract, outsourced and temporary workers in government and PSU jobs are regularly let go, for example more than 1,200 Haryana contract staff and SAIL's cut to its contract workforce. A blanket 'no layoffs' is too absolute. It holds only for regular posts, as protection from arbitrary removal.",
+      "sources": [
+       {
+        "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/article-311-of-the-constitution",
+        "publisher": "Drishti IAS",
+        "published_date": "2021-05-13",
+        "quote": "no civil servant shall be dismissed or removed or reduced in rank except after an inquiry (Article 311(2)); exceptions: criminal conviction, not reasonably practicable to hold inquiry, security of the State",
+        "tier": 3
+       },
+       {
+        "url": "https://www.hrkatha.com/news/haryana-government-ends-contracts-of-over-1200-employees/",
+        "publisher": "HRKatha",
+        "published_date": "2021-01-01",
+        "quote": "Haryana government ends contracts of over 1,200 employees",
+        "tier": 3
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. Most of the post is opinion: it reads the parents' motive, uses the goalpost-moving pattern, and makes generalizations about family calls, so none of that can be proven false. The checkable claims hold in substance. Owning a house removes the landlord's power to evict you, though if you stop paying the EMI the lender can take the property under SARFAESI. That's a small caveat, not a broken premise. Indian government jobs have constitutional protection from summary dismissal under Article 311, so 'no layoff email' is a fair shorthand. There are exceptions: dismissal after a criminal conviction, cases where an inquiry isn't practical, and cases involving state security. Defence personnel aren't covered. Contract and temporary government staff have weaker protection. A startup offer can be large on paper and still carry real layoff and ESOP risk, so the parents' 'company toh theek hai na?' is a reasonable question.",
+     "actual_mechanism": "The post doesn't depend on any product, price, fee, law or market working a certain way. Its claim is about why parents keep asking, and that's an interpretation. The few concrete facts it uses are broadly accurate. Clause (2) of Article 311 bars dismissing, removing or demoting a civil servant without an inquiry and a hearing. That's the job security parents mean by 'sarkari'. An owned flat removes landlord eviction risk, though a home loan brings foreclosure risk instead. Because the security premises hold and the rest is opinion, the conclusion follows on the post's own terms.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://blog.ipleaders.in/article-311-of-the-indian-constitution/",
+       "published_date": "unknown",
+       "quote": "Constitution of India, Art. 311(2) (text recalled from memory; neither this page nor the official text was opened to check it): 'No such person as aforesaid shall be dismissed or removed or reduced in rank except after an inquiry in which he has been informed of the charges against him and given a reasonable opportunity of being heard in respect of those charges.'"
+      },
+      {
+       "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/article-311-of-the-constitution",
+       "published_date": "2021-05-13",
+       "quote": "Paraphrase from search summary, not verbatim: Article 311 limits the President's or Governor's 'doctrine of pleasure' power under Article 310. It requires an inquiry before a civil servant is dismissed, with exceptions for criminal conviction, impracticability and state security."
+      }
+     ]
+    },
+    "text_hash": "1077b8d1e3983fe6b8d5f8a5f4bb656c1444b900",
+    "at": "2026-11-13T07:09:41.192992+00:00"
+   }
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "[Settle ho jao] was never about marriage or a flat",
+   "sub": "You ticked every box. The sigh didn't change."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "\"Settle ho jao\" was never about marriage or a flat. It means: become someone we can stop worrying about.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "If it's not about marriage, then what is it about?"
+   },
+   {
+    "paragraphs": [
+     "You've done the list. The promotion, a flat on EMI, an emergency fund, even a term plan you didn't fully understand.",
+     "You say all of it on the Sunday call. And mummy still sighs, \"Bas ab settle ho jao.\""
+    ],
+    "why_swipe": "Why doesn't any of it count?"
+   },
+   {
+    "paragraphs": [
+     "The goalpost keeps moving. The job, then the house, then the wedding.",
+     "After the wedding, every call ends with a hopeful pause and then \"good news kab?\""
+    ],
+    "why_swipe": "Why does the list never end?"
+   },
+   {
+    "paragraphs": [
+     "Because the list was never the point. Parents can't say \"we lie awake about you\" to a grown child on a Sunday call. So they name things they can point at."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "A spouse means someone else notices when you stop picking up the phone. A house means no landlord can ask you to leave. A sarkari job means no layoff email."
+    ],
+    "why_swipe": "So what does that mean for everything you've achieved?"
+   },
+   {
+    "paragraphs": [
+     "This is also why your wins don't land at home. Your biggest news of the year slides right past them at dinner. They were tuned to a different station."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "A big package at a startup sounds like a risk to them. They don't hear the number. They hear whether the ground under you looks solid.",
+     "Your colleagues say congrats. Home says, \"company toh theek hai na?\""
+    ],
+    "why_swipe": "Is it control, or something else?"
+   },
+   {
+    "paragraphs": [
+     "It's not control. It's fear wearing a to-do list.",
+     "They can't carry the worry forever, and they know it. So every milestone is really them asking if they can relax before time runs out."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "Their peace hanging on your wedding date isn't fair. It's also why winning the checklist argument changes nothing."
+    ],
+    "why_swipe": "So what are they actually asking for?"
+   },
+   {
+    "paragraphs": [
+     "They're not asking when you'll get married.",
+     "They're asking when they can stop waiting up for your \"reached home\" message."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Come back to this in wedding season. The 'settle' talk is coming.",
+   "send": "Send to the friend who hangs up angry every time their parents say 'settle ho jao.'",
+   "promise": "What Indian families mean but never say."
+  },
+  "alt_text": "A seven-slide text post arguing that when Indian parents say 'settle ho jao', the milestones they name (a job, a house, a wedding) are stand-ins for what they really want: to stop worrying about their child before they run out of time. It ends by saying they are really asking when they can stop waiting up for a 'reached home' message.",
+  "claims": [],
+  "caption": "Every time parents say settle ho jao, the checklist is just the part of the worry they can say out loud.\n\nIt's why ticking every box never ends the call. The worry just moves to the next one: job, flat, shaadi, then \"good news kab?\"\n\nSend this to the friend who hangs up angry every time their parents say 'settle ho jao.'",
+  "hashtags": [
+   "#SettleHoJao",
+   "#IndianFamily"
+  ],
+  "caption_style": "send",
+  "search_phrase": "settle ho jao",
+  "caption_v": 2
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "When Indian parents say 'settle ho jao', the milestones they name (job, house, wedding) are stand-ins for their underlying worry about the child. Because the worry is what drives the request, ticking every milestone does not end it and the demand moves to the next milestone.",
+    "sentence": "\"Settle ho jao\" was never about marriage or a flat. It means: become someone we can stop worrying about.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "A sarkari (government) job comes with no layoffs.",
+    "sentence": "A sarkari job means no layoff email.",
+    "type": "feature",
+    "core": false,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c2": {
+    "id": "c2",
+    "verdict": "misframed",
+    "correct": "Permanent, regular government employees have strong job security. Article 311 of the Constitution bars dismissal, removal or demotion without an inquiry. It is not a guarantee of no job loss. Dismissal is allowed after an inquiry, and the inquiry can be skipped after a criminal conviction, when it is impracticable, or for state security. Contract, outsourced and temporary workers in government and PSU jobs are regularly let go, for example more than 1,200 Haryana contract staff and SAIL's cut to its contract workforce. A blanket 'no layoffs' is too absolute. It holds only for regular posts, as protection from arbitrary removal.",
+    "sources": [
+     {
+      "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/article-311-of-the-constitution",
+      "publisher": "Drishti IAS",
+      "published_date": "2021-05-13",
+      "quote": "no civil servant shall be dismissed or removed or reduced in rank except after an inquiry (Article 311(2)); exceptions: criminal conviction, not reasonably practicable to hold inquiry, security of the State",
+      "tier": 3
+     },
+     {
+      "url": "https://www.hrkatha.com/news/haryana-government-ends-contracts-of-over-1200-employees/",
+      "publisher": "HRKatha",
+      "published_date": "2021-01-01",
+      "quote": "Haryana government ends contracts of over 1,200 employees",
+      "tier": 3
+     }
+    ]
+   }
+  },
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "None. Most of the post is opinion: it reads the parents' motive, uses the goalpost-moving pattern, and makes generalizations about family calls, so none of that can be proven false. The checkable claims hold in substance. Owning a house removes the landlord's power to evict you, though if you stop paying the EMI the lender can take the property under SARFAESI. That's a small caveat, not a broken premise. Indian government jobs have constitutional protection from summary dismissal under Article 311, so 'no layoff email' is a fair shorthand. There are exceptions: dismissal after a criminal conviction, cases where an inquiry isn't practical, and cases involving state security. Defence personnel aren't covered. Contract and temporary government staff have weaker protection. A startup offer can be large on paper and still carry real layoff and ESOP risk, so the parents' 'company toh theek hai na?' is a reasonable question.",
+   "actual_mechanism": "The post doesn't depend on any product, price, fee, law or market working a certain way. Its claim is about why parents keep asking, and that's an interpretation. The few concrete facts it uses are broadly accurate. Clause (2) of Article 311 bars dismissing, removing or demoting a civil servant without an inquiry and a hearing. That's the job security parents mean by 'sarkari'. An owned flat removes landlord eviction risk, though a home loan brings foreclosure risk instead. Because the security premises hold and the rest is opinion, the conclusion follows on the post's own terms.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://blog.ipleaders.in/article-311-of-the-indian-constitution/",
+     "published_date": "unknown",
+     "quote": "Constitution of India, Art. 311(2) (text recalled from memory; neither this page nor the official text was opened to check it): 'No such person as aforesaid shall be dismissed or removed or reduced in rank except after an inquiry in which he has been informed of the charges against him and given a reasonable opportunity of being heard in respect of those charges.'"
+    },
+    {
+     "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/article-311-of-the-constitution",
+     "published_date": "2021-05-13",
+     "quote": "Paraphrase from search summary, not verbatim: Article 311 limits the President's or Governor's 'doctrine of pleasure' power under Article 310. It requires an inquiry before a civil servant is dismissed, with exceptions for criminal conviction, impracticability and state security."
+    }
+   ]
+  },
+  "text_hash": "1077b8d1e3983fe6b8d5f8a5f4bb656c1444b900",
+  "at": "2026-11-13T07:09:41.192992+00:00"
+ },
+ "varun": {
+  "pass": true,
+  "score": 5,
+  "misses": [],
+  "best": "It's not control. It's fear wearing a to-do list.",
+  "passed": true,
+  "text_hash": "1077b8d1e3983fe6b8d5f8a5f4bb656c1444b900"
+ },
+ "alt_texts": [
+  "\"Settle ho jao\" was never about marriage or a flat. It means: become someone we can stop worrying about.",
+  "You've done the list. The promotion, a flat on EMI, an emergency fund, even a term plan you didn't fully understand. You say all of it on the Sunday call. And mummy still sighs, \"Bas ab settle ho jao.\"",
+  "The goalpost keeps moving. The job, then the house, then the wedding. After the wedding, every call ends with a hopeful pause and then \"good news kab?\"",
+  "Because the list was never the point. Parents can't say \"we lie awake about you\" to a grown child on a Sunday call. So they name things they can point at.",
+  "A spouse means someone else notices when you stop picking up the phone. A house means no landlord can ask you to leave. A sarkari job means no layoff email.",
+  "This is also why your wins don't land at home. Your biggest news of the year slides right past them at dinner. They were tuned to a different station.",
+  "A big package at a startup sounds like a risk to them. They don't hear the number. They hear whether the ground under you looks solid. Your colleagues say congrats. Home says, \"company toh theek hai na?\"",
+  "It's not control. It's fear wearing a to-do list. They can't carry the worry forever, and they know it. So every milestone is really them asking if they can relax before time runs out.",
+  "Their peace hanging on your wedding date isn't fair. It's also why winning the checklist argument changes nothing.",
+  "They're not asking when you'll get married. They're asking when they can stop waiting up for your \"reached home\" message."
+ ],
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-117/slide_01.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-117/slide_02.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-117/slide_03.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-117/slide_04.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-117/slide_05.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-117/slide_06.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-117/slide_07.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-117/slide_08.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-117/slide_09.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-117/slide_10.jpg"
+ ]
 }
