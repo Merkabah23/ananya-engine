@@ -1,6 +1,6 @@
 {
  "id": "2026-11-136",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-26T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -84,6 +84,1209 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-11-10T17:17:08.389565+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 3,
+     "eq": 3,
+     "iq": 4,
+     "story": 3,
+     "tight": 3,
+     "informative": 4
+    },
+    "notes": [
+     "slide 2: \"Most of us read that number as the verdict. It's closer to a sales report.\" repeats slide 1 almost word for word. Replace it with the insider detail the topic already has: the Day 1 estimate went live at 2:03 PM, before most evening shows had even started. That is the strongest receipt in the post. The 'verdict' is out before most of the audience has sat down, so it can only be counting pre-sold seats. Phrase it as the afternoon estimate, with no exact time needed if it feels decorative.",
+     "slides 3-4: slide 4 (\"Every one of those seats was filled by promotion... The film hadn't done anything yet.\") only restates slide 3 and adds no new beat. Merge them: keep the three Friday-crowd images from slide 3, then land 'The film hadn't done anything yet' as the punch on the same slide. That frees a slide and stops the post from saying the idea twice.",
+     "slides 5-7: six figures in three slides (10.75, 3.65, a third, 4.10, 13%, 41) turns the middle into a box office explainer. The owner allows one or two facts per post. Keep one number per film. For Ranabaali: 'by Thursday it was making about a third of its Friday.' For Udta Teer: 'halls 13% full on Friday, and ten times its opening by the next weekend' (41/4.10 = 10, so add a derived_from). Put the Udta Teer beat on one slide, merging slides 6 and 7.",
+     "slide 7: \"People who watched it told people who hadn't.\" states a cause for this specific film that the source doesn't give, because Sacnilk only says it grew. State it as the general rule instead: 'Nobody spends on promotion after the weekend. When a film grows with half-empty halls, only one thing is doing the selling.' Variety India's word-of-mouth point supports that framing.",
+     "slide 10 / feeling: Ramayana is the hook, but it vanishes after slide 2. It is also stale, because its Day 7 has already passed, so 'wait for the following Thursday' doesn't land on the film the reader just saw. Call back to it with a test instead of a claim: 'Ramayana's Friday number was on every feed. Try finding its Thursday one.' Then end on 'That's the one figure no studio can buy.' That also lifts eq, because the reader feels how loud the sold number was and how quiet the earned one is. Right now slide 9's ₹1,000 line is the only sting in the post."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "slide 2: \"Most of us read that number as the verdict. It's closer to a sales report.\" repeats slide 1 almost word for word. Replace it with the insider detail the topic already has: the Day 1 estimate went live at 2:03 PM, before most evening shows had even started. That is the strongest receipt in the post. The 'verdict' is out before most of the audience has sat down, so it can only be counting pre-sold seats. Phrase it as the afternoon estimate, with no exact time needed if it feels decorative.",
+    "slides 3-4: slide 4 (\"Every one of those seats was filled by promotion... The film hadn't done anything yet.\") only restates slide 3 and adds no new beat. Merge them: keep the three Friday-crowd images from slide 3, then land 'The film hadn't done anything yet' as the punch on the same slide. That frees a slide and stops the post from saying the idea twice.",
+    "slides 5-7: six figures in three slides (10.75, 3.65, a third, 4.10, 13%, 41) turns the middle into a box office explainer. The owner allows one or two facts per post. Keep one number per film. For Ranabaali: 'by Thursday it was making about a third of its Friday.' For Udta Teer: 'halls 13% full on Friday, and ten times its opening by the next weekend' (41/4.10 = 10, so add a derived_from). Put the Udta Teer beat on one slide, merging slides 6 and 7.",
+    "slide 7: \"People who watched it told people who hadn't.\" states a cause for this specific film that the source doesn't give, because Sacnilk only says it grew. State it as the general rule instead: 'Nobody spends on promotion after the weekend. When a film grows with half-empty halls, only one thing is doing the selling.' Variety India's word-of-mouth point supports that framing.",
+    "slide 10 / feeling: Ramayana is the hook, but it vanishes after slide 2. It is also stale, because its Day 7 has already passed, so 'wait for the following Thursday' doesn't land on the film the reader just saw. Call back to it with a test instead of a claim: 'Ramayana's Friday number was on every feed. Try finding its Thursday one.' Then end on 'That's the one figure no studio can buy.' That also lifts eq, because the reader feels how loud the sold number was and how quiet the earned one is. Right now slide 9's ₹1,000 line is the only sting in the post."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Slide 9 (edit-introduced factual error, hard failure 2): \"Ramayana's Friday number was on every feed. Try finding its Thursday one.\" The topic dates Ramayana Part 1's release to 5 November 2026, which is a Thursday. Its Day 1 was a Thursday, so it has no 'Friday number' as an opening. 'Its Thursday one' is then either its opening day or Day 8. The close misstates the release, which is the one event the post is pegged to."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slide 9: Ramayana opened on Thursday 5 November, so 'Friday number' and 'Thursday one' are wrong for this film. Rewrite as: 'Ramayana's Day 1 number was on every feed. Try finding its Day 7 one.' Day 7 (11 November) has already passed, so the test works today. Keep 'That's the one figure no studio can buy.' as the closer. This also matches the topic's payoff ('look at the seventh day').",
+     "slide 3: after the merge, 'Advance tickets sold before anyone saw a single scene.' repeats slide 2's new line 'It could only be counting seats sold in advance.' Cut it, or swap in a different Friday-crowd image (the office group that booked on the day bookings opened, or someone who took a half-day for the first show). That keeps three images without saying 'advance' twice.",
+     "Settled from last round: slide 2 now carries the afternoon-estimate receipt; slides 3 and 4 are merged and land on 'The film hadn't done anything yet.'; the middle is down to one number per film, with derived_from entries that check out (3.65/10.75 = 0.34, about 41/4.10 = 10); slide 6 states the word-of-mouth rule in general terms; the close calls back to Ramayana with a test. Change only slides 9 and 3."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Slide 9 (edit-introduced factual error, hard failure 2): \"Ramayana's Friday number was on every feed. Try finding its Thursday one.\" The topic dates Ramayana Part 1's release to 5 November 2026, which is a Thursday. Its Day 1 was a Thursday, so it has no 'Friday number' as an opening. 'Its Thursday one' is then either its opening day or Day 8. The close misstates the release, which is the one event the post is pegged to.",
+    "slide 9: Ramayana opened on Thursday 5 November, so 'Friday number' and 'Thursday one' are wrong for this film. Rewrite as: 'Ramayana's Day 1 number was on every feed. Try finding its Day 7 one.' Day 7 (11 November) has already passed, so the test works today. Keep 'That's the one figure no studio can buy.' as the closer. This also matches the topic's payoff ('look at the seventh day').",
+    "slide 3: after the merge, 'Advance tickets sold before anyone saw a single scene.' repeats slide 2's new line 'It could only be counting seats sold in advance.' Cut it, or swap in a different Friday-crowd image (the office group that booked on the day bookings opened, or someone who took a half-day for the first show). That keeps three images without saying 'advance' twice.",
+    "Settled from last round: slide 2 now carries the afternoon-estimate receipt; slides 3 and 4 are merged and land on 'The film hadn't done anything yet.'; the middle is down to one number per film, with derived_from entries that check out (3.65/10.75 = 0.34, about 41/4.10 = 10); slide 6 states the word-of-mouth rule in general terms; the close calls back to Ramayana with a test. Change only slides 9 and 3."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slide 9: settled. 'Ramayana's Day 1 number was on every feed. Try finding its Day 7 one.' now matches the 5 November (Thursday) release. Day 7 (11 November) has already passed, so the test works today. 'That's the one figure no studio can buy.' still closes it. No further change.",
+     "slide 3: settled. The 'advance tickets' line is gone, so slide 2's 'seats sold in advance' is no longer repeated. One small polish on the new line only: 'The office group that booked the day bookings opened' says 'booked' twice. Change it to 'The office group that grabbed tickets the day bookings opened.' so it reads cleanly on first pass.",
+     "No other changes: every other slide was settled last round and should stay exactly as written."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "varun": {
+    "pass": false,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 7",
+      "line": "A loud opening sets the headlines and the talk, and shapes how the film sells to streaming. The slow Tuesday belongs to the audience.",
+      "why": "stiff essay phrasing, then a literary line where he'd be blunt",
+      "try": "A loud opening buys the headlines, gets everyone talking, and helps sell the film to streaming. Tuesday is when the audience gets a say."
+     },
+     {
+      "where": "slide 6",
+      "line": "When a film grows with half-empty halls, only one thing is doing the selling.",
+      "why": "coy riddle; he'd just say what it is",
+      "try": "So when a film grows from half-empty halls, that's word of mouth. People telling people."
+     },
+     {
+      "where": "slide 8",
+      "line": "And we fall for it for a fair reason.",
+      "why": "stiff, written phrasing",
+      "try": "And honestly, falling for it isn't dumb."
+     }
+    ],
+    "best": "Ramayana's Day 1 number was on every feed. Try finding its Day 7 one."
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Not Varun (slide 7): 'A loud opening sets the headlines and the talk, and shapes how the film sells to streaming. The slow Tuesday belongs to the audience.' reads as stiff essay phrasing, then a literary line where he'd be blunt. Say it the way he would, e.g. 'A loud opening buys the headlines, gets everyone talking, and helps sell the film to streaming. Tuesday is when the audience gets a say.' (his register, your words, same facts).",
+    "Not Varun (slide 6): 'When a film grows with half-empty halls, only one thing is doing the selling.' reads as coy riddle; he'd just say what it is. Say it the way he would, e.g. 'So when a film grows from half-empty halls, that's word of mouth. People telling people.' (his register, your words, same facts).",
+    "Not Varun (slide 8): 'And we fall for it for a fair reason.' reads as stiff, written phrasing. Say it the way he would, e.g. 'And honestly, falling for it isn't dumb.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "All three earlier notes are settled. Slide 6 now says it plainly ('that's word of mouth. People who watched it, telling their friends.'). Slide 7 is blunt ('A loud opening buys the headlines... Tuesday is when the audience gets its say.'). Slide 8 sounds like him ('And falling for it isn't stupid.'). Keep these lines as they are.",
+     "slide 6: 'Nobody spends on promotion after the weekend.' is stated as an absolute, and studios do keep some promotion going into week two. Soften it to something true, for example 'Most of the promotion money is spent before Friday.' That keeps the logic intact."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "varun": {
+    "pass": true,
+    "score": 5,
+    "misses": [],
+    "best": "Ramayana's Day 1 number was on every feed. Try finding its Day 7 one."
+   }
+  },
+  {
+   "attempt": 3,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "The take's premise is wrong: Premises 3, 5 and 6 are false. Studios do spend money after opening weekend, so Day 1 is not the only number a budget can move, and a Day 7 figure can be pushed up too. The best-known example is Jawan, released 7 September 2023. Its makers ran a buy-one-get-one-free ticket offer on BookMyShow, Paytm, PVR, INOX and Cinepolis for 28–30 September, in the film's third and fourth weeks. That is money spent to raise late collections. The Ramayana hook also fails on the facts. By Sacnilk's date the film opened on 5 November 2026, so on 26 November it did not come out 'last week'. Its Day 7 figure is also easy to find: Sacnilk, Koimoi and WION all published it (₹70.65 cr net per Sacnilk and WION, ₹73.75 cr per Koimoi). Premise 1 is also overstated. An afternoon early estimate is not just a count of advance bookings. Sacnilk says it projects the full day from ticket sales, bookings and seat occupancy tracked up to that point, and revises the figure as the day goes on.. How it actually works: Indian trade trackers like Sacnilk publish provisional same-day estimates. They project the whole day from live ticket-sales, booking and occupancy data, then revise them, and they publish daily figures for the entire run, including Day 7. Opening numbers do lean on pre-release hype, but the producers' spending doesn't stop after the weekend. They keep promoting and can run ticket offers like Jawan's buy-one-get-one deal or Bad Newz's second-week offer, so later days are not a pure word-of-mouth signal either. How well a film holds after opening is a better guide to audience reception than Day 1, but you have to read it net of any discounts or offers. Rebuild the post on the correct mechanism.",
+     "Could not verify: 'A loud opening helps sell a film to streaming platforms.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Two movie tickets and popcorn easily cost more than ₹1,000 now.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Ramayana Part 1 was released in the week before the post goes live (about a week before 26 Nov 2026).",
+      "sentence": "Ramayana Part 1 came out last week, and its Day 1 estimate was all over your feed by the afternoon.",
+      "type": "event",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c2",
+      "text": "A Day 1 box office estimate for Ramayana Part 1 was widely published on the afternoon of its release day.",
+      "sentence": "its Day 1 estimate was all over your feed by the afternoon.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c3",
+      "text": "The Ramayana Part 1 Day 1 estimate was published before most evening shows had started.",
+      "sentence": "That estimate went live before most evening shows had even started.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c4",
+      "text": "An estimate released before evening shows can only count seats sold in advance (advance bookings), not walk-in sales for those shows.",
+      "sentence": "It could only be counting seats sold in advance.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Friday morning hall audiences are mostly trailer-watching fans, fan clubs booking whole rows and office groups who booked as soon as bookings opened, before the film has proved anything.",
+      "sentence": "Think about who fills a hall on Friday morning. People who watched the trailer three times. Fan clubs booking whole rows. The office group that booked the day bookings opened.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "The film Ranabaali opened big at the box office.",
+      "sentence": "Ranabaali opened big",
+      "type": "event",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c7",
+      "text": "By its first Thursday, Ranabaali was earning about one third of its Friday collection.",
+      "sentence": "by Thursday it was making about a third of its Friday.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c8",
+      "text": "Udta Teer's halls were 13% full (occupancy) on its opening Friday.",
+      "sentence": "Halls were 13% full on Friday.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c9",
+      "text": "By the following weekend, Udta Teer had earned ten times its opening-day collection.",
+      "sentence": "By the next weekend, it had made ten times its opening.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c10",
+      "text": "Studios and producers do not spend on promotion after the opening weekend.",
+      "sentence": "Nobody spends on promotion after the weekend.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c11",
+      "text": "A film that grows from half-empty halls after promotion has ended is growing through word of mouth.",
+      "sentence": "So when a film grows from half-empty halls, that's word of mouth.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c12",
+      "text": "Day 1 is the one box office number a marketing budget can move.",
+      "sentence": "It's the one number a budget can move.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c13",
+      "text": "A loud opening helps sell a film to streaming platforms.",
+      "sentence": "A loud opening buys the headlines, gets everyone talking, and helps sell the film to streaming.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c14",
+      "text": "No studio can buy a film's Day 7 figure.",
+      "sentence": "That's the one figure no studio can buy.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c15",
+      "text": "Two movie tickets and popcorn easily cost more than ₹1,000 now.",
+      "sentence": "Two tickets and popcorn easily cross ₹1,000 now.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "current"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "outdated",
+      "event_date": "2026-11-05",
+      "correct": "Ramayana: Part 1 opened on Thursday 5 Nov 2026. That is about three weeks before the 26 Nov go-live, not about one week. 'Released last week' was true when written (about 13 Nov) but not on the go-live date.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/entertainment/2026/11/06/ramayana-day-1-box-office-collection-record-ranbir-kapoor-film-beats-border-2-mirzapur.html",
+        "publisher": "The Week",
+        "published_date": "2026-11-06",
+        "quote": "'Ramayana' Day 1 box office collection: Ranbir Kapoor film beats 'Border 2', 'Mirzapur' to enter record podium",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2026-11-05",
+      "sources": [
+       {
+        "url": "https://www.dynamitenews.com/entertainment/ramanya-ranbir-kapoor-sai-pallavi-nitesh-tiwari-box-office-collection-day1/amp",
+        "publisher": "Dynamite News",
+        "published_date": "2026-11-05",
+        "quote": "Ramayana Box Office Collection Day 1: Ranbir Kapoor's Film Crosses Rs 22.6 Crore by Afternoon",
+        "tier": 3
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "2026-11-05",
+      "sources": [
+       {
+        "url": "https://www.dynamitenews.com/entertainment/ramanya-ranbir-kapoor-sai-pallavi-nitesh-tiwari-box-office-collection-day1/amp",
+        "publisher": "Dynamite News",
+        "published_date": "2026-11-05",
+        "quote": "Ranbir Kapoor's Film Crosses Rs 22.6 Crore by Afternoon",
+        "tier": 3
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "supported",
+      "event_date": "2026-10-16",
+      "correct": "Ranabaali opened at ₹9.25 crore net on Day 1 (a Friday). That is a solid opening, though it faded through the week.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/entertainment/2026/10/23/ranabaali-first-week-box-office-collection.html",
+        "publisher": "The Week",
+        "published_date": "2026-10-23",
+        "quote": "Day 1 (Friday): ₹9.25 crore",
+        "tier": 2
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "supported",
+      "event_date": "2026-10-22",
+      "correct": "Day 7, the first Thursday, was ₹3.15 crore against ₹9.25 crore on the opening Friday. That is about 34%, roughly one third.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/entertainment/2026/10/23/ranabaali-first-week-box-office-collection.html",
+        "publisher": "The Week",
+        "published_date": "2026-10-23",
+        "quote": "Day 7: ₹3.15 crore",
+        "tier": 2
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "supported",
+      "event_date": "2026-10-23",
+      "sources": [
+       {
+        "url": "https://www.sacnilk.com/news/ayushmann-khurranas-udta-teer-opens-at-410-cr-misses-his-top-5-openers-and-falls-83-short-of-all-time-best-thamma",
+        "publisher": "Sacnilk",
+        "published_date": "2026-10-24",
+        "quote": "Udta Teer opens at ₹4.10 Cr ... overall 13% occupancy",
+        "tier": 3
+       }
+      ]
+     },
+     "c9": {
+      "id": "c9",
+      "verdict": "supported",
+      "event_date": "2026-11-01",
+      "correct": "The opening day was ₹4.10 crore. By the 1 Nov roundup the cumulative India net was about ₹41–42 crore, which is about ten times the opening day.",
+      "sources": [
+       {
+        "url": "https://newskarnataka.com/entertainment/udta-teer-box-office-day-3-rs-19-45-crore-total/26102026/",
+        "publisher": "News Karnataka",
+        "published_date": "2026-10-26",
+        "quote": "Rs 19.45 crore net in first three days (Sat ₹7.25 cr, Sun ₹8.10 cr)",
+        "tier": 3
+       }
+      ]
+     },
+     "c13": {
+      "id": "c13",
+      "verdict": "unverifiable",
+      "correct": "I did not find a source for this general claim about streaming sales. Opinion-page framing."
+     },
+     "c15": {
+      "id": "c15",
+      "verdict": "unverifiable",
+      "correct": "I did not check this claim. It depends on the city and the cinema chain."
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "Premises 3, 5 and 6 are false. Studios do spend money after opening weekend, so Day 1 is not the only number a budget can move, and a Day 7 figure can be pushed up too. The best-known example is Jawan, released 7 September 2023. Its makers ran a buy-one-get-one-free ticket offer on BookMyShow, Paytm, PVR, INOX and Cinepolis for 28–30 September, in the film's third and fourth weeks. That is money spent to raise late collections. The Ramayana hook also fails on the facts. By Sacnilk's date the film opened on 5 November 2026, so on 26 November it did not come out 'last week'. Its Day 7 figure is also easy to find: Sacnilk, Koimoi and WION all published it (₹70.65 cr net per Sacnilk and WION, ₹73.75 cr per Koimoi). Premise 1 is also overstated. An afternoon early estimate is not just a count of advance bookings. Sacnilk says it projects the full day from ticket sales, bookings and seat occupancy tracked up to that point, and revises the figure as the day goes on.",
+     "actual_mechanism": "Indian trade trackers like Sacnilk publish provisional same-day estimates. They project the whole day from live ticket-sales, booking and occupancy data, then revise them, and they publish daily figures for the entire run, including Day 7. Opening numbers do lean on pre-release hype, but the producers' spending doesn't stop after the weekend. They keep promoting and can run ticket offers like Jawan's buy-one-get-one deal or Bad Newz's second-week offer, so later days are not a pure word-of-mouth signal either. How well a film holds after opening is a better guide to audience reception than Day 1, but you have to read it net of any discounts or offers.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.businesstoday.in/latest/trends/story/jawan-shah-rukh-khan-announces-buy-1-get-1-offer-on-films-tickets-heres-how-and-when-you-can-avail-it-399993-2023-09-28",
+       "published_date": "2023-09-28",
+       "quote": "The offer is applicable only on internet bookings through BookMyShow, Paytm Movies, PVR, INOX and Cinepolis ... for tickets booked for Thursday, Friday and Saturday (September 28-30)."
+      },
+      {
+       "url": "https://boxofficeworldwide.com/movies-latest-news/bad-newz-keeps-rolling-vicky-kaushal-triptii-dimri-starrer-continues-to-offer-bogo-deal-in-2nd-week-amid-positive-buzz/",
+       "published_date": "unknown (2024)",
+       "quote": "Vicky Kaushal-Triptii Dimri Starrer Continues To Offer BOGO Deal In 2nd Week Amid Positive Buzz"
+      },
+      {
+       "url": "https://www.sacnilk.com/box-office-methodology",
+       "published_date": "2026-09-16 (last updated)",
+       "quote": "may publish an Early Estimate or collection figure based on ticket-sales, booking, and occupancy signals"
+      },
+      {
+       "url": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Box_Office_Collection_Day_7",
+       "published_date": "2026-11-11",
+       "quote": "On Day 7, Ramayana collected a net of ₹70.65 Cr across 24,239 shows"
+      },
+      {
+       "url": "https://www.koimoi.com/box-office/ramayana-box-office-collection-day-7-becomes-bollywoods-8th-highest-grosser-in-india-scores-2nd-biggest-wednesday-ever/",
+       "published_date": "2026-11 (exact date unknown)",
+       "quote": "Ramayana Box Office Collection Day 7: Becomes Bollywood's 8th Highest-Grosser In India, Scores 2nd-Biggest Wednesday Ever"
+      }
+     ]
+    },
+    "text_hash": "7abca4981d072367aed137ff7dccfe203f8a3f9e",
+    "at": "2026-11-13T06:56:36.662194+00:00"
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "The take's premise is wrong: Premises 3, 5 and 6 are false. Studios do spend money after opening weekend, so Day 1 is not the only number a budget can move, and a Day 7 figure can be pushed up too. The best-known example is Jawan, released 7 September 2023. Its makers ran a buy-one-get-one-free ticket offer on BookMyShow, Paytm, PVR, INOX and Cinepolis for 28–30 September, in the film's third and fourth weeks. That is money spent to raise late collections. The Ramayana hook also fails on the facts. By Sacnilk's date the film opened on 5 November 2026, so on 26 November it did not come out 'last week'. Its Day 7 figure is also easy to find: Sacnilk, Koimoi and WION all published it (₹70.65 cr net per Sacnilk and WION, ₹73.75 cr per Koimoi). Premise 1 is also overstated. An afternoon early estimate is not just a count of advance bookings. Sacnilk says it projects the full day from ticket sales, bookings and seat occupancy tracked up to that point, and revises the figure as the day goes on.. How it actually works: Indian trade trackers like Sacnilk publish provisional same-day estimates. They project the whole day from live ticket-sales, booking and occupancy data, then revise them, and they publish daily figures for the entire run, including Day 7. Opening numbers do lean on pre-release hype, but the producers' spending doesn't stop after the weekend. They keep promoting and can run ticket offers like Jawan's buy-one-get-one deal or Bad Newz's second-week offer, so later days are not a pure word-of-mouth signal either. How well a film holds after opening is a better guide to audience reception than Day 1, but you have to read it net of any discounts or offers. Rebuild the post on the correct mechanism.",
+    "Could not verify: 'A loud opening helps sell a film to streaming platforms.'. Cut it, or state it only if a source says it.",
+    "Could not verify: 'Two movie tickets and popcorn easily cost more than ₹1,000 now.'. Cut it, or state it only if a source says it."
+   ]
+  },
+  {
+   "attempt": 4,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "All three earlier notes are settled. Slides 6 and 7 now admit studios keep spending after the weekend and tell the reader to read the drop net of offers. Slide 2 no longer says 'last week' and no longer calls the estimate only advance bookings. The streaming and ₹1,000 lines are gone. Slide 8's 'the number a budget moves most easily' is softened enough to stand as opinion.",
+     "Slide 7: 'A climb from half-empty halls is mostly that text' undersells your own receipt. Udta Teer's halls were 13% full, which is nearly empty. Change it to 'A climb from near-empty halls is mostly that text' so it matches slide 5 and lands harder.",
+     "Slide 10: 'That's the number hardest to buy' reads clunky as the last line people will repeat. Try 'The drop is the one number a budget struggles to buy.' It keeps the honest hedge the offers slide set up, and it calls back to slide 1's 'sold' cleanly.",
+     "Slide 6: the why_swipe 'what happens next?' is lowercase and generic. Make it 'So can money buy week two as well?' so it pulls straight into slide 7's 'an offer only fills a seat'.",
+     "Slide 3: every detail here is something you see. Add one sound to the fan-club line so the reader is in the hall, e.g. 'Fan clubs booking whole rows and whistling at the first frame.'"
+    ]
+   }
+  },
+  {
+   "attempt": 4,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 8",
+      "line": "A loud opening buys the headlines and decides how everyone talks about the film. The later days are where the audience gets the bigger say.",
+      "why": "essay voice, stiff 'gets the bigger say'",
+      "try": "A loud opening buys the headlines, and the headlines decide how everyone talks about the film. After that weekend, the audience starts talking back."
+     },
+     {
+      "where": "slide 8",
+      "line": "The industry celebrates Day 1 for a simple reason. It's the number a budget moves most easily.",
+      "why": "written setup, stiff phrasing",
+      "try": "The industry loves Day 1 for one reason. It's the number money moves the easiest."
+     },
+     {
+      "where": "slide 2",
+      "line": "The headline was out before most of the day's audience had seen the film.",
+      "why": "over-explained, repeats the line before",
+      "try": "The verdict was out before most people had even sat down."
+     },
+     {
+      "where": "slide 10",
+      "line": "Search for it. Check for a ticket offer, then look at the drop. That's the number hardest to buy.",
+      "why": "stiff word order, a little instruction-manual",
+      "try": "So go look. Check if there's a ticket offer running, then see how far it dropped. That one's a lot harder to buy."
+     }
+    ],
+    "best": "Send to the friend who picks films by the box office headline and then calls them boring."
+   }
+  },
+  {
+   "attempt": 4,
+   "problems": [
+    "Not Varun (slide 8): 'A loud opening buys the headlines and decides how everyone talks about the film. The later days are where the audience gets the bigger say.' reads as essay voice, stiff 'gets the bigger say'. Say it the way he would, e.g. 'A loud opening buys the headlines, and the headlines decide how everyone talks about the film. After that weekend, the audience starts talking back.' (his register, your words, same facts).",
+    "Not Varun (slide 8): 'The industry celebrates Day 1 for a simple reason. It's the number a budget moves most easily.' reads as written setup, stiff phrasing. Say it the way he would, e.g. 'The industry loves Day 1 for one reason. It's the number money moves the easiest.' (his register, your words, same facts).",
+    "Not Varun (slide 2): 'The headline was out before most of the day's audience had seen the film.' reads as over-explained, repeats the line before. Say it the way he would, e.g. 'The verdict was out before most people had even sat down.' (his register, your words, same facts).",
+    "Not Varun (slide 10): 'Search for it. Check for a ticket offer, then look at the drop. That's the number hardest to buy.' reads as stiff word order, a little instruction-manual. Say it the way he would, e.g. 'So go look. Check if there's a ticket offer running, then see how far it dropped. That one's a lot harder to buy.' (his register, your words, same facts)."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-13T06:58:18.027098+00:00",
+ "sources": [
+  {
+   "url": "https://www.theweek.in/news/entertainment/2026/10/23/ranabaali-first-week-box-office-collection.html",
+   "fact": "Ranabaali opened at ₹9.25 crore in India on Day 1 and fell to ₹3.15 crore by Day 7. A big opening did not hold through the week.",
+   "excerpt": "On its opening day, Friday, \"Ranabaali\" collected ₹9.25 crore in India. ... fell further to ₹3.15 crore on Thursday, its seventh day. ... This marked a 42.7% decline compared with Wednesday's collection.",
+   "date": "2026-10-23"
+  },
+  {
+   "url": "https://varietyindia.com/main-vaapas-aaunga-to-obsession-is-a-strong-second-week-the-new-barometer-of-box-office-success/",
+   "fact": "Variety India reports that in 2026 the second weekend has become a major factor in judging a film. It cites Main Vaapas Aaunga, which opened very low and grew by word of mouth. Day 1 and the first weekend are still considered critical.",
+   "excerpt": "first-day and first-weekend business is considered critical ... However, 2026 has turned the tide, with the second weekend becoming a major factor in certifying movies as hits. ... Ramesh Bala: \"If it is not a star-driven vehicle, it is going to grow by word of mouth.\" ... Vishek Chauhan: \"Main Vaapas Aaunga opened to very low numbers, but due to word of mouth, it grew.\" ... Taran Adarsh: \"Most often a film works in the first week itself, but there are times a film takes time to grow.\"",
+   "date": "2026-07-22"
+  }
+ ],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] Day 1 shows the [marketing]. Day 7 shows the film.\nEvery opening number on your feed is a sales report.\n \n\n[slide 1] First-day numbers show how well a film was sold, not whether anyone liked it.\nSwipe to read →\n\n[slide 2] Ramayana Part 1 came out last week, and its Day 1 estimate was all over your feed by the afternoon.\nThat estimate went live before most evening shows had even started. It could only be counting seats sold in advance.\n\n[slide 3] Think about who fills a hall on Friday morning. People who watched the trailer three times. Fan clubs booking whole rows. The office group that booked the day bookings opened.\nThe film hadn't done anything yet.\n\n[slide 4] Ranabaali opened big, and by Thursday it was making about a third of its Friday.\nThe noise ran out.\nThe film had to carry itself.\n\n[slide 5] But look at Udta Teer. Halls were 13% full on Friday. By the next weekend, it had made ten times its opening.\n\n[slide 6] Nobody spends on promotion after the weekend. So when a film grows from half-empty halls, that's word of mouth. People who watched it, telling their friends.\n\n[slide 7] The industry celebrates Day 1 for a simple reason. It's the one number a budget can move.\nA loud opening buys the headlines, gets everyone talking, and helps sell the film to streaming. Tuesday is when the audience gets its say.\n\n[slide 8] And falling for it isn't stupid. Two tickets and popcorn easily cross ₹1,000 now. No one wants to burn a Saturday on a dud, so we follow the crowd.\nBut a Friday crowd has only seen the trailer.\n\n[slide 9] Ramayana's Day 1 number was on every feed. Try finding its Day 7 one.\nThat's the one figure no studio can buy.\n\n[end card] Come back to this the next time a Friday poster says \"record opening\".\nSend to the friend who picks films by the box office headline and then calls them boring.\n\n[caption] Opening day box office collection grades the marketing. The film only gets graded once the promotion stops.\n\n\"Itna collection hai, achhi hi hogi\" is exactly the line the trailer budget paid for.\n\nFriday is bought. The quiet Tuesday is the audience talking.\n\nSend this to the friend who picks films by the box office headline and then calls them boring.\n\n[alt text] A text post in nine slides. It argues that a film's first-day box office number shows how well it was marketed, while its later days show whether audiences liked it. It notes that Ramayana Part 1's Day 1 estimate was out in the afternoon, before most evening shows, so it could only count pre-sold seats. Ranabaali opened big but was making about a third of its Friday by Thursday. Udta Teer opened with halls 13% full and made ten times its opening by the next weekend, which the post credits to word of mouth. It ends by asking readers to find Ramayana's Day 7 number, the one figure no studio can buy.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Ramayana Part 1 was released in the week before the post goes live (about a week before 26 Nov 2026).",
+     "sentence": "Ramayana Part 1 came out last week, and its Day 1 estimate was all over your feed by the afternoon.",
+     "type": "event",
+     "core": false,
+     "framed_as": "current"
+    },
+    {
+     "id": "c2",
+     "text": "A Day 1 box office estimate for Ramayana Part 1 was widely published on the afternoon of its release day.",
+     "sentence": "its Day 1 estimate was all over your feed by the afternoon.",
+     "type": "event",
+     "core": true,
+     "framed_as": "current"
+    },
+    {
+     "id": "c3",
+     "text": "The Ramayana Part 1 Day 1 estimate was published before most evening shows had started.",
+     "sentence": "That estimate went live before most evening shows had even started.",
+     "type": "event",
+     "core": true,
+     "framed_as": "current"
+    },
+    {
+     "id": "c4",
+     "text": "An estimate released before evening shows can only count seats sold in advance (advance bookings), not walk-in sales for those shows.",
+     "sentence": "It could only be counting seats sold in advance.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c5",
+     "text": "Friday morning hall audiences are mostly trailer-watching fans, fan clubs booking whole rows and office groups who booked as soon as bookings opened, before the film has proved anything.",
+     "sentence": "Think about who fills a hall on Friday morning. People who watched the trailer three times. Fan clubs booking whole rows. The office group that booked the day bookings opened.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c6",
+     "text": "The film Ranabaali opened big at the box office.",
+     "sentence": "Ranabaali opened big",
+     "type": "event",
+     "core": false,
+     "framed_as": "past"
+    },
+    {
+     "id": "c7",
+     "text": "By its first Thursday, Ranabaali was earning about one third of its Friday collection.",
+     "sentence": "by Thursday it was making about a third of its Friday.",
+     "type": "figure",
+     "core": true,
+     "framed_as": "past"
+    },
+    {
+     "id": "c8",
+     "text": "Udta Teer's halls were 13% full (occupancy) on its opening Friday.",
+     "sentence": "Halls were 13% full on Friday.",
+     "type": "figure",
+     "core": true,
+     "framed_as": "past"
+    },
+    {
+     "id": "c9",
+     "text": "By the following weekend, Udta Teer had earned ten times its opening-day collection.",
+     "sentence": "By the next weekend, it had made ten times its opening.",
+     "type": "figure",
+     "core": true,
+     "framed_as": "past"
+    },
+    {
+     "id": "c10",
+     "text": "Studios and producers do not spend on promotion after the opening weekend.",
+     "sentence": "Nobody spends on promotion after the weekend.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c11",
+     "text": "A film that grows from half-empty halls after promotion has ended is growing through word of mouth.",
+     "sentence": "So when a film grows from half-empty halls, that's word of mouth.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c12",
+     "text": "Day 1 is the one box office number a marketing budget can move.",
+     "sentence": "It's the one number a budget can move.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c13",
+     "text": "A loud opening helps sell a film to streaming platforms.",
+     "sentence": "A loud opening buys the headlines, gets everyone talking, and helps sell the film to streaming.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c14",
+     "text": "No studio can buy a film's Day 7 figure.",
+     "sentence": "That's the one figure no studio can buy.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c15",
+     "text": "Two movie tickets and popcorn easily cost more than ₹1,000 now.",
+     "sentence": "Two tickets and popcorn easily cross ₹1,000 now.",
+     "type": "figure",
+     "core": false,
+     "framed_as": "current"
+    }
+   ]
+  },
+  "Ramayana Part 1 was released in the week before the post goes live (about a week before 26 Nov 2026).": {
+   "id": "c1",
+   "verdict": "outdated",
+   "event_date": "2026-11-05",
+   "correct": "Ramayana: Part 1 opened on Thursday 5 Nov 2026. That is about three weeks before the 26 Nov go-live, not about one week. 'Released last week' was true when written (about 13 Nov) but not on the go-live date.",
+   "sources": [
+    {
+     "url": "https://www.theweek.in/news/entertainment/2026/11/06/ramayana-day-1-box-office-collection-record-ranbir-kapoor-film-beats-border-2-mirzapur.html",
+     "publisher": "The Week",
+     "published_date": "2026-11-06",
+     "quote": "'Ramayana' Day 1 box office collection: Ranbir Kapoor film beats 'Border 2', 'Mirzapur' to enter record podium",
+     "tier": 2
+    }
+   ]
+  },
+  "A Day 1 box office estimate for Ramayana Part 1 was widely published on the afternoon of its release day.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": "2026-11-05",
+   "sources": [
+    {
+     "url": "https://www.dynamitenews.com/entertainment/ramanya-ranbir-kapoor-sai-pallavi-nitesh-tiwari-box-office-collection-day1/amp",
+     "publisher": "Dynamite News",
+     "published_date": "2026-11-05",
+     "quote": "Ramayana Box Office Collection Day 1: Ranbir Kapoor's Film Crosses Rs 22.6 Crore by Afternoon",
+     "tier": 3
+    }
+   ]
+  },
+  "The Ramayana Part 1 Day 1 estimate was published before most evening shows had started.": {
+   "id": "c3",
+   "verdict": "supported",
+   "event_date": "2026-11-05",
+   "sources": [
+    {
+     "url": "https://www.dynamitenews.com/entertainment/ramanya-ranbir-kapoor-sai-pallavi-nitesh-tiwari-box-office-collection-day1/amp",
+     "publisher": "Dynamite News",
+     "published_date": "2026-11-05",
+     "quote": "Ranbir Kapoor's Film Crosses Rs 22.6 Crore by Afternoon",
+     "tier": 3
+    }
+   ]
+  },
+  "The film Ranabaali opened big at the box office.": {
+   "id": "c6",
+   "verdict": "supported",
+   "event_date": "2026-10-16",
+   "correct": "Ranabaali opened at ₹9.25 crore net on Day 1 (a Friday). That is a solid opening, though it faded through the week.",
+   "sources": [
+    {
+     "url": "https://www.theweek.in/news/entertainment/2026/10/23/ranabaali-first-week-box-office-collection.html",
+     "publisher": "The Week",
+     "published_date": "2026-10-23",
+     "quote": "Day 1 (Friday): ₹9.25 crore",
+     "tier": 2
+    }
+   ]
+  },
+  "By its first Thursday, Ranabaali was earning about one third of its Friday collection.": {
+   "id": "c7",
+   "verdict": "supported",
+   "event_date": "2026-10-22",
+   "correct": "Day 7, the first Thursday, was ₹3.15 crore against ₹9.25 crore on the opening Friday. That is about 34%, roughly one third.",
+   "sources": [
+    {
+     "url": "https://www.theweek.in/news/entertainment/2026/10/23/ranabaali-first-week-box-office-collection.html",
+     "publisher": "The Week",
+     "published_date": "2026-10-23",
+     "quote": "Day 7: ₹3.15 crore",
+     "tier": 2
+    }
+   ]
+  },
+  "Udta Teer's halls were 13% full (occupancy) on its opening Friday.": {
+   "id": "c8",
+   "verdict": "supported",
+   "event_date": "2026-10-23",
+   "sources": [
+    {
+     "url": "https://www.sacnilk.com/news/ayushmann-khurranas-udta-teer-opens-at-410-cr-misses-his-top-5-openers-and-falls-83-short-of-all-time-best-thamma",
+     "publisher": "Sacnilk",
+     "published_date": "2026-10-24",
+     "quote": "Udta Teer opens at ₹4.10 Cr ... overall 13% occupancy",
+     "tier": 3
+    }
+   ]
+  },
+  "By the following weekend, Udta Teer had earned ten times its opening-day collection.": {
+   "id": "c9",
+   "verdict": "supported",
+   "event_date": "2026-11-01",
+   "correct": "The opening day was ₹4.10 crore. By the 1 Nov roundup the cumulative India net was about ₹41–42 crore, which is about ten times the opening day.",
+   "sources": [
+    {
+     "url": "https://newskarnataka.com/entertainment/udta-teer-box-office-day-3-rs-19-45-crore-total/26102026/",
+     "publisher": "News Karnataka",
+     "published_date": "2026-10-26",
+     "quote": "Rs 19.45 crore net in first three days (Sat ₹7.25 cr, Sun ₹8.10 cr)",
+     "tier": 3
+    }
+   ]
+  },
+  "A loud opening helps sell a film to streaming platforms.": {
+   "id": "c13",
+   "verdict": "unverifiable",
+   "correct": "I did not find a source for this general claim about streaming sales. Opinion-page framing."
+  },
+  "Two movie tickets and popcorn easily cost more than ₹1,000 now.": {
+   "id": "c15",
+   "verdict": "unverifiable",
+   "correct": "I did not check this claim. It depends on the city and the cinema chain."
+  },
+  "_skeptic": {
+   "457d290d2b101c36c3faf77c3e5609a5a749fdc4": {
+    "holds": false,
+    "broken_premise": "Premises 3, 5 and 6 are false. Studios do spend money after opening weekend, so Day 1 is not the only number a budget can move, and a Day 7 figure can be pushed up too. The best-known example is Jawan, released 7 September 2023. Its makers ran a buy-one-get-one-free ticket offer on BookMyShow, Paytm, PVR, INOX and Cinepolis for 28–30 September, in the film's third and fourth weeks. That is money spent to raise late collections. The Ramayana hook also fails on the facts. By Sacnilk's date the film opened on 5 November 2026, so on 26 November it did not come out 'last week'. Its Day 7 figure is also easy to find: Sacnilk, Koimoi and WION all published it (₹70.65 cr net per Sacnilk and WION, ₹73.75 cr per Koimoi). Premise 1 is also overstated. An afternoon early estimate is not just a count of advance bookings. Sacnilk says it projects the full day from ticket sales, bookings and seat occupancy tracked up to that point, and revises the figure as the day goes on.",
+    "actual_mechanism": "Indian trade trackers like Sacnilk publish provisional same-day estimates. They project the whole day from live ticket-sales, booking and occupancy data, then revise them, and they publish daily figures for the entire run, including Day 7. Opening numbers do lean on pre-release hype, but the producers' spending doesn't stop after the weekend. They keep promoting and can run ticket offers like Jawan's buy-one-get-one deal or Bad Newz's second-week offer, so later days are not a pure word-of-mouth signal either. How well a film holds after opening is a better guide to audience reception than Day 1, but you have to read it net of any discounts or offers.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.businesstoday.in/latest/trends/story/jawan-shah-rukh-khan-announces-buy-1-get-1-offer-on-films-tickets-heres-how-and-when-you-can-avail-it-399993-2023-09-28",
+      "published_date": "2023-09-28",
+      "quote": "The offer is applicable only on internet bookings through BookMyShow, Paytm Movies, PVR, INOX and Cinepolis ... for tickets booked for Thursday, Friday and Saturday (September 28-30)."
+     },
+     {
+      "url": "https://boxofficeworldwide.com/movies-latest-news/bad-newz-keeps-rolling-vicky-kaushal-triptii-dimri-starrer-continues-to-offer-bogo-deal-in-2nd-week-amid-positive-buzz/",
+      "published_date": "unknown (2024)",
+      "quote": "Vicky Kaushal-Triptii Dimri Starrer Continues To Offer BOGO Deal In 2nd Week Amid Positive Buzz"
+     },
+     {
+      "url": "https://www.sacnilk.com/box-office-methodology",
+      "published_date": "2026-09-16 (last updated)",
+      "quote": "may publish an Early Estimate or collection figure based on ticket-sales, booking, and occupancy signals"
+     },
+     {
+      "url": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Box_Office_Collection_Day_7",
+      "published_date": "2026-11-11",
+      "quote": "On Day 7, Ramayana collected a net of ₹70.65 Cr across 24,239 shows"
+     },
+     {
+      "url": "https://www.koimoi.com/box-office/ramayana-box-office-collection-day-7-becomes-bollywoods-8th-highest-grosser-in-india-scores-2nd-biggest-wednesday-ever/",
+      "published_date": "2026-11 (exact date unknown)",
+      "quote": "Ramayana Box Office Collection Day 7: Becomes Bollywood's 8th Highest-Grosser In India, Scores 2nd-Biggest Wednesday Ever"
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "7abca4981d072367aed137ff7dccfe203f8a3f9e": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "The take's premise is wrong: Premises 3, 5 and 6 are false. Studios do spend money after opening weekend, so Day 1 is not the only number a budget can move, and a Day 7 figure can be pushed up too. The best-known example is Jawan, released 7 September 2023. Its makers ran a buy-one-get-one-free ticket offer on BookMyShow, Paytm, PVR, INOX and Cinepolis for 28–30 September, in the film's third and fourth weeks. That is money spent to raise late collections. The Ramayana hook also fails on the facts. By Sacnilk's date the film opened on 5 November 2026, so on 26 November it did not come out 'last week'. Its Day 7 figure is also easy to find: Sacnilk, Koimoi and WION all published it (₹70.65 cr net per Sacnilk and WION, ₹73.75 cr per Koimoi). Premise 1 is also overstated. An afternoon early estimate is not just a count of advance bookings. Sacnilk says it projects the full day from ticket sales, bookings and seat occupancy tracked up to that point, and revises the figure as the day goes on.. How it actually works: Indian trade trackers like Sacnilk publish provisional same-day estimates. They project the whole day from live ticket-sales, booking and occupancy data, then revise them, and they publish daily figures for the entire run, including Day 7. Opening numbers do lean on pre-release hype, but the producers' spending doesn't stop after the weekend. They keep promoting and can run ticket offers like Jawan's buy-one-get-one deal or Bad Newz's second-week offer, so later days are not a pure word-of-mouth signal either. How well a film holds after opening is a better guide to audience reception than Day 1, but you have to read it net of any discounts or offers. Rebuild the post on the correct mechanism.",
+     "Could not verify: 'A loud opening helps sell a film to streaming platforms.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Two movie tickets and popcorn easily cost more than ₹1,000 now.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Ramayana Part 1 was released in the week before the post goes live (about a week before 26 Nov 2026).",
+      "sentence": "Ramayana Part 1 came out last week, and its Day 1 estimate was all over your feed by the afternoon.",
+      "type": "event",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c2",
+      "text": "A Day 1 box office estimate for Ramayana Part 1 was widely published on the afternoon of its release day.",
+      "sentence": "its Day 1 estimate was all over your feed by the afternoon.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c3",
+      "text": "The Ramayana Part 1 Day 1 estimate was published before most evening shows had started.",
+      "sentence": "That estimate went live before most evening shows had even started.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c4",
+      "text": "An estimate released before evening shows can only count seats sold in advance (advance bookings), not walk-in sales for those shows.",
+      "sentence": "It could only be counting seats sold in advance.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Friday morning hall audiences are mostly trailer-watching fans, fan clubs booking whole rows and office groups who booked as soon as bookings opened, before the film has proved anything.",
+      "sentence": "Think about who fills a hall on Friday morning. People who watched the trailer three times. Fan clubs booking whole rows. The office group that booked the day bookings opened.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "The film Ranabaali opened big at the box office.",
+      "sentence": "Ranabaali opened big",
+      "type": "event",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c7",
+      "text": "By its first Thursday, Ranabaali was earning about one third of its Friday collection.",
+      "sentence": "by Thursday it was making about a third of its Friday.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c8",
+      "text": "Udta Teer's halls were 13% full (occupancy) on its opening Friday.",
+      "sentence": "Halls were 13% full on Friday.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c9",
+      "text": "By the following weekend, Udta Teer had earned ten times its opening-day collection.",
+      "sentence": "By the next weekend, it had made ten times its opening.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c10",
+      "text": "Studios and producers do not spend on promotion after the opening weekend.",
+      "sentence": "Nobody spends on promotion after the weekend.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c11",
+      "text": "A film that grows from half-empty halls after promotion has ended is growing through word of mouth.",
+      "sentence": "So when a film grows from half-empty halls, that's word of mouth.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c12",
+      "text": "Day 1 is the one box office number a marketing budget can move.",
+      "sentence": "It's the one number a budget can move.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c13",
+      "text": "A loud opening helps sell a film to streaming platforms.",
+      "sentence": "A loud opening buys the headlines, gets everyone talking, and helps sell the film to streaming.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c14",
+      "text": "No studio can buy a film's Day 7 figure.",
+      "sentence": "That's the one figure no studio can buy.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c15",
+      "text": "Two movie tickets and popcorn easily cost more than ₹1,000 now.",
+      "sentence": "Two tickets and popcorn easily cross ₹1,000 now.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "current"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "outdated",
+      "event_date": "2026-11-05",
+      "correct": "Ramayana: Part 1 opened on Thursday 5 Nov 2026. That is about three weeks before the 26 Nov go-live, not about one week. 'Released last week' was true when written (about 13 Nov) but not on the go-live date.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/entertainment/2026/11/06/ramayana-day-1-box-office-collection-record-ranbir-kapoor-film-beats-border-2-mirzapur.html",
+        "publisher": "The Week",
+        "published_date": "2026-11-06",
+        "quote": "'Ramayana' Day 1 box office collection: Ranbir Kapoor film beats 'Border 2', 'Mirzapur' to enter record podium",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2026-11-05",
+      "sources": [
+       {
+        "url": "https://www.dynamitenews.com/entertainment/ramanya-ranbir-kapoor-sai-pallavi-nitesh-tiwari-box-office-collection-day1/amp",
+        "publisher": "Dynamite News",
+        "published_date": "2026-11-05",
+        "quote": "Ramayana Box Office Collection Day 1: Ranbir Kapoor's Film Crosses Rs 22.6 Crore by Afternoon",
+        "tier": 3
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "2026-11-05",
+      "sources": [
+       {
+        "url": "https://www.dynamitenews.com/entertainment/ramanya-ranbir-kapoor-sai-pallavi-nitesh-tiwari-box-office-collection-day1/amp",
+        "publisher": "Dynamite News",
+        "published_date": "2026-11-05",
+        "quote": "Ranbir Kapoor's Film Crosses Rs 22.6 Crore by Afternoon",
+        "tier": 3
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "supported",
+      "event_date": "2026-10-16",
+      "correct": "Ranabaali opened at ₹9.25 crore net on Day 1 (a Friday). That is a solid opening, though it faded through the week.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/entertainment/2026/10/23/ranabaali-first-week-box-office-collection.html",
+        "publisher": "The Week",
+        "published_date": "2026-10-23",
+        "quote": "Day 1 (Friday): ₹9.25 crore",
+        "tier": 2
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "supported",
+      "event_date": "2026-10-22",
+      "correct": "Day 7, the first Thursday, was ₹3.15 crore against ₹9.25 crore on the opening Friday. That is about 34%, roughly one third.",
+      "sources": [
+       {
+        "url": "https://www.theweek.in/news/entertainment/2026/10/23/ranabaali-first-week-box-office-collection.html",
+        "publisher": "The Week",
+        "published_date": "2026-10-23",
+        "quote": "Day 7: ₹3.15 crore",
+        "tier": 2
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "supported",
+      "event_date": "2026-10-23",
+      "sources": [
+       {
+        "url": "https://www.sacnilk.com/news/ayushmann-khurranas-udta-teer-opens-at-410-cr-misses-his-top-5-openers-and-falls-83-short-of-all-time-best-thamma",
+        "publisher": "Sacnilk",
+        "published_date": "2026-10-24",
+        "quote": "Udta Teer opens at ₹4.10 Cr ... overall 13% occupancy",
+        "tier": 3
+       }
+      ]
+     },
+     "c9": {
+      "id": "c9",
+      "verdict": "supported",
+      "event_date": "2026-11-01",
+      "correct": "The opening day was ₹4.10 crore. By the 1 Nov roundup the cumulative India net was about ₹41–42 crore, which is about ten times the opening day.",
+      "sources": [
+       {
+        "url": "https://newskarnataka.com/entertainment/udta-teer-box-office-day-3-rs-19-45-crore-total/26102026/",
+        "publisher": "News Karnataka",
+        "published_date": "2026-10-26",
+        "quote": "Rs 19.45 crore net in first three days (Sat ₹7.25 cr, Sun ₹8.10 cr)",
+        "tier": 3
+       }
+      ]
+     },
+     "c13": {
+      "id": "c13",
+      "verdict": "unverifiable",
+      "correct": "I did not find a source for this general claim about streaming sales. Opinion-page framing."
+     },
+     "c15": {
+      "id": "c15",
+      "verdict": "unverifiable",
+      "correct": "I did not check this claim. It depends on the city and the cinema chain."
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "Premises 3, 5 and 6 are false. Studios do spend money after opening weekend, so Day 1 is not the only number a budget can move, and a Day 7 figure can be pushed up too. The best-known example is Jawan, released 7 September 2023. Its makers ran a buy-one-get-one-free ticket offer on BookMyShow, Paytm, PVR, INOX and Cinepolis for 28–30 September, in the film's third and fourth weeks. That is money spent to raise late collections. The Ramayana hook also fails on the facts. By Sacnilk's date the film opened on 5 November 2026, so on 26 November it did not come out 'last week'. Its Day 7 figure is also easy to find: Sacnilk, Koimoi and WION all published it (₹70.65 cr net per Sacnilk and WION, ₹73.75 cr per Koimoi). Premise 1 is also overstated. An afternoon early estimate is not just a count of advance bookings. Sacnilk says it projects the full day from ticket sales, bookings and seat occupancy tracked up to that point, and revises the figure as the day goes on.",
+     "actual_mechanism": "Indian trade trackers like Sacnilk publish provisional same-day estimates. They project the whole day from live ticket-sales, booking and occupancy data, then revise them, and they publish daily figures for the entire run, including Day 7. Opening numbers do lean on pre-release hype, but the producers' spending doesn't stop after the weekend. They keep promoting and can run ticket offers like Jawan's buy-one-get-one deal or Bad Newz's second-week offer, so later days are not a pure word-of-mouth signal either. How well a film holds after opening is a better guide to audience reception than Day 1, but you have to read it net of any discounts or offers.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.businesstoday.in/latest/trends/story/jawan-shah-rukh-khan-announces-buy-1-get-1-offer-on-films-tickets-heres-how-and-when-you-can-avail-it-399993-2023-09-28",
+       "published_date": "2023-09-28",
+       "quote": "The offer is applicable only on internet bookings through BookMyShow, Paytm Movies, PVR, INOX and Cinepolis ... for tickets booked for Thursday, Friday and Saturday (September 28-30)."
+      },
+      {
+       "url": "https://boxofficeworldwide.com/movies-latest-news/bad-newz-keeps-rolling-vicky-kaushal-triptii-dimri-starrer-continues-to-offer-bogo-deal-in-2nd-week-amid-positive-buzz/",
+       "published_date": "unknown (2024)",
+       "quote": "Vicky Kaushal-Triptii Dimri Starrer Continues To Offer BOGO Deal In 2nd Week Amid Positive Buzz"
+      },
+      {
+       "url": "https://www.sacnilk.com/box-office-methodology",
+       "published_date": "2026-09-16 (last updated)",
+       "quote": "may publish an Early Estimate or collection figure based on ticket-sales, booking, and occupancy signals"
+      },
+      {
+       "url": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Box_Office_Collection_Day_7",
+       "published_date": "2026-11-11",
+       "quote": "On Day 7, Ramayana collected a net of ₹70.65 Cr across 24,239 shows"
+      },
+      {
+       "url": "https://www.koimoi.com/box-office/ramayana-box-office-collection-day-7-becomes-bollywoods-8th-highest-grosser-in-india-scores-2nd-biggest-wednesday-ever/",
+       "published_date": "2026-11 (exact date unknown)",
+       "quote": "Ramayana Box Office Collection Day 7: Becomes Bollywood's 8th Highest-Grosser In India, Scores 2nd-Biggest Wednesday Ever"
+      }
+     ]
+    },
+    "text_hash": "7abca4981d072367aed137ff7dccfe203f8a3f9e",
+    "at": "2026-11-13T06:56:36.662194+00:00"
+   }
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "Day 1 shows the [marketing]. Day 7 shows the film.",
+   "sub": "Every opening number on your feed is a sales report."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "First-day numbers show how well a film was sold, not whether anyone liked it.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "If Day 1 isn't the verdict, what is it?"
+   },
+   {
+    "paragraphs": [
+     "Ramayana Part 1 opened on 5 November, and its Day 1 estimate was all over your feed by the afternoon.",
+     "Most evening shows hadn't even started. The headline was out before most of the day's audience had seen the film."
+    ],
+    "why_swipe": "So who fills those seats?"
+   },
+   {
+    "paragraphs": [
+     "Think about who fills a hall on Friday morning. People who watched the trailer three times. Fan clubs booking whole rows. The office group that booked the day bookings opened.",
+     "The film hadn't done anything yet."
+    ],
+    "why_swipe": "So what happens when the hype wears off?"
+   },
+   {
+    "paragraphs": [
+     "Ranabaali opened big, and by Thursday it was making about a third of its Friday.",
+     "The noise ran out.\nThe film had to carry itself."
+    ],
+    "why_swipe": "Does it ever go the other way?"
+   },
+   {
+    "paragraphs": [
+     "But look at Udta Teer. Halls were 13% full on Friday. By the next weekend, it had made ten times its opening."
+    ],
+    "why_swipe": "Did someone pay for that climb?"
+   },
+   {
+    "paragraphs": [
+     "Studios don't stop spending after the weekend. You've seen the buy-one-get-one ticket offers in week two."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "But an offer only fills a seat. It can't make the person in it text a friend \"zaroor dekhna.\" A climb from half-empty halls is mostly that text."
+    ],
+    "why_swipe": "Then why does everyone still shout about Day 1?"
+   },
+   {
+    "paragraphs": [
+     "The industry celebrates Day 1 for a simple reason. It's the number a budget moves most easily.",
+     "A loud opening buys the headlines and decides how everyone talks about the film. The later days are where the audience gets the bigger say."
+    ],
+    "why_swipe": "So why do we keep falling for it?"
+   },
+   {
+    "paragraphs": [
+     "And falling for it isn't stupid. No one wants to burn a Saturday on a dud, so we follow the crowd.",
+     "But a Friday crowd has only seen the trailer."
+    ],
+    "why_swipe": "So which number should you trust?"
+   },
+   {
+    "paragraphs": [
+     "Ramayana's Day 1 number found you without you looking. Its Day 7 number, you'd have to go search for.",
+     "Search for it. Check for a ticket offer, then look at the drop. That's the number hardest to buy."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Come back to this the next time a Friday poster says \"record opening\".",
+   "send": "Send to the friend who picks films by the box office headline and then calls them boring.",
+   "promise": "How Indian films really get sold."
+  },
+  "alt_text": "A text post in nine slides. It argues that a film's first-day box office number shows how well it was marketed, while its later days show more about whether audiences liked it. It notes that Ramayana Part 1 opened on 5 November and its Day 1 estimate was out in the afternoon, before most evening shows. Ranabaali opened big but was making about a third of its Friday by Thursday. Udta Teer opened with halls 13% full and made ten times its opening by the next weekend. The post says studios also spend after the weekend, with offers like buy-one-get-one tickets, but an offer can't make people recommend a film. It ends by asking readers to look up a film's Day 7 number, check for ticket offers, and judge the drop, the number hardest to buy.",
+  "claims": [
+   {
+    "text": "Ramayana Part 1 opened on 5 November 2026 and a live Day 1 estimate was out in the afternoon (2:03 PM IST), before most evening shows.",
+    "source_url": "topic"
+   },
+   {
+    "text": "Ranabaali's Day 7 was about a third of its Day 1.",
+    "source_url": "https://www.sacnilk.com/news/vijay-deverakondas-ranabaali-crosses-52-cr-india-gross-in-week-1-but-can-it-avoid-a-box-office-loss",
+    "derived_from": "₹3.65 Cr (Day 7) / ₹10.75 Cr (Day 1) = 0.34, about one third"
+   },
+   {
+    "text": "Udta Teer opened at 13% occupancy on Friday 23 October and grew over the weekend.",
+    "source_url": "https://www.sacnilk.com/news/ayushmann-khurranas-udta-teer-opens-at-410-cr-misses-his-top-5-openers-and-falls-83-short-of-all-time-best-thamma"
+   },
+   {
+    "text": "By the next weekend (1 November), Udta Teer had made about ten times its opening day.",
+    "source_url": "https://www.sacnilk.com/news/ayushmann-khurranas-udta-teer-opens-at-410-cr-misses-his-top-5-openers-and-falls-83-short-of-all-time-best-thamma",
+    "derived_from": "about ₹41–42 Cr cumulative by 1 November / ₹4.10 Cr Day 1 = about 10"
+   },
+   {
+    "text": "Films that are not star-driven can grow by word of mouth after a low opening.",
+    "source_url": "https://varietyindia.com/main-vaapas-aaunga-to-obsession-is-a-strong-second-week-the-new-barometer-of-box-office-success/"
+   }
+  ]
+ }
 }

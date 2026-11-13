@@ -1,6 +1,6 @@
 {
  "id": "2026-11-154",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-24T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -65,6 +65,1350 @@
    "format_fit": "either"
   }
  },
- "history": [],
- "updated_at": "2026-11-13T06:41:31.156905+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3,
+     "informative": 4
+    },
+    "notes": [
+     "slide 7: 'They're too busy guarding their bags.' is a quip in place of the because, and it lands as a joke at the travellers' expense. Give the real reason the people who bear the cost can't push back: they leave the city on those dates, and by the time they're home the complaint has nowhere to go. Fold this into the end of slide 6 so the cost logic and who pays for it sit together, then cut slide 7.",
+     "slide 3: 'The festival is fixed. Every calendar in every home has it printed months ahead.' restates the cover ('Chhath comes on the same dates every year'). Cut it and open on the part that's new: 'The special trains get added late, so you plan your leave around a ticket that may never confirm.'",
+     "slide 9 vs slides 2 and 10: the reader changes seats. Slides 2 and 10 make 'you' the one travelling ('Your manager has your Chhath dates'). Slide 9 makes 'you' the one watching others leave ('The colleague with family in Siwan blocks that week'). Keep the reader as the traveller: 'You blocked that week on the team calendar in September.' Keep the guard as the second example of the city planning around people leaving, and keep 'Offices, kitchens and building sites plan around their absence.'",
+     "slide 10 / slide 6: 'with a fence' and 'A barricade is cheap' describe something the post never shows. The thing on the record is a holding area. Use the topic's own image so the close calls back to slide 8: 'The station meets you in November with a holding pen.' In slide 6, say 'A waiting area is cheap.'",
+     "slide 5: every detail in the post is something you see. Add one line of sound or touch to the holding-area scene, framed as typical, e.g. the bag strap cutting into your shoulder, or the platform number announced over a crowd that can't see the board. It makes the holding area feel lived in, not reported."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "slide 7: 'They're too busy guarding their bags.' is a quip in place of the because, and it lands as a joke at the travellers' expense. Give the real reason the people who bear the cost can't push back: they leave the city on those dates, and by the time they're home the complaint has nowhere to go. Fold this into the end of slide 6 so the cost logic and who pays for it sit together, then cut slide 7.",
+    "slide 3: 'The festival is fixed. Every calendar in every home has it printed months ahead.' restates the cover ('Chhath comes on the same dates every year'). Cut it and open on the part that's new: 'The special trains get added late, so you plan your leave around a ticket that may never confirm.'",
+    "slide 9 vs slides 2 and 10: the reader changes seats. Slides 2 and 10 make 'you' the one travelling ('Your manager has your Chhath dates'). Slide 9 makes 'you' the one watching others leave ('The colleague with family in Siwan blocks that week'). Keep the reader as the traveller: 'You blocked that week on the team calendar in September.' Keep the guard as the second example of the city planning around people leaving, and keep 'Offices, kitchens and building sites plan around their absence.'",
+    "slide 10 / slide 6: 'with a fence' and 'A barricade is cheap' describe something the post never shows. The thing on the record is a holding area. Use the topic's own image so the close calls back to slide 8: 'The station meets you in November with a holding pen.' In slide 6, say 'A waiting area is cheap.'",
+    "slide 5: every detail in the post is something you see. Add one line of sound or touch to the holding-area scene, framed as typical, e.g. the bag strap cutting into your shoulder, or the platform number announced over a crowd that can't see the board. It makes the holding area feel lived in, not reported."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "All five earlier notes are settled. The bag quip and old slide 7 are gone, and the cost reason now sits with the cost logic. Slide 3 opens on the late special trains. Slide 9 keeps the reader as the traveller. The close and slide 7 now use 'holding pen' and 'waiting area'. The new slide 6 adds touch and sound to the holding area without repeating anything.",
+     "slide 7: 'And those who pay for it can't push back.' could read as if travellers fund the waiting area. Make it 'And the people who bear the cost can't push back.' That keeps the mechanism exact: they pay in hours and discomfort, not money. Leave 'They're on a train out by then.' as it is."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 6",
+      "line": "Inside, the bag strap cuts into your shoulder while a platform number is announced to people who can't see the board.",
+      "why": "scene narration, no commentary",
+      "try": "Inside, you stand with your bags and guess. The platform number gets announced to a crowd that can't even see the board."
+     },
+     {
+      "where": "slide 8",
+      "line": "To be fair, a holding area beats a crush on the stairs. Order is better than a stampede, and that part deserves credit.",
+      "why": "hedged, polite, over-explained",
+      "try": "Sure, a holding area beats a crush on the stairs. Nobody's arguing with that."
+     },
+     {
+      "where": "slide 7",
+      "line": "And those who pay for it can't push back. They're on a train out by then.",
+      "why": "stiff, written phrasing",
+      "try": "And the people stuck in it can't complain. They're on a train out by then."
+     },
+     {
+      "where": "slide 4",
+      "line": "This year the answer came as rules. From 3 to 14 November, six Delhi stations stopped selling platform tickets. Only confirmed passengers ordinarily go in.",
+      "why": "stiff word ('ordinarily'), clunky setup",
+      "try": "This year the fix was a rule. From 3 to 14 November, six Delhi stations stopped selling platform tickets. If you're not travelling, you mostly don't get in."
+     },
+     {
+      "where": "cover",
+      "line": "Same dates, same crowd, same scramble at the gate.",
+      "why": "engineered triple list",
+      "try": "The dates never change. Neither does the scramble at the gate."
+     },
+     {
+      "where": "slide 9",
+      "line": "Offices, kitchens and building sites plan around their absence.",
+      "why": "essay voice, abstract 'absence'",
+      "try": "Offices, kitchens and building sites sorted out that week ages ago."
+     }
+    ],
+    "best": "Your manager has your Chhath dates in September. The station meets you in November with a holding pen."
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Not Varun (slide 6): 'Inside, the bag strap cuts into your shoulder while a platform number is announced to people who can't see the board.' reads as scene narration, no commentary. Say it the way he would, e.g. 'Inside, you stand with your bags and guess. The platform number gets announced to a crowd that can't even see the board.' (his register, your words, same facts).",
+    "Not Varun (slide 8): 'To be fair, a holding area beats a crush on the stairs. Order is better than a stampede, and that part deserves credit.' reads as hedged, polite, over-explained. Say it the way he would, e.g. 'Sure, a holding area beats a crush on the stairs. Nobody's arguing with that.' (his register, your words, same facts).",
+    "Not Varun (slide 7): 'And those who pay for it can't push back. They're on a train out by then.' reads as stiff, written phrasing. Say it the way he would, e.g. 'And the people stuck in it can't complain. They're on a train out by then.' (his register, your words, same facts).",
+    "Not Varun (slide 4): 'This year the answer came as rules. From 3 to 14 November, six Delhi stations stopped selling platform tickets. Only confirmed passengers ordinarily go in.' reads as stiff word ('ordinarily'), clunky setup. Say it the way he would, e.g. 'This year the fix was a rule. From 3 to 14 November, six Delhi stations stopped selling platform tickets. If you're not travelling, you mostly don't get in.' (his register, your words, same facts).",
+    "Not Varun (cover): 'Same dates, same crowd, same scramble at the gate.' reads as engineered triple list. Say it the way he would, e.g. 'The dates never change. Neither does the scramble at the gate.' (his register, your words, same facts).",
+    "Not Varun (slide 9): 'Offices, kitchens and building sites plan around their absence.' reads as essay voice, abstract 'absence'. Say it the way he would, e.g. 'Offices, kitchens and building sites sorted out that week ages ago.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "All six notes from the last round are settled. Slide 6 now comments instead of narrating. Slide 8 concedes the point straight. Slide 7 says 'can't complain' plainly. Slide 4 drops 'ordinarily' and lands as 'the fix was a rule'. The cover sub no longer uses a triple. Slide 9 now reads 'sorted out that week ages ago'. No new hard failures came in with the edits. Every fact on slides 4 and 5 matches the Business Today source with the same meaning.",
+     "Slide 6 (optional, only if you touch it): the edit removed the bag strap, which was the post's only non-visual detail. You could add back one short sound or touch beat without turning it into narration. For example: 'Inside, you stand with your bags and guess. The announcement echoes over a crowd that can't even see the board.' Keep it to one line."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "varun": {
+    "pass": true,
+    "score": 5,
+    "misses": [],
+    "best": "But look at the word permanent. The one thing built to last is the place you wait."
+   }
+  },
+  {
+   "attempt": 2,
+   "verification": {
+    "passed": false,
+    "take_dead": true,
+    "notes": [
+     "The take's premise is wrong: The central mechanism fails. It says railways use cheap crowd control (the platform ticket ban and the permanent holding area) instead of adding capacity. Railways actually did both. For this season, Northern Railway raised Chhath special trains from about 400 last year to 650 and added roughly 25% more coaches, with festive special trips nationally in the thousands. The premise that extra trains 'sit idle the rest of the year' is also wrong about how this works. Festival specials mostly run on spare or reassigned coaches and extra coaches added to regular trains, not on a dedicated fleet parked for 50 weeks. The factual premises do hold: platform ticket sales were suspended from 3 to 14 November at six Delhi stations, and a permanent holding area for about 7,000 people now sits outside Platform 16 at New Delhi, replacing the temporary tents used before. The 7,000 figure appears in only one or two reports.. How it actually works: Indian Railways handles the Chhath peak mainly by adding capacity. It notifies festival special trains, which are announced in stages from about September through the festival itself, using rakes moved over from other routes and zones. It also adds extra coaches to regular services. This year Northern Railway put the count at 650 specials, up from about 400. Demand (footfall up about 25–30%) still runs ahead of the number of trains the busy Delhi–Bihar/UP lines can carry, so waitlists remain. Crowd measures like the platform ticket ban and the permanent holding area are added on top of the extra trains, not used in their place. Rebuild the post on the correct mechanism.",
+     "Could not verify: 'When ticket booking opens at 8 am, every train from Delhi to Patna, Darbhanga and Gorakhpur already shows a waiting list for the Chhath period.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Ticket booking on the railway app opens at 8 am.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Special Chhath trains are added late, after regular booking has filled up.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'In the holding area, the platform number is announced to a crowd that cannot see the display board.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Chhath Puja falls on the same dates every year in the sense that the rush from Delhi comes at a predictable time each year (the post says dates never change).",
+      "sentence": "Chhath comes on the same dates every year.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "When ticket booking opens at 8 am, every train from Delhi to Patna, Darbhanga and Gorakhpur already shows a waiting list for the Chhath period.",
+      "sentence": "Every train to Patna, Darbhanga and Gorakhpur already shows a waiting list.",
+      "type": "event",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Ticket booking on the railway app opens at 8 am.",
+      "sentence": "You open the ticket app at 8 am, the moment booking opens.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Special Chhath trains are added late, after regular booking has filled up.",
+      "sentence": "The special trains get added late, so you plan your leave around a ticket that may never confirm.",
+      "type": "event",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "From 3 to 14 November this year, six Delhi stations stopped selling platform tickets.",
+      "sentence": "From 3 to 14 November, six Delhi stations stopped selling platform tickets.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c6",
+      "text": "The platform ticket suspension was introduced as the fix for the Chhath rush this year.",
+      "sentence": "This year the fix was a rule.",
+      "type": "event",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c7",
+      "text": "With platform tickets suspended, people who are not travelling mostly cannot enter the stations.",
+      "sentence": "If you're not travelling, you mostly don't get in.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c8",
+      "text": "New Delhi station has a permanent holding area outside Platform 16.",
+      "sentence": "At New Delhi, a permanent holding area outside Platform 16 takes about 7,000 people at a time.",
+      "type": "entity_attribute",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c9",
+      "text": "The holding area outside Platform 16 at New Delhi has a capacity of about 7,000 people at a time.",
+      "sentence": "a permanent holding area outside Platform 16 takes about 7,000 people at a time.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c10",
+      "text": "In the holding area, the platform number is announced to a crowd that cannot see the display board.",
+      "sentence": "The platform number gets announced to a crowd that can't even see the board.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c11",
+      "text": "Running extra trains and laying extra tracks for two peak weeks is expensive, and the capacity sits idle the rest of the year.",
+      "sentence": "Extra trains and tracks for two peak weeks are expensive, and they sit idle the rest of the year.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c12",
+      "text": "A waiting area is cheaper than adding trains and tracks.",
+      "sentence": "A waiting area is cheap.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c13",
+      "text": "Travellers held in the waiting area leave on their trains before they can complain, which is why the approach faces little pushback.",
+      "sentence": "And the people stuck in it can't complain. They're on a train out by then.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c14",
+      "text": "The holding area is better than a crush on the stairs.",
+      "sentence": "Sure, a holding area beats a crush on the stairs.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c15",
+      "text": "Central mechanism: Chhath travel dates are fixed and known, extra trains are costly and idle most of the year, so railways rely on cheap crowd-management measures like platform ticket bans and a permanent holding area instead of adding capacity; travellers leave before they can complain.",
+      "sentence": "The one thing built to last is the place you wait.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "misframed",
+      "correct": "Chhath follows the lunar calendar, so its Gregorian dates shift each year. It falls in October or November, six days after Diwali. The rush is predictable only in that it always follows Diwali.",
+      "sources": []
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "unverifiable",
+      "correct": "I found no source showing that every Delhi train to Patna, Darbhanga and Gorakhpur is already waitlisted when booking opens. The claim is probably an exaggeration.",
+      "sources": []
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "unverifiable",
+      "correct": "I did not check this against IRCTC or Indian Railways. From memory, advance reservation opens at 8 am, but I have no source.",
+      "sources": []
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "unverifiable",
+      "correct": "I found no source on when special Chhath trains are announced relative to regular booking.",
+      "sources": []
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "supported",
+      "event_date": "2026-11-03",
+      "correct": "The suspension runs 3 to 14 November at six stations: New Delhi, Delhi Junction, Hazrat Nizamuddin, Ghaziabad, Anand Vihar Terminal and Anand Vihar Halt. Ghaziabad and Anand Vihar are in the Delhi area, not Delhi proper.",
+      "sources": [
+       {
+        "url": "https://www.businesstoday.in/india/story/diwali-chhath-travel-railways-suspend-platform-tickets-at-6-delhi-stations-check-new-rules-565428-2026-11-03",
+        "publisher": "Business Today",
+        "published_date": "2026-11-03",
+        "quote": "The sale of platform tickets will remain suspended from November 3 to November 14 at six stations.",
+        "tier": 2
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "supported",
+      "event_date": "2026-11-03",
+      "correct": "Railways framed the suspension as a crowd-control measure for the Diwali-Chhath rush. It is one measure among others, not the whole fix.",
+      "sources": [
+       {
+        "url": "https://www.businesstoday.in/india/story/diwali-chhath-travel-railways-suspend-platform-tickets-at-6-delhi-stations-check-new-rules-565428-2026-11-03",
+        "publisher": "Business Today",
+        "published_date": "2026-11-03",
+        "quote": "aims to reduce unnecessary crowding at stations",
+        "tier": 2
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "supported",
+      "event_date": "2026-11-03",
+      "correct": "Only passengers with confirmed tickets are ordinarily allowed onto platforms. Helpers of elderly, sick, disabled or illiterate passengers, and women who need assistance, are exempt.",
+      "sources": [
+       {
+        "url": "https://www.businesstoday.in/india/story/diwali-chhath-travel-railways-suspend-platform-tickets-at-6-delhi-stations-check-new-rules-565428-2026-11-03",
+        "publisher": "Business Today",
+        "published_date": "2026-11-03",
+        "quote": "only passengers holding confirmed train tickets will ordinarily be permitted to enter the platforms.",
+        "tier": 2
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "supported",
+      "event_date": "2026-11-03",
+      "correct": "Business Today says only that the holding area has \"reportedly\" been created. It is permanent, and this is the first report I found.",
+      "sources": [
+       {
+        "url": "https://www.businesstoday.in/india/story/diwali-chhath-travel-railways-suspend-platform-tickets-at-6-delhi-stations-check-new-rules-565428-2026-11-03",
+        "publisher": "Business Today",
+        "published_date": "2026-11-03",
+        "quote": "A permanent passenger holding area has reportedly been created outside Platform 16 at New Delhi Railway Station.",
+        "tier": 2
+       }
+      ]
+     },
+     "c9": {
+      "id": "c9",
+      "verdict": "supported",
+      "event_date": "2026-11-03",
+      "correct": "The holding area can hold about 7,000 passengers at once.",
+      "sources": [
+       {
+        "url": "https://www.businesstoday.in/india/story/diwali-chhath-travel-railways-suspend-platform-tickets-at-6-delhi-stations-check-new-rules-565428-2026-11-03",
+        "publisher": "Business Today",
+        "published_date": "2026-11-03",
+        "quote": "It can hold about 7,000 passengers at once.",
+        "tier": 2
+       }
+      ]
+     },
+     "c10": {
+      "id": "c10",
+      "verdict": "unverifiable",
+      "correct": "I found no source on how platform numbers are announced in the holding area, or on whether the crowd can see a display board.",
+      "sources": []
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "The central mechanism fails. It says railways use cheap crowd control (the platform ticket ban and the permanent holding area) instead of adding capacity. Railways actually did both. For this season, Northern Railway raised Chhath special trains from about 400 last year to 650 and added roughly 25% more coaches, with festive special trips nationally in the thousands. The premise that extra trains 'sit idle the rest of the year' is also wrong about how this works. Festival specials mostly run on spare or reassigned coaches and extra coaches added to regular trains, not on a dedicated fleet parked for 50 weeks. The factual premises do hold: platform ticket sales were suspended from 3 to 14 November at six Delhi stations, and a permanent holding area for about 7,000 people now sits outside Platform 16 at New Delhi, replacing the temporary tents used before. The 7,000 figure appears in only one or two reports.",
+     "actual_mechanism": "Indian Railways handles the Chhath peak mainly by adding capacity. It notifies festival special trains, which are announced in stages from about September through the festival itself, using rakes moved over from other routes and zones. It also adds extra coaches to regular services. This year Northern Railway put the count at 650 specials, up from about 400. Demand (footfall up about 25–30%) still runs ahead of the number of trains the busy Delhi–Bihar/UP lines can carry, so waitlists remain. Crowd measures like the platform ticket ban and the permanent holding area are added on top of the extra trains, not used in their place.",
+     "take_survives": false,
+     "sources": [
+      {
+       "url": "https://www.businesstoday.in/india/story/diwali-chhath-travel-railways-suspend-platform-tickets-at-6-delhi-stations-check-new-rules-565428-2026-11-03",
+       "published_date": "2026-11-03",
+       "quote": "Platform ticket sales suspended November 3 to November 14, 2026 at New Delhi, Delhi Junction, Hazrat Nizamuddin, Ghaziabad, Anand Vihar Terminal and Anand Vihar Halt; a permanent passenger holding area has reportedly been created outside Platform 16 ... can hold about 7,000 passengers (summarised, not verbatim except the quoted phrase)"
+      },
+      {
+       "url": "https://www.oneindia.com/india/chhath-puja-2026-railways-to-run-650-special-trains-add-25-more-coaches-amid-festive-rush-8257257.html",
+       "published_date": "2026-11-11",
+       "quote": "This year, the Railways plans to operate 650 special trains, compared with around 400 during the same period last year. It has also added 25 per cent more coaches to trains to accommodate the higher demand."
+      },
+      {
+       "url": "https://www.thedailyjagran.com/india/news/diwali-rush-northern-railways-crowdcontrol-measures-in-new-delhi-bans-platform-ticket-sales-at-six-stations-creates-holding-area-details-10335016",
+       "published_date": "2026-11",
+       "quote": "Northern Railways' crowd-control measures at Delhi stations; bans platform ticket sales, creates holding area (headline)"
+      },
+      {
+       "url": "https://www.timesbull.com/chhath-puja-special-trains-2026/",
+       "published_date": "2026-11",
+       "quote": "North Eastern Railway will run 214 special trains that will complete a total of 2,044 trips (summarised, not verbatim)"
+      }
+     ]
+    },
+    "text_hash": "1726712c39030e61d64434b4d929a70c55c61c79",
+    "at": "2026-11-13T06:55:21.874963+00:00"
+   }
+  }
+ ],
+ "updated_at": "2026-11-13T06:58:01.334089+00:00",
+ "sources": [
+  {
+   "url": "https://www.businesstoday.in/india/story/diwali-chhath-travel-railways-suspend-platform-tickets-at-6-delhi-stations-check-new-rules-565428-2026-11-03",
+   "fact": "Platform tickets are suspended from 3 to 14 November at six Delhi-area stations. Only passengers with confirmed tickets will ordinarily be allowed onto platforms, and a permanent holding area outside Platform 16 at New Delhi can take about 7,000 people.",
+   "excerpt": "The sale of platform tickets will remain suspended from November 3 to November 14 at six stations. New Delhi, Delhi Junction, Hazrat Nizamuddin, Ghaziabad, Anand Vihar Terminal and Anand Vihar Halt. only passengers holding confirmed train tickets will ordinarily be permitted to enter the platforms. A permanent passenger holding area has reportedly been created outside Platform 16 at New Delhi Railway Station can accommodate around 7,000 passengers at any given time.",
+   "date": "2026-11-03"
+  },
+  {
+   "url": "https://trak.in/stories/platform-ticket-sales-suspended-in-delhi-due-to-massive-crowd/",
+   "fact": "Platform ticket sales are paused at six Delhi-NCR stations for the festive rush. Access is generally limited to passengers with valid train tickets, with exemptions for people helping elderly, sick, disabled or illiterate passengers and for women who need help.",
+   "excerpt": "suspended platform ticket sales at six major Delhi-NCR stations. New Delhi, Delhi Junction, Hazrat Nizamuddin, Ghaziabad, Anand Vihar Terminal and Anand Vihar Halt. access is generally limited to passengers holding valid train tickets",
+   "date": "2026-11-04"
+  }
+ ],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] Chhath comes every year. [The station acts surprised] every time.\nThe dates never change. Neither does the scramble at the gate.\n \n\n[slide 1] Chhath comes on the same dates every year. Delhi's stations still handle it like a surprise.\nSwipe to read →\n\n[slide 2] You open the ticket app at 8 am, the moment booking opens. Every train to Patna, Darbhanga and Gorakhpur already shows a waiting list.\nSo you book the waitlist anyway and refresh like it's a second job.\n\n[slide 3] The special trains get added late, so you plan your leave around a ticket that may never confirm.\n\n[slide 4] This year the fix was a rule. From 3 to 14 November, six Delhi stations stopped selling platform tickets. If you're not travelling, you mostly don't get in.\n\n[slide 5] Your friend can't walk you to the coach anymore. At New Delhi, a permanent holding area outside Platform 16 takes about 7,000 people at a time.\n\n[slide 6] Inside, you stand with your bags and guess. The platform number gets announced to a crowd that can't even see the board.\n\n[slide 7] Extra trains and tracks for two peak weeks are expensive, and they sit idle the rest of the year. A waiting area is cheap.\nAnd the people stuck in it can't complain. They're on a train out by then.\n\n[slide 8] Sure, a holding area beats a crush on the stairs. Nobody's arguing with that.\nBut look at the word permanent. The one thing built to last is the place you wait.\n\n[slide 9] The city knows exactly who leaves. The guard at your gate asks for leave a month early. You blocked that week on the team calendar in September.\nOffices, kitchens and building sites sorted out that week ages ago.\n\n[slide 10] Your manager has your Chhath dates in September.\nThe station meets you in November with a holding pen.\n\n[end card] Come back to this the morning booking opens for next year's Chhath trains.\nSend to the colleague leaving for Chhath this week who still has no confirmed seat.\n\n[caption] Chhath train rush comes on fixed dates, and the one permanent fix is a place to stand and wait.\n\nSeats for two weeks cost money all year. A waiting area costs little, and the people in it are gone before anyone asks.\n\n\"Confirm hua?\" is the only question anyone at the office asks that week.\n\nSend this to the colleague leaving for Chhath this week who is still refreshing a waitlisted ticket.\n\n[alt text] A text post in ten slides. It argues that the Chhath rush from Delhi comes on the same dates every year, yet railways handle it with temporary fixes: waitlisted trains on booking day, special trains added late, platform tickets suspended from 3 to 14 November at six Delhi stations, and a permanent holding area outside Platform 16 at New Delhi for about 7,000 people. It explains that a waiting area is cheaper than extra trains, and that the travellers stuck in it have already left the city by the time they could complain. It credits the holding area for preventing crushes but points out the only permanent thing built is a place to wait, while offices and homes plan months ahead around workers going home.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Chhath Puja falls on the same dates every year in the sense that the rush from Delhi comes at a predictable time each year (the post says dates never change).",
+     "sentence": "Chhath comes on the same dates every year.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "When ticket booking opens at 8 am, every train from Delhi to Patna, Darbhanga and Gorakhpur already shows a waiting list for the Chhath period.",
+     "sentence": "Every train to Patna, Darbhanga and Gorakhpur already shows a waiting list.",
+     "type": "event",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c3",
+     "text": "Ticket booking on the railway app opens at 8 am.",
+     "sentence": "You open the ticket app at 8 am, the moment booking opens.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c4",
+     "text": "Special Chhath trains are added late, after regular booking has filled up.",
+     "sentence": "The special trains get added late, so you plan your leave around a ticket that may never confirm.",
+     "type": "event",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c5",
+     "text": "From 3 to 14 November this year, six Delhi stations stopped selling platform tickets.",
+     "sentence": "From 3 to 14 November, six Delhi stations stopped selling platform tickets.",
+     "type": "event",
+     "core": true,
+     "framed_as": "current"
+    },
+    {
+     "id": "c6",
+     "text": "The platform ticket suspension was introduced as the fix for the Chhath rush this year.",
+     "sentence": "This year the fix was a rule.",
+     "type": "event",
+     "core": false,
+     "framed_as": "current"
+    },
+    {
+     "id": "c7",
+     "text": "With platform tickets suspended, people who are not travelling mostly cannot enter the stations.",
+     "sentence": "If you're not travelling, you mostly don't get in.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "current"
+    },
+    {
+     "id": "c8",
+     "text": "New Delhi station has a permanent holding area outside Platform 16.",
+     "sentence": "At New Delhi, a permanent holding area outside Platform 16 takes about 7,000 people at a time.",
+     "type": "entity_attribute",
+     "core": true,
+     "framed_as": "current"
+    },
+    {
+     "id": "c9",
+     "text": "The holding area outside Platform 16 at New Delhi has a capacity of about 7,000 people at a time.",
+     "sentence": "a permanent holding area outside Platform 16 takes about 7,000 people at a time.",
+     "type": "figure",
+     "core": true,
+     "framed_as": "current"
+    },
+    {
+     "id": "c10",
+     "text": "In the holding area, the platform number is announced to a crowd that cannot see the display board.",
+     "sentence": "The platform number gets announced to a crowd that can't even see the board.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "current"
+    },
+    {
+     "id": "c11",
+     "text": "Running extra trains and laying extra tracks for two peak weeks is expensive, and the capacity sits idle the rest of the year.",
+     "sentence": "Extra trains and tracks for two peak weeks are expensive, and they sit idle the rest of the year.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c12",
+     "text": "A waiting area is cheaper than adding trains and tracks.",
+     "sentence": "A waiting area is cheap.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c13",
+     "text": "Travellers held in the waiting area leave on their trains before they can complain, which is why the approach faces little pushback.",
+     "sentence": "And the people stuck in it can't complain. They're on a train out by then.",
+     "type": "mechanism",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c14",
+     "text": "The holding area is better than a crush on the stairs.",
+     "sentence": "Sure, a holding area beats a crush on the stairs.",
+     "type": "mechanism",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c15",
+     "text": "Central mechanism: Chhath travel dates are fixed and known, extra trains are costly and idle most of the year, so railways rely on cheap crowd-management measures like platform ticket bans and a permanent holding area instead of adding capacity; travellers leave before they can complain.",
+     "sentence": "The one thing built to last is the place you wait.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "Chhath Puja falls on the same dates every year in the sense that the rush from Delhi comes at a predictable time each year (the post says dates never change).": {
+   "id": "c1",
+   "verdict": "misframed",
+   "correct": "Chhath follows the lunar calendar, so its Gregorian dates shift each year. It falls in October or November, six days after Diwali. The rush is predictable only in that it always follows Diwali.",
+   "sources": []
+  },
+  "When ticket booking opens at 8 am, every train from Delhi to Patna, Darbhanga and Gorakhpur already shows a waiting list for the Chhath period.": {
+   "id": "c2",
+   "verdict": "unverifiable",
+   "correct": "I found no source showing that every Delhi train to Patna, Darbhanga and Gorakhpur is already waitlisted when booking opens. The claim is probably an exaggeration.",
+   "sources": []
+  },
+  "Ticket booking on the railway app opens at 8 am.": {
+   "id": "c3",
+   "verdict": "unverifiable",
+   "correct": "I did not check this against IRCTC or Indian Railways. From memory, advance reservation opens at 8 am, but I have no source.",
+   "sources": []
+  },
+  "Special Chhath trains are added late, after regular booking has filled up.": {
+   "id": "c4",
+   "verdict": "unverifiable",
+   "correct": "I found no source on when special Chhath trains are announced relative to regular booking.",
+   "sources": []
+  },
+  "From 3 to 14 November this year, six Delhi stations stopped selling platform tickets.": {
+   "id": "c5",
+   "verdict": "supported",
+   "event_date": "2026-11-03",
+   "correct": "The suspension runs 3 to 14 November at six stations: New Delhi, Delhi Junction, Hazrat Nizamuddin, Ghaziabad, Anand Vihar Terminal and Anand Vihar Halt. Ghaziabad and Anand Vihar are in the Delhi area, not Delhi proper.",
+   "sources": [
+    {
+     "url": "https://www.businesstoday.in/india/story/diwali-chhath-travel-railways-suspend-platform-tickets-at-6-delhi-stations-check-new-rules-565428-2026-11-03",
+     "publisher": "Business Today",
+     "published_date": "2026-11-03",
+     "quote": "The sale of platform tickets will remain suspended from November 3 to November 14 at six stations.",
+     "tier": 2
+    }
+   ]
+  },
+  "The platform ticket suspension was introduced as the fix for the Chhath rush this year.": {
+   "id": "c6",
+   "verdict": "supported",
+   "event_date": "2026-11-03",
+   "correct": "Railways framed the suspension as a crowd-control measure for the Diwali-Chhath rush. It is one measure among others, not the whole fix.",
+   "sources": [
+    {
+     "url": "https://www.businesstoday.in/india/story/diwali-chhath-travel-railways-suspend-platform-tickets-at-6-delhi-stations-check-new-rules-565428-2026-11-03",
+     "publisher": "Business Today",
+     "published_date": "2026-11-03",
+     "quote": "aims to reduce unnecessary crowding at stations",
+     "tier": 2
+    }
+   ]
+  },
+  "With platform tickets suspended, people who are not travelling mostly cannot enter the stations.": {
+   "id": "c7",
+   "verdict": "supported",
+   "event_date": "2026-11-03",
+   "correct": "Only passengers with confirmed tickets are ordinarily allowed onto platforms. Helpers of elderly, sick, disabled or illiterate passengers, and women who need assistance, are exempt.",
+   "sources": [
+    {
+     "url": "https://www.businesstoday.in/india/story/diwali-chhath-travel-railways-suspend-platform-tickets-at-6-delhi-stations-check-new-rules-565428-2026-11-03",
+     "publisher": "Business Today",
+     "published_date": "2026-11-03",
+     "quote": "only passengers holding confirmed train tickets will ordinarily be permitted to enter the platforms.",
+     "tier": 2
+    }
+   ]
+  },
+  "New Delhi station has a permanent holding area outside Platform 16.": {
+   "id": "c8",
+   "verdict": "supported",
+   "event_date": "2026-11-03",
+   "correct": "Business Today says only that the holding area has \"reportedly\" been created. It is permanent, and this is the first report I found.",
+   "sources": [
+    {
+     "url": "https://www.businesstoday.in/india/story/diwali-chhath-travel-railways-suspend-platform-tickets-at-6-delhi-stations-check-new-rules-565428-2026-11-03",
+     "publisher": "Business Today",
+     "published_date": "2026-11-03",
+     "quote": "A permanent passenger holding area has reportedly been created outside Platform 16 at New Delhi Railway Station.",
+     "tier": 2
+    }
+   ]
+  },
+  "The holding area outside Platform 16 at New Delhi has a capacity of about 7,000 people at a time.": {
+   "id": "c9",
+   "verdict": "supported",
+   "event_date": "2026-11-03",
+   "correct": "The holding area can hold about 7,000 passengers at once.",
+   "sources": [
+    {
+     "url": "https://www.businesstoday.in/india/story/diwali-chhath-travel-railways-suspend-platform-tickets-at-6-delhi-stations-check-new-rules-565428-2026-11-03",
+     "publisher": "Business Today",
+     "published_date": "2026-11-03",
+     "quote": "It can hold about 7,000 passengers at once.",
+     "tier": 2
+    }
+   ]
+  },
+  "In the holding area, the platform number is announced to a crowd that cannot see the display board.": {
+   "id": "c10",
+   "verdict": "unverifiable",
+   "correct": "I found no source on how platform numbers are announced in the holding area, or on whether the crowd can see a display board.",
+   "sources": []
+  },
+  "_skeptic": {
+   "b598a78b6d1e2c69e56b1fc5aa67ef1f55cad479": {
+    "holds": false,
+    "broken_premise": "The central mechanism fails. It says railways use cheap crowd control (the platform ticket ban and the permanent holding area) instead of adding capacity. Railways actually did both. For this season, Northern Railway raised Chhath special trains from about 400 last year to 650 and added roughly 25% more coaches, with festive special trips nationally in the thousands. The premise that extra trains 'sit idle the rest of the year' is also wrong about how this works. Festival specials mostly run on spare or reassigned coaches and extra coaches added to regular trains, not on a dedicated fleet parked for 50 weeks. The factual premises do hold: platform ticket sales were suspended from 3 to 14 November at six Delhi stations, and a permanent holding area for about 7,000 people now sits outside Platform 16 at New Delhi, replacing the temporary tents used before. The 7,000 figure appears in only one or two reports.",
+    "actual_mechanism": "Indian Railways handles the Chhath peak mainly by adding capacity. It notifies festival special trains, which are announced in stages from about September through the festival itself, using rakes moved over from other routes and zones. It also adds extra coaches to regular services. This year Northern Railway put the count at 650 specials, up from about 400. Demand (footfall up about 25–30%) still runs ahead of the number of trains the busy Delhi–Bihar/UP lines can carry, so waitlists remain. Crowd measures like the platform ticket ban and the permanent holding area are added on top of the extra trains, not used in their place.",
+    "take_survives": false,
+    "sources": [
+     {
+      "url": "https://www.businesstoday.in/india/story/diwali-chhath-travel-railways-suspend-platform-tickets-at-6-delhi-stations-check-new-rules-565428-2026-11-03",
+      "published_date": "2026-11-03",
+      "quote": "Platform ticket sales suspended November 3 to November 14, 2026 at New Delhi, Delhi Junction, Hazrat Nizamuddin, Ghaziabad, Anand Vihar Terminal and Anand Vihar Halt; a permanent passenger holding area has reportedly been created outside Platform 16 ... can hold about 7,000 passengers (summarised, not verbatim except the quoted phrase)"
+     },
+     {
+      "url": "https://www.oneindia.com/india/chhath-puja-2026-railways-to-run-650-special-trains-add-25-more-coaches-amid-festive-rush-8257257.html",
+      "published_date": "2026-11-11",
+      "quote": "This year, the Railways plans to operate 650 special trains, compared with around 400 during the same period last year. It has also added 25 per cent more coaches to trains to accommodate the higher demand."
+     },
+     {
+      "url": "https://www.thedailyjagran.com/india/news/diwali-rush-northern-railways-crowdcontrol-measures-in-new-delhi-bans-platform-ticket-sales-at-six-stations-creates-holding-area-details-10335016",
+      "published_date": "2026-11",
+      "quote": "Northern Railways' crowd-control measures at Delhi stations; bans platform ticket sales, creates holding area (headline)"
+     },
+     {
+      "url": "https://www.timesbull.com/chhath-puja-special-trains-2026/",
+      "published_date": "2026-11",
+      "quote": "North Eastern Railway will run 214 special trains that will complete a total of 2,044 trips (summarised, not verbatim)"
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "1726712c39030e61d64434b4d929a70c55c61c79": {
+    "passed": false,
+    "take_dead": true,
+    "notes": [
+     "The take's premise is wrong: The central mechanism fails. It says railways use cheap crowd control (the platform ticket ban and the permanent holding area) instead of adding capacity. Railways actually did both. For this season, Northern Railway raised Chhath special trains from about 400 last year to 650 and added roughly 25% more coaches, with festive special trips nationally in the thousands. The premise that extra trains 'sit idle the rest of the year' is also wrong about how this works. Festival specials mostly run on spare or reassigned coaches and extra coaches added to regular trains, not on a dedicated fleet parked for 50 weeks. The factual premises do hold: platform ticket sales were suspended from 3 to 14 November at six Delhi stations, and a permanent holding area for about 7,000 people now sits outside Platform 16 at New Delhi, replacing the temporary tents used before. The 7,000 figure appears in only one or two reports.. How it actually works: Indian Railways handles the Chhath peak mainly by adding capacity. It notifies festival special trains, which are announced in stages from about September through the festival itself, using rakes moved over from other routes and zones. It also adds extra coaches to regular services. This year Northern Railway put the count at 650 specials, up from about 400. Demand (footfall up about 25–30%) still runs ahead of the number of trains the busy Delhi–Bihar/UP lines can carry, so waitlists remain. Crowd measures like the platform ticket ban and the permanent holding area are added on top of the extra trains, not used in their place. Rebuild the post on the correct mechanism.",
+     "Could not verify: 'When ticket booking opens at 8 am, every train from Delhi to Patna, Darbhanga and Gorakhpur already shows a waiting list for the Chhath period.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Ticket booking on the railway app opens at 8 am.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Special Chhath trains are added late, after regular booking has filled up.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'In the holding area, the platform number is announced to a crowd that cannot see the display board.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Chhath Puja falls on the same dates every year in the sense that the rush from Delhi comes at a predictable time each year (the post says dates never change).",
+      "sentence": "Chhath comes on the same dates every year.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "When ticket booking opens at 8 am, every train from Delhi to Patna, Darbhanga and Gorakhpur already shows a waiting list for the Chhath period.",
+      "sentence": "Every train to Patna, Darbhanga and Gorakhpur already shows a waiting list.",
+      "type": "event",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Ticket booking on the railway app opens at 8 am.",
+      "sentence": "You open the ticket app at 8 am, the moment booking opens.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Special Chhath trains are added late, after regular booking has filled up.",
+      "sentence": "The special trains get added late, so you plan your leave around a ticket that may never confirm.",
+      "type": "event",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "From 3 to 14 November this year, six Delhi stations stopped selling platform tickets.",
+      "sentence": "From 3 to 14 November, six Delhi stations stopped selling platform tickets.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c6",
+      "text": "The platform ticket suspension was introduced as the fix for the Chhath rush this year.",
+      "sentence": "This year the fix was a rule.",
+      "type": "event",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c7",
+      "text": "With platform tickets suspended, people who are not travelling mostly cannot enter the stations.",
+      "sentence": "If you're not travelling, you mostly don't get in.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c8",
+      "text": "New Delhi station has a permanent holding area outside Platform 16.",
+      "sentence": "At New Delhi, a permanent holding area outside Platform 16 takes about 7,000 people at a time.",
+      "type": "entity_attribute",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c9",
+      "text": "The holding area outside Platform 16 at New Delhi has a capacity of about 7,000 people at a time.",
+      "sentence": "a permanent holding area outside Platform 16 takes about 7,000 people at a time.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c10",
+      "text": "In the holding area, the platform number is announced to a crowd that cannot see the display board.",
+      "sentence": "The platform number gets announced to a crowd that can't even see the board.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c11",
+      "text": "Running extra trains and laying extra tracks for two peak weeks is expensive, and the capacity sits idle the rest of the year.",
+      "sentence": "Extra trains and tracks for two peak weeks are expensive, and they sit idle the rest of the year.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c12",
+      "text": "A waiting area is cheaper than adding trains and tracks.",
+      "sentence": "A waiting area is cheap.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c13",
+      "text": "Travellers held in the waiting area leave on their trains before they can complain, which is why the approach faces little pushback.",
+      "sentence": "And the people stuck in it can't complain. They're on a train out by then.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c14",
+      "text": "The holding area is better than a crush on the stairs.",
+      "sentence": "Sure, a holding area beats a crush on the stairs.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c15",
+      "text": "Central mechanism: Chhath travel dates are fixed and known, extra trains are costly and idle most of the year, so railways rely on cheap crowd-management measures like platform ticket bans and a permanent holding area instead of adding capacity; travellers leave before they can complain.",
+      "sentence": "The one thing built to last is the place you wait.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "misframed",
+      "correct": "Chhath follows the lunar calendar, so its Gregorian dates shift each year. It falls in October or November, six days after Diwali. The rush is predictable only in that it always follows Diwali.",
+      "sources": []
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "unverifiable",
+      "correct": "I found no source showing that every Delhi train to Patna, Darbhanga and Gorakhpur is already waitlisted when booking opens. The claim is probably an exaggeration.",
+      "sources": []
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "unverifiable",
+      "correct": "I did not check this against IRCTC or Indian Railways. From memory, advance reservation opens at 8 am, but I have no source.",
+      "sources": []
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "unverifiable",
+      "correct": "I found no source on when special Chhath trains are announced relative to regular booking.",
+      "sources": []
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "supported",
+      "event_date": "2026-11-03",
+      "correct": "The suspension runs 3 to 14 November at six stations: New Delhi, Delhi Junction, Hazrat Nizamuddin, Ghaziabad, Anand Vihar Terminal and Anand Vihar Halt. Ghaziabad and Anand Vihar are in the Delhi area, not Delhi proper.",
+      "sources": [
+       {
+        "url": "https://www.businesstoday.in/india/story/diwali-chhath-travel-railways-suspend-platform-tickets-at-6-delhi-stations-check-new-rules-565428-2026-11-03",
+        "publisher": "Business Today",
+        "published_date": "2026-11-03",
+        "quote": "The sale of platform tickets will remain suspended from November 3 to November 14 at six stations.",
+        "tier": 2
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "supported",
+      "event_date": "2026-11-03",
+      "correct": "Railways framed the suspension as a crowd-control measure for the Diwali-Chhath rush. It is one measure among others, not the whole fix.",
+      "sources": [
+       {
+        "url": "https://www.businesstoday.in/india/story/diwali-chhath-travel-railways-suspend-platform-tickets-at-6-delhi-stations-check-new-rules-565428-2026-11-03",
+        "publisher": "Business Today",
+        "published_date": "2026-11-03",
+        "quote": "aims to reduce unnecessary crowding at stations",
+        "tier": 2
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "supported",
+      "event_date": "2026-11-03",
+      "correct": "Only passengers with confirmed tickets are ordinarily allowed onto platforms. Helpers of elderly, sick, disabled or illiterate passengers, and women who need assistance, are exempt.",
+      "sources": [
+       {
+        "url": "https://www.businesstoday.in/india/story/diwali-chhath-travel-railways-suspend-platform-tickets-at-6-delhi-stations-check-new-rules-565428-2026-11-03",
+        "publisher": "Business Today",
+        "published_date": "2026-11-03",
+        "quote": "only passengers holding confirmed train tickets will ordinarily be permitted to enter the platforms.",
+        "tier": 2
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "supported",
+      "event_date": "2026-11-03",
+      "correct": "Business Today says only that the holding area has \"reportedly\" been created. It is permanent, and this is the first report I found.",
+      "sources": [
+       {
+        "url": "https://www.businesstoday.in/india/story/diwali-chhath-travel-railways-suspend-platform-tickets-at-6-delhi-stations-check-new-rules-565428-2026-11-03",
+        "publisher": "Business Today",
+        "published_date": "2026-11-03",
+        "quote": "A permanent passenger holding area has reportedly been created outside Platform 16 at New Delhi Railway Station.",
+        "tier": 2
+       }
+      ]
+     },
+     "c9": {
+      "id": "c9",
+      "verdict": "supported",
+      "event_date": "2026-11-03",
+      "correct": "The holding area can hold about 7,000 passengers at once.",
+      "sources": [
+       {
+        "url": "https://www.businesstoday.in/india/story/diwali-chhath-travel-railways-suspend-platform-tickets-at-6-delhi-stations-check-new-rules-565428-2026-11-03",
+        "publisher": "Business Today",
+        "published_date": "2026-11-03",
+        "quote": "It can hold about 7,000 passengers at once.",
+        "tier": 2
+       }
+      ]
+     },
+     "c10": {
+      "id": "c10",
+      "verdict": "unverifiable",
+      "correct": "I found no source on how platform numbers are announced in the holding area, or on whether the crowd can see a display board.",
+      "sources": []
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "The central mechanism fails. It says railways use cheap crowd control (the platform ticket ban and the permanent holding area) instead of adding capacity. Railways actually did both. For this season, Northern Railway raised Chhath special trains from about 400 last year to 650 and added roughly 25% more coaches, with festive special trips nationally in the thousands. The premise that extra trains 'sit idle the rest of the year' is also wrong about how this works. Festival specials mostly run on spare or reassigned coaches and extra coaches added to regular trains, not on a dedicated fleet parked for 50 weeks. The factual premises do hold: platform ticket sales were suspended from 3 to 14 November at six Delhi stations, and a permanent holding area for about 7,000 people now sits outside Platform 16 at New Delhi, replacing the temporary tents used before. The 7,000 figure appears in only one or two reports.",
+     "actual_mechanism": "Indian Railways handles the Chhath peak mainly by adding capacity. It notifies festival special trains, which are announced in stages from about September through the festival itself, using rakes moved over from other routes and zones. It also adds extra coaches to regular services. This year Northern Railway put the count at 650 specials, up from about 400. Demand (footfall up about 25–30%) still runs ahead of the number of trains the busy Delhi–Bihar/UP lines can carry, so waitlists remain. Crowd measures like the platform ticket ban and the permanent holding area are added on top of the extra trains, not used in their place.",
+     "take_survives": false,
+     "sources": [
+      {
+       "url": "https://www.businesstoday.in/india/story/diwali-chhath-travel-railways-suspend-platform-tickets-at-6-delhi-stations-check-new-rules-565428-2026-11-03",
+       "published_date": "2026-11-03",
+       "quote": "Platform ticket sales suspended November 3 to November 14, 2026 at New Delhi, Delhi Junction, Hazrat Nizamuddin, Ghaziabad, Anand Vihar Terminal and Anand Vihar Halt; a permanent passenger holding area has reportedly been created outside Platform 16 ... can hold about 7,000 passengers (summarised, not verbatim except the quoted phrase)"
+      },
+      {
+       "url": "https://www.oneindia.com/india/chhath-puja-2026-railways-to-run-650-special-trains-add-25-more-coaches-amid-festive-rush-8257257.html",
+       "published_date": "2026-11-11",
+       "quote": "This year, the Railways plans to operate 650 special trains, compared with around 400 during the same period last year. It has also added 25 per cent more coaches to trains to accommodate the higher demand."
+      },
+      {
+       "url": "https://www.thedailyjagran.com/india/news/diwali-rush-northern-railways-crowdcontrol-measures-in-new-delhi-bans-platform-ticket-sales-at-six-stations-creates-holding-area-details-10335016",
+       "published_date": "2026-11",
+       "quote": "Northern Railways' crowd-control measures at Delhi stations; bans platform ticket sales, creates holding area (headline)"
+      },
+      {
+       "url": "https://www.timesbull.com/chhath-puja-special-trains-2026/",
+       "published_date": "2026-11",
+       "quote": "North Eastern Railway will run 214 special trains that will complete a total of 2,044 trips (summarised, not verbatim)"
+      }
+     ]
+    },
+    "text_hash": "1726712c39030e61d64434b4d929a70c55c61c79",
+    "at": "2026-11-13T06:55:21.874963+00:00"
+   }
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "Chhath comes every year. [The station acts surprised] every time.",
+   "sub": "The dates never change. Neither does the scramble at the gate."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Chhath comes on the same dates every year. Delhi's stations still handle it like a surprise.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "If everyone knows the dates, why does it still feel like a scramble?"
+   },
+   {
+    "paragraphs": [
+     "You open the ticket app at 8 am, the moment booking opens. Every train to Patna, Darbhanga and Gorakhpur already shows a waiting list.",
+     "So you book the waitlist anyway and refresh like it's a second job."
+    ],
+    "why_swipe": "Whose fault is the waitlist, really?"
+   },
+   {
+    "paragraphs": [
+     "The special trains get added late, so you plan your leave around a ticket that may never confirm."
+    ],
+    "why_swipe": "So what does the system actually prepare instead of seats?"
+   },
+   {
+    "paragraphs": [
+     "This year the fix was a rule. From 3 to 14 November, six Delhi stations stopped selling platform tickets. If you're not travelling, you mostly don't get in."
+    ],
+    "why_swipe": "What happens next?"
+   },
+   {
+    "paragraphs": [
+     "Your friend can't walk you to the coach anymore. At New Delhi, a permanent holding area outside Platform 16 takes about 7,000 people at a time."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "Inside, you stand with your bags and guess. The platform number gets announced to a crowd that can't even see the board."
+    ],
+    "why_swipe": "Why build a waiting area instead of more trains?"
+   },
+   {
+    "paragraphs": [
+     "Extra trains and tracks for two peak weeks are expensive, and they sit idle the rest of the year. A waiting area is cheap.",
+     "And the people stuck in it can't complain. They're on a train out by then."
+    ],
+    "why_swipe": "Is the holding area at least an improvement?"
+   },
+   {
+    "paragraphs": [
+     "Sure, a holding area beats a crush on the stairs. Nobody's arguing with that.",
+     "But look at the word permanent. The one thing built to last is the place you wait."
+    ],
+    "why_swipe": "And who exactly is being made to wait?"
+   },
+   {
+    "paragraphs": [
+     "The city knows exactly who leaves. The guard at your gate asks for leave a month early. You blocked that week on the team calendar in September.",
+     "Offices, kitchens and building sites sorted out that week ages ago."
+    ],
+    "why_swipe": "So if the city plans for it, why doesn't the station?"
+   },
+   {
+    "paragraphs": [
+     "Your manager has your Chhath dates in September.",
+     "The station meets you in November with a holding pen."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Come back to this the morning booking opens for next year's Chhath trains.",
+   "send": "Send to the colleague leaving for Chhath this week who still has no confirmed seat.",
+   "promise": "How India really works, decoded."
+  },
+  "alt_text": "A text post in ten slides. It argues that the Chhath rush from Delhi comes on the same dates every year, yet railways handle it with temporary fixes: waitlisted trains on booking day, special trains added late, platform tickets suspended from 3 to 14 November at six Delhi stations, and a permanent holding area outside Platform 16 at New Delhi for about 7,000 people. It explains that a waiting area is cheaper than extra trains, and that the travellers stuck in it have already left the city by the time they could complain. It credits the holding area for preventing crushes but points out the only permanent thing built is a place to wait, while offices and homes plan months ahead around workers going home.",
+  "claims": [
+   {
+    "text": "From 3 to 14 November, six Delhi stations stopped selling platform tickets.",
+    "source_url": "https://www.businesstoday.in/india/story/diwali-chhath-travel-railways-suspend-platform-tickets-at-6-delhi-stations-check-new-rules-565428-2026-11-03"
+   },
+   {
+    "text": "If you're not travelling, you mostly don't get onto the platforms (only confirmed passengers are ordinarily allowed).",
+    "source_url": "https://www.businesstoday.in/india/story/diwali-chhath-travel-railways-suspend-platform-tickets-at-6-delhi-stations-check-new-rules-565428-2026-11-03"
+   },
+   {
+    "text": "A permanent holding area outside Platform 16 at New Delhi takes about 7,000 people at a time.",
+    "source_url": "topic"
+   }
+  ],
+  "caption": "Chhath train rush comes on fixed dates, and the one permanent fix is a place to stand and wait.\n\nSeats for two weeks cost money all year. A waiting area costs little, and the people in it are gone before anyone asks.\n\n\"Confirm hua?\" is the only question anyone at the office asks that week.\n\nSend this to the colleague leaving for Chhath this week who is still refreshing a waitlisted ticket.",
+  "hashtags": [
+   "#ChhathPuja",
+   "#DesiParents"
+  ],
+  "caption_style": "send",
+  "search_phrase": "Chhath train rush",
+  "caption_v": 2
+ },
+ "verification": {
+  "passed": false,
+  "take_dead": true,
+  "notes": [
+   "The take's premise is wrong: The central mechanism fails. It says railways use cheap crowd control (the platform ticket ban and the permanent holding area) instead of adding capacity. Railways actually did both. For this season, Northern Railway raised Chhath special trains from about 400 last year to 650 and added roughly 25% more coaches, with festive special trips nationally in the thousands. The premise that extra trains 'sit idle the rest of the year' is also wrong about how this works. Festival specials mostly run on spare or reassigned coaches and extra coaches added to regular trains, not on a dedicated fleet parked for 50 weeks. The factual premises do hold: platform ticket sales were suspended from 3 to 14 November at six Delhi stations, and a permanent holding area for about 7,000 people now sits outside Platform 16 at New Delhi, replacing the temporary tents used before. The 7,000 figure appears in only one or two reports.. How it actually works: Indian Railways handles the Chhath peak mainly by adding capacity. It notifies festival special trains, which are announced in stages from about September through the festival itself, using rakes moved over from other routes and zones. It also adds extra coaches to regular services. This year Northern Railway put the count at 650 specials, up from about 400. Demand (footfall up about 25–30%) still runs ahead of the number of trains the busy Delhi–Bihar/UP lines can carry, so waitlists remain. Crowd measures like the platform ticket ban and the permanent holding area are added on top of the extra trains, not used in their place. Rebuild the post on the correct mechanism.",
+   "Could not verify: 'When ticket booking opens at 8 am, every train from Delhi to Patna, Darbhanga and Gorakhpur already shows a waiting list for the Chhath period.'. Cut it, or state it only if a source says it.",
+   "Could not verify: 'Ticket booking on the railway app opens at 8 am.'. Cut it, or state it only if a source says it.",
+   "Could not verify: 'Special Chhath trains are added late, after regular booking has filled up.'. Cut it, or state it only if a source says it.",
+   "Could not verify: 'In the holding area, the platform number is announced to a crowd that cannot see the display board.'. Cut it, or state it only if a source says it."
+  ],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Chhath Puja falls on the same dates every year in the sense that the rush from Delhi comes at a predictable time each year (the post says dates never change).",
+    "sentence": "Chhath comes on the same dates every year.",
+    "type": "feature",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "When ticket booking opens at 8 am, every train from Delhi to Patna, Darbhanga and Gorakhpur already shows a waiting list for the Chhath period.",
+    "sentence": "Every train to Patna, Darbhanga and Gorakhpur already shows a waiting list.",
+    "type": "event",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c3",
+    "text": "Ticket booking on the railway app opens at 8 am.",
+    "sentence": "You open the ticket app at 8 am, the moment booking opens.",
+    "type": "feature",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c4",
+    "text": "Special Chhath trains are added late, after regular booking has filled up.",
+    "sentence": "The special trains get added late, so you plan your leave around a ticket that may never confirm.",
+    "type": "event",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c5",
+    "text": "From 3 to 14 November this year, six Delhi stations stopped selling platform tickets.",
+    "sentence": "From 3 to 14 November, six Delhi stations stopped selling platform tickets.",
+    "type": "event",
+    "core": true,
+    "framed_as": "current"
+   },
+   {
+    "id": "c6",
+    "text": "The platform ticket suspension was introduced as the fix for the Chhath rush this year.",
+    "sentence": "This year the fix was a rule.",
+    "type": "event",
+    "core": false,
+    "framed_as": "current"
+   },
+   {
+    "id": "c7",
+    "text": "With platform tickets suspended, people who are not travelling mostly cannot enter the stations.",
+    "sentence": "If you're not travelling, you mostly don't get in.",
+    "type": "feature",
+    "core": false,
+    "framed_as": "current"
+   },
+   {
+    "id": "c8",
+    "text": "New Delhi station has a permanent holding area outside Platform 16.",
+    "sentence": "At New Delhi, a permanent holding area outside Platform 16 takes about 7,000 people at a time.",
+    "type": "entity_attribute",
+    "core": true,
+    "framed_as": "current"
+   },
+   {
+    "id": "c9",
+    "text": "The holding area outside Platform 16 at New Delhi has a capacity of about 7,000 people at a time.",
+    "sentence": "a permanent holding area outside Platform 16 takes about 7,000 people at a time.",
+    "type": "figure",
+    "core": true,
+    "framed_as": "current"
+   },
+   {
+    "id": "c10",
+    "text": "In the holding area, the platform number is announced to a crowd that cannot see the display board.",
+    "sentence": "The platform number gets announced to a crowd that can't even see the board.",
+    "type": "feature",
+    "core": false,
+    "framed_as": "current"
+   },
+   {
+    "id": "c11",
+    "text": "Running extra trains and laying extra tracks for two peak weeks is expensive, and the capacity sits idle the rest of the year.",
+    "sentence": "Extra trains and tracks for two peak weeks are expensive, and they sit idle the rest of the year.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c12",
+    "text": "A waiting area is cheaper than adding trains and tracks.",
+    "sentence": "A waiting area is cheap.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c13",
+    "text": "Travellers held in the waiting area leave on their trains before they can complain, which is why the approach faces little pushback.",
+    "sentence": "And the people stuck in it can't complain. They're on a train out by then.",
+    "type": "mechanism",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c14",
+    "text": "The holding area is better than a crush on the stairs.",
+    "sentence": "Sure, a holding area beats a crush on the stairs.",
+    "type": "mechanism",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c15",
+    "text": "Central mechanism: Chhath travel dates are fixed and known, extra trains are costly and idle most of the year, so railways rely on cheap crowd-management measures like platform ticket bans and a permanent holding area instead of adding capacity; travellers leave before they can complain.",
+    "sentence": "The one thing built to last is the place you wait.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c1": {
+    "id": "c1",
+    "verdict": "misframed",
+    "correct": "Chhath follows the lunar calendar, so its Gregorian dates shift each year. It falls in October or November, six days after Diwali. The rush is predictable only in that it always follows Diwali.",
+    "sources": []
+   },
+   "c2": {
+    "id": "c2",
+    "verdict": "unverifiable",
+    "correct": "I found no source showing that every Delhi train to Patna, Darbhanga and Gorakhpur is already waitlisted when booking opens. The claim is probably an exaggeration.",
+    "sources": []
+   },
+   "c3": {
+    "id": "c3",
+    "verdict": "unverifiable",
+    "correct": "I did not check this against IRCTC or Indian Railways. From memory, advance reservation opens at 8 am, but I have no source.",
+    "sources": []
+   },
+   "c4": {
+    "id": "c4",
+    "verdict": "unverifiable",
+    "correct": "I found no source on when special Chhath trains are announced relative to regular booking.",
+    "sources": []
+   },
+   "c5": {
+    "id": "c5",
+    "verdict": "supported",
+    "event_date": "2026-11-03",
+    "correct": "The suspension runs 3 to 14 November at six stations: New Delhi, Delhi Junction, Hazrat Nizamuddin, Ghaziabad, Anand Vihar Terminal and Anand Vihar Halt. Ghaziabad and Anand Vihar are in the Delhi area, not Delhi proper.",
+    "sources": [
+     {
+      "url": "https://www.businesstoday.in/india/story/diwali-chhath-travel-railways-suspend-platform-tickets-at-6-delhi-stations-check-new-rules-565428-2026-11-03",
+      "publisher": "Business Today",
+      "published_date": "2026-11-03",
+      "quote": "The sale of platform tickets will remain suspended from November 3 to November 14 at six stations.",
+      "tier": 2
+     }
+    ]
+   },
+   "c6": {
+    "id": "c6",
+    "verdict": "supported",
+    "event_date": "2026-11-03",
+    "correct": "Railways framed the suspension as a crowd-control measure for the Diwali-Chhath rush. It is one measure among others, not the whole fix.",
+    "sources": [
+     {
+      "url": "https://www.businesstoday.in/india/story/diwali-chhath-travel-railways-suspend-platform-tickets-at-6-delhi-stations-check-new-rules-565428-2026-11-03",
+      "publisher": "Business Today",
+      "published_date": "2026-11-03",
+      "quote": "aims to reduce unnecessary crowding at stations",
+      "tier": 2
+     }
+    ]
+   },
+   "c7": {
+    "id": "c7",
+    "verdict": "supported",
+    "event_date": "2026-11-03",
+    "correct": "Only passengers with confirmed tickets are ordinarily allowed onto platforms. Helpers of elderly, sick, disabled or illiterate passengers, and women who need assistance, are exempt.",
+    "sources": [
+     {
+      "url": "https://www.businesstoday.in/india/story/diwali-chhath-travel-railways-suspend-platform-tickets-at-6-delhi-stations-check-new-rules-565428-2026-11-03",
+      "publisher": "Business Today",
+      "published_date": "2026-11-03",
+      "quote": "only passengers holding confirmed train tickets will ordinarily be permitted to enter the platforms.",
+      "tier": 2
+     }
+    ]
+   },
+   "c8": {
+    "id": "c8",
+    "verdict": "supported",
+    "event_date": "2026-11-03",
+    "correct": "Business Today says only that the holding area has \"reportedly\" been created. It is permanent, and this is the first report I found.",
+    "sources": [
+     {
+      "url": "https://www.businesstoday.in/india/story/diwali-chhath-travel-railways-suspend-platform-tickets-at-6-delhi-stations-check-new-rules-565428-2026-11-03",
+      "publisher": "Business Today",
+      "published_date": "2026-11-03",
+      "quote": "A permanent passenger holding area has reportedly been created outside Platform 16 at New Delhi Railway Station.",
+      "tier": 2
+     }
+    ]
+   },
+   "c9": {
+    "id": "c9",
+    "verdict": "supported",
+    "event_date": "2026-11-03",
+    "correct": "The holding area can hold about 7,000 passengers at once.",
+    "sources": [
+     {
+      "url": "https://www.businesstoday.in/india/story/diwali-chhath-travel-railways-suspend-platform-tickets-at-6-delhi-stations-check-new-rules-565428-2026-11-03",
+      "publisher": "Business Today",
+      "published_date": "2026-11-03",
+      "quote": "It can hold about 7,000 passengers at once.",
+      "tier": 2
+     }
+    ]
+   },
+   "c10": {
+    "id": "c10",
+    "verdict": "unverifiable",
+    "correct": "I found no source on how platform numbers are announced in the holding area, or on whether the crowd can see a display board.",
+    "sources": []
+   }
+  },
+  "mechanism": {
+   "holds": false,
+   "broken_premise": "The central mechanism fails. It says railways use cheap crowd control (the platform ticket ban and the permanent holding area) instead of adding capacity. Railways actually did both. For this season, Northern Railway raised Chhath special trains from about 400 last year to 650 and added roughly 25% more coaches, with festive special trips nationally in the thousands. The premise that extra trains 'sit idle the rest of the year' is also wrong about how this works. Festival specials mostly run on spare or reassigned coaches and extra coaches added to regular trains, not on a dedicated fleet parked for 50 weeks. The factual premises do hold: platform ticket sales were suspended from 3 to 14 November at six Delhi stations, and a permanent holding area for about 7,000 people now sits outside Platform 16 at New Delhi, replacing the temporary tents used before. The 7,000 figure appears in only one or two reports.",
+   "actual_mechanism": "Indian Railways handles the Chhath peak mainly by adding capacity. It notifies festival special trains, which are announced in stages from about September through the festival itself, using rakes moved over from other routes and zones. It also adds extra coaches to regular services. This year Northern Railway put the count at 650 specials, up from about 400. Demand (footfall up about 25–30%) still runs ahead of the number of trains the busy Delhi–Bihar/UP lines can carry, so waitlists remain. Crowd measures like the platform ticket ban and the permanent holding area are added on top of the extra trains, not used in their place.",
+   "take_survives": false,
+   "sources": [
+    {
+     "url": "https://www.businesstoday.in/india/story/diwali-chhath-travel-railways-suspend-platform-tickets-at-6-delhi-stations-check-new-rules-565428-2026-11-03",
+     "published_date": "2026-11-03",
+     "quote": "Platform ticket sales suspended November 3 to November 14, 2026 at New Delhi, Delhi Junction, Hazrat Nizamuddin, Ghaziabad, Anand Vihar Terminal and Anand Vihar Halt; a permanent passenger holding area has reportedly been created outside Platform 16 ... can hold about 7,000 passengers (summarised, not verbatim except the quoted phrase)"
+    },
+    {
+     "url": "https://www.oneindia.com/india/chhath-puja-2026-railways-to-run-650-special-trains-add-25-more-coaches-amid-festive-rush-8257257.html",
+     "published_date": "2026-11-11",
+     "quote": "This year, the Railways plans to operate 650 special trains, compared with around 400 during the same period last year. It has also added 25 per cent more coaches to trains to accommodate the higher demand."
+    },
+    {
+     "url": "https://www.thedailyjagran.com/india/news/diwali-rush-northern-railways-crowdcontrol-measures-in-new-delhi-bans-platform-ticket-sales-at-six-stations-creates-holding-area-details-10335016",
+     "published_date": "2026-11",
+     "quote": "Northern Railways' crowd-control measures at Delhi stations; bans platform ticket sales, creates holding area (headline)"
+    },
+    {
+     "url": "https://www.timesbull.com/chhath-puja-special-trains-2026/",
+     "published_date": "2026-11",
+     "quote": "North Eastern Railway will run 214 special trains that will complete a total of 2,044 trips (summarised, not verbatim)"
+    }
+   ]
+  },
+  "text_hash": "1726712c39030e61d64434b4d929a70c55c61c79",
+  "at": "2026-11-13T06:55:21.874963+00:00"
+ }
 }

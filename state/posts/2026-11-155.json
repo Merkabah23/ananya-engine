@@ -1,6 +1,6 @@
 {
  "id": "2026-11-155",
- "status": "planned",
+ "status": "uploaded",
  "due": "2026-11-25T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -43,6 +43,1169 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-11-13T06:41:31.204389+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 4,
+     "tight": 3,
+     "informative": 4
+    },
+    "notes": [
+     "slide 1: \"It was sent to fill a slide.\" On a carousel, \"a slide\" reads as an Instagram slide, so the turn is unclear in two seconds. Name it: \"It was sent to fill a slide in the brand's monthly report.\" The close still has its own twist with \"slide 7\".",
+     "slides 4-5: these overlap, and slide 5 is a lone receipt that repeats slide 4's point. Merge them. Cut \"Anyone who has worked in marketing knows why.\" It leans on background where the mechanism should do the work. Fold the sourced line into slide 4 in plain words with no \"ROI\": \"Even Indian marketers admit there's no settled way to measure what influencers bring back.\"",
+     "slide 7: \"This is why:\" with a dash list is the exact scaffold of the society pool post. Use a fresh lead-in tied to this post, such as \"Once you know that, the hamper explains itself.\" Keep the three sharpest items. \"Prettier box than product\", \"same week\" and \"unboxing, never a month-later review\" are enough, and \"grid of screenshots\" can move into slide 8, where it already lands.",
+     "slide 8: the ASCI rule is a fact detour, and the \"creators aren't hiding it / the marketing team isn't lying either\" pair reads mirrored. Keep the visible \"Free Gift\" tag as the receipt and drop the rule citation. Then say straight that nobody is lying and the system just rewards counting: \"A grid of unboxings looks like work, so it gets made again next month.\"",
+     "slide 9: the sting is muddled. \"Your sale won't even make the report\" is not quite true, because the sale lands in total revenue and the hamper just never gets the credit. Rewrite it so the reader feels they were the only one in the chain who actually acted: \"Your sale goes into the total. Nobody ever traces it back to the hamper.\" Also add one non-visual detail on slide 2, like the crinkle of tissue paper every unboxing opens with, so the scene is felt, not just seen."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "slide 1: \"It was sent to fill a slide.\" On a carousel, \"a slide\" reads as an Instagram slide, so the turn is unclear in two seconds. Name it: \"It was sent to fill a slide in the brand's monthly report.\" The close still has its own twist with \"slide 7\".",
+    "slides 4-5: these overlap, and slide 5 is a lone receipt that repeats slide 4's point. Merge them. Cut \"Anyone who has worked in marketing knows why.\" It leans on background where the mechanism should do the work. Fold the sourced line into slide 4 in plain words with no \"ROI\": \"Even Indian marketers admit there's no settled way to measure what influencers bring back.\"",
+    "slide 7: \"This is why:\" with a dash list is the exact scaffold of the society pool post. Use a fresh lead-in tied to this post, such as \"Once you know that, the hamper explains itself.\" Keep the three sharpest items. \"Prettier box than product\", \"same week\" and \"unboxing, never a month-later review\" are enough, and \"grid of screenshots\" can move into slide 8, where it already lands.",
+    "slide 8: the ASCI rule is a fact detour, and the \"creators aren't hiding it / the marketing team isn't lying either\" pair reads mirrored. Keep the visible \"Free Gift\" tag as the receipt and drop the rule citation. Then say straight that nobody is lying and the system just rewards counting: \"A grid of unboxings looks like work, so it gets made again next month.\"",
+    "slide 9: the sting is muddled. \"Your sale won't even make the report\" is not quite true, because the sale lands in total revenue and the hamper just never gets the credit. Rewrite it so the reader feels they were the only one in the chain who actually acted: \"Your sale goes into the total. Nobody ever traces it back to the hamper.\" Also add one non-visual detail on slide 2, like the crinkle of tissue paper every unboxing opens with, so the scene is felt, not just seen."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "All six notes from the last round are settled. Slide 1 now names the brand's report. Slides 4 and 5 are merged with the plain-word receipt. The list has a fresh lead-in. The ASCI detour is gone. The sting on slide 9 is accurate. The tissue-paper crinkle on slide 2 gives a sound. No new hard failures came in with the edits.",
+     "slide 7: the why_swipe \"what happens next?\" is lowercase and generic next to the others. Make it specific: \"So why does the brand keep sending them?\" This is optional polish and does not block the post."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 7",
+      "line": "Everyone here is telling the truth. The system just rewards counting.",
+      "why": "essay voice, 'the system', explains the meaning",
+      "try": "So nobody's lying to you. A post is just the only thing anyone here gets counted for."
+     },
+     {
+      "where": "slide 2",
+      "line": "Festive season. The same pastel hamper shows up on five feeds in one week. The crinkle of tissue paper, ribbon, dried flowers, a card with the creator's name on it.",
+      "why": "scene narration, 'crinkle' is written not typed",
+      "try": "Festive season, and the same pastel hamper shows up on five feeds in one week. Tissue paper, ribbon, dried flowers, a card with the creator's name on it. The actual product is somewhere under all that."
+     },
+     {
+      "where": "slide 5",
+      "line": "And whatever gets counted is whatever gets done.",
+      "why": "engineered mirrored aphorism, coach voice",
+      "try": "So the job quietly turns into getting more posts. Not more sales."
+     },
+     {
+      "where": "slide 8",
+      "line": "The team ends up with a grid of screenshots. A grid of unboxings looks like work, so it gets made again next month.",
+      "why": "stiff passive, repeated phrase",
+      "try": "The team ends up with a grid of screenshots for the report. Looks like work. So next month, the boxes go out again."
+     },
+     {
+      "where": "slide 4",
+      "line": "Even Indian marketers admit there's no settled way to measure what influencers bring back.",
+      "why": "stiff, report-ish wording",
+      "try": "And honestly, marketers here will tell you themselves. Nobody has a proper way to measure what influencers bring back."
+     },
+     {
+      "where": "slide 9",
+      "line": "You were the only one in this chain who actually acted.",
+      "why": "stiff written words ('chain', 'acted')",
+      "try": "You're the only one in this whole thing who actually bought something."
+     }
+    ],
+    "best": "You're watching someone's monthly report, slide 7."
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Not Varun (slide 7): 'Everyone here is telling the truth. The system just rewards counting.' reads as essay voice, 'the system', explains the meaning. Say it the way he would, e.g. 'So nobody's lying to you. A post is just the only thing anyone here gets counted for.' (his register, your words, same facts).",
+    "Not Varun (slide 2): 'Festive season. The same pastel hamper shows up on five feeds in one week. The crinkle of tissue paper, ribbon, dried flowers, a card with the creator's name on it.' reads as scene narration, 'crinkle' is written not typed. Say it the way he would, e.g. 'Festive season, and the same pastel hamper shows up on five feeds in one week. Tissue paper, ribbon, dried flowers, a card with the creator's name on it. The actual product is somewhere under all that.' (his register, your words, same facts).",
+    "Not Varun (slide 5): 'And whatever gets counted is whatever gets done.' reads as engineered mirrored aphorism, coach voice. Say it the way he would, e.g. 'So the job quietly turns into getting more posts. Not more sales.' (his register, your words, same facts).",
+    "Not Varun (slide 8): 'The team ends up with a grid of screenshots. A grid of unboxings looks like work, so it gets made again next month.' reads as stiff passive, repeated phrase. Say it the way he would, e.g. 'The team ends up with a grid of screenshots for the report. Looks like work. So next month, the boxes go out again.' (his register, your words, same facts).",
+    "Not Varun (slide 4): 'Even Indian marketers admit there's no settled way to measure what influencers bring back.' reads as stiff, report-ish wording. Say it the way he would, e.g. 'And honestly, marketers here will tell you themselves. Nobody has a proper way to measure what influencers bring back.' (his register, your words, same facts).",
+    "Not Varun (slide 9): 'You were the only one in this chain who actually acted.' reads as stiff written words ('chain', 'acted'). Say it the way he would, e.g. 'You're the only one in this whole thing who actually bought something.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slide 5: the edit left two lines in a row opening with 'So' ('So teams count what they can count.' / 'So the job turns into getting more posts, not more sales.'), and slide 7 also opens with 'So'. Drop the second one, e.g. 'The job quietly turns into getting more posts, not more sales.' Same facts, smoother rhythm.",
+     "slide 4: 'There's still no proper way to measure what influencers bring back' sits at the edge of the source, which says there's no common standard and no gold-standard ROI formula. Keep it as is or soften it to 'no proper, agreed way', but don't push it any stronger."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "varun": {
+    "pass": true,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 5",
+      "line": "So the job turns into getting more posts, not more sales.",
+      "why": "stiff: second 'So' opener in a row right after 'So teams count…'",
+      "try": "And slowly the job turns into getting more posts, not more sales."
+     }
+    ],
+    "best": "You're watching someone's monthly report, slide 7."
+   }
+  },
+  {
+   "attempt": 2,
+   "verification": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Most influencer PR boxes are sent to fill a slide in the brand's report rather than to sell products to the audience.",
+      "sentence": "That box wasn't sent to sell you anything. It was sent to fill a slide in the brand's report.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "There is no clean way for brands to tell how many sales influencer PR boxes generated.",
+      "sentence": "But ask what those boxes actually sold. There's no clean way to tell.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "A reel view cannot be linked to a later purchase, for example a Nykaa purchase days after watching; nothing connects the two.",
+      "sentence": "A view on a reel doesn't come with a receipt. You watch on Tuesday. You buy on Nykaa on Friday. Nothing links the two.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Indian marketers themselves say there is still no proper way to measure the sales influencers bring back.",
+      "sentence": "And marketers here will tell you themselves. There's still no proper way to measure what influencers bring back.",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Brand teams measure influencer campaigns by what they can count: posts, mentions, views and story reshares.",
+      "sentence": "So teams count what they can count. Posts, mentions, views, story reshares.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Because teams count posts rather than sales, the job becomes getting more posts, not more sales.",
+      "sentence": "So the job turns into getting more posts, not more sales.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "In the brand's PR boxes, the packaging is prettier than the product inside, the posts land in the same week, and the content is an unboxing rather than a month-later review.",
+      "sentence": "the box is prettier than the product inside it – the posts all land in the same week – it's an unboxing, almost never a month-later review",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c8",
+      "text": "Influencer posts carry a \"Free Gift\" tag disclosing the PR gift.",
+      "sentence": "The \"Free Gift\" tag is right there on every post.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c9",
+      "text": "Brand teams compile screenshots of posts into a report, and this leads them to send out boxes again the next month.",
+      "sentence": "The team ends up with a grid of screenshots for the report. Looks like work. So next month, the boxes go out again.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c10",
+      "text": "A viewer's purchase after seeing the unboxings is added to the brand's total sales but is never traced back to the hamper.",
+      "sentence": "Your sale goes into the total. Nobody ever traces it back to the hamper.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c11",
+      "text": "The same hamper appearing on five creators' feeds in one week is a brand's monthly report item rather than five independent opinions.",
+      "sentence": "When five creators open the same hamper in the same week, you aren't watching five opinions. You're watching someone's monthly report, slide 7.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "correct": "Indian marketers say influencer measurement is patchwork, with no standard ROI formula. The article does not mention PR boxes specifically, so this claim is applied by extension.",
+      "sources": [
+       {
+        "url": "https://www.storyboard18.com/how-it-works/influencer-marketing-booms-but-brands-still-flying-blind-66743.htm",
+        "publisher": "Storyboard18",
+        "published_date": "2025-05-22",
+        "quote": "Each platform operates in silos, making attribution, standard pricing, and ROI tracking incredibly difficult.",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "correct": "Platforms operate in silos, so a reel view cannot be tied to a later purchase on a separate retailer app such as Nykaa. The source says this about attribution in general and does not mention Nykaa.",
+      "sources": [
+       {
+        "url": "https://www.storyboard18.com/how-it-works/influencer-marketing-booms-but-brands-still-flying-blind-66743.htm",
+        "publisher": "Storyboard18",
+        "published_date": "2025-05-22",
+        "quote": "Each platform operates in silos, making attribution, standard pricing, and ROI tracking incredibly difficult.",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "2025-05-22",
+      "sources": [
+       {
+        "url": "https://www.storyboard18.com/how-it-works/influencer-marketing-booms-but-brands-still-flying-blind-66743.htm",
+        "publisher": "Storyboard18",
+        "published_date": "2025-05-22",
+        "quote": "There's still no common denominator... a gold-standard ROI formula",
+        "tier": 2
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "supported",
+      "event_date": "2021-06-14",
+      "correct": "ASCI's guidelines, in force from 14 June 2021, list 'Free gift' among the accepted disclosure labels. Free products count as a material connection, including when they are unsolicited. The label is required by those guidelines and is not an Instagram feature. Not every post carries it, because compliance is uneven.",
+      "sources": [
+       {
+        "url": "https://www.khaitanco.com/thought-leaderships/ASCI-releases-influencer-advertising-guidelines-for-digital-media-Effective-14-June-21-onward",
+        "publisher": "Khaitan & Co",
+        "published_date": "2021-05-28",
+        "quote": "free products... material connection",
+        "tier": 2
+       }
+      ]
+     },
+     "c10": {
+      "id": "c10",
+      "verdict": "supported",
+      "correct": "Brands rely on indirect signals, such as search spikes and DTC traffic, and cannot isolate influencer content's impact. This implies a purchase after unboxings would sit in total sales without being traced to the hamper.",
+      "sources": [
+       {
+        "url": "https://www.storyboard18.com/how-it-works/influencer-marketing-booms-but-brands-still-flying-blind-66743.htm",
+        "publisher": "Storyboard18",
+        "published_date": "2025-05-22",
+        "quote": "isolating the impact of influencer content from other ongoing marketing is tricky.",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None fails outright. The weakest one is 'nothing links the two' / 'no proper way to measure'. Sales-tracking tools do exist in India: Nykaa's own affiliate programme pays creators 8% on purchases made through their tracked links, and brands also use discount codes and track search spikes and traffic to their own websites. These tools miss the case the post describes, though. Someone watches an untracked gifted unboxing and buys days later without a link or code, and that sale goes unattributed. Indian brand marketers say on record that attribution and ROI tracking are still 'incredibly difficult'. 'Free gift' is one of ASCI's official disclosure labels, so the tag point is accurate. The rest (motives, why the hamper looks the way it does, the 'monthly report') is interpretation, not a factual claim to falsify.",
+     "actual_mechanism": "PR gifting usually goes out with no affiliate link or code, so brands judge it by reach and engagement (posts, views, mentions) and by indirect signals like search lifts and traffic to their own sites. Direct sales attribution is mostly limited to purchases made through tracked affiliate links or codes, such as Nykaa's 8% creator programme. A viewer who buys later on Nykaa without clicking a link usually isn't credited to any creator. Under ASCI rules a free product counts as a material connection, so creators must label gifted posts, and 'Free gift' is an accepted label.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.storyboard18.com/how-it-works/influencer-marketing-booms-but-brands-still-flying-blind-66743.htm",
+       "published_date": "2025-05-22",
+       "quote": "Each platform operates in silos, making attribution, standard pricing, and ROI tracking incredibly difficult."
+      },
+      {
+       "url": "https://www.storyboard18.com/how-it-works/influencer-marketing-booms-but-brands-still-flying-blind-66743.htm",
+       "published_date": "2025-05-22",
+       "quote": "even if we don't yet have a gold-standard ROI formula"
+      },
+      {
+       "url": "https://www.ey.com/en_in/insights/media-entertainment/how-influencer-marketing-is-impacting-brands-in-india",
+       "published_date": "unknown",
+       "quote": "Determining ROI for influencer campaigns named the top challenge for marketers (per search summary; exact wording not verified)"
+      },
+      {
+       "url": "https://affiliate.nykaa.com/commission.html",
+       "published_date": "unknown",
+       "quote": "8% commission on every successful purchase made through their affiliate links (per search summary; exact wording not verified)"
+      },
+      {
+       "url": "https://www.ascionline.in/wp-content/uploads/2023/08/GUIDELINES-FOR-INFLUENCER-ADVERTISING-IN-DIGITAL-MEDIA.pdf",
+       "published_date": "2023-08",
+       "quote": "Permitted labels include Advertisement, Ad, Sponsored, Collaboration, Partnership, Employee, Free gift (per search summary; the PDF could not be read)"
+      }
+     ]
+    },
+    "text_hash": "9e02d681e1513f583aba0034d5dc0b526e5dfcd0",
+    "at": "2026-11-13T06:55:29.743997+00:00"
+   }
+  }
+ ],
+ "updated_at": "2026-11-13T06:58:18.025504+00:00",
+ "sources": [
+  {
+   "url": "https://www.storyboard18.com/how-it-works/influencer-marketing-booms-but-brands-still-flying-blind-66743.htm",
+   "fact": "Indian brand marketers say influencer measurement is weak, with no common standard and no settled ROI formula. This is context only: the article never mentions PR boxes, gifting or report slides, so it neither supports nor contradicts the claim.",
+   "excerpt": "\"There's still no common denominator.\" \"Each platform operates in silos, making attribution, standard pricing, and ROI tracking incredibly difficult.\" \"That gives us at least directional insight into what's working—even if we don't yet have a gold-standard ROI formula.\"",
+   "date": "2025-05-22"
+  },
+  {
+   "url": "https://www.khaitanco.com/thought-leaderships/ASCI-releases-influencer-advertising-guidelines-for-digital-media-Effective-14-June-21-onward",
+   "fact": "ASCI's influencer guidelines treat free products and unsolicited gifts as a 'material connection', so creators must disclose them. This explains why gifted-kit posts carry a tag. It does not show whether brands send the kits to sell or to fill report slides.",
+   "excerpt": "Disclosure is required where there is a material connection between the influencer and advertiser, including \"issuance of free products or unsolicited gifts.\" Disclosures must be \"not buried in hashtags or links.\" Permitted labels include \"Advertisement,\" \"Ad,\" \"Sponsored,\" \"Collaboration,\" \"Employee,\" and \"Free Gift.\"",
+   "date": "2021-05-28"
+  }
+ ],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] Most influencer PR boxes are sent to fill a [report slide]\nThe same pastel hamper, on five feeds, in one week.\n \n\n[slide 1] That box wasn't sent to sell you anything. It was sent to fill a slide in the brand's report.\nSwipe to read →\n\n[slide 2] Festive season, and the same pastel hamper shows up on five feeds in one week. Tissue paper, ribbon, dried flowers, a card with the creator's name on it. The product is somewhere under all that.\nEvery caption calls it \"so thoughtful.\"\n\n[slide 3] We assume the brand did the maths. Send fifty boxes, get some sales, earn the money back.\nBut ask what those boxes actually sold. There's no clean way to tell.\n\n[slide 4] A view on a reel doesn't come with a receipt.\nYou watch on Tuesday. You buy on Nykaa on Friday. Nothing links the two.\nAnd marketers here will tell you themselves. There's still no proper way to measure what influencers bring back.\n\n[slide 5] So teams count what they can count. Posts, mentions, views, story reshares.\nSo the job turns into getting more posts, not more sales.\n\n[slide 6] Once you know that, the hamper explains itself.\n– the box is prettier than the product inside it\n– the posts all land in the same week\n– it's an unboxing, almost never a month-later review\n\n[slide 7] The \"Free Gift\" tag is right there on every post.\nSo no one here is lying to you. A post is just the only thing anyone gets counted for.\n\n[slide 8] The team ends up with a grid of screenshots for the report. Looks like work. So next month, the boxes go out again.\n\n[slide 9] And the serum in your cart after the fifth unboxing? You're the only one in this whole thing who actually bought something.\nYour sale goes into the total. Nobody ever traces it back to the hamper.\n\n[slide 10] When five creators open the same hamper in the same week, you aren't watching five opinions.\nYou're watching someone's monthly report, slide 7.\n\n[end card] Come back to this the next time a hamper shows up on five feeds in one week.\nSend to the friend who bought the serum every creator unboxed.\n\n[caption] An influencer PR box is counted in posts, not sales, so the pretty unboxing is the whole job.\n\nA reel view doesn't come with a receipt, so the team counts what shows up in a screenshot and calls it a good month.\n\nSend this to the friend who bought the serum every creator unboxed. Their order is the only real sale in this whole story.\n\n[alt text] A text carousel from Above MRP arguing that most PR boxes sent to influencers during festive season are not meant to drive sales. Because a view on a reel can't be linked to a later purchase, brand teams count posts, mentions and views instead, so identical unboxings across many creators in one week are proof of activity for a monthly report rather than genuine recommendations. A sale a viewer makes goes into the brand's total but is never traced back to the hamper.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Most influencer PR boxes are sent to fill a slide in the brand's report rather than to sell products to the audience.",
+     "sentence": "That box wasn't sent to sell you anything. It was sent to fill a slide in the brand's report.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "There is no clean way for brands to tell how many sales influencer PR boxes generated.",
+     "sentence": "But ask what those boxes actually sold. There's no clean way to tell.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c3",
+     "text": "A reel view cannot be linked to a later purchase, for example a Nykaa purchase days after watching; nothing connects the two.",
+     "sentence": "A view on a reel doesn't come with a receipt. You watch on Tuesday. You buy on Nykaa on Friday. Nothing links the two.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c4",
+     "text": "Indian marketers themselves say there is still no proper way to measure the sales influencers bring back.",
+     "sentence": "And marketers here will tell you themselves. There's still no proper way to measure what influencers bring back.",
+     "type": "entity_attribute",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c5",
+     "text": "Brand teams measure influencer campaigns by what they can count: posts, mentions, views and story reshares.",
+     "sentence": "So teams count what they can count. Posts, mentions, views, story reshares.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c6",
+     "text": "Because teams count posts rather than sales, the job becomes getting more posts, not more sales.",
+     "sentence": "So the job turns into getting more posts, not more sales.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c7",
+     "text": "In the brand's PR boxes, the packaging is prettier than the product inside, the posts land in the same week, and the content is an unboxing rather than a month-later review.",
+     "sentence": "the box is prettier than the product inside it – the posts all land in the same week – it's an unboxing, almost never a month-later review",
+     "type": "mechanism",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c8",
+     "text": "Influencer posts carry a \"Free Gift\" tag disclosing the PR gift.",
+     "sentence": "The \"Free Gift\" tag is right there on every post.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c9",
+     "text": "Brand teams compile screenshots of posts into a report, and this leads them to send out boxes again the next month.",
+     "sentence": "The team ends up with a grid of screenshots for the report. Looks like work. So next month, the boxes go out again.",
+     "type": "mechanism",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c10",
+     "text": "A viewer's purchase after seeing the unboxings is added to the brand's total sales but is never traced back to the hamper.",
+     "sentence": "Your sale goes into the total. Nobody ever traces it back to the hamper.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c11",
+     "text": "The same hamper appearing on five creators' feeds in one week is a brand's monthly report item rather than five independent opinions.",
+     "sentence": "When five creators open the same hamper in the same week, you aren't watching five opinions. You're watching someone's monthly report, slide 7.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "There is no clean way for brands to tell how many sales influencer PR boxes generated.": {
+   "id": "c2",
+   "verdict": "supported",
+   "correct": "Indian marketers say influencer measurement is patchwork, with no standard ROI formula. The article does not mention PR boxes specifically, so this claim is applied by extension.",
+   "sources": [
+    {
+     "url": "https://www.storyboard18.com/how-it-works/influencer-marketing-booms-but-brands-still-flying-blind-66743.htm",
+     "publisher": "Storyboard18",
+     "published_date": "2025-05-22",
+     "quote": "Each platform operates in silos, making attribution, standard pricing, and ROI tracking incredibly difficult.",
+     "tier": 2
+    }
+   ]
+  },
+  "A reel view cannot be linked to a later purchase, for example a Nykaa purchase days after watching; nothing connects the two.": {
+   "id": "c3",
+   "verdict": "supported",
+   "correct": "Platforms operate in silos, so a reel view cannot be tied to a later purchase on a separate retailer app such as Nykaa. The source says this about attribution in general and does not mention Nykaa.",
+   "sources": [
+    {
+     "url": "https://www.storyboard18.com/how-it-works/influencer-marketing-booms-but-brands-still-flying-blind-66743.htm",
+     "publisher": "Storyboard18",
+     "published_date": "2025-05-22",
+     "quote": "Each platform operates in silos, making attribution, standard pricing, and ROI tracking incredibly difficult.",
+     "tier": 2
+    }
+   ]
+  },
+  "Indian marketers themselves say there is still no proper way to measure the sales influencers bring back.": {
+   "id": "c4",
+   "verdict": "supported",
+   "event_date": "2025-05-22",
+   "sources": [
+    {
+     "url": "https://www.storyboard18.com/how-it-works/influencer-marketing-booms-but-brands-still-flying-blind-66743.htm",
+     "publisher": "Storyboard18",
+     "published_date": "2025-05-22",
+     "quote": "There's still no common denominator... a gold-standard ROI formula",
+     "tier": 2
+    }
+   ]
+  },
+  "Influencer posts carry a \"Free Gift\" tag disclosing the PR gift.": {
+   "id": "c8",
+   "verdict": "supported",
+   "event_date": "2021-06-14",
+   "correct": "ASCI's guidelines, in force from 14 June 2021, list 'Free gift' among the accepted disclosure labels. Free products count as a material connection, including when they are unsolicited. The label is required by those guidelines and is not an Instagram feature. Not every post carries it, because compliance is uneven.",
+   "sources": [
+    {
+     "url": "https://www.khaitanco.com/thought-leaderships/ASCI-releases-influencer-advertising-guidelines-for-digital-media-Effective-14-June-21-onward",
+     "publisher": "Khaitan & Co",
+     "published_date": "2021-05-28",
+     "quote": "free products... material connection",
+     "tier": 2
+    }
+   ]
+  },
+  "A viewer's purchase after seeing the unboxings is added to the brand's total sales but is never traced back to the hamper.": {
+   "id": "c10",
+   "verdict": "supported",
+   "correct": "Brands rely on indirect signals, such as search spikes and DTC traffic, and cannot isolate influencer content's impact. This implies a purchase after unboxings would sit in total sales without being traced to the hamper.",
+   "sources": [
+    {
+     "url": "https://www.storyboard18.com/how-it-works/influencer-marketing-booms-but-brands-still-flying-blind-66743.htm",
+     "publisher": "Storyboard18",
+     "published_date": "2025-05-22",
+     "quote": "isolating the impact of influencer content from other ongoing marketing is tricky.",
+     "tier": 2
+    }
+   ]
+  },
+  "_skeptic": {
+   "b2c45b66bb912ed2b75967cae32ee664ee6e116f": {
+    "holds": true,
+    "broken_premise": "None fails outright. The weakest one is 'nothing links the two' / 'no proper way to measure'. Sales-tracking tools do exist in India: Nykaa's own affiliate programme pays creators 8% on purchases made through their tracked links, and brands also use discount codes and track search spikes and traffic to their own websites. These tools miss the case the post describes, though. Someone watches an untracked gifted unboxing and buys days later without a link or code, and that sale goes unattributed. Indian brand marketers say on record that attribution and ROI tracking are still 'incredibly difficult'. 'Free gift' is one of ASCI's official disclosure labels, so the tag point is accurate. The rest (motives, why the hamper looks the way it does, the 'monthly report') is interpretation, not a factual claim to falsify.",
+    "actual_mechanism": "PR gifting usually goes out with no affiliate link or code, so brands judge it by reach and engagement (posts, views, mentions) and by indirect signals like search lifts and traffic to their own sites. Direct sales attribution is mostly limited to purchases made through tracked affiliate links or codes, such as Nykaa's 8% creator programme. A viewer who buys later on Nykaa without clicking a link usually isn't credited to any creator. Under ASCI rules a free product counts as a material connection, so creators must label gifted posts, and 'Free gift' is an accepted label.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.storyboard18.com/how-it-works/influencer-marketing-booms-but-brands-still-flying-blind-66743.htm",
+      "published_date": "2025-05-22",
+      "quote": "Each platform operates in silos, making attribution, standard pricing, and ROI tracking incredibly difficult."
+     },
+     {
+      "url": "https://www.storyboard18.com/how-it-works/influencer-marketing-booms-but-brands-still-flying-blind-66743.htm",
+      "published_date": "2025-05-22",
+      "quote": "even if we don't yet have a gold-standard ROI formula"
+     },
+     {
+      "url": "https://www.ey.com/en_in/insights/media-entertainment/how-influencer-marketing-is-impacting-brands-in-india",
+      "published_date": "unknown",
+      "quote": "Determining ROI for influencer campaigns named the top challenge for marketers (per search summary; exact wording not verified)"
+     },
+     {
+      "url": "https://affiliate.nykaa.com/commission.html",
+      "published_date": "unknown",
+      "quote": "8% commission on every successful purchase made through their affiliate links (per search summary; exact wording not verified)"
+     },
+     {
+      "url": "https://www.ascionline.in/wp-content/uploads/2023/08/GUIDELINES-FOR-INFLUENCER-ADVERTISING-IN-DIGITAL-MEDIA.pdf",
+      "published_date": "2023-08",
+      "quote": "Permitted labels include Advertisement, Ad, Sponsored, Collaboration, Partnership, Employee, Free gift (per search summary; the PDF could not be read)"
+     }
+    ]
+   }
+  },
+  "_skeptic_take": {
+   "453b9a358d84e3162132dedc1b33123cd25a57af": {
+    "holds": true,
+    "broken_premise": "None fails outright. The weakest one is 'nothing links the two' / 'no proper way to measure'. Sales-tracking tools do exist in India: Nykaa's own affiliate programme pays creators 8% on purchases made through their tracked links, and brands also use discount codes and track search spikes and traffic to their own websites. These tools miss the case the post describes, though. Someone watches an untracked gifted unboxing and buys days later without a link or code, and that sale goes unattributed. Indian brand marketers say on record that attribution and ROI tracking are still 'incredibly difficult'. 'Free gift' is one of ASCI's official disclosure labels, so the tag point is accurate. The rest (motives, why the hamper looks the way it does, the 'monthly report') is interpretation, not a factual claim to falsify.",
+    "actual_mechanism": "PR gifting usually goes out with no affiliate link or code, so brands judge it by reach and engagement (posts, views, mentions) and by indirect signals like search lifts and traffic to their own sites. Direct sales attribution is mostly limited to purchases made through tracked affiliate links or codes, such as Nykaa's 8% creator programme. A viewer who buys later on Nykaa without clicking a link usually isn't credited to any creator. Under ASCI rules a free product counts as a material connection, so creators must label gifted posts, and 'Free gift' is an accepted label.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.storyboard18.com/how-it-works/influencer-marketing-booms-but-brands-still-flying-blind-66743.htm",
+      "published_date": "2025-05-22",
+      "quote": "Each platform operates in silos, making attribution, standard pricing, and ROI tracking incredibly difficult."
+     },
+     {
+      "url": "https://www.storyboard18.com/how-it-works/influencer-marketing-booms-but-brands-still-flying-blind-66743.htm",
+      "published_date": "2025-05-22",
+      "quote": "even if we don't yet have a gold-standard ROI formula"
+     },
+     {
+      "url": "https://www.ey.com/en_in/insights/media-entertainment/how-influencer-marketing-is-impacting-brands-in-india",
+      "published_date": "unknown",
+      "quote": "Determining ROI for influencer campaigns named the top challenge for marketers (per search summary; exact wording not verified)"
+     },
+     {
+      "url": "https://affiliate.nykaa.com/commission.html",
+      "published_date": "unknown",
+      "quote": "8% commission on every successful purchase made through their affiliate links (per search summary; exact wording not verified)"
+     },
+     {
+      "url": "https://www.ascionline.in/wp-content/uploads/2023/08/GUIDELINES-FOR-INFLUENCER-ADVERTISING-IN-DIGITAL-MEDIA.pdf",
+      "published_date": "2023-08",
+      "quote": "Permitted labels include Advertisement, Ad, Sponsored, Collaboration, Partnership, Employee, Free gift (per search summary; the PDF could not be read)"
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "9e02d681e1513f583aba0034d5dc0b526e5dfcd0": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Most influencer PR boxes are sent to fill a slide in the brand's report rather than to sell products to the audience.",
+      "sentence": "That box wasn't sent to sell you anything. It was sent to fill a slide in the brand's report.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "There is no clean way for brands to tell how many sales influencer PR boxes generated.",
+      "sentence": "But ask what those boxes actually sold. There's no clean way to tell.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "A reel view cannot be linked to a later purchase, for example a Nykaa purchase days after watching; nothing connects the two.",
+      "sentence": "A view on a reel doesn't come with a receipt. You watch on Tuesday. You buy on Nykaa on Friday. Nothing links the two.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Indian marketers themselves say there is still no proper way to measure the sales influencers bring back.",
+      "sentence": "And marketers here will tell you themselves. There's still no proper way to measure what influencers bring back.",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Brand teams measure influencer campaigns by what they can count: posts, mentions, views and story reshares.",
+      "sentence": "So teams count what they can count. Posts, mentions, views, story reshares.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Because teams count posts rather than sales, the job becomes getting more posts, not more sales.",
+      "sentence": "So the job turns into getting more posts, not more sales.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "In the brand's PR boxes, the packaging is prettier than the product inside, the posts land in the same week, and the content is an unboxing rather than a month-later review.",
+      "sentence": "the box is prettier than the product inside it – the posts all land in the same week – it's an unboxing, almost never a month-later review",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c8",
+      "text": "Influencer posts carry a \"Free Gift\" tag disclosing the PR gift.",
+      "sentence": "The \"Free Gift\" tag is right there on every post.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c9",
+      "text": "Brand teams compile screenshots of posts into a report, and this leads them to send out boxes again the next month.",
+      "sentence": "The team ends up with a grid of screenshots for the report. Looks like work. So next month, the boxes go out again.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c10",
+      "text": "A viewer's purchase after seeing the unboxings is added to the brand's total sales but is never traced back to the hamper.",
+      "sentence": "Your sale goes into the total. Nobody ever traces it back to the hamper.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c11",
+      "text": "The same hamper appearing on five creators' feeds in one week is a brand's monthly report item rather than five independent opinions.",
+      "sentence": "When five creators open the same hamper in the same week, you aren't watching five opinions. You're watching someone's monthly report, slide 7.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "correct": "Indian marketers say influencer measurement is patchwork, with no standard ROI formula. The article does not mention PR boxes specifically, so this claim is applied by extension.",
+      "sources": [
+       {
+        "url": "https://www.storyboard18.com/how-it-works/influencer-marketing-booms-but-brands-still-flying-blind-66743.htm",
+        "publisher": "Storyboard18",
+        "published_date": "2025-05-22",
+        "quote": "Each platform operates in silos, making attribution, standard pricing, and ROI tracking incredibly difficult.",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "correct": "Platforms operate in silos, so a reel view cannot be tied to a later purchase on a separate retailer app such as Nykaa. The source says this about attribution in general and does not mention Nykaa.",
+      "sources": [
+       {
+        "url": "https://www.storyboard18.com/how-it-works/influencer-marketing-booms-but-brands-still-flying-blind-66743.htm",
+        "publisher": "Storyboard18",
+        "published_date": "2025-05-22",
+        "quote": "Each platform operates in silos, making attribution, standard pricing, and ROI tracking incredibly difficult.",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "2025-05-22",
+      "sources": [
+       {
+        "url": "https://www.storyboard18.com/how-it-works/influencer-marketing-booms-but-brands-still-flying-blind-66743.htm",
+        "publisher": "Storyboard18",
+        "published_date": "2025-05-22",
+        "quote": "There's still no common denominator... a gold-standard ROI formula",
+        "tier": 2
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "supported",
+      "event_date": "2021-06-14",
+      "correct": "ASCI's guidelines, in force from 14 June 2021, list 'Free gift' among the accepted disclosure labels. Free products count as a material connection, including when they are unsolicited. The label is required by those guidelines and is not an Instagram feature. Not every post carries it, because compliance is uneven.",
+      "sources": [
+       {
+        "url": "https://www.khaitanco.com/thought-leaderships/ASCI-releases-influencer-advertising-guidelines-for-digital-media-Effective-14-June-21-onward",
+        "publisher": "Khaitan & Co",
+        "published_date": "2021-05-28",
+        "quote": "free products... material connection",
+        "tier": 2
+       }
+      ]
+     },
+     "c10": {
+      "id": "c10",
+      "verdict": "supported",
+      "correct": "Brands rely on indirect signals, such as search spikes and DTC traffic, and cannot isolate influencer content's impact. This implies a purchase after unboxings would sit in total sales without being traced to the hamper.",
+      "sources": [
+       {
+        "url": "https://www.storyboard18.com/how-it-works/influencer-marketing-booms-but-brands-still-flying-blind-66743.htm",
+        "publisher": "Storyboard18",
+        "published_date": "2025-05-22",
+        "quote": "isolating the impact of influencer content from other ongoing marketing is tricky.",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None fails outright. The weakest one is 'nothing links the two' / 'no proper way to measure'. Sales-tracking tools do exist in India: Nykaa's own affiliate programme pays creators 8% on purchases made through their tracked links, and brands also use discount codes and track search spikes and traffic to their own websites. These tools miss the case the post describes, though. Someone watches an untracked gifted unboxing and buys days later without a link or code, and that sale goes unattributed. Indian brand marketers say on record that attribution and ROI tracking are still 'incredibly difficult'. 'Free gift' is one of ASCI's official disclosure labels, so the tag point is accurate. The rest (motives, why the hamper looks the way it does, the 'monthly report') is interpretation, not a factual claim to falsify.",
+     "actual_mechanism": "PR gifting usually goes out with no affiliate link or code, so brands judge it by reach and engagement (posts, views, mentions) and by indirect signals like search lifts and traffic to their own sites. Direct sales attribution is mostly limited to purchases made through tracked affiliate links or codes, such as Nykaa's 8% creator programme. A viewer who buys later on Nykaa without clicking a link usually isn't credited to any creator. Under ASCI rules a free product counts as a material connection, so creators must label gifted posts, and 'Free gift' is an accepted label.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.storyboard18.com/how-it-works/influencer-marketing-booms-but-brands-still-flying-blind-66743.htm",
+       "published_date": "2025-05-22",
+       "quote": "Each platform operates in silos, making attribution, standard pricing, and ROI tracking incredibly difficult."
+      },
+      {
+       "url": "https://www.storyboard18.com/how-it-works/influencer-marketing-booms-but-brands-still-flying-blind-66743.htm",
+       "published_date": "2025-05-22",
+       "quote": "even if we don't yet have a gold-standard ROI formula"
+      },
+      {
+       "url": "https://www.ey.com/en_in/insights/media-entertainment/how-influencer-marketing-is-impacting-brands-in-india",
+       "published_date": "unknown",
+       "quote": "Determining ROI for influencer campaigns named the top challenge for marketers (per search summary; exact wording not verified)"
+      },
+      {
+       "url": "https://affiliate.nykaa.com/commission.html",
+       "published_date": "unknown",
+       "quote": "8% commission on every successful purchase made through their affiliate links (per search summary; exact wording not verified)"
+      },
+      {
+       "url": "https://www.ascionline.in/wp-content/uploads/2023/08/GUIDELINES-FOR-INFLUENCER-ADVERTISING-IN-DIGITAL-MEDIA.pdf",
+       "published_date": "2023-08",
+       "quote": "Permitted labels include Advertisement, Ad, Sponsored, Collaboration, Partnership, Employee, Free gift (per search summary; the PDF could not be read)"
+      }
+     ]
+    },
+    "text_hash": "9e02d681e1513f583aba0034d5dc0b526e5dfcd0",
+    "at": "2026-11-13T06:55:29.743997+00:00"
+   }
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "Most influencer PR boxes are sent to fill a [report slide]",
+   "sub": "The same pastel hamper, on five feeds, in one week."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "That box wasn't sent to sell you anything. It was sent to fill a slide in the brand's report.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "Which report, and why would a brand want that?"
+   },
+   {
+    "paragraphs": [
+     "Festive season, and the same pastel hamper shows up on five feeds in one week. Tissue paper, ribbon, dried flowers, a card with the creator's name on it. The product is somewhere under all that.",
+     "Every caption calls it \"so thoughtful.\""
+    ],
+    "why_swipe": "If they all got it, the brand must know it works. Right?"
+   },
+   {
+    "paragraphs": [
+     "We assume the brand did the maths. Send fifty boxes, get some sales, earn the money back.",
+     "But ask what those boxes actually sold. There's no clean way to tell."
+    ],
+    "why_swipe": "Why can't a brand tell what its own boxes sold?"
+   },
+   {
+    "paragraphs": [
+     "A view on a reel doesn't come with a receipt.",
+     "You watch on Tuesday. You buy on Nykaa on Friday. Nothing links the two.",
+     "And marketers here will tell you themselves. There's still no proper way to measure what influencers bring back."
+    ],
+    "why_swipe": "So what do they measure instead?"
+   },
+   {
+    "paragraphs": [
+     "So teams count what they can count. Posts, mentions, views, story reshares.",
+     "So the job turns into getting more posts, not more sales."
+    ],
+    "why_swipe": "What does that look like in your feed?"
+   },
+   {
+    "paragraphs": [
+     "Once you know that, the hamper explains itself.",
+     "– the box is prettier than the product inside it\n– the posts all land in the same week\n– it's an unboxing, almost never a month-later review"
+    ],
+    "why_swipe": "So is everyone lying to you?"
+   },
+   {
+    "paragraphs": [
+     "The \"Free Gift\" tag is right there on every post.",
+     "So no one here is lying to you. A post is just the only thing anyone gets counted for."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "The team ends up with a grid of screenshots for the report. Looks like work. So next month, the boxes go out again."
+    ],
+    "why_swipe": "Then where does that leave the serum you bought?"
+   },
+   {
+    "paragraphs": [
+     "And the serum in your cart after the fifth unboxing? You're the only one in this whole thing who actually bought something.",
+     "Your sale goes into the total. Nobody ever traces it back to the hamper."
+    ],
+    "why_swipe": "So what were you actually looking at?"
+   },
+   {
+    "paragraphs": [
+     "When five creators open the same hamper in the same week, you aren't watching five opinions.",
+     "You're watching someone's monthly report, slide 7."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Come back to this the next time a hamper shows up on five feeds in one week.",
+   "send": "Send to the friend who bought the serum every creator unboxed.",
+   "promise": "How brands really sell to you."
+  },
+  "alt_text": "A text carousel from Above MRP arguing that most PR boxes sent to influencers during festive season are not meant to drive sales. Because a view on a reel can't be linked to a later purchase, brand teams count posts, mentions and views instead, so identical unboxings across many creators in one week are proof of activity for a monthly report rather than genuine recommendations. A sale a viewer makes goes into the brand's total but is never traced back to the hamper.",
+  "claims": [
+   {
+    "text": "Marketers in India say there's still no proper way to measure what influencers bring back.",
+    "source_url": "https://www.storyboard18.com/how-it-works/influencer-marketing-booms-but-brands-still-flying-blind-66743.htm"
+   },
+   {
+    "text": "'Free Gift' is a permitted disclosure label for gifted products on influencer posts.",
+    "source_url": "https://www.khaitanco.com/thought-leaderships/ASCI-releases-influencer-advertising-guidelines-for-digital-media-Effective-14-June-21-onward"
+   }
+  ],
+  "caption": "An influencer PR box is counted in posts, not sales, so the pretty unboxing is the whole job.\n\nA reel view doesn't come with a receipt, so the team counts what shows up in a screenshot and calls it a good month.\n\nSend this to the friend who bought the serum every creator unboxed. Their order is the only real sale in this whole story.",
+  "hashtags": [
+   "#InfluencerMarketing",
+   "#InternetCulture"
+  ],
+  "caption_style": "send",
+  "search_phrase": "influencer PR box",
+  "caption_v": 2
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Most influencer PR boxes are sent to fill a slide in the brand's report rather than to sell products to the audience.",
+    "sentence": "That box wasn't sent to sell you anything. It was sent to fill a slide in the brand's report.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "There is no clean way for brands to tell how many sales influencer PR boxes generated.",
+    "sentence": "But ask what those boxes actually sold. There's no clean way to tell.",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c3",
+    "text": "A reel view cannot be linked to a later purchase, for example a Nykaa purchase days after watching; nothing connects the two.",
+    "sentence": "A view on a reel doesn't come with a receipt. You watch on Tuesday. You buy on Nykaa on Friday. Nothing links the two.",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c4",
+    "text": "Indian marketers themselves say there is still no proper way to measure the sales influencers bring back.",
+    "sentence": "And marketers here will tell you themselves. There's still no proper way to measure what influencers bring back.",
+    "type": "entity_attribute",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c5",
+    "text": "Brand teams measure influencer campaigns by what they can count: posts, mentions, views and story reshares.",
+    "sentence": "So teams count what they can count. Posts, mentions, views, story reshares.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c6",
+    "text": "Because teams count posts rather than sales, the job becomes getting more posts, not more sales.",
+    "sentence": "So the job turns into getting more posts, not more sales.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c7",
+    "text": "In the brand's PR boxes, the packaging is prettier than the product inside, the posts land in the same week, and the content is an unboxing rather than a month-later review.",
+    "sentence": "the box is prettier than the product inside it – the posts all land in the same week – it's an unboxing, almost never a month-later review",
+    "type": "mechanism",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c8",
+    "text": "Influencer posts carry a \"Free Gift\" tag disclosing the PR gift.",
+    "sentence": "The \"Free Gift\" tag is right there on every post.",
+    "type": "feature",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c9",
+    "text": "Brand teams compile screenshots of posts into a report, and this leads them to send out boxes again the next month.",
+    "sentence": "The team ends up with a grid of screenshots for the report. Looks like work. So next month, the boxes go out again.",
+    "type": "mechanism",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c10",
+    "text": "A viewer's purchase after seeing the unboxings is added to the brand's total sales but is never traced back to the hamper.",
+    "sentence": "Your sale goes into the total. Nobody ever traces it back to the hamper.",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c11",
+    "text": "The same hamper appearing on five creators' feeds in one week is a brand's monthly report item rather than five independent opinions.",
+    "sentence": "When five creators open the same hamper in the same week, you aren't watching five opinions. You're watching someone's monthly report, slide 7.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c2": {
+    "id": "c2",
+    "verdict": "supported",
+    "correct": "Indian marketers say influencer measurement is patchwork, with no standard ROI formula. The article does not mention PR boxes specifically, so this claim is applied by extension.",
+    "sources": [
+     {
+      "url": "https://www.storyboard18.com/how-it-works/influencer-marketing-booms-but-brands-still-flying-blind-66743.htm",
+      "publisher": "Storyboard18",
+      "published_date": "2025-05-22",
+      "quote": "Each platform operates in silos, making attribution, standard pricing, and ROI tracking incredibly difficult.",
+      "tier": 2
+     }
+    ]
+   },
+   "c3": {
+    "id": "c3",
+    "verdict": "supported",
+    "correct": "Platforms operate in silos, so a reel view cannot be tied to a later purchase on a separate retailer app such as Nykaa. The source says this about attribution in general and does not mention Nykaa.",
+    "sources": [
+     {
+      "url": "https://www.storyboard18.com/how-it-works/influencer-marketing-booms-but-brands-still-flying-blind-66743.htm",
+      "publisher": "Storyboard18",
+      "published_date": "2025-05-22",
+      "quote": "Each platform operates in silos, making attribution, standard pricing, and ROI tracking incredibly difficult.",
+      "tier": 2
+     }
+    ]
+   },
+   "c4": {
+    "id": "c4",
+    "verdict": "supported",
+    "event_date": "2025-05-22",
+    "sources": [
+     {
+      "url": "https://www.storyboard18.com/how-it-works/influencer-marketing-booms-but-brands-still-flying-blind-66743.htm",
+      "publisher": "Storyboard18",
+      "published_date": "2025-05-22",
+      "quote": "There's still no common denominator... a gold-standard ROI formula",
+      "tier": 2
+     }
+    ]
+   },
+   "c8": {
+    "id": "c8",
+    "verdict": "supported",
+    "event_date": "2021-06-14",
+    "correct": "ASCI's guidelines, in force from 14 June 2021, list 'Free gift' among the accepted disclosure labels. Free products count as a material connection, including when they are unsolicited. The label is required by those guidelines and is not an Instagram feature. Not every post carries it, because compliance is uneven.",
+    "sources": [
+     {
+      "url": "https://www.khaitanco.com/thought-leaderships/ASCI-releases-influencer-advertising-guidelines-for-digital-media-Effective-14-June-21-onward",
+      "publisher": "Khaitan & Co",
+      "published_date": "2021-05-28",
+      "quote": "free products... material connection",
+      "tier": 2
+     }
+    ]
+   },
+   "c10": {
+    "id": "c10",
+    "verdict": "supported",
+    "correct": "Brands rely on indirect signals, such as search spikes and DTC traffic, and cannot isolate influencer content's impact. This implies a purchase after unboxings would sit in total sales without being traced to the hamper.",
+    "sources": [
+     {
+      "url": "https://www.storyboard18.com/how-it-works/influencer-marketing-booms-but-brands-still-flying-blind-66743.htm",
+      "publisher": "Storyboard18",
+      "published_date": "2025-05-22",
+      "quote": "isolating the impact of influencer content from other ongoing marketing is tricky.",
+      "tier": 2
+     }
+    ]
+   }
+  },
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "None fails outright. The weakest one is 'nothing links the two' / 'no proper way to measure'. Sales-tracking tools do exist in India: Nykaa's own affiliate programme pays creators 8% on purchases made through their tracked links, and brands also use discount codes and track search spikes and traffic to their own websites. These tools miss the case the post describes, though. Someone watches an untracked gifted unboxing and buys days later without a link or code, and that sale goes unattributed. Indian brand marketers say on record that attribution and ROI tracking are still 'incredibly difficult'. 'Free gift' is one of ASCI's official disclosure labels, so the tag point is accurate. The rest (motives, why the hamper looks the way it does, the 'monthly report') is interpretation, not a factual claim to falsify.",
+   "actual_mechanism": "PR gifting usually goes out with no affiliate link or code, so brands judge it by reach and engagement (posts, views, mentions) and by indirect signals like search lifts and traffic to their own sites. Direct sales attribution is mostly limited to purchases made through tracked affiliate links or codes, such as Nykaa's 8% creator programme. A viewer who buys later on Nykaa without clicking a link usually isn't credited to any creator. Under ASCI rules a free product counts as a material connection, so creators must label gifted posts, and 'Free gift' is an accepted label.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://www.storyboard18.com/how-it-works/influencer-marketing-booms-but-brands-still-flying-blind-66743.htm",
+     "published_date": "2025-05-22",
+     "quote": "Each platform operates in silos, making attribution, standard pricing, and ROI tracking incredibly difficult."
+    },
+    {
+     "url": "https://www.storyboard18.com/how-it-works/influencer-marketing-booms-but-brands-still-flying-blind-66743.htm",
+     "published_date": "2025-05-22",
+     "quote": "even if we don't yet have a gold-standard ROI formula"
+    },
+    {
+     "url": "https://www.ey.com/en_in/insights/media-entertainment/how-influencer-marketing-is-impacting-brands-in-india",
+     "published_date": "unknown",
+     "quote": "Determining ROI for influencer campaigns named the top challenge for marketers (per search summary; exact wording not verified)"
+    },
+    {
+     "url": "https://affiliate.nykaa.com/commission.html",
+     "published_date": "unknown",
+     "quote": "8% commission on every successful purchase made through their affiliate links (per search summary; exact wording not verified)"
+    },
+    {
+     "url": "https://www.ascionline.in/wp-content/uploads/2023/08/GUIDELINES-FOR-INFLUENCER-ADVERTISING-IN-DIGITAL-MEDIA.pdf",
+     "published_date": "2023-08",
+     "quote": "Permitted labels include Advertisement, Ad, Sponsored, Collaboration, Partnership, Employee, Free gift (per search summary; the PDF could not be read)"
+    }
+   ]
+  },
+  "text_hash": "9e02d681e1513f583aba0034d5dc0b526e5dfcd0",
+  "at": "2026-11-13T06:55:29.743997+00:00"
+ },
+ "varun": {
+  "pass": true,
+  "score": 4,
+  "misses": [
+   {
+    "where": "slide 5",
+    "line": "So the job turns into getting more posts, not more sales.",
+    "why": "stiff: second 'So' opener in a row right after 'So teams count…'",
+    "try": "And slowly the job turns into getting more posts, not more sales."
+   }
+  ],
+  "best": "You're watching someone's monthly report, slide 7.",
+  "passed": true,
+  "text_hash": "9e02d681e1513f583aba0034d5dc0b526e5dfcd0"
+ },
+ "alt_texts": [
+  "That box wasn't sent to sell you anything. It was sent to fill a slide in the brand's report.",
+  "Festive season, and the same pastel hamper shows up on five feeds in one week. Tissue paper, ribbon, dried flowers, a card with the creator's name on it. The product is somewhere under all that. Every caption calls it \"so thoughtful.\"",
+  "We assume the brand did the maths. Send fifty boxes, get some sales, earn the money back. But ask what those boxes actually sold. There's no clean way to tell.",
+  "A view on a reel doesn't come with a receipt. You watch on Tuesday. You buy on Nykaa on Friday. Nothing links the two. And marketers here will tell you themselves. There's still no proper way to measure what influencers bring back.",
+  "So teams count what they can count. Posts, mentions, views, story reshares. So the job turns into getting more posts, not more sales.",
+  "Once you know that, the hamper explains itself. – the box is prettier than the product inside it\n– the posts all land in the same week\n– it's an unboxing, almost never a month-later review",
+  "The \"Free Gift\" tag is right there on every post. So no one here is lying to you. A post is just the only thing anyone gets counted for.",
+  "The team ends up with a grid of screenshots for the report. Looks like work. So next month, the boxes go out again.",
+  "And the serum in your cart after the fifth unboxing? You're the only one in this whole thing who actually bought something. Your sale goes into the total. Nobody ever traces it back to the hamper.",
+  "When five creators open the same hamper in the same week, you aren't watching five opinions. You're watching someone's monthly report, slide 7."
+ ],
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-155/slide_01.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-155/slide_02.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-155/slide_03.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-155/slide_04.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-155/slide_05.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-155/slide_06.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-155/slide_07.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-155/slide_08.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-155/slide_09.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-155/slide_10.jpg"
+ ]
 }
