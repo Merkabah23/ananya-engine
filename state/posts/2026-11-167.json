@@ -1,0 +1,66 @@
+{
+ "id": "2026-11-167",
+ "status": "planned",
+ "due": null,
+ "format": "spare",
+ "topic": {
+  "title": "Your phone will now show the spam caller's name",
+  "claim": "Showing the caller's name won't fix spam, because we stopped picking up unknown numbers long before the rule arrived.",
+  "behaviour": "We let unknown calls ring out and text 'who is this?' or 'call?' before we call anyone. A name on the screen doesn't change that.",
+  "mechanism": "The cost of a wrong pickup is your time and a scam risk, so silence is the safest answer. A name from a database is only as trusted as the database.",
+  "group": "Urban phone users who ignore unknown numbers",
+  "territory": "creators_internet",
+  "mood": "funny",
+  "format_name": "feed_anthropology",
+  "moment": "A call comes from a number you don't know. You let it ring and wait for the text.",
+  "turn": {
+   "believed": "Telling people who is calling will make us pick up again.",
+   "actually": "We've learned that an unexpected call is a risk, and a label doesn't undo that habit."
+  },
+  "feeling": "Tired of being on guard",
+  "villain": "A system where cold calls cost nothing to make but cost everybody else attention and safety",
+  "story_type": "objection",
+  "because": "Spam callers pay almost nothing per call, so volume is their business. The cost is carried by every person who has to decide whether to pick up.",
+  "proof": [
+   {
+    "fact": "Operators must start showing the caller's name (CNAP) on 4G and higher networks from 1 November 2026. Rules in force from about 18 October require operators to flag likely spam numbers using AI/ML and notify the user.",
+    "source_url": "https://www.thetelephony.co/india/blog/calling-rules-india-november-2026",
+    "date": "2026-10-20"
+   }
+  ],
+  "lived": false,
+  "payoff": "A caller's name will help only after a call has become safe to answer again, and that takes years.",
+  "send_to": "The friend who says 'text me first' before every call",
+  "format_hint": "single",
+  "real_details": [
+   "Transaction-support calls need explicit consent valid for seven days",
+   "Around 17 November, automated calls must be declared to operators in advance"
+  ],
+  "evidence": [
+   {
+    "url": "https://www.thetelephony.co/india/blog/calling-rules-india-november-2026",
+    "sub": "news",
+    "rank": 24
+   }
+  ],
+  "news_peg": "Caller name display (CNAP) became mandatory from 2026-11-01, with spam flagging in force from about 18 October.",
+  "why_now": "The new calling rules are just starting to show up on people's screens.",
+  "counterintuitive": false,
+  "needs_facts": false,
+  "id": "2026-11-131211-018",
+  "score": {
+   "rank": 9,
+   "why": "We stopped picking up unknown numbers long before caller-name display arrived. It's funny and everyone has done it.",
+   "scores": {
+    "relatable": 5,
+    "fresh_angle": 4,
+    "shareable": 4,
+    "saveable": 3,
+    "because": 4
+   },
+   "format_fit": "single"
+  }
+ },
+ "history": [],
+ "updated_at": "2026-11-13T12:12:28.629934+00:00"
+}
