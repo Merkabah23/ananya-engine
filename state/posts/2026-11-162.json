@@ -1,6 +1,6 @@
 {
  "id": "2026-11-162",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-26T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -55,6 +55,849 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-11-13T12:12:28.628914+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Dead slide (7): slide 3, \"You've seen the new rituals too.\" This slide has no example, no turn and no feeling. It only announces the list on slide 4."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 3,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3,
+     "informative": 4
+    },
+    "notes": [
+     "slide 3: Cut \"You've seen the new rituals too.\" and let slide 4's list follow straight from the friend's flex on slide 2. The three rituals (open box, battery health checked before colour, the graded scratch) are the strongest insider detail in the post. Don't make the reader swipe past an empty card to reach them.",
+     "slide 9: The post leans on the 'Not X. Y.' move again and again. Slide 8 has \"didn't stop wanting… stopped paying\". Slide 9 has \"It's not stinginess.\" and then \"The feeling isn't 'I'm settling.' It's 'I'm not getting fooled.'\" Drop \"It's not stinginess.\" and open on the ₹350 coffee as the proof. Then give the feeling as one plain line: \"The feeling is simple: I'm not getting fooled.\" That way the repeated shape stops reading like a template.",
+     "slide 5: \"Same camera. Same chip. Same Instagram stories.\" is an engineered triad. Replace it with one concrete beat the reader can picture. For example: \"Put both on the café table and nobody can tell which one came in a new box.\" Keep \"Most of the ₹35,000 was for the smell of a new box.\" It is the best line in the post.",
+     "slides 6-7: Merge these, and make the 'because' sharper about who gains. Slide 7's \"proper sellers\" is vague. Say what they actually hand you: a bill, a condition grade and a warranty. Then push one step further: what you're really buying from them is the promise that you didn't get cheated, and that promise is their product. Keep \"The shame walked out with it\" as the punch.",
+     "slide 10: Say the close straight. \"Smart is slowly becoming the new expensive\" is hedged by \"slowly\", so make it \"Smart is the new expensive.\" Also, \"says you did the maths\" leans on stock phrasing. Use the detail from slide 4 instead, for example \"Now a refurbished one with a bill says you checked the battery health first.\" That calls back to the post's own ritual."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "cut_slides": [
+    3
+   ],
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "Settled: the dead slide 'You've seen the new rituals too.' is gone. Slide 2 now runs straight into the list, and nothing repeats.",
+     "slide 3: with the lead-in cut, the list now opens cold on a dash. Optionally, open the first item with a short phrase that ties it to slide 2's brag, such as 'It's never just the phone.' Then the list reads as more proof of the same flex, not a new section. Keep it to a few words so it doesn't become another announcing line."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 8",
+      "line": "It's not stinginess. Look who does it: the same people who happily pay ₹350 for a coffee. They spend on what they enjoy and refuse to pay extra for the word \"new\". The feeling isn't \"I'm settling.\" It's \"I'm not getting fooled.\"",
+      "why": "stiff word plus stacked 'isn't X, it's Y' rhetoric",
+      "try": "And no, this isn't people being kanjoos. It's the same crowd paying ₹350 for a coffee without blinking. They'll spend on what they enjoy. They just won't pay extra for the word \"new\". Nobody here thinks they're settling. They think everyone else got fooled."
+     },
+     {
+      "where": "slide 2",
+      "line": "Watch how a friend shows off a phone now. They turn it over, let you hold it, then say it with a grin.",
+      "why": "scene narration where he'd give commentary",
+      "try": "Ask a friend about their phone now and they'll say it like a flex:"
+     },
+     {
+      "where": "slide 9",
+      "line": "Smart is slowly becoming the new expensive.",
+      "why": "hedged, stock 'X is the new Y' ending",
+      "try": "Smart is the new expensive."
+     },
+     {
+      "where": "slide 4",
+      "line": "Same camera. Same chip. Same Instagram stories.",
+      "why": "engineered triple",
+      "try": "Same camera, same chip, and your Instagram stories look exactly the same."
+     },
+     {
+      "where": "slide 3",
+      "line": "– the laptop bought \"open box\" because someone returned it in week one\n– the iPhone where the first thing anyone checks is battery health, not the colour\n– the phone with a scratch the seller graded and priced for you",
+      "why": "list with no lead-in reads like a checklist",
+      "try": "And everyone's suddenly an expert:\n– the laptop bought \"open box\" because someone returned it in week one\n– the iPhone where the first thing anyone checks is battery health, not the colour\n– the phone with a scratch the seller already graded and priced for you"
+     }
+    ],
+    "best": "Most of the ₹35,000 was for the smell of a new box."
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Not Varun (slide 8): 'It's not stinginess. Look who does it: the same people who happily pay ₹350 for a coffee. They spend on what they enjoy and refuse to pay extra for the word \"new\". The feeling isn't \"I'm settling.\" It's \"I'm not getting fooled.\"' reads as stiff word plus stacked 'isn't X, it's Y' rhetoric. Say it the way he would, e.g. 'And no, this isn't people being kanjoos. It's the same crowd paying ₹350 for a coffee without blinking. They'll spend on what they enjoy. They just won't pay extra for the word \"new\". Nobody here thinks they're settling. They think everyone else got fooled.' (his register, your words, same facts).",
+    "Not Varun (slide 2): 'Watch how a friend shows off a phone now. They turn it over, let you hold it, then say it with a grin.' reads as scene narration where he'd give commentary. Say it the way he would, e.g. 'Ask a friend about their phone now and they'll say it like a flex:' (his register, your words, same facts).",
+    "Not Varun (slide 9): 'Smart is slowly becoming the new expensive.' reads as hedged, stock 'X is the new Y' ending. Say it the way he would, e.g. 'Smart is the new expensive.' (his register, your words, same facts).",
+    "Not Varun (slide 4): 'Same camera. Same chip. Same Instagram stories.' reads as engineered triple. Say it the way he would, e.g. 'Same camera, same chip, and your Instagram stories look exactly the same.' (his register, your words, same facts).",
+    "Not Varun (slide 3): '– the laptop bought \"open box\" because someone returned it in week one\n– the iPhone where the first thing anyone checks is battery health, not the colour\n– the phone with a scratch the seller graded and priced for you' reads as list with no lead-in reads like a checklist. Say it the way he would, e.g. 'And everyone's suddenly an expert:\n– the laptop bought \"open box\" because someone returned it in week one\n– the iPhone where the first thing anyone checks is battery health, not the colour\n– the phone with a scratch the seller already graded and priced for you' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": []
+   }
+  },
+  {
+   "attempt": 1,
+   "varun": {
+    "pass": true,
+    "score": 5,
+    "misses": [],
+    "best": "Most of the ₹35,000 was for the smell of a new box."
+   }
+  },
+  {
+   "attempt": 1,
+   "verification": {
+    "passed": false,
+    "take_dead": true,
+    "notes": [
+     "The take's premise is wrong: The causal link fails: the idea that sellers offering a bill and warranty took away the risk, and that this is why buyers are switching. Counterpoint's H1 2026 numbers (refurbished up 13%, new down about 11%) are accurate. But organised channels, the ones that give a bill and warranty, are only about 20% of India's refurbished market. The other roughly 80% is still unorganised. Counterpoint says growth is mainly driven by rising prices of new phones, plus trade-ins and EMI/financing. A better image is not the reason it gives. A related point on slide 5 is also wrong: the ₹80,000 vs ₹45,000 gap is not mostly 'the smell of a new box'. It compares last year's launch price with today's price for a phone that has already depreciated, and that has a used battery, a cosmetic grade and usually a shorter refurbisher warranty instead of the brand's own.. How it actually works: New-phone prices have gone up, so price-sensitive buyers are moving to the secondary market as a cheaper way to get premium models. Trade-in/exchange deals and easy EMI make this easier. Most refurbished volume still moves through unorganised sellers without a formal warranty, so warranty-backed selling isn't what's driving the growth. Certified refurbishment is growing, but it is still a minority channel. Refurbished prices follow the model's depreciated market value and its condition, so the discount is mostly normal depreciation of an older phone, not a 'new' premium that full-price buyers were tricked into paying. Rebuild the post on the correct mechanism.",
+     "Could not verify: 'A refurbished last-year flagship sold with a bill and a warranty costs around ₹45,000 in India.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Last year's flagship phones often launched at around ₹80,000 in India.",
+      "sentence": "Last year's flagship often launched near ₹80,000.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "A refurbished last-year flagship sold with a bill and a warranty costs around ₹45,000 in India.",
+      "sentence": "A refurbished one with a bill and a warranty sells for around ₹45,000.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "The gap between the ₹80,000 launch price and the ₹45,000 refurbished price is ₹35,000.",
+      "sentence": "Most of the ₹35,000 was for the smell of a new box.",
+      "type": "arithmetic",
+      "core": false,
+      "framed_as": "timeless",
+      "expr": "80000-45000",
+      "stated": "35000"
+     },
+     {
+      "id": "c4",
+      "text": "Refurbished phone sales in India grew 13% in the first half of 2026.",
+      "sentence": "In the first half of 2026, refurbished phone sales in India grew 13%.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c5",
+      "text": "New phone sales in India fell about 11% in the first half of 2026.",
+      "sentence": "New phone sales fell about 11%.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c6",
+      "text": "Buying second-hand phones from strangers on OLX carried real risk (stolen, faulty or short-lived devices). Proper sellers now offer refurbished phones with a bill and warranty, which removes that risk. With the risk gone, the stigma of buying refurbished has faded, so more buyers choose refurbished over new at launch prices.",
+      "sentence": "Once proper sellers put a warranty on it, the risk left. The shame walked out with it.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2025-01-22",
+      "correct": "Last year's (2025) base flagships launched at roughly ₹80,000: the Galaxy S25 at ₹80,999 and the iPhone 17 at about ₹82,900. Ultra and Pro models launched much higher, at ₹1.3 lakh or more. So \"often around ₹80,000\" holds for the base flagships.",
+      "sources": [
+       {
+        "url": "https://www.gsmarena.com/samsung_galaxy_s25_galaxy_s25_plus_galaxy_s25_ultra_india_price-news-66215.php",
+        "publisher": "GSMArena",
+        "published_date": "2025-01-23",
+        "quote": "Samsung Galaxy S25 12GB/256GB INR80,999; 12GB/512GB INR92,999",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "unverifiable",
+      "correct": "I found no reliable source for a ₹45,000 refurbished last-year flagship. Seller-blog estimates for a refurbished iPhone 16 Pro with a 6–12 month warranty are about ₹68,000–₹82,000, well above ₹45,000. A refurbished Galaxy S25 may come closer, but I found no source for that price.",
+      "sources": [
+       {
+        "url": "https://www.cashkr.com/articles/refurbished-iphone-16-pro-price-in-india",
+        "publisher": "Cashkr",
+        "published_date": "2026-01-01",
+        "quote": "The refurbished iPhone 16 Pro would cost ₹68,000 to ₹82,000 in 2026 in India depending on the grade of the condition.",
+        "tier": 3
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "2026-09-01",
+      "correct": "Counterpoint reported India's refurbished smartphone volumes grew 13% YoY in H1 2026. The report is dated 2026-09-01.",
+      "sources": [
+       {
+        "url": "https://dailypioneer.com/news/india-refurbished-smartphone-market-growth-h1-2026",
+        "publisher": "The Pioneer (citing Counterpoint Research)",
+        "published_date": "2026-09-01",
+        "quote": "India's refurbished smartphone volumes grew 13 per cent YoY in H1 2026",
+        "tier": 2
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "supported",
+      "event_date": "2026-09-01",
+      "correct": "Counterpoint reported new smartphone volumes in India fell about 11% YoY in H1 2026.",
+      "sources": [
+       {
+        "url": "https://dailypioneer.com/news/india-refurbished-smartphone-market-growth-h1-2026",
+        "publisher": "The Pioneer (citing Counterpoint Research)",
+        "published_date": "2026-09-01",
+        "quote": "even as new smartphone volumes declined by around 11 per cent YoY.",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "The causal link fails: the idea that sellers offering a bill and warranty took away the risk, and that this is why buyers are switching. Counterpoint's H1 2026 numbers (refurbished up 13%, new down about 11%) are accurate. But organised channels, the ones that give a bill and warranty, are only about 20% of India's refurbished market. The other roughly 80% is still unorganised. Counterpoint says growth is mainly driven by rising prices of new phones, plus trade-ins and EMI/financing. A better image is not the reason it gives. A related point on slide 5 is also wrong: the ₹80,000 vs ₹45,000 gap is not mostly 'the smell of a new box'. It compares last year's launch price with today's price for a phone that has already depreciated, and that has a used battery, a cosmetic grade and usually a shorter refurbisher warranty instead of the brand's own.",
+     "actual_mechanism": "New-phone prices have gone up, so price-sensitive buyers are moving to the secondary market as a cheaper way to get premium models. Trade-in/exchange deals and easy EMI make this easier. Most refurbished volume still moves through unorganised sellers without a formal warranty, so warranty-backed selling isn't what's driving the growth. Certified refurbishment is growing, but it is still a minority channel. Refurbished prices follow the model's depreciated market value and its condition, so the discount is mostly normal depreciation of an older phone, not a 'new' premium that full-price buyers were tricked into paying.",
+     "take_survives": false,
+     "sources": [
+      {
+       "url": "https://dailypioneer.com/news/india-refurbished-smartphone-market-growth-h1-2026",
+       "published_date": "2026-09-01",
+       "quote": "India's refurbished smartphone volumes grew 13 per cent YoY in H1 2026 ... new smartphone volumes declined by around 11 per cent YoY ... rising prices of new devices prompted consumers to seek more affordable ways of accessing premium smartphones."
+      },
+      {
+       "url": "https://varindia.com/news/refurbished-smartphones-surge-in-india",
+       "published_date": "2026-09-22",
+       "quote": "The organized channel accounts for only around 20%, compared with approximately 80% for the unorganized market."
+      },
+      {
+       "url": "https://www.business-standard.com/technology/tech-news/refurbished-phones-market-india-new-smartphone-prices-126090200913_1.html",
+       "published_date": "2026-09-02",
+       "quote": "Costlier new phones drive demand for refurbished devices in India: Report"
+      }
+     ]
+    },
+    "text_hash": "66a398d2fa27775c65a79c04d6b260e554a94669",
+    "at": "2026-11-14T11:29:53.722973+00:00"
+   }
+  }
+ ],
+ "updated_at": "2026-11-14T11:33:29.840081+00:00",
+ "sources": [
+  {
+   "url": "https://dailypioneer.com/news/india-refurbished-smartphone-market-growth-h1-2026",
+   "fact": "Counterpoint data shows India's refurbished smartphone market grew 13% year-on-year in H1 2026 while new smartphone sales fell about 11%. The reason given is that rising new-phone prices pushed consumers to look for cheaper ways to get premium phones. The page says nothing about young buyers or any age group.",
+   "excerpt": "India's refurbished smartphone market grew 13 per cent year-on-year in the first half of 2026. ... even as sales of new smartphones declined by around 11 per cent. ... rising prices of new devices prompted consumers to seek more affordable ways of accessing premium smartphones.",
+   "date": "2026-09-01"
+  },
+  {
+   "url": "https://counterpointresearch.com/en/insights/india-refurbished-smartphone-market-h1-2025",
+   "fact": "Counterpoint reports India's refurbished smartphone sales grew only 4.9% in H1 2025. Buyers increasingly want recent premium flagships and avoid unverified devices. The page has no age data and doesn't discuss affordability, so it doesn't show that young buyers are driving this.",
+   "excerpt": "India’s refurbished smartphone sales grew 4.9% in H1 2025. ... Supply issues continued to stifle growth, especially for recent models. ... consumers are increasingly seeking recent-generation premium flagships. ... consumers actively avoiding stolen or unverified devices.",
+   "date": "2025-09-30"
+  }
+ ],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] Refurbished used to mean broke. Now it means [you know something].\nThe shame left the same day the warranty arrived.\n \n\n[slide 1] Buying refurbished used to mean you couldn't afford new. Now it means you know something.\nSwipe to read →\n\n[slide 2] Ask a friend about their phone now and they'll say it like a flex:\n\"Refurbished hai, warranty ke saath.\"\nTen years ago that same line came with an apology.\n\n[slide 3] And suddenly everyone's an expert:\n– the laptop bought \"open box\" because someone returned it in week one\n– the iPhone where the first thing anyone checks is battery health, not the colour\n\n[slide 4] Last year's flagship often launched near ₹80,000. A refurbished one with a bill and a warranty sells for around ₹45,000.\n\n[slide 5] Same camera, same chip, and your Instagram stories look exactly the same.\nMost of the ₹35,000 was for the smell of a new box.\n\n[slide 6] Second-hand was never embarrassing because it was old. It was embarrassing because it was risky. A phone from a stranger on OLX could be stolen, broken inside, or dead in a week. You were the one who got cheated.\n\n[slide 7] Once proper sellers put a warranty on it, the risk left. The shame walked out with it.\n\n[slide 8] And it isn't a niche anymore. In the first half of 2026, refurbished phone sales in India grew 13%. New phone sales fell about 11%.\nPeople didn't stop wanting the good phone. They stopped paying the launch price for it.\n\n[slide 9] And no, this isn't people being kanjoos. It's the same crowd that pays ₹350 for a coffee without blinking.\nThey'll spend on what they enjoy. They just won't pay extra for the word \"new\". They think the full-price buyer got fooled.\n\n[slide 10] For years, a brand-new phone said you had money.\nNow a refurbished one with a bill says you did the maths.\nSmart is the new expensive.\n\n[end card] Come back to this before you tap Buy Now on a launch-day phone.\nSend to the friend about to pay full price for last year's model.\n\n[caption] Once a refurbished phone came with a bill and a warranty, the shame went out with the risk.\n\nThe full-price buyer used to look rich. Now he just looks like he never checked.\n\nSend this to the friend about to pay full price for last year's model, mostly for the new box.\n\n[alt text] A text carousel from Above MRP arguing that buying refurbished phones and laptops in India has shifted from a sign of being short on money to a sign of knowing value. It covers how warranties from proper sellers removed the risk and the shame, a typical price comparison between a new and refurbished flagship, and Counterpoint data showing refurbished phone sales grew 13% in H1 2026 while new phone sales fell about 11%. It closes with: smart is the new expensive.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Last year's flagship phones often launched at around ₹80,000 in India.",
+     "sentence": "Last year's flagship often launched near ₹80,000.",
+     "type": "figure",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "A refurbished last-year flagship sold with a bill and a warranty costs around ₹45,000 in India.",
+     "sentence": "A refurbished one with a bill and a warranty sells for around ₹45,000.",
+     "type": "figure",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c3",
+     "text": "The gap between the ₹80,000 launch price and the ₹45,000 refurbished price is ₹35,000.",
+     "sentence": "Most of the ₹35,000 was for the smell of a new box.",
+     "type": "arithmetic",
+     "core": false,
+     "framed_as": "timeless",
+     "expr": "80000-45000",
+     "stated": "35000"
+    },
+    {
+     "id": "c4",
+     "text": "Refurbished phone sales in India grew 13% in the first half of 2026.",
+     "sentence": "In the first half of 2026, refurbished phone sales in India grew 13%.",
+     "type": "figure",
+     "core": true,
+     "framed_as": "past"
+    },
+    {
+     "id": "c5",
+     "text": "New phone sales in India fell about 11% in the first half of 2026.",
+     "sentence": "New phone sales fell about 11%.",
+     "type": "figure",
+     "core": true,
+     "framed_as": "past"
+    },
+    {
+     "id": "c6",
+     "text": "Buying second-hand phones from strangers on OLX carried real risk (stolen, faulty or short-lived devices). Proper sellers now offer refurbished phones with a bill and warranty, which removes that risk. With the risk gone, the stigma of buying refurbished has faded, so more buyers choose refurbished over new at launch prices.",
+     "sentence": "Once proper sellers put a warranty on it, the risk left. The shame walked out with it.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "Last year's flagship phones often launched at around ₹80,000 in India.": {
+   "id": "c1",
+   "verdict": "supported",
+   "event_date": "2025-01-22",
+   "correct": "Last year's (2025) base flagships launched at roughly ₹80,000: the Galaxy S25 at ₹80,999 and the iPhone 17 at about ₹82,900. Ultra and Pro models launched much higher, at ₹1.3 lakh or more. So \"often around ₹80,000\" holds for the base flagships.",
+   "sources": [
+    {
+     "url": "https://www.gsmarena.com/samsung_galaxy_s25_galaxy_s25_plus_galaxy_s25_ultra_india_price-news-66215.php",
+     "publisher": "GSMArena",
+     "published_date": "2025-01-23",
+     "quote": "Samsung Galaxy S25 12GB/256GB INR80,999; 12GB/512GB INR92,999",
+     "tier": 2
+    }
+   ]
+  },
+  "A refurbished last-year flagship sold with a bill and a warranty costs around ₹45,000 in India.": {
+   "id": "c2",
+   "verdict": "unverifiable",
+   "correct": "I found no reliable source for a ₹45,000 refurbished last-year flagship. Seller-blog estimates for a refurbished iPhone 16 Pro with a 6–12 month warranty are about ₹68,000–₹82,000, well above ₹45,000. A refurbished Galaxy S25 may come closer, but I found no source for that price.",
+   "sources": [
+    {
+     "url": "https://www.cashkr.com/articles/refurbished-iphone-16-pro-price-in-india",
+     "publisher": "Cashkr",
+     "published_date": "2026-01-01",
+     "quote": "The refurbished iPhone 16 Pro would cost ₹68,000 to ₹82,000 in 2026 in India depending on the grade of the condition.",
+     "tier": 3
+    }
+   ]
+  },
+  "Refurbished phone sales in India grew 13% in the first half of 2026.": {
+   "id": "c4",
+   "verdict": "supported",
+   "event_date": "2026-09-01",
+   "correct": "Counterpoint reported India's refurbished smartphone volumes grew 13% YoY in H1 2026. The report is dated 2026-09-01.",
+   "sources": [
+    {
+     "url": "https://dailypioneer.com/news/india-refurbished-smartphone-market-growth-h1-2026",
+     "publisher": "The Pioneer (citing Counterpoint Research)",
+     "published_date": "2026-09-01",
+     "quote": "India's refurbished smartphone volumes grew 13 per cent YoY in H1 2026",
+     "tier": 2
+    }
+   ]
+  },
+  "New phone sales in India fell about 11% in the first half of 2026.": {
+   "id": "c5",
+   "verdict": "supported",
+   "event_date": "2026-09-01",
+   "correct": "Counterpoint reported new smartphone volumes in India fell about 11% YoY in H1 2026.",
+   "sources": [
+    {
+     "url": "https://dailypioneer.com/news/india-refurbished-smartphone-market-growth-h1-2026",
+     "publisher": "The Pioneer (citing Counterpoint Research)",
+     "published_date": "2026-09-01",
+     "quote": "even as new smartphone volumes declined by around 11 per cent YoY.",
+     "tier": 2
+    }
+   ]
+  },
+  "_skeptic": {
+   "d8b6124cd99e051abfc0fe7706f25c2b9960a060": {
+    "holds": false,
+    "broken_premise": "The causal link fails: the idea that sellers offering a bill and warranty took away the risk, and that this is why buyers are switching. Counterpoint's H1 2026 numbers (refurbished up 13%, new down about 11%) are accurate. But organised channels, the ones that give a bill and warranty, are only about 20% of India's refurbished market. The other roughly 80% is still unorganised. Counterpoint says growth is mainly driven by rising prices of new phones, plus trade-ins and EMI/financing. A better image is not the reason it gives. A related point on slide 5 is also wrong: the ₹80,000 vs ₹45,000 gap is not mostly 'the smell of a new box'. It compares last year's launch price with today's price for a phone that has already depreciated, and that has a used battery, a cosmetic grade and usually a shorter refurbisher warranty instead of the brand's own.",
+    "actual_mechanism": "New-phone prices have gone up, so price-sensitive buyers are moving to the secondary market as a cheaper way to get premium models. Trade-in/exchange deals and easy EMI make this easier. Most refurbished volume still moves through unorganised sellers without a formal warranty, so warranty-backed selling isn't what's driving the growth. Certified refurbishment is growing, but it is still a minority channel. Refurbished prices follow the model's depreciated market value and its condition, so the discount is mostly normal depreciation of an older phone, not a 'new' premium that full-price buyers were tricked into paying.",
+    "take_survives": false,
+    "sources": [
+     {
+      "url": "https://dailypioneer.com/news/india-refurbished-smartphone-market-growth-h1-2026",
+      "published_date": "2026-09-01",
+      "quote": "India's refurbished smartphone volumes grew 13 per cent YoY in H1 2026 ... new smartphone volumes declined by around 11 per cent YoY ... rising prices of new devices prompted consumers to seek more affordable ways of accessing premium smartphones."
+     },
+     {
+      "url": "https://varindia.com/news/refurbished-smartphones-surge-in-india",
+      "published_date": "2026-09-22",
+      "quote": "The organized channel accounts for only around 20%, compared with approximately 80% for the unorganized market."
+     },
+     {
+      "url": "https://www.business-standard.com/technology/tech-news/refurbished-phones-market-india-new-smartphone-prices-126090200913_1.html",
+      "published_date": "2026-09-02",
+      "quote": "Costlier new phones drive demand for refurbished devices in India: Report"
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "66a398d2fa27775c65a79c04d6b260e554a94669": {
+    "passed": false,
+    "take_dead": true,
+    "notes": [
+     "The take's premise is wrong: The causal link fails: the idea that sellers offering a bill and warranty took away the risk, and that this is why buyers are switching. Counterpoint's H1 2026 numbers (refurbished up 13%, new down about 11%) are accurate. But organised channels, the ones that give a bill and warranty, are only about 20% of India's refurbished market. The other roughly 80% is still unorganised. Counterpoint says growth is mainly driven by rising prices of new phones, plus trade-ins and EMI/financing. A better image is not the reason it gives. A related point on slide 5 is also wrong: the ₹80,000 vs ₹45,000 gap is not mostly 'the smell of a new box'. It compares last year's launch price with today's price for a phone that has already depreciated, and that has a used battery, a cosmetic grade and usually a shorter refurbisher warranty instead of the brand's own.. How it actually works: New-phone prices have gone up, so price-sensitive buyers are moving to the secondary market as a cheaper way to get premium models. Trade-in/exchange deals and easy EMI make this easier. Most refurbished volume still moves through unorganised sellers without a formal warranty, so warranty-backed selling isn't what's driving the growth. Certified refurbishment is growing, but it is still a minority channel. Refurbished prices follow the model's depreciated market value and its condition, so the discount is mostly normal depreciation of an older phone, not a 'new' premium that full-price buyers were tricked into paying. Rebuild the post on the correct mechanism.",
+     "Could not verify: 'A refurbished last-year flagship sold with a bill and a warranty costs around ₹45,000 in India.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Last year's flagship phones often launched at around ₹80,000 in India.",
+      "sentence": "Last year's flagship often launched near ₹80,000.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "A refurbished last-year flagship sold with a bill and a warranty costs around ₹45,000 in India.",
+      "sentence": "A refurbished one with a bill and a warranty sells for around ₹45,000.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "The gap between the ₹80,000 launch price and the ₹45,000 refurbished price is ₹35,000.",
+      "sentence": "Most of the ₹35,000 was for the smell of a new box.",
+      "type": "arithmetic",
+      "core": false,
+      "framed_as": "timeless",
+      "expr": "80000-45000",
+      "stated": "35000"
+     },
+     {
+      "id": "c4",
+      "text": "Refurbished phone sales in India grew 13% in the first half of 2026.",
+      "sentence": "In the first half of 2026, refurbished phone sales in India grew 13%.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c5",
+      "text": "New phone sales in India fell about 11% in the first half of 2026.",
+      "sentence": "New phone sales fell about 11%.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c6",
+      "text": "Buying second-hand phones from strangers on OLX carried real risk (stolen, faulty or short-lived devices). Proper sellers now offer refurbished phones with a bill and warranty, which removes that risk. With the risk gone, the stigma of buying refurbished has faded, so more buyers choose refurbished over new at launch prices.",
+      "sentence": "Once proper sellers put a warranty on it, the risk left. The shame walked out with it.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2025-01-22",
+      "correct": "Last year's (2025) base flagships launched at roughly ₹80,000: the Galaxy S25 at ₹80,999 and the iPhone 17 at about ₹82,900. Ultra and Pro models launched much higher, at ₹1.3 lakh or more. So \"often around ₹80,000\" holds for the base flagships.",
+      "sources": [
+       {
+        "url": "https://www.gsmarena.com/samsung_galaxy_s25_galaxy_s25_plus_galaxy_s25_ultra_india_price-news-66215.php",
+        "publisher": "GSMArena",
+        "published_date": "2025-01-23",
+        "quote": "Samsung Galaxy S25 12GB/256GB INR80,999; 12GB/512GB INR92,999",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "unverifiable",
+      "correct": "I found no reliable source for a ₹45,000 refurbished last-year flagship. Seller-blog estimates for a refurbished iPhone 16 Pro with a 6–12 month warranty are about ₹68,000–₹82,000, well above ₹45,000. A refurbished Galaxy S25 may come closer, but I found no source for that price.",
+      "sources": [
+       {
+        "url": "https://www.cashkr.com/articles/refurbished-iphone-16-pro-price-in-india",
+        "publisher": "Cashkr",
+        "published_date": "2026-01-01",
+        "quote": "The refurbished iPhone 16 Pro would cost ₹68,000 to ₹82,000 in 2026 in India depending on the grade of the condition.",
+        "tier": 3
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "2026-09-01",
+      "correct": "Counterpoint reported India's refurbished smartphone volumes grew 13% YoY in H1 2026. The report is dated 2026-09-01.",
+      "sources": [
+       {
+        "url": "https://dailypioneer.com/news/india-refurbished-smartphone-market-growth-h1-2026",
+        "publisher": "The Pioneer (citing Counterpoint Research)",
+        "published_date": "2026-09-01",
+        "quote": "India's refurbished smartphone volumes grew 13 per cent YoY in H1 2026",
+        "tier": 2
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "supported",
+      "event_date": "2026-09-01",
+      "correct": "Counterpoint reported new smartphone volumes in India fell about 11% YoY in H1 2026.",
+      "sources": [
+       {
+        "url": "https://dailypioneer.com/news/india-refurbished-smartphone-market-growth-h1-2026",
+        "publisher": "The Pioneer (citing Counterpoint Research)",
+        "published_date": "2026-09-01",
+        "quote": "even as new smartphone volumes declined by around 11 per cent YoY.",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "The causal link fails: the idea that sellers offering a bill and warranty took away the risk, and that this is why buyers are switching. Counterpoint's H1 2026 numbers (refurbished up 13%, new down about 11%) are accurate. But organised channels, the ones that give a bill and warranty, are only about 20% of India's refurbished market. The other roughly 80% is still unorganised. Counterpoint says growth is mainly driven by rising prices of new phones, plus trade-ins and EMI/financing. A better image is not the reason it gives. A related point on slide 5 is also wrong: the ₹80,000 vs ₹45,000 gap is not mostly 'the smell of a new box'. It compares last year's launch price with today's price for a phone that has already depreciated, and that has a used battery, a cosmetic grade and usually a shorter refurbisher warranty instead of the brand's own.",
+     "actual_mechanism": "New-phone prices have gone up, so price-sensitive buyers are moving to the secondary market as a cheaper way to get premium models. Trade-in/exchange deals and easy EMI make this easier. Most refurbished volume still moves through unorganised sellers without a formal warranty, so warranty-backed selling isn't what's driving the growth. Certified refurbishment is growing, but it is still a minority channel. Refurbished prices follow the model's depreciated market value and its condition, so the discount is mostly normal depreciation of an older phone, not a 'new' premium that full-price buyers were tricked into paying.",
+     "take_survives": false,
+     "sources": [
+      {
+       "url": "https://dailypioneer.com/news/india-refurbished-smartphone-market-growth-h1-2026",
+       "published_date": "2026-09-01",
+       "quote": "India's refurbished smartphone volumes grew 13 per cent YoY in H1 2026 ... new smartphone volumes declined by around 11 per cent YoY ... rising prices of new devices prompted consumers to seek more affordable ways of accessing premium smartphones."
+      },
+      {
+       "url": "https://varindia.com/news/refurbished-smartphones-surge-in-india",
+       "published_date": "2026-09-22",
+       "quote": "The organized channel accounts for only around 20%, compared with approximately 80% for the unorganized market."
+      },
+      {
+       "url": "https://www.business-standard.com/technology/tech-news/refurbished-phones-market-india-new-smartphone-prices-126090200913_1.html",
+       "published_date": "2026-09-02",
+       "quote": "Costlier new phones drive demand for refurbished devices in India: Report"
+      }
+     ]
+    },
+    "text_hash": "66a398d2fa27775c65a79c04d6b260e554a94669",
+    "at": "2026-11-14T11:29:53.722973+00:00"
+   }
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "Refurbished used to mean broke. Now it means [you know something].",
+   "sub": "The shame left the same day the warranty arrived."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Buying refurbished used to mean you couldn't afford new. Now it means you know something.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "What changed, and who is doing it?"
+   },
+   {
+    "paragraphs": [
+     "Ask a friend about their phone now and they'll say it like a flex:",
+     "\"Refurbished hai, warranty ke saath.\"",
+     "Ten years ago that same line came with an apology."
+    ],
+    "why_swipe": "Why would anyone brag about a used phone?"
+   },
+   {
+    "paragraphs": [
+     "And suddenly everyone's an expert:\n– the laptop bought \"open box\" because someone returned it in week one\n– the iPhone where the first thing anyone checks is battery health, not the colour"
+    ],
+    "why_swipe": "So what does all this checking save?"
+   },
+   {
+    "paragraphs": [
+     "Last year's flagship often launched near ₹80,000. A refurbished one with a bill and a warranty sells for around ₹45,000."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "Same camera, same chip, and your Instagram stories look exactly the same.",
+     "Most of the ₹35,000 was for the smell of a new box."
+    ],
+    "why_swipe": "If the deal was always good, why was it shameful?"
+   },
+   {
+    "paragraphs": [
+     "Second-hand was never embarrassing because it was old. It was embarrassing because it was risky. A phone from a stranger on OLX could be stolen, broken inside, or dead in a week. You were the one who got cheated."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "Once proper sellers put a warranty on it, the risk left. The shame walked out with it."
+    ],
+    "why_swipe": "Is this a few smart buyers or something bigger?"
+   },
+   {
+    "paragraphs": [
+     "And it isn't a niche anymore. In the first half of 2026, refurbished phone sales in India grew 13%. New phone sales fell about 11%.",
+     "People didn't stop wanting the good phone. They stopped paying the launch price for it."
+    ],
+    "why_swipe": "Isn't this just being cheap?"
+   },
+   {
+    "paragraphs": [
+     "And no, this isn't people being kanjoos. It's the same crowd that pays ₹350 for a coffee without blinking.",
+     "They'll spend on what they enjoy. They just won't pay extra for the word \"new\". They think the full-price buyer got fooled."
+    ],
+    "why_swipe": "So what does a phone say about you now?"
+   },
+   {
+    "paragraphs": [
+     "For years, a brand-new phone said you had money.",
+     "Now a refurbished one with a bill says you did the maths.",
+     "Smart is the new expensive."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Come back to this before you tap Buy Now on a launch-day phone.",
+   "send": "Send to the friend about to pay full price for last year's model.",
+   "promise": "How money and status really move in India."
+  },
+  "alt_text": "A text carousel from Above MRP arguing that buying refurbished phones and laptops in India has shifted from a sign of being short on money to a sign of knowing value. It covers how warranties from proper sellers removed the risk and the shame, a typical price comparison between a new and refurbished flagship, and Counterpoint data showing refurbished phone sales grew 13% in H1 2026 while new phone sales fell about 11%. It closes with: smart is the new expensive.",
+  "claims": [
+   {
+    "text": "In the first half of 2026, refurbished phone sales in India grew 13%.",
+    "source_url": "https://dailypioneer.com/news/india-refurbished-smartphone-market-growth-h1-2026"
+   },
+   {
+    "text": "New phone sales in India fell about 11% in the same period.",
+    "source_url": "https://dailypioneer.com/news/india-refurbished-smartphone-market-growth-h1-2026"
+   },
+   {
+    "text": "People sought cheaper ways to get premium phones as new phone prices rose (people stopped paying the launch price, not stopped wanting the good phone).",
+    "source_url": "https://dailypioneer.com/news/india-refurbished-smartphone-market-growth-h1-2026"
+   },
+   {
+    "text": "₹35,000 difference between a typical ₹80,000 new flagship and a typical ₹45,000 refurbished one.",
+    "source_url": "topic",
+    "derived_from": "₹80,000 - ₹45,000 = ₹35,000 (typical everyday prices, framed as typical)"
+   }
+  ],
+  "caption": "Once a refurbished phone came with a bill and a warranty, the shame went out with the risk.\n\nThe full-price buyer used to look rich. Now he just looks like he never checked.\n\nSend this to the friend about to pay full price for last year's model, mostly for the new box.",
+  "hashtags": [
+   "#RefurbishedPhones",
+   "#PersonalFinanceIndia"
+  ],
+  "caption_style": "send",
+  "search_phrase": "refurbished phone",
+  "caption_v": 2
+ },
+ "verification": {
+  "passed": false,
+  "take_dead": true,
+  "notes": [
+   "The take's premise is wrong: The causal link fails: the idea that sellers offering a bill and warranty took away the risk, and that this is why buyers are switching. Counterpoint's H1 2026 numbers (refurbished up 13%, new down about 11%) are accurate. But organised channels, the ones that give a bill and warranty, are only about 20% of India's refurbished market. The other roughly 80% is still unorganised. Counterpoint says growth is mainly driven by rising prices of new phones, plus trade-ins and EMI/financing. A better image is not the reason it gives. A related point on slide 5 is also wrong: the ₹80,000 vs ₹45,000 gap is not mostly 'the smell of a new box'. It compares last year's launch price with today's price for a phone that has already depreciated, and that has a used battery, a cosmetic grade and usually a shorter refurbisher warranty instead of the brand's own.. How it actually works: New-phone prices have gone up, so price-sensitive buyers are moving to the secondary market as a cheaper way to get premium models. Trade-in/exchange deals and easy EMI make this easier. Most refurbished volume still moves through unorganised sellers without a formal warranty, so warranty-backed selling isn't what's driving the growth. Certified refurbishment is growing, but it is still a minority channel. Refurbished prices follow the model's depreciated market value and its condition, so the discount is mostly normal depreciation of an older phone, not a 'new' premium that full-price buyers were tricked into paying. Rebuild the post on the correct mechanism.",
+   "Could not verify: 'A refurbished last-year flagship sold with a bill and a warranty costs around ₹45,000 in India.'. Cut it, or state it only if a source says it."
+  ],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Last year's flagship phones often launched at around ₹80,000 in India.",
+    "sentence": "Last year's flagship often launched near ₹80,000.",
+    "type": "figure",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "A refurbished last-year flagship sold with a bill and a warranty costs around ₹45,000 in India.",
+    "sentence": "A refurbished one with a bill and a warranty sells for around ₹45,000.",
+    "type": "figure",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c3",
+    "text": "The gap between the ₹80,000 launch price and the ₹45,000 refurbished price is ₹35,000.",
+    "sentence": "Most of the ₹35,000 was for the smell of a new box.",
+    "type": "arithmetic",
+    "core": false,
+    "framed_as": "timeless",
+    "expr": "80000-45000",
+    "stated": "35000"
+   },
+   {
+    "id": "c4",
+    "text": "Refurbished phone sales in India grew 13% in the first half of 2026.",
+    "sentence": "In the first half of 2026, refurbished phone sales in India grew 13%.",
+    "type": "figure",
+    "core": true,
+    "framed_as": "past"
+   },
+   {
+    "id": "c5",
+    "text": "New phone sales in India fell about 11% in the first half of 2026.",
+    "sentence": "New phone sales fell about 11%.",
+    "type": "figure",
+    "core": true,
+    "framed_as": "past"
+   },
+   {
+    "id": "c6",
+    "text": "Buying second-hand phones from strangers on OLX carried real risk (stolen, faulty or short-lived devices). Proper sellers now offer refurbished phones with a bill and warranty, which removes that risk. With the risk gone, the stigma of buying refurbished has faded, so more buyers choose refurbished over new at launch prices.",
+    "sentence": "Once proper sellers put a warranty on it, the risk left. The shame walked out with it.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c1": {
+    "id": "c1",
+    "verdict": "supported",
+    "event_date": "2025-01-22",
+    "correct": "Last year's (2025) base flagships launched at roughly ₹80,000: the Galaxy S25 at ₹80,999 and the iPhone 17 at about ₹82,900. Ultra and Pro models launched much higher, at ₹1.3 lakh or more. So \"often around ₹80,000\" holds for the base flagships.",
+    "sources": [
+     {
+      "url": "https://www.gsmarena.com/samsung_galaxy_s25_galaxy_s25_plus_galaxy_s25_ultra_india_price-news-66215.php",
+      "publisher": "GSMArena",
+      "published_date": "2025-01-23",
+      "quote": "Samsung Galaxy S25 12GB/256GB INR80,999; 12GB/512GB INR92,999",
+      "tier": 2
+     }
+    ]
+   },
+   "c2": {
+    "id": "c2",
+    "verdict": "unverifiable",
+    "correct": "I found no reliable source for a ₹45,000 refurbished last-year flagship. Seller-blog estimates for a refurbished iPhone 16 Pro with a 6–12 month warranty are about ₹68,000–₹82,000, well above ₹45,000. A refurbished Galaxy S25 may come closer, but I found no source for that price.",
+    "sources": [
+     {
+      "url": "https://www.cashkr.com/articles/refurbished-iphone-16-pro-price-in-india",
+      "publisher": "Cashkr",
+      "published_date": "2026-01-01",
+      "quote": "The refurbished iPhone 16 Pro would cost ₹68,000 to ₹82,000 in 2026 in India depending on the grade of the condition.",
+      "tier": 3
+     }
+    ]
+   },
+   "c4": {
+    "id": "c4",
+    "verdict": "supported",
+    "event_date": "2026-09-01",
+    "correct": "Counterpoint reported India's refurbished smartphone volumes grew 13% YoY in H1 2026. The report is dated 2026-09-01.",
+    "sources": [
+     {
+      "url": "https://dailypioneer.com/news/india-refurbished-smartphone-market-growth-h1-2026",
+      "publisher": "The Pioneer (citing Counterpoint Research)",
+      "published_date": "2026-09-01",
+      "quote": "India's refurbished smartphone volumes grew 13 per cent YoY in H1 2026",
+      "tier": 2
+     }
+    ]
+   },
+   "c5": {
+    "id": "c5",
+    "verdict": "supported",
+    "event_date": "2026-09-01",
+    "correct": "Counterpoint reported new smartphone volumes in India fell about 11% YoY in H1 2026.",
+    "sources": [
+     {
+      "url": "https://dailypioneer.com/news/india-refurbished-smartphone-market-growth-h1-2026",
+      "publisher": "The Pioneer (citing Counterpoint Research)",
+      "published_date": "2026-09-01",
+      "quote": "even as new smartphone volumes declined by around 11 per cent YoY.",
+      "tier": 2
+     }
+    ]
+   }
+  },
+  "mechanism": {
+   "holds": false,
+   "broken_premise": "The causal link fails: the idea that sellers offering a bill and warranty took away the risk, and that this is why buyers are switching. Counterpoint's H1 2026 numbers (refurbished up 13%, new down about 11%) are accurate. But organised channels, the ones that give a bill and warranty, are only about 20% of India's refurbished market. The other roughly 80% is still unorganised. Counterpoint says growth is mainly driven by rising prices of new phones, plus trade-ins and EMI/financing. A better image is not the reason it gives. A related point on slide 5 is also wrong: the ₹80,000 vs ₹45,000 gap is not mostly 'the smell of a new box'. It compares last year's launch price with today's price for a phone that has already depreciated, and that has a used battery, a cosmetic grade and usually a shorter refurbisher warranty instead of the brand's own.",
+   "actual_mechanism": "New-phone prices have gone up, so price-sensitive buyers are moving to the secondary market as a cheaper way to get premium models. Trade-in/exchange deals and easy EMI make this easier. Most refurbished volume still moves through unorganised sellers without a formal warranty, so warranty-backed selling isn't what's driving the growth. Certified refurbishment is growing, but it is still a minority channel. Refurbished prices follow the model's depreciated market value and its condition, so the discount is mostly normal depreciation of an older phone, not a 'new' premium that full-price buyers were tricked into paying.",
+   "take_survives": false,
+   "sources": [
+    {
+     "url": "https://dailypioneer.com/news/india-refurbished-smartphone-market-growth-h1-2026",
+     "published_date": "2026-09-01",
+     "quote": "India's refurbished smartphone volumes grew 13 per cent YoY in H1 2026 ... new smartphone volumes declined by around 11 per cent YoY ... rising prices of new devices prompted consumers to seek more affordable ways of accessing premium smartphones."
+    },
+    {
+     "url": "https://varindia.com/news/refurbished-smartphones-surge-in-india",
+     "published_date": "2026-09-22",
+     "quote": "The organized channel accounts for only around 20%, compared with approximately 80% for the unorganized market."
+    },
+    {
+     "url": "https://www.business-standard.com/technology/tech-news/refurbished-phones-market-india-new-smartphone-prices-126090200913_1.html",
+     "published_date": "2026-09-02",
+     "quote": "Costlier new phones drive demand for refurbished devices in India: Report"
+    }
+   ]
+  },
+  "text_hash": "66a398d2fa27775c65a79c04d6b260e554a94669",
+  "at": "2026-11-14T11:29:53.722973+00:00"
+ }
 }

@@ -1,6 +1,6 @@
 {
  "id": "2026-11-161",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-24T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -43,6 +43,1522 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-11-13T12:12:28.628684+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slide 8: 'iPhone 18 Pro sales in India rose an estimated 28% in the first three weeks' drops the baseline. The source says 28% year on year, and without that the line can read as growth within the three weeks. Fix to something like 'In India, the iPhone 18 Pro series sold an estimated 28% more than last year's Pro in its first three weeks.' In the same slide, 'Nobody sees which storage plan you're paying for' is vague and misses an easy callback. Swap it for the OTT plan from slide 3 ('Nobody at dinner knows which Netflix plan you pay for'), so the 'pay for what people can see' point lands on an example the reader already met.",
+     "slide 7: 'Anyone who has worked on a pricing page knows the plan is built around the middle card' asserts insider knowledge but shows none. Replace the claim with one detail only someone who has built these pages would notice. For example, the middle card sits slightly taller, is the only one in the brand colour, and its button is already filled in while the other two are outlines. That shows the plan instead of stating it, and it sets up the ribbon in the close.",
+     "slide 3: 'Every app and gadget now comes in three tiers' is followed by a café, which is neither an app nor a gadget. Widen the line to fit the examples, such as 'Everything now comes in three sizes, from apps to coffee.' Keep it to one sentence so the OTT and café beats arrive faster.",
+     "slide 4: no detail in the post goes beyond sight. The AC showroom is the natural place for one, for example the salesman holding the remote under your nose while the top model blows cold air on your face, then 'value for money' and two steps left. That makes the steering felt, not just described.",
+     "slide 9: 'Basic feels like being stingy, and Pro feels like showing off. The middle lets you be neither' edges toward a mirrored pair. Break the symmetry, for example 'Basic feels stingy. Pro feels like showing off in front of no one. The middle lets you skip both feelings, and that relief is what you're really paying for.'"
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "varun": {
+    "pass": false,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 1",
+      "line": "The 'Pro' plan mostly exists to make the middle one look like a smart buy.",
+      "why": "hedged hook; 'mostly' softens the verdict",
+      "try": "The 'Pro' plan exists to make the middle one look like a smart buy.\nSwipe to read →"
+     },
+     {
+      "where": "slide 5",
+      "line": "That top option is mostly not there for you to buy.",
+      "why": "hedged again; blunts the reveal",
+      "try": "That top option isn't there for you to buy."
+     },
+     {
+      "where": "slide 8",
+      "line": "To be fair, some Pros sell plenty.",
+      "why": "polite, debate-style concession opener",
+      "try": "Sure, some Pros sell plenty."
+     }
+    ],
+    "best": "On its own, ₹280 for a coffee is a lot. Next to ₹340, it feels like self-control."
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Not Varun (slide 1): 'The 'Pro' plan mostly exists to make the middle one look like a smart buy.' reads as hedged hook; 'mostly' softens the verdict. Say it the way he would, e.g. 'The 'Pro' plan exists to make the middle one look like a smart buy.\nSwipe to read →' (his register, your words, same facts).",
+    "Not Varun (slide 5): 'That top option is mostly not there for you to buy.' reads as hedged again; blunts the reveal. Say it the way he would, e.g. 'That top option isn't there for you to buy.' (his register, your words, same facts).",
+    "Not Varun (slide 8): 'To be fair, some Pros sell plenty.' reads as polite, debate-style concession opener. Say it the way he would, e.g. 'Sure, some Pros sell plenty.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slide 1: settled. 'The 'Pro' plan exists to make the middle one look like a smart buy.' now states the verdict straight. Leave it.",
+     "slide 5: settled. 'That top option isn't there for you to buy.' lands the reveal without a hedge. Leave it.",
+     "slide 8: settled. 'Sure, some Pros sell plenty.' reads like him now. One small accuracy fix: the source says the 28% rise is year on year. Write 'rose an estimated 28% over last year in the first three weeks' so the figure keeps the same meaning as the source."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "varun": {
+    "pass": true,
+    "score": 5,
+    "misses": [],
+    "best": "On its own, ₹280 for a coffee is a lot. Next to ₹340, it feels like self-control."
+   }
+  },
+  {
+   "attempt": 1,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "The take's premise is wrong: Premise 1 fails. It says the top 'Pro' tier is there mainly to make the middle plan look sensible, 'not so that people will buy it'. That misdescribes how tiered pricing works. In the research, a true decoy is an asymmetrically dominated option: it is worse than the target on everything, and almost nobody picks it (about 2% in Huber, Payne & Puto's studies). A Pro tier is not like that. It gives more for more money, and it is designed to be sold to buyers who are willing to pay more. This is called versioning, a form of second-degree price discrimination. The post's own iPhone example confirms the claim it relies on: Counterpoint estimates iPhone 18 Pro sales in India rose 28% year over year in the first three weeks. That shows the top tier is a real revenue line, not just a prop. Premise 2, that the page is built around the middle card where most of the money is made, is partly true. Firms do try to steer most buyers to the middle. But the post gives no evidence that the middle tier makes the most money, and the top tier usually earns the most per customer.. How it actually works: Firms use three tiers (Varian's 'Goldilocks pricing') to sort customers by how much they will pay. Price-sensitive buyers take Basic, most people take the middle, and buyers who want the most pay the high Pro price. The firm wants every tier to sell. On top of that, the compromise effect (Simonson, 1989) and extremeness aversion mean a middle option wins more share just by being in the middle, and a high price nearby acts as an anchor. So the top tier does make the middle look better, but that is a side benefit of a product the firm fully expects to sell, not the reason it exists. Rebuild the post on the correct mechanism.",
+     "Could not verify: 'The 'Most Popular' ribbon on pricing cards is placed on the middle plan in advance, before any user clicks, rather than reflecting actual user choices.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Streaming (OTT) apps sell plans in three tiers named Mobile, Standard and Premium.",
+      "sentence": "The OTT app has Mobile, Standard and Premium.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "The top-tier 'Pro' plan is placed on pricing pages mainly so the middle plan looks like a sensible buy, not so that people will buy it.",
+      "sentence": "That top option isn't there for you to buy. Its job is to stand there looking expensive, so the price next to it feels sensible.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Putting a pricier option next to a mid-priced one to make the mid-priced one look better is called decoy pricing.",
+      "sentence": "It's called decoy pricing.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Three-tier pricing pages are designed around the middle card, which is where the brand wants most buyers to land and where it makes most of its money.",
+      "sentence": "Anyone who has worked on a pricing page knows the plan is built around the middle card. That's where the brand wants most people, and where it makes its money.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "iPhone 18 Pro sales in India rose an estimated 28% in the first three weeks after launch.",
+      "sentence": "iPhone 18 Pro sales in India rose an estimated 28% in the first three weeks.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c6",
+      "text": "The 'Most Popular' ribbon on pricing cards is placed on the middle plan in advance, before any user clicks, rather than reflecting actual user choices.",
+      "sentence": "That 'Most Popular' ribbon was put on the card before you ever clicked.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "correct": "Tiered plans are common, but the names vary. Netflix India has Mobile, Basic, Standard and Premium, which is four tiers, not three. JioHotstar uses Mobile, Super and Premium. I couldn't confirm Netflix's current India plan list on its own page.",
+      "sources": [
+       {
+        "url": "https://www.deccanherald.com/technology/jiohotstar-brings-new-subscription-plans-starting-at-rs-79-in-india-3868719",
+        "publisher": "Deccan Herald",
+        "published_date": "2026-01-19",
+        "quote": "Mobile – Monthly – Rs 79",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "correct": "This is the decoy effect, also called asymmetric dominance. Huber, Payne and Puto described it in 1982.",
+      "sources": [
+       {
+        "url": "https://atticusli.com/blog/posts/compromise-effect-middle-options-tier-based-pricing/",
+        "publisher": "Atticus Li",
+        "published_date": "2025-01-01",
+        "quote": "Most popular or recommended badges further amplify the effect by providing social proof that validates the user's emerging preference for the middle option.",
+        "tier": 3
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "supported",
+      "event_date": "2026-11-01",
+      "correct": "Counterpoint Research estimated India iPhone 18 Pro sales rose 28% year on year in the first three weeks after launch. Apple hasn't published unit sales, so this is a third-party estimate. Business Today's report is dated 2026-11-01. I did not check for an earlier report.",
+      "sources": [
+       {
+        "url": "https://businesstoday.in/technology/news/story/iphone-18-pro-beats-iphone-17-pro-in-global-sales-as-india-demand-jumps-28-yoy-report-564971-2026-11-01",
+        "publisher": "Business Today",
+        "published_date": "2026-11-01",
+        "quote": "sales rising an estimated 28% year over year (YoY) in the first three weeks after launch.",
+        "tier": 2
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "unverifiable",
+      "correct": "Sources describe the 'Most Popular' badge as a social-proof device placed on the target plan. None I found states that it is placed in advance rather than driven by live user choices. That is likely true as a general design practice, but I couldn't confirm it.",
+      "sources": [
+       {
+        "url": "https://atticusli.com/blog/posts/compromise-effect-middle-options-tier-based-pricing/",
+        "publisher": "Atticus Li",
+        "published_date": "2025-01-01",
+        "quote": "Most popular or recommended badges further amplify the effect by providing social proof",
+        "tier": 3
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "Premise 1 fails. It says the top 'Pro' tier is there mainly to make the middle plan look sensible, 'not so that people will buy it'. That misdescribes how tiered pricing works. In the research, a true decoy is an asymmetrically dominated option: it is worse than the target on everything, and almost nobody picks it (about 2% in Huber, Payne & Puto's studies). A Pro tier is not like that. It gives more for more money, and it is designed to be sold to buyers who are willing to pay more. This is called versioning, a form of second-degree price discrimination. The post's own iPhone example confirms the claim it relies on: Counterpoint estimates iPhone 18 Pro sales in India rose 28% year over year in the first three weeks. That shows the top tier is a real revenue line, not just a prop. Premise 2, that the page is built around the middle card where most of the money is made, is partly true. Firms do try to steer most buyers to the middle. But the post gives no evidence that the middle tier makes the most money, and the top tier usually earns the most per customer.",
+     "actual_mechanism": "Firms use three tiers (Varian's 'Goldilocks pricing') to sort customers by how much they will pay. Price-sensitive buyers take Basic, most people take the middle, and buyers who want the most pay the high Pro price. The firm wants every tier to sell. On top of that, the compromise effect (Simonson, 1989) and extremeness aversion mean a middle option wins more share just by being in the middle, and a high price nearby acts as an anchor. So the top tier does make the middle look better, but that is a side benefit of a product the firm fully expects to sell, not the reason it exists.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.businesstoday.in/technology/news/story/iphone-18-pro-beats-iphone-17-pro-in-global-sales-as-india-demand-jumps-28-yoy-report-564971-2026-11-01",
+       "published_date": "2026-11-01",
+       "quote": "an estimated 28% year over year (YoY) in the first three weeks after launch"
+      },
+      {
+       "url": "https://saylordotorg.github.io/text_developing-new-products-and-services/s05-03-second-degree-price-discrimina.html",
+       "published_date": "unknown",
+       "quote": "always offer at least three different versions of a product; that is, a high-end version, a middle range version, and a low-end version. Varian refers to this type of price discrimination as Goldilocks pricing."
+      },
+      {
+       "url": "https://store.hbr.org/product/versioning-the-smart-way-to-sell-information/98610",
+       "published_date": "1998",
+       "quote": "The best way to escape that fate, the authors say, is to create different versions of the same core of information"
+      },
+      {
+       "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/AD7D4AC1095EAF7FDCBDEF78BF5932A0/S193029750000303Xa.pdf/effect_of_incomplete_information_on_the_compromise_effect.pdf",
+       "published_date": "unknown",
+       "quote": "a brand's market share will be greater when it is the middle option in a choice set and will be smaller when it is the extreme option"
+      },
+      {
+       "url": "https://thedecisionlab.com/reference-guide/psychology/asymmetrically-dominated-choice",
+       "published_date": "unknown",
+       "quote": "inferior in all respects to one option; but, in comparison to the other option, it is inferior in some respects and superior in others"
+      },
+      {
+       "url": "https://www.cgs.iitk.ac.in/user/tapasr/docs/Frontiers_Accepted.pdf",
+       "published_date": "unknown",
+       "quote": "the average choice proportions of the decoy option were limited to approximately 2%"
+      }
+     ]
+    },
+    "text_hash": "bc73b643278d51c8f28c6aa70b384fe85d5dfefa",
+    "at": "2026-11-14T11:29:42.057776+00:00"
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "The take's premise is wrong: Premise 1 fails. It says the top 'Pro' tier is there mainly to make the middle plan look sensible, 'not so that people will buy it'. That misdescribes how tiered pricing works. In the research, a true decoy is an asymmetrically dominated option: it is worse than the target on everything, and almost nobody picks it (about 2% in Huber, Payne & Puto's studies). A Pro tier is not like that. It gives more for more money, and it is designed to be sold to buyers who are willing to pay more. This is called versioning, a form of second-degree price discrimination. The post's own iPhone example confirms the claim it relies on: Counterpoint estimates iPhone 18 Pro sales in India rose 28% year over year in the first three weeks. That shows the top tier is a real revenue line, not just a prop. Premise 2, that the page is built around the middle card where most of the money is made, is partly true. Firms do try to steer most buyers to the middle. But the post gives no evidence that the middle tier makes the most money, and the top tier usually earns the most per customer.. How it actually works: Firms use three tiers (Varian's 'Goldilocks pricing') to sort customers by how much they will pay. Price-sensitive buyers take Basic, most people take the middle, and buyers who want the most pay the high Pro price. The firm wants every tier to sell. On top of that, the compromise effect (Simonson, 1989) and extremeness aversion mean a middle option wins more share just by being in the middle, and a high price nearby acts as an anchor. So the top tier does make the middle look better, but that is a side benefit of a product the firm fully expects to sell, not the reason it exists. Rebuild the post on the correct mechanism.",
+    "Could not verify: 'The 'Most Popular' ribbon on pricing cards is placed on the middle plan in advance, before any user clicks, rather than reflecting actual user choices.'. Cut it, or state it only if a source says it."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "Settled: the premise note is fixed. Slide 1 ('The 'Pro' plan does sell. But its other job…'), slide 5 ('a real product… a second job'), slide 7 (three tiers sort buyers, compromise effect) and slide 8 ('the brand wins twice') now carry the correct mechanism. The top tier is a real product with an anchoring side effect, not a prop.",
+     "Settled: the 'Most Popular' ribbon in slide 2 is now just texture on the card. Nothing claims it is placed before any clicks. Keep it that way.",
+     "slide 8: the source says the 28% rise is year over year. 'Sales in India rose an estimated 28% in the first three weeks' drops the comparison, so it reads like growth within those three weeks. Write it as 'iPhone 18 Pro series sales in India rose an estimated 28% over last year's Pro in the first three weeks.' The words 'series' and 'year over year' must match the claim.",
+     "slide 3: 'The OTT app has Mobile, Standard and Premium' is a vague brand. If the writer means a specific app, its real tier list may not be exactly three, so a reader who knows it will catch the mismatch. Either keep it generic as 'OTT plans go Mobile, Standard, Premium' or drop the tier names. Do not name an app with the wrong tiers."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 9",
+      "line": "Basic feels like being stingy, and Pro feels like showing off. The middle lets you be neither, and that relief is what you pay for.",
+      "why": "mirrored pair, then the turn explained; 'None of this makes you a fool' is soft reassurance",
+      "try": "You're not dumb for this. You even compared all three, so it feels like homework done. Basic feels cheap, Pro feels like showing off, so you go middle and nobody can say anything. That's the part you're really paying for."
+     },
+     {
+      "where": "slide 7",
+      "line": "Three tiers sort buyers. Basic catches the careful buyer. Pro catches the one who wants everything.",
+      "why": "essay voice plus an engineered parallel pair",
+      "try": "Three tiers basically sort you by how much you'll pay. The careful guy takes Basic, the one who wants everything takes Pro, and most of us just drift to the middle because it's the easiest place to stand. There's even a name for it: the compromise effect."
+     },
+     {
+      "where": "slide 8",
+      "line": "And the Pro really sells. iPhone 18 Pro sales in India rose an estimated 28% in the first three weeks.",
+      "why": "the fact is the hero; 'rose an estimated' is a written phrase",
+      "try": "And the Pro isn't just a prop. iPhone 18 Pro sales in India jumped around 28% in the first three weeks. So the brand wins twice. The Pro crowd pays top price, and everyone else buys the middle and feels sensible."
+     },
+     {
+      "where": "slide 2",
+      "line": "You open the pricing page and see three cards. Basic looks thin. Pro costs almost double. The middle one has a little ribbon that says 'Most Popular'.",
+      "why": "three lines of scene narration before any commentary",
+      "try": "Every pricing page is the same three cards. Basic looks thin, Pro costs almost double, and the middle one has a little 'Most Popular' ribbon. You pick it in under a minute and feel good for not overspending."
+     }
+    ],
+    "best": "On its own, ₹280 for a coffee is a lot. Next to ₹340, it feels like self-control."
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Not Varun (slide 9): 'Basic feels like being stingy, and Pro feels like showing off. The middle lets you be neither, and that relief is what you pay for.' reads as mirrored pair, then the turn explained; 'None of this makes you a fool' is soft reassurance. Say it the way he would, e.g. 'You're not dumb for this. You even compared all three, so it feels like homework done. Basic feels cheap, Pro feels like showing off, so you go middle and nobody can say anything. That's the part you're really paying for.' (his register, your words, same facts).",
+    "Not Varun (slide 7): 'Three tiers sort buyers. Basic catches the careful buyer. Pro catches the one who wants everything.' reads as essay voice plus an engineered parallel pair. Say it the way he would, e.g. 'Three tiers basically sort you by how much you'll pay. The careful guy takes Basic, the one who wants everything takes Pro, and most of us just drift to the middle because it's the easiest place to stand. There's even a name for it: the compromise effect.' (his register, your words, same facts).",
+    "Not Varun (slide 8): 'And the Pro really sells. iPhone 18 Pro sales in India rose an estimated 28% in the first three weeks.' reads as the fact is the hero; 'rose an estimated' is a written phrase. Say it the way he would, e.g. 'And the Pro isn't just a prop. iPhone 18 Pro sales in India jumped around 28% in the first three weeks. So the brand wins twice. The Pro crowd pays top price, and everyone else buys the middle and feels sensible.' (his register, your words, same facts).",
+    "Not Varun (slide 2): 'You open the pricing page and see three cards. Basic looks thin. Pro costs almost double. The middle one has a little ribbon that says 'Most Popular'.' reads as three lines of scene narration before any commentary. Say it the way he would, e.g. 'Every pricing page is the same three cards. Basic looks thin, Pro costs almost double, and the middle one has a little 'Most Popular' ribbon. You pick it in under a minute and feel good for not overspending.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "All four notes are settled. Slide 2 now comments instead of narrating ('You pick it in under a minute and feel good for not overspending'). Slide 7 sorts the buyers in his voice and names the compromise effect. Slide 8 keeps the 28% as support for 'the brand wins twice', and the figure matches the source (estimated 28% YoY in India, first three weeks). Slide 9 drops the mirrored pair and the soft reassurance.",
+     "slide 8: 'feels sensible' comes back on slide 10 ('sensible hai'). That works as a callback. Don't add 'sensible' anywhere else, or the close loses its sting.",
+     "slide 9: optional tightening. 'So you go middle, and nobody can say anything' could be 'So you go middle. Nobody can say a thing.' A short beat before 'That's the part you're really paying for' lands harder. Not required."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "varun": {
+    "pass": true,
+    "score": 5,
+    "misses": [],
+    "best": "On its own, ₹280 for a coffee is a lot. Next to ₹340, it feels like self-control."
+   }
+  },
+  {
+   "attempt": 3,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not verify: 'In typical three-tier pricing, the top 'Pro' tier costs almost double the middle tier.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Streaming (OTT) apps sell plans in three tiers named Mobile, Standard and Premium.",
+      "sentence": "The OTT app has Mobile, Standard and Premium.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Pricing pages commonly present three plan cards (Basic, Pro and a middle plan), with the middle one carrying a 'Most Popular' ribbon.",
+      "sentence": "Every pricing page is the same three cards. Basic looks thin, Pro costs almost double, and the middle one has a little 'Most Popular' ribbon.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "In typical three-tier pricing, the top 'Pro' tier costs almost double the middle tier.",
+      "sentence": "Pro costs almost double",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "The top-tier product is a real product that sells, bought by people who want the most and will pay for it.",
+      "sentence": "The top option is a real product. Some people want the most and will happily pay for it.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Three-tier pricing sorts buyers by how much they are willing to pay: price-careful buyers take Basic and those wanting everything take Pro.",
+      "sentence": "Three tiers sort you by how much you'll pay. The careful guy takes Basic, whoever wants everything takes Pro.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Most buyers drift to the middle tier of three options.",
+      "sentence": "Most of us drift to the middle, because it's the easiest place to stand.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "The tendency to choose the middle option is known as the compromise effect.",
+      "sentence": "It has a name: the compromise effect.",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c8",
+      "text": "iPhone 18 Pro sales in India rose around 28% over the previous year in the first three weeks.",
+      "sentence": "iPhone 18 Pro sales in India jumped around 28% over last year in the first three weeks.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c9",
+      "text": "Apple's iPhone 18 Pro is sold at the top price tier and the brand also sells middle-tier models to everyone else, so it earns from both.",
+      "sentence": "So the brand wins twice. The Pro crowd pays top price. Everyone else buys the middle and feels sensible.",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c10",
+      "text": "Companies include a costly top tier so that the middle tier looks sensible and buyers pick it. Premises: the top tier is a real product that sells; its high price sits next to the middle option and makes it feel reasonable; buyers sorted into three tiers tend to pick the middle (compromise effect). Conclusion: the costliest plan's job is partly to steer buyers to the middle plan.",
+      "sentence": "On any pricing page, the costliest plan is there so the middle one feels like your own smart idea.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "correct": "Tiered plans are common, but the names vary. Netflix India has Mobile, Basic, Standard and Premium, which is four tiers, not three. JioHotstar uses Mobile, Super and Premium. I couldn't confirm Netflix's current India plan list on its own page.",
+      "sources": [
+       {
+        "url": "https://www.deccanherald.com/technology/jiohotstar-brings-new-subscription-plans-starting-at-rs-79-in-india-3868719",
+        "publisher": "Deccan Herald",
+        "published_date": "2026-01-19",
+        "quote": "Mobile – Monthly – Rs 79",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "correct": "",
+      "sources": [
+       {
+        "url": "https://marketingagency.sg/decoy-effect-pricing",
+        "publisher": "marketingagency.sg",
+        "published_date": "",
+        "quote": "the middle tier often carries visual emphasis, such as a 'Most Popular' badge, a highlighted border, or a different background color",
+        "tier": 3
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "unverifiable",
+      "correct": "I found no reliable data on a typical Pro-to-middle price ratio. Ratios vary widely between products.",
+      "sources": []
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "correct": "",
+      "sources": [
+       {
+        "url": "https://businesstoday.in/technology/news/story/iphone-18-pro-beats-iphone-17-pro-in-global-sales-as-india-demand-jumps-28-yoy-report-564971-2026-11-01",
+        "publisher": "Business Today (citing Counterpoint)",
+        "published_date": "2026-11-01",
+        "quote": "iPhone 18 Pro series sales rising an estimated 28% year over year (YoY) in the first three weeks after launch",
+        "tier": 2
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "supported",
+      "correct": "",
+      "sources": [
+       {
+        "url": "https://concepts.dsebastien.net/concept/compromise-effect/",
+        "publisher": "concepts.dsebastien.net",
+        "published_date": "",
+        "quote": "the tendency for consumers to prefer middle options when presented with a set of choices ranging from low to high on key attributes",
+        "tier": 3
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "supported",
+      "correct": "The middle option is favoured as a tendency, not a rule. It does not hold in every case.",
+      "sources": [
+       {
+        "url": "https://concepts.dsebastien.net/concept/compromise-effect/",
+        "publisher": "concepts.dsebastien.net",
+        "published_date": "",
+        "quote": "the tendency for consumers to prefer middle options when presented with a set of choices ranging from low to high on key attributes",
+        "tier": 3
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "supported",
+      "correct": "The middle-option tendency is called the compromise effect. The decoy effect is a separate phenomenon.",
+      "sources": [
+       {
+        "url": "https://concepts.dsebastien.net/concept/compromise-effect/",
+        "publisher": "concepts.dsebastien.net",
+        "published_date": "",
+        "quote": "the tendency for consumers to prefer middle options",
+        "tier": 3
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "supported",
+      "event_date": "2026-11-01",
+      "correct": "",
+      "sources": [
+       {
+        "url": "https://businesstoday.in/technology/news/story/iphone-18-pro-beats-iphone-17-pro-in-global-sales-as-india-demand-jumps-28-yoy-report-564971-2026-11-01",
+        "publisher": "Business Today (citing Counterpoint)",
+        "published_date": "2026-11-01",
+        "quote": "with iPhone 18 Pro series sales rising an estimated 28% year over year (YoY) in the first three weeks after launch",
+        "tier": 2
+       }
+      ]
+     },
+     "c9": {
+      "id": "c9",
+      "verdict": "supported",
+      "correct": "The Pro Max, not the Pro, is the very top of the range. Apple sells Pro-series models at premium prices alongside lower-priced models.",
+      "sources": [
+       {
+        "url": "https://www.businesstoday.in/technology/news/story/high-prices-not-a-downer-iphone-18-pro-series-demand-surges-in-india-despite-premium-tag-556643-2026-09-19",
+        "publisher": "Business Today (citing Counterpoint)",
+        "published_date": "2026-09-19",
+        "quote": "demand for Apple's Pro iPhones in India is up despite higher prices",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None fails. The 28% India figure checks out: Counterpoint estimated it for the first three weeks after launch. One nuance is that it covers the whole Pro series (18 Pro and Pro Max together), and Counterpoint says India's growth leaned toward the standard 18 Pro rather than the pricier Pro Max. It is also a third-party estimate, because Apple has not disclosed unit sales. This sharpens the claim rather than breaking it. The compromise effect is a real, named finding (Simonson 1989), and the post presents it as a tendency, not a rule.",
+     "actual_mechanism": "When an option sits in the middle of a set, it gains share. Its disadvantages look smaller against both ends, and it is the easiest choice to defend to others (Simonson 1989 calls this extremeness aversion and reason-based choice; Simonson & Tversky 1992 expand on it). Tiered pricing does two things at once: it sorts buyers by how much they are willing to pay, and it uses the premium tier as a real, profitable product that also makes the next tier down look reasonable. The Pro data fits this. Pro-series sales grew while buyers in India picked the 18 Pro over the costlier Pro Max, which is the compromise effect at work inside Apple's own lineup.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.businesstoday.in/technology/news/story/iphone-18-pro-beats-iphone-17-pro-in-global-sales-as-india-demand-jumps-28-yoy-report-564971-2026-11-01",
+       "published_date": "2026-11-01",
+       "quote": "an estimated 28% year over year (YoY)... skewed toward the standard iPhone 18 Pro rather than the larger and more expensive Pro Max"
+      },
+      {
+       "url": "https://www.investing.com/news/economy-news/initial-global-sales-of-apple-iphone-18-pro-higher-than-17-series--counterpoint-research-4974514",
+       "published_date": "2026-11",
+       "quote": "Counterpoint: global iPhone 18 Pro series sales in the first three weeks were 3.1% higher than the iPhone 17 Pro series, with strong performance in China and India"
+      },
+      {
+       "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/AD7D4AC1095EAF7FDCBDEF78BF5932A0/S193029750000303Xa.pdf/effect_of_incomplete_information_on_the_compromise_effect.pdf",
+       "published_date": "unknown",
+       "quote": "The compromise effect denotes the finding that brands gain share when they become the intermediate rather than an extreme option in a choice set (Simonson 1989)."
+      },
+      {
+       "url": "https://cognition.aau.at/bg/BA/Simon%20&%20tversky,%201992.pdf",
+       "published_date": "1992",
+       "quote": "To explain the effect of context, we extend the notion of loss aversion to advantages and disadvantages that are de[fined relative to other options]"
+      }
+     ]
+    },
+    "text_hash": "01cdd101e54759f288e00d78216c4859e834bb0c",
+    "at": "2026-11-14T11:32:51.040432+00:00"
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Could not verify: 'In typical three-tier pricing, the top 'Pro' tier costs almost double the middle tier.'. Cut it, or state it only if a source says it."
+   ]
+  },
+  {
+   "attempt": 4,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "Previous note settled: the unsourced line about the top tier costing 'almost double' the middle tier is gone, and no slide now states a price gap as fact.",
+     "Slide 8: keep the figure tied to its source wording. Change 'iPhone 18 Pro sales in India jumped around 28% over last year' to 'iPhone 18 Pro series sales in India rose an estimated 28% over last year, in the first three weeks after launch'. The source says 'Pro series' and 'estimated'."
+    ]
+   }
+  },
+  {
+   "attempt": 4,
+   "varun": {
+    "pass": false,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 3",
+      "line": "Every app and gadget now comes in three tiers.",
+      "why": "generic, restates slide 2's opener",
+      "try": "Same three cards, everywhere."
+     },
+     {
+      "where": "slide 8",
+      "line": "iPhone 18 Pro sales in India jumped around 28% over last year in the first three weeks.",
+      "why": "stiff news-report phrasing, fact as hero",
+      "try": "iPhone 18 Pro sales in India are up around 28% on last year, and it's been three weeks."
+     }
+    ],
+    "best": "On its own, ₹280 for a coffee is a lot. Next to ₹340, it feels like self-control."
+   }
+  },
+  {
+   "attempt": 4,
+   "problems": [
+    "Not Varun (slide 3): 'Every app and gadget now comes in three tiers.' reads as generic, restates slide 2's opener. Say it the way he would, e.g. 'Same three cards, everywhere.' (his register, your words, same facts).",
+    "Not Varun (slide 8): 'iPhone 18 Pro sales in India jumped around 28% over last year in the first three weeks.' reads as stiff news-report phrasing, fact as hero. Say it the way he would, e.g. 'iPhone 18 Pro sales in India are up around 28% on last year, and it's been three weeks.' (his register, your words, same facts)."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-14T11:33:29.755735+00:00",
+ "sources": [
+  {
+   "url": "https://www.businesstoday.in/technology/news/story/high-prices-not-a-downer-iphone-18-pro-series-demand-surges-in-india-despite-premium-tag-556643-2026-09-19",
+   "fact": "Counterpoint's Tarun Pathak said early store checks show demand for Apple's Pro iPhones in India is up despite higher prices. This contradicts the idea that the top tier barely sells.",
+   "excerpt": "\"Higher price, at least for Pro, is not impacting sales.\" \"From our early store checks, the demand is up in double digits, from 15-28%.\" Pathak added that normally in their research, approximately 66% of Apple sales in India are EMI-based.",
+   "date": "2026-09-19"
+  },
+  {
+   "url": "https://businesstoday.in/technology/news/story/iphone-18-pro-beats-iphone-17-pro-in-global-sales-as-india-demand-jumps-28-yoy-report-564971-2026-11-01",
+   "fact": "Counterpoint data show Pro-line iPhones selling strongly. In India, iPhone 18 Pro series sales rose an estimated 28% year on year in the first three weeks, and the Pro Max made up 56% of Pro-series sales.",
+   "excerpt": "the larger iPhone 18 Pro Max accounted for 56% of sales. Sales in India rose an estimated 28% year over year (YoY) in the first three weeks after launch. The iPhone 18 Pro starts at an official MRP of ₹1,64,900.",
+   "date": "2026-11-01"
+  }
+ ],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] The Pro plan sells, and makes the [middle plan] look smart\nYou skipped the expensive one and felt clever about it.\n \n\n[slide 1] The 'Pro' plan does sell. But its other job is making the middle one look like a smart buy.\n\n[slide 2] Every pricing page is the same three cards. Basic looks thin, Pro costs almost double, and the middle one has a little 'Most Popular' ribbon.\nYou pick it in under a minute and feel good for not overspending.\n\n[slide 3] Every app and gadget now comes in three tiers. The OTT app has Mobile, Standard and Premium.\nAt the café, the small latte is ₹220 and the large is ₹340, so ₹280 for the medium feels fair.\n\n[slide 4] At the AC showroom, the salesman shows you the costliest model first. Then he says 'value for money' and walks you two steps left.\n\n[slide 5] The top option is a real product. Some people want the most and will happily pay for it.\nBut it has a second job. It stands there looking expensive, so the price next to it feels sensible.\n\n[slide 6] On its own, ₹280 for a coffee is a lot. Next to ₹340, it feels like self-control.\n\n[slide 7] Three tiers sort you by how much you'll pay. The careful guy takes Basic, whoever wants everything takes Pro.\nMost of us drift to the middle, because it's the easiest place to stand. It has a name: the compromise effect.\n\n[slide 8] The Pro isn't a prop. iPhone 18 Pro sales in India jumped around 28% over last year in the first three weeks.\nSo the brand wins twice. The Pro crowd pays top price. Everyone else buys the middle and feels sensible.\n\n[slide 9] You're not dumb for this. You compared all three, so it feels like homework done.\nBasic feels cheap, Pro feels like showing off. So you go middle, and nobody can say anything. That's the part you're really paying for.\n\n[slide 10] \"Medium hi le lete hain, sensible hai.\"\nYou say it like it was your idea. The pricing page was counting on it.\n\n[end card] Come back to this the next time a pricing page shows you three cards.\nSend to the friend who just upgraded to the 'smart middle plan' and told everyone about it.\n\n[caption] On any pricing page, the costliest plan is there so the middle one feels like your own smart idea.\n\nBasic feels cheap, Pro feels like showing off, so the middle feels safe. That safe feeling is what you're paying for.\n\nSend this to the friend who just upgraded to the 'smart middle plan' and told everyone how sensible it was.\n\n[alt text] A ten-slide text post arguing that the expensive 'Pro' tier in three-tier pricing is a real product that sells, but also makes the middle option look sensible. It uses everyday examples such as pricing pages with a 'Most Popular' ribbon, OTT plans, café coffee sizes and AC showrooms. It explains that three tiers sort buyers by how much they will pay, and that most people drift to the middle, a pull called the compromise effect. It notes that iPhone 18 Pro sales in India rose around 28% over last year in the first three weeks, so the brand wins on both the top and the middle. It says picking the middle feels safe because nobody can call you cheap or a show-off, and ends with the line people say, 'Medium hi le lete hain, sensible hai,' noting the pricing page was counting on it.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Streaming (OTT) apps sell plans in three tiers named Mobile, Standard and Premium.",
+     "sentence": "The OTT app has Mobile, Standard and Premium.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "Pricing pages commonly present three plan cards (Basic, Pro and a middle plan), with the middle one carrying a 'Most Popular' ribbon.",
+     "sentence": "Every pricing page is the same three cards. Basic looks thin, Pro costs almost double, and the middle one has a little 'Most Popular' ribbon.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c3",
+     "text": "In typical three-tier pricing, the top 'Pro' tier costs almost double the middle tier.",
+     "sentence": "Pro costs almost double",
+     "type": "figure",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c4",
+     "text": "The top-tier product is a real product that sells, bought by people who want the most and will pay for it.",
+     "sentence": "The top option is a real product. Some people want the most and will happily pay for it.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c5",
+     "text": "Three-tier pricing sorts buyers by how much they are willing to pay: price-careful buyers take Basic and those wanting everything take Pro.",
+     "sentence": "Three tiers sort you by how much you'll pay. The careful guy takes Basic, whoever wants everything takes Pro.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c6",
+     "text": "Most buyers drift to the middle tier of three options.",
+     "sentence": "Most of us drift to the middle, because it's the easiest place to stand.",
+     "type": "figure",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c7",
+     "text": "The tendency to choose the middle option is known as the compromise effect.",
+     "sentence": "It has a name: the compromise effect.",
+     "type": "entity_attribute",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c8",
+     "text": "iPhone 18 Pro sales in India rose around 28% over the previous year in the first three weeks.",
+     "sentence": "iPhone 18 Pro sales in India jumped around 28% over last year in the first three weeks.",
+     "type": "figure",
+     "core": false,
+     "framed_as": "past"
+    },
+    {
+     "id": "c9",
+     "text": "Apple's iPhone 18 Pro is sold at the top price tier and the brand also sells middle-tier models to everyone else, so it earns from both.",
+     "sentence": "So the brand wins twice. The Pro crowd pays top price. Everyone else buys the middle and feels sensible.",
+     "type": "entity_attribute",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c10",
+     "text": "Companies include a costly top tier so that the middle tier looks sensible and buyers pick it. Premises: the top tier is a real product that sells; its high price sits next to the middle option and makes it feel reasonable; buyers sorted into three tiers tend to pick the middle (compromise effect). Conclusion: the costliest plan's job is partly to steer buyers to the middle plan.",
+     "sentence": "On any pricing page, the costliest plan is there so the middle one feels like your own smart idea.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "Streaming (OTT) apps sell plans in three tiers named Mobile, Standard and Premium.": {
+   "id": "c1",
+   "verdict": "supported",
+   "correct": "Tiered plans are common, but the names vary. Netflix India has Mobile, Basic, Standard and Premium, which is four tiers, not three. JioHotstar uses Mobile, Super and Premium. I couldn't confirm Netflix's current India plan list on its own page.",
+   "sources": [
+    {
+     "url": "https://www.deccanherald.com/technology/jiohotstar-brings-new-subscription-plans-starting-at-rs-79-in-india-3868719",
+     "publisher": "Deccan Herald",
+     "published_date": "2026-01-19",
+     "quote": "Mobile – Monthly – Rs 79",
+     "tier": 2
+    }
+   ]
+  },
+  "Putting a pricier option next to a mid-priced one to make the mid-priced one look better is called decoy pricing.": {
+   "id": "c3",
+   "verdict": "supported",
+   "correct": "This is the decoy effect, also called asymmetric dominance. Huber, Payne and Puto described it in 1982.",
+   "sources": [
+    {
+     "url": "https://atticusli.com/blog/posts/compromise-effect-middle-options-tier-based-pricing/",
+     "publisher": "Atticus Li",
+     "published_date": "2025-01-01",
+     "quote": "Most popular or recommended badges further amplify the effect by providing social proof that validates the user's emerging preference for the middle option.",
+     "tier": 3
+    }
+   ]
+  },
+  "iPhone 18 Pro sales in India rose an estimated 28% in the first three weeks after launch.": {
+   "id": "c5",
+   "verdict": "supported",
+   "event_date": "2026-11-01",
+   "correct": "Counterpoint Research estimated India iPhone 18 Pro sales rose 28% year on year in the first three weeks after launch. Apple hasn't published unit sales, so this is a third-party estimate. Business Today's report is dated 2026-11-01. I did not check for an earlier report.",
+   "sources": [
+    {
+     "url": "https://businesstoday.in/technology/news/story/iphone-18-pro-beats-iphone-17-pro-in-global-sales-as-india-demand-jumps-28-yoy-report-564971-2026-11-01",
+     "publisher": "Business Today",
+     "published_date": "2026-11-01",
+     "quote": "sales rising an estimated 28% year over year (YoY) in the first three weeks after launch.",
+     "tier": 2
+    }
+   ]
+  },
+  "The 'Most Popular' ribbon on pricing cards is placed on the middle plan in advance, before any user clicks, rather than reflecting actual user choices.": {
+   "id": "c6",
+   "verdict": "unverifiable",
+   "correct": "Sources describe the 'Most Popular' badge as a social-proof device placed on the target plan. None I found states that it is placed in advance rather than driven by live user choices. That is likely true as a general design practice, but I couldn't confirm it.",
+   "sources": [
+    {
+     "url": "https://atticusli.com/blog/posts/compromise-effect-middle-options-tier-based-pricing/",
+     "publisher": "Atticus Li",
+     "published_date": "2025-01-01",
+     "quote": "Most popular or recommended badges further amplify the effect by providing social proof",
+     "tier": 3
+    }
+   ]
+  },
+  "_skeptic": {
+   "11f218deec69e576ed09dbb9e91c722f4ac1a119": {
+    "holds": false,
+    "broken_premise": "Premise 1 fails. It says the top 'Pro' tier is there mainly to make the middle plan look sensible, 'not so that people will buy it'. That misdescribes how tiered pricing works. In the research, a true decoy is an asymmetrically dominated option: it is worse than the target on everything, and almost nobody picks it (about 2% in Huber, Payne & Puto's studies). A Pro tier is not like that. It gives more for more money, and it is designed to be sold to buyers who are willing to pay more. This is called versioning, a form of second-degree price discrimination. The post's own iPhone example confirms the claim it relies on: Counterpoint estimates iPhone 18 Pro sales in India rose 28% year over year in the first three weeks. That shows the top tier is a real revenue line, not just a prop. Premise 2, that the page is built around the middle card where most of the money is made, is partly true. Firms do try to steer most buyers to the middle. But the post gives no evidence that the middle tier makes the most money, and the top tier usually earns the most per customer.",
+    "actual_mechanism": "Firms use three tiers (Varian's 'Goldilocks pricing') to sort customers by how much they will pay. Price-sensitive buyers take Basic, most people take the middle, and buyers who want the most pay the high Pro price. The firm wants every tier to sell. On top of that, the compromise effect (Simonson, 1989) and extremeness aversion mean a middle option wins more share just by being in the middle, and a high price nearby acts as an anchor. So the top tier does make the middle look better, but that is a side benefit of a product the firm fully expects to sell, not the reason it exists.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.businesstoday.in/technology/news/story/iphone-18-pro-beats-iphone-17-pro-in-global-sales-as-india-demand-jumps-28-yoy-report-564971-2026-11-01",
+      "published_date": "2026-11-01",
+      "quote": "an estimated 28% year over year (YoY) in the first three weeks after launch"
+     },
+     {
+      "url": "https://saylordotorg.github.io/text_developing-new-products-and-services/s05-03-second-degree-price-discrimina.html",
+      "published_date": "unknown",
+      "quote": "always offer at least three different versions of a product; that is, a high-end version, a middle range version, and a low-end version. Varian refers to this type of price discrimination as Goldilocks pricing."
+     },
+     {
+      "url": "https://store.hbr.org/product/versioning-the-smart-way-to-sell-information/98610",
+      "published_date": "1998",
+      "quote": "The best way to escape that fate, the authors say, is to create different versions of the same core of information"
+     },
+     {
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/AD7D4AC1095EAF7FDCBDEF78BF5932A0/S193029750000303Xa.pdf/effect_of_incomplete_information_on_the_compromise_effect.pdf",
+      "published_date": "unknown",
+      "quote": "a brand's market share will be greater when it is the middle option in a choice set and will be smaller when it is the extreme option"
+     },
+     {
+      "url": "https://thedecisionlab.com/reference-guide/psychology/asymmetrically-dominated-choice",
+      "published_date": "unknown",
+      "quote": "inferior in all respects to one option; but, in comparison to the other option, it is inferior in some respects and superior in others"
+     },
+     {
+      "url": "https://www.cgs.iitk.ac.in/user/tapasr/docs/Frontiers_Accepted.pdf",
+      "published_date": "unknown",
+      "quote": "the average choice proportions of the decoy option were limited to approximately 2%"
+     }
+    ]
+   },
+   "1c530bc56b5973b67a6e125569adc56bde9dd038": {
+    "holds": true,
+    "broken_premise": "None fails. The 28% India figure checks out: Counterpoint estimated it for the first three weeks after launch. One nuance is that it covers the whole Pro series (18 Pro and Pro Max together), and Counterpoint says India's growth leaned toward the standard 18 Pro rather than the pricier Pro Max. It is also a third-party estimate, because Apple has not disclosed unit sales. This sharpens the claim rather than breaking it. The compromise effect is a real, named finding (Simonson 1989), and the post presents it as a tendency, not a rule.",
+    "actual_mechanism": "When an option sits in the middle of a set, it gains share. Its disadvantages look smaller against both ends, and it is the easiest choice to defend to others (Simonson 1989 calls this extremeness aversion and reason-based choice; Simonson & Tversky 1992 expand on it). Tiered pricing does two things at once: it sorts buyers by how much they are willing to pay, and it uses the premium tier as a real, profitable product that also makes the next tier down look reasonable. The Pro data fits this. Pro-series sales grew while buyers in India picked the 18 Pro over the costlier Pro Max, which is the compromise effect at work inside Apple's own lineup.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.businesstoday.in/technology/news/story/iphone-18-pro-beats-iphone-17-pro-in-global-sales-as-india-demand-jumps-28-yoy-report-564971-2026-11-01",
+      "published_date": "2026-11-01",
+      "quote": "an estimated 28% year over year (YoY)... skewed toward the standard iPhone 18 Pro rather than the larger and more expensive Pro Max"
+     },
+     {
+      "url": "https://www.investing.com/news/economy-news/initial-global-sales-of-apple-iphone-18-pro-higher-than-17-series--counterpoint-research-4974514",
+      "published_date": "2026-11",
+      "quote": "Counterpoint: global iPhone 18 Pro series sales in the first three weeks were 3.1% higher than the iPhone 17 Pro series, with strong performance in China and India"
+     },
+     {
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/AD7D4AC1095EAF7FDCBDEF78BF5932A0/S193029750000303Xa.pdf/effect_of_incomplete_information_on_the_compromise_effect.pdf",
+      "published_date": "unknown",
+      "quote": "The compromise effect denotes the finding that brands gain share when they become the intermediate rather than an extreme option in a choice set (Simonson 1989)."
+     },
+     {
+      "url": "https://cognition.aau.at/bg/BA/Simon%20&%20tversky,%201992.pdf",
+      "published_date": "1992",
+      "quote": "To explain the effect of context, we extend the notion of loss aversion to advantages and disadvantages that are de[fined relative to other options]"
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "bc73b643278d51c8f28c6aa70b384fe85d5dfefa": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "The take's premise is wrong: Premise 1 fails. It says the top 'Pro' tier is there mainly to make the middle plan look sensible, 'not so that people will buy it'. That misdescribes how tiered pricing works. In the research, a true decoy is an asymmetrically dominated option: it is worse than the target on everything, and almost nobody picks it (about 2% in Huber, Payne & Puto's studies). A Pro tier is not like that. It gives more for more money, and it is designed to be sold to buyers who are willing to pay more. This is called versioning, a form of second-degree price discrimination. The post's own iPhone example confirms the claim it relies on: Counterpoint estimates iPhone 18 Pro sales in India rose 28% year over year in the first three weeks. That shows the top tier is a real revenue line, not just a prop. Premise 2, that the page is built around the middle card where most of the money is made, is partly true. Firms do try to steer most buyers to the middle. But the post gives no evidence that the middle tier makes the most money, and the top tier usually earns the most per customer.. How it actually works: Firms use three tiers (Varian's 'Goldilocks pricing') to sort customers by how much they will pay. Price-sensitive buyers take Basic, most people take the middle, and buyers who want the most pay the high Pro price. The firm wants every tier to sell. On top of that, the compromise effect (Simonson, 1989) and extremeness aversion mean a middle option wins more share just by being in the middle, and a high price nearby acts as an anchor. So the top tier does make the middle look better, but that is a side benefit of a product the firm fully expects to sell, not the reason it exists. Rebuild the post on the correct mechanism.",
+     "Could not verify: 'The 'Most Popular' ribbon on pricing cards is placed on the middle plan in advance, before any user clicks, rather than reflecting actual user choices.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Streaming (OTT) apps sell plans in three tiers named Mobile, Standard and Premium.",
+      "sentence": "The OTT app has Mobile, Standard and Premium.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "The top-tier 'Pro' plan is placed on pricing pages mainly so the middle plan looks like a sensible buy, not so that people will buy it.",
+      "sentence": "That top option isn't there for you to buy. Its job is to stand there looking expensive, so the price next to it feels sensible.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Putting a pricier option next to a mid-priced one to make the mid-priced one look better is called decoy pricing.",
+      "sentence": "It's called decoy pricing.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Three-tier pricing pages are designed around the middle card, which is where the brand wants most buyers to land and where it makes most of its money.",
+      "sentence": "Anyone who has worked on a pricing page knows the plan is built around the middle card. That's where the brand wants most people, and where it makes its money.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "iPhone 18 Pro sales in India rose an estimated 28% in the first three weeks after launch.",
+      "sentence": "iPhone 18 Pro sales in India rose an estimated 28% in the first three weeks.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c6",
+      "text": "The 'Most Popular' ribbon on pricing cards is placed on the middle plan in advance, before any user clicks, rather than reflecting actual user choices.",
+      "sentence": "That 'Most Popular' ribbon was put on the card before you ever clicked.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "correct": "Tiered plans are common, but the names vary. Netflix India has Mobile, Basic, Standard and Premium, which is four tiers, not three. JioHotstar uses Mobile, Super and Premium. I couldn't confirm Netflix's current India plan list on its own page.",
+      "sources": [
+       {
+        "url": "https://www.deccanherald.com/technology/jiohotstar-brings-new-subscription-plans-starting-at-rs-79-in-india-3868719",
+        "publisher": "Deccan Herald",
+        "published_date": "2026-01-19",
+        "quote": "Mobile – Monthly – Rs 79",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "correct": "This is the decoy effect, also called asymmetric dominance. Huber, Payne and Puto described it in 1982.",
+      "sources": [
+       {
+        "url": "https://atticusli.com/blog/posts/compromise-effect-middle-options-tier-based-pricing/",
+        "publisher": "Atticus Li",
+        "published_date": "2025-01-01",
+        "quote": "Most popular or recommended badges further amplify the effect by providing social proof that validates the user's emerging preference for the middle option.",
+        "tier": 3
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "supported",
+      "event_date": "2026-11-01",
+      "correct": "Counterpoint Research estimated India iPhone 18 Pro sales rose 28% year on year in the first three weeks after launch. Apple hasn't published unit sales, so this is a third-party estimate. Business Today's report is dated 2026-11-01. I did not check for an earlier report.",
+      "sources": [
+       {
+        "url": "https://businesstoday.in/technology/news/story/iphone-18-pro-beats-iphone-17-pro-in-global-sales-as-india-demand-jumps-28-yoy-report-564971-2026-11-01",
+        "publisher": "Business Today",
+        "published_date": "2026-11-01",
+        "quote": "sales rising an estimated 28% year over year (YoY) in the first three weeks after launch.",
+        "tier": 2
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "unverifiable",
+      "correct": "Sources describe the 'Most Popular' badge as a social-proof device placed on the target plan. None I found states that it is placed in advance rather than driven by live user choices. That is likely true as a general design practice, but I couldn't confirm it.",
+      "sources": [
+       {
+        "url": "https://atticusli.com/blog/posts/compromise-effect-middle-options-tier-based-pricing/",
+        "publisher": "Atticus Li",
+        "published_date": "2025-01-01",
+        "quote": "Most popular or recommended badges further amplify the effect by providing social proof",
+        "tier": 3
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "Premise 1 fails. It says the top 'Pro' tier is there mainly to make the middle plan look sensible, 'not so that people will buy it'. That misdescribes how tiered pricing works. In the research, a true decoy is an asymmetrically dominated option: it is worse than the target on everything, and almost nobody picks it (about 2% in Huber, Payne & Puto's studies). A Pro tier is not like that. It gives more for more money, and it is designed to be sold to buyers who are willing to pay more. This is called versioning, a form of second-degree price discrimination. The post's own iPhone example confirms the claim it relies on: Counterpoint estimates iPhone 18 Pro sales in India rose 28% year over year in the first three weeks. That shows the top tier is a real revenue line, not just a prop. Premise 2, that the page is built around the middle card where most of the money is made, is partly true. Firms do try to steer most buyers to the middle. But the post gives no evidence that the middle tier makes the most money, and the top tier usually earns the most per customer.",
+     "actual_mechanism": "Firms use three tiers (Varian's 'Goldilocks pricing') to sort customers by how much they will pay. Price-sensitive buyers take Basic, most people take the middle, and buyers who want the most pay the high Pro price. The firm wants every tier to sell. On top of that, the compromise effect (Simonson, 1989) and extremeness aversion mean a middle option wins more share just by being in the middle, and a high price nearby acts as an anchor. So the top tier does make the middle look better, but that is a side benefit of a product the firm fully expects to sell, not the reason it exists.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.businesstoday.in/technology/news/story/iphone-18-pro-beats-iphone-17-pro-in-global-sales-as-india-demand-jumps-28-yoy-report-564971-2026-11-01",
+       "published_date": "2026-11-01",
+       "quote": "an estimated 28% year over year (YoY) in the first three weeks after launch"
+      },
+      {
+       "url": "https://saylordotorg.github.io/text_developing-new-products-and-services/s05-03-second-degree-price-discrimina.html",
+       "published_date": "unknown",
+       "quote": "always offer at least three different versions of a product; that is, a high-end version, a middle range version, and a low-end version. Varian refers to this type of price discrimination as Goldilocks pricing."
+      },
+      {
+       "url": "https://store.hbr.org/product/versioning-the-smart-way-to-sell-information/98610",
+       "published_date": "1998",
+       "quote": "The best way to escape that fate, the authors say, is to create different versions of the same core of information"
+      },
+      {
+       "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/AD7D4AC1095EAF7FDCBDEF78BF5932A0/S193029750000303Xa.pdf/effect_of_incomplete_information_on_the_compromise_effect.pdf",
+       "published_date": "unknown",
+       "quote": "a brand's market share will be greater when it is the middle option in a choice set and will be smaller when it is the extreme option"
+      },
+      {
+       "url": "https://thedecisionlab.com/reference-guide/psychology/asymmetrically-dominated-choice",
+       "published_date": "unknown",
+       "quote": "inferior in all respects to one option; but, in comparison to the other option, it is inferior in some respects and superior in others"
+      },
+      {
+       "url": "https://www.cgs.iitk.ac.in/user/tapasr/docs/Frontiers_Accepted.pdf",
+       "published_date": "unknown",
+       "quote": "the average choice proportions of the decoy option were limited to approximately 2%"
+      }
+     ]
+    },
+    "text_hash": "bc73b643278d51c8f28c6aa70b384fe85d5dfefa",
+    "at": "2026-11-14T11:29:42.057776+00:00"
+   },
+   "01cdd101e54759f288e00d78216c4859e834bb0c": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not verify: 'In typical three-tier pricing, the top 'Pro' tier costs almost double the middle tier.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Streaming (OTT) apps sell plans in three tiers named Mobile, Standard and Premium.",
+      "sentence": "The OTT app has Mobile, Standard and Premium.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Pricing pages commonly present three plan cards (Basic, Pro and a middle plan), with the middle one carrying a 'Most Popular' ribbon.",
+      "sentence": "Every pricing page is the same three cards. Basic looks thin, Pro costs almost double, and the middle one has a little 'Most Popular' ribbon.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "In typical three-tier pricing, the top 'Pro' tier costs almost double the middle tier.",
+      "sentence": "Pro costs almost double",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "The top-tier product is a real product that sells, bought by people who want the most and will pay for it.",
+      "sentence": "The top option is a real product. Some people want the most and will happily pay for it.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Three-tier pricing sorts buyers by how much they are willing to pay: price-careful buyers take Basic and those wanting everything take Pro.",
+      "sentence": "Three tiers sort you by how much you'll pay. The careful guy takes Basic, whoever wants everything takes Pro.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Most buyers drift to the middle tier of three options.",
+      "sentence": "Most of us drift to the middle, because it's the easiest place to stand.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "The tendency to choose the middle option is known as the compromise effect.",
+      "sentence": "It has a name: the compromise effect.",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c8",
+      "text": "iPhone 18 Pro sales in India rose around 28% over the previous year in the first three weeks.",
+      "sentence": "iPhone 18 Pro sales in India jumped around 28% over last year in the first three weeks.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c9",
+      "text": "Apple's iPhone 18 Pro is sold at the top price tier and the brand also sells middle-tier models to everyone else, so it earns from both.",
+      "sentence": "So the brand wins twice. The Pro crowd pays top price. Everyone else buys the middle and feels sensible.",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c10",
+      "text": "Companies include a costly top tier so that the middle tier looks sensible and buyers pick it. Premises: the top tier is a real product that sells; its high price sits next to the middle option and makes it feel reasonable; buyers sorted into three tiers tend to pick the middle (compromise effect). Conclusion: the costliest plan's job is partly to steer buyers to the middle plan.",
+      "sentence": "On any pricing page, the costliest plan is there so the middle one feels like your own smart idea.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "correct": "Tiered plans are common, but the names vary. Netflix India has Mobile, Basic, Standard and Premium, which is four tiers, not three. JioHotstar uses Mobile, Super and Premium. I couldn't confirm Netflix's current India plan list on its own page.",
+      "sources": [
+       {
+        "url": "https://www.deccanherald.com/technology/jiohotstar-brings-new-subscription-plans-starting-at-rs-79-in-india-3868719",
+        "publisher": "Deccan Herald",
+        "published_date": "2026-01-19",
+        "quote": "Mobile – Monthly – Rs 79",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "correct": "",
+      "sources": [
+       {
+        "url": "https://marketingagency.sg/decoy-effect-pricing",
+        "publisher": "marketingagency.sg",
+        "published_date": "",
+        "quote": "the middle tier often carries visual emphasis, such as a 'Most Popular' badge, a highlighted border, or a different background color",
+        "tier": 3
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "unverifiable",
+      "correct": "I found no reliable data on a typical Pro-to-middle price ratio. Ratios vary widely between products.",
+      "sources": []
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "correct": "",
+      "sources": [
+       {
+        "url": "https://businesstoday.in/technology/news/story/iphone-18-pro-beats-iphone-17-pro-in-global-sales-as-india-demand-jumps-28-yoy-report-564971-2026-11-01",
+        "publisher": "Business Today (citing Counterpoint)",
+        "published_date": "2026-11-01",
+        "quote": "iPhone 18 Pro series sales rising an estimated 28% year over year (YoY) in the first three weeks after launch",
+        "tier": 2
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "supported",
+      "correct": "",
+      "sources": [
+       {
+        "url": "https://concepts.dsebastien.net/concept/compromise-effect/",
+        "publisher": "concepts.dsebastien.net",
+        "published_date": "",
+        "quote": "the tendency for consumers to prefer middle options when presented with a set of choices ranging from low to high on key attributes",
+        "tier": 3
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "supported",
+      "correct": "The middle option is favoured as a tendency, not a rule. It does not hold in every case.",
+      "sources": [
+       {
+        "url": "https://concepts.dsebastien.net/concept/compromise-effect/",
+        "publisher": "concepts.dsebastien.net",
+        "published_date": "",
+        "quote": "the tendency for consumers to prefer middle options when presented with a set of choices ranging from low to high on key attributes",
+        "tier": 3
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "supported",
+      "correct": "The middle-option tendency is called the compromise effect. The decoy effect is a separate phenomenon.",
+      "sources": [
+       {
+        "url": "https://concepts.dsebastien.net/concept/compromise-effect/",
+        "publisher": "concepts.dsebastien.net",
+        "published_date": "",
+        "quote": "the tendency for consumers to prefer middle options",
+        "tier": 3
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "supported",
+      "event_date": "2026-11-01",
+      "correct": "",
+      "sources": [
+       {
+        "url": "https://businesstoday.in/technology/news/story/iphone-18-pro-beats-iphone-17-pro-in-global-sales-as-india-demand-jumps-28-yoy-report-564971-2026-11-01",
+        "publisher": "Business Today (citing Counterpoint)",
+        "published_date": "2026-11-01",
+        "quote": "with iPhone 18 Pro series sales rising an estimated 28% year over year (YoY) in the first three weeks after launch",
+        "tier": 2
+       }
+      ]
+     },
+     "c9": {
+      "id": "c9",
+      "verdict": "supported",
+      "correct": "The Pro Max, not the Pro, is the very top of the range. Apple sells Pro-series models at premium prices alongside lower-priced models.",
+      "sources": [
+       {
+        "url": "https://www.businesstoday.in/technology/news/story/high-prices-not-a-downer-iphone-18-pro-series-demand-surges-in-india-despite-premium-tag-556643-2026-09-19",
+        "publisher": "Business Today (citing Counterpoint)",
+        "published_date": "2026-09-19",
+        "quote": "demand for Apple's Pro iPhones in India is up despite higher prices",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None fails. The 28% India figure checks out: Counterpoint estimated it for the first three weeks after launch. One nuance is that it covers the whole Pro series (18 Pro and Pro Max together), and Counterpoint says India's growth leaned toward the standard 18 Pro rather than the pricier Pro Max. It is also a third-party estimate, because Apple has not disclosed unit sales. This sharpens the claim rather than breaking it. The compromise effect is a real, named finding (Simonson 1989), and the post presents it as a tendency, not a rule.",
+     "actual_mechanism": "When an option sits in the middle of a set, it gains share. Its disadvantages look smaller against both ends, and it is the easiest choice to defend to others (Simonson 1989 calls this extremeness aversion and reason-based choice; Simonson & Tversky 1992 expand on it). Tiered pricing does two things at once: it sorts buyers by how much they are willing to pay, and it uses the premium tier as a real, profitable product that also makes the next tier down look reasonable. The Pro data fits this. Pro-series sales grew while buyers in India picked the 18 Pro over the costlier Pro Max, which is the compromise effect at work inside Apple's own lineup.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.businesstoday.in/technology/news/story/iphone-18-pro-beats-iphone-17-pro-in-global-sales-as-india-demand-jumps-28-yoy-report-564971-2026-11-01",
+       "published_date": "2026-11-01",
+       "quote": "an estimated 28% year over year (YoY)... skewed toward the standard iPhone 18 Pro rather than the larger and more expensive Pro Max"
+      },
+      {
+       "url": "https://www.investing.com/news/economy-news/initial-global-sales-of-apple-iphone-18-pro-higher-than-17-series--counterpoint-research-4974514",
+       "published_date": "2026-11",
+       "quote": "Counterpoint: global iPhone 18 Pro series sales in the first three weeks were 3.1% higher than the iPhone 17 Pro series, with strong performance in China and India"
+      },
+      {
+       "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/AD7D4AC1095EAF7FDCBDEF78BF5932A0/S193029750000303Xa.pdf/effect_of_incomplete_information_on_the_compromise_effect.pdf",
+       "published_date": "unknown",
+       "quote": "The compromise effect denotes the finding that brands gain share when they become the intermediate rather than an extreme option in a choice set (Simonson 1989)."
+      },
+      {
+       "url": "https://cognition.aau.at/bg/BA/Simon%20&%20tversky,%201992.pdf",
+       "published_date": "1992",
+       "quote": "To explain the effect of context, we extend the notion of loss aversion to advantages and disadvantages that are de[fined relative to other options]"
+      }
+     ]
+    },
+    "text_hash": "01cdd101e54759f288e00d78216c4859e834bb0c",
+    "at": "2026-11-14T11:32:51.040432+00:00"
+   }
+  },
+  "Pricing pages commonly present three plan cards (Basic, Pro and a middle plan), with the middle one carrying a 'Most Popular' ribbon.": {
+   "id": "c2",
+   "verdict": "supported",
+   "correct": "",
+   "sources": [
+    {
+     "url": "https://marketingagency.sg/decoy-effect-pricing",
+     "publisher": "marketingagency.sg",
+     "published_date": "",
+     "quote": "the middle tier often carries visual emphasis, such as a 'Most Popular' badge, a highlighted border, or a different background color",
+     "tier": 3
+    }
+   ]
+  },
+  "In typical three-tier pricing, the top 'Pro' tier costs almost double the middle tier.": {
+   "id": "c3",
+   "verdict": "unverifiable",
+   "correct": "I found no reliable data on a typical Pro-to-middle price ratio. Ratios vary widely between products.",
+   "sources": []
+  },
+  "The top-tier product is a real product that sells, bought by people who want the most and will pay for it.": {
+   "id": "c4",
+   "verdict": "supported",
+   "correct": "",
+   "sources": [
+    {
+     "url": "https://businesstoday.in/technology/news/story/iphone-18-pro-beats-iphone-17-pro-in-global-sales-as-india-demand-jumps-28-yoy-report-564971-2026-11-01",
+     "publisher": "Business Today (citing Counterpoint)",
+     "published_date": "2026-11-01",
+     "quote": "iPhone 18 Pro series sales rising an estimated 28% year over year (YoY) in the first three weeks after launch",
+     "tier": 2
+    }
+   ]
+  },
+  "Three-tier pricing sorts buyers by how much they are willing to pay: price-careful buyers take Basic and those wanting everything take Pro.": {
+   "id": "c5",
+   "verdict": "supported",
+   "correct": "",
+   "sources": [
+    {
+     "url": "https://concepts.dsebastien.net/concept/compromise-effect/",
+     "publisher": "concepts.dsebastien.net",
+     "published_date": "",
+     "quote": "the tendency for consumers to prefer middle options when presented with a set of choices ranging from low to high on key attributes",
+     "tier": 3
+    }
+   ]
+  },
+  "Most buyers drift to the middle tier of three options.": {
+   "id": "c6",
+   "verdict": "supported",
+   "correct": "The middle option is favoured as a tendency, not a rule. It does not hold in every case.",
+   "sources": [
+    {
+     "url": "https://concepts.dsebastien.net/concept/compromise-effect/",
+     "publisher": "concepts.dsebastien.net",
+     "published_date": "",
+     "quote": "the tendency for consumers to prefer middle options when presented with a set of choices ranging from low to high on key attributes",
+     "tier": 3
+    }
+   ]
+  },
+  "The tendency to choose the middle option is known as the compromise effect.": {
+   "id": "c7",
+   "verdict": "supported",
+   "correct": "The middle-option tendency is called the compromise effect. The decoy effect is a separate phenomenon.",
+   "sources": [
+    {
+     "url": "https://concepts.dsebastien.net/concept/compromise-effect/",
+     "publisher": "concepts.dsebastien.net",
+     "published_date": "",
+     "quote": "the tendency for consumers to prefer middle options",
+     "tier": 3
+    }
+   ]
+  },
+  "iPhone 18 Pro sales in India rose around 28% over the previous year in the first three weeks.": {
+   "id": "c8",
+   "verdict": "supported",
+   "event_date": "2026-11-01",
+   "correct": "",
+   "sources": [
+    {
+     "url": "https://businesstoday.in/technology/news/story/iphone-18-pro-beats-iphone-17-pro-in-global-sales-as-india-demand-jumps-28-yoy-report-564971-2026-11-01",
+     "publisher": "Business Today (citing Counterpoint)",
+     "published_date": "2026-11-01",
+     "quote": "with iPhone 18 Pro series sales rising an estimated 28% year over year (YoY) in the first three weeks after launch",
+     "tier": 2
+    }
+   ]
+  },
+  "Apple's iPhone 18 Pro is sold at the top price tier and the brand also sells middle-tier models to everyone else, so it earns from both.": {
+   "id": "c9",
+   "verdict": "supported",
+   "correct": "The Pro Max, not the Pro, is the very top of the range. Apple sells Pro-series models at premium prices alongside lower-priced models.",
+   "sources": [
+    {
+     "url": "https://www.businesstoday.in/technology/news/story/high-prices-not-a-downer-iphone-18-pro-series-demand-surges-in-india-despite-premium-tag-556643-2026-09-19",
+     "publisher": "Business Today (citing Counterpoint)",
+     "published_date": "2026-09-19",
+     "quote": "demand for Apple's Pro iPhones in India is up despite higher prices",
+     "tier": 2
+    }
+   ]
+  },
+  "_skeptic_take": {
+   "4e7d1e136e7763242eebf052efa84af53040c01e": {
+    "holds": true,
+    "broken_premise": "None fails. The 28% India figure checks out: Counterpoint estimated it for the first three weeks after launch. One nuance is that it covers the whole Pro series (18 Pro and Pro Max together), and Counterpoint says India's growth leaned toward the standard 18 Pro rather than the pricier Pro Max. It is also a third-party estimate, because Apple has not disclosed unit sales. This sharpens the claim rather than breaking it. The compromise effect is a real, named finding (Simonson 1989), and the post presents it as a tendency, not a rule.",
+    "actual_mechanism": "When an option sits in the middle of a set, it gains share. Its disadvantages look smaller against both ends, and it is the easiest choice to defend to others (Simonson 1989 calls this extremeness aversion and reason-based choice; Simonson & Tversky 1992 expand on it). Tiered pricing does two things at once: it sorts buyers by how much they are willing to pay, and it uses the premium tier as a real, profitable product that also makes the next tier down look reasonable. The Pro data fits this. Pro-series sales grew while buyers in India picked the 18 Pro over the costlier Pro Max, which is the compromise effect at work inside Apple's own lineup.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.businesstoday.in/technology/news/story/iphone-18-pro-beats-iphone-17-pro-in-global-sales-as-india-demand-jumps-28-yoy-report-564971-2026-11-01",
+      "published_date": "2026-11-01",
+      "quote": "an estimated 28% year over year (YoY)... skewed toward the standard iPhone 18 Pro rather than the larger and more expensive Pro Max"
+     },
+     {
+      "url": "https://www.investing.com/news/economy-news/initial-global-sales-of-apple-iphone-18-pro-higher-than-17-series--counterpoint-research-4974514",
+      "published_date": "2026-11",
+      "quote": "Counterpoint: global iPhone 18 Pro series sales in the first three weeks were 3.1% higher than the iPhone 17 Pro series, with strong performance in China and India"
+     },
+     {
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/AD7D4AC1095EAF7FDCBDEF78BF5932A0/S193029750000303Xa.pdf/effect_of_incomplete_information_on_the_compromise_effect.pdf",
+      "published_date": "unknown",
+      "quote": "The compromise effect denotes the finding that brands gain share when they become the intermediate rather than an extreme option in a choice set (Simonson 1989)."
+     },
+     {
+      "url": "https://cognition.aau.at/bg/BA/Simon%20&%20tversky,%201992.pdf",
+      "published_date": "1992",
+      "quote": "To explain the effect of context, we extend the notion of loss aversion to advantages and disadvantages that are de[fined relative to other options]"
+     }
+    ]
+   }
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "The Pro plan sells, and makes the [middle plan] look smart",
+   "sub": "You skipped the expensive one and felt clever about it."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "The 'Pro' plan does sell. But its other job is making the middle one look like a smart buy."
+    ],
+    "why_swipe": "Wait, what's wrong with the middle plan?"
+   },
+   {
+    "paragraphs": [
+     "Every pricing page is the same three cards. Basic looks thin, Pro looks expensive, and the middle one has a little 'Most Popular' ribbon.",
+     "You pick it in under a minute and feel good for not overspending."
+    ],
+    "why_swipe": "Is this just apps, or everywhere?"
+   },
+   {
+    "paragraphs": [
+     "Every app and gadget now comes in three tiers. The OTT app has Mobile, Standard and Premium.",
+     "At the café, the small latte is ₹220 and the large is ₹340, so ₹280 for the medium feels fair."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "At the AC showroom, the salesman shows you the costliest model first. Then he says 'value for money' and walks you two steps left."
+    ],
+    "why_swipe": "Why does the top one even exist?"
+   },
+   {
+    "paragraphs": [
+     "The top option is a real product. Some people want the most and will happily pay for it.",
+     "But it has a second job. It stands there looking expensive, so the price next to it feels sensible."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "On its own, ₹280 for a coffee is a lot. Next to ₹340, it feels like self-control."
+    ],
+    "why_swipe": "Does this have a name?"
+   },
+   {
+    "paragraphs": [
+     "Three tiers sort you by how much you'll pay. The careful guy takes Basic, whoever wants everything takes Pro.",
+     "Most of us drift to the middle, because it's the easiest place to stand. It has a name: the compromise effect."
+    ],
+    "why_swipe": "But don't people buy the Pro too?"
+   },
+   {
+    "paragraphs": [
+     "The Pro isn't a prop. iPhone 18 Pro sales in India jumped around 28% over last year in the first three weeks.",
+     "So the brand wins twice. The Pro crowd pays top price. Everyone else buys the middle and feels sensible."
+    ],
+    "why_swipe": "So are we just being fooled?"
+   },
+   {
+    "paragraphs": [
+     "You're not dumb for this. You compared all three, so it feels like homework done.",
+     "Basic feels cheap, Pro feels like showing off. So you go middle, and nobody can say anything. That's the part you're really paying for."
+    ],
+    "why_swipe": "So whose idea was the middle plan?"
+   },
+   {
+    "paragraphs": [
+     "\"Medium hi le lete hain, sensible hai.\"",
+     "You say it like it was your idea. The pricing page was counting on it."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Come back to this the next time a pricing page shows you three cards.",
+   "send": "Send to the friend who just upgraded to the 'smart middle plan' and told everyone about it.",
+   "promise": "How brands really sell to us."
+  },
+  "alt_text": "A ten-slide text post arguing that the expensive 'Pro' tier in three-tier pricing is a real product that sells, but also makes the middle option look sensible. It uses everyday examples such as pricing pages with a 'Most Popular' ribbon, OTT plans, café coffee sizes and AC showrooms. It explains that three tiers sort buyers by how much they will pay, and that most people drift to the middle, a pull called the compromise effect. It notes that iPhone 18 Pro sales in India rose around 28% over last year in the first three weeks, so the brand wins on both the top and the middle. It says picking the middle feels safe because nobody can call you cheap or a show-off, and ends with the line people say, 'Medium hi le lete hain, sensible hai,' noting the pricing page was counting on it.",
+  "claims": [
+   {
+    "text": "iPhone 18 Pro series sales in India rose an estimated 28% year on year in the first three weeks after launch",
+    "source_url": "https://businesstoday.in/technology/news/story/iphone-18-pro-beats-iphone-17-pro-in-global-sales-as-india-demand-jumps-28-yoy-report-564971-2026-11-01"
+   }
+  ]
+ }
 }
