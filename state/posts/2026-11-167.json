@@ -1,6 +1,6 @@
 {
  "id": "2026-11-167",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-27T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -61,6 +61,2524 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-11-15T12:03:28.035565+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Dead slide (7): slide 3, \"But look at what we already do.\", is a lone transition line with no example, consequence or feeling. Its own why_swipe, \"what happens next?\", shows it exists only to make the reader swipe."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 4,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "slide 3: Cut this slide. Open slide 4 straight on the behaviour (\"An unknown number rings. You turn the phone face down and wait for the text.\"). Slide 2 already sets up the contrast, so the examples can land right after it and the post drops to nine slides.",
+     "slide 6: \"Here's the reason.\" is stock scaffolding. Start with the claim itself, for example: \"A spam call costs the caller almost nothing. So the business is volume: thousands of calls, hoping a few people answer.\" The because then carries itself.",
+     "slide 8: Push this slide one step further instead of only conceding. Use the proof's detail plainly: operators now have to flag likely spam and warn you. Then add a turn of your own. A \"likely spam\" label only confirms what we already decided by letting it ring, and it does nothing for the call with a name we don't recognise. \"That part might actually help\" is a soft hedge. Say what it helps with and what it doesn't.",
+     "slides 7 and 9: The topic's mood is funny, but only slide 5's \"background check for a stranger who might just be your courier\" really lands as a laugh. Add one more dry line from everyday texture in slide 7 or 9. One option: the call you finally pick up is a loan offer, and the one you ignored was the courier now 'unable to locate address'. Keep it typical, not a one-off story.",
+     "slide 10: The closing line is strong. Make \"That takes years, not one circular.\" earn its place by tying it to the because: as long as a call costs the caller nothing, the spam keeps coming. That way the \"years\" comes from the logic of the post and doesn't read as an assertion."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "cut_slides": [
+    3
+   ],
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "Previous note settled: the lone transition slide is gone. Slide 2 now runs straight into slide 3's scene (the phone turned face down, the friend's \"call?\", the delivery guy's voice note), and the pull holds without a bridge line.",
+     "No new hard failures. The facts in slide 2 and slide 7 (CNAP from 1 November on 4G and newer networks, the name being no promise of safety, spam flagging) match the sources and the topic proof. The cost mechanism on slide 5 is the topic's 'because', stated without inventing a motive. Leave these lines as they are."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "varun": {
+    "pass": true,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 7",
+      "line": "A name doesn't change that maths. It's only as good as the database behind it, and a name is not a promise the call is safe.",
+      "why": "stiff, written phrasing ('not a promise the call is safe')",
+      "try": "A name doesn't change that maths. It's only as good as the database behind it. And a name on the screen doesn't make the call safe."
+     }
+    ],
+    "best": "Till then, India's real caller ID is a text that says \"call?\""
+   }
+  },
+  {
+   "attempt": 0,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Wrong: 'People in India stopped picking up unknown numbers years before the CNAP rule came.'. What's true: Only a minority avoided unknown calls in the 2022 survey. 42% picked up and then blocked the caller, and 21% answered and told them not to call. Just 14% skipped calls using a caller-ID app, and 14% answered only numbers saved in their phone book.."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "From 1 November, telecom operators in India must display the caller's name on calls on 4G and newer networks.",
+      "sentence": "From 1 November, operators must show the caller's name on 4G and newer networks.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c2",
+      "text": "The caller name display feature is called CNAP (Calling Name Presentation).",
+      "sentence": "It's called CNAP.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "The rule applies to 4G and newer networks.",
+      "sentence": "operators must show the caller's name on 4G and newer networks.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Operators are now also required to flag likely spam calls.",
+      "sentence": "To be fair, operators also have to flag likely spam now.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c5",
+      "text": "A spam call costs the caller next to nothing, so spam calling is a volume business of thousands of calls hoping a few people answer.",
+      "sentence": "A spam call costs the caller next to nothing. So the business is volume: thousands of calls, hoping a few people answer.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "The CNAP name display is only as reliable as the database behind it, and a displayed name does not guarantee the call is safe.",
+      "sentence": "It's only as good as the database behind it, and a name is not a promise the call is safe.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "Indian users have long been receiving spam calls such as pre-approved loan offers and fake KYC expiry calls.",
+      "sentence": "Years of \"Sir, pre-approved loan\" and \"Madam, your KYC is expiring\" taught us one thing.",
+      "type": "event",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c8",
+      "text": "Answering a wrong call can cost a person about ten minutes or their OTP.",
+      "sentence": "Picking up the wrong one costs ten minutes, or your OTP.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c9",
+      "text": "Central argument: spam is nearly free to send but costly to answer, so ignoring unknown calls is the cheapest defence; a name display does not change that, so CNAP will not make people answer unknown calls until trust in ringing phones returns.",
+      "sentence": "A name doesn't change that maths.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c10",
+      "text": "People in India stopped picking up unknown numbers years before the CNAP rule came.",
+      "sentence": "You stopped picking up unknown numbers years before the rule came.",
+      "type": "event",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c11",
+      "text": "CNAP was introduced through a government circular.",
+      "sentence": "That takes years, not one circular.",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "current"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "correct": "DoT circular dated 13 Oct 2026 (first reported about 15 Oct) directs operators to provide CNAP from 1 Nov 2026 on 4G and newer networks. Callers who have activated CLIR are not shown.",
+      "sources": [
+       {
+        "url": "https://theprint.in/india/no-more-unknown-callers-govt-makes-caller-name-display-mandatory-from-1-november/3072774/",
+        "publisher": "ThePrint",
+        "published_date": "2026-10-15",
+        "quote": "cellphone users on 4G and 5G networks will see the name",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "sources": [
+       {
+        "url": "https://www.outlookmoney.com/news/caller-name-display-on-mobile-networks-to-be-mandatory-in-india-from-november-1",
+        "publisher": "Outlook Money",
+        "published_date": "2026-10-20",
+        "quote": "introduce Calling Name Presentation (CNAP) across 4G and newer mobile networks",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "correct": "It covers 4G and newer networks. 2G, 3G and landlines are not covered, and DoT will consider those separately.",
+      "sources": [
+       {
+        "url": "https://www.outlookmoney.com/news/caller-name-display-on-mobile-networks-to-be-mandatory-in-india-from-november-1",
+        "publisher": "Outlook Money",
+        "published_date": "2026-10-20",
+        "quote": "The DoT will consider any rollout on 2G and 3G networks separately.",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "2026-09-28",
+      "correct": "The duty comes from TRAI's Third Amendment Regulations 2026, notified about 28 Sep 2026, not from the CNAP circular. Operators' AI/ML systems flag suspected spam calls and the operators must act on those flags. The rules stop short of mandating automatic blocking. I could not confirm that users are notified of each flagged call.",
+      "sources": [
+       {
+        "url": "https://indianinfrastructure.com/2026/09/29/trai-mandates-telcos-to-act-against-ai-flagged-spammers/",
+        "publisher": "Indian Infrastructure",
+        "published_date": "2026-09-29",
+        "quote": "When a telecom operator receives an incoming call that its AI or ML-enabled system flags as 'suspected spam,' it must share details of the call with the originating access provider within two hours.",
+        "tier": 3
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "sources": [
+       {
+        "url": "https://www.outlookmoney.com/news/caller-name-display-on-mobile-networks-to-be-mandatory-in-india-from-november-1",
+        "publisher": "Outlook Money",
+        "published_date": "2026-10-20",
+        "quote": "does not guarantee that a call is safe or not, nor does it eliminate spam and impersonation chances.",
+        "tier": 2
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "supported",
+      "event_date": "2022-05-17",
+      "correct": "Spam calls selling financial services were the most common type in the 2022 LocalCircles survey (51%). That survey does not name loan offers or KYC calls specifically.",
+      "sources": [
+       {
+        "url": "https://localcircles.com/a/press/page/spam-calls-2022-survey",
+        "publisher": "LocalCircles",
+        "published_date": "2022-05-17",
+        "quote": "Selling financial services",
+        "tier": 3
+       }
+      ]
+     },
+     "c10": {
+      "id": "c10",
+      "verdict": "contradicted",
+      "event_date": "2022-05-17",
+      "correct": "Only a minority avoided unknown calls in the 2022 survey. 42% picked up and then blocked the caller, and 21% answered and told them not to call. Just 14% skipped calls using a caller-ID app, and 14% answered only numbers saved in their phone book.",
+      "sources": [
+       {
+        "url": "https://localcircles.com/a/press/page/spam-calls-2022-survey",
+        "publisher": "LocalCircles",
+        "published_date": "2022-05-17",
+        "quote": "42% pick up and then block the caller; 14% use an app that identifies the caller and skip those calls; 14% answer only numbers saved in their phone book.",
+        "tier": 3
+       }
+      ]
+     },
+     "c11": {
+      "id": "c11",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "sources": [
+       {
+        "url": "https://theprint.in/india/no-more-unknown-callers-govt-makes-caller-name-display-mandatory-from-1-november/3072774/",
+        "publisher": "ThePrint",
+        "published_date": "2026-10-15",
+        "quote": "circular dated 13 October 2026, issued by the Department of Telecommunications' Licensing Policy Wing, with the service due to start on 1 November",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None of the four listed premises fails. The rule matches primary reporting: a DoT circular dated 13 October 2026 makes CNAP mandatory from 1 November 2026, on 4G and newer networks only, and on by default. 'Spam is cheap to send' and 'answering can cost ten minutes or an OTP' are fair generalizations, not false claims about how a price or product works. There is one side claim to check before publishing. Slide 7 says operators 'also have to flag likely spam now'. Neither the CNAP circular nor the coverage of it requires any 'likely spam' label. TRAI's TCCCPR amendments require operators to run honeypots, detect suspected spammers with AI and act against them, but the summaries I found describe no on-screen spam warning. That line is a concession, not part of the argument, so the take does not depend on it. It should still be reworded, e.g. 'operators also have to hunt down and cut off spammers', or removed unless the editors can find a regulation that actually requires a label.",
+     "actual_mechanism": "Under the 13 October 2026 DoT circular, every access operator must show caller names to all users on 4G/5G from 1 November 2026, without anyone having to ask for it. 2G, 3G and landlines will be dealt with separately. When a number isn't saved in your contacts, the name shown is the one the caller's operator recorded at the KYC check. If you have saved the number, your contact name shows instead, and international calls show 'International Call'. So the name tells you whose identity documents were used to get the SIM, not whether the call is safe. That backs the post's point that a name doesn't change the cost of picking up, while spam controls are handled separately under TRAI's TCCCPR rules.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://theprint.in/india/no-more-unknown-callers-govt-makes-caller-name-display-mandatory-from-1-november/3072774/",
+       "published_date": "2026-10-15",
+       "quote": "In a circular dated 13 October... [operators] shall provide the calling name presentation service to each user"
+      },
+      {
+       "url": "https://www.voicendata.com/telecom/dot-sets-november-1-deadline-for-caller-name-display-12681309",
+       "published_date": "2026-10-16",
+       "quote": "Unlike third-party caller identification applications, CNAP will rely on subscriber information held by telecom operators."
+      },
+      {
+       "url": "https://www.business-standard.com/industry/news/cnap-service-nationwide-rollout-by-march-2026-dot-trai-telecom-125102901190_1.html",
+       "published_date": "2025-10-29",
+       "quote": "DoT sets March 2026 deadline for pan-India rollout of CNAP service"
+      },
+      {
+       "url": "https://cms.trai.gov.in/sites/default/files/2025-02/PR_No.11of2025.pdf",
+       "published_date": "2025-02-12",
+       "quote": "Telecom operators are required to deploy honeypots which are dedicated numbers that attract and log spam calls and messages, to analyze emerging spam trends and take pre-emptive action against suspected spammers."
+      },
+      {
+       "url": "https://upstox.com/news/business-news/latest-updates/trai-tightens-spam-rules-when-can-telcos-block-callers-and-disconnect-numbers/article-201041/",
+       "published_date": "2026",
+       "quote": "All telecom operators within one day will need to check within their system if there are other connections within their network linked to the suspected spammer in the last 10 days."
+      }
+     ]
+    },
+    "text_hash": "4205a5e4907bb7431805056cacc469964a4993c4",
+    "at": "2026-11-15T15:13:09.315059+00:00"
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Wrong: 'People in India stopped picking up unknown numbers years before the CNAP rule came.'. What's true: Only a minority avoided unknown calls in the 2022 survey. 42% picked up and then blocked the caller, and 21% answered and told them not to call. Just 14% skipped calls using a caller-ID app, and 14% answered only numbers saved in their phone book.."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "Settled: the earlier note is fixed. The line claiming India stopped picking up unknown numbers is gone. Slide 6 now matches the LocalCircles survey ('Some let it ring. The most common one is pick up, then block. 42% said so in a 2022 LocalCircles survey.'), and the claim is sourced correctly.",
+     "slide 6 (edited line, optional polish): 'Letting it ring costs nothing. Picking up the wrong one costs ten minutes, or your OTP.' sits a little awkwardly after saying the most common habit is to pick up. Tie the cost line to the block button so the maths leads into slide 7. For example: 'Picking up the wrong one costs ten minutes, or your OTP. So the block button became our caller ID.' Keep it to one short beat and don't add a new fact."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 3",
+      "line": "An unknown number rings. You turn the phone face down and wait for the text. Your friend sends \"call?\" before calling you. The delivery guy rings twice, then gives up and sends a WhatsApp voice note.",
+      "why": "scene narration, no commentary on top",
+      "try": "We already have a whole etiquette for unknown numbers. Phone goes face down till the text comes. Friends send \"call?\" before calling. Even the delivery guy rings twice, then gives up and sends a WhatsApp voice note."
+     },
+     {
+      "where": "slide 7",
+      "line": "To be fair, operators also have to flag likely spam now. That part might actually help.",
+      "why": "hedged and polite, softens the verdict",
+      "try": "The spam flag operators now have to show? That one could actually help."
+     },
+     {
+      "where": "slide 7",
+      "line": "A name doesn't change that maths. It's only as good as the database behind it, and a name is not a promise the call is safe.",
+      "why": "stiff, written phrasing",
+      "try": "A name doesn't change that maths. It's only as good as the database behind it. And a name on the screen doesn't mean the call is safe."
+     },
+     {
+      "where": "slide 5",
+      "line": "Here's the reason. A spam call costs the caller next to nothing. So the business is volume: thousands of calls, hoping a few people answer.",
+      "why": "coach opener, explainer tone",
+      "try": "Blame the maths. A spam call costs the caller next to nothing, so they play volume. Thousands of calls, for the few people who pick up."
+     },
+     {
+      "where": "cover",
+      "line": "We learned to treat unknown calls as risky long before this rule.",
+      "why": "essay voice, stiff 'risky'",
+      "try": "We stopped trusting unknown numbers years before this rule showed up."
+     },
+     {
+      "where": "end.save",
+      "line": "Come back to this the next time a named caller rings and you still let it go.",
+      "why": "stiff, instruction-manual tone",
+      "try": "Save this for the next time a caller's name pops up and you still let it ring."
+     }
+    ],
+    "best": "Till then, India's real caller ID is a text that says \"call?\""
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Not Varun (slide 3): 'An unknown number rings. You turn the phone face down and wait for the text. Your friend sends \"call?\" before calling you. The delivery guy rings twice, then gives up and sends a WhatsApp voice note.' reads as scene narration, no commentary on top. Say it the way he would, e.g. 'We already have a whole etiquette for unknown numbers. Phone goes face down till the text comes. Friends send \"call?\" before calling. Even the delivery guy rings twice, then gives up and sends a WhatsApp voice note.' (his register, your words, same facts).",
+    "Not Varun (slide 7): 'To be fair, operators also have to flag likely spam now. That part might actually help.' reads as hedged and polite, softens the verdict. Say it the way he would, e.g. 'The spam flag operators now have to show? That one could actually help.' (his register, your words, same facts).",
+    "Not Varun (slide 7): 'A name doesn't change that maths. It's only as good as the database behind it, and a name is not a promise the call is safe.' reads as stiff, written phrasing. Say it the way he would, e.g. 'A name doesn't change that maths. It's only as good as the database behind it. And a name on the screen doesn't mean the call is safe.' (his register, your words, same facts).",
+    "Not Varun (slide 5): 'Here's the reason. A spam call costs the caller next to nothing. So the business is volume: thousands of calls, hoping a few people answer.' reads as coach opener, explainer tone. Say it the way he would, e.g. 'Blame the maths. A spam call costs the caller next to nothing, so they play volume. Thousands of calls, for the few people who pick up.' (his register, your words, same facts).",
+    "Not Varun (cover): 'We learned to treat unknown calls as risky long before this rule.' reads as essay voice, stiff 'risky'. Say it the way he would, e.g. 'We stopped trusting unknown numbers years before this rule showed up.' (his register, your words, same facts).",
+    "Not Varun (end.save): 'Come back to this the next time a named caller rings and you still let it go.' reads as stiff, instruction-manual tone. Say it the way he would, e.g. 'Save this for the next time a caller's name pops up and you still let it ring.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "All six notes from the last round are settled. Slide 3 now opens with 'We already have a whole etiquette for unknown numbers'. Slide 5 opens with 'Blame the maths'. Slide 8 has the database line and the spam-flag line in his register. The cover sub reads 'We stopped trusting unknown numbers years before this rule showed up'. The save line reads 'the next time a caller's name pops up and you still let it ring'.",
+     "slide 7 (optional, not blocking): 'The most common one is pick up, then block' sits a little awkwardly against the hook's 'You still won't pick up'. If the writer touches this slide again, one short beat tying them together would make the survey number back the post: e.g. 'Even when we answer, we've already decided not to trust it.' This keeps the 42% as support for the take rather than a counterpoint.",
+     "slide 5 why_swipe: 'what happens next?' is lowercase and generic. Capitalise it, or make it point at the cost: 'So who pays for all those calls?'"
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "varun": {
+    "pass": true,
+    "score": 5,
+    "misses": [],
+    "best": "Till then, India's real caller ID is a text that says \"call?\""
+   }
+  },
+  {
+   "attempt": 2,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Wrong: 'Telecom operators in India are now required to show a spam flag on incoming calls.'. What's true: TRAI's 2026 amendment requires the receiving operator's AI/ML system to flag suspected spam. The operator must pass that flag to the originating operator within two hours and act against the sender, for example with a 15-day outgoing bar. Coverage I found does not describe any requirement to show a spam flag or label to the person receiving the call. The only CNAP duty is showing the caller's name, from 1 November 2026.."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "From 1 November, telecom operators in India must display the caller's name on calls on 4G and newer networks.",
+      "sentence": "From 1 November, operators must show the caller's name on 4G and newer networks.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c2",
+      "text": "The caller name display feature is called CNAP (Calling Name Presentation).",
+      "sentence": "It's called CNAP.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "The rule applies to 4G and newer networks.",
+      "sentence": "operators must show the caller's name on 4G and newer networks.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Indian users have long been receiving spam calls such as pre-approved loan offers and fake KYC expiry calls.",
+      "sentence": "Years of \"Sir, pre-approved loan\" and \"Madam, your KYC is expiring\" taught us one thing.",
+      "type": "event",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c5",
+      "text": "CNAP was introduced through a government circular.",
+      "sentence": "That takes years, not one circular.",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c6",
+      "text": "Spam callers pay almost nothing per call, so they make calls in huge volume and rely on the few people who pick up. This leaves the recipient to bear the cost of deciding whether to answer. A caller's name on screen does not change that, so CNAP will not make people trust unknown calls.",
+      "sentence": "Blame the maths. A spam call costs the caller next to nothing, so they play volume. Thousands of calls, for the few people who pick up.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "In a 2022 LocalCircles survey, 42% of respondents said they pick up unknown calls and then block the number.",
+      "sentence": "42% said so in a 2022 LocalCircles survey.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c8",
+      "text": "In that LocalCircles survey, picking up and then blocking was the most common way people dealt with unknown calls.",
+      "sentence": "The most common one is pick up, then block.",
+      "type": "superlative",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c9",
+      "text": "The caller names that CNAP displays are only as accurate as the database they are drawn from.",
+      "sentence": "It's only as good as the database behind it.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c10",
+      "text": "Telecom operators in India are now required to show a spam flag on incoming calls.",
+      "sentence": "The spam flag operators now have to show?",
+      "type": "feature",
+      "core": false,
+      "framed_as": "current"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "correct": "DoT circular dated 13 Oct 2026 (first reported about 15 Oct) directs operators to provide CNAP from 1 Nov 2026 on 4G and newer networks. Callers who have activated CLIR are not shown.",
+      "sources": [
+       {
+        "url": "https://theprint.in/india/no-more-unknown-callers-govt-makes-caller-name-display-mandatory-from-1-november/3072774/",
+        "publisher": "ThePrint",
+        "published_date": "2026-10-15",
+        "quote": "cellphone users on 4G and 5G networks will see the name",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "sources": [
+       {
+        "url": "https://www.outlookmoney.com/news/caller-name-display-on-mobile-networks-to-be-mandatory-in-india-from-november-1",
+        "publisher": "Outlook Money",
+        "published_date": "2026-10-20",
+        "quote": "introduce Calling Name Presentation (CNAP) across 4G and newer mobile networks",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "correct": "It covers 4G and newer networks. 2G, 3G and landlines are not covered, and DoT will consider those separately.",
+      "sources": [
+       {
+        "url": "https://www.outlookmoney.com/news/caller-name-display-on-mobile-networks-to-be-mandatory-in-india-from-november-1",
+        "publisher": "Outlook Money",
+        "published_date": "2026-10-20",
+        "quote": "The DoT will consider any rollout on 2G and 3G networks separately.",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c7",
+      "verdict": "supported",
+      "event_date": "2022-05-17",
+      "correct": "Spam calls selling financial services were the most common type in the 2022 LocalCircles survey (51%). That survey does not name loan offers or KYC calls specifically.",
+      "sources": [
+       {
+        "url": "https://localcircles.com/a/press/page/spam-calls-2022-survey",
+        "publisher": "LocalCircles",
+        "published_date": "2022-05-17",
+        "quote": "Selling financial services",
+        "tier": 3
+       }
+      ]
+     },
+     "c5": {
+      "id": "c11",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "sources": [
+       {
+        "url": "https://theprint.in/india/no-more-unknown-callers-govt-makes-caller-name-display-mandatory-from-1-november/3072774/",
+        "publisher": "ThePrint",
+        "published_date": "2026-10-15",
+        "quote": "circular dated 13 October 2026, issued by the Department of Telecommunications' Licensing Policy Wing, with the service due to start on 1 November",
+        "tier": 2
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "supported",
+      "event_date": "2022-05-17",
+      "correct": "",
+      "sources": [
+       {
+        "url": "https://localcircles.com/a/press/page/spam-calls-2022-survey",
+        "publisher": "LocalCircles",
+        "published_date": "2022-05-17",
+        "quote": "pick up such calls and then block them (42%)",
+        "tier": 1
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "supported",
+      "event_date": "2022-05-17",
+      "correct": "42% is the largest share. The next largest is 21%, who answer and ask the caller to stop phoning. 14% use a caller-ID app and skip the call, and 14% answer only numbers in their phone book.",
+      "sources": [
+       {
+        "url": "https://localcircles.com/a/press/page/spam-calls-2022-survey",
+        "publisher": "LocalCircles",
+        "published_date": "2022-05-17",
+        "quote": "pick up such calls and then block them (42%)",
+        "tier": 1
+       }
+      ]
+     },
+     "c9": {
+      "id": "c9",
+      "verdict": "supported",
+      "correct": "CNAP shows the name tied to the caller's number in the operator or KYC records. A displayed name does not eliminate spam or impersonation, so its accuracy depends on that data. I did not fetch the article myself and am relying on the lead's summary of it.",
+      "sources": [
+       {
+        "url": "https://www.outlookmoney.com/news/caller-name-display-on-mobile-networks-to-be-mandatory-in-india-from-november-1",
+        "publisher": "Outlook Money",
+        "published_date": "2026-10-20",
+        "quote": "a displayed name does not eliminate spam or impersonation (summary of the article, not a verbatim quote)",
+        "tier": 2
+       }
+      ]
+     },
+     "c10": {
+      "id": "c10",
+      "verdict": "contradicted",
+      "event_date": "2026-09-18",
+      "correct": "TRAI's 2026 amendment requires the receiving operator's AI/ML system to flag suspected spam. The operator must pass that flag to the originating operator within two hours and act against the sender, for example with a 15-day outgoing bar. Coverage I found does not describe any requirement to show a spam flag or label to the person receiving the call. The only CNAP duty is showing the caller's name, from 1 November 2026.",
+      "sources": [
+       {
+        "url": "https://www.onmanorama.com/news/business/2026/09/29/trai-directs-telcos-to-act-against-spammers-without-complaints.html",
+        "publisher": "Onmanorama",
+        "published_date": "2026-09-29",
+        "quote": "The new regulations will come into force one month after their publication in the Gazette.",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None of the four listed premises fails. The rule matches primary reporting: a DoT circular dated 13 October 2026 makes CNAP mandatory from 1 November 2026, on 4G and newer networks only, and on by default. 'Spam is cheap to send' and 'answering can cost ten minutes or an OTP' are fair generalizations, not false claims about how a price or product works. There is one side claim to check before publishing. Slide 7 says operators 'also have to flag likely spam now'. Neither the CNAP circular nor the coverage of it requires any 'likely spam' label. TRAI's TCCCPR amendments require operators to run honeypots, detect suspected spammers with AI and act against them, but the summaries I found describe no on-screen spam warning. That line is a concession, not part of the argument, so the take does not depend on it. It should still be reworded, e.g. 'operators also have to hunt down and cut off spammers', or removed unless the editors can find a regulation that actually requires a label.",
+     "actual_mechanism": "Under the 13 October 2026 DoT circular, every access operator must show caller names to all users on 4G/5G from 1 November 2026, without anyone having to ask for it. 2G, 3G and landlines will be dealt with separately. When a number isn't saved in your contacts, the name shown is the one the caller's operator recorded at the KYC check. If you have saved the number, your contact name shows instead, and international calls show 'International Call'. So the name tells you whose identity documents were used to get the SIM, not whether the call is safe. That backs the post's point that a name doesn't change the cost of picking up, while spam controls are handled separately under TRAI's TCCCPR rules.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://theprint.in/india/no-more-unknown-callers-govt-makes-caller-name-display-mandatory-from-1-november/3072774/",
+       "published_date": "2026-10-15",
+       "quote": "In a circular dated 13 October... [operators] shall provide the calling name presentation service to each user"
+      },
+      {
+       "url": "https://www.voicendata.com/telecom/dot-sets-november-1-deadline-for-caller-name-display-12681309",
+       "published_date": "2026-10-16",
+       "quote": "Unlike third-party caller identification applications, CNAP will rely on subscriber information held by telecom operators."
+      },
+      {
+       "url": "https://www.business-standard.com/industry/news/cnap-service-nationwide-rollout-by-march-2026-dot-trai-telecom-125102901190_1.html",
+       "published_date": "2025-10-29",
+       "quote": "DoT sets March 2026 deadline for pan-India rollout of CNAP service"
+      },
+      {
+       "url": "https://cms.trai.gov.in/sites/default/files/2025-02/PR_No.11of2025.pdf",
+       "published_date": "2025-02-12",
+       "quote": "Telecom operators are required to deploy honeypots which are dedicated numbers that attract and log spam calls and messages, to analyze emerging spam trends and take pre-emptive action against suspected spammers."
+      },
+      {
+       "url": "https://upstox.com/news/business-news/latest-updates/trai-tightens-spam-rules-when-can-telcos-block-callers-and-disconnect-numbers/article-201041/",
+       "published_date": "2026",
+       "quote": "All telecom operators within one day will need to check within their system if there are other connections within their network linked to the suspected spammer in the last 10 days."
+      }
+     ]
+    },
+    "text_hash": "d858d789112f1b623296810358adb4b89c2ebc7b",
+    "at": "2026-11-15T15:16:16.016316+00:00"
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Wrong: 'Telecom operators in India are now required to show a spam flag on incoming calls.'. What's true: TRAI's 2026 amendment requires the receiving operator's AI/ML system to flag suspected spam. The operator must pass that flag to the originating operator within two hours and act against the sender, for example with a 15-day outgoing bar. Coverage I found does not describe any requirement to show a spam flag or label to the person receiving the call. The only CNAP duty is showing the caller's name, from 1 November 2026.."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "Settled: slide 8 no longer says operators show a spam flag to the person receiving the call. 'The part that could actually help works behind your screen. Operators now have to use AI to flag likely spam numbers.' matches the topic's proof and the fact check, and the alt text matches it too. Keep this wording in every later pass. Do not add 'and warn you' or 'you'll see a spam label'.",
+     "hashtags: '#CreatorEconomy' has nothing to do with this post. Swap it for a tag about calls or phones, for example #CallerID or #CNAP, so the post reaches the people it is about.",
+     "slide 5: the why_swipe 'what happens next?' starts lowercase and is vaguer than the others. Make it point at the reader, for example 'So who pays for all those calls?', so it leads into slide 6's 'The real cost lands on you.'"
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "varun": {
+    "pass": false,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 8",
+      "line": "The part that could actually help works behind your screen. Operators now have to use AI to flag likely spam numbers.",
+      "why": "stiff, explainer voice; the turn is set up instead of said",
+      "try": "The bit that might actually help, you'll never see. Operators now have to run AI to flag likely spam numbers."
+     },
+     {
+      "where": "slide 7",
+      "line": "So we built defences. Some let it ring. The most common one is pick up, then block. 42% said so in a 2022 LocalCircles survey.",
+      "why": "report voice; the stat is the hero, 'defences' is a written word",
+      "try": "So we all have a move. Some let it ring. Most pick up, then block. 42% admitted it in a 2022 LocalCircles survey."
+     }
+    ],
+    "best": "Till then, India's real caller ID is a text that says \"call?\""
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Not Varun (slide 8): 'The part that could actually help works behind your screen. Operators now have to use AI to flag likely spam numbers.' reads as stiff, explainer voice; the turn is set up instead of said. Say it the way he would, e.g. 'The bit that might actually help, you'll never see. Operators now have to run AI to flag likely spam numbers.' (his register, your words, same facts).",
+    "Not Varun (slide 7): 'So we built defences. Some let it ring. The most common one is pick up, then block. 42% said so in a 2022 LocalCircles survey.' reads as report voice; the stat is the hero, 'defences' is a written word. Say it the way he would, e.g. 'So we all have a move. Some let it ring. Most pick up, then block. 42% admitted it in a 2022 LocalCircles survey.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 4,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "Both earlier notes are settled. Slide 7 now reads as his voice ('So we all have a move... 42% admitted it'), and the stat backs the point instead of leading it. Slide 8 says the turn plainly ('What might help happens before your phone rings'). Both still match the sources.",
+     "slide 8 (optional polish, not blocking): 'A name doesn't change that maths. And a name on the screen doesn't mean the call is safe.' says 'name' twice in a row, and the close repeats 'A name on the screen'. Merge the two lines into one, e.g. 'And a name doesn't make the call safe.', so the close's 'name on the screen' lands fresh."
+    ]
+   }
+  },
+  {
+   "attempt": 4,
+   "varun": {
+    "pass": true,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 8",
+      "line": "What might help happens before your phone rings. Operators now have to run AI to flag likely spam numbers and warn you.",
+      "why": "slightly stiff, 'might help happens' reads written",
+      "try": "The bit that might actually help happens before your phone even rings. Operators now have to run AI to flag likely spam numbers and warn you."
+     }
+    ],
+    "best": "Till then, India's real caller ID is a text that says \"call?\""
+   }
+  },
+  {
+   "attempt": 4,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not verify: 'The AI spam flagging and warning by operators happens before the phone rings, i.e. at the network level before the call reaches the user.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "From 1 November, telecom operators in India must display the caller's name on calls on 4G and newer networks.",
+      "sentence": "From 1 November, operators must show the caller's name on 4G and newer networks.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c2",
+      "text": "The caller name display feature is called CNAP (Calling Name Presentation).",
+      "sentence": "It's called CNAP.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "The rule applies to 4G and newer networks.",
+      "sentence": "operators must show the caller's name on 4G and newer networks.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Indian users have long been receiving spam calls such as pre-approved loan offers and fake KYC expiry calls.",
+      "sentence": "Years of \"Sir, pre-approved loan\" and \"Madam, your KYC is expiring\" taught us one thing.",
+      "type": "event",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c5",
+      "text": "CNAP was introduced through a government circular.",
+      "sentence": "That takes years, not one circular.",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c6",
+      "text": "In that LocalCircles survey, picking up and then blocking was the most common way people dealt with unknown calls.",
+      "sentence": "The most common one is pick up, then block.",
+      "type": "superlative",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c7",
+      "text": "A 2022 LocalCircles survey found that 42% of respondents admitted to picking up unknown calls and then blocking the number.",
+      "sentence": "The most common one is pick up, then block. 42% admitted it in a 2022 LocalCircles survey.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c8",
+      "text": "In the 2022 LocalCircles survey, pick up and then block was the most common way respondents dealt with unknown calls.",
+      "sentence": "The most common one is pick up, then block. 42% admitted it in a 2022 LocalCircles survey.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c9",
+      "text": "Operators in India are now required to run AI to flag likely spam numbers and warn users.",
+      "sentence": "Operators now have to run AI to flag likely spam numbers and warn you.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c10",
+      "text": "The AI spam flagging and warning by operators happens before the phone rings, i.e. at the network level before the call reaches the user.",
+      "sentence": "What might help happens before your phone rings.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c11",
+      "text": "A spam call costs the caller almost nothing.",
+      "sentence": "A spam call costs the caller almost nothing.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c12",
+      "text": "Spam callers make thousands of calls to reach the few people who pick up.",
+      "sentence": "Thousands of calls, for the few people who pick up.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c13",
+      "text": "Mechanism: Premises: (1) spam calls cost the caller almost nothing, so spammers play on volume; (2) the cost of deciding whether each call is safe falls on the recipient; (3) years of unwanted loan and KYC calls have taught people that unexpected calls want something; (4) a caller name does not make a call safe. Conclusion: showing the caller's name (CNAP) will not make people answer unknown calls, because trust in a ringing phone will take years to rebuild.",
+      "sentence": "Caller ID won't fix spam calls. We stopped trusting a ringing phone long before the name showed up.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "correct": "DoT circular dated 13 Oct 2026 (first reported about 15 Oct) directs operators to provide CNAP from 1 Nov 2026 on 4G and newer networks. Callers who have activated CLIR are not shown.",
+      "sources": [
+       {
+        "url": "https://theprint.in/india/no-more-unknown-callers-govt-makes-caller-name-display-mandatory-from-1-november/3072774/",
+        "publisher": "ThePrint",
+        "published_date": "2026-10-15",
+        "quote": "cellphone users on 4G and 5G networks will see the name",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "sources": [
+       {
+        "url": "https://www.outlookmoney.com/news/caller-name-display-on-mobile-networks-to-be-mandatory-in-india-from-november-1",
+        "publisher": "Outlook Money",
+        "published_date": "2026-10-20",
+        "quote": "introduce Calling Name Presentation (CNAP) across 4G and newer mobile networks",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "correct": "It covers 4G and newer networks. 2G, 3G and landlines are not covered, and DoT will consider those separately.",
+      "sources": [
+       {
+        "url": "https://www.outlookmoney.com/news/caller-name-display-on-mobile-networks-to-be-mandatory-in-india-from-november-1",
+        "publisher": "Outlook Money",
+        "published_date": "2026-10-20",
+        "quote": "The DoT will consider any rollout on 2G and 3G networks separately.",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c7",
+      "verdict": "supported",
+      "event_date": "2022-05-17",
+      "correct": "Spam calls selling financial services were the most common type in the 2022 LocalCircles survey (51%). That survey does not name loan offers or KYC calls specifically.",
+      "sources": [
+       {
+        "url": "https://localcircles.com/a/press/page/spam-calls-2022-survey",
+        "publisher": "LocalCircles",
+        "published_date": "2022-05-17",
+        "quote": "Selling financial services",
+        "tier": 3
+       }
+      ]
+     },
+     "c5": {
+      "id": "c11",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "sources": [
+       {
+        "url": "https://theprint.in/india/no-more-unknown-callers-govt-makes-caller-name-display-mandatory-from-1-november/3072774/",
+        "publisher": "ThePrint",
+        "published_date": "2026-10-15",
+        "quote": "circular dated 13 October 2026, issued by the Department of Telecommunications' Licensing Policy Wing, with the service due to start on 1 November",
+        "tier": 2
+       }
+      ]
+     },
+     "c6": {
+      "id": "c8",
+      "verdict": "supported",
+      "event_date": "2022-05-17",
+      "correct": "42% is the largest share. The next largest is 21%, who answer and ask the caller to stop phoning. 14% use a caller-ID app and skip the call, and 14% answer only numbers in their phone book.",
+      "sources": [
+       {
+        "url": "https://localcircles.com/a/press/page/spam-calls-2022-survey",
+        "publisher": "LocalCircles",
+        "published_date": "2022-05-17",
+        "quote": "pick up such calls and then block them (42%)",
+        "tier": 1
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "supported",
+      "event_date": "2022-05-17",
+      "sources": [
+       {
+        "url": "https://localcircles.com/a/press/page/spam-calls-2022-survey",
+        "publisher": "LocalCircles",
+        "published_date": "2022-05-17",
+        "quote": "There were also 42% of citizens who said they pick up such calls and then block them.",
+        "tier": 1
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "supported",
+      "event_date": "2022-05-17",
+      "sources": [
+       {
+        "url": "https://localcircles.com/a/press/page/spam-calls-2022-survey",
+        "publisher": "LocalCircles",
+        "published_date": "2022-05-17",
+        "quote": "There were also 42% of citizens who said they pick up such calls and then block them. (next highest: answer and tell callers not to call again, 21%; all others 14% or lower)",
+        "tier": 1
+       }
+      ]
+     },
+     "c9": {
+      "id": "c9",
+      "verdict": "supported",
+      "event_date": "2026-02-27",
+      "correct": "TRAI's direction of 27 Feb 2026 (effective 29 Mar 2026) requires operators to run AI/ML spam detection. A Sept 2026 amendment requires action on AI-flagged senders without a complaint. A user-alert duty is only indirectly sourced (Khaitan note: operators alert subscribers).",
+      "sources": [
+       {
+        "url": "https://www.deccanchronicle.com/amp/business/trai-tightens-anti-spam-rules-brings-ai-based-detection-automated-calls-under-framework-1988473",
+        "publisher": "Deccan Chronicle",
+        "published_date": "2026-09-18",
+        "quote": "flagged by the TSP's AI/ML system as suspected UCC",
+        "tier": 2
+       }
+      ]
+     },
+     "c10": {
+      "id": "c10",
+      "verdict": "unverifiable",
+      "correct": "Sources describe AI flagging at operator level and sharing flagged numbers between operators. None I could read says warnings are delivered before the phone rings. The TRAI direction itself was not read.",
+      "sources": [
+       {
+        "url": "https://www.deccanchronicle.com/amp/business/trai-tightens-anti-spam-rules-brings-ai-based-detection-automated-calls-under-framework-1988473",
+        "publisher": "Deccan Chronicle",
+        "published_date": "2026-09-18",
+        "quote": "Operators must identify numbers likely used for spam and share that information with other operators.",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None of the four listed premises fails. The rule matches primary reporting: a DoT circular dated 13 October 2026 makes CNAP mandatory from 1 November 2026, on 4G and newer networks only, and on by default. 'Spam is cheap to send' and 'answering can cost ten minutes or an OTP' are fair generalizations, not false claims about how a price or product works. There is one side claim to check before publishing. Slide 7 says operators 'also have to flag likely spam now'. Neither the CNAP circular nor the coverage of it requires any 'likely spam' label. TRAI's TCCCPR amendments require operators to run honeypots, detect suspected spammers with AI and act against them, but the summaries I found describe no on-screen spam warning. That line is a concession, not part of the argument, so the take does not depend on it. It should still be reworded, e.g. 'operators also have to hunt down and cut off spammers', or removed unless the editors can find a regulation that actually requires a label.",
+     "actual_mechanism": "Under the 13 October 2026 DoT circular, every access operator must show caller names to all users on 4G/5G from 1 November 2026, without anyone having to ask for it. 2G, 3G and landlines will be dealt with separately. When a number isn't saved in your contacts, the name shown is the one the caller's operator recorded at the KYC check. If you have saved the number, your contact name shows instead, and international calls show 'International Call'. So the name tells you whose identity documents were used to get the SIM, not whether the call is safe. That backs the post's point that a name doesn't change the cost of picking up, while spam controls are handled separately under TRAI's TCCCPR rules.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://theprint.in/india/no-more-unknown-callers-govt-makes-caller-name-display-mandatory-from-1-november/3072774/",
+       "published_date": "2026-10-15",
+       "quote": "In a circular dated 13 October... [operators] shall provide the calling name presentation service to each user"
+      },
+      {
+       "url": "https://www.voicendata.com/telecom/dot-sets-november-1-deadline-for-caller-name-display-12681309",
+       "published_date": "2026-10-16",
+       "quote": "Unlike third-party caller identification applications, CNAP will rely on subscriber information held by telecom operators."
+      },
+      {
+       "url": "https://www.business-standard.com/industry/news/cnap-service-nationwide-rollout-by-march-2026-dot-trai-telecom-125102901190_1.html",
+       "published_date": "2025-10-29",
+       "quote": "DoT sets March 2026 deadline for pan-India rollout of CNAP service"
+      },
+      {
+       "url": "https://cms.trai.gov.in/sites/default/files/2025-02/PR_No.11of2025.pdf",
+       "published_date": "2025-02-12",
+       "quote": "Telecom operators are required to deploy honeypots which are dedicated numbers that attract and log spam calls and messages, to analyze emerging spam trends and take pre-emptive action against suspected spammers."
+      },
+      {
+       "url": "https://upstox.com/news/business-news/latest-updates/trai-tightens-spam-rules-when-can-telcos-block-callers-and-disconnect-numbers/article-201041/",
+       "published_date": "2026",
+       "quote": "All telecom operators within one day will need to check within their system if there are other connections within their network linked to the suspected spammer in the last 10 days."
+      }
+     ]
+    },
+    "text_hash": "458355b10a851e0fbff7cf1b7cd6f990642aa3da",
+    "at": "2026-11-15T15:18:57.230924+00:00"
+   }
+  },
+  {
+   "attempt": 4,
+   "problems": [
+    "Could not verify: 'The AI spam flagging and warning by operators happens before the phone rings, i.e. at the network level before the call reaches the user.'. Cut it, or state it only if a source says it."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-15T15:19:09.986710+00:00",
+ "sources": [
+  {
+   "url": "https://www.outlookmoney.com/news/caller-name-display-on-mobile-networks-to-be-mandatory-in-india-from-november-1",
+   "fact": "DoT's circular of 13 October 2026 requires CNAP on 4G and newer networks from 1 November 2026. The article says a displayed name does not eliminate spam or impersonation. It does not describe spam flagging.",
+   "excerpt": "required to introduce Calling Name Presentation (CNAP) across 4G and higher-generation mobile networks | In the circular dated October 13, 2026, the DoT instructed all telecom service providers | does not guarantee that a call is safe or not, nor does it eliminate spam and impersonation chances.",
+   "date": "2026-10-20"
+  },
+  {
+   "url": "https://localcircles.com/a/press/page/spam-calls-2022-survey",
+   "fact": "A LocalCircles survey of 9,084 responses (2022) found that only a minority avoid unknown calls. 14% use an app that identifies callers and skip such calls, 14% pick up only numbers in their phone book, and the most common response (42%) is to pick up and then block. This partly contradicts the claim that people stopped picking up unknown numbers.",
+   "excerpt": "14% said they use an app that tells them the caller's identity and don't pick such calls. | As a rule only pick up calls from numbers in my phone book. | they pick up such calls and then block them.",
+   "date": "2022-05-17"
+  }
+ ],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] Your phone shows the caller's name now. You still [won't pick up].\nWe stopped trusting unknown numbers years before this rule showed up.\n \n\n[slide 1] Your phone will now tell you who's calling. You still won't pick up.\nSwipe to read →\n\n[slide 2] From 1 November, operators must show the caller's name on 4G and newer networks. It's called CNAP.\nThe idea is simple. You see a name, you trust the call, you answer.\n\n[slide 3] We already have a whole etiquette for unknown numbers. Phone goes face down till the text comes. Friends send \"call?\" before calling. Even the delivery guy rings twice, then gives up and sends a WhatsApp voice note.\n\n[slide 4] And when you do call back, you search the number first. Like a background check for a stranger who might just be your courier.\n\n[slide 5] Blame the maths. A spam call costs the caller next to nothing, so they play volume. Thousands of calls, for the few people who pick up.\n\n[slide 6] The real cost lands on you. Every ring is a small decision. Courier, loan offer, or scam?\n\n[slide 7] So we all have a move. The most common one is pick up, then block. 42% admitted it in a 2022 LocalCircles survey.\nLetting it ring costs nothing. Picking up the wrong one costs ten minutes, or your OTP.\n\n[slide 8] A name doesn't change that maths. And a name on the screen doesn't mean the call is safe.\nWhat might help happens before your phone rings. Operators now have to run AI to flag likely spam numbers and warn you.\n\n[slide 9] This isn't rudeness. It's tiredness.\nYears of \"Sir, pre-approved loan\" and \"Madam, your KYC is expiring\" taught us one thing. An unexpected call usually wants something from you.\n\n[slide 10] A name on the screen helps once a ringing phone feels safe again. That takes years, not one circular.\nTill then, India's real caller ID is a text that says \"call?\"\n\n[end card] Keep this for the next time a caller's name pops up and you still let it ring.\nSend to the friend who says 'text me first' before every single call.\n\n[caption] Caller ID won't fix spam calls. We stopped trusting a ringing phone long before the name showed up.\n\nA spam call costs the caller almost nothing. The guessing on every ring is the part you pay for.\n\n\"Kaun hai? Pehle message karo.\"\n\nSend this to the friend who won't pick up unless you've texted 'call?' first.\n\n[alt text] A text-only Instagram carousel of ten slides. It argues that India's new caller name display rule, CNAP, will not make people trust unknown calls. We already have an etiquette for unknown numbers: the phone goes face down till a text comes, friends send 'call?' first, and the most common habit in a 2022 survey was to pick up and then block. Spam calls cost callers almost nothing, so the cost of deciding falls on us. The post grants that the new rule making operators use AI to flag likely spam numbers and warn users could help. It ends by saying a name will matter only once a ringing phone feels safe again, and that the real caller ID is still a text saying 'call?'.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "From 1 November, telecom operators in India must display the caller's name on calls on 4G and newer networks.",
+     "sentence": "From 1 November, operators must show the caller's name on 4G and newer networks.",
+     "type": "event",
+     "core": true,
+     "framed_as": "current"
+    },
+    {
+     "id": "c2",
+     "text": "The caller name display feature is called CNAP (Calling Name Presentation).",
+     "sentence": "It's called CNAP.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c3",
+     "text": "The rule applies to 4G and newer networks.",
+     "sentence": "operators must show the caller's name on 4G and newer networks.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c4",
+     "text": "Indian users have long been receiving spam calls such as pre-approved loan offers and fake KYC expiry calls.",
+     "sentence": "Years of \"Sir, pre-approved loan\" and \"Madam, your KYC is expiring\" taught us one thing.",
+     "type": "event",
+     "core": false,
+     "framed_as": "past"
+    },
+    {
+     "id": "c5",
+     "text": "CNAP was introduced through a government circular.",
+     "sentence": "That takes years, not one circular.",
+     "type": "entity_attribute",
+     "core": false,
+     "framed_as": "current"
+    },
+    {
+     "id": "c6",
+     "text": "In that LocalCircles survey, picking up and then blocking was the most common way people dealt with unknown calls.",
+     "sentence": "The most common one is pick up, then block.",
+     "type": "superlative",
+     "core": false,
+     "framed_as": "past"
+    },
+    {
+     "id": "c7",
+     "text": "A 2022 LocalCircles survey found that 42% of respondents admitted to picking up unknown calls and then blocking the number.",
+     "sentence": "The most common one is pick up, then block. 42% admitted it in a 2022 LocalCircles survey.",
+     "type": "figure",
+     "core": false,
+     "framed_as": "past"
+    },
+    {
+     "id": "c8",
+     "text": "In the 2022 LocalCircles survey, pick up and then block was the most common way respondents dealt with unknown calls.",
+     "sentence": "The most common one is pick up, then block. 42% admitted it in a 2022 LocalCircles survey.",
+     "type": "figure",
+     "core": false,
+     "framed_as": "past"
+    },
+    {
+     "id": "c9",
+     "text": "Operators in India are now required to run AI to flag likely spam numbers and warn users.",
+     "sentence": "Operators now have to run AI to flag likely spam numbers and warn you.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "current"
+    },
+    {
+     "id": "c10",
+     "text": "The AI spam flagging and warning by operators happens before the phone rings, i.e. at the network level before the call reaches the user.",
+     "sentence": "What might help happens before your phone rings.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c11",
+     "text": "A spam call costs the caller almost nothing.",
+     "sentence": "A spam call costs the caller almost nothing.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c12",
+     "text": "Spam callers make thousands of calls to reach the few people who pick up.",
+     "sentence": "Thousands of calls, for the few people who pick up.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c13",
+     "text": "Mechanism: Premises: (1) spam calls cost the caller almost nothing, so spammers play on volume; (2) the cost of deciding whether each call is safe falls on the recipient; (3) years of unwanted loan and KYC calls have taught people that unexpected calls want something; (4) a caller name does not make a call safe. Conclusion: showing the caller's name (CNAP) will not make people answer unknown calls, because trust in a ringing phone will take years to rebuild.",
+     "sentence": "Caller ID won't fix spam calls. We stopped trusting a ringing phone long before the name showed up.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "From 1 November, telecom operators in India must display the caller's name on calls on 4G and newer networks.": {
+   "id": "c1",
+   "verdict": "supported",
+   "event_date": "2026-10-13",
+   "correct": "DoT circular dated 13 Oct 2026 (first reported about 15 Oct) directs operators to provide CNAP from 1 Nov 2026 on 4G and newer networks. Callers who have activated CLIR are not shown.",
+   "sources": [
+    {
+     "url": "https://theprint.in/india/no-more-unknown-callers-govt-makes-caller-name-display-mandatory-from-1-november/3072774/",
+     "publisher": "ThePrint",
+     "published_date": "2026-10-15",
+     "quote": "cellphone users on 4G and 5G networks will see the name",
+     "tier": 2
+    }
+   ]
+  },
+  "The caller name display feature is called CNAP (Calling Name Presentation).": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": "2026-10-13",
+   "sources": [
+    {
+     "url": "https://www.outlookmoney.com/news/caller-name-display-on-mobile-networks-to-be-mandatory-in-india-from-november-1",
+     "publisher": "Outlook Money",
+     "published_date": "2026-10-20",
+     "quote": "introduce Calling Name Presentation (CNAP) across 4G and newer mobile networks",
+     "tier": 2
+    }
+   ]
+  },
+  "The rule applies to 4G and newer networks.": {
+   "id": "c3",
+   "verdict": "supported",
+   "event_date": "2026-10-13",
+   "correct": "It covers 4G and newer networks. 2G, 3G and landlines are not covered, and DoT will consider those separately.",
+   "sources": [
+    {
+     "url": "https://www.outlookmoney.com/news/caller-name-display-on-mobile-networks-to-be-mandatory-in-india-from-november-1",
+     "publisher": "Outlook Money",
+     "published_date": "2026-10-20",
+     "quote": "The DoT will consider any rollout on 2G and 3G networks separately.",
+     "tier": 2
+    }
+   ]
+  },
+  "Operators are now also required to flag likely spam calls.": {
+   "id": "c4",
+   "verdict": "supported",
+   "event_date": "2026-09-28",
+   "correct": "The duty comes from TRAI's Third Amendment Regulations 2026, notified about 28 Sep 2026, not from the CNAP circular. Operators' AI/ML systems flag suspected spam calls and the operators must act on those flags. The rules stop short of mandating automatic blocking. I could not confirm that users are notified of each flagged call.",
+   "sources": [
+    {
+     "url": "https://indianinfrastructure.com/2026/09/29/trai-mandates-telcos-to-act-against-ai-flagged-spammers/",
+     "publisher": "Indian Infrastructure",
+     "published_date": "2026-09-29",
+     "quote": "When a telecom operator receives an incoming call that its AI or ML-enabled system flags as 'suspected spam,' it must share details of the call with the originating access provider within two hours.",
+     "tier": 3
+    }
+   ]
+  },
+  "The CNAP name display is only as reliable as the database behind it, and a displayed name does not guarantee the call is safe.": {
+   "id": "c6",
+   "verdict": "supported",
+   "event_date": "2026-10-13",
+   "sources": [
+    {
+     "url": "https://www.outlookmoney.com/news/caller-name-display-on-mobile-networks-to-be-mandatory-in-india-from-november-1",
+     "publisher": "Outlook Money",
+     "published_date": "2026-10-20",
+     "quote": "does not guarantee that a call is safe or not, nor does it eliminate spam and impersonation chances.",
+     "tier": 2
+    }
+   ]
+  },
+  "Indian users have long been receiving spam calls such as pre-approved loan offers and fake KYC expiry calls.": {
+   "id": "c7",
+   "verdict": "supported",
+   "event_date": "2022-05-17",
+   "correct": "Spam calls selling financial services were the most common type in the 2022 LocalCircles survey (51%). That survey does not name loan offers or KYC calls specifically.",
+   "sources": [
+    {
+     "url": "https://localcircles.com/a/press/page/spam-calls-2022-survey",
+     "publisher": "LocalCircles",
+     "published_date": "2022-05-17",
+     "quote": "Selling financial services",
+     "tier": 3
+    }
+   ]
+  },
+  "People in India stopped picking up unknown numbers years before the CNAP rule came.": {
+   "id": "c10",
+   "verdict": "contradicted",
+   "event_date": "2022-05-17",
+   "correct": "Only a minority avoided unknown calls in the 2022 survey. 42% picked up and then blocked the caller, and 21% answered and told them not to call. Just 14% skipped calls using a caller-ID app, and 14% answered only numbers saved in their phone book.",
+   "sources": [
+    {
+     "url": "https://localcircles.com/a/press/page/spam-calls-2022-survey",
+     "publisher": "LocalCircles",
+     "published_date": "2022-05-17",
+     "quote": "42% pick up and then block the caller; 14% use an app that identifies the caller and skip those calls; 14% answer only numbers saved in their phone book.",
+     "tier": 3
+    }
+   ]
+  },
+  "CNAP was introduced through a government circular.": {
+   "id": "c11",
+   "verdict": "supported",
+   "event_date": "2026-10-13",
+   "sources": [
+    {
+     "url": "https://theprint.in/india/no-more-unknown-callers-govt-makes-caller-name-display-mandatory-from-1-november/3072774/",
+     "publisher": "ThePrint",
+     "published_date": "2026-10-15",
+     "quote": "circular dated 13 October 2026, issued by the Department of Telecommunications' Licensing Policy Wing, with the service due to start on 1 November",
+     "tier": 2
+    }
+   ]
+  },
+  "_skeptic": {
+   "197a0f84501089603446a472bf197a2b70a3b79c": {
+    "holds": true,
+    "broken_premise": "None of the four listed premises fails. The rule matches primary reporting: a DoT circular dated 13 October 2026 makes CNAP mandatory from 1 November 2026, on 4G and newer networks only, and on by default. 'Spam is cheap to send' and 'answering can cost ten minutes or an OTP' are fair generalizations, not false claims about how a price or product works. There is one side claim to check before publishing. Slide 7 says operators 'also have to flag likely spam now'. Neither the CNAP circular nor the coverage of it requires any 'likely spam' label. TRAI's TCCCPR amendments require operators to run honeypots, detect suspected spammers with AI and act against them, but the summaries I found describe no on-screen spam warning. That line is a concession, not part of the argument, so the take does not depend on it. It should still be reworded, e.g. 'operators also have to hunt down and cut off spammers', or removed unless the editors can find a regulation that actually requires a label.",
+    "actual_mechanism": "Under the 13 October 2026 DoT circular, every access operator must show caller names to all users on 4G/5G from 1 November 2026, without anyone having to ask for it. 2G, 3G and landlines will be dealt with separately. When a number isn't saved in your contacts, the name shown is the one the caller's operator recorded at the KYC check. If you have saved the number, your contact name shows instead, and international calls show 'International Call'. So the name tells you whose identity documents were used to get the SIM, not whether the call is safe. That backs the post's point that a name doesn't change the cost of picking up, while spam controls are handled separately under TRAI's TCCCPR rules.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://theprint.in/india/no-more-unknown-callers-govt-makes-caller-name-display-mandatory-from-1-november/3072774/",
+      "published_date": "2026-10-15",
+      "quote": "In a circular dated 13 October... [operators] shall provide the calling name presentation service to each user"
+     },
+     {
+      "url": "https://www.voicendata.com/telecom/dot-sets-november-1-deadline-for-caller-name-display-12681309",
+      "published_date": "2026-10-16",
+      "quote": "Unlike third-party caller identification applications, CNAP will rely on subscriber information held by telecom operators."
+     },
+     {
+      "url": "https://www.business-standard.com/industry/news/cnap-service-nationwide-rollout-by-march-2026-dot-trai-telecom-125102901190_1.html",
+      "published_date": "2025-10-29",
+      "quote": "DoT sets March 2026 deadline for pan-India rollout of CNAP service"
+     },
+     {
+      "url": "https://cms.trai.gov.in/sites/default/files/2025-02/PR_No.11of2025.pdf",
+      "published_date": "2025-02-12",
+      "quote": "Telecom operators are required to deploy honeypots which are dedicated numbers that attract and log spam calls and messages, to analyze emerging spam trends and take pre-emptive action against suspected spammers."
+     },
+     {
+      "url": "https://upstox.com/news/business-news/latest-updates/trai-tightens-spam-rules-when-can-telcos-block-callers-and-disconnect-numbers/article-201041/",
+      "published_date": "2026",
+      "quote": "All telecom operators within one day will need to check within their system if there are other connections within their network linked to the suspected spammer in the last 10 days."
+     }
+    ]
+   },
+   "8d5df19cd60696e7ae0265c045ae689da02b3d3c": {
+    "holds": true,
+    "broken_premise": "None of the four listed premises fails. The rule matches primary reporting: a DoT circular dated 13 October 2026 makes CNAP mandatory from 1 November 2026, on 4G and newer networks only, and on by default. 'Spam is cheap to send' and 'answering can cost ten minutes or an OTP' are fair generalizations, not false claims about how a price or product works. There is one side claim to check before publishing. Slide 7 says operators 'also have to flag likely spam now'. Neither the CNAP circular nor the coverage of it requires any 'likely spam' label. TRAI's TCCCPR amendments require operators to run honeypots, detect suspected spammers with AI and act against them, but the summaries I found describe no on-screen spam warning. That line is a concession, not part of the argument, so the take does not depend on it. It should still be reworded, e.g. 'operators also have to hunt down and cut off spammers', or removed unless the editors can find a regulation that actually requires a label.",
+    "actual_mechanism": "Under the 13 October 2026 DoT circular, every access operator must show caller names to all users on 4G/5G from 1 November 2026, without anyone having to ask for it. 2G, 3G and landlines will be dealt with separately. When a number isn't saved in your contacts, the name shown is the one the caller's operator recorded at the KYC check. If you have saved the number, your contact name shows instead, and international calls show 'International Call'. So the name tells you whose identity documents were used to get the SIM, not whether the call is safe. That backs the post's point that a name doesn't change the cost of picking up, while spam controls are handled separately under TRAI's TCCCPR rules.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://theprint.in/india/no-more-unknown-callers-govt-makes-caller-name-display-mandatory-from-1-november/3072774/",
+      "published_date": "2026-10-15",
+      "quote": "In a circular dated 13 October... [operators] shall provide the calling name presentation service to each user"
+     },
+     {
+      "url": "https://www.voicendata.com/telecom/dot-sets-november-1-deadline-for-caller-name-display-12681309",
+      "published_date": "2026-10-16",
+      "quote": "Unlike third-party caller identification applications, CNAP will rely on subscriber information held by telecom operators."
+     },
+     {
+      "url": "https://www.business-standard.com/industry/news/cnap-service-nationwide-rollout-by-march-2026-dot-trai-telecom-125102901190_1.html",
+      "published_date": "2025-10-29",
+      "quote": "DoT sets March 2026 deadline for pan-India rollout of CNAP service"
+     },
+     {
+      "url": "https://cms.trai.gov.in/sites/default/files/2025-02/PR_No.11of2025.pdf",
+      "published_date": "2025-02-12",
+      "quote": "Telecom operators are required to deploy honeypots which are dedicated numbers that attract and log spam calls and messages, to analyze emerging spam trends and take pre-emptive action against suspected spammers."
+     },
+     {
+      "url": "https://upstox.com/news/business-news/latest-updates/trai-tightens-spam-rules-when-can-telcos-block-callers-and-disconnect-numbers/article-201041/",
+      "published_date": "2026",
+      "quote": "All telecom operators within one day will need to check within their system if there are other connections within their network linked to the suspected spammer in the last 10 days."
+     }
+    ]
+   },
+   "8e7194953c51e8d9e57223a932b03f218ced0f81": {
+    "holds": true,
+    "broken_premise": "None of the four listed premises fails. The rule matches primary reporting: a DoT circular dated 13 October 2026 makes CNAP mandatory from 1 November 2026, on 4G and newer networks only, and on by default. 'Spam is cheap to send' and 'answering can cost ten minutes or an OTP' are fair generalizations, not false claims about how a price or product works. There is one side claim to check before publishing. Slide 7 says operators 'also have to flag likely spam now'. Neither the CNAP circular nor the coverage of it requires any 'likely spam' label. TRAI's TCCCPR amendments require operators to run honeypots, detect suspected spammers with AI and act against them, but the summaries I found describe no on-screen spam warning. That line is a concession, not part of the argument, so the take does not depend on it. It should still be reworded, e.g. 'operators also have to hunt down and cut off spammers', or removed unless the editors can find a regulation that actually requires a label.",
+    "actual_mechanism": "Under the 13 October 2026 DoT circular, every access operator must show caller names to all users on 4G/5G from 1 November 2026, without anyone having to ask for it. 2G, 3G and landlines will be dealt with separately. When a number isn't saved in your contacts, the name shown is the one the caller's operator recorded at the KYC check. If you have saved the number, your contact name shows instead, and international calls show 'International Call'. So the name tells you whose identity documents were used to get the SIM, not whether the call is safe. That backs the post's point that a name doesn't change the cost of picking up, while spam controls are handled separately under TRAI's TCCCPR rules.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://theprint.in/india/no-more-unknown-callers-govt-makes-caller-name-display-mandatory-from-1-november/3072774/",
+      "published_date": "2026-10-15",
+      "quote": "In a circular dated 13 October... [operators] shall provide the calling name presentation service to each user"
+     },
+     {
+      "url": "https://www.voicendata.com/telecom/dot-sets-november-1-deadline-for-caller-name-display-12681309",
+      "published_date": "2026-10-16",
+      "quote": "Unlike third-party caller identification applications, CNAP will rely on subscriber information held by telecom operators."
+     },
+     {
+      "url": "https://www.business-standard.com/industry/news/cnap-service-nationwide-rollout-by-march-2026-dot-trai-telecom-125102901190_1.html",
+      "published_date": "2025-10-29",
+      "quote": "DoT sets March 2026 deadline for pan-India rollout of CNAP service"
+     },
+     {
+      "url": "https://cms.trai.gov.in/sites/default/files/2025-02/PR_No.11of2025.pdf",
+      "published_date": "2025-02-12",
+      "quote": "Telecom operators are required to deploy honeypots which are dedicated numbers that attract and log spam calls and messages, to analyze emerging spam trends and take pre-emptive action against suspected spammers."
+     },
+     {
+      "url": "https://upstox.com/news/business-news/latest-updates/trai-tightens-spam-rules-when-can-telcos-block-callers-and-disconnect-numbers/article-201041/",
+      "published_date": "2026",
+      "quote": "All telecom operators within one day will need to check within their system if there are other connections within their network linked to the suspected spammer in the last 10 days."
+     }
+    ]
+   }
+  },
+  "_skeptic_take": {
+   "89e25d5bac3044bda7c2fac0cd0954a2a9f9fa90": {
+    "holds": true,
+    "broken_premise": "None of the four listed premises fails. The rule matches primary reporting: a DoT circular dated 13 October 2026 makes CNAP mandatory from 1 November 2026, on 4G and newer networks only, and on by default. 'Spam is cheap to send' and 'answering can cost ten minutes or an OTP' are fair generalizations, not false claims about how a price or product works. There is one side claim to check before publishing. Slide 7 says operators 'also have to flag likely spam now'. Neither the CNAP circular nor the coverage of it requires any 'likely spam' label. TRAI's TCCCPR amendments require operators to run honeypots, detect suspected spammers with AI and act against them, but the summaries I found describe no on-screen spam warning. That line is a concession, not part of the argument, so the take does not depend on it. It should still be reworded, e.g. 'operators also have to hunt down and cut off spammers', or removed unless the editors can find a regulation that actually requires a label.",
+    "actual_mechanism": "Under the 13 October 2026 DoT circular, every access operator must show caller names to all users on 4G/5G from 1 November 2026, without anyone having to ask for it. 2G, 3G and landlines will be dealt with separately. When a number isn't saved in your contacts, the name shown is the one the caller's operator recorded at the KYC check. If you have saved the number, your contact name shows instead, and international calls show 'International Call'. So the name tells you whose identity documents were used to get the SIM, not whether the call is safe. That backs the post's point that a name doesn't change the cost of picking up, while spam controls are handled separately under TRAI's TCCCPR rules.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://theprint.in/india/no-more-unknown-callers-govt-makes-caller-name-display-mandatory-from-1-november/3072774/",
+      "published_date": "2026-10-15",
+      "quote": "In a circular dated 13 October... [operators] shall provide the calling name presentation service to each user"
+     },
+     {
+      "url": "https://www.voicendata.com/telecom/dot-sets-november-1-deadline-for-caller-name-display-12681309",
+      "published_date": "2026-10-16",
+      "quote": "Unlike third-party caller identification applications, CNAP will rely on subscriber information held by telecom operators."
+     },
+     {
+      "url": "https://www.business-standard.com/industry/news/cnap-service-nationwide-rollout-by-march-2026-dot-trai-telecom-125102901190_1.html",
+      "published_date": "2025-10-29",
+      "quote": "DoT sets March 2026 deadline for pan-India rollout of CNAP service"
+     },
+     {
+      "url": "https://cms.trai.gov.in/sites/default/files/2025-02/PR_No.11of2025.pdf",
+      "published_date": "2025-02-12",
+      "quote": "Telecom operators are required to deploy honeypots which are dedicated numbers that attract and log spam calls and messages, to analyze emerging spam trends and take pre-emptive action against suspected spammers."
+     },
+     {
+      "url": "https://upstox.com/news/business-news/latest-updates/trai-tightens-spam-rules-when-can-telcos-block-callers-and-disconnect-numbers/article-201041/",
+      "published_date": "2026",
+      "quote": "All telecom operators within one day will need to check within their system if there are other connections within their network linked to the suspected spammer in the last 10 days."
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "4205a5e4907bb7431805056cacc469964a4993c4": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Wrong: 'People in India stopped picking up unknown numbers years before the CNAP rule came.'. What's true: Only a minority avoided unknown calls in the 2022 survey. 42% picked up and then blocked the caller, and 21% answered and told them not to call. Just 14% skipped calls using a caller-ID app, and 14% answered only numbers saved in their phone book.."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "From 1 November, telecom operators in India must display the caller's name on calls on 4G and newer networks.",
+      "sentence": "From 1 November, operators must show the caller's name on 4G and newer networks.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c2",
+      "text": "The caller name display feature is called CNAP (Calling Name Presentation).",
+      "sentence": "It's called CNAP.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "The rule applies to 4G and newer networks.",
+      "sentence": "operators must show the caller's name on 4G and newer networks.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Operators are now also required to flag likely spam calls.",
+      "sentence": "To be fair, operators also have to flag likely spam now.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c5",
+      "text": "A spam call costs the caller next to nothing, so spam calling is a volume business of thousands of calls hoping a few people answer.",
+      "sentence": "A spam call costs the caller next to nothing. So the business is volume: thousands of calls, hoping a few people answer.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "The CNAP name display is only as reliable as the database behind it, and a displayed name does not guarantee the call is safe.",
+      "sentence": "It's only as good as the database behind it, and a name is not a promise the call is safe.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "Indian users have long been receiving spam calls such as pre-approved loan offers and fake KYC expiry calls.",
+      "sentence": "Years of \"Sir, pre-approved loan\" and \"Madam, your KYC is expiring\" taught us one thing.",
+      "type": "event",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c8",
+      "text": "Answering a wrong call can cost a person about ten minutes or their OTP.",
+      "sentence": "Picking up the wrong one costs ten minutes, or your OTP.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c9",
+      "text": "Central argument: spam is nearly free to send but costly to answer, so ignoring unknown calls is the cheapest defence; a name display does not change that, so CNAP will not make people answer unknown calls until trust in ringing phones returns.",
+      "sentence": "A name doesn't change that maths.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c10",
+      "text": "People in India stopped picking up unknown numbers years before the CNAP rule came.",
+      "sentence": "You stopped picking up unknown numbers years before the rule came.",
+      "type": "event",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c11",
+      "text": "CNAP was introduced through a government circular.",
+      "sentence": "That takes years, not one circular.",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "current"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "correct": "DoT circular dated 13 Oct 2026 (first reported about 15 Oct) directs operators to provide CNAP from 1 Nov 2026 on 4G and newer networks. Callers who have activated CLIR are not shown.",
+      "sources": [
+       {
+        "url": "https://theprint.in/india/no-more-unknown-callers-govt-makes-caller-name-display-mandatory-from-1-november/3072774/",
+        "publisher": "ThePrint",
+        "published_date": "2026-10-15",
+        "quote": "cellphone users on 4G and 5G networks will see the name",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "sources": [
+       {
+        "url": "https://www.outlookmoney.com/news/caller-name-display-on-mobile-networks-to-be-mandatory-in-india-from-november-1",
+        "publisher": "Outlook Money",
+        "published_date": "2026-10-20",
+        "quote": "introduce Calling Name Presentation (CNAP) across 4G and newer mobile networks",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "correct": "It covers 4G and newer networks. 2G, 3G and landlines are not covered, and DoT will consider those separately.",
+      "sources": [
+       {
+        "url": "https://www.outlookmoney.com/news/caller-name-display-on-mobile-networks-to-be-mandatory-in-india-from-november-1",
+        "publisher": "Outlook Money",
+        "published_date": "2026-10-20",
+        "quote": "The DoT will consider any rollout on 2G and 3G networks separately.",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "2026-09-28",
+      "correct": "The duty comes from TRAI's Third Amendment Regulations 2026, notified about 28 Sep 2026, not from the CNAP circular. Operators' AI/ML systems flag suspected spam calls and the operators must act on those flags. The rules stop short of mandating automatic blocking. I could not confirm that users are notified of each flagged call.",
+      "sources": [
+       {
+        "url": "https://indianinfrastructure.com/2026/09/29/trai-mandates-telcos-to-act-against-ai-flagged-spammers/",
+        "publisher": "Indian Infrastructure",
+        "published_date": "2026-09-29",
+        "quote": "When a telecom operator receives an incoming call that its AI or ML-enabled system flags as 'suspected spam,' it must share details of the call with the originating access provider within two hours.",
+        "tier": 3
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "sources": [
+       {
+        "url": "https://www.outlookmoney.com/news/caller-name-display-on-mobile-networks-to-be-mandatory-in-india-from-november-1",
+        "publisher": "Outlook Money",
+        "published_date": "2026-10-20",
+        "quote": "does not guarantee that a call is safe or not, nor does it eliminate spam and impersonation chances.",
+        "tier": 2
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "supported",
+      "event_date": "2022-05-17",
+      "correct": "Spam calls selling financial services were the most common type in the 2022 LocalCircles survey (51%). That survey does not name loan offers or KYC calls specifically.",
+      "sources": [
+       {
+        "url": "https://localcircles.com/a/press/page/spam-calls-2022-survey",
+        "publisher": "LocalCircles",
+        "published_date": "2022-05-17",
+        "quote": "Selling financial services",
+        "tier": 3
+       }
+      ]
+     },
+     "c10": {
+      "id": "c10",
+      "verdict": "contradicted",
+      "event_date": "2022-05-17",
+      "correct": "Only a minority avoided unknown calls in the 2022 survey. 42% picked up and then blocked the caller, and 21% answered and told them not to call. Just 14% skipped calls using a caller-ID app, and 14% answered only numbers saved in their phone book.",
+      "sources": [
+       {
+        "url": "https://localcircles.com/a/press/page/spam-calls-2022-survey",
+        "publisher": "LocalCircles",
+        "published_date": "2022-05-17",
+        "quote": "42% pick up and then block the caller; 14% use an app that identifies the caller and skip those calls; 14% answer only numbers saved in their phone book.",
+        "tier": 3
+       }
+      ]
+     },
+     "c11": {
+      "id": "c11",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "sources": [
+       {
+        "url": "https://theprint.in/india/no-more-unknown-callers-govt-makes-caller-name-display-mandatory-from-1-november/3072774/",
+        "publisher": "ThePrint",
+        "published_date": "2026-10-15",
+        "quote": "circular dated 13 October 2026, issued by the Department of Telecommunications' Licensing Policy Wing, with the service due to start on 1 November",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None of the four listed premises fails. The rule matches primary reporting: a DoT circular dated 13 October 2026 makes CNAP mandatory from 1 November 2026, on 4G and newer networks only, and on by default. 'Spam is cheap to send' and 'answering can cost ten minutes or an OTP' are fair generalizations, not false claims about how a price or product works. There is one side claim to check before publishing. Slide 7 says operators 'also have to flag likely spam now'. Neither the CNAP circular nor the coverage of it requires any 'likely spam' label. TRAI's TCCCPR amendments require operators to run honeypots, detect suspected spammers with AI and act against them, but the summaries I found describe no on-screen spam warning. That line is a concession, not part of the argument, so the take does not depend on it. It should still be reworded, e.g. 'operators also have to hunt down and cut off spammers', or removed unless the editors can find a regulation that actually requires a label.",
+     "actual_mechanism": "Under the 13 October 2026 DoT circular, every access operator must show caller names to all users on 4G/5G from 1 November 2026, without anyone having to ask for it. 2G, 3G and landlines will be dealt with separately. When a number isn't saved in your contacts, the name shown is the one the caller's operator recorded at the KYC check. If you have saved the number, your contact name shows instead, and international calls show 'International Call'. So the name tells you whose identity documents were used to get the SIM, not whether the call is safe. That backs the post's point that a name doesn't change the cost of picking up, while spam controls are handled separately under TRAI's TCCCPR rules.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://theprint.in/india/no-more-unknown-callers-govt-makes-caller-name-display-mandatory-from-1-november/3072774/",
+       "published_date": "2026-10-15",
+       "quote": "In a circular dated 13 October... [operators] shall provide the calling name presentation service to each user"
+      },
+      {
+       "url": "https://www.voicendata.com/telecom/dot-sets-november-1-deadline-for-caller-name-display-12681309",
+       "published_date": "2026-10-16",
+       "quote": "Unlike third-party caller identification applications, CNAP will rely on subscriber information held by telecom operators."
+      },
+      {
+       "url": "https://www.business-standard.com/industry/news/cnap-service-nationwide-rollout-by-march-2026-dot-trai-telecom-125102901190_1.html",
+       "published_date": "2025-10-29",
+       "quote": "DoT sets March 2026 deadline for pan-India rollout of CNAP service"
+      },
+      {
+       "url": "https://cms.trai.gov.in/sites/default/files/2025-02/PR_No.11of2025.pdf",
+       "published_date": "2025-02-12",
+       "quote": "Telecom operators are required to deploy honeypots which are dedicated numbers that attract and log spam calls and messages, to analyze emerging spam trends and take pre-emptive action against suspected spammers."
+      },
+      {
+       "url": "https://upstox.com/news/business-news/latest-updates/trai-tightens-spam-rules-when-can-telcos-block-callers-and-disconnect-numbers/article-201041/",
+       "published_date": "2026",
+       "quote": "All telecom operators within one day will need to check within their system if there are other connections within their network linked to the suspected spammer in the last 10 days."
+      }
+     ]
+    },
+    "text_hash": "4205a5e4907bb7431805056cacc469964a4993c4",
+    "at": "2026-11-15T15:13:09.315059+00:00"
+   },
+   "d858d789112f1b623296810358adb4b89c2ebc7b": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Wrong: 'Telecom operators in India are now required to show a spam flag on incoming calls.'. What's true: TRAI's 2026 amendment requires the receiving operator's AI/ML system to flag suspected spam. The operator must pass that flag to the originating operator within two hours and act against the sender, for example with a 15-day outgoing bar. Coverage I found does not describe any requirement to show a spam flag or label to the person receiving the call. The only CNAP duty is showing the caller's name, from 1 November 2026.."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "From 1 November, telecom operators in India must display the caller's name on calls on 4G and newer networks.",
+      "sentence": "From 1 November, operators must show the caller's name on 4G and newer networks.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c2",
+      "text": "The caller name display feature is called CNAP (Calling Name Presentation).",
+      "sentence": "It's called CNAP.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "The rule applies to 4G and newer networks.",
+      "sentence": "operators must show the caller's name on 4G and newer networks.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Indian users have long been receiving spam calls such as pre-approved loan offers and fake KYC expiry calls.",
+      "sentence": "Years of \"Sir, pre-approved loan\" and \"Madam, your KYC is expiring\" taught us one thing.",
+      "type": "event",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c5",
+      "text": "CNAP was introduced through a government circular.",
+      "sentence": "That takes years, not one circular.",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c6",
+      "text": "Spam callers pay almost nothing per call, so they make calls in huge volume and rely on the few people who pick up. This leaves the recipient to bear the cost of deciding whether to answer. A caller's name on screen does not change that, so CNAP will not make people trust unknown calls.",
+      "sentence": "Blame the maths. A spam call costs the caller next to nothing, so they play volume. Thousands of calls, for the few people who pick up.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "In a 2022 LocalCircles survey, 42% of respondents said they pick up unknown calls and then block the number.",
+      "sentence": "42% said so in a 2022 LocalCircles survey.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c8",
+      "text": "In that LocalCircles survey, picking up and then blocking was the most common way people dealt with unknown calls.",
+      "sentence": "The most common one is pick up, then block.",
+      "type": "superlative",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c9",
+      "text": "The caller names that CNAP displays are only as accurate as the database they are drawn from.",
+      "sentence": "It's only as good as the database behind it.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c10",
+      "text": "Telecom operators in India are now required to show a spam flag on incoming calls.",
+      "sentence": "The spam flag operators now have to show?",
+      "type": "feature",
+      "core": false,
+      "framed_as": "current"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "correct": "DoT circular dated 13 Oct 2026 (first reported about 15 Oct) directs operators to provide CNAP from 1 Nov 2026 on 4G and newer networks. Callers who have activated CLIR are not shown.",
+      "sources": [
+       {
+        "url": "https://theprint.in/india/no-more-unknown-callers-govt-makes-caller-name-display-mandatory-from-1-november/3072774/",
+        "publisher": "ThePrint",
+        "published_date": "2026-10-15",
+        "quote": "cellphone users on 4G and 5G networks will see the name",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "sources": [
+       {
+        "url": "https://www.outlookmoney.com/news/caller-name-display-on-mobile-networks-to-be-mandatory-in-india-from-november-1",
+        "publisher": "Outlook Money",
+        "published_date": "2026-10-20",
+        "quote": "introduce Calling Name Presentation (CNAP) across 4G and newer mobile networks",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "correct": "It covers 4G and newer networks. 2G, 3G and landlines are not covered, and DoT will consider those separately.",
+      "sources": [
+       {
+        "url": "https://www.outlookmoney.com/news/caller-name-display-on-mobile-networks-to-be-mandatory-in-india-from-november-1",
+        "publisher": "Outlook Money",
+        "published_date": "2026-10-20",
+        "quote": "The DoT will consider any rollout on 2G and 3G networks separately.",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c7",
+      "verdict": "supported",
+      "event_date": "2022-05-17",
+      "correct": "Spam calls selling financial services were the most common type in the 2022 LocalCircles survey (51%). That survey does not name loan offers or KYC calls specifically.",
+      "sources": [
+       {
+        "url": "https://localcircles.com/a/press/page/spam-calls-2022-survey",
+        "publisher": "LocalCircles",
+        "published_date": "2022-05-17",
+        "quote": "Selling financial services",
+        "tier": 3
+       }
+      ]
+     },
+     "c5": {
+      "id": "c11",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "sources": [
+       {
+        "url": "https://theprint.in/india/no-more-unknown-callers-govt-makes-caller-name-display-mandatory-from-1-november/3072774/",
+        "publisher": "ThePrint",
+        "published_date": "2026-10-15",
+        "quote": "circular dated 13 October 2026, issued by the Department of Telecommunications' Licensing Policy Wing, with the service due to start on 1 November",
+        "tier": 2
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "supported",
+      "event_date": "2022-05-17",
+      "correct": "",
+      "sources": [
+       {
+        "url": "https://localcircles.com/a/press/page/spam-calls-2022-survey",
+        "publisher": "LocalCircles",
+        "published_date": "2022-05-17",
+        "quote": "pick up such calls and then block them (42%)",
+        "tier": 1
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "supported",
+      "event_date": "2022-05-17",
+      "correct": "42% is the largest share. The next largest is 21%, who answer and ask the caller to stop phoning. 14% use a caller-ID app and skip the call, and 14% answer only numbers in their phone book.",
+      "sources": [
+       {
+        "url": "https://localcircles.com/a/press/page/spam-calls-2022-survey",
+        "publisher": "LocalCircles",
+        "published_date": "2022-05-17",
+        "quote": "pick up such calls and then block them (42%)",
+        "tier": 1
+       }
+      ]
+     },
+     "c9": {
+      "id": "c9",
+      "verdict": "supported",
+      "correct": "CNAP shows the name tied to the caller's number in the operator or KYC records. A displayed name does not eliminate spam or impersonation, so its accuracy depends on that data. I did not fetch the article myself and am relying on the lead's summary of it.",
+      "sources": [
+       {
+        "url": "https://www.outlookmoney.com/news/caller-name-display-on-mobile-networks-to-be-mandatory-in-india-from-november-1",
+        "publisher": "Outlook Money",
+        "published_date": "2026-10-20",
+        "quote": "a displayed name does not eliminate spam or impersonation (summary of the article, not a verbatim quote)",
+        "tier": 2
+       }
+      ]
+     },
+     "c10": {
+      "id": "c10",
+      "verdict": "contradicted",
+      "event_date": "2026-09-18",
+      "correct": "TRAI's 2026 amendment requires the receiving operator's AI/ML system to flag suspected spam. The operator must pass that flag to the originating operator within two hours and act against the sender, for example with a 15-day outgoing bar. Coverage I found does not describe any requirement to show a spam flag or label to the person receiving the call. The only CNAP duty is showing the caller's name, from 1 November 2026.",
+      "sources": [
+       {
+        "url": "https://www.onmanorama.com/news/business/2026/09/29/trai-directs-telcos-to-act-against-spammers-without-complaints.html",
+        "publisher": "Onmanorama",
+        "published_date": "2026-09-29",
+        "quote": "The new regulations will come into force one month after their publication in the Gazette.",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None of the four listed premises fails. The rule matches primary reporting: a DoT circular dated 13 October 2026 makes CNAP mandatory from 1 November 2026, on 4G and newer networks only, and on by default. 'Spam is cheap to send' and 'answering can cost ten minutes or an OTP' are fair generalizations, not false claims about how a price or product works. There is one side claim to check before publishing. Slide 7 says operators 'also have to flag likely spam now'. Neither the CNAP circular nor the coverage of it requires any 'likely spam' label. TRAI's TCCCPR amendments require operators to run honeypots, detect suspected spammers with AI and act against them, but the summaries I found describe no on-screen spam warning. That line is a concession, not part of the argument, so the take does not depend on it. It should still be reworded, e.g. 'operators also have to hunt down and cut off spammers', or removed unless the editors can find a regulation that actually requires a label.",
+     "actual_mechanism": "Under the 13 October 2026 DoT circular, every access operator must show caller names to all users on 4G/5G from 1 November 2026, without anyone having to ask for it. 2G, 3G and landlines will be dealt with separately. When a number isn't saved in your contacts, the name shown is the one the caller's operator recorded at the KYC check. If you have saved the number, your contact name shows instead, and international calls show 'International Call'. So the name tells you whose identity documents were used to get the SIM, not whether the call is safe. That backs the post's point that a name doesn't change the cost of picking up, while spam controls are handled separately under TRAI's TCCCPR rules.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://theprint.in/india/no-more-unknown-callers-govt-makes-caller-name-display-mandatory-from-1-november/3072774/",
+       "published_date": "2026-10-15",
+       "quote": "In a circular dated 13 October... [operators] shall provide the calling name presentation service to each user"
+      },
+      {
+       "url": "https://www.voicendata.com/telecom/dot-sets-november-1-deadline-for-caller-name-display-12681309",
+       "published_date": "2026-10-16",
+       "quote": "Unlike third-party caller identification applications, CNAP will rely on subscriber information held by telecom operators."
+      },
+      {
+       "url": "https://www.business-standard.com/industry/news/cnap-service-nationwide-rollout-by-march-2026-dot-trai-telecom-125102901190_1.html",
+       "published_date": "2025-10-29",
+       "quote": "DoT sets March 2026 deadline for pan-India rollout of CNAP service"
+      },
+      {
+       "url": "https://cms.trai.gov.in/sites/default/files/2025-02/PR_No.11of2025.pdf",
+       "published_date": "2025-02-12",
+       "quote": "Telecom operators are required to deploy honeypots which are dedicated numbers that attract and log spam calls and messages, to analyze emerging spam trends and take pre-emptive action against suspected spammers."
+      },
+      {
+       "url": "https://upstox.com/news/business-news/latest-updates/trai-tightens-spam-rules-when-can-telcos-block-callers-and-disconnect-numbers/article-201041/",
+       "published_date": "2026",
+       "quote": "All telecom operators within one day will need to check within their system if there are other connections within their network linked to the suspected spammer in the last 10 days."
+      }
+     ]
+    },
+    "text_hash": "d858d789112f1b623296810358adb4b89c2ebc7b",
+    "at": "2026-11-15T15:16:16.016316+00:00"
+   },
+   "458355b10a851e0fbff7cf1b7cd6f990642aa3da": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not verify: 'The AI spam flagging and warning by operators happens before the phone rings, i.e. at the network level before the call reaches the user.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "From 1 November, telecom operators in India must display the caller's name on calls on 4G and newer networks.",
+      "sentence": "From 1 November, operators must show the caller's name on 4G and newer networks.",
+      "type": "event",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c2",
+      "text": "The caller name display feature is called CNAP (Calling Name Presentation).",
+      "sentence": "It's called CNAP.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "The rule applies to 4G and newer networks.",
+      "sentence": "operators must show the caller's name on 4G and newer networks.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Indian users have long been receiving spam calls such as pre-approved loan offers and fake KYC expiry calls.",
+      "sentence": "Years of \"Sir, pre-approved loan\" and \"Madam, your KYC is expiring\" taught us one thing.",
+      "type": "event",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c5",
+      "text": "CNAP was introduced through a government circular.",
+      "sentence": "That takes years, not one circular.",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c6",
+      "text": "In that LocalCircles survey, picking up and then blocking was the most common way people dealt with unknown calls.",
+      "sentence": "The most common one is pick up, then block.",
+      "type": "superlative",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c7",
+      "text": "A 2022 LocalCircles survey found that 42% of respondents admitted to picking up unknown calls and then blocking the number.",
+      "sentence": "The most common one is pick up, then block. 42% admitted it in a 2022 LocalCircles survey.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c8",
+      "text": "In the 2022 LocalCircles survey, pick up and then block was the most common way respondents dealt with unknown calls.",
+      "sentence": "The most common one is pick up, then block. 42% admitted it in a 2022 LocalCircles survey.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c9",
+      "text": "Operators in India are now required to run AI to flag likely spam numbers and warn users.",
+      "sentence": "Operators now have to run AI to flag likely spam numbers and warn you.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c10",
+      "text": "The AI spam flagging and warning by operators happens before the phone rings, i.e. at the network level before the call reaches the user.",
+      "sentence": "What might help happens before your phone rings.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c11",
+      "text": "A spam call costs the caller almost nothing.",
+      "sentence": "A spam call costs the caller almost nothing.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c12",
+      "text": "Spam callers make thousands of calls to reach the few people who pick up.",
+      "sentence": "Thousands of calls, for the few people who pick up.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c13",
+      "text": "Mechanism: Premises: (1) spam calls cost the caller almost nothing, so spammers play on volume; (2) the cost of deciding whether each call is safe falls on the recipient; (3) years of unwanted loan and KYC calls have taught people that unexpected calls want something; (4) a caller name does not make a call safe. Conclusion: showing the caller's name (CNAP) will not make people answer unknown calls, because trust in a ringing phone will take years to rebuild.",
+      "sentence": "Caller ID won't fix spam calls. We stopped trusting a ringing phone long before the name showed up.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "correct": "DoT circular dated 13 Oct 2026 (first reported about 15 Oct) directs operators to provide CNAP from 1 Nov 2026 on 4G and newer networks. Callers who have activated CLIR are not shown.",
+      "sources": [
+       {
+        "url": "https://theprint.in/india/no-more-unknown-callers-govt-makes-caller-name-display-mandatory-from-1-november/3072774/",
+        "publisher": "ThePrint",
+        "published_date": "2026-10-15",
+        "quote": "cellphone users on 4G and 5G networks will see the name",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "sources": [
+       {
+        "url": "https://www.outlookmoney.com/news/caller-name-display-on-mobile-networks-to-be-mandatory-in-india-from-november-1",
+        "publisher": "Outlook Money",
+        "published_date": "2026-10-20",
+        "quote": "introduce Calling Name Presentation (CNAP) across 4G and newer mobile networks",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "correct": "It covers 4G and newer networks. 2G, 3G and landlines are not covered, and DoT will consider those separately.",
+      "sources": [
+       {
+        "url": "https://www.outlookmoney.com/news/caller-name-display-on-mobile-networks-to-be-mandatory-in-india-from-november-1",
+        "publisher": "Outlook Money",
+        "published_date": "2026-10-20",
+        "quote": "The DoT will consider any rollout on 2G and 3G networks separately.",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c7",
+      "verdict": "supported",
+      "event_date": "2022-05-17",
+      "correct": "Spam calls selling financial services were the most common type in the 2022 LocalCircles survey (51%). That survey does not name loan offers or KYC calls specifically.",
+      "sources": [
+       {
+        "url": "https://localcircles.com/a/press/page/spam-calls-2022-survey",
+        "publisher": "LocalCircles",
+        "published_date": "2022-05-17",
+        "quote": "Selling financial services",
+        "tier": 3
+       }
+      ]
+     },
+     "c5": {
+      "id": "c11",
+      "verdict": "supported",
+      "event_date": "2026-10-13",
+      "sources": [
+       {
+        "url": "https://theprint.in/india/no-more-unknown-callers-govt-makes-caller-name-display-mandatory-from-1-november/3072774/",
+        "publisher": "ThePrint",
+        "published_date": "2026-10-15",
+        "quote": "circular dated 13 October 2026, issued by the Department of Telecommunications' Licensing Policy Wing, with the service due to start on 1 November",
+        "tier": 2
+       }
+      ]
+     },
+     "c6": {
+      "id": "c8",
+      "verdict": "supported",
+      "event_date": "2022-05-17",
+      "correct": "42% is the largest share. The next largest is 21%, who answer and ask the caller to stop phoning. 14% use a caller-ID app and skip the call, and 14% answer only numbers in their phone book.",
+      "sources": [
+       {
+        "url": "https://localcircles.com/a/press/page/spam-calls-2022-survey",
+        "publisher": "LocalCircles",
+        "published_date": "2022-05-17",
+        "quote": "pick up such calls and then block them (42%)",
+        "tier": 1
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "supported",
+      "event_date": "2022-05-17",
+      "sources": [
+       {
+        "url": "https://localcircles.com/a/press/page/spam-calls-2022-survey",
+        "publisher": "LocalCircles",
+        "published_date": "2022-05-17",
+        "quote": "There were also 42% of citizens who said they pick up such calls and then block them.",
+        "tier": 1
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "supported",
+      "event_date": "2022-05-17",
+      "sources": [
+       {
+        "url": "https://localcircles.com/a/press/page/spam-calls-2022-survey",
+        "publisher": "LocalCircles",
+        "published_date": "2022-05-17",
+        "quote": "There were also 42% of citizens who said they pick up such calls and then block them. (next highest: answer and tell callers not to call again, 21%; all others 14% or lower)",
+        "tier": 1
+       }
+      ]
+     },
+     "c9": {
+      "id": "c9",
+      "verdict": "supported",
+      "event_date": "2026-02-27",
+      "correct": "TRAI's direction of 27 Feb 2026 (effective 29 Mar 2026) requires operators to run AI/ML spam detection. A Sept 2026 amendment requires action on AI-flagged senders without a complaint. A user-alert duty is only indirectly sourced (Khaitan note: operators alert subscribers).",
+      "sources": [
+       {
+        "url": "https://www.deccanchronicle.com/amp/business/trai-tightens-anti-spam-rules-brings-ai-based-detection-automated-calls-under-framework-1988473",
+        "publisher": "Deccan Chronicle",
+        "published_date": "2026-09-18",
+        "quote": "flagged by the TSP's AI/ML system as suspected UCC",
+        "tier": 2
+       }
+      ]
+     },
+     "c10": {
+      "id": "c10",
+      "verdict": "unverifiable",
+      "correct": "Sources describe AI flagging at operator level and sharing flagged numbers between operators. None I could read says warnings are delivered before the phone rings. The TRAI direction itself was not read.",
+      "sources": [
+       {
+        "url": "https://www.deccanchronicle.com/amp/business/trai-tightens-anti-spam-rules-brings-ai-based-detection-automated-calls-under-framework-1988473",
+        "publisher": "Deccan Chronicle",
+        "published_date": "2026-09-18",
+        "quote": "Operators must identify numbers likely used for spam and share that information with other operators.",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None of the four listed premises fails. The rule matches primary reporting: a DoT circular dated 13 October 2026 makes CNAP mandatory from 1 November 2026, on 4G and newer networks only, and on by default. 'Spam is cheap to send' and 'answering can cost ten minutes or an OTP' are fair generalizations, not false claims about how a price or product works. There is one side claim to check before publishing. Slide 7 says operators 'also have to flag likely spam now'. Neither the CNAP circular nor the coverage of it requires any 'likely spam' label. TRAI's TCCCPR amendments require operators to run honeypots, detect suspected spammers with AI and act against them, but the summaries I found describe no on-screen spam warning. That line is a concession, not part of the argument, so the take does not depend on it. It should still be reworded, e.g. 'operators also have to hunt down and cut off spammers', or removed unless the editors can find a regulation that actually requires a label.",
+     "actual_mechanism": "Under the 13 October 2026 DoT circular, every access operator must show caller names to all users on 4G/5G from 1 November 2026, without anyone having to ask for it. 2G, 3G and landlines will be dealt with separately. When a number isn't saved in your contacts, the name shown is the one the caller's operator recorded at the KYC check. If you have saved the number, your contact name shows instead, and international calls show 'International Call'. So the name tells you whose identity documents were used to get the SIM, not whether the call is safe. That backs the post's point that a name doesn't change the cost of picking up, while spam controls are handled separately under TRAI's TCCCPR rules.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://theprint.in/india/no-more-unknown-callers-govt-makes-caller-name-display-mandatory-from-1-november/3072774/",
+       "published_date": "2026-10-15",
+       "quote": "In a circular dated 13 October... [operators] shall provide the calling name presentation service to each user"
+      },
+      {
+       "url": "https://www.voicendata.com/telecom/dot-sets-november-1-deadline-for-caller-name-display-12681309",
+       "published_date": "2026-10-16",
+       "quote": "Unlike third-party caller identification applications, CNAP will rely on subscriber information held by telecom operators."
+      },
+      {
+       "url": "https://www.business-standard.com/industry/news/cnap-service-nationwide-rollout-by-march-2026-dot-trai-telecom-125102901190_1.html",
+       "published_date": "2025-10-29",
+       "quote": "DoT sets March 2026 deadline for pan-India rollout of CNAP service"
+      },
+      {
+       "url": "https://cms.trai.gov.in/sites/default/files/2025-02/PR_No.11of2025.pdf",
+       "published_date": "2025-02-12",
+       "quote": "Telecom operators are required to deploy honeypots which are dedicated numbers that attract and log spam calls and messages, to analyze emerging spam trends and take pre-emptive action against suspected spammers."
+      },
+      {
+       "url": "https://upstox.com/news/business-news/latest-updates/trai-tightens-spam-rules-when-can-telcos-block-callers-and-disconnect-numbers/article-201041/",
+       "published_date": "2026",
+       "quote": "All telecom operators within one day will need to check within their system if there are other connections within their network linked to the suspected spammer in the last 10 days."
+      }
+     ]
+    },
+    "text_hash": "458355b10a851e0fbff7cf1b7cd6f990642aa3da",
+    "at": "2026-11-15T15:18:57.230924+00:00"
+   }
+  },
+  "In a 2022 LocalCircles survey, 42% of respondents said they pick up unknown calls and then block the number.": {
+   "id": "c7",
+   "verdict": "supported",
+   "event_date": "2022-05-17",
+   "correct": "",
+   "sources": [
+    {
+     "url": "https://localcircles.com/a/press/page/spam-calls-2022-survey",
+     "publisher": "LocalCircles",
+     "published_date": "2022-05-17",
+     "quote": "pick up such calls and then block them (42%)",
+     "tier": 1
+    }
+   ]
+  },
+  "In that LocalCircles survey, picking up and then blocking was the most common way people dealt with unknown calls.": {
+   "id": "c8",
+   "verdict": "supported",
+   "event_date": "2022-05-17",
+   "correct": "42% is the largest share. The next largest is 21%, who answer and ask the caller to stop phoning. 14% use a caller-ID app and skip the call, and 14% answer only numbers in their phone book.",
+   "sources": [
+    {
+     "url": "https://localcircles.com/a/press/page/spam-calls-2022-survey",
+     "publisher": "LocalCircles",
+     "published_date": "2022-05-17",
+     "quote": "pick up such calls and then block them (42%)",
+     "tier": 1
+    }
+   ]
+  },
+  "The caller names that CNAP displays are only as accurate as the database they are drawn from.": {
+   "id": "c9",
+   "verdict": "supported",
+   "correct": "CNAP shows the name tied to the caller's number in the operator or KYC records. A displayed name does not eliminate spam or impersonation, so its accuracy depends on that data. I did not fetch the article myself and am relying on the lead's summary of it.",
+   "sources": [
+    {
+     "url": "https://www.outlookmoney.com/news/caller-name-display-on-mobile-networks-to-be-mandatory-in-india-from-november-1",
+     "publisher": "Outlook Money",
+     "published_date": "2026-10-20",
+     "quote": "a displayed name does not eliminate spam or impersonation (summary of the article, not a verbatim quote)",
+     "tier": 2
+    }
+   ]
+  },
+  "Telecom operators in India are now required to show a spam flag on incoming calls.": {
+   "id": "c10",
+   "verdict": "contradicted",
+   "event_date": "2026-09-18",
+   "correct": "TRAI's 2026 amendment requires the receiving operator's AI/ML system to flag suspected spam. The operator must pass that flag to the originating operator within two hours and act against the sender, for example with a 15-day outgoing bar. Coverage I found does not describe any requirement to show a spam flag or label to the person receiving the call. The only CNAP duty is showing the caller's name, from 1 November 2026.",
+   "sources": [
+    {
+     "url": "https://www.onmanorama.com/news/business/2026/09/29/trai-directs-telcos-to-act-against-spammers-without-complaints.html",
+     "publisher": "Onmanorama",
+     "published_date": "2026-09-29",
+     "quote": "The new regulations will come into force one month after their publication in the Gazette.",
+     "tier": 2
+    }
+   ]
+  },
+  "A 2022 LocalCircles survey found that 42% of respondents admitted to picking up unknown calls and then blocking the number.": {
+   "id": "c7",
+   "verdict": "supported",
+   "event_date": "2022-05-17",
+   "sources": [
+    {
+     "url": "https://localcircles.com/a/press/page/spam-calls-2022-survey",
+     "publisher": "LocalCircles",
+     "published_date": "2022-05-17",
+     "quote": "There were also 42% of citizens who said they pick up such calls and then block them.",
+     "tier": 1
+    }
+   ]
+  },
+  "In the 2022 LocalCircles survey, pick up and then block was the most common way respondents dealt with unknown calls.": {
+   "id": "c8",
+   "verdict": "supported",
+   "event_date": "2022-05-17",
+   "sources": [
+    {
+     "url": "https://localcircles.com/a/press/page/spam-calls-2022-survey",
+     "publisher": "LocalCircles",
+     "published_date": "2022-05-17",
+     "quote": "There were also 42% of citizens who said they pick up such calls and then block them. (next highest: answer and tell callers not to call again, 21%; all others 14% or lower)",
+     "tier": 1
+    }
+   ]
+  },
+  "Operators in India are now required to run AI to flag likely spam numbers and warn users.": {
+   "id": "c9",
+   "verdict": "supported",
+   "event_date": "2026-02-27",
+   "correct": "TRAI's direction of 27 Feb 2026 (effective 29 Mar 2026) requires operators to run AI/ML spam detection. A Sept 2026 amendment requires action on AI-flagged senders without a complaint. A user-alert duty is only indirectly sourced (Khaitan note: operators alert subscribers).",
+   "sources": [
+    {
+     "url": "https://www.deccanchronicle.com/amp/business/trai-tightens-anti-spam-rules-brings-ai-based-detection-automated-calls-under-framework-1988473",
+     "publisher": "Deccan Chronicle",
+     "published_date": "2026-09-18",
+     "quote": "flagged by the TSP's AI/ML system as suspected UCC",
+     "tier": 2
+    }
+   ]
+  },
+  "The AI spam flagging and warning by operators happens before the phone rings, i.e. at the network level before the call reaches the user.": {
+   "id": "c10",
+   "verdict": "unverifiable",
+   "correct": "Sources describe AI flagging at operator level and sharing flagged numbers between operators. None I could read says warnings are delivered before the phone rings. The TRAI direction itself was not read.",
+   "sources": [
+    {
+     "url": "https://www.deccanchronicle.com/amp/business/trai-tightens-anti-spam-rules-brings-ai-based-detection-automated-calls-under-framework-1988473",
+     "publisher": "Deccan Chronicle",
+     "published_date": "2026-09-18",
+     "quote": "Operators must identify numbers likely used for spam and share that information with other operators.",
+     "tier": 2
+    }
+   ]
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "Your phone shows the caller's name now. You still [won't pick up].",
+   "sub": "We stopped trusting unknown numbers years before this rule showed up."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Your phone will now tell you who's calling. You still won't pick up.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "Why would a name on the screen not be enough?"
+   },
+   {
+    "paragraphs": [
+     "From 1 November, operators must show the caller's name on 4G and newer networks. It's called CNAP.",
+     "The idea is simple. You see a name, you trust the call, you answer."
+    ],
+    "why_swipe": "Sounds sensible, so what's the catch?"
+   },
+   {
+    "paragraphs": [
+     "We already have a whole etiquette for unknown numbers. Phone goes face down till the text comes. Friends send \"call?\" before calling. Even the delivery guy rings twice, then gives up and sends a WhatsApp voice note."
+    ],
+    "why_swipe": "Why did we all end up doing this?"
+   },
+   {
+    "paragraphs": [
+     "And when you do call back, you search the number first. Like a background check for a stranger who might just be your courier."
+    ],
+    "why_swipe": "What made us this careful?"
+   },
+   {
+    "paragraphs": [
+     "Blame the maths. A spam call costs the caller next to nothing, so they play volume. Thousands of calls, for the few people who pick up."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "The real cost lands on you. Every ring is a small decision. Courier, loan offer, or scam?"
+    ],
+    "why_swipe": "So how did we handle that cost?"
+   },
+   {
+    "paragraphs": [
+     "So we all have a move. The most common one is pick up, then block. 42% admitted it in a 2022 LocalCircles survey.",
+     "Letting it ring costs nothing. Picking up the wrong one costs ten minutes, or your OTP."
+    ],
+    "why_swipe": "Doesn't the new name fix that maths?"
+   },
+   {
+    "paragraphs": [
+     "A name doesn't change that maths. And a name on the screen doesn't mean the call is safe.",
+     "What might help happens before your phone rings. Operators now have to run AI to flag likely spam numbers and warn you."
+    ],
+    "why_swipe": "Then are we just being rude?"
+   },
+   {
+    "paragraphs": [
+     "This isn't rudeness. It's tiredness.",
+     "Years of \"Sir, pre-approved loan\" and \"Madam, your KYC is expiring\" taught us one thing. An unexpected call usually wants something from you."
+    ],
+    "why_swipe": "So when will we start picking up again?"
+   },
+   {
+    "paragraphs": [
+     "A name on the screen helps once a ringing phone feels safe again. That takes years, not one circular.",
+     "Till then, India's real caller ID is a text that says \"call?\""
+    ]
+   }
+  ],
+  "end": {
+   "save": "Keep this for the next time a caller's name pops up and you still let it ring.",
+   "send": "Send to the friend who says 'text me first' before every single call.",
+   "promise": "How India really behaves, decoded."
+  },
+  "alt_text": "A text-only Instagram carousel of ten slides. It argues that India's new caller name display rule, CNAP, will not make people trust unknown calls. We already have an etiquette for unknown numbers: the phone goes face down till a text comes, friends send 'call?' first, and the most common habit in a 2022 survey was to pick up and then block. Spam calls cost callers almost nothing, so the cost of deciding falls on us. The post grants that the new rule making operators use AI to flag likely spam numbers and warn users could help. It ends by saying a name will matter only once a ringing phone feels safe again, and that the real caller ID is still a text saying 'call?'.",
+  "claims": [
+   {
+    "text": "From 1 November, operators must show the caller's name on 4G and newer networks. It's called CNAP.",
+    "source_url": "https://www.outlookmoney.com/news/caller-name-display-on-mobile-networks-to-be-mandatory-in-india-from-november-1"
+   },
+   {
+    "text": "The most common one is pick up, then block. 42% admitted it in a 2022 LocalCircles survey.",
+    "source_url": "https://localcircles.com/a/press/page/spam-calls-2022-survey"
+   },
+   {
+    "text": "A name on the screen doesn't mean the call is safe.",
+    "source_url": "https://www.outlookmoney.com/news/caller-name-display-on-mobile-networks-to-be-mandatory-in-india-from-november-1"
+   },
+   {
+    "text": "Operators now have to run AI to flag likely spam numbers and warn you.",
+    "source_url": "topic"
+   }
+  ],
+  "caption": "Caller ID won't fix spam calls. We stopped trusting a ringing phone long before the name showed up.\n\nA spam call costs the caller almost nothing. The guessing on every ring is the part you pay for.\n\n\"Kaun hai? Pehle message karo.\"\n\nSend this to the friend who won't pick up unless you've texted 'call?' first.",
+  "hashtags": [
+   "#SpamCalls",
+   "#CreatorEconomy"
+  ],
+  "caption_style": "send",
+  "search_phrase": "spam calls",
+  "caption_v": 2
+ }
 }
