@@ -1,6 +1,6 @@
 {
  "id": "2026-11-166",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-27T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -43,6 +43,1689 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-11-14T11:33:30.003240+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "Dead slide (slide 6): \"A metro salary is priced for metro life. The rent, the deposit, the cab to office, the ₹350 coffee near the tech park. Spend that salary where none of those costs exist, and the whole gap becomes savings.\" This restates what slides 4 and 5 already landed and explains something every reader knows: metro life costs more. It also overclaims, since small cities do have costs."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 3,
+     "eq": 4,
+     "iq": 3,
+     "story": 3,
+     "tight": 3,
+     "informative": 3
+    },
+    "notes": [
+     "slide 6: Cut this slide. If you want one item from it, move it into slide 4 as a single line. The best one is the 3-4 months' deposit, which is in the Business Today source. Drop \"none of those costs exist\" and \"the whole gap becomes savings\". Both are untrue overstatements. The post moves faster from slide 5 straight to what the move feels like.",
+     "slide 3: \"Same laptop. Same Zoom calls. Same salary on the 1st.\" is a mirrored triple, which counts as engineered rhetoric. Replace it with one concrete scene the reader lives. Example: the same 10am standup, now from your old bedroom, with the pressure cooker whistle going off while you're on mute. That also gives the post its only detail beyond sight.",
+     "slide 8: Make the turn land in the reader's inbox, using the topic's moment. Put it as a typical scenario: the HR email about a 'pay revision' that mentions location. Say plainly that Stripe is a US company, so the receipt doesn't read as Indian news. Name who gains in one line: the company keeps the rent gap you were saving. Keep 'expect it in an Indian pay revision soon' as his own prediction, said straight.",
+     "slide 9: Drop \"Here's what stings\". It is stock scaffolding. Drop \"I think\" as well. The line \"the fairest-sounding unfair idea in HR\" is strong and should stand without a hedge, for example: \"Only your share shrinks. It's the fairest-sounding unfair idea in HR.\"",
+     "slide 2/4: Everything is pinned to Bangalore and Bengaluru, which narrows the post for readers in Gurgaon, Pune or Hyderabad. Keep the Hinglish relative line, but make the city feel general. One option is \"Sheher chhod diya? Sab theek hai na?\" Another is to name the city once and then call it 'the metro'. The rent example can stay as one typical figure."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Dead slide (slide 6): \"A metro salary is priced for metro life. The rent, the deposit, the cab to office, the ₹350 coffee near the tech park. Spend that salary where none of those costs exist, and the whole gap becomes savings.\" This restates what slides 4 and 5 already landed and explains something every reader knows: metro life costs more. It also overclaims, since small cities do have costs.",
+    "slide 6: Cut this slide. If you want one item from it, move it into slide 4 as a single line. The best one is the 3-4 months' deposit, which is in the Business Today source. Drop \"none of those costs exist\" and \"the whole gap becomes savings\". Both are untrue overstatements. The post moves faster from slide 5 straight to what the move feels like.",
+    "slide 3: \"Same laptop. Same Zoom calls. Same salary on the 1st.\" is a mirrored triple, which counts as engineered rhetoric. Replace it with one concrete scene the reader lives. Example: the same 10am standup, now from your old bedroom, with the pressure cooker whistle going off while you're on mute. That also gives the post its only detail beyond sight.",
+    "slide 8: Make the turn land in the reader's inbox, using the topic's moment. Put it as a typical scenario: the HR email about a 'pay revision' that mentions location. Say plainly that Stripe is a US company, so the receipt doesn't read as Indian news. Name who gains in one line: the company keeps the rent gap you were saving. Keep 'expect it in an Indian pay revision soon' as his own prediction, said straight.",
+    "slide 9: Drop \"Here's what stings\". It is stock scaffolding. Drop \"I think\" as well. The line \"the fairest-sounding unfair idea in HR\" is strong and should stand without a hedge, for example: \"Only your share shrinks. It's the fairest-sounding unfair idea in HR.\"",
+    "slide 2/4: Everything is pinned to Bangalore and Bengaluru, which narrows the post for readers in Gurgaon, Pune or Hyderabad. Keep the Hinglish relative line, but make the city feel general. One option is \"Sheher chhod diya? Sab theek hai na?\" Another is to name the city once and then call it 'the metro'. The rent example can stay as one typical figure."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slide 4: The opening \"But\" no longer follows from slide 3. Slide 3 now ends on \"The salary still lands on the 1st.\" and nothing in that line is contradicted. Drop \"But\" and open straight on the number: \"A decent 2BHK near a Bengaluru office is easily ₹40,000 a month.\" If you want the contrast, \"Here's the difference.\" is too stock. The bare figure carries it.",
+     "slide 4: Optional, from the last round. One short line on the 3-4 months' deposit (Business Today source) would add a metro cost readers have felt that isn't already covered, for example \"Plus three months' deposit just to get the keys.\" Keep it to one line, or skip it. The slide works without it.",
+     "All six notes from the last round are settled. Slide 6 was cut and replaced with the lived beat. Slide 3 is now one scene with a sound in it. The HR email, Stripe as a US company, and who gains all land in slides 7-8. \"Here's what stings\" and \"I think\" are gone. The city is named once. Don't touch anything else."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 6",
+      "line": "I've watched friends make this move and change in ways no raise ever managed.",
+      "why": "soft and wistful, vague 'change in ways'",
+      "try": "I've seen friends do this. No raise ever did as much for them."
+     },
+     {
+      "where": "slide 8",
+      "line": "Expect it in an Indian pay revision soon, as return-to-office rules sort who stays remote.",
+      "why": "stiff, written phrasing",
+      "try": "Return-to-office rules are already deciding who gets to stay remote. Your next pay revision is how they'll do it here."
+     },
+     {
+      "where": "slide 9",
+      "line": "Only your share shrinks. It's the fairest-sounding unfair idea in HR.",
+      "why": "over-explained, engineered paradox tag",
+      "try": "Only your share shrinks. On paper it sounds fair. It isn't."
+     },
+     {
+      "where": "slide 9",
+      "line": "Your work didn't get worse when you moved. The client gets the same output, the same deadlines met.",
+      "why": "stiff, 'deadlines met' is report-speak",
+      "try": "Your work didn't get worse when you moved. Same output, same deadlines. The client can't even tell."
+     },
+     {
+      "where": "slide 2",
+      "line": "Relatives assume it didn't work out. Colleagues assume you gave up on growth.",
+      "why": "mirrored pair, corporate 'growth'",
+      "try": "Relatives think it didn't work out. Even colleagues quietly decide you've stopped trying."
+     },
+     {
+      "where": "end.save",
+      "line": "Read it again before you sign an offer letter or accept a pay revision.",
+      "why": "coachy instruction, stiff",
+      "try": "Save this for the day a pay revision lands in your inbox."
+     }
+    ],
+    "best": "The same 10am standup, now from your old bedroom. The pressure cooker whistle goes off while you're on mute."
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Not Varun (slide 6): 'I've watched friends make this move and change in ways no raise ever managed.' reads as soft and wistful, vague 'change in ways'. Say it the way he would, e.g. 'I've seen friends do this. No raise ever did as much for them.' (his register, your words, same facts).",
+    "Not Varun (slide 8): 'Expect it in an Indian pay revision soon, as return-to-office rules sort who stays remote.' reads as stiff, written phrasing. Say it the way he would, e.g. 'Return-to-office rules are already deciding who gets to stay remote. Your next pay revision is how they'll do it here.' (his register, your words, same facts).",
+    "Not Varun (slide 9): 'Only your share shrinks. It's the fairest-sounding unfair idea in HR.' reads as over-explained, engineered paradox tag. Say it the way he would, e.g. 'Only your share shrinks. On paper it sounds fair. It isn't.' (his register, your words, same facts).",
+    "Not Varun (slide 9): 'Your work didn't get worse when you moved. The client gets the same output, the same deadlines met.' reads as stiff, 'deadlines met' is report-speak. Say it the way he would, e.g. 'Your work didn't get worse when you moved. Same output, same deadlines. The client can't even tell.' (his register, your words, same facts).",
+    "Not Varun (slide 2): 'Relatives assume it didn't work out. Colleagues assume you gave up on growth.' reads as mirrored pair, corporate 'growth'. Say it the way he would, e.g. 'Relatives think it didn't work out. Even colleagues quietly decide you've stopped trying.' (his register, your words, same facts).",
+    "Not Varun (end.save): 'Read it again before you sign an offer letter or accept a pay revision.' reads as coachy instruction, stiff. Say it the way he would, e.g. 'Save this for the day a pay revision lands in your inbox.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slide 9: The fix merged the beats into one long sentence: 'Your work didn't get worse when you moved, with the same output and the same deadlines, and the client can't even tell.' 'with the same output' is clumsy and loses the rhythm. Split it back into short beats: 'Your work didn't get worse when you moved. Same output, same deadlines. The client can't even tell.' Keep 'Only your share shrinks. On paper it sounds fair. It isn't.' as is.",
+     "slide 8: 'The company keeps the rent gap you were saving.' overstates the source. Stripe's cut was 10%, which is a slice of the gap, not all of it. Say something like 'The company takes a slice of the rent gap back.' so the mechanism matches what the source shows.",
+     "slide 2: The settled line now runs as one long sentence: 'Relatives at every family function assume it didn't work out, and even colleagues decide you've stopped trying.' Split it into two short sentences so it lands like speech and doesn't drift back into a mirrored pair: 'Relatives at every function assume it didn't work out. Even colleagues quietly decide you've stopped trying.'"
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "varun": {
+    "pass": true,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 9",
+      "line": "Your work didn't get worse when you moved, with the same output and the same deadlines, and the client can't even tell.",
+      "why": "stiff, one written clause chain; the punch gets buried",
+      "try": "Your work didn't get worse when you moved. Same output, same deadlines. The client can't even tell."
+     }
+    ],
+    "best": "The pressure cooker whistle goes off while you're on mute."
+   }
+  },
+  {
+   "attempt": 2,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "The take's premise is wrong: Premise 3 fails: 'Location-based pay exists because moving to a smaller city on a metro salary is such a good deal', along with the matching claim in premise 2 that companies use it to take back the employee's rent saving. That is not how geographic pay is set. Companies set it by the cost of labour in a place, meaning what they must pay to hire and keep people with those skills there. They do not set it by the employee's cost of living or rent. The practice is also older than the remote-work trend. Premise 1 holds: Stripe is a US company. The Stripe example is told selectively. In 2020 Stripe offered a voluntary, one-time $20,000 payment to staff who chose to leave San Francisco, New York or Seattle, and those who took it accepted a base pay cut of up to 10%. Bloomberg reported that it varied by destination, with one example of 18% for a move to Denver. It was not a pay revision imposed on people who had already moved.. How it actually works: Employers benchmark each role against salary surveys for each location and apply a geographic pay differential that reflects local labour supply, demand and competition. In other words, they pay what it takes to hire in that market. Surveys report that most firms use cost-of-labour data and only a small minority rely mainly on cost of living. So a relocating employee can be moved to a lower pay band because the company could hire for less in the new city, not because the company is calculating their rent saving. Some firms pay the same national rate everywhere instead; Reddit did this in 2020. Rebuild the post on the correct mechanism.",
+     "Could not verify: 'Location-based pay is the practice of adjusting an employee's pay according to where they live, and companies communicate it through pay revisions.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Indian companies will use pay revisions to apply location-based pay cuts to staff who move to cheaper places.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Clients typically cannot tell where a remote employee is working from, and output and deadlines stay the same after the move.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "A decent 2BHK near a Bengaluru office easily costs about ₹40,000 a month in rent.",
+      "sentence": "But a decent 2BHK near a Bengaluru office is easily ₹40,000 a month.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "₹40,000 a month in rent comes to ₹4.8 lakh a year.",
+      "sentence": "That's ₹4.8 lakh a year that stops going to a landlord.",
+      "type": "arithmetic",
+      "core": false,
+      "framed_as": "timeless",
+      "expr": "40000*12",
+      "stated": "480000"
+     },
+     {
+      "id": "c3",
+      "text": "Stripe, a US company, introduced location-based pay in 2020.",
+      "sentence": "Stripe, a US company, did it in 2020: a 10% cut for staff who moved somewhere cheaper.",
+      "type": "event",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c4",
+      "text": "Stripe's 2020 policy cut pay by 10% for staff who moved somewhere cheaper.",
+      "sentence": "a 10% cut for staff who moved somewhere cheaper.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c5",
+      "text": "Stripe is a US company.",
+      "sentence": "Stripe, a US company",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Location-based pay is the practice of adjusting an employee's pay according to where they live, and companies communicate it through pay revisions.",
+      "sentence": "a \"pay revision\" that mentions where you live. It's called location-based pay.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "Under location-based pay, the company keeps the rent saving the employee would have gained by moving.",
+      "sentence": "The company keeps the rent gap you were saving.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c8",
+      "text": "Indian companies will use pay revisions to apply location-based pay cuts to staff who move to cheaper places.",
+      "sentence": "Your next pay revision is how they'll do it here.",
+      "type": "event",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c9",
+      "text": "Moving to a smaller hometown while keeping a metro salary saves money because rent is replaced by living in the family house, and the same employee's salary buys more, so it is a better financial deal than a raise. Companies see this and respond with location-based pay to claw back the saving.",
+      "sentence": "But companies can read a spreadsheet too. ... which is exactly why location-based pay exists.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c10",
+      "text": "Location-based pay exists because moving to a smaller city on a metro salary is such a good deal.",
+      "sentence": "Moving back to your hometown on a metro salary isn't a step back, which is exactly why location-based pay exists.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c11",
+      "text": "The author has seen friends move home on a metro salary, and none of their raises helped them as much as that move.",
+      "sentence": "I've seen friends do this. No raise they ever got did as much for them as that one move.",
+      "type": "anecdote",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c12",
+      "text": "Clients typically cannot tell where a remote employee is working from, and output and deadlines stay the same after the move.",
+      "sentence": "with the same output and the same deadlines, and the client can't even tell.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "correct": "Mid-range 2BHK rents near Bengaluru tech corridors run about ₹29,000–₹45,000 a month, so about ₹40,000 for a decent one is in the right range.",
+      "sources": [
+       {
+        "url": "https://brigadegroup.com/blog/residential/top-5-bengaluru-localities-for-roi",
+        "publisher": "Brigade Group (developer report)",
+        "published_date": "2025-04-01",
+        "quote": "Average Rent (2BHK): ₹29,000 – ₹43,000",
+        "tier": 3
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "2020-09-24",
+      "sources": [
+       {
+        "url": "https://www.hrkatha.com/news/option-for-employees-to-relocate-to-smaller-cities-and-take-pay-cut/",
+        "publisher": "HRKatha",
+        "published_date": "2020-09-24",
+        "quote": "those who do choose to relocate will also have to suffer a 10 per cent pay cut.",
+        "tier": 3
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "2020-09-24",
+      "sources": [
+       {
+        "url": "https://www.hrkatha.com/news/option-for-employees-to-relocate-to-smaller-cities-and-take-pay-cut/",
+        "publisher": "HRKatha",
+        "published_date": "2020-09-24",
+        "quote": "those who do choose to relocate will also have to suffer a 10 per cent pay cut.",
+        "tier": 3
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "supported",
+      "sources": [
+       {
+        "url": "https://www.hrkatha.com/news/option-for-employees-to-relocate-to-smaller-cities-and-take-pay-cut/",
+        "publisher": "HRKatha",
+        "published_date": "2020-09-24",
+        "quote": "American financial services and SaaS company",
+        "tier": 3
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "unverifiable",
+      "correct": "The definition (pay adjusted by where an employee lives) is broadly right and is shown by the Stripe example. I did not find a source saying companies communicate it through pay revisions."
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "supported",
+      "correct": "The Stripe policy cut pay for people who moved to cheaper places. That means the employer keeps part of the saving, though the employee still gains from lower living costs overall.",
+      "sources": [
+       {
+        "url": "https://www.hrkatha.com/news/option-for-employees-to-relocate-to-smaller-cities-and-take-pay-cut/",
+        "publisher": "HRKatha",
+        "published_date": "2020-09-24",
+        "quote": "those who do choose to relocate will also have to suffer a 10 per cent pay cut.",
+        "tier": 3
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "unverifiable",
+      "correct": "This is a prediction about Indian companies. I found no source confirming it."
+     },
+     "c12": {
+      "id": "c12",
+      "verdict": "unverifiable",
+      "correct": "This is a general assertion. I found no source supporting it."
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "Premise 3 fails: 'Location-based pay exists because moving to a smaller city on a metro salary is such a good deal', along with the matching claim in premise 2 that companies use it to take back the employee's rent saving. That is not how geographic pay is set. Companies set it by the cost of labour in a place, meaning what they must pay to hire and keep people with those skills there. They do not set it by the employee's cost of living or rent. The practice is also older than the remote-work trend. Premise 1 holds: Stripe is a US company. The Stripe example is told selectively. In 2020 Stripe offered a voluntary, one-time $20,000 payment to staff who chose to leave San Francisco, New York or Seattle, and those who took it accepted a base pay cut of up to 10%. Bloomberg reported that it varied by destination, with one example of 18% for a move to Denver. It was not a pay revision imposed on people who had already moved.",
+     "actual_mechanism": "Employers benchmark each role against salary surveys for each location and apply a geographic pay differential that reflects local labour supply, demand and competition. In other words, they pay what it takes to hire in that market. Surveys report that most firms use cost-of-labour data and only a small minority rely mainly on cost of living. So a relocating employee can be moved to a lower pay band because the company could hire for less in the new city, not because the company is calculating their rent saving. Some firms pay the same national rate everywhere instead; Reddit did this in 2020.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.pymnts.com/personnel/2020/stripe-give-20000-dollar-bonus-then-pay-cut-workers-who-leave-nyc-san-francisco-seattle",
+       "published_date": "2020-09",
+       "quote": "Payments processor Stripe plans to make a one-time, $20,000 payment to employees who choose to move from San Francisco, New York or Seattle by the end of the year, but the company would also cut their base salary by as much as 10%"
+      },
+      {
+       "url": "https://www.bloomberg.com/news/articles/2021-06-15/stripe-saw-major-uptake-of-staff-offer-to-move-with-10-pay-cut",
+       "published_date": "2021-06-15",
+       "quote": "Stripe Inc. saw \"major uptake\" of the unusual offer it made to staff during the pandemic... workers had to consent to a 10% cut to their base compensation."
+      },
+      {
+       "url": "https://worldatwork.org/publications/workspan-daily/the-difference-between-cost-of-living-and-cost-of-labor",
+       "published_date": "unknown",
+       "quote": "Cost of labor asks what an employer needs to pay to attract and retain people with certain skills in a particular labor market."
+      },
+      {
+       "url": "https://pave.com/blog-posts/insights-from-paves-geographic-pay-differential-guide",
+       "published_date": "unknown",
+       "quote": "Cost-of-living differentials should not be used to set cross-location compensation, because cost of labor is not the same as cost of living (as summarized by the search tool; not checked against the page)."
+      },
+      {
+       "url": "https://fortune.com/2020/10/27/reddit-u-s-employees-pay-the-same-wherever-they-work/",
+       "published_date": "2020-10-27",
+       "quote": "Reddit: U.S. employees [get] pay the same wherever they work (headline as shown in search results; article not opened)"
+      }
+     ]
+    },
+    "text_hash": "96d8111b6ba27ed2af16c9adbbd72d05adfd4eba",
+    "at": "2026-11-15T11:59:40.839287+00:00"
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "The take's premise is wrong: Premise 3 fails: 'Location-based pay exists because moving to a smaller city on a metro salary is such a good deal', along with the matching claim in premise 2 that companies use it to take back the employee's rent saving. That is not how geographic pay is set. Companies set it by the cost of labour in a place, meaning what they must pay to hire and keep people with those skills there. They do not set it by the employee's cost of living or rent. The practice is also older than the remote-work trend. Premise 1 holds: Stripe is a US company. The Stripe example is told selectively. In 2020 Stripe offered a voluntary, one-time $20,000 payment to staff who chose to leave San Francisco, New York or Seattle, and those who took it accepted a base pay cut of up to 10%. Bloomberg reported that it varied by destination, with one example of 18% for a move to Denver. It was not a pay revision imposed on people who had already moved.. How it actually works: Employers benchmark each role against salary surveys for each location and apply a geographic pay differential that reflects local labour supply, demand and competition. In other words, they pay what it takes to hire in that market. Surveys report that most firms use cost-of-labour data and only a small minority rely mainly on cost of living. So a relocating employee can be moved to a lower pay band because the company could hire for less in the new city, not because the company is calculating their rent saving. Some firms pay the same national rate everywhere instead; Reddit did this in 2020. Rebuild the post on the correct mechanism.",
+    "Could not verify: 'Location-based pay is the practice of adjusting an employee's pay according to where they live, and companies communicate it through pay revisions.'. Cut it, or state it only if a source says it.",
+    "Could not verify: 'Indian companies will use pay revisions to apply location-based pay cuts to staff who move to cheaper places.'. Cut it, or state it only if a source says it.",
+    "Could not verify: 'Clients typically cannot tell where a remote employee is working from, and output and deadlines stay the same after the move.'. Cut it, or state it only if a source says it."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 5,
+     "story": 4,
+     "tight": 3,
+     "informative": 4
+    },
+    "notes": [
+     "All four previous notes are settled. Slide 7 now states the real mechanism: pay is set by what it takes to hire your skills in that city, not by your rent. Slide 8 keeps Stripe and VMware within what HRKatha says and frames Stripe's cut as a choice. The unverifiable claims (pay revisions, Indian firms' plans, clients not noticing) are gone. The ₹4.8 lakh sum is correct.",
+     "slides 7-9: the new mechanism is said three times. Slide 7 says 'whether they could hire someone in your hometown for less'. Slide 8 closes with 'Your rent saving was never the target.' Slide 9 opens with 'To the pay band, you're now a hire in a cheaper market.' Keep slide 7 as the one clear statement. Then do one of two things: cut slide 8's last line and let the Stripe/VMware numbers stand alone, or drop slide 9's second sentence so it doesn't restate slide 7.",
+     "slide 9: 'On paper it sounds fair. It doesn't feel it.' is the softest line in the post. It names the feeling without making the reader feel it. Make it sting with the topic's 'I found the loophole and they're closing it' in plain words, for example the same laptop and the same standup, now worth less because of the pin code on your address. Keep it under 22 words and avoid a mirrored pair."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 9",
+      "line": "On paper it sounds fair. It doesn't feel it.",
+      "why": "soft, limp ending; the verdict is hedged where he'd be blunt",
+      "try": "Fair on paper. Still feels like getting fined for going home."
+     },
+     {
+      "where": "slide 7",
+      "line": "So when you move, the real question is whether they could hire someone in your hometown for less.",
+      "why": "over-explained, essay voice; it spells out the turn",
+      "try": "Move home, and HR's only question is: could we get someone from there for less?"
+     },
+     {
+      "where": "slide 8",
+      "line": "Your rent saving was never the target.",
+      "why": "stiff, written word; the punch is muffled",
+      "try": "They never cared what you saved on rent. They cared what your new city costs."
+     }
+    ],
+    "best": "The salary didn't change. What it buys did."
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Not Varun (slide 9): 'On paper it sounds fair. It doesn't feel it.' reads as soft, limp ending; the verdict is hedged where he'd be blunt. Say it the way he would, e.g. 'Fair on paper. Still feels like getting fined for going home.' (his register, your words, same facts).",
+    "Not Varun (slide 7): 'So when you move, the real question is whether they could hire someone in your hometown for less.' reads as over-explained, essay voice; it spells out the turn. Say it the way he would, e.g. 'Move home, and HR's only question is: could we get someone from there for less?' (his register, your words, same facts).",
+    "Not Varun (slide 8): 'Your rent saving was never the target.' reads as stiff, written word; the punch is muffled. Say it the way he would, e.g. 'They never cared what you saved on rent. They cared what your new city costs.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 4,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "Slide 9: settled. 'Fair on paper. Still feels like a fine for going home.' is blunt and in his register.",
+     "Slide 7: settled. 'Move home, and HR has one question. Could we get someone from there for less?' lands the turn without the essay voice.",
+     "Slide 8: settled. One optional polish: 'They cared what your new city pays.' reads a little orphaned on its own. Restore the contrast so the punch has something to push against, e.g. 'Your rent saving never came into it. They cared what your new city pays.' Same facts."
+    ]
+   }
+  },
+  {
+   "attempt": 4,
+   "varun": {
+    "pass": true,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 8",
+      "line": "They cared what your new city pays.",
+      "why": "half a contrast; the punch lost its setup and lands flat",
+      "try": "Your rent saving never came into it. What your new city pays did."
+     }
+    ],
+    "best": "The salary didn't change. What it buys did."
+   }
+  },
+  {
+   "attempt": 4,
+   "verification": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not verify: 'Offer letters commonly contain a 'location' clause that ties pay to the employee's location.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "A decent 2BHK near a Bengaluru office easily costs about ₹40,000 a month in rent.",
+      "sentence": "But a decent 2BHK near a Bengaluru office is easily ₹40,000 a month.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "₹40,000 a month in rent comes to ₹4.8 lakh a year.",
+      "sentence": "That's ₹4.8 lakh a year that stops going to a landlord.",
+      "type": "arithmetic",
+      "core": false,
+      "framed_as": "timeless",
+      "expr": "40000*12",
+      "stated": "480000"
+     },
+     {
+      "id": "c3",
+      "text": "Stripe is a US company.",
+      "sentence": "Stripe, a US company",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "The author has seen friends move home on a metro salary, and none of their raises helped them as much as that move.",
+      "sentence": "I've seen friends do this. No raise they ever got did as much for them as that one move.",
+      "type": "anecdote",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c5",
+      "text": "Many companies set pay for a job by the city the employee lives in, based on what it costs to hire someone with those skills in that city, not by the employee's rent.",
+      "sentence": "But companies don't price your job by your rent. Many price it by city: what it takes to hire someone with your skills there.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "When an employee moves to a cheaper city, employers' pay-band logic leads them to cut pay, because they could hire someone from that city for less.",
+      "sentence": "Move home, and HR has one question. Could we get someone from there for less?",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "In 2020 Stripe, a US company, gave staff the choice to move somewhere cheaper and take a 10% pay cut.",
+      "sentence": "Stripe, a US company, gave staff a choice in 2020: move somewhere cheaper, take a 10% pay cut.",
+      "type": "event",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c8",
+      "text": "At VMware, the pay cut for employees moving to cheaper locations ran from 8% to 18% depending on the city.",
+      "sentence": "At VMware, the cut ran from 8% to 18%, depending on the city.",
+      "type": "event",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c9",
+      "text": "Companies are currently cutting pay for employees who work from their hometowns (HR is 'busy cutting pay for it').",
+      "sentence": "If it were, HR wouldn't be busy cutting pay for it.",
+      "type": "event",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c10",
+      "text": "Location-based pay is how companies take back the rent saving employees gain by moving home.",
+      "sentence": "Location-based pay is how companies take that win back.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c11",
+      "text": "Offer letters commonly contain a 'location' clause that ties pay to the employee's location.",
+      "sentence": "Then check your offer letter for \"location\".",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "correct": "Mid-range 2BHK rents near Bengaluru tech corridors run about ₹29,000–₹45,000 a month, so about ₹40,000 for a decent one is in the right range.",
+      "sources": [
+       {
+        "url": "https://brigadegroup.com/blog/residential/top-5-bengaluru-localities-for-roi",
+        "publisher": "Brigade Group (developer report)",
+        "published_date": "2025-04-01",
+        "quote": "Average Rent (2BHK): ₹29,000 – ₹43,000",
+        "tier": 3
+       }
+      ]
+     },
+     "c3": {
+      "id": "c5",
+      "verdict": "supported",
+      "sources": [
+       {
+        "url": "https://www.hrkatha.com/news/option-for-employees-to-relocate-to-smaller-cities-and-take-pay-cut/",
+        "publisher": "HRKatha",
+        "published_date": "2020-09-24",
+        "quote": "American financial services and SaaS company",
+        "tier": 3
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "supported",
+      "correct": "Geographic pay differentials based on local labor-market rates are common. The search summary reported a WorldatWork figure that 72% of organizations with remote workers have a formal geographic pay differential policy. I could not check that figure against WorldatWork directly.",
+      "sources": [
+       {
+        "url": "https://worldatwork.org/workspan/articles/managing-pay-in-the-world-of-remote-working%20",
+        "publisher": "WorldatWork",
+        "published_date": "2021-01-01",
+        "quote": "Managing Pay in the World of Remote Working",
+        "tier": 1
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "supported",
+      "event_date": "2020-09-24",
+      "sources": [
+       {
+        "url": "https://www.hrkatha.com/news/option-for-employees-to-relocate-to-smaller-cities-and-take-pay-cut/",
+        "publisher": "HRKatha",
+        "published_date": "2020-09-24",
+        "quote": "relocating employees \"will also have to suffer a 10 per cent pay cut.\"",
+        "tier": 3
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "supported",
+      "event_date": "2020-09-24",
+      "sources": [
+       {
+        "url": "https://www.hrkatha.com/news/option-for-employees-to-relocate-to-smaller-cities-and-take-pay-cut/",
+        "publisher": "HRKatha",
+        "published_date": "2020-09-24",
+        "quote": "Denver carries an 18 per cent cut and San Diego an eight per cent cut.",
+        "tier": 3
+       }
+      ]
+     },
+     "c9": {
+      "id": "c9",
+      "verdict": "supported",
+      "correct": "Location-based pay cuts began in 2020–21 (Facebook, Twitter, Google). A Deel article dated August 2026 says geographic pay is back and that 81% of organizations factor location into pay. I could not confirm that from a second source.",
+      "sources": [
+       {
+        "url": "https://www.shrm.org/topics-tools/news/benefits-compensation/googles-salary-cuts-remote-workers-renew-location-based-pay-debate",
+        "publisher": "SHRM",
+        "published_date": "2021-08-01",
+        "quote": "Facebook and Twitter have said that they will cut the pay of workers who choose to relocate away from their headquarters offices in the San Francisco Bay area",
+        "tier": 2
+       }
+      ]
+     },
+     "c11": {
+      "id": "c11",
+      "verdict": "unverifiable",
+      "correct": "I found no reliable source on how often offer letters contain a location clause. Geographic pay policies themselves are common."
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None of the premises is false. Two details need care. First, Stripe has headquarters in both San Francisco and Dublin, so 'Irish-American' is more exact than 'US company', though 'US company' is commonly used and defensible. Second, the examples date from 2020. Stripe's 10% cut also came with a one-time $20,000 relocation bonus. VMware's 8–18% cuts applied only to permanent moves, not to temporary stays with family. So 'location-based pay takes back the rent win' describes the effect, not the stated purpose: companies set pay against local labour-market rates, not against an employee's rent.",
+     "actual_mechanism": "Companies with geographic pay set salary bands by location. The band reflects what it costs to hire similar talent in that labour market, not the employee's living costs. A permanent move to a cheaper market can put you in a lower band, as with VMware: an 18% cut for Palo Alto to Denver and 8% for Palo Alto to LA or San Diego. Stripe in 2020 offered $20,000 plus up to a 10% base-pay cut to staff who left SF, NYC or Seattle. Not every employer does this. Reddit, for example, kept pay the same, and temporary relocations were often exempt. So whether you keep the 'metro salary' depends on your employer's policy and your contract.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.bloomberg.com/news/articles/2020-09-11/vmware-twitter-cut-pay-for-remote-workers-fleeing-bay-area",
+       "published_date": "2020-09-11",
+       "quote": "Moving to Denver, Colorado will result in an 18 per cent salary reduction, whereas leaving for Los Angeles or San Diego... means taking home a paycheck that's apparently 8 per cent lighter (as relayed by The Register, 2020-09-12)"
+      },
+      {
+       "url": "https://www.theregister.com/2020/09/12/silicon_valley_wages/",
+       "published_date": "2020-09-12",
+       "quote": "Moving to Denver, Colorado will result in an 18 per cent salary reduction, whereas leaving for Los Angeles or San Diego, in Southern California, means taking home a paycheck that's apparently 8 per cent lighter"
+      },
+      {
+       "url": "https://www.irishexaminer.com/business/companies/arid-40050308.html",
+       "published_date": "2020-09",
+       "quote": "Stripe workers who relocate get $20,000 bonus and a pay cut"
+      },
+      {
+       "url": "https://pymnts.com/personnel/2020/stripe-give-20000-dollar-bonus-then-pay-cut-workers-who-leave-nyc-san-francisco-seattle",
+       "published_date": "2020-09",
+       "quote": "Stripe To Give $20K Bonus, Then Pay Cut For Workers Who Leave New York City, San Francisco Or Seattle"
+      },
+      {
+       "url": "https://www.bloomberg.com/news/articles/2021-06-15/stripe-saw-major-uptake-of-staff-offer-to-move-with-10-pay-cut",
+       "published_date": "2021-06-15",
+       "quote": "Stripe Saw Major Uptake of Staff Offer to Move With 10% Pay Cut"
+      },
+      {
+       "url": "https://www.shrm.org/topics-tools/news/talent-acquisition/remote-workers-relocate-paid-less",
+       "published_date": "2020-09",
+       "quote": "Facebook and Twitter have said that they will cut the pay of workers who choose to relocate away from their headquarters offices in the San Francisco Bay area, while Reddit announced that it will not cut the pay of its relocating staff."
+      }
+     ]
+    },
+    "text_hash": "cd927daca3348f2ceec4c5d65edd9bd236de4e5f",
+    "at": "2026-11-15T12:02:53.426940+00:00"
+   }
+  },
+  {
+   "attempt": 4,
+   "problems": [
+    "Could not verify: 'Offer letters commonly contain a 'location' clause that ties pay to the employee's location.'. Cut it, or state it only if a source says it."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-15T12:03:27.986332+00:00",
+ "sources": [
+  {
+   "url": "https://www.businesstoday.in/latest/trends/story/25-lpa-feels-like-nothing-it-professional-regrets-moving-from-pune-to-bengaluru-despite-40-pay-hike-469018-2025-03-23",
+   "fact": "A Business Today anecdote says higher metro pay can be eroded by metro living costs. This is one person's account, not systematic data, and it does not show that a metro salary spent in a small city is the best deal of the decade.",
+   "excerpt": "Despite a 40% salary hike, he struggled to save money due to Bengaluru's skyrocketing cost of living. | his 18 LPA (lakhs per annum) job in Pune for a 25 LPA offer in Bengaluru | Rents are exorbitantly high, landlords ask for 3-4 months' deposit, and daily expenses are much higher. | Pune was way better, 25 LPA feels like nothing in Bengaluru, | their increased earnings barely offset the higher expenses",
+   "date": "2025-03-23"
+  },
+  {
+   "url": "https://www.hrkatha.com/news/option-for-employees-to-relocate-to-smaller-cities-and-take-pay-cut/",
+   "fact": "HRKatha reports, with no India-specific data, that Stripe and VMware cut pay for staff who relocate, by 10% (Stripe) and 8% to 18% (VMware, depending on destination). This partly supports the claim that employers price out location arbitrage, but these are US firms and the policies date from 2020.",
+   "excerpt": "those who do choose to relocate will also have to suffer a 10 per cent pay cut. | The Company wishes for its workforce to be able to decide what is most suitable for them. | those choosing to relocate to Denver will take an annual pay cut of 18 per cent, while those relocating to San Diego will take an eight per cent cut.",
+   "date": "2020-09-24"
+  }
+ ],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] A metro salary in a small city is [the best deal going]\nBut your company prices your job by where you sit.\n \n\n[slide 1] A metro salary in a small city is the best deal going. Your pay band may not agree.\nSwipe to read →\n\n[slide 2] Back home, it still gets read as a step back.\n\"Sheher chhod diya? Sab theek hai na?\"\nRelatives at every family function assume it didn't work out, and even colleagues decide you've stopped trying.\n\n[slide 3] The same 10am standup, now from your old bedroom. The pressure cooker whistle goes off while you're on mute.\nThe salary still lands on the 1st.\n\n[slide 4] But a decent 2BHK near a Bengaluru office is easily ₹40,000 a month. Back home, it's the family house. That's ₹4.8 lakh a year that stops going to a landlord.\n\n[slide 5] The salary didn't change. What it buys did.\n\n[slide 6] I've seen friends do this. No raise they ever got did as much for them as that one move.\nNo 90-minute commute. Parents close by when the medical report comes. A savings number that finally moves every month.\n\n[slide 7] But companies don't price your job by your rent. Many price it by city: what it takes to hire someone with your skills there.\nMove home, and HR has one question. Could we get someone from there for less?\n\n[slide 8] Stripe, a US company, gave staff a choice in 2020: move somewhere cheaper, take a 10% pay cut. At VMware, the cut ran from 8% to 18%, depending on the city.\nThey cared what your new city pays.\n\n[slide 9] To you, it's the same job from a different room. To the pay band, you're now a hire in a cheaper market.\nFair on paper. Still feels like a fine for going home.\n\n[slide 10] When someone says moving home means giving up, ask what their rent is.\nThen check your offer letter for \"location\".\n\n[end card] Read it again before you tell HR you're moving home.\nSend to the friend who keeps saying 'I'll move back in two years'.\n\n[caption] Working from your hometown looks like a step back. If it were, HR wouldn't be busy cutting pay for it.\n\nThe win is the rent you stop paying. Location-based pay is how companies take that win back.\n\nSend this to the friend who keeps saying 'I'll move back in two years', before their pay band decides for them.\n\n[alt text] A ten-slide text post arguing that earning a metro salary while living in a smaller home city is the best money deal of this decade. Relatives read the move as a step back, but the same job from your old bedroom means rent stops going to a landlord. The catch is that many companies price jobs by city, based on what it costs to hire someone with your skills there, not on your rent. In 2020 US company Stripe gave staff the choice to move somewhere cheaper with a 10% pay cut, and VMware's cut ran from 8% to 18% depending on the city. To you it is the same job from a different room; to the pay band you are a hire in a cheaper market. Fair on paper, but it feels like a fine for going home. It ends by suggesting you ask critics what their rent is, and check your offer letter for the word 'location'.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "A decent 2BHK near a Bengaluru office easily costs about ₹40,000 a month in rent.",
+     "sentence": "But a decent 2BHK near a Bengaluru office is easily ₹40,000 a month.",
+     "type": "figure",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "₹40,000 a month in rent comes to ₹4.8 lakh a year.",
+     "sentence": "That's ₹4.8 lakh a year that stops going to a landlord.",
+     "type": "arithmetic",
+     "core": false,
+     "framed_as": "timeless",
+     "expr": "40000*12",
+     "stated": "480000"
+    },
+    {
+     "id": "c3",
+     "text": "Stripe is a US company.",
+     "sentence": "Stripe, a US company",
+     "type": "entity_attribute",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c4",
+     "text": "The author has seen friends move home on a metro salary, and none of their raises helped them as much as that move.",
+     "sentence": "I've seen friends do this. No raise they ever got did as much for them as that one move.",
+     "type": "anecdote",
+     "core": false,
+     "framed_as": "past"
+    },
+    {
+     "id": "c5",
+     "text": "Many companies set pay for a job by the city the employee lives in, based on what it costs to hire someone with those skills in that city, not by the employee's rent.",
+     "sentence": "But companies don't price your job by your rent. Many price it by city: what it takes to hire someone with your skills there.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c6",
+     "text": "When an employee moves to a cheaper city, employers' pay-band logic leads them to cut pay, because they could hire someone from that city for less.",
+     "sentence": "Move home, and HR has one question. Could we get someone from there for less?",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c7",
+     "text": "In 2020 Stripe, a US company, gave staff the choice to move somewhere cheaper and take a 10% pay cut.",
+     "sentence": "Stripe, a US company, gave staff a choice in 2020: move somewhere cheaper, take a 10% pay cut.",
+     "type": "event",
+     "core": true,
+     "framed_as": "past"
+    },
+    {
+     "id": "c8",
+     "text": "At VMware, the pay cut for employees moving to cheaper locations ran from 8% to 18% depending on the city.",
+     "sentence": "At VMware, the cut ran from 8% to 18%, depending on the city.",
+     "type": "event",
+     "core": true,
+     "framed_as": "past"
+    },
+    {
+     "id": "c9",
+     "text": "Companies are currently cutting pay for employees who work from their hometowns (HR is 'busy cutting pay for it').",
+     "sentence": "If it were, HR wouldn't be busy cutting pay for it.",
+     "type": "event",
+     "core": false,
+     "framed_as": "current"
+    },
+    {
+     "id": "c10",
+     "text": "Location-based pay is how companies take back the rent saving employees gain by moving home.",
+     "sentence": "Location-based pay is how companies take that win back.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c11",
+     "text": "Offer letters commonly contain a 'location' clause that ties pay to the employee's location.",
+     "sentence": "Then check your offer letter for \"location\".",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "A decent 2BHK near a Bengaluru office easily costs about ₹40,000 a month in rent.": {
+   "id": "c1",
+   "verdict": "supported",
+   "correct": "Mid-range 2BHK rents near Bengaluru tech corridors run about ₹29,000–₹45,000 a month, so about ₹40,000 for a decent one is in the right range.",
+   "sources": [
+    {
+     "url": "https://brigadegroup.com/blog/residential/top-5-bengaluru-localities-for-roi",
+     "publisher": "Brigade Group (developer report)",
+     "published_date": "2025-04-01",
+     "quote": "Average Rent (2BHK): ₹29,000 – ₹43,000",
+     "tier": 3
+    }
+   ]
+  },
+  "Stripe, a US company, introduced location-based pay in 2020.": {
+   "id": "c3",
+   "verdict": "supported",
+   "event_date": "2020-09-24",
+   "sources": [
+    {
+     "url": "https://www.hrkatha.com/news/option-for-employees-to-relocate-to-smaller-cities-and-take-pay-cut/",
+     "publisher": "HRKatha",
+     "published_date": "2020-09-24",
+     "quote": "those who do choose to relocate will also have to suffer a 10 per cent pay cut.",
+     "tier": 3
+    }
+   ]
+  },
+  "Stripe's 2020 policy cut pay by 10% for staff who moved somewhere cheaper.": {
+   "id": "c4",
+   "verdict": "supported",
+   "event_date": "2020-09-24",
+   "sources": [
+    {
+     "url": "https://www.hrkatha.com/news/option-for-employees-to-relocate-to-smaller-cities-and-take-pay-cut/",
+     "publisher": "HRKatha",
+     "published_date": "2020-09-24",
+     "quote": "those who do choose to relocate will also have to suffer a 10 per cent pay cut.",
+     "tier": 3
+    }
+   ]
+  },
+  "Stripe is a US company.": {
+   "id": "c5",
+   "verdict": "supported",
+   "sources": [
+    {
+     "url": "https://www.hrkatha.com/news/option-for-employees-to-relocate-to-smaller-cities-and-take-pay-cut/",
+     "publisher": "HRKatha",
+     "published_date": "2020-09-24",
+     "quote": "American financial services and SaaS company",
+     "tier": 3
+    }
+   ]
+  },
+  "Location-based pay is the practice of adjusting an employee's pay according to where they live, and companies communicate it through pay revisions.": {
+   "id": "c6",
+   "verdict": "unverifiable",
+   "correct": "The definition (pay adjusted by where an employee lives) is broadly right and is shown by the Stripe example. I did not find a source saying companies communicate it through pay revisions."
+  },
+  "Under location-based pay, the company keeps the rent saving the employee would have gained by moving.": {
+   "id": "c7",
+   "verdict": "supported",
+   "correct": "The Stripe policy cut pay for people who moved to cheaper places. That means the employer keeps part of the saving, though the employee still gains from lower living costs overall.",
+   "sources": [
+    {
+     "url": "https://www.hrkatha.com/news/option-for-employees-to-relocate-to-smaller-cities-and-take-pay-cut/",
+     "publisher": "HRKatha",
+     "published_date": "2020-09-24",
+     "quote": "those who do choose to relocate will also have to suffer a 10 per cent pay cut.",
+     "tier": 3
+    }
+   ]
+  },
+  "Indian companies will use pay revisions to apply location-based pay cuts to staff who move to cheaper places.": {
+   "id": "c8",
+   "verdict": "unverifiable",
+   "correct": "This is a prediction about Indian companies. I found no source confirming it."
+  },
+  "Clients typically cannot tell where a remote employee is working from, and output and deadlines stay the same after the move.": {
+   "id": "c12",
+   "verdict": "unverifiable",
+   "correct": "This is a general assertion. I found no source supporting it."
+  },
+  "_skeptic": {
+   "e30b981a78456a4fc3b90f76ffb628f09a54bbcd": {
+    "holds": false,
+    "broken_premise": "Premise 3 fails: 'Location-based pay exists because moving to a smaller city on a metro salary is such a good deal', along with the matching claim in premise 2 that companies use it to take back the employee's rent saving. That is not how geographic pay is set. Companies set it by the cost of labour in a place, meaning what they must pay to hire and keep people with those skills there. They do not set it by the employee's cost of living or rent. The practice is also older than the remote-work trend. Premise 1 holds: Stripe is a US company. The Stripe example is told selectively. In 2020 Stripe offered a voluntary, one-time $20,000 payment to staff who chose to leave San Francisco, New York or Seattle, and those who took it accepted a base pay cut of up to 10%. Bloomberg reported that it varied by destination, with one example of 18% for a move to Denver. It was not a pay revision imposed on people who had already moved.",
+    "actual_mechanism": "Employers benchmark each role against salary surveys for each location and apply a geographic pay differential that reflects local labour supply, demand and competition. In other words, they pay what it takes to hire in that market. Surveys report that most firms use cost-of-labour data and only a small minority rely mainly on cost of living. So a relocating employee can be moved to a lower pay band because the company could hire for less in the new city, not because the company is calculating their rent saving. Some firms pay the same national rate everywhere instead; Reddit did this in 2020.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.pymnts.com/personnel/2020/stripe-give-20000-dollar-bonus-then-pay-cut-workers-who-leave-nyc-san-francisco-seattle",
+      "published_date": "2020-09",
+      "quote": "Payments processor Stripe plans to make a one-time, $20,000 payment to employees who choose to move from San Francisco, New York or Seattle by the end of the year, but the company would also cut their base salary by as much as 10%"
+     },
+     {
+      "url": "https://www.bloomberg.com/news/articles/2021-06-15/stripe-saw-major-uptake-of-staff-offer-to-move-with-10-pay-cut",
+      "published_date": "2021-06-15",
+      "quote": "Stripe Inc. saw \"major uptake\" of the unusual offer it made to staff during the pandemic... workers had to consent to a 10% cut to their base compensation."
+     },
+     {
+      "url": "https://worldatwork.org/publications/workspan-daily/the-difference-between-cost-of-living-and-cost-of-labor",
+      "published_date": "unknown",
+      "quote": "Cost of labor asks what an employer needs to pay to attract and retain people with certain skills in a particular labor market."
+     },
+     {
+      "url": "https://pave.com/blog-posts/insights-from-paves-geographic-pay-differential-guide",
+      "published_date": "unknown",
+      "quote": "Cost-of-living differentials should not be used to set cross-location compensation, because cost of labor is not the same as cost of living (as summarized by the search tool; not checked against the page)."
+     },
+     {
+      "url": "https://fortune.com/2020/10/27/reddit-u-s-employees-pay-the-same-wherever-they-work/",
+      "published_date": "2020-10-27",
+      "quote": "Reddit: U.S. employees [get] pay the same wherever they work (headline as shown in search results; article not opened)"
+     }
+    ]
+   },
+   "f018d8352c0c0764924d692dd6d22beb14a285fd": {
+    "holds": true,
+    "broken_premise": "None of the premises is false. Two details need care. First, Stripe has headquarters in both San Francisco and Dublin, so 'Irish-American' is more exact than 'US company', though 'US company' is commonly used and defensible. Second, the examples date from 2020. Stripe's 10% cut also came with a one-time $20,000 relocation bonus. VMware's 8–18% cuts applied only to permanent moves, not to temporary stays with family. So 'location-based pay takes back the rent win' describes the effect, not the stated purpose: companies set pay against local labour-market rates, not against an employee's rent.",
+    "actual_mechanism": "Companies with geographic pay set salary bands by location. The band reflects what it costs to hire similar talent in that labour market, not the employee's living costs. A permanent move to a cheaper market can put you in a lower band, as with VMware: an 18% cut for Palo Alto to Denver and 8% for Palo Alto to LA or San Diego. Stripe in 2020 offered $20,000 plus up to a 10% base-pay cut to staff who left SF, NYC or Seattle. Not every employer does this. Reddit, for example, kept pay the same, and temporary relocations were often exempt. So whether you keep the 'metro salary' depends on your employer's policy and your contract.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.bloomberg.com/news/articles/2020-09-11/vmware-twitter-cut-pay-for-remote-workers-fleeing-bay-area",
+      "published_date": "2020-09-11",
+      "quote": "Moving to Denver, Colorado will result in an 18 per cent salary reduction, whereas leaving for Los Angeles or San Diego... means taking home a paycheck that's apparently 8 per cent lighter (as relayed by The Register, 2020-09-12)"
+     },
+     {
+      "url": "https://www.theregister.com/2020/09/12/silicon_valley_wages/",
+      "published_date": "2020-09-12",
+      "quote": "Moving to Denver, Colorado will result in an 18 per cent salary reduction, whereas leaving for Los Angeles or San Diego, in Southern California, means taking home a paycheck that's apparently 8 per cent lighter"
+     },
+     {
+      "url": "https://www.irishexaminer.com/business/companies/arid-40050308.html",
+      "published_date": "2020-09",
+      "quote": "Stripe workers who relocate get $20,000 bonus and a pay cut"
+     },
+     {
+      "url": "https://pymnts.com/personnel/2020/stripe-give-20000-dollar-bonus-then-pay-cut-workers-who-leave-nyc-san-francisco-seattle",
+      "published_date": "2020-09",
+      "quote": "Stripe To Give $20K Bonus, Then Pay Cut For Workers Who Leave New York City, San Francisco Or Seattle"
+     },
+     {
+      "url": "https://www.bloomberg.com/news/articles/2021-06-15/stripe-saw-major-uptake-of-staff-offer-to-move-with-10-pay-cut",
+      "published_date": "2021-06-15",
+      "quote": "Stripe Saw Major Uptake of Staff Offer to Move With 10% Pay Cut"
+     },
+     {
+      "url": "https://www.shrm.org/topics-tools/news/talent-acquisition/remote-workers-relocate-paid-less",
+      "published_date": "2020-09",
+      "quote": "Facebook and Twitter have said that they will cut the pay of workers who choose to relocate away from their headquarters offices in the San Francisco Bay area, while Reddit announced that it will not cut the pay of its relocating staff."
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "96d8111b6ba27ed2af16c9adbbd72d05adfd4eba": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "The take's premise is wrong: Premise 3 fails: 'Location-based pay exists because moving to a smaller city on a metro salary is such a good deal', along with the matching claim in premise 2 that companies use it to take back the employee's rent saving. That is not how geographic pay is set. Companies set it by the cost of labour in a place, meaning what they must pay to hire and keep people with those skills there. They do not set it by the employee's cost of living or rent. The practice is also older than the remote-work trend. Premise 1 holds: Stripe is a US company. The Stripe example is told selectively. In 2020 Stripe offered a voluntary, one-time $20,000 payment to staff who chose to leave San Francisco, New York or Seattle, and those who took it accepted a base pay cut of up to 10%. Bloomberg reported that it varied by destination, with one example of 18% for a move to Denver. It was not a pay revision imposed on people who had already moved.. How it actually works: Employers benchmark each role against salary surveys for each location and apply a geographic pay differential that reflects local labour supply, demand and competition. In other words, they pay what it takes to hire in that market. Surveys report that most firms use cost-of-labour data and only a small minority rely mainly on cost of living. So a relocating employee can be moved to a lower pay band because the company could hire for less in the new city, not because the company is calculating their rent saving. Some firms pay the same national rate everywhere instead; Reddit did this in 2020. Rebuild the post on the correct mechanism.",
+     "Could not verify: 'Location-based pay is the practice of adjusting an employee's pay according to where they live, and companies communicate it through pay revisions.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Indian companies will use pay revisions to apply location-based pay cuts to staff who move to cheaper places.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Clients typically cannot tell where a remote employee is working from, and output and deadlines stay the same after the move.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "A decent 2BHK near a Bengaluru office easily costs about ₹40,000 a month in rent.",
+      "sentence": "But a decent 2BHK near a Bengaluru office is easily ₹40,000 a month.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "₹40,000 a month in rent comes to ₹4.8 lakh a year.",
+      "sentence": "That's ₹4.8 lakh a year that stops going to a landlord.",
+      "type": "arithmetic",
+      "core": false,
+      "framed_as": "timeless",
+      "expr": "40000*12",
+      "stated": "480000"
+     },
+     {
+      "id": "c3",
+      "text": "Stripe, a US company, introduced location-based pay in 2020.",
+      "sentence": "Stripe, a US company, did it in 2020: a 10% cut for staff who moved somewhere cheaper.",
+      "type": "event",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c4",
+      "text": "Stripe's 2020 policy cut pay by 10% for staff who moved somewhere cheaper.",
+      "sentence": "a 10% cut for staff who moved somewhere cheaper.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c5",
+      "text": "Stripe is a US company.",
+      "sentence": "Stripe, a US company",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Location-based pay is the practice of adjusting an employee's pay according to where they live, and companies communicate it through pay revisions.",
+      "sentence": "a \"pay revision\" that mentions where you live. It's called location-based pay.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "Under location-based pay, the company keeps the rent saving the employee would have gained by moving.",
+      "sentence": "The company keeps the rent gap you were saving.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c8",
+      "text": "Indian companies will use pay revisions to apply location-based pay cuts to staff who move to cheaper places.",
+      "sentence": "Your next pay revision is how they'll do it here.",
+      "type": "event",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c9",
+      "text": "Moving to a smaller hometown while keeping a metro salary saves money because rent is replaced by living in the family house, and the same employee's salary buys more, so it is a better financial deal than a raise. Companies see this and respond with location-based pay to claw back the saving.",
+      "sentence": "But companies can read a spreadsheet too. ... which is exactly why location-based pay exists.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c10",
+      "text": "Location-based pay exists because moving to a smaller city on a metro salary is such a good deal.",
+      "sentence": "Moving back to your hometown on a metro salary isn't a step back, which is exactly why location-based pay exists.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c11",
+      "text": "The author has seen friends move home on a metro salary, and none of their raises helped them as much as that move.",
+      "sentence": "I've seen friends do this. No raise they ever got did as much for them as that one move.",
+      "type": "anecdote",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c12",
+      "text": "Clients typically cannot tell where a remote employee is working from, and output and deadlines stay the same after the move.",
+      "sentence": "with the same output and the same deadlines, and the client can't even tell.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "correct": "Mid-range 2BHK rents near Bengaluru tech corridors run about ₹29,000–₹45,000 a month, so about ₹40,000 for a decent one is in the right range.",
+      "sources": [
+       {
+        "url": "https://brigadegroup.com/blog/residential/top-5-bengaluru-localities-for-roi",
+        "publisher": "Brigade Group (developer report)",
+        "published_date": "2025-04-01",
+        "quote": "Average Rent (2BHK): ₹29,000 – ₹43,000",
+        "tier": 3
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "2020-09-24",
+      "sources": [
+       {
+        "url": "https://www.hrkatha.com/news/option-for-employees-to-relocate-to-smaller-cities-and-take-pay-cut/",
+        "publisher": "HRKatha",
+        "published_date": "2020-09-24",
+        "quote": "those who do choose to relocate will also have to suffer a 10 per cent pay cut.",
+        "tier": 3
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "supported",
+      "event_date": "2020-09-24",
+      "sources": [
+       {
+        "url": "https://www.hrkatha.com/news/option-for-employees-to-relocate-to-smaller-cities-and-take-pay-cut/",
+        "publisher": "HRKatha",
+        "published_date": "2020-09-24",
+        "quote": "those who do choose to relocate will also have to suffer a 10 per cent pay cut.",
+        "tier": 3
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "supported",
+      "sources": [
+       {
+        "url": "https://www.hrkatha.com/news/option-for-employees-to-relocate-to-smaller-cities-and-take-pay-cut/",
+        "publisher": "HRKatha",
+        "published_date": "2020-09-24",
+        "quote": "American financial services and SaaS company",
+        "tier": 3
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "unverifiable",
+      "correct": "The definition (pay adjusted by where an employee lives) is broadly right and is shown by the Stripe example. I did not find a source saying companies communicate it through pay revisions."
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "supported",
+      "correct": "The Stripe policy cut pay for people who moved to cheaper places. That means the employer keeps part of the saving, though the employee still gains from lower living costs overall.",
+      "sources": [
+       {
+        "url": "https://www.hrkatha.com/news/option-for-employees-to-relocate-to-smaller-cities-and-take-pay-cut/",
+        "publisher": "HRKatha",
+        "published_date": "2020-09-24",
+        "quote": "those who do choose to relocate will also have to suffer a 10 per cent pay cut.",
+        "tier": 3
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "unverifiable",
+      "correct": "This is a prediction about Indian companies. I found no source confirming it."
+     },
+     "c12": {
+      "id": "c12",
+      "verdict": "unverifiable",
+      "correct": "This is a general assertion. I found no source supporting it."
+     }
+    },
+    "mechanism": {
+     "holds": false,
+     "broken_premise": "Premise 3 fails: 'Location-based pay exists because moving to a smaller city on a metro salary is such a good deal', along with the matching claim in premise 2 that companies use it to take back the employee's rent saving. That is not how geographic pay is set. Companies set it by the cost of labour in a place, meaning what they must pay to hire and keep people with those skills there. They do not set it by the employee's cost of living or rent. The practice is also older than the remote-work trend. Premise 1 holds: Stripe is a US company. The Stripe example is told selectively. In 2020 Stripe offered a voluntary, one-time $20,000 payment to staff who chose to leave San Francisco, New York or Seattle, and those who took it accepted a base pay cut of up to 10%. Bloomberg reported that it varied by destination, with one example of 18% for a move to Denver. It was not a pay revision imposed on people who had already moved.",
+     "actual_mechanism": "Employers benchmark each role against salary surveys for each location and apply a geographic pay differential that reflects local labour supply, demand and competition. In other words, they pay what it takes to hire in that market. Surveys report that most firms use cost-of-labour data and only a small minority rely mainly on cost of living. So a relocating employee can be moved to a lower pay band because the company could hire for less in the new city, not because the company is calculating their rent saving. Some firms pay the same national rate everywhere instead; Reddit did this in 2020.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.pymnts.com/personnel/2020/stripe-give-20000-dollar-bonus-then-pay-cut-workers-who-leave-nyc-san-francisco-seattle",
+       "published_date": "2020-09",
+       "quote": "Payments processor Stripe plans to make a one-time, $20,000 payment to employees who choose to move from San Francisco, New York or Seattle by the end of the year, but the company would also cut their base salary by as much as 10%"
+      },
+      {
+       "url": "https://www.bloomberg.com/news/articles/2021-06-15/stripe-saw-major-uptake-of-staff-offer-to-move-with-10-pay-cut",
+       "published_date": "2021-06-15",
+       "quote": "Stripe Inc. saw \"major uptake\" of the unusual offer it made to staff during the pandemic... workers had to consent to a 10% cut to their base compensation."
+      },
+      {
+       "url": "https://worldatwork.org/publications/workspan-daily/the-difference-between-cost-of-living-and-cost-of-labor",
+       "published_date": "unknown",
+       "quote": "Cost of labor asks what an employer needs to pay to attract and retain people with certain skills in a particular labor market."
+      },
+      {
+       "url": "https://pave.com/blog-posts/insights-from-paves-geographic-pay-differential-guide",
+       "published_date": "unknown",
+       "quote": "Cost-of-living differentials should not be used to set cross-location compensation, because cost of labor is not the same as cost of living (as summarized by the search tool; not checked against the page)."
+      },
+      {
+       "url": "https://fortune.com/2020/10/27/reddit-u-s-employees-pay-the-same-wherever-they-work/",
+       "published_date": "2020-10-27",
+       "quote": "Reddit: U.S. employees [get] pay the same wherever they work (headline as shown in search results; article not opened)"
+      }
+     ]
+    },
+    "text_hash": "96d8111b6ba27ed2af16c9adbbd72d05adfd4eba",
+    "at": "2026-11-15T11:59:40.839287+00:00"
+   },
+   "cd927daca3348f2ceec4c5d65edd9bd236de4e5f": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not verify: 'Offer letters commonly contain a 'location' clause that ties pay to the employee's location.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "A decent 2BHK near a Bengaluru office easily costs about ₹40,000 a month in rent.",
+      "sentence": "But a decent 2BHK near a Bengaluru office is easily ₹40,000 a month.",
+      "type": "figure",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "₹40,000 a month in rent comes to ₹4.8 lakh a year.",
+      "sentence": "That's ₹4.8 lakh a year that stops going to a landlord.",
+      "type": "arithmetic",
+      "core": false,
+      "framed_as": "timeless",
+      "expr": "40000*12",
+      "stated": "480000"
+     },
+     {
+      "id": "c3",
+      "text": "Stripe is a US company.",
+      "sentence": "Stripe, a US company",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "The author has seen friends move home on a metro salary, and none of their raises helped them as much as that move.",
+      "sentence": "I've seen friends do this. No raise they ever got did as much for them as that one move.",
+      "type": "anecdote",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c5",
+      "text": "Many companies set pay for a job by the city the employee lives in, based on what it costs to hire someone with those skills in that city, not by the employee's rent.",
+      "sentence": "But companies don't price your job by your rent. Many price it by city: what it takes to hire someone with your skills there.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "When an employee moves to a cheaper city, employers' pay-band logic leads them to cut pay, because they could hire someone from that city for less.",
+      "sentence": "Move home, and HR has one question. Could we get someone from there for less?",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "In 2020 Stripe, a US company, gave staff the choice to move somewhere cheaper and take a 10% pay cut.",
+      "sentence": "Stripe, a US company, gave staff a choice in 2020: move somewhere cheaper, take a 10% pay cut.",
+      "type": "event",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c8",
+      "text": "At VMware, the pay cut for employees moving to cheaper locations ran from 8% to 18% depending on the city.",
+      "sentence": "At VMware, the cut ran from 8% to 18%, depending on the city.",
+      "type": "event",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c9",
+      "text": "Companies are currently cutting pay for employees who work from their hometowns (HR is 'busy cutting pay for it').",
+      "sentence": "If it were, HR wouldn't be busy cutting pay for it.",
+      "type": "event",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c10",
+      "text": "Location-based pay is how companies take back the rent saving employees gain by moving home.",
+      "sentence": "Location-based pay is how companies take that win back.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c11",
+      "text": "Offer letters commonly contain a 'location' clause that ties pay to the employee's location.",
+      "sentence": "Then check your offer letter for \"location\".",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "correct": "Mid-range 2BHK rents near Bengaluru tech corridors run about ₹29,000–₹45,000 a month, so about ₹40,000 for a decent one is in the right range.",
+      "sources": [
+       {
+        "url": "https://brigadegroup.com/blog/residential/top-5-bengaluru-localities-for-roi",
+        "publisher": "Brigade Group (developer report)",
+        "published_date": "2025-04-01",
+        "quote": "Average Rent (2BHK): ₹29,000 – ₹43,000",
+        "tier": 3
+       }
+      ]
+     },
+     "c3": {
+      "id": "c5",
+      "verdict": "supported",
+      "sources": [
+       {
+        "url": "https://www.hrkatha.com/news/option-for-employees-to-relocate-to-smaller-cities-and-take-pay-cut/",
+        "publisher": "HRKatha",
+        "published_date": "2020-09-24",
+        "quote": "American financial services and SaaS company",
+        "tier": 3
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "supported",
+      "correct": "Geographic pay differentials based on local labor-market rates are common. The search summary reported a WorldatWork figure that 72% of organizations with remote workers have a formal geographic pay differential policy. I could not check that figure against WorldatWork directly.",
+      "sources": [
+       {
+        "url": "https://worldatwork.org/workspan/articles/managing-pay-in-the-world-of-remote-working%20",
+        "publisher": "WorldatWork",
+        "published_date": "2021-01-01",
+        "quote": "Managing Pay in the World of Remote Working",
+        "tier": 1
+       }
+      ]
+     },
+     "c7": {
+      "id": "c7",
+      "verdict": "supported",
+      "event_date": "2020-09-24",
+      "sources": [
+       {
+        "url": "https://www.hrkatha.com/news/option-for-employees-to-relocate-to-smaller-cities-and-take-pay-cut/",
+        "publisher": "HRKatha",
+        "published_date": "2020-09-24",
+        "quote": "relocating employees \"will also have to suffer a 10 per cent pay cut.\"",
+        "tier": 3
+       }
+      ]
+     },
+     "c8": {
+      "id": "c8",
+      "verdict": "supported",
+      "event_date": "2020-09-24",
+      "sources": [
+       {
+        "url": "https://www.hrkatha.com/news/option-for-employees-to-relocate-to-smaller-cities-and-take-pay-cut/",
+        "publisher": "HRKatha",
+        "published_date": "2020-09-24",
+        "quote": "Denver carries an 18 per cent cut and San Diego an eight per cent cut.",
+        "tier": 3
+       }
+      ]
+     },
+     "c9": {
+      "id": "c9",
+      "verdict": "supported",
+      "correct": "Location-based pay cuts began in 2020–21 (Facebook, Twitter, Google). A Deel article dated August 2026 says geographic pay is back and that 81% of organizations factor location into pay. I could not confirm that from a second source.",
+      "sources": [
+       {
+        "url": "https://www.shrm.org/topics-tools/news/benefits-compensation/googles-salary-cuts-remote-workers-renew-location-based-pay-debate",
+        "publisher": "SHRM",
+        "published_date": "2021-08-01",
+        "quote": "Facebook and Twitter have said that they will cut the pay of workers who choose to relocate away from their headquarters offices in the San Francisco Bay area",
+        "tier": 2
+       }
+      ]
+     },
+     "c11": {
+      "id": "c11",
+      "verdict": "unverifiable",
+      "correct": "I found no reliable source on how often offer letters contain a location clause. Geographic pay policies themselves are common."
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None of the premises is false. Two details need care. First, Stripe has headquarters in both San Francisco and Dublin, so 'Irish-American' is more exact than 'US company', though 'US company' is commonly used and defensible. Second, the examples date from 2020. Stripe's 10% cut also came with a one-time $20,000 relocation bonus. VMware's 8–18% cuts applied only to permanent moves, not to temporary stays with family. So 'location-based pay takes back the rent win' describes the effect, not the stated purpose: companies set pay against local labour-market rates, not against an employee's rent.",
+     "actual_mechanism": "Companies with geographic pay set salary bands by location. The band reflects what it costs to hire similar talent in that labour market, not the employee's living costs. A permanent move to a cheaper market can put you in a lower band, as with VMware: an 18% cut for Palo Alto to Denver and 8% for Palo Alto to LA or San Diego. Stripe in 2020 offered $20,000 plus up to a 10% base-pay cut to staff who left SF, NYC or Seattle. Not every employer does this. Reddit, for example, kept pay the same, and temporary relocations were often exempt. So whether you keep the 'metro salary' depends on your employer's policy and your contract.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.bloomberg.com/news/articles/2020-09-11/vmware-twitter-cut-pay-for-remote-workers-fleeing-bay-area",
+       "published_date": "2020-09-11",
+       "quote": "Moving to Denver, Colorado will result in an 18 per cent salary reduction, whereas leaving for Los Angeles or San Diego... means taking home a paycheck that's apparently 8 per cent lighter (as relayed by The Register, 2020-09-12)"
+      },
+      {
+       "url": "https://www.theregister.com/2020/09/12/silicon_valley_wages/",
+       "published_date": "2020-09-12",
+       "quote": "Moving to Denver, Colorado will result in an 18 per cent salary reduction, whereas leaving for Los Angeles or San Diego, in Southern California, means taking home a paycheck that's apparently 8 per cent lighter"
+      },
+      {
+       "url": "https://www.irishexaminer.com/business/companies/arid-40050308.html",
+       "published_date": "2020-09",
+       "quote": "Stripe workers who relocate get $20,000 bonus and a pay cut"
+      },
+      {
+       "url": "https://pymnts.com/personnel/2020/stripe-give-20000-dollar-bonus-then-pay-cut-workers-who-leave-nyc-san-francisco-seattle",
+       "published_date": "2020-09",
+       "quote": "Stripe To Give $20K Bonus, Then Pay Cut For Workers Who Leave New York City, San Francisco Or Seattle"
+      },
+      {
+       "url": "https://www.bloomberg.com/news/articles/2021-06-15/stripe-saw-major-uptake-of-staff-offer-to-move-with-10-pay-cut",
+       "published_date": "2021-06-15",
+       "quote": "Stripe Saw Major Uptake of Staff Offer to Move With 10% Pay Cut"
+      },
+      {
+       "url": "https://www.shrm.org/topics-tools/news/talent-acquisition/remote-workers-relocate-paid-less",
+       "published_date": "2020-09",
+       "quote": "Facebook and Twitter have said that they will cut the pay of workers who choose to relocate away from their headquarters offices in the San Francisco Bay area, while Reddit announced that it will not cut the pay of its relocating staff."
+      }
+     ]
+    },
+    "text_hash": "cd927daca3348f2ceec4c5d65edd9bd236de4e5f",
+    "at": "2026-11-15T12:02:53.426940+00:00"
+   }
+  },
+  "Many companies set pay for a job by the city the employee lives in, based on what it costs to hire someone with those skills in that city, not by the employee's rent.": {
+   "id": "c5",
+   "verdict": "supported",
+   "correct": "Geographic pay differentials based on local labor-market rates are common. The search summary reported a WorldatWork figure that 72% of organizations with remote workers have a formal geographic pay differential policy. I could not check that figure against WorldatWork directly.",
+   "sources": [
+    {
+     "url": "https://worldatwork.org/workspan/articles/managing-pay-in-the-world-of-remote-working%20",
+     "publisher": "WorldatWork",
+     "published_date": "2021-01-01",
+     "quote": "Managing Pay in the World of Remote Working",
+     "tier": 1
+    }
+   ]
+  },
+  "In 2020 Stripe, a US company, gave staff the choice to move somewhere cheaper and take a 10% pay cut.": {
+   "id": "c7",
+   "verdict": "supported",
+   "event_date": "2020-09-24",
+   "sources": [
+    {
+     "url": "https://www.hrkatha.com/news/option-for-employees-to-relocate-to-smaller-cities-and-take-pay-cut/",
+     "publisher": "HRKatha",
+     "published_date": "2020-09-24",
+     "quote": "relocating employees \"will also have to suffer a 10 per cent pay cut.\"",
+     "tier": 3
+    }
+   ]
+  },
+  "At VMware, the pay cut for employees moving to cheaper locations ran from 8% to 18% depending on the city.": {
+   "id": "c8",
+   "verdict": "supported",
+   "event_date": "2020-09-24",
+   "sources": [
+    {
+     "url": "https://www.hrkatha.com/news/option-for-employees-to-relocate-to-smaller-cities-and-take-pay-cut/",
+     "publisher": "HRKatha",
+     "published_date": "2020-09-24",
+     "quote": "Denver carries an 18 per cent cut and San Diego an eight per cent cut.",
+     "tier": 3
+    }
+   ]
+  },
+  "Companies are currently cutting pay for employees who work from their hometowns (HR is 'busy cutting pay for it').": {
+   "id": "c9",
+   "verdict": "supported",
+   "correct": "Location-based pay cuts began in 2020–21 (Facebook, Twitter, Google). A Deel article dated August 2026 says geographic pay is back and that 81% of organizations factor location into pay. I could not confirm that from a second source.",
+   "sources": [
+    {
+     "url": "https://www.shrm.org/topics-tools/news/benefits-compensation/googles-salary-cuts-remote-workers-renew-location-based-pay-debate",
+     "publisher": "SHRM",
+     "published_date": "2021-08-01",
+     "quote": "Facebook and Twitter have said that they will cut the pay of workers who choose to relocate away from their headquarters offices in the San Francisco Bay area",
+     "tier": 2
+    }
+   ]
+  },
+  "Offer letters commonly contain a 'location' clause that ties pay to the employee's location.": {
+   "id": "c11",
+   "verdict": "unverifiable",
+   "correct": "I found no reliable source on how often offer letters contain a location clause. Geographic pay policies themselves are common."
+  },
+  "_skeptic_take": {
+   "2765c94331524ad66727fbba7ad63b7e1b911b81": {
+    "holds": true,
+    "broken_premise": "None of the premises is false. Two details need care. First, Stripe has headquarters in both San Francisco and Dublin, so 'Irish-American' is more exact than 'US company', though 'US company' is commonly used and defensible. Second, the examples date from 2020. Stripe's 10% cut also came with a one-time $20,000 relocation bonus. VMware's 8–18% cuts applied only to permanent moves, not to temporary stays with family. So 'location-based pay takes back the rent win' describes the effect, not the stated purpose: companies set pay against local labour-market rates, not against an employee's rent.",
+    "actual_mechanism": "Companies with geographic pay set salary bands by location. The band reflects what it costs to hire similar talent in that labour market, not the employee's living costs. A permanent move to a cheaper market can put you in a lower band, as with VMware: an 18% cut for Palo Alto to Denver and 8% for Palo Alto to LA or San Diego. Stripe in 2020 offered $20,000 plus up to a 10% base-pay cut to staff who left SF, NYC or Seattle. Not every employer does this. Reddit, for example, kept pay the same, and temporary relocations were often exempt. So whether you keep the 'metro salary' depends on your employer's policy and your contract.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.bloomberg.com/news/articles/2020-09-11/vmware-twitter-cut-pay-for-remote-workers-fleeing-bay-area",
+      "published_date": "2020-09-11",
+      "quote": "Moving to Denver, Colorado will result in an 18 per cent salary reduction, whereas leaving for Los Angeles or San Diego... means taking home a paycheck that's apparently 8 per cent lighter (as relayed by The Register, 2020-09-12)"
+     },
+     {
+      "url": "https://www.theregister.com/2020/09/12/silicon_valley_wages/",
+      "published_date": "2020-09-12",
+      "quote": "Moving to Denver, Colorado will result in an 18 per cent salary reduction, whereas leaving for Los Angeles or San Diego, in Southern California, means taking home a paycheck that's apparently 8 per cent lighter"
+     },
+     {
+      "url": "https://www.irishexaminer.com/business/companies/arid-40050308.html",
+      "published_date": "2020-09",
+      "quote": "Stripe workers who relocate get $20,000 bonus and a pay cut"
+     },
+     {
+      "url": "https://pymnts.com/personnel/2020/stripe-give-20000-dollar-bonus-then-pay-cut-workers-who-leave-nyc-san-francisco-seattle",
+      "published_date": "2020-09",
+      "quote": "Stripe To Give $20K Bonus, Then Pay Cut For Workers Who Leave New York City, San Francisco Or Seattle"
+     },
+     {
+      "url": "https://www.bloomberg.com/news/articles/2021-06-15/stripe-saw-major-uptake-of-staff-offer-to-move-with-10-pay-cut",
+      "published_date": "2021-06-15",
+      "quote": "Stripe Saw Major Uptake of Staff Offer to Move With 10% Pay Cut"
+     },
+     {
+      "url": "https://www.shrm.org/topics-tools/news/talent-acquisition/remote-workers-relocate-paid-less",
+      "published_date": "2020-09",
+      "quote": "Facebook and Twitter have said that they will cut the pay of workers who choose to relocate away from their headquarters offices in the San Francisco Bay area, while Reddit announced that it will not cut the pay of its relocating staff."
+     }
+    ]
+   }
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "A metro salary in a small city is [the best deal going]",
+   "sub": "But your company prices your job by where you sit."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "A metro salary in a small city is the best deal going. Your pay band may not agree.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "Best deal? Doesn't everyone call moving home a step back?"
+   },
+   {
+    "paragraphs": [
+     "Back home, it still gets read as a step back.",
+     "\"Sheher chhod diya? Sab theek hai na?\"",
+     "Relatives at every family function assume it didn't work out, and even colleagues decide you've stopped trying."
+    ],
+    "why_swipe": "So what does the move actually look like day to day?"
+   },
+   {
+    "paragraphs": [
+     "The same 10am standup, now from your old bedroom. The pressure cooker whistle goes off while you're on mute.",
+     "The salary still lands on the 1st."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "But a decent 2BHK near a Bengaluru office is easily ₹40,000 a month. Back home, it's the family house. That's ₹4.8 lakh a year that stops going to a landlord."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "The salary didn't change. What it buys did."
+    ],
+    "why_swipe": "Is it only about money?"
+   },
+   {
+    "paragraphs": [
+     "I've seen friends do this. No raise they ever got did as much for them as that one move.",
+     "No 90-minute commute. Parents close by when the medical report comes. A savings number that finally moves every month."
+    ],
+    "why_swipe": "If it's this good, who's going to stop it?"
+   },
+   {
+    "paragraphs": [
+     "But companies don't price your job by your rent. Many price it by city: what it takes to hire someone with your skills there.",
+     "Move home, and HR has one question. Could we get someone from there for less?"
+    ],
+    "why_swipe": "Has anyone actually done this?"
+   },
+   {
+    "paragraphs": [
+     "Stripe, a US company, gave staff a choice in 2020: move somewhere cheaper, take a 10% pay cut. At VMware, the cut ran from 8% to 18%, depending on the city.",
+     "They cared what your new city pays."
+    ],
+    "why_swipe": "Why does this feel so unfair if the logic sounds fine?"
+   },
+   {
+    "paragraphs": [
+     "To you, it's the same job from a different room. To the pay band, you're now a hire in a cheaper market.",
+     "Fair on paper. Still feels like a fine for going home."
+    ],
+    "why_swipe": "So what do you say to the people calling it giving up?"
+   },
+   {
+    "paragraphs": [
+     "When someone says moving home means giving up, ask what their rent is.",
+     "Then check your offer letter for \"location\"."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Read it again before you tell HR you're moving home.",
+   "send": "Send to the friend who keeps saying 'I'll move back in two years'.",
+   "promise": "How money and work really move in India."
+  },
+  "alt_text": "A ten-slide text post arguing that earning a metro salary while living in a smaller home city is the best money deal of this decade. Relatives read the move as a step back, but the same job from your old bedroom means rent stops going to a landlord. The catch is that many companies price jobs by city, based on what it costs to hire someone with your skills there, not on your rent. In 2020 US company Stripe gave staff the choice to move somewhere cheaper with a 10% pay cut, and VMware's cut ran from 8% to 18% depending on the city. To you it is the same job from a different room; to the pay band you are a hire in a cheaper market. Fair on paper, but it feels like a fine for going home. It ends by suggesting you ask critics what their rent is, and check your offer letter for the word 'location'.",
+  "claims": [
+   {
+    "text": "Stripe, a US company, gave staff a choice in 2020: move somewhere cheaper, take a 10% pay cut.",
+    "source_url": "https://www.hrkatha.com/news/option-for-employees-to-relocate-to-smaller-cities-and-take-pay-cut/"
+   },
+   {
+    "text": "At VMware, the cut ran from 8% to 18%, depending on the city.",
+    "source_url": "https://www.hrkatha.com/news/option-for-employees-to-relocate-to-smaller-cities-and-take-pay-cut/"
+   },
+   {
+    "text": "That's ₹4.8 lakh a year that stops going to a landlord.",
+    "source_url": "topic",
+    "derived_from": "Typical rent of ₹40,000 a month × 12 months = ₹4,80,000 a year"
+   }
+  ],
+  "caption": "Working from your hometown looks like a step back. If it were, HR wouldn't be busy cutting pay for it.\n\nThe win is the rent you stop paying. Location-based pay is how companies take that win back.\n\nSend this to the friend who keeps saying 'I'll move back in two years', before their pay band decides for them.",
+  "hashtags": [
+   "#RemoteWork",
+   "#MoneyHabits"
+  ],
+  "caption_style": "send",
+  "search_phrase": "location-based pay",
+  "caption_v": 2
+ }
 }
