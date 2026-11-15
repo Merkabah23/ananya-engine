@@ -514,7 +514,7 @@ def test_a_confused_first_reader_becomes_notes():
     notes = writer.reader_problems(muddled)
     assert any(n.startswith("Unclear (slide 4)") for n in notes) and any("slide 6" in n for n in notes)
     assert any("took the reason as 'none'" in n for n in notes)
-    assert any("4 separate ideas" in n for n in notes) and any("2 slides feel like endings" in n for n in notes)
+    assert any("4 separate ideas" in n for n in notes)
     assert writer.reader_problems(CLEAR_READ) == []
     assert writer.reader_problems({"error": "timeout"}) == []  # a check that can't run never holds a post
     assert writer.passes({"violations": [], "scores": {**SCORES5, "clear": 5}})

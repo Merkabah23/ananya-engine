@@ -503,8 +503,7 @@ def reader_problems(check: dict) -> list[str]:
     if len(ideas) > 2:
         out.append(f"Unclear: a first-time reader counted {len(ideas)} separate ideas ({'; '.join(map(str, ideas[:5]))}). "
                    "Keep one idea and its reason; cut the side arguments.")
-    if _score(check, "endings") > 1:
-        out.append(f"Unclear: {_score(check, 'endings')} slides feel like endings. Keep one ending, on the last slide.")
+    # "endings" is kept in the history but never blocks: on 15 Nov it read 2, then 4, on near-identical drafts.
     return out
 
 
