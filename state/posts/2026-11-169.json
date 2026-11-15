@@ -1,0 +1,1181 @@
+{
+ "id": "2026-11-169",
+ "status": "approved",
+ "due": "2026-11-16T20:30:00+05:30",
+ "format": "carousel",
+ "topic": {
+  "title": "Shows written for your phone",
+  "claim": "Many OTT shows now have characters say out loud what just happened, because the show expects you to be scrolling.",
+  "moment": "A character explains the plot twist you just watched while you're replying to a message.",
+  "turn": {
+   "believed": "Writing has got lazy.",
+   "actually": "It's built for a second screen, so you can look away and still follow."
+  },
+  "feeling": "The show doesn't trust me, and honestly, it's right.",
+  "villain": "Streaming metrics that reward finishing a show over paying attention to it",
+  "story_type": "teaching",
+  "because": "Platforms care whether you finish the episode. Spelling things out keeps distracted viewers from dropping off.",
+  "payoff": "Test: put your phone in another room for one episode. Count how often the show repeats itself.",
+  "lived": false,
+  "behaviour": "Viewers watch with phones in hand, and writers add recap lines and obvious dialogue.",
+  "mechanism": "Completion rates drive decisions, so writing serves the distracted viewer.",
+  "group": "Streaming viewers who watch in the evening after work",
+  "territory": "pop_culture",
+  "mood": "mixed",
+  "format_name": "feed_anthropology",
+  "send_to": "The friend who watches shows at 1.5x while scrolling",
+  "format_hint": "carousel",
+  "why_now": "Streaming platforms are releasing more shows built for binge watching.",
+  "needs_facts": false,
+  "news_peg": null,
+  "evidence": [],
+  "id": "2026-11-111204-050",
+  "score": {
+   "rank": 2,
+   "why": "You catch yourself half-watching a show while the characters explain the twist. It turns 'lazy writing' into 'written for your second screen'.",
+   "scores": {
+    "relatable": 5,
+    "fresh_angle": 4,
+    "shareable": 4,
+    "saveable": 3,
+    "because": 4
+   },
+   "format_fit": "carousel"
+  }
+ },
+ "history": [],
+ "updated_at": "2026-11-15T15:08:36.044871+00:00",
+ "sources": [
+  {
+   "url": "https://www.tubefilter.com/2025/01/07/netflix-murder-mystery-casual-viewing-what-we-watched/amp/",
+   "fact": "Screenwriters cited in Will Tavlin's n+1 essay 'Casual Viewing' said Netflix told them to have characters announce what they're doing so viewers with the show on in the background can follow along.",
+   "excerpt": "Tavlin's piece has received widespread attention because of its references to Hollywood screenwriters | have this character announce what they're doing so that viewers who have this program on in the background can follow along | For the majority of Americans who employ a second screen while watching TV",
+   "date": "2025-01-07"
+  },
+  {
+   "url": "https://nofilmschool.com/netflix-execs-exposition-police",
+   "fact": "The claim that Netflix tells writers to have characters state the plot for viewers on phones comes from rumour, and Netflix's film chief and chief content officer deny it. This is a global story with no India-specific evidence, and it contradicts the claim.",
+   "excerpt": "Netflix asks writers and directors to have their characters state the plot | Film chief Dan Lin said, \"There is no such principle,\" ... Netflix doesn't repeat its plots in its shows and movies. | Chief Content Officer Bela Bajaria called the idea \"so offensive to creators and filmmakers\"",
+   "date": "2026-03-19"
+  },
+  {
+   "url": "https://viewerspoint.com/ott-shows/slow-burn-indian-web-series/",
+   "fact": "An Indian director says writers must account for viewers who may be on a phone or half-asleep, and she favours slow, implied storytelling over sudden twists. The page does not mention recap or expository dialogue, so it does not support the claim.",
+   "excerpt": "when they might be on a phone in broad daylight or half-asleep at 2 AM | avoid \"jump scares or sudden twists\" and instead \"create something that seeps in rather than jumps out.\" | When you watch Paatal Lok, you cannot multitask. You cannot glance at your phone every thirty seconds.",
+   "date": "2026-02-19"
+  }
+ ],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] OTT characters keep saying out loud what just happened.\nIt's not bad writing. It's written for your phone.\n \n\n[slide 1] OTT characters keep saying out loud what just happened.\nIt's not bad writing. It's written for your phone.\n\n[slide 2] You know the moment.\nThe big twist lands while you're replying \"haan, pahunch gaya\" on the family group.\n\n[slide 3] You look up, and a character says, \"So the brother was behind it all along?\"\nYou're caught up. You didn't even rewind.\n\n[slide 4] That line isn't for the other character.\nIt's for you, the viewer who was looking at another screen.\n\n[slide 5] Screenwriters say Netflix sent them a note like this.\n\"Have this character announce what they're doing so that viewers who have this program on in the background can follow along.\"\nNetflix says there's no such rule.\n\n[slide 6] Rule or no rule, it works out the same.\nA viewer who gets lost doesn't complain. They switch to something else. So the show never lets you get lost.\n\n[slide 7] Next time a character explains the scene you just watched, don't roll your eyes.\nCheck where your eyes were.\n\n[end card] \nSend this to the friend who watches every show with Instagram open.\n\n[caption] OTT shows repeat the plot out loud because they're written for the phone in your hand.\n\nA viewer who gets lost doesn't complain. They just switch to something else.\n\nSend this to the friend who watches every show with Instagram open.\n\n[alt text] A text post on why OTT characters say out loud what just happened: shows are written for viewers looking at their phones.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "OTT show characters frequently say out loud, in dialogue, what has just happened in the plot (recap-style lines).",
+     "sentence": "OTT characters keep saying out loud what just happened.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "Netflix sent screenwriters a note instructing them to have a character announce what they are doing, so viewers running the show in the background can follow along.",
+     "sentence": "Screenwriters say Netflix sent them a note like this. \"Have this character announce what they're doing so that viewers who have this program on in the background can follow along.\"",
+     "type": "event",
+     "core": true,
+     "framed_as": "past"
+    },
+    {
+     "id": "c3",
+     "text": "Netflix states that no such rule or note instructing writers to add this kind of explanatory dialogue exists.",
+     "sentence": "Netflix says there's no such rule.",
+     "type": "entity_attribute",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c4",
+     "text": "Because OTT viewers often watch while distracted (e.g. on their phones) and a lost viewer switches away rather than catching up, shows deliberately write characters to speak plot developments aloud so that distracted viewers can still follow the story and are not lost.",
+     "sentence": "That line isn't for the other character. It's for you, the viewer who was looking at another screen. ... So the show never lets you get lost.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "Apps and platforms track completion (whether viewers finish a show or episode) as the metric watched most closely, more than whether viewers loved it.": {
+   "id": "c3",
+   "verdict": "unverifiable",
+   "correct": "Netflix does not publish completion rates or call them its most-watched metric. Its published figures centre on viewing hours and views. Third-party analysts treat completion as an important renewal signal. Other factors also matter, and no platform has said completion outranks viewer enjoyment. The claim is also broad: it covers 'apps and platforms' generally.",
+   "sources": [
+    {
+     "url": "https://whats-on-netflix.com/news/are-completion-rates-key-to-netflix-cancelations",
+     "publisher": "What's on Netflix",
+     "published_date": "2024-01-01",
+     "quote": "Completion rates key to Netflix cancelations (search summary: Netflix has never publicly released completion rate information; completion is not the only metric that determines renewal)",
+     "tier": 3
+    }
+   ]
+  },
+  "Dan Lin is Netflix's film chief.": {
+   "id": "c5",
+   "verdict": "outdated",
+   "event_date": "2024-02-28",
+   "correct": "Dan Lin became Netflix's film chief on 1 April 2024, replacing Scott Stuber. TheWrap reported on 2026-10-19 that he was leaving Netflix, so he is no longer film chief as of the 2026-11-16 go-live date.",
+   "sources": [
+    {
+     "url": "https://thewrap.com/creative-content/movies/netflix-film-chief-dan-lin-out/",
+     "publisher": "TheWrap",
+     "published_date": "2026-10-19",
+     "quote": "Dan Lin is leaving Netflix... it had been 'a great privilege to lead this incredible team.'",
+     "tier": 2
+    }
+   ]
+  },
+  "Dan Lin has said there is \"no such principle\" of making characters state the plot.": {
+   "id": "c6",
+   "verdict": "supported",
+   "event_date": "2026-03-18",
+   "correct": "Lin said this at a Netflix press event on 18 March 2026. He was rejecting a rumour that Netflix tells writers to have characters restate the plot.",
+   "sources": [
+    {
+     "url": "https://nofilmschool.com/netflix-execs-exposition-police",
+     "publisher": "No Film School",
+     "published_date": "2026-03-19",
+     "quote": "There is no such principle.",
+     "tier": 3
+    }
+   ]
+  },
+  "_skeptic": {
+   "3c4cc3bfa0acd0eaf67201576dd324d24a6fac02": {
+    "holds": true,
+    "broken_premise": "None is shown to be false. Dan Lin is Netflix's film chairman and has been since April 2024. On 19 March 2026 he did say 'There is no such principle.' Streamers do measure whether you finish: Netflix's public 'views' metric is hours watched divided by runtime, so viewers who drop out partway count for less. Two parts are softer. 'The dashboard points the same way' is the writer's own inference, and Netflix denies any rule. The 'now' framing and the motive are the writer's reading, and the post presents them as opinion, not fact.",
+    "actual_mechanism": "Platforms track how much of a title people watch and whether they finish it. Netflix publicly ranks titles by 'views', which is hours watched divided by runtime, so a title loses credit when people stop partway. That gives makers a commercial reason to keep distracted viewers following along. There is reported evidence on both sides. Matt Damon said on Joe Rogan's podcast that Netflix encourages restating the plot 'three or four times in the dialogue because people are on their phones,' and Will Tavlin's n+1 essay 'Casual Viewing' made similar claims. Netflix executives, including Lin, Bela Bajaria and Jinny Howe, deny there is any mandate, and Lin said 'we don't repeat our plots.' The post states this denial fairly and argues that the incentive exists without a written rule. That is a reasonable reading, not a false claim about how the business works.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.avclub.com/netflix-reiterate-movie-plots-matt-damon-oscars",
+      "published_date": "2026-03-19",
+      "quote": "There is no such principle... if you watch our movies or TV shows, we don't repeat our plots. (Dan Lin, Netflix film chairman); Damon said Netflix encourages reiterating 'the plot three or four times in the dialogue because people are on their phones while they're watching.'"
+     },
+     {
+      "url": "https://hollywoodreporter.com/movies/movie-news/netflix-we-dont-tell-filmmakers-repeat-plot-1236540349",
+      "published_date": "2026-03-19",
+      "quote": "We're just focused on making great movies. There's no formula or procedure that you just mentioned."
+     },
+     {
+      "url": "https://www.thewrap.com/dan-lin-netflix-film-boss-scott-stuber-replacement/",
+      "published_date": "2024-02",
+      "quote": "Dan Lin to Replace Scott Stuber as Head of Netflix Film"
+     },
+     {
+      "url": "https://www.bunkhistory.org/authors/will-tavlin",
+      "published_date": "2024-12-16",
+      "quote": "Casual Viewing / Why Netflix looks like that. by Will Tavlin via n+1"
+     }
+    ]
+   },
+   "12a7e7183e1bd185432439e703f4009d4c25c3df": {
+    "holds": true,
+    "broken_premise": "None is shown to be false. Dan Lin is Netflix's film chairman and has been since April 2024. On 19 March 2026 he did say 'There is no such principle.' Streamers do measure whether you finish: Netflix's public 'views' metric is hours watched divided by runtime, so viewers who drop out partway count for less. Two parts are softer. 'The dashboard points the same way' is the writer's own inference, and Netflix denies any rule. The 'now' framing and the motive are the writer's reading, and the post presents them as opinion, not fact.",
+    "actual_mechanism": "Platforms track how much of a title people watch and whether they finish it. Netflix publicly ranks titles by 'views', which is hours watched divided by runtime, so a title loses credit when people stop partway. That gives makers a commercial reason to keep distracted viewers following along. There is reported evidence on both sides. Matt Damon said on Joe Rogan's podcast that Netflix encourages restating the plot 'three or four times in the dialogue because people are on their phones,' and Will Tavlin's n+1 essay 'Casual Viewing' made similar claims. Netflix executives, including Lin, Bela Bajaria and Jinny Howe, deny there is any mandate, and Lin said 'we don't repeat our plots.' The post states this denial fairly and argues that the incentive exists without a written rule. That is a reasonable reading, not a false claim about how the business works.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.avclub.com/netflix-reiterate-movie-plots-matt-damon-oscars",
+      "published_date": "2026-03-19",
+      "quote": "There is no such principle... if you watch our movies or TV shows, we don't repeat our plots. (Dan Lin, Netflix film chairman); Damon said Netflix encourages reiterating 'the plot three or four times in the dialogue because people are on their phones while they're watching.'"
+     },
+     {
+      "url": "https://hollywoodreporter.com/movies/movie-news/netflix-we-dont-tell-filmmakers-repeat-plot-1236540349",
+      "published_date": "2026-03-19",
+      "quote": "We're just focused on making great movies. There's no formula or procedure that you just mentioned."
+     },
+     {
+      "url": "https://www.thewrap.com/dan-lin-netflix-film-boss-scott-stuber-replacement/",
+      "published_date": "2024-02",
+      "quote": "Dan Lin to Replace Scott Stuber as Head of Netflix Film"
+     },
+     {
+      "url": "https://www.bunkhistory.org/authors/will-tavlin",
+      "published_date": "2024-12-16",
+      "quote": "Casual Viewing / Why Netflix looks like that. by Will Tavlin via n+1"
+     }
+    ]
+   },
+   "99999ddde992cd36863de5cea2b6df651757c8a4": {
+    "holds": true,
+    "broken_premise": "None is shown to be false. Dan Lin is Netflix's film chairman and has been since April 2024. On 19 March 2026 he did say 'There is no such principle.' Streamers do measure whether you finish: Netflix's public 'views' metric is hours watched divided by runtime, so viewers who drop out partway count for less. Two parts are softer. 'The dashboard points the same way' is the writer's own inference, and Netflix denies any rule. The 'now' framing and the motive are the writer's reading, and the post presents them as opinion, not fact.",
+    "actual_mechanism": "Platforms track how much of a title people watch and whether they finish it. Netflix publicly ranks titles by 'views', which is hours watched divided by runtime, so a title loses credit when people stop partway. That gives makers a commercial reason to keep distracted viewers following along. There is reported evidence on both sides. Matt Damon said on Joe Rogan's podcast that Netflix encourages restating the plot 'three or four times in the dialogue because people are on their phones,' and Will Tavlin's n+1 essay 'Casual Viewing' made similar claims. Netflix executives, including Lin, Bela Bajaria and Jinny Howe, deny there is any mandate, and Lin said 'we don't repeat our plots.' The post states this denial fairly and argues that the incentive exists without a written rule. That is a reasonable reading, not a false claim about how the business works.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.avclub.com/netflix-reiterate-movie-plots-matt-damon-oscars",
+      "published_date": "2026-03-19",
+      "quote": "There is no such principle... if you watch our movies or TV shows, we don't repeat our plots. (Dan Lin, Netflix film chairman); Damon said Netflix encourages reiterating 'the plot three or four times in the dialogue because people are on their phones while they're watching.'"
+     },
+     {
+      "url": "https://hollywoodreporter.com/movies/movie-news/netflix-we-dont-tell-filmmakers-repeat-plot-1236540349",
+      "published_date": "2026-03-19",
+      "quote": "We're just focused on making great movies. There's no formula or procedure that you just mentioned."
+     },
+     {
+      "url": "https://www.thewrap.com/dan-lin-netflix-film-boss-scott-stuber-replacement/",
+      "published_date": "2024-02",
+      "quote": "Dan Lin to Replace Scott Stuber as Head of Netflix Film"
+     },
+     {
+      "url": "https://www.bunkhistory.org/authors/will-tavlin",
+      "published_date": "2024-12-16",
+      "quote": "Casual Viewing / Why Netflix looks like that. by Will Tavlin via n+1"
+     }
+    ]
+   },
+   "6fe023696130e048ebda577e886283656f938974": {
+    "holds": true,
+    "broken_premise": "None is shown to be false. Dan Lin is Netflix's film chairman and has been since April 2024. On 19 March 2026 he did say 'There is no such principle.' Streamers do measure whether you finish: Netflix's public 'views' metric is hours watched divided by runtime, so viewers who drop out partway count for less. Two parts are softer. 'The dashboard points the same way' is the writer's own inference, and Netflix denies any rule. The 'now' framing and the motive are the writer's reading, and the post presents them as opinion, not fact.",
+    "actual_mechanism": "Platforms track how much of a title people watch and whether they finish it. Netflix publicly ranks titles by 'views', which is hours watched divided by runtime, so a title loses credit when people stop partway. That gives makers a commercial reason to keep distracted viewers following along. There is reported evidence on both sides. Matt Damon said on Joe Rogan's podcast that Netflix encourages restating the plot 'three or four times in the dialogue because people are on their phones,' and Will Tavlin's n+1 essay 'Casual Viewing' made similar claims. Netflix executives, including Lin, Bela Bajaria and Jinny Howe, deny there is any mandate, and Lin said 'we don't repeat our plots.' The post states this denial fairly and argues that the incentive exists without a written rule. That is a reasonable reading, not a false claim about how the business works.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.avclub.com/netflix-reiterate-movie-plots-matt-damon-oscars",
+      "published_date": "2026-03-19",
+      "quote": "There is no such principle... if you watch our movies or TV shows, we don't repeat our plots. (Dan Lin, Netflix film chairman); Damon said Netflix encourages reiterating 'the plot three or four times in the dialogue because people are on their phones while they're watching.'"
+     },
+     {
+      "url": "https://hollywoodreporter.com/movies/movie-news/netflix-we-dont-tell-filmmakers-repeat-plot-1236540349",
+      "published_date": "2026-03-19",
+      "quote": "We're just focused on making great movies. There's no formula or procedure that you just mentioned."
+     },
+     {
+      "url": "https://www.thewrap.com/dan-lin-netflix-film-boss-scott-stuber-replacement/",
+      "published_date": "2024-02",
+      "quote": "Dan Lin to Replace Scott Stuber as Head of Netflix Film"
+     },
+     {
+      "url": "https://www.bunkhistory.org/authors/will-tavlin",
+      "published_date": "2024-12-16",
+      "quote": "Casual Viewing / Why Netflix looks like that. by Will Tavlin via n+1"
+     }
+    ]
+   }
+  },
+  "_skeptic_take": {
+   "59fdd419add7528010efcd5b402943795ff868a0": {
+    "holds": true,
+    "broken_premise": "None is shown to be false. Dan Lin is Netflix's film chairman and has been since April 2024. On 19 March 2026 he did say 'There is no such principle.' Streamers do measure whether you finish: Netflix's public 'views' metric is hours watched divided by runtime, so viewers who drop out partway count for less. Two parts are softer. 'The dashboard points the same way' is the writer's own inference, and Netflix denies any rule. The 'now' framing and the motive are the writer's reading, and the post presents them as opinion, not fact.",
+    "actual_mechanism": "Platforms track how much of a title people watch and whether they finish it. Netflix publicly ranks titles by 'views', which is hours watched divided by runtime, so a title loses credit when people stop partway. That gives makers a commercial reason to keep distracted viewers following along. There is reported evidence on both sides. Matt Damon said on Joe Rogan's podcast that Netflix encourages restating the plot 'three or four times in the dialogue because people are on their phones,' and Will Tavlin's n+1 essay 'Casual Viewing' made similar claims. Netflix executives, including Lin, Bela Bajaria and Jinny Howe, deny there is any mandate, and Lin said 'we don't repeat our plots.' The post states this denial fairly and argues that the incentive exists without a written rule. That is a reasonable reading, not a false claim about how the business works.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://www.avclub.com/netflix-reiterate-movie-plots-matt-damon-oscars",
+      "published_date": "2026-03-19",
+      "quote": "There is no such principle... if you watch our movies or TV shows, we don't repeat our plots. (Dan Lin, Netflix film chairman); Damon said Netflix encourages reiterating 'the plot three or four times in the dialogue because people are on their phones while they're watching.'"
+     },
+     {
+      "url": "https://hollywoodreporter.com/movies/movie-news/netflix-we-dont-tell-filmmakers-repeat-plot-1236540349",
+      "published_date": "2026-03-19",
+      "quote": "We're just focused on making great movies. There's no formula or procedure that you just mentioned."
+     },
+     {
+      "url": "https://www.thewrap.com/dan-lin-netflix-film-boss-scott-stuber-replacement/",
+      "published_date": "2024-02",
+      "quote": "Dan Lin to Replace Scott Stuber as Head of Netflix Film"
+     },
+     {
+      "url": "https://www.bunkhistory.org/authors/will-tavlin",
+      "published_date": "2024-12-16",
+      "quote": "Casual Viewing / Why Netflix looks like that. by Will Tavlin via n+1"
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "c9e2ca6294ffcf30f4bfe4fcfc9bc07ef164fc96": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not verify: 'Apps and platforms track completion (whether viewers finish a show or episode) as the metric watched most closely, more than whether viewers loved it.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "OTT shows now have characters state plot twists out loud because the makers know viewers are looking at their phones during big scenes.",
+      "sentence": "OTT shows now say the plot twist out loud. They know you're looking at your phone.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c2",
+      "text": "Many OTT shows are now written and built for viewers using a second screen, so a viewer who looks away for two minutes can still follow.",
+      "sentence": "a lot of it is a show built for a second screen. Look away for two minutes and you still follow.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "current"
+     },
+     {
+      "id": "c3",
+      "text": "Apps and platforms track completion (whether viewers finish a show or episode) as the metric watched most closely, more than whether viewers loved it.",
+      "sentence": "Anyone who has built an app knows which number gets watched most closely. It isn't whether you loved it. It's whether you finished it.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "A viewer who gets lost partway through an episode typically does not complain but closes the app.",
+      "sentence": "A viewer who gets lost at minute twenty doesn't complain. They close the app.",
+      "type": "mechanism",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Dan Lin is Netflix's film chief.",
+      "sentence": "Netflix's film chief Dan Lin",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c6",
+      "text": "Dan Lin has said there is \"no such principle\" of making characters state the plot.",
+      "sentence": "Netflix's film chief Dan Lin has said there is \"no such principle\" of making characters state the plot.",
+      "type": "event",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c7",
+      "text": "Streaming dashboards show a finish rate that points toward making shows easier to follow with repeated plot explanation.",
+      "sentence": "a show doesn't need a written rule when the finish rate on the dashboard already points the same way.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c3": {
+      "id": "c3",
+      "verdict": "unverifiable",
+      "correct": "Netflix does not publish completion rates or call them its most-watched metric. Its published figures centre on viewing hours and views. Third-party analysts treat completion as an important renewal signal. Other factors also matter, and no platform has said completion outranks viewer enjoyment. The claim is also broad: it covers 'apps and platforms' generally.",
+      "sources": [
+       {
+        "url": "https://whats-on-netflix.com/news/are-completion-rates-key-to-netflix-cancelations",
+        "publisher": "What's on Netflix",
+        "published_date": "2024-01-01",
+        "quote": "Completion rates key to Netflix cancelations (search summary: Netflix has never publicly released completion rate information; completion is not the only metric that determines renewal)",
+        "tier": 3
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "outdated",
+      "event_date": "2024-02-28",
+      "correct": "Dan Lin became Netflix's film chief on 1 April 2024, replacing Scott Stuber. TheWrap reported on 2026-10-19 that he was leaving Netflix, so he is no longer film chief as of the 2026-11-16 go-live date.",
+      "sources": [
+       {
+        "url": "https://thewrap.com/creative-content/movies/netflix-film-chief-dan-lin-out/",
+        "publisher": "TheWrap",
+        "published_date": "2026-10-19",
+        "quote": "Dan Lin is leaving Netflix... it had been 'a great privilege to lead this incredible team.'",
+        "tier": 2
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "supported",
+      "event_date": "2026-03-18",
+      "correct": "Lin said this at a Netflix press event on 18 March 2026. He was rejecting a rumour that Netflix tells writers to have characters restate the plot.",
+      "sources": [
+       {
+        "url": "https://nofilmschool.com/netflix-execs-exposition-police",
+        "publisher": "No Film School",
+        "published_date": "2026-03-19",
+        "quote": "There is no such principle.",
+        "tier": 3
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None is shown to be false. Dan Lin is Netflix's film chairman and has been since April 2024. On 19 March 2026 he did say 'There is no such principle.' Streamers do measure whether you finish: Netflix's public 'views' metric is hours watched divided by runtime, so viewers who drop out partway count for less. Two parts are softer. 'The dashboard points the same way' is the writer's own inference, and Netflix denies any rule. The 'now' framing and the motive are the writer's reading, and the post presents them as opinion, not fact.",
+     "actual_mechanism": "Platforms track how much of a title people watch and whether they finish it. Netflix publicly ranks titles by 'views', which is hours watched divided by runtime, so a title loses credit when people stop partway. That gives makers a commercial reason to keep distracted viewers following along. There is reported evidence on both sides. Matt Damon said on Joe Rogan's podcast that Netflix encourages restating the plot 'three or four times in the dialogue because people are on their phones,' and Will Tavlin's n+1 essay 'Casual Viewing' made similar claims. Netflix executives, including Lin, Bela Bajaria and Jinny Howe, deny there is any mandate, and Lin said 'we don't repeat our plots.' The post states this denial fairly and argues that the incentive exists without a written rule. That is a reasonable reading, not a false claim about how the business works.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.avclub.com/netflix-reiterate-movie-plots-matt-damon-oscars",
+       "published_date": "2026-03-19",
+       "quote": "There is no such principle... if you watch our movies or TV shows, we don't repeat our plots. (Dan Lin, Netflix film chairman); Damon said Netflix encourages reiterating 'the plot three or four times in the dialogue because people are on their phones while they're watching.'"
+      },
+      {
+       "url": "https://hollywoodreporter.com/movies/movie-news/netflix-we-dont-tell-filmmakers-repeat-plot-1236540349",
+       "published_date": "2026-03-19",
+       "quote": "We're just focused on making great movies. There's no formula or procedure that you just mentioned."
+      },
+      {
+       "url": "https://www.thewrap.com/dan-lin-netflix-film-boss-scott-stuber-replacement/",
+       "published_date": "2024-02",
+       "quote": "Dan Lin to Replace Scott Stuber as Head of Netflix Film"
+      },
+      {
+       "url": "https://www.bunkhistory.org/authors/will-tavlin",
+       "published_date": "2024-12-16",
+       "quote": "Casual Viewing / Why Netflix looks like that. by Will Tavlin via n+1"
+      }
+     ]
+    },
+    "text_hash": "c9e2ca6294ffcf30f4bfe4fcfc9bc07ef164fc96",
+    "at": "2026-11-13T06:35:28.586189+00:00"
+   },
+   "865e97b90533edad593747d52da9d7d1d5546cc5": {
+    "passed": false,
+    "take_dead": false,
+    "notes": [
+     "Could not verify: 'Netflix cannot see whether a viewer loved an episode.'. Cut it, or state it only if a source says it.",
+     "Could not verify: 'Netflix has a finish-rate dashboard that tracks how many viewers complete shows, and its numbers push toward making plots easy to follow.'. Cut it, or state it only if a source says it."
+    ],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Dan Lin is Netflix's film chief.",
+      "sentence": "Netflix's film chief Dan Lin",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c2",
+      "text": "Dan Lin has said there is \"no such principle\" of making characters state the plot.",
+      "sentence": "Netflix's film chief Dan Lin has said there is \"no such principle\" of making characters state the plot.",
+      "type": "event",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c3",
+      "text": "Netflix can see whether a viewer finished an episode.",
+      "sentence": "Netflix can tell if you finished the episode, not if you loved it.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Netflix cannot see whether a viewer loved an episode.",
+      "sentence": "Netflix can tell if you finished the episode, not if you loved it.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Netflix has a finish-rate dashboard that tracks how many viewers complete shows, and its numbers push toward making plots easy to follow.",
+      "sentence": "The finish-rate dashboard already says it.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Premises: many viewers watch OTT shows with a phone in hand, and Netflix tracks finishing but not loving, so viewers who get lost drop off and hurt finish rates. Conclusion: OTT shows therefore have characters explain their own twists out loud so second-screen viewers never get lost, which makes this a design choice for phone-distracted viewers and not just lazy writing.",
+      "sentence": "When an OTT show explains its own twist, it's not lazy writing. It's written for you on your phone. So the show makes sure you never get lost.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c5",
+      "verdict": "outdated",
+      "event_date": "2024-02-28",
+      "correct": "Dan Lin became Netflix's film chief on 1 April 2024, replacing Scott Stuber. TheWrap reported on 2026-10-19 that he was leaving Netflix, so he is no longer film chief as of the 2026-11-16 go-live date.",
+      "sources": [
+       {
+        "url": "https://thewrap.com/creative-content/movies/netflix-film-chief-dan-lin-out/",
+        "publisher": "TheWrap",
+        "published_date": "2026-10-19",
+        "quote": "Dan Lin is leaving Netflix... it had been 'a great privilege to lead this incredible team.'",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c6",
+      "verdict": "supported",
+      "event_date": "2026-03-18",
+      "correct": "Lin said this at a Netflix press event on 18 March 2026. He was rejecting a rumour that Netflix tells writers to have characters restate the plot.",
+      "sources": [
+       {
+        "url": "https://nofilmschool.com/netflix-execs-exposition-police",
+        "publisher": "No Film School",
+        "published_date": "2026-03-19",
+        "quote": "There is no such principle.",
+        "tier": 3
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "event_date": "2019-10-23",
+      "correct": "Netflix tracks completion. It has described 'completers' as viewers who watch 90% of a film or season.",
+      "sources": [
+       {
+        "url": "https://www.tvtechnology.com/news/netflix-reveals-starters-watchers-and-completers-categories-for-measuring-viewers",
+        "publisher": "TV Technology",
+        "published_date": "2019-10-23",
+        "quote": "a completer (watches 90% of a film or season of a show)",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c4",
+      "verdict": "unverifiable",
+      "correct": "Netflix cannot measure enjoyment directly. It does collect explicit thumbs up and thumbs down ratings, which give it some signal about whether viewers liked something. The claim is roughly right as a picture, but I found no source that states it.",
+      "sources": [
+       {
+        "url": "https://www.tvtechnology.com/news/netflix-reveals-starters-watchers-and-completers-categories-for-measuring-viewers",
+        "publisher": "TV Technology",
+        "published_date": "2019-10-23",
+        "quote": "a broader understanding of how members engage with their title from start to finish",
+        "tier": 2
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "unverifiable",
+      "correct": "Netflix reports completion metrics such as starters, watchers and completers. I found no evidence of a 'finish-rate dashboard', and no reliable evidence that its numbers push writers toward easy-to-follow plots. The No Film School lead says Netflix executives deny the related claim that writers are told to have characters state the plot.",
+      "sources": [
+       {
+        "url": "https://nofilmschool.com/netflix-execs-exposition-police",
+        "publisher": "No Film School",
+        "published_date": "2026-03-19",
+        "quote": "We know how savvy the audiences are.",
+        "tier": 3
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None is shown to be false. Dan Lin is Netflix's film chairman and has been since April 2024. On 19 March 2026 he did say 'There is no such principle.' Streamers do measure whether you finish: Netflix's public 'views' metric is hours watched divided by runtime, so viewers who drop out partway count for less. Two parts are softer. 'The dashboard points the same way' is the writer's own inference, and Netflix denies any rule. The 'now' framing and the motive are the writer's reading, and the post presents them as opinion, not fact.",
+     "actual_mechanism": "Platforms track how much of a title people watch and whether they finish it. Netflix publicly ranks titles by 'views', which is hours watched divided by runtime, so a title loses credit when people stop partway. That gives makers a commercial reason to keep distracted viewers following along. There is reported evidence on both sides. Matt Damon said on Joe Rogan's podcast that Netflix encourages restating the plot 'three or four times in the dialogue because people are on their phones,' and Will Tavlin's n+1 essay 'Casual Viewing' made similar claims. Netflix executives, including Lin, Bela Bajaria and Jinny Howe, deny there is any mandate, and Lin said 'we don't repeat our plots.' The post states this denial fairly and argues that the incentive exists without a written rule. That is a reasonable reading, not a false claim about how the business works.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.avclub.com/netflix-reiterate-movie-plots-matt-damon-oscars",
+       "published_date": "2026-03-19",
+       "quote": "There is no such principle... if you watch our movies or TV shows, we don't repeat our plots. (Dan Lin, Netflix film chairman); Damon said Netflix encourages reiterating 'the plot three or four times in the dialogue because people are on their phones while they're watching.'"
+      },
+      {
+       "url": "https://hollywoodreporter.com/movies/movie-news/netflix-we-dont-tell-filmmakers-repeat-plot-1236540349",
+       "published_date": "2026-03-19",
+       "quote": "We're just focused on making great movies. There's no formula or procedure that you just mentioned."
+      },
+      {
+       "url": "https://www.thewrap.com/dan-lin-netflix-film-boss-scott-stuber-replacement/",
+       "published_date": "2024-02",
+       "quote": "Dan Lin to Replace Scott Stuber as Head of Netflix Film"
+      },
+      {
+       "url": "https://www.bunkhistory.org/authors/will-tavlin",
+       "published_date": "2024-12-16",
+       "quote": "Casual Viewing / Why Netflix looks like that. by Will Tavlin via n+1"
+      }
+     ]
+    },
+    "text_hash": "865e97b90533edad593747d52da9d7d1d5546cc5",
+    "at": "2026-11-13T06:37:12.377920+00:00"
+   },
+   "5c8e7cd3266b5189514769ac3f0c8c5eb7adc377": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Dan Lin is Netflix's film chief.",
+      "sentence": "Netflix's film chief Dan Lin",
+      "type": "entity_attribute",
+      "core": false,
+      "framed_as": "current"
+     },
+     {
+      "id": "c2",
+      "text": "Dan Lin has said there is \"no such principle\" of making characters state the plot.",
+      "sentence": "Netflix's film chief Dan Lin has said there is \"no such principle\" of making characters state the plot.",
+      "type": "event",
+      "core": false,
+      "framed_as": "past"
+     },
+     {
+      "id": "c3",
+      "text": "In app businesses, the worst kind of user is the one who leaves silently rather than the unhappy one who complains.",
+      "sentence": "Anyone who has built an app knows the worst user isn't the unhappy one. It's the one who leaves without a word.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Viewers who get lost in a show do not complain; they simply close the streaming app.",
+      "sentence": "A viewer who gets lost doesn't complain. They just close the app, so the show makes sure you never get lost.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Viewers who got lost and left have taught writers to make characters restate the plot, so no formal rule is needed.",
+      "sentence": "A rule isn't needed. Every viewer who got lost and left already taught writers the same lesson.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "Repeated dialogue in OTT shows that restates what just happened is deliberately written for viewers watching with a phone in hand, not merely lazy writing.",
+      "sentence": "When an OTT show repeats what just happened, it isn't lazy writing. It's written for the phone in your hand.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "Mechanism: (1) many viewers watch OTT shows with a phone in hand and look away at times; (2) viewers who get lost at some point silently quit the app instead of complaining; (3) silent churn is costly to platforms and so to shows; (4) therefore writers and platforms have shows restate plot points aloud so distracted viewers keep following; hence the repeated dialogue is a design choice for second-screen viewing, not just lazy writing.",
+      "sentence": "A viewer who gets lost doesn't complain. They just close the app, so the show makes sure you never get lost.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c5",
+      "verdict": "outdated",
+      "event_date": "2024-02-28",
+      "correct": "Dan Lin became Netflix's film chief on 1 April 2024, replacing Scott Stuber. TheWrap reported on 2026-10-19 that he was leaving Netflix, so he is no longer film chief as of the 2026-11-16 go-live date.",
+      "sources": [
+       {
+        "url": "https://thewrap.com/creative-content/movies/netflix-film-chief-dan-lin-out/",
+        "publisher": "TheWrap",
+        "published_date": "2026-10-19",
+        "quote": "Dan Lin is leaving Netflix... it had been 'a great privilege to lead this incredible team.'",
+        "tier": 2
+       }
+      ]
+     },
+     "c2": {
+      "id": "c6",
+      "verdict": "supported",
+      "event_date": "2026-03-18",
+      "correct": "Lin said this at a Netflix press event on 18 March 2026. He was rejecting a rumour that Netflix tells writers to have characters restate the plot.",
+      "sources": [
+       {
+        "url": "https://nofilmschool.com/netflix-execs-exposition-police",
+        "publisher": "No Film School",
+        "published_date": "2026-03-19",
+        "quote": "There is no such principle.",
+        "tier": 3
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "correct": "This is an opinion framed as a business truth, not a measurable fact. Industry sources back its picture: most unhappy users leave without complaining, so silent churn is hard to see and hard to fix. The 'worst kind of user' ranking is a judgement. The leads (Netflix exposition, Indian slow-burn series) are unrelated to it.",
+      "sources": [
+       {
+        "url": "https://mixpanel.com/blog/understanding-churn/",
+        "publisher": "Mixpanel",
+        "published_date": "2017-07-18",
+        "quote": "25 out of 26 customers churn silently without complaining",
+        "tier": 2
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None is shown to be false. Dan Lin is Netflix's film chairman and has been since April 2024. On 19 March 2026 he did say 'There is no such principle.' Streamers do measure whether you finish: Netflix's public 'views' metric is hours watched divided by runtime, so viewers who drop out partway count for less. Two parts are softer. 'The dashboard points the same way' is the writer's own inference, and Netflix denies any rule. The 'now' framing and the motive are the writer's reading, and the post presents them as opinion, not fact.",
+     "actual_mechanism": "Platforms track how much of a title people watch and whether they finish it. Netflix publicly ranks titles by 'views', which is hours watched divided by runtime, so a title loses credit when people stop partway. That gives makers a commercial reason to keep distracted viewers following along. There is reported evidence on both sides. Matt Damon said on Joe Rogan's podcast that Netflix encourages restating the plot 'three or four times in the dialogue because people are on their phones,' and Will Tavlin's n+1 essay 'Casual Viewing' made similar claims. Netflix executives, including Lin, Bela Bajaria and Jinny Howe, deny there is any mandate, and Lin said 'we don't repeat our plots.' The post states this denial fairly and argues that the incentive exists without a written rule. That is a reasonable reading, not a false claim about how the business works.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.avclub.com/netflix-reiterate-movie-plots-matt-damon-oscars",
+       "published_date": "2026-03-19",
+       "quote": "There is no such principle... if you watch our movies or TV shows, we don't repeat our plots. (Dan Lin, Netflix film chairman); Damon said Netflix encourages reiterating 'the plot three or four times in the dialogue because people are on their phones while they're watching.'"
+      },
+      {
+       "url": "https://hollywoodreporter.com/movies/movie-news/netflix-we-dont-tell-filmmakers-repeat-plot-1236540349",
+       "published_date": "2026-03-19",
+       "quote": "We're just focused on making great movies. There's no formula or procedure that you just mentioned."
+      },
+      {
+       "url": "https://www.thewrap.com/dan-lin-netflix-film-boss-scott-stuber-replacement/",
+       "published_date": "2024-02",
+       "quote": "Dan Lin to Replace Scott Stuber as Head of Netflix Film"
+      },
+      {
+       "url": "https://www.bunkhistory.org/authors/will-tavlin",
+       "published_date": "2024-12-16",
+       "quote": "Casual Viewing / Why Netflix looks like that. by Will Tavlin via n+1"
+      }
+     ]
+    },
+    "text_hash": "5c8e7cd3266b5189514769ac3f0c8c5eb7adc377",
+    "at": "2026-11-13T06:38:18.839856+00:00"
+   },
+   "90acc30d5d4c88d6085404ea504e5c8b03541159": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "OTT show characters frequently say out loud, in dialogue, what has just happened in the plot (recap-style lines).",
+      "sentence": "OTT characters keep saying out loud what just happened.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "Netflix sent screenwriters a note instructing them to have a character announce what they are doing, so viewers running the show in the background can follow along.",
+      "sentence": "Screenwriters say Netflix sent them a note like this. \"Have this character announce what they're doing so that viewers who have this program on in the background can follow along.\"",
+      "type": "event",
+      "core": true,
+      "framed_as": "past"
+     },
+     {
+      "id": "c3",
+      "text": "Netflix states that no such rule or note instructing writers to add this kind of explanatory dialogue exists.",
+      "sentence": "Netflix says there's no such rule.",
+      "type": "entity_attribute",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Because OTT viewers often watch while distracted (e.g. on their phones) and a lost viewer switches away rather than catching up, shows deliberately write characters to speak plot developments aloud so that distracted viewers can still follow the story and are not lost.",
+      "sentence": "That line isn't for the other character. It's for you, the viewer who was looking at another screen. ... So the show never lets you get lost.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "sources": [
+       {
+        "url": "https://www.nplusonemag.com/issue-49/essays/casual-viewing/",
+        "publisher": "n+1",
+        "published_date": "2024-12-16",
+        "quote": "have this character announce what they're doing so that viewers who have this program on in the background can follow along",
+        "tier": 2
+       },
+       {
+        "url": "https://www.tubefilter.com/2025/01/07/netflix-murder-mystery-casual-viewing-what-we-watched/amp/",
+        "publisher": "Tubefilter",
+        "published_date": "2025-01-07",
+        "quote": "Screenwriters cited in Will Tavlin's n+1 essay 'Casual Viewing' said Netflix told them to have characters announce what they're doing so viewers with the show on in the background can follow along.",
+        "tier": 3
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2024-12-16",
+      "sources": [
+       {
+        "url": "https://www.nplusonemag.com/issue-49/essays/casual-viewing/",
+        "publisher": "n+1",
+        "published_date": "2024-12-16",
+        "quote": "have this character announce what they're doing so that viewers who have this program on in the background can follow along",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "sources": [
+       {
+        "url": "https://nofilmschool.com/netflix-execs-exposition-police",
+        "publisher": "No Film School",
+        "published_date": "2026-03-19",
+        "quote": "There is no such principle. I mean, if you watch our movies or TV shows, we don't repeat our plot.",
+        "tier": 3
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None is shown to be false. Dan Lin is Netflix's film chairman and has been since April 2024. On 19 March 2026 he did say 'There is no such principle.' Streamers do measure whether you finish: Netflix's public 'views' metric is hours watched divided by runtime, so viewers who drop out partway count for less. Two parts are softer. 'The dashboard points the same way' is the writer's own inference, and Netflix denies any rule. The 'now' framing and the motive are the writer's reading, and the post presents them as opinion, not fact.",
+     "actual_mechanism": "Platforms track how much of a title people watch and whether they finish it. Netflix publicly ranks titles by 'views', which is hours watched divided by runtime, so a title loses credit when people stop partway. That gives makers a commercial reason to keep distracted viewers following along. There is reported evidence on both sides. Matt Damon said on Joe Rogan's podcast that Netflix encourages restating the plot 'three or four times in the dialogue because people are on their phones,' and Will Tavlin's n+1 essay 'Casual Viewing' made similar claims. Netflix executives, including Lin, Bela Bajaria and Jinny Howe, deny there is any mandate, and Lin said 'we don't repeat our plots.' The post states this denial fairly and argues that the incentive exists without a written rule. That is a reasonable reading, not a false claim about how the business works.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://www.avclub.com/netflix-reiterate-movie-plots-matt-damon-oscars",
+       "published_date": "2026-03-19",
+       "quote": "There is no such principle... if you watch our movies or TV shows, we don't repeat our plots. (Dan Lin, Netflix film chairman); Damon said Netflix encourages reiterating 'the plot three or four times in the dialogue because people are on their phones while they're watching.'"
+      },
+      {
+       "url": "https://hollywoodreporter.com/movies/movie-news/netflix-we-dont-tell-filmmakers-repeat-plot-1236540349",
+       "published_date": "2026-03-19",
+       "quote": "We're just focused on making great movies. There's no formula or procedure that you just mentioned."
+      },
+      {
+       "url": "https://www.thewrap.com/dan-lin-netflix-film-boss-scott-stuber-replacement/",
+       "published_date": "2024-02",
+       "quote": "Dan Lin to Replace Scott Stuber as Head of Netflix Film"
+      },
+      {
+       "url": "https://www.bunkhistory.org/authors/will-tavlin",
+       "published_date": "2024-12-16",
+       "quote": "Casual Viewing / Why Netflix looks like that. by Will Tavlin via n+1"
+      }
+     ]
+    },
+    "text_hash": "90acc30d5d4c88d6085404ea504e5c8b03541159",
+    "at": "2026-11-15T15:08:15.730769+00:00"
+   }
+  },
+  "Netflix can see whether a viewer finished an episode.": {
+   "id": "c3",
+   "verdict": "supported",
+   "event_date": "2019-10-23",
+   "correct": "Netflix tracks completion. It has described 'completers' as viewers who watch 90% of a film or season.",
+   "sources": [
+    {
+     "url": "https://www.tvtechnology.com/news/netflix-reveals-starters-watchers-and-completers-categories-for-measuring-viewers",
+     "publisher": "TV Technology",
+     "published_date": "2019-10-23",
+     "quote": "a completer (watches 90% of a film or season of a show)",
+     "tier": 2
+    }
+   ]
+  },
+  "Netflix cannot see whether a viewer loved an episode.": {
+   "id": "c4",
+   "verdict": "unverifiable",
+   "correct": "Netflix cannot measure enjoyment directly. It does collect explicit thumbs up and thumbs down ratings, which give it some signal about whether viewers liked something. The claim is roughly right as a picture, but I found no source that states it.",
+   "sources": [
+    {
+     "url": "https://www.tvtechnology.com/news/netflix-reveals-starters-watchers-and-completers-categories-for-measuring-viewers",
+     "publisher": "TV Technology",
+     "published_date": "2019-10-23",
+     "quote": "a broader understanding of how members engage with their title from start to finish",
+     "tier": 2
+    }
+   ]
+  },
+  "Netflix has a finish-rate dashboard that tracks how many viewers complete shows, and its numbers push toward making plots easy to follow.": {
+   "id": "c5",
+   "verdict": "unverifiable",
+   "correct": "Netflix reports completion metrics such as starters, watchers and completers. I found no evidence of a 'finish-rate dashboard', and no reliable evidence that its numbers push writers toward easy-to-follow plots. The No Film School lead says Netflix executives deny the related claim that writers are told to have characters state the plot.",
+   "sources": [
+    {
+     "url": "https://nofilmschool.com/netflix-execs-exposition-police",
+     "publisher": "No Film School",
+     "published_date": "2026-03-19",
+     "quote": "We know how savvy the audiences are.",
+     "tier": 3
+    }
+   ]
+  },
+  "In app businesses, the worst kind of user is the one who leaves silently rather than the unhappy one who complains.": {
+   "id": "c3",
+   "verdict": "supported",
+   "correct": "This is an opinion framed as a business truth, not a measurable fact. Industry sources back its picture: most unhappy users leave without complaining, so silent churn is hard to see and hard to fix. The 'worst kind of user' ranking is a judgement. The leads (Netflix exposition, Indian slow-burn series) are unrelated to it.",
+   "sources": [
+    {
+     "url": "https://mixpanel.com/blog/understanding-churn/",
+     "publisher": "Mixpanel",
+     "published_date": "2017-07-18",
+     "quote": "25 out of 26 customers churn silently without complaining",
+     "tier": 2
+    }
+   ]
+  },
+  "OTT show characters frequently say out loud, in dialogue, what has just happened in the plot (recap-style lines).": {
+   "id": "c1",
+   "verdict": "supported",
+   "sources": [
+    {
+     "url": "https://www.nplusonemag.com/issue-49/essays/casual-viewing/",
+     "publisher": "n+1",
+     "published_date": "2024-12-16",
+     "quote": "have this character announce what they're doing so that viewers who have this program on in the background can follow along",
+     "tier": 2
+    },
+    {
+     "url": "https://www.tubefilter.com/2025/01/07/netflix-murder-mystery-casual-viewing-what-we-watched/amp/",
+     "publisher": "Tubefilter",
+     "published_date": "2025-01-07",
+     "quote": "Screenwriters cited in Will Tavlin's n+1 essay 'Casual Viewing' said Netflix told them to have characters announce what they're doing so viewers with the show on in the background can follow along.",
+     "tier": 3
+    }
+   ]
+  },
+  "Netflix sent screenwriters a note instructing them to have a character announce what they are doing, so viewers running the show in the background can follow along.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": "2024-12-16",
+   "sources": [
+    {
+     "url": "https://www.nplusonemag.com/issue-49/essays/casual-viewing/",
+     "publisher": "n+1",
+     "published_date": "2024-12-16",
+     "quote": "have this character announce what they're doing so that viewers who have this program on in the background can follow along",
+     "tier": 2
+    }
+   ]
+  },
+  "Netflix states that no such rule or note instructing writers to add this kind of explanatory dialogue exists.": {
+   "id": "c3",
+   "verdict": "supported",
+   "sources": [
+    {
+     "url": "https://nofilmschool.com/netflix-execs-exposition-police",
+     "publisher": "No Film School",
+     "published_date": "2026-03-19",
+     "quote": "There is no such principle. I mean, if you watch our movies or TV shows, we don't repeat our plot.",
+     "tier": 3
+    }
+   ]
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "OTT characters keep saying out loud what just happened.",
+   "sub": "It's not bad writing. It's written for your phone."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "OTT characters keep saying out loud what just happened.",
+     "It's not bad writing. It's written for your phone."
+    ],
+    "why_swipe": "you want to know why the show does it"
+   },
+   {
+    "paragraphs": [
+     "You know the moment.",
+     "The big twist lands while you're replying \"haan, pahunch gaya\" on the family group."
+    ],
+    "why_swipe": "the moment is yours; what happens when you look up"
+   },
+   {
+    "paragraphs": [
+     "You look up, and a character says, \"So the brother was behind it all along?\"",
+     "You're caught up. You didn't even rewind."
+    ],
+    "why_swipe": "why that line exists"
+   },
+   {
+    "paragraphs": [
+     "That line isn't for the other character.",
+     "It's for you, the viewer who was looking at another screen."
+    ],
+    "why_swipe": "who decided this"
+   },
+   {
+    "paragraphs": [
+     "Screenwriters say Netflix sent them a note like this.",
+     "\"Have this character announce what they're doing so that viewers who have this program on in the background can follow along.\"",
+     "Netflix says there's no such rule."
+    ],
+    "why_swipe": "is it a rule or not"
+   },
+   {
+    "paragraphs": [
+     "Rule or no rule, it works out the same.",
+     "A viewer who gets lost doesn't complain. They switch to something else. So the show never lets you get lost."
+    ],
+    "why_swipe": "what that means for you next time"
+   },
+   {
+    "paragraphs": [
+     "Next time a character explains the scene you just watched, don't roll your eyes.",
+     "Check where your eyes were."
+    ],
+    "why_swipe": ""
+   }
+  ],
+  "end": {
+   "send": "Send this to the friend who watches every show with Instagram open."
+  },
+  "alt_text": "A text post on why OTT characters say out loud what just happened: shows are written for viewers looking at their phones.",
+  "claims": [
+   {
+    "text": "Screenwriters said Netflix told them to have characters announce what they're doing so background viewers can follow along; Netflix denies any such rule.",
+    "source_url": "https://www.tubefilter.com/2025/01/07/netflix-murder-mystery-casual-viewing-what-we-watched/amp/"
+   }
+  ],
+  "caption": "OTT shows repeat the plot out loud because they're written for the phone in your hand.\n\nA viewer who gets lost doesn't complain. They just switch to something else.\n\nSend this to the friend who watches every show with Instagram open.",
+  "hashtags": [
+   "#WebSeries",
+   "#OTTIndia"
+  ],
+  "caption_style": "send",
+  "search_phrase": "OTT shows",
+  "caption_v": 2
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "OTT show characters frequently say out loud, in dialogue, what has just happened in the plot (recap-style lines).",
+    "sentence": "OTT characters keep saying out loud what just happened.",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "Netflix sent screenwriters a note instructing them to have a character announce what they are doing, so viewers running the show in the background can follow along.",
+    "sentence": "Screenwriters say Netflix sent them a note like this. \"Have this character announce what they're doing so that viewers who have this program on in the background can follow along.\"",
+    "type": "event",
+    "core": true,
+    "framed_as": "past"
+   },
+   {
+    "id": "c3",
+    "text": "Netflix states that no such rule or note instructing writers to add this kind of explanatory dialogue exists.",
+    "sentence": "Netflix says there's no such rule.",
+    "type": "entity_attribute",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c4",
+    "text": "Because OTT viewers often watch while distracted (e.g. on their phones) and a lost viewer switches away rather than catching up, shows deliberately write characters to speak plot developments aloud so that distracted viewers can still follow the story and are not lost.",
+    "sentence": "That line isn't for the other character. It's for you, the viewer who was looking at another screen. ... So the show never lets you get lost.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c1": {
+    "id": "c1",
+    "verdict": "supported",
+    "sources": [
+     {
+      "url": "https://www.nplusonemag.com/issue-49/essays/casual-viewing/",
+      "publisher": "n+1",
+      "published_date": "2024-12-16",
+      "quote": "have this character announce what they're doing so that viewers who have this program on in the background can follow along",
+      "tier": 2
+     },
+     {
+      "url": "https://www.tubefilter.com/2025/01/07/netflix-murder-mystery-casual-viewing-what-we-watched/amp/",
+      "publisher": "Tubefilter",
+      "published_date": "2025-01-07",
+      "quote": "Screenwriters cited in Will Tavlin's n+1 essay 'Casual Viewing' said Netflix told them to have characters announce what they're doing so viewers with the show on in the background can follow along.",
+      "tier": 3
+     }
+    ]
+   },
+   "c2": {
+    "id": "c2",
+    "verdict": "supported",
+    "event_date": "2024-12-16",
+    "sources": [
+     {
+      "url": "https://www.nplusonemag.com/issue-49/essays/casual-viewing/",
+      "publisher": "n+1",
+      "published_date": "2024-12-16",
+      "quote": "have this character announce what they're doing so that viewers who have this program on in the background can follow along",
+      "tier": 2
+     }
+    ]
+   },
+   "c3": {
+    "id": "c3",
+    "verdict": "supported",
+    "sources": [
+     {
+      "url": "https://nofilmschool.com/netflix-execs-exposition-police",
+      "publisher": "No Film School",
+      "published_date": "2026-03-19",
+      "quote": "There is no such principle. I mean, if you watch our movies or TV shows, we don't repeat our plot.",
+      "tier": 3
+     }
+    ]
+   }
+  },
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "None is shown to be false. Dan Lin is Netflix's film chairman and has been since April 2024. On 19 March 2026 he did say 'There is no such principle.' Streamers do measure whether you finish: Netflix's public 'views' metric is hours watched divided by runtime, so viewers who drop out partway count for less. Two parts are softer. 'The dashboard points the same way' is the writer's own inference, and Netflix denies any rule. The 'now' framing and the motive are the writer's reading, and the post presents them as opinion, not fact.",
+   "actual_mechanism": "Platforms track how much of a title people watch and whether they finish it. Netflix publicly ranks titles by 'views', which is hours watched divided by runtime, so a title loses credit when people stop partway. That gives makers a commercial reason to keep distracted viewers following along. There is reported evidence on both sides. Matt Damon said on Joe Rogan's podcast that Netflix encourages restating the plot 'three or four times in the dialogue because people are on their phones,' and Will Tavlin's n+1 essay 'Casual Viewing' made similar claims. Netflix executives, including Lin, Bela Bajaria and Jinny Howe, deny there is any mandate, and Lin said 'we don't repeat our plots.' The post states this denial fairly and argues that the incentive exists without a written rule. That is a reasonable reading, not a false claim about how the business works.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://www.avclub.com/netflix-reiterate-movie-plots-matt-damon-oscars",
+     "published_date": "2026-03-19",
+     "quote": "There is no such principle... if you watch our movies or TV shows, we don't repeat our plots. (Dan Lin, Netflix film chairman); Damon said Netflix encourages reiterating 'the plot three or four times in the dialogue because people are on their phones while they're watching.'"
+    },
+    {
+     "url": "https://hollywoodreporter.com/movies/movie-news/netflix-we-dont-tell-filmmakers-repeat-plot-1236540349",
+     "published_date": "2026-03-19",
+     "quote": "We're just focused on making great movies. There's no formula or procedure that you just mentioned."
+    },
+    {
+     "url": "https://www.thewrap.com/dan-lin-netflix-film-boss-scott-stuber-replacement/",
+     "published_date": "2024-02",
+     "quote": "Dan Lin to Replace Scott Stuber as Head of Netflix Film"
+    },
+    {
+     "url": "https://www.bunkhistory.org/authors/will-tavlin",
+     "published_date": "2024-12-16",
+     "quote": "Casual Viewing / Why Netflix looks like that. by Will Tavlin via n+1"
+    }
+   ]
+  },
+  "text_hash": "90acc30d5d4c88d6085404ea504e5c8b03541159",
+  "at": "2026-11-15T15:08:15.730769+00:00"
+ },
+ "alt_texts": [
+  "OTT characters keep saying out loud what just happened. It's not bad writing. It's written for your phone.",
+  "You know the moment. The big twist lands while you're replying \"haan, pahunch gaya\" on the family group.",
+  "You look up, and a character says, \"So the brother was behind it all along?\" You're caught up. You didn't even rewind.",
+  "That line isn't for the other character. It's for you, the viewer who was looking at another screen.",
+  "Screenwriters say Netflix sent them a note like this. \"Have this character announce what they're doing so that viewers who have this program on in the background can follow along.\" Netflix says there's no such rule.",
+  "Rule or no rule, it works out the same. A viewer who gets lost doesn't complain. They switch to something else. So the show never lets you get lost.",
+  "Next time a character explains the scene you just watched, don't roll your eyes. Check where your eyes were."
+ ],
+ "owner_ok": true,
+ "varun": {
+  "pass": true,
+  "score": 4,
+  "misses": [
+   {
+    "where": "slide 4",
+    "line": "It's for you, the viewer who was looking at another screen.",
+    "why": "stiff appositive re-labelling 'you', slightly over-explained",
+    "try": "It's for you. You weren't even watching."
+   }
+  ],
+  "best": "The big twist lands while you're replying \"haan, pahunch gaya\" on the family group.",
+  "passed": true,
+  "text_hash": "90acc30d5d4c88d6085404ea504e5c8b03541159"
+ }
+}
