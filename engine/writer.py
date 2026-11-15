@@ -119,7 +119,7 @@ def readability_problems(draft: dict, fmt: str) -> list[str]:
                             "words people say out loud and break the longest sentences; keep every point.")
     if fmt == "carousel" and len(words) >= 8 and statistics.pstdev(words) < MIN_RHYTHM:
         problems.append("Every sentence is about the same length, which reads as a template. Put one longer, concrete "
-                        "sentence next to a short punch on most slides.")
+                        "sentence next to a short punch on two or three slides; other slides can be one short line.")
     return problems[:6]
 
 
@@ -247,8 +247,10 @@ def find_sources(topic: dict) -> list[dict]:
            "Use WebSearch, then open each page with WebFetch. Look for what is true, including anything that contradicts the "
            "claim; never pick a source only because it agrees. Record each page's publication date from the page itself. "
            "From each page, copy the passages that contain the key facts word for word.\n\n"
-           f"Claim: {topic['claim']}\nNews peg: {topic.get('news_peg') or 'none'}\nBehaviour: {topic.get('behaviour', '')}\n\n"
-           'Return only JSON: {"sources": [{"url": "...", "fact": "the key fact in one sentence", '
+           f"Claim: {topic['claim']}\nThe reason the post will give: {topic.get('because', '')}\n"
+           f"News peg: {topic.get('news_peg') or 'none'}\nBehaviour: {topic.get('behaviour', '')}\n\n"
+           'Return only JSON: {"sources": [{"url": "...", "fact": "the key fact in one sentence", "stance": "supports, '
+           'contradicts or neutral: what this page says about the reason the post will give", '
            '"excerpt": "verbatim passages from the page, up to 1200 characters", "date": "the page\'s publication date, YYYY-MM-DD"}]}')
     try:
         out = llm.call_json(config.MODEL_JUDGE, ask, stage="sources", tools=["WebSearch", "WebFetch"], timeout=1200)
@@ -382,7 +384,7 @@ def length_rules(fmt: str) -> str:
         return "one slide of 30-70 words."
     return (f"{MIN_SLIDES} to {MAX_SLIDES} slides, as few as the idea needs. Slide 1 up to {HOOK_WORDS} words. Other slides "
             f"{SLIDE_WORDS[0]}-{SLIDE_WORDS[1]} words, at most {MAX_PARAS} short paragraphs. The whole post "
-            f"{POST_WORDS[0]}-{POST_WORDS[1]} words.")
+            f"{POST_WORDS[0]}-{POST_WORDS[1]} words; aim for 180-260. Some slides are a single short line.")
 
 
 def revision_block(previous: list[str], who: str) -> str:
@@ -459,6 +461,53 @@ def varun_notes(check: dict) -> list[str]:
                      "Make the lines plainer, blunter and more like commentary than scene."]
 
 
+def reader_check(post: dict, draft: dict) -> dict:
+    """A first-time reader, with fresh eyes: reads only the slides (no topic, no notes, no earlier drafts) and says what
+    the point is, why, where they got lost, how many ideas and endings they met. Owner, 15 Nov: the 16 Nov post passed
+    every gate and the owner still couldn't follow it; nothing had ever asked whether a reader understands the post."""
+    slides = "\n".join(f"{i}. " + " / ".join(s.get("paragraphs", [])) for i, s in enumerate(draft.get("slides", []), 1))
+    topic = post.get("topic") or {}
+    try:
+        read = llm.call_json(config.MODEL_JUDGE, llm.fill(llm.prompt("reader"), slides=slides), stage="reader")
+        match = llm.call_json(config.MODEL_FAST, (
+            "Compare what a reader took from a post with what the post meant to say. Same meaning counts as a match, even in "
+            "other words; a narrower, vaguer or different point does not.\n\n"
+            f"Meant point: {topic.get('claim', '')}\nReader's point: {read.get('point', '')}\n\n"
+            f"Meant reason: {topic.get('because', '')}\nReader's reason: {read.get('reason', '')}\n\n"
+            'Return only JSON: {"point_matches": bool, "reason_matches": bool}'), stage="reader")
+        return {**read, **match}
+    except SystemExit:
+        raise
+    except Exception as e:  # the check failing must not hold a post the other gates passed
+        state.log("writer", f"{post.get('id')} reader check could not run: {str(e)[:150]}")
+        return {"error": str(e)[:200]}
+
+
+def reader_problems(check: dict) -> list[str]:
+    """The reader check's findings as notes the writer can act on. Empty when a first-time reader followed the post."""
+    if check.get("error"):
+        return []
+    out = []
+    point, reason = str(check.get("point", "")).strip(), str(check.get("reason", "")).strip()
+    if not point or point.lower() == "unclear" or check.get("point_matches") is False:
+        out.append(f"Unclear: a first-time reader took the point as '{point or 'unclear'}'. The cover and slide 2 must make "
+                   "the take obvious in plain words.")
+    if not reason or reason.lower() == "none" or check.get("reason_matches") is False:
+        out.append(f"Unclear: a first-time reader took the reason as '{reason or 'none'}'. Say the because once, plainly, on "
+                   "one slide, from the reader's side of the screen.")
+    for lost in (check.get("lost") or [])[:4]:
+        if isinstance(lost, dict):
+            out.append(f"Unclear (slide {lost.get('slide', '?')}): a first-time reader got lost here: {lost.get('why', '')}. "
+                       "Rewrite that slide so it follows from the one before, or cut it.")
+    ideas = [i for i in (check.get("ideas") or []) if str(i).strip()]
+    if len(ideas) > 2:
+        out.append(f"Unclear: a first-time reader counted {len(ideas)} separate ideas ({'; '.join(map(str, ideas[:5]))}). "
+                   "Keep one idea and its reason; cut the side arguments.")
+    if _score(check, "endings") > 1:
+        out.append(f"Unclear: {_score(check, 'endings')} slides feel like endings. Keep one ending, on the last slide.")
+    return out
+
+
 def passes(review: dict) -> bool:
     """No hard failure, no score below 3, an average of 4+, and real EQ or IQ (one of them 4+). Owner, 10 Nov: the old
     bar (4+ on every score) failed the owner's own approved posts, so it was stricter than the owner."""
@@ -467,6 +516,8 @@ def passes(review: dict) -> bool:
     vals = [_score(scores, k) for k in keys] + [_score(scores, "eq"), _score(scores, "iq")]
     if "informative" in scores:
         vals.append(_score(scores, "informative"))
+    if "clear" in scores and _score(scores, "clear") < 4:  # a post the reader can't follow fails, whatever else it does
+        return False
     return (not review.get("violations") and min(vals) >= 3 and sum(vals) / len(vals) >= 4
             and max(_score(scores, "eq"), _score(scores, "iq")) >= 4)
 
@@ -485,6 +536,11 @@ def write_post(post: dict, notes: str = "") -> dict:
     persona = llm.prompt("persona")
     if post.get("sources") is None:
         post["sources"] = find_sources(topic)
+        stances = [s.get("stance") for s in post["sources"]]
+        if stances and all(x == "contradicts" for x in stances):  # 16 Nov post: the only source denied the take's reason
+            post.update(status="rejected", error="The only sources found contradict the take's reason.")
+            state.log("writer", f"{post['id']} rejected before writing: every source contradicts the take's reason")
+            return post
     evidence = evidence_for(post)
     draft = None
     seed = zlib.crc32(post["id"].encode()) % 10_000  # deterministic across runs, unlike hash()
@@ -498,6 +554,7 @@ def write_post(post: dict, notes: str = "") -> dict:
             f"## Before you write: the take needs a correction\n{check.get('broken_premise')} is wrong. How it actually works: "
             f"{check.get('actual_mechanism')} Build the post on that mechanism.")
     previous: list[str] = []  # the last round's notes: the editor checks these instead of reading cold
+    core_misses = 0  # fact checks that cut the claim the take rests on
     for attempt in range(config.MAX_REWRITES + 1):
         user = llm.fill(
             llm.prompt("writer"), persona=persona, format_rules=FORMAT_RULES[fmt], length_rules=length_rules(fmt),
@@ -530,6 +587,12 @@ def write_post(post: dict, notes: str = "") -> dict:
                 post["history"].append({"attempt": attempt, "varun": voice})
                 if not varun_passes(voice):
                     review = {"violations": varun_notes(voice)}
+            if passes(review):  # fresh eyes on the whole draft, every attempt: never in revision mode
+                reader = reader_check(post, draft)
+                post["history"].append({"attempt": attempt, "reader": reader})
+                unclear = reader_problems(reader)
+                if unclear:
+                    review = {"violations": unclear}
             if passes(review):
                 draft.update(caption.make(post, draft))  # its own step: a caption problem never costs a slide rewrite
                 verification = factgate.verify(post, draft)
@@ -543,6 +606,16 @@ def write_post(post: dict, notes: str = "") -> dict:
                     state.log("writer", f"{post['id']} rejected: the take's premise is false")
                     return post
                 problems = verification["notes"]
+                if verification.get("core_cut"):  # the line the take rests on can't be shown
+                    core_misses += 1
+                    if core_misses >= 2:  # 16 Nov post: the reason was cut twice and the post shipped without one
+                        post.update(status="rejected", draft=draft, verification=verification)
+                        state.log("writer", f"{post['id']} rejected: the take's reason could not be sourced "
+                                            f"({str(verification['core_cut'][0])[:100]})")
+                        return post
+                    problems = problems + [f"'{c}' is what the take rests on. Don't delete it and carry on: rebuild the "
+                                           "reason on what the sources say. If no source supports a reason, the take is "
+                                           "dropped." for c in verification["core_cut"][:2]]
             else:
                 problems = review.get("violations", []) + review.get("notes", [])[:5]
                 if not problems:

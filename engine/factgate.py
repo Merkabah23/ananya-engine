@@ -359,7 +359,9 @@ def verify(post: dict, draft: dict, fetch=quote_on_page) -> dict:
         for c in fresh:
             if c.get("id") in new:
                 verdicts[c["id"]] = cache[c["text"]] = new[c["id"]]
-    notes = [n for c in claims if (n := judge(c, verdicts.get(c.get("id")), due, fetch))]
+    judged = [(c, judge(c, verdicts.get(c.get("id")), due, fetch)) for c in claims]
+    notes = [n for _, n in judged if n]
+    core_cut = [c.get("sentence") or c.get("text", "") for c, n in judged if n and c.get("core")]  # the take rests on these
     mechanism, take_dead = None, False
     argument = [c for c in claims if c.get("type") in ("mechanism", "entity_attribute")]
     if argument:  # the same argument gets the same verdict, so a wording edit elsewhere can't flip it
@@ -376,7 +378,7 @@ def verify(post: dict, draft: dict, fetch=quote_on_page) -> dict:
             take_dead = mechanism.get("take_survives") is False
             notes.insert(0, f"The take's premise is wrong: {mechanism.get('broken_premise')}. How it actually works: "
                             f"{mechanism.get('actual_mechanism')} Rebuild the post on the correct mechanism.")
-    result = {"passed": not notes, "take_dead": take_dead, "notes": notes, "ledger": claims, "verdicts": verdicts,
+    result = {"passed": not notes, "take_dead": take_dead, "notes": notes, "core_cut": core_cut, "ledger": claims, "verdicts": verdicts,
               "mechanism": mechanism, "text_hash": text_hash(draft), "at": datetime.now(timezone.utc).isoformat()}
     cache.setdefault("_by_text", {})[result["text_hash"]] = result
     return result

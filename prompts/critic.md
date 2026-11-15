@@ -37,6 +37,7 @@ The post is shown as plain post cards, exactly as written: slide 1 is the cover 
 14. No relatability: the pattern is asserted, not shown. Fewer than three exact examples every reader has seen, examples too narrow for most readers (a named city only some know, one family's ritual), a named stranger's story, or by the end of slide 2 a stranger still can't tell what the post is about.
 15. No feeling: the reader follows a situation but never feels anything under it (cheated, behind, guilty, relieved, seen), or the villain is a person or group the reader is meant to blame instead of a system.
 16. A template, not this post: a slide leans on stock scaffolding ("So here's the actual rule", "There's a second layer", "Do the maths") where fresh words would carry the turn, or a West/abroad comparison appears where it isn't the insight.
+17. Hard to follow on one read: more than one main idea (a second argument or side point), more than one ending (a lesson, then a test, then a jab), a jump to someone else's point of view the reader doesn't share ("anyone who has built an app knows"), or a slide that argues with a quote, denial or claim the reader was never told about. Name the slide.
 
 Also note, quoting the line: - Breaks one of the owner's writing rules in the writer prompt: a repeated fact between cover and slide 2, a sub-line that gives away the close, filler or origin-story lines, a decorative invented specific (a time, a reading, an amount), a vague mechanism where the real name exists ("the tax code" for Section 80D), the writer's own story instead of the reader's, a story where the post should share a thought (an observation, opinion or trend), a brand left vague ("a quick-commerce app") where naming it is the point, or a hedged opinion where Varun would say it straight. Quote the line and give the fix.
 
@@ -51,8 +52,9 @@ Also note, quoting the line: - Breaks one of the owner's writing rules in the wr
 - iq: does the reader see it in a way they hadn't put together?
 - story: does it read like an insider decoding something the reader lives: exact examples they've seen, the rule named from the inside, and one detail only an insider would notice?
 - tight: is every slide needed, with the idea said once and nothing over-explained?
+- clear: would a first-time reader, swiping once, be able to say the point and the reason, without re-reading any slide? Below 4 fails the post.
 - informative: like the benchmark ('India doesn't buy cars for the road…'), does the reader learn something real: a sourced number that makes the point bigger, how the business or the family actually works, and a named pattern they can repeat?
 
 Return only JSON:
-{"pass": bool, "violations": ["..."], "scores": {"hook": n, "relatable": n, "fresh_angle": n, "pull": n, "payoff": n, "voice": n, "eq": n, "iq": n, "story": n, "tight": n, "informative": n}, "notes": ["slide N: what to change and why, specific enough for the writer to act on; you may ask for a missing beat the topic already contains"]}
+{"pass": bool, "violations": ["..."], "scores": {"hook": n, "relatable": n, "fresh_angle": n, "pull": n, "payoff": n, "voice": n, "eq": n, "iq": n, "story": n, "tight": n, "clear": n, "informative": n}, "notes": ["slide N: what to change and why, specific enough for the writer to act on; you may ask for a missing beat the topic already contains"]}
 "violations" lists only the hard failures above. Pass only if there are no violations, no score is below 3, the scores average 4 or more, and of eq and iq one is 4 or more. Give at most 5 notes, most important first; if no detail in the post goes beyond sight (a sound, touch, temperature), one note may ask for one on the slide where it fits. Never ask for a fact the sources and topic don't contain.

@@ -500,3 +500,73 @@ def test_territory_tag_rotates_within_a_week(monkeypatch):
     near = [{"id": "x", "due": "2099-12-03T20:30:00+05:30", "status": "scheduled", "draft": {"hashtags": ["#IndianFamily"]}}]
     monkeypatch.setattr(cap_mod.state, "posts", lambda *a: near)
     assert cap_mod.territory_tag(CAP_POST) == "#DesiParents"
+
+
+SCORES5 = {k: 5 for k in ("hook", "relatable", "fresh_angle", "pull", "payoff", "voice", "eq", "iq", "story", "tight")}
+CLEAR_READ = {"point": "p", "reason": "r", "lost": [], "ideas": ["one"], "endings": 1, "point_matches": True, "reason_matches": True}
+
+
+def test_a_confused_first_reader_becomes_notes():
+    # the 16 Nov post: an app-builder jump, a rebuttal of a quote the reader never saw, three ideas, two endings
+    muddled = {"point": "shows repeat the plot", "reason": "none", "point_matches": True, "reason_matches": False,
+               "lost": [{"slide": 4, "why": "suddenly about people who build apps"}, {"slide": 6, "why": "who said there's a principle?"}],
+               "ideas": ["second screen", "silent users leave", "Netflix denies it", "we're tired after work"], "endings": 2}
+    notes = writer.reader_problems(muddled)
+    assert any(n.startswith("Unclear (slide 4)") for n in notes) and any("slide 6" in n for n in notes)
+    assert any("took the reason as 'none'" in n for n in notes)
+    assert any("4 separate ideas" in n for n in notes) and any("2 slides feel like endings" in n for n in notes)
+    assert writer.reader_problems(CLEAR_READ) == []
+    assert writer.reader_problems({"error": "timeout"}) == []  # a check that can't run never holds a post
+    assert writer.passes({"violations": [], "scores": {**SCORES5, "clear": 5}})
+    assert not writer.passes({"violations": [], "scores": {**SCORES5, "clear": 3}})
+
+
+def _fake_writer(monkeypatch, reads, verify=None):
+    from engine import factgate, llm, published
+    good = draft(GOOD)
+    monkeypatch.setattr(published, "repeat_of", lambda topic: None)
+    monkeypatch.setattr(writer, "mechanical", lambda d, fmt, ev: (d, []))
+    monkeypatch.setattr(factgate, "verify", verify or (lambda post, d: {"passed": True, "notes": []}))
+    monkeypatch.setattr(factgate, "preflight", lambda post: None)
+    monkeypatch.setattr(writer.caption, "make", lambda post, d: {})
+    writes = []
+    def fake(model, user, stage="", **kw):
+        if stage == "write":
+            writes.append(user)
+            return json.loads(json.dumps(good))
+        if stage == "critic":
+            return {"pass": True, "violations": [], "notes": [], "scores": dict(SCORES5)}
+        if stage == "varun":
+            return {"pass": True, "score": 5, "misses": []}
+        if stage == "reader":
+            return next(reads)
+        raise AssertionError(stage)
+    monkeypatch.setattr(llm, "call_json", fake)
+    return writes
+
+
+def test_a_draft_a_first_reader_cant_follow_is_rewritten(monkeypatch):
+    lost = {**CLEAR_READ, "lost": [{"slide": 4, "why": "suddenly about app builders"}]}
+    writes = _fake_writer(monkeypatch, iter([lost, {"point_matches": True, "reason_matches": True}, CLEAR_READ,
+                                             {"point_matches": True, "reason_matches": True}]))
+    out = writer.write_post({"id": "2099-11-06", "format": "carousel", "sources": [], "history": [],
+                             "topic": {"claim": "c", "because": "b"}})
+    assert out["status"] == "written" and len(writes) == 2 and "Unclear (slide 4)" in writes[1]
+
+
+def test_a_take_whose_reason_is_cut_twice_is_dropped(monkeypatch):
+    reads = iter([CLEAR_READ, {"point_matches": True, "reason_matches": True}] * 5)
+    cut = lambda post, d: {"passed": False, "notes": ["Could not verify: 'platforms watch completion'."],
+                           "core_cut": ["Platforms watch whether you finish."]}
+    writes = _fake_writer(monkeypatch, reads, cut)
+    out = writer.write_post({"id": "2099-11-07", "format": "carousel", "sources": [], "history": [],
+                             "topic": {"claim": "c", "because": "b"}})
+    assert out["status"] == "rejected" and len(writes) == 2
+    assert "what the take rests on" in writes[1]
+
+
+def test_a_take_every_source_contradicts_is_dropped_before_writing(monkeypatch):
+    writes = _fake_writer(monkeypatch, iter([]))
+    monkeypatch.setattr(writer, "find_sources", lambda t: [{"url": "https://x", "excerpt": "denied", "stance": "contradicts"}])
+    out = writer.write_post({"id": "2099-11-08", "format": "carousel", "history": [], "topic": {"claim": "c"}})
+    assert out["status"] == "rejected" and writes == []
