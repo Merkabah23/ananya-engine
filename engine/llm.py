@@ -29,7 +29,12 @@ def fill(template: str, **values: Any) -> str:
 
 
 def prompt(name: str) -> str:
-    return (config.PROMPTS / f"{name}.md").read_text()
+    """A prompt file. A {prices} placeholder is filled with prompts/prices.md, the one sheet of what things cost now,
+    so every step that writes or judges a price uses the same, current levels (owner, 16 Nov: our prices ran too low)."""
+    text = (config.PROMPTS / f"{name}.md").read_text()
+    if "{prices}" in text:
+        text = text.replace("{prices}", (config.PROMPTS / "prices.md").read_text().strip())
+    return text
 
 
 def call(model: str, user: str, *, stage: str = "", tools: list | None = None, timeout: int = 900,

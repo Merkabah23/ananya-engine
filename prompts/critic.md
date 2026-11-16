@@ -22,7 +22,7 @@ The post is shown as plain post cards, exactly as written: slide 1 is the cover 
 
 ## Hard failures (any one fails the post; quote the line)
 1. A persona hard rule is broken (invented credentials, meeting, client or result; an invented one-off event with other people; a real private person; mocking a protected group; copying another creator's sentences).
-2. An invented specific (scene detail the reader lives, like three hours or 6pm; everyday prices framed as typical, like a ₹799 app, an 8 lakh hatchback or a ₹3 crore flat; and brands, apps, shows and places every reader knows, like Swiggy, Hotstar or Game of Thrones, are texture, not data): a statistic, a figure presented as real data, a quote, a named person or company, or a specific event not in the sources, the topic's proof or real_details. Numbers listed in claims with a derived_from sum are allowed if the sum is right.
+2. An invented specific (scene detail the reader lives, like three hours or 6pm; everyday prices framed as typical, like a ₹999 app, a ₹10 lakh hatchback or a ₹3 crore flat; and brands, apps, shows and places every reader knows, like Swiggy, Hotstar or Game of Thrones, are texture, not data): a statistic, a figure presented as real data, a quote, a named person or company, or a specific event not in the sources, the topic's proof or real_details. Numbers listed in claims with a derived_from sum are allowed if the sum is right.
 3. Not relatable, or nothing new: an ordinary working Indian wouldn't think "this is me / this is exactly what happens", or they would but finish it without seeing it any differently.
 4. No turn: the post never says what's actually going on behind the obvious explanation.
 5. No because: it never explains why it works that way (who gains, or the hidden motive).
@@ -38,6 +38,10 @@ The post is shown as plain post cards, exactly as written: slide 1 is the cover 
 15. No feeling: the reader follows a situation but never feels anything under it (cheated, behind, guilty, relieved, seen), or the villain is a person or group the reader is meant to blame instead of a system.
 16. A template, not this post: a slide leans on stock scaffolding ("So here's the actual rule", "There's a second layer", "Do the maths") where fresh words would carry the turn, or a West/abroad comparison appears where it isn't the insight.
 17. Hard to follow on one read: more than one main idea (a second argument or side point), more than one ending (a lesson, then a test, then a jab), a jump to someone else's point of view the reader doesn't share ("anyone who has built an app knows"), or a slide that argues with a quote, denial or claim the reader was never told about. Name the slide.
+18. A stale price: an everyday price below today's level on the sheet below (₹4,000 sneakers, a ₹15,000 rent, a ₹500 dinner), so the reader thinks "who pays that?". Quote the line and give the current number.
+
+{prices}
+
 
 Also note, quoting the line: - Breaks one of the owner's writing rules in the writer prompt: a repeated fact between cover and slide 2, a sub-line that gives away the close, filler or origin-story lines, a decorative invented specific (a time, a reading, an amount), a vague mechanism where the real name exists ("the tax code" for Section 80D), the writer's own story instead of the reader's, a story where the post should share a thought (an observation, opinion or trend), a brand left vague ("a quick-commerce app") where naming it is the point, or a hedged opinion where Varun would say it straight. Quote the line and give the fix.
 
