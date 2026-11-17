@@ -1,6 +1,6 @@
 {
  "id": "2026-11-174",
- "status": "approved",
+ "status": "uploaded",
  "due": "2026-11-27T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -125,7 +125,7 @@
   "caption_style": "send",
   "search_phrase": "household staff pay in Mumbai"
  },
- "updated_at": "2026-11-17T12:37:41.041252+00:00",
+ "updated_at": "2026-11-17T12:39:30.536119+00:00",
  "owner_ok": true,
  "verification": {
   "passed": true,
@@ -167,22 +167,6 @@
    },
    {
     "id": "c5",
-    "text": "About 2.8 crore people in India have registered as domestic workers with the labour ministry.",
-    "sentence": "Nearly 2.8 crore Indians have signed up with the labour ministry as domestic workers.",
-    "type": "figure",
-    "core": false,
-    "framed_as": "timeless"
-   },
-   {
-    "id": "c6",
-    "text": "The labour ministry runs a registration system that domestic workers can sign up with.",
-    "sentence": "Nearly 2.8 crore Indians have signed up with the labour ministry as domestic workers.",
-    "type": "feature",
-    "core": false,
-    "framed_as": "timeless"
-   },
-   {
-    "id": "c7",
     "text": "Almost all of the Indians registered with the labour ministry as domestic workers are women.",
     "sentence": "Almost all of them are women.",
     "type": "figure",
@@ -190,9 +174,17 @@
     "framed_as": "timeless"
    },
    {
-    "id": "c8",
-    "text": "Because driving is culturally coded as men's work while cooking and cleaning are coded as unpaid women's work historically done by mothers, household pay for domestic labour tracks this gender coding rather than the amount or difficulty of the work, so a bai doing more hours across more homes is paid less than a driver, and this gap persists unchecked because no national law sets pay or protections for domestic workers.",
-    "sentence": "It isn't the work. It's who does it. / So if you pay her less, nobody will stop you. India has no national law for domestic workers.",
+    "id": "c6",
+    "text": "2.79 crore Indians have registered with the Indian labour ministry as domestic workers.",
+    "sentence": "2.79 crore Indians have signed up with the labour ministry as domestic workers.",
+    "type": "figure",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c7",
+    "text": "Mumbai household workers doing cooking and cleaning (bais) are paid less than drivers because the work is seen as women's unpaid work, which sets its price low. Because India has no national law fixing domestic workers' pay or social security, nothing stops a household from paying a woman less. So each household's own choice sets her pay.",
+    "sentence": "It isn't the work. It's who does it. Driving is a man's job, so you pay it like one. Cooking and cleaning are what your mother did for nothing. So when a woman does them for money, the price starts low. So if you pay her less, nobody will stop you.",
     "type": "mechanism",
     "core": true,
     "framed_as": "timeless"
@@ -285,50 +277,6 @@
     ]
    },
    "c5": {
-    "id": "c5",
-    "verdict": "supported",
-    "event_date": "2023-03-13",
-    "correct": "The 2.8 crore figure is from March 2023; the number has since risen to about 2.89 crore (28.9 million) as of March 2025 and is likely somewhat higher by the Nov 2026 go-live, but the scale ('about 2.8 crore') is still roughly right.",
-    "sources": [
-     {
-      "url": "https://labour.gov.in/sites/default/files/pib1907685.pdf",
-      "publisher": "Ministry of Labour & Employment (PIB)",
-      "published_date": "2023-03-16",
-      "quote": "As on 13 March 2023, 2.79 crore domestic and household workers had registered on the e-Shram portal, of which 2.67 crore are women.",
-      "tier": 1
-     },
-     {
-      "url": "https://behanbox.com/2025/03/12/why-domestic-workers-in-a-unique-labour-market-need-their-own-labour-law/",
-      "publisher": "BehanBox",
-      "published_date": "2025-03-12",
-      "quote": "28.9 million domestic workers have registered on the e-shram portal, with 95.8% being women",
-      "tier": 2
-     }
-    ]
-   },
-   "c6": {
-    "id": "c6",
-    "verdict": "supported",
-    "event_date": null,
-    "correct": null,
-    "sources": [
-     {
-      "url": "https://eshram.gov.in/faqs",
-      "publisher": "eShram / Ministry of Labour & Employment",
-      "published_date": null,
-      "quote": "eShram is an integrated National Database of Unorganised Workers (NDUW), established by the Ministry of Labour & Employment, Government of India... An unorganised worker may register himself/herself by visiting eShram portal or through assisted approach by visiting nearest CSC.",
-      "tier": 1
-     },
-     {
-      "url": "https://labour.gov.in/sites/default/files/pib1907685.pdf",
-      "publisher": "Ministry of Labour & Employment (PIB)",
-      "published_date": "2023-03-16",
-      "quote": "2.79 crore domestic and household workers had registered on the e-Shram portal",
-      "tier": 1
-     }
-    ]
-   },
-   "c7": {
     "id": "c7",
     "verdict": "supported",
     "event_date": null,
@@ -356,6 +304,21 @@
       "tier": 2
      }
     ]
+   },
+   "c6": {
+    "id": "c6",
+    "verdict": "supported",
+    "event_date": "2023-03-13",
+    "correct": "The figure is a snapshot as of 13 March 2023. A later Labour Ministry reply to the Rajya Sabha gave about 2.81 crore, so the picture is the same. The claim is also loosely worded: these are registrations on the e-Shram portal, not a separate domestic-worker register.",
+    "sources": [
+     {
+      "url": "https://labour.gov.in/sites/default/files/pib1907685.pdf",
+      "publisher": "PIB / Ministry of Labour & Employment",
+      "published_date": "2023-03-16",
+      "quote": "As on 13 March 2023, 2.79 crore domestic and household workers had registered on the e-Shram portal, of which 2.67 crore are women.",
+      "tier": 1
+     }
+    ]
    }
   },
   "mechanism": {
@@ -381,8 +344,8 @@
     }
    ]
   },
-  "text_hash": "b506bb092d83cabed2a7ace21e6f581c6fe499ac",
-  "at": "2026-11-17T12:35:47.826454+00:00"
+  "text_hash": "60f249e7328c2208e0b14cf9f2962f5cd064a42e",
+  "at": "2026-11-17T12:39:15.652563+00:00"
  },
  "alt_texts": [
   "In your Mumbai home, the one who works hardest gets paid least. It's the bai, not the driver.",
@@ -440,7 +403,7 @@
  ],
  "verification_cache": {
   "_ledger": {
-   "text": "[cover] In your Mumbai home, the one who works hardest gets paid least.\nIt's the bai, not the driver.\n \n\n[slide 1] In your Mumbai home, the one who works hardest gets paid least.\nIt's the bai, not the driver.\n\n[slide 2] Look at your own building.\nYour driver drops you to office, waits in the car, and brings you home.\nYour bai cooks, sweeps and washes across three or four homes, seven days a week.\n\n[slide 3] Yet he earns more.\nAnd at Diwali, when you give both a month's salary as a bonus, his bonus is bigger too.\n\n[slide 4] It isn't the work. It's who does it.\nDriving is a man's job, so you pay it like one.\nCooking and cleaning are what your mother did for nothing. So when a woman does them for money, the price starts low.\n\n[slide 5] Listen to how you talk about it.\nNobody says \"just driving\". Everyone says \"just jhadu-pocha\".\n\n[slide 6] And when he takes leave, you book an Uber.\nWhen she takes leave, the whole house stops.\n\n[slide 7] This isn't just your building.\nNearly 2.8 crore Indians have signed up with the labour ministry as domestic workers.\nAlmost all of them are women.\n\n[slide 8] So if you pay her less, nobody will stop you.\nIndia has no national law for domestic workers. Nothing fixes her pay or gives her social security.\nFor the woman in your kitchen, the only labour law is you.\n\n[slide 9] Every salary day, your house decides what a woman's work is worth.\nAnd your kids are watching the rate.\n\n[end card] \nSend this to the friend in Mumbai who haggles with the bai and never with the driver.\n\n[caption] Household staff pay in Mumbai: the bai works harder than the driver and still gets paid less.\n\nIndia has no national law for domestic workers, so the only rules she works under are the ones your house sets.\n\nSend this to the friend in Mumbai who haggles with the bai and never with the driver.\n\n[alt text] A text post on why a Mumbai home pays its driver more than its bai, and why that gap matters when she has no law but you.",
+   "text": "[cover] In your Mumbai home, the one who works hardest gets paid least.\nIt's the bai, not the driver.\n \n\n[slide 1] In your Mumbai home, the one who works hardest gets paid least.\nIt's the bai, not the driver.\n\n[slide 2] Look at your own building.\nYour driver drops you to office, waits in the car, and brings you home.\nYour bai cooks, sweeps and washes across three or four homes, seven days a week.\n\n[slide 3] Yet he earns more.\nAnd at Diwali, when you give both a month's salary as a bonus, his bonus is bigger too.\n\n[slide 4] It isn't the work. It's who does it.\nDriving is a man's job, so you pay it like one.\nCooking and cleaning are what your mother did for nothing. So when a woman does them for money, the price starts low.\n\n[slide 5] Listen to how you talk about it.\nNobody says \"just driving\". Everyone says \"just jhadu-pocha\".\n\n[slide 6] And when he takes leave, you book an Uber.\nWhen she takes leave, the whole house stops.\n\n[slide 7] This isn't just your building.\n2.79 crore Indians have signed up with the labour ministry as domestic workers.\nAlmost all of them are women.\n\n[slide 8] So if you pay her less, nobody will stop you.\nIndia has no national law for domestic workers. Nothing fixes her pay or gives her social security.\nFor the woman in your kitchen, the only labour law is you.\n\n[slide 9] Every salary day, your house decides what a woman's work is worth.\nAnd your kids are watching the rate.\n\n[end card] \nSend this to the friend in Mumbai who haggles with the bai and never with the driver.\n\n[caption] Household staff pay in Mumbai: the bai works harder than the driver and still gets paid less.\n\nIndia has no national law for domestic workers, so the only rules she works under are the ones your house sets.\n\nSend this to the friend in Mumbai who haggles with the bai and never with the driver.\n\n[alt text] A text post on why a Mumbai home pays its driver more than its bai, and why that gap matters when she has no law but you.",
    "claims": [
     {
      "id": "c1",
@@ -476,22 +439,6 @@
     },
     {
      "id": "c5",
-     "text": "About 2.8 crore people in India have registered as domestic workers with the labour ministry.",
-     "sentence": "Nearly 2.8 crore Indians have signed up with the labour ministry as domestic workers.",
-     "type": "figure",
-     "core": false,
-     "framed_as": "timeless"
-    },
-    {
-     "id": "c6",
-     "text": "The labour ministry runs a registration system that domestic workers can sign up with.",
-     "sentence": "Nearly 2.8 crore Indians have signed up with the labour ministry as domestic workers.",
-     "type": "feature",
-     "core": false,
-     "framed_as": "timeless"
-    },
-    {
-     "id": "c7",
      "text": "Almost all of the Indians registered with the labour ministry as domestic workers are women.",
      "sentence": "Almost all of them are women.",
      "type": "figure",
@@ -499,9 +446,17 @@
      "framed_as": "timeless"
     },
     {
-     "id": "c8",
-     "text": "Because driving is culturally coded as men's work while cooking and cleaning are coded as unpaid women's work historically done by mothers, household pay for domestic labour tracks this gender coding rather than the amount or difficulty of the work, so a bai doing more hours across more homes is paid less than a driver, and this gap persists unchecked because no national law sets pay or protections for domestic workers.",
-     "sentence": "It isn't the work. It's who does it. / So if you pay her less, nobody will stop you. India has no national law for domestic workers.",
+     "id": "c6",
+     "text": "2.79 crore Indians have registered with the Indian labour ministry as domestic workers.",
+     "sentence": "2.79 crore Indians have signed up with the labour ministry as domestic workers.",
+     "type": "figure",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c7",
+     "text": "Mumbai household workers doing cooking and cleaning (bais) are paid less than drivers because the work is seen as women's unpaid work, which sets its price low. Because India has no national law fixing domestic workers' pay or social security, nothing stops a household from paying a woman less. So each household's own choice sets her pay.",
+     "sentence": "It isn't the work. It's who does it. Driving is a man's job, so you pay it like one. Cooking and cleaning are what your mother did for nothing. So when a woman does them for money, the price starts low. So if you pay her less, nobody will stop you.",
      "type": "mechanism",
      "core": true,
      "framed_as": "timeless"
@@ -578,6 +533,29 @@
     ]
    },
    "a8b034373d166417f6987ab03243f14b2bf0b775": {
+    "holds": true,
+    "broken_premise": "",
+    "actual_mechanism": "Within one Mumbai household a full-time driver (roughly ₹18,000–30,000/month, averaging about ₹19,000) is paid more per home than a part-time bai (about ₹3,500–9,000/home), so the per-household gap the post describes is real. But the price difference is set substantially by labour structure, not only gender: a driver is exclusive to one employer for the whole day (full opportunity cost, licence, legal liability on the road), while cooking-cleaning is divisible, so the bai sells fractions of her day to 3–4 homes and each home pays only for its slice — across all her homes her aggregate earnings often match or beat a single driver's. The gendered devaluation of care work the post reads into this is a documented and defensible interpretation layered on top of that structural mechanism, not a falsifiable factual claim.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://in.indeed.com/career/driver/salaries/Mumbai--Maharashtra",
+      "published_date": "2026",
+      "quote": "The average salary for a driver is ₹18,957 per month in Mumbai, Maharashtra."
+     },
+     {
+      "url": "https://trustedmaid.in/mumbai-maid-and-cook-salary-guide-2026",
+      "published_date": "2026",
+      "quote": "Part-time maids working 1–4 hours daily earn ₹3,500 to ₹7,000 per month, while full-time maids working 8 hours earn ₹10,000 to ₹14,000."
+     },
+     {
+      "url": "https://staffaround.com/blog/maid-salary-guide-india-2026/",
+      "published_date": "2026",
+      "quote": "City-wise rates for maids, cooks, nannies & drivers show full-time drivers in metros like Mumbai earning ₹18,000–₹30,000, above typical part-time maid wages."
+     }
+    ]
+   },
+   "95a1d81014269dc34180b3473557185e39c997f4": {
     "holds": true,
     "broken_premise": "",
     "actual_mechanism": "Within one Mumbai household a full-time driver (roughly ₹18,000–30,000/month, averaging about ₹19,000) is paid more per home than a part-time bai (about ₹3,500–9,000/home), so the per-household gap the post describes is real. But the price difference is set substantially by labour structure, not only gender: a driver is exclusive to one employer for the whole day (full opportunity cost, licence, legal liability on the road), while cooking-cleaning is divisible, so the bai sells fractions of her day to 3–4 homes and each home pays only for its slice — across all her homes her aggregate earnings often match or beat a single driver's. The gendered devaluation of care work the post reads into this is a documented and defensible interpretation layered on top of that structural mechanism, not a falsifiable factual claim.",
@@ -1160,6 +1138,226 @@
     },
     "text_hash": "b506bb092d83cabed2a7ace21e6f581c6fe499ac",
     "at": "2026-11-17T12:35:47.826454+00:00"
+   },
+   "60f249e7328c2208e0b14cf9f2962f5cd064a42e": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "core_cut": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "In Mumbai households that give both staff a month's salary as a Diwali bonus, the driver's bonus is larger than the bai's.",
+      "sentence": "And at Diwali, when you give both a month's salary as a bonus, his bonus is bigger too.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "India has no national law governing domestic workers' employment",
+      "sentence": "India has no national law for domestic workers.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "No Indian law fixes a minimum pay rate for domestic workers",
+      "sentence": "Nothing fixes her pay or gives her social security.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "No Indian law provides social security (such as PF or insurance) to domestic workers",
+      "sentence": "Nothing fixes her pay or gives her social security.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Almost all of the Indians registered with the labour ministry as domestic workers are women.",
+      "sentence": "Almost all of them are women.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c6",
+      "text": "2.79 crore Indians have registered with the Indian labour ministry as domestic workers.",
+      "sentence": "2.79 crore Indians have signed up with the labour ministry as domestic workers.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c7",
+      "text": "Mumbai household workers doing cooking and cleaning (bais) are paid less than drivers because the work is seen as women's unpaid work, which sets its price low. Because India has no national law fixing domestic workers' pay or social security, nothing stops a household from paying a woman less. So each household's own choice sets her pay.",
+      "sentence": "It isn't the work. It's who does it. Driving is a man's job, so you pay it like one. Cooking and cleaning are what your mother did for nothing. So when a woman does them for money, the price starts low. So if you pay her less, nobody will stop you.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": null,
+      "sources": [
+       {
+        "url": "https://www.indiatvnews.com/news/india-maids-worst-paid-in-india-among-domestic-help-drivers-top-list-survey-327495",
+        "publisher": "India TV News",
+        "published_date": null,
+        "quote": "Drivers are the best paid among all house helps across India, ranging between Rs 9,500 in Ahmedabad to Rs 13,000 in Mumbai, which is almost double the amount a maid makes every month",
+        "tier": 2
+       },
+       {
+        "url": "https://sevetu.com/guides/diwali-bonus-for-house-help/",
+        "publisher": "Sevetu",
+        "published_date": null,
+        "quote": "In Mumbai, it is a standard practice to give an annual bonus equivalent to one month's salary during Diwali time",
+        "tier": 3
+       }
+      ]
+     },
+     "c2": {
+      "id": "c4",
+      "verdict": "supported",
+      "correct": "India has no dedicated national law for domestic workers; the Centre has opposed creating one, choosing instead to rely on the four general labour codes (notified Nov 2025) whose applicability to domestic workers is itself unclear in three of the four codes.",
+      "sources": [
+       {
+        "url": "https://scroll.in/article/1091295/why-india-needs-a-separate-law-for-domestic-workers-even-though-the-centre-is-opposed-to-it",
+        "publisher": "Scroll.in",
+        "published_date": "2026-04-09",
+        "quote": "since 1959, government and private member bills have sought to regulate domestic work by fixing wages and bringing about registration and social security but none have resulted in a national law... there being no clarity on inclusion of domestic workers in three of the four codes, barring the Code on Social Security, 2020.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.newslaundry.com/2026/11/02/invisible-and-unprotected-indias-new-labour-codes-fail-domestic-home-based-workers",
+        "publisher": "Newslaundry",
+        "published_date": "2026-11-02",
+        "quote": "The Central Government has not enacted any separate law to protect the interest of domestic workers... Homes...are not recognised as workplaces for domestic and home-based workers in the labour code.",
+        "tier": 2
+       }
+      ]
+     },
+     "c3": {
+      "id": "c5",
+      "verdict": "supported",
+      "correct": "The Code on Wages, 2019 only empowers governments to fix minimum wages; it provides no formula or actual fixed rate for domestic workers, and no state has successfully implemented one.",
+      "sources": [
+       {
+        "url": "https://scroll.in/article/1091295/why-india-needs-a-separate-law-for-domestic-workers-even-though-the-centre-is-opposed-to-it",
+        "publisher": "Scroll.in",
+        "published_date": "2026-04-09",
+        "quote": "The Code on Wages, 2019 empowers both Central and State Governments...to fix, review and revise the minimum rates of wages.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.newslaundry.com/2026/11/02/invisible-and-unprotected-indias-new-labour-codes-fail-domestic-home-based-workers",
+        "publisher": "Newslaundry",
+        "published_date": "2026-11-02",
+        "quote": "the new code does not provide a formula for the calculation of this minimum wage for domestic and home-based workers... 19 of 36 states added domestic workers to minimum wage schedules, but no states have so far successfully implemented this.",
+        "tier": 2
+       }
+      ]
+     },
+     "c4": {
+      "id": "c6",
+      "verdict": "supported",
+      "correct": "Only the Code on Social Security, 2020 even mentions domestic workers, and it does so by pointing to voluntary, optional general welfare schemes (e.g. e-Shram-linked schemes) with no clarity on actual implementation, not a guaranteed PF or insurance entitlement.",
+      "sources": [
+       {
+        "url": "https://scroll.in/article/1091295/why-india-needs-a-separate-law-for-domestic-workers-even-though-the-centre-is-opposed-to-it",
+        "publisher": "Scroll.in",
+        "published_date": "2026-04-09",
+        "quote": "Only the Code on Social Security explicitly mentions domestic workers... the report 'relies on general welfare schemes like the Pradhan Mantri Matru Vandana Yojana' without clarity on actual implementation.",
+        "tier": 2
+       },
+       {
+        "url": "https://www.newslaundry.com/2026/11/02/invisible-and-unprotected-indias-new-labour-codes-fail-domestic-home-based-workers",
+        "publisher": "Newslaundry",
+        "published_date": "2026-11-02",
+        "quote": "The Code on Social Security, 2020 'classifies domestic and home-based workers as wage workers.' Yet implementation remains weak—schemes are voluntary and optional rather than mandatory.",
+        "tier": 2
+       }
+      ]
+     },
+     "c5": {
+      "id": "c7",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": null,
+      "sources": [
+       {
+        "url": "https://labour.gov.in/sites/default/files/pib1907685.pdf",
+        "publisher": "Ministry of Labour & Employment (PIB)",
+        "published_date": "2023-03-16",
+        "quote": "2.79 crore domestic and household workers had registered on the e-Shram portal, of which 2.67 crore are women",
+        "tier": 1
+       },
+       {
+        "url": "https://www.policycircle.org/economy/e-shram-data-women-workers/",
+        "publisher": "PolicyCircle",
+        "published_date": "2026-06-29",
+        "quote": "93.66% of domestic and household work registrations",
+        "tier": 2
+       },
+       {
+        "url": "https://behanbox.com/2025/03/12/why-domestic-workers-in-a-unique-labour-market-need-their-own-labour-law/",
+        "publisher": "BehanBox",
+        "published_date": "2025-03-12",
+        "quote": "28.9 million domestic workers have registered on the e-shram portal, with 95.8% being women",
+        "tier": 2
+       }
+      ]
+     },
+     "c6": {
+      "id": "c6",
+      "verdict": "supported",
+      "event_date": "2023-03-13",
+      "correct": "The figure is a snapshot as of 13 March 2023. A later Labour Ministry reply to the Rajya Sabha gave about 2.81 crore, so the picture is the same. The claim is also loosely worded: these are registrations on the e-Shram portal, not a separate domestic-worker register.",
+      "sources": [
+       {
+        "url": "https://labour.gov.in/sites/default/files/pib1907685.pdf",
+        "publisher": "PIB / Ministry of Labour & Employment",
+        "published_date": "2023-03-16",
+        "quote": "As on 13 March 2023, 2.79 crore domestic and household workers had registered on the e-Shram portal, of which 2.67 crore are women.",
+        "tier": 1
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "",
+     "actual_mechanism": "Within one Mumbai household a full-time driver (roughly ₹18,000–30,000/month, averaging about ₹19,000) is paid more per home than a part-time bai (about ₹3,500–9,000/home), so the per-household gap the post describes is real. But the price difference is set substantially by labour structure, not only gender: a driver is exclusive to one employer for the whole day (full opportunity cost, licence, legal liability on the road), while cooking-cleaning is divisible, so the bai sells fractions of her day to 3–4 homes and each home pays only for its slice — across all her homes her aggregate earnings often match or beat a single driver's. The gendered devaluation of care work the post reads into this is a documented and defensible interpretation layered on top of that structural mechanism, not a falsifiable factual claim.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://in.indeed.com/career/driver/salaries/Mumbai--Maharashtra",
+       "published_date": "2026",
+       "quote": "The average salary for a driver is ₹18,957 per month in Mumbai, Maharashtra."
+      },
+      {
+       "url": "https://trustedmaid.in/mumbai-maid-and-cook-salary-guide-2026",
+       "published_date": "2026",
+       "quote": "Part-time maids working 1–4 hours daily earn ₹3,500 to ₹7,000 per month, while full-time maids working 8 hours earn ₹10,000 to ₹14,000."
+      },
+      {
+       "url": "https://staffaround.com/blog/maid-salary-guide-india-2026/",
+       "published_date": "2026",
+       "quote": "City-wise rates for maids, cooks, nannies & drivers show full-time drivers in metros like Mumbai earning ₹18,000–₹30,000, above typical part-time maid wages."
+      }
+     ]
+    },
+    "text_hash": "60f249e7328c2208e0b14cf9f2962f5cd064a42e",
+    "at": "2026-11-17T12:39:15.652563+00:00"
    }
   },
   "The Indian government's own register shows 2.79 crore people doing domestic and household work": {
@@ -1325,6 +1523,21 @@
      "tier": 2
     }
    ]
+  },
+  "2.79 crore Indians have registered with the Indian labour ministry as domestic workers.": {
+   "id": "c6",
+   "verdict": "supported",
+   "event_date": "2023-03-13",
+   "correct": "The figure is a snapshot as of 13 March 2023. A later Labour Ministry reply to the Rajya Sabha gave about 2.81 crore, so the picture is the same. The claim is also loosely worded: these are registrations on the e-Shram portal, not a separate domestic-worker register.",
+   "sources": [
+    {
+     "url": "https://labour.gov.in/sites/default/files/pib1907685.pdf",
+     "publisher": "PIB / Ministry of Labour & Employment",
+     "published_date": "2023-03-16",
+     "quote": "As on 13 March 2023, 2.79 crore domestic and household workers had registered on the e-Shram portal, of which 2.67 crore are women.",
+     "tier": 1
+    }
+   ]
   }
  },
  "varun": {
@@ -1334,5 +1547,16 @@
   "best": "For the woman in your kitchen, the only labour law is you.",
   "passed": true,
   "text_hash": "60f249e7328c2208e0b14cf9f2962f5cd064a42e"
- }
+ },
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-174/slide_01.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-174/slide_02.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-174/slide_03.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-174/slide_04.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-174/slide_05.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-174/slide_06.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-174/slide_07.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-174/slide_08.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-174/slide_09.jpg"
+ ]
 }
