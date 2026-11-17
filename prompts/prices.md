@@ -9,7 +9,7 @@ When a reaction is the point (a parent's shock, a friend's envy, a guilty lie), 
 - Dinner out for two: ₹2,500-5,000. A café coffee: ₹350-500. A delivery order: ₹500-900. Weekend drinks: ₹3,000-6,000.
 - Multiplex ticket: ₹350-700; IMAX ₹800-1,500. Concert: ₹5,000-25,000. A Goa weekend for two: ₹40,000-80,000. A domestic flight: ₹6,000-12,000.
 - Car: hatchback ₹7-10 lakh, SUV ₹15-30 lakh. Bike: ₹1.5-3 lakh.
-- House help: ₹8,000-15,000 a month; a cook ₹12,000-20,000; a nanny ₹18,000-30,000.
+- House help: ₹10,000-18,000 a month full-time; a cook ₹12,000-20,000; a nanny ₹18,000-30,000; a driver ₹18,000-30,000 (more in Mumbai).
 - Gym: ₹3,000-6,000 a month. Private school fees: ₹2-5 lakh a year. Daycare: ₹15,000-30,000 a month.
 - Money you send home: ₹15,000-50,000 a month. Parents' monthly medicines: ₹4,000-10,000. A hospital stay: ₹2-10 lakh.
 - A middle-class wedding: ₹25-60 lakh. Gold: about ₹1.5 lakh for 10 grams. Shagun from close family: ₹5,100-21,000; from a colleague: ₹2,100-5,100 (₹101, ₹501 and ₹1,100 are what your parents' generation gave).

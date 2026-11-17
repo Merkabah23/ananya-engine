@@ -1,0 +1,384 @@
+{
+ "id": "2026-11-173",
+ "status": "approved",
+ "due": "2026-11-27T20:30:00+05:30",
+ "format": "carousel",
+ "topic": {
+  "title": "the driver and the bai",
+  "territory": "money_status",
+  "mood": "warm with a sting",
+  "lived": false,
+  "needs_facts": false,
+  "claim": "In Mumbai homes the driver, working a few hours a day, is paid more than the bai who works all day across homes, because a man's work is priced as a job and a woman's as housework.",
+  "moment": "You compare what your driver and your bai get: a month's salary as Diwali bonus for both, and his is bigger.",
+  "turn": {
+   "believed": "Household staff are paid fairly by the work.",
+   "actually": "They're paid by gender: driving is a job, housework starts at a discount."
+  },
+  "because": "Housework is what women in the family did for free, so a woman doing it for pay starts at a discount, while driving is treated as a man's skilled job.",
+  "payoff": "The job you can least do without is the one you pay the least respect.",
+  "send_to": "the friend in Mumbai who negotiates with the bai and never with the driver"
+ },
+ "sources": [],
+ "draft": {
+  "cover": {
+   "headline": "In your Mumbai home, the one who works hardest gets paid least.",
+   "sub": "It's the bai, not the driver."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "In your Mumbai home, the one who works hardest gets paid least.",
+     "It's the bai, not the driver."
+    ],
+    "why_swipe": "see it in your building"
+   },
+   {
+    "paragraphs": [
+     "Look at your own building.",
+     "Your driver drops you to office, waits in the car, and brings you home.",
+     "Your bai cooks, sweeps and washes across three or four homes, seven days a week."
+    ],
+    "why_swipe": "compare what they get"
+   },
+   {
+    "paragraphs": [
+     "Yet he earns more.",
+     "And at Diwali, when you give both a month's salary as a bonus, his bonus is bigger too."
+    ],
+    "why_swipe": "why the gap exists"
+   },
+   {
+    "paragraphs": [
+     "It isn't the work. It's who does it.",
+     "Driving is a man's job, so you pay it like one.",
+     "Cooking and cleaning are what your mother did for nothing. So when a woman does them for money, the price starts low."
+    ],
+    "why_swipe": "how you talk about it"
+   },
+   {
+    "paragraphs": [
+     "Listen to how you talk about it.",
+     "Nobody says \"just driving\". Everyone says \"just jhadu-pocha\"."
+    ],
+    "why_swipe": "whose work you can't replace"
+   },
+   {
+    "paragraphs": [
+     "And when he takes leave, you book an Uber.",
+     "When she takes leave, the whole house stops."
+    ],
+    "why_swipe": "what it means"
+   },
+   {
+    "paragraphs": [
+     "One of them has a job.",
+     "The other one runs yours, for less."
+    ],
+    "why_swipe": ""
+   }
+  ],
+  "end": {
+   "send": "Send this to the friend in Mumbai who haggles with the bai and never with the driver."
+  },
+  "caption": "Household staff pay in Mumbai: the bai works harder than the driver and still gets paid less.\n\nDriving is paid like a job. Housework is priced like what your mother did for nothing.\n\nSend this to the friend in Mumbai who haggles with the bai and never with the driver.",
+  "hashtags": [
+   "#DomesticWorkers",
+   "#MoneyHabits",
+   "#AboveMRP"
+  ],
+  "alt_text": "A text post comparing what a Mumbai home gives its driver and its bai, and why the gap is about gender.",
+  "claims": [
+   {
+    "text": "India's Time Use Survey found women who did unpaid domestic work spent about 289-299 minutes a day on it (2024 and 2019 rounds); men about 88-97 minutes.",
+    "source_url": "https://www.mospi.gov.in/time-use-survey"
+   }
+  ],
+  "caption_v": 2,
+  "caption_style": "send",
+  "search_phrase": "household staff pay in Mumbai"
+ },
+ "updated_at": "2026-11-17T11:56:34.230096+00:00",
+ "owner_ok": true,
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "core_cut": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Mumbai households pay drivers more than bais for comparable or greater work because driving is socially coded as a man's paid job while cooking and cleaning are coded as unpaid work traditionally done by mothers, so the market price for domestic work starts lower regardless of effort.",
+    "sentence": "It's the bai, not the driver. ... Yet he earns more. ... Driving is a man's job, so you pay it like one. Cooking and cleaning are what your mother did for nothing. So when a woman does them for money, the price starts low.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "In Mumbai households that give both staff a month's salary as a Diwali bonus, the driver's bonus is larger than the bai's.",
+    "sentence": "And at Diwali, when you give both a month's salary as a bonus, his bonus is bigger too.",
+    "type": "figure",
+    "core": false,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c2": {
+    "id": "c2",
+    "verdict": "supported",
+    "event_date": null,
+    "correct": null,
+    "sources": [
+     {
+      "url": "https://www.indiatvnews.com/news/india-maids-worst-paid-in-india-among-domestic-help-drivers-top-list-survey-327495",
+      "publisher": "India TV News",
+      "published_date": null,
+      "quote": "Drivers are the best paid among all house helps across India, ranging between Rs 9,500 in Ahmedabad to Rs 13,000 in Mumbai, which is almost double the amount a maid makes every month",
+      "tier": 2
+     },
+     {
+      "url": "https://sevetu.com/guides/diwali-bonus-for-house-help/",
+      "publisher": "Sevetu",
+      "published_date": null,
+      "quote": "In Mumbai, it is a standard practice to give an annual bonus equivalent to one month's salary during Diwali time",
+      "tier": 3
+     }
+    ]
+   }
+  },
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "",
+   "actual_mechanism": "Within one Mumbai household a full-time driver (roughly ₹18,000–30,000/month, averaging about ₹19,000) is paid more per home than a part-time bai (about ₹3,500–9,000/home), so the per-household gap the post describes is real. But the price difference is set substantially by labour structure, not only gender: a driver is exclusive to one employer for the whole day (full opportunity cost, licence, legal liability on the road), while cooking-cleaning is divisible, so the bai sells fractions of her day to 3–4 homes and each home pays only for its slice — across all her homes her aggregate earnings often match or beat a single driver's. The gendered devaluation of care work the post reads into this is a documented and defensible interpretation layered on top of that structural mechanism, not a falsifiable factual claim.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://in.indeed.com/career/driver/salaries/Mumbai--Maharashtra",
+     "published_date": "2026",
+     "quote": "The average salary for a driver is ₹18,957 per month in Mumbai, Maharashtra."
+    },
+    {
+     "url": "https://trustedmaid.in/mumbai-maid-and-cook-salary-guide-2026",
+     "published_date": "2026",
+     "quote": "Part-time maids working 1–4 hours daily earn ₹3,500 to ₹7,000 per month, while full-time maids working 8 hours earn ₹10,000 to ₹14,000."
+    },
+    {
+     "url": "https://staffaround.com/blog/maid-salary-guide-india-2026/",
+     "published_date": "2026",
+     "quote": "City-wise rates for maids, cooks, nannies & drivers show full-time drivers in metros like Mumbai earning ₹18,000–₹30,000, above typical part-time maid wages."
+    }
+   ]
+  },
+  "text_hash": "6fe922956f8f50e50e86b908f72b59ec28d8653f",
+  "at": "2026-11-17T11:56:34.229977+00:00"
+ },
+ "alt_texts": [
+  "In your Mumbai home, the one who works hardest gets paid least. It's the bai, not the driver.",
+  "Look at your own building. Your driver drops you to office, waits in the car, and brings you home. Your bai cooks, sweeps and washes across three or four homes, seven days a week.",
+  "Yet he earns more. And at Diwali, when you give both a month's salary as a bonus, his bonus is bigger too.",
+  "It isn't the work. It's who does it. Driving is a man's job, so you pay it like one. Cooking and cleaning are what your mother did for nothing. So when a woman does them for money, the price starts low.",
+  "Listen to how you talk about it. Nobody says \"just driving\". Everyone says \"just jhadu-pocha\".",
+  "And when he takes leave, you book an Uber. When she takes leave, the whole house stops.",
+  "One of them has a job. The other one runs yours, for less."
+ ],
+ "history": [
+  {
+   "stage": "reader",
+   "point": "The maid works harder than the driver but gets paid and valued less because of old-fashioned ideas about which work 'counts' as a job.",
+   "reason": "Because driving is treated as a man's real job you pay for, while cooking and cleaning is seen as unpaid 'mother's work', so its price starts low even when done for money.",
+   "lost": [],
+   "ideas": [
+    "the maid is overworked and underpaid compared to the driver because of gender bias in how household labour is valued"
+   ],
+   "endings": 1,
+   "point_matches": true,
+   "reason_matches": true
+  }
+ ],
+ "varun": {
+  "pass": true,
+  "score": 4,
+  "misses": [
+   {
+    "where": "caption",
+    "line": "Household staff pay in Mumbai: the bai works harder than the driver and still gets paid less.",
+    "why": "label/SEO opener, reads like a headline tag not a line he'd type",
+    "try": "In your Mumbai home the bai works harder than the driver and still takes home less."
+   }
+  ],
+  "best": "One of them has a job.\nThe other one runs yours, for less.",
+  "passed": true,
+  "text_hash": "6fe922956f8f50e50e86b908f72b59ec28d8653f"
+ },
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] In your Mumbai home, the one who works hardest gets paid least.\nIt's the bai, not the driver.\n \n\n[slide 1] In your Mumbai home, the one who works hardest gets paid least.\nIt's the bai, not the driver.\n\n[slide 2] Look at your own building.\nYour driver drops you to office, waits in the car, and brings you home.\nYour bai cooks, sweeps and washes across three or four homes, seven days a week.\n\n[slide 3] Yet he earns more.\nAnd at Diwali, when you give both a month's salary as a bonus, his bonus is bigger too.\n\n[slide 4] It isn't the work. It's who does it.\nDriving is a man's job, so you pay it like one.\nCooking and cleaning are what your mother did for nothing. So when a woman does them for money, the price starts low.\n\n[slide 5] Listen to how you talk about it.\nNobody says \"just driving\". Everyone says \"just jhadu-pocha\".\n\n[slide 6] And when he takes leave, you book an Uber.\nWhen she takes leave, the whole house stops.\n\n[slide 7] One of them has a job.\nThe other one runs yours, for less.\n\n[end card] \nSend this to the friend in Mumbai who haggles with the bai and never with the driver.\n\n[caption] Household staff pay in Mumbai: the bai works harder than the driver and still gets paid less.\n\nDriving is paid like a job. Housework is priced like what your mother did for nothing.\n\nSend this to the friend in Mumbai who haggles with the bai and never with the driver.\n\n[alt text] A text post comparing what a Mumbai home gives its driver and its bai, and why the gap is about gender.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Mumbai households pay drivers more than bais for comparable or greater work because driving is socially coded as a man's paid job while cooking and cleaning are coded as unpaid work traditionally done by mothers, so the market price for domestic work starts lower regardless of effort.",
+     "sentence": "It's the bai, not the driver. ... Yet he earns more. ... Driving is a man's job, so you pay it like one. Cooking and cleaning are what your mother did for nothing. So when a woman does them for money, the price starts low.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "In Mumbai households that give both staff a month's salary as a Diwali bonus, the driver's bonus is larger than the bai's.",
+     "sentence": "And at Diwali, when you give both a month's salary as a bonus, his bonus is bigger too.",
+     "type": "figure",
+     "core": false,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "In Mumbai households that give both staff a month's salary as a Diwali bonus, the driver's bonus is larger than the bai's.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": null,
+   "correct": null,
+   "sources": [
+    {
+     "url": "https://www.indiatvnews.com/news/india-maids-worst-paid-in-india-among-domestic-help-drivers-top-list-survey-327495",
+     "publisher": "India TV News",
+     "published_date": null,
+     "quote": "Drivers are the best paid among all house helps across India, ranging between Rs 9,500 in Ahmedabad to Rs 13,000 in Mumbai, which is almost double the amount a maid makes every month",
+     "tier": 2
+    },
+    {
+     "url": "https://sevetu.com/guides/diwali-bonus-for-house-help/",
+     "publisher": "Sevetu",
+     "published_date": null,
+     "quote": "In Mumbai, it is a standard practice to give an annual bonus equivalent to one month's salary during Diwali time",
+     "tier": 3
+    }
+   ]
+  },
+  "_skeptic": {
+   "bfb3442635758284cb3a2464f6b3705568f59655": {
+    "holds": true,
+    "broken_premise": "",
+    "actual_mechanism": "Within one Mumbai household a full-time driver (roughly ₹18,000–30,000/month, averaging about ₹19,000) is paid more per home than a part-time bai (about ₹3,500–9,000/home), so the per-household gap the post describes is real. But the price difference is set substantially by labour structure, not only gender: a driver is exclusive to one employer for the whole day (full opportunity cost, licence, legal liability on the road), while cooking-cleaning is divisible, so the bai sells fractions of her day to 3–4 homes and each home pays only for its slice — across all her homes her aggregate earnings often match or beat a single driver's. The gendered devaluation of care work the post reads into this is a documented and defensible interpretation layered on top of that structural mechanism, not a falsifiable factual claim.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://in.indeed.com/career/driver/salaries/Mumbai--Maharashtra",
+      "published_date": "2026",
+      "quote": "The average salary for a driver is ₹18,957 per month in Mumbai, Maharashtra."
+     },
+     {
+      "url": "https://trustedmaid.in/mumbai-maid-and-cook-salary-guide-2026",
+      "published_date": "2026",
+      "quote": "Part-time maids working 1–4 hours daily earn ₹3,500 to ₹7,000 per month, while full-time maids working 8 hours earn ₹10,000 to ₹14,000."
+     },
+     {
+      "url": "https://staffaround.com/blog/maid-salary-guide-india-2026/",
+      "published_date": "2026",
+      "quote": "City-wise rates for maids, cooks, nannies & drivers show full-time drivers in metros like Mumbai earning ₹18,000–₹30,000, above typical part-time maid wages."
+     }
+    ]
+   }
+  },
+  "_skeptic_take": {
+   "846c341b46b6b9e95d540cfd6bf4947a5aa2e2b5": {
+    "holds": true,
+    "broken_premise": "",
+    "actual_mechanism": "Within one Mumbai household a full-time driver (roughly ₹18,000–30,000/month, averaging about ₹19,000) is paid more per home than a part-time bai (about ₹3,500–9,000/home), so the per-household gap the post describes is real. But the price difference is set substantially by labour structure, not only gender: a driver is exclusive to one employer for the whole day (full opportunity cost, licence, legal liability on the road), while cooking-cleaning is divisible, so the bai sells fractions of her day to 3–4 homes and each home pays only for its slice — across all her homes her aggregate earnings often match or beat a single driver's. The gendered devaluation of care work the post reads into this is a documented and defensible interpretation layered on top of that structural mechanism, not a falsifiable factual claim.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://in.indeed.com/career/driver/salaries/Mumbai--Maharashtra",
+      "published_date": "2026",
+      "quote": "The average salary for a driver is ₹18,957 per month in Mumbai, Maharashtra."
+     },
+     {
+      "url": "https://trustedmaid.in/mumbai-maid-and-cook-salary-guide-2026",
+      "published_date": "2026",
+      "quote": "Part-time maids working 1–4 hours daily earn ₹3,500 to ₹7,000 per month, while full-time maids working 8 hours earn ₹10,000 to ₹14,000."
+     },
+     {
+      "url": "https://staffaround.com/blog/maid-salary-guide-india-2026/",
+      "published_date": "2026",
+      "quote": "City-wise rates for maids, cooks, nannies & drivers show full-time drivers in metros like Mumbai earning ₹18,000–₹30,000, above typical part-time maid wages."
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "6fe922956f8f50e50e86b908f72b59ec28d8653f": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "core_cut": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Mumbai households pay drivers more than bais for comparable or greater work because driving is socially coded as a man's paid job while cooking and cleaning are coded as unpaid work traditionally done by mothers, so the market price for domestic work starts lower regardless of effort.",
+      "sentence": "It's the bai, not the driver. ... Yet he earns more. ... Driving is a man's job, so you pay it like one. Cooking and cleaning are what your mother did for nothing. So when a woman does them for money, the price starts low.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "In Mumbai households that give both staff a month's salary as a Diwali bonus, the driver's bonus is larger than the bai's.",
+      "sentence": "And at Diwali, when you give both a month's salary as a bonus, his bonus is bigger too.",
+      "type": "figure",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": null,
+      "correct": null,
+      "sources": [
+       {
+        "url": "https://www.indiatvnews.com/news/india-maids-worst-paid-in-india-among-domestic-help-drivers-top-list-survey-327495",
+        "publisher": "India TV News",
+        "published_date": null,
+        "quote": "Drivers are the best paid among all house helps across India, ranging between Rs 9,500 in Ahmedabad to Rs 13,000 in Mumbai, which is almost double the amount a maid makes every month",
+        "tier": 2
+       },
+       {
+        "url": "https://sevetu.com/guides/diwali-bonus-for-house-help/",
+        "publisher": "Sevetu",
+        "published_date": null,
+        "quote": "In Mumbai, it is a standard practice to give an annual bonus equivalent to one month's salary during Diwali time",
+        "tier": 3
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "",
+     "actual_mechanism": "Within one Mumbai household a full-time driver (roughly ₹18,000–30,000/month, averaging about ₹19,000) is paid more per home than a part-time bai (about ₹3,500–9,000/home), so the per-household gap the post describes is real. But the price difference is set substantially by labour structure, not only gender: a driver is exclusive to one employer for the whole day (full opportunity cost, licence, legal liability on the road), while cooking-cleaning is divisible, so the bai sells fractions of her day to 3–4 homes and each home pays only for its slice — across all her homes her aggregate earnings often match or beat a single driver's. The gendered devaluation of care work the post reads into this is a documented and defensible interpretation layered on top of that structural mechanism, not a falsifiable factual claim.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://in.indeed.com/career/driver/salaries/Mumbai--Maharashtra",
+       "published_date": "2026",
+       "quote": "The average salary for a driver is ₹18,957 per month in Mumbai, Maharashtra."
+      },
+      {
+       "url": "https://trustedmaid.in/mumbai-maid-and-cook-salary-guide-2026",
+       "published_date": "2026",
+       "quote": "Part-time maids working 1–4 hours daily earn ₹3,500 to ₹7,000 per month, while full-time maids working 8 hours earn ₹10,000 to ₹14,000."
+      },
+      {
+       "url": "https://staffaround.com/blog/maid-salary-guide-india-2026/",
+       "published_date": "2026",
+       "quote": "City-wise rates for maids, cooks, nannies & drivers show full-time drivers in metros like Mumbai earning ₹18,000–₹30,000, above typical part-time maid wages."
+      }
+     ]
+    },
+    "text_hash": "6fe922956f8f50e50e86b908f72b59ec28d8653f",
+    "at": "2026-11-17T11:56:34.229977+00:00"
+   }
+  }
+ }
+}
