@@ -1,0 +1,95 @@
+{
+ "id": "2026-12-01",
+ "status": "planned",
+ "due": "2026-12-01T20:30:00+05:30",
+ "format": "carousel",
+ "topic": {
+  "title": "The tip button that was never a fast lane",
+  "claim": "The 'pay extra for a faster ride' button was never a fast lane, it was a way to make you feel the wait was your fault.",
+  "behaviour": "The app shows a tip or add-on prompt before the ride. You are standing in the heat watching the car search spin, and you tap it just in case.",
+  "mechanism": "A prompt that makes you feel you can buy speed earns more per ride, and the wait is already there to push you into it. Ola's own data showed requests with extra payments had lower acceptance rates, so the button did not do what it hinted at.",
+  "group": "Urban commuters who book cabs and autos on apps",
+  "territory": "business_brands",
+  "mood": "dark_pattern",
+  "format_name": "behind_the_brand",
+  "moment": "You are late, the app keeps searching, and the 'add Rs 30 to get a ride faster' button looks very tempting.",
+  "turn": {
+   "believed": "Paying a little extra moves you up the queue.",
+   "actually": "The button sold you a feeling of control, and the company's own numbers showed it did not speed anything up."
+  },
+  "feeling": "Cheated, and a bit foolish for tapping it",
+  "villain": "A pricing screen designed to monetise your impatience",
+  "story_type": "teaching",
+  "because": "The app earns more on every rider who pays to escape the wait. The wait itself is what makes the button work.",
+  "proof": [
+   {
+    "fact": "The Central Consumer Protection Authority fined Ola Rs 10 lakh and ordered it to stop its pre-ride tip or add-on feature. The regulator found the prompts misled riders into thinking that paying more would get them a ride faster, and Ola's own data showed that requests with extra payments had lower acceptance rates.",
+    "source_url": "https://www.businesstoday.in/latest/corporate/story/ccpa-fines-ola-rs10-lakh-over-pre-ride-tipping-prompts-calls-practice-misleading-and-unfair-567481-2026-11-14",
+    "date": "2026-11-14"
+   },
+   {
+    "fact": "Karnataka's transport minister said app-based cabs, taxis and autorickshaws must use digital meters from the New Year, with the aim of curbing one-sided fare-setting by aggregators.",
+    "source_url": "https://menafn.com/1111968684/Digital-Metres-Mandatory-From-New-Year-Ktaka-Minister",
+    "date": "2026-11-16"
+   }
+  ],
+  "lived": false,
+  "payoff": "Next time an app offers to sell you speed, ask what it would have charged for the wait.",
+  "send_to": "The friend who always taps the extra-payment option when the cab search drags on",
+  "format_hint": "carousel",
+  "real_details": [
+   "Many riders have complained about these nudges.",
+   "Ola kept showing the prompts after a Road Transport Ministry clarification dated August 11.",
+   "One Chennai rider returned from Bangalore to find the app fare at about ₹301; the auto driver countered with 400 for a 22 km trip, and some drivers ask for ₹500.",
+   "A cab rider says the driver says nothing about money before pickup, then after the OTP asks for an extra ₹50, citing long distance or no return ride. The rider says it becomes an argument.",
+   "The same rider notes that if a driver doesn't ask for extra, they now volunteer to pay extra because those drivers feel like one of the few decent ones left.",
+   "Another poster says they have never seen an auto use a meter in Chennai, and that even a 2-3 km ride costs about ₹150."
+  ],
+  "evidence": [
+   {
+    "url": "https://www.businesstoday.in/latest/corporate/story/ccpa-fines-ola-rs10-lakh-over-pre-ride-tipping-prompts-calls-practice-misleading-and-unfair-567481-2026-11-14",
+    "sub": "news",
+    "rank": 2
+   },
+   {
+    "url": "https://menafn.com/1111968684/Digital-Metres-Mandatory-From-New-Year-Ktaka-Minister",
+    "sub": "news",
+    "rank": 20
+   },
+   {
+    "url": "https://www.reddit.com/r/Chennai/comments/1wxc5dt/sick_of_this_back_from_bangalore_and_immediately/",
+    "sub": "Chennai",
+    "rank": 5
+   },
+   {
+    "url": "https://www.reddit.com/r/Chennai/comments/1x9grot/latest_trick_by_cab_drivers/",
+    "sub": "Chennai",
+    "rank": 10
+   },
+   {
+    "url": "https://www.reddit.com/r/Chennai/comments/1xet647/will_they_finally_start_using_meter_or_is_it_just/",
+    "sub": "Chennai",
+    "rank": 24
+   }
+  ],
+  "news_peg": "On 14 November 2026 the CCPA fined Ola Rs 10 lakh over pre-ride tip prompts and called them a dark pattern.",
+  "why_now": "A regulator has now put a name to a trick many of us have paid for without knowing.",
+  "counterintuitive": true,
+  "needs_facts": false,
+  "id": "2026-11-191304-001",
+  "score": {
+   "rank": 2,
+   "why": "The 'pay extra for a faster ride' button sells a feeling of control, and the wait is what makes it work.",
+   "scores": {
+    "relatable": 5,
+    "fresh_angle": 4,
+    "shareable": 5,
+    "saveable": 4,
+    "because": 4
+   },
+   "format_fit": "carousel"
+  }
+ },
+ "history": [],
+ "updated_at": "2026-11-19T13:05:05.587951+00:00"
+}
