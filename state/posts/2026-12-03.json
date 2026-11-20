@@ -1,6 +1,6 @@
 {
  "id": "2026-12-03",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-12-03T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -71,6 +71,333 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-11-19T13:05:05.588392+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 3,
+     "tight": 3,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slides 6-7: Merge these into one slide. Slide 6 ('The dairies point to fodder, cattle feed and packaging costs. Those costs are real.') is only half a beat, and its why_swipe 'what happens next?' is weak. Keep the concession as one line, then go straight into the because: a cost rise lands hardest on the thing bought every morning with nothing to swap it for. Say it as his opinion about how pricing works, not as a plan the dairies made. The freed slide makes the post tighter.",
+     "slide 8: 'Buyers say the rate changes every few months, so last month's plan is already wrong.' The words 'Buyers say' read as a hedge, and they lean on real_details as if they were a fact about the world. Turn it into the reader's own scene instead, for example: 'You set the month's budget on the 1st. By the next revision, the milk line is already wrong.' Keep 'no sale to wait for, and no one to argue with', because that line carries the feeling.",
+     "last slide: 'Write down the five things you buy every week without comparing' reads like an instruction. Rewrite it as a test the reader runs in their head: 'Name the five things you buy every week without checking the price. Milk comes first.' Then end on the sting about the earbuds cart. Make that the only ending.",
+     "slide 4: 'Run it for a home that uses two litres a day' is maths scaffolding. Open on the household instead: 'Most homes go through two litres a day. ₹4 more on each is ₹240 a month, close to ₹3,000 a year.' Then the 'Once.' punch lands harder.",
+     "slide 2: 'And the packet still arrived next morning' only gives sight. Add one touch detail the reader knows, like the cold packet in the bag on the door handle. That makes the shrug feel physical, and it is the right place for the post's one non-visual detail."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "slides 6-7: Merge these into one slide. Slide 6 ('The dairies point to fodder, cattle feed and packaging costs. Those costs are real.') is only half a beat, and its why_swipe 'what happens next?' is weak. Keep the concession as one line, then go straight into the because: a cost rise lands hardest on the thing bought every morning with nothing to swap it for. Say it as his opinion about how pricing works, not as a plan the dairies made. The freed slide makes the post tighter.",
+    "slide 8: 'Buyers say the rate changes every few months, so last month's plan is already wrong.' The words 'Buyers say' read as a hedge, and they lean on real_details as if they were a fact about the world. Turn it into the reader's own scene instead, for example: 'You set the month's budget on the 1st. By the next revision, the milk line is already wrong.' Keep 'no sale to wait for, and no one to argue with', because that line carries the feeling.",
+    "last slide: 'Write down the five things you buy every week without comparing' reads like an instruction. Rewrite it as a test the reader runs in their head: 'Name the five things you buy every week without checking the price. Milk comes first.' Then end on the sting about the earbuds cart. Make that the only ending.",
+    "slide 4: 'Run it for a home that uses two litres a day' is maths scaffolding. Open on the household instead: 'Most homes go through two litres a day. ₹4 more on each is ₹240 a month, close to ₹3,000 a year.' Then the 'Once.' punch lands harder.",
+    "slide 2: 'And the packet still arrived next morning' only gives sight. Add one touch detail the reader knows, like the cold packet in the bag on the door handle. That makes the shrug feel physical, and it is the right place for the post's one non-visual detail."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [
+     "7. Dead slide, slide 6: 'The dairies point to fodder, cattle feed and packaging costs. Those costs are real.' This is still only half a beat, and its why_swipe is still 'what happens next?'. Last round's note to merge slides 6 and 7 was not applied."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 3,
+     "tight": 3,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slides 6-7: This is still unresolved from last round. Merge them into one slide. Open with the concession as a single line ('The dairies blame fodder, cattle feed and packaging. Fair.'). Then move straight into the because, as his opinion: 'But when costs go up, they land hardest on the thing bought every morning with nothing to swap it for.' Close the slide with the WhatsApp grumble and 'because the tea has to be made.' Give the new slide a why_swipe that pulls forward, such as 'Who feels it first?'. Drop the 'what happens next?' prompt.",
+     "slides 8-9: The line 'And there's no sale to wait for, and no one to argue with.' now sits alone as its own slide. Fold it back onto the end of slide 8, straight after 'the milk line is already wrong.' It lands harder as the sting on the budget scene, and it frees a second slide. The post then runs 8 slides, the same length as the benchmark.",
+     "slide 8: Its why_swipe 'what happens next?' is generic. Once slide 9's line is merged in, change it to something like 'So where is your month actually leaking?' so it hands off to the test on the last slide."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "7. Dead slide, slide 6: 'The dairies point to fodder, cattle feed and packaging costs. Those costs are real.' This is still only half a beat, and its why_swipe is still 'what happens next?'. Last round's note to merge slides 6 and 7 was not applied.",
+    "slides 6-7: This is still unresolved from last round. Merge them into one slide. Open with the concession as a single line ('The dairies blame fodder, cattle feed and packaging. Fair.'). Then move straight into the because, as his opinion: 'But when costs go up, they land hardest on the thing bought every morning with nothing to swap it for.' Close the slide with the WhatsApp grumble and 'because the tea has to be made.' Give the new slide a why_swipe that pulls forward, such as 'Who feels it first?'. Drop the 'what happens next?' prompt.",
+    "slides 8-9: The line 'And there's no sale to wait for, and no one to argue with.' now sits alone as its own slide. Fold it back onto the end of slide 8, straight after 'the milk line is already wrong.' It lands harder as the sting on the budget scene, and it frees a second slide. The post then runs 8 slides, the same length as the benchmark.",
+    "slide 8: Its why_swipe 'what happens next?' is generic. Once slide 9's line is merged in, change it to something like 'So where is your month actually leaking?' so it hands off to the test on the last slide."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [
+     "7. Dead slide, slide 6: 'The dairies blame fodder, cattle feed and packaging. Fair.' It still stands alone as half a beat, and its why_swipe is still 'what happens next?'. This is the third round the merge of slides 6 and 7 has been asked for and not applied."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slides 6-7: Merge these two into one slide. This is the only open note. Keep the opening line exactly as written now: 'The dairies blame fodder, cattle feed and packaging. Fair.' Then run slide 7's text straight after it on the same slide: 'But when costs go up, they land hardest on the thing bought every morning with nothing to swap it for. People grumble on the family WhatsApp group, then pay, because the tea has to be made.' Give the merged slide the why_swipe 'Who feels it first?'. Delete the 'what happens next?' prompt. The post then runs 8 slides.",
+     "slide 8: Settled. 'There's no sale to wait for, no one to argue with.' now closes the budget scene, and the why_swipe 'So where is your month actually leaking?' hands off to the test. Leave this slide as it is.",
+     "Everything else was accepted last round. Do not touch any other line while making the merge."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "7. Dead slide, slide 6: 'The dairies blame fodder, cattle feed and packaging. Fair.' It still stands alone as half a beat, and its why_swipe is still 'what happens next?'. This is the third round the merge of slides 6 and 7 has been asked for and not applied.",
+    "slides 6-7: Merge these two into one slide. This is the only open note. Keep the opening line exactly as written now: 'The dairies blame fodder, cattle feed and packaging. Fair.' Then run slide 7's text straight after it on the same slide: 'But when costs go up, they land hardest on the thing bought every morning with nothing to swap it for. People grumble on the family WhatsApp group, then pay, because the tea has to be made.' Give the merged slide the why_swipe 'Who feels it first?'. Delete the 'what happens next?' prompt. The post then runs 8 slides.",
+    "slide 8: Settled. 'There's no sale to wait for, no one to argue with.' now closes the budget scene, and the why_swipe 'So where is your month actually leaking?' hands off to the test. Leave this slide as it is.",
+    "Everything else was accepted last round. Do not touch any other line while making the merge."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [
+     "7. Dead slide, slide 6: 'The dairies blame fodder, cattle feed and packaging. Fair.' This draft did not apply the merge. The slide still stands alone as half a beat, and its why_swipe is still 'what happens next?'. This is the fourth round the merge of slides 6 and 7 has been asked for."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 3,
+     "tight": 3,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slides 6-7: This is the only open note, and it is still not applied. Make one slide out of two. Paste these exact words as the paragraphs of a single slide, in this order. Paragraph 1: 'The dairies blame fodder, cattle feed and packaging. Fair.' Paragraph 2: 'But when costs go up, they land hardest on the thing bought every morning with nothing to swap it for. People grumble on the family WhatsApp group, then pay, because the tea has to be made.' Set that slide's why_swipe to 'Who feels it first?'. Delete the separate slide that held only 'The dairies blame...' and delete the 'what happens next?' prompt. The slides array then has 8 entries: hook, Mother Dairy, earbuds, the sum, careful spenders, the merged slide, budget, test.",
+     "slide 7 (after the merge): Settled. Leave the budget slide word for word: 'There's no sale to wait for, no one to argue with.' still closes it, and its why_swipe 'So where is your month actually leaking?' stays.",
+     "All other slides: Accepted. Change no other word, line or why_swipe. The merge is the whole revision."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "7. Dead slide, slide 6: 'The dairies blame fodder, cattle feed and packaging. Fair.' This draft did not apply the merge. The slide still stands alone as half a beat, and its why_swipe is still 'what happens next?'. This is the fourth round the merge of slides 6 and 7 has been asked for.",
+    "slides 6-7: This is the only open note, and it is still not applied. Make one slide out of two. Paste these exact words as the paragraphs of a single slide, in this order. Paragraph 1: 'The dairies blame fodder, cattle feed and packaging. Fair.' Paragraph 2: 'But when costs go up, they land hardest on the thing bought every morning with nothing to swap it for. People grumble on the family WhatsApp group, then pay, because the tea has to be made.' Set that slide's why_swipe to 'Who feels it first?'. Delete the separate slide that held only 'The dairies blame...' and delete the 'what happens next?' prompt. The slides array then has 8 entries: hook, Mother Dairy, earbuds, the sum, careful spenders, the merged slide, budget, test.",
+    "slide 7 (after the merge): Settled. Leave the budget slide word for word: 'There's no sale to wait for, no one to argue with.' still closes it, and its why_swipe 'So where is your month actually leaking?' stays.",
+    "All other slides: Accepted. Change no other word, line or why_swipe. The merge is the whole revision."
+   ]
+  },
+  {
+   "attempt": 4,
+   "review": {
+    "pass": false,
+    "violations": [
+     "7. Dead slide, slide 6: 'The dairies blame fodder, cattle feed and packaging. Fair.' still stands alone as half a beat, with why_swipe 'what happens next?'. The merge with slide 7 was asked for in the last note and is still not applied. The slides array has 9 entries, not 8. This is the fifth round for the same fix."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slides 6-7: Make these two slides one. Paste these exact words as the paragraphs of a single slide, in this order. Paragraph 1: 'The dairies blame fodder, cattle feed and packaging. Fair.' Paragraph 2: 'But when costs go up, they land hardest on the thing bought every morning with nothing to swap it for. People grumble on the family WhatsApp group, then pay, because the tea has to be made.' Set that slide's why_swipe to 'Who feels it first?'. Then delete the separate slide that holds only 'The dairies blame...', and delete its why_swipe 'what happens next?'.",
+     "slides array: Once the merge is done, the array must have exactly 8 entries, in this order: hook, Mother Dairy, earbuds, the sum, careful spenders, the merged slide, budget, test. Count the entries before you return the draft.",
+     "slide 5's why_swipe: Leave 'Is the hike even unfair, then?' as it is. It now leads straight into the merged slide.",
+     "All other slides: These are accepted and settled. Change no other word, line or why_swipe, including the budget slide and the close. The merge is the whole revision; this draft passes as soon as it is applied."
+    ]
+   }
+  },
+  {
+   "attempt": 4,
+   "cut_slides": [
+    6
+   ],
+   "review": {
+    "pass": false,
+    "violations": [
+     "17 (the edit broke it), slide 6: 'But when costs go up, they land hardest on the thing bought every morning with nothing to swap it for.' The merge brought the slide count to 8, but it dropped paragraph 1 ('The dairies blame fodder, cattle feed and packaging. Fair.'). The slide now opens with 'But' against a point the reader was never shown. The post also loses its only named reason for the hike, the sourced fodder, feed and packaging costs, so the 'because' is left vague. The alt_text and the claims list both still describe a line the post no longer contains."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 3
+    },
+    "notes": [
+     "slide 6: Half of the merge note is applied. The structure is right (8 slides, the 'what happens next?' prompt is gone, why_swipe is 'Who feels it first?'), but paragraph 1 is missing. Add it back as the first paragraph of slide 6, word for word: 'The dairies blame fodder, cattle feed and packaging. Fair.' Keep the existing 'But when costs go up...' paragraph as paragraph 2, unchanged. This one-line insert is the whole fix. Without it, the 'But' has nothing to push past, and the reader never learns why the price moved.",
+     "All other slides: Settled and accepted, including slide 7 word for word and every why_swipe. Change nothing else."
+    ]
+   }
+  },
+  {
+   "attempt": 4,
+   "problems": [
+    "7. Dead slide, slide 6: 'The dairies blame fodder, cattle feed and packaging. Fair.' still stands alone as half a beat, with why_swipe 'what happens next?'. The merge with slide 7 was asked for in the last note and is still not applied. The slides array has 9 entries, not 8. This is the fifth round for the same fix.",
+    "slides 6-7: Make these two slides one. Paste these exact words as the paragraphs of a single slide, in this order. Paragraph 1: 'The dairies blame fodder, cattle feed and packaging. Fair.' Paragraph 2: 'But when costs go up, they land hardest on the thing bought every morning with nothing to swap it for. People grumble on the family WhatsApp group, then pay, because the tea has to be made.' Set that slide's why_swipe to 'Who feels it first?'. Then delete the separate slide that holds only 'The dairies blame...', and delete its why_swipe 'what happens next?'.",
+    "slides array: Once the merge is done, the array must have exactly 8 entries, in this order: hook, Mother Dairy, earbuds, the sum, careful spenders, the merged slide, budget, test. Count the entries before you return the draft.",
+    "slide 5's why_swipe: Leave 'Is the hike even unfair, then?' as it is. It now leads straight into the merged slide.",
+    "All other slides: These are accepted and settled. Change no other word, line or why_swipe, including the budget slide and the close. The merge is the whole revision; this draft passes as soon as it is applied."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-20T12:53:45.923027+00:00",
+ "sources": [
+  {
+   "url": "https://www.nationalheraldindia.com/national/amul-and-mother-dairy-raise-milk-prices-by-rs-24-per-litre-from-thursday",
+   "fact": "Amul and Mother Dairy raised liquid milk prices by Rs 2–4 per litre from 12 November 2026, citing higher fodder, cattle feed and packaging costs.",
+   "stance": "supports: the page gives the dairies' cost reasons (fodder, cattle feed ingredients, packaging film and fuel, uneven rainfall, higher payments to farmers). The fetched text did not mention transport, and it says nothing about consumers accepting the hike without resistance.",
+   "excerpt": "increased the prices of their liquid milk variants by Rs 2–4 per litre, effective 12 November. | green and dry fodder, cattle feed ingredients such as oil cake, maize and molasses | packaging film and fuel | low and uneven rainfall in Gujarat and several other parts of the country",
+   "date": "2026-11-11"
+  },
+  {
+   "url": "https://swarajyamag.com/economy/indias-retail-inflation-rises-to-609-per-cent-in-october-breaches-rbis-6-per-cent-upper-tolerance-limit-for-first-time-in-two-years",
+   "fact": "Retail inflation rose to 6.09% in October 2026 from 5.54% in September, with food inflation at 8.94%, according to government data released 12 November.",
+   "stance": "neutral: it confirms the inflation figure and the rise in food prices. It does not discuss milk pricing or the dairies' stated reasons. I could not read the MoSPI release itself, because the PDF came back as unreadable binary.",
+   "excerpt": "India's retail inflation surged to 6.09 per cent in October, up from 5.54 per cent in September. | Government data released today (12 November) confirmed the breach. | Food inflation accelerated sharply to 8.94 per cent in October from 7.74 per cent in September.",
+   "date": "2026-11-12"
+  }
+ ],
+ "verification_cache": {},
+ "draft": {
+  "cover": {
+   "headline": "We argue over every price except [the milk packet]",
+   "sub": "Which is exactly why milk can jump in one go."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "We fight over every price except milk. Which is why milk can jump in one go.\nSwipe →"
+    ],
+    "why_swipe": "Jump by how much, and why does nobody fight it?"
+   },
+   {
+    "paragraphs": [
+     "Mother Dairy's latest hike was ₹4 a litre in a single step. Delhi buyers remember when revisions came about ₹1 at a time.",
+     "A bigger jump. And next morning the cold packet was still hanging in the bag on the door handle."
+    ],
+    "why_swipe": "Why did nobody push back?"
+   },
+   {
+    "paragraphs": [
+     "You check Amazon, Flipkart and Croma to save ₹500 on earbuds. You read reviews, wait for the sale, add the bank-card offer.",
+     "The monthly milk bill gets paid in one tap. The rate on it goes unread."
+    ],
+    "why_swipe": "So which one actually cost more?"
+   },
+   {
+    "paragraphs": [
+     "A family of four easily goes through two litres a day. ₹4 more on each is ₹240 a month, close to ₹3,000 a year.",
+     "The earbuds saved you ₹500. Once."
+    ],
+    "why_swipe": "If we're such careful spenders, how did this slip past?"
+   },
+   {
+    "paragraphs": [
+     "We think we're careful spenders. We're careful only where we have options.",
+     "Earbuds come in fifty brands. The chai at home needs milk tomorrow, and the day after, and every day after that."
+    ],
+    "why_swipe": "Is the hike even unfair, then?"
+   },
+   {
+    "paragraphs": [
+     "The dairies blame fodder, cattle feed and packaging. Fair."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "But when costs go up, they land hardest on the thing bought every morning with nothing to swap it for. People grumble on the family WhatsApp group, then pay, because the tea has to be made."
+    ],
+    "why_swipe": "Who feels it first?"
+   },
+   {
+    "paragraphs": [
+     "If you run the house budget, you feel it before any headline does. You set the budget on the 1st. By the next revision, the milk line is already wrong. There's no sale to wait for, no one to argue with."
+    ],
+    "why_swipe": "So where is your month actually leaking?"
+   },
+   {
+    "paragraphs": [
+     "Name the five things you buy every week without checking the price. Milk comes first.",
+     "That list leaks more of your month than any earbuds cart ever saved."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Read it again the next time you open three apps for one gadget.",
+   "send": "Send to the friend who tracks every Swiggy coupon but never looks at the grocery bill.",
+   "promise": "How Indian money really moves."
+  },
+  "alt_text": "An eight-slide text post arguing that Indians compare prices hard on gadgets but never on milk, which lets a dairy raise milk by ₹4 a litre in one step. It works out that the hike costs a two-litre household about ₹240 a month, more than a one-time ₹500 saving on earbuds. It accepts the dairies' stated fodder, feed and packaging costs, argues that cost rises land hardest on daily items with no substitute, and ends by asking readers to name the five weekly items they buy without checking the price.",
+  "claims": [
+   {
+    "text": "Mother Dairy's latest hike was ₹4 a litre in a single step.",
+    "source_url": "https://www.thehansindia.com/news/cities/new-delhi/our-monthly-budget-hit-consumers-raise-concerns-over-milk-price-hike-1141317"
+   },
+   {
+    "text": "Delhi buyers remember earlier revisions coming about ₹1 at a time.",
+    "source_url": "https://www.thehansindia.com/news/cities/new-delhi/our-monthly-budget-hit-consumers-raise-concerns-over-milk-price-hike-1141317"
+   },
+   {
+    "text": "₹4 more on two litres a day is ₹240 a month, close to ₹3,000 a year.",
+    "source_url": "topic",
+    "derived_from": "₹4 x 2 litres x 30 days = ₹240 a month; ₹240 x 12 = ₹2,880 a year"
+   },
+   {
+    "text": "The dairies blame fodder, cattle feed and packaging costs.",
+    "source_url": "https://www.nationalheraldindia.com/national/amul-and-mother-dairy-raise-milk-prices-by-rs-24-per-litre-from-thursday"
+   }
+  ]
+ }
 }

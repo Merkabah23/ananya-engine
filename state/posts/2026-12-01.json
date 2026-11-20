@@ -1,6 +1,6 @@
 {
  "id": "2026-12-01",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-12-01T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -90,6 +90,429 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-11-19T13:05:05.587951+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slide 6: the 'because' (who gains) is the muddiest slide, and it opens by answering Ola's denial, which makes it read like a side argument. Lead with who gains instead, in plain words the sources support. You pay the ₹30, not Ola. A rider-funded top-up can make Ola more attractive to drivers, which is the CCPA's own point. Keep the strong last line ('the rider who tipped and still waited blames the traffic, not the button'). Ola's 'drivers get the full tip' can stay as a half-line concession inside that, not as the slide's opening beat.",
+     "slide 1 and slide 4: 'never got you one' and 'the ₹30 bought you nothing on the road' go further than the source. The source only says tipped requests had lower acceptance rates. The true version is also sharper, so use it. Slide 1: 'Ola's \"tip for a faster ride\" button didn't get you a faster ride. It made the wait feel like your fault.' Slide 4: 'On Ola's own numbers, the ₹30 didn't buy you a faster car. Tipped requests were accepted less often.' Then keep the line about the feeling that you'd done your part.",
+     "slide 5: 'A wait is the one moment you'll pay for anything that feels like control' overstates the point ('the one moment', 'anything'). Say it straight and smaller, for example: 'When you're stuck waiting, any button that feels like control is easy to press.' Also tie 'the delay is on you' to what the CCPA actually said, which is that the prompts played on fear. That keeps the confirm-shaming gloss sourced.",
+     "slide 3: 'This month' will date the post and makes the slide read like a news recap. Drop the time word: 'The consumer regulator, the CCPA, fined Ola ₹10 lakh and ordered it to stop these pre-ride tip prompts.' If the acceptance-rate fact moves to slide 4 (note 2), slide 3 keeps just this one fact, so facts stay in support of the take.",
+     "slide 7: the auto ₹50-after-OTP example is good texture, but it is a different situation: the driver is pressuring you, not a screen. Bridge it in one phrase so the link is the feeling and not the mechanism, for example 'Same reason you hand the auto driver an extra ₹50 after the OTP, just to skip the argument.' Keep 'When you're late, money feels cheaper than feeling helpless.' It is the line people will repeat."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 6",
+      "line": "But the regulator's point was that the feature could still help Ola, by making the app more attractive to drivers.",
+      "why": "Stiff, written legal paraphrase he'd never type",
+      "try": "The regulator didn't buy it. Drivers like an app where riders pay extra. So the tip still works for Ola."
+     },
+     {
+      "where": "slide 2",
+      "line": "You're already late. The screen keeps spinning on \"searching for a ride\" while you stand outside the office in the heat.",
+      "why": "Scene narration where he'd give commentary",
+      "try": "You're late. Ola's still \"searching for a ride\". Perfect moment for a sales pitch."
+     },
+     {
+      "where": "end.send",
+      "line": "Send to the friend who taps the extra-payment option the moment the cab search starts dragging.",
+      "why": "Stiff product-speak (\"extra-payment option\")",
+      "try": "Send to the friend who adds ₹30 the second the cab search starts spinning."
+     },
+     {
+      "where": "slide 7",
+      "line": "It's not stupidity. It's the same reason you pay the auto driver an extra ₹50 after the OTP, just to skip the argument.",
+      "why": "Defensive, slightly lecturing opener",
+      "try": "We all do this. It's the same extra ₹50 you hand the auto driver after the OTP, just to skip the argument."
+     }
+    ],
+    "best": "You paid ₹30 for that. The car still came when it came."
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Not Varun (slide 6): 'But the regulator's point was that the feature could still help Ola, by making the app more attractive to drivers.' reads as Stiff, written legal paraphrase he'd never type. Say it the way he would, e.g. 'The regulator didn't buy it. Drivers like an app where riders pay extra. So the tip still works for Ola.' (his register, your words, same facts).",
+    "Not Varun (slide 2): 'You're already late. The screen keeps spinning on \"searching for a ride\" while you stand outside the office in the heat.' reads as Scene narration where he'd give commentary. Say it the way he would, e.g. 'You're late. Ola's still \"searching for a ride\". Perfect moment for a sales pitch.' (his register, your words, same facts).",
+    "Not Varun (end.send): 'Send to the friend who taps the extra-payment option the moment the cab search starts dragging.' reads as Stiff product-speak (\"extra-payment option\"). Say it the way he would, e.g. 'Send to the friend who adds ₹30 the second the cab search starts spinning.' (his register, your words, same facts).",
+    "Not Varun (slide 7): 'It's not stupidity. It's the same reason you pay the auto driver an extra ₹50 after the OTP, just to skip the argument.' reads as Defensive, slightly lecturing opener. Say it the way he would, e.g. 'We all do this. It's the same extra ₹50 you hand the auto driver after the OTP, just to skip the argument.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slide 6: All four earlier notes are settled. Slide 2 is now commentary, slide 6 sounds like him, slide 7 opens with 'We all do this', and the send line uses ₹30. One fix remains on slide 6. 'So the tip still works for Ola.' is stronger than the source. The CCPA said the feature 'could' make the platform more attractive to drivers. Keep it his voice and keep it true, e.g. 'Drivers like an app where riders pay extra. That alone helps Ola.' Also make 'Drivers like an app' clearly the regulator's point, e.g. 'The regulator's answer: drivers like an app where riders pay extra.'",
+     "slide 5: Cutting 'standing outside the office in the heat' from slide 2 left the post with no detail beyond sight. If it fits, bring one back where the wait is named, e.g. 'A wait in the sun is the one moment you'll pay for anything that feels like control.' This is optional and should not be traded for anything already working."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "varun": {
+    "pass": true,
+    "score": 5,
+    "misses": [],
+    "best": "You paid ₹30 for that. The car still came when it came."
+   }
+  },
+  {
+   "attempt": 1,
+   "reader": {
+    "point": "Ola's pre-ride tip prompt made riders pay extra for a faster ride that it didn't actually deliver, playing on their impatience, and the regulator fined Ola for it.",
+    "reason": "Because when you're waiting and late, you'll pay for anything that feels like control, and the app puts the prompt right in that moment and hints the delay is your fault.",
+    "lost": [
+     {
+      "slide": 3,
+      "why": "CCPA appears suddenly with a fine; 'Ola's own data' claim comes from nowhere, unclear what 'accepted less often' means"
+     },
+     {
+      "slide": 5,
+      "why": "'confirm shaming' is a new term thrown in; had to re-read how skipping the tip hints blame"
+     },
+     {
+      "slide": 6,
+      "why": "jumps to Ola's defence and regulator's view; 'Drivers like an app where riders pay extra' unclear how that makes the tip work for Ola; rider blaming traffic is a confusing jump"
+     },
+     {
+      "slide": 7,
+      "why": "cab driver OTP ₹50 example comes from nowhere, a different situation from the app"
+     }
+    ],
+    "ideas": [
+     "Ola's tip prompt sold a feeling of control during the wait, not a faster ride, and got fined for it"
+    ],
+    "endings": 3,
+    "point_matches": false,
+    "reason_matches": false
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Unclear: a first-time reader took the point as 'Ola's pre-ride tip prompt made riders pay extra for a faster ride that it didn't actually deliver, playing on their impatience, and the regulator fined Ola for it.'. The cover and slide 2 must make the take obvious in plain words.",
+    "Unclear: a first-time reader took the reason as 'Because when you're waiting and late, you'll pay for anything that feels like control, and the app puts the prompt right in that moment and hints the delay is your fault.'. Say the because once, plainly, on one slide, from the reader's side of the screen.",
+    "Unclear (slide 3): a first-time reader got lost here: CCPA appears suddenly with a fine; 'Ola's own data' claim comes from nowhere, unclear what 'accepted less often' means. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 5): a first-time reader got lost here: 'confirm shaming' is a new term thrown in; had to re-read how skipping the tip hints blame. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 6): a first-time reader got lost here: jumps to Ola's defence and regulator's view; 'Drivers like an app where riders pay extra' unclear how that makes the tip work for Ola; rider blaming traffic is a confusing jump. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 7): a first-time reader got lost here: cab driver OTP ₹50 example comes from nowhere, a different situation from the app. Rewrite that slide so it follows from the one before, or cut it."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slide 6: \"Your panic, paid for by you, keeps drivers happy on Ola.\" states as fact what the regulator only said 'could' happen, and 'paid for by you' repeats 'your'. Keep it to the regulator's strength and make it tighter, e.g. \"Your panic pays the driver. Ola gets an app drivers would rather be on.\"",
+     "slide 5: \"Here's why it works.\" is stock scaffolding the edit brought in. Open straight on the scene instead: \"When you're late and staring at a spinning map, doing nothing feels worse than paying.\"",
+     "slide 1: the quote marks around \"tip for a faster ride\" make it read like Ola's exact button label, and it isn't. The real prompt was \"Adding a tip might help increase the chances of getting a ride faster.\" Drop the quote marks, e.g. \"Ola's tip-for-a-faster-ride button sold you a feeling…\", or quote the real line.",
+     "slide 2: every detail so far is something you see. Add one physical beat from the topic's own scene, e.g. \"You're late, standing in the heat. Ola is still 'searching for a ride'.\" That way the reader feels the wait before the pitch arrives."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 6",
+      "line": "The regulator said it could still help Ola, by making the app more attractive to drivers. Your panic, paid for by you, keeps drivers happy on Ola.",
+      "why": "stiff reported speech, clunky 'paid for by you'",
+      "try": "But the regulator said it could still help Ola. Drivers like an app where riders pay extra upfront. So you pay for your own panic, and Ola gets the happier drivers."
+     },
+     {
+      "where": "slide 3",
+      "line": "That came out this month, when the consumer regulator fined Ola ₹10 lakh and ordered the prompts stopped.",
+      "why": "stiff, written words ('ordered the prompts stopped')",
+      "try": "We know this because the consumer regulator just fined Ola ₹10 lakh for it. And told them to take the prompts down."
+     },
+     {
+      "where": "slide 1",
+      "line": "Ola's \"tip for a faster ride\" button sold you a feeling, and made the wait seem like your fault.",
+      "why": "two ideas crammed into one limp clause",
+      "try": "Ola's \"tip for a faster ride\" button never got you a faster ride. It sold you a feeling. And made the wait your fault."
+     },
+     {
+      "where": "end.save",
+      "line": "Open this again the next time a cab app offers to make your ride come quicker.",
+      "why": "awkward phrasing he'd never type",
+      "try": "Save this for the next time a cab app asks for ₹30 to hurry things up."
+     }
+    ],
+    "best": "You paid ₹30 for that. The car still came when it came."
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Not Varun (slide 6): 'The regulator said it could still help Ola, by making the app more attractive to drivers. Your panic, paid for by you, keeps drivers happy on Ola.' reads as stiff reported speech, clunky 'paid for by you'. Say it the way he would, e.g. 'But the regulator said it could still help Ola. Drivers like an app where riders pay extra upfront. So you pay for your own panic, and Ola gets the happier drivers.' (his register, your words, same facts).",
+    "Not Varun (slide 3): 'That came out this month, when the consumer regulator fined Ola ₹10 lakh and ordered the prompts stopped.' reads as stiff, written words ('ordered the prompts stopped'). Say it the way he would, e.g. 'We know this because the consumer regulator just fined Ola ₹10 lakh for it. And told them to take the prompts down.' (his register, your words, same facts).",
+    "Not Varun (slide 1): 'Ola's \"tip for a faster ride\" button sold you a feeling, and made the wait seem like your fault.' reads as two ideas crammed into one limp clause. Say it the way he would, e.g. 'Ola's \"tip for a faster ride\" button never got you a faster ride. It sold you a feeling. And made the wait your fault.' (his register, your words, same facts).",
+    "Not Varun (end.save): 'Open this again the next time a cab app offers to make your ride come quicker.' reads as awkward phrasing he'd never type. Say it the way he would, e.g. 'Save this for the next time a cab app asks for ₹30 to hurry things up.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "All four notes are settled. Slide 1 now has the turn plainly ('never got you there faster. It sold you a feeling'). Slide 4 reads the way he'd say it. Slide 7 uses the suggested wording with the same facts. The save line no longer sounds stiff.",
+     "slide 2: optional. Nothing in the post goes beyond what you see, and the topic already has the heat. Add one physical beat to the opening, for example 'You're late, standing in the heat. Ola is still \"searching for a ride\".' Keep the rest of the slide as it is."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "varun": {
+    "pass": true,
+    "score": 5,
+    "misses": [],
+    "best": "You paid ₹30 for that. The car still came when it came."
+   }
+  },
+  {
+   "attempt": 3,
+   "reader": {
+    "point": "Ola's paid 'quicker ride' tip didn't actually get you a ride faster; it just made you feel you'd done something, and a regulator fined Ola for it.",
+    "reason": "When you're late and anxious, doing something feels better than waiting, so the prompt exploits that panic (and hints the delay is your fault) while also helping Ola keep drivers happy.",
+    "lost": [
+     {
+      "slide": 4,
+      "why": "Regulator appears suddenly, unnamed; fine claim comes from nowhere after 'Ola's own numbers'"
+     },
+     {
+      "slide": 7,
+      "why": "Jump to 'Ola says driver keeps full tip' and regulator's view; unclear how this helps Ola, had to re-read"
+     },
+     {
+      "slide": 3,
+      "why": "'Ola's own numbers' never explained where they come from; slightly confusing comparison"
+     }
+    ],
+    "ideas": [
+     "The ₹30 'faster ride' tip doesn't actually speed up your ride",
+     "It works psychologically by exploiting your panic and guilt",
+     "Ola may still benefit through happier drivers even if the driver keeps the tip"
+    ],
+    "endings": 3,
+    "point_matches": false,
+    "reason_matches": false
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Unclear: a first-time reader took the point as 'Ola's paid 'quicker ride' tip didn't actually get you a ride faster; it just made you feel you'd done something, and a regulator fined Ola for it.'. The cover and slide 2 must make the take obvious in plain words.",
+    "Unclear: a first-time reader took the reason as 'When you're late and anxious, doing something feels better than waiting, so the prompt exploits that panic (and hints the delay is your fault) while also helping Ola keep drivers happy.'. Say the because once, plainly, on one slide, from the reader's side of the screen.",
+    "Unclear (slide 4): a first-time reader got lost here: Regulator appears suddenly, unnamed; fine claim comes from nowhere after 'Ola's own numbers'. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 7): a first-time reader got lost here: Jump to 'Ola says driver keeps full tip' and regulator's view; unclear how this helps Ola, had to re-read. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 3): a first-time reader got lost here: 'Ola's own numbers' never explained where they come from; slightly confusing comparison. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear: a first-time reader counted 3 separate ideas (The ₹30 'faster ride' tip doesn't actually speed up your ride; It works psychologically by exploiting your panic and guilt; Ola may still benefit through happier drivers even if the driver keeps the tip). Keep one idea and its reason; cut the side arguments."
+   ]
+  },
+  {
+   "attempt": 4,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 3,
+     "tight": 4,
+     "clear": 5,
+     "informative": 4
+    },
+    "notes": [
+     "All six earlier notes are settled. Slide 1 states the take plainly: \"never got you a faster ride. It just made the wait feel like your fault.\" Slide 5 says the reason once, from the reader's side of the screen. Slide 3 now names the regulator and the source of the numbers. The 'driver keeps the full tip' side argument is gone, so the post carries one idea.",
+     "Slide 3: in \"Ola's own booking data showed drivers accepted rides with extra money less often\", the source says only \"Ola's own data\". Change it to \"Ola's own data showed rides with extra money got accepted less often, not more\" so the wording matches the source and doesn't hint at detail it doesn't give.",
+     "Slide 2: every detail here is something you see on the screen. Add one physical beat from the topic's behaviour, for example \"You're late, standing in the heat, and Ola is still 'searching for a ride'.\" That lets the reader feel the wait before the pitch arrives.",
+     "Slide 3: \"This month\" will go stale as the post ages. If you keep a time marker, \"Last week\" or a plain \"Now\" is safer. Otherwise drop it, since the fine itself carries the beat."
+    ]
+   }
+  },
+  {
+   "attempt": 4,
+   "problems": [
+    "All six earlier notes are settled. Slide 1 states the take plainly: \"never got you a faster ride. It just made the wait feel like your fault.\" Slide 5 says the reason once, from the reader's side of the screen. Slide 3 now names the regulator and the source of the numbers. The 'driver keeps the full tip' side argument is gone, so the post carries one idea.",
+    "Slide 3: in \"Ola's own booking data showed drivers accepted rides with extra money less often\", the source says only \"Ola's own data\". Change it to \"Ola's own data showed rides with extra money got accepted less often, not more\" so the wording matches the source and doesn't hint at detail it doesn't give.",
+    "Slide 2: every detail here is something you see on the screen. Add one physical beat from the topic's behaviour, for example \"You're late, standing in the heat, and Ola is still 'searching for a ride'.\" That lets the reader feel the wait before the pitch arrives.",
+    "Slide 3: \"This month\" will go stale as the post ages. If you keep a time marker, \"Last week\" or a plain \"Now\" is safer. Otherwise drop it, since the fine itself carries the beat."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-20T12:53:45.822336+00:00",
+ "sources": [
+  {
+   "url": "https://indianstartupnews.com/news/ccpa-slaps-rs-10-lakh-fine-on-ola-for-pressuring-users-to-pay-extra-before-drivers-accept-bookings-12803441",
+   "fact": "The CCPA fined Ola (ANI Technologies) Rs 10 lakh by an order dated 10 November 2026. It classed the pre-ride tip/add-on prompts as the dark pattern 'confirm shaming'. Ola said drivers get the full amount, and the CCPA said the feature could still serve Ola's business interests.",
+   "stance": "Neutral to contradicting. The page backs the dark-pattern finding and the faster-ride nudge. It does not say the app earns more on each tip: Ola says drivers get the full amount, and the CCPA's point is only that the feature could make the platform more attractive to drivers and improve ride fulfilment. It says nothing about the wait being deliberately kept long. Ola's own June 2026 data showed add-on requests were accepted less often than others.",
+   "excerpt": "\"Adding a tip might help increase the chances of getting a ride faster.\" \"Improve your chances of quicker ride confirmation!\" The CCPA classed the design as \"confirm shaming\", a dark pattern banned under the Guidelines for Prevention and Regulation of Dark Patterns, 2023.",
+   "date": "2026-11-12"
+  },
+  {
+   "url": "https://thefederal.com/category/business/ccpa-fines-ola-rs-10-lakh-pre-ride-tip-feature-262817",
+   "fact": "The CCPA, as reported by PTI, fined Ola Rs 10 lakh and ordered it to stop pre-ride tip prompts. It said the prompts misled consumers, were an unfair trade practice and used a dark pattern that created fear ('confirm shaming').",
+   "stance": "Supports in part. It confirms that the prompt leaned on the wait and implied that paying would speed up the booking, and that it was a dark pattern. It does not say that Ola earns more per paying rider or that the wait was engineered. It does not say who receives the tip.",
+   "excerpt": "The order says the feature \"misled consumers, amounted to an unfair trade practice and employed a dark pattern\". One prompt read: \"Adding a tip might help increase the chances of getting a ride faster\". The CCPA said the prompts created a sense of fear and amounted to \"confirm shaming\".",
+   "date": "2026-11-13"
+  }
+ ],
+ "verification_cache": {},
+ "draft": {
+  "cover": {
+   "headline": "Ola's tip for a faster ride sold you [a feeling], not speed",
+   "sub": "You paid to escape the wait. The wait didn't move."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Ola's ₹30 \"faster ride\" tip never got you a faster ride. It just made the wait feel like your fault.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "If it didn't speed anything up, what was I paying for?"
+   },
+   {
+    "paragraphs": [
+     "You're late. Ola is still \"searching for a ride\". Which makes it the perfect moment for a sales pitch.",
+     "Then a line pops up: \"Improve your chances of quicker ride confirmation!\"",
+     "You add ₹30. Just in case."
+    ],
+    "why_swipe": "Did that ₹30 actually do anything?"
+   },
+   {
+    "paragraphs": [
+     "But did the ₹30 help? The Central Consumer Protection Authority says no. This month it fined Ola ₹10 lakh and ordered the prompts taken down.",
+     "Ola's own booking data showed drivers accepted rides with extra money less often, not more."
+    ],
+    "why_swipe": "So what was the ₹30 really buying?"
+   },
+   {
+    "paragraphs": [
+     "So the ₹30 bought you nothing on the road.",
+     "It bought you something on the screen: the feeling that you'd done your part."
+    ],
+    "why_swipe": "Why does that feeling work so well on us?"
+   },
+   {
+    "paragraphs": [
+     "When you're late and staring at a spinning map, doing nothing feels worse than paying. The button gives you something to do. Skip it, and the delay feels like your fault.",
+     "The regulator has a name for that: confirm shaming."
+    ],
+    "why_swipe": "So what is an app really selling when it sells speed?"
+   },
+   {
+    "paragraphs": [
+     "An app that sells you speed is pricing one thing: how badly you want the wait to end.",
+     "You paid ₹30 for that. The car still came when it came."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Read it again the next time a cab app asks for ₹30 to hurry things up.",
+   "send": "Send to the friend who adds ₹30 the second the cab search starts spinning.",
+   "promise": "How Indian apps really sell to you."
+  },
+  "alt_text": "A text post in six slides. It argues that Ola's pre-ride tip prompt, which hinted that paying extra would get you a faster ride, never sped anything up and only made riders feel the wait was their fault. The Central Consumer Protection Authority fined Ola ₹10 lakh and ordered the prompts taken down, and Ola's own booking data showed drivers accepted rides with extra money less often. The post explains that when you're late, paying feels better than doing nothing, and skipping the button makes the delay feel like your fault, which the regulator called confirm shaming. It ends by saying an app selling speed is pricing how badly you want the wait to end.",
+  "claims": [
+   {
+    "text": "The CCPA fined Ola ₹10 lakh and ordered it to stop its pre-ride tip or add-on prompts.",
+    "source_url": "https://www.businesstoday.in/latest/corporate/story/ccpa-fines-ola-rs10-lakh-over-pre-ride-tipping-prompts-calls-practice-misleading-and-unfair-567481-2026-11-14"
+   },
+   {
+    "text": "The fine was ordered this month (order dated 10 November 2026).",
+    "source_url": "https://indianstartupnews.com/news/ccpa-slaps-rs-10-lakh-fine-on-ola-for-pressuring-users-to-pay-extra-before-drivers-accept-bookings-12803441"
+   },
+   {
+    "text": "Ola's own data showed requests with extra payments had lower acceptance rates.",
+    "source_url": "https://www.businesstoday.in/latest/corporate/story/ccpa-fines-ola-rs10-lakh-over-pre-ride-tipping-prompts-calls-practice-misleading-and-unfair-567481-2026-11-14"
+   },
+   {
+    "text": "One prompt read \"Improve your chances of quicker ride confirmation!\"",
+    "source_url": "https://indianstartupnews.com/news/ccpa-slaps-rs-10-lakh-fine-on-ola-for-pressuring-users-to-pay-extra-before-drivers-accept-bookings-12803441"
+   },
+   {
+    "text": "The CCPA classed the prompts as the dark pattern 'confirm shaming'.",
+    "source_url": "https://thefederal.com/category/business/ccpa-fines-ola-rs-10-lakh-pre-ride-tip-feature-262817"
+   }
+  ]
+ }
 }
