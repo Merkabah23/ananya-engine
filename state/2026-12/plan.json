@@ -1,88 +1,85 @@
 [
  {
-  "due": "2026-12-01T20:30:00+05:30",
+  "due": "2026-12-22T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "The tip button that was never a fast lane",
-   "claim": "The 'pay extra for a faster ride' button was never a fast lane, it was a way to make you feel the wait was your fault.",
-   "behaviour": "The app shows a tip or add-on prompt before the ride. You are standing in the heat watching the car search spin, and you tap it just in case.",
-   "mechanism": "A prompt that makes you feel you can buy speed earns more per ride, and the wait is already there to push you into it. Ola's own data showed requests with extra payments had lower acceptance rates, so the button did not do what it hinted at.",
-   "group": "Urban commuters who book cabs and autos on apps",
-   "territory": "business_brands",
-   "mood": "dark_pattern",
-   "format_name": "behind_the_brand",
-   "moment": "You are late, the app keeps searching, and the 'add Rs 30 to get a ride faster' button looks very tempting.",
+   "title": "We fight the fees we can see",
+   "claim": "We spend ten minutes angry about a ₹15 platform fee and sign a loan with a ₹5,000 processing fee without reading the page.",
+   "moment": "You uninstall a food app over a new fee and then tick 'I agree' on a personal loan in thirty seconds.",
    "turn": {
-    "believed": "Paying a little extra moves you up the queue.",
-    "actually": "The button sold you a feeling of control, and the company's own numbers showed it did not speed anything up."
+    "believed": "We're careful about money.",
+    "actually": "We're careful about fees that show up on a screen we look at every day."
    },
-   "feeling": "Cheated, and a bit foolish for tapping it",
-   "villain": "A pricing screen designed to monetise your impatience",
-   "story_type": "teaching",
-   "because": "The app earns more on every rider who pays to escape the wait. The wait itself is what makes the button work.",
-   "proof": [
-    {
-     "fact": "The Central Consumer Protection Authority fined Ola Rs 10 lakh and ordered it to stop its pre-ride tip or add-on feature. The regulator found the prompts misled riders into thinking that paying more would get them a ride faster, and Ola's own data showed that requests with extra payments had lower acceptance rates.",
-     "source_url": "https://www.businesstoday.in/latest/corporate/story/ccpa-fines-ola-rs10-lakh-over-pre-ride-tipping-prompts-calls-practice-misleading-and-unfair-567481-2026-11-14",
-     "date": "2026-11-14"
-    },
-    {
-     "fact": "Karnataka's transport minister said app-based cabs, taxis and autorickshaws must use digital meters from the New Year, with the aim of curbing one-sided fare-setting by aggregators.",
-     "source_url": "https://menafn.com/1111968684/Digital-Metres-Mandatory-From-New-Year-Ktaka-Minister",
-     "date": "2026-11-16"
-    }
-   ],
+   "feeling": "Embarrassed, because I know exactly which fee I ignored.",
+   "villain": "Pricing that puts big costs in fine print and small costs on the checkout screen",
+   "story_type": "objection",
+   "because": "A small fee we see every day feels like an insult. A big fee we see once, in small type, doesn't feel like anything.",
+   "payoff": "The fee you complain about is rarely the fee that costs you the most.",
    "lived": false,
-   "payoff": "Next time an app offers to sell you speed, ask what it would have charged for the wait.",
-   "send_to": "The friend who always taps the extra-payment option when the cab search drags on",
+   "behaviour": "People rage about delivery and convenience fees but accept loan, insurance and card charges unread.",
+   "mechanism": "We react to what we can see often, not to what costs the most.",
+   "group": "Young earners with their first loans and cards",
+   "territory": "money_status",
+   "mood": "sharp",
+   "format_name": "price_tells",
+   "send_to": "The friend who switched apps over ₹10 and has never read their loan agreement.",
    "format_hint": "carousel",
-   "real_details": [
-    "Many riders have complained about these nudges.",
-    "Ola kept showing the prompts after a Road Transport Ministry clarification dated August 11.",
-    "One Chennai rider returned from Bangalore to find the app fare at about ₹301; the auto driver countered with 400 for a 22 km trip, and some drivers ask for ₹500.",
-    "A cab rider says the driver says nothing about money before pickup, then after the OTP asks for an extra ₹50, citing long distance or no return ride. The rider says it becomes an argument.",
-    "The same rider notes that if a driver doesn't ask for extra, they now volunteer to pay extra because those drivers feel like one of the few decent ones left.",
-    "Another poster says they have never seen an auto use a meter in Chennai, and that even a 2-3 km ride costs about ₹150."
-   ],
-   "evidence": [
-    {
-     "url": "https://www.businesstoday.in/latest/corporate/story/ccpa-fines-ola-rs10-lakh-over-pre-ride-tipping-prompts-calls-practice-misleading-and-unfair-567481-2026-11-14",
-     "sub": "news",
-     "rank": 2
-    },
-    {
-     "url": "https://menafn.com/1111968684/Digital-Metres-Mandatory-From-New-Year-Ktaka-Minister",
-     "sub": "news",
-     "rank": 20
-    },
-    {
-     "url": "https://www.reddit.com/r/Chennai/comments/1wxc5dt/sick_of_this_back_from_bangalore_and_immediately/",
-     "sub": "Chennai",
-     "rank": 5
-    },
-    {
-     "url": "https://www.reddit.com/r/Chennai/comments/1x9grot/latest_trick_by_cab_drivers/",
-     "sub": "Chennai",
-     "rank": 10
-    },
-    {
-     "url": "https://www.reddit.com/r/Chennai/comments/1xet647/will_they_finally_start_using_meter_or_is_it_just/",
-     "sub": "Chennai",
-     "rank": 24
-    }
-   ],
-   "news_peg": "On 14 November 2026 the CCPA fined Ola Rs 10 lakh over pre-ride tip prompts and called them a dark pattern.",
-   "why_now": "A regulator has now put a name to a trick many of us have paid for without knowing.",
-   "counterintuitive": true,
+   "why_now": "App fees are now a regular thing to be angry about, while loan fees still pass without notice.",
    "needs_facts": false,
-   "id": "2026-11-191304-001",
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-11-201209-039",
+   "score": {
+    "rank": 1,
+    "why": "We rage at a visible ₹15 fee and sign a loan's big fee unread; a problem the reader didn't know they had, and it stings.",
+    "scores": {
+     "relatable": 5,
+     "fresh_angle": 4,
+     "shareable": 5,
+     "saveable": 4,
+     "because": 5
+    },
+    "format_fit": "carousel"
+   }
+  }
+ },
+ {
+  "due": "2026-12-23T20:30:00+05:30",
+  "format": "carousel",
+  "topic": {
+   "title": "Moving back costs the second offer",
+   "claim": "Moving back to a tier-2 city saves you rent but quietly costs you something nobody counts: your next job offer.",
+   "moment": "You work remotely from your hometown, life is cheaper, and the recruiter calls stop.",
+   "turn": {
+    "believed": "Moving back is just a cost-of-living win.",
+    "actually": "Big cities pay you for the options you have, not just the job you hold."
+   },
+   "feeling": "Happier at home, and slowly afraid I've fallen off the map.",
+   "villain": "Job markets packed into a few metros",
+   "story_type": "vision",
+   "because": "Your salary rises when another company wants you. Fewer companies around you means fewer reasons for anyone to pay you more.",
+   "payoff": "Before you move, count how many companies within an hour of you would hire you tomorrow. That's what you're giving up.",
+   "lived": true,
+   "behaviour": "Professionals move home for remote roles and see their salary growth slow down.",
+   "mechanism": "Pay grows with competing offers, and offers live in metros.",
+   "group": "Remote and hybrid professionals weighing a move home",
+   "territory": "life_relationships",
+   "mood": "mixed",
+   "format_name": "family_ledger",
+   "send_to": "The friend who keeps saying 'I'll just work from home in my city'.",
+   "format_hint": "carousel",
+   "why_now": "Remote roles are shrinking while metro rents keep rising, and a lot of people are doing this maths right now.",
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-11-201209-042",
    "score": {
     "rank": 2,
-    "why": "The 'pay extra for a faster ride' button sells a feeling of control, and the wait is what makes it work.",
+    "why": "Going home looks like a cost win, but you give up the job options that push your salary up; mixed feelings, a real turn.",
     "scores": {
-     "relatable": 5,
-     "fresh_angle": 4,
-     "shareable": 5,
+     "relatable": 4,
+     "fresh_angle": 5,
+     "shareable": 4,
      "saveable": 4,
      "because": 4
     },
@@ -91,240 +88,41 @@
   }
  },
  {
-  "due": "2026-12-02T20:30:00+05:30",
+  "due": "2026-12-24T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "Fans grade players like an appraisal",
-   "claim": "We judge Rohit and Kohli the way offices judge people: the last bad quarter erases the record.",
-   "behaviour": "Three ducks in one innings and the timeline wants them retired. Two days later India win the series and the mood changes without anyone admitting it was an overreaction.",
-   "mechanism": "Online anger is cheap and instant, and it gets rewarded with replies. The latest result is the only data point that feels real, so it counts for everything.",
-   "group": "Cricket fans and office workers, 24 to 32",
-   "territory": "sports",
-   "mood": "funny",
-   "format_name": "saturday_single",
-   "moment": "You type 'should have retired' at 9 pm and quietly change your mind by Sunday.",
+   "title": "The hamper is a sales cost",
+   "claim": "The Diwali hamper that lands at your desk from a vendor isn't gratitude; it's next year's deal, gift-wrapped.",
+   "moment": "A dry-fruit box with a vendor's logo arrives the week before Diwali, addressed to whoever signs the purchase order.",
    "turn": {
-    "believed": "We judge players on their whole career.",
-    "actually": "We judge them on the last match, the same way an appraisal judges you on the last quarter."
+    "believed": "Corporate gifts are festive goodwill.",
+    "actually": "They're a sales budget line, sent to whoever decides the next contract."
    },
-   "feeling": "Seen, and slightly embarrassed",
-   "villain": "A feed that rewards the loudest reaction to the latest result",
-   "story_type": "objection",
-   "because": "Outrage gets engagement, and engagement is what the platforms and channels sell. Nobody earns anything from saying 'wait and see'.",
-   "proof": [
-    {
-     "fact": "India were 0/3 after the first over, with Rohit Sharma out on the first ball, Virat Kohli bowled for a four-ball duck and Shreyas Iyer out on the last ball. Fans said Rohit and Kohli should have retired three years ago, while many others still want the pair at the 2027 ODI World Cup.",
-     "source_url": "https://www.mykhel.com/cricket/ind-vs-nz-virat-rohit-retired-3-years-ago-coward-captain-shreyas-fans-grill-india-trio-duck-reaction-458861.html",
-     "date": "2026-11-13"
-    }
-   ],
-   "lived": false,
-   "payoff": "Test: would you give your own career the verdict you just gave Kohli on a bad day?",
-   "send_to": "The group-chat friend who declares a player finished after one bad innings.",
-   "format_hint": "single",
-   "real_details": [
-    "India won the fifth ODI by 22 runs to take the series 3-1, two days after the collapse in the fourth"
-   ],
-   "evidence": [
-    {
-     "url": "https://www.mykhel.com/cricket/ind-vs-nz-virat-rohit-retired-3-years-ago-coward-captain-shreyas-fans-grill-india-trio-duck-reaction-458861.html",
-     "sub": "trending",
-     "rank": 32
-    },
-    {
-     "url": "https://www.outlookindia.com/sports/cricket/india-vs-new-zealand-5th-odi-2026-bilateral-win-streak-end",
-     "sub": "news",
-     "rank": 36
-    }
-   ],
-   "news_peg": "India's top-order ducks in the 4th ODI on 2026-11-13 and the series win on 2026-11-15",
-   "why_now": "The whole swing from outrage to relief happened inside two days.",
-   "counterintuitive": false,
-   "needs_facts": false,
-   "id": "2026-11-191304-014",
-   "score": {
-    "rank": 15,
-    "why": "We judge a player on the last match the way an appraisal judges us on the last quarter; the verdict test turns it on the reader.",
-    "scores": {
-     "relatable": 4,
-     "fresh_angle": 4,
-     "shareable": 4,
-     "saveable": 2,
-     "because": 3
-    },
-    "format_fit": "single"
-   }
-  }
- },
- {
-  "due": "2026-12-03T20:30:00+05:30",
-  "format": "carousel",
-  "topic": {
-   "title": "Milk goes up in steps you will not fight",
-   "claim": "Milk is the one price you never argue about, which is exactly why it can go up Rs 4 in one step.",
-   "behaviour": "We spend weeks comparing a phone or a sale price. The litre of milk that arrives every morning gets a shrug and a paid-up monthly bill.",
-   "mechanism": "A daily purchase with no substitute gets no shopping around, so a price rise meets almost no resistance. People complain, then they pay, because the tea has to be made.",
-   "group": "Working households that run a monthly budget",
-   "territory": "money_status",
-   "mood": "sharp",
-   "format_name": "price_tells",
-   "moment": "You scroll through three sites to save Rs 500 on earphones, then pay the new milk price without reading the bill.",
-   "turn": {
-    "believed": "We are careful spenders who hunt for the best price.",
-    "actually": "We are careful only where there is a choice. Where there is none, the price just moves."
-   },
-   "feeling": "Quietly squeezed, with nobody to argue with",
-   "villain": "A pricing model that sets rises on the things you cannot skip",
+   "feeling": "Flattered, then aware I'm being worked on.",
+   "villain": "Business-to-business sales that run on relationships",
    "story_type": "teaching",
-   "because": "Dairies cite higher costs for fodder, cattle feed, packaging and transport. A product bought every single day passes those costs on with the least resistance.",
-   "proof": [
-    {
-     "fact": "Amul and Mother Dairy raised liquid milk prices by Rs 2 to 4 per litre, and Mother Dairy's hike was Rs 4 in a single step. Delhi consumers said earlier revisions were about Re 1 at a time.",
-     "source_url": "https://www.thehansindia.com/news/cities/new-delhi/our-monthly-budget-hit-consumers-raise-concerns-over-milk-price-hike-1141317",
-     "date": "2026-11-12"
-    },
-    {
-     "fact": "October retail inflation was 6.09%, up from 5.5% in September, and food inflation was 8.94%.",
-     "source_url": "https://www.downtoearth.org.in/economy/indias-retail-inflation-hits-two-year-high-of-609-as-food-prices-rise",
-     "date": "2026-11-13"
-    }
-   ],
+   "because": "In deals between companies, the person who decides is worth more than the price. A hamper is a cheap reminder of who remembered them.",
+   "payoff": "Notice who in your office gets the biggest box. That's who really decides what gets bought.",
    "lived": false,
-   "payoff": "Make a list of the five things you buy every week without comparing. That is where your budget actually leaks.",
-   "send_to": "The friend who tracks every Swiggy coupon but never looks at the grocery bill",
-   "format_hint": "single",
-   "real_details": [
-    "Consumers complained that prices are revised every few months, which makes monthly budgeting difficult.",
-    "Onions were ₹53.81 a kilo on 12 November against ₹26.91 a year earlier."
-   ],
-   "evidence": [
-    {
-     "url": "https://www.thehansindia.com/news/cities/new-delhi/our-monthly-budget-hit-consumers-raise-concerns-over-milk-price-hike-1141317",
-     "sub": "news",
-     "rank": 1
-    },
-    {
-     "url": "https://www.downtoearth.org.in/economy/indias-retail-inflation-hits-two-year-high-of-609-as-food-prices-rise",
-     "sub": "news",
-     "rank": 15
-    }
-   ],
-   "news_peg": "Amul and Mother Dairy raised milk prices from Thursday 12 November 2026, and retail inflation data released on 12 November showed 6.09% for October.",
-   "why_now": "Milk, onions and sugar all moved in the same month, and the budget feels it before the headline does.",
-   "counterintuitive": true,
+   "behaviour": "Vendors send festive gifts mostly to procurement and decision-makers.",
+   "mechanism": "Goodwill with the person who signs is cheaper than winning on price.",
+   "group": "Office workers in mid-size and large companies",
+   "territory": "business_brands",
+   "mood": "funny",
+   "format_name": "behind_the_brand",
+   "send_to": "The colleague whose desk turned into a dry-fruit shop this Diwali.",
+   "format_hint": "carousel",
+   "why_now": "Diwali hampers have just done their rounds, so everyone has a fresh example.",
    "needs_facts": false,
-   "id": "2026-11-191304-002",
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-11-201209-044",
    "score": {
     "rank": 3,
-    "why": "We hunt for a Rs 500 saving on earphones and never question the milk bill; the list of things you never compare is a good test.",
+    "why": "The vendor's Diwali hamper is next year's deal in gift wrap; funny, a desk everyone has seen, and a hidden motive.",
     "scores": {
-     "relatable": 5,
+     "relatable": 4,
      "fresh_angle": 4,
-     "shareable": 4,
-     "saveable": 4,
-     "because": 4
-    },
-    "format_fit": "single"
-   }
-  }
- },
- {
-  "due": "2026-12-07T20:30:00+05:30",
-  "format": "carousel",
-  "topic": {
-   "title": "The ₹20 crore player can't have a bad day",
-   "claim": "The IPL auction turned fans into owners; we don't judge a player by his form anymore, we judge him by his price tag.",
-   "moment": "A big-ticket buy gets out for 12 off 15 balls and the comments read 'crores le liye'; an uncapped kid does the same and gets a heart emoji.",
-   "turn": {
-    "believed": "Fans react to how a player performs.",
-    "actually": "Fans react to how he performs against what he cost, because the auction made the price the first thing we learn about him."
-   },
-   "feeling": "I'm angry at a player as if it was my money.",
-   "villain": "An auction broadcast as a show where price becomes the headline",
-   "story_type": "objection",
-   "because": "The auction is televised and the price sticks to a player all season. Every innings becomes a test of 'was he worth it'.",
-   "payoff": "Test: remember a player's last score or his auction price. Most of us remember the price.",
-   "lived": false,
-   "behaviour": "Fans and memes mock costly players after one bad game and celebrate cheap ones for the same output.",
-   "mechanism": "The price is the first fact we hear, so it becomes the lens for everything after.",
-   "group": "Cricket fans who follow the IPL",
-   "territory": "sports",
-   "mood": "sharp",
-   "format_name": "feed_anthropology",
-   "send_to": "The friend who called a player 'overpriced' after his first match.",
-   "format_hint": "carousel",
-   "why_now": "Auction talk starts before every IPL season and prices become the story again.",
-   "needs_facts": false,
-   "news_peg": null,
-   "evidence": [],
-   "id": "2026-11-191304-039",
-   "score": {
-    "rank": 6,
-    "why": "Fans judge a player against his price tag, not his form; it's a shareable argument for any IPL group chat.",
-    "scores": {
-     "relatable": 4,
-     "fresh_angle": 5,
-     "shareable": 4,
-     "saveable": 3,
-     "because": 4
-    },
-    "format_fit": "carousel"
-   }
-  }
- },
- {
-  "due": "2026-12-08T20:30:00+05:30",
-  "format": "carousel",
-  "topic": {
-   "title": "Your friend's recommendation now has a tracking link",
-   "claim": "Instagram now lets creators attach trackable Flipkart and Myntra links to everything, so a 'try this' from someone you follow may be a sales link first.",
-   "behaviour": "A creator mentions a kurta, a serum or a gadget in a Reel and the link sits in the Story, the DM and the bio. You can't tell which recommendations came before the link.",
-   "mechanism": "Flipkart and Myntra get sales and creators get a cut of them. Instagram says it takes no cut, but it gains by keeping the whole shopping trip inside its app.",
-   "group": "Instagram users 24 to 32 who buy things after seeing a Reel",
-   "territory": "creators_internet",
-   "mood": "dark_pattern",
-   "format_name": "feed_anthropology",
-   "moment": "You watch a Reel, think 'okay she genuinely likes this', and the link is already under the video.",
-   "turn": {
-    "believed": "A creator's 'I swear by this' is a friend's honest opinion.",
-    "actually": "It is an honest opinion sitting next to a till. Over time, products that pay the creator get talked about more than products that don't."
-   },
-   "feeling": "Slightly cheated, and not sure which of your own wishlist items you chose yourself.",
-   "villain": "A platform design that turns every recommendation into a trackable sale",
-   "story_type": "teaching",
-   "because": "Platforms and shopping apps earn when recommendation and purchase happen in one tap. A creator's trust is the cheapest ad space there is.",
-   "proof": [
-    {
-     "fact": "Creators can add trackable affiliate product links to Reels, posts, Stories, DMs and bios, and Instagram says it takes no cut. In India the partners are Flipkart and Myntra.",
-     "source_url": "https://www.etvbharat.com/en/technology/instagram-story-edit-amazon-affiliate-links-adam-mosseri-meta-enn26111903329",
-     "date": "2026-11-19"
-    }
-   ],
-   "lived": false,
-   "payoff": "Test: ask whether the creator ever praised a product that had no link.",
-   "send_to": "The friend who bought three things 'because she recommended it'.",
-   "format_hint": "carousel",
-   "real_details": [
-    "Creators must be 18 or older, have a public professional account, live in India and have more than 2,000 followers."
-   ],
-   "evidence": [
-    {
-     "url": "https://www.etvbharat.com/en/technology/instagram-story-edit-amazon-affiliate-links-adam-mosseri-meta-enn26111903329",
-     "sub": "news",
-     "rank": 53
-    }
-   ],
-   "news_peg": "Instagram rolled out affiliate links with Flipkart and Myntra for Indian creators, reported November 19, 2026.",
-   "why_now": "The feature is rolling out now, just before the festive and wedding shopping season.",
-   "counterintuitive": false,
-   "needs_facts": false,
-   "id": "2026-11-191304-020",
-   "score": {
-    "rank": 5,
-    "why": "An honest opinion sitting next to a till; the 'ever praised something with no link' test is easy to run.",
-    "scores": {
-     "relatable": 4,
-     "fresh_angle": 5,
      "shareable": 5,
      "saveable": 3,
      "because": 4
@@ -334,531 +132,68 @@
   }
  },
  {
-  "due": "2026-12-09T20:30:00+05:30",
+  "due": "2026-12-25T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "Spotify sells the book you mean to finish",
-   "claim": "Rs 199 for 15 hours a month is not a book plan, it is a subscription to the person you plan to become.",
-   "behaviour": "People pay for audiobooks and fitness apps with the picture of a calmer, better-read self, then use them for a week.",
-   "mechanism": "A monthly cap on hours sells a promise of progress, and a lapsed habit still bills monthly. A music plan that excludes audiobook hours also nudges the paid add-on.",
-   "group": "Spotify users and the person who buys a self-improvement subscription every January",
-   "territory": "business_brands",
-   "mood": "funny",
-   "format_name": "behind_the_brand",
-   "moment": "You hit 'subscribe' on audiobooks during a long commute, sure you will finish three books by December.",
-   "turn": {
-    "believed": "You are paying for convenience.",
-    "actually": "You are paying for an identity, and the hour cap makes you feel you have to earn it."
-   },
-   "feeling": "Guilty about every unlistened hour",
-   "villain": "A subscription model built on good intentions",
-   "story_type": "objection",
-   "because": "The company earns monthly whether you listen or not. Adding audiobooks as a separate paid layer also lifts what each user pays.",
-   "proof": [
-    {
-     "fact": "Spotify launched audiobooks in India with an Audiobooks+ plan at Rs 199 a month. The plan gives 15 listening hours a month, and a music Premium plan does not include audiobook hours.",
-     "source_url": "https://www.deccanchronicle.com/amp/technology/spotify-expands-audio-offering-beyond-music-and-podcasts-2003791",
-     "date": "2026-11-12"
-    }
-   ],
-   "lived": false,
-   "payoff": "Check how many hours you used last month. That is what you actually paid per hour.",
-   "send_to": "The friend whose reading list is longer than their reading time",
-   "format_hint": "single",
-   "real_details": [
-    "Users can top up hours or buy individual titles.",
-    "The launch catalogue has more than 350,000 English titles and almost 7,000 Indian-language audiobooks."
-   ],
-   "evidence": [
-    {
-     "url": "https://www.deccanchronicle.com/amp/technology/spotify-expands-audio-offering-beyond-music-and-podcasts-2003791",
-     "sub": "news",
-     "rank": 3
-    }
-   ],
-   "news_peg": "Spotify launched audiobooks in India on 12 November 2026 as a Rs 199-a-month paid add-on.",
-   "why_now": "A new paid add-on just landed on a plan most of us already pay for.",
-   "counterintuitive": false,
-   "needs_facts": false,
-   "id": "2026-11-191304-008",
-   "score": {
-    "rank": 11,
-    "why": "The audiobook plan is a subscription to the person you plan to become, with a dry laugh of guilt.",
-    "scores": {
-     "relatable": 4,
-     "fresh_angle": 4,
-     "shareable": 4,
-     "saveable": 3,
-     "because": 3
-    },
-    "format_fit": "single"
-   }
-  }
- },
- {
-  "due": "2026-12-10T20:30:00+05:30",
-  "format": "carousel",
-  "topic": {
-   "title": "The bank sold you the EMI, not the flat",
-   "claim": "A 25-year home loan doesn't make the flat affordable; it makes the EMI affordable, and that is the only number anyone shows you.",
-   "moment": "The builder's sales person punches numbers into a calculator and says 'sirf ₹48,000 a month'.",
-   "turn": {
-    "believed": "A longer loan is a relief because the monthly payment is smaller.",
-    "actually": "The longer tenure keeps the price high and you pay a big chunk more in interest over the years."
-   },
-   "feeling": "I'll be paying for this flat till I'm almost retired.",
-   "villain": "Loan tenures stretched to fit high property prices",
-   "story_type": "teaching",
-   "because": "Builders and banks both win when the conversation is about the monthly figure. The total cost is hidden behind a smaller, friendlier number.",
-   "payoff": "Ask for the total you will pay over the loan, not the EMI. Then decide.",
-   "lived": false,
-   "behaviour": "Buyers pick the longest tenure to fit EMI within salary; sellers pitch only the EMI.",
-   "mechanism": "A smaller monthly number makes a high total price easy to say yes to.",
-   "group": "First-time homebuyers in their late 20s and early 30s",
+   "title": "The phone shop sells you the EMI, not the phone",
+   "claim": "When phone prices jump, the real gatekeeper is not the price tag but the loan approval at the counter.",
+   "behaviour": "Buyers walk in with a budget, get pointed to an EMI scheme, and leave with a cheaper brand, a refurbished phone or nothing. Total sales value stays flat while fewer phones leave the shop.",
+   "mechanism": "When components cost more, sellers keep the sales value up by raising prices, and the shopper's real filter becomes credit. Tighter loan checks decide who goes home with a phone.",
+   "group": "Young salaried buyers upgrading a phone on instalments",
    "territory": "money_status",
    "mood": "sharp",
    "format_name": "price_tells",
-   "send_to": "The couple currently visiting sample flats on weekends.",
+   "moment": "You pick the phone, the shopkeeper says 'EMI ho jayegi', and then the approval does not come through.",
+   "turn": {
+    "believed": "A phone is expensive, so you save up and buy it.",
+    "actually": "Most phones are bought on credit, so whether the lender says yes matters as much as the price."
+   },
+   "feeling": "behind, as if you are being judged at the counter",
+   "villain": "A retail model that depends on instalment credit and tight underwriting",
+   "story_type": "teaching",
+   "because": "Rising memory costs push prices up and shops lean on loans to close sales. When lenders tighten, the shop loses the buyer and the buyer loses the phone.",
+   "proof": [
+    {
+     "fact": "Offline phone volumes fell 18-20% from Dhanteras (6 Nov) to the day after Diwali, while sales value stayed broadly flat because prices rose.",
+     "source_url": "https://inc42.com/buzz/retail-smartphone-sales-tanked-20-in-2026-diwali-season-aimra/",
+     "date": "2026-11-11"
+    },
+    {
+     "fact": "Retailers said only 60-70% of logged loan applications were approved.",
+     "source_url": "https://inc42.com/buzz/retail-smartphone-sales-tanked-20-in-2026-diwali-season-aimra/",
+     "date": "2026-11-11"
+    }
+   ],
+   "lived": false,
+   "payoff": "Ask the shop for the full price instead of the monthly number. That is the phone you can actually afford.",
+   "send_to": "The friend who has changed phones twice on EMI and never knew the total",
    "format_hint": "carousel",
-   "why_now": "Flat prices keep rising, so tenures get longer to keep the EMI looking fine.",
-   "needs_facts": "A simple worked example: total interest paid on a typical home loan at current rates over 20 vs 25 years.",
-   "news_peg": null,
-   "evidence": [],
-   "id": "2026-11-191304-043",
+   "real_details": [
+    "Value-conscious buyers moved to HMD, Lava, Ai+, Tecno and itel, or to pre-owned and refurbished phones"
+   ],
+   "evidence": [
+    {
+     "url": "https://inc42.com/buzz/retail-smartphone-sales-tanked-20-in-2026-diwali-season-aimra/",
+     "sub": "news",
+     "rank": 8
+    }
+   ],
+   "news_peg": "AIMRA said retail smartphone volumes fell 18-20% across Diwali week, reported 2026-11-11",
+   "why_now": "Post-Diwali phone numbers show who could not complete a purchase.",
+   "counterintuitive": true,
+   "needs_facts": true,
+   "id": "2026-11-201209-003",
    "score": {
-    "rank": 8,
-    "why": "A long loan makes the EMI affordable, not the flat; it hits the weekend flat-visit couple.",
+    "rank": 6,
+    "why": "At the phone counter, the EMI approval decides what you can buy as much as the price does; the feeling of being judged at the counter, with one sourced figure.",
     "scores": {
-     "relatable": 5,
+     "relatable": 4,
      "fresh_angle": 4,
      "shareable": 4,
      "saveable": 4,
      "because": 4
     },
     "format_fit": "carousel"
-   }
-  }
- },
- {
-  "due": "2026-12-11T20:30:00+05:30",
-  "format": "carousel",
-  "topic": {
-   "title": "Next recharge hike will not be called a hike",
-   "claim": "The next recharge hike will likely come dressed as 'usage-based plans', so heavy users feel it first and nobody calls it a rise.",
-   "behaviour": "We top up an 84-day plan, forget the price, and notice only when it gets a new name.",
-   "mechanism": "A change that splits users into light and heavy lets the company say most people are unaffected. The people who pay more are the ones who are using data, which is most of us.",
-   "group": "Prepaid users on Jio, Airtel and Vi plans",
-   "territory": "business_brands",
-   "mood": "prediction",
-   "format_name": "price_tells",
-   "moment": "You recharge for 84 days and do not remember what you paid last time.",
-   "turn": {
-    "believed": "Telecom prices go up in one big announced jump.",
-    "actually": "They can shift quietly through plan design, so each user feels a different rise."
-   },
-   "feeling": "Squeezed, with no easy way to compare",
-   "villain": "A tariff structure that hides price rises inside plan design",
-   "story_type": "vision",
-   "because": "Operators earn more per user when heavy data users pay more. A split-up plan makes complaining harder because nobody has the same bill.",
-   "proof": [
-    {
-     "fact": "Cashify reports that Jio, Airtel and Vi may raise prepaid prices by up to 15% within the next 3 to 4 months. This is an expectation, not a confirmed hike, and pricing may move towards usage-based charging. Current 84-day plans cost Rs 519 for Jio and Vi and Rs 539 for Airtel.",
-     "source_url": "https://www.cashify.in/news/jio-airtel-vi-tariff-hike-2026-prepaid-plans-to-cost-15-percent-more-soon",
-     "date": "2026-11-17"
-    }
-   ],
-   "lived": false,
-   "payoff": "Screenshot your plan price today. In a few months you will know whether the rise was a rise.",
-   "send_to": "The friend who streams all day on mobile data and never looks at the plan",
-   "format_hint": "single",
-   "real_details": [
-    "The page says the last major tariff change was about two years ago, in 2024."
-   ],
-   "evidence": [
-    {
-     "url": "https://www.cashify.in/news/jio-airtel-vi-tariff-hike-2026-prepaid-plans-to-cost-15-percent-more-soon",
-     "sub": "news",
-     "rank": 4
-    }
-   ],
-   "news_peg": "On 17 November 2026 Cashify reported that prepaid plans may cost up to 15% more in the next 3 to 4 months, which is an expectation and not a confirmed hike.",
-   "why_now": "The expected hike is the next thing to land on a bill most of us pay without looking.",
-   "counterintuitive": true,
-   "needs_facts": false,
-   "id": "2026-11-191304-009",
-   "score": {
-    "rank": 17,
-    "why": "A recharge hike can arrive as plan design with nobody calling it a rise; screenshot your plan today.",
-    "scores": {
-     "relatable": 4,
-     "fresh_angle": 4,
-     "shareable": 3,
-     "saveable": 4,
-     "because": 3
-    },
-    "format_fit": "single"
-   }
-  }
- },
- {
-  "due": "2026-12-14T20:30:00+05:30",
-  "format": "carousel",
-  "topic": {
-   "title": "'DM for price' means it depends on you",
-   "claim": "'DM for price' doesn't mean the price is complicated; it means the price depends on who's asking.",
-   "moment": "You like a kurta on Instagram, DM for the price, and wonder if they checked your profile first.",
-   "turn": {
-    "believed": "Sellers hide prices to keep the page clean or because prices change.",
-    "actually": "A private chat lets them read you first and quote what you look able to pay."
-   },
-   "feeling": "I don't know if I was quoted fair or quoted my profile.",
-   "villain": "Private-chat selling with no listed price",
-   "story_type": "teaching",
-   "because": "A public price is one price for everyone. A DM price can change with your city, your profile and how keen you sound.",
-   "payoff": "Test: ask from a friend's account too. If the two prices differ, you have your answer.",
-   "lived": false,
-   "behaviour": "Small Instagram sellers hide prices and quote them in DMs.",
-   "mechanism": "No public price means room to charge each buyer differently.",
-   "group": "People who shop from small Instagram sellers",
-   "territory": "creators_internet",
-   "mood": "dark_pattern",
-   "format_name": "saturday_single",
-   "send_to": "The friend who buys everything from Instagram boutiques.",
-   "format_hint": "single",
-   "why_now": "Festive and wedding shopping on Instagram is at its peak.",
-   "needs_facts": false,
-   "news_peg": null,
-   "evidence": [],
-   "id": "2026-11-191304-046",
-   "score": {
-    "rank": 12,
-    "why": "'DM for price' lets the seller read you before quoting, and the friend's-account test is easy to run.",
-    "scores": {
-     "relatable": 4,
-     "fresh_angle": 4,
-     "shareable": 4,
-     "saveable": 4,
-     "because": 3
-    },
-    "format_fit": "single"
-   }
-  }
- },
- {
-  "due": "2026-12-15T20:30:00+05:30",
-  "format": "carousel",
-  "topic": {
-   "title": "The song that won took eight weeks",
-   "claim": "A song that took eight weeks to reach number one is a reminder that launch-week noise isn't what makes something win.",
-   "behaviour": "Brands and creators spend everything on day one and judge by day-three numbers. Some things grow slowly because people keep finding them and keep using them.",
-   "mechanism": "Slow growth comes from reuse: in videos, in playlists, in shared clips. A launch push buys attention once, while reuse keeps compounding.",
-   "group": "Creators, marketers and anyone who judges work by its first week",
-   "territory": "pop_culture",
-   "mood": "warm",
-   "format_name": "saturday_single",
-   "moment": "You post something, it does nothing in 48 hours, and you decide it was bad.",
-   "turn": {
-    "believed": "If it doesn't pop in the first few days, it failed.",
-    "actually": "Some things win because people keep picking them up. The first week only tells you who saw it first."
-   },
-   "feeling": "Relieved, and a little embarrassed for judging so early.",
-   "villain": "A launch-week scoreboard that rewards noise over staying power",
-   "story_type": "values",
-   "because": "Platforms count views from every re-use, so slow, steady use can add up to a chart-topper. Marketing budgets, though, are built around the first week.",
-   "proof": [
-    {
-     "fact": "'Guzarish' by Satinder Sartaaj topped YouTube's global songs chart for the week ending November 12 with 42,613,776 views, up from 28,263,770 the week before. It premiered on September 16 on T-Series and climbed slowly over eight weeks.",
-     "source_url": "https://ppc.land/satinder-sartaajs-guzarish-wins-youtubes-no-1-two-months-after-release/",
-     "date": "2026-11-15"
-    }
-   ],
-   "lived": false,
-   "payoff": "Give your work eight weeks before you call it a flop.",
-   "send_to": "The friend who deleted a post after two likes.",
-   "format_hint": "single",
-   "real_details": [
-    "India supplied 75.9% of the views.",
-    "The article ties the late surge to Diwali and the first full week of Ramayana in cinemas.",
-    "Diljit Dosanjh's 'POKITO' with Daddy Yankee fell from No. 3 to No. 64."
-   ],
-   "evidence": [
-    {
-     "url": "https://ppc.land/satinder-sartaajs-guzarish-wins-youtubes-no-1-two-months-after-release/",
-     "sub": "news",
-     "rank": 45
-    }
-   ],
-   "news_peg": "'Guzarish' hit No. 1 on YouTube's global songs chart for the week ending November 12, 2026.",
-   "why_now": "The chart result came this week and cuts against the launch-week habit.",
-   "counterintuitive": true,
-   "needs_facts": false,
-   "id": "2026-11-191304-027",
-   "score": {
-    "rank": 19,
-    "why": "Warm and relieving: judging your own post in 48 hours is the reader's habit, and the song took eight weeks.",
-    "scores": {
-     "relatable": 4,
-     "fresh_angle": 4,
-     "shareable": 4,
-     "saveable": 3,
-     "because": 3
-    },
-    "format_fit": "single"
-   }
-  }
- },
- {
-  "due": "2026-12-16T20:30:00+05:30",
-  "format": "carousel",
-  "topic": {
-   "title": "Rs 99 sells permission, not food",
-   "claim": "The Rs 99 meal works because it removes the guilt, not because it is a bargain.",
-   "behaviour": "You order in when you are tired, and a Rs 99 tag turns a lazy decision into a sensible one.",
-   "mechanism": "A low fixed price makes ordering feel safe. Apps use it to bring back users who stopped ordering, and they spend heavily on pricing to do it.",
-   "group": "Young professionals who order in because they are tired, not hungry",
-   "territory": "business_brands",
-   "mood": "dark_pattern",
-   "format_name": "behind_the_brand",
-   "moment": "It is 9 pm, you are done with the day, and the Rs 99 meal makes ordering feel responsible.",
-   "turn": {
-    "believed": "You order because the food is cheap.",
-    "actually": "You order because the price silences the voice that says you could cook."
-   },
-   "feeling": "Relieved and slightly guilty at the same time",
-   "villain": "A discount model built to win back lapsed users",
-   "story_type": "teaching",
-   "because": "Apps earn on frequency, not on one meal. A low price pulls back people who stopped ordering and makes ordering a habit again.",
-   "proof": [
-    {
-     "fact": "Swiggy says its Bolt and ₹99 Store offers together made up over 25% of food-delivery volumes, and that Instamart's losses peaked this quarter after it spent on pricing to win back dormant users.",
-     "source_url": "https://inc42.com/buzz/swiggy-q2-loss-narrows-16-yoy-to-%E2%82%B9922-cr-revenue-jumps-36/",
-     "date": "2026-10-22"
-    }
-   ],
-   "lived": false,
-   "payoff": "Ask yourself on the next order: am I hungry, or just tired and given permission?",
-   "send_to": "The friend who says they order in 'only when the offer is good'",
-   "format_hint": "carousel",
-   "real_details": [
-    "Its affordable-meals app Toing, now in 50+ cities, is drawing mostly new or long-inactive users."
-   ],
-   "evidence": [
-    {
-     "url": "https://inc42.com/buzz/swiggy-q2-loss-narrows-16-yoy-to-%E2%82%B9922-cr-revenue-jumps-36/",
-     "sub": "news",
-     "rank": 12
-    }
-   ],
-   "news_peg": "Swiggy's Q2 results on 22 October 2026 showed Bolt and ₹99 Store offers made up over 25% of food-delivery volumes.",
-   "why_now": "Festive-season ordering is up and the cheap-meal offer is now a big part of the app's volume.",
-   "counterintuitive": true,
-   "needs_facts": false,
-   "id": "2026-11-191304-010",
-   "score": {
-    "rank": 7,
-    "why": "The Rs 99 meal removes the guilt of not cooking; 'hungry or just given permission' is the self-test.",
-    "scores": {
-     "relatable": 5,
-     "fresh_angle": 4,
-     "shareable": 4,
-     "saveable": 3,
-     "because": 4
-    },
-    "format_fit": "carousel"
-   }
-  }
- },
- {
-  "due": "2026-12-17T20:30:00+05:30",
-  "format": "carousel",
-  "topic": {
-   "title": "UPI pays in two seconds, disputes take paperwork",
-   "claim": "UPI made paying instant and left proving you were wronged as slow, document-heavy work.",
-   "behaviour": "You scan, enter the PIN and the money is gone before the shopkeeper looks up. If the goods never arrive, you now need invoices and receipts to ask for it back.",
-   "mechanism": "Apps compete on making payment effortless because that earns them volume. Disputes cost them time and money, so the effort moves to the customer.",
-   "group": "Everyday UPI users, 24 to 32",
-   "territory": "business_brands",
-   "mood": "mixed",
-   "format_name": "saturday_single",
-   "moment": "You paid for something online in two seconds and it never arrived.",
-   "turn": {
-    "believed": "UPI is easy, so getting money back must be easy too.",
-    "actually": "The paying side is built for speed; the refund side asks you to prove your case."
-   },
-   "feeling": "Careless for trusting the speed",
-   "villain": "A payment system tuned for the frictionless pay button, not the refund",
-   "story_type": "teaching",
-   "because": "Apps earn from more payments, not from more refunds. The new rules at least standardise reasons and evidence, which helps, but the burden of proof stays with you.",
-   "proof": [
-    {
-     "fact": "An NPCI circular dated 4 November standardises how banks and apps handle UPI disputes, effective 25 November 2026. New reason codes cover excess charges, duplicate transactions, cancelled or returned goods, and defective or undelivered goods or services. Supporting evidence such as payment receipts and purchase invoices is required depending on the dispute type.",
-     "source_url": "https://teamleaseregtech.com/updates/article/61096/npci-standardisation-of-upi-dispute-management-rules-in-urcs/",
-     "date": "2026-11-05"
-    }
-   ],
-   "lived": false,
-   "payoff": "Test: before any big UPI payment, can you prove what you bought? If not, you're relying on trust.",
-   "send_to": "The friend who pays online sellers by UPI without keeping any invoice.",
-   "format_hint": "single",
-   "real_details": [
-    "'Wrong Credit Chargeback' is renamed 'Wrong Payment – Reversal Request'"
-   ],
-   "evidence": [
-    {
-     "url": "https://teamleaseregtech.com/updates/article/61096/npci-standardisation-of-upi-dispute-management-rules-in-urcs/",
-     "sub": "news",
-     "rank": 21
-    }
-   ],
-   "news_peg": "NPCI circular OC No. 240/2026-27 dated 4 November 2026, effective 25 November 2026",
-   "why_now": "The new dispute rules take effect in less than a week.",
-   "counterintuitive": false,
-   "needs_facts": true,
-   "id": "2026-11-191304-018",
-   "score": {
-    "rank": 13,
-    "why": "UPI is fast to pay and slow to prove; the 'can you prove what you bought' test is useful.",
-    "scores": {
-     "relatable": 4,
-     "fresh_angle": 4,
-     "shareable": 3,
-     "saveable": 4,
-     "because": 4
-    },
-    "format_fit": "single"
-   }
-  }
- },
- {
-  "due": "2026-12-18T20:30:00+05:30",
-  "format": "carousel",
-  "topic": {
-   "title": "Festive sales cost brands more to win",
-   "claim": "The Diwali sale you saw everywhere was less about demand and more about brands paying each other's price to be in front of you.",
-   "behaviour": "Every app, label and delivery service pushes festive ads at the same moment, so the same eyes get bid on by everyone.",
-   "mechanism": "When every brand bids for the same festive attention, the ad platform wins the auction. Brands pay a lot more to get a click and still see small sales growth.",
-   "group": "Marketers, founders and anyone who wonders why every ad looks the same in October",
-   "territory": "business_brands",
-   "mood": "sharp",
-   "format_name": "behind_the_brand",
-   "moment": "Every app you open in the Diwali week is showing you the same offer in a slightly different font.",
-   "turn": {
-    "believed": "Festive sales boom because everyone is spending more.",
-    "actually": "Brands are spending a lot more to get the same shoppers, and the sale itself barely moved."
-   },
-   "feeling": "Bombarded, and a bit suspicious of every 'limited time' offer",
-   "villain": "An ad auction that rewards whoever bids the highest on the busiest days",
-   "story_type": "teaching",
-   "because": "Platforms earn on every click, and brands cannot skip the festival. So the price of attention goes up while the buying pie hardly grows.",
-   "proof": [
-    {
-     "fact": "Criteo says online retail sales in the two weeks before Diwali were up 2% on the same period last year, while cost per click rose 62% and cost per thousand impressions 38% in that window. The article warns the figures come from Criteo alone and use different yardsticks.",
-     "source_url": "https://www.storyboard18.com/how-it-works/diwali-2026-online-retail-sales-grow-2-festive-ad-costs-surge-62-criteo-report-finds-114845.htm",
-     "date": "2026-11-16"
-    }
-   ],
-   "lived": false,
-   "payoff": "When everyone shouts at once, the loudest bill goes to the brand, and the shopper is the last person to find out.",
-   "send_to": "The marketing friend who still says Diwali is the best quarter",
-   "format_hint": "carousel",
-   "real_details": [
-    "On Diwali day itself, CPC was up 83% and CPM up 65%."
-   ],
-   "evidence": [
-    {
-     "url": "https://www.storyboard18.com/how-it-works/diwali-2026-online-retail-sales-grow-2-festive-ad-costs-surge-62-criteo-report-finds-114845.htm",
-     "sub": "news",
-     "rank": 10
-    }
-   ],
-   "news_peg": "On 16 November 2026 Criteo reported Diwali online sales up 2% year on year while festive ad costs rose sharply.",
-   "why_now": "The festive numbers are in and the gap between sales and ad cost is the story nobody sees in the feed.",
-   "counterintuitive": true,
-   "needs_facts": true,
-   "id": "2026-11-191304-005",
-   "score": {
-    "rank": 14,
-    "why": "The sale barely grew while the cost of shouting went up; the marketing friend is the obvious person to send it to.",
-    "scores": {
-     "relatable": 4,
-     "fresh_angle": 4,
-     "shareable": 4,
-     "saveable": 3,
-     "because": 4
-    },
-    "format_fit": "carousel"
-   }
-  }
- },
- {
-  "due": "2026-12-21T20:30:00+05:30",
-  "format": "carousel",
-  "topic": {
-   "title": "65 million views, 3,459 people in the stand",
-   "claim": "Free views are not fans, and football's opening week shows the same gap that influencer reach hides.",
-   "behaviour": "We leave a match running on the phone while doing something else, then count that as support for the sport. The stadium in Pune had 3,459 people.",
-   "mechanism": "Views are free for the viewer and easy to inflate with repeat watching. A ticket costs money and a trip, so it measures real interest.",
-   "group": "Sports fans and anyone who works with numbers on screens",
-   "territory": "sports",
-   "mood": "mixed",
-   "format_name": "feed_anthropology",
-   "moment": "You have a match open in a tab and haven't looked at it for twenty minutes.",
-   "turn": {
-    "believed": "A huge view count means a sport has arrived.",
-    "actually": "Views count attention that cost nothing; the stands count people who paid."
-   },
-   "feeling": "Suspicious of big numbers I'm shown",
-   "villain": "A reach metric that counts a click the same as a commitment",
-   "story_type": "teaching",
-   "because": "Leagues and sponsors earn from impressive reach numbers, so those get announced loudly. Attendance is harder to flatter, so it gets mentioned less.",
-   "proof": [
-    {
-     "fact": "The 2026-27 Indian Super League drew 65 million YouTube views and 52 million reach across its first five fixtures, and the page says views can include repeat watching. 3,459 attended Inter Kashi vs Kerala Blasters in Pune.",
-     "source_url": "https://openthemagazine.com/sports/quick-take-the-isl-drew-65-million-youtube-views-in-five-matches-is-india-finally-ready-for-football-seven-things-to-know",
-     "date": "2026-11-09"
-    }
-   ],
-   "lived": false,
-   "payoff": "Test: if it were not free, would you still have it open? That's your real fan count.",
-   "send_to": "The friend in marketing who quotes reach numbers as if they were sales.",
-   "format_hint": "single",
-   "real_details": [
-    "40,014 watched Kerala Blasters draw with Mumbai City in Kochi",
-    "about 91% of the opening audience watched on phones",
-    "One person has been trying to get Realme earbuds fixed under warranty since April, using calls, emails, a service centre, social media, the consumer helpline and an e-Jagriti complaint.",
-    "They say they explained the same issue to more than 50 people and it still isn't fixed.",
-    "The Consumer Commission told them they would have to show up in person for months to pursue it, so they gave up.",
-    "They wondered whether their dad, brother or grandfather would chase this for months, and said they probably wouldn't, which is why they then reached out to brands as a stranger.",
-    "A commenter called the post a marketing piece for the 7 brands that sent free goods, and another used the word 'Freebiefluencer'."
-   ],
-   "evidence": [
-    {
-     "url": "https://openthemagazine.com/sports/quick-take-the-isl-drew-65-million-youtube-views-in-five-matches-is-india-finally-ready-for-football-seven-things-to-know",
-     "sub": "Open Magazine",
-     "rank": 34
-    },
-    {
-     "url": "https://www.reddit.com/r/StartUpIndia/comments/1x84lil/i_reached_out_to_brands_without_being_an/",
-     "sub": "StartUpIndia",
-     "rank": 3
-    }
-   ],
-   "news_peg": "ISL 2026-27 opening-week viewership and attendance figures, reported 2026-11-09",
-   "why_now": "The season has just started and the first stand-versus-screen numbers are in.",
-   "counterintuitive": true,
-   "needs_facts": true,
-   "id": "2026-11-191304-015",
-   "score": {
-    "rank": 16,
-    "why": "Free views aren't fans, the same hidden reach gap the page keeps pointing at; the 'if it weren't free' test is clear.",
-    "scores": {
-     "relatable": 4,
-     "fresh_angle": 4,
-     "shareable": 3,
-     "saveable": 3,
-     "because": 4
-    },
-    "format_fit": "single"
    }
   }
  }
