@@ -1,6 +1,6 @@
 {
  "id": "2026-12-06",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-12-09T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -61,6 +61,432 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-11-19T13:05:05.588865+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 3,
+     "tight": 4,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slide 6: \"Spotify gets paid on the 1st either way.\" is a decorative specific, and it's wrong for most readers: Spotify bills on each person's own renewal date, not on the 1st. Change it to \"on your renewal date\" or \"every month\". The point that you pay whether you listen or not still holds.",
+     "slides 1, 4, 8: the same \"Not X. Y.\" move appears three times: \"isn't selling you books. It's selling you…\", \"Not books. Hours.\", \"You were never buying audio. You were buying…\". That repetition is the engineered rhetoric the account avoids. Keep it on the cover and rewrite slide 4 as a plain statement. For example: the plan counts your hours, and a book you never open still uses up your month. Also turn slide 8's opener into a straight claim, not another reversal.",
+     "slide 5: the logic jumps. \"Every unused hour feels like money you threw away, so you don't cancel\" doesn't explain why waste would stop you cancelling. Tie it to the identity turn: cancelling means admitting the person who reads on the commute isn't coming, so you pay to keep him alive another month. That makes slide 5 carry the post's real idea instead of a general sunk-cost point.",
+     "slide 7: the second-bill point is the topic's 'because' (the add-on lifts what each user pays), but it reads like a side fact. The why_swipe \"So are we just bad at this?\" also doesn't follow from it. Make the gain plain: Spotify now earns twice from the same commuter, once for music and once for the better version of him. Then the turn to slide 8 follows naturally.",
+     "slide 2: every detail is visual. Add one detail you hear or feel in the traffic scene, such as the honking outside the cab window or the earphones you just pushed in. That plants the reader in the moment before the habit fades."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 2",
+      "line": "You hit subscribe stuck in office traffic. The plan was simple. Three books by December. Week one, you finish two chapters on the drive and feel like a new person.",
+      "why": "scene narration where he'd give commentary",
+      "try": "Everyone subscribes stuck in office traffic, with a plan. Three books by December. Week one goes great. Two chapters on the drive and you're basically a new person."
+     },
+     {
+      "where": "slide 4",
+      "line": "Look closely at what the plan gives you. 15 hours a month. Not books. Hours.",
+      "why": "stiff opener, repeats slide 1's 'Not X. Y.' move",
+      "try": "Now check what ₹199 actually gets you. 15 hours a month. That's it, hours, not books."
+     },
+     {
+      "where": "slide 7",
+      "line": "The reading habit is a second bill, stacked on the one you already pay.",
+      "why": "written phrasing, misses the cheeky aside",
+      "try": "Oh, and your music Premium doesn't include a single audiobook hour. So the reading habit is a second bill on top of the one you already pay."
+     },
+     {
+      "where": "slide 9",
+      "line": "But that number only belongs to the person who listens.",
+      "why": "written, slightly literary",
+      "try": "But that's only if you actually listen."
+     }
+    ],
+    "best": "The progress bar on the book stops moving. The ₹199 doesn't."
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Not Varun (slide 2): 'You hit subscribe stuck in office traffic. The plan was simple. Three books by December. Week one, you finish two chapters on the drive and feel like a new person.' reads as scene narration where he'd give commentary. Say it the way he would, e.g. 'Everyone subscribes stuck in office traffic, with a plan. Three books by December. Week one goes great. Two chapters on the drive and you're basically a new person.' (his register, your words, same facts).",
+    "Not Varun (slide 4): 'Look closely at what the plan gives you. 15 hours a month. Not books. Hours.' reads as stiff opener, repeats slide 1's 'Not X. Y.' move. Say it the way he would, e.g. 'Now check what ₹199 actually gets you. 15 hours a month. That's it, hours, not books.' (his register, your words, same facts).",
+    "Not Varun (slide 7): 'The reading habit is a second bill, stacked on the one you already pay.' reads as written phrasing, misses the cheeky aside. Say it the way he would, e.g. 'Oh, and your music Premium doesn't include a single audiobook hour. So the reading habit is a second bill on top of the one you already pay.' (his register, your words, same facts).",
+    "Not Varun (slide 9): 'But that number only belongs to the person who listens.' reads as written, slightly literary. Say it the way he would, e.g. 'But that's only if you actually listen.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "All four earlier notes are settled. Slide 2 now reads as his commentary. Slide 4 is now a check-the-receipt line, and 'Hours, not books' is short enough not to echo slide 1's move. Slide 7 has the 'Oh, and' aside. Slide 9 ends plainly with 'But that's only if you actually listen.'",
+     "slide 6 (owner rule, decorative invented specific): 'Spotify gets paid on the 1st either way.' Billing usually runs from your signup date, not the 1st of every month. Make it 'Spotify gets paid every month either way.' so the mechanism stays true and nothing is lost."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "varun": {
+    "pass": true,
+    "score": 5,
+    "misses": [],
+    "best": "The progress bar on the book stops moving. The ₹199 doesn't."
+   }
+  },
+  {
+   "attempt": 1,
+   "reader": {
+    "point": "Spotify's ₹199 audiobook plan, with its 15-hour monthly cap, is designed to make you keep paying for a book-listening habit you probably won't stick to.",
+    "reason": "The cap makes unused hours feel like wasted money so you don't cancel, and Spotify gets paid the same whether you listen or not.",
+    "lost": [
+     {
+      "slide": 7,
+      "why": "Music Premium having no audiobook hours feels like a new side point, not clearly linked to the cap/guilt idea"
+     },
+     {
+      "slide": 8,
+      "why": "Sudden gym/January comparison and 'version of you' idea; had to re-read to connect it to the plan"
+     },
+     {
+      "slide": 9,
+      "why": "Turns around to say it's a fair deal, which seems to contradict the earlier tone"
+     }
+    ],
+    "ideas": [
+     "The plan sells the aspirational self who finishes books, not the audio itself",
+     "The 15-hour cap works like guilt-homework that keeps you subscribed while Spotify gets paid regardless",
+     "Audiobooks are an extra bill on top of music Premium",
+     "Check your own usage: divide ₹199 by last month's hours to see the real cost"
+    ],
+    "endings": 3,
+    "point_matches": true,
+    "reason_matches": false
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Unclear: a first-time reader took the reason as 'The cap makes unused hours feel like wasted money so you don't cancel, and Spotify gets paid the same whether you listen or not.'. Say the because once, plainly, on one slide, from the reader's side of the screen.",
+    "Unclear (slide 7): a first-time reader got lost here: Music Premium having no audiobook hours feels like a new side point, not clearly linked to the cap/guilt idea. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 8): a first-time reader got lost here: Sudden gym/January comparison and 'version of you' idea; had to re-read to connect it to the plan. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 9): a first-time reader got lost here: Turns around to say it's a fair deal, which seems to contradict the earlier tone. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear: a first-time reader counted 4 separate ideas (The plan sells the aspirational self who finishes books, not the audio itself; The 15-hour cap works like guilt-homework that keeps you subscribed while Spotify gets paid regardless; Audiobooks are an extra bill on top of music Premium; Check your own usage: divide ₹199 by last month's hours to see the real cost). Keep one idea and its reason; cut the side arguments."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3,
+     "clear": 4,
+     "informative": 3
+    },
+    "notes": [
+     "slide 6: the rewrite now says the same thing three times. Slide 3 already has 'The ₹199 doesn't', slide 5 has 'The bank keeps collecting', and slide 6 adds 'the ₹199 goes out every month, heard or not'. Keep only the new beat, the promise that the better you will catch up next month. Cut the billing half and land that promise as a short two-beat punch, for example the hours reset and the promise doesn't.",
+     "slide 5: 'while the hours pile up unheard' suggests unused hours roll over and stack up. The sources only give a 15-hour monthly cap, with top-ups and single titles sold separately. Nothing says hours carry over. Say the unused hours just disappear at the end of the month. That is accurate, and it makes the guilt sharper.",
+     "slide 5: 'The bank keeps collecting' blurs who gains. The bank only moves the money, and Spotify is the one paid either way. Name Spotify so the because is plain: 'Spotify gets its ₹199 whether you press play or not.'",
+     "slide 3: no detail here goes past what you can see. Add one sound to the drive, such as the book's narrator cut off mid-sentence when the playlist kicks in. That gives the 'Friday playlist wins' moment a physical feel."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "slide 6: the rewrite now says the same thing three times. Slide 3 already has 'The ₹199 doesn't', slide 5 has 'The bank keeps collecting', and slide 6 adds 'the ₹199 goes out every month, heard or not'. Keep only the new beat, the promise that the better you will catch up next month. Cut the billing half and land that promise as a short two-beat punch, for example the hours reset and the promise doesn't.",
+    "slide 5: 'while the hours pile up unheard' suggests unused hours roll over and stack up. The sources only give a 15-hour monthly cap, with top-ups and single titles sold separately. Nothing says hours carry over. Say the unused hours just disappear at the end of the month. That is accurate, and it makes the guilt sharper.",
+    "slide 5: 'The bank keeps collecting' blurs who gains. The bank only moves the money, and Spotify is the one paid either way. Name Spotify so the because is plain: 'Spotify gets its ₹199 whether you press play or not.'",
+    "slide 3: no detail here goes past what you can see. Add one sound to the drive, such as the book's narrator cut off mid-sentence when the playlist kicks in. That gives the 'Friday playlist wins' moment a physical feel."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slide 3: the sound note is still open. Every detail here is still visual: the playlist, the podcast, forty percent in the library. Add one sound in the moment the playlist takes over, for example the narrator cut off mid-sentence when the Friday playlist starts. Keep it to a few words so the slide stays tight, and leave 'The progress bar stops moving. The ₹199 doesn't.' as it is.",
+     "slide 5: settled. 'The leftover hours just vanish at month end' fixes the roll-over problem, and 'Spotify gets its ₹199 whether you press play or not' names who gains. Leave both lines as they are.",
+     "slide 6: settled. The billing repeat is gone. 'The hours reset to 15. The promise just rolls over.' is a clean two-beat punch, and it reverses the vanishing hours on slide 5. Don't touch it."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "varun": {
+    "pass": true,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 2",
+      "line": "Everyone subscribes stuck in office traffic, with a plan. Three books by December.",
+      "why": "stiff, clunky scene setup",
+      "try": "Everyone signs up stuck in office traffic. The plan is three books by December."
+     }
+    ],
+    "best": "The progress bar stops moving. The ₹199 doesn't."
+   }
+  },
+  {
+   "attempt": 3,
+   "reader": {
+    "point": "Spotify's ₹199 audiobook plan makes money from people who subscribe meaning to read more but barely listen, so check what you actually pay per hour.",
+    "reason": "The 15-hour monthly cap makes unused hours feel like wasted money, so people keep paying instead of cancelling, and the plan resets each month so the promise to catch up just rolls over.",
+    "lost": [
+     {
+      "slide": 1,
+      "why": "'selling you the person who finishes them' is a bit abstract, had to reread"
+     },
+     {
+      "slide": 5,
+      "why": "'A cap works like homework' is an odd comparison, had to guess; also unclear if the cap is why people stay or just a limit"
+     },
+     {
+      "slide": 7,
+      "why": "'chapter one of the same book twice' came from nowhere, not sure what it means"
+     }
+    ],
+    "ideas": [
+     "Spotify's audiobook plan profits from people who subscribe with good intentions but don't listen, kept paying by the monthly hours cap and reset",
+     "Test: divide ₹199 by last month's hours to see your real cost per hour"
+    ],
+    "endings": 2,
+    "point_matches": true,
+    "reason_matches": false
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Unclear: a first-time reader took the reason as 'The 15-hour monthly cap makes unused hours feel like wasted money, so people keep paying instead of cancelling, and the plan resets each month so the promise to catch up just rolls over.'. Say the because once, plainly, on one slide, from the reader's side of the screen.",
+    "Unclear (slide 1): a first-time reader got lost here: 'selling you the person who finishes them' is a bit abstract, had to reread. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 5): a first-time reader got lost here: 'A cap works like homework' is an odd comparison, had to guess; also unclear if the cap is why people stay or just a limit. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 7): a first-time reader got lost here: 'chapter one of the same book twice' came from nowhere, not sure what it means. Rewrite that slide so it follows from the one before, or cut it."
+   ]
+  },
+  {
+   "attempt": 4,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "All four notes are settled. Slide 1 now says the turn plainly ('You're paying to feel like someone who reads'). Slide 5 states the because once, from the reader's side ('Cancelling feels like admitting the reader in you isn't coming... Spotify gets its ₹199 whether you press play or not'), with no homework comparison. Slide 7 follows from the hours slide and calls back to 'forty percent' from slide 3, so nothing comes from nowhere.",
+     "slide 2: every detail so far is seen, not heard or felt. You may add one sound or touch to the traffic line so the moment of subscribing feels lived, like the honking outside the cab window. Keep it to a few words and keep the sentence under 22 words.",
+     "slide 7: the test lands. Keep 'about ₹100 an hour' exactly as it is. It matches the derived claim (199 / 2 = 99.5), so don't round it to any other figure in the rewrite."
+    ]
+   }
+  },
+  {
+   "attempt": 4,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 3",
+      "line": "Then the Friday playlist wins on the drive home. A cricket podcast takes over the rest of the week while the unfinished book sits at forty percent in your library.",
+      "why": "scene narration, long and padded where he'd just say it",
+      "try": "By week two, the Friday playlist wins the drive home. Then a cricket podcast takes over. The book just sits there at forty percent."
+     },
+     {
+      "where": "slide 6",
+      "line": "You promise the better you will catch up next month.",
+      "why": "coach voice, 'the better you' is self-help talk",
+      "try": "And next month is obviously when you'll catch up."
+     },
+     {
+      "where": "slide 6",
+      "line": "The hours reset to 15. The promise just rolls over.",
+      "why": "engineered mirrored pair, stacked after slide 3's two-beat punch",
+      "try": "The hours reset to 15, and the promise quietly rolls over with them."
+     },
+     {
+      "where": "slide 2",
+      "line": "Everyone subscribes stuck in office traffic, with a plan. Three books by December.",
+      "why": "stiff, clunky scene-setting",
+      "try": "Most people sign up stuck in office traffic. Three books by December, easy."
+     },
+     {
+      "where": "slide 5",
+      "line": "Cancelling feels like admitting the reader in you isn't coming.",
+      "why": "slightly wistful, essay-ish phrasing",
+      "try": "Cancelling means admitting you're not actually going to read them."
+     }
+    ],
+    "best": "The progress bar stops moving. The ₹199 doesn't."
+   }
+  },
+  {
+   "attempt": 4,
+   "problems": [
+    "Not Varun (slide 3): 'Then the Friday playlist wins on the drive home. A cricket podcast takes over the rest of the week while the unfinished book sits at forty percent in your library.' reads as scene narration, long and padded where he'd just say it. Say it the way he would, e.g. 'By week two, the Friday playlist wins the drive home. Then a cricket podcast takes over. The book just sits there at forty percent.' (his register, your words, same facts).",
+    "Not Varun (slide 6): 'You promise the better you will catch up next month.' reads as coach voice, 'the better you' is self-help talk. Say it the way he would, e.g. 'And next month is obviously when you'll catch up.' (his register, your words, same facts).",
+    "Not Varun (slide 6): 'The hours reset to 15. The promise just rolls over.' reads as engineered mirrored pair, stacked after slide 3's two-beat punch. Say it the way he would, e.g. 'The hours reset to 15, and the promise quietly rolls over with them.' (his register, your words, same facts).",
+    "Not Varun (slide 2): 'Everyone subscribes stuck in office traffic, with a plan. Three books by December.' reads as stiff, clunky scene-setting. Say it the way he would, e.g. 'Most people sign up stuck in office traffic. Three books by December, easy.' (his register, your words, same facts).",
+    "Not Varun (slide 5): 'Cancelling feels like admitting the reader in you isn't coming.' reads as slightly wistful, essay-ish phrasing. Say it the way he would, e.g. 'Cancelling means admitting you're not actually going to read them.' (his register, your words, same facts)."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-21T12:38:56.776322+00:00",
+ "sources": [
+  {
+   "url": "https://t2online.in/tech/tech-news/spotify-launches-audiobooks-in-india-with-audiobooks--plan-at-rs-199-a-month/2009201",
+   "fact": "Spotify launched Audiobooks+ in India on 12 Nov 2026 at Rs 199 a month for 15 hours of listening, open to both Free and Premium users.",
+   "stance": "neutral: The page confirms the price and the 15-hour cap. It says nothing on whether the add-on raises revenue per user, and it gives no revenue or ARPU figures.",
+   "excerpt": "Audiobooks+ add-on priced at Rs 199 a month. | 15 hours of listening a month across the full catalogue. | open to users on both the Free and Premium tiers. | monthly audiobook listeners are up about 40 per cent year on year, and listening hours are up more than 30 per cent.",
+   "date": "2026-11-12"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/amp/technology/spotify-expands-audio-offering-beyond-music-and-podcasts-2003791",
+   "fact": "Deccan Chronicle reports that from 12 Nov 2026 Audiobooks+ gives 15 hours of listening a month for Rs 199, with extra hours or single titles bought separately.",
+   "stance": "neutral: The page supports the paid add-on structure, with top-ups and single-title purchases as further paid layers. It gives no data on usage, churn or revenue per user.",
+   "excerpt": "For ₹199 a month, Audiobooks+ gives you 15 hours of listening. | From today | whether you're on Free or Premium | Self-published and independent writers can distribute audiobooks on Spotify through Spotify for Authors. | non-exclusive",
+   "date": "2026-11-12"
+  }
+ ],
+ "verification_cache": {},
+ "draft": {
+  "cover": {
+   "headline": "Spotify's ₹199 audiobook plan sells [feeling like a reader], not books",
+   "sub": "The 15-hour cap is the clever part."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Spotify's new ₹199 audiobook plan isn't really for listening. You're paying to feel like someone who reads.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "How is a book plan selling me a feeling?"
+   },
+   {
+    "paragraphs": [
+     "Everyone subscribes stuck in office traffic, with a plan. Three books by December.",
+     "Week one goes great. Two chapters on the drive and you're practically a new person."
+    ],
+    "why_swipe": "Everyone knows what week two looks like."
+   },
+   {
+    "paragraphs": [
+     "Then the Friday playlist wins on the drive home. A cricket podcast takes over the rest of the week while the unfinished book sits at forty percent in your library.",
+     "The progress bar stops moving. The ₹199 doesn't."
+    ],
+    "why_swipe": "So what is the ₹199 actually buying?"
+   },
+   {
+    "paragraphs": [
+     "15 hours a month. Hours, not books."
+    ],
+    "why_swipe": "So why don't you just cancel?"
+   },
+   {
+    "paragraphs": [
+     "Those 15 hours look like a target you might still hit. Cancelling feels like admitting the reader in you isn't coming.",
+     "So you keep paying. Spotify gets its ₹199 whether you press play or not."
+    ],
+    "why_swipe": "What happens next month?"
+   },
+   {
+    "paragraphs": [
+     "You promise the better you will catch up next month.",
+     "The hours reset to 15. The promise just rolls over."
+    ],
+    "why_swipe": "What did all of that really cost?"
+   },
+   {
+    "paragraphs": [
+     "Open the app, check last month's hours, and divide ₹199 by that number.",
+     "Two hours means you paid about ₹100 an hour. For the same book, still stuck at forty percent."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Open this again before the next renewal hits on the 1st.",
+   "send": "Send to the friend whose reading list is longer than their reading time.",
+   "promise": "How brands sell to Indians, decoded."
+  },
+  "alt_text": "A seven-slide text post arguing that Spotify's ₹199-a-month Audiobooks+ plan in India sells the feeling of being a reader more than the books. People subscribe in traffic planning three books by December, then music and podcasts take over and the book stalls at forty percent. The plan gives 15 hours a month, which looks like a target still within reach, so cancelling feels like giving up on the reader you meant to be. People keep paying, and Spotify is paid whether they listen or not. It ends by asking readers to divide ₹199 by the hours they used last month: two hours is about ₹100 an hour for a book still stuck at forty percent.",
+  "claims": [
+   {
+    "text": "Spotify's Audiobooks+ plan in India costs ₹199 a month and gives 15 hours of listening a month.",
+    "source_url": "https://t2online.in/tech/tech-news/spotify-launches-audiobooks-in-india-with-audiobooks--plan-at-rs-199-a-month/2009201"
+   },
+   {
+    "text": "Two hours of use means about ₹100 an hour.",
+    "source_url": "topic",
+    "derived_from": "199 / 2 = 99.5"
+   }
+  ]
+ }
 }

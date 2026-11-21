@@ -1,6 +1,6 @@
 {
  "id": "2026-12-04",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-12-07T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -43,6 +43,357 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-11-19T13:05:05.588571+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "17. Hard to follow on one read: slide 8 starts a second argument from the player's side, \"And the tag weighs on the players too. Cricket writers have said a huge price tag can affect what happens on the ground, especially for young buys.\" Slide 9 then closes that side point with its own sting, \"The number still walks out to bat with every one of them.\" The post is about how fans judge. These two slides switch to how players feel and add a second ending before the real test on slide 10."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 3,
+     "tight": 3,
+     "clear": 4,
+     "informative": 3
+    },
+    "notes": [
+     "slides 8-9: cut the player-pressure detour. It is a second idea, and \"Cricket writers have said\" reads as a hedge. If you want to keep one beat of it, fold it into the fan side in a single line that comes after slide 7, with no source attribution. Keep it about what we do, for example: the number we keep repeating is the same one he hears every time he walks out. Then go straight to the test so the post has one ending.",
+     "slide 4: the 'because' needs a clear 'who gains'. Right now it describes the show (paddles, anchor, ticker) but never says why the price becomes the headline. Say it plainly: on auction night the figure is the drama the broadcast is selling, so it is the line that gets repeated all evening and all season. That turns slide 4 from description into the mechanism. Change the why_swipe 'what happens next?' to something specific, like 'And what sticks from that evening?'",
+     "slide 5: this repeats slide 4's job. Merge the two: 'the price is the first fact we learn, before his strike rate or his role' can sit right after the ticker line. That frees a slide and tightens the pull from the auction into slide 6's 'every innings turns into an audit'.",
+     "slide 3: 'The only difference is a number we heard at the auction' gives away the mechanism before slide 4 earns it, and it echoes slide 1. Make it the short rule line the examples showed, without naming the auction yet. Something like 'Same twelve runs. One of them came with an invoice.' That way the auction lands as the reveal on the next slide.",
+     "slide 7: this is the post's strongest beat ('angry at a duck like it came out of your salary'). Give it one more insider detail that only a fan who does this would notice. For example, the habit of saying 'X crore ka player' instead of his name in the group chat. That detail shows the price has replaced the man, which sharpens the story and makes slide 10's test land harder."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "17. Hard to follow on one read: slide 8 starts a second argument from the player's side, \"And the tag weighs on the players too. Cricket writers have said a huge price tag can affect what happens on the ground, especially for young buys.\" Slide 9 then closes that side point with its own sting, \"The number still walks out to bat with every one of them.\" The post is about how fans judge. These two slides switch to how players feel and add a second ending before the real test on slide 10.",
+    "slides 8-9: cut the player-pressure detour. It is a second idea, and \"Cricket writers have said\" reads as a hedge. If you want to keep one beat of it, fold it into the fan side in a single line that comes after slide 7, with no source attribution. Keep it about what we do, for example: the number we keep repeating is the same one he hears every time he walks out. Then go straight to the test so the post has one ending.",
+    "slide 4: the 'because' needs a clear 'who gains'. Right now it describes the show (paddles, anchor, ticker) but never says why the price becomes the headline. Say it plainly: on auction night the figure is the drama the broadcast is selling, so it is the line that gets repeated all evening and all season. That turns slide 4 from description into the mechanism. Change the why_swipe 'what happens next?' to something specific, like 'And what sticks from that evening?'",
+    "slide 5: this repeats slide 4's job. Merge the two: 'the price is the first fact we learn, before his strike rate or his role' can sit right after the ticker line. That frees a slide and tightens the pull from the auction into slide 6's 'every innings turns into an audit'.",
+    "slide 3: 'The only difference is a number we heard at the auction' gives away the mechanism before slide 4 earns it, and it echoes slide 1. Make it the short rule line the examples showed, without naming the auction yet. Something like 'Same twelve runs. One of them came with an invoice.' That way the auction lands as the reveal on the next slide.",
+    "slide 7: this is the post's strongest beat ('angry at a duck like it came out of your salary'). Give it one more insider detail that only a fan who does this would notice. For example, the habit of saying 'X crore ka player' instead of his name in the group chat. That detail shows the price has replaced the man, which sharpens the story and makes slide 10's test land harder."
+   ]
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Slide 4 has 54 words; the limit is 42. It is too much to read on one screen: cut an extra example or repeated line, or move a beat to its own slide.",
+    "Slide 4: this sentence has 26 words, max 22: 'Paddles go up and the figure runs on the ticker all evening, between t...'"
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 3
+    },
+    "notes": [
+     "Both earlier notes are settled. Slide 4 is now 40 words, and its longest sentence is 15 words. No new hard failure came in with the edit.",
+     "slide 4: 'The figure is the drama on sale.' reads a little stiff after 'the figure' was just used two lines up. Optional fix: 'The price is the show.' It is shorter, says the same thing and lands as the punch."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "varun": {
+    "pass": false,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 4",
+      "line": "The figure is the drama on sale.",
+      "why": "stiff written phrasing that over-explains a turn the slide already made",
+      "try": "The price is the show."
+     },
+     {
+      "where": "end.save",
+      "line": "Read it again the next time an auction ticker flashes a crore figure on your screen.",
+      "why": "stiff and wordy; he wouldn't type 'crore figure on your screen'",
+      "try": "Save this for the next auction, when the ticker starts flashing crores."
+     },
+     {
+      "where": "slide 6",
+      "line": "You never paid a rupee for him. Yet you're angry at a duck like it came out of your salary.",
+      "why": "'Yet' is a written word he'd never type",
+      "try": "You never paid a rupee for him. But a duck still feels like it came out of your salary."
+     },
+     {
+      "where": "cover",
+      "line": "IPL fans stopped judging players by form. We judge the [price tag].",
+      "why": "stiff switch from 'IPL fans' to 'We'",
+      "try": "In the IPL, we stopped judging players by form. We judge the [price tag]."
+     },
+     {
+      "where": "slide 2",
+      "line": "A crore-rupee buy gets out for 12 off 15 balls. Within minutes the comments under the post fill up with \"crores le liye, aur yeh?\"",
+      "why": "scene narration padding before the punch",
+      "try": "A crore-rupee buy gets out for 12 off 15. The comments: \"crores le liye, aur yeh?\""
+     }
+    ],
+    "best": "Same twelve runs. One of them came with an invoice."
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Not Varun (slide 4): 'The figure is the drama on sale.' reads as stiff written phrasing that over-explains a turn the slide already made. Say it the way he would, e.g. 'The price is the show.' (his register, your words, same facts).",
+    "Not Varun (end.save): 'Read it again the next time an auction ticker flashes a crore figure on your screen.' reads as stiff and wordy; he wouldn't type 'crore figure on your screen'. Say it the way he would, e.g. 'Save this for the next auction, when the ticker starts flashing crores.' (his register, your words, same facts).",
+    "Not Varun (slide 6): 'You never paid a rupee for him. Yet you're angry at a duck like it came out of your salary.' reads as 'Yet' is a written word he'd never type. Say it the way he would, e.g. 'You never paid a rupee for him. But a duck still feels like it came out of your salary.' (his register, your words, same facts).",
+    "Not Varun (cover): 'IPL fans stopped judging players by form. We judge the [price tag].' reads as stiff switch from 'IPL fans' to 'We'. Say it the way he would, e.g. 'In the IPL, we stopped judging players by form. We judge the [price tag].' (his register, your words, same facts).",
+    "Not Varun (slide 2): 'A crore-rupee buy gets out for 12 off 15 balls. Within minutes the comments under the post fill up with \"crores le liye, aur yeh?\"' reads as scene narration padding before the punch. Say it the way he would, e.g. 'A crore-rupee buy gets out for 12 off 15. The comments: \"crores le liye, aur yeh?\"' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 5,
+     "informative": 3
+    },
+    "notes": [
+     "slide 6: the last note is only half settled. 'Yet a duck in the first over still feels like it came out of your salary.' still opens on 'Yet', which is the written word he'd never type. Change only that word: 'But a duck in the first over still feels like it came out of your salary.' Same facts, his register.",
+     "Settled: slide 1/cover ('In the IPL, we stopped judging players by their form...'), slide 2 ('The comments: \"crores le liye, aur yeh?\"'), slide 4 ('The price is the show.') and the save line ('For the next auction, when the ticker starts flashing crores.') all fix their notes and need no further changes."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "varun": {
+    "pass": true,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 6",
+      "line": "You never paid a rupee for him. Yet a duck in the first over still feels like it came out of your salary.",
+      "why": "'Yet' is still there, and it's a stiff written word he wouldn't type",
+      "try": "You never paid a rupee for him. But a duck in the first over still feels like it came out of your salary."
+     }
+    ],
+    "best": "Same twelve runs. One of them came with an invoice."
+   }
+  },
+  {
+   "attempt": 3,
+   "reader": {
+    "point": "IPL fans judge expensive players by their auction price instead of their actual performance, so the same score is treated harshly for a costly player and kindly for a cheap one.",
+    "reason": "The auction makes the price a TV spectacle repeated constantly, which makes fans feel like owners who are owed returns on the money.",
+    "lost": [
+     {
+      "slide": 3,
+      "why": "very short line, 'invoice' is a metaphor I had to think about briefly"
+     },
+     {
+      "slide": 6,
+      "why": "sudden shift to 'you' and 'owners'; the 'crore guy' group chat bit felt slightly like a new point"
+     }
+    ],
+    "ideas": [
+     "Fans judge IPL players by auction price rather than form, because the price is a TV spectacle that makes us feel like owners"
+    ],
+    "endings": 3,
+    "point_matches": true,
+    "reason_matches": true
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Unclear (slide 3): a first-time reader got lost here: very short line, 'invoice' is a metaphor I had to think about briefly. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 6): a first-time reader got lost here: sudden shift to 'you' and 'owners'; the 'crore guy' group chat bit felt slightly like a new point. Rewrite that slide so it follows from the one before, or cut it."
+   ]
+  },
+  {
+   "attempt": 4,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 3
+    },
+    "notes": [
+     "Slide 3: settled. 'Same twelve runs' picks up directly from slide 2's matching scores. 'We heard one player's price before we ever saw him bat' sets up the auction slide cleanly, with no metaphor to decode. Leave it.",
+     "Slide 6: settled. It now answers slide 5's audit with one idea: once you know the price, it feels like your money. 'Came out of your salary' lands the feeling the topic asks for, without a new point or a shift in who 'you' is. Leave it.",
+     "Slide 4 (optional, only if you touch it again): the post has no detail beyond sight. One sound fits here, the auctioneer's hammer or a commentator calling out the crore figure, so the reader hears the price stick. Keep it typical, with no invented figure or name."
+    ]
+   }
+  },
+  {
+   "attempt": 4,
+   "varun": {
+    "pass": true,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 6",
+      "line": "It's not cruelty. Once you know the price, every innings feels like your money is on the line.",
+      "why": "over-explained: spells out the feeling the salary line lands right after",
+      "try": "It's not cruelty. It's the price tag talking."
+     }
+    ],
+    "best": "So every innings turns into an audit. Fifty off 30 from a base-price kid is a story. From the costliest buy on the team, it's \"theek hai, paisa toh vasool kar.\""
+   }
+  },
+  {
+   "attempt": 4,
+   "reader": {
+    "point": "IPL fans judge players by how much they were bought for rather than by how they actually play, so the same score gets praised or mocked depending on the price.",
+    "reason": "Because the auction is shown like a TV show with the price repeated all evening, fans know the number before they see the player bat and feel their own money is at stake.",
+    "lost": [
+     {
+      "slide": 6,
+      "why": "'Your money on the line' and 'came out of your salary' is a jump; I never paid, so I had to re-read to see the point"
+     },
+     {
+      "slide": 7,
+      "why": "Test at the end is slightly unclear at first, I had to guess what 'under a second' refers to (which answer comes faster)"
+     }
+    ],
+    "ideas": [
+     "Fans judge IPL players by price, not form, because the auction makes the price loud and personal"
+    ],
+    "endings": 3,
+    "point_matches": true,
+    "reason_matches": false
+   }
+  },
+  {
+   "attempt": 4,
+   "problems": [
+    "Unclear: a first-time reader took the reason as 'Because the auction is shown like a TV show with the price repeated all evening, fans know the number before they see the player bat and feel their own money is at stake.'. Say the because once, plainly, on one slide, from the reader's side of the screen.",
+    "Unclear (slide 6): a first-time reader got lost here: 'Your money on the line' and 'came out of your salary' is a jump; I never paid, so I had to re-read to see the point. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 7): a first-time reader got lost here: Test at the end is slightly unclear at first, I had to guess what 'under a second' refers to (which answer comes faster). Rewrite that slide so it follows from the one before, or cut it."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-21T12:38:56.607498+00:00",
+ "sources": [
+  {
+   "url": "https://khelnow.com/cricket/ipl-2026-price-tag-pressure",
+   "fact": "Khel Now's April 2026 piece says a big IPL price tag weighs on players and affected on-field outcomes, citing Venkatesh Iyer, Pant, and young CSK buys. It also says Shreyas Iyer handled a big price well.",
+   "stance": "Partly supports. It backs the idea that the price tag sticks to a player and shapes how his season is judged. It doesn't mention fans, memes, or a televised auction, and it shows some costly players performing.",
+   "excerpt": "\"the weight of a huge price tag overburdening a top player\"; \"the price tag was something that affected the proceedings on the ground.\"; \"it would certainly be tough for youngsters like Kartik and Prashant to give their best with the pressure of the price tag weighing them down.\" (The page also says Venkatesh Iyer's average and strike rate dropped after his big contract, KKR released him before the mini-auction, Shreyas Iyer led Punjab Kings to an IPL final, and Pant did not fully justify his record price.) These lines are quoted from the fetch tool's extraction. I could not check them against the page text.",
+   "date": "2026-04-16"
+  },
+  {
+   "url": "https://www.onmanorama.com/sports/cricket/2023/03/26/ipl-2023-pressure-on-costliest-players-to-justify-price-tag.html",
+   "fact": "Onmanorama says a high IPL price tag brings huge expectations, and that costly players such as Sam Curran are scrutinised in every match.",
+   "stance": "Partly supports. It backs the claim that each innings is read against the price. It names franchises as the ones who rue the spend, not fans, and it says nothing about TV or memes.",
+   "excerpt": "\"The high price tag brings along with it huge expectations\"; Sam Curran \"will be under the spotlight throughout IPL 2023,\" and his \"performance in every match will be scrutinised.\"; Kolkata Knight Riders \"expected much more from him considering the amount it spent.\" (Pat Cummins) These lines are quoted from the fetch tool's extraction. I could not check them against the page text.",
+   "date": "2023-03-26"
+  }
+ ],
+ "verification_cache": {},
+ "draft": {
+  "cover": {
+   "headline": "In the IPL, we stopped judging players by form. We judge the [price tag].",
+   "sub": "Same score, two players, two very different comment sections."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "In the IPL, we stopped judging players by their form. We judge them by their price tag.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "What does that look like in an actual match?"
+   },
+   {
+    "paragraphs": [
+     "A crore-rupee buy gets out for 12 off 15. The comments: \"crores le liye, aur yeh?\"",
+     "An uncapped kid makes the same 12 off 15. Heart emoji. \"Future star\"."
+    ],
+    "why_swipe": "Why do the same twelve runs get two opposite reactions?"
+   },
+   {
+    "paragraphs": [
+     "Same twelve runs. The only difference is that we heard one player's price before we ever saw him bat."
+    ],
+    "why_swipe": "Where did we hear it first?"
+   },
+   {
+    "paragraphs": [
+     "The auction is a TV show. Paddles go up, and the figure runs on the ticker all evening. So by the time he bats, the number has been repeated more than his name.",
+     "The price is the show."
+    ],
+    "why_swipe": "And what sticks from that evening?"
+   },
+   {
+    "paragraphs": [
+     "So every innings turns into an audit. Fifty off 30 from a base-price kid is a story. From the costliest buy on the team, it's \"theek hai, paisa toh vasool kar.\""
+    ],
+    "why_swipe": "Is this just fans being harsh?"
+   },
+   {
+    "paragraphs": [
+     "It's not cruelty. Once you know the price, every innings feels like your money is on the line.",
+     "You never paid a rupee for him. Yet his duck in the first over still feels like it came out of your salary."
+    ],
+    "why_swipe": "How do you know you're doing it too?"
+   },
+   {
+    "paragraphs": [
+     "Name the big buy from your team. Now say his last score.",
+     "Now say his price. Under a second."
+    ]
+   }
+  ],
+  "end": {
+   "save": "For the next auction, when the ticker starts flashing crores.",
+   "send": "Send to the friend who called a player 'overpriced' after his first match.",
+   "promise": "How India really thinks, decoded."
+  },
+  "alt_text": "A text carousel arguing that IPL fans judge players by their auction price instead of their form. It compares reactions to a costly player and an uncapped player with the same score, notes that the only difference is we heard one player's price first, explains that the televised auction makes the price the show, shows how every innings turns into an audit that feels like the fan's own money is at stake, and ends with a test: you remember a player's price faster than his last score.",
+  "claims": [
+   {
+    "text": "A costly buy getting out for 12 off 15 and comments reading 'crores le liye', while an uncapped player with the same output gets a heart emoji.",
+    "source_url": "topic"
+   }
+  ]
+ }
 }
