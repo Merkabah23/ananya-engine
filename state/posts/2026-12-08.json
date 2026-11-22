@@ -1,6 +1,6 @@
 {
  "id": "2026-12-08",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-12-11T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -60,6 +60,412 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-11-19T13:05:05.589158+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 3,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 3,
+     "tight": 3,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slides 5, 6 and 9: the 'because' is said twice. Slide 5 says 'A shared hike gives the whole office WhatsApp group one thing to be angry about. A split plan doesn't.' Slide 9 then repeats it: 'Your rise and your friend's rise stop being the same complaint.' Merge slides 5 and 6 into one because-slide: the company earns more from heavy users and can point to light users as unaffected, and the angry office group never forms. On slide 9, keep the fair concession ('Someone on a basic phone shouldn't fund your streaming') and push one step further with something new from the topic. For example: once the plan gets a fresh name, the old price is no longer on the screen to compare against.",
+     "slide 10: 'that screenshot will be the only receipt you have' isn't true. Every telecom app keeps your recharge history, and slide 2 already admits we open the app to check. Keep the screenshot test but end on what it reveals. Use the topic's payoff: put your same week of use (hotspot, cab reels, Sunday call) against the new plan's price, and you'll know whether the rise was a rise. That gives a test the reader can run and a line they can repeat.",
+     "slides 3 and 4: these are two fact slides back to back, and 'The same report says' plus 'That's a different animal' make it read like a news recap. Fold the 15% expectation and the usage-based shift into one slide, stated plainly with Cashify named once. Then give July 2024 its own short contrast: last time the rise was a headline and everyone's number jumped together. Keep the ₹519/₹539 prices, because the close calls back to them.",
+     "slide 1: 'probably won't be called a hike' hedges the opinion. The naming prediction is his take, not a sourced fact, so say it straight: 'The next recharge hike won't be called a hike. It'll be called a usage-based plan.' Keep the 'may' language for the Cashify figures on the fact slide.",
+     "slide 7: every detail in the post is visual. Add one physical detail to the hotspot line, like the phone going hot in your hand while the laptop runs off it. It makes 'heavy user' feel like your own Tuesday, not a category."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "slides 5, 6 and 9: the 'because' is said twice. Slide 5 says 'A shared hike gives the whole office WhatsApp group one thing to be angry about. A split plan doesn't.' Slide 9 then repeats it: 'Your rise and your friend's rise stop being the same complaint.' Merge slides 5 and 6 into one because-slide: the company earns more from heavy users and can point to light users as unaffected, and the angry office group never forms. On slide 9, keep the fair concession ('Someone on a basic phone shouldn't fund your streaming') and push one step further with something new from the topic. For example: once the plan gets a fresh name, the old price is no longer on the screen to compare against.",
+    "slide 10: 'that screenshot will be the only receipt you have' isn't true. Every telecom app keeps your recharge history, and slide 2 already admits we open the app to check. Keep the screenshot test but end on what it reveals. Use the topic's payoff: put your same week of use (hotspot, cab reels, Sunday call) against the new plan's price, and you'll know whether the rise was a rise. That gives a test the reader can run and a line they can repeat.",
+    "slides 3 and 4: these are two fact slides back to back, and 'The same report says' plus 'That's a different animal' make it read like a news recap. Fold the 15% expectation and the usage-based shift into one slide, stated plainly with Cashify named once. Then give July 2024 its own short contrast: last time the rise was a headline and everyone's number jumped together. Keep the ₹519/₹539 prices, because the close calls back to them.",
+    "slide 1: 'probably won't be called a hike' hedges the opinion. The naming prediction is his take, not a sourced fact, so say it straight: 'The next recharge hike won't be called a hike. It'll be called a usage-based plan.' Keep the 'may' language for the Cashify figures on the fact slide.",
+    "slide 7: every detail in the post is visual. Add one physical detail to the hotspot line, like the phone going hot in your hand while the laptop runs off it. It makes 'heavy user' feel like your own Tuesday, not a category."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": []
+   }
+  },
+  {
+   "attempt": 1,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 4",
+      "line": "Cashify says all three may raise prepaid prices by up to 15% in the next 3 to 4 months. The price may follow usage: use more data, pay more. No date is announced yet.",
+      "why": "news-report voice, hedged 'may' twice, facts as the hero",
+      "try": "Cashify says all three could get up to 15% costlier in the next 3-4 months. No date yet. The twist is how: use more data, pay more."
+     },
+     {
+      "where": "slide 10",
+      "line": "When the new plan shows up, price your same week on it: the hotspot, the cab reels, the Sunday call. Then you'll know if the rise was a rise.",
+      "why": "coach voice, ends on homework instead of a punch",
+      "try": "When the new plan lands, run your same week through it: the hotspot, the cab reels, the Sunday call. That screenshot is the only proof it went up."
+     },
+     {
+      "where": "slide 6",
+      "line": "The company earns more from the people using the most. It can point to the light users and say most people are unaffected.",
+      "why": "stiff, written words ('unaffected'), explains instead of says",
+      "try": "The company makes more off whoever uses the most. And when anyone complains, it points at the light users: most people aren't paying a rupee extra."
+     },
+     {
+      "where": "slide 3",
+      "line": "Today an 84-day plan costs ₹519 on Jio and Vi, and ₹539 on Airtel.",
+      "why": "a whole slide of bare numbers, fact as the hero",
+      "try": "₹519 for 84 days on Jio and Vi. ₹539 on Airtel. Remember that number. It's about to get a new name."
+     },
+     {
+      "where": "slide 7",
+      "line": "– the hotspot for your laptop when the flat's Wi-Fi dies, the phone going hot in your hand",
+      "why": "scene narration tacked onto a list item",
+      "try": "– the hotspot for your laptop every time the flat's Wi-Fi dies"
+     }
+    ],
+    "best": "And the office WhatsApp group never gets one shared thing to be angry about."
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Not Varun (slide 4): 'Cashify says all three may raise prepaid prices by up to 15% in the next 3 to 4 months. The price may follow usage: use more data, pay more. No date is announced yet.' reads as news-report voice, hedged 'may' twice, facts as the hero. Say it the way he would, e.g. 'Cashify says all three could get up to 15% costlier in the next 3-4 months. No date yet. The twist is how: use more data, pay more.' (his register, your words, same facts).",
+    "Not Varun (slide 10): 'When the new plan shows up, price your same week on it: the hotspot, the cab reels, the Sunday call. Then you'll know if the rise was a rise.' reads as coach voice, ends on homework instead of a punch. Say it the way he would, e.g. 'When the new plan lands, run your same week through it: the hotspot, the cab reels, the Sunday call. That screenshot is the only proof it went up.' (his register, your words, same facts).",
+    "Not Varun (slide 6): 'The company earns more from the people using the most. It can point to the light users and say most people are unaffected.' reads as stiff, written words ('unaffected'), explains instead of says. Say it the way he would, e.g. 'The company makes more off whoever uses the most. And when anyone complains, it points at the light users: most people aren't paying a rupee extra.' (his register, your words, same facts).",
+    "Not Varun (slide 3): 'Today an 84-day plan costs ₹519 on Jio and Vi, and ₹539 on Airtel.' reads as a whole slide of bare numbers, fact as the hero. Say it the way he would, e.g. '₹519 for 84 days on Jio and Vi. ₹539 on Airtel. Remember that number. It's about to get a new name.' (his register, your words, same facts).",
+    "Not Varun (slide 7): '– the hotspot for your laptop when the flat's Wi-Fi dies, the phone going hot in your hand' reads as scene narration tacked onto a list item. Say it the way he would, e.g. '– the hotspot for your laptop every time the flat's Wi-Fi dies' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 3,
+     "tight": 4,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "All five notes from the last draft are settled. Slide 4 now sounds like him and keeps the hedge once. Slide 10 ends on a punch. Slide 6 uses spoken words. Slide 3 gives the numbers a job. Slide 7's list item is clean.",
+     "Slide 3 (optional): 'They're about to get new names.' sounds slightly more certain than the source, which only says the structure may change. Something like 'They might not keep those names for long.' would match the source. It is not a failure, because the cover already frames the post as a prediction."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "All five notes from the last draft are settled. Slide 4 now sounds like him and keeps the hedge once. Slide 10 ends on a punch. Slide 6 uses spoken words. Slide 3 gives the numbers a job. Slide 7's list item is clean.",
+    "Slide 3 (optional): 'They're about to get new names.' sounds slightly more certain than the source, which only says the structure may change. Something like 'They might not keep those names for long.' would match the source. It is not a failure, because the cover already frames the post as a prediction."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "Settled: slide 3 now reads 'They might not keep those names for long.' That matches the source's 'may change the pricing structure', so the certainty note is done.",
+     "slide 3 (optional, from the edit itself): 'Hold on to those numbers. They might not keep those names for long.' asks numbers to keep names, and the slide never says what the names are. One swap fixes it and keeps the hedge: 'Hold on to those numbers. The plans behind them might not keep their names for long.'"
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "varun": {
+    "pass": false,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 3",
+      "line": "Hold on to those numbers. They might not keep those names for long.",
+      "why": "hedged and muddled: numbers don't have names, and 'might' softens the punch",
+      "try": "Remember these numbers. The plans they sit on may not be around much longer."
+     },
+     {
+      "where": "slide 9",
+      "line": "But once the plan gets a fresh name, the old price is gone. There's nothing left to hold the new one against.",
+      "why": "stiff, written phrasing ('hold the new one against')",
+      "try": "But rename the plan and the old price disappears. Nothing left to compare the new one to."
+     }
+    ],
+    "best": "Heavy user is just another name for a normal one."
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Not Varun (slide 3): 'Hold on to those numbers. They might not keep those names for long.' reads as hedged and muddled: numbers don't have names, and 'might' softens the punch. Say it the way he would, e.g. 'Remember these numbers. The plans they sit on may not be around much longer.' (his register, your words, same facts).",
+    "Not Varun (slide 9): 'But once the plan gets a fresh name, the old price is gone. There's nothing left to hold the new one against.' reads as stiff, written phrasing ('hold the new one against'). Say it the way he would, e.g. 'But rename the plan and the old price disappears. Nothing left to compare the new one to.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 4,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slide 3: settled. 'Remember these numbers. The plans they sit on may not be around much longer.' fixes the muddled 'names' line and reads like him. No change needed.",
+     "slide 9: settled. 'But rename the plan and the old price disappears. Nothing is left to compare the new one to.' is plain spoken and keeps the same meaning. No change needed.",
+     "No new hard failures. The rewritten lines don't repeat another slide, add no new figures and keep the sourced facts (₹519/₹539, up to 15%, July 2024) unchanged. Ready to go to the owner as is."
+    ]
+   }
+  },
+  {
+   "attempt": 4,
+   "varun": {
+    "pass": true,
+    "score": 5,
+    "misses": [],
+    "best": "Heavy user is just another name for a normal one."
+   }
+  },
+  {
+   "attempt": 4,
+   "reader": {
+    "point": "Mobile recharge prices may go up soon through usage-based plans where heavy data users pay more, so screenshot your current plan price to prove the increase later.",
+    "reason": "Telecom companies can raise prices quietly by renaming plans, so there's no old price to compare against and no single shared hike to complain about.",
+    "lost": [
+     {
+      "slide": 2,
+      "why": "'That blank is exactly where the next rise fits' is vague, had to re-read"
+     },
+     {
+      "slide": 3,
+      "why": "why remember these numbers? 'plans may not be around' comes out of nowhere"
+     },
+     {
+      "slide": 4,
+      "why": "Cashify appears suddenly, unknown source; 'the twist is the how' unclear"
+     },
+     {
+      "slide": 5,
+      "why": "jump back to July 2024 with no setup, unclear why it's here"
+     },
+     {
+      "slide": 6,
+      "why": "'it points at the light users' - who is saying this, claim from nowhere; office WhatsApp group line is a jump"
+     },
+     {
+      "slide": 8,
+      "why": "one-line claim, unclear how it follows the examples; 'heavy user' definition not given"
+     },
+     {
+      "slide": 9,
+      "why": "sudden switch to the company's side of the argument, feels like a different point"
+     }
+    ],
+    "ideas": [
+     "Next recharge rise will be disguised as usage-based plans",
+     "We forget what we paid, so a rise goes unnoticed",
+     "Normal use counts as heavy use, so most of us will pay more",
+     "Fair-pricing objection: paying for use sounds right but removes the price comparison",
+     "Screenshot your plan price as proof"
+    ],
+    "endings": 3,
+    "point_matches": true,
+    "reason_matches": false
+   }
+  },
+  {
+   "attempt": 4,
+   "problems": [
+    "Unclear: a first-time reader took the reason as 'Telecom companies can raise prices quietly by renaming plans, so there's no old price to compare against and no single shared hike to complain about.'. Say the because once, plainly, on one slide, from the reader's side of the screen.",
+    "Unclear (slide 2): a first-time reader got lost here: 'That blank is exactly where the next rise fits' is vague, had to re-read. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 3): a first-time reader got lost here: why remember these numbers? 'plans may not be around' comes out of nowhere. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 4): a first-time reader got lost here: Cashify appears suddenly, unknown source; 'the twist is the how' unclear. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 5): a first-time reader got lost here: jump back to July 2024 with no setup, unclear why it's here. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear: a first-time reader counted 5 separate ideas (Next recharge rise will be disguised as usage-based plans; We forget what we paid, so a rise goes unnoticed; Normal use counts as heavy use, so most of us will pay more; Fair-pricing objection: paying for use sounds right but removes the price comparison; Screenshot your plan price as proof). Keep one idea and its reason; cut the side arguments."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-22T12:36:58.892088+00:00",
+ "sources": [
+  {
+   "url": "https://www.cashify.in/news/jio-airtel-vi-tariff-hike-2026-prepaid-plans-to-cost-15-percent-more-soon",
+   "fact": "Cashify reports Jio, Airtel and Vi may raise prepaid prices by up to 15% in 3 to 4 months. This is an expectation, not an announcement, and the article says the change may be a usage-based pricing structure in which heavy data users pay more.",
+   "stance": "supports: it says the hike may come as a changed, usage-based pricing structure where users who consume more data pay more. It does not discuss the 'nobody calls it a rise' or 'harder to complain' parts, and it names no forecaster.",
+   "excerpt": "Jio, Airtel, and Vi may hike prepaid plan prices by up to 15% in the next 3 to 4 months. | Companies have not announced exact dates yet. | may change the pricing structure | usage-based | Users who consume more data will pay more.",
+   "date": "2026-11-17"
+  },
+  {
+   "url": "https://www.businesstoday.in/tech-today/story/mobile-data-is-getting-costlier-in-india-telco-financials-tell-the-story-expert-explains-the-surgedustry-472676-2025-04-18",
+   "fact": "Business Today reports that Jio's ARPU has nearly doubled since 2019, that operators are pursuing a 'tariff repair' strategy to lift ARPU, and that the last headline hike, in July 2024, raised rates by 20–25%.",
+   "stance": "neutral: it supports the general reason that operators want higher revenue per user through tariff repair and data monetisation. It says nothing about heavy users paying more or about plan splitting making complaints harder. Its last-hike detail also shows the 2024 rise was openly labelled a hike.",
+   "excerpt": "Jio's ARPU has nearly doubled, rising between 50% to 96% since 2019. | Bharti Airtel achieved an impressive ARPU of Rs 245 during Q3 FY25. | ARPU levels to rise to Rs 300 by FY27. | tariff repair | The latest hike — implemented in July 2024 — raised headline rates by 20–25%. | continued tariff increases, smartphone upgrades, and data monetisation.",
+   "date": "2025-04-18"
+  }
+ ],
+ "verification_cache": {},
+ "draft": {
+  "cover": {
+   "headline": "The next recharge hike will be called a [usage-based plan]",
+   "sub": "Heavy users feel it first. Few will even call it a rise."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "The next mobile recharge hike won't be called a hike. It'll be called a \"usage-based plan.\"",
+     "Swipe to read →"
+    ],
+    "why_swipe": "How does a price rise stop being called a rise?"
+   },
+   {
+    "paragraphs": [
+     "You top up for 84 days and forget the price by day three.",
+     "Try to say what you paid last time. Most of us have to open the app to check.",
+     "That blank is exactly where the next rise fits."
+    ],
+    "why_swipe": "So what are we paying now, and what's coming?"
+   },
+   {
+    "paragraphs": [
+     "₹519 for 84 days on Jio and Vi. ₹539 on Airtel.",
+     "Remember these numbers. The plans they sit on may not be around much longer."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "Cashify says all three could get up to 15% costlier in the next 3 to 4 months. No date yet.",
+     "The twist is the how: use more data, pay more."
+    ],
+    "why_swipe": "Isn't this just another normal hike?"
+   },
+   {
+    "paragraphs": [
+     "July 2024 was different. That rise was a headline, and everyone's number jumped together."
+    ],
+    "why_swipe": "Why would a company prefer the split version?"
+   },
+   {
+    "paragraphs": [
+     "The company makes more off whoever uses the most. And when anyone complains, it points at the light users: most people pay nothing extra.",
+     "And the office WhatsApp group never gets one shared thing to be angry about."
+    ],
+    "why_swipe": "Who exactly is the heavy user?"
+   },
+   {
+    "paragraphs": [
+     "So who counts as heavy? Look at your own week:\n– the hotspot for your laptop every time the flat's Wi-Fi dies\n– reels on every cab ride\n– the Sunday video call with your parents"
+    ],
+    "why_swipe": "So is that you?"
+   },
+   {
+    "paragraphs": [
+     "Heavy user is just another name for a normal one."
+    ],
+    "why_swipe": "Is paying for what you use actually unfair?"
+   },
+   {
+    "paragraphs": [
+     "To be fair, paying for what you use sounds right. Someone on a basic phone shouldn't fund your streaming.",
+     "But rename the plan and the old price disappears. Nothing is left to compare the new one to."
+    ],
+    "why_swipe": "So how do you catch it?"
+   },
+   {
+    "paragraphs": [
+     "Screenshot your plan price today. ₹519, ₹539, whatever yours says.",
+     "When the new plan lands, run your same week through it: the hotspot, the cab reels, the Sunday call. That screenshot is the only proof it went up."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Open this again the day your recharge screen shows a plan you don't recognise.",
+   "send": "Send to the friend who streams all day on mobile data and never looks at the plan.",
+   "promise": "How Indian brands really price things."
+  },
+  "alt_text": "A ten-slide text post arguing that the next mobile recharge hike in India will arrive as usage-based plans rather than a single announced jump. It notes current 84-day prepaid plans cost ₹519 on Jio and Vi and ₹539 on Airtel, and that Cashify expects prices could rise by up to 15% in 3 to 4 months, possibly priced by usage, with no date announced. Unlike the July 2024 hike, which was a headline everyone felt together, a split plan lets the company make more from heavy users, point to light users who pay nothing extra, and avoid one shared complaint. It argues that heavy use, like hotspots, reels in cabs and Sunday video calls, is normal use, and that a renamed plan removes the old price to compare against. It ends by asking readers to screenshot their current plan price, since that screenshot will be the only proof the price went up.",
+  "claims": [
+   {
+    "text": "An 84-day prepaid plan costs ₹519 on Jio and Vi, and ₹539 on Airtel.",
+    "source_url": "https://www.cashify.in/news/jio-airtel-vi-tariff-hike-2026-prepaid-plans-to-cost-15-percent-more-soon"
+   },
+   {
+    "text": "Cashify says Jio, Airtel and Vi could raise prepaid prices by up to 15% in the next 3 to 4 months; no date is announced yet.",
+    "source_url": "https://www.cashify.in/news/jio-airtel-vi-tariff-hike-2026-prepaid-plans-to-cost-15-percent-more-soon"
+   },
+   {
+    "text": "The report says pricing may move towards usage-based charging, where users who consume more data pay more.",
+    "source_url": "https://www.cashify.in/news/jio-airtel-vi-tariff-hike-2026-prepaid-plans-to-cost-15-percent-more-soon"
+   },
+   {
+    "text": "The last headline tariff hike was in July 2024 and was openly announced as a rise across headline rates.",
+    "source_url": "https://www.businesstoday.in/tech-today/story/mobile-data-is-getting-costlier-in-india-telco-financials-tell-the-story-expert-explains-the-surgedustry-472676-2025-04-18"
+   }
+  ]
+ }
 }

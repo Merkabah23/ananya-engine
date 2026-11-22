@@ -1,6 +1,6 @@
 {
  "id": "2026-12-09",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-12-14T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -43,6 +43,421 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-11-19T13:05:05.589328+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3,
+     "clear": 4,
+     "informative": 3
+    },
+    "notes": [
+     "slides 9-10: the post ends twice. Slide 9 closes on a sting ('never know if that was the price, or the price of your profile'), then slide 10 opens a test and adds a second jab. Cut slide 9. Move its feeling into the test so there is one ending, and land it on the name the post already set up. For example: 'Try it once. Ask again from a friend's account, same kurta, same size. If the numbers don't match, you just paid the profile tax.' The callback to 'profile tax' is the line people will repeat.",
+     "slide 4: three reasons are packed into one slide: a clean feed, prices that keep changing, and engagement ('Hidden prices also pull comments and chats, which keeps a page busy'). The engagement point is a second argument that pulls focus from the turn. Keep one believed reason in a single short line ('The polite reason is a clean feed, or prices that keep changing. Fair enough.'), drop the engagement sentence, and go straight to 'But a private chat gives the seller something a price tag never can.'",
+     "slide 6: 'A printed price has to work for every person who scrolls past' doesn't fit Instagram, where nothing is printed. Write 'A price on the post has to work for everyone who scrolls past.' Also make 'it can be a fresh number for each buyer' concrete and personal: 'In a chat, your number and the next person's number don't have to match.' That puts the 'because' in the reader's own hands.",
+     "slide 7: 'That part is true.' is filler after a concession that already stands on its own. Cut it. Keep the push in plain words: 'But nothing stops any of them from quoting you more, and you'd never find out.'",
+     "slide 3: every detail in the post is something seen. Give the wait one physical beat the reader knows, such as the phone buzzing and it's just an Instagram notification, or the 'typing…' that starts and stops. Keep it framed as typical, then land on 'Did they just open your profile?'"
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "slides 9-10: the post ends twice. Slide 9 closes on a sting ('never know if that was the price, or the price of your profile'), then slide 10 opens a test and adds a second jab. Cut slide 9. Move its feeling into the test so there is one ending, and land it on the name the post already set up. For example: 'Try it once. Ask again from a friend's account, same kurta, same size. If the numbers don't match, you just paid the profile tax.' The callback to 'profile tax' is the line people will repeat.",
+    "slide 4: three reasons are packed into one slide: a clean feed, prices that keep changing, and engagement ('Hidden prices also pull comments and chats, which keeps a page busy'). The engagement point is a second argument that pulls focus from the turn. Keep one believed reason in a single short line ('The polite reason is a clean feed, or prices that keep changing. Fair enough.'), drop the engagement sentence, and go straight to 'But a private chat gives the seller something a price tag never can.'",
+    "slide 6: 'A printed price has to work for every person who scrolls past' doesn't fit Instagram, where nothing is printed. Write 'A price on the post has to work for everyone who scrolls past.' Also make 'it can be a fresh number for each buyer' concrete and personal: 'In a chat, your number and the next person's number don't have to match.' That puts the 'because' in the reader's own hands.",
+    "slide 7: 'That part is true.' is filler after a concession that already stands on its own. Cut it. Keep the push in plain words: 'But nothing stops any of them from quoting you more, and you'd never find out.'",
+    "slide 3: every detail in the post is something seen. Give the wait one physical beat the reader knows, such as the phone buzzing and it's just an Instagram notification, or the 'typing…' that starts and stops. Keep it framed as typical, then land on 'Did they just open your profile?'"
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 5,
+     "informative": 3
+    },
+    "notes": [
+     "All five notes are settled. Slides 9-10 now end once, on the test, and land on 'you just paid the profile tax'. Slide 4 keeps one believed reason and goes straight to the chat. Slide 6 reads 'A price on the post' and 'your number and the next person's number don't have to match'. Slide 7 lost the filler. Slide 3 now has the 'typing…' beat. No new hard failures.",
+     "slide 3 (optional, small): every detail in the post is still something seen. If it fits without adding length, give the wait one sound or touch the reader knows, like the phone buzzing and it's only a notification from another app. Keep it typical, then land on 'Did they just open your profile?' Leave every other slide as it is."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 3",
+      "line": "So you send a DM. And while you wait, the 'typing…' starts, stops, then starts again. Did they just open your profile?",
+      "why": "scene narration; second slide of setup before any commentary",
+      "try": "You DM. 'Typing…' starts and stops for a while. Long enough to open your profile."
+     },
+     {
+      "where": "slide 2",
+      "line": "You find the perfect festive kurta set on a boutique page. No price on the post. No price in the caption. Just 'DM for price'.",
+      "why": "scene narration with an engineered stacked beat",
+      "try": "Every festive kurta set on a boutique page has the same line where the price should be. 'DM for price.'"
+     },
+     {
+      "where": "cover",
+      "line": "The kurta has one price. The chat might have many.",
+      "why": "hedged 'might' softens the verdict; mirrored pair",
+      "try": "Same kurta. A different price for every chat."
+     }
+    ],
+    "best": "In a chat, your number and the next person's number don't have to match. Call it the profile tax."
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Not Varun (slide 3): 'So you send a DM. And while you wait, the 'typing…' starts, stops, then starts again. Did they just open your profile?' reads as scene narration; second slide of setup before any commentary. Say it the way he would, e.g. 'You DM. 'Typing…' starts and stops for a while. Long enough to open your profile.' (his register, your words, same facts).",
+    "Not Varun (slide 2): 'You find the perfect festive kurta set on a boutique page. No price on the post. No price in the caption. Just 'DM for price'.' reads as scene narration with an engineered stacked beat. Say it the way he would, e.g. 'Every festive kurta set on a boutique page has the same line where the price should be. 'DM for price.'' (his register, your words, same facts).",
+    "Not Varun (cover): 'The kurta has one price. The chat might have many.' reads as hedged 'might' softens the verdict; mirrored pair. Say it the way he would, e.g. 'Same kurta. A different price for every chat.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 5,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 3
+    },
+    "notes": [
+     "Settled: all three earlier notes are fixed. Slide 2 now opens on the pattern ('Every festive kurta set on a boutique page has the same line where the price should be') instead of narrating a scene. Slide 3 is the short beat that was asked for and ends on 'Long enough to open your profile.' The cover sub 'Same kurta. A new price for every chat.' drops the hedge and the mirrored pair. No new hard failures came from these edits.",
+     "slide 2 (optional polish, not blocking): 'It says 'DM for price.'' is a small filler step. You can let the line land straight: '...the same line where the price should be: 'DM for price.'' The facts stay the same and the beat gets tighter."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "varun": {
+    "pass": true,
+    "score": 5,
+    "misses": [],
+    "best": "So you DM. 'Typing…' starts and stops for a while. Long enough to open your profile."
+   }
+  },
+  {
+   "attempt": 2,
+   "reader": {
+    "point": "Sellers who say 'DM for price' may quote different prices to different people based on what they see on your profile, so you could be paying more without knowing.",
+    "reason": "In a chat the seller can see your city, your grid and how urgently you want it, so they can tailor the number to you, unlike a fixed price on a post.",
+    "lost": [
+     {
+      "slide": 7,
+      "why": "says sellers are honest but could overcharge; felt like a mixed message, had to re-read"
+     },
+     {
+      "slide": 4,
+      "why": "'polite reason' for hiding price and then 'a chat gives the seller something' felt like a jump"
+     }
+    ],
+    "ideas": [
+     "'DM for price' lets sellers quote by profile (the profile tax), and you can test it by asking from a friend's account"
+    ],
+    "endings": 2,
+    "point_matches": true,
+    "reason_matches": true
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Unclear (slide 7): a first-time reader got lost here: says sellers are honest but could overcharge; felt like a mixed message, had to re-read. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 4): a first-time reader got lost here: 'polite reason' for hiding price and then 'a chat gives the seller something' felt like a jump. Rewrite that slide so it follows from the one before, or cut it."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 3
+    },
+    "notes": [
+     "slide 4: the earlier note is settled. The seller's usual reasons now lead straight into 'But a price tag can't see who's reading it. A chat can.', which follows from the profile-opening beat on slide 3. Keep it as written.",
+     "slide 7: the earlier note is settled. 'Plenty quote everyone the same. The trouble is you can't tell which ones don't.' now reads as one idea: fair sellers exist, but the private chat hides which is which. Keep it as written.",
+     "slide 3: optional, only if the writer touches this slide again. Every detail in the post is something you see. One small felt beat would land here: your phone face-down on the desk while 'Typing…' flickers, or the buzz when the reply finally comes. Do not add a time or a count."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "varun": {
+    "pass": true,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 8",
+      "line": "We put up with it because the kurta is lovely. The seller feels like a person, not a company. Asking twice feels rude. Bargaining in someone's DMs feels worse.",
+      "why": "stacked 'feels' run reads engineered, and 'lovely' is soft",
+      "try": "We put up with it because the kurta is lovely and the seller feels like a person, not a company. Asking twice feels rude. Bargaining in someone's DMs? Even worse."
+     }
+    ],
+    "best": "So you DM. 'Typing…' starts and stops for a while. Long enough to open your profile."
+   }
+  },
+  {
+   "attempt": 3,
+   "reader": {
+    "point": "Boutiques write 'DM for price' so they can quote different prices to different people based on what they see on your profile, and you can test this by asking from another account.",
+    "reason": "In a private chat the seller can see your city, lifestyle and how desperate you are, so they can charge you a different number, while a posted price has to be the same for everyone.",
+    "lost": [
+     {
+      "slide": 4,
+      "why": "'More comments on the post. Fair enough.' reads oddly, unclear whose voice or what it means"
+     },
+     {
+      "slide": 6,
+      "why": "'Profile tax' appears suddenly as a name; slightly abrupt"
+     },
+     {
+      "slide": 7,
+      "why": "Turns to say many sellers quote everyone the same, which seems to undercut the earlier claim; had to re-read"
+     }
+    ],
+    "ideas": [
+     "'DM for price' lets sellers quote different prices depending on who is asking (the profile tax), and you can test it by asking from a friend's account"
+    ],
+    "endings": 2,
+    "point_matches": true,
+    "reason_matches": true
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Unclear (slide 4): a first-time reader got lost here: 'More comments on the post. Fair enough.' reads oddly, unclear whose voice or what it means. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 6): a first-time reader got lost here: 'Profile tax' appears suddenly as a name; slightly abrupt. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 7): a first-time reader got lost here: Turns to say many sellers quote everyone the same, which seems to undercut the earlier claim; had to re-read. Rewrite that slide so it follows from the one before, or cut it."
+   ]
+  },
+  {
+   "attempt": 4,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 3
+    },
+    "notes": [
+     "All three notes are settled. Slide 4 now opens with 'Ask a seller why the price is hidden', so the reasons have a clear speaker. Slide 7 now names the profile tax only after the 'your number and the next person's number don't have to match' line has set it up. Slide 8 now frames 'plenty quote everyone the same' as a concession that leads straight into 'The problem is the setup', so it no longer undercuts the claim.",
+     "slide 10: 'If the numbers don't match, you just paid the profile tax' is only true if you bought at the higher quote. One way to fix it: 'If the numbers don't match, one of you paid the profile tax.' That keeps the sting and stays accurate.",
+     "slide 3: the 'Typing…' detail is the post's one insider beat. If the writer touches this slide anyway, keep the pause concrete and don't add a time or a count, since that would be a decorative invented specific."
+    ]
+   }
+  },
+  {
+   "attempt": 4,
+   "varun": {
+    "pass": true,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 8",
+      "line": "The problem is the setup. A hidden price means you can't tell the honest seller from the one reading your grid.",
+      "why": "essay voice, abstract 'the setup' before the real point",
+      "try": "But once the price is hidden, you can't tell the honest seller from the one reading your grid."
+     }
+    ],
+    "best": "So you DM. 'Typing…' starts and stops for a while. Long enough to open your profile."
+   }
+  },
+  {
+   "attempt": 4,
+   "reader": {
+    "point": "When a seller hides the price and says 'DM for price', they can see your profile and may quote you a higher price if you look wealthy, so you should test it by asking from another account.",
+    "reason": "Sellers can see your city, your posts and how urgently you want it before quoting, and a hidden price means you can't tell who quotes everyone the same, though the post also says sellers hide prices for a clean feed, changing rates and comment engagement.",
+    "lost": [
+     {
+      "slide": 3,
+      "why": "'Typing… starts and stops' and 'open your profile' felt like a sudden jump, took a moment to see the point"
+     },
+     {
+      "slide": 4,
+      "why": "Sudden 'ask a seller' and 'you'll hear' - not told who these sellers are or where this comes from"
+     },
+     {
+      "slide": 9,
+      "why": "Shifts to why we tolerate it, a new point about politeness; unclear why it follows the seller's setup problem"
+     }
+    ],
+    "ideas": [
+     "Hidden 'DM for price' lets sellers quote different prices based on your profile (the profile tax), and you can test it with a second account",
+     "Why buyers put up with it: the seller feels personal and asking twice feels rude"
+    ],
+    "endings": 3,
+    "point_matches": true,
+    "reason_matches": true
+   }
+  },
+  {
+   "attempt": 4,
+   "problems": [
+    "Unclear (slide 3): a first-time reader got lost here: 'Typing… starts and stops' and 'open your profile' felt like a sudden jump, took a moment to see the point. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 4): a first-time reader got lost here: Sudden 'ask a seller' and 'you'll hear' - not told who these sellers are or where this comes from. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 9): a first-time reader got lost here: Shifts to why we tolerate it, a new point about politeness; unclear why it follows the seller's setup problem. Rewrite that slide so it follows from the one before, or cut it."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-22T12:36:58.944735+00:00",
+ "sources": [
+  {
+   "url": "https://khaitanco.com/thought-leaderships/Indian-Competition-Authority-releases-its-market-study-findings-on-the-Taxi-and-Cab-aggregator-industry",
+   "fact": "The Competition Commission of India's 2022 cab-aggregator market study, as summarised by a law firm, found personalised pricing in controlled experiments, helped by rider data. It also said personalised pricing may not necessarily harm consumers. This is evidence from cab apps, not Instagram sellers.",
+   "stance": "neutral: It shows price personalisation using customer data is real in Indian markets. It says nothing about Instagram sellers, city, profile or how keen a buyer sounds. It also records that the aggregators denied rider attributes affect fares, and that no evidence of personalised pricing was found, so it only partly backs the claim.",
+   "excerpt": "Cab aggregators were perceived to be and found to be (based on the controlled real time experiments) engaging in personalised pricing. | the possession of personalised data on the consumers (i.e., riders) facilitated personalised pricing | There was no evidence to indicate that personalised pricing was practiced by the cab aggregators. | Personalised pricing may not necessarily lead to an adverse impact on consumer welfare",
+   "date": "2022-09-16"
+  },
+  {
+   "url": "https://thinkmarketingmagazine.com/dm-for-price-can-it-kill-your-business-or-can-it-make-it-flourish/",
+   "fact": "A marketing magazine says sellers hide prices mainly to get engagement and start private chats, not to charge different buyers different prices.",
+   "stance": "contradicts: It gives engagement and customer bonding as the reasons for 'DM for price'. It says nothing about quoting by city, profile or how keen the buyer sounds. This is opinion, not research.",
+   "excerpt": "What does a page want the most? The answer is engagement. | When prices are hidden, the first thing people will do is ask about it in the comments, so this increases the engagement. | it creates a bond between the customer and the brand.",
+   "date": "2021-02-16"
+  }
+ ],
+ "verification_cache": {},
+ "draft": {
+  "cover": {
+   "headline": "'DM for price' means the price depends on [who's asking]",
+   "sub": "Same kurta. A new price for every chat."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "'DM for price' doesn't mean the price is tricky. It means the price depends on who's asking.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "Who's asking? Surely it's the same kurta for everyone?"
+   },
+   {
+    "paragraphs": [
+     "Every festive kurta set on a boutique page has the same line where the price should be. It says 'DM for price.'"
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "So you DM. 'Typing…' starts and stops for a while.",
+     "Long enough to open your profile."
+    ],
+    "why_swipe": "Is that thought paranoid, or is something real going on?"
+   },
+   {
+    "paragraphs": [
+     "Ask a seller why the price is hidden and you'll hear the usual reasons. A clean feed. Rates that keep changing. More people asking in the comments, which helps the post."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "All fair. But a price tag can't see who's reading it. A chat can."
+    ],
+    "why_swipe": "What can the chat see?"
+   },
+   {
+    "paragraphs": [
+     "Before they type a number, they can see a lot:\n– your city, from your bio\n– the Goa trips and wedding outfits on your grid\n– how badly you want it, because you wrote 'need it fast for a wedding'"
+    ],
+    "why_swipe": "So what does all that change?"
+   },
+   {
+    "paragraphs": [
+     "A price on the post has to work for everyone. In a chat, your number and the next person's number don't have to match.",
+     "Whatever extra you pay for looking like you can afford it, call it the profile tax."
+    ],
+    "why_swipe": "Does every seller charge it?"
+   },
+   {
+    "paragraphs": [
+     "Not every seller does. Most of these pages are one or two people, and plenty quote everyone the same.",
+     "The problem is the setup. A hidden price means you can't tell the honest seller from the one reading your grid."
+    ],
+    "why_swipe": "Then why do we keep buying this way?"
+   },
+   {
+    "paragraphs": [
+     "We put up with it because the kurta is lovely. The seller feels like a person, not a company. Asking twice feels rude. Bargaining in someone's DMs feels worse."
+    ],
+    "why_swipe": "Is there a way to find out?"
+   },
+   {
+    "paragraphs": [
+     "Try it once. Ask again from a friend's account, same kurta, same size.",
+     "If the numbers don't match, you just paid the profile tax."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Read it again before you DM a boutique for your next wedding outfit.",
+   "send": "Send to the friend who buys every wedding outfit from Instagram boutiques and never asks twice.",
+   "promise": "How selling in India really works."
+  },
+  "alt_text": "A text-only Instagram carousel arguing that when small Instagram sellers write 'DM for price', a private chat lets them see your city, your profile and how keen you are before quoting, so your price and the next person's price don't have to match. It calls the extra you might pay for looking able to afford it the profile tax. It notes that many sellers quote everyone the same, but a hidden price means buyers can't tell which ones do. It ends with a test: ask for the same item from a friend's account and compare the two prices.",
+  "claims": []
+ }
 }

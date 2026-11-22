@@ -1,42 +1,86 @@
 [
  {
-  "due": "2026-12-22T20:30:00+05:30",
+  "due": "2026-12-01T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "We fight the fees we can see",
-   "claim": "We spend ten minutes angry about a ₹15 platform fee and sign a loan with a ₹5,000 processing fee without reading the page.",
-   "moment": "You uninstall a food app over a new fee and then tick 'I agree' on a personal loan in thirty seconds.",
+   "title": "Service charge runs on shame",
+   "claim": "We pay restaurant service charge not because we agree with it, but because asking to remove it in front of friends costs more than the money.",
+   "moment": "The bill arrives with 10% service charge, someone notices, and nobody says a word.",
    "turn": {
-    "believed": "We're careful about money.",
-    "actually": "We're careful about fees that show up on a screen we look at every day."
+    "believed": "It's a fixed part of the bill.",
+    "actually": "It's a charge that depends on you being too awkward to object."
    },
-   "feeling": "Embarrassed, because I know exactly which fee I ignored.",
-   "villain": "Pricing that puts big costs in fine print and small costs on the checkout screen",
+   "feeling": "I knew and still paid.",
+   "villain": "Bills designed so the only way out is a public conversation",
    "story_type": "objection",
-   "because": "A small fee we see every day feels like an insult. A big fee we see once, in small type, doesn't feel like anything.",
-   "payoff": "The fee you complain about is rarely the fee that costs you the most.",
+   "because": "The restaurant knows group dinners are about looking easy-going. Embarrassment does the collecting for them.",
+   "payoff": "Some charges are priced in rupees. This one is priced in awkwardness.",
    "lived": false,
-   "behaviour": "People rage about delivery and convenience fees but accept loan, insurance and card charges unread.",
-   "mechanism": "We react to what we can see often, not to what costs the most.",
-   "group": "Young earners with their first loans and cards",
+   "behaviour": "Groups split bills to the rupee on UPI but leave the service charge alone.",
+   "mechanism": "Social pressure makes a disputed charge feel compulsory.",
+   "group": "Young professionals who eat out with friends",
    "territory": "money_status",
    "mood": "sharp",
    "format_name": "price_tells",
-   "send_to": "The friend who switched apps over ₹10 and has never read their loan agreement.",
-   "format_hint": "carousel",
-   "why_now": "App fees are now a regular thing to be angry about, while loan fees still pass without notice.",
-   "needs_facts": false,
+   "send_to": "The friend who always pays the bill and secretly hates the service charge",
+   "format_hint": "single",
+   "why_now": "December means a season of group dinners and office parties.",
+   "needs_facts": "The current legal position on service charge in India (CCPA guidelines and court rulings), stated exactly as the sources state it",
    "news_peg": null,
    "evidence": [],
-   "id": "2026-11-201209-039",
+   "id": "2026-11-221241-037",
    "score": {
     "rank": 1,
-    "why": "We rage at a visible ₹15 fee and sign a loan's big fee unread; a problem the reader didn't know they had, and it stings.",
+    "why": "Everyone has sat at that table and said nothing; the charge is collected by awkwardness, not by the menu.",
     "scores": {
      "relatable": 5,
      "fresh_angle": 4,
      "shareable": 5,
-     "saveable": 4,
+     "saveable": 3,
+     "because": 5
+    },
+    "format_fit": "single"
+   }
+  }
+ },
+ {
+  "due": "2026-12-02T20:30:00+05:30",
+  "format": "carousel",
+  "topic": {
+   "title": "The invite list is a blame list",
+   "claim": "A meeting with eleven people on the invite was never called to decide something; it was called so nobody has to decide alone.",
+   "moment": "A calendar invite titled 'Quick sync' with half the floor on it and no agenda.",
+   "turn": {
+    "believed": "Big meetings happen because many people need to give input.",
+    "actually": "Each extra name spreads the risk if the decision goes wrong."
+   },
+   "feeling": "My whole day went into rooms where nothing happened.",
+   "villain": "Org structures that punish wrong calls more than slow ones",
+   "story_type": "teaching",
+   "because": "When a decision can go wrong, the safest move is to have everyone in the room. Then the mistake belongs to nobody.",
+   "payoff": "The number of people in a meeting tells you how scared the organiser is.",
+   "lived": true,
+   "behaviour": "Teams add stakeholders to every call and end with 'let's take this offline'.",
+   "mechanism": "Shared decisions mean shared blame, which means no blame.",
+   "group": "Mid-level employees in big companies",
+   "territory": "business_brands",
+   "mood": "funny",
+   "format_name": "behind_the_brand",
+   "send_to": "The colleague with back-to-back meetings and nothing done",
+   "format_hint": "carousel",
+   "why_now": "Calendars are full of planning meetings before the new financial year.",
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-11-221241-028",
+   "score": {
+    "rank": 3,
+    "why": "Eleven names on a 'quick sync' invite is a way to spread the blame, and anyone with a calendar has seen it.",
+    "scores": {
+     "relatable": 5,
+     "fresh_angle": 4,
+     "shareable": 5,
+     "saveable": 3,
      "because": 5
     },
     "format_fit": "carousel"
@@ -44,82 +88,104 @@
   }
  },
  {
-  "due": "2026-12-23T20:30:00+05:30",
+  "due": "2026-12-03T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "Moving back costs the second offer",
-   "claim": "Moving back to a tier-2 city saves you rent but quietly costs you something nobody counts: your next job offer.",
-   "moment": "You work remotely from your hometown, life is cheaper, and the recruiter calls stop.",
-   "turn": {
-    "believed": "Moving back is just a cost-of-living win.",
-    "actually": "Big cities pay you for the options you have, not just the job you hold."
-   },
-   "feeling": "Happier at home, and slowly afraid I've fallen off the map.",
-   "villain": "Job markets packed into a few metros",
-   "story_type": "vision",
-   "because": "Your salary rises when another company wants you. Fewer companies around you means fewer reasons for anyone to pay you more.",
-   "payoff": "Before you move, count how many companies within an hour of you would hire you tomorrow. That's what you're giving up.",
-   "lived": true,
-   "behaviour": "Professionals move home for remote roles and see their salary growth slow down.",
-   "mechanism": "Pay grows with competing offers, and offers live in metros.",
-   "group": "Remote and hybrid professionals weighing a move home",
-   "territory": "life_relationships",
+   "title": "Why Jailer 2 felt different at home",
+   "claim": "A film isn't only the film, it's also the hall around it, and that's why a crowd-pleaser can feel 'overrated' once it reaches your sofa.",
+   "behaviour": "Viewers loved the same film in a packed theatre and then argued online about whether it was mediocre once Jailer 2 reached Prime Video on Nov 12.",
+   "mechanism": "Mass films are built for a shared reaction: whistles, claps, a crowd that cheers before the punchline. At home, with a phone in your hand, nobody is cheering with you, so the writing has to carry itself.",
+   "group": "Film-loving Indians who watch big stars' films both in theatres and on OTT",
+   "territory": "pop_culture",
    "mood": "mixed",
-   "format_name": "family_ledger",
-   "send_to": "The friend who keeps saying 'I'll just work from home in my city'.",
-   "format_hint": "carousel",
-   "why_now": "Remote roles are shrinking while metro rents keep rising, and a lot of people are doing this maths right now.",
+   "format_name": "saturday_single",
+   "moment": "You press play at home on a film everyone screamed through in the hall, and you find yourself checking your phone.",
+   "turn": {
+    "believed": "If a film felt great in the theatre and flat at home, one of the two opinions is wrong.",
+    "actually": "Both are right. Half the pleasure of a mass film was the crowd, and you can't stream the crowd."
+   },
+   "feeling": "Confused that the same film could feel so different, then relieved it's not just you",
+   "villain": "A release model that sells a group experience and then delivers it to a solitary screen",
+   "story_type": "teaching",
+   "because": "Mass entertainers are written for crowd reaction, and the theatre does half the work. OTT removes the crowd, and also its collective forgiveness.",
+   "proof": [
+    {
+     "fact": "Jailer 2 began streaming on Prime Video on November 12 and viewers were split; defenders said theatre-crowd comedy doesn't land at home.",
+     "source_url": "https://www.m9.news/what-to-watch-on-ott/jailer-2-ott-response-rajinikanth-prime-video/",
+     "date": "2026-11-15"
+    }
+   ],
+   "lived": false,
+   "payoff": "Test: next time a film disappoints at home, ask yourself whether you'd have loved it with 300 strangers shouting around you.",
+   "send_to": "The friend who keeps saying a film was 'overrated' after watching it on OTT",
+   "format_hint": "single",
+   "real_details": [
+    "Fans praised the Hrithik Roshan cameo and the interval sequence"
+   ],
+   "evidence": [
+    {
+     "url": "https://www.m9.news/what-to-watch-on-ott/jailer-2-ott-response-rajinikanth-prime-video/",
+     "sub": "news",
+     "rank": 43
+    },
+    {
+     "url": "https://www.filmibeat.com/ott/jailer-2-on-prime-video-fans-celebrate-rajinikanths-magic-call-hrithik-roshans-cameo-a-highlight-534339.html",
+     "sub": "news",
+     "rank": 44
+    }
+   ],
+   "news_peg": "Jailer 2 began streaming on Prime Video on Nov 12, 2026, with viewer reactions reported Nov 14 and 15",
+   "why_now": "The OTT debate is playing out this week, right after the film's theatrical run.",
+   "counterintuitive": true,
    "needs_facts": false,
-   "news_peg": null,
-   "evidence": [],
-   "id": "2026-11-201209-042",
+   "id": "2026-11-221241-023",
    "score": {
-    "rank": 2,
-    "why": "Going home looks like a cost win, but you give up the job options that push your salary up; mixed feelings, a real turn.",
+    "rank": 4,
+    "why": "A film feels flat at home because you can't stream the crowd; both opinions are right.",
     "scores": {
      "relatable": 4,
      "fresh_angle": 5,
      "shareable": 4,
-     "saveable": 4,
+     "saveable": 3,
      "because": 4
     },
-    "format_fit": "carousel"
+    "format_fit": "single"
    }
   }
  },
  {
-  "due": "2026-12-24T20:30:00+05:30",
+  "due": "2026-12-07T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "The hamper is a sales cost",
-   "claim": "The Diwali hamper that lands at your desk from a vendor isn't gratitude; it's next year's deal, gift-wrapped.",
-   "moment": "A dry-fruit box with a vendor's logo arrives the week before Diwali, addressed to whoever signs the purchase order.",
+   "title": "The down payment comes with a room",
+   "claim": "When parents help with the down payment, the flat comes with a room already planned for them, and nobody ever says that's the deal.",
+   "moment": "Picking the 3BHK over the 2BHK because 'mummy-papa will come sometimes'.",
    "turn": {
-    "believed": "Corporate gifts are festive goodwill.",
-    "actually": "They're a sales budget line, sent to whoever decides the next contract."
+    "believed": "It's a gift.",
+    "actually": "It's an arrangement, and the terms show up in the floor plan."
    },
-   "feeling": "Flattered, then aware I'm being worked on.",
-   "villain": "Business-to-business sales that run on relationships",
-   "story_type": "teaching",
-   "because": "In deals between companies, the person who decides is worth more than the price. A hamper is a cheap reminder of who remembered them.",
-   "payoff": "Notice who in your office gets the biggest box. That's who really decides what gets bought.",
-   "lived": false,
-   "behaviour": "Vendors send festive gifts mostly to procurement and decision-makers.",
-   "mechanism": "Goodwill with the person who signs is cheaper than winning on price.",
-   "group": "Office workers in mid-size and large companies",
-   "territory": "business_brands",
-   "mood": "funny",
-   "format_name": "behind_the_brand",
-   "send_to": "The colleague whose desk turned into a dry-fruit shop this Diwali.",
+   "feeling": "It's my house, but it doesn't feel like only mine.",
+   "villain": "Flat prices so high that buying needs family money",
+   "story_type": "values",
+   "because": "A flat costs a decade of salary, so families pool money. Pooled money brings pooled say, and the floor plan shows it.",
+   "payoff": "Look at who chose the tiles. That's who owns the house.",
+   "lived": true,
+   "behaviour": "Young couples buy bigger flats than they need and pick them with parents.",
+   "mechanism": "Whoever puts in the money gets a say, even if nobody says it.",
+   "group": "Couples buying their first flat",
+   "territory": "life_relationships",
+   "mood": "mixed",
+   "format_name": "family_ledger",
+   "send_to": "The friend who is house-hunting with their parents on the video call",
    "format_hint": "carousel",
-   "why_now": "Diwali hampers have just done their rounds, so everyone has a fresh example.",
+   "why_now": "First-time buyers keep relying on family for down payments as prices climb.",
    "needs_facts": false,
    "news_peg": null,
    "evidence": [],
-   "id": "2026-11-201209-044",
+   "id": "2026-11-221241-043",
    "score": {
-    "rank": 3,
-    "why": "The vendor's Diwali hamper is next year's deal in gift wrap; funny, a desk everyone has seen, and a hidden motive.",
+    "rank": 8,
+    "why": "The floor plan shows the unspoken family arrangement behind the down payment, told with affection.",
     "scores": {
      "relatable": 4,
      "fresh_angle": 4,
@@ -132,60 +198,126 @@
   }
  },
  {
-  "due": "2026-12-25T20:30:00+05:30",
+  "due": "2026-12-08T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "The phone shop sells you the EMI, not the phone",
-   "claim": "When phone prices jump, the real gatekeeper is not the price tag but the loan approval at the counter.",
-   "behaviour": "Buyers walk in with a budget, get pointed to an EMI scheme, and leave with a cheaper brand, a refurbished phone or nothing. Total sales value stays flat while fewer phones leave the shop.",
-   "mechanism": "When components cost more, sellers keep the sales value up by raising prices, and the shopper's real filter becomes credit. Tighter loan checks decide who goes home with a phone.",
-   "group": "Young salaried buyers upgrading a phone on instalments",
-   "territory": "money_status",
-   "mood": "sharp",
-   "format_name": "price_tells",
-   "moment": "You pick the phone, the shopkeeper says 'EMI ho jayegi', and then the approval does not come through.",
+   "title": "Members stop checking prices",
+   "claim": "Every app wants you to be a 'member' because a member stops checking the price.",
+   "moment": "Paying for a delivery pass and then ordering more just to 'make it worth it'.",
    "turn": {
-    "believed": "A phone is expensive, so you save up and buy it.",
-    "actually": "Most phones are bought on credit, so whether the lender says yes matters as much as the price."
+    "believed": "Membership saves you money.",
+    "actually": "Membership changes how often you order and kills the habit of comparing."
    },
-   "feeling": "behind, as if you are being judged at the counter",
-   "villain": "A retail model that depends on instalment credit and tight underwriting",
+   "feeling": "I'm paying to be loyal to an app.",
+   "villain": "Subscription passes built around habit, not savings",
    "story_type": "teaching",
-   "because": "Rising memory costs push prices up and shops lean on loans to close sales. When lenders tighten, the shop loses the buyer and the buyer loses the phone.",
-   "proof": [
-    {
-     "fact": "Offline phone volumes fell 18-20% from Dhanteras (6 Nov) to the day after Diwali, while sales value stayed broadly flat because prices rose.",
-     "source_url": "https://inc42.com/buzz/retail-smartphone-sales-tanked-20-in-2026-diwali-season-aimra/",
-     "date": "2026-11-11"
-    },
-    {
-     "fact": "Retailers said only 60-70% of logged loan applications were approved.",
-     "source_url": "https://inc42.com/buzz/retail-smartphone-sales-tanked-20-in-2026-diwali-season-aimra/",
-     "date": "2026-11-11"
-    }
-   ],
+   "because": "Once you've paid upfront, you open that one app first and skip the others. The app gains your next fifty orders.",
+   "payoff": "Test: total your orders in the month before and after you joined.",
    "lived": false,
-   "payoff": "Ask the shop for the full price instead of the monthly number. That is the phone you can actually afford.",
-   "send_to": "The friend who has changed phones twice on EMI and never knew the total",
+   "behaviour": "Users buy food, grocery and shopping passes and order more often.",
+   "mechanism": "A fee paid upfront feels wasted unless you keep using the app.",
+   "group": "Frequent food and grocery app users",
+   "territory": "money_status",
+   "mood": "dark_pattern",
+   "format_name": "price_tells",
+   "send_to": "The friend with four memberships and no idea which ones renew",
    "format_hint": "carousel",
-   "real_details": [
-    "Value-conscious buyers moved to HMD, Lava, Ai+, Tecno and itel, or to pre-owned and refurbished phones"
-   ],
-   "evidence": [
-    {
-     "url": "https://inc42.com/buzz/retail-smartphone-sales-tanked-20-in-2026-diwali-season-aimra/",
-     "sub": "news",
-     "rank": 8
-    }
-   ],
-   "news_peg": "AIMRA said retail smartphone volumes fell 18-20% across Diwali week, reported 2026-11-11",
-   "why_now": "Post-Diwali phone numbers show who could not complete a purchase.",
-   "counterintuitive": true,
-   "needs_facts": true,
-   "id": "2026-11-201209-003",
+   "why_now": "More and more apps now push paid passes at checkout.",
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-11-221241-036",
    "score": {
-    "rank": 6,
-    "why": "At the phone counter, the EMI approval decides what you can buy as much as the price does; the feeling of being judged at the counter, with one sourced figure.",
+    "rank": 5,
+    "why": "We order more just to make the pass worth it and stop comparing prices; paying upfront turns you into a loyal customer.",
+    "scores": {
+     "relatable": 5,
+     "fresh_angle": 4,
+     "shareable": 4,
+     "saveable": 4,
+     "because": 4
+    },
+    "format_fit": "carousel"
+   }
+  }
+ },
+ {
+  "due": "2026-12-09T20:30:00+05:30",
+  "format": "carousel",
+  "topic": {
+   "title": "The 10pm 'urgent' ping",
+   "claim": "Most 10pm 'urgent' messages aren't urgent; your manager is passing their worry down the chain so that tomorrow they can say it's with you.",
+   "moment": "Phone buzzes during dinner: 'Can you look at this when you get a chance? Bit urgent.'",
+   "turn": {
+    "believed": "Late-night pings mean something is on fire.",
+    "actually": "Usually nothing changes before 10am; the message moves the blame, not the work."
+   },
+   "feeling": "I'm never really off.",
+   "villain": "Always-on chat tools that timestamp who knew what and when",
+   "story_type": "objection",
+   "because": "Once the message is sent, the sender is covered. The timestamp is proof they acted, even if nothing can be done till morning.",
+   "payoff": "Test: check what actually happened to the last three 'urgent' messages you answered at night.",
+   "lived": false,
+   "behaviour": "People reply to night messages within minutes, and the work still starts at 10am.",
+   "mechanism": "Forwarding a problem protects the sender more than it solves anything.",
+   "group": "Young professionals with a manager who is always online",
+   "territory": "business_brands",
+   "mood": "sharp",
+   "format_name": "saturday_single",
+   "send_to": "The friend who answers Slack from the dinner table",
+   "format_hint": "single",
+   "why_now": "Year-end targets bring the most of these late-night pings.",
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-11-221241-027",
+   "score": {
+    "rank": 12,
+    "why": "The 10pm 'urgent' ping moves blame, not work, and the timestamp is the proof.",
+    "scores": {
+     "relatable": 5,
+     "fresh_angle": 4,
+     "shareable": 5,
+     "saveable": 3,
+     "because": 4
+    },
+    "format_fit": "single"
+   }
+  }
+ },
+ {
+  "due": "2026-12-10T20:30:00+05:30",
+  "format": "carousel",
+  "topic": {
+   "title": "The first loan teaches the second",
+   "claim": "The first pre-approved loan isn't really about that purchase; it teaches you that borrowing takes one tap, and the bank is counting on the second.",
+   "moment": "An app banner says 'You're pre-approved for ₹3,00,000, get it in 2 minutes'.",
+   "turn": {
+    "believed": "Pre-approved means the bank trusts you.",
+    "actually": "Pre-approved means the bank has picked you as a target."
+   },
+   "feeling": "I didn't mean to borrow; it just happened.",
+   "villain": "One-tap credit offers built into payment and banking apps",
+   "story_type": "teaching",
+   "because": "A customer who has repaid one small loan is the cheapest person to lend to again. Every tap you skip is a reason to stop and think that is gone.",
+   "payoff": "If it takes two minutes to borrow, ask what it'll take to repay.",
+   "lived": true,
+   "behaviour": "Young earners take small personal loans for phones, trips and weddings through apps.",
+   "mechanism": "Easy first loans build the habit of borrowing.",
+   "group": "Salaried 24 to 30 year olds",
+   "territory": "money_status",
+   "mood": "dark_pattern",
+   "format_name": "price_tells",
+   "send_to": "The younger cousin who just got their first salary and a loan offer with it",
+   "format_hint": "carousel",
+   "why_now": "Loan offers inside apps now show up next to every payment.",
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-11-221241-039",
+   "score": {
+    "rank": 7,
+    "why": "The pre-approved banner isn't trust, it's targeting; it teaches that borrowing takes one tap.",
     "scores": {
      "relatable": 4,
      "fresh_angle": 4,
@@ -194,6 +326,94 @@
      "because": 4
     },
     "format_fit": "carousel"
+   }
+  }
+ },
+ {
+  "due": "2026-12-11T20:30:00+05:30",
+  "format": "carousel",
+  "topic": {
+   "title": "We pay for new shows and watch old ones",
+   "claim": "We pay for four streaming apps to see what's new, and then spend Friday night rewatching a sitcom we know by heart.",
+   "moment": "Twenty minutes of scrolling, then 'let's just put on the old one'.",
+   "turn": {
+    "believed": "New shows are why we subscribe.",
+    "actually": "New shows get you in; the old familiar ones keep you paying."
+   },
+   "feeling": "I'm too tired to try anything new and feel lazy about it.",
+   "villain": "Streaming models that sell sign-ups on new shows and keep you with comfort ones",
+   "story_type": "teaching",
+   "because": "After a long day, the brain wants something with no surprises. Platforms pay big for old shows because they keep people from cancelling.",
+   "payoff": "The show you rewatch is the subscription you'll never cancel.",
+   "lived": false,
+   "behaviour": "People browse for new titles and settle on rewatches.",
+   "mechanism": "Tired people pick the familiar, and platforms make money from that.",
+   "group": "Working people who stream on weeknights",
+   "territory": "pop_culture",
+   "mood": "funny",
+   "format_name": "feed_anthropology",
+   "send_to": "The partner who always ends up putting on the same show",
+   "format_hint": "single",
+   "why_now": "Streaming prices keep going up while what we actually watch stays the same.",
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-11-221241-047",
+   "score": {
+    "rank": 9,
+    "why": "We subscribe for new shows and pay for the old sitcom we rewatch; it's a lived Friday-night moment.",
+    "scores": {
+     "relatable": 5,
+     "fresh_angle": 4,
+     "shareable": 4,
+     "saveable": 2,
+     "because": 4
+    },
+    "format_fit": "single"
+   }
+  }
+ },
+ {
+  "due": "2026-12-14T20:30:00+05:30",
+  "format": "carousel",
+  "topic": {
+   "title": "The transfer nobody counts",
+   "claim": "The generation called bad with money sends a fixed amount home on the 1st of every month, and nobody counts that as saving.",
+   "moment": "Salary credited, rent paid, ₹15,000 to papa's account before anything else.",
+   "turn": {
+    "believed": "Young earners spend everything on themselves.",
+    "actually": "Many quietly run a second household's budget before their own."
+   },
+   "feeling": "I'm doing more than anyone gives me credit for.",
+   "villain": "Money advice that only counts what goes into your own account",
+   "story_type": "values",
+   "because": "Support for parents doesn't show up in any savings chart. So the people doing it look broke on paper.",
+   "payoff": "Add that transfer to your savings rate once. You're doing better than you thought.",
+   "lived": false,
+   "behaviour": "Young earners send money home monthly and still get called careless.",
+   "mechanism": "Money sent to family is invisible in personal finance maths.",
+   "group": "Earners supporting parents",
+   "territory": "money_status",
+   "mood": "warm",
+   "format_name": "family_ledger",
+   "send_to": "The friend who sends money home and feels behind anyway",
+   "format_hint": "single",
+   "why_now": "Year-end money posts make people feel bad about savings they can't show.",
+   "needs_facts": false,
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-11-221241-044",
+   "score": {
+    "rank": 11,
+    "why": "The generation called bad with money funds a second household before its own, and no savings chart counts it.",
+    "scores": {
+     "relatable": 4,
+     "fresh_angle": 4,
+     "shareable": 5,
+     "saveable": 3,
+     "because": 4
+    },
+    "format_fit": "single"
    }
   }
  }

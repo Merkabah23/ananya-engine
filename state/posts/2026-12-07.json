@@ -1,6 +1,6 @@
 {
  "id": "2026-12-07",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-12-10T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -43,6 +43,477 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-11-19T13:05:05.589014+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "18. Stale price, slide 4: \"Sirf ₹40,000 a month, sir.\" (built on the ₹50 lakh loan in slides 5-6). Today the reader's flat costs ₹1-3 crore and the EMI on it runs ₹80,000-2,00,000. A ₹40,000 EMI on a ₹50 lakh loan makes a big-city 25-32 year old think \"which flat is that?\" Scale the example to a ₹1 crore loan."
+    ],
+    "scores": {
+     "hook": 5,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 5,
+     "informative": 5
+    },
+    "notes": [
+     "slides 4-6: Double the sourced example to a ₹1 crore loan. At the same rate the EMI scales exactly, so every number still traces to the NoBroker table. Name the rate as 8.5% instead of \"a steady rate\". New figures: 10 years gives an EMI of ₹1,24,048 and interest of ₹48.86 lakh. 25 years gives an EMI of ₹80,522 and interest of about ₹1.42 crore. You save about ₹43,500 a month and pay about ₹93 lakh more. The interest is still bigger than the loan. Slide 4 becomes \"Sirf ₹80,000 a month, sir.\" Add each scaled number to claims with a derived_from (for example, ₹40,261 × 2 = ₹80,522).",
+     "slide 7: The 'because' rests only on assertion. Add the sourced receipt that shows the EMI is the number everyone manages. Suggested line: \"When rates went up in 2022, banks kept EMIs the same and added years instead. 20-year loans quietly became 24.\" Add the indiainfoline source to claims. This turns 'both win' from an opinion into something the reader can see happened.",
+     "slide 8: \"Even the big property reports play along\" implies a deliberate motive the source doesn't support (the source is neutral). Name the report and its yardstick plainly. Suggested line: \"Even Knight Frank's affordability index calls a flat affordable if EMIs eat half your household income or less.\" Then keep the punch: \"By that yardstick, any flat is affordable. You just need a long enough loan.\"",
+     "slide 3: As its own card, this one sight line slows the swipe and only sets the scene. Either merge it into slide 4 as the opening sentence, or give it one non-visual detail that carries the staged feel. For example, the AC is set to 18 in an empty flat, or there's the smell of fresh paint in a room nobody lives in.",
+     "slide 9: \"A flat costs a decade of salary now\" reads as a stated statistic with no source. Make it plainly his view, for example \"Flat prices ran away from salaries long ago, and the long tenure is often the only door that opens.\" That keeps the concession without an unsourced figure."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "18. Stale price, slide 4: \"Sirf ₹40,000 a month, sir.\" (built on the ₹50 lakh loan in slides 5-6). Today the reader's flat costs ₹1-3 crore and the EMI on it runs ₹80,000-2,00,000. A ₹40,000 EMI on a ₹50 lakh loan makes a big-city 25-32 year old think \"which flat is that?\" Scale the example to a ₹1 crore loan.",
+    "slides 4-6: Double the sourced example to a ₹1 crore loan. At the same rate the EMI scales exactly, so every number still traces to the NoBroker table. Name the rate as 8.5% instead of \"a steady rate\". New figures: 10 years gives an EMI of ₹1,24,048 and interest of ₹48.86 lakh. 25 years gives an EMI of ₹80,522 and interest of about ₹1.42 crore. You save about ₹43,500 a month and pay about ₹93 lakh more. The interest is still bigger than the loan. Slide 4 becomes \"Sirf ₹80,000 a month, sir.\" Add each scaled number to claims with a derived_from (for example, ₹40,261 × 2 = ₹80,522).",
+    "slide 7: The 'because' rests only on assertion. Add the sourced receipt that shows the EMI is the number everyone manages. Suggested line: \"When rates went up in 2022, banks kept EMIs the same and added years instead. 20-year loans quietly became 24.\" Add the indiainfoline source to claims. This turns 'both win' from an opinion into something the reader can see happened.",
+    "slide 8: \"Even the big property reports play along\" implies a deliberate motive the source doesn't support (the source is neutral). Name the report and its yardstick plainly. Suggested line: \"Even Knight Frank's affordability index calls a flat affordable if EMIs eat half your household income or less.\" Then keep the punch: \"By that yardstick, any flat is affordable. You just need a long enough loan.\"",
+    "slide 3: As its own card, this one sight line slows the swipe and only sets the scene. Either merge it into slide 4 as the opening sentence, or give it one non-visual detail that carries the staged feel. For example, the AC is set to 18 in an empty flat, or there's the smell of fresh paint in a room nobody lives in.",
+    "slide 9: \"A flat costs a decade of salary now\" reads as a stated statistic with no source. Make it plainly his view, for example \"Flat prices ran away from salaries long ago, and the long tenure is often the only door that opens.\" That keeps the concession without an unsourced figure."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 5
+    },
+    "notes": []
+   }
+  },
+  {
+   "attempt": 1,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 3",
+      "line": "The sample flat has plastic fruit on the dining table and a bed nobody has slept in. The AC hums at 18 in a flat with no one in it.",
+      "why": "scene narration, no commentary, 'hums' is written-word",
+      "try": "Everything in the sample flat is staged to sell. Plastic fruit on the table, AC at 18 for an empty room. Even the bed's never been slept in."
+     },
+     {
+      "where": "slide 9",
+      "line": "It isn't foolishness. Flat prices ran away from salaries long ago, and the long tenure is often the only door that opens. But know what you're signing. Your last EMI may clear around your retirement party.",
+      "why": "coach voice, 'Not X' setup, unasked advice, stiff 'tenure'",
+      "try": "Nobody's being stupid here. Flat prices left salaries behind long ago, and a long loan is often the only way in. Oh, and your last EMI might clear around your retirement party."
+     },
+     {
+      "where": "slide 8",
+      "line": "By that yardstick, any flat is affordable. You just need a long enough loan.",
+      "why": "stiff written word 'yardstick'",
+      "try": "By that math, every flat is affordable. You just need a long enough loan."
+     }
+    ],
+    "best": "Then watch how long he takes to find it."
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Not Varun (slide 3): 'The sample flat has plastic fruit on the dining table and a bed nobody has slept in. The AC hums at 18 in a flat with no one in it.' reads as scene narration, no commentary, 'hums' is written-word. Say it the way he would, e.g. 'Everything in the sample flat is staged to sell. Plastic fruit on the table, AC at 18 for an empty room. Even the bed's never been slept in.' (his register, your words, same facts).",
+    "Not Varun (slide 9): 'It isn't foolishness. Flat prices ran away from salaries long ago, and the long tenure is often the only door that opens. But know what you're signing. Your last EMI may clear around your retirement party.' reads as coach voice, 'Not X' setup, unasked advice, stiff 'tenure'. Say it the way he would, e.g. 'Nobody's being stupid here. Flat prices left salaries behind long ago, and a long loan is often the only way in. Oh, and your last EMI might clear around your retirement party.' (his register, your words, same facts).",
+    "Not Varun (slide 8): 'By that yardstick, any flat is affordable. You just need a long enough loan.' reads as stiff written word 'yardstick'. Say it the way he would, e.g. 'By that math, every flat is affordable. You just need a long enough loan.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 4,
+     "iq": 5,
+     "story": 4,
+     "tight": 4,
+     "clear": 5,
+     "informative": 5
+    },
+    "notes": [
+     "All three notes are settled. Slide 3 now carries commentary ('Everything in the sample flat is set up to sell.') in his register. Slide 8 says 'By that math'. Slide 9 drops the coach voice and keeps the retirement-party sting. No edit broke anything, and no new persona, invented-specific or mechanism problem appears. Ready for the owner."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "varun": {
+    "pass": true,
+    "score": 5,
+    "misses": [],
+    "best": "By that math, every flat is affordable. You just need a long enough loan."
+   }
+  },
+  {
+   "attempt": 2,
+   "reader": {
+    "point": "Long home loans make the monthly EMI look affordable but cost you far more in total interest, so you should ask for the total amount payable before buying a flat.",
+    "reason": "Sellers, banks and builders all benefit when buyers focus only on the EMI and not the total, and flat prices have outrun salaries so long loans feel necessary.",
+    "lost": [
+     {
+      "slide": 3,
+      "why": "sample flat details feel like a tangent, link to the EMI point not clear yet"
+     },
+     {
+      "slide": 7,
+      "why": "2022 rate rise and EMIs held steady while years added came from nowhere, took a re-read to link to the 25-year point"
+     },
+     {
+      "slide": 8,
+      "why": "Knight Frank index appears suddenly, had to guess how half of income rule ties in"
+     },
+     {
+      "slide": 9,
+      "why": "turns to 'nobody's being stupid' and a retirement joke, abrupt shift in tone"
+     }
+    ],
+    "ideas": [
+     "Long loans hide the real cost behind a low EMI, shown by the 10 vs 25 year example and the sales pitch, ending with asking for total payable",
+     "Banks and builders gain from rate-hike tenure extension",
+     "Knight Frank affordability index defines affordable by EMI share of income"
+    ],
+    "endings": 3,
+    "point_matches": true,
+    "reason_matches": true
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Unclear (slide 3): a first-time reader got lost here: sample flat details feel like a tangent, link to the EMI point not clear yet. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 7): a first-time reader got lost here: 2022 rate rise and EMIs held steady while years added came from nowhere, took a re-read to link to the 25-year point. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 8): a first-time reader got lost here: Knight Frank index appears suddenly, had to guess how half of income rule ties in. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 9): a first-time reader got lost here: turns to 'nobody's being stupid' and a retirement joke, abrupt shift in tone. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear: a first-time reader counted 3 separate ideas (Long loans hide the real cost behind a low EMI, shown by the 10 vs 25 year example and the sales pitch, ending with asking for total payable; Banks and builders gain from rate-hike tenure extension; Knight Frank affordability index defines affordable by EMI share of income). Keep one idea and its reason; cut the side arguments."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "All five earlier notes are settled. Slide 3 now follows straight from slide 2's 'the EMI is the only number anyone will show you' by showing that pitch at the site visit. The rate-hike and Knight Frank slides are gone, so the post carries one idea. 'That isn't foolishness' now answers the swipe question before it instead of arriving out of nowhere.",
+     "slide 3: no detail here goes beyond sight. Add one small sound or touch to the calculator moment so the reader is back in the sample flat, for example the beep of the keys or the chill of the sample-flat AC. Keep it within the same sentence count.",
+     "slide 8: 'press one more button. Total amount payable.' A shop calculator has no such button, so a careful reader may stall on it. Change it to 'ask him for one more number: the total amount payable.' This keeps the test real and keeps the jab in 'watch how long he takes to find it.'"
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "varun": {
+    "pass": true,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 7",
+      "line": "And you sign anyway. That isn't foolishness. Flat prices left salaries behind years ago, and a long loan is often the only way in.",
+      "why": "stiff word ('foolishness') plus a hedge ('often') softening the verdict",
+      "try": "And you sign anyway. Not because you're dumb. Flat prices left salaries behind years ago, and for most of us a long loan is the only way in."
+     }
+    ],
+    "best": "The total stays in the small print. Said out loud, it would end the site visit."
+   }
+  },
+  {
+   "attempt": 3,
+   "reader": {
+    "point": "Builders and banks push you to focus on the small monthly EMI of a long loan, hiding that the total interest you pay over 25 years is huge, so you should ask for the total amount payable.",
+    "reason": "A longer loan lowers the EMI but multiplies the interest, and both builder and bank gain when buyers only look at the EMI and not the total.",
+    "lost": [
+     {
+      "slide": 2,
+      "why": "'Said out loud, it would end the site visit' is a bit vague, had to re-read"
+     },
+     {
+      "slide": 5,
+      "why": "'interest ends up bigger than the loan' needed a moment to check against 1.42 crore vs 1 crore; the ~93 lakh figure is not shown as a calculation"
+     },
+     {
+      "slide": 6,
+      "why": "'Which is exactly why the calculator stops at 80,000' leans on earlier slides; 'builder keeps his price' is a little unclear"
+     },
+     {
+      "slide": 7,
+      "why": "Turns to sympathising with the buyer ('you sign anyway'), feels like a shift from the warning"
+     }
+    ],
+    "ideas": [
+     "Long loans make the EMI look affordable while hiding a much larger total interest cost, so ask for the total payable"
+    ],
+    "endings": 2,
+    "point_matches": false,
+    "reason_matches": true
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Unclear: a first-time reader took the point as 'Builders and banks push you to focus on the small monthly EMI of a long loan, hiding that the total interest you pay over 25 years is huge, so you should ask for the total amount payable.'. The cover and slide 2 must make the take obvious in plain words.",
+    "Unclear (slide 2): a first-time reader got lost here: 'Said out loud, it would end the site visit' is a bit vague, had to re-read. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 5): a first-time reader got lost here: 'interest ends up bigger than the loan' needed a moment to check against 1.42 crore vs 1 crore; the ~93 lakh figure is not shown as a calculation. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 6): a first-time reader got lost here: 'Which is exactly why the calculator stops at 80,000' leans on earlier slides; 'builder keeps his price' is a little unclear. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 7): a first-time reader got lost here: Turns to sympathising with the buyer ('you sign anyway'), feels like a shift from the warning. Rewrite that slide so it follows from the one before, or cut it."
+   ]
+  },
+  {
+   "attempt": 4,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3,
+     "clear": 4,
+     "informative": 5
+    },
+    "notes": [
+     "slide 5: \"You borrowed ₹1 crore. You pay back ₹1.42 crore in interest alone.\" repeats the ₹1.42 crore from slide 4. Cut that line. Make the slide a plain trade instead: \"You save about ₹43,500 a month. Over 25 years, that costs you about ₹93 lakh more in interest.\" Add a claims entry: ₹1,24,048 - ₹80,522 = ₹43,526. Then slide 5 adds one new thing, the price of the relief, and no number shows up twice.",
+     "slide 5: \"You save a good chunk every month\" is vague right after slide 4 gave exact figures. Use the ₹43,500 number from the note above so the saving and the cost sit side by side.",
+     "slide 8: \"That bigger EMI is more than many couples take home in a month\" points back to a number from four slides earlier. Name it in the line, \"That ₹1.24 lakh EMI is more than many couples take home in a month\", so the reader doesn't have to scroll back."
+    ]
+   }
+  },
+  {
+   "attempt": 4,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 5",
+      "line": "But the longer loan costs about ₹93 lakh more in interest. That's the extra you pay for the smaller EMI.",
+      "why": "over-explained, spells out the turn",
+      "try": "The price of that relief? About ₹93 lakh more in interest."
+     },
+     {
+      "where": "slide 7",
+      "line": "Both win while you look only at the EMI.",
+      "why": "stiff, written word order",
+      "try": "Both of them win. As long as you keep staring at the EMI."
+     },
+     {
+      "where": "slide 2",
+      "line": "The total you pay over 25 years never comes up, and that's the number that would make you think twice.",
+      "why": "soft cliché close, polite where he'd be blunt",
+      "try": "The total over 25 years never comes up. That's the number that would ruin the site visit."
+     },
+     {
+      "where": "slide 5",
+      "line": "You save a good chunk every month.",
+      "why": "generic and limp setup",
+      "try": "Sure, your EMI drops by a good chunk."
+     },
+     {
+      "where": "slide 6",
+      "line": "So the calculator stops at the monthly number.",
+      "why": "flat connective, narration over commentary",
+      "try": "That's why the calculator never goes past the monthly number."
+     }
+    ],
+    "best": "Then watch how long he takes to find it."
+   }
+  },
+  {
+   "attempt": 4,
+   "problems": [
+    "Not Varun (slide 5): 'But the longer loan costs about ₹93 lakh more in interest. That's the extra you pay for the smaller EMI.' reads as over-explained, spells out the turn. Say it the way he would, e.g. 'The price of that relief? About ₹93 lakh more in interest.' (his register, your words, same facts).",
+    "Not Varun (slide 7): 'Both win while you look only at the EMI.' reads as stiff, written word order. Say it the way he would, e.g. 'Both of them win. As long as you keep staring at the EMI.' (his register, your words, same facts).",
+    "Not Varun (slide 2): 'The total you pay over 25 years never comes up, and that's the number that would make you think twice.' reads as soft cliché close, polite where he'd be blunt. Say it the way he would, e.g. 'The total over 25 years never comes up. That's the number that would ruin the site visit.' (his register, your words, same facts).",
+    "Not Varun (slide 5): 'You save a good chunk every month.' reads as generic and limp setup. Say it the way he would, e.g. 'Sure, your EMI drops by a good chunk.' (his register, your words, same facts).",
+    "Not Varun (slide 6): 'So the calculator stops at the monthly number.' reads as flat connective, narration over commentary. Say it the way he would, e.g. 'That's why the calculator never goes past the monthly number.' (his register, your words, same facts)."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-22T12:36:58.846690+00:00",
+ "sources": [
+  {
+   "url": "https://nobroker.in/blog/home-loan-tenure",
+   "fact": "For a ₹50 lakh loan at 8.50%, stretching the tenure from 10 to 25 years cuts the EMI from ₹62,024 to ₹40,261. Total interest rises from ₹24.43 lakh to ₹70.78 lakh, so the 25-year loan costs far more overall.",
+   "stance": "supports the claim that a long tenure shrinks the EMI while inflating total cost. It is a broker's explainer, not a primary source, and it says nothing about builders or banks pushing the EMI figure.",
+   "excerpt": "Tenure: 25 years | Monthly EMI ₹40,261 | Total Interest Paid ₹70.78 lakh (table row; the 10-year row shows ₹62,024 and ₹24.43 lakh, the 30-year row shows ₹38,446 and ₹88.41 lakh). \"Delivers the lowest possible monthly installment by utilizing the maximum house loan tenure available\". \"Greatly inflates your total interest burden over time.\" \"it often results in significantly higher total interest payments.\"",
+   "date": "2026-06-30"
+  },
+  {
+   "url": "https://www.indiainfoline.com/news/markets/due-to-successive-interest-rate-hikes-home-loan-tenures-increase",
+   "fact": "When rates rose in 2022, lenders kept EMIs roughly steady and lengthened tenures, so 20-year home loans ran to 24 years. Borrowers ended up paying many more EMIs.",
+   "stance": "supports the claim that the EMI is the number that gets managed while the tenure and total cost quietly grow. It does not address sellers' pitches.",
+   "excerpt": "\"the 20-year mortgages now last 24 years.\" For a Rs50 lakh loan taken in April 2019, the \"initial term would be extended from 20 years to 22 years, 10 months.\" The borrower would \"have to pay 60 more EMIs than they originally would have.\"",
+   "date": "2022-10-06"
+  },
+  {
+   "url": "https://www.angelone.in/news/economy/home-affordability-remains-stable-across-six-major-cities-in-h1-2026-mmr-and-ncr-stay-above-threshold-knight-frank",
+   "fact": "Knight Frank's H1 2026 index measures affordability as the share of household income that goes to home loan EMIs. It treats 50% or less as affordable, and six of the eight largest markets met that threshold.",
+   "stance": "neutral. The industry's own affordability yardstick is an EMI-to-income ratio, which fits the claim that EMI is the headline metric. The page does not discuss total cost or tenure, and it does not say who benefits from the focus on EMI.",
+   "excerpt": "\"The index calculates the share of household income required to service home loan EMIs.\" \"Home affordability remained within the 50% threshold in six of India's eight largest residential markets\"",
+   "date": "2026-07-03"
+  }
+ ],
+ "verification_cache": {},
+ "draft": {
+  "cover": {
+   "headline": "A 25-year loan makes the [monthly EMI] affordable, not the flat",
+   "sub": "The monthly number is the only one anyone shows you."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "A 25-year home loan doesn't make the flat cheaper. It only makes the monthly EMI smaller.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "If the EMI fits my salary, what's the problem?"
+   },
+   {
+    "paragraphs": [
+     "And the EMI is the only number anyone will show you.",
+     "The total you pay over 25 years never comes up, and that's the number that would make you think twice."
+    ],
+    "why_swipe": "Where does this actually happen?"
+   },
+   {
+    "paragraphs": [
+     "The sales guy asks your combined take-home before he asks which floor you like. Then he taps his calculator and turns it to you. \"Sirf ₹80,000 a month, sir.\""
+    ],
+    "why_swipe": "What did the calculator leave out?"
+   },
+   {
+    "paragraphs": [
+     "Take a ₹1 crore loan at 8.5%. Over 10 years, the EMI is ₹1,24,048 and the interest is ₹48.86 lakh.",
+     "Stretch it to 25 years. The EMI drops to ₹80,522. The interest jumps to about ₹1.42 crore."
+    ],
+    "why_swipe": "So what does that relief really cost?"
+   },
+   {
+    "paragraphs": [
+     "You save a good chunk every month.",
+     "But the longer loan costs about ₹93 lakh more in interest. That's the extra you pay for the smaller EMI.",
+     "You borrowed ₹1 crore. You pay back ₹1.42 crore in interest alone."
+    ],
+    "why_swipe": "Why does nobody bring this up?"
+   },
+   {
+    "paragraphs": [
+     "So the calculator stops at the monthly number.",
+     "As long as the EMI fits your salary, the builder never has to drop the price of the flat. The bank collects interest for 25 years."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "Both win while you look only at the EMI."
+    ],
+    "why_swipe": "So why not just take a shorter loan?"
+   },
+   {
+    "paragraphs": [
+     "And a shorter loan is often not a real choice. Flat prices left salaries behind years ago. That bigger EMI is more than many couples take home in a month.",
+     "Sign young, and you're still paying in your fifties."
+    ],
+    "why_swipe": "What do you do at the next site visit?"
+   },
+   {
+    "paragraphs": [
+     "Next weekend, when the calculator turns towards you, ask him to press one more button. Total amount payable.",
+     "Then watch how long he takes to find it."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Open this again before your next weekend at a sample flat.",
+   "send": "Send to the couple spending every Sunday in sample flats and comparing EMIs on the drive home.",
+   "promise": "How things really get sold to us."
+  },
+  "alt_text": "A text carousel arguing that a 25-year home loan makes the monthly EMI smaller but not the flat cheaper, and that the EMI is the only number buyers are shown. It shows a typical site visit where the salesperson pitches only the monthly figure, compares a ₹1 crore loan at 8.5% over 10 and 25 years, works out that the longer loan costs about ₹93 lakh more in interest, explains that the builder keeps the price high and the bank earns interest while buyers look only at the EMI, notes that a shorter loan is often out of reach and a long loan runs into the buyer's fifties, and ends by telling buyers to ask for the total amount payable.",
+  "claims": [
+   {
+    "text": "₹1 crore loan at 8.5% over 10 years: EMI ₹1,24,048",
+    "source_url": "https://nobroker.in/blog/home-loan-tenure",
+    "derived_from": "₹62,024 × 2 = ₹1,24,048 (₹50 lakh row doubled, same rate and tenure)"
+   },
+   {
+    "text": "₹1 crore loan over 10 years: interest ₹48.86 lakh",
+    "source_url": "https://nobroker.in/blog/home-loan-tenure",
+    "derived_from": "₹24.43 lakh × 2 = ₹48.86 lakh"
+   },
+   {
+    "text": "₹1 crore loan over 25 years: EMI ₹80,522",
+    "source_url": "https://nobroker.in/blog/home-loan-tenure",
+    "derived_from": "₹40,261 × 2 = ₹80,522"
+   },
+   {
+    "text": "₹1 crore loan over 25 years: interest about ₹1.42 crore",
+    "source_url": "https://nobroker.in/blog/home-loan-tenure",
+    "derived_from": "₹70.78 lakh × 2 = ₹141.56 lakh, rounded to about ₹1.42 crore"
+   },
+   {
+    "text": "About ₹93 lakh extra interest for the smaller EMI",
+    "source_url": "https://nobroker.in/blog/home-loan-tenure",
+    "derived_from": "₹141.56 lakh - ₹48.86 lakh = ₹92.70 lakh, rounded to about ₹93 lakh"
+   },
+   {
+    "text": "You borrowed ₹1 crore and pay ₹1.42 crore in interest alone",
+    "source_url": "https://nobroker.in/blog/home-loan-tenure",
+    "derived_from": "₹1.42 crore interest on a ₹1 crore principal (₹70.78 lakh × 2)"
+   },
+   {
+    "text": "The ₹1,24,048 EMI is more than many couples take home in a month",
+    "source_url": "https://nobroker.in/blog/home-loan-tenure",
+    "derived_from": "₹62,024 × 2 = ₹1,24,048 (10-year EMI on ₹1 crore), set against typical take-home pay"
+   }
+  ]
+ }
 }
