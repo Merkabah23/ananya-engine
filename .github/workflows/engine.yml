@@ -39,7 +39,7 @@ jobs:
       ENGINE_PAUSED: ${{ vars.ENGINE_PAUSED || 'false' }}  # unpaused 2026-11-10: owner asked for the engine to run on its own in the new voice
       PRODUCE_PER_RUN: ${{ vars.PRODUCE_PER_RUN || '3' }}
       MODEL_WRITER: ${{ vars.MODEL_WRITER || 'opus' }}
-      MAX_CALLS_PER_MONTH: '2000'  # daily posting; overrides the repo variable, which was set for 3 posts a week
+      MAX_CALLS_PER_MONTH: '2200'  # owner, 25 Nov: raised from 2000 for the rest of November (cap hit 23 Nov)
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

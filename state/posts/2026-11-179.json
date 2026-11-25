@@ -1,0 +1,268 @@
+{
+ "id": "2026-11-179",
+ "status": "approved",
+ "due": "2026-11-25T20:30:00+05:30",
+ "format": "carousel",
+ "topic": {
+  "title": "the family phonebook",
+  "territory": "money_status",
+  "mood": "sharp",
+  "shape": "contrarian",
+  "lived": false,
+  "needs_facts": false,
+  "claim": "The Indian middle class has two kinds of wealth: money in the bank and people in the phone, and the second one solves the problems money can't.",
+  "moment": "A midnight hospital emergency, and the first call is to the uncle whose son is a doctor there.",
+  "turn": {
+   "believed": "Wealth is what's in the bank.",
+   "actually": "In India, the contact list does the work money can't."
+  },
+  "because": "Beds, admissions, passports and tickets get solved through someone who knows someone, so every family keeps and maintains that list.",
+  "payoff": "They'll leave you a phonebook. Don't let it go cold.",
+  "send_to": "the friend whose papa has a 'banda' for everything"
+ },
+ "sources": [],
+ "draft": {
+  "cover": {
+   "headline": "Every Indian middle-class family has two kinds of wealth.",
+   "sub": "What's in the bank. And who's in the phone."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Every Indian middle-class family has two kinds of wealth.",
+     "What's in the bank. And who's in the phone."
+    ],
+    "why_swipe": "the midnight call"
+   },
+   {
+    "paragraphs": [
+     "Need a hospital bed at midnight? You don't call the hospital.",
+     "You call \"Sharma uncle, jinka beta wahan doctor hai.\""
+    ],
+    "why_swipe": "the rest of the list"
+   },
+   {
+    "paragraphs": [
+     "School admission? Someone knows a trustee. Passport stuck? Someone's cousin works in that office.",
+     "Tatkal ticket? There's always a banda."
+    ],
+    "why_swipe": "what the list is worth"
+   },
+   {
+    "paragraphs": [
+     "None of it is written down anywhere. But every family keeps the list, and in a bad week it's worth more than the FD."
+    ],
+    "why_swipe": "why parents show up"
+   },
+   {
+    "paragraphs": [
+     "That's why your parents still go to every wedding, every griha pravesh, every chautha.",
+     "They're not being social. They're keeping the list alive."
+    ],
+    "why_swipe": "the moving question"
+   },
+   {
+    "paragraphs": [
+     "And it's why the first question when you move cities isn't about the salary.",
+     "It's \"wahan koi jaan-pehchaan hai?\""
+    ],
+    "why_swipe": "what they leave you"
+   },
+   {
+    "paragraphs": [
+     "Your parents may not leave you much property.",
+     "They'll leave you a phonebook. Don't let it go cold."
+    ],
+    "why_swipe": ""
+   }
+  ],
+  "end": {
+   "send": "Send this to the friend whose papa has a banda for everything."
+  },
+  "caption": "Jaan-pehchaan is the Indian middle class's second bank account, and in a bad week it's worth more than the FD.\n\nHospital bed, school admission, passport, Tatkal. There's always someone's cousin.\n\nSend this to the friend whose papa has a banda for everything.",
+  "hashtags": [
+   "#MiddleClassIndia",
+   "#PersonalFinanceIndia",
+   "#AboveMRP"
+  ],
+  "alt_text": "A text post on how Indian families treat their contact list as a second kind of wealth.",
+  "claims": [
+   {
+    "text": "India's Time Use Survey found women who did unpaid domestic work spent about 289-299 minutes a day on it (2024 and 2019 rounds); men about 88-97 minutes.",
+    "source_url": "https://www.mospi.gov.in/time-use-survey"
+   }
+  ],
+  "caption_v": 2,
+  "caption_style": "send",
+  "search_phrase": "jaan-pehchaan"
+ },
+ "updated_at": "2026-11-25T12:21:16.468726+00:00",
+ "owner_ok": true,
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "core_cut": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "In Indian middle-class families, informal personal connections (who you know) are a distinct, functional form of wealth—used to resolve problems like getting a hospital bed quickly, school admissions, stuck passports, and Tatkal train tickets—maintained through attending weddings and social events, and in urgent situations this network can be more valuable than money in a bank (FD) account.",
+    "sentence": "Every Indian middle-class family has two kinds of wealth. What's in the bank. And who's in the phone. ... in a bad week it's worth more than the FD.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {},
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "",
+   "actual_mechanism": "The post describes what social scientists call social capital: the networks and relationships that let people access resources (information, favors, speed) not available through money alone. The World Bank treats this as a genuine form of wealth that 'enable[s] people to act collectively' and provides 'access to resources embedded in their social network,' which is exactly the 'who's in the phone' asset the post names. The concrete examples are illustrative, not false: even Tatkal, which is officially first-come-first-served online with agents barred for the first 30 minutes and Aadhaar/OTP checks, has a persistent informal agent market, so 'there's always a banda' is a real gray channel rather than a falsehood; and in an urgent crunch a fast favor can genuinely beat liquid savings, matching the 'worth more than the FD' claim.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://openknowledge.worldbank.org/server/api/core/bitstreams/d5c6ea6b-2eb1-591a-8e0f-8c4783020a39/content",
+     "published_date": "2021",
+     "quote": "the social capital of a society includes the institutions, the relationships, the attitudes and values that govern interactions among people and contribute to economic and social well-being"
+    },
+    {
+     "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2135694&reg=48&lang=2",
+     "published_date": "2025-06-11",
+     "quote": "Authorised ticketing agents of Indian Railways will not be permitted to book opening-day Tatkal tickets during the first 30 minutes of the booking window... AC classes from 10 AM to 10:30 AM and non-AC classes from 11 AM to 11:30 AM"
+    }
+   ]
+  },
+  "text_hash": "020523c91bb646126805175f01852c3ae05f8df1",
+  "at": "2026-11-25T12:20:24.171911+00:00"
+ },
+ "alt_texts": [
+  "Every Indian middle-class family has two kinds of wealth. What's in the bank. And who's in the phone.",
+  "Need a hospital bed at midnight? You don't call the hospital. You call \"Sharma uncle, jinka beta wahan doctor hai.\"",
+  "School admission? Someone knows a trustee. Passport stuck? Someone's cousin works in that office. Tatkal ticket? There's always a banda.",
+  "None of it is written down anywhere. But every family keeps the list, and in a bad week it's worth more than the FD.",
+  "That's why your parents still go to every wedding, every griha pravesh, every chautha. They're not being social. They're keeping the list alive.",
+  "And it's why the first question when you move cities isn't about the salary. It's \"wahan koi jaan-pehchaan hai?\"",
+  "Your parents may not leave you much property. They'll leave you a phonebook. Don't let it go cold."
+ ],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] Every Indian middle-class family has two kinds of wealth.\nWhat's in the bank. And who's in the phone.\n \n\n[slide 1] Every Indian middle-class family has two kinds of wealth.\nWhat's in the bank. And who's in the phone.\n\n[slide 2] Need a hospital bed at midnight? You don't call the hospital.\nYou call \"Sharma uncle, jinka beta wahan doctor hai.\"\n\n[slide 3] School admission? Someone knows a trustee. Passport stuck? Someone's cousin works in that office.\nTatkal ticket? There's always a banda.\n\n[slide 4] None of it is written down anywhere. But every family keeps the list, and in a bad week it's worth more than the FD.\n\n[slide 5] That's why your parents still go to every wedding, every griha pravesh, every chautha.\nThey're not being social. They're keeping the list alive.\n\n[slide 6] And it's why the first question when you move cities isn't about the salary.\nIt's \"wahan koi jaan-pehchaan hai?\"\n\n[slide 7] Your parents may not leave you much property.\nThey'll leave you a phonebook. Don't let it go cold.\n\n[end card] \nSend this to the friend whose papa has a banda for everything.\n\n[caption] Jaan-pehchaan is the Indian middle class's second bank account, and in a bad week it's worth more than the FD.\n\nHospital bed, school admission, passport, Tatkal. There's always someone's cousin.\n\nSend this to the friend whose papa has a banda for everything.\n\n[alt text] A text post on how Indian families treat their contact list as a second kind of wealth.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "In Indian middle-class families, informal personal connections (who you know) are a distinct, functional form of wealth—used to resolve problems like getting a hospital bed quickly, school admissions, stuck passports, and Tatkal train tickets—maintained through attending weddings and social events, and in urgent situations this network can be more valuable than money in a bank (FD) account.",
+     "sentence": "Every Indian middle-class family has two kinds of wealth. What's in the bank. And who's in the phone. ... in a bad week it's worth more than the FD.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "_skeptic": {
+   "1d6fd9491b6d6fbf854d8a912e39d4b9928144fc": {
+    "holds": true,
+    "broken_premise": "",
+    "actual_mechanism": "The post describes what social scientists call social capital: the networks and relationships that let people access resources (information, favors, speed) not available through money alone. The World Bank treats this as a genuine form of wealth that 'enable[s] people to act collectively' and provides 'access to resources embedded in their social network,' which is exactly the 'who's in the phone' asset the post names. The concrete examples are illustrative, not false: even Tatkal, which is officially first-come-first-served online with agents barred for the first 30 minutes and Aadhaar/OTP checks, has a persistent informal agent market, so 'there's always a banda' is a real gray channel rather than a falsehood; and in an urgent crunch a fast favor can genuinely beat liquid savings, matching the 'worth more than the FD' claim.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://openknowledge.worldbank.org/server/api/core/bitstreams/d5c6ea6b-2eb1-591a-8e0f-8c4783020a39/content",
+      "published_date": "2021",
+      "quote": "the social capital of a society includes the institutions, the relationships, the attitudes and values that govern interactions among people and contribute to economic and social well-being"
+     },
+     {
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2135694&reg=48&lang=2",
+      "published_date": "2025-06-11",
+      "quote": "Authorised ticketing agents of Indian Railways will not be permitted to book opening-day Tatkal tickets during the first 30 minutes of the booking window... AC classes from 10 AM to 10:30 AM and non-AC classes from 11 AM to 11:30 AM"
+     }
+    ]
+   }
+  },
+  "_skeptic_take": {
+   "253bb1f3f451074644a37a1e38750742e885b0a3": {
+    "holds": true,
+    "broken_premise": "",
+    "actual_mechanism": "The post describes what social scientists call social capital: the networks and relationships that let people access resources (information, favors, speed) not available through money alone. The World Bank treats this as a genuine form of wealth that 'enable[s] people to act collectively' and provides 'access to resources embedded in their social network,' which is exactly the 'who's in the phone' asset the post names. The concrete examples are illustrative, not false: even Tatkal, which is officially first-come-first-served online with agents barred for the first 30 minutes and Aadhaar/OTP checks, has a persistent informal agent market, so 'there's always a banda' is a real gray channel rather than a falsehood; and in an urgent crunch a fast favor can genuinely beat liquid savings, matching the 'worth more than the FD' claim.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://openknowledge.worldbank.org/server/api/core/bitstreams/d5c6ea6b-2eb1-591a-8e0f-8c4783020a39/content",
+      "published_date": "2021",
+      "quote": "the social capital of a society includes the institutions, the relationships, the attitudes and values that govern interactions among people and contribute to economic and social well-being"
+     },
+     {
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2135694&reg=48&lang=2",
+      "published_date": "2025-06-11",
+      "quote": "Authorised ticketing agents of Indian Railways will not be permitted to book opening-day Tatkal tickets during the first 30 minutes of the booking window... AC classes from 10 AM to 10:30 AM and non-AC classes from 11 AM to 11:30 AM"
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "020523c91bb646126805175f01852c3ae05f8df1": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "core_cut": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "In Indian middle-class families, informal personal connections (who you know) are a distinct, functional form of wealth—used to resolve problems like getting a hospital bed quickly, school admissions, stuck passports, and Tatkal train tickets—maintained through attending weddings and social events, and in urgent situations this network can be more valuable than money in a bank (FD) account.",
+      "sentence": "Every Indian middle-class family has two kinds of wealth. What's in the bank. And who's in the phone. ... in a bad week it's worth more than the FD.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {},
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "",
+     "actual_mechanism": "The post describes what social scientists call social capital: the networks and relationships that let people access resources (information, favors, speed) not available through money alone. The World Bank treats this as a genuine form of wealth that 'enable[s] people to act collectively' and provides 'access to resources embedded in their social network,' which is exactly the 'who's in the phone' asset the post names. The concrete examples are illustrative, not false: even Tatkal, which is officially first-come-first-served online with agents barred for the first 30 minutes and Aadhaar/OTP checks, has a persistent informal agent market, so 'there's always a banda' is a real gray channel rather than a falsehood; and in an urgent crunch a fast favor can genuinely beat liquid savings, matching the 'worth more than the FD' claim.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://openknowledge.worldbank.org/server/api/core/bitstreams/d5c6ea6b-2eb1-591a-8e0f-8c4783020a39/content",
+       "published_date": "2021",
+       "quote": "the social capital of a society includes the institutions, the relationships, the attitudes and values that govern interactions among people and contribute to economic and social well-being"
+      },
+      {
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2135694&reg=48&lang=2",
+       "published_date": "2025-06-11",
+       "quote": "Authorised ticketing agents of Indian Railways will not be permitted to book opening-day Tatkal tickets during the first 30 minutes of the booking window... AC classes from 10 AM to 10:30 AM and non-AC classes from 11 AM to 11:30 AM"
+      }
+     ]
+    },
+    "text_hash": "020523c91bb646126805175f01852c3ae05f8df1",
+    "at": "2026-11-25T12:20:24.171911+00:00"
+   }
+  }
+ },
+ "history": [
+  {
+   "stage": "reader",
+   "point": "Indian families have an unwritten network of personal connections/favors that's as valuable as money, and you should maintain it.",
+   "reason": "Because that network gets things done in emergencies and situations that money or official process can't fix.",
+   "lost": [
+    {
+     "slide": 7,
+     "why": "jump from 'keeping the list alive' to 'leave you a phonebook, don't let it go cold' feels like a new framing/metaphor (property vs phonebook) introduced suddenly as the closer"
+    }
+   ],
+   "ideas": [
+    "the hidden social network is real wealth, built through social obligations, and it's your inheritance to maintain"
+   ],
+   "endings": 2,
+   "point_matches": true,
+   "reason_matches": true
+  }
+ ],
+ "varun": {
+  "pass": true,
+  "score": 5,
+  "misses": [],
+  "best": "What's in the bank. And who's in the phone.",
+  "passed": true,
+  "text_hash": "020523c91bb646126805175f01852c3ae05f8df1"
+ }
+}
