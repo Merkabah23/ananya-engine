@@ -62,7 +62,7 @@ def test_month_end_to_end(tmp_path, monkeypatch):
     state.write(cands, "2099-10", "candidates.json")
     plan = topic_filter.run("2099-10", "2099-11")
     n = len(topic_filter.slots_for_month("2099-11"))
-    assert n == 21  # Monday to Friday
+    assert n == 15  # alternate days
     assert len([p for p in plan if p["due"]]) == n
     cli.produce("2099-11")
     done = state.posts("uploaded")

@@ -19,7 +19,7 @@ GOOD = [
     ["The best furniture and the best light are kept for relatives who visit twice a year."],
     ["No one decided this. It happened one sofa cover at a time.", "Visitors get the good cups."],
     ["This generation said it was done with all that. Then look at the Instagram grid."],
-    ["Look at what the room holds: the glass showcase, the cups no one drinks from, the sofa with its plastic still on.",
+    ["Look at what the room holds: the glass showcase, the cups no one drinks from.",
      "Every object waits for a guest who comes twice a year."],
     ["The family, meanwhile, eats dinner on the bed in front of the TV. The best room is the one used least, and it feels normal."],
     ["Even the AC is saved for them. It comes on when the doorbell rings and goes off the minute the last guest leaves."],
@@ -70,7 +70,7 @@ def test_explaining_signpost_and_unbalanced_slide_are_caught():
     bad = [list(s) for s in GOOD]
     bad[2] = ["You know the scene: that room, and it is not about the furniture or the light at all, honestly."]
     bad[4] = [" ".join(["word"] * 44) + "."]
-    bad[3] = ["Short one, nothing more here."]
+    bad[3] = ["Short."]
     problems = " ".join(writer.hard_checks(draft(bad), "carousel", []))
     assert "you know the scene" in problems.lower() and "too thin" in problems
 
@@ -80,7 +80,8 @@ def test_approved_posts_pass_code_checks(monkeypatch):
     page moved to reels, so the style rules apply but the carousel's length limits stand in for the reel's."""
     # the reel limits as they stood (8-10 Nov 2026), with the 24-word screens approved before the 18-word cap
     reel_limits = {"MIN_SLIDES": 6, "MAX_SLIDES": 8, "SLIDE_WORDS": (8, 24), "POST_WORDS": (80, 190), "MAX_PARAS": 2, "HOOK_WORDS": 25}
-    native_limits = {n: getattr(writer, n) for n in ("MIN_SLIDES", "MAX_SLIDES", "SLIDE_WORDS", "POST_WORDS", "MAX_PARAS", "HOOK_WORDS")}
+    # the native-card limits as they stood (10-24 Nov 2026); the owner cut them on 25 Nov, after these were approved
+    native_limits = {"MIN_SLIDES": 6, "MAX_SLIDES": 10, "SLIDE_WORDS": (6, 42), "POST_WORDS": (130, 340), "MAX_PARAS": 3, "HOOK_WORDS": 20}
     carousel_limits = {"MIN_SLIDES": 5, "MAX_SLIDES": 9, "SLIDE_WORDS": (12, 60), "POST_WORDS": (110, 360), "MAX_PARAS": 3, "HOOK_WORDS": 25}
     for post in [b for b in writer.approved_posts() if b.get("source") != "reference creator"]:
         limits = {"reel": reel_limits, "native": native_limits}.get(post.get("format"), carousel_limits)
@@ -111,8 +112,8 @@ def test_wrong_slide_count():
 
 def test_slots_cover_month_in_ist():
     slots = topic_filter.slots_for_month("2026-11")
-    assert len(slots) == 21  # Monday to Friday
-    assert [s["due"][:10] for s in slots[5:8]] == ["2026-11-09", "2026-11-10", "2026-11-11"]
+    assert len(slots) == 15  # alternate days
+    assert [s["due"][:10] for s in slots[5:8]] == ["2026-11-11", "2026-11-13", "2026-11-15"]
     assert all(s["due"][11:16] == "20:30" and s["format"] == "carousel" for s in slots)
     assert slots[0]["due"].endswith("+05:30")
 
@@ -123,7 +124,7 @@ def test_assign_respects_format_and_no_repeat():
               for i, t in enumerate(list(config.TERRITORY_MIX) * 7)]
     plan = topic_filter._assign(ranked, topic_filter.slots_for_month("2026-11"))
     dated = [p for p in plan if p["due"]]
-    assert len(dated) == 21
+    assert len(dated) == 15
     for a, b in zip(dated, dated[1:]):
         assert a["topic"]["territory"] != b["topic"]["territory"]
     for p in dated:
@@ -300,7 +301,7 @@ def test_dead_middle_slides_are_cut_not_rewritten():
     assert writer.dead_slides({"violations": ["Dead slide, slide 3", "No because"]}, 9) == []
     two = {"violations": ["Dead slide 3: restates slide 2.", "Slide 6 is a dead slide. Slide 7 says it again."]}
     assert writer.dead_slides(two, 9) == [3, 6]
-    assert writer.dead_slides(two, 7) == []  # would leave fewer than the minimum
+    assert writer.dead_slides(two, 6) == []  # would leave fewer than the minimum
     assert writer.dead_slides({"violations": ["Slide 4 and slide 5 are partly dead"]}, 9) == []
     assert writer.dead_slides({"violations": ["Slides 4-5: dead"]}, 9) == []
 
@@ -439,12 +440,13 @@ def test_native_slide_one_is_shown_as_written(monkeypatch):
     assert out["slides"][0]["paragraphs"] == ["Indian parents don't have a retirement plan.", "They have you."]
 
 
-def test_posting_plan_is_weekdays_at_eight_thirty():
+def test_posting_plan_is_alternate_days_at_eight_thirty():
     from datetime import date
     slots = topic_filter.slots_for_month("2026-12")
-    days = {date.fromisoformat(s["due"][:10]).weekday() for s in slots}
-    assert days == {0, 1, 2, 3, 4} and all(s["due"][11:16] == "20:30" for s in slots)
-    assert topic_filter.is_slot_day(date(2026, 12, 7)) and not topic_filter.is_slot_day(date(2026, 12, 6))  # Mon yes, Sun no
+    days = [date.fromisoformat(s["due"][:10]) for s in slots]
+    assert all((b - a).days == 2 for a, b in zip(days, days[1:])) and all(s["due"][11:16] == "20:30" for s in slots)
+    assert topic_filter.is_slot_day(date(2026, 11, 25)) and topic_filter.is_slot_day(date(2026, 11, 29))
+    assert not topic_filter.is_slot_day(date(2026, 11, 26))
 
 
 def test_new_topics_are_spaced_from_posts_already_in_the_calendar():

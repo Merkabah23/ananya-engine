@@ -36,9 +36,10 @@ PARALLEL = int(os.getenv("PARALLEL", "3"))  # model calls in flight at once
 # studies (Buffer 9.6M posts, Metricool 24M); once the account has 100+ followers, Instagram Insights' "Most active
 # times" should override it. The draft format stays "carousel" (slides of text); OUTPUT decides how it is published.
 POST_TIME = "20:30"
-POST_EVERY_DAYS = 1
-POST_ANCHOR = "2026-11-10"
-POST_DAYS = [0, 1, 2, 3, 4]  # Monday to Friday
+# Owner, 25 Nov 2026: alternate days only, weekends included, so the gap is always one day.
+POST_EVERY_DAYS = 2
+POST_ANCHOR = "2026-11-25"
+POST_DAYS = [0, 1, 2, 3, 4, 5, 6]
 SLOTS = [{"weekday": d, "time": POST_TIME, "format": "carousel"} for d in POST_DAYS]
 # Owner, 10 Nov 2026: back to carousels. Readers set their own pace on a carousel; on a reel we set it for them, and
 # the benchmarks' text reels get ~1/30th of their carousels' likes. Reels stay available for posts where something moves.

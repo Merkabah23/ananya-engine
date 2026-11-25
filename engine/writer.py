@@ -21,15 +21,15 @@ FORMAT_RULES = {
               "prediction about India or this generation, a short rant, a satire list ('Literally everyone around me is:' "
               "then short lines starting with '- '), or a short open letter ('Dear ___,'). No 'Swipe to read'.",
 }
-MAX_PARAS = 3            # per slide: one beat, said in up to three short paragraphs
+MAX_PARAS = 2            # per slide: one beat, a setup and a turn (owner, 25 Nov: posts lost him mid-way)
 MAX_SENTS_PER_PARA = 4
 MAX_SENT_WORDS = 22  # 5th-grade scanability: most sentences far shorter
 # Owner, 10 Nov 2026 (the pension, shagun and house-help posts): carousels of 8-10 slides, one beat per slide. Buffer
 # and Instagram's API take 10 images at most, so 10 is a hard cap; above ~40 words a slide turns into a wall of text.
-MIN_SLIDES, MAX_SLIDES = 6, 10  # 8 forced padding the editor rightly called dead (10 Nov run)
-SLIDE_WORDS = (6, 42)    # a punch slide can be one short line; a reading slide stops at about seven lines
-HOOK_WORDS = 20          # slide 1 is the cover, shown as typed: the claim and its turn in one glance
-POST_WORDS = (130, 340)  # the approved posts run 260-300 words: under two minutes, self-paced
+MIN_SLIDES, MAX_SLIDES = 5, 9   # 8 forced padding the editor rightly called dead (10 Nov run)
+SLIDE_WORDS = (4, 30)    # Manu's cards average ~25 words; ours ran 31 with a 42 cap and the owner lost interest mid-post
+HOOK_WORDS = 18          # slide 1 is the cover, shown as typed: the claim and its turn in one glance
+POST_WORDS = (90, 200)   # owner, 25 Nov: 300-word posts were too long to hold; aim 130-180, about a minute
 MAX_FIGURES = 12         # everyday rupee receipts carry the argument now (owner, 10 Nov); statistics still need a source
 # Owner, 10 Nov 2026: "let's not drop the scanability, readability and ease of understanding". Every approved post
 # reads at Flesch-Kincaid grade 2-5.3 with sentences of 8-11 words; the reference creator reads at 6.5-9.3.
@@ -384,7 +384,7 @@ def length_rules(fmt: str) -> str:
         return "one slide of 30-70 words."
     return (f"{MIN_SLIDES} to {MAX_SLIDES} slides, as few as the idea needs. Slide 1 up to {HOOK_WORDS} words. Other slides "
             f"{SLIDE_WORDS[0]}-{SLIDE_WORDS[1]} words, at most {MAX_PARAS} short paragraphs. The whole post "
-            f"{POST_WORDS[0]}-{POST_WORDS[1]} words; aim for 180-260. Some slides are a single short line.")
+            f"{POST_WORDS[0]}-{POST_WORDS[1]} words; aim for 130-180. Most slides are a setup and a turn; some are a single line. Every slide after the second adds something new (a turn, a receipt, a line someone says, a sting); a slide that only explains or repeats is cut.")
 
 
 def revision_block(previous: list[str], who: str) -> str:

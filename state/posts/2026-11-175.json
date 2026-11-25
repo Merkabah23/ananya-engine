@@ -1,0 +1,870 @@
+{
+ "id": "2026-11-175",
+ "status": "uploaded",
+ "due": "2026-11-29T20:30:00+05:30",
+ "format": "carousel",
+ "topic": {
+  "title": "The quick call",
+  "claim": "When someone says 'can we just hop on a quick call', they usually aren't saving time; they're avoiding leaving anything in writing.",
+  "moment": "A Slack message you could answer in one line turns into a 20-minute call, and nobody sends notes after.",
+  "turn": {
+   "believed": "Calls are faster than long email chains.",
+   "actually": "Calls leave no record, so nobody can be quoted later on what they promised."
+  },
+  "feeling": "I agreed to something and I can't even prove what it was.",
+  "villain": "Office culture that rewards being able to deny things later",
+  "story_type": "teaching",
+  "because": "Whoever avoids writing things down can change the story when things go wrong. A call keeps the blame flexible.",
+  "payoff": "After every call, send a one-line summary. Watch who suddenly 'remembers it differently'.",
+  "lived": false,
+  "behaviour": "Managers and other teams move tricky decisions to calls and skip the minutes.",
+  "mechanism": "No written trail means no one gets held to their words.",
+  "group": "Working professionals, 24 to 32, in corporate teams",
+  "territory": "business_brands",
+  "mood": "dark_pattern",
+  "format_name": "feed_anthropology",
+  "send_to": "The teammate who always gets blamed for decisions made on calls",
+  "format_hint": "carousel",
+  "why_now": "Calls are now the default for every small thing, and people have stopped noticing what goes missing.",
+  "needs_facts": false,
+  "news_peg": null,
+  "evidence": [],
+  "id": "2026-11-131211-037",
+  "score": {
+   "rank": 4,
+   "why": "A 'quick call' leaves no written record, which is why people ask for one. It has a test the reader can run (send a one-line summary).",
+   "scores": {
+    "relatable": 5,
+    "fresh_angle": 4,
+    "shareable": 4,
+    "saveable": 5,
+    "because": 4
+   },
+   "format_fit": "carousel"
+  }
+ },
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slide 7: \"Here's the irony.\" is stock scaffolding, and the slide stops at a rule about paperwork. Use the second source to make the point bigger. Indian law treats properly kept board minutes as evidence of what was decided, and when minute books are missing, tribunals can draw adverse inferences. That turns the slide into 'even the law assumes the missing record is the suspicious one.' Open it with fresh words. Keep 'The board has to write it down. Your project call doesn't.' as the punch. Add that fact to claims with the legal500 URL.",
+     "slide 4: \"And memory tends to bend toward the most senior person on it.\" The word 'tends' hedges the sharpest insider line in the post. Say it straight: \"And memory bends toward the most senior person on it.\"",
+     "slide 8: \"It lands on the junior on the call who did exactly what was said.\" This is still abstract at the moment the feeling should peak. Put the junior in one concrete beat every reader has lived. For example, the standup or review where they're the one explaining why Friday slipped, while the person who said Friday stays quiet. Keep it typical, not a one-off story.",
+     "slide 6: \"A call isn't a shortcut. It's an exit.\" works once, but it follows another two-beat line right before it. Make sure no other slide uses the 'isn't X. It's Y.' shape. Slide 1 ('rarely about saving time. It's about...') already does. Rephrase one of the two so the pattern doesn't repeat."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 6",
+      "line": "A call isn't a shortcut. It's an exit.",
+      "why": "third 'not X, it's Y' after cover and slide 1; engineered rhetoric",
+      "try": "So that quick call was never about saving time. It was the way out."
+     },
+     {
+      "where": "slide 7",
+      "line": "Here's the irony. Section 118 of the Companies Act, 2013 makes every company sign and keep minutes of each board meeting within 30 days. Miss it and there's a penalty.",
+      "why": "the legal fact is the hero; stiff, written words",
+      "try": "Funny part is, the law already knows this. Every company has to sign its board meeting minutes within 30 days, Section 118 of the Companies Act, 2013. Skip it and you pay a penalty."
+     },
+     {
+      "where": "slide 4",
+      "line": "A call leaves only memory. And memory tends to bend toward the most senior person on it.",
+      "why": "'tends to' softens a verdict he'd say straight",
+      "try": "A call leaves only memory. And memory bends toward whoever's most senior on it."
+     }
+    ],
+    "best": "Then watch who suddenly remembers it differently."
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Not Varun (slide 6): 'A call isn't a shortcut. It's an exit.' reads as third 'not X, it's Y' after cover and slide 1; engineered rhetoric. Say it the way he would, e.g. 'So that quick call was never about saving time. It was the way out.' (his register, your words, same facts).",
+    "Not Varun (slide 7): 'Here's the irony. Section 118 of the Companies Act, 2013 makes every company sign and keep minutes of each board meeting within 30 days. Miss it and there's a penalty.' reads as the legal fact is the hero; stiff, written words. Say it the way he would, e.g. 'Funny part is, the law already knows this. Every company has to sign its board meeting minutes within 30 days, Section 118 of the Companies Act, 2013. Skip it and you pay a penalty.' (his register, your words, same facts).",
+    "Not Varun (slide 4): 'A call leaves only memory. And memory tends to bend toward the most senior person on it.' reads as 'tends to' softens a verdict he'd say straight. Say it the way he would, e.g. 'A call leaves only memory. And memory bends toward whoever's most senior on it.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "informative": 4
+    },
+    "notes": []
+   }
+  },
+  {
+   "attempt": 1,
+   "varun": {
+    "pass": true,
+    "score": 5,
+    "misses": [],
+    "best": "The board has to write it down. Your project call doesn't."
+   }
+  },
+  {
+   "attempt": 1,
+   "verification": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Section 118 of the Companies Act, 2013 requires a company's board meeting minutes to be signed and kept within 30 days of the meeting.",
+      "sentence": "Every company has to sign and keep its board meeting minutes within 30 days. That's Section 118 of the Companies Act, 2013.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "A company that fails to keep board meeting minutes as required under the Companies Act pays a penalty.",
+      "sentence": "Skip it and the company pays a penalty.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Indian law has no equivalent requirement to record minutes of an ordinary project call at work.",
+      "sentence": "The board has to write it down. Your project call doesn't.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Moving a discussion from writing to a call leaves no written record, only memory. Recollection of the call tends to favour the most senior person on it. When a project slips, this lets the story be rewritten and the blame shifted. Requests for a quick call are therefore often a way to avoid leaving a written record, and the hard questions (deadline, budget, ownership of the fix) are the ones that get moved to calls.",
+      "sentence": "A call leaves only memory. And memory bends toward whoever's most senior on it.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Slack messages carry a timestamp and can be scrolled back to, and emails can be forwarded to higher management, so both leave a record.",
+      "sentence": "A Slack message sits there with a timestamp on it for anyone to scroll back to. An email can be forwarded to your manager's manager.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2014-04-01",
+      "correct": "Section 118(1) requires minutes of every board meeting to be kept within thirty days of the conclusion of the meeting. Under the section, the chairman signs them. The section came into force on 1 April 2014. The source page does not give that date, and I did not verify it.",
+      "sources": [
+       {
+        "url": "https://lawx.in/acts/section/24/309/2964",
+        "publisher": "LawX",
+        "published_date": "2026-01-01",
+        "quote": "kept within thirty days of the conclusion of every such meeting concerned",
+        "tier": 3
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2014-04-01",
+      "correct": "A company that defaults on Section 118 is liable to a penalty of Rs 25,000. Each officer in default is liable to Rs 5,000. The source page cites this as Section 118(11).",
+      "sources": [
+       {
+        "url": "https://lawx.in/acts/section/24/309/2964",
+        "publisher": "LawX",
+        "published_date": "2026-01-01",
+        "quote": "the company shall be liable to a penalty of twenty-five thousand rupees",
+        "tier": 3
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "correct": "Section 118 applies to general meetings, board and committee meetings, and postal ballots. It does not cover ordinary project calls at work. I found no source that states this absence directly, so the verdict rests on the section's scope.",
+      "sources": [
+       {
+        "url": "https://lawx.in/acts/section/24/309/2964",
+        "publisher": "LawX",
+        "published_date": "2026-01-01",
+        "quote": "Section 118(1) requires minutes to be kept in books kept within thirty days of the conclusion of every such meeting concerned",
+        "tier": 3
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "supported",
+      "correct": "Slack messages carry a timestamp ('ts') and can be retrieved by timestamp range or searched by date. I did not search for an email-forwarding source. Forwarding an email is a basic, widely known feature.",
+      "sources": [
+       {
+        "url": "https://api.slack.com/methods/conversations.history",
+        "publisher": "Slack API documentation",
+        "published_date": "2026-01-01",
+        "quote": "oldest and latest Unix timestamps to bound results",
+        "tier": 1
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. The only checkable claim is the Section 118 one, and it holds. Section 118(1) of the Companies Act, 2013 says minutes of board and committee meetings must be prepared, signed and kept within 30 days of the meeting. Section 118(11) puts a fixed penalty on the company for default. One small point: the post makes it sound as if signing must happen within 30 days. Under Rule 25(1)(d)(i), board minutes can be signed by the chairman of the next meeting, so the signature can come later even though the minutes must be entered within 30 days. This doesn't change the argument. Everything else in the post is opinion: why people ask for calls, which questions get moved to calls, and memory bending toward seniors. Those aren't checkable claims about how a law or product works.",
+     "actual_mechanism": "Indian company law requires a written record for formal company meetings. Under Section 118, minutes of general, board and committee meetings must be prepared and entered in the minute book within 30 days, and signed as the rules set out. A default costs the company Rs 25,000 and each officer in default Rs 5,000, decided by the Registrar of Companies since the 2020 amendment. No law requires minutes for ordinary internal project calls, so whether a call leaves a record is up to the people on it. That is the post's point.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://ca2013.com/minutes-of-proceedings-of-general-meeting-meeting-of-board-of-directors-and-other-meeting-and-resolutions-passed-by-postal-ballot/",
+       "published_date": "unknown (page shows text valid as on 25/08/2026)",
+       "quote": "Every company shall cause minutes of the proceedings of every general meeting ... to be prepared and signed in such manner as may be prescribed and kept within thirty days of the conclusion of every such meeting concerned"
+      },
+      {
+       "url": "https://ca2013.com/minutes-of-proceedings-of-general-meeting-meeting-of-board-of-directors-and-other-meeting-and-resolutions-passed-by-postal-ballot/",
+       "published_date": "unknown (page shows text valid as on 25/08/2026)",
+       "quote": "the company shall be liable to a penalty of twenty-five thousand rupees and every officer ... who is in default shall be liable to a penalty of five thousand rupees"
+      },
+      {
+       "url": "https://ca2013.com/minutes-of-proceedings-of-general-meeting-meeting-of-board-of-directors-and-other-meeting-and-resolutions-passed-by-postal-ballot/",
+       "published_date": "unknown (page shows text valid as on 25/08/2026)",
+       "quote": "in the case of minutes of proceedings of a meeting of the Board or of a committee thereof, by the chairman of the said meeting or the chairman of the next succeeding meeting (Rule 25(1)(d)(i), Companies (Management & Administration) Rules, 2014)"
+      },
+      {
+       "url": "https://taxguru.in/company-law/directors-officers-held-liable-delayed-board-meeting-minutes.html",
+       "published_date": "unknown",
+       "quote": "the Registrar of Companies is entrusted with power to adjudicate penalty under Section 118 with effect from 21.12.2020"
+      }
+     ]
+    },
+    "text_hash": "b00589d3430749d20f4281fe40451ea006c895bf",
+    "at": "2026-11-15T11:58:47.440008+00:00"
+   }
+  }
+ ],
+ "updated_at": "2026-11-25T03:15:12.359943+00:00",
+ "sources": [
+  {
+   "url": "https://www.legal500.com/intelligence/india/corporate-commercial-law/the-evidentiary-value-of-board-minutes-why-they-matter-in-corporation-governance",
+   "fact": "Indian law treats duly kept board minutes as evidence of a decision and presumes the meeting valid, while missing records can lead tribunals to draw adverse inferences and put a heavier burden of proof on the company.",
+   "excerpt": "minutes as \"legal documents that can establish whether a company followed proper procedures.\" On Section 118(7) of the Companies Act, 2013: \"shall be evidence of the proceedings recorded therein.\" Section 118(8): \"meetings whose minutes have been duly kept are deemed to have been duly called and held.\" \"the best evidence of a corporate decision is the original board-minutes book.\" \"If minute books are not produced during proceedings, tribunals may draw adverse inferences against the company.\" In Dale and Carrington v. P.K. Prathapan the minutes were \"sham and fabricated,\" and the share allotment based on them was \"unauthorized and invalid.\"",
+   "date": "2026-03-18"
+  },
+  {
+   "url": "https://lawx.in/acts/section/24/309/2964",
+   "fact": "Section 118 of the Companies Act, 2013 requires every company to prepare, sign and keep minutes of every board and committee meeting within thirty days, with a Rs 25,000 penalty on the company and Rs 5,000 on each officer in default.",
+   "excerpt": "Every company shall cause minutes of the proceedings of every general meeting of any class of shareholders or creditors, and every resolution passed by postal ballot and every meeting of its Board of Directors or of every committee of the Board, to be prepared and signed in such manner as may be prescribed and kept within thirty days of the conclusion of every such meeting concerned, or passing of resolution by postal ballot in books kept for that purpose with their pages consecutively numbered. ... If any default is made in complying with the provisions of this section in respect of any meeting, the company shall be liable to a penalty of twenty-five thousand rupees and every officer of the company who is in default shall be liable to a penalty of five thousand rupees.",
+   "date": "2026-01-01"
+  }
+ ],
+ "verification_cache": {
+  "_ledger": {
+   "text": "[cover] A [quick call] is rarely about saving time\nIt's about leaving nothing in writing.\n \n\n[slide 1] \"Can we just hop on a quick call?\" is rarely about saving time. It's about not writing anything down.\nSwipe to read →\n\n[slide 2] You ask on Slack if the release is still on for Friday, a question that needs only a one-line reply.\nInstead you get: \"Quick call?\"\nTwenty minutes later it ends with \"toh sab clear hai na?\" And no one sends notes.\n\n[slide 3] The excuse is speed. Calls beat long email chains, and sometimes they really do.\nBut notice which questions get moved to a call. Never the easy ones. The deadline, the budget, who owns the fix.\n\n[slide 4] A Slack message sits there with a timestamp on it for anyone to scroll back to. An email can be forwarded to your manager's manager.\nA call leaves only memory. And memory bends toward whoever's most senior on it.\n\n[slide 5] So when the project slips and the blame starts moving around the room, the call gets rewritten.\n\"I never said Friday.\"\n\"I thought you were checking with legal.\"\nYou agreed to something. You can't even prove what it was.\n\n[slide 6] Call it flexible blame. Whoever keeps things out of writing keeps the right to change the story later.\nThat quick call was a way out. It got booked before anything went wrong.\n\n[slide 7] Funny part is, the law already knows this. Every company has to sign and keep its board meeting minutes within 30 days. That's Section 118 of the Companies Act, 2013. Skip it and the company pays a penalty.\n\n[slide 8] The board has to write it down. Your project call doesn't.\n\n[slide 9] It isn't always a scheme. Plenty of managers just hate being pinned down in a messy week.\nBut the cost rarely lands on them. It lands on the junior on the call who did exactly what was said.\n\n[slide 10] After the next call, send one line on Slack:\n\"Recap: launch Friday, legal sign-off with you.\"\nThen watch who suddenly remembers it differently.\n\n[end card] Open this again right before your next \"quick call\" invite.\nSend to the teammate who always gets blamed for decisions made on calls.\n\n[caption] A quick call at work keeps the blame flexible, since nothing in writing means the story can change.\n\nIt always ends with \"toh sab clear hai na?\" and somehow nobody sends notes.\n\nAnd when it goes wrong, the cost lands on the junior who did exactly what was said.\n\nSend this to the teammate who always ends up blamed for whatever got decided on a call.\n\n[alt text] Text carousel from Above MRP arguing that asking for a 'quick call' at work is often a way to avoid leaving a written record. It shows a one-line Slack question turning into a 20-minute call with no notes, explains that calls leave only memory, so the story can change when a project slips, and notes that Indian company law requires signed board minutes within 30 days. It ends by suggesting a one-line recap after every call and watching who remembers it differently.",
+   "claims": [
+    {
+     "id": "c1",
+     "text": "Section 118 of the Companies Act, 2013 requires a company's board meeting minutes to be signed and kept within 30 days of the meeting.",
+     "sentence": "Every company has to sign and keep its board meeting minutes within 30 days. That's Section 118 of the Companies Act, 2013.",
+     "type": "feature",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c2",
+     "text": "A company that fails to keep board meeting minutes as required under the Companies Act pays a penalty.",
+     "sentence": "Skip it and the company pays a penalty.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c3",
+     "text": "Indian law has no equivalent requirement to record minutes of an ordinary project call at work.",
+     "sentence": "The board has to write it down. Your project call doesn't.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c4",
+     "text": "Moving a discussion from writing to a call leaves no written record, only memory. Recollection of the call tends to favour the most senior person on it. When a project slips, this lets the story be rewritten and the blame shifted. Requests for a quick call are therefore often a way to avoid leaving a written record, and the hard questions (deadline, budget, ownership of the fix) are the ones that get moved to calls.",
+     "sentence": "A call leaves only memory. And memory bends toward whoever's most senior on it.",
+     "type": "mechanism",
+     "core": true,
+     "framed_as": "timeless"
+    },
+    {
+     "id": "c5",
+     "text": "Slack messages carry a timestamp and can be scrolled back to, and emails can be forwarded to higher management, so both leave a record.",
+     "sentence": "A Slack message sits there with a timestamp on it for anyone to scroll back to. An email can be forwarded to your manager's manager.",
+     "type": "feature",
+     "core": false,
+     "framed_as": "timeless"
+    }
+   ]
+  },
+  "Section 118 of the Companies Act, 2013 requires a company's board meeting minutes to be signed and kept within 30 days of the meeting.": {
+   "id": "c1",
+   "verdict": "supported",
+   "event_date": "2014-04-01",
+   "correct": "Section 118(1) requires minutes of every board meeting to be kept within thirty days of the conclusion of the meeting. Under the section, the chairman signs them. The section came into force on 1 April 2014. The source page does not give that date, and I did not verify it.",
+   "sources": [
+    {
+     "url": "https://lawx.in/acts/section/24/309/2964",
+     "publisher": "LawX",
+     "published_date": "2026-01-01",
+     "quote": "kept within thirty days of the conclusion of every such meeting concerned",
+     "tier": 3
+    }
+   ]
+  },
+  "A company that fails to keep board meeting minutes as required under the Companies Act pays a penalty.": {
+   "id": "c2",
+   "verdict": "supported",
+   "event_date": "2014-04-01",
+   "correct": "A company that defaults on Section 118 is liable to a penalty of Rs 25,000. Each officer in default is liable to Rs 5,000. The source page cites this as Section 118(11).",
+   "sources": [
+    {
+     "url": "https://lawx.in/acts/section/24/309/2964",
+     "publisher": "LawX",
+     "published_date": "2026-01-01",
+     "quote": "the company shall be liable to a penalty of twenty-five thousand rupees",
+     "tier": 3
+    }
+   ]
+  },
+  "Indian law has no equivalent requirement to record minutes of an ordinary project call at work.": {
+   "id": "c3",
+   "verdict": "supported",
+   "correct": "Section 118 applies to general meetings, board and committee meetings, and postal ballots. It does not cover ordinary project calls at work. I found no source that states this absence directly, so the verdict rests on the section's scope.",
+   "sources": [
+    {
+     "url": "https://lawx.in/acts/section/24/309/2964",
+     "publisher": "LawX",
+     "published_date": "2026-01-01",
+     "quote": "Section 118(1) requires minutes to be kept in books kept within thirty days of the conclusion of every such meeting concerned",
+     "tier": 3
+    }
+   ]
+  },
+  "Slack messages carry a timestamp and can be scrolled back to, and emails can be forwarded to higher management, so both leave a record.": {
+   "id": "c5",
+   "verdict": "supported",
+   "correct": "Slack messages carry a timestamp ('ts') and can be retrieved by timestamp range or searched by date. I did not search for an email-forwarding source. Forwarding an email is a basic, widely known feature.",
+   "sources": [
+    {
+     "url": "https://api.slack.com/methods/conversations.history",
+     "publisher": "Slack API documentation",
+     "published_date": "2026-01-01",
+     "quote": "oldest and latest Unix timestamps to bound results",
+     "tier": 1
+    }
+   ]
+  },
+  "_skeptic": {
+   "e90223c49fcf52b79eeb1d1c26ff8db90ee66fad": {
+    "holds": true,
+    "broken_premise": "None. The only checkable claim is the Section 118 one, and it holds. Section 118(1) of the Companies Act, 2013 says minutes of board and committee meetings must be prepared, signed and kept within 30 days of the meeting. Section 118(11) puts a fixed penalty on the company for default. One small point: the post makes it sound as if signing must happen within 30 days. Under Rule 25(1)(d)(i), board minutes can be signed by the chairman of the next meeting, so the signature can come later even though the minutes must be entered within 30 days. This doesn't change the argument. Everything else in the post is opinion: why people ask for calls, which questions get moved to calls, and memory bending toward seniors. Those aren't checkable claims about how a law or product works.",
+    "actual_mechanism": "Indian company law requires a written record for formal company meetings. Under Section 118, minutes of general, board and committee meetings must be prepared and entered in the minute book within 30 days, and signed as the rules set out. A default costs the company Rs 25,000 and each officer in default Rs 5,000, decided by the Registrar of Companies since the 2020 amendment. No law requires minutes for ordinary internal project calls, so whether a call leaves a record is up to the people on it. That is the post's point.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://ca2013.com/minutes-of-proceedings-of-general-meeting-meeting-of-board-of-directors-and-other-meeting-and-resolutions-passed-by-postal-ballot/",
+      "published_date": "unknown (page shows text valid as on 25/08/2026)",
+      "quote": "Every company shall cause minutes of the proceedings of every general meeting ... to be prepared and signed in such manner as may be prescribed and kept within thirty days of the conclusion of every such meeting concerned"
+     },
+     {
+      "url": "https://ca2013.com/minutes-of-proceedings-of-general-meeting-meeting-of-board-of-directors-and-other-meeting-and-resolutions-passed-by-postal-ballot/",
+      "published_date": "unknown (page shows text valid as on 25/08/2026)",
+      "quote": "the company shall be liable to a penalty of twenty-five thousand rupees and every officer ... who is in default shall be liable to a penalty of five thousand rupees"
+     },
+     {
+      "url": "https://ca2013.com/minutes-of-proceedings-of-general-meeting-meeting-of-board-of-directors-and-other-meeting-and-resolutions-passed-by-postal-ballot/",
+      "published_date": "unknown (page shows text valid as on 25/08/2026)",
+      "quote": "in the case of minutes of proceedings of a meeting of the Board or of a committee thereof, by the chairman of the said meeting or the chairman of the next succeeding meeting (Rule 25(1)(d)(i), Companies (Management & Administration) Rules, 2014)"
+     },
+     {
+      "url": "https://taxguru.in/company-law/directors-officers-held-liable-delayed-board-meeting-minutes.html",
+      "published_date": "unknown",
+      "quote": "the Registrar of Companies is entrusted with power to adjudicate penalty under Section 118 with effect from 21.12.2020"
+     }
+    ]
+   }
+  },
+  "_skeptic_take": {
+   "d0f098d17a77ec43501dcb6b17b5c14002654e4f": {
+    "holds": true,
+    "broken_premise": "None. The only checkable claim is the Section 118 one, and it holds. Section 118(1) of the Companies Act, 2013 says minutes of board and committee meetings must be prepared, signed and kept within 30 days of the meeting. Section 118(11) puts a fixed penalty on the company for default. One small point: the post makes it sound as if signing must happen within 30 days. Under Rule 25(1)(d)(i), board minutes can be signed by the chairman of the next meeting, so the signature can come later even though the minutes must be entered within 30 days. This doesn't change the argument. Everything else in the post is opinion: why people ask for calls, which questions get moved to calls, and memory bending toward seniors. Those aren't checkable claims about how a law or product works.",
+    "actual_mechanism": "Indian company law requires a written record for formal company meetings. Under Section 118, minutes of general, board and committee meetings must be prepared and entered in the minute book within 30 days, and signed as the rules set out. A default costs the company Rs 25,000 and each officer in default Rs 5,000, decided by the Registrar of Companies since the 2020 amendment. No law requires minutes for ordinary internal project calls, so whether a call leaves a record is up to the people on it. That is the post's point.",
+    "take_survives": true,
+    "sources": [
+     {
+      "url": "https://ca2013.com/minutes-of-proceedings-of-general-meeting-meeting-of-board-of-directors-and-other-meeting-and-resolutions-passed-by-postal-ballot/",
+      "published_date": "unknown (page shows text valid as on 25/08/2026)",
+      "quote": "Every company shall cause minutes of the proceedings of every general meeting ... to be prepared and signed in such manner as may be prescribed and kept within thirty days of the conclusion of every such meeting concerned"
+     },
+     {
+      "url": "https://ca2013.com/minutes-of-proceedings-of-general-meeting-meeting-of-board-of-directors-and-other-meeting-and-resolutions-passed-by-postal-ballot/",
+      "published_date": "unknown (page shows text valid as on 25/08/2026)",
+      "quote": "the company shall be liable to a penalty of twenty-five thousand rupees and every officer ... who is in default shall be liable to a penalty of five thousand rupees"
+     },
+     {
+      "url": "https://ca2013.com/minutes-of-proceedings-of-general-meeting-meeting-of-board-of-directors-and-other-meeting-and-resolutions-passed-by-postal-ballot/",
+      "published_date": "unknown (page shows text valid as on 25/08/2026)",
+      "quote": "in the case of minutes of proceedings of a meeting of the Board or of a committee thereof, by the chairman of the said meeting or the chairman of the next succeeding meeting (Rule 25(1)(d)(i), Companies (Management & Administration) Rules, 2014)"
+     },
+     {
+      "url": "https://taxguru.in/company-law/directors-officers-held-liable-delayed-board-meeting-minutes.html",
+      "published_date": "unknown",
+      "quote": "the Registrar of Companies is entrusted with power to adjudicate penalty under Section 118 with effect from 21.12.2020"
+     }
+    ]
+   }
+  },
+  "_by_text": {
+   "b00589d3430749d20f4281fe40451ea006c895bf": {
+    "passed": true,
+    "take_dead": false,
+    "notes": [],
+    "ledger": [
+     {
+      "id": "c1",
+      "text": "Section 118 of the Companies Act, 2013 requires a company's board meeting minutes to be signed and kept within 30 days of the meeting.",
+      "sentence": "Every company has to sign and keep its board meeting minutes within 30 days. That's Section 118 of the Companies Act, 2013.",
+      "type": "feature",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c2",
+      "text": "A company that fails to keep board meeting minutes as required under the Companies Act pays a penalty.",
+      "sentence": "Skip it and the company pays a penalty.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c3",
+      "text": "Indian law has no equivalent requirement to record minutes of an ordinary project call at work.",
+      "sentence": "The board has to write it down. Your project call doesn't.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c4",
+      "text": "Moving a discussion from writing to a call leaves no written record, only memory. Recollection of the call tends to favour the most senior person on it. When a project slips, this lets the story be rewritten and the blame shifted. Requests for a quick call are therefore often a way to avoid leaving a written record, and the hard questions (deadline, budget, ownership of the fix) are the ones that get moved to calls.",
+      "sentence": "A call leaves only memory. And memory bends toward whoever's most senior on it.",
+      "type": "mechanism",
+      "core": true,
+      "framed_as": "timeless"
+     },
+     {
+      "id": "c5",
+      "text": "Slack messages carry a timestamp and can be scrolled back to, and emails can be forwarded to higher management, so both leave a record.",
+      "sentence": "A Slack message sits there with a timestamp on it for anyone to scroll back to. An email can be forwarded to your manager's manager.",
+      "type": "feature",
+      "core": false,
+      "framed_as": "timeless"
+     }
+    ],
+    "verdicts": {
+     "c1": {
+      "id": "c1",
+      "verdict": "supported",
+      "event_date": "2014-04-01",
+      "correct": "Section 118(1) requires minutes of every board meeting to be kept within thirty days of the conclusion of the meeting. Under the section, the chairman signs them. The section came into force on 1 April 2014. The source page does not give that date, and I did not verify it.",
+      "sources": [
+       {
+        "url": "https://lawx.in/acts/section/24/309/2964",
+        "publisher": "LawX",
+        "published_date": "2026-01-01",
+        "quote": "kept within thirty days of the conclusion of every such meeting concerned",
+        "tier": 3
+       }
+      ]
+     },
+     "c2": {
+      "id": "c2",
+      "verdict": "supported",
+      "event_date": "2014-04-01",
+      "correct": "A company that defaults on Section 118 is liable to a penalty of Rs 25,000. Each officer in default is liable to Rs 5,000. The source page cites this as Section 118(11).",
+      "sources": [
+       {
+        "url": "https://lawx.in/acts/section/24/309/2964",
+        "publisher": "LawX",
+        "published_date": "2026-01-01",
+        "quote": "the company shall be liable to a penalty of twenty-five thousand rupees",
+        "tier": 3
+       }
+      ]
+     },
+     "c3": {
+      "id": "c3",
+      "verdict": "supported",
+      "correct": "Section 118 applies to general meetings, board and committee meetings, and postal ballots. It does not cover ordinary project calls at work. I found no source that states this absence directly, so the verdict rests on the section's scope.",
+      "sources": [
+       {
+        "url": "https://lawx.in/acts/section/24/309/2964",
+        "publisher": "LawX",
+        "published_date": "2026-01-01",
+        "quote": "Section 118(1) requires minutes to be kept in books kept within thirty days of the conclusion of every such meeting concerned",
+        "tier": 3
+       }
+      ]
+     },
+     "c5": {
+      "id": "c5",
+      "verdict": "supported",
+      "correct": "Slack messages carry a timestamp ('ts') and can be retrieved by timestamp range or searched by date. I did not search for an email-forwarding source. Forwarding an email is a basic, widely known feature.",
+      "sources": [
+       {
+        "url": "https://api.slack.com/methods/conversations.history",
+        "publisher": "Slack API documentation",
+        "published_date": "2026-01-01",
+        "quote": "oldest and latest Unix timestamps to bound results",
+        "tier": 1
+       }
+      ]
+     }
+    },
+    "mechanism": {
+     "holds": true,
+     "broken_premise": "None. The only checkable claim is the Section 118 one, and it holds. Section 118(1) of the Companies Act, 2013 says minutes of board and committee meetings must be prepared, signed and kept within 30 days of the meeting. Section 118(11) puts a fixed penalty on the company for default. One small point: the post makes it sound as if signing must happen within 30 days. Under Rule 25(1)(d)(i), board minutes can be signed by the chairman of the next meeting, so the signature can come later even though the minutes must be entered within 30 days. This doesn't change the argument. Everything else in the post is opinion: why people ask for calls, which questions get moved to calls, and memory bending toward seniors. Those aren't checkable claims about how a law or product works.",
+     "actual_mechanism": "Indian company law requires a written record for formal company meetings. Under Section 118, minutes of general, board and committee meetings must be prepared and entered in the minute book within 30 days, and signed as the rules set out. A default costs the company Rs 25,000 and each officer in default Rs 5,000, decided by the Registrar of Companies since the 2020 amendment. No law requires minutes for ordinary internal project calls, so whether a call leaves a record is up to the people on it. That is the post's point.",
+     "take_survives": true,
+     "sources": [
+      {
+       "url": "https://ca2013.com/minutes-of-proceedings-of-general-meeting-meeting-of-board-of-directors-and-other-meeting-and-resolutions-passed-by-postal-ballot/",
+       "published_date": "unknown (page shows text valid as on 25/08/2026)",
+       "quote": "Every company shall cause minutes of the proceedings of every general meeting ... to be prepared and signed in such manner as may be prescribed and kept within thirty days of the conclusion of every such meeting concerned"
+      },
+      {
+       "url": "https://ca2013.com/minutes-of-proceedings-of-general-meeting-meeting-of-board-of-directors-and-other-meeting-and-resolutions-passed-by-postal-ballot/",
+       "published_date": "unknown (page shows text valid as on 25/08/2026)",
+       "quote": "the company shall be liable to a penalty of twenty-five thousand rupees and every officer ... who is in default shall be liable to a penalty of five thousand rupees"
+      },
+      {
+       "url": "https://ca2013.com/minutes-of-proceedings-of-general-meeting-meeting-of-board-of-directors-and-other-meeting-and-resolutions-passed-by-postal-ballot/",
+       "published_date": "unknown (page shows text valid as on 25/08/2026)",
+       "quote": "in the case of minutes of proceedings of a meeting of the Board or of a committee thereof, by the chairman of the said meeting or the chairman of the next succeeding meeting (Rule 25(1)(d)(i), Companies (Management & Administration) Rules, 2014)"
+      },
+      {
+       "url": "https://taxguru.in/company-law/directors-officers-held-liable-delayed-board-meeting-minutes.html",
+       "published_date": "unknown",
+       "quote": "the Registrar of Companies is entrusted with power to adjudicate penalty under Section 118 with effect from 21.12.2020"
+      }
+     ]
+    },
+    "text_hash": "b00589d3430749d20f4281fe40451ea006c895bf",
+    "at": "2026-11-15T11:58:47.440008+00:00"
+   }
+  }
+ },
+ "draft": {
+  "cover": {
+   "headline": "A [quick call] is rarely about saving time",
+   "sub": "It's about leaving nothing in writing."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "\"Can we just hop on a quick call?\" is rarely about saving time. It's about not writing anything down.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "If it's not about time, then what is the call actually for?"
+   },
+   {
+    "paragraphs": [
+     "You ask on Slack if the release is still on for Friday, a question that needs only a one-line reply.",
+     "Instead you get: \"Quick call?\"",
+     "Twenty minutes later it ends with \"toh sab clear hai na?\" And no one sends notes."
+    ],
+    "why_swipe": "Everyone says calls are faster. Are they?"
+   },
+   {
+    "paragraphs": [
+     "The excuse is speed. Calls beat long email chains, and sometimes they really do.",
+     "But notice which questions get moved to a call. Never the easy ones. The deadline, the budget, who owns the fix."
+    ],
+    "why_swipe": "Why those questions in particular?"
+   },
+   {
+    "paragraphs": [
+     "A Slack message sits there with a timestamp on it for anyone to scroll back to. An email can be forwarded to your manager's manager.",
+     "A call leaves only memory. And memory bends toward whoever's most senior on it."
+    ],
+    "why_swipe": "What happens to that memory when things go wrong?"
+   },
+   {
+    "paragraphs": [
+     "So when the project slips and the blame starts moving around the room, the call gets rewritten.",
+     "\"I never said Friday.\"\n\"I thought you were checking with legal.\"",
+     "You agreed to something. You can't even prove what it was."
+    ],
+    "why_swipe": "Is this an accident, or does it work for someone?"
+   },
+   {
+    "paragraphs": [
+     "Call it flexible blame. Whoever keeps things out of writing keeps the right to change the story later.",
+     "That quick call was a way out. It got booked before anything went wrong."
+    ],
+    "why_swipe": "If writing it down matters this much, who actually has to do it?"
+   },
+   {
+    "paragraphs": [
+     "Funny part is, the law already knows this. Every company has to sign and keep its board meeting minutes within 30 days. That's Section 118 of the Companies Act, 2013. Skip it and the company pays a penalty."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "The board has to write it down. Your project call doesn't."
+    ],
+    "why_swipe": "So is every manager who calls doing this on purpose?"
+   },
+   {
+    "paragraphs": [
+     "It isn't always a scheme. Plenty of managers just hate being pinned down in a messy week.",
+     "But the cost rarely lands on them. It lands on the junior on the call who did exactly what was said."
+    ],
+    "why_swipe": "So what can the person who always gets blamed actually do?"
+   },
+   {
+    "paragraphs": [
+     "After the next call, send one line on Slack:",
+     "\"Recap: launch Friday, legal sign-off with you.\"",
+     "Then watch who suddenly remembers it differently."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Open this again right before your next \"quick call\" invite.",
+   "send": "Send to the teammate who always gets blamed for decisions made on calls.",
+   "promise": "How Indian offices really work."
+  },
+  "alt_text": "Text carousel from Above MRP arguing that asking for a 'quick call' at work is often a way to avoid leaving a written record. It shows a one-line Slack question turning into a 20-minute call with no notes, explains that calls leave only memory, so the story can change when a project slips, and notes that Indian company law requires signed board minutes within 30 days. It ends by suggesting a one-line recap after every call and watching who remembers it differently.",
+  "claims": [
+   {
+    "text": "Section 118 of the Companies Act, 2013 requires every company to prepare, sign and keep minutes of each board meeting within 30 days.",
+    "source_url": "https://lawx.in/acts/section/24/309/2964"
+   },
+   {
+    "text": "Failing to keep board minutes under Section 118 attracts a penalty on the company.",
+    "source_url": "https://lawx.in/acts/section/24/309/2964"
+   }
+  ],
+  "caption": "A quick call at work keeps the blame flexible, since nothing in writing means the story can change.\n\nIt always ends with \"toh sab clear hai na?\" and somehow nobody sends notes.\n\nAnd when it goes wrong, the cost lands on the junior who did exactly what was said.\n\nSend this to the teammate who always ends up blamed for whatever got decided on a call.",
+  "hashtags": [
+   "#OfficePolitics",
+   "#IndianBrands"
+  ],
+  "caption_style": "send",
+  "search_phrase": "quick call at work",
+  "caption_v": 2
+ },
+ "verification": {
+  "passed": true,
+  "take_dead": false,
+  "notes": [],
+  "ledger": [
+   {
+    "id": "c1",
+    "text": "Section 118 of the Companies Act, 2013 requires a company's board meeting minutes to be signed and kept within 30 days of the meeting.",
+    "sentence": "Every company has to sign and keep its board meeting minutes within 30 days. That's Section 118 of the Companies Act, 2013.",
+    "type": "feature",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c2",
+    "text": "A company that fails to keep board meeting minutes as required under the Companies Act pays a penalty.",
+    "sentence": "Skip it and the company pays a penalty.",
+    "type": "feature",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c3",
+    "text": "Indian law has no equivalent requirement to record minutes of an ordinary project call at work.",
+    "sentence": "The board has to write it down. Your project call doesn't.",
+    "type": "feature",
+    "core": false,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c4",
+    "text": "Moving a discussion from writing to a call leaves no written record, only memory. Recollection of the call tends to favour the most senior person on it. When a project slips, this lets the story be rewritten and the blame shifted. Requests for a quick call are therefore often a way to avoid leaving a written record, and the hard questions (deadline, budget, ownership of the fix) are the ones that get moved to calls.",
+    "sentence": "A call leaves only memory. And memory bends toward whoever's most senior on it.",
+    "type": "mechanism",
+    "core": true,
+    "framed_as": "timeless"
+   },
+   {
+    "id": "c5",
+    "text": "Slack messages carry a timestamp and can be scrolled back to, and emails can be forwarded to higher management, so both leave a record.",
+    "sentence": "A Slack message sits there with a timestamp on it for anyone to scroll back to. An email can be forwarded to your manager's manager.",
+    "type": "feature",
+    "core": false,
+    "framed_as": "timeless"
+   }
+  ],
+  "verdicts": {
+   "c1": {
+    "id": "c1",
+    "verdict": "supported",
+    "event_date": "2014-04-01",
+    "correct": "Section 118(1) requires minutes of every board meeting to be kept within thirty days of the conclusion of the meeting. Under the section, the chairman signs them. The section came into force on 1 April 2014. The source page does not give that date, and I did not verify it.",
+    "sources": [
+     {
+      "url": "https://lawx.in/acts/section/24/309/2964",
+      "publisher": "LawX",
+      "published_date": "2026-01-01",
+      "quote": "kept within thirty days of the conclusion of every such meeting concerned",
+      "tier": 3
+     }
+    ]
+   },
+   "c2": {
+    "id": "c2",
+    "verdict": "supported",
+    "event_date": "2014-04-01",
+    "correct": "A company that defaults on Section 118 is liable to a penalty of Rs 25,000. Each officer in default is liable to Rs 5,000. The source page cites this as Section 118(11).",
+    "sources": [
+     {
+      "url": "https://lawx.in/acts/section/24/309/2964",
+      "publisher": "LawX",
+      "published_date": "2026-01-01",
+      "quote": "the company shall be liable to a penalty of twenty-five thousand rupees",
+      "tier": 3
+     }
+    ]
+   },
+   "c3": {
+    "id": "c3",
+    "verdict": "supported",
+    "correct": "Section 118 applies to general meetings, board and committee meetings, and postal ballots. It does not cover ordinary project calls at work. I found no source that states this absence directly, so the verdict rests on the section's scope.",
+    "sources": [
+     {
+      "url": "https://lawx.in/acts/section/24/309/2964",
+      "publisher": "LawX",
+      "published_date": "2026-01-01",
+      "quote": "Section 118(1) requires minutes to be kept in books kept within thirty days of the conclusion of every such meeting concerned",
+      "tier": 3
+     }
+    ]
+   },
+   "c5": {
+    "id": "c5",
+    "verdict": "supported",
+    "correct": "Slack messages carry a timestamp ('ts') and can be retrieved by timestamp range or searched by date. I did not search for an email-forwarding source. Forwarding an email is a basic, widely known feature.",
+    "sources": [
+     {
+      "url": "https://api.slack.com/methods/conversations.history",
+      "publisher": "Slack API documentation",
+      "published_date": "2026-01-01",
+      "quote": "oldest and latest Unix timestamps to bound results",
+      "tier": 1
+     }
+    ]
+   }
+  },
+  "mechanism": {
+   "holds": true,
+   "broken_premise": "None. The only checkable claim is the Section 118 one, and it holds. Section 118(1) of the Companies Act, 2013 says minutes of board and committee meetings must be prepared, signed and kept within 30 days of the meeting. Section 118(11) puts a fixed penalty on the company for default. One small point: the post makes it sound as if signing must happen within 30 days. Under Rule 25(1)(d)(i), board minutes can be signed by the chairman of the next meeting, so the signature can come later even though the minutes must be entered within 30 days. This doesn't change the argument. Everything else in the post is opinion: why people ask for calls, which questions get moved to calls, and memory bending toward seniors. Those aren't checkable claims about how a law or product works.",
+   "actual_mechanism": "Indian company law requires a written record for formal company meetings. Under Section 118, minutes of general, board and committee meetings must be prepared and entered in the minute book within 30 days, and signed as the rules set out. A default costs the company Rs 25,000 and each officer in default Rs 5,000, decided by the Registrar of Companies since the 2020 amendment. No law requires minutes for ordinary internal project calls, so whether a call leaves a record is up to the people on it. That is the post's point.",
+   "take_survives": true,
+   "sources": [
+    {
+     "url": "https://ca2013.com/minutes-of-proceedings-of-general-meeting-meeting-of-board-of-directors-and-other-meeting-and-resolutions-passed-by-postal-ballot/",
+     "published_date": "unknown (page shows text valid as on 25/08/2026)",
+     "quote": "Every company shall cause minutes of the proceedings of every general meeting ... to be prepared and signed in such manner as may be prescribed and kept within thirty days of the conclusion of every such meeting concerned"
+    },
+    {
+     "url": "https://ca2013.com/minutes-of-proceedings-of-general-meeting-meeting-of-board-of-directors-and-other-meeting-and-resolutions-passed-by-postal-ballot/",
+     "published_date": "unknown (page shows text valid as on 25/08/2026)",
+     "quote": "the company shall be liable to a penalty of twenty-five thousand rupees and every officer ... who is in default shall be liable to a penalty of five thousand rupees"
+    },
+    {
+     "url": "https://ca2013.com/minutes-of-proceedings-of-general-meeting-meeting-of-board-of-directors-and-other-meeting-and-resolutions-passed-by-postal-ballot/",
+     "published_date": "unknown (page shows text valid as on 25/08/2026)",
+     "quote": "in the case of minutes of proceedings of a meeting of the Board or of a committee thereof, by the chairman of the said meeting or the chairman of the next succeeding meeting (Rule 25(1)(d)(i), Companies (Management & Administration) Rules, 2014)"
+    },
+    {
+     "url": "https://taxguru.in/company-law/directors-officers-held-liable-delayed-board-meeting-minutes.html",
+     "published_date": "unknown",
+     "quote": "the Registrar of Companies is entrusted with power to adjudicate penalty under Section 118 with effect from 21.12.2020"
+    }
+   ]
+  },
+  "text_hash": "b00589d3430749d20f4281fe40451ea006c895bf",
+  "at": "2026-11-15T11:58:47.440008+00:00"
+ },
+ "varun": {
+  "pass": true,
+  "score": 5,
+  "misses": [],
+  "best": "The board has to write it down. Your project call doesn't.",
+  "passed": true,
+  "text_hash": "b00589d3430749d20f4281fe40451ea006c895bf"
+ },
+ "alt_texts": [
+  "\"Can we just hop on a quick call?\" is rarely about saving time. It's about not writing anything down.",
+  "You ask on Slack if the release is still on for Friday, a question that needs only a one-line reply. Instead you get: \"Quick call?\" Twenty minutes later it ends with \"toh sab clear hai na?\" And no one sends notes.",
+  "The excuse is speed. Calls beat long email chains, and sometimes they really do. But notice which questions get moved to a call. Never the easy ones. The deadline, the budget, who owns the fix.",
+  "A Slack message sits there with a timestamp on it for anyone to scroll back to. An email can be forwarded to your manager's manager. A call leaves only memory. And memory bends toward whoever's most senior on it.",
+  "So when the project slips and the blame starts moving around the room, the call gets rewritten. \"I never said Friday.\"\n\"I thought you were checking with legal.\" You agreed to something. You can't even prove what it was.",
+  "Call it flexible blame. Whoever keeps things out of writing keeps the right to change the story later. That quick call was a way out. It got booked before anything went wrong.",
+  "Funny part is, the law already knows this. Every company has to sign and keep its board meeting minutes within 30 days. That's Section 118 of the Companies Act, 2013. Skip it and the company pays a penalty.",
+  "The board has to write it down. Your project call doesn't.",
+  "It isn't always a scheme. Plenty of managers just hate being pinned down in a messy week. But the cost rarely lands on them. It lands on the junior on the call who did exactly what was said.",
+  "After the next call, send one line on Slack: \"Recap: launch Friday, legal sign-off with you.\" Then watch who suddenly remembers it differently."
+ ],
+ "image_urls": [
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-165/slide_01.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-165/slide_02.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-165/slide_03.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-165/slide_04.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-165/slide_05.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-165/slide_06.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-165/slide_07.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-165/slide_08.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-165/slide_09.jpg",
+  "https://raw.githubusercontent.com/Merkabah23/ananya-media/main/slides/2026-11-165/slide_10.jpg"
+ ]
+}
