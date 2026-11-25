@@ -1,97 +1,41 @@
 [
  {
-  "due": "2026-11-24T20:30:00+05:30",
+  "due": "2026-11-29T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "The Pro is a prop",
-   "claim": "The 'Pro' version mostly exists to make the regular one feel like a smart buy.",
-   "moment": "You compare three plans, feel clever for skipping the most expensive, and pick the middle one.",
+   "title": "The ten-minute kitchen",
+   "claim": "Quick-delivery apps are slowly teaching you to stop keeping things at home, so you pay a fee every time you run out.",
+   "moment": "You order one packet of curd and a lemon at 9 pm because the fridge is empty again.",
    "turn": {
-    "believed": "You weighed the options and chose wisely.",
-    "actually": "The top option was priced to steer you to the middle, which is the one the brand wanted to sell."
+    "believed": "Ten-minute delivery saves time.",
+    "actually": "It moves your pantry into their dark store, and you pay rent on it each time you order."
    },
-   "feeling": "I thought I was being smart, and it turns out that was the plan.",
-   "villain": "Decoy pricing",
-   "story_type": "teaching",
-   "because": "Next to a costly option, the middle one looks reasonable. The brand makes its money there, not on the Pro.",
-   "payoff": "If buying the middle option makes you feel clever, someone planned that feeling.",
+   "feeling": "I'm spending more and planning less, and I can't tell where it went.",
+   "villain": "Handling, small-cart and late-night fees on top-up orders",
+   "story_type": "vision",
+   "because": "If your home stays empty, you come back daily. Daily small orders pay better than one big monthly one.",
+   "payoff": "What happens next: a whole generation that has never stocked a kitchen, renting one by the minute.",
    "lived": false,
-   "behaviour": "Brands launch three tiers where the top one barely sells.",
-   "mechanism": "An expensive anchor makes the middle price look sensible.",
-   "group": "Anyone buying a phone, subscription or appliance",
-   "territory": "business_brands",
-   "mood": "sharp",
+   "behaviour": "People order single items several times a week instead of a monthly stock-up.",
+   "mechanism": "Frequent small orders carry fees that one large order wouldn't.",
+   "group": "Young city renters and couples",
+   "territory": "money_status",
+   "mood": "dark_pattern",
    "format_name": "price_tells",
-   "send_to": "The friend who just upgraded to the 'smart middle plan'",
+   "send_to": "The flatmate who orders onions three times a week",
    "format_hint": "carousel",
-   "why_now": "Every app and gadget now comes in three tiers.",
+   "why_now": "Quick commerce now sells almost everything, so the empty kitchen feels normal.",
    "needs_facts": false,
    "news_peg": null,
    "evidence": [],
-   "id": "2026-11-131211-042",
+   "id": "2026-11-251245-043",
    "score": {
     "rank": 1,
-    "why": "Everyone feels clever picking the middle plan, and the turn is that the feeling was planned. It needs no facts.",
+    "why": "The 9pm curd-and-lemon order is every flatmate's habit, and 'renting your pantry by the minute' is a turn they haven't seen.",
     "scores": {
      "relatable": 5,
      "fresh_angle": 4,
-     "shareable": 4,
-     "saveable": 4,
-     "because": 5
-    },
-    "format_fit": "carousel"
-   }
-  }
- },
- {
-  "due": "2026-11-26T20:30:00+05:30",
-  "format": "carousel",
-  "topic": {
-   "title": "Refurbished is the new smart",
-   "claim": "Buying refurbished used to mean you couldn't afford new; now it means you know something.",
-   "moment": "A friend shows off a phone and says 'refurbished, with warranty' like it's a flex.",
-   "turn": {
-    "believed": "Second-hand is for people who are short on money.",
-    "actually": "With warranties and proper sellers, it's what people who understand value now buy."
-   },
-   "feeling": "I'm not settling, I'm just not getting fooled.",
-   "villain": "The old idea that new always means better",
-   "story_type": "values",
-   "because": "Trusted resale with warranty took the risk out. Once the risk was gone, the shame went with it.",
-   "payoff": "Smart is slowly becoming the new expensive.",
-   "lived": false,
-   "behaviour": "Young buyers pick refurbished phones and laptops and talk about it openly.",
-   "mechanism": "Lower risk plus lower price turns thrift into status.",
-   "group": "Young earners buying phones and laptops",
-   "territory": "money_status",
-   "mood": "warm",
-   "format_name": "price_tells",
-   "send_to": "The friend about to pay full price for last year's model",
-   "format_hint": "carousel",
-   "why_now": "Phone prices keep rising, and the resale market has grown up.",
-   "needs_facts": false,
-   "news_peg": null,
-   "evidence": [
-    {
-     "url": "https://www.reddit.com/r/StartUpIndia/comments/1xgejpw/planning_to_start_an_online_surplus_clothing/",
-     "sub": "StartUpIndia",
-     "rank": 13
-    }
-   ],
-   "real_details": [
-    "One poster has bought surplus clothing for a long while and has almost entirely stopped buying regular retail, citing the low prices and the value.",
-    "They say surplus includes brands like H&M, Zara, Levi's, Superdry and Ralph Lauren, but premium labels are harder to find and heavily counterfeited.",
-    "Surplus pieces often arrive with torn wash tags or labels blacked out with marker, so retail stores can't sell them. Sizes usually come assorted.",
-    "They also say they can source leather shoes, boots and loafers from brands like Clarks and Cole Haan. They plan to start an online surplus store with clothing and expand later."
-   ],
-   "id": "2026-11-131211-060",
-   "score": {
-    "rank": 7,
-    "why": "Refurbished used to mean you couldn't afford new and now it's a flex. It's the genuinely good side, and it adds warmth to the mix.",
-    "scores": {
-     "relatable": 4,
-     "fresh_angle": 4,
-     "shareable": 4,
+     "shareable": 5,
      "saveable": 3,
      "because": 4
     },
@@ -100,43 +44,60 @@
   }
  },
  {
-  "due": "2026-11-27T20:30:00+05:30",
-  "format": "carousel",
+  "due": null,
+  "format": "spare",
   "topic": {
-   "title": "Brownies for stars",
-   "claim": "That 'rate us 5 stars, get a free dessert' card means the rating is a price list.",
-   "moment": "The waiter puts down the bill with a QR code and a promise of a free brownie for a review.",
+   "title": "We buy air purifiers for the number on the screen",
+   "claim": "An air purifier sells because it turns invisible air into a number you can watch, and we pay for what we can see.",
+   "behaviour": "People compare purifiers by room size, filter type and the live AQI display. Sales are up across India, not only in Delhi.",
+   "mechanism": "Clean air has no visible result. A glowing number gives the buyer proof that money is working, and gives the brand a screen to sell.",
+   "group": "Urban families worried about air but unsure what to buy",
+   "territory": "life_relationships",
+   "mood": "mixed",
+   "format_name": "price_tells",
+   "moment": "You sit in a room watching the AQI number on a small screen fall from 300 to 80 and feel the purchase was worth it.",
    "turn": {
-    "believed": "A 4.8 on Maps means the food is great.",
-    "actually": "Many ratings are bought one dessert at a time."
+    "believed": "You buy a purifier because the air is bad.",
+    "actually": "You buy it for the display that shows it's fixed. We pay for the number we can watch."
    },
-   "feeling": "The stars I trusted were paid for with brownies.",
-   "villain": "Ratings that can be bought cheaply at the table",
+   "feeling": "relieved that something visible finally shows the problem is being handled",
+   "villain": "a market where invisible benefits only sell when they come with a screen",
    "story_type": "teaching",
-   "because": "A higher rating brings more walk-ins than the dessert costs. Every place that does it pushes the rest to do it too.",
-   "payoff": "A 4.8 bought with brownies tells you about the brownies.",
+   "because": "A live reading builds trust and justifies a premium. It also creates a reason to keep watching and keep the purifier running.",
+   "proof": [
+    {
+     "fact": "Amazon India said air-purifier sales doubled in the last week, and Amazon says shoppers now compare models by room size, filter type and live AQI sensors.",
+     "source_url": "https://www.businesstoday.in/india/story/no-longer-just-a-delhi-problem-as-delhi-ncr-air-turns-toxic-air-purifier-sales-double-across-india-567783-2026-11-17",
+     "date": "2026-11-17"
+    }
+   ],
    "lived": false,
-   "behaviour": "Restaurants and salons offer freebies in exchange for reviews.",
-   "mechanism": "Cheap freebies buy rankings that bring new customers.",
-   "group": "Anyone choosing a restaurant or clinic on Google Maps",
-   "territory": "creators_internet",
-   "mood": "sharp",
-   "format_name": "saturday_single",
-   "send_to": "The friend who only picks places rated 4.5 and above",
+   "payoff": "Test it: would you have bought the same purifier with the screen covered?",
+   "send_to": "The friend who bought a purifier and checks the number first thing in the morning.",
    "format_hint": "single",
-   "why_now": "Map ratings now decide where most people eat.",
-   "needs_facts": false,
-   "news_peg": null,
-   "evidence": [],
-   "id": "2026-11-131211-059",
+   "real_details": [
+    "Versuni India's Pooja Baid says buyers are purchasing earlier, a shift from panic-driven to proactive adoption."
+   ],
+   "evidence": [
+    {
+     "url": "https://www.businesstoday.in/india/story/no-longer-just-a-delhi-problem-as-delhi-ncr-air-turns-toxic-air-purifier-sales-double-across-india-567783-2026-11-17",
+     "sub": "news",
+     "rank": 18
+    }
+   ],
+   "news_peg": "Amazon India reports air-purifier sales doubled in the last week, reported 2026-11-17",
+   "why_now": "Delhi-NCR air has turned toxic and purifier demand is spreading beyond the city.",
+   "counterintuitive": true,
+   "needs_facts": true,
+   "id": "2026-11-251245-007",
    "score": {
-    "rank": 6,
-    "why": "The waiter's 'free dessert for a review' card shows a 4.8 can be bought. It's a quick, sharp single.",
+    "rank": 4,
+    "why": "We pay for the number we can watch: the visible-versus-invisible belief, in a purchase people are making this month.",
     "scores": {
      "relatable": 4,
      "fresh_angle": 4,
      "shareable": 4,
-     "saveable": 3,
+     "saveable": 4,
      "because": 4
     },
     "format_fit": "single"
@@ -147,39 +108,52 @@
   "due": null,
   "format": "spare",
   "topic": {
-   "title": "Dinner after 8",
-   "claim": "The free office dinner after 8 isn't a perk; it's what your evening is worth to the company.",
-   "moment": "The food arrives at 8:15, the cab is free after 9, and somehow everyone is still at their desks at 9:30.",
+   "title": "'No added sugar' is a font size",
+   "claim": "Most 'healthy' snack packs moved the bad stuff from the front of the pack to the back, and charged more for the move.",
+   "moment": "You pick the granola that says 'no refined sugar' in green and pay double.",
    "turn": {
-    "believed": "The company is looking after people who stay late.",
-    "actually": "A thali and a cab cost far less than the extra hours they keep you for."
+    "believed": "Health labels mean healthier food.",
+    "actually": "The claim is on the front; the dates, honey and oil are in the small print."
    },
-   "feeling": "I got a free meal and lost my whole evening without noticing.",
-   "villain": "Perks timed to make late nights feel normal",
-   "story_type": "teaching",
-   "because": "Once dinner is free, going home to cook feels like the silly choice. The perk sets the time everyone is expected to stay.",
-   "payoff": "Check what time the free food shows up. That's when they expect you to still be working.",
+   "feeling": "I paid to feel good, not to eat better.",
+   "villain": "Front-of-pack labels that are marketing, not information",
+   "story_type": "objection",
+   "because": "A health word lets a brand charge more for the same calories. Few people turn the pack over.",
+   "payoff": "Test: read the back first. If the front still feels true, buy it.",
    "lived": false,
-   "behaviour": "Offices give out free meals and cabs only after a cut-off hour.",
-   "mechanism": "Cheap comfort buys expensive hours.",
-   "group": "Young professionals in metros who stay late at work",
+   "behaviour": "Brands lead with 'no maida', 'no added sugar', 'clean' claims while using other sweeteners or oils.",
+   "mechanism": "A health word on the front lifts the price more than the recipe changes.",
+   "group": "Young urban shoppers trying to eat better",
    "territory": "business_brands",
-   "mood": "dark_pattern",
+   "mood": "rant",
    "format_name": "behind_the_brand",
-   "send_to": "The colleague who eats dinner at the office four nights a week",
-   "format_hint": "single",
-   "why_now": "Return-to-office pushes are bringing back the perks that keep you there longer.",
+   "send_to": "The friend whose 'healthy' snack drawer costs more than dinner",
+   "format_hint": "carousel",
+   "why_now": "Health-label snacks now take up whole shelves and apps.",
    "needs_facts": false,
    "news_peg": null,
-   "evidence": [],
-   "id": "2026-11-131211-040",
+   "evidence": [
+    {
+     "url": "https://www.reddit.com/r/StartUpIndia/comments/1wyygzn/startups_now_involved_in_legal_scams/",
+     "sub": "StartUpIndia",
+     "rank": 4
+    }
+   ],
+   "real_details": [
+    "A person bought a makhana pack from an office vending machine for Rs 30. They couldn't see the weight beforehand, and it turned out to be only 12g.",
+    "The same buyer said the protein claim on the front was hard to read, either 8% or S%. They called the pack a scam and told others to avoid it in vending machines.",
+    "One commenter said this is called slack fill. They said other countries regulate pack size so it isn't visually misleading, while Indian law doesn't say what proper packaging should look like.",
+    "Another commenter joked that 12g of snack at that protein level works out to about 960mg of protein.",
+    "One commenter said farmers get roughly Rs 200-250 per kg of makhana, so the farmer and the labourer wouldn't see even Rs 5 from a pack like this. Another suggested filing a consumer court complaint."
+   ],
+   "id": "2026-11-251245-052",
    "score": {
-    "rank": 3,
-    "why": "The free office dinner is a perk that quietly sets the time you're expected to stay. It's a pure observation and an office take.",
+    "rank": 5,
+    "why": "The 'no refined sugar' granola is wellness as marketing, and the read-the-back-first test is easy to reuse.",
     "scores": {
-     "relatable": 5,
+     "relatable": 4,
      "fresh_angle": 4,
-     "shareable": 5,
+     "shareable": 4,
      "saveable": 4,
      "because": 4
     },
@@ -191,146 +165,57 @@
   "due": null,
   "format": "spare",
   "topic": {
-   "title": "The quick call",
-   "claim": "When someone says 'can we just hop on a quick call', they usually aren't saving time; they're avoiding leaving anything in writing.",
-   "moment": "A Slack message you could answer in one line turns into a 20-minute call, and nobody sends notes after.",
-   "turn": {
-    "believed": "Calls are faster than long email chains.",
-    "actually": "Calls leave no record, so nobody can be quoted later on what they promised."
-   },
-   "feeling": "I agreed to something and I can't even prove what it was.",
-   "villain": "Office culture that rewards being able to deny things later",
-   "story_type": "teaching",
-   "because": "Whoever avoids writing things down can change the story when things go wrong. A call keeps the blame flexible.",
-   "payoff": "After every call, send a one-line summary. Watch who suddenly 'remembers it differently'.",
-   "lived": false,
-   "behaviour": "Managers and other teams move tricky decisions to calls and skip the minutes.",
-   "mechanism": "No written trail means no one gets held to their words.",
-   "group": "Working professionals, 24 to 32, in corporate teams",
-   "territory": "business_brands",
-   "mood": "dark_pattern",
-   "format_name": "feed_anthropology",
-   "send_to": "The teammate who always gets blamed for decisions made on calls",
-   "format_hint": "carousel",
-   "why_now": "Calls are now the default for every small thing, and people have stopped noticing what goes missing.",
-   "needs_facts": false,
-   "news_peg": null,
-   "evidence": [],
-   "id": "2026-11-131211-037",
-   "score": {
-    "rank": 4,
-    "why": "A 'quick call' leaves no written record, which is why people ask for one. It has a test the reader can run (send a one-line summary).",
-    "scores": {
-     "relatable": 5,
-     "fresh_angle": 4,
-     "shareable": 4,
-     "saveable": 5,
-     "because": 4
-    },
-    "format_fit": "carousel"
-   }
-  }
- },
- {
-  "due": null,
-  "format": "spare",
-  "topic": {
-   "title": "Metro salary, small-city life",
-   "claim": "A metro salary spent in a small city is the best money deal of this decade, and companies are already working to price it out.",
-   "moment": "A friend goes remote, moves home, saves more in a year than in five, then gets an email about 'location-based pay'.",
-   "turn": {
-    "believed": "Moving back to a tier-2 city means taking a step back.",
-    "actually": "It's the smartest move going, which is why companies are tying pay to where you live."
-   },
-   "feeling": "I found the loophole and they're closing it.",
-   "villain": "Location-based pay bands",
-   "story_type": "vision",
-   "because": "Companies saw that remote staff in cheaper cities were getting rich on metro pay. Cutting pay by city takes that gain back.",
-   "payoff": "Next time someone says moving home is giving up, ask them what their rent is.",
-   "lived": true,
-   "behaviour": "Remote workers move home and save hard; employers bring in city-based pay.",
-   "mechanism": "Pay that follows your location claws back the cost-of-living gap.",
-   "group": "Remote and hybrid workers thinking of moving home",
-   "territory": "money_status",
-   "mood": "prediction",
-   "format_name": "price_tells",
-   "send_to": "The friend who keeps saying 'I'll move back in two years'",
-   "format_hint": "carousel",
-   "why_now": "Return-to-office rules and pay revisions are deciding who can still work remotely.",
-   "needs_facts": "That some Indian employers have adopted location-based pay for remote staff.",
-   "news_peg": null,
-   "evidence": [],
-   "id": "2026-11-131211-054",
-   "score": {
-    "rank": 8,
-    "why": "Moving home to a smaller city is the smartest money move, and companies are pricing it out. It's a prediction with a feeling underneath, and one of the lived takes.",
-    "scores": {
-     "relatable": 4,
-     "fresh_angle": 4,
-     "shareable": 5,
-     "saveable": 3,
-     "because": 4
-    },
-    "format_fit": "carousel"
-   }
-  }
- },
- {
-  "due": null,
-  "format": "spare",
-  "topic": {
-   "title": "Your phone will now show the spam caller's name",
-   "claim": "Showing the caller's name won't fix spam, because we stopped picking up unknown numbers long before the rule arrived.",
-   "behaviour": "We let unknown calls ring out and text 'who is this?' or 'call?' before we call anyone. A name on the screen doesn't change that.",
-   "mechanism": "The cost of a wrong pickup is your time and a scam risk, so silence is the safest answer. A name from a database is only as trusted as the database.",
-   "group": "Urban phone users who ignore unknown numbers",
+   "title": "You are the unpaid cast of the song",
+   "claim": "A song gets a hookstep before the film exists, and the Reel you make is the ad.",
+   "behaviour": "'Tu Mil Jaaye' from King was released 2 November and passed 100 million combined views and plays on YouTube. It reportedly has 283,000 Reels creations, and fans are recreating the hookstep at celebrations. The figures are promotional and not independently verified. King itself releases on 24 December 2026.",
+   "mechanism": "A song with an easy step is built to be copied. Each copy is a free ad shown to friends who trust you more than a poster, and the film is still a month away.",
+   "group": "Instagram users who post Reels and attend parties",
    "territory": "creators_internet",
    "mood": "funny",
    "format_name": "feed_anthropology",
-   "moment": "A call comes from a number you don't know. You let it ring and wait for the text.",
+   "moment": "You shoot the hookstep at a cousin's sangeet because everyone else did, and nobody asks whether you liked the song.",
    "turn": {
-    "believed": "Telling people who is calling will make us pick up again.",
-    "actually": "We've learned that an unexpected call is a risk, and a label doesn't undo that habit."
+    "believed": "A song goes viral because people love it.",
+    "actually": "Some songs are made for the Reel: an easy step, a clean hook. The loved version and the shared version are not always the same."
    },
-   "feeling": "Tired of being on guard",
-   "villain": "A system where cold calls cost nothing to make but cost everybody else attention and safety",
-   "story_type": "objection",
-   "because": "Spam callers pay almost nothing per call, so volume is their business. The cost is carried by every person who has to decide whether to pick up.",
+   "feeling": "amused and slightly used",
+   "villain": "a promotion model that turns every viewer into a distribution channel",
+   "story_type": "teaching",
+   "because": "The film gets reach from the audience for free. The audience gets a moment to post.",
    "proof": [
     {
-     "fact": "Operators must start showing the caller's name (CNAP) on 4G and higher networks from 1 November 2026. Rules in force from about 18 October require operators to flag likely spam numbers using AI/ML and notify the user.",
-     "source_url": "https://www.thetelephony.co/india/blog/calling-rules-india-november-2026",
-     "date": "2026-10-20"
+     "fact": "The song was released 2 November and passed 100 million combined views and plays on YouTube; there are 283,000 reported Instagram Reels creations; the figures are promotional and not independently verified; King releases on 24 December 2026.",
+     "source_url": "https://www.sacnilk.com/news/shah-rukh-khans-tu-mil-jaaye-from-king-becomes-a-celebration-as-song-crosses-100-million-plays-and-dominates-music-charts",
+     "date": "2026-11-19"
     }
    ],
    "lived": false,
-   "payoff": "A caller's name will help only after a call has become safe to answer again, and that takes years.",
-   "send_to": "The friend who says 'text me first' before every call",
+   "payoff": "If you can do the step in five seconds, someone designed it that way.",
+   "send_to": "The friend who posts every trending audio.",
    "format_hint": "single",
    "real_details": [
-    "Transaction-support calls need explicit consent valid for seven days",
-    "Around 17 November, automated calls must be declared to operators in advance"
+    "DJs are adding it to party playlists."
    ],
    "evidence": [
     {
-     "url": "https://www.thetelephony.co/india/blog/calling-rules-india-november-2026",
+     "url": "https://www.sacnilk.com/news/shah-rukh-khans-tu-mil-jaaye-from-king-becomes-a-celebration-as-song-crosses-100-million-plays-and-dominates-music-charts",
      "sub": "news",
-     "rank": 24
+     "rank": 54
     }
    ],
-   "news_peg": "Caller name display (CNAP) became mandatory from 2026-11-01, with spam flagging in force from about 18 October.",
-   "why_now": "The new calling rules are just starting to show up on people's screens.",
+   "news_peg": "'Tu Mil Jaaye' from King crossed 100 million plays, reported 2026-11-19",
+   "why_now": "Wedding season is starting and the hookstep is about to be everywhere.",
    "counterintuitive": false,
    "needs_facts": false,
-   "id": "2026-11-131211-018",
+   "id": "2026-11-251245-024",
    "score": {
-    "rank": 9,
-    "why": "We stopped picking up unknown numbers long before caller-name display arrived. It's funny and everyone has done it.",
+    "rank": 7,
+    "why": "The hookstep at the sangeet shows the viewer is the film's ad channel, said dryly; the source figures are used only lightly.",
     "scores": {
-     "relatable": 5,
+     "relatable": 4,
      "fresh_angle": 4,
      "shareable": 4,
-     "saveable": 3,
+     "saveable": 2,
      "because": 4
     },
     "format_fit": "single"
@@ -341,71 +226,43 @@
   "due": null,
   "format": "spare",
   "topic": {
-   "title": "Every film now has a record, because the record shrinks",
-   "claim": "Every big film gets a 'record' these days because someone keeps slicing the category thinner until one slot is empty.",
-   "behaviour": "We see 'best Monday ever' and 'most tickets in an hour' and take them as proof the film is huge. They are narrow slots that a marketing team picked.",
-   "mechanism": "A record is free advertising and nobody audits the category. Share a number in a sharp enough wrapper and it becomes a headline, which brings in more ticket buyers.",
-   "group": "Moviegoers who plan their weekend around what's trending",
-   "territory": "pop_culture",
-   "mood": "sharp",
-   "format_name": "behind_the_brand",
-   "moment": "You see 'breaks all records' on your feed and book tickets before you've heard whether it's any good.",
+   "title": "Offline means decided",
+   "claim": "When someone says 'let's take this offline', the decision is already made, and the meeting was only there to collect witnesses.",
+   "moment": "Forty minutes on a call, one awkward question, and the senior person says 'let's take this offline'.",
    "turn": {
-    "believed": "A record tells you the film is the best.",
-    "actually": "A record tells you how the film was measured. The narrower the slot, the easier the win."
+    "believed": "Meetings are where decisions get made.",
+    "actually": "Decisions get made in a chat between two people, and the meeting spreads the blame across ten calendars."
    },
-   "feeling": "A little herded, and a bit curious anyway",
-   "villain": "A promotion system where every metric is picked by whoever benefits from the headline",
+   "feeling": "I keep showing up to things that were settled without me.",
+   "villain": "A sign-off culture where nobody wants to own a call alone",
    "story_type": "teaching",
-   "because": "Studios and platforms gain when a number is shareable. A peak hour or a best Monday is easier to win and easier to post than total sales.",
-   "proof": [
-    {
-     "fact": "Ramayana reportedly sold over 1,40,000 tickets in one hour on BookMyShow, the highest hourly figure for an Indian film on the platform. The article stresses these are peak hourly numbers, not total sales.",
-     "source_url": "https://www.businesstoday.in/trending/entertainment/story/ramayana-breaks-bookmyshow-record-sells-1-40-lakh-tickets-in-an-hour-beats-dhurandhar-2-566476-2026-11-09",
-     "date": "2026-11-09"
-    },
-    {
-     "fact": "Business Today calls Monday's India nett of ₹107.50 crore the 'best Monday in Indian cinema history'. It credits festive holidays and discounted weekday tickets.",
-     "source_url": "https://www.businesstoday.in/trending/entertainment/story/ramayana-box-office-day-6-ranbir-kapoor-sai-pallavi-and-yashs-film-continues-its-rs823-crore-dream-run-566774-2026-11-11",
-     "date": "2026-11-11"
-    }
-   ],
+   "because": "If it goes wrong, everyone was in the room. A big meeting is insurance, not discussion.",
+   "payoff": "Test: if your question ended the meeting, you just found where the real decision lives.",
    "lived": false,
-   "payoff": "Next time you see a record, ask what exactly it's the record for. The answer is usually very small.",
-   "send_to": "The friend who books on opening weekend because the feed said record",
+   "behaviour": "Teams book large review calls, the hard question gets parked, and a smaller group settles it later on chat.",
+   "mechanism": "A shared meeting turns one person's risk into everyone's.",
+   "group": "Mid-level employees in corporate and startup teams",
+   "territory": "business_brands",
+   "mood": "sharp",
+   "format_name": "saturday_single",
+   "send_to": "The colleague who also sat through that 40-minute call for nothing",
    "format_hint": "single",
-   "real_details": [
-    "The film's X account posted, 'Breaking records, one hour at a time.'",
-    "It opened on November 5 in the extended Diwali holiday"
-   ],
-   "evidence": [
-    {
-     "url": "https://www.businesstoday.in/trending/entertainment/story/ramayana-breaks-bookmyshow-record-sells-1-40-lakh-tickets-in-an-hour-beats-dhurandhar-2-566476-2026-11-09",
-     "sub": "trending",
-     "rank": 38
-    },
-    {
-     "url": "https://www.businesstoday.in/trending/entertainment/story/ramayana-box-office-day-6-ranbir-kapoor-sai-pallavi-and-yashs-film-continues-its-rs823-crore-dream-run-566774-2026-11-11",
-     "sub": "trending",
-     "rank": 39
-    }
-   ],
-   "news_peg": "Ramayana's hourly BookMyShow record was reported on 2026-11-09, and its Day 6 box office on 2026-11-11.",
-   "why_now": "Record claims are everywhere while the film is still in cinemas.",
-   "counterintuitive": false,
+   "why_now": "Back-to-back calendars are the default now, and most people still think attendance means influence.",
    "needs_facts": false,
-   "id": "2026-11-131211-013",
+   "news_peg": null,
+   "evidence": [],
+   "id": "2026-11-251245-035",
    "score": {
-    "rank": 11,
-    "why": "'Record' only tells you how narrowly the slot was cut, and the test is to ask what it's the record for. It covers the pop-culture slot.",
+    "rank": 8,
+    "why": "'Let's take this offline' is a meeting insurance policy every office worker has sat through, and it needs no facts.",
     "scores": {
-     "relatable": 4,
+     "relatable": 5,
      "fresh_angle": 4,
-     "shareable": 4,
-     "saveable": 4,
+     "shareable": 5,
+     "saveable": 3,
      "because": 4
     },
-    "format_fit": "carousel"
+    "format_fit": "single"
    }
   }
  }

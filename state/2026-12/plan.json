@@ -1,155 +1,45 @@
 [
  {
-  "due": "2026-12-01T20:30:00+05:30",
+  "due": "2026-12-05T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "Service charge runs on shame",
-   "claim": "We pay restaurant service charge not because we agree with it, but because asking to remove it in front of friends costs more than the money.",
-   "moment": "The bill arrives with 10% service charge, someone notices, and nobody says a word.",
+   "title": "The offsite is cheaper than a raise",
+   "claim": "The team offsite is a retention plan that costs less than a raise, and it works better than it should.",
+   "moment": "Two days at a resort, matching T-shirts, a trophy for 'Best Team Player'.",
    "turn": {
-    "believed": "It's a fixed part of the bill.",
-    "actually": "It's a charge that depends on you being too awkward to object."
+    "believed": "Offsites are a perk for good work.",
+    "actually": "A one-time trip costs less than a pay hike that compounds every year, and it buys loyalty for a few months."
    },
-   "feeling": "I knew and still paid.",
-   "villain": "Bills designed so the only way out is a public conversation",
+   "feeling": "I had fun and I still feel a bit bought.",
+   "villain": "Budgets where one-time spend is easy and permanent salary is hard",
    "story_type": "objection",
-   "because": "The restaurant knows group dinners are about looking easy-going. Embarrassment does the collecting for them.",
-   "payoff": "Some charges are priced in rupees. This one is priced in awkwardness.",
-   "lived": false,
-   "behaviour": "Groups split bills to the rupee on UPI but leave the service charge alone.",
-   "mechanism": "Social pressure makes a disputed charge feel compulsory.",
-   "group": "Young professionals who eat out with friends",
-   "territory": "money_status",
-   "mood": "sharp",
-   "format_name": "price_tells",
-   "send_to": "The friend who always pays the bill and secretly hates the service charge",
-   "format_hint": "single",
-   "why_now": "December means a season of group dinners and office parties.",
-   "needs_facts": "The current legal position on service charge in India (CCPA guidelines and court rulings), stated exactly as the sources state it",
-   "news_peg": null,
-   "evidence": [],
-   "id": "2026-11-221241-037",
-   "score": {
-    "rank": 1,
-    "why": "Everyone has sat at that table and said nothing; the charge is collected by awkwardness, not by the menu.",
-    "scores": {
-     "relatable": 5,
-     "fresh_angle": 4,
-     "shareable": 5,
-     "saveable": 3,
-     "because": 5
-    },
-    "format_fit": "single"
-   }
-  }
- },
- {
-  "due": "2026-12-02T20:30:00+05:30",
-  "format": "carousel",
-  "topic": {
-   "title": "The invite list is a blame list",
-   "claim": "A meeting with eleven people on the invite was never called to decide something; it was called so nobody has to decide alone.",
-   "moment": "A calendar invite titled 'Quick sync' with half the floor on it and no agenda.",
-   "turn": {
-    "believed": "Big meetings happen because many people need to give input.",
-    "actually": "Each extra name spreads the risk if the decision goes wrong."
-   },
-   "feeling": "My whole day went into rooms where nothing happened.",
-   "villain": "Org structures that punish wrong calls more than slow ones",
-   "story_type": "teaching",
-   "because": "When a decision can go wrong, the safest move is to have everyone in the room. Then the mistake belongs to nobody.",
-   "payoff": "The number of people in a meeting tells you how scared the organiser is.",
+   "because": "A raise sits in the cost base forever. A trip sits in one quarter, and the photos remind you of it for a year.",
+   "payoff": "The honest bit: the trip did make you stay. That's exactly why it was approved.",
    "lived": true,
-   "behaviour": "Teams add stakeholders to every call and end with 'let's take this offline'.",
-   "mechanism": "Shared decisions mean shared blame, which means no blame.",
-   "group": "Mid-level employees in big companies",
+   "behaviour": "Companies fund offsites and team dinners while holding increments flat.",
+   "mechanism": "One-off spend buys goodwill without raising fixed costs.",
+   "group": "Employees at startups and mid-size companies",
    "territory": "business_brands",
-   "mood": "funny",
+   "mood": "mixed",
    "format_name": "behind_the_brand",
-   "send_to": "The colleague with back-to-back meetings and nothing done",
+   "send_to": "The team group, right after the offsite photos go up",
    "format_hint": "carousel",
-   "why_now": "Calendars are full of planning meetings before the new financial year.",
+   "why_now": "Offsite season lines up with the months when increments get trimmed.",
    "needs_facts": false,
    "news_peg": null,
    "evidence": [],
-   "id": "2026-11-221241-028",
+   "id": "2026-11-251245-039",
    "score": {
-    "rank": 3,
-    "why": "Eleven names on a 'quick sync' invite is a way to spread the blame, and anyone with a calendar has seen it.",
-    "scores": {
-     "relatable": 5,
-     "fresh_angle": 4,
-     "shareable": 5,
-     "saveable": 3,
-     "because": 5
-    },
-    "format_fit": "carousel"
-   }
-  }
- },
- {
-  "due": "2026-12-03T20:30:00+05:30",
-  "format": "carousel",
-  "topic": {
-   "title": "Why Jailer 2 felt different at home",
-   "claim": "A film isn't only the film, it's also the hall around it, and that's why a crowd-pleaser can feel 'overrated' once it reaches your sofa.",
-   "behaviour": "Viewers loved the same film in a packed theatre and then argued online about whether it was mediocre once Jailer 2 reached Prime Video on Nov 12.",
-   "mechanism": "Mass films are built for a shared reaction: whistles, claps, a crowd that cheers before the punchline. At home, with a phone in your hand, nobody is cheering with you, so the writing has to carry itself.",
-   "group": "Film-loving Indians who watch big stars' films both in theatres and on OTT",
-   "territory": "pop_culture",
-   "mood": "mixed",
-   "format_name": "saturday_single",
-   "moment": "You press play at home on a film everyone screamed through in the hall, and you find yourself checking your phone.",
-   "turn": {
-    "believed": "If a film felt great in the theatre and flat at home, one of the two opinions is wrong.",
-    "actually": "Both are right. Half the pleasure of a mass film was the crowd, and you can't stream the crowd."
-   },
-   "feeling": "Confused that the same film could feel so different, then relieved it's not just you",
-   "villain": "A release model that sells a group experience and then delivers it to a solitary screen",
-   "story_type": "teaching",
-   "because": "Mass entertainers are written for crowd reaction, and the theatre does half the work. OTT removes the crowd, and also its collective forgiveness.",
-   "proof": [
-    {
-     "fact": "Jailer 2 began streaming on Prime Video on November 12 and viewers were split; defenders said theatre-crowd comedy doesn't land at home.",
-     "source_url": "https://www.m9.news/what-to-watch-on-ott/jailer-2-ott-response-rajinikanth-prime-video/",
-     "date": "2026-11-15"
-    }
-   ],
-   "lived": false,
-   "payoff": "Test: next time a film disappoints at home, ask yourself whether you'd have loved it with 300 strangers shouting around you.",
-   "send_to": "The friend who keeps saying a film was 'overrated' after watching it on OTT",
-   "format_hint": "single",
-   "real_details": [
-    "Fans praised the Hrithik Roshan cameo and the interval sequence"
-   ],
-   "evidence": [
-    {
-     "url": "https://www.m9.news/what-to-watch-on-ott/jailer-2-ott-response-rajinikanth-prime-video/",
-     "sub": "news",
-     "rank": 43
-    },
-    {
-     "url": "https://www.filmibeat.com/ott/jailer-2-on-prime-video-fans-celebrate-rajinikanths-magic-call-hrithik-roshans-cameo-a-highlight-534339.html",
-     "sub": "news",
-     "rank": 44
-    }
-   ],
-   "news_peg": "Jailer 2 began streaming on Prime Video on Nov 12, 2026, with viewer reactions reported Nov 14 and 15",
-   "why_now": "The OTT debate is playing out this week, right after the film's theatrical run.",
-   "counterintuitive": true,
-   "needs_facts": false,
-   "id": "2026-11-221241-023",
-   "score": {
-    "rank": 4,
-    "why": "A film feels flat at home because you can't stream the crowd; both opinions are right.",
+    "rank": 5,
+    "why": "The offsite did make you stay, and that's why it was approved. It has an honest mixed feeling and is the one office pick, with a lived angle.",
     "scores": {
      "relatable": 4,
-     "fresh_angle": 5,
-     "shareable": 4,
+     "fresh_angle": 4,
+     "shareable": 5,
      "saveable": 3,
      "because": 4
     },
-    "format_fit": "single"
+    "format_fit": "carousel"
    }
   }
  },
@@ -157,215 +47,56 @@
   "due": "2026-12-07T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "The down payment comes with a room",
-   "claim": "When parents help with the down payment, the flat comes with a room already planned for them, and nobody ever says that's the deal.",
-   "moment": "Picking the 3BHK over the 2BHK because 'mummy-papa will come sometimes'.",
-   "turn": {
-    "believed": "It's a gift.",
-    "actually": "It's an arrangement, and the terms show up in the floor plan."
-   },
-   "feeling": "It's my house, but it doesn't feel like only mine.",
-   "villain": "Flat prices so high that buying needs family money",
-   "story_type": "values",
-   "because": "A flat costs a decade of salary, so families pool money. Pooled money brings pooled say, and the floor plan shows it.",
-   "payoff": "Look at who chose the tiles. That's who owns the house.",
-   "lived": true,
-   "behaviour": "Young couples buy bigger flats than they need and pick them with parents.",
-   "mechanism": "Whoever puts in the money gets a say, even if nobody says it.",
-   "group": "Couples buying their first flat",
-   "territory": "life_relationships",
-   "mood": "mixed",
-   "format_name": "family_ledger",
-   "send_to": "The friend who is house-hunting with their parents on the video call",
-   "format_hint": "carousel",
-   "why_now": "First-time buyers keep relying on family for down payments as prices climb.",
-   "needs_facts": false,
-   "news_peg": null,
-   "evidence": [],
-   "id": "2026-11-221241-043",
-   "score": {
-    "rank": 8,
-    "why": "The floor plan shows the unspoken family arrangement behind the down payment, told with affection.",
-    "scores": {
-     "relatable": 4,
-     "fresh_angle": 4,
-     "shareable": 5,
-     "saveable": 3,
-     "because": 4
-    },
-    "format_fit": "carousel"
-   }
-  }
- },
- {
-  "due": "2026-12-08T20:30:00+05:30",
-  "format": "carousel",
-  "topic": {
-   "title": "Members stop checking prices",
-   "claim": "Every app wants you to be a 'member' because a member stops checking the price.",
-   "moment": "Paying for a delivery pass and then ordering more just to 'make it worth it'.",
-   "turn": {
-    "believed": "Membership saves you money.",
-    "actually": "Membership changes how often you order and kills the habit of comparing."
-   },
-   "feeling": "I'm paying to be loyal to an app.",
-   "villain": "Subscription passes built around habit, not savings",
-   "story_type": "teaching",
-   "because": "Once you've paid upfront, you open that one app first and skip the others. The app gains your next fifty orders.",
-   "payoff": "Test: total your orders in the month before and after you joined.",
-   "lived": false,
-   "behaviour": "Users buy food, grocery and shopping passes and order more often.",
-   "mechanism": "A fee paid upfront feels wasted unless you keep using the app.",
-   "group": "Frequent food and grocery app users",
-   "territory": "money_status",
-   "mood": "dark_pattern",
-   "format_name": "price_tells",
-   "send_to": "The friend with four memberships and no idea which ones renew",
-   "format_hint": "carousel",
-   "why_now": "More and more apps now push paid passes at checkout.",
-   "needs_facts": false,
-   "news_peg": null,
-   "evidence": [],
-   "id": "2026-11-221241-036",
-   "score": {
-    "rank": 5,
-    "why": "We order more just to make the pass worth it and stop comparing prices; paying upfront turns you into a loyal customer.",
-    "scores": {
-     "relatable": 5,
-     "fresh_angle": 4,
-     "shareable": 4,
-     "saveable": 4,
-     "because": 4
-    },
-    "format_fit": "carousel"
-   }
-  }
- },
- {
-  "due": "2026-12-09T20:30:00+05:30",
-  "format": "carousel",
-  "topic": {
-   "title": "The 10pm 'urgent' ping",
-   "claim": "Most 10pm 'urgent' messages aren't urgent; your manager is passing their worry down the chain so that tomorrow they can say it's with you.",
-   "moment": "Phone buzzes during dinner: 'Can you look at this when you get a chance? Bit urgent.'",
-   "turn": {
-    "believed": "Late-night pings mean something is on fire.",
-    "actually": "Usually nothing changes before 10am; the message moves the blame, not the work."
-   },
-   "feeling": "I'm never really off.",
-   "villain": "Always-on chat tools that timestamp who knew what and when",
-   "story_type": "objection",
-   "because": "Once the message is sent, the sender is covered. The timestamp is proof they acted, even if nothing can be done till morning.",
-   "payoff": "Test: check what actually happened to the last three 'urgent' messages you answered at night.",
-   "lived": false,
-   "behaviour": "People reply to night messages within minutes, and the work still starts at 10am.",
-   "mechanism": "Forwarding a problem protects the sender more than it solves anything.",
-   "group": "Young professionals with a manager who is always online",
-   "territory": "business_brands",
-   "mood": "sharp",
-   "format_name": "saturday_single",
-   "send_to": "The friend who answers Slack from the dinner table",
-   "format_hint": "single",
-   "why_now": "Year-end targets bring the most of these late-night pings.",
-   "needs_facts": false,
-   "news_peg": null,
-   "evidence": [],
-   "id": "2026-11-221241-027",
-   "score": {
-    "rank": 12,
-    "why": "The 10pm 'urgent' ping moves blame, not work, and the timestamp is the proof.",
-    "scores": {
-     "relatable": 5,
-     "fresh_angle": 4,
-     "shareable": 5,
-     "saveable": 3,
-     "because": 4
-    },
-    "format_fit": "single"
-   }
-  }
- },
- {
-  "due": "2026-12-10T20:30:00+05:30",
-  "format": "carousel",
-  "topic": {
-   "title": "The first loan teaches the second",
-   "claim": "The first pre-approved loan isn't really about that purchase; it teaches you that borrowing takes one tap, and the bank is counting on the second.",
-   "moment": "An app banner says 'You're pre-approved for ₹3,00,000, get it in 2 minutes'.",
-   "turn": {
-    "believed": "Pre-approved means the bank trusts you.",
-    "actually": "Pre-approved means the bank has picked you as a target."
-   },
-   "feeling": "I didn't mean to borrow; it just happened.",
-   "villain": "One-tap credit offers built into payment and banking apps",
-   "story_type": "teaching",
-   "because": "A customer who has repaid one small loan is the cheapest person to lend to again. Every tap you skip is a reason to stop and think that is gone.",
-   "payoff": "If it takes two minutes to borrow, ask what it'll take to repay.",
-   "lived": true,
-   "behaviour": "Young earners take small personal loans for phones, trips and weddings through apps.",
-   "mechanism": "Easy first loans build the habit of borrowing.",
-   "group": "Salaried 24 to 30 year olds",
-   "territory": "money_status",
-   "mood": "dark_pattern",
-   "format_name": "price_tells",
-   "send_to": "The younger cousin who just got their first salary and a loan offer with it",
-   "format_hint": "carousel",
-   "why_now": "Loan offers inside apps now show up next to every payment.",
-   "needs_facts": false,
-   "news_peg": null,
-   "evidence": [],
-   "id": "2026-11-221241-039",
-   "score": {
-    "rank": 7,
-    "why": "The pre-approved banner isn't trust, it's targeting; it teaches that borrowing takes one tap.",
-    "scores": {
-     "relatable": 4,
-     "fresh_angle": 4,
-     "shareable": 4,
-     "saveable": 4,
-     "because": 4
-    },
-    "format_fit": "carousel"
-   }
-  }
- },
- {
-  "due": "2026-12-11T20:30:00+05:30",
-  "format": "carousel",
-  "topic": {
-   "title": "We pay for new shows and watch old ones",
-   "claim": "We pay for four streaming apps to see what's new, and then spend Friday night rewatching a sitcom we know by heart.",
-   "moment": "Twenty minutes of scrolling, then 'let's just put on the old one'.",
-   "turn": {
-    "believed": "New shows are why we subscribe.",
-    "actually": "New shows get you in; the old familiar ones keep you paying."
-   },
-   "feeling": "I'm too tired to try anything new and feel lazy about it.",
-   "villain": "Streaming models that sell sign-ups on new shows and keep you with comfort ones",
-   "story_type": "teaching",
-   "because": "After a long day, the brain wants something with no surprises. Platforms pay big for old shows because they keep people from cancelling.",
-   "payoff": "The show you rewatch is the subscription you'll never cancel.",
-   "lived": false,
-   "behaviour": "People browse for new titles and settle on rewatches.",
-   "mechanism": "Tired people pick the familiar, and platforms make money from that.",
-   "group": "Working people who stream on weeknights",
-   "territory": "pop_culture",
+   "title": "Why 'The Simpsons predicted it' spreads",
+   "claim": "We share 'The Simpsons predicted it' because a coincidence with a script feels safer than a world where things just happen.",
+   "behaviour": "A cartoon clip resurfaces on the same day as a real outage. People send it around as proof that someone knew in advance.",
+   "mechanism": "A pattern is easier to bear than chaos, and a prediction clip is easy to post. The people who post it get reach without having to check anything.",
+   "group": "Heavy Instagram and X users who forward clips to friends",
+   "territory": "creators_internet",
    "mood": "funny",
    "format_name": "feed_anthropology",
-   "send_to": "The partner who always ends up putting on the same show",
+   "moment": "A friend sends you a clip with 'bro, look at the date' and nothing else.",
+   "turn": {
+    "believed": "The clip is spooky because it matches the news.",
+    "actually": "It matches because we went looking for the match. The details that don't fit never get posted."
+   },
+   "feeling": "a bit foolish for almost believing it",
+   "villain": "a feed that rewards the spookiest version of a coincidence",
+   "story_type": "teaching",
+   "because": "A spooky post earns shares, and shares are the point. Checking would kill the post.",
+   "proof": [
+    {
+     "fact": "A clip from the 2023 Simpsons episode 'It's A Blunderful Life' shows an older Lisa writing about a blackout in her diary, dated November 17. Skeptics noted that Lisa's diary never mentions 2026.",
+     "source_url": "https://www.tribuneindia.com/news/trending/did-the-simpsons-predict-global-blackout-on-nov-17-viral-clip-leaves-internet-guessing/",
+     "date": "2026-11-17"
+    }
+   ],
+   "lived": false,
+   "payoff": "A prediction that needs three real events and one missing year to work is not a prediction.",
+   "send_to": "The friend who forwards every 'they knew' clip",
    "format_hint": "single",
-   "why_now": "Streaming prices keep going up while what we actually watch stays the same.",
+   "real_details": [
+    "It resurfaced alongside a Microsoft outage and a scheduled US emergency alert test on the same date"
+   ],
+   "evidence": [
+    {
+     "url": "https://www.tribuneindia.com/news/trending/did-the-simpsons-predict-global-blackout-on-nov-17-viral-clip-leaves-internet-guessing/",
+     "sub": "news",
+     "rank": 35
+    }
+   ],
+   "news_peg": "The Simpsons blackout clip resurfaced on 17 November 2026",
+   "why_now": "The clip went viral on 17 November and the pattern repeats with every big news day.",
+   "counterintuitive": false,
    "needs_facts": false,
-   "news_peg": null,
-   "evidence": [],
-   "id": "2026-11-221241-047",
+   "id": "2026-11-251245-016",
    "score": {
-    "rank": 9,
-    "why": "We subscribe for new shows and pay for the old sitcom we rewatch; it's a lived Friday-night moment.",
+    "rank": 8,
+    "why": "The 'bro, look at the date' forward: we hunt for the match and never post what doesn't fit. It adds a funny mood and an argument, and the sourced detail is only light colour.",
     "scores": {
-     "relatable": 5,
+     "relatable": 4,
      "fresh_angle": 4,
-     "shareable": 4,
+     "shareable": 5,
      "saveable": 2,
      "because": 4
     },
@@ -374,46 +105,200 @@
   }
  },
  {
-  "due": "2026-12-14T20:30:00+05:30",
+  "due": "2026-12-09T20:30:00+05:30",
   "format": "carousel",
   "topic": {
-   "title": "The transfer nobody counts",
-   "claim": "The generation called bad with money sends a fixed amount home on the 1st of every month, and nobody counts that as saving.",
-   "moment": "Salary credited, rent paid, ₹15,000 to papa's account before anything else.",
+   "title": "A face on the box is the first ad budget",
+   "claim": "A celebrity-led grooming brand sells you the founder's face first and the formula second, and 'made for Indian skin' is a line any launch can use.",
+   "behaviour": "A new brand launches with a film, two famous co-founders, a story about Indian skin and water, and shelf space on Amazon and Blinkit on day one.",
+   "mechanism": "In a crowded category, trust is the scarce thing. A known face borrows it instantly and saves the brand months of ad spend.",
+   "group": "Men 24-32 buying their first serious skincare",
+   "territory": "business_brands",
+   "mood": "mixed",
+   "format_name": "behind_the_brand",
+   "moment": "You stand in front of a screen full of face washes and pick the one whose face you recognise.",
    "turn": {
-    "believed": "Young earners spend everything on themselves.",
-    "actually": "Many quietly run a second household's budget before their own."
+    "believed": "You choose a product on what it does for your skin.",
+    "actually": "You choose on who vouched for it, because nobody can compare ingredients in thirty seconds."
    },
-   "feeling": "I'm doing more than anyone gives me credit for.",
-   "villain": "Money advice that only counts what goes into your own account",
-   "story_type": "values",
-   "because": "Support for parents doesn't show up in any savings chart. So the people doing it look broke on paper.",
-   "payoff": "Add that transfer to your savings rate once. You're doing better than you thought.",
+   "feeling": "half sure you're being sold to and half glad someone made the choice easy",
+   "villain": "a crowded category where trust is borrowed instead of earned",
+   "story_type": "objection",
+   "because": "The celebrity cuts the brand's cost of getting noticed. The price you pay includes that borrowed trust.",
+   "proof": [
+    {
+     "fact": "H.I.M launched on November 17 with eight products priced from ₹299 to ₹899. It sells on its own website, Amazon and Blinkit.",
+     "source_url": "https://www.businesstoday.in/industry/story/ranveer-singh-launches-mens-grooming-brand-him-with-aman-gupta-check-products-568146-2026-11-18",
+     "date": "2026-11-18"
+    }
+   ],
    "lived": false,
-   "behaviour": "Young earners send money home monthly and still get called careless.",
-   "mechanism": "Money sent to family is invisible in personal finance maths.",
-   "group": "Earners supporting parents",
-   "territory": "money_status",
-   "mood": "warm",
-   "format_name": "family_ledger",
-   "send_to": "The friend who sends money home and feels behind anyway",
+   "payoff": "Before you buy, name one thing the product does that you'd still believe without the face.",
+   "send_to": "The friend who just started a 'skincare routine' and bought whatever was trending.",
    "format_hint": "single",
-   "why_now": "Year-end money posts make people feel bad about savings they can't show.",
+   "real_details": [
+    "Ranveer Singh said many grooming products he had used were not made for 'Indian skin, weather and water conditions'."
+   ],
+   "evidence": [
+    {
+     "url": "https://www.businesstoday.in/industry/story/ranveer-singh-launches-mens-grooming-brand-him-with-aman-gupta-check-products-568146-2026-11-18",
+     "sub": "news",
+     "rank": 3
+    }
+   ],
+   "news_peg": "Ranveer Singh and Aman Gupta launched men's grooming brand H.I.M on 2026-11-17",
+   "why_now": "The launch is the biggest men's grooming story of the month.",
+   "counterintuitive": false,
    "needs_facts": false,
-   "news_peg": null,
-   "evidence": [],
-   "id": "2026-11-221241-044",
+   "id": "2026-11-251245-004",
    "score": {
-    "rank": 11,
-    "why": "The generation called bad with money funds a second household before its own, and no savings chart counts it.",
+    "rank": 6,
+    "why": "You pick the face wash whose face you recognise, so the price includes borrowed trust. The scene is common and the feeling is mixed.",
     "scores": {
      "relatable": 4,
      "fresh_angle": 4,
-     "shareable": 5,
+     "shareable": 4,
      "saveable": 3,
      "because": 4
     },
     "format_fit": "single"
+   }
+  }
+ },
+ {
+  "due": null,
+  "format": "spare",
+  "topic": {
+   "title": "We trust the bottle in front of us",
+   "claim": "We trust the brand we see every day more than the regulator we never see, and a bottle on a table is a bigger trust signal than a lab report.",
+   "behaviour": "Photos from an FSSAI food safety training in Ghaziabad, attended by about 1,155 officials, showed Bisleri bottles on the tables. This was days after FSSAI sanctioned prosecution of Bisleri over a failed water sample. Bisleri says it was one batch from its Goa plant and that five of six samples passed.",
+   "mechanism": "Daily habit builds trust faster than any rule does. A familiar sealed bottle is what is handed to you, and the regulator's work is invisible by design.",
+   "group": "Everyday consumers who buy packaged water without thinking",
+   "territory": "business_brands",
+   "mood": "mixed",
+   "format_name": "behind_the_brand",
+   "moment": "You reach for the same bottle at every counter, and never once check a lab result.",
+   "turn": {
+    "believed": "A regulator's action should change which brand we trust.",
+    "actually": "Trust comes from what we touch every day. A sealed bottle feels safe because it is everywhere, not because we have tested it."
+   },
+   "feeling": "Slightly foolish for trusting something simply because it is familiar.",
+   "villain": "A trust system where the proof is invisible and the brand is everywhere",
+   "story_type": "teaching",
+   "because": "A brand that is always on the table keeps its trust through habit. A regulator only shows up when something goes wrong, so it earns attention but not affection.",
+   "proof": [
+    {
+     "fact": "FSSAI announced on November 22 that it had sanctioned prosecution of Bisleri over a failed water sample. Bisleri said the issue involved one batch from its Goa plant tested in September 2025, and that five of six samples passed.",
+     "source_url": "https://www.freepressjournal.in/viral/fssai-faces-criticism-over-bisleri-bottles-seen-at-food-safety-training-after-announcing-prosecution-against-the-brand",
+     "date": "2026-11-25"
+    }
+   ],
+   "lived": false,
+   "payoff": "Ask yourself which brand you trust and why. If the honest answer is 'it is always there', that is the brand's best ad.",
+   "send_to": "A friend who says they only drink one brand of water.",
+   "format_hint": "single",
+   "real_details": [
+    "One user wrote that they trusted the brand more than the regulator.",
+    "One person weighed a ₹5 Lay's bag of chips on a jeweller-grade scale they use for clay miniatures. The pack is marketed as 11+1.3g, but the chips came to only 4.32g, the lowest they had ever found.",
+    "Another person bought a Happila Makhana packet for ₹30 from an office vending machine. It weighed 12g, and they couldn't see the weight before buying. They called it a scam and warned others off.",
+    "A commenter said the empty-looking packs are called slack fill. They said other countries regulate packaging size so it isn't visually deceiving, while India doesn't set rules on how a pack should look.",
+    "One commenter said farmers get roughly ₹200-250 per kg for makhana. Another replied that retail sells at ₹1200-2200, which sparked a back-and-forth about who really profits.",
+    "Someone's practical response was that people should file a complaint in consumer court."
+   ],
+   "evidence": [
+    {
+     "url": "https://www.freepressjournal.in/viral/fssai-faces-criticism-over-bisleri-bottles-seen-at-food-safety-training-after-announcing-prosecution-against-the-brand",
+     "sub": "news",
+     "rank": 69
+    },
+    {
+     "url": "https://www.reddit.com/r/indiasocial/comments/1x7ipe1/this_is_the_amount_of_chips_that_was_in_the_5/",
+     "sub": "indiasocial",
+     "rank": 5
+    },
+    {
+     "url": "https://www.reddit.com/r/StartUpIndia/comments/1wyygzn/startups_now_involved_in_legal_scams/",
+     "sub": "StartUpIndia",
+     "rank": 4
+    }
+   ],
+   "news_peg": "FSSAI announced prosecution of Bisleri on 2026-11-22, and photos from the Ghaziabad training went viral on 2026-11-25.",
+   "why_now": "The photo is going around right now, and the brand-versus-regulator argument is live.",
+   "counterintuitive": true,
+   "needs_facts": true,
+   "id": "2026-11-251245-033",
+   "score": {
+    "rank": 9,
+    "why": "We trust the bottle that's always on the table, not a lab report. The Bisleri news is only light support and the take stays fair to the brand.",
+    "scores": {
+     "relatable": 4,
+     "fresh_angle": 4,
+     "shareable": 4,
+     "saveable": 3,
+     "because": 4
+    },
+    "format_fit": "single"
+   }
+  }
+ },
+ {
+  "due": null,
+  "format": "spare",
+  "topic": {
+   "title": "When the reel flops, you get another reel",
+   "claim": "Influencer fees don't fall because brands can't measure what they buy, so a weak campaign gets fixed with more posts, not a lower price.",
+   "behaviour": "When a collaboration underperforms, creators add an extra post or extend the campaign. The fee stays where it was.",
+   "mechanism": "Nobody can say what a reel really sold, so nobody can argue for a refund. More output is the easiest way to look like you delivered.",
+   "group": "Creators, marketers and anyone who follows brand deals on Instagram",
+   "territory": "creators_internet",
+   "mood": "sharp",
+   "format_name": "behind_the_brand",
+   "moment": "A creator you follow posts the fourth story about the same face cream in one week.",
+   "turn": {
+    "believed": "Brands pay creators for results and drop the ones who don't deliver.",
+    "actually": "Brands pay for activity they can't measure, and when it underperforms the fix is volume. The price survives because the result was never a number."
+   },
+   "feeling": "watching a game where everyone knows the scoreboard is fake",
+   "villain": "a pay model where reach is sold but sales can't be traced",
+   "story_type": "teaching",
+   "because": "Brands need to show their bosses a campaign ran. Creators need to protect their rate. More posts satisfy both and settle nothing.",
+   "proof": [
+    {
+     "fact": "In crowded categories like beauty and lifestyle, creators are adding extra posts or longer campaigns when a collaboration underperforms.",
+     "source_url": "https://www.storyboard18.com/brand-marketing/influencer-fees-arent-falling-but-brands-are-demanding-more-for-their-money-115187.htm",
+     "date": "2026-11-20"
+    }
+   ],
+   "lived": false,
+   "payoff": "The next time one product shows up in five stories, you're watching a make-good, not enthusiasm.",
+   "send_to": "The friend who thinks every creator loves the product they're promoting.",
+   "format_hint": "carousel",
+   "real_details": [
+    "Brands are judging creators on engagement quality, audience relevance and campaign performance rather than follower counts."
+   ],
+   "evidence": [
+    {
+     "url": "https://www.storyboard18.com/brand-marketing/influencer-fees-arent-falling-but-brands-are-demanding-more-for-their-money-115187.htm",
+     "sub": "news",
+     "rank": 2
+    }
+   ],
+   "news_peg": "Storyboard18 report on influencer fees and 'pricing rationalisation', 2026-11-20",
+   "why_now": "Brands are planning next year's budgets and creator rates are being reset.",
+   "counterintuitive": true,
+   "needs_facts": false,
+   "id": "2026-11-251245-003",
+   "score": {
+    "rank": 10,
+    "why": "The fourth story about the same face cream is a make-good, not enthusiasm. It fits his belief about influencer marketing and is an obvious one to send to a friend.",
+    "scores": {
+     "relatable": 4,
+     "fresh_angle": 4,
+     "shareable": 4,
+     "saveable": 3,
+     "because": 4
+    },
+    "format_fit": "carousel"
    }
   }
  }

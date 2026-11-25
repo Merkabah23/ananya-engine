@@ -1,6 +1,6 @@
 {
  "id": "2026-12-20",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-12-07T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -43,6 +43,399 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-11-25T03:15:12.364526+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "problems": [
+    "Every sentence is about the same length, which reads as a template. Put one longer, concrete sentence next to a short punch on two or three slides; other slides can be one short line."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "Settled: the rhythm note is fixed. Slide 2 ('The invite says \"Quick sync\", has no agenda and lists half the floor...' / 'It won't be quick.'), slide 4 and slide 8 now set a long, concrete sentence against a short punch.",
+     "slide 4: the edit left a broken fragment. 'And twenty go on a deck three people have read. And nobody has questioned.' reads like a slip, and the second 'And' start repeats the first. Fold it into one line: 'Twenty go on a deck three people have read and nobody questions.' Then 'Let's take this offline' lands clean."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 4",
+      "line": "Ten minutes go on \"can you see my screen?\" And twenty go on a deck three people have read. And nobody has questioned.",
+      "why": "stiff, broken fragment; the stacked 'And... And' reads like narration",
+      "try": "Ten minutes go on \"can you see my screen?\" Twenty go on a deck three people have read and nobody pushes back on."
+     },
+     {
+      "where": "slide 5",
+      "line": "66% of Indian workers leave meetings without clear action items. This is how.",
+      "why": "the stat is the hero instead of passing texture",
+      "try": "No wonder 66% of Indian workers walk out of meetings with no clear action items. This is how."
+     },
+     {
+      "where": "slide 7",
+      "line": "I don't think it's cowardice. I see the maths.",
+      "why": "stiff, written phrasing he wouldn't type",
+      "try": "I don't think it's cowardice. It's just maths."
+     }
+    ],
+    "best": "Blame split eleven ways is no blame."
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Not Varun (slide 4): 'Ten minutes go on \"can you see my screen?\" And twenty go on a deck three people have read. And nobody has questioned.' reads as stiff, broken fragment; the stacked 'And... And' reads like narration. Say it the way he would, e.g. 'Ten minutes go on \"can you see my screen?\" Twenty go on a deck three people have read and nobody pushes back on.' (his register, your words, same facts).",
+    "Not Varun (slide 5): '66% of Indian workers leave meetings without clear action items. This is how.' reads as the stat is the hero instead of passing texture. Say it the way he would, e.g. 'No wonder 66% of Indian workers walk out of meetings with no clear action items. This is how.' (his register, your words, same facts).",
+    "Not Varun (slide 7): 'I don't think it's cowardice. I see the maths.' reads as stiff, written phrasing he wouldn't type. Say it the way he would, e.g. 'I don't think it's cowardice. It's just maths.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": []
+   }
+  },
+  {
+   "attempt": 2,
+   "varun": {
+    "pass": true,
+    "score": 5,
+    "misses": [],
+    "best": "Count the names instead. That's how scared the organiser is."
+   }
+  },
+  {
+   "attempt": 2,
+   "reader": {
+    "point": "Big meetings with too many invitees happen because people want to share the blame for decisions, not because they need discussion, and the real work gets pushed to later.",
+    "reason": "Making a decision alone puts your name on a possible mistake, while a slow group meeting spreads the blame across everyone, so people choose the meeting.",
+    "lost": [
+     {
+      "slide": 4,
+      "why": "'Take this offline' arrives as a punchline without explanation; also the deck and screen-share bits felt like a jump from the invite scene"
+     },
+     {
+      "slide": 5,
+      "why": "66% stat appears from nowhere with no source, and it jumps from the scene to a claim about action items"
+     },
+     {
+      "slide": 7,
+      "why": "'I don't think it's cowardice' answers an accusation nobody made; the 'I' voice is new and the 'maths' needed a re-read"
+     },
+     {
+      "slide": 9,
+      "why": "'Skip the agenda... there isn't one anyway' and 'count the names = how scared the organiser is' felt like a sudden instruction, had to guess the link"
+     }
+    ],
+    "ideas": [
+     "Large meeting invites exist to spread blame and avoid deciding alone"
+    ],
+    "endings": 3,
+    "point_matches": true,
+    "reason_matches": true
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Unclear (slide 4): a first-time reader got lost here: 'Take this offline' arrives as a punchline without explanation; also the deck and screen-share bits felt like a jump from the invite scene. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 5): a first-time reader got lost here: 66% stat appears from nowhere with no source, and it jumps from the scene to a claim about action items. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 7): a first-time reader got lost here: 'I don't think it's cowardice' answers an accusation nobody made; the 'I' voice is new and the 'maths' needed a re-read. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 9): a first-time reader got lost here: 'Skip the agenda... there isn't one anyway' and 'count the names = how scared the organiser is' felt like a sudden instruction, had to guess the link. Rewrite that slide so it follows from the one before, or cut it."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "All four earlier notes are settled. Slide 4 now explains \"Let's take this offline\" right after the call ends. Slide 5 is bridged (\"It isn't just your office\") and its number matches the Jabra source. Slide 7's \"I\" fits a lived topic and makes no claim about a specific employer or result. Slide 9 now reads as the conclusion of the invite thread, not an instruction.",
+     "Optional, slide 9: slide 8 ends on the cost to whoever had real work, so the close jumps back to the invite. If you touch it, use a few words to tie it back to the slide 2 image, e.g. \"So read the invite, not the title.\" This is only if it reads smoothly. It is not required to pass."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "varun": {
+    "pass": true,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 5",
+      "line": "It isn't just your office. A Jabra study found 66% of Indian workers leave meetings with no clear action items.",
+      "why": "fact as the hero, report voice",
+      "try": "It isn't just your office. 66% of Indian workers walk out of meetings with no clear action items. Jabra checked."
+     }
+    ],
+    "best": "It ends with \"Let's take this offline.\" Translation: decide it later, with fewer people watching."
+   }
+  },
+  {
+   "attempt": 3,
+   "reader": {
+    "point": "Big pointless meetings happen because people are scared of owning a decision, so they pull in lots of people to share the blame.",
+    "reason": "Because a slow decision is punished less than a wrong one, so the meeting spreads responsibility across everyone.",
+    "lost": [
+     {
+      "slide": 5,
+      "why": "Jabra stat appears suddenly; 'no clear action items' is a slightly different point from fear of deciding"
+     },
+     {
+      "slide": 7,
+      "why": "'I've sat on both sides' - sudden personal voice, who is the narrator? Also appraisal claim is asserted without support"
+     },
+     {
+      "slide": 8,
+      "why": "'Bill lands on whoever had real work' shifts to a new point about who suffers; 'call to plan the next call' felt like a new example"
+     },
+     {
+      "slide": 9,
+      "why": "'Guest list is the real agenda' needed a re-read to connect it to scared organiser"
+     }
+    ],
+    "ideas": [
+     "Large meetings are blame insurance because nobody wants to decide alone",
+     "Meetings leave people with no action items and the real work gets pushed to after hours"
+    ],
+    "endings": 3,
+    "point_matches": true,
+    "reason_matches": true
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Unclear (slide 5): a first-time reader got lost here: Jabra stat appears suddenly; 'no clear action items' is a slightly different point from fear of deciding. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 7): a first-time reader got lost here: 'I've sat on both sides' - sudden personal voice, who is the narrator? Also appraisal claim is asserted without support. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 8): a first-time reader got lost here: 'Bill lands on whoever had real work' shifts to a new point about who suffers; 'call to plan the next call' felt like a new example. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 9): a first-time reader got lost here: 'Guest list is the real agenda' needed a re-read to connect it to scared organiser. Rewrite that slide so it follows from the one before, or cut it."
+   ]
+  },
+  {
+   "attempt": 4,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 3
+    },
+    "notes": [
+     "All four notes are settled. Slide 5 no longer carries the stat; it follows straight from 'decide it later, with fewer people watching'. Slide 7 now follows naturally from 'the organiser's chair', and since the topic is lived, the 'I' is allowed. Slide 8 answers 'what does slow cost'. Slide 9 links the guest list to the scared organiser in one read.",
+     "Optional, slide 8: 'it just eats everyone's Tuesday' on slide 6 already says slow costs time. Make slide 8 add the feeling the topic names instead of restating it. For example: 'By evening your calendar is full, you've said maybe four sentences, and your actual work starts after dinner.' That lands the 'my whole day went into rooms where nothing happened' sting."
+    ]
+   }
+  },
+  {
+   "attempt": 4,
+   "varun": {
+    "pass": true,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 9",
+      "line": "So skip the agenda and count the names.",
+      "why": "coach voice: advice the reader didn't ask for",
+      "try": "The agenda tells you very little. The guest list tells you who's scared."
+     }
+    ],
+    "best": "It ends with \"Let's take this offline.\" Translation: decide it later, with fewer people watching."
+   }
+  },
+  {
+   "attempt": 4,
+   "reader": {
+    "point": "Big meeting invites happen because the organiser is scared to decide alone and wants to spread the blame, not because a discussion is needed.",
+    "reason": "Deciding alone puts one name on a wrong call, while a slow group meeting spreads blame across everyone so nobody is blamed.",
+    "lost": [
+     {
+      "slide": 6,
+      "why": "sudden jump to the organiser's point of view, slightly abrupt after the attendee scene"
+     },
+     {
+      "slide": 7,
+      "why": "'I've sent invites like that myself' comes from nowhere, a personal confession by an unknown narrator"
+     },
+     {
+      "slide": 8,
+      "why": "'one sync to the next' and the cost to whom is a bit vague, shifts from organiser to everyone's calendar"
+     },
+     {
+      "slide": 9,
+      "why": "'skip the agenda and count the names' is a bit confusing, since slide 2 complained about no agenda"
+     }
+    ],
+    "ideas": [
+     "Large meeting invites are the organiser's insurance against blame, not real discussion"
+    ],
+    "endings": 3,
+    "point_matches": true,
+    "reason_matches": true
+   }
+  },
+  {
+   "attempt": 4,
+   "problems": [
+    "Unclear (slide 6): a first-time reader got lost here: sudden jump to the organiser's point of view, slightly abrupt after the attendee scene. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 7): a first-time reader got lost here: 'I've sent invites like that myself' comes from nowhere, a personal confession by an unknown narrator. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 8): a first-time reader got lost here: 'one sync to the next' and the cost to whom is a bit vague, shifts from organiser to everyone's calendar. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 9): a first-time reader got lost here: 'skip the agenda and count the names' is a bit confusing, since slide 2 complained about no agenda. Rewrite that slide so it follows from the one before, or cut it."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-25T12:33:26.444374+00:00",
+ "sources": [
+  {
+   "url": "https://www.shrm.org/in/topics-tools/news/blogs/why-too-many-shared-responsibilities-lead-to-less-accountability",
+   "fact": "SHRM India says that when responsibility is shared without a single owner, individuals take less ownership and nobody is answerable for the outcome.",
+   "stance": "supports: This backs the idea that spreading a decision across many people leaves no one accountable. It does not say people add attendees on purpose to avoid blame, and it does not discuss committees.",
+   "excerpt": "shared responsibility, without clear individual ownership, routinely produces the opposite of what leaders intend. | When Everyone Owns a Responsibility, No One is Accountable | Ambiguity does not disappear when responsibility is shared. | Name one owner per outcome, even on shared initiatives. | only one person should be held accountable for its outcome. | Make accountability explicit in team meetings as a routine operating norm.",
+   "date": "2026-06-17"
+  },
+  {
+   "url": "https://digitalterminal.in/amp/story/enterprise/jabra-study-finds-9-in-10-indian-workers-experience-meeting-fatigue-amid-productivity-concerns",
+   "fact": "A Jabra study reports that Indian workers average 8.8 hours of meetings a week, most leave without clear action items, and many need follow-up meetings to clarify decisions.",
+   "stance": "neutral: The data shows meetings often end without decisions or owners, which fits the 'let's take this offline' behaviour. It does not test the claim that people call meetings so that no one decides alone. The Jabra figures are reported through press coverage, not from the original report.",
+   "excerpt": "90% of Indian employees experience some level of meeting dread. | Indian workers average 8.8 hours in meetings weekly. | 58% of meeting time is perceived as unnecessary. | 66% of employees leave meetings without clear action items. | 59% require follow-up meetings to clarify decisions.",
+   "date": "2026-06-27"
+  }
+ ],
+ "verification_cache": {},
+ "draft": {
+  "cover": {
+   "headline": "Eleven people on a meeting invite isn't a discussion. It's [insurance].",
+   "sub": "Every extra name on the invite is doing a job."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Eleven people on a meeting invite isn't a discussion. It's insurance.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "Insurance against what?"
+   },
+   {
+    "paragraphs": [
+     "The invite says \"Quick sync\", has no agenda and lists half the floor, plus two people from a team you've never met.",
+     "It won't be quick."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "Everyone accepts. Declining feels riskier than sitting through it."
+    ],
+    "why_swipe": "So what happens inside the call?"
+   },
+   {
+    "paragraphs": [
+     "So eleven people join. Three talk. The rest sit on mute with cameras off.",
+     "It ends with \"Let's take this offline.\" Translation: decide it later, with fewer people watching."
+    ],
+    "why_swipe": "Why call eleven people to decide nothing?"
+   },
+   {
+    "paragraphs": [
+     "Because deciding was never the point. The meeting exists so nobody has to decide alone.",
+     "If the plan flops, eleven people \"aligned\". Blame split eleven ways is no blame."
+    ],
+    "why_swipe": "Why would the organiser want that?"
+   },
+   {
+    "paragraphs": [
+     "Look at it from the organiser's chair. A wrong call has one name on it. A slow call has none, it just eats everyone's Tuesday."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "I've sent invites like that myself. Slow always felt safer."
+    ],
+    "why_swipe": "So what does slow cost?"
+   },
+   {
+    "paragraphs": [
+     "And slow costs you. You go from one sync to the next.",
+     "By evening your calendar is full and your actual work hasn't started."
+    ],
+    "why_swipe": "So how do you read the next invite?"
+   },
+   {
+    "paragraphs": [
+     "So skip the agenda and count the names.",
+     "Eleven people on the invite means one organiser who is scared to decide alone."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Read it again when the next \"Quick sync\" lands with half the floor on it.",
+   "send": "Send to the colleague with back-to-back meetings and nothing done by evening.",
+   "promise": "How Indian offices really work."
+  },
+  "alt_text": "An eight-slide text post arguing that big office meetings with many attendees and no agenda exist to spread blame, not to make decisions. It describes a 'Quick sync' invite with half the floor on it, where everyone accepts, three people talk, the rest stay on mute, and the call ends with 'let's take this offline', meaning decide later with fewer people watching. It explains that the meeting exists so nobody has to decide alone: a wrong call has one name on it, while a slow call has none and just eats everyone's time. The writer admits he has sent invites like that himself. Slow meetings leave your calendar full and your real work unstarted. It ends by saying you can skip the agenda and count the names: eleven people on the invite means one organiser who is scared to decide alone.",
+  "claims": []
+ }
 }

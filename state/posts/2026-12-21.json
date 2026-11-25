@@ -1,6 +1,6 @@
 {
  "id": "2026-12-21",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-12-09T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -65,6 +65,429 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-11-25T03:15:12.364948+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [
+     "17. Hard to follow (slide 8): \"Plenty of fans still enjoyed it on Prime.\" This counter-fact is dropped in after the verdict and never answered. A first-time reader now wonders whether the crowd theory holds at all, so the slide carries a second idea that undercuts the first."
+    ],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 3,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 3,
+     "story": 3,
+     "tight": 3,
+     "clear": 4,
+     "informative": 3
+    },
+    "notes": [
+     "slide 8: Either cut \"Plenty of fans still enjoyed it on Prime\" or turn it into a concession he pushes past. Put it earlier, in his voice, with the real_details: \"Sure, plenty of fans still loved it at home. The interval sequence and the Hrithik Roshan cameo still land.\" Then push past it: the big moments survive the sofa, and the filler between them doesn't. That makes the fact work for the take, and the slide can end on the both-right line alone.",
+     "slide 3: \"Both camps saw the same film. Only one of them had company\" doesn't match slide 2, where both camps are home viewers on Prime. Reframe it as the two friends the reader actually knows: the one who screamed through it in the hall, and the one who watched it on Prime and called it overrated. The same film, with and without the crowd. Then the punch line makes sense on one read.",
+     "slide 2: This reads like a news recap (date, two camps). Lead with the moment from the topic, phone in hand while a film everyone screamed through plays at home. Then use the Nov 12 peg in one plain line as the receipt. That way the reader recognises themselves before they get the news.",
+     "slides 6-7: The because is there (written for the noise; the crowd forgives). But nothing yet reads like a decoding from someone who knows how this gets made. Add one sharper selling-side observation from the topic's mechanism and villain. For example: the film was sold to you as a night out with 300 people, and then delivered to one person with a phone. Keep it as opinion. Don't invent a studio plan or a budget.",
+     "slide 9: The test is good. Tighten it so the last line stings harder and calls back to the cover's 'half'. Something like: the half that was missing was never on the screen. Keep a single ending: the test, then one closing punch, with no lesson added."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "17. Hard to follow (slide 8): \"Plenty of fans still enjoyed it on Prime.\" This counter-fact is dropped in after the verdict and never answered. A first-time reader now wonders whether the crowd theory holds at all, so the slide carries a second idea that undercuts the first.",
+    "slide 8: Either cut \"Plenty of fans still enjoyed it on Prime\" or turn it into a concession he pushes past. Put it earlier, in his voice, with the real_details: \"Sure, plenty of fans still loved it at home. The interval sequence and the Hrithik Roshan cameo still land.\" Then push past it: the big moments survive the sofa, and the filler between them doesn't. That makes the fact work for the take, and the slide can end on the both-right line alone.",
+    "slide 3: \"Both camps saw the same film. Only one of them had company\" doesn't match slide 2, where both camps are home viewers on Prime. Reframe it as the two friends the reader actually knows: the one who screamed through it in the hall, and the one who watched it on Prime and called it overrated. The same film, with and without the crowd. Then the punch line makes sense on one read.",
+    "slide 2: This reads like a news recap (date, two camps). Lead with the moment from the topic, phone in hand while a film everyone screamed through plays at home. Then use the Nov 12 peg in one plain line as the receipt. That way the reader recognises themselves before they get the news.",
+    "slides 6-7: The because is there (written for the noise; the crowd forgives). But nothing yet reads like a decoding from someone who knows how this gets made. Add one sharper selling-side observation from the topic's mechanism and villain. For example: the film was sold to you as a night out with 300 people, and then delivered to one person with a phone. Keep it as opinion. Don't invent a studio plan or a budget.",
+    "slide 9: The test is good. Tighten it so the last line stings harder and calls back to the cover's 'half'. Something like: the half that was missing was never on the screen. Keep a single ending: the test, then one closing punch, with no lesson added."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slide 3: The edit repeats slide 2. Slide 2 already says 'You press play on the film everyone screamed through in the hall', and slide 3 opens 'One screamed through it in the hall.' The bare 'One... One...' also leaves a first-time reader asking 'one who?' Make it the two friends, not a repeat of the phrase: 'Your friend saw it first day, first show, and lost his voice. Your cousin watched it on Prime and called it overrated.' Keep 'Same film. Only one had a crowd.'",
+     "slide 2: The phone moment from the topic now sits on slide 4 ('At home, you checked WhatsApp'), so slide 2 opens on a setup line, not on the reader caught in the act. Keep the Nov 12 receipt as one plain line, but open on the reader: 'Jailer 2 is on Prime now. You press play, and twenty minutes in you're on your phone.'",
+     "slide 5: This is the closest the post gets to the selling-side decoding, and it is good. Push it one step into the topic's villain, as opinion: the ticket sold you a night out with 300 people, and the OTT release delivers the same film to one person on a sofa. One short added line is enough, for example 'Prime sells you the same film without the 300 people.' Don't add any studio plan or deal figure.",
+     "slide 6: 'left empty on purpose' states a writing intent as fact. Soften it into his read of how these films are made, not a claimed plan: 'Mass films leave a beat after every punch dialogue. That beat is for the claps.' This keeps the mechanism and drops the claimed intent."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 2",
+      "line": "You press play on the film everyone screamed through in the hall.",
+      "why": "scene narration; repeats slide 3",
+      "try": "Jailer 2 hit Prime Video on November 12. Within days, the \"overrated\" takes were out."
+     },
+     {
+      "where": "slide 9",
+      "line": "Next time a film feels flat at home, ask: would it have worked with 300 strangers shouting?",
+      "why": "coach voice, unasked-for advice",
+      "try": "So when a film feels flat at home, picture 300 strangers shouting through it."
+     },
+     {
+      "where": "slide 3",
+      "line": "One screamed through it in the hall. One watched it on Prime and called it overrated.",
+      "why": "stiff mirrored pair, vague 'one'",
+      "try": "One friend screamed through it in the hall. Another watched it on Prime and called it overrated."
+     },
+     {
+      "where": "cover",
+      "line": "Your sofa only ever gets one of the two halves.",
+      "why": "wordy, written phrasing",
+      "try": "Your sofa only gets the movie."
+     }
+    ],
+    "best": "In the hall, the hero's slow-motion entry got whistles and paper thrown at the screen. At home, you checked WhatsApp."
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Not Varun (slide 2): 'You press play on the film everyone screamed through in the hall.' reads as scene narration; repeats slide 3. Say it the way he would, e.g. 'Jailer 2 hit Prime Video on November 12. Within days, the \"overrated\" takes were out.' (his register, your words, same facts).",
+    "Not Varun (slide 9): 'Next time a film feels flat at home, ask: would it have worked with 300 strangers shouting?' reads as coach voice, unasked-for advice. Say it the way he would, e.g. 'So when a film feels flat at home, picture 300 strangers shouting through it.' (his register, your words, same facts).",
+    "Not Varun (slide 3): 'One screamed through it in the hall. One watched it on Prime and called it overrated.' reads as stiff mirrored pair, vague 'one'. Say it the way he would, e.g. 'One friend screamed through it in the hall. Another watched it on Prime and called it overrated.' (his register, your words, same facts).",
+    "Not Varun (cover): 'Your sofa only ever gets one of the two halves.' reads as wordy, written phrasing. Say it the way he would, e.g. 'Your sofa only gets the movie.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 5,
+     "informative": 4
+    },
+    "notes": [
+     "All four notes are settled. Slide 2 now states the date and the 'overrated' reaction plainly. Slide 3 reads naturally with 'One friend… Another…'. Slide 9 pictures the crowd instead of coaching. The cover sub-line is short and spoken.",
+     "slide 3 (optional polish, not a blocker): 'overrated' appears on both slide 2 and slide 3. If the writer touches this slide again, cut the second one so the punch carries it: 'Another watched it on Prime and shrugged.'"
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "varun": {
+    "pass": true,
+    "score": 5,
+    "misses": [],
+    "best": "In the hall, the hero's slow-motion entry got whistles and paper thrown at the screen. At home, you checked WhatsApp."
+   }
+  },
+  {
+   "attempt": 2,
+   "reader": {
+    "point": "Mass films feel flat at home because much of their fun comes from the cheering crowd in the theatre, not just the film itself.",
+    "reason": "The crowd's whistles, laughter and claps fill the pauses and carry the dull scenes, and a sofa has none of that.",
+    "lost": [
+     {
+      "slide": 2,
+      "why": "Jumps to a release date and 'overrated' with no setup; unsure who these people are"
+     },
+     {
+      "slide": 3,
+      "why": "Two unnamed friends appear from nowhere; had to re-read to see the comparison"
+     },
+     {
+      "slide": 7,
+      "why": "'Thalaivaa' guy two rows back is a sudden quote, took a moment to place"
+     },
+     {
+      "slide": 8,
+      "why": "Sudden turn to 'plenty of fans loved it at home too' and the Hrithik cameo; seems to contradict the earlier point"
+     }
+    ],
+    "ideas": [
+     "Mass films feel flatter at home because the theatre crowd is half the experience"
+    ],
+    "endings": 2,
+    "point_matches": true,
+    "reason_matches": false
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Unclear: a first-time reader took the reason as 'The crowd's whistles, laughter and claps fill the pauses and carry the dull scenes, and a sofa has none of that.'. Say the because once, plainly, on one slide, from the reader's side of the screen.",
+    "Unclear (slide 2): a first-time reader got lost here: Jumps to a release date and 'overrated' with no setup; unsure who these people are. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 3): a first-time reader got lost here: Two unnamed friends appear from nowhere; had to re-read to see the comparison. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 7): a first-time reader got lost here: 'Thalaivaa' guy two rows back is a sudden quote, took a moment to place. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 8): a first-time reader got lost here: Sudden turn to 'plenty of fans loved it at home too' and the Hrithik cameo; seems to contradict the earlier point. Rewrite that slide so it follows from the one before, or cut it."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "All five notes are settled. Slide 2 now follows the cover. Slide 3 states the belief plainly with no unnamed friends. Slide 7 drops the sudden quote. Slide 8 is framed as 'split, not a flop', so the Prime praise supports the point instead of contradicting it. The because now builds across slides 5 to 7 from the reader's seat.",
+     "slide 8: the edit makes slides 8 and 9 both open with 'So' ('So the home verdict is split…', 'So when a film feels flat at home…'). Drop the first one: 'The home verdict is split, not a flop.'",
+     "slide 2 (optional polish): a reader who skipped the theatrical run may not know the hall loved it. Add one short beat from the topic's peg, for example: 'Look at Jailer 2. Halls cheered it. It reached Prime Video on November 12.' Keep 'Within days, some people at home were calling it overrated.' as written."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "varun": {
+    "pass": false,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 3",
+      "line": "If you loved a film in the hall and found it flat at home, one opinion must be wrong.",
+      "why": "stiff logic-puzzle setup, written not typed",
+      "try": "Loved it in the hall, found it flat at home? You'd think one of those was wrong."
+     },
+     {
+      "where": "slide 8",
+      "line": "So the home verdict is split, not a flop. Fans on Prime praised the interval and the Hrithik Roshan cameo.",
+      "why": "stiff review-speak, 'verdict', 'praised'",
+      "try": "Which is why Jailer 2 on Prime isn't a flop. It's a split. Fans still loved the interval and the Hrithik Roshan cameo."
+     },
+     {
+      "where": "slide 2",
+      "line": "Look at Jailer 2. It reached Prime Video on November 12.",
+      "why": "stiff opener, 'look at', 'reached'",
+      "try": "Jailer 2 hit Prime Video on November 12."
+     }
+    ],
+    "best": "In the hall, the hero's slow-motion entry got whistles. At home, you checked WhatsApp."
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Not Varun (slide 3): 'If you loved a film in the hall and found it flat at home, one opinion must be wrong.' reads as stiff logic-puzzle setup, written not typed. Say it the way he would, e.g. 'Loved it in the hall, found it flat at home? You'd think one of those was wrong.' (his register, your words, same facts).",
+    "Not Varun (slide 8): 'So the home verdict is split, not a flop. Fans on Prime praised the interval and the Hrithik Roshan cameo.' reads as stiff review-speak, 'verdict', 'praised'. Say it the way he would, e.g. 'Which is why Jailer 2 on Prime isn't a flop. It's a split. Fans still loved the interval and the Hrithik Roshan cameo.' (his register, your words, same facts).",
+    "Not Varun (slide 2): 'Look at Jailer 2. It reached Prime Video on November 12.' reads as stiff opener, 'look at', 'reached'. Say it the way he would, e.g. 'Jailer 2 hit Prime Video on November 12.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 4,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 3
+    },
+    "notes": [
+     "All three notes from the last draft are settled. Slide 2 now opens with 'Jailer 2 hit Prime Video on November 12.' Slide 3 now reads like typed speech: 'Loved it in the hall, found it flat at home? You'd assume one of those two opinions was wrong.' Slide 8 drops the review-speak: 'That's why Jailer 2 on Prime split people instead of flopping.' The edits repeat no other slide and add no unsourced specifics. The split, the 'overrated' reactions, the interval and the Hrithik Roshan cameo all match the sources. Ship as is."
+    ]
+   }
+  },
+  {
+   "attempt": 4,
+   "varun": {
+    "pass": true,
+    "score": 5,
+    "misses": [],
+    "best": "At home, you checked WhatsApp."
+   }
+  },
+  {
+   "attempt": 4,
+   "reader": {
+    "point": "A mass film plays better in a theatre because the cheering crowd is part of the experience, so it can feel flat at home without that crowd.",
+    "reason": "The crowd's whistles, laughter and claps fill the pauses and carry the slow scenes, and a sofa has none of that.",
+    "lost": [
+     {
+      "slide": 3,
+      "why": "'You'd assume one of those two opinions was wrong' is a bit abstract, and I had to re-read it to see who holds which opinion"
+     },
+     {
+      "slide": 5,
+      "why": "'Paid for 300 strangers laughing before the punchline' is a slightly odd idea; I had to think about what it meant"
+     },
+     {
+      "slide": 8,
+      "why": "'Split people instead of flopping' and the Hrithik Roshan cameo come from nowhere, and I wasn't told earlier that the film had a cameo or an interval"
+     }
+    ],
+    "ideas": [
+     "A mass film's experience depends on the theatre crowd, so it feels flat at home"
+    ],
+    "endings": 3,
+    "point_matches": true,
+    "reason_matches": false
+   }
+  },
+  {
+   "attempt": 4,
+   "problems": [
+    "Unclear: a first-time reader took the reason as 'The crowd's whistles, laughter and claps fill the pauses and carry the slow scenes, and a sofa has none of that.'. Say the because once, plainly, on one slide, from the reader's side of the screen.",
+    "Unclear (slide 3): a first-time reader got lost here: 'You'd assume one of those two opinions was wrong' is a bit abstract, and I had to re-read it to see who holds which opinion. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 5): a first-time reader got lost here: 'Paid for 300 strangers laughing before the punchline' is a slightly odd idea; I had to think about what it meant. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 8): a first-time reader got lost here: 'Split people instead of flopping' and the Hrithik Roshan cameo come from nowhere, and I wasn't told earlier that the film had a cameo or an interval. Rewrite that slide so it follows from the one before, or cut it."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-25T12:33:26.523621+00:00",
+ "sources": [
+  {
+   "url": "https://www.m9.news/what-to-watch-on-ott/jailer-2-ott-response-rajinikanth-prime-video/",
+   "fact": "After Jailer 2 reached Prime Video, some OTT viewers called it overrated, while others argued that its crowd-driven comedy loses impact at home.",
+   "stance": "supports: it reports the overrated debate and cites critics who say crowd-dependent comedy and theatre celebration don't carry over to OTT. It doesn't mention 'collective forgiveness', and it is a single entertainment outlet.",
+   "excerpt": "However, surprisingly, OTT audiences are sharing mixed responses. | Many OTT viewers, after watching Jailer 2, are suggesting that Jailer 2 is yet another overrated film | comedy that works with a crowd in the theatre might not give the same kick to people who are watching it at home on OTT | argue that films like Jailer 2 are meant to be celebrated in theatres",
+   "date": "2026-11-15"
+  },
+  {
+   "url": "https://www.filmibeat.com/ott/jailer-2-on-prime-video-fans-celebrate-rajinikanths-magic-call-hrithik-roshans-cameo-a-highlight-534339.html",
+   "fact": "Many fans welcomed Jailer 2 on Prime Video and praised Rajinikanth, the interval sequence and Hrithik Roshan's cameo.",
+   "stance": "contradicts: it shows largely positive reactions at home, with no sign that the film suffered without the theatre crowd. It says nothing on the theatre-effect reason. The page is labelled 'Updated', so the date may not be the original publication date.",
+   "excerpt": "another opportunity to enjoy Thalaivar's magic | more than just a movie | the finest part of the film",
+   "date": "2026-11-14"
+  }
+ ],
+ "verification_cache": {},
+ "draft": {
+  "cover": {
+   "headline": "A mass film is half movie, half [crowd]",
+   "sub": "Your sofa only gets the movie."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "A mass film is half movie, half crowd. Your sofa only gets the movie."
+    ],
+    "why_swipe": "Which half is missing, and where is it showing up?"
+   },
+   {
+    "paragraphs": [
+     "Jailer 2 hit Prime Video on November 12.",
+     "Within days, some people at home were calling it overrated."
+    ],
+    "why_swipe": "So was the hall wrong, or the sofa?"
+   },
+   {
+    "paragraphs": [
+     "Loved it in the hall, found it flat at home? You'd assume one of those two opinions was wrong.",
+     "Both are right."
+    ],
+    "why_swipe": "How can both be right?"
+   },
+   {
+    "paragraphs": [
+     "In the hall, the hero's slow-motion entry got whistles from the front rows all the way up to the balcony.",
+     "At home, you checked WhatsApp."
+    ],
+    "why_swipe": "Is the film bad, or were you?"
+   },
+   {
+    "paragraphs": [
+     "Your ₹500 ticket never paid just for the film. It paid for 300 strangers laughing before the punchline landed."
+    ],
+    "why_swipe": "Why does a mass film need the crowd that badly?"
+   },
+   {
+    "paragraphs": [
+     "The pause after a punch dialogue is left empty so the claps can fill it.",
+     "On a sofa, it's just a pause."
+    ],
+    "why_swipe": "Is that the only thing the crowd was doing?"
+   },
+   {
+    "paragraphs": [
+     "The crowd carries the slow scenes. Someone shouts the hero's name and you never feel the drag.",
+     "At home, the film does it alone."
+    ],
+    "why_swipe": "So does every mass film fall apart at home?"
+   },
+   {
+    "paragraphs": [
+     "That's why Jailer 2 on Prime split people instead of flopping. Fans still loved the interval and Hrithik Roshan's cameo.",
+     "The big moments survive the sofa. The filler doesn't."
+    ],
+    "why_swipe": "How do you tell which kind of film you just watched?"
+   },
+   {
+    "paragraphs": [
+     "So when a film feels flat at home, picture 300 strangers shouting through it.",
+     "If it works there, the missing half was never on the screen."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Come back to this the next time a big hit feels boring on your TV.",
+   "send": "Send to the friend who calls every hit 'overrated' after watching it on OTT with one earphone in.",
+   "promise": "Why films work, and why they don't."
+  },
+  "alt_text": "A text carousel arguing that a mass film is half movie and half crowd, and your sofa only gets the movie. Jailer 2 hit Prime Video on November 12, and within days some people at home were calling it overrated. The post says that if you loved a film in the hall and found it flat at home, both opinions are right. In the hall the crowd whistles at the hero's entry, fills the pauses after punch dialogues with claps and carries the slow scenes. At home the film has to do all of that alone. That is why Jailer 2 on Prime split people instead of flopping: fans still loved the interval and the Hrithik Roshan cameo, because big moments survive the sofa while the filler doesn't. It ends by asking you to picture 300 strangers shouting through a film that felt flat at home: if it works there, the missing half was never on the screen.",
+  "claims": [
+   {
+    "text": "Jailer 2 began streaming on Prime Video on November 12.",
+    "source_url": "https://www.m9.news/what-to-watch-on-ott/jailer-2-ott-response-rajinikanth-prime-video/"
+   },
+   {
+    "text": "After it reached Prime Video, some viewers called Jailer 2 overrated.",
+    "source_url": "https://www.m9.news/what-to-watch-on-ott/jailer-2-ott-response-rajinikanth-prime-video/"
+   },
+   {
+    "text": "Fans watching Jailer 2 on Prime Video praised the interval sequence and Hrithik Roshan's cameo.",
+    "source_url": "https://www.filmibeat.com/ott/jailer-2-on-prime-video-fans-celebrate-rajinikanths-magic-call-hrithik-roshans-cameo-a-highlight-534339.html"
+   }
+  ]
+ }
 }

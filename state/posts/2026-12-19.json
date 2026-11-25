@@ -1,6 +1,6 @@
 {
  "id": "2026-12-19",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-12-05T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -43,6 +43,362 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-11-25T03:15:12.363800+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "problems": [
+    "These word runs copy the reference creator; rewrite them: ['nobody wants to be the one']"
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "Settled: the copied run 'nobody wants to be the one' is gone from every slide. The edit added no new hard failure: no 'I', no invented specific, and the mechanism (the table collects, not the restaurant) is stated as observation, not as a secret plan. Nothing else needs changing."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 1",
+      "line": "59% of diners at AC restaurants paid service charge last month. It's you.",
+      "why": "stat as the hero, and the 'It's you' turn doesn't land",
+      "try": "That service charge line on your bill? 59% of diners at AC restaurants paid it last month. Yes, you too."
+     },
+     {
+      "where": "cover",
+      "line": "59% of diners paid service charge last month. [It's you.]",
+      "why": "leads with the number instead of the reframe; 'It's you' reads as a riddle",
+      "try": "Service charge is optional. [59% of us paid it anyway.]"
+     },
+     {
+      "where": "slide 5",
+      "line": "That precision stops at one line on the bill.",
+      "why": "stiff, written word he wouldn't type",
+      "try": "But on this one line, suddenly nobody's counting."
+     },
+     {
+      "where": "slide 2",
+      "line": "The Delhi High Court has said it plainly. Service charge is voluntary, and it shouldn't be added to the bill by default.",
+      "why": "formal, report-style phrasing",
+      "try": "The Delhi High Court already said it. Service charge is voluntary. It shouldn't even be on your bill by default."
+     },
+     {
+      "where": "slide 3",
+      "line": "The bill comes back in its little folder. Whoever opens it first spots the charge line.",
+      "why": "scene narration before the point",
+      "try": "Whoever opens the bill folder first spots the line."
+     },
+     {
+      "where": "end.save",
+      "line": "Read it again before the next office party bill lands on your table.",
+      "why": "stiff, instruction-like phrasing",
+      "try": "Save it for the next office party bill."
+     }
+    ],
+    "best": "That's ₹200 each. Arguing over ₹200 makes you the cheap friend for a year."
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Not Varun (slide 1): '59% of diners at AC restaurants paid service charge last month. It's you.' reads as stat as the hero, and the 'It's you' turn doesn't land. Say it the way he would, e.g. 'That service charge line on your bill? 59% of diners at AC restaurants paid it last month. Yes, you too.' (his register, your words, same facts).",
+    "Not Varun (cover): '59% of diners paid service charge last month. [It's you.]' reads as leads with the number instead of the reframe; 'It's you' reads as a riddle. Say it the way he would, e.g. 'Service charge is optional. [59% of us paid it anyway.]' (his register, your words, same facts).",
+    "Not Varun (slide 5): 'That precision stops at one line on the bill.' reads as stiff, written word he wouldn't type. Say it the way he would, e.g. 'But on this one line, suddenly nobody's counting.' (his register, your words, same facts).",
+    "Not Varun (slide 2): 'The Delhi High Court has said it plainly. Service charge is voluntary, and it shouldn't be added to the bill by default.' reads as formal, report-style phrasing. Say it the way he would, e.g. 'The Delhi High Court already said it. Service charge is voluntary. It shouldn't even be on your bill by default.' (his register, your words, same facts).",
+    "Not Varun (slide 3): 'The bill comes back in its little folder. Whoever opens it first spots the charge line.' reads as scene narration before the point. Say it the way he would, e.g. 'Whoever opens the bill folder first spots the line.' (his register, your words, same facts).",
+    "Not Varun (end.save): 'Read it again before the next office party bill lands on your table.' reads as stiff, instruction-like phrasing. Say it the way he would, e.g. 'Save it for the next office party bill.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 5,
+     "informative": 4
+    },
+    "notes": [
+     "All six earlier notes are settled. Slides 2, 3 and 5 now read in his voice. Slide 1 leads with 'you' instead of the number, so the stat is no longer the hero.",
+     "slide 1: 'So did 59% of AC restaurant diners last month.' The survey is from February 2026. Read in November, 'last month' points to October, which the source doesn't cover. Keep the stat but drop the false timing, e.g. 'So did 59% of people who ate at an AC restaurant, in a survey this year.' Or tie it to the survey's own window ('in the month before they were asked').",
+     "slide 7 (optional, only if the writer is already touching the line): the source says only 16% got the charge removed. One plain line like 'Only 16% of us ever get it taken off.' would turn 'that conversation costs more than ₹200' from opinion into something the reader can see. Do not add more than this one figure."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "varun": {
+    "pass": true,
+    "score": 4,
+    "misses": [
+     {
+      "where": "end.save",
+      "line": "Open it again when the office party bill reaches your table.",
+      "why": "still stiff, instruction-like; 'reaches your table' is written, not typed",
+      "try": "Save this for the next office party bill."
+     }
+    ],
+    "best": "Because the restaurant doesn't collect it. The table does."
+   }
+  },
+  {
+   "attempt": 2,
+   "reader": {
+    "point": "People pay the optional restaurant service charge at group dinners because asking to remove it feels awkward and makes you look cheap, even though it's voluntary.",
+    "reason": "Removing it means someone has to ask out loud in front of everyone, and the social awkwardness costs more than the ₹200 share, so people pay to look easy-going.",
+    "lost": [
+     {
+      "slide": 6,
+      "why": "'The restaurant doesn't collect it. The table does.' is cryptic; I had to guess it means the group's social pressure, not the restaurant, keeps it on the bill"
+     },
+     {
+      "slide": 1,
+      "why": "59% statistic appears from nowhere with no source, and 'last month' is unexplained"
+     }
+    ],
+    "ideas": [
+     "We pay the voluntary service charge at group dinners to avoid the awkwardness of asking for removal and looking cheap"
+    ],
+    "endings": 3,
+    "point_matches": true,
+    "reason_matches": true
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Unclear (slide 6): a first-time reader got lost here: 'The restaurant doesn't collect it. The table does.' is cryptic; I had to guess it means the group's social pressure, not the restaurant, keeps it on the bill. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 1): a first-time reader got lost here: 59% statistic appears from nowhere with no source, and 'last month' is unexplained. Rewrite that slide so it follows from the one before, or cut it."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 3,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 5,
+     "informative": 4
+    },
+    "notes": [
+     "Both earlier notes are settled. Slide 1 now names LocalCircles and drops the unexplained 'last month'. Slide 6 now follows directly from slide 5: the charge gets a free pass because removing it means asking out loud.",
+     "Slide 6 vs slide 4 (optional polish): 'That conversation costs more than ₹200' repeats the cost slide 4 already priced ('Arguing over ₹200 makes you the cheap friend for a year'). The new part of slide 6 is that removal only happens in public. Keep 'someone has to ask out loud, in front of everyone.' Then replace the second line with the consequence slide 4 didn't give, for example: 'And the waiter is standing right there, holding the machine.' That is the restaurant's side of the setup, the topic's villain.",
+     "Slide 1 (optional, only if the writer touches it again): the hook is a stat plus 'One of them is you.' It names the behaviour but not the turn. One fix is to keep the sourced number and let the second sentence carry the claim: 'In a LocalCircles survey, 59% of AC restaurant diners paid the service charge. Most of them knew it was optional.' That keeps the source and adds the 'I knew and still paid' feeling the topic asks for."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Both earlier notes are settled. Slide 1 now names LocalCircles and drops the unexplained 'last month'. Slide 6 now follows directly from slide 5: the charge gets a free pass because removing it means asking out loud.",
+    "Slide 6 vs slide 4 (optional polish): 'That conversation costs more than ₹200' repeats the cost slide 4 already priced ('Arguing over ₹200 makes you the cheap friend for a year'). The new part of slide 6 is that removal only happens in public. Keep 'someone has to ask out loud, in front of everyone.' Then replace the second line with the consequence slide 4 didn't give, for example: 'And the waiter is standing right there, holding the machine.' That is the restaurant's side of the setup, the topic's villain.",
+    "Slide 1 (optional, only if the writer touches it again): the hook is a stat plus 'One of them is you.' It names the behaviour but not the turn. One fix is to keep the sourced number and let the second sentence carry the claim: 'In a LocalCircles survey, 59% of AC restaurant diners paid the service charge. Most of them knew it was optional.' That keeps the source and adds the 'I knew and still paid' feeling the topic asks for."
+   ]
+  },
+  {
+   "attempt": 4,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "Both earlier notes are settled. Slide 6 now carries a new beat: 'And the waiter is standing right there, holding the machine.' It no longer repeats slide 4's ₹200 cost, and it puts the restaurant's setup in view. Slide 1 was left as it was. That note was optional, so it is not a failure.",
+     "slide 1 (optional, only if the writer touches it again): 'One of them is you.' names the behaviour but not the turn. 'Most of them knew it was optional.' would carry the topic's 'I knew and still paid' feeling. It also sets up slide 2's court line, so slide 2 lands as proof rather than news. If the writer makes this change, change slide 2's 'Most of us know this. We pay anyway.' too, so the same idea isn't said twice."
+    ]
+   }
+  },
+  {
+   "attempt": 4,
+   "varun": {
+    "pass": false,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 7",
+      "line": "And if you're the friend who always picks up the bill first, you've paid that price.",
+      "why": "stiff and over-explained, the point already landed",
+      "try": "And the friend who always grabs the bill first? They've been paying it for years."
+     },
+     {
+      "where": "cover",
+      "line": "The law calls it optional. Your dinner table doesn't.",
+      "why": "engineered mirrored pair, repeats 'optional' from headline",
+      "try": "Optional, sure. Try saying that at a table full of friends."
+     },
+     {
+      "where": "end.send",
+      "line": "Send to the friend who always pays the group bill and hates that charge line every single time.",
+      "why": "clunky and padded, he'd say it tighter",
+      "try": "Send to the friend who always pays the bill and quietly hates that one line."
+     }
+    ],
+    "best": "Arguing over ₹200 makes you the cheap friend for a year."
+   }
+  },
+  {
+   "attempt": 4,
+   "problems": [
+    "Not Varun (slide 7): 'And if you're the friend who always picks up the bill first, you've paid that price.' reads as stiff and over-explained, the point already landed. Say it the way he would, e.g. 'And the friend who always grabs the bill first? They've been paying it for years.' (his register, your words, same facts).",
+    "Not Varun (cover): 'The law calls it optional. Your dinner table doesn't.' reads as engineered mirrored pair, repeats 'optional' from headline. Say it the way he would, e.g. 'Optional, sure. Try saying that at a table full of friends.' (his register, your words, same facts).",
+    "Not Varun (end.send): 'Send to the friend who always pays the group bill and hates that charge line every single time.' reads as clunky and padded, he'd say it tighter. Say it the way he would, e.g. 'Send to the friend who always pays the bill and quietly hates that one line.' (his register, your words, same facts)."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-25T12:33:26.352205+00:00",
+ "sources": [
+  {
+   "url": "https://localcircles.com/a/press/page/restaurant-service-charge-survey",
+   "fact": "A LocalCircles survey found 59% of consumers who ate at an air-conditioned restaurant in the past month paid a service charge, up from 43% in 2022. Only 16% got it removed.",
+   "stance": "neutral: The page shows many diners pay a charge that is meant to be voluntary. It does not ask why they pay, so it gives no evidence for embarrassment or social pressure.",
+   "excerpt": "59% of consumers who went to an air-conditioned restaurant in the last one month paid a service charge.",
+   "date": "2026-02-11"
+  },
+  {
+   "url": "https://www.livelaw.in/amp/high-court/delhi-high-court/delhi-high-court-restaurant-service-charge-on-food-not-mandatory-287836",
+   "fact": "The Delhi High Court held that service charge and tips are voluntary and cannot be made mandatory on food bills. It said the amount must not be added by default.",
+   "stance": "neutral: The page sets out the legal position that the charge is voluntary and should be left to the customer's discretion. It says nothing about social embarrassment or group dynamics. The ruling does make the post's point stronger, because the charge is legally optional and yet still paid.",
+   "excerpt": "service charge and tips are voluntary payments by consumers and cannot be made compulsory or mandatory on food bills. | mandatory collection of service charge on food bills is contrary to law | The amount however, ought not to be added by default in the bill/invoice and should be left to the customer's discretion. | puts the consumers under the impression that they are imposed in the form of service tax or GST.",
+   "date": "2025-03-28"
+  }
+ ],
+ "verification_cache": {},
+ "draft": {
+  "cover": {
+   "headline": "Service charge is optional. [59% of us paid it anyway.]",
+   "sub": "The law calls it optional. Your dinner table doesn't."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "In a LocalCircles survey, 59% of AC restaurant diners paid the service charge. One of them is you.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "If so many of us pay it, is it even optional?"
+   },
+   {
+    "paragraphs": [
+     "The Delhi High Court already said it. Service charge is voluntary. It shouldn't even be on your bill by default.",
+     "Most of us know this. We pay anyway."
+    ],
+    "why_swipe": "Why do people who know still pay?"
+   },
+   {
+    "paragraphs": [
+     "Whoever opens the bill folder first spots the line.",
+     "Their eyebrows go up for one second. Then, \"chalo, theek hai.\""
+    ],
+    "why_swipe": "What does that one second actually cost?"
+   },
+   {
+    "paragraphs": [
+     "Dinner for six comes to ₹12,000. The service charge is ₹1,200.",
+     "That's ₹200 each. Arguing over ₹200 makes you the cheap friend for a year."
+    ],
+    "why_swipe": "But is the group really that relaxed about money?"
+   },
+   {
+    "paragraphs": [
+     "And these are the same friends who split the bill to the rupee on GPay.",
+     "But on this one line, suddenly nobody's counting."
+    ],
+    "why_swipe": "So why does that one line get a free pass?"
+   },
+   {
+    "paragraphs": [
+     "To get it removed, someone has to ask out loud, in front of everyone.",
+     "And the waiter is standing right there, holding the machine."
+    ],
+    "why_swipe": "Who ends up paying for that silence the most?"
+   },
+   {
+    "paragraphs": [
+     "It isn't carelessness. At a group dinner, we're paying to look easy-going.",
+     "And if you're the friend who always picks up the bill first, you've paid that price."
+    ],
+    "why_swipe": "So what are we really paying for?"
+   },
+   {
+    "paragraphs": [
+     "Some charges are priced in rupees. This one is priced in awkwardness.",
+     "We tap Pay and tell the waiter the food was great."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Open it again when the office party bill reaches your table.",
+   "send": "Send to the friend who always pays the group bill and hates that charge line every single time.",
+   "promise": "How money and status really move."
+  },
+  "alt_text": "An eight-card text post about restaurant service charge in India. It says that in a LocalCircles survey, 59% of AC restaurant diners paid the service charge, though the Delhi High Court has said it is voluntary and shouldn't be on the bill by default. It describes the group dinner moment when someone sees the charge line and stays silent, and the same friends who split bills to the rupee on GPay. It argues that removing the charge means asking out loud in front of everyone, with the waiter standing right there holding the card machine. It ends: some charges are priced in rupees, this one is priced in awkwardness.",
+  "claims": [
+   {
+    "text": "In a LocalCircles survey, 59% of AC restaurant diners paid the service charge.",
+    "source_url": "https://localcircles.com/a/press/page/restaurant-service-charge-survey"
+   },
+   {
+    "text": "The Delhi High Court said service charge is voluntary and shouldn't be on the bill by default.",
+    "source_url": "https://www.livelaw.in/amp/high-court/delhi-high-court/delhi-high-court-restaurant-service-charge-on-food-not-mandatory-287836"
+   },
+   {
+    "text": "The service charge on a ₹12,000 bill is ₹1,200, or ₹200 each for six people.",
+    "source_url": "topic",
+    "derived_from": "₹1,200 service charge on ₹12,000; ₹1,200 / 6 = ₹200 (typical dinner for six at price-sheet levels)"
+   }
+  ]
+ }
 }
