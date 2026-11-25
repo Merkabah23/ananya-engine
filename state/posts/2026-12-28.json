@@ -1,6 +1,6 @@
 {
  "id": "2026-12-28",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-12-05T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -43,6 +43,287 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-11-25T12:46:34.345792+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 3,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3,
+     "clear": 4,
+     "informative": 3
+    },
+    "notes": [
+     "slide 3: \"And it often lands in the same months your increment gets trimmed.\" states a general claim about India Inc. that the sources contradict: Aon reports increments of about 9% rising to 9.1% in 2026, not trimmed. Reframe it as a typical scene the reader lives, without claiming a trend. For example: the offsite lands in the same quarter your manager says 'budgets are tight this year' and your hike comes in lower than you hoped.",
+     "slides 2-3: slide 2 is a sentence fragment and slide 3 is a single line, so the scene and the tension take two thin swipes. Merge them into one slide: the resort, matching T-shirts and 'Best Team Player' trophy, then the punch that this is the same quarter your hike came in small. That frees a slot and gets the reader to the comparison faster.",
+     "slide 6: \"A raise sits in the cost base forever. A trip sits in one quarter.\" followed by \"One needs a fight with finance. The other needs a Google Form for T-shirt sizes.\" stacks two mirrored pairs on one slide, which is the engineered rhetoric the page never uses. Keep the Google Form line because it's the funnier, more lived detail. Say the cost-base point plainly in one sentence, e.g. \"Finance hates a raise because it never leaves the books. A trip is gone by next quarter.\"",
+     "slide 4: \"come to maybe ₹30,000 a head\" hedges a number that is only texture. State it straight as typical, e.g. \"The resort, the bus and the DJ night come to about ₹30,000 a head. Paid once.\" The comparison lands harder without the \"maybe\".",
+     "slide 8: \"Leaving people you danced with feels worse than leaving a salary.\" doesn't parse: you aren't leaving a salary, you're turning down a bigger one. Fix it to something like \"Walking out on people you danced with feels worse than walking past a bigger offer.\" Also drop \"It's not that you're naive.\" and say the opinion straight; the 'not X' setup reads defensive."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "slide 3: \"And it often lands in the same months your increment gets trimmed.\" states a general claim about India Inc. that the sources contradict: Aon reports increments of about 9% rising to 9.1% in 2026, not trimmed. Reframe it as a typical scene the reader lives, without claiming a trend. For example: the offsite lands in the same quarter your manager says 'budgets are tight this year' and your hike comes in lower than you hoped.",
+    "slides 2-3: slide 2 is a sentence fragment and slide 3 is a single line, so the scene and the tension take two thin swipes. Merge them into one slide: the resort, matching T-shirts and 'Best Team Player' trophy, then the punch that this is the same quarter your hike came in small. That frees a slot and gets the reader to the comparison faster.",
+    "slide 6: \"A raise sits in the cost base forever. A trip sits in one quarter.\" followed by \"One needs a fight with finance. The other needs a Google Form for T-shirt sizes.\" stacks two mirrored pairs on one slide, which is the engineered rhetoric the page never uses. Keep the Google Form line because it's the funnier, more lived detail. Say the cost-base point plainly in one sentence, e.g. \"Finance hates a raise because it never leaves the books. A trip is gone by next quarter.\"",
+    "slide 4: \"come to maybe ₹30,000 a head\" hedges a number that is only texture. State it straight as typical, e.g. \"The resort, the bus and the DJ night come to about ₹30,000 a head. Paid once.\" The comparison lands harder without the \"maybe\".",
+    "slide 8: \"Leaving people you danced with feels worse than leaving a salary.\" doesn't parse: you aren't leaving a salary, you're turning down a bigger one. Fix it to something like \"Walking out on people you danced with feels worse than walking past a bigger offer.\" Also drop \"It's not that you're naive.\" and say the opinion straight; the 'not X' setup reads defensive."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3,
+     "clear": 4,
+     "informative": 3
+    },
+    "notes": [
+     "slides 2-3: last round's merge note was not applied, and it is the only open item. Slide 2 is still a fragment ('Two days at a resort, with matching T-shirts and a trophy for 'Best Team Player'.') and slide 3 is still one line, so the setup takes two thin swipes before the comparison. Merge them into one slide with the scene first and the punch second, for example: 'Two days at a resort. Matching T-shirts, a DJ night, a trophy for Best Team Player.' then a line break, then 'Same quarter, your manager said budgets are tight and your hike came in smaller than you hoped.' This frees a slot and gets the reader to the ₹30,000 vs ₹60,000 comparison one swipe sooner.",
+     "slide 3 (settled): the trimmed-increments trend claim is gone and now reads as a typical scene with 'budgets are tight this year'. Keep this wording inside the merged slide.",
+     "slide 4 (settled): the hedge is gone and 'about ₹30,000 a head. Paid once.' states the figure straight. Leave it as it is.",
+     "slide 6 (settled): the mirrored pairs are gone, the cost-base point is now one plain sentence, and the Google Form line is kept. No further change.",
+     "slide 8 (settled): 'walking past a bigger offer' now parses and the defensive 'not naive' line is gone. No further change."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "slides 2-3: last round's merge note was not applied, and it is the only open item. Slide 2 is still a fragment ('Two days at a resort, with matching T-shirts and a trophy for 'Best Team Player'.') and slide 3 is still one line, so the setup takes two thin swipes before the comparison. Merge them into one slide with the scene first and the punch second, for example: 'Two days at a resort. Matching T-shirts, a DJ night, a trophy for Best Team Player.' then a line break, then 'Same quarter, your manager said budgets are tight and your hike came in smaller than you hoped.' This frees a slot and gets the reader to the ₹30,000 vs ₹60,000 comparison one swipe sooner.",
+    "slide 3 (settled): the trimmed-increments trend claim is gone and now reads as a typical scene with 'budgets are tight this year'. Keep this wording inside the merged slide.",
+    "slide 4 (settled): the hedge is gone and 'about ₹30,000 a head. Paid once.' states the figure straight. Leave it as it is.",
+    "slide 6 (settled): the mirrored pairs are gone, the cost-base point is now one plain sentence, and the Google Form line is kept. No further change.",
+    "slide 8 (settled): 'walking past a bigger offer' now parses and the defensive 'not naive' line is gone. No further change."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slides 2-3: the merge note still hasn't been applied, and it is the only open item. Slide 2 ('Two days at a resort. Matching T-shirts, a DJ night, a trophy for 'Best Team Player'.') and slide 3 ('Same quarter, your manager said 'budgets are tight this year' and your hike came in smaller than you hoped.') are still two separate thin swipes before the comparison. Put them on ONE slide. First paragraph: 'Two days at a resort. Matching T-shirts, a DJ night, a trophy for Best Team Player.' Second paragraph: 'Same quarter, your manager said budgets are tight this year and your hike came in smaller than you hoped.' Keep both lines word for word and change nothing else. The post drops to eight slides, and the reader reaches the ₹30,000 vs ₹60,000 comparison one swipe sooner. This is what holds pull and tight at 3.",
+     "alt_text: it already says 'An eight-slide text post', and that will only be true once slides 2 and 3 are merged. Leave the alt text as it is and do the merge.",
+     "everything else (slides 4 to 9, the claims entry) is settled. Do not touch any other line."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "slides 2-3: the merge note still hasn't been applied, and it is the only open item. Slide 2 ('Two days at a resort. Matching T-shirts, a DJ night, a trophy for 'Best Team Player'.') and slide 3 ('Same quarter, your manager said 'budgets are tight this year' and your hike came in smaller than you hoped.') are still two separate thin swipes before the comparison. Put them on ONE slide. First paragraph: 'Two days at a resort. Matching T-shirts, a DJ night, a trophy for Best Team Player.' Second paragraph: 'Same quarter, your manager said budgets are tight this year and your hike came in smaller than you hoped.' Keep both lines word for word and change nothing else. The post drops to eight slides, and the reader reaches the ₹30,000 vs ₹60,000 comparison one swipe sooner. This is what holds pull and tight at 3.",
+    "alt_text: it already says 'An eight-slide text post', and that will only be true once slides 2 and 3 are merged. Leave the alt text as it is and do the merge.",
+    "everything else (slides 4 to 9, the claims entry) is settled. Do not touch any other line."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 3,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 3,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slides 2-3: the merge is still not done. This is the only open item and the only thing between this draft and a pass. The draft still has 9 slides. Slide 2 ('Two days at a resort. Matching T-shirts, a DJ night, a trophy for Best Team Player.') and slide 3 ('Same quarter, your manager said budgets are tight this year and your hike came in smaller than you hoped.') are two thin swipes in a row before the comparison. Make them ONE slide with two paragraphs. Paragraph 1 is the resort line and paragraph 2 is the 'Same quarter' line, both word for word. Use the old slide 3's why_swipe for the merged slide ('Why would a company pay for a trip but not a bigger hike?'). The reader then hits the ₹30,000 vs ₹60,000 comparison on slide 3, and pull and tight rise to 4.",
+     "alt_text: it says 'An eight-slide text post', but as submitted the post has nine slides. Do not edit the alt text. Do the merge above and it becomes true.",
+     "everything else (slides 1 and 4 to 9, the claims entry, the end fields) is settled. Do not change any other line."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "slides 2-3: the merge is still not done. This is the only open item and the only thing between this draft and a pass. The draft still has 9 slides. Slide 2 ('Two days at a resort. Matching T-shirts, a DJ night, a trophy for Best Team Player.') and slide 3 ('Same quarter, your manager said budgets are tight this year and your hike came in smaller than you hoped.') are two thin swipes in a row before the comparison. Make them ONE slide with two paragraphs. Paragraph 1 is the resort line and paragraph 2 is the 'Same quarter' line, both word for word. Use the old slide 3's why_swipe for the merged slide ('Why would a company pay for a trip but not a bigger hike?'). The reader then hits the ₹30,000 vs ₹60,000 comparison on slide 3, and pull and tight rise to 4.",
+    "alt_text: it says 'An eight-slide text post', but as submitted the post has nine slides. Do not edit the alt text. Do the merge above and it becomes true.",
+    "everything else (slides 1 and 4 to 9, the claims entry, the end fields) is settled. Do not change any other line."
+   ]
+  },
+  {
+   "attempt": 4,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 2,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slides 2-3: the merge is still not done, and it is the only open item. The draft still has 9 slides. Make old slides 2 and 3 into ONE slide with two paragraphs, both word for word. Paragraph 1: 'Two days at a resort. Matching T-shirts, a DJ night, a trophy for Best Team Player.' Paragraph 2: 'Same quarter, your manager said budgets are tight this year and your hike came in smaller than you hoped.' Give the merged slide the why_swipe 'Why would a company pay for a trip but not a bigger hike?'. The ₹30,000 slide then becomes slide 3, and the post ends at 8 slides.",
+     "alt_text: it says 'An eight-slide text post', but the post as submitted has nine slides. Do not touch the alt text. Do the merge above and the alt text becomes true.",
+     "everything else (slide 1, the ₹30,000 / ₹60,000 slides, the finance, WhatsApp DP, matching T-shirt and close slides, the claims entry, the end fields) is settled. Do not change any other line."
+    ]
+   }
+  },
+  {
+   "attempt": 4,
+   "problems": [
+    "slides 2-3: the merge is still not done, and it is the only open item. The draft still has 9 slides. Make old slides 2 and 3 into ONE slide with two paragraphs, both word for word. Paragraph 1: 'Two days at a resort. Matching T-shirts, a DJ night, a trophy for Best Team Player.' Paragraph 2: 'Same quarter, your manager said budgets are tight this year and your hike came in smaller than you hoped.' Give the merged slide the why_swipe 'Why would a company pay for a trip but not a bigger hike?'. The ₹30,000 slide then becomes slide 3, and the post ends at 8 slides.",
+    "alt_text: it says 'An eight-slide text post', but the post as submitted has nine slides. Do not touch the alt text. Do the merge above and the alt text becomes true.",
+    "everything else (slide 1, the ₹30,000 / ₹60,000 slides, the finance, WhatsApp DP, matching T-shirt and close slides, the claims entry, the end fields) is settled. Do not change any other line."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-25T14:18:58.565512+00:00",
+ "sources": [
+  {
+   "url": "https://www.aon.com/apac/in-the-press/asia-newsroom/2026/aon-survey-projects-slight-uptick-in-salaries-in-india-2026",
+   "fact": "Aon projects Indian salaries will rise 9.1% in 2026, and attrition fell to 16.2% in 2025. So increments were not frozen across India Inc., and retention improved alongside them.",
+   "stance": "neutral: The page says nothing about offsites or trips. It credits retention to engagement, career mobility and stability, not to one-off perks in place of raises.",
+   "excerpt": "salaries in India will increase by 9.1 percent in 2026. / The projected 9.1 percent increase reflects a slight uptick from the actual 8.9 percent increase recorded in 2025. / overall attrition declined to 16.2 percent in 2025, returning close to pre‑COVID levels. / steady improvement in employee retention across industries.",
+   "date": "2026-02-24"
+  },
+  {
+   "url": "https://www.greatplacetowork.in/resources/press-release/66-of-indian-employees-willing-to-take-a-pay-cut-for-better-workplace-culture/",
+   "fact": "Great Place To Work India found that 66% of employees contemplating leaving would accept a pay cut for better workplace conditions, and 87% of them cited culture as a key factor. Those preparing to leave were 20% to 27% less satisfied on fair pay, recognition and similar areas.",
+   "stance": "neutral: This partly supports the idea that non-pay factors matter for retention. It says nothing about offsites, and it lists fair pay among the sources of dissatisfaction, so it does not show a trip can replace a raise. The date is ambiguous: the page is dated 2026-08-20 and the press release is datelined 2025-12-18.",
+   "excerpt": "66% of employees contemplating leaving are willing to accept a pay cut / 87% of employees thinking about leaving cited workplace culture as a key factor / Employees preparing to leave reported 20% to 27% lower satisfaction / particularly around fair pay, work-life balance, recognition, and management communication.",
+   "date": "2026-08-20"
+  },
+  {
+   "url": "https://www.businesstoday.in/latest/economy/story/lowest-in-five-years-what-162-attrition-really-signals-for-2026-518813-2026-03-02",
+   "fact": "Business Today, citing Aon, reports attrition fell to 16.2% in 2025 from 17.7% in 2024 and 18.7% in 2023, with increments averaging about 9% a year. It argues that lasting retention comes more from how work is designed than from engagement programmes.",
+   "stance": "contradicts: The article says retention gains come less from engagement programmes than from restructuring work. That weakens the claim that a trip keeps people for a year. It also treats steady ~9% increments as part of what supports mobility.",
+   "excerpt": "Historically stronger salary increments averaging around 9% year-on-year",
+   "date": "2026-03-02"
+  }
+ ],
+ "verification_cache": {},
+ "draft": {
+  "cover": {
+   "headline": "The team offsite is a [retention plan] cheaper than your raise",
+   "sub": "One gets approved in a week. The other takes a fight."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "The team offsite is a retention plan. It costs less than your raise.\nSwipe to read →"
+    ],
+    "why_swipe": "How can a fun trip be a retention plan?"
+   },
+   {
+    "paragraphs": [
+     "Two days at a resort. Matching T-shirts, a DJ night, a trophy for Best Team Player."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "Same quarter, your manager said budgets are tight this year and your hike came in smaller than you hoped."
+    ],
+    "why_swipe": "Why would a company pay for a trip but not a bigger hike?"
+   },
+   {
+    "paragraphs": [
+     "Put the two side by side. The resort and the bus come to about ₹30,000 a head. Paid once."
+    ],
+    "why_swipe": "And what does the raise cost?"
+   },
+   {
+    "paragraphs": [
+     "An extra 5% on a ₹12 lakh salary is ₹60,000, and next year's hike gets built on top of it. Every year."
+    ],
+    "why_swipe": "So what does the company actually see when it compares them?"
+   },
+   {
+    "paragraphs": [
+     "Finance hates a raise because it never leaves the books. A trip is gone by next quarter.",
+     "And all it needs is a Google Form for T-shirt sizes."
+    ],
+    "why_swipe": "Does a two-day trip really buy anything once it's over?"
+   },
+   {
+    "paragraphs": [
+     "And the trip keeps working after checkout, because the group photo becomes the team's WhatsApp DP.",
+     "So the recruiter's message a few months later feels a bit like cheating."
+    ],
+    "why_swipe": "Is this all just a trick, then?"
+   },
+   {
+    "paragraphs": [
+     "I've worn the matching T-shirt and meant every cheer. The fun was real.",
+     "Walking out on people you danced with feels worse than walking past a bigger offer."
+    ],
+    "why_swipe": "So who comes out ahead?"
+   },
+   {
+    "paragraphs": [
+     "The trip worked. You ignored that recruiter and stayed another year.",
+     "Which is exactly why finance signed off on it."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Read it again the week your increment letter lands.",
+   "send": "Send to the team group, right after the offsite photos go up.",
+   "promise": "How Indian offices really work."
+  },
+  "alt_text": "An eight-slide text post arguing that company offsites work as a cheaper retention tool than raises. The offsite is two days at a resort with matching T-shirts, a DJ night and a Best Team Player trophy. It often comes in the same quarter a manager says budgets are tight and the hike comes in smaller than hoped. A one-time trip of about ₹30,000 a head costs less than a 5% raise on a ₹12 lakh salary, which is ₹60,000 and gets built on every year. Finance dislikes a raise because it stays on the books, while a trip is gone by next quarter. The photos and friendships make leaving feel like cheating. The writer admits the fun was real, and closes by saying the trip did make people stay, which is exactly why it was approved.",
+  "claims": [
+   {
+    "text": "An extra 5% on a ₹12 lakh salary is ₹60,000 a year (typical example)",
+    "source_url": "topic",
+    "derived_from": "5% × ₹12,00,000 = ₹60,000"
+   }
+  ]
+ }
 }

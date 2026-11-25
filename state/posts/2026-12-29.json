@@ -1,6 +1,6 @@
 {
  "id": "2026-12-29",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-12-07T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -60,6 +60,399 @@
    "format_fit": "single"
   }
  },
- "history": [],
- "updated_at": "2026-11-25T12:46:34.346039+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": false,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 3,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 3,
+     "tight": 3,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slide 5 and slide 9 make the same list twice. Slide 5 says \"a loose word, a test that wasn't a blackout, and a year your brain added for free\" and the close says \"a loose word, a scheduled test and a missing year.\" The close loses its punch because the reader just heard it. Cut the list from slide 5 and keep only the beat that's new there: \"the year your brain added for free.\" Then let slide 9 deliver the full list once.",
+     "slide 5: \"a loose word\" can't be followed on one read, because no slide says which word is loose. Name it: the cartoon says \"blackout\" and the real day was a phone alert test. On slide 4, make the gap funny with the source's own line: the test message says \"no public action is required.\" Something like: \"The real US event that day was a scheduled emergency alert test. The message literally said no public action is required.\" Now the reader sees the stretch and feels a bit foolish, which is the feeling the topic asks for.",
+     "slide 8: the cover's claim, that a script feels safer than chaos, only shows up here, after five slides about shares and missing details. As written it reads like a second idea bolted onto the end. Give it one concrete beat the reader lives: the relief of \"someone knew\" on a day when the phone, the news and the group chat are all buzzing with bad news. Keep the shares mechanism on slide 7 as the business reason. Keep this slide as the human reason, and keep it short.",
+     "slide 7: the AI-made clip is a different argument. It says the clip can be fake, while the post's argument is that a real clip only matches because we went looking. Tie it to the because, or drop it. For example: \"Nobody checked that one either. One Simpsons 'internet blackout' clip last year was AI-made, and it still went round.\" That way it proves checking kills the post instead of opening a side point.",
+     "slide 2 is the only scene the Indian reader lives, and it's thin. Add one detail beyond sight: the phone buzzing face-down during a meeting, or the group chat pinging three times before you've opened the first one. Also widen the pattern so it isn't one US cartoon on one US date. Use the topic's own line that this repeats on every big news day: the same \"look at the date\" forward lands whenever the news gets scary. Don't name other predictions the sources don't cover."
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "slide 5 and slide 9 make the same list twice. Slide 5 says \"a loose word, a test that wasn't a blackout, and a year your brain added for free\" and the close says \"a loose word, a scheduled test and a missing year.\" The close loses its punch because the reader just heard it. Cut the list from slide 5 and keep only the beat that's new there: \"the year your brain added for free.\" Then let slide 9 deliver the full list once.",
+    "slide 5: \"a loose word\" can't be followed on one read, because no slide says which word is loose. Name it: the cartoon says \"blackout\" and the real day was a phone alert test. On slide 4, make the gap funny with the source's own line: the test message says \"no public action is required.\" Something like: \"The real US event that day was a scheduled emergency alert test. The message literally said no public action is required.\" Now the reader sees the stretch and feels a bit foolish, which is the feeling the topic asks for.",
+    "slide 8: the cover's claim, that a script feels safer than chaos, only shows up here, after five slides about shares and missing details. As written it reads like a second idea bolted onto the end. Give it one concrete beat the reader lives: the relief of \"someone knew\" on a day when the phone, the news and the group chat are all buzzing with bad news. Keep the shares mechanism on slide 7 as the business reason. Keep this slide as the human reason, and keep it short.",
+    "slide 7: the AI-made clip is a different argument. It says the clip can be fake, while the post's argument is that a real clip only matches because we went looking. Tie it to the because, or drop it. For example: \"Nobody checked that one either. One Simpsons 'internet blackout' clip last year was AI-made, and it still went round.\" That way it proves checking kills the post instead of opening a side point.",
+    "slide 2 is the only scene the Indian reader lives, and it's thin. Add one detail beyond sight: the phone buzzing face-down during a meeting, or the group chat pinging three times before you've opened the first one. Also widen the pattern so it isn't one US cartoon on one US date. Use the topic's own line that this repeats on every big news day: the same \"look at the date\" forward lands whenever the news gets scary. Don't name other predictions the sources don't cover."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "slide 7: this note is only half settled. \"One Simpsons 'internet blackout' clip last year was AI-made, not even the show.\" still reads as a side point: the clip can be fake, while the post argues a real clip only matches because we went looking. Tie it to checking: \"Nobody checked that one either. One Simpsons 'internet blackout' clip last year was AI-made, and it still went round.\" Then it proves that checking kills the post.",
+     "slide 2: the forward now repeats on every scary news day, which was the main fix. The scene still has only sight, though. Add one sound or touch beat to the first line so the reader feels it land, e.g. \"Your phone buzzes face-down on the desk. A friend has sent a clip.\" Keep the rest as it is.",
+     "slide 4: optional, for the laugh the topic's mood asks for. Lean on the gap with one word: \"The message literally said no public action is required.\" Don't change anything else on the slide.",
+     "slide 5: leave this slide as it is. Its overlap with the close (blackout vs test, the missing year) is now light, and slide 9's list cashes it in. Don't add more of the list back here."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 5",
+      "line": "So the cartoon said blackout, and the real day got an alert test. The year was never there. Your brain added it for free.",
+      "why": "over-explained, recaps slides 3-4 after they landed",
+      "try": "Blackout on one side, a test alert on the other. And no year anywhere. Your brain added 2026 for free."
+     },
+     {
+      "where": "slide 9",
+      "line": "A prediction that needs a loose word, a scheduled test and a missing year isn't a prediction.",
+      "why": "engineered triple list, stiff setup",
+      "try": "Loose word, a scheduled test, a year nobody wrote. That's not a prediction."
+     },
+     {
+      "where": "slide 6",
+      "line": "And the misses never travel. Wild plots that came to nothing.",
+      "why": "stiff, written fragment",
+      "try": "And the misses never travel. All the wild plots that never came true? Nobody clips those."
+     },
+     {
+      "where": "slide 4",
+      "line": "The real US event that day was a scheduled emergency alert test. The message said no public action is required.",
+      "why": "flat report, no punch",
+      "try": "What actually happened in the US that day? A scheduled emergency alert test. The message literally said no public action is required."
+     }
+    ],
+    "best": "It's the group chat doing the cartoon's homework."
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Not Varun (slide 5): 'So the cartoon said blackout, and the real day got an alert test. The year was never there. Your brain added it for free.' reads as over-explained, recaps slides 3-4 after they landed. Say it the way he would, e.g. 'Blackout on one side, a test alert on the other. And no year anywhere. Your brain added 2026 for free.' (his register, your words, same facts).",
+    "Not Varun (slide 9): 'A prediction that needs a loose word, a scheduled test and a missing year isn't a prediction.' reads as engineered triple list, stiff setup. Say it the way he would, e.g. 'Loose word, a scheduled test, a year nobody wrote. That's not a prediction.' (his register, your words, same facts).",
+    "Not Varun (slide 6): 'And the misses never travel. Wild plots that came to nothing.' reads as stiff, written fragment. Say it the way he would, e.g. 'And the misses never travel. All the wild plots that never came true? Nobody clips those.' (his register, your words, same facts).",
+    "Not Varun (slide 4): 'The real US event that day was a scheduled emergency alert test. The message said no public action is required.' reads as flat report, no punch. Say it the way he would, e.g. 'What actually happened in the US that day? A scheduled emergency alert test. The message literally said no public action is required.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": []
+   }
+  },
+  {
+   "attempt": 2,
+   "varun": {
+    "pass": true,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 4",
+      "line": "Its message said no public action is required.",
+      "why": "stiff, written phrasing; the punch doesn't land",
+      "try": "The alert literally said no public action is required."
+     }
+    ],
+    "best": "It's the group chat doing the cartoon's homework."
+   }
+  },
+  {
+   "attempt": 2,
+   "reader": {
+    "point": "People believe 'The Simpsons predicted it' because the clips are vague, lack a year, and get shared without checking, so it's not real prediction but our brains and group chats filling in the gaps.",
+    "reason": "A scary-news environment makes people crave the relief of 'someone knew', and spooky clips get shared more than they get checked.",
+    "lost": [
+     {
+      "slide": 3,
+      "why": "Who is 'older Lisa' and which episode? Came in without setup, had to re-read the 2023 vs 2026 dates"
+     },
+     {
+      "slide": 4,
+      "why": "Jump to a US alert test with no link to the diary blackout yet; unclear which 'that day' is meant"
+     },
+     {
+      "slide": 5,
+      "why": "'Your brain added 2026 for free' needed a re-read to connect to the missing year"
+     },
+     {
+      "slide": 6,
+      "why": "Misses never travel feels like a new argument, side-stepping from the blackout example"
+     },
+     {
+      "slide": 7,
+      "why": "AI-made clip claim appears suddenly and isn't tied to the blackout example; 'kills the post' was unclear"
+     }
+    ],
+    "ideas": [
+     "Simpsons 'predictions' are vague clips with a missing year, matched to real events after the fact",
+     "Only hits get shared, misses are ignored",
+     "Sharing spooky clips beats checking them, including AI fakes",
+     "Bad-news overload makes 'someone knew' feel comforting"
+    ],
+    "endings": 2,
+    "point_matches": false,
+    "reason_matches": false
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Unclear: a first-time reader took the point as 'People believe 'The Simpsons predicted it' because the clips are vague, lack a year, and get shared without checking, so it's not real prediction but our brains and group chats filling in the gaps.'. The cover and slide 2 must make the take obvious in plain words.",
+    "Unclear: a first-time reader took the reason as 'A scary-news environment makes people crave the relief of 'someone knew', and spooky clips get shared more than they get checked.'. Say the because once, plainly, on one slide, from the reader's side of the screen.",
+    "Unclear (slide 3): a first-time reader got lost here: Who is 'older Lisa' and which episode? Came in without setup, had to re-read the 2023 vs 2026 dates. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 4): a first-time reader got lost here: Jump to a US alert test with no link to the diary blackout yet; unclear which 'that day' is meant. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 5): a first-time reader got lost here: 'Your brain added 2026 for free' needed a re-read to connect to the missing year. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 6): a first-time reader got lost here: Misses never travel feels like a new argument, side-stepping from the blackout example. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear: a first-time reader counted 4 separate ideas (Simpsons 'predictions' are vague clips with a missing year, matched to real events after the fact; Only hits get shared, misses are ignored; Sharing spooky clips beats checking them, including AI fakes; Bad-news overload makes 'someone knew' feel comforting). Keep one idea and its reason; cut the side arguments."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 3,
+     "iq": 4,
+     "story": 3,
+     "tight": 4,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "Earlier notes, all settled: the cover states the take plainly. Slide 3 now sets up the grown-up Lisa and the 2023 episode. Slide 4 lands the missing year in one read. Slide 5 ties the alert test to the diary's blackout. Slide 6 gives the because once, from the reader's side. The side arguments (misses never travel, AI fakes, bad-news overload) are gone.",
+     "slide 8: 'A loose word' doesn't point to anything the reader saw, so the recap stalls on its first item. Name the actual pieces so the list matches slides 3 to 5, e.g. 'A diary date, an alert test, and a year nobody wrote.' Keep 'It's the group chat doing the cartoon's homework' as the last line. It's the one people will repeat.",
+     "slide 3: 'The scene lasts only a few seconds.' is filler, and it echoes slide 6's 'gone in four seconds'. Cut it, or replace it with what's actually on screen. Only use what the sources support (a diary, a date, the word blackout). Don't add a new detail.",
+     "slide 6: the mood asks for funny, and the post's one feeling beat is 'a small chill'. Add one dry beat from the reader's side of the screen here, such as the reply you type before checking anything (a typical reaction, not a quote from a real person). That lands the 'a bit foolish for almost believing it' feeling the topic names."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Earlier notes, all settled: the cover states the take plainly. Slide 3 now sets up the grown-up Lisa and the 2023 episode. Slide 4 lands the missing year in one read. Slide 5 ties the alert test to the diary's blackout. Slide 6 gives the because once, from the reader's side. The side arguments (misses never travel, AI fakes, bad-news overload) are gone.",
+    "slide 8: 'A loose word' doesn't point to anything the reader saw, so the recap stalls on its first item. Name the actual pieces so the list matches slides 3 to 5, e.g. 'A diary date, an alert test, and a year nobody wrote.' Keep 'It's the group chat doing the cartoon's homework' as the last line. It's the one people will repeat.",
+    "slide 3: 'The scene lasts only a few seconds.' is filler, and it echoes slide 6's 'gone in four seconds'. Cut it, or replace it with what's actually on screen. Only use what the sources support (a diary, a date, the word blackout). Don't add a new detail.",
+    "slide 6: the mood asks for funny, and the post's one feeling beat is 'a small chill'. Add one dry beat from the reader's side of the screen here, such as the reply you type before checking anything (a typical reaction, not a quote from a real person). That lands the 'a bit foolish for almost believing it' feeling the topic names."
+   ]
+  },
+  {
+   "attempt": 4,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 4,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "All three notes are settled. The last slide's recap now names the pieces from slides 3 to 5 ('A diary date, an alert test, and a year nobody wrote'). Slide 3 drops the filler and keeps only the diary, the date and the blackout. The new slide 7 ('You've typed \"bhai WHAT\" back before checking a single thing.') adds the dry, slightly foolish beat from the reader's side without repeating slide 6 or slide 8.",
+     "No further changes needed. Keep 'It's the group chat doing the cartoon's homework.' as the final line."
+    ]
+   }
+  },
+  {
+   "attempt": 4,
+   "varun": {
+    "pass": false,
+    "score": 4,
+    "misses": [
+     {
+      "where": "cover",
+      "line": "[Simpsons predictions] are matches we make ourselves, then forward",
+      "why": "stiff, written phrasing; 'matches we make' reads like a thesis",
+      "try": "[Simpsons predictions] aren't predictions. We do the matching ourselves and hit forward."
+     },
+     {
+      "where": "slide 5",
+      "line": "Its message said no public action is required.",
+      "why": "stiff, report-style wording where he'd be blunt",
+      "try": "The message literally said no public action is required."
+     }
+    ],
+    "best": "It's the group chat doing the cartoon's homework."
+   }
+  },
+  {
+   "attempt": 4,
+   "problems": [
+    "Not Varun (cover): '[Simpsons predictions] are matches we make ourselves, then forward' reads as stiff, written phrasing; 'matches we make' reads like a thesis. Say it the way he would, e.g. '[Simpsons predictions] aren't predictions. We do the matching ourselves and hit forward.' (his register, your words, same facts).",
+    "Not Varun (slide 5): 'Its message said no public action is required.' reads as stiff, report-style wording where he'd be blunt. Say it the way he would, e.g. 'The message literally said no public action is required.' (his register, your words, same facts)."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-25T14:18:58.622712+00:00",
+ "sources": [
+  {
+   "url": "https://www.gadgetreview.com/?p=426212",
+   "fact": "The Simpsons episode behind the November 2026 blackout clip has no documented reference to November 2026. The real 17 November event was a scheduled FEMA/FCC Emergency Alert System test, not a power outage.",
+   "stance": "supports: the page checks the clip and finds the 'prediction' unverified, so a post that shares it without checking would be passing on something that doesn't hold up. It says nothing about why people share it.",
+   "excerpt": "The clip comes from \"It's a Blunderful Life,\" which first aired on November 19, 2023. The claim about the episode's final 15 seconds \"has not been independently verified.\" The episode \"contains no documented reference to November 2026\". FEMA and the FCC scheduled a nationwide Emergency Alert System test for about 2:20 p.m. Eastern on November 17, 2026. The test message \"state[s] that no public action is required.\" Neither the FCC nor FEMA documentation describes a planned power outage.",
+   "date": "2026-11-04"
+  },
+  {
+   "url": "https://www.freepressjournal.in/viral/fact-check-not-the-simpsons-but-ai-generated-video-has-predicted-no-internet-in-usa-on-january-16",
+   "fact": "An Indian outlet found that a viral 'Simpsons predicted an internet blackout' clip was AI-generated and not from the show. The date it named also didn't match the event it was supposedly predicting.",
+   "stance": "supports: it shows these viral 'prediction' clips can be fabricated and are easily debunked, so checking would undermine the post. It is a January 2025 case, not the November 2026 clip, and it doesn't address why people share them.",
+   "excerpt": "\"the visuals aren't derived from the episodes of the American show 'The Simpsons' but are, instead, an AI-generated one.\" It \"does not accurately represent any episode of the original show\". It \"is learned to be purely produced using artificial intelligence\". The article also says the Trump inauguration clip didn't match the actual date, January 20 rather than the 16th.",
+   "date": "2025-01-16"
+  }
+ ],
+ "verification_cache": {},
+ "draft": {
+  "cover": {
+   "headline": "[Simpsons predictions] are matches we make ourselves, then forward",
+   "sub": "The cartoon gave a date. We supplied the rest."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "\"The Simpsons predicted it\" clips aren't predictions. We make the match ourselves, then forward it.",
+     "Swipe to read →"
+    ],
+    "why_swipe": "How do we make the match?"
+   },
+   {
+    "paragraphs": [
+     "A friend sends you a clip. The only text: \"bro, look at the date.\""
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "It's from a 2023 Simpsons episode, where a grown-up Lisa writes in her diary about a blackout dated November 17."
+    ],
+    "why_swipe": "So what's wrong with the date?"
+   },
+   {
+    "paragraphs": [
+     "Look at what the diary leaves out. It says November 17. It never says 2026.",
+     "The year in your head came from you, not the show."
+    ],
+    "why_swipe": "And did a blackout even happen?"
+   },
+   {
+    "paragraphs": [
+     "On 17 November 2026, the US didn't have a blackout. It had a scheduled emergency alert test.",
+     "Its message said no public action is required."
+    ],
+    "why_swipe": "Then why did everyone forward it?"
+   },
+   {
+    "paragraphs": [
+     "Because the spooky version is the one that gets replies. You feel a small chill, and the clip is gone in four seconds."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "You've typed \"bhai WHAT\" back before checking a single thing."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "A two-minute check would turn it into nothing. And nothing gets no replies."
+    ],
+    "why_swipe": "So what was it, really?"
+   },
+   {
+    "paragraphs": [
+     "A diary date, an alert test, and a year nobody wrote. That's not a prediction.",
+     "It's the group chat doing the cartoon's homework."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Read it again the next time a clip arrives with just \"look at the date.\"",
+   "send": "Send to the friend who forwards every \"they knew\" clip before the news has even loaded.",
+   "promise": "How the internet really makes us think."
+  },
+  "alt_text": "A text-only Instagram carousel of eight slides arguing that 'The Simpsons predicted it' clips aren't predictions: we make the match ourselves, then forward it. It uses the November 2026 clip from a 2023 Simpsons episode where a grown-up Lisa writes about a blackout in her diary dated November 17. The diary never says 2026, and on 17 November 2026 the US had a scheduled emergency alert test, not a blackout, whose message said no public action is required. It says people forward the clip because the spooky version gets replies, and we type 'bhai WHAT' before checking anything, while a check would turn it into nothing. It ends by listing a diary date, an alert test and a year nobody wrote, and calling it the group chat doing the cartoon's homework.",
+  "claims": [
+   {
+    "text": "The clip comes from a 2023 Simpsons episode and shows an older Lisa writing about a blackout in her diary, dated November 17.",
+    "source_url": "topic"
+   },
+   {
+    "text": "Lisa's diary never mentions 2026.",
+    "source_url": "https://www.tribuneindia.com/news/trending/did-the-simpsons-predict-global-blackout-on-nov-17-viral-clip-leaves-internet-guessing/"
+   },
+   {
+    "text": "The real US event on 17 November 2026 was a scheduled emergency alert test, not a blackout.",
+    "source_url": "https://www.gadgetreview.com/?p=426212"
+   },
+   {
+    "text": "The emergency alert test message said no public action is required.",
+    "source_url": "https://www.gadgetreview.com/?p=426212"
+   }
+  ]
+ }
 }

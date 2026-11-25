@@ -1,6 +1,6 @@
 {
  "id": "2026-11-176",
- "status": "planned",
+ "status": "rejected",
  "due": "2026-11-29T20:30:00+05:30",
  "format": "carousel",
  "topic": {
@@ -43,6 +43,438 @@
    "format_fit": "carousel"
   }
  },
- "history": [],
- "updated_at": "2026-11-25T12:45:48.369912+00:00"
+ "history": [
+  {
+   "attempt": 0,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 3
+    },
+    "notes": [
+     "slides 6-7: the mechanism contradicts itself. Slide 6 says the app wants many small orders. But the small-cart fee exists because tiny orders cost the app money, and slide 7 shows the app pushing a bigger cart. Make it one idea: the app wants you back every few days AND wants each visit padded. Suggested direction: 'An empty kitchen brings you back every few days. The small-cart fee makes sure each visit is never small.' This also stops 'Your empty fridge is the business model' reading as a secret plan stated as fact, because the reader can see the fee doing the work at checkout.",
+     "slide 3: '75% of online grocery buyers say their unplanned buying has gone up. It's you.' The number is about impulse buying, not about stopping stocking up, so here it interrupts the curd-and-lemon scene. Move it to just after the chips on slide 7, where 'unplanned' is exactly what the reader just did. Keep the wording as close to the source as it is now. Drop 'It's you.' because it scolds; the chips already caught the reader.",
+     "slide 9: 'You carried the steel dabbas from home to this city. / They hold nothing.' leans wistful, and the close loses the cover's 'rent'. Keep the dark store line, cash in the rent image, and land the topic's payoff (a generation that never stocks a kitchen). For example: 'Your real kitchen is a dark store two streets away. You pay rent on it every time you run out.' Cut the dabbas, or keep them to half a line with no ache.",
+     "slide 2 or 5: the app is never named, and naming it is what makes the reader see their own phone. Add 'Blinkit, Zepto, Instamart' once, as texture, e.g. on slide 5: 'Then the checkout. Blinkit, Zepto, Instamart, same story.' Also add one detail beyond sight on slide 2: the doorbell nine minutes later, or the cold curd packet in your hand.",
+     "slides 6-7: two mirrored pairs read engineered: 'A monthly stock-up brings you to the app once. An empty kitchen brings you back every few days.' and 'The fee is gone. The bill is bigger.' Keep one and break the other's symmetry. For example: 'The fee disappears. The chips stay, and so does the bigger bill.' Also slide 8's 'It's not laziness' answers a charge the card never made. Open with the reason instead: 'The rent is ₹50,000, the kitchen is tiny, and the lease ends in eleven months.'"
+    ]
+   }
+  },
+  {
+   "attempt": 0,
+   "varun": {
+    "pass": false,
+    "score": 3,
+    "misses": [
+     {
+      "where": "slide 9",
+      "line": "You carried the steel dabbas from home to this city.\nThey hold nothing.\nYour real kitchen is a dark store two streets away.",
+      "why": "wistful, nostalgic close; 'They hold nothing' reads like a poem line",
+      "try": "You brought the steel dabbas all the way from home.\nThey're empty.\nYour actual kitchen is a dark store two streets away."
+     },
+     {
+      "where": "slide 8",
+      "line": "A stocked pantry feels like something for people who stay.",
+      "why": "soft, essay-ish verdict; 'pantry' is a word he wouldn't type",
+      "try": "Nobody stocks up a kitchen they might leave in eleven months."
+     },
+     {
+      "where": "slide 7",
+      "line": "Then the app offers you an exit: add more to skip the small-cart fee.",
+      "why": "generic 'the app' when the brand is the point; 'offers you an exit' is stiff",
+      "try": "And Zepto has a fix for that, of course. Add a bit more and the small-cart fee goes away."
+     },
+     {
+      "where": "slide 3",
+      "line": "75% of online grocery buyers say their unplanned buying has gone up. It's you.",
+      "why": "the stat leads as the hero instead of sitting as texture",
+      "try": "And it's not just you. 75% of online grocery buyers say they're buying more stuff they never planned to. Okay, it's also you."
+     },
+     {
+      "where": "slide 2",
+      "line": "One packet of curd and a lemon, ordered at 9 pm, because the fridge is empty again.",
+      "why": "scene narration with no take; it reads like a stage direction",
+      "try": "You've done this. Curd and one lemon at 9 pm, because the fridge is empty again. Again."
+     },
+     {
+      "where": "slide 5",
+      "line": "Then the checkout. A handling fee. A small-cart fee. After a certain hour, a late-night fee.",
+      "why": "stacked fragments read like an engineered list",
+      "try": "Then you hit checkout and there's a handling fee, a small-cart fee, and after a certain hour, a late-night fee too."
+     }
+    ],
+    "best": "Your empty fridge is the business model."
+   }
+  },
+  {
+   "attempt": 0,
+   "problems": [
+    "Not Varun (slide 9): 'You carried the steel dabbas from home to this city.\nThey hold nothing.\nYour real kitchen is a dark store two streets away.' reads as wistful, nostalgic close; 'They hold nothing' reads like a poem line. Say it the way he would, e.g. 'You brought the steel dabbas all the way from home.\nThey're empty.\nYour actual kitchen is a dark store two streets away.' (his register, your words, same facts).",
+    "Not Varun (slide 8): 'A stocked pantry feels like something for people who stay.' reads as soft, essay-ish verdict; 'pantry' is a word he wouldn't type. Say it the way he would, e.g. 'Nobody stocks up a kitchen they might leave in eleven months.' (his register, your words, same facts).",
+    "Not Varun (slide 7): 'Then the app offers you an exit: add more to skip the small-cart fee.' reads as generic 'the app' when the brand is the point; 'offers you an exit' is stiff. Say it the way he would, e.g. 'And Zepto has a fix for that, of course. Add a bit more and the small-cart fee goes away.' (his register, your words, same facts).",
+    "Not Varun (slide 3): '75% of online grocery buyers say their unplanned buying has gone up. It's you.' reads as the stat leads as the hero instead of sitting as texture. Say it the way he would, e.g. 'And it's not just you. 75% of online grocery buyers say they're buying more stuff they never planned to. Okay, it's also you.' (his register, your words, same facts).",
+    "Not Varun (slide 2): 'One packet of curd and a lemon, ordered at 9 pm, because the fridge is empty again.' reads as scene narration with no take; it reads like a stage direction. Say it the way he would, e.g. 'You've done this. Curd and one lemon at 9 pm, because the fridge is empty again. Again.' (his register, your words, same facts).",
+    "Not Varun (slide 5): 'Then the checkout. A handling fee. A small-cart fee. After a certain hour, a late-night fee.' reads as stacked fragments read like an engineered list. Say it the way he would, e.g. 'Then you hit checkout and there's a handling fee, a small-cart fee, and after a certain hour, a late-night fee too.' (his register, your words, same facts)."
+   ]
+  },
+  {
+   "attempt": 1,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 4
+    },
+    "notes": [
+     "All six notes from the last round are settled. Slide 9 now ends in his plain register ('They're empty.'). Slide 8 lands the verdict without 'pantry'. Slide 7 names Zepto. Slide 3 keeps the stat as texture after 'And it's not just you'. Slide 2 opens with a take ('You've done this... Again.'). Slide 5 reads as one spoken sentence, not stacked fragments.",
+     "slide 3: '75% of online grocery buyers say they're buying more stuff they never planned to.' This matches the Datum Intelligence figure in meaning. No change is needed. If the writer touches it again, keep the wording no stronger than the source ('more unplanned purchases'), and don't turn it into a claim that the apps caused it."
+    ]
+   }
+  },
+  {
+   "attempt": 1,
+   "varun": {
+    "pass": true,
+    "score": 5,
+    "misses": [],
+    "best": "Your empty fridge is the business model. An empty kitchen brings you back every few days."
+   }
+  },
+  {
+   "attempt": 1,
+   "reader": {
+    "point": "Quick-commerce apps keep people buying small, frequent, unplanned orders and pile on fees, so you end up spending more, and renters with tiny kitchens go along with it.",
+    "reason": "Apps profit when your kitchen stays empty, so they make it easy and fee-laden to reorder often, while renting a small place you may leave makes people not stock up.",
+    "lost": [
+     {
+      "slide": 1,
+      "why": "'Renting you a kitchen, billed per order' metaphor took a re-read"
+     },
+     {
+      "slide": 3,
+      "why": "75% stat comes from nowhere, no source; 'online grocery buyers' is broader than quick commerce"
+     },
+     {
+      "slide": 6,
+      "why": "'Empty fridge is the business model' is a big claim stated flatly, jump from fees to motive"
+     },
+     {
+      "slide": 7,
+      "why": "Zepto suddenly named, only one brand, felt like it came from nowhere"
+     },
+     {
+      "slide": 8,
+      "why": "Jump to rent ₹50,000 and moving in eleven months is a new angle, I had to guess it was the reason for not stocking up"
+     },
+     {
+      "slide": 9,
+      "why": "Steel dabbas from home was a new image, had to guess it meant empty kitchen and dark store as the real kitchen"
+     }
+    ],
+    "ideas": [
+     "Quick commerce makes you rely on it instead of stocking a kitchen, and the business profits from that",
+     "Fees and add-more nudges push your bill up",
+     "Renters with small, temporary kitchens don't stock up"
+    ],
+    "endings": 3,
+    "point_matches": false,
+    "reason_matches": true
+   }
+  },
+  {
+   "attempt": 1,
+   "problems": [
+    "Unclear: a first-time reader took the point as 'Quick-commerce apps keep people buying small, frequent, unplanned orders and pile on fees, so you end up spending more, and renters with tiny kitchens go along with it.'. The cover and slide 2 must make the take obvious in plain words.",
+    "Unclear (slide 1): a first-time reader got lost here: 'Renting you a kitchen, billed per order' metaphor took a re-read. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 3): a first-time reader got lost here: 75% stat comes from nowhere, no source; 'online grocery buyers' is broader than quick commerce. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 6): a first-time reader got lost here: 'Empty fridge is the business model' is a big claim stated flatly, jump from fees to motive. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 7): a first-time reader got lost here: Zepto suddenly named, only one brand, felt like it came from nowhere. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear: a first-time reader counted 3 separate ideas (Quick commerce makes you rely on it instead of stocking a kitchen, and the business profits from that; Fees and add-more nudges push your bill up; Renters with small, temporary kitchens don't stock up). Keep one idea and its reason; cut the side arguments."
+   ]
+  },
+  {
+   "attempt": 2,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 3
+    },
+    "notes": [
+     "All earlier notes are settled. The metaphor slide, the 75% stat, the flat 'business model' line, the Zepto slide and the renters side point are all gone. One idea now runs from the cover ('Ten-minute delivery taught you to keep nothing at home.') to the per-order fees in slide 4 and the reason in slide 5.",
+     "Slide 5: 'One big monthly stock-up pays the fees once.' is slightly loose, because a big cart usually skips the small-cart fee entirely. If you touch it, try 'One big monthly stock-up pays the handling fee once.' That keeps the mechanism exactly true. Optional, not blocking.",
+     "Slide 6: the close lands, but 'They're empty.' leans a little wistful. If you want more sting, give the dabbas a current job, e.g. 'One holds rubber bands now.' That is a dry beat, not a sad one, before the dark store line. Optional."
+    ]
+   }
+  },
+  {
+   "attempt": 2,
+   "varun": {
+    "pass": true,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 5",
+      "line": "Which is why the app never minds your empty shelf.",
+      "why": "stiff, written phrasing; 'never minds' is softer than his blunt verdict",
+      "try": "So of course the app loves your empty shelf."
+     }
+    ],
+    "best": "Small enough to ignore. Three times a week, it isn't."
+   }
+  },
+  {
+   "attempt": 2,
+   "reader": {
+    "point": "Because quick-delivery apps make you buy small top-ups instead of stocking up, you end up paying extra fees again and again, and the app profits from your empty kitchen.",
+    "reason": "Each small order carries handling, small-cart and late-night fees, so ten small orders pay the fees ten times while one monthly stock-up pays them once.",
+    "lost": [
+     {
+      "slide": 5,
+      "why": "'the app never minds your empty shelf' is a sudden jump to the app's point of view, and it is not clear how that follows from the fees"
+     },
+     {
+      "slide": 6,
+      "why": "steel dabbas and 'dark store' come from nowhere, so I had to guess the meaning (empty containers at home, the dark store as your real kitchen)"
+     }
+    ],
+    "ideas": [
+     "Ten-minute delivery has made us keep nothing at home and pay small recurring fees on every top-up"
+    ],
+    "endings": 2,
+    "point_matches": true,
+    "reason_matches": true
+   }
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "Unclear (slide 5): a first-time reader got lost here: 'the app never minds your empty shelf' is a sudden jump to the app's point of view, and it is not clear how that follows from the fees. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 6): a first-time reader got lost here: steel dabbas and 'dark store' come from nowhere, so I had to guess the meaning (empty containers at home, the dark store as your real kitchen). Rewrite that slide so it follows from the one before, or cut it."
+   ]
+  },
+  {
+   "attempt": 3,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 4,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 3,
+     "tight": 4,
+     "clear": 5,
+     "informative": 3
+    },
+    "notes": [
+     "Both earlier notes are settled. Slide 5 now follows straight from the fees on slide 4: you pay them per order, so one stock-up pays once and ten top-ups pay ten times. Slide 6 swaps the steel dabbas and 'dark store' for plain words: 'the app's warehouse down the road'. A first-time reader gets the point and the reason in one swipe.",
+     "slide 5 (optional precision, not a fail): 'So one big monthly stock-up pays them once' is slightly loose. A big order usually skips the small-cart fee entirely, and the late-night fee only applies at night. If the writer touches this line again, 'one big monthly stock-up pays the handling fee once, and skips the small-cart fee' is more exact. The current line is close enough to stand."
+    ]
+   }
+  },
+  {
+   "attempt": 3,
+   "problems": [
+    "Both earlier notes are settled. Slide 5 now follows straight from the fees on slide 4: you pay them per order, so one stock-up pays once and ten top-ups pay ten times. Slide 6 swaps the steel dabbas and 'dark store' for plain words: 'the app's warehouse down the road'. A first-time reader gets the point and the reason in one swipe.",
+    "slide 5 (optional precision, not a fail): 'So one big monthly stock-up pays them once' is slightly loose. A big order usually skips the small-cart fee entirely, and the late-night fee only applies at night. If the writer touches this line again, 'one big monthly stock-up pays the handling fee once, and skips the small-cart fee' is more exact. The current line is close enough to stand."
+   ]
+  },
+  {
+   "attempt": 4,
+   "review": {
+    "pass": true,
+    "violations": [],
+    "scores": {
+     "hook": 4,
+     "relatable": 5,
+     "fresh_angle": 4,
+     "pull": 4,
+     "payoff": 5,
+     "voice": 4,
+     "eq": 4,
+     "iq": 4,
+     "story": 4,
+     "tight": 4,
+     "clear": 4,
+     "informative": 3
+    },
+    "notes": [
+     "Both notes are settled. Slide 5 now uses the exact line: 'one big monthly stock-up pays the handling fee once, and skips the small-cart fee.' The mechanism is now correct, and slides 5 and 6 still read as one beat followed by its punch. The edit broke nothing and repeats no other slide. No change needed.",
+     "slide 6 (optional, not a fail): 'Ten small top-ups pay them ten times' makes 'them' cover the late-night fee too, which only applies at night. The line is close enough to stand. If the writer touches it again, 'Ten small top-ups pay the fees ten times' reads a little cleaner."
+    ]
+   }
+  },
+  {
+   "attempt": 4,
+   "varun": {
+    "pass": true,
+    "score": 4,
+    "misses": [
+     {
+      "where": "slide 5",
+      "line": "Those fees come with every order, not once a month. So one big monthly stock-up pays the handling fee once, and skips the small-cart fee.",
+      "why": "over-explained, stiff arithmetic walk-through",
+      "try": "The fees are per order. One big monthly stock-up pays the handling fee once. No small-cart fee at all."
+     }
+    ],
+    "best": "You still have a kitchen. You just pay rent every time you open it."
+   }
+  },
+  {
+   "attempt": 4,
+   "reader": {
+    "point": "Ordering small top-ups from quick-delivery apps all the time costs you more in repeated fees than doing one big monthly stock-up.",
+    "reason": "Handling, small-cart and late-night fees are charged on every order, so many small orders pay them many times over.",
+    "lost": [
+     {
+      "slide": 1,
+      "why": "'Ten-minute delivery taught you to keep nothing at home' is a bold claim, slightly abrupt as an opener"
+     },
+     {
+      "slide": 7,
+      "why": "'Pay rent every time you open it' metaphor is a bit of a stretch, had to think what the rent meant"
+     }
+    ],
+    "ideas": [
+     "Quick-commerce habit of small top-ups instead of stocking at home costs more because fees repeat on every order"
+    ],
+    "endings": 2,
+    "point_matches": false,
+    "reason_matches": false
+   }
+  },
+  {
+   "attempt": 4,
+   "problems": [
+    "Unclear: a first-time reader took the point as 'Ordering small top-ups from quick-delivery apps all the time costs you more in repeated fees than doing one big monthly stock-up.'. The cover and slide 2 must make the take obvious in plain words.",
+    "Unclear: a first-time reader took the reason as 'Handling, small-cart and late-night fees are charged on every order, so many small orders pay them many times over.'. Say the because once, plainly, on one slide, from the reader's side of the screen.",
+    "Unclear (slide 1): a first-time reader got lost here: 'Ten-minute delivery taught you to keep nothing at home' is a bold claim, slightly abrupt as an opener. Rewrite that slide so it follows from the one before, or cut it.",
+    "Unclear (slide 7): a first-time reader got lost here: 'Pay rent every time you open it' metaphor is a bit of a stretch, had to think what the rent meant. Rewrite that slide so it follows from the one before, or cut it."
+   ]
+  }
+ ],
+ "updated_at": "2026-11-25T14:18:58.494391+00:00",
+ "sources": [
+  {
+   "url": "https://localcircles.com/a/press/page/online-grocery-survey",
+   "fact": "A 2022 LocalCircles survey found 1 in 4 online-grocery households used quick-commerce apps, only 1 in 10 placed over 10 orders a month, and most used them for last-minute essentials, which only partly backs the idea of frequent small orders.",
+   "stance": "neutral: the survey shows top-up use, mainly for last-minute essentials, but says nothing on whether apps cause people to stop stocking up or whether daily small orders pay platforms better.",
+   "excerpt": "1 in 4 Indian households that shop for groceries online is using Quick Commerce apps. 1 in 10 households buying groceries online is placing over 10 orders a month via Quick Commerce apps. using them to purchase last minute essentials or indulgence foods",
+   "date": "2022-02-18"
+  },
+  {
+   "url": "https://www.outlookbusiness.com/news/quick-commerce-captures-nearly-half-of-kirana-sales-market-projected-to-hit-40-billion-by-2030",
+   "fact": "Datum Intelligence data reported in November 2024 shows 75% of online grocery buyers increased unplanned purchases, most spend over Rs 400 per order, and 46% cut spending at kirana shops.",
+   "stance": "neutral: it supports a shift towards impulse and frequent buying and away from kiranas, but it doesn't discuss platform economics or fees. Most buyers spending over Rs 400 per order suggests orders are not all tiny.",
+   "excerpt": "75 per cent of online grocery buyers have increased their unplanned purchases in the past six months. with a majority of them spending over Rs 400 per order. Nearly half (46 per cent) of respondents report reduced spending at Kirana shops. over 82 per cent of consumers have shifted at least one-fourth of their grocery spending from Kirana stores",
+   "date": "2024-11-14"
+  },
+  {
+   "url": "https://www.businesstoday.in/amp/india/story/the-10-minute-delivery-promise-is-losing-its-charm-heres-what-diwali-shoppers-actually-want-563864-2026-10-27",
+   "fact": "A LocalCircles survey reported in October 2026 found 69% of quick-commerce users typically spend Rs 200-999 per order and only 16% spend Rs 1,000 or more.",
+   "stance": "neutral: it gives order-size data only. It says nothing on order frequency or stocking up, and it suggests users now weigh value over speed.",
+   "excerpt": "Overall, 69% of users typically spend ₹200–₹999 per order, while only 16% spend ₹1,000 or more. they are paying more attention to what they get for their money than how quickly it arrives. many households are holding back purchases until closer to the festival amid economic uncertainty.",
+   "date": "2026-10-27"
+  }
+ ],
+ "verification_cache": {},
+ "draft": {
+  "cover": {
+   "headline": "Ten-minute delivery taught you to [keep nothing at home].",
+   "sub": "And every time you run out, there's a fee."
+  },
+  "slides": [
+   {
+    "paragraphs": [
+     "Ten-minute delivery taught you to keep nothing at home.\nSwipe to read →"
+    ],
+    "why_swipe": "Keep nothing at home? Me?"
+   },
+   {
+    "paragraphs": [
+     "You've done this. Curd and one lemon at 9 pm, because the fridge is empty again. Again."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "Nobody keeps a spare packet of Maggi anymore.",
+     "\"Abhi mangwa lete hain\" has replaced the monthly kirana list."
+    ],
+    "why_swipe": "So what does 'abhi mangwa lete hain' actually cost?"
+   },
+   {
+    "paragraphs": [
+     "Then you hit checkout and there's a handling fee, a small-cart fee, and a late-night fee too.",
+     "Small enough to ignore. Three times a week, it isn't."
+    ],
+    "why_swipe": "Why would an app want you ordering so little, so often?"
+   },
+   {
+    "paragraphs": [
+     "Those fees come with every order, not once a month. So one big monthly stock-up pays the handling fee once, and skips the small-cart fee."
+    ],
+    "why_swipe": "what happens next?"
+   },
+   {
+    "paragraphs": [
+     "Ten small top-ups pay them ten times."
+    ],
+    "why_swipe": "So where is your kitchen now?"
+   },
+   {
+    "paragraphs": [
+     "The shelves at home stay empty. The stock sits in the app's warehouse down the road.",
+     "You still have a kitchen. You just pay rent every time you open it."
+    ]
+   }
+  ],
+  "end": {
+   "save": "Read it again the next time you order one lemon at 9 pm.",
+   "send": "Send to the flatmate who orders onions three times a week.",
+   "promise": "How Indian money really moves."
+  },
+  "alt_text": "A six-slide text post arguing that ten-minute delivery apps have taught us to keep nothing at home, so we pay a fee every time we run out. Ordering curd and one lemon at 9 pm, no spare packet of Maggi, 'abhi mangwa lete hain' replacing the monthly kirana list, and the handling, small-cart and late-night fees at checkout. The fees come with every order, so one big monthly stock-up pays the handling fee once and skips the small-cart fee, while ten small top-ups pay them ten times. It ends with empty shelves at home, the stock sitting in the app's warehouse down the road, and the line that you still have a kitchen but pay rent every time you open it.",
+  "claims": []
+ }
 }
